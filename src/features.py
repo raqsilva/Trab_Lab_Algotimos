@@ -1,6 +1,6 @@
 from Bio import SeqIO 
  
-record = SeqIO.read("sequence.gb", "genbank") 
+record = SeqIO.read("../res/sequence.gb", "genbank") 
 
 sub_record = record[0:246000]
 
