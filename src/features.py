@@ -23,8 +23,7 @@ def get_genome_zone(start,stop,filename):
     return record
 
 
-def features(record):
-    #analysing the features
+def features_CDS(record):
     featcds = [ ] 
     for i in range(len(record.features)):
         my_cds = record.features[i]
@@ -46,6 +45,17 @@ def features(record):
                 print("Nao contem nota!")
     for k in featcds: 
         print (record.features[k].location)
+        
+
+def features_gene(record):
+    featcds = [ ] 
+    for i in range(len(record.features)):
+        my_gene = record.features[i]
+        if record.features[i].type == "gene": 
+            featcds.append(i)
+            if "db_xref" in my_gene.qualifiers:
+                print(my_gene.qualifiers["db_xref"])
+ 
 
 
 #x=record.features[1]
@@ -57,11 +67,11 @@ def teste():
     stop=str(input(print("Insira o fim da sua zona do genoma:")))
     filename=str(input(print("Insira nome do ficheiro: "))+".gb")
     while os.path.isfile("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename):
-        filename=input(print("Insira outro nome: "))
-        False
+        filename=str(input(print("Insira outro nome: "))+".gb")
+    else:False
     record=get_genome_zone(start,stop,filename)
-    features(record)
-    
+    features_CDS(record)
+    features_gene(record)
 
 
 #main
