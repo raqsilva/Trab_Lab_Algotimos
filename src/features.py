@@ -2,21 +2,28 @@ from Bio import SeqIO
  
 record = SeqIO.read("../res/sequence.gb", "genbank") 
 
-sub_record = record[0:246000]
 
 featcds = [ ] 
-for i in range(len(sub_record.features)):
-    my_cds = sub_record.features[i]
-    if sub_record.features[i].type == "CDS": 
+for i in range(len(record.features)):
+    my_cds = record.features[i]
+    if record.features[i].type == "CDS": 
         featcds.append(i)
-        print(my_cds.qualifiers["locus_tag"])
-        print(my_cds.qualifiers["product"])
+        if "locus_tag" in my_cds.qualifiers:
+            print(my_cds.qualifiers["locus_tag"])
+        else:
+            print("Nao contem locus_tag!")
+            
+        if "product" in my_cds.qualifiers:
+            print(my_cds.qualifiers["product"])
+        else:
+            print("Nao contem produtos!")
+       
         if "note" in my_cds.qualifiers:
             print(my_cds.qualifiers["note"])
         else:
             print("Nao contem nota!")
 for k in featcds: 
-    print (sub_record.features[k].location)
+    print (record.features[k].location)
 
 
 x=sub_record.features[1]
