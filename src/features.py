@@ -9,18 +9,17 @@ import os.path
 #VERSION: NC_002946.2   GI:59800473
 
 def get_genome_zone(start,stop,filename):
-    #filename=filename +".gb"
     Entrez.email = "pg27668@alunos.uminho.pt"
-    handle = Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", seq_start="1", seq_stop="246000", id="59800473")
-    file=open("sequencia.gb","w")#creating a GenBank file
+    handle = Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", seq_start=start, seq_stop=stop, id="59800473")
+    file=open(filename,"w")#creating a GenBank file
     file.write(handle.read())
     file.close()
     handle.close()
     #moving the file to another directory
-    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\sequencia.gb"
+    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename
     dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"
     shutil.move(src, dst)
-    record = SeqIO.read("../res/sequencia.gb", "genbank") 
+    record = SeqIO.read("../res/"+filename, "genbank") 
     return record
 
 
@@ -65,7 +64,7 @@ def teste():
     
 
 
- 
+#main
 if __name__ == "__main__":
     teste()
     
