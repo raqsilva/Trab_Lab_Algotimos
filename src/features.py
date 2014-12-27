@@ -1,7 +1,7 @@
 from Bio import SeqIO 
- 
-record = SeqIO.read("../res/sequence.gb", "genbank") 
+#[0:246000]
 
+record = SeqIO.read("../res/sequence.gb", "genbank") 
 
 featcds = [ ] 
 for i in range(len(record.features)):
@@ -26,7 +26,7 @@ for k in featcds:
     print (record.features[k].location)
 
 
-x=sub_record.features[1]
+x=record.features[1]
 print(x.qualifiers)
 
 
