@@ -23,39 +23,44 @@ def get_genome_zone(start,stop,filename):
     return record
 
 
-def features_CDS(record):
+def location(record):
     featcds = [ ] 
     for i in range(len(record.features)):
-        my_cds = record.features[i]
         if record.features[i].type == "CDS": 
             featcds.append(i)
-            if "locus_tag" in my_cds.qualifiers:
-                print(my_cds.qualifiers["locus_tag"])
-            else:
-                print("Nao contem locus_tag!")
-                
-            if "product" in my_cds.qualifiers:
-                print(my_cds.qualifiers["product"])
-            else:
-                print("Nao contem produtos!")
-                
+    for k in featcds: 
+        print (record.features[k].location)
+        
+        
+def note(record):
+     for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if record.features[i].type == "CDS":
             if "note" in my_cds.qualifiers:
                 print(my_cds.qualifiers["note"])
             else:
                 print("Nao contem nota!")
-    for k in featcds: 
-        print (record.features[k].location)
-        
+    
+    
 def locus_tag(record):
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if record.features[i].type == "CDS": 
-            featcds.append(i)
             if "locus_tag" in my_cds.qualifiers:
                 print(my_cds.qualifiers["locus_tag"])
             else:
                 print("Nao contem locus_tag!")
     
+
+def product(record):
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if record.features[i].type == "CDS":
+            if "product" in my_cds.qualifiers:
+                print(my_cds.qualifiers["product"])
+            else:
+                print("Nao contem produtos!")
+                
 
 def gene_ID(record):
     for i in range(len(record.features)):
@@ -63,9 +68,21 @@ def gene_ID(record):
         if record.features[i].type == "gene": 
             if "db_xref" in my_gene.qualifiers:
                 print(my_gene.qualifiers["db_xref"])
- 
 
 
+def translation(record,gene):
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if record.features[i].type == "CDS":
+            if my_cds.qualifiers["locus_tag"][0]==gene:
+                if "translation" in my_cds.qualifiers:
+                    return (my_cds.qualifiers["translation"])
+                else:
+                    return "Nao ha traducao"
+            else:
+                return "Nao existe este gene"
+    
+    
 #x=record.features[1]
 #print(x.qualifiers)
 
@@ -78,27 +95,31 @@ def menu(record):
     while ans:
         print("""
     1.locus_tag
-    2.CDS_product
-    3.CDS_note
+    2.product
+    3.note
     4.geneID
-    5.CDS_translation
-    6.CDS_EC_number
-    7.Sair
+    5.translation
+    6.EC_number
+    7.location
+    8.Sair
     """)
         ans=input("Qual a opcao? ")
         if ans=="1":
-            features_CDS(record)
-        #elif ans=="2":
-            ######
-        #elif ans=="3":
-            #####
+            locus_tag(record)
+        elif ans=="2":
+            product(record)
+        elif ans=="3":
+            note(record)
         elif ans=="4":
             gene_ID(record)
-        #elif ans=="5":
-            #####
+        elif ans=="5":
+            gene=str(input("Gene: "))
+            print(translation(record,gene))
         #elif ans=="6":
             #####
         elif ans=="7":
+            location(record)
+        elif ans=="8":
             ans = False
         else:
             print("\nInvalido")
