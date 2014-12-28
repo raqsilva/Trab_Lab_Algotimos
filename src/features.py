@@ -46,13 +46,21 @@ def features_CDS(record):
     for k in featcds: 
         print (record.features[k].location)
         
+def locus_tag(record):
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if record.features[i].type == "CDS": 
+            featcds.append(i)
+            if "locus_tag" in my_cds.qualifiers:
+                print(my_cds.qualifiers["locus_tag"])
+            else:
+                print("Nao contem locus_tag!")
+    
 
-def features_gene(record):
-    featcds = [ ] 
+def gene_ID(record):
     for i in range(len(record.features)):
         my_gene = record.features[i]
         if record.features[i].type == "gene": 
-            featcds.append(i)
             if "db_xref" in my_gene.qualifiers:
                 print(my_gene.qualifiers["db_xref"])
  
@@ -61,25 +69,63 @@ def features_gene(record):
 #x=record.features[1]
 #print(x.qualifiers)
 
+#for feat in record.features: 
+ #   print (str(feat))
 
-def teste():
+
+def menu(record):
+    ans=True
+    while ans:
+        print("""
+    1.locus_tag
+    2.CDS_product
+    3.CDS_note
+    4.geneID
+    5.CDS_translation
+    6.CDS_EC_number
+    7.Sair
+    """)
+        ans=input("Qual a opcao? ")
+        if ans=="1":
+            features_CDS(record)
+        #elif ans=="2":
+            ######
+        #elif ans=="3":
+            #####
+        elif ans=="4":
+            gene_ID(record)
+        #elif ans=="5":
+            #####
+        #elif ans=="6":
+            #####
+        elif ans=="7":
+            ans = False
+        else:
+            print("\nInvalido")
+
+
+def create_file():
     start=str(input(print("Insira o inicio da sua zona do genoma:")))
     stop=str(input(print("Insira o fim da sua zona do genoma:")))
     filename=str(input(print("Insira nome do ficheiro: "))+".gb")
-    while os.path.isfile("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename):
+    while os.path.isfile("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res\\"+filename):
         filename=str(input(print("Insira outro nome: "))+".gb")
     else:False
     record=get_genome_zone(start,stop,filename)
-    features_CDS(record)
-    features_gene(record)
+    return record
+    
 
 
 #main
 if __name__ == "__main__":
-    teste()
+    res=str(input(print("Ja tem ficheiro S/N? "))).upper()
+    if res=="N":
+        record=create_file()
+    else:
+        filename=str(input("Nome do ficheiro? "))+".gb"
+        record = SeqIO.read("../res/"+filename, "genbank") 
+    menu(record)
     
 
-#for feat in record.features: 
- #   print (str(feat))
 
 
