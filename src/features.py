@@ -82,7 +82,18 @@ def translation(record,gene):
             else:
                 return "Nao existe este gene"
     
-    
+
+def EC_number(record):
+     for i in range(len(record.features)):
+        my_gene = record.features[i]
+        if record.features[i].type == "CDS": 
+            if "EC_number" in my_gene.qualifiers:
+                print(my_gene.qualifiers["EC_number"])
+            else:
+                print("Nao contem EC_number!")
+                
+
+
 #x=record.features[1]
 #print(x.qualifiers)
 
@@ -115,8 +126,8 @@ def menu(record):
         elif ans=="5":
             gene=str(input("Gene: "))
             print(translation(record,gene))
-        #elif ans=="6":
-            #####
+        elif ans=="6":
+            EC_number(record)
         elif ans=="7":
             location(record)
         elif ans=="8":
