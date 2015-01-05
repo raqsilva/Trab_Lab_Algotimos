@@ -1,7 +1,8 @@
 from Bio import SeqIO 
 from Bio import Entrez
-import shutil
-import os.path
+from Bio.Blast import NCBIWWW
+import shutil#moving files
+import os.path#cheking files in path
 
 #[0:246000] my zone
 
@@ -61,13 +62,15 @@ def product(record):
             else:
                 print("Nao contem produtos!")
                 
-
-def gene_ID(record):
+#Gene ID and GI number
+def gene_ID_GI(record):
     for i in range(len(record.features)):
         my_gene = record.features[i]
-        if my_gene.type == "gene": 
+        if my_gene.type == "CDS": 
+            #there are usually several db_xref entries
             if "db_xref" in my_gene.qualifiers:
                 print(my_gene.qualifiers["db_xref"])
+        
 
 #Translated sequence, protein sequence
 def translation(record,gene):
@@ -102,14 +105,21 @@ def DB_pubmed(gene):
         if row["DbName"]=="pubmed":
             print(row["Count"])
     """
-    
     handle = Entrez.esearch(db="pubmed", term="Neisseria gonorrhoeae[Orgn] AND "+gene+"[Gene]", retmax=11117)
     record = Entrez.read(handle)
     idlist = record["IdList"]
     return idlist
      
 
-
+def blast(GI_numb):
+    result_handle = NCBIWWW.qblast("blastp", "swissprot", GI_numb)
+    save_file = open("blast.xml", "w")
+    save_file.write(result_handle.read())
+    save_file.close()
+    result_handle.close() 
+    
+    
+    
 #x=record.features[1]
 #print(x.qualifiers)
 
@@ -124,12 +134,13 @@ def menu(record):
     1.locus_tag
     2.product
     3.note
-    4.geneID
+    4.GI number, geneID
     5.translation
     6.EC_number
     7.location
-    8.Artigos relacionados a um gene
-    9.Sair
+    8.Artigos relacionados com um gene
+    9.Blast da proteina
+    10.Sair
     """)
         ans=input("Qual a opcao? ")
         if ans=="1":
@@ -139,7 +150,7 @@ def menu(record):
         elif ans=="3":
             note(record)
         elif ans=="4":
-            gene_ID(record)
+            gene_ID_GI(record)
         elif ans=="5":
             gene=str(input("Gene locus_tag: "))
             print(translation(record,gene))
@@ -151,6 +162,9 @@ def menu(record):
             gene=str(input("Gene name: "))
             print(DB_pubmed(gene))
         elif ans=="9":
+            GI=str(input("Qual o GI number da sequencia? "))
+            blast(GI)
+        elif ans=="10":
             ans = False
         else:
             print("\nInvalido")
