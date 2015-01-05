@@ -110,13 +110,17 @@ def DB_pubmed(gene):
     idlist = record["IdList"]
     return idlist
      
-
-def blast(GI_numb):
+#####  Not finished  #######
+def blast(GI_numb,filename):
     result_handle = NCBIWWW.qblast("blastp", "swissprot", GI_numb)
-    save_file = open("blast.xml", "w")
+    save_file = open(filename, "w")
     save_file.write(result_handle.read())
     save_file.close()
-    result_handle.close() 
+    result_handle.close()
+    #moving the file to another directory
+    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename #source
+    dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"            #destination
+    shutil.move(src, dst)
     
     
     
@@ -162,8 +166,12 @@ def menu(record):
             gene=str(input("Gene name: "))
             print(DB_pubmed(gene))
         elif ans=="9":
+            file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
+            while os.path.isfile("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res\\"+file):
+                 file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
+            else:False
             GI=str(input("Qual o GI number da sequencia? "))
-            blast(GI)
+            blast(GI,file)
         elif ans=="10":
             ans = False
         else:
