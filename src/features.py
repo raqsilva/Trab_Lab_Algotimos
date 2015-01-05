@@ -9,6 +9,7 @@ import os.path#cheking files in path
 #fetching genome zone from Neisseria gonorrhoeae FA 1090 chromosome ncbi
 #VERSION: NC_002946.2   GI:59800473
 
+
 def get_genome_zone(start,stop,filename):
     Entrez.email = "pg27668@alunos.uminho.pt"
     handle = Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", seq_start=start, seq_stop=stop, id="59800473")
@@ -23,6 +24,7 @@ def get_genome_zone(start,stop,filename):
     record = SeqIO.read("../res/"+filename, "genbank") 
     return record
 
+
 #Gives the sequence location in genome
 def location(record):
     featcds = [ ] 
@@ -31,6 +33,7 @@ def location(record):
             featcds.append(i)
     for k in featcds: 
         print (record.features[k].location)
+        
         
 #Notes from the sequence
 def note(record):
@@ -52,6 +55,7 @@ def locus_tag(record):
             else:
                 print("Nao contem locus_tag!")
     
+    
 #Products from the sequence, name of the proteins
 def product(record):
     for i in range(len(record.features)):
@@ -61,7 +65,8 @@ def product(record):
                 print(my_cds.qualifiers["product"])
             else:
                 print("Nao contem produtos!")
-                
+       
+         
 #Gene ID and GI number
 def gene_ID_GI(record):
     for i in range(len(record.features)):
@@ -84,7 +89,8 @@ def translation(record,gene):
                     return "Nao ha traducao"
             else:
                 return "Nao existe este gene"
-    
+  
+  
 #protein EC number, identification
 def EC_number(record):
      for i in range(len(record.features)):
@@ -110,7 +116,8 @@ def DB_pubmed(gene):
     idlist = record["IdList"]
     return idlist
      
-#####  Not finished  #######
+     
+#Running Blast and saving info into a file
 def blast(GI_numb,filename):
     result_handle = NCBIWWW.qblast("blastp", "swissprot", GI_numb)
     save_file = open(filename, "w")
@@ -123,6 +130,12 @@ def blast(GI_numb,filename):
     shutil.move(src, dst)
     
     
+#Parsing Blast files
+def parse_blast(filename):
+    #result_handle = open("my_blast.xml")
+
+
+
     
 #x=record.features[1]
 #print(x.qualifiers)
@@ -176,6 +189,7 @@ def menu(record):
             ans = False
         else:
             print("\nInvalido")
+
 
 
 def create_file():
