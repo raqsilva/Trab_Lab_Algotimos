@@ -93,6 +93,21 @@ def EC_number(record):
                 print("Nao contem EC_number!")
                 
 
+## Searching articles from PubMed DB ##
+def DB_pubmed(gene):
+    """
+    handle = Entrez.egquery(term="Neisseria gonorrhoeae")
+    record = Entrez.read(handle)
+    for row in record["eGQueryResult"]:
+        if row["DbName"]=="pubmed":
+            print(row["Count"])
+    """        
+    handle = Entrez.esearch(db="pubmed", term="Neisseria gonorrhoeae[Orgn] AND "+gene+"[Gene]", retmax=11117)
+    record = Entrez.read(handle)
+    idlist = record["IdList"]
+    return idlist
+     
+
 
 #x=record.features[1]
 #print(x.qualifiers)
@@ -112,7 +127,8 @@ def menu(record):
     5.translation
     6.EC_number
     7.location
-    8.Sair
+    8.Artigos
+    9.Sair
     """)
         ans=input("Qual a opcao? ")
         if ans=="1":
@@ -124,13 +140,16 @@ def menu(record):
         elif ans=="4":
             gene_ID(record)
         elif ans=="5":
-            gene=str(input("Gene: "))
+            gene=str(input("Gene locus_tag: "))
             print(translation(record,gene))
         elif ans=="6":
             EC_number(record)
         elif ans=="7":
             location(record)
         elif ans=="8":
+            gene=str(input("Gene name: "))
+            print(DB_pubmed(gene))
+        elif ans=="9":
             ans = False
         else:
             print("\nInvalido")
@@ -153,7 +172,7 @@ if __name__ == "__main__":
     res=str(input(print("Ja tem ficheiro S/N? "))).upper()
     if res=="N":
         record=create_file()
-    else:
+    elif res=="S":
         filename=str(input("Nome do ficheiro? "))+".gb"
         record = SeqIO.read("../res/"+filename, "genbank") 
     menu(record)
