@@ -75,7 +75,18 @@ def gene_ID_GI(record):
             #there are usually several db_xref entries
             if "db_xref" in my_gene.qualifiers:
                 print(my_gene.qualifiers["db_xref"])
-        
+    
+  
+#protein EC number, identification
+def EC_number(record):
+     for i in range(len(record.features)):
+        my_gene = record.features[i]
+        if my_gene.type == "CDS": 
+            if "EC_number" in my_gene.qualifiers:
+                print(my_gene.qualifiers["EC_number"])
+            else:
+                print("Nao contem EC_number!")
+                
 
 #Translated sequence, protein sequence
 def translation(record,gene):
@@ -90,17 +101,6 @@ def translation(record,gene):
             else:
                 return "Nao existe este gene"
   
-  
-#protein EC number, identification
-def EC_number(record):
-     for i in range(len(record.features)):
-        my_gene = record.features[i]
-        if my_gene.type == "CDS": 
-            if "EC_number" in my_gene.qualifiers:
-                print(my_gene.qualifiers["EC_number"])
-            else:
-                print("Nao contem EC_number!")
-                
 
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
