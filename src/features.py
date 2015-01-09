@@ -18,8 +18,8 @@ def get_genome_zone(start,stop,filename):
     file.close()
     handle.close()
     #moving the file to another directory
-    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename #source
-    dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"            #destination
+    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename #source folder
+    dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"            #destination folder
     shutil.move(src, dst)
     record = SeqIO.read("../res/"+filename, "genbank") 
     return record
@@ -118,6 +118,7 @@ def DB_pubmed(gene):
      
      
 #Running Blast and saving info into a file
+#GI_number - gene identification number
 def blast(GI_numb,filename):
     result_handle = NCBIWWW.qblast("blastp", "swissprot", GI_numb)
     save_file = open(filename, "w")
@@ -125,14 +126,14 @@ def blast(GI_numb,filename):
     save_file.close()
     result_handle.close()
     #moving the file to another directory
-    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename #source
-    dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"            #destination
+    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename #source folder
+    dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"            #destination folder
     shutil.move(src, dst)
     
     
 #Parsing Blast files
 def parse_blast(filename):
-    #result_handle = open("my_blast.xml")
+    result_handle = open("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"+filename)
 
 
 
@@ -156,8 +157,9 @@ def menu(record):
     6.EC_number
     7.location
     8.Artigos relacionados com um gene
-    9.Blast da proteina
-    10.Sair
+    9.Correr o blast da proteina
+    10.Parsing blast
+    11.Sair
     """)
         ans=input("Qual a opcao? ")
         if ans=="1":
@@ -186,6 +188,9 @@ def menu(record):
             GI=str(input("Qual o GI number da sequencia? "))
             blast(GI,file)
         elif ans=="10":
+            file=str(input("Qual o nome do ficheiro? "))+".xml"
+            parse_blast(file)
+        elif ans=="11":
             ans = False
         else:
             print("\nInvalido")
