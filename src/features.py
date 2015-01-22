@@ -65,6 +65,21 @@ def product(record):
                 print(my_cds.qualifiers["product"])
             else:
                 print("Nao contem produtos!")
+                
+
+#get hypothetical proteins from my zone
+#get protein sequence
+#get proteinID
+#get geneID
+def hypoth_proteins(record):
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if my_cds.type == "CDS":
+            if "product" in my_cds.qualifiers:
+                if my_cds.qualifiers["product"]==["hypothetical protein"]:
+                    print(my_cds.qualifiers["protein_id"])           
+            else:
+                print("Nao contem produtos!")
        
          
 #Gene ID and GI number
@@ -72,8 +87,17 @@ def gene_ID_GI(record):
     for i in range(len(record.features)):
         my_gene = record.features[i]
         if my_gene.type == "CDS": 
-            #there are usually several db_xref entries
+            #there are usually several db_xref entries in CDS, but one in gene qualifier
             if "db_xref" in my_gene.qualifiers:
+                print(my_gene.qualifiers["db_xref"])
+                
+
+#Getting pseudogenes
+def pseudogenes(record):
+    for i in range(len(record.features)):
+        my_gene = record.features[i]
+        if my_gene.type == "gene": 
+            if "pseudogene" in my_gene.qualifiers:
                 print(my_gene.qualifiers["db_xref"])
     
   
@@ -100,6 +124,17 @@ def translation(record,gene):
                     return "Nao ha traducao"
             else:
                 return "Nao existe este gene"
+                
+
+#information from tRNA             
+def tRNA(record):
+    for i in range(len(record.features)):
+        my_trna = record.features[i]
+        if my_trna.type == "tRNA":
+            if "product" in my_trna.qualifiers:
+                print(my_trna.qualifiers["product"])
+            else:
+                print("Nao contem produtos!")
   
 
 #Searching articles from PubMed DB referring to my organism and a gene
@@ -156,10 +191,13 @@ def menu(record):
     5.translation
     6.EC_number
     7.location
-    8.Artigos relacionados com um gene
-    9.Correr o blast da proteina
-    10.Parsing blast
-    11.Sair
+    8.tRNA
+    9.pseudogenes
+    10.hypothetical proteins
+    11.Artigos relacionados com um gene
+    12.Correr o blast da proteina
+    13.Parsing blast
+    14.Sair
     """)
         ans=input("Qual a opcao? ")
         if ans=="1":
@@ -178,19 +216,25 @@ def menu(record):
         elif ans=="7":
             location(record)
         elif ans=="8":
+            tRNA(record)
+        elif ans=="9":
+            pseudogenes(record)
+        elif ans=="10":
+            hypoth_proteins(record)
+        elif ans=="11":
             gene=str(input("Gene name: "))
             print(DB_pubmed(gene))
-        elif ans=="9":
+        elif ans=="12":
             file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
             while os.path.isfile("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res\\"+file):
                  file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
             else:False
             GI=str(input("Qual o GI number da sequencia? "))
             blast(GI,file)
-        elif ans=="10":
+        elif ans=="13":
             file=str(input("Qual o nome do ficheiro? "))+".xml"
             parse_blast(file)
-        elif ans=="11":
+        elif ans=="14":
             ans = False
         else:
             print("\nInvalido")
