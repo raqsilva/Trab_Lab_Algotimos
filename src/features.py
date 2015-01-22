@@ -44,7 +44,16 @@ def note(record):
                 print(my_cds.qualifiers["note"])
             else:
                 print("Nao contem nota!")
-    
+
+
+#proteins without notes
+def without_note(record):
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if my_cds.type == "CDS":
+            if "note" not in my_cds.qualifiers:
+                print(my_cds.qualifiers["protein_id"])
+        
     
 def locus_tag(record):
     for i in range(len(record.features)):
@@ -67,10 +76,7 @@ def product(record):
                 print("Nao contem produtos!")
                 
 
-#get hypothetical proteins from my zone
-#get protein sequence
-#get proteinID
-#get geneID
+#get hypothetical proteins (proteinID) from my zone
 def hypoth_proteins(record):
     for i in range(len(record.features)):
         my_cds = record.features[i]
@@ -186,7 +192,7 @@ def menu(record):
         print("""
     1.locus_tag
     2.product
-    3.note
+    3.note and without note
     4.GI number, geneID
     5.translation
     6.EC_number
@@ -205,6 +211,7 @@ def menu(record):
         elif ans=="2":
             product(record)
         elif ans=="3":
+            without_note(record)
             note(record)
         elif ans=="4":
             gene_ID_GI(record)

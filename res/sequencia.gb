@@ -1,4 +1,4 @@
-LOCUS       NC_002946             246000 bp    DNA     linear   CON 17-DEC-2014
+LOCUS       NC_002946             246000 bp    DNA     linear   CON 14-JAN-2015
 DEFINITION  Neisseria gonorrhoeae FA 1090 chromosome, complete genome.
 ACCESSION   NC_002946 REGION: 1..246000
 VERSION     NC_002946.2  GI:59800473
@@ -124,10 +124,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283052"
      CDS             complement(5273..5716)
                      /locus_tag="NGO0004"
-                     /note="Best Blastp Hit: pir||D81974 probable periplasmic
-                     protein NMA0556 [imported] - Neisseria meningitidis (group
-                     A strain Z2491) >gi|7379295|emb|CAB83849.1| (AL162753)
-                     periplasmic protein [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -178,43 +174,39 @@ FEATURES             Location/Qualifiers
                      QFNTAIAAVMELLNQYDKTDTGSEQGRAVAQEVLEAAVRLLWPIVPHICETLWSELNG
                      AKLWEAGWPTVDEAALVKSEIEVMVQVNGKLRGKITVAADASKADLEAAALANEGAVK
                      FMEGKPAKKIIVVPGRLVNIVV"
-     gene            9287..10157
+     gene            9365..10294
                      /locus_tag="NGO0007"
-                     /pseudogene="unknown"
                      /db_xref="GeneID:3283054"
+     CDS             9365..10294
+                     /locus_tag="NGO0007"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="restriction endonuclease"
+                     /protein_id="YP_009115477.1"
+                     /db_xref="GI:745998703"
+                     /db_xref="GeneID:3283054"
+                     /translation="MNLFFDTQLGKQQNKATHKIRVMSEAWLEKNGYCPCCGSKPMQR
+                     FANNKPVADLFCPNCHEQYELKSKNQKTIGNSVPDGAYRTMLERIRSDTNPNFFFLAY
+                     KKADYSIRQLVLVPKHFITPDMIIPRNKGIKNRPHHIMCSINLAPLPESGKIFLIDDS
+                     RIIEPETVLKKWQSNLFLRNQNAERKDWLLAVMKCIDQLTEEFTLSQMYEFENKLSIQ
+                     FPQNNHIKDKIRQQLQILRDQNMIEFIGRGLYKKNRQIAPNSQGVLISNHDTEFTRNI
+                     YSSAILKTVEVQRNIAAKGSSRKKVGELLAIYD"
      gene            10287..11071
                      /locus_tag="NGO0008"
                      /pseudogene="unknown"
                      /db_xref="GeneID:3283055"
      gene            11091..11546
                      /locus_tag="NGO0009"
+                     /pseudogene="unknown"
                      /db_xref="GeneID:3283056"
-     CDS             11091..11546
-                     /locus_tag="NGO0009"
-                     /note="Best Blastp Hit: sp|P54298|LUXM_VIBHA LUXM protein
-                     >gi|487037|pir||S37349 luxM protein - Vibrio harveyi
-                     >gi|295433|gb|AAC36807.1| (L13940) Lux M [Vibrio harveyi]"
-                     /codon_start=1
-                     /transl_table=11
-                     /product="hypothetical protein"
-                     /protein_id="YP_207193.1"
-                     /db_xref="GI:59800481"
-                     /db_xref="GeneID:3283056"
-                     /translation="MIIGGIGGARTQTGLRFEERTDLRKLFEEIPGYDLRKTDDNAGY
-                     EVWFNGELKAYCFKKYEFYRFLERLEYNINWKDHLSKRLLPDNGLFIIIRDTLFIIEI
-                     KFQQTPGSVDEKLQTCDFKRKQYTKLVHSLGWRVGYVYVLNDWFTKPEY"
      gene            complement(12417..12728)
                      /locus_tag="NGO0011"
                      /db_xref="GeneID:3283058"
      CDS             complement(12417..12728)
                      /locus_tag="NGO0011"
-                     /note="Best Blastp Hit: pir||B81975 probable DNA-binding
-                     protein NMA0564 [imported] - Neisseria meningitidis (group
-                     A strain Z2491) >gi|7379301|emb|CAB83856.1| (AL162753)
-                     DNA-binding protein [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA-binding protein"
                      /protein_id="YP_207195.1"
                      /db_xref="GI:59800483"
                      /db_xref="GeneID:3283058"
@@ -235,13 +227,6 @@ FEATURES             Location/Qualifiers
      CDS             complement(14081..14431)
                      /gene="secG"
                      /locus_tag="NGO0016"
-                     /note="SecG; Best Blastp Hit: pir||F81031 protein-export
-                     membrane protein SecG NMB1888 [imported] - Neisseria
-                     meningitidis (group B strain MD58, group A strain Z2491)
-                     >gi|7227147|gb|AAF42222.1| (AE002538) protein-export
-                     membrane protein SecG [Neisseria meningitidis MC58]
-                     >gi|7379305|emb|CAB83860.1| (AL162753)  protein-export
-                     integral membrane protein [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="preprotein translocase subunit SecG"
@@ -278,11 +263,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283062"
      CDS             15370..15897
                      /locus_tag="NGO0018"
-                     /note="Best Blastp Hit: pir||H81975 hypothetical protein
-                     NMA0571 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379307|emb|CAB83862.1| (AL162753)
-                     hypothetical protein NMA0571 [Neisseria meningitidis];
-                     COG1956 GAF domain-containing proteins"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -298,9 +278,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283075"
      CDS             16000..16656
                      /locus_tag="NGO0019"
-                     /note="PimT; Best Blastp Hit: gb|AAF42219.1| (AE002538)
-                     protein-L-isoaspartate O-methyltransferase [Neisseria
-                     meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="protein-L-isoaspartate O-methyltransferase"
@@ -317,8 +294,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283063"
      CDS             16737..17060
                      /locus_tag="NGO0020"
-                     /note="Best Blastp Hit: emb|CAB83864.1| (AL162753)
-                     hypothetical protein NMA0573 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -333,12 +308,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283064"
      CDS             complement(17323..19500)
                      /locus_tag="NGO0021"
-                     /note="Best Blastp Hit: pir||D81976 probable ferric
-                     siderophore receptor protein NMA0575 [imported] -
-                     Neisseria meningitidis (group A strain Z2491)
-                     >gi|7379311|emb|CAB83866.1| (AL162753)  ferric siderophore
-                     receptor protein [Neisseria meningitidis];
-                     COG1629 Outer membrane receptor proteins, mostly Fe"
                      /codon_start=1
                      /transl_table=11
                      /product="TonB-dependent receptor protein"
@@ -363,11 +332,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283065"
      CDS             complement(19763..20086)
                      /locus_tag="NGO0022"
-                     /note="Best Blastp Hit: pir||E81976 hypothetical protein
-                     NMA0576 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379312|emb|CAB83867.1| (AL162753)
-                     hypothetical protein NMA0576 [Neisseria meningitidis];
-                     COG0662 Mannose-6-phosphate isomerase"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -382,13 +346,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283066"
      CDS             complement(20119..21090)
                      /locus_tag="NGO0023"
-                     /note="Best Blastp Hit: gb|AAF42214.1| (AE002538) ABC
-                     transporter periplasmic solute-binding protein,
-                     [Neisseria meningitidis MC58];
-                     COG0614 Ferrichrome-binding periplasmic proteins"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter substrate-binding protein"
+                     /product="iron ABC transporter substrate-binding protein"
                      /protein_id="YP_207204.1"
                      /db_xref="GI:59800492"
                      /db_xref="GeneID:3283066"
@@ -398,28 +358,11 @@ FEATURES             Location/Qualifiers
                      IFGKEARVAELNAQIDALFAQKREAAKGKGRGLVLSVTGNKVSAFGTQSRLASWIHGD
                      IGLPPVDESLRNEGHGQPVSFEYIKEKNPGWIFIIDRTAAIGQEGPAAVEVLDNALVC
                      GTNAWKRKQIIVMPAANYIVAGGARQLIQAAEQLKAAFEKAEPVAAQ"
-     gene            complement(21087..21251)
-                     /locus_tag="NGO0024"
-                     /db_xref="GeneID:3283067"
-     CDS             complement(21087..21251)
-                     /locus_tag="NGO0024"
-                     /codon_start=1
-                     /transl_table=11
-                     /product="hypothetical protein"
-                     /protein_id="YP_207205.1"
-                     /db_xref="GI:59800493"
-                     /db_xref="GeneID:3283067"
-                     /translation="MERKRSSERVFQTTFSVSGICFAVSGILRFAAWFLQVVCLIINI
-                     LIRMQRNRTP"
      gene            21326..22282
                      /locus_tag="NGO0025"
                      /db_xref="GeneID:3283069"
      CDS             21326..22282
                      /locus_tag="NGO0025"
-                     /note="Best Blastp Hit: emb|CAB83869.1| (AL162753)
-                     araC-family transcriptional regulator [Neisseria
-                     meningitidis];
-                     COG2207 AraC-type DNA-binding domain-containing"
                      /codon_start=1
                      /transl_table=11
                      /product="AraC family transcriptional regulator"
@@ -437,9 +380,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283068"
      CDS             complement(22395..24410)
                      /locus_tag="NGO0026"
-                     /note="Best Blastp Hit: emb|CAB83870.1| (AL162753)  prolyl
-                     endopeptidase [Neisseria meningitidis];
-                     COG1505 Serine proteases of the peptidase"
                      /codon_start=1
                      /transl_table=11
                      /product="prolyl endopeptidase"
@@ -485,10 +425,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282486"
      CDS             complement(25813..26241)
                      /locus_tag="NGO0028"
-                     /note="Best Blastp Hit: pir||A81033 hypothetical protein
-                     NMB1875 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7227133|gb|AAF42209.1| (AE002537)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -524,12 +460,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282003"
      CDS             complement(27012..27749)
                      /locus_tag="NGO0030"
-                     /note="Best Blastp Hit: pir||G81032 DNA polymerase,
-                     bacteriophage-type, probable NMB1873 [imported] -
-                     Neisseria meningitidis (group B strain MD58)
-                     >gi|7227131|gb|AAF42207.1| (AE002537) DNA polymerase,
-                     bacteriophage-type,  [Neisseria meningitidis MC58];
-                     COG1573 Uracil-DNA glycosylase"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -546,9 +476,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281862"
      CDS             complement(27743..28183)
                      /locus_tag="NGO0031"
-                     /note="Best Blastp Hit: emb|CAB83875.1| (AL162753)
-                     acetyltransferase [Neisseria meningitidis];
-                     COG0456 Acetyltransferases"
                      /codon_start=1
                      /transl_table=11
                      /product="acetyltransferase"
@@ -563,11 +490,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281867"
      CDS             complement(28180..28857)
                      /locus_tag="NGO0032"
-                     /note="Best Blastp Hit: pir||F81977 hypothetical protein
-                     NMA0585 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379321|emb|CAB83876.1| (AL162753)
-                     hypothetical protein NMA0585 [Neisseria meningitidis];
-                     COG1214 Inactive homologs of metal-dependent"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -584,13 +506,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281909"
      CDS             complement(28996..29853)
                      /locus_tag="NGO0033"
-                     /note="Best Blastp Hit: pir||D81032 hypothetical protein
-                     NMB1870 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7227128|gb|AAF42204.1| (AE002537)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="lipoprotein"
                      /protein_id="YP_207214.1"
                      /db_xref="GI:59800502"
                      /db_xref="GeneID:3281909"
@@ -628,12 +546,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282503"
      CDS             31250..32167
                      /locus_tag="NGO0035"
-                     /note="XerC; Best Blastp Hit: pir||A81978 probable
-                     integrase/recombinase NMA0588 [imported] - Neisseria
-                     meningitidis (group A strain Z2491)
-                     >gi|7379324|emb|CAB83879.1| (AL162753)
-                     integrase/recombinase [Neisseria meningitidis];
-                     COG0582 Integrase"
                      /codon_start=1
                      /transl_table=11
                      /product="site-specific recombinase"
@@ -697,24 +609,6 @@ FEATURES             Location/Qualifiers
                      MKRGYTALEYKSIIRKLRAIRPDLCLSSDFIVGFPGETEREFEQTLKLVKDIAFDLSF
                      VFIYSPRPGTPAANLPDDTPHEEKVRRLEALNEVIEAETARINQTMIGTVQRCLVEGI
                      SKKDPDQLQARTVNNRVVNFTGTPDMINQMIDLEITEAYTFSLRGKIVEA"
-     gene            36107..36460
-                     /locus_tag="NGO0039"
-                     /db_xref="GeneID:3282360"
-     CDS             36107..36460
-                     /locus_tag="NGO0039"
-                     /note="Best Blastp Hit: pir||D81978 hypothetical protein
-                     NMA0591 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379327|emb|CAB83882.1| (AL162753)
-                     hypothetical protein NMA0591 [Neisseria meningitidis]"
-                     /codon_start=1
-                     /transl_table=11
-                     /product="hypothetical protein"
-                     /protein_id="YP_207219.1"
-                     /db_xref="GI:59800507"
-                     /db_xref="GeneID:3282360"
-                     /translation="MIFVNPLYQTEEGIAQTVVKGKTTRAEVEARFGKRNPFGCYAYH
-                     EVSLPIYNFLPTNFIYMKSERRHWEWCADYDGEGVVRDYRFTHKVEKDERSVIRDTVG
-                     VIRKEAGKSLSQPEK"
      gene            36524..37804
                      /locus_tag="NGO0040"
                      /db_xref="GeneID:3282386"
@@ -783,16 +677,10 @@ FEATURES             Location/Qualifiers
      CDS             complement(40682..42043)
                      /locus_tag="NGO0044"
                      /EC_number="6.3.4.14"
-                     /note="Best Blastp Hit: pir||F81033 acetyl-CoA
-                     carboxylase, biotin carboxylase NMB1861 [imported] -
-                     Neisseria meningitidis (group B strain MD58)
-                     >gi|7227118|gb|AAF42195.1| (AE002536) acetyl-CoA
-                     carboxylase, biotin carboxylase [Neisseria meningitidis
-                     MC58];
-                     COG0439 Biotin carboxylase"
                      /codon_start=1
                      /transl_table=11
-                     /product="acetyl-CoA carboxylase, biotin carboxylase"
+                     /product="acetyl-CoA carboxylase biotin carboxylase
+                     subunit"
                      /protein_id="YP_207223.1"
                      /db_xref="GI:59800511"
                      /db_xref="GeneID:3282361"
@@ -904,8 +792,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282365"
      CDS             complement(47441..47974)
                      /locus_tag="NGO0049"
-                     /note="Best Blastp Hit: possibly phase variable - 8A
-                     residue homopolymer repeat in the coding sequence (ON)"
+                     /note="possibly phase variable - 8A residue homopolymer
+                     repeat in the coding sequence"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -921,15 +809,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282350"
      CDS             complement(49539..49928)
                      /locus_tag="NGO0050"
-                     /note="Best Blastp Hit: gb|AAC78450.1| (AF029362) similar
-                     to E. coli ORF, encoded by GenBank Accession Number
-                     X97282; and to H. influenzae protein HI0925, encoded by
-                     GenBank Accession Number U32774; and to H. influenzae
-                     protein HI1162, encoded by GenBank Accession Number U32796
-                     [Neisseria g>"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="endonuclease"
                      /protein_id="YP_207229.1"
                      /db_xref="GI:59800517"
                      /db_xref="GeneID:3282350"
@@ -964,12 +846,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282341"
      CDS             complement(52527..55670)
                      /locus_tag="NGO0055"
-                     /note="PilC1; Best Blastp Hit: possibly phase variable -
-                     13G residue homopolymer repeat in the coding sequence
-                     (ON)"
+                     /note="PilC1"
                      /codon_start=1
                      /transl_table=11
-                     /product="pilus-associated protein"
+                     /product="pilus assembly protein"
                      /protein_id="YP_207232.1"
                      /db_xref="GI:59800520"
                      /db_xref="GeneID:3282341"
@@ -997,11 +877,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282337"
      CDS             complement(57122..58201)
                      /locus_tag="NGO0056"
-                     /note="Mrp; Best Blastp Hit: pir||G81980 hypothetical
-                     protein NMA0611 [imported] - Neisseria meningitidis (group
-                     A strain Z2491) >gi|7379346|emb|CAB83901.1| (AL162753)
-                     hypothetical protein NMA0611 [Neisseria meningitidis];
-                     COG0489 ATPases involved in chromosome partitioning"
                      /codon_start=1
                      /transl_table=11
                      /product="ATPase"
@@ -1027,9 +902,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282274"
      CDS             58575..59084
                      /locus_tag="NGO0057"
-                     /note="Best Blastp Hit: emb|CAB83902.1| (AL162753)
-                     periplasmic thioredoxin [Neisseria meningitidis];
-                     COG0526 Thiol-disulfide isomerase and thioredoxins"
                      /codon_start=1
                      /transl_table=11
                      /product="thioredoxin"
@@ -1045,12 +917,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282324"
      CDS             59488..59865
                      /locus_tag="NGO0058"
-                     /note="Best Blastp Hit: gb|AAF42178.1| (AE002534)
-                     transcriptional regulator, MarR family [Neisseria
-                     meningitidis MC58] >gi|7379348|emb|CAB83903.1| (AL162753)
-                     marR-family transcriptional regulator [Neisseria
-                     meningitidis];
-                     COG1846 Transcriptional regulators, MarR/EmrR"
                      /codon_start=1
                      /transl_table=11
                      /product="MarR family transcriptional regulator"
@@ -1065,16 +931,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282327"
      CDS             59981..60481
                      /locus_tag="NGO0059"
-                     /note="Best Blastp Hit: pir||B81981 probable
-                     4-hydroxyphenylacetate 3-monooxygenase (EC 1.14.13.3)
-                     small chain NMA0614 [similarity] - Neisseria meningitidis
-                     (group A strain Z2491) >gi|7379349|emb|CAB83904.1|
-                     (AL162753)  NADH:FMN oxidoreductase [Neisseria
-                     meningitidis];
-                     COG1853 Conserved protein/domain typically"
                      /codon_start=1
                      /transl_table=11
-                     /product="flavoprotein oxidoreductase"
+                     /product="4-hydroxyphenylacetate 3-monooxygenase reductase
+                     subunit"
                      /protein_id="YP_207236.1"
                      /db_xref="GI:59800524"
                      /db_xref="GeneID:3282327"
@@ -1087,10 +947,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282348"
      CDS             60497..61192
                      /locus_tag="NGO0060"
-                     /note="Best Blastp Hit: gb|AAF42176.1| (AE002534)
-                     mannose-1-phosphate guanyltransferase-related protein
-                     [Neisseria meningitidis MC58];
-                     COG1208 Nucleoside-diphosphate-sugar"
                      /codon_start=1
                      /transl_table=11
                      /product="sugar-phosphate transferase"
@@ -1158,8 +1014,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282310"
      CDS             64750..64989
                      /locus_tag="NGO0064"
-                     /note="Best Blastp Hit: gb|AAF42172.1| (AE002533)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -1173,13 +1027,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282317"
      CDS             64986..66860
                      /locus_tag="NGO0065"
-                     /note="Best Blastp Hit: gb|AAF42171.1| (AE002533)
-                     lipopolysaccharide biosynthesis protein WbpC,  [Neisseria
-                     meningitidis MC58];
-                     COG1835 Predicted acyltransferases"
                      /codon_start=1
                      /transl_table=11
-                     /product="lipo-oligosaccharide acyltransferase"
+                     /product="acyltransferase"
                      /protein_id="YP_207241.1"
                      /db_xref="GI:59800529"
                      /db_xref="GeneID:3282317"
@@ -1201,12 +1051,6 @@ FEATURES             Location/Qualifiers
      CDS             66922..68217
                      /locus_tag="NGO0066"
                      /EC_number="6.1.1.1"
-                     /note="TyrRS;
-                     Best Blastp Hit: pir||A81037 tyrosyl-tRNA synthetase
-                     NMB1835 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7227090|gb|AAF42170.1| (AE002533)
-                     tyrosyl-tRNA synthetase [Neisseria meningitidis MC58];
-                     COG0162 Tyrosyl-tRNA synthetase"
                      /codon_start=1
                      /transl_table=11
                      /product="tyrosyl-tRNA synthase"
@@ -1308,8 +1152,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282321"
      CDS             complement(74783..75580)
                      /locus_tag="NGO0070"
-                     /note="OpaB; Best Blastp Hit: phase variable - 10 tandem
-                     repeats of CTCTT in the coding sequence (ON)"
                      /codon_start=1
                      /transl_table=11
                      /product="outer membrane opacity protein B"
@@ -1376,10 +1218,6 @@ FEATURES             Location/Qualifiers
      CDS             complement(78813..79472)
                      /locus_tag="NGO0073"
                      /EC_number="3.1.3.18"
-                     /note="Best Blastp Hit: gb|AAF42165.1| (AE002532)
-                     phosphoglycolate phosphatase,  [Neisseria meningitidis
-                     MC58];
-                     COG0546 Predicted phosphatases"
                      /codon_start=1
                      /transl_table=11
                      /product="phosphatase"
@@ -1401,12 +1239,6 @@ FEATURES             Location/Qualifiers
      CDS             complement(81989..85423)
                      /locus_tag="NGO0078"
                      /EC_number="2.7.7.7"
-                     /note="Best Blastp Hit: pir||H81037 DNA polymerase III,
-                     alpha chain NMB1827 [imported] - Neisseria meningitidis
-                     (group B strain MD58) >gi|7227081|gb|AAF42162.1|
-                     (AE002532) DNA polymerase III, alpha subunit [Neisseria
-                     meningitidis MC58];
-                     COG0587 DNA-dependent DNA polymerase III alpha"
                      /codon_start=1
                      /transl_table=11
                      /product="DNA polymerase III subunit alpha"
@@ -1438,8 +1270,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283048"
      CDS             85956..86189
                      /locus_tag="NGO0079"
-                     /note="Best Blastp Hit: emb|CAB83923.1| (AL162753)
-                     hypothetical protein NMA0633 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -1453,8 +1283,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282269"
      CDS             86167..86370
                      /locus_tag="NGO0080"
-                     /note="Best Blastp Hit: gb|AAF42160.1| (AE002532)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -1468,15 +1296,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282263"
      CDS             86665..87501
                      /locus_tag="NGO0081"
-                     /note="Best Blastp Hit: pir||A81040 conserved hypothetical
-                     protein NMB1824 [imported] - Neisseria meningitidis (group
-                     B strain MD58) >gi|7227077|gb|AAF42159.1| (AE002531)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58];
-                     COG0613 Predicted metal-dependent phosphoesterases"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="phosphoesterase"
                      /protein_id="YP_207254.1"
                      /db_xref="GI:59800542"
                      /db_xref="GeneID:3282263"
@@ -1517,16 +1339,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282320"
      CDS             complement(88901..90811)
                      /locus_tag="NGO0083"
-                     /note="PglD; Best Blastp Hit: pir||G81039 pilin
-                     glycosylation protein PglD NMB1822 [imported] - Neisseria
-                     meningitidis (group B strain MD58)
-                     >gi|3299891|gb|AAC25981.1| (AF014804) PglD [Neisseria
-                     meningitidis] >gi|7227075|gb|AAF42157.1| (AE002531) pilin
-                     glycosylation protein PglD [Neisseria meningitidis MC58];
-                     COG1086 Predicted nucleoside-diphosphate sugar"
+                     /note="pilin glycosylation protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="pilin glycosylation protein"
+                     /product="NADH-dependent dehydratase PglD"
                      /protein_id="YP_207256.1"
                      /db_xref="GI:59800544"
                      /db_xref="GeneID:3282320"
@@ -1547,15 +1363,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282259"
      CDS             complement(90859..92034)
                      /locus_tag="NGO0084"
-                     /note="Best Blastp Hit: pir||H81983 pilin glycosylation
-                     protein NMA0638 [imported] - Neisseria meningitidis (group
-                     A strain Z2491) >gi|7379371|emb|CAB83928.1| (AL162753)
-                     pilin glycosylation protein [Neisseria meningitidis];
-                     COG0399 Predicted pyridoxal phosphate-dependent; protein
-                     PglC"
                      /codon_start=1
                      /transl_table=11
-                     /product="pilin glycosylation protein"
+                     /product="pilin glycosylation aminotransferase PglC"
                      /protein_id="YP_207257.1"
                      /db_xref="GI:59800545"
                      /db_xref="GeneID:3282259"
@@ -1571,14 +1381,11 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282309"
      CDS             complement(92165..93406)
                      /locus_tag="NGO0085"
-                     /note="Best Blastp Hit: gb|AAC25979.1| (AF014804) PglB
-                     [Neisseria meningitidis] >gi|7227073|gb|AAF42155.1|
-                     (AE002531) pilin glycosylation protein PglB [Neisseria
-                     meningitidis MC58];
-                     COG2148 Sugar transferases involved in"
+                     /note="pilin glycosylation protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="PglB protein"
+                     /product="bifunctional
+                     acetyltransferase/phospho-glycosyltransferase PglB"
                      /protein_id="YP_207258.1"
                      /db_xref="GI:59800546"
                      /db_xref="GeneID:3282309"
@@ -1595,9 +1402,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282285"
      CDS             complement(93399..94565)
                      /locus_tag="NGO0086"
-                     /note="Best Blastp Hit: possibly phase variable - 10C
-                     residue homopolymer repeat in the coding sequence (ON);
-                     COG0438 Glycosyltransferases I"
+                     /note="possibly phase variable - 10C residue homopolymer
+                     repeat in the coding sequence"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -1616,10 +1422,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282283"
      CDS             complement(94579..95643)
                      /locus_tag="NGO0087"
-                     /note="Best Blastp Hit: gb|AAF84279.1|AE003977_2
-                     (AE003977) conserved hypothetical protein [Xylella
-                     fastidiosa];
-                     COG0438 Glycosyltransferases I"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -1638,12 +1440,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282288"
      CDS             complement(95640..97061)
                      /locus_tag="NGO0088"
-                     /note="Best Blastp Hit: pir||C81984 probable
-                     lipopolysaccharide biosynthesis translocase NMA0643
-                     [imported] - Neisseria meningitidis (group A strain Z2491)
-                     >gi|7379374|emb|CAB83932.1| (AL162753)  lipopolysaccharide
-                     biosynthesis translocase [Neisseria meningitidis];
-                     COG2244 Membrane protein involved in the export of"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -1664,18 +1460,12 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282253"
      CDS             complement(97256..98365)
                      /locus_tag="NGO0089"
-                     /note="Best Blastp Hit: pir||D81984 riboflavin
-                     bifunctional biosynthesis protein ribD NMA0644
-                     [similarity] - Neisseria meningitidis (group A strain
-                     Z2491) >gi|7379375|emb|CAB83933.1| (AL162753)
-                     diaminohydroxyphosphoribosylaminopyrimidine
-                     deaminase/phosphoribosylamino)uracil reductase [Neisseria
-                     meningitidis];
-                     COG0117 Pyrimidine deaminase, riboflavin"
                      /codon_start=1
                      /transl_table=11
-                     /product="diaminohydroxyphosphoribosylaminopyrimidine
-                     deaminase"
+                     /product="bifunctional
+                     diaminohydroxyphosphoribosylaminopyrimidine
+                     deaminase/5-amino-6-(5-phosphoribosylamino)uracil
+                     reductase"
                      /protein_id="YP_207262.1"
                      /db_xref="GI:59800550"
                      /db_xref="GeneID:3282253"
@@ -1693,12 +1483,6 @@ FEATURES             Location/Qualifiers
      CDS             complement(98397..98849)
                      /gene="nrdR"
                      /locus_tag="NGO0090"
-                     /note="Best Blastp Hit: pir||A81039 conserved hypothetical
-                     protein NMB1816 [imported] - Neisseria meningitidis (group
-                     B strain MD58) >gi|7227069|gb|AAF42151.1| (AE002531)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58];
-                     COG1327 Uncharacterized BCR"
                      /codon_start=1
                      /transl_table=11
                      /product="transcriptional regulator NrdR"
@@ -1713,15 +1497,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282132"
      CDS             complement(98878..99720)
                      /locus_tag="NGO0091"
-                     /note="Best Blastp Hit: pir||H81038 conserved hypothetical
-                     protein NMB1815 [imported] - Neisseria meningitidis (group
-                     B strain MD58) >gi|7227068|gb|AAF42150.1| (AE002531)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58];
-                     COG0121 Predicted glutamine amidotransferase"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="glutamine amidotransferase"
                      /protein_id="YP_207264.1"
                      /db_xref="GI:59800552"
                      /db_xref="GeneID:3282132"
@@ -1780,14 +1558,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282403"
      CDS             complement(103398..105569)
                      /locus_tag="NGO0094"
-                     /note="Best Blastp Hit: pir||S70838 pilQ protein -
-                     Neisseria gonorrhoeae >gi|1173875|gb|AAC43603.1| (U40596)
-                     PilQ [Neisseria gonorrhoeae] >gi|1589217|prf||2210365A
-                     pilQ gene [Neisseria gonorrhoeae];
-                     COG1450 General secretion pathway protein D"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="type IV pilus secretin PilQ"
                      /protein_id="YP_207267.1"
                      /db_xref="GI:59800555"
                      /db_xref="GeneID:3282403"
@@ -1809,16 +1582,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282291"
      CDS             complement(105588..106133)
                      /locus_tag="NGO0095"
-                     /note="Best Blastp Hit: pir||C81041 pilus assembly protein
-                     NMA0651 [imported] - Neisseria meningitidis (group B
-                     strain MD58, group A strain Z2491)
-                     >gi|7227064|gb|AAF42147.1| (AE002530) pilP protein
-                     [Neisseria meningitidis MC58] >gi|7379381|emb|CAB83939.1|
-                     (AL162753) pilus assembly protein [Neisseria
-                     meningitidis]; pilin assembly protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="PilP protein"
+                     /product="type IV pilius assembly protein PilP"
                      /protein_id="YP_207268.1"
                      /db_xref="GI:59800556"
                      /db_xref="GeneID:3282291"
@@ -1831,11 +1597,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282139"
      CDS             complement(106151..106798)
                      /locus_tag="NGO0096"
-                     /note="Best Blastp Hit: gb|AAB52533.1| (U72876) PilO
-                     [Neisseria gonorrhoeae]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="type IV pilius assembly protein PilO"
                      /protein_id="YP_207269.1"
                      /db_xref="GI:59800557"
                      /db_xref="GeneID:3282139"
@@ -1848,14 +1612,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282268"
      CDS             complement(106799..107398)
                      /locus_tag="NGO0097"
-                     /note="Best Blastp Hit: pir||D81985 probable pilus
-                     assembly protein NMA0653 [imported] - Neisseria
-                     meningitidis (group A strain Z2491)
-                     >gi|7379383|emb|CAB83941.1| (AL162753)  pilus assembly
-                     protein [Neisseria meningitidis]"
+                     /note="type IV pilius assembly protein PilN"
                      /codon_start=1
                      /transl_table=11
-                     /product="PilN"
+                     /product="pilus assembly protein"
                      /protein_id="YP_207270.1"
                      /db_xref="GI:59800558"
                      /db_xref="GeneID:3282268"
@@ -1868,12 +1628,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282223"
      CDS             complement(107401..108516)
                      /locus_tag="NGO0098"
-                     /note="Best Blastp Hit: gb|AAB52535.1| (U72876) PilM
-                     [Neisseria gonorrhoeae];
-                     COG0849 Predicted ATPases of the HSP70 class"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="type IV pilius assembly ATPase PilM"
                      /protein_id="YP_207271.1"
                      /db_xref="GI:59800559"
                      /db_xref="GeneID:3282223"
@@ -1889,12 +1646,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282452"
      CDS             108668..111064
                      /locus_tag="NGO0099"
-                     /note="Best Blastp Hit: gb|AAB52536.1| (U72876)
-                     penicillin-binding protein 1 [Neisseria gonorrhoeae];
-                     COG0744 Membrane carboxypeptidase; protein PonA"
+                     /note="penicillin-binding protein 1; protein PonA"
                      /codon_start=1
                      /transl_table=11
-                     /product="penicillin-binding protein 1"
+                     /product="peptidase"
                      /protein_id="YP_207272.1"
                      /db_xref="GI:59800560"
                      /db_xref="GeneID:3282452"
@@ -1928,7 +1683,7 @@ FEATURES             Location/Qualifiers
                      essential"
                      /codon_start=1
                      /transl_table=11
-                     /product="ribosome biogenesis GTP-binding protein YsxC"
+                     /product="GTP-binding protein"
                      /protein_id="YP_207273.1"
                      /db_xref="GI:59800561"
                      /db_xref="GeneID:3282443"
@@ -1941,15 +1696,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282451"
      CDS             112020..112643
                      /locus_tag="NGO0101"
-                     /note="Best Blastp Hit: pir||F81040 cytochrome C4 NMB1805
-                     [imported] - Neisseria meningitidis  (group B strain MD58,
-                     group A strain Z2491) >gi|7227059|gb|AAF42142.1|
-                     (AE002530) cytochrome c4 [Neisseria meningitidis MC58]
-                     >gi|7379387|emb|CAB83945.1| (AL162753)  cytochrome C
-                     [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
-                     /product="cytochrome precursor"
+                     /product="cytochrome c"
                      /protein_id="YP_207274.1"
                      /db_xref="GI:59800562"
                      /db_xref="GeneID:3282451"
@@ -1962,15 +1711,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282446"
      CDS             112858..114873
                      /locus_tag="NGO0102"
-                     /note="Best Blastp Hit: pir||E81040 cytochrome c-type
-                     biogenesis protein, probable NMB1804 [imported] -
-                     Neisseria meningitidis (group B strain MD58)
-                     >gi|7227058|gb|AAF42141.1| (AE002530) cytochrome c-type
-                     biogenesis protein,  [Neisseria meningitidis MC58];
-                     COG1333 ResB protein required for cytochrome c"
                      /codon_start=1
                      /transl_table=11
-                     /product="cytochrome biogenesis protein"
+                     /product="cytochrome c biogenesis protein"
                      /protein_id="YP_207275.1"
                      /db_xref="GI:59800563"
                      /db_xref="GeneID:3282446"
@@ -1991,12 +1734,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282441"
      CDS             114866..116053
                      /locus_tag="NGO0103"
-                     /note="Best Blastp Hit: emb|CAB83947.1| (AL162753)
-                     membrane protein [Neisseria meningitidis];
-                     COG0755 Cytochrome c biogenesis factors, CcmC"
                      /codon_start=1
                      /transl_table=11
-                     /product="cytochrome synthesis protein"
+                     /product="cytochrome c biogenesis protein"
                      /protein_id="YP_207276.1"
                      /db_xref="GI:59800564"
                      /db_xref="GeneID:3282441"
@@ -2010,23 +1750,13 @@ FEATURES             Location/Qualifiers
                      GTL"
      gene            116169..117233
                      /locus_tag="NGO0104"
-                     /gene_synonym="gcp"
                      /db_xref="GeneID:3282444"
      CDS             116169..117233
                      /locus_tag="NGO0104"
-                     /gene_synonym="gcp"
                      /EC_number="3.4.24.57"
-                     /note="in most organisms, only the N-terminal domain is
-                     present in a single polypeptide; in some archaea this
-                     domain is fused to a kinase domain; this gene is essential
-                     for growth in Escherichia coli and Bacillus subtilis; the
-                     secreted glycoprotease from Pasteurella haemolytica showed
-                     specificity for O-sialoglycosylated proteins; the
-                     Pyrococcus structure shows DNA-binding properties,
-                     iron-binding, ATP-binding, and AP endonuclease activity"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA-binding/iron metalloprotein/AP endonuclease"
+                     /product="tRNA N6-adenosine threonylcarbamoyltransferase"
                      /protein_id="YP_207277.1"
                      /db_xref="GI:59800565"
                      /db_xref="GeneID:3282444"
@@ -2084,12 +1814,10 @@ FEATURES             Location/Qualifiers
      CDS             complement(119751..121160)
                      /locus_tag="NGO0107"
                      /EC_number="3.4.16.4"
-                     /note="Best Blastp Hit: gb|AAC24040.1| (AF071224)
-                     penicillin binding protein 3 [Neisseria gonorrhoeae];
-                     COG2027 D-alanyl-D-alanine carboxypeptidase"
+                     /note="penicillin binding protein 3"
                      /codon_start=1
                      /transl_table=11
-                     /product="carboxypeptidase, penicillin binding protein"
+                     /product="carboxypeptidase"
                      /protein_id="YP_207280.1"
                      /db_xref="GI:59800568"
                      /db_xref="GeneID:3282411"
@@ -2124,10 +1852,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282426"
      CDS             122259..123572
                      /locus_tag="NGO0110"
-                     /note="Best Blastp Hit: gb|AAF42132.1| (AE002529) citrate
-                     transporter [Neisseria meningitidis MC58]
-                     >gi|7379397|emb|CAB83955.1| (AL162753)  transmembrane
-                     transport protein [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="magnesium citrate secondary transporter"
@@ -2147,9 +1871,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282418"
      CDS             124550..125800
                      /locus_tag="NGO0112"
-                     /note="Best Blastp Hit: gb|AAG24266.1|AF139612_3
-                     (AF139612) BasS [Neisseria gonorrhoeae];
-                     COG0642 Sensory transduction histidine kinases"
                      /codon_start=1
                      /transl_table=11
                      /product="two-component system sensor kinase"
@@ -2169,13 +1890,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282417"
      CDS             complement(125835..127328)
                      /locus_tag="NGO0113"
-                     /note="Best Blastp Hit: emb|CAB83959.1| (AL162753)
-                     hypothetical protein NMA0672 [Neisseria meningitidis];
-                     COG1530 Ribonucleases G and E"
+                     /note="cytoplasmic axial filament protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="ribonuclease G / cytoplasmic axial filament
-                     protein"
+                     /product="ribonuclease G"
                      /protein_id="YP_207285.1"
                      /db_xref="GI:59800573"
                      /db_xref="GeneID:3282417"
@@ -2193,9 +1911,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283078"
      CDS             127547..127804
                      /locus_tag="NGO0114"
-                     /note="Best Blastp Hit: gb|AAF42129.1| (AE002529)
-                     glutaredoxin 3 [Neisseria meningitidis MC58];
-                     COG0695 Glutaredoxin and related proteins"
                      /codon_start=1
                      /transl_table=11
                      /product="glutaredoxin"
@@ -2281,8 +1996,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282406"
      CDS             complement(132030..132323)
                      /locus_tag="NGO0119"
-                     /note="Best Blastp Hit: emb|CAB83964.1| (AL162753)
-                     hypothetical protein NMA0677 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2308,8 +2021,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282395"
      CDS             132575..133729
                      /locus_tag="NGO0121"
-                     /note="Best Blastp Hit: gb|AAF42125.1| (AE002528)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2328,10 +2039,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282398"
      CDS             133904..134311
                      /locus_tag="NGO0122"
-                     /note="Best Blastp Hit: pir||F81988 hypothetical protein
-                     NMA0681 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379409|emb|CAB83968.1| (AL162753)
-                     hypothetical protein NMA0681 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2346,9 +2053,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282391"
      CDS             134372..135646
                      /locus_tag="NGO0123"
-                     /note="Best Blastp Hit: gb|AAF61809.1| (AF129811) unknown
-                     [Moraxella catarrhalis];
-                     COG1566 Multidrug resistance efflux pump"
                      /codon_start=1
                      /transl_table=11
                      /product="secretion protein"
@@ -2368,9 +2072,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281936"
      CDS             135831..136178
                      /locus_tag="NGO0124"
-                     /note="Best Blastp Hit: sp|O24528|MT1_FESRU
-                     metallothionein-like protein 1 >gi|2317922|gb|AAB70464.1|
-                     (U96646) mcMT1 [Festuca rubra]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2385,10 +2086,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281221"
      CDS             136192..136407
                      /locus_tag="NGO0125"
-                     /note="Best Blastp Hit: pir||B70183 conserved hypothetical
-                     protein BB0667 - Lyme disease spirochete
-                     >gi|2688586|gb|AAC67004.1| (AE001167) conserved
-                     hypothetical protein [Borrelia burgdorferi]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2397,6 +2094,22 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281221"
                      /translation="MDFAHYLKHWKAAVLIYLAISILTDILCYFLNFDGVFYKGRFFS
                      VTVAGPVGALSFLAYLLYLKREENRSH"
+     gene            136509..137276
+                     /locus_tag="NGO0125a"
+                     /db_xref="GeneID:22847886"
+     CDS             136509..137276
+                     /locus_tag="NGO0125a"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="peptidase"
+                     /protein_id="YP_009115478.1"
+                     /db_xref="GI:745998704"
+                     /db_xref="GeneID:22847886"
+                     /translation="MDYLQNLSLGLTKKLPVILQTEVAECGLACLAAVAGFYGFYTDL
+                     RALRSKYCLSLKGENLADIVRFADDMGLTGRALRLDLDELGSLRLPCILHWDLNHFVV
+                     LESVSSDGAAVMDPASGRRKVKTEEISRKFTGIALELWPNTRFEAGEEKQEIRILPML
+                     RGISGLGRTLFQLLALAAAMEVFAFLQNVSFKIGRGESLALIGRSGCGKSTLLDILSG
+                     NLPPESGKVMINGHDIYSLPPRFIRNLSAMVRQDDVL"
      gene            complement(137771..138997)
                      /gene="rbn"
                      /locus_tag="NGO0127"
@@ -2429,15 +2142,12 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282488"
      CDS             139485..140159
                      /locus_tag="NGO0129"
-                     /note="Best Blastp Hit: pir||C81913 hypothetical protein
-                     NMA0702 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379427|emb|CAB83989.1| (AL162754)
-                     hypothetical protein NMA0702 [Neisseria meningitidis];
-                     COG0603 Predicted ATPase (PP-loop superfamily); aluminum
-                     resistance protein"
+                     /note="catalyzes the formation of 7-cyano-7-deazaguanine
+                     from 7-carboxy-7-deazaguanine; aluminum resistance
+                     protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="YbaX"
+                     /product="7-cyano-7-deazaguanine synthase"
                      /protein_id="YP_207300.1"
                      /db_xref="GI:59800588"
                      /db_xref="GeneID:3282488"
@@ -2451,10 +2161,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281252"
      CDS             140187..140702
                      /locus_tag="NGO0130"
-                     /note="Best Blastp Hit: pir||D81913 hypothetical protein
-                     NMA0703 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379428|emb|CAB83990.1| (AL162754)
-                     hypothetical protein NMA0703 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2470,14 +2176,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281264"
      CDS             140790..141212
                      /locus_tag="NGO0131"
-                     /note="Best Blastp Hit: pir||E81913 hypothetical protein
-                     NMA0704 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379429|emb|CAB83991.1| (AL162754)
-                     hypothetical protein NMA0704 [Neisseria meningitidis];
-                     COG0720 6-pyruvoyl-tetrahydropterin synthase"
                      /codon_start=1
                      /transl_table=11
-                     /product="6-pyruvoyl tetrahydrobiopterin synthase"
+                     /product="6-carboxy-5,6,7,8-tetrahydropterin synthase"
                      /protein_id="YP_207302.1"
                      /db_xref="GI:59800590"
                      /db_xref="GeneID:3281264"
@@ -2489,9 +2190,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281233"
      CDS             141478..142485
                      /locus_tag="NGO0132"
-                     /note="Best Blastp Hit: emb|CAB83993.1| (AL162754)
-                     hypothetical protein NMA0707 [Neisseria meningitidis];
-                     COG0602 Organic radical activating enzymes"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2539,10 +2237,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281295"
      CDS             complement(144120..145640)
                      /locus_tag="NGO0136"
-                     /note="Best Blastp Hit: gb|AAF40961.1| (AE002408)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58];
-                     COG1757 Na+/H+ antiporter NhaC"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2576,12 +2270,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281276"
      CDS             complement(145843..147342)
                      /locus_tag="NGO0138"
-                     /note="Best Blastp Hit: pir||B81914 probable periplasmic
-                     serine proteinase (EC 3.4.21.-) NMA0710 [imported] -
-                     Neisseria meningitidis (group A strain Z2491)
-                     >gi|7379434|emb|CAB83996.1| (AL162754)  periplasmic serine
-                     protease [Neisseria meningitidis];
-                     COG0265 Trypsin-like serine proteases, typically"
                      /codon_start=1
                      /transl_table=11
                      /product="serine protease"
@@ -2603,11 +2291,6 @@ FEATURES             Location/Qualifiers
      CDS             complement(147480..148109)
                      /locus_tag="NGO0139"
                      /EC_number="4.2.99.18"
-                     /note="Best Blastp Hit: pir||D81187 endonuclease III
-                     NMB0533 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7225758|gb|AAF40962.1| (AE002409)
-                     endonuclease III [Neisseria meningitidis MC58];
-                     COG0177 Predicted EndoIII-related endonuclease"
                      /codon_start=1
                      /transl_table=11
                      /product="endonuclease III"
@@ -2623,11 +2306,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281291"
      CDS             complement(148156..148692)
                      /locus_tag="NGO0140"
-                     /note="Best Blastp Hit: pir||D81914 probable membrane
-                     protein NMA0712 [imported] - Neisseria meningitidis (group
-                     A strain Z2491) >gi|7379436|emb|CAB83998.1| (AL162754)
-                     membrane protein [Neisseria meningitidis];
-                     COG1238 Uncharacterized membrane protein"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2656,12 +2334,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281278"
      CDS             148948..150228
                      /locus_tag="NGO0142"
-                     /note="Best Blastp Hit: pir||F81187 glucose/galactose
-                     transporter NMB0535 [imported] - Neisseria meningitidis
-                     (group B strain MD58) >gi|7225760|gb|AAF40964.1|
-                     (AE002409) glucose/galactose transporter [Neisseria
-                     meningitidis MC58];
-                     COG0738 Fucose permease"
                      /codon_start=1
                      /transl_table=11
                      /product="sugar transporter"
@@ -2681,15 +2353,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281299"
      CDS             150518..151897
                      /locus_tag="NGO0143"
-                     /note="Best Blastp Hit: pir||F81914 probable transmembrane
-                     transport protein NMA0715 [imported] - Neisseria
-                     meningitidis (group A strain Z2491)
-                     >gi|7379438|emb|CAB84000.1| (AL162754)  transmembrane
-                     transport protein [Neisseria meningitidis];
-                     COG1757 Na+/H+ antiporter NhaC"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Na(+)/H(+) antiporter"
                      /protein_id="YP_207313.1"
                      /db_xref="GI:59800601"
                      /db_xref="GeneID:3281299"
@@ -2707,14 +2373,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281301"
      CDS             complement(152040..152864)
                      /locus_tag="NGO0144"
-                     /note="Best Blastp Hit: pir||G81914 hypothetical protein
-                     NMA0716 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379439|emb|CAB84001.1| (AL162754)
-                     hypothetical protein NMA0716 [Neisseria meningitidis];
-                     COG1253 Uncharacterized CBS domain-containing"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Mg2+ and Co2+ transporter"
                      /protein_id="YP_207314.1"
                      /db_xref="GI:59800602"
                      /db_xref="GeneID:3281301"
@@ -2728,12 +2389,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281313"
      CDS             complement(152866..153501)
                      /locus_tag="NGO0145"
-                     /note="Best Blastp Hit: emb|CAB84002.1| (AL162754)
-                     hypothetical protein NMA0717 [Neisseria meningitidis];
-                     COG0319 Uncharacterized BCR ( metal-binding"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="metalloprotease"
                      /protein_id="YP_207315.1"
                      /db_xref="GI:59800603"
                      /db_xref="GeneID:3281313"
@@ -2788,10 +2446,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281290"
      CDS             complement(157762..159135)
                      /locus_tag="NGO0149"
-                     /note="Best Blastp Hit: gb|AAF41783.1| (AE002491)
-                     ATP-dependent RNA helicase,  [Neisseria meningitidis
-                     MC58];
-                     COG0513 Superfamily II DNA and RNA helicases"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP-dependent RNA helicase"
@@ -2812,14 +2466,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281316"
      CDS             159349..160353
                      /locus_tag="NGO0151"
-                     /note="Best Blastp Hit: pir||G81085 nifR3 protein NMB1421
-                     [imported] - Neisseria meningitidis  (group B strain MD58)
-                     >gi|7226660|gb|AAF41782.1| (AE002491) nifR3 protein
-                     [Neisseria meningitidis MC58];
-                     COG0042 Predicted TIM-barrel enzymes, possibly"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tRNA-dihydrouridine synthase B"
                      /protein_id="YP_207321.1"
                      /db_xref="GI:59800609"
                      /db_xref="GeneID:3281316"
@@ -2835,14 +2484,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283047"
      CDS             160542..160781
                      /locus_tag="NGO0152"
-                     /note="Best Blastp Hit: gb|AAF41781.1| (AE002491)
-                     factor-for-inversion stimulation protein Fis,  [Neisseria
-                     meningitidis MC58] >gi|7380274|emb|CAB84860.1| (AL162756)
-                     factor-for-inversion-stimulation protein [Neisseria
-                     meningitidis]"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA-binding protein Fis"
+                     /product="Fis family transcriptional regulator"
                      /protein_id="YP_207322.2"
                      /db_xref="GI:651851625"
                      /db_xref="GeneID:3283047"
@@ -2891,33 +2535,14 @@ FEATURES             Location/Qualifiers
                      GRTEGLRALVKQFRKSSAPFLYLPDQDFGRNNSVFVDFFGIQTATITGLSRIAALANA
                      KVIPAIPVREADNTVTLQFYPAWKSFPSEDAQADAQRMNRFIEERVREHPEQYFWLHK
                      RFKTRPEGSPDFY"
-     gene            162894..163028
-                     /locus_tag="NGO0155"
-                     /db_xref="GeneID:3281320"
-     CDS             162894..163028
-                     /locus_tag="NGO0155"
-                     /note="Best Blastp Hit: emb|CAB84857.1| (AL162756)
-                     hypothetical DNA-binding protein [Neisseria meningitidis]"
-                     /codon_start=1
-                     /transl_table=11
-                     /product="hypothetical protein"
-                     /protein_id="YP_207325.1"
-                     /db_xref="GI:59800613"
-                     /db_xref="GeneID:3281320"
-                     /translation="MPSERIFRSVLRLVGVSSDTVKRKFAGAGLSYAGKAAGESLYCL
-                     "
      gene            163144..163938
                      /locus_tag="NGO0156"
                      /db_xref="GeneID:3281349"
      CDS             163144..163938
                      /locus_tag="NGO0156"
-                     /note="Best Blastp Hit: pir||H81856 hypothetical protein
-                     NMA1628 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7380270|emb|CAB84856.1| (AL162756)
-                     hypothetical protein [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="3'-5' exonuclease"
                      /protein_id="YP_207326.1"
                      /db_xref="GI:59800614"
                      /db_xref="GeneID:3281349"
@@ -2934,11 +2559,6 @@ FEATURES             Location/Qualifiers
                      /gene="pepN"
                      /locus_tag="NGO0158"
                      /EC_number="3.4.11.2"
-                     /note="Best Blastp Hit: pir||F81086 aminopeptidase N
-                     NMB1416 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7226654|gb|AAF41777.1| (AE002490)
-                     aminopeptidase N [Neisseria meningitidis MC58];
-                     COG0308 Aminopeptidase N"
                      /codon_start=1
                      /transl_table=11
                      /product="aminopeptidase"
@@ -2966,8 +2586,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281354"
      CDS             complement(167614..167805)
                      /locus_tag="NGO0160"
-                     /note="Best Blastp Hit: emb|CAB84331.1| (AL162755)
-                     hypothetical protein NMA1067 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2981,8 +2599,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281372"
      CDS             complement(167838..168305)
                      /locus_tag="NGO0161"
-                     /note="Best Blastp Hit: emb|CAB84332.1| (AL162755)
-                     hypothetical protein NMA1068 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -2992,31 +2608,11 @@ FEATURES             Location/Qualifiers
                      /translation="MQINNISDEQVMIVKMSCYLKKDEIFKNIERYGYQSSDIKKINP
                      PFPLNILPVPKPYYFYLYDTHLNQIYDLAWSCNDFLMFEIFILDRESIKYIDKDKLFK
                      SGETLYSNFKSIKNQCKNYFFCGFDFDAPYFKSGVSQVADYNFVPDAFSLFFI"
-     gene            complement(168362..168742)
-                     /locus_tag="NGO0162"
-                     /db_xref="GeneID:3281325"
-     CDS             complement(168362..168742)
-                     /locus_tag="NGO0162"
-                     /note="Best Blastp Hit: gb|AAF41269.1| (AE002438)
-                     hypothetical protein [Neisseria meningitidis MC58]"
-                     /codon_start=1
-                     /transl_table=11
-                     /product="hypothetical protein"
-                     /protein_id="YP_207330.1"
-                     /db_xref="GI:59800618"
-                     /db_xref="GeneID:3281325"
-                     /translation="MQLICADWTGIGNFMKTFEKTWSAQYRDMEISVRNFWNLKRTGA
-                     EVYINGRRVYHNEAGMASASLRSLMGEYLEFEESGTKITVEIGSAWHFNETIRNINTH
-                     LRGTKLPGSNWRVQDKGHFHLWKR"
      gene            complement(168745..169122)
                      /locus_tag="NGO0163"
                      /db_xref="GeneID:3281366"
      CDS             complement(168745..169122)
                      /locus_tag="NGO0163"
-                     /note="Best Blastp Hit: pir||F81150 hypothetical protein
-                     NMB0859 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7226095|gb|AAF41270.1| (AE002438)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -3031,8 +2627,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281392"
      CDS             complement(169180..169545)
                      /locus_tag="NGO0164"
-                     /note="Best Blastp Hit: emb|CAB84335.1| (AL162755)
-                     hypothetical protein NMA1072 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -3047,13 +2641,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281391"
      CDS             complement(169527..170066)
                      /locus_tag="NGO0165"
-                     /note="Best Blastp Hit: gb|AAF41272.1| (AE002438)
-                     hypothetical protein [Neisseria meningitidis MC58]
-                     >gi|7379768|emb|CAB84336.1| (AL162755) hypothetical
-                     protein NMA1073 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="membrane protein"
                      /protein_id="YP_207333.1"
                      /db_xref="GI:59800621"
                      /db_xref="GeneID:3281391"
@@ -3066,10 +2656,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281383"
      CDS             complement(170109..170975)
                      /locus_tag="NGO0166"
-                     /note="Best Blastp Hit: pir||A81874 probable periplasmic
-                     protein NMA1084 [imported] - Neisseria meningitidis (group
-                     A strain Z2491) >gi|7379779|emb|CAB84347.1| (AL162755)
-                     periplasmic protein [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -3087,9 +2673,7 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281403"
      CDS             complement(171195..172121)
                      /locus_tag="NGO0168"
-                     /note="Best Blastp Hit: gb|AAG30300.1| (AY010757)
-                     periplasmic binding protein MntC [Neisseria gonorrhoeae];
-                     COG0803 Zn-binding (lipo) protein of the ABC-type Zn"
+                     /note="MntC"
                      /codon_start=1
                      /transl_table=11
                      /product="ABC transporter substrate-binding protein"
@@ -3107,12 +2691,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281401"
      CDS             complement(172198..173025)
                      /locus_tag="NGO0169"
-                     /note="Best Blastp Hit: gb|AAF41015.1| (AE002415) membrane
-                     protein [Neisseria meningitidis MC58];
-                     COG1108 ABC-type Mn/Zn transport systems, ATPase"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter membrane protein"
+                     /product="ABC transporter permease"
                      /protein_id="YP_207337.1"
                      /db_xref="GI:59800625"
                      /db_xref="GeneID:3281401"
@@ -3126,10 +2707,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281376"
      CDS             complement(173108..173863)
                      /locus_tag="NGO0170"
-                     /note="Best Blastp Hit: gb|AAF41016.1| (AE002415) ABC
-                     transporter ATP-binding protein [Neisseria meningitidis
-                     MC58];
-                     COG1121 ABC-type iron (III) transport system, ATPase"
                      /codon_start=1
                      /transl_table=11
                      /product="ABC transporter ATP-binding protein"
@@ -3190,7 +2767,7 @@ FEATURES             Location/Qualifiers
                      /note="Essential for efficient processing of 16S rRNA"
                      /codon_start=1
                      /transl_table=11
-                     /product="16S rRNA-processing protein RimM"
+                     /product="ribosome maturation factor RimM"
                      /protein_id="YP_207341.1"
                      /db_xref="GI:59800629"
                      /db_xref="GeneID:3281175"
@@ -3221,9 +2798,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281293"
      CDS             complement(178639..180045)
                      /locus_tag="NGO0176"
-                     /note="Best Blastp Hit: gb|AAF41022.1| (AE002415) sensor
-                     histidine kinase [Neisseria meningitidis MC58];
-                     COG0642 Sensory transduction histidine kinases"
                      /codon_start=1
                      /transl_table=11
                      /product="two-component system sensor kinase"
@@ -3244,14 +2818,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281311"
      CDS             complement(180058..180735)
                      /locus_tag="NGO0177"
-                     /note="Best Blastp Hit: pir||H81180 DNA-binding response
-                     regulator NMB0595 [imported] - Neisseria meningitidis
-                     (group B strain MD58, group A strain Z2491)
-                     >gi|7225825|gb|AAF41023.1| (AE002415) DNA-binding response
-                     regulator [Neisseria meningitidis MC58]
-                     >gi|7379518|emb|CAB84081.1| (AL162754)  two-component
-                     system regulator [Neisseria meningitidis];
-                     COG0745 Response regulators consisting of a"
                      /codon_start=1
                      /transl_table=11
                      /product="two-component system transcriptional response
@@ -3269,10 +2835,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281327"
      CDS             complement(180925..182739)
                      /locus_tag="NGO0178"
-                     /note="Best Blastp Hit: pir||A81181 hypothetical protein
-                     NMB0596 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7225826|gb|AAF41024.1| (AE002415)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -3295,13 +2857,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3283046"
      CDS             complement(182729..183082)
                      /locus_tag="NGO0179"
-                     /note="Best Blastp Hit: pir||B81181 hypothetical protein
-                     NMB0597 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7225827|gb|AAF41025.1| (AE002415)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="membrane protein"
                      /protein_id="YP_207346.1"
                      /db_xref="GI:59800634"
                      /db_xref="GeneID:3283046"
@@ -3330,15 +2888,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281433"
      CDS             complement(183743..184513)
                      /locus_tag="NGO0181"
-                     /note="Best Blastp Hit: pir||C81925 probable
-                     sec-independent protein translocase component NMA0803
-                     [imported] - Neisseria meningitidis (group A strain Z2491)
-                     >gi|7379523|emb|CAB84086.1| (AL162754)  sec-independent
-                     protein translocase component [Neisseria meningitidis];
-                     COG0805 Sec-independent protein secretion pathway"
                      /codon_start=1
                      /transl_table=11
-                     /product="sec-independent protein translocase component"
+                     /product="sec-independent protein translocase protein
+                     TatC"
                      /protein_id="YP_207348.1"
                      /db_xref="GI:59800636"
                      /db_xref="GeneID:3281433"
@@ -3352,13 +2905,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281448"
      CDS             complement(184526..185212)
                      /locus_tag="NGO0182"
-                     /note="Best Blastp Hit: pir||E81181 hypothetical protein
-                     NMB0600 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7225830|gb|AAF41028.1| (AE002415)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
-                     /product="sec-independent protein translocase component"
+                     /product="sec-independent protein translocase protein
+                     TatB"
                      /protein_id="YP_207349.1"
                      /db_xref="GI:59800637"
                      /db_xref="GeneID:3281448"
@@ -3382,7 +2932,8 @@ FEATURES             Location/Qualifiers
                      import system in thylakoid membranes"
                      /codon_start=1
                      /transl_table=11
-                     /product="twin arginine translocase A"
+                     /product="sec-independent protein translocase protein
+                     TatA"
                      /protein_id="YP_207350.1"
                      /db_xref="GI:59800638"
                      /db_xref="GeneID:3281482"
@@ -3393,14 +2944,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281428"
      CDS             complement(185466..185789)
                      /locus_tag="NGO0184"
-                     /note="Best Blastp Hit: sp|O07817|HITA_NEIGO HITA protein
-                     >gi|2197079|gb|AAB61288.1| (AF003550) HitA [Neisseria
-                     gonorrhoeae];
-                     COG0537 Diadenosine tetraphosphate (Ap4A) hydrolase;
-                     histidine triad-family protein"
+                     /note="histidine triad-family protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="HitA protein"
+                     /product="HIT family hydrolase"
                      /protein_id="YP_207351.1"
                      /db_xref="GI:59800639"
                      /db_xref="GeneID:3281428"
@@ -3431,12 +2978,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281536"
      CDS             complement(186327..187391)
                      /locus_tag="NGO0186"
-                     /note="Best Blastp Hit: pir||H81925 probable alcohol
-                     dehydrogenase (EC 1.1.1.-) NMA0808 [similarity] -
-                     Neisseria meningitidis (group A strain Z2491)
-                     >gi|7379528|emb|CAB84091.1| (AL162754)  zinc-binding
-                     alcohol dehydrogenase [Neisseria meningitidis];
-                     COG1065 Zn-dependent oxidoreductases"
                      /codon_start=1
                      /transl_table=11
                      /product="zinc-binding alcohol dehydrogenas"
@@ -3455,12 +2996,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281567"
      CDS             complement(188256..189374)
                      /locus_tag="NGO0187"
-                     /note="Best Blastp Hit: gb|AAF41032.1| (AE002416) histone
-                     deacetylase [Neisseria meningitidis MC58];
-                     COG0123 Deacetylases, including yeast histone"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="deacetylase"
                      /protein_id="YP_207354.1"
                      /db_xref="GI:59800642"
                      /db_xref="GeneID:3281567"
@@ -3476,10 +3014,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281554"
      CDS             189505..189771
                      /locus_tag="NGO0188"
-                     /note="Best Blastp Hit: gb|AAF41033.1| (AE002416)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58];
-                     COG1862 Uncharacterized secreted proteins, YajC"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -3569,13 +3103,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281640"
      CDS             193358..194650
                      /locus_tag="NGO0192"
-                     /note="Best Blastp Hit: gb|AAF41037.1| (AE002416)
-                     spermidine/putrescine ABC transporter ATP-binding protein
-                     [Neisseria meningitidis MC58];
-                     COG1128 ABC-type spermidine/putrescine transport"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter ATP-binding protein, polyamine"
+                     /product="polyamine ABC transporter ATP-binding protein"
                      /protein_id="YP_207359.1"
                      /db_xref="GI:59800647"
                      /db_xref="GeneID:3281640"
@@ -3592,13 +3122,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281667"
      CDS             194984..195949
                      /locus_tag="NGO0195"
-                     /note="Best Blastp Hit: gb|AAF41038.1| (AE002416)
-                     spermidine/putrescine ABC transporter permease [Neisseria
-                     meningitidis MC58];
-                     COG1176 ABC-type spermidine/putrescine transport"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter permease, polyamine"
+                     /product="polyamine ABC transporter permease"
                      /protein_id="YP_207360.1"
                      /db_xref="GI:59800648"
                      /db_xref="GeneID:3281667"
@@ -3613,16 +3139,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281651"
      CDS             195949..196836
                      /locus_tag="NGO0196"
-                     /note="Best Blastp Hit: pir||E81179 spermidine/putrescine
-                     ABC transporter permease NMB0612 [imported] - Neisseria
-                     meningitidis (group B strain MD58)
-                     >gi|7225842|gb|AAF41039.1| (AE002416)
-                     spermidine/putrescine ABC transporter permease [Neisseria
-                     meningitidis MC58];
-                     COG1177 ABC-type spermidine/putrescine transport"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter permease, polyamine"
+                     /product="polyamine ABC transporter permease"
                      /protein_id="YP_207361.1"
                      /db_xref="GI:59800649"
                      /db_xref="GeneID:3281651"
@@ -3637,9 +3156,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281682"
      CDS             196858..198258
                      /locus_tag="NGO0197"
-                     /note="Best Blastp Hit: possible phase variable - 8T
-                     residue homopolymer repeat in the coding sequence (ON);
-                     COG0665 Predicted oxidoreductases"
+                     /note="possible phase variable - 8T residue homopolymer
+                     repeat in the coding sequence"
                      /codon_start=1
                      /transl_table=11
                      /product="oxidoreductase"
@@ -3660,12 +3178,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281685"
      CDS             complement(198352..199818)
                      /locus_tag="NGO0198"
-                     /note="Best Blastp Hit: possibly phase variable - 8A
-                     residue homopolymer repeat in the coding sequence (ON);
-                     COG0004 Ammonia permeases"
                      /codon_start=1
                      /transl_table=11
-                     /product="transporter ammonium"
+                     /product="ammonium transporter"
                      /protein_id="YP_207363.1"
                      /db_xref="GI:59800651"
                      /db_xref="GeneID:3281685"
@@ -3734,10 +3249,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281705"
      CDS             204491..205144
                      /locus_tag="NGO0201"
-                     /note="Best Blastp Hit: pir||G81087 IS1016C2 transposase
-                     NMB1411 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7226649|gb|AAF41773.1| (AE002489)
-                     IS1016C2 transposase [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="IS1016 transposase"
@@ -3753,15 +3264,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281768"
      CDS             205270..206091
                      /locus_tag="NGO0202"
-                     /note="Best Blastp Hit: pir||H81177 conserved hypothetical
-                     protein NMB0619 [imported] - Neisseria meningitidis (group
-                     B strain MD58) >gi|7225849|gb|AAF41045.1| (AE002417)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58];
-                     COG1806 Uncharacterized BCR, YdiA family"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="PEP synthetase regulatory protein"
                      /protein_id="YP_207367.1"
                      /db_xref="GI:59800655"
                      /db_xref="GeneID:3281768"
@@ -3775,10 +3280,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282551"
      CDS             complement(206177..206887)
                      /locus_tag="NGO0203"
-                     /note="Best Blastp Hit: gb|AAF41046.1| (AE002417)
-                     phosphoglycolate phosphatase [Neisseria meningitidis
-                     MC58];
-                     COG0546 Predicted phosphatases"
                      /codon_start=1
                      /transl_table=11
                      /product="phosphatase"
@@ -3795,11 +3296,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281097"
      CDS             complement(206877..207704)
                      /locus_tag="NGO0204"
-                     /note="Best Blastp Hit: pir||B81178 conserved hypothetical
-                     protein NMB0621 [imported] - Neisseria meningitidis (group
-                     B strain MD58) >gi|7225851|gb|AAF41047.1| (AE002417)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -3816,17 +3312,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3282546"
      CDS             208087..208710
                      /locus_tag="NGO0205"
-                     /note="Best Blastp Hit: sp|P57068|LOLA_NEIMB
-                     outer-membrane lipoproteins carrier protein precursor
-                     >gi|11281795|pir||C81178 outer membrane lipoprotein
-                     carrier protein NMB0622 [imported] - Neisseria
-                     meningitidis (group B strain MD58)
-                     >gi|7225852|gb|AAF41048.1| (AE002417) outer membrane
-                     lipoprotein carrier protein [Neisseria meningitidis MC58];
-                     lipoprotein carrier precursor, periplasmic binding"
                      /codon_start=1
                      /transl_table=11
-                     /product="LolA protein"
+                     /product="outer-membrane lipoprotein carrier protein"
                      /protein_id="YP_207370.1"
                      /db_xref="GI:59800658"
                      /db_xref="GeneID:3282546"
@@ -3839,14 +3327,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281089"
      CDS             208983..210119
                      /locus_tag="NGO0206"
-                     /note="Best Blastp Hit: pir||D81176 spermidine/putrescine
-                     ABC transporter periplasmic spermidine/putrescine-binding
-                     protein NMB0623 [imported] - Neisseria meningitidis (group
-                     B strain MD58) >gi|7225854|gb|AAF41049.1| (AE002418)
-                     spermidine/putrescine ABC transporter periplasmic
-                     spermidine/putrescine-binding protein [Neisseria
-                     meningitidis MC58];
-                     COG0687 Spermidine/putrescine-binding periplasmic"
                      /codon_start=1
                      /transl_table=11
                      /product="ABC transporter periplasmic binding protein,
@@ -3866,9 +3346,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281408"
      CDS             210214..211197
                      /locus_tag="NGO0207"
-                     /note="Best Blastp Hit: possibly phase variable - 5 tandem
-                     repeats of CAAACAC in the coding sequence (ON);
-                     COG0463 Glycosyl transferases involved in cell wall"
+                     /note="possibly phase variable - 5 tandem repeats of
+                     CAAACAC in the coding sequence"
                      /codon_start=1
                      /transl_table=11
                      /product="sugar transferase"
@@ -3886,15 +3365,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281351"
      CDS             211238..211768
                      /locus_tag="NGO0208"
-                     /note="Best Blastp Hit: pir||E81176 conserved hypothetical
-                     protein NMB0625 [imported] - Neisseria meningitidis (group
-                     B strain MD58) >gi|7225855|gb|AAF41050.1| (AE002418)
-                     conserved hypothetical protein [Neisseria meningitidis
-                     MC58];
-                     COG0663 Carbonic anhydrases/acetyltransferases"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="anhydrase"
                      /protein_id="YP_207373.1"
                      /db_xref="GI:59800661"
                      /db_xref="GeneID:3281351"
@@ -4033,9 +3506,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281410"
      CDS             complement(216382..217884)
                      /locus_tag="NGO0214"
-                     /note="Best Blastp Hit: emb|CAB84122.1| (AL162754)
-                     phosphate acyltransferase [Neisseria meningitidis];
-                     COG0280 Phosphotransacetylase"
                      /codon_start=1
                      /transl_table=11
                      /product="phosphotransacetylase"
@@ -4056,15 +3526,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281434"
      CDS             complement(218069..219127)
                      /locus_tag="NGO0215"
-                     /note="Best Blastp Hit: emb|CAB84123.1| (AL162754)
-                     iron-uptake permease ATP-binding protein [Neisseria
-                     meningitidis];
-                     COG1101 ATPase components of various transport; protein
-                     FbpC"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter ATP-binding protein, iron
-                     related"
+                     /product="iron ABC transporter ATP-binding protein FbpC"
                      /protein_id="YP_207380.1"
                      /db_xref="GI:59800668"
                      /db_xref="GeneID:3281434"
@@ -4080,11 +3544,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281381"
      CDS             complement(219148..220677)
                      /locus_tag="NGO0216"
-                     /note="Best Blastp Hit: R] COG1081 Uncharacterized
-                     permeases"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter permeas"
+                     /product="iron ABC transporter permease"
                      /protein_id="YP_207381.1"
                      /db_xref="GI:59800669"
                      /db_xref="GeneID:3281381"
@@ -4103,18 +3565,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281438"
      CDS             complement(220733..221728)
                      /locus_tag="NGO0217"
-                     /note="Best Blastp Hit: gb|AAB63559.1| (U33937) binds iron
-                     in a manner similar to transferrin; periplasmic
-                     iron-binding protein; Method: conceptual translation
-                     supplied by author [Neisseria gonorrhoeae]
-                     >gi|1588872|prf||2209379A fbpA gene [Neisseria
-                     gonorrhoeae];
-                     COG1840 Thiamine-binding periplasmic proteins; protein
-                     FbpA"
+                     /note="protein FbpA"
                      /codon_start=1
                      /transl_table=11
-                     /product="ABC transporter periplasmic binding protein,
-                     iron related"
+                     /product="iron ABC transporter substrate-binding protein"
                      /protein_id="YP_207382.1"
                      /db_xref="GI:59800670"
                      /db_xref="GeneID:3281438"
@@ -4157,13 +3611,6 @@ FEATURES             Location/Qualifiers
      CDS             complement(223913..224782)
                      /locus_tag="NGO0220"
                      /EC_number="2.7.7.9"
-                     /note="Best Blastp Hit: pir||C81175
-                     UTP--glucose-1-phosphate uridylyltransferase NMB0638
-                     [imported] - Neisseria meningitidis (group B strain MD58)
-                     >gi|7225867|gb|AAF41061.1| (AE002419)
-                     UTP--glucose-1-phosphate uridylyltransferase [Neisseria
-                     meningitidis MC58];
-                     COG1210 UDP-glucose pyrophosphorylase"
                      /codon_start=1
                      /transl_table=11
                      /product="UTP-glucose-1-phosphate uridylyltransferase"
@@ -4187,8 +3634,7 @@ FEATURES             Location/Qualifiers
                      hypoxanthine"
                      /codon_start=1
                      /transl_table=11
-                     /product="deoxyribonucleotide triphosphate
-                     pyrophosphatase"
+                     /product="non-canonical purine NTP pyrophosphatase"
                      /protein_id="YP_207386.1"
                      /db_xref="GI:59800674"
                      /db_xref="GeneID:3281441"
@@ -4201,11 +3647,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281455"
      CDS             complement(225402..225635)
                      /locus_tag="NGO0222"
-                     /note="Best Blastp Hit: gb|AAF41063.1| (AE002419)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="membrane protein"
                      /protein_id="YP_207387.1"
                      /db_xref="GI:59800675"
                      /db_xref="GeneID:3281455"
@@ -4229,16 +3673,14 @@ FEATURES             Location/Qualifiers
                      VDDKIVCVPADDRNNGNAYKTLSDLPQQLIKQIEFHFNHYKDLKKAGTTKVESWGGAE
                      EAKKVIKESIERWNKQA"
      gene            complement(226378..226836)
-                     /gene="ntpA"
                      /locus_tag="NGO0224"
                      /db_xref="GeneID:3281460"
      CDS             complement(226378..226836)
-                     /gene="ntpA"
                      /locus_tag="NGO0224"
                      /note="converts dATP to dAMP and pyrophosphate"
                      /codon_start=1
                      /transl_table=11
-                     /product="dATP pyrophosphohydrolase"
+                     /product="phosphohydrolase"
                      /protein_id="YP_207389.1"
                      /db_xref="GI:59800677"
                      /db_xref="GeneID:3281460"
@@ -4257,9 +3699,7 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281479"
      CDS             227386..229272
                      /locus_tag="NGO0225"
-                     /note="Best Blastp Hit: gb|AAF62313.1| (AE002419)
-                     MafB-related protein [Neisseria meningitidis MC58]; MafB1
-                     protein"
+                     /note="MafB1 protein"
                      /codon_start=1
                      /transl_table=11
                      /product="MafB-like protein"
@@ -4283,10 +3723,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281476"
      CDS             229300..229722
                      /locus_tag="NGO0226"
-                     /note="Best Blastp Hit: pir||C81176 hypothetical protein
-                     NMB0648 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7225875|gb|AAF41069.1| (AE002419)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -4301,8 +3737,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281474"
      CDS             230200..230445
                      /locus_tag="NGO0227"
-                     /note="Best Blastp Hit: emb|CAB84136.1| (AL162754)
-                     hypothetical protein NMA0855 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -4316,10 +3750,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281465"
      CDS             230448..230834
                      /locus_tag="NGO0228"
-                     /note="Best Blastp Hit: pir||E81931 hypothetical protein
-                     NMA0857 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379573|emb|CAB84138.1| (AL162754)
-                     hypothetical protein NMA0857 [Neisseria meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -4334,8 +3764,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281469"
      CDS             231055..231444
                      /locus_tag="NGO0229"
-                     /note="Best Blastp Hit: possibly phase variable - 8A
-                     residue homopolymer repeat in the coding sequence (ON)"
+                     /note="possibly phase variable - 8A residue homopolymer
+                     repeat in the coding sequence"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -4350,15 +3780,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281492"
      CDS             complement(231484..232941)
                      /locus_tag="NGO0230"
-                     /note="Best Blastp Hit: pir||G81931 probable transmembrane
-                     potassium transporter NMA0859 [imported] - Neisseria
-                     meningitidis (group A strain Z2491)
-                     >gi|7379575|emb|CAB84140.1| (AL162754)  transmembrane
-                     potassium transporter [Neisseria meningitidis];
-                     COG0168 Potassium uptake system component TrkG"
                      /codon_start=1
                      /transl_table=11
-                     /product="transport protein, potassium"
+                     /product="Trk system potassium uptake protein"
                      /protein_id="YP_207395.1"
                      /db_xref="GI:59800683"
                      /db_xref="GeneID:3281492"
@@ -4398,14 +3822,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281362"
      CDS             complement(233863..234252)
                      /locus_tag="NGO0232"
-                     /note="Best Blastp Hit: pir||F81174 ribonuclease, probable
-                     NMB0662 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7225887|gb|AAF41080.1| (AE002420)
-                     ribonuclease,  [Neisseria meningitidis MC58];
-                     COG0251  translation initiation inhibitor"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="reactive intermediate/imine deaminase"
                      /protein_id="YP_207397.1"
                      /db_xref="GI:59800685"
                      /db_xref="GeneID:3281362"
@@ -4417,8 +3836,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281494"
      CDS             complement(234399..234926)
                      /locus_tag="NGO0233"
-                     /note="Best Blastp Hit: gb|AAB41581.1| (U52069) outer
-                     membrane protein [Neisseria gonorrhoeae]"
                      /codon_start=1
                      /transl_table=11
                      /product="outer membrane protein"
@@ -4456,11 +3873,6 @@ FEATURES             Location/Qualifiers
      CDS             complement(236601..239072)
                      /locus_tag="NGO0235"
                      /EC_number="6.5.1.2"
-                     /note="Best Blastp Hit: pir||F81172 DNA ligase NMB0666
-                     [imported] - Neisseria meningitidis  (group B strain MD58)
-                     >gi|7225892|gb|AAF41084.1| (AE002421) DNA ligase
-                     [Neisseria meningitidis MC58];
-                     COG0272 NAD-dependent DNA ligase (contains BRCT"
                      /codon_start=1
                      /transl_table=11
                      /product="DNA ligase"
@@ -4487,10 +3899,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281509"
      CDS             complement(239206..240492)
                      /locus_tag="NGO0236"
-                     /note="Best Blastp Hit: pir||G81172 hypothetical protein
-                     NMB0667 [imported] - Neisseria meningitidis (group B
-                     strain MD58) >gi|7225893|gb|AAF41085.1| (AE002421)
-                     hypothetical protein [Neisseria meningitidis MC58]"
                      /codon_start=1
                      /transl_table=11
                      /product="hypothetical protein"
@@ -4510,12 +3918,6 @@ FEATURES             Location/Qualifiers
                      /db_xref="GeneID:3281496"
      CDS             complement(240686..241258)
                      /locus_tag="NGO0237"
-                     /note="Best Blastp Hit: pir||F81932 probable
-                     anhydro-N-acetylmuramyl-tripeptide amidase NMA0867
-                     [imported] - Neisseria meningitidis (group A strain Z2491)
-                     >gi|7379582|emb|CAB84147.1| (AL162754)
-                     anhydro-N-acetylmuramyl-tripeptide amidase [Neisseria
-                     meningitidis]"
                      /codon_start=1
                      /transl_table=11
                      /product="N-acetyl-anhydromuranmyl-L-alanine amidase"
@@ -4557,16 +3959,10 @@ FEATURES             Location/Qualifiers
      CDS             243240..244520
                      /locus_tag="NGO0240"
                      /EC_number="1.1.1.38"
-                     /note="Best Blastp Hit: pir||A81933 probable malate
-                     dehydrogenase (oxaloacetate-decarboxylating) (EC 1.1.1.38)
-                     NMA0870 [imported] - Neisseria meningitidis (group A
-                     strain Z2491) >gi|7379585|emb|CAB84150.1| (AL162754)
-                     malate oxidoreductase [Neisseria meningitidis];
-                     COG0281 Malic enzyme"
+                     /note="malic enzyme"
                      /codon_start=1
                      /transl_table=11
-                     /product="malic enzyme, malate
-                     dehydrogenase/oxaloacetate-decarboxylating"
+                     /product="malate dehydrogenase"
                      /protein_id="YP_207405.1"
                      /db_xref="GI:59800693"
                      /db_xref="GeneID:3281502"
