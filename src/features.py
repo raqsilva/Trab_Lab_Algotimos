@@ -54,7 +54,8 @@ def without_note(record):
             if "note" not in my_cds.qualifiers:
                 print(my_cds.qualifiers["protein_id"])
         
-    
+
+   
 def locus_tag(record):
     for i in range(len(record.features)):
         my_cds = record.features[i]
@@ -87,16 +88,17 @@ def hypoth_proteins(record):
             else:
                 print("Nao contem produtos!")
        
-         
+#YP_009115478.1  
 #Gene ID and GI number
-def gene_ID_GI(record):
+def gene_ID_GI(record,protein_ID):
     for i in range(len(record.features)):
         my_gene = record.features[i]
-        if my_gene.type == "CDS": 
-            #there are usually several db_xref entries in CDS, but one in gene qualifier
-            if "db_xref" in my_gene.qualifiers:
-                print(my_gene.qualifiers["db_xref"])
-                
+        if my_gene.type == "CDS":             
+        #there are usually several db_xref entries in CDS, but one in gene qualifier
+            if my_gene.qualifiers["protein_id"][0]==str(protein_ID):    
+                if "db_xref" in my_gene.qualifiers:
+                    print(my_gene.qualifiers["db_xref"])
+        
 
 #Getting pseudogenes
 def pseudogenes(record):
@@ -119,18 +121,16 @@ def EC_number(record):
                 
 
 #Translated sequence, protein sequence
-def translation(record,gene):
+def translation(record,protein_ID): 
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
-            if my_cds.qualifiers["locus_tag"][0]==gene:
-                if "translation" in my_cds.qualifiers:
-                    return (my_cds.qualifiers["translation"])
-                else:
-                    return "Nao ha traducao"
-            else:
-                return "Nao existe este gene"
-                
+             if my_cds.qualifiers["protein_id"][0]==str(protein_ID):
+                    if "translation" in my_cds.qualifiers:
+                        print (my_cds.qualifiers["translation"][0])
+                    else:
+                        print( "Nao ha traducao")
+                    
 
 #information from tRNA             
 def tRNA(record):
@@ -157,7 +157,7 @@ def DB_pubmed(gene):
     idlist = record["IdList"]
     return idlist
      
-     
+#745998704  
 #Running Blast and saving info into a file
 #GI_number - gene identification number
 def blast(GI_numb,filename):
@@ -212,12 +212,13 @@ def menu(record):
             product(record)
         elif ans=="3":
             without_note(record)
-            note(record)
+            #note(record)
         elif ans=="4":
-            gene_ID_GI(record)
+            prot_ID=str(input("Protein ID: "))
+            gene_ID_GI(record,prot_ID)
         elif ans=="5":
-            gene=str(input("Gene locus_tag: "))
-            print(translation(record,gene))
+            prot_ID=str(input("Protein ID: "))
+            print(translation(record,prot_ID))
         elif ans=="6":
             EC_number(record)
         elif ans=="7":
