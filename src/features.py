@@ -1,6 +1,6 @@
 from Bio import SeqIO 
 from Bio import Entrez
-from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIWWW,NCBIXML
 import shutil#moving files
 import os.path#cheking files in path
 
@@ -174,8 +174,17 @@ def blast(GI_numb,filename):
     
 #Parsing Blast files
 def parse_blast(filename):
-    result_handle = open("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"+filename)
-
+    #E_VALUE_THRESH = 0.05
+    result_handle = open("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res\\"+filename)
+    blast_record = NCBIXML.read(result_handle)
+    for alignment in blast_record.alignments:
+        for hsp in alignment.hsps:
+            #if hsp.expect < E_VALUE_THRESH:
+            print ("****Alignment****")
+            print ('sequence:', alignment.title)
+            print ('length:', alignment.length)
+            print ('e value:', hsp.expect)
+    result_handle.close()
 
 
     
@@ -192,20 +201,20 @@ def menu(record):
         print("""
     1.locus_tag
     2.product
-    3.note and without note
-    4.GI number, geneID
+    3.note and without note (return proteinID)
+    4.GI number, geneID (needs proteinID)
     5.translation
     6.EC_number
     7.location
     8.tRNA
     9.pseudogenes
     10.hypothetical proteins
-    11.Artigos relacionados com um gene
-    12.Correr o blast da proteina
+    11.Article with a gene reference
+    12.Running protein Blast (needs GI number)
     13.Parsing blast
-    14.Sair
+    14.Exit
     """)
-        ans=input("Qual a opcao? ")
+        ans=input("Choose an option? ")
         if ans=="1":
             locus_tag(record)
         elif ans=="2":
@@ -245,7 +254,7 @@ def menu(record):
         elif ans=="14":
             ans = False
         else:
-            print("\nInvalido")
+            print("\nInvalid")
 
 
 
