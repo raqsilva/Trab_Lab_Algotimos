@@ -114,6 +114,19 @@ def pseudogenes(record):
             if "pseudogene" in my_gene.qualifiers:
                 genes.append(my_gene.qualifiers["db_xref"][0])
     return genes
+
+
+#Getting genes names
+def genes_names(record):
+    genes=[]
+    for i in range(len(record.features)):
+        my_gene = record.features[i]
+        if my_gene.type == "gene": 
+            if "gene" in my_gene.qualifiers:
+                genes.append(my_gene.qualifiers["gene"][0])
+            else:
+                genes.append("Nao tem nome!")
+    return genes
     
   
 #protein EC number, identification
@@ -210,7 +223,7 @@ def menu(record):
     ans=True
     while ans:
         print("""
-    1.locus_tag
+    1.locus_tag plus genes names
     2.product
     3.note (returns note) and without note (returns proteinID)
     4.GI number, geneID (needs proteinID)
@@ -228,6 +241,7 @@ def menu(record):
         ans=input("Choose an option? ")
         if ans=="1":
             print(locus_tag(record))
+            print(genes_names(record))
         elif ans=="2":
             print(product(record))
         elif ans=="3":
