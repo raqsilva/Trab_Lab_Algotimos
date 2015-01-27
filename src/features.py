@@ -18,8 +18,8 @@ def get_genome_zone(start,stop,filename):
     file.close()
     handle.close()
     #moving the file to another directory
-    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename #source folder
-    dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"            #destination folder
+    src = "../src/"+filename #source folder
+    dst = "../res"#destination folder
     shutil.move(src, dst)
     record = SeqIO.read("../res/"+filename, "genbank") 
     return record
@@ -167,15 +167,15 @@ def blast(GI_numb,filename):
     save_file.close()
     result_handle.close()
     #moving the file to another directory
-    src = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\src\\"+filename #source folder
-    dst = "D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res"            #destination folder
+    src = "../src/"+filename #source folder
+    dst = "../res"#destination folder
     shutil.move(src, dst)
     
     
 #Parsing Blast files
 def parse_blast(filename):
     #E_VALUE_THRESH = 0.05
-    result_handle = open("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res\\"+filename)
+    result_handle = open("../res/"+filename)
     blast_record = NCBIXML.read(result_handle)
     for alignment in blast_record.alignments:
         for hsp in alignment.hsps:
@@ -243,7 +243,7 @@ def menu(record):
             print(DB_pubmed(gene))
         elif ans=="12":
             file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
-            while os.path.isfile("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res\\"+file):
+            while os.path.isfile("../res/"+file):
                  file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
             else:False
             GI=str(input("Qual o GI number da sequencia? "))
@@ -263,7 +263,7 @@ def create_file():
     stop=str(input(print("Insira o fim da sua zona do genoma:")))
     filename=str(input(print("Insira nome do ficheiro: "))+".gb")#filename plus extension being genbank
     #checking if name already exists    
-    while os.path.isfile("D:\\Documentos\\GitHub\\Trab_Lab_Algotimos\\res\\"+filename):
+    while os.path.isfile("../res/"+filename):
         filename=str(input(print("Insira outro nome: "))+".gb")
     else:False
     #if not exists get the genome zone and create new file
@@ -282,6 +282,4 @@ if __name__ == "__main__":
         record = SeqIO.read("../res/"+filename, "genbank") 
     menu(record)
     
-
-
 
