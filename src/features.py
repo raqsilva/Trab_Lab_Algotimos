@@ -205,7 +205,7 @@ def menu(record):
     2.product
     3.note and without note (return proteinID)
     4.GI number, geneID (needs proteinID)
-    5.translation
+    5.translation (needs proteinID)
     6.EC_number
     7.location
     8.tRNA
@@ -284,4 +284,3 @@ if __name__ == "__main__":
         record = SeqIO.read("../res/"+filename, "genbank") 
     menu(record)
     
-
