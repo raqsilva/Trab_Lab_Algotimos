@@ -18,7 +18,8 @@ def get_genome_zone(start,stop,filename):
     file.close()
     handle.close()
     #moving the file to another directory
-    src = "../src/"+filename #source folder
+    path=os.getcwd()
+    src = path+"/"+filename #source folder
     dst = "../res"#destination folder
     shutil.move(src, dst)
     record = SeqIO.read("../res/"+filename, "genbank") 
@@ -167,7 +168,8 @@ def blast(GI_numb,filename):
     save_file.close()
     result_handle.close()
     #moving the file to another directory
-    src = "../src/"+filename #source folder
+    path=os.getcwd()
+    src = path+"/"+filename #source folder
     dst = "../res"#destination folder
     shutil.move(src, dst)
     
