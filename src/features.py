@@ -28,7 +28,7 @@ def get_genome_zone(start,stop,filename):
 
 #Gives the sequence location in genome
 def location(record):
-    featcds = [ ] 
+    featcds = [ ]
     for i in range(len(record.features)):
         if record.features[i].type == "CDS": 
             featcds.append(i)
@@ -38,56 +38,60 @@ def location(record):
         
 #Notes from the sequence
 def note(record):
-     for i in range(len(record.features)):
+    notes=[]
+    for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
             if "note" in my_cds.qualifiers:
-                print(my_cds.qualifiers["note"])
+                notes.append(my_cds.qualifiers["note"][0])
             else:
-                print("Nao contem nota!")
+                notes.append("Nao contem nota!")
+    return notes
 
 
 #proteins without notes
 def without_note(record):
+    ID=[]
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
             if "note" not in my_cds.qualifiers:
-                print(my_cds.qualifiers["protein_id"])
-        
+                ID.append(my_cds.qualifiers["protein_id"][0])
+    return ID
 
-   
+
 def locus_tag(record):
+    locus=[]
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS": 
-            if "locus_tag" in my_cds.qualifiers:
-                print(my_cds.qualifiers["locus_tag"])
-            else:
-                print("Nao contem locus_tag!")
+            locus.append(my_cds.qualifiers["locus_tag"][0])
+    return locus
     
     
 #Products from the sequence, name of the proteins
 def product(record):
+    products=[]
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
             if "product" in my_cds.qualifiers:
-                print(my_cds.qualifiers["product"])
+                products.append(my_cds.qualifiers["product"][0])
             else:
-                print("Nao contem produtos!")
-                
+                products.append("Nao contem produtos!")
+    return products
+
 
 #get hypothetical proteins (proteinID) from my zone
 def hypoth_proteins(record):
+    hypo=[]
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
-            if "product" in my_cds.qualifiers:
-                if my_cds.qualifiers["product"]==["hypothetical protein"]:
-                    print(my_cds.qualifiers["protein_id"])           
-            else:
-                print("Nao contem produtos!")
+            if my_cds.qualifiers["product"]==["hypothetical protein"]:
+                hypo.append(my_cds.qualifiers["protein_id"][0])
+    return hypo
+    
        
 #YP_009115478.1  
 #Gene ID and GI number
@@ -103,23 +107,27 @@ def gene_ID_GI(record,protein_ID):
 
 #Getting pseudogenes
 def pseudogenes(record):
+    genes=[]
     for i in range(len(record.features)):
         my_gene = record.features[i]
         if my_gene.type == "gene": 
             if "pseudogene" in my_gene.qualifiers:
-                print(my_gene.qualifiers["db_xref"])
+                genes.append(my_gene.qualifiers["db_xref"][0])
+    return genes
     
   
 #protein EC number, identification
 def EC_number(record):
-     for i in range(len(record.features)):
+    EC=[]
+    for i in range(len(record.features)):
         my_gene = record.features[i]
         if my_gene.type == "CDS": 
             if "EC_number" in my_gene.qualifiers:
-                print(my_gene.qualifiers["EC_number"])
+                EC.append(my_gene.qualifiers["EC_number"][0])
             else:
-                print("Nao contem EC_number!")
-                
+                EC.append("Nao contem EC_number!")
+    return EC
+      
 
 #Translated sequence, protein sequence
 def translation(record,protein_ID): 
@@ -135,13 +143,14 @@ def translation(record,protein_ID):
 
 #information from tRNA             
 def tRNA(record):
+    trna=[]
+    locus=[]
     for i in range(len(record.features)):
         my_trna = record.features[i]
         if my_trna.type == "tRNA":
-            if "product" in my_trna.qualifiers:
-                print(my_trna.qualifiers["product"])
-            else:
-                print("Nao contem produtos!")
+            trna.append(my_trna.qualifiers["product"][0])
+            locus.append(my_trna.qualifiers["locus_tag"][0])
+    return trna,locus
   
 
 #Searching articles from PubMed DB referring to my organism and a gene
@@ -218,12 +227,12 @@ def menu(record):
     """)
         ans=input("Choose an option? ")
         if ans=="1":
-            locus_tag(record)
+            print(locus_tag(record))
         elif ans=="2":
-            product(record)
+            print(product(record))
         elif ans=="3":
-            without_note(record)
-            #note(record)
+            print(without_note(record))
+            print(note(record))
         elif ans=="4":
             prot_ID=str(input("Protein ID: "))
             gene_ID_GI(record,prot_ID)
@@ -231,15 +240,15 @@ def menu(record):
             prot_ID=str(input("Protein ID: "))
             print(translation(record,prot_ID))
         elif ans=="6":
-            EC_number(record)
+            print(EC_number(record))
         elif ans=="7":
             location(record)
         elif ans=="8":
-            tRNA(record)
+            print(tRNA(record))
         elif ans=="9":
-            pseudogenes(record)
+            print(pseudogenes(record))
         elif ans=="10":
-            hypoth_proteins(record)
+            print(hypoth_proteins(record))
         elif ans=="11":
             gene=str(input("Gene name: "))
             print(DB_pubmed(gene))
