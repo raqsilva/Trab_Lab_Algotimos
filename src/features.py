@@ -203,7 +203,7 @@ def menu(record):
         print("""
     1.locus_tag
     2.product
-    3.note and without note (return proteinID)
+    3.note (returns note) and without note (returns proteinID)
     4.GI number, geneID (needs proteinID)
     5.translation (needs proteinID)
     6.EC_number
