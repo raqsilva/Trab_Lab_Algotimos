@@ -191,17 +191,13 @@ def genes_names(record,locus_tag):
                 else:
                     return "Nao tem nome!"
 
-#searching for a gene name
-def list_genes_names(record,locus,gene):
+#list of genes names
+def list_genes_names(record,locus):
     genes=[]
     for i in range(len(locus)):
         if genes_names(record,locus[i])!="Nao tem nome!":
             genes.append(genes_names(record,locus[i]))
-    for j in range(len(genes)):
-        if genes[j]==gene:
-            return True
-    return False
-
+    return genes
     
   
 #protein EC number, identification
@@ -357,7 +353,7 @@ def menu(record):
     7.Article with a gene reference
     8.Running protein Blast (needs GI number)
     9.Parsing blast
-    10.Searching for gene name
+    10.List of genes names
     11.Uniprot    
     12.Exit
     """)
@@ -396,8 +392,7 @@ def menu(record):
             file=str(input("Qual o nome do ficheiro? "))+".xml"
             parse_blast(file)
         elif ans=="10":
-            gene=str(input("Qual o gene? "))
-            print(list_genes_names(record,locus_tag(record),gene))
+            print(list_genes_names(record,locus_tag(record)))
         elif ans=="11":
             print(uniprot(record,locus_tag))
         elif ans=="12":
