@@ -42,7 +42,7 @@ def info(record,locus):
     
     
 def aceder(lista,nr):
-    return lista[nr]
+    return lista[nr-1]
 
 
 #Gives the sequence location in genome
@@ -235,20 +235,16 @@ def menu(record):
     ans=True
     while ans:
         print("""
-    1.locus_tag plus genes names
-    2.product
-    3.note (returns note) and without note (returns proteinID)
-    4.GI number, geneID (needs proteinID)
-    5.translation (needs proteinID)
-    6.EC_number
-    7.location
-    8.tRNA
-    9.pseudogenes
-    10.hypothetical proteins
-    11.Article with a gene reference
-    12.Running protein Blast (needs GI number)
-    13.Parsing blast
-    14.Exit
+    1.Accessing info from one gene
+    2.without note (returns proteinID)
+    3.translation (needs proteinID)
+    4.tRNA
+    5.pseudogenes
+    6.hypothetical proteins
+    7.Article with a gene reference
+    8.Running protein Blast (needs GI number)
+    9.Parsing blast
+    10.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":
@@ -259,40 +255,31 @@ def menu(record):
 #            print(locus_tag(record))
 #            print(genes_names(record))
         elif ans=="2":
-            print(product(record))
-        elif ans=="3":
             print(without_note(record))
             print(note(record))
-        elif ans=="4":
-            prot_ID=str(input("Protein ID: "))
-            gene_ID_GI(record,prot_ID)
-        elif ans=="5":
+        elif ans=="3":
             prot_ID=str(input("Protein ID: "))
             print(translation(record,prot_ID))
-        elif ans=="6":
-            print(EC_number(record))
-        elif ans=="7":
-            location(record)
-        elif ans=="8":
+        elif ans=="4":
             print(tRNA(record))
-        elif ans=="9":
+        elif ans=="5":
             print(pseudogenes(record))
-        elif ans=="10":
+        elif ans=="6":
             print(hypoth_proteins(record))
-        elif ans=="11":
+        elif ans=="7":
             gene=str(input("Gene name: "))
             print(DB_pubmed(gene))
-        elif ans=="12":
+        elif ans=="8":
             file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
             while os.path.isfile("../res/"+file):
                  file=str(input("Qual o nome a colocar no ficheiro? "))+".xml"
             else:False
             GI=str(input("Qual o GI number da sequencia? "))
             blast(GI,file)
-        elif ans=="13":
+        elif ans=="9":
             file=str(input("Qual o nome do ficheiro? "))+".xml"
             parse_blast(file)
-        elif ans=="14":
+        elif ans=="10":
             ans = False
         else:
             print("\nInvalid")
