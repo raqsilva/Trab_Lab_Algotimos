@@ -357,8 +357,9 @@ def menu(record):
     7.Article with a gene reference
     8.Running protein Blast (needs GI number)
     9.Parsing blast
-    11-teste    
-    10.Exit
+    10.Searching for gene name
+    11.Uniprot    
+    12.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":
@@ -369,9 +370,7 @@ def menu(record):
 #            print(locus_tag(record))
 #            print(genes_names(record))
         elif ans=="2":
-            gene=str(input("Qual o gene? "))
-            print(list_genes_names(record,locus_tag(record),gene))
-            #print(without_note(record))
+            print(without_note(record))
         elif ans=="3":
             prot_ID=str(input("Protein ID: "))
             print(translation(record,prot_ID))
@@ -397,9 +396,12 @@ def menu(record):
             file=str(input("Qual o nome do ficheiro? "))+".xml"
             parse_blast(file)
         elif ans=="10":
-            ans = False
+            gene=str(input("Qual o gene? "))
+            print(list_genes_names(record,locus_tag(record),gene))
         elif ans=="11":
             print(uniprot(record,locus_tag))
+        elif ans=="12":
+            ans = False
         else:
             print("\nInvalid")
 
