@@ -4,6 +4,8 @@ from Bio.Blast import NCBIWWW,NCBIXML
 import shutil#moving files
 import os.path#cheking files in path
 
+####teste####
+
 #[0:246000] my zone
 
 #fetching genome zone from Neisseria gonorrhoeae FA 1090 chromosome ncbi
