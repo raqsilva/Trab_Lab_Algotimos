@@ -3,6 +3,7 @@ from Bio import Entrez
 from Bio.Blast import NCBIWWW,NCBIXML
 import shutil#moving files
 import os.path#cheking files in path
+import urllib
 
 
 #[0:246000] my zone
@@ -189,6 +190,18 @@ def genes_names(record,locus_tag):
                     return my_gene.qualifiers["gene"][0]
                 else:
                     return "Nao tem nome!"
+
+#searching for a gene name
+def list_genes_names(record,locus,gene):
+    genes=[]
+    for i in range(len(locus)):
+        if genes_names(record,locus[i])!="Nao tem nome!":
+            genes.append(genes_names(record,locus[i]))
+    for j in range(len(genes)):
+        if genes[j]==gene:
+            return True
+    return False
+
     
   
 #protein EC number, identification
@@ -267,8 +280,23 @@ def info_tRNA(record,locus):
         lista[i].append(product_tRNA(record,locus[i]))
         lista[i].append(location_tRNA(record,locus[i]))
     return lista   
-    
+                  
 
+def uniprot(record):
+    locus=locus_tag(record)
+    proteins=[]
+    for i in range(len(locus)):
+        proteins.append(protein_ID(record,locus[i]))   
+    data = urllib.request.urlopen("http://www.ncbi.nlm.nih.gov/gene?cmd=Retrieve&dopt=full_report&list_uids=3283049").read()    
+    return data.split()[4623]
+
+
+#http://www.ncbi.nlm.nih.gov/gene?cmd=Retrieve&dopt=full_report&list_uids=3283050
+#Q5FAJ2.1
+#b'headers="rs-prot-acc">Q5FAJ1.1</td>'
+
+                   
+                    
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
     """
@@ -284,14 +312,6 @@ def DB_pubmed(gene):
     return idlist
 
 
-def uniprot(record):
-    locus=locus_tag(record)
-    proteins=[]
-    for i in range(len(locus)):
-        proteins.append(protein_ID(record,locus[i]))
-    return proteins
-
-     
 #745998704  
 #Running Blast and saving info into a file
 #GI_number - gene identification number
@@ -349,8 +369,9 @@ def menu(record):
 #            print(locus_tag(record))
 #            print(genes_names(record))
         elif ans=="2":
-            print(without_note(record))
-            print(note(record))
+            gene=str(input("Qual o gene? "))
+            print(list_genes_names(record,locus_tag(record),gene))
+            #print(without_note(record))
         elif ans=="3":
             prot_ID=str(input("Protein ID: "))
             print(translation(record,prot_ID))
