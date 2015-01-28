@@ -283,6 +283,17 @@ def DB_pubmed(gene):
     idlist = record["IdList"]
     return idlist
 
+def uniprot(record,locus_tag):
+      lprotein_id=[]
+      for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if my_cds.type == "CDS":
+            if record.features[i].qualifiers["locus_tag"][0]==str(locus_tag):
+                if "protein_id" in my_cds.qualifiers:
+                    lprotein_id.append(my_cds.qualifiers["protein_id"][0])
+                    return lprotein_id
+          
+
      
 #745998704  
 #Running Blast and saving info into a file
@@ -329,6 +340,7 @@ def menu(record):
     7.Article with a gene reference
     8.Running protein Blast (needs GI number)
     9.Parsing blast
+    11-teste    
     10.Exit
     """)
         ans=input("Choose an option? ")
@@ -368,6 +380,8 @@ def menu(record):
             parse_blast(file)
         elif ans=="10":
             ans = False
+        elif ans=="11":
+            print(uniprot(record,locus_tag))
         else:
             print("\nInvalid")
 
