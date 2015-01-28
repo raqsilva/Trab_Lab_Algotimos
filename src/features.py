@@ -39,11 +39,23 @@ def info(record,locus):
         lista[i].append(product(record,locus[i]))
         lista[i].append(gene_ID_GI(record,locus[i]))
         lista[i].append(EC_number(record,locus[i]))
+        lista[i].append(protein_ID(record,locus[i]))
     return lista
     
     
 def aceder(lista,nr):
     return lista[nr-1]
+
+#return protein ID
+def protein_ID(record,locus_tag):
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if my_cds.type == "CDS":
+            if record.features[i].qualifiers["locus_tag"][0]==str(locus_tag):
+                if "protein_id" in my_cds.qualifiers:
+                    return my_cds.qualifiers["protein_id"][0]
+                else:
+                    return "Nao contem protein_id"
 
 
 #Gives the sequence location in genome
