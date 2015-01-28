@@ -51,7 +51,7 @@ def protein_ID(record,locus_tag):
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
-            if record.features[i].qualifiers["locus_tag"][0]==str(locus_tag):
+            if my_cds.qualifiers["locus_tag"][0]==str(locus_tag):
                 if "protein_id" in my_cds.qualifiers:
                     return my_cds.qualifiers["protein_id"][0]
                 else:
@@ -283,16 +283,13 @@ def DB_pubmed(gene):
     idlist = record["IdList"]
     return idlist
 
-def uniprot(record,locus_tag):
-      lprotein_id=[]
-      for i in range(len(record.features)):
-        my_cds = record.features[i]
-        if my_cds.type == "CDS":
-            if record.features[i].qualifiers["locus_tag"][0]==str(locus_tag):
-                if "protein_id" in my_cds.qualifiers:
-                    lprotein_id.append(my_cds.qualifiers["protein_id"][0])
-                    return lprotein_id
-          
+
+def uniprot(record):
+    locus=locus_tag(record)
+    proteins=[]
+    for i in range(len(locus)):
+        proteins.append(protein_ID(record,locus[i]))
+    return proteins
 
      
 #745998704  
