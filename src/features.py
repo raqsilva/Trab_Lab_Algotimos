@@ -381,7 +381,7 @@ def menu(record):
         elif ans=="10":
             ans = False
         elif ans=="11":
-            print(uniprot(record,locus_tag))
+            print(protein_ID(record,locus_tag))
         else:
             print("\nInvalid")
 
