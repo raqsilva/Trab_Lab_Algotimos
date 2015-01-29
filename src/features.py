@@ -395,13 +395,9 @@ def menu(record):
         elif ans=="10":
             print(list_genes_names(record,locus_tag(record)))
         elif ans=="11":
-<<<<<<< HEAD
-            print(protein_ID(record,locus_tag))
-=======
             print(uniprot(record))
         elif ans=="12":
             ans = False
->>>>>>> origin/master
         else:
             print("\nInvalid")
 
