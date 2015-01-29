@@ -3,6 +3,7 @@ from Bio import Entrez
 from Bio.Blast import NCBIWWW,NCBIXML
 import shutil#moving files
 import os.path#cheking files in path
+import urllib
 
 
 #[0:246000] my zone
@@ -51,7 +52,7 @@ def protein_ID(record,locus_tag):
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
-            if record.features[i].qualifiers["locus_tag"][0]==str(locus_tag):
+            if my_cds.qualifiers["locus_tag"][0]==str(locus_tag):
                 if "protein_id" in my_cds.qualifiers:
                     return my_cds.qualifiers["protein_id"][0]
                 else:
@@ -189,6 +190,14 @@ def genes_names(record,locus_tag):
                     return my_gene.qualifiers["gene"][0]
                 else:
                     return "Nao tem nome!"
+
+#list of genes names
+def list_genes_names(record,locus):
+    genes=[]
+    for i in range(len(locus)):
+        if genes_names(record,locus[i])!="Nao tem nome!":
+            genes.append(genes_names(record,locus[i]))
+    return genes
     
   
 #protein EC number, identification
@@ -267,8 +276,24 @@ def info_tRNA(record,locus):
         lista[i].append(product_tRNA(record,locus[i]))
         lista[i].append(location_tRNA(record,locus[i]))
     return lista   
-    
+                  
 
+def uniprot(record):
+    locus=locus_tag(record)
+    proteins=[]
+    for i in range(len(locus)):
+        proteins.append(protein_ID(record,locus[i]))   
+    data = urllib.request.urlopen("http://www.uniprot.org/uniprot/?query="+proteins[0]+"&sort=score").read()    
+    return data.split()
+
+    
+    
+#http://www.ncbi.nlm.nih.gov/gene?cmd=Retrieve&dopt=full_report&list_uids=3283050
+#Q5FAJ2.1
+#b'headers="rs-prot-acc">Q5FAJ1.1</td>'
+
+                   
+                    
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
     """
@@ -283,18 +308,7 @@ def DB_pubmed(gene):
     idlist = record["IdList"]
     return idlist
 
-def uniprot(record,locus_tag):
-      lprotein_id=[]
-      for i in range(len(record.features)):
-        my_cds = record.features[i]
-        if my_cds.type == "CDS":
-            if record.features[i].qualifiers["locus_tag"][0]==str(locus_tag):
-                if "protein_id" in my_cds.qualifiers:
-                    lprotein_id.append(my_cds.qualifiers["protein_id"][0])
-                    return lprotein_id
-          
 
-     
 #745998704  
 #Running Blast and saving info into a file
 #GI_number - gene identification number
@@ -340,8 +354,9 @@ def menu(record):
     7.Article with a gene reference
     8.Running protein Blast (needs GI number)
     9.Parsing blast
-    11-teste    
-    10.Exit
+    10.List of genes names
+    11.Uniprot    
+    12.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":
@@ -353,7 +368,6 @@ def menu(record):
 #            print(genes_names(record))
         elif ans=="2":
             print(without_note(record))
-            print(note(record))
         elif ans=="3":
             prot_ID=str(input("Protein ID: "))
             print(translation(record,prot_ID))
@@ -379,9 +393,15 @@ def menu(record):
             file=str(input("Qual o nome do ficheiro? "))+".xml"
             parse_blast(file)
         elif ans=="10":
-            ans = False
+            print(list_genes_names(record,locus_tag(record)))
         elif ans=="11":
+<<<<<<< HEAD
             print(protein_ID(record,locus_tag))
+=======
+            print(uniprot(record))
+        elif ans=="12":
+            ans = False
+>>>>>>> origin/master
         else:
             print("\nInvalid")
 
