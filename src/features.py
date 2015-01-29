@@ -407,8 +407,8 @@ def menu(record):
         elif ans=="10":
             print(list_genes_names(record,locus_tag(record)))
         elif ans=="11":
-            #print(uniprot(record))
-            print(info_uniprot(record))
+            print(uniprot(record))
+            #print(info_uniprot(record))
         elif ans=="12":
             ans = False
         else:
