@@ -283,10 +283,11 @@ def uniprot(record):
     proteins=[]
     for i in range(len(locus)):
         proteins.append(protein_ID(record,locus[i]))   
-    data = urllib.request.urlopen("http://www.ncbi.nlm.nih.gov/gene?cmd=Retrieve&dopt=full_report&list_uids=3283049").read()    
-    return data.split()[4623]
+    data = urllib.request.urlopen("http://www.uniprot.org/uniprot/?query="+proteins[0]+"&sort=score").read()    
+    return data.split()
 
-
+    
+    
 #http://www.ncbi.nlm.nih.gov/gene?cmd=Retrieve&dopt=full_report&list_uids=3283050
 #Q5FAJ2.1
 #b'headers="rs-prot-acc">Q5FAJ1.1</td>'
@@ -394,7 +395,7 @@ def menu(record):
         elif ans=="10":
             print(list_genes_names(record,locus_tag(record)))
         elif ans=="11":
-            print(uniprot(record,locus_tag))
+            print(uniprot(record))
         elif ans=="12":
             ans = False
         else:
