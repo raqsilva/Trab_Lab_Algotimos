@@ -350,7 +350,31 @@ def parse_blast(filename):
             print ('length:', alignment.length)
             print ('e value:', hsp.expect)
     result_handle.close()
-
+    
+#Subcellular location by protein (need to check results)
+def proteinlocation():
+    handle = open("uniprot.txt").readlines()
+    uniprotid='AC   '
+    
+    mystr = 'SUBCELLULAR LOCATION:'
+    location=[]
+    uniprot=[]
+    lista=[]
+    
+    for i in handle:
+        if mystr in i:
+            y=i.split(" ")            
+            location.append(y[6] )
+    
+    for j in handle:
+        if uniprotid in j:
+            uniprot.append(j)
+    x=len(location)        
+    for k in range(x):
+        lista.append(((uniprot[k]+" "+location[k])))
+        
+    return lista
+    
 
 
 def menu(record):
@@ -368,7 +392,8 @@ def menu(record):
     9.Parsing blast
     10.List of genes names
     11.Uniprot    
-    12.Exit
+    12.Subcellular location by protein 
+    18.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":
@@ -409,7 +434,11 @@ def menu(record):
         elif ans=="11":
             print(uniprot(record))
             #print(info_uniprot(record))
-        elif ans=="12":
+              
+        elif ans=="12":   
+            location=(proteinlocation())
+            print(location)
+        elif ans=="18":
             ans = False
         else:
             print("\nInvalid")
