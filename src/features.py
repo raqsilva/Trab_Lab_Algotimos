@@ -375,8 +375,27 @@ def proteinlocation():
         
     return lista
     
+#uniprot name (confirmar dados)
+def nomeuniprot():
+    handle = open("uniprot.txt").readlines()
+    name='RecName: Full='
+    uniprotid='AC' 
+    listname=[]
+    uniprot=[]
+    lista=[]
+    
+    for i in handle:
+        if name in i:
+            listname.append(i)
 
-
+    for j in handle:
+        if uniprotid in j:
+            uniprot.append(j)
+    x=len(listname)        
+    for k in range(x):
+        lista.append(((uniprot[k]+" "+listname[k])))
+    return lista
+    
 def menu(record):
     ans=True
     while ans:
@@ -393,6 +412,7 @@ def menu(record):
     10.List of genes names
     11.Uniprot    
     12.Subcellular location by protein 
+    13.Uniprot name 
     18.Exit
     """)
         ans=input("Choose an option? ")
