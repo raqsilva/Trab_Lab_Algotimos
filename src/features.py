@@ -396,6 +396,20 @@ def nomeuniprot():
         lista.append(((uniprot[k]+" "+listname[k])))
     return lista
     
+#name , status of review and size
+def review():
+    handle = open("uniprot.txt").readlines()
+    status='ID   '
+    aa='AA.'
+    res=[]
+    
+    
+    for i in handle:
+        if status and aa in i:  
+            res.append(i) 
+    return res
+    
+    
 def menu(record):
     ans=True
     while ans:
@@ -413,6 +427,7 @@ def menu(record):
     11.Uniprot    
     12.Subcellular location by protein 
     13.Uniprot name 
+    14.name , status of review and size
     18.Exit
     """)
         ans=input("Choose an option? ")

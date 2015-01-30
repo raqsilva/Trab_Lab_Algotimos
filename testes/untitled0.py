@@ -4,17 +4,25 @@ Created on Thu Jan 29 23:45:12 2015
 
 @author: Danielbraga
 """
-#name , status of review and size
-def review():
-    handle = open("uniprot.txt").readlines()
-    status='ID   '
-    aa='AA.'
-    res=[]
-    
-    
-    for i in handle:
-        if status and aa in i:  
-            res.append(i) 
-    return res
-    
-print(review())
+#FUNCTION: 
+#def function():
+handle = open("uniprot.txt").readlines()
+function='CC   '
+uniprotid='AC' 
+listfunction=[]
+uniprot=[]
+lista=[]
+
+for i in handle:
+    if function in i:
+        y=i.split(" ")             
+        listfunction.append(i)
+#
+#for j in handle:
+#    if uniprotid in j:
+#        uniprot.append(j)
+#x=len(listname)        
+#for k in range(x):
+#    lista.append(((uniprot[k]+" "+listname[k])))
+#return lista
+##print(review())
