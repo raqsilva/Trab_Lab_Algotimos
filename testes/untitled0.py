@@ -13,10 +13,10 @@ listfunction=[]
 uniprot=[]
 lista=[]
 
-for i in handle:
-    if function in i:
-        y=i.split(" ")             
-        listfunction.append(i)
+#for i in handle:
+#    if function in i:
+#        y=i.split(" ")             
+#        listfunction.append(i)
 #
 #for j in handle:
 #    if uniprotid in j:
@@ -26,3 +26,5 @@ for i in handle:
 #    lista.append(((uniprot[k]+" "+listname[k])))
 #return lista
 ##print(review())
+
+
