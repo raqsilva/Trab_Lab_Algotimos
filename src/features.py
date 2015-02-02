@@ -301,12 +301,12 @@ ID=['Q5FAJ2', 'Q5FAJ1', 'Q5FAJ0', 'Q5FAI9', 'Q5FAJ3', 'YP_009115477.1', 'Q5FAK0'
 
 def info_uniprot():
     identifier={}
-    handle = open("uniprot.txt")
+    handle = open("../res/"+"uniprot.txt")
     records = parse(handle) # Uses the function 'parse' from the module. 
     for record in records:
-        for i in range(len(uniprot_ID)):
-            if record["AC"]==uniprot_ID[i]+";":
-                identifier[uniprot_ID[i]]=record["ID"]+"  "+record["DE"]+"  "+record["CC"]
+        for i in range(len(ID)):
+            if record["AC"]==ID[i]+";":
+                identifier[ID[i]]=record["ID"]+"  "+record["DE"]+"  "+record["CC"]
     return identifier
 
 
@@ -412,8 +412,8 @@ def menu(record):
             file=str(input("Qual o nome do ficheiro? "))+".xml"
             parse_blast(file)
         elif ans=="10":
-            print(uniprot_ID(record))
-            #print(info_uniprot(record))
+            #print(uniprot_ID(record))
+            print(info_uniprot())
         elif ans=="12":
             ans = False
         else:
