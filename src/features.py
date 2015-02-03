@@ -6,6 +6,8 @@ import os.path#cheking files in path
 import urllib
 from Uniprot_Parser import * #parsing uniprot text file
 from Bio.SeqIO import UniprotIO #parsing uniprot xml file
+import pandas
+import numpy as np
 
 #[0:246000] my zone
 
@@ -37,17 +39,28 @@ def info(record,locus):
         lista[i].append(locus[i])
         lista[i].append(genes_names(record,locus[i]))
         lista[i].append(location(record,locus[i]))
-        lista[i].append(note(record,locus[i]))
-        lista[i].append(product(record,locus[i]))
         lista[i].append(gene_ID_GI(record,locus[i]))
         lista[i].append(EC_number(record,locus[i]))
         lista[i].append(protein_ID(record,locus[i]))
+        lista[i].append(product(record,locus[i]))
+        lista[i].append(note(record,locus[i]))
     return lista
     
     
 def aceder(lista,nr):
     return lista[nr-1]
 
+
+def tabela(lista,locus):
+    headers=['locus','gene name','location','GI GeneID','EC','proteinID','product','note']
+    dado=[]    
+    for i in range(len(locus)):
+        dado.append(locus[i])
+    data=np.array(lista)
+    df=pandas.DataFrame(data, dado, headers)
+    df.to_csv("teste", sep='\t')
+    
+    
 #return protein ID
 def protein_ID(record,locus_tag):
     for i in range(len(record.features)):
@@ -396,7 +409,8 @@ def menu(record):
     9.Parsing blast
     10.Uniprot_ID 
     11.Uniprot Identifier, Definition, Subcellular location
-    12.Get gi from protein without note  
+    12.Get gi from protein without note
+    13.tabela
     20.Exit
     """)
         ans=input("Choose an option? ")
@@ -441,7 +455,10 @@ def menu(record):
             print(more_info_uniprot())
         elif ans=="12":
             print(giwithout_note(record))
-            
+        elif ans=="13":
+            locus=locus_tag(record)            
+            fa=info(record,locus)
+            print(tabela(fa,locus))
         elif ans=="20":
             ans = False
         else:
