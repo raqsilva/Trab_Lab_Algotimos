@@ -368,8 +368,17 @@ def parse_blast(filename):
             print ('length:', alignment.length)
             print ('e value:', hsp.expect)
     result_handle.close()
-    
 
+#Get gi from protein without note    
+def giwithout_note(record):
+    ID=[]
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if my_cds.type == "CDS":
+            if "note" not in my_cds.qualifiers:
+                x=my_cds.qualifiers["db_xref"]
+                ID.append(x[0])
+    return ID
     
     
 def menu(record):
@@ -387,7 +396,8 @@ def menu(record):
     9.Parsing blast
     10.Uniprot_ID 
     11.Uniprot Identifier, Definition, Subcellular location
-    12.Exit
+    12.Get gi from protein without note  
+    20.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":
@@ -430,6 +440,9 @@ def menu(record):
             print(info_uniprot())
             print(more_info_uniprot())
         elif ans=="12":
+            print(giwithout_note(record))
+            
+        elif ans=="20":
             ans = False
         else:
             print("\nInvalid")
