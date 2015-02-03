@@ -5,6 +5,7 @@ import shutil#moving files
 import os.path#cheking files in path
 import urllib
 from Uniprot_Parser import * #parsing uniprot text file
+from Bio.SeqIO import UniprotIO #parsing uniprot xml file
 
 #[0:246000] my zone
 
@@ -307,10 +308,21 @@ def info_uniprot():
         for i in range(len(ID)):
             if record["AC"]==ID[i]+";":
                 identifier[ID[i]]=record["ID"]+"  "+record["DE"]+"  "+record["CC"]
+    handle.close()
     return identifier
 
 
-
+def more_info_uniprot():
+    handle = open("../res/"+"uniprot_XML.xml")
+    records=UniprotIO.UniprotIterator(handle,return_raw_comments=True)
+    refs={}
+    for record in records:
+        for i in range(len(ID)):
+            if record.id==ID[i]:
+                refs[ID[i]]=record.dbxrefs
+    handle.close()
+    return refs
+    
 
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
@@ -373,8 +385,8 @@ def menu(record):
     7.Article with a gene reference
     8.Running protein Blast (needs GI number)
     9.Parsing blast
-    10.List of genes names
-    11.Uniprot_ID   
+    10.Uniprot_ID 
+    11.Uniprot Identifier, Definition, Subcellular location
     12.Exit
     """)
         ans=input("Choose an option? ")
@@ -413,7 +425,10 @@ def menu(record):
             parse_blast(file)
         elif ans=="10":
             #print(uniprot_ID(record))
+            print(ID)
+        elif ans=="11":
             print(info_uniprot())
+            print(more_info_uniprot())
         elif ans=="12":
             ans = False
         else:
