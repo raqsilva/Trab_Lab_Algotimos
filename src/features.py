@@ -377,10 +377,24 @@ def giwithout_note(record):
         if my_cds.type == "CDS":
             if "note" not in my_cds.qualifiers:
                 x=my_cds.qualifiers["db_xref"]
-                ID.append(x[0])
+                gi=x[0]
+                ID.append(gi[3:])
     return ID
-    
-    
+#blast gi without note    
+def blastnote(filename):
+    gi=giwithout_note(record)
+    for i in range(9,len(gi)):
+        GI_numb=str(gi[i])
+        result_handle = NCBIWWW.qblast("blastp", "nr", GI_numb)
+        save_file = open(GI_numb+'.xml', "w")
+        save_file.write(result_handle.read())
+        save_file.close()
+        result_handle.close()
+        #moving the file to another directory
+        path=os.getcwd()
+        src = path+"/"+GI_numb+'.xml' #source folder
+        dst = "../res/blast_without_note"#destination folder
+        shutil.move(src, dst)
 def menu(record):
     ans=True
     while ans:
@@ -396,7 +410,8 @@ def menu(record):
     9.Parsing blast
     10.Uniprot_ID 
     11.Uniprot Identifier, Definition, Subcellular location
-    12.Get gi from protein without note  
+    12.Get gi from protein without note
+    13.Get note from protein without note
     20.Exit
     """)
         ans=input("Choose an option? ")
@@ -441,13 +456,12 @@ def menu(record):
             print(more_info_uniprot())
         elif ans=="12":
             print(giwithout_note(record))
-            
+        elif ans=="13":
+            blastnote(filename)
         elif ans=="20":
             ans = False
         else:
             print("\nInvalid")
-
-
 
 def create_file():
     start=str(input(print("Insira o inicio da sua zona do genoma:")))

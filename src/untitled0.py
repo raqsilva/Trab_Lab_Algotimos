@@ -90,20 +90,10 @@ def without_note(record):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
             if "note" not in my_cds.qualifiers:
-                x=my_cds.qualifiers["db_xref"]
-                ID.append(x[0])
+                ID.append(my_cds.qualifiers["protein_id"][0])
     return ID
 
-#def gene_ID_GI(record,locus_tag):
-#    for i in range(len(record.features)):
-#        my_gene = record.features[i]
-#        if my_gene.type == "CDS":             
-#        #there are usually several db_xref entries in CDS, but one in gene qualifier
-#            if my_gene.qualifiers["locus_tag"][0]==str(locus_tag):    
-#                if "db_xref" in my_gene.qualifiers:
-#                    x=my_gene.qualifiers["db_xref"[0]]
-#                    return x[0],x[1]
-#        
+
 #locus tag, genes
 def locus_tag(record):
     locus=[]
@@ -378,9 +368,33 @@ def parse_blast(filename):
             print ('length:', alignment.length)
             print ('e value:', hsp.expect)
     result_handle.close()
-    
 
+#Get gi from protein without note    
+def giwithout_note(record):
+    ID=[]
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if my_cds.type == "CDS":
+            if "note" not in my_cds.qualifiers:
+                x=my_cds.qualifiers["db_xref"]
+                gi=x[0]
+                ID.append(gi[3:])
+    return ID
     
+def blastnote(filename):
+    gi=giwithout_note(record)
+    for i in range(len(gi)):
+        GI_numb=str(gi[i])
+        result_handle = NCBIWWW.qblast("blastp", "nr", GI_numb)
+        save_file = open(GI_numb+'.xml', "w")
+        save_file.write(result_handle.read())
+        save_file.close()
+        result_handle.close()
+        #moving the file to another directory
+        path=os.getcwd()
+        src = path+"/"+GI_numb+'.xml' #source folder
+        dst = "../res/blast_without_note"#destination folder
+        shutil.move(src, dst)
     
 def menu(record):
     ans=True
@@ -397,7 +411,9 @@ def menu(record):
     9.Parsing blast
     10.Uniprot_ID 
     11.Uniprot Identifier, Definition, Subcellular location
-    12.Exit
+    12.Get gi from protein without note
+    13.Get note from protein without note
+    20.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":
@@ -440,6 +456,10 @@ def menu(record):
             print(info_uniprot())
             print(more_info_uniprot())
         elif ans=="12":
+            print(giwithout_note(record))
+        elif ans=="13":
+            blastnote(filename)
+        elif ans=="20":
             ans = False
         else:
             print("\nInvalid")
