@@ -8,6 +8,8 @@ from Uniprot_Parser import * #parsing uniprot text file
 from Bio.SeqIO import UniprotIO #parsing uniprot xml file
 import pandas
 import numpy as np
+#from __future__ import print_function
+
 
 #[0:246000] my zone
 
@@ -482,7 +484,12 @@ def blastnote(filename):
         src = path+"/"+GI_numb+'.xml' #source folder
         dst = "../res/blast_without_note"#destination folder
         shutil.move(src, dst)
-        
+def blastanaliser():
+    blast=[]    
+    for file in os.listdir("../res/blast_without_note"):
+        if file.endswith(".xml"):
+            blast.append(file)
+    return blast
 def menu(record):
     ans=True
     while ans:
@@ -501,6 +508,7 @@ def menu(record):
     12.Get gi from protein without note
     13.tabela
     14.Get note from protein without note
+    15.blastanaliser
     20.Exit
     """)
         ans=input("Choose an option? ")
@@ -560,6 +568,8 @@ def menu(record):
             
         elif ans=="14":
             blastnote(filename)
+        elif ans=="15":
+            print(blastanaliser())
         elif ans=="20":
             ans = False
         else:
