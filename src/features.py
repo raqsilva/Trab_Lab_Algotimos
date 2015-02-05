@@ -42,6 +42,7 @@ def info(record,locus):
         lista[i].append(gene_ID_GI(record,locus[i]))
         lista[i].append(EC_number(record,locus[i]))
         lista[i].append(protein_ID(record,locus[i]))
+        lista[i].append(ID[i])
         lista[i].append(product(record,locus[i]))
         lista[i].append(note(record,locus[i]))
     return lista
@@ -52,7 +53,7 @@ def aceder(lista,nr):
 
 
 def tabela(lista,locus):
-    headers=['locus','gene name','location','GI GeneID','EC','proteinID','product','note']
+    headers=['locus','gene name','location','GI GeneID','EC','proteinID','Uniprot_ID','product','note']
     dado=[]    
     for i in range(len(locus)):
         dado.append(locus[i])
@@ -193,7 +194,16 @@ def info_pseudogenes(record,locus):
     return lista   
     
 
-
+def tabela_pseudogenes(lista,locus):
+    headers=['locus','gene_ID','product','location']
+    dado=[]    
+    for i in range(len(locus)):
+        dado.append(locus[i])
+    data=np.array(lista)
+    df=pandas.DataFrame(data, dado, headers)
+    df.to_csv("teste_tRNA", sep='\t')
+    
+              
 #Getting genes names
 def genes_names(record,locus_tag):
     for i in range(len(record.features)):
@@ -290,7 +300,19 @@ def info_tRNA(record,locus):
         lista[i].append(product_tRNA(record,locus[i]))
         lista[i].append(location_tRNA(record,locus[i]))
     return lista   
-                  
+
+
+
+def tabela_tRNA(lista,locus):
+    headers=['locus','gene_ID','product','location']
+    dado=[]    
+    for i in range(len(locus)):
+        dado.append(locus[i])
+    data=np.array(lista)
+    df=pandas.DataFrame(data, dado, headers)
+    df.to_csv("teste_tRNA", sep='\t')
+    
+              
 
 def uniprot_ID(record):
     locus=locus_tag(record)
@@ -382,6 +404,7 @@ def parse_blast(filename):
             print ('e value:', hsp.expect)
     result_handle.close()
 
+
 #Get gi from protein without note    
 def giwithout_note(record):
     ID=[]
@@ -459,6 +482,9 @@ def menu(record):
             locus=locus_tag(record)            
             fa=info(record,locus)
             print(tabela(fa,locus))
+            locus_tRNA=tRNA(record)
+            lista_tRNA=info_tRNA(record,locus_tRNA)
+            print(tabela_tRNA(lista_tRNA,locus_tRNA))
         elif ans=="20":
             ans = False
         else:
