@@ -16,43 +16,7 @@ import pandas
 import numpy as np
 
 import os
-blast=[]    
-for file in os.listdir("../res/blast_without_note"):
-    if file.endswith(".xml"):
-        blast.append(file)
-E_VALUE_THRESH = 0.05
-lista=[]
-for i in range(len(blast)):
-    lista.append([])
-    lista[i].append(blast[i])
-    result_handle = open("../res/blast_without_note/"+blast[i])
-    blast_record = NCBIXML.read(result_handle)
-    for alignment in blast_record.alignments:
-        for hsp in alignment.hsps:
-             if hsp.expect < E_VALUE_THRESH:
-                 lista[i].append(alignment.title)
-                 lista[i].append(alignment.length)
-                 lista[i].append(hsp.expect)
-save_file = open('nomatches.txt', "w")
-for i in range(len(lista)):                
-    if len(lista[i])<2:
-        print("nao tem homologos",lista[i])
-        save_file.write(str(lista[i])+'\n')
-save_file.close()
-#        #moving the file to another directory
-path=os.getcwd()
-src = path+"/"+'nomatches.txt' #source folder
-dst = "../res/blast_without_note/nomatch/"#destination folder
-shutil.move(src, dst)
-                 
-save_file = open('matches.txt', "w")
-for i in range(len(lista)):                
-    if len(lista[i])>2:
-        print(" tem homologos",lista[i])
-        save_file.write(str(lista[i])+'\n')
-save_file.close()
-#        #moving the file to another directory
-path=os.getcwd()
-src = path+"/"+'matches.txt' #source folder
-dst = "../res/blast_without_note/match/"#destination folder
-shutil.move(src, dst)
+
+
+data = urllib.request.urlopen("http://www.ncbi.nlm.nih.gov/protein/81622961?report=genpept#comment_81622961").read()
+print(data)
