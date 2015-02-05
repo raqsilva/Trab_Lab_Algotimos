@@ -524,7 +524,7 @@ def menu(record):
             #print(uniprot_ID(record))
             print(ID)
         elif ans=="11":
-            #print(info_uniprot())
+            print(info_uniprot())
             print(more_info_uniprot())
         elif ans=="12":
             print(giwithout_note(record))
