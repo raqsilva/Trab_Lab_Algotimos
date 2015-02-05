@@ -336,13 +336,18 @@ ID=['Q5FAJ2', 'Q5FAJ1', 'Q5FAJ0', 'Q5FAI9', 'Q5FAJ3', 'YP_009115477.1', 'Q5FAK0'
 
 
 def info_uniprot():
-    identifier={}
+    identifier=[]
     handle = open("../res/"+"uniprot.txt")
     records = parse(handle) # Uses the function 'parse' from the module. 
     for record in records:
         for i in range(len(ID)):
+            identifier.append([])
             if record["AC"]==ID[i]+";":
-                identifier[ID[i]]=record["ID"]+"  "+record["DE"]+"  "+record["CC"]
+                #identifier.append([])
+                identifier[i].append(ID[i])
+                identifier[i].append(record["ID"])
+                identifier[i].append(record["DE"])
+                identifier[i].append(record["CC"])
     handle.close()
     return identifier
 
@@ -350,14 +355,39 @@ def info_uniprot():
 def more_info_uniprot():
     handle = open("../res/"+"uniprot_XML.xml")
     records=UniprotIO.UniprotIterator(handle,return_raw_comments=True)
-    refs={}
+    refs=[]
     for record in records:
         for i in range(len(ID)):
             if record.id==ID[i]:
-                refs[ID[i]]=record.dbxrefs
+                refs.append([ID[i]]+record.dbxrefs)#GO´s
     handle.close()
     return refs
     
+
+def tabela_uniprot():
+    dado=[]
+    lista=[]
+    ident=info_uniprot()
+    for i in range(len(ident)):
+        if ident[i]!=[]:
+            dado.append(ident[i][0])       
+            lista.append(ident[i])
+    data=np.array(lista)
+    df=pandas.DataFrame(data, dado)
+    df.to_csv("teste_uniprot", sep='\t')
+    
+    
+def tabela_uniprot2():
+    dado=[]
+    lista=[]
+    ident=more_info_uniprot()
+    for i in range(len(ident)):
+        dado.append(ident[i][0])       
+        lista.append(ident[i])
+    data=np.array(lista)
+    df=pandas.DataFrame(data, dado)
+    df.to_csv("teste_uniprot2", sep='\t')
+
 
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
@@ -474,7 +504,7 @@ def menu(record):
             #print(uniprot_ID(record))
             print(ID)
         elif ans=="11":
-            print(info_uniprot())
+            #print(info_uniprot())
             print(more_info_uniprot())
         elif ans=="12":
             print(giwithout_note(record))
@@ -488,6 +518,8 @@ def menu(record):
             locus_pseudo=pseudogenes(record)
             lista_pseudo=info_pseudogenes(record,locus_pseudo)
             print(tabela_pseudogenes(lista_pseudo,locus_pseudo))
+            print(tabela_uniprot())
+            print(tabela_uniprot2())
         elif ans=="20":
             ans = False
         else:
