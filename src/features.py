@@ -195,15 +195,15 @@ def info_pseudogenes(record,locus):
     
 
 def tabela_pseudogenes(lista,locus):
-    headers=['locus','gene_ID','product','location']
+    headers=['locus','location','gene_ID']
     dado=[]    
     for i in range(len(locus)):
         dado.append(locus[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado, headers)
-    df.to_csv("teste_tRNA", sep='\t')
+    df.to_csv("teste_pseudogenes", sep='\t')
     
-              
+
 #Getting genes names
 def genes_names(record,locus_tag):
     for i in range(len(record.features)):
@@ -485,6 +485,9 @@ def menu(record):
             locus_tRNA=tRNA(record)
             lista_tRNA=info_tRNA(record,locus_tRNA)
             print(tabela_tRNA(lista_tRNA,locus_tRNA))
+            locus_pseudo=pseudogenes(record)
+            lista_pseudo=info_pseudogenes(record,locus_pseudo)
+            print(tabela_pseudogenes(lista_pseudo,locus_pseudo))
         elif ans=="20":
             ans = False
         else:
