@@ -463,10 +463,26 @@ def giwithout_note(record):
         if my_cds.type == "CDS":
             if "note" not in my_cds.qualifiers:
                 x=my_cds.qualifiers["db_xref"]
-                ID.append(x[0])
+                gi=x[0]
+                ID.append(gi[3:])
     return ID
-    
-    
+
+#blast gi without note    
+def blastnote(filename):
+    gi=giwithout_note(record)
+    for i in range(26,len(gi)):
+        GI_numb=str(gi[i])
+        result_handle = NCBIWWW.qblast("blastp","swissprot", GI_numb)
+        save_file = open(GI_numb+'.xml', "w")
+        save_file.write(result_handle.read())
+        save_file.close()
+        result_handle.close()
+        #moving the file to another directory
+        path=os.getcwd()
+        src = path+"/"+GI_numb+'.xml' #source folder
+        dst = "../res/blast_without_note"#destination folder
+        shutil.move(src, dst)
+        
 def menu(record):
     ans=True
     while ans:
@@ -484,6 +500,7 @@ def menu(record):
     11.Uniprot Identifier, Definition, Subcellular location
     12.Get gi from protein without note
     13.tabela
+    14.Get note from protein without note
     20.Exit
     """)
         ans=input("Choose an option? ")
@@ -540,6 +557,9 @@ def menu(record):
             print(tabela_pseudogenes(lista_pseudo,locus_pseudo))
             print(tabela_uniprot())
             print(tabela_uniprot2())
+            
+        elif ans=="14":
+            blastnote(filename)
         elif ans=="20":
             ans = False
         else:
