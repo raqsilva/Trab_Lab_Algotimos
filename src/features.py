@@ -380,15 +380,34 @@ def tabela_uniprot():
 def tabela_uniprot2():
     dado=[]
     lista=[]
-    refs=more_info_uniprot()
+    refs=tab()
     for i in range(len(refs)):
         dado.append(refs[i][0])
-        
         lista.append(refs[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado)
     df.to_csv("../res/excel/teste_uniprot2", sep='\t')
 
+
+def tab():
+    refs=more_info_uniprot()
+    lista=[]
+    l=[]
+    for i in range(len(refs)):
+        l.append(len(refs[i]))
+        lista.append([])
+    m=max(l)
+    for j in range(len(refs)):
+        if len(refs[j])<m:
+            for k in range(len(refs[j])):
+                lista[j].append(refs[j][k])
+            for h in range(len(refs[j]),m):
+                lista[j].append("nao tem")
+        elif len(refs[j])==m:
+            for g in range(len(refs[j])):
+                lista[j].append(refs[j][g])        
+    return lista
+    
 
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
