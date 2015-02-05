@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800536|ref|YP_207248.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>phosphatase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>219</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800536|ref|YP_207248.1|</Iteration_query-ID>
+  <Iteration_query-def>phosphatase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>219</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81609347|sp|Q65Q22.1|GPH_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65Q22</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>8.40338e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAA--------VADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG</Hsp_qseq>
+      <Hsp_hseq>KLIGFDLDGTLVNSLPDLALSVNSALAEFELPQAPEELVLTWIGNGADILIGRALDWAKEQSGKSLTDEQTAQLKERFSFYYAENLCNVSRLYPNVKETLETLKEQGFILAVVTNKPTRHVQPVLKAFAIDHLFSETLGGQSLPAIKPHPAPLYYLCGKFGLYPHQILFVGDSRNDILAAHSAGCTAVGLTYG</Hsp_hseq>
+      <Hsp_midline>KLI FD DGTL ++   +  ++  + AE   P    E V + IG     +I   L+   E +         A +   +S +Y         L+P+    L+ LK QGF LAV T K    +   +   A    +  T      P+ KP P  ++ LCG+ GL P + L VGD+ +D+  A +AG  AVG+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81336428|sp|Q4QMY0.1|GPH_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QMY0</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.20393e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>TPPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLE--------MPSEAAVADIARTYSAHYLNPNNRNMT-LFPDAPPCLDKLKAQGFRLAVATGK---------GRAGLDNAISQTATGGYWLATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>TQFKLIGFDLDGTLVNSLPDLALSVNSALAEFNLPKAPEELVLTWIGNGAPVLIARALDWAKKQTGKVLTETEVKQVTERFNFYY-GENLCNVSRLYPNVKETLETLKEKGYVLAVVTNKPTRHVQPVLAAFGIDHLFSEMLGGQSLPAI--------KPHPAPLYYLCGKFGFEPRQVLFVGDSKNDIIAAHAAGCAVVGLTYGYNYNIPITESNPDWVFDDFAQL</Hsp_hseq>
+      <Hsp_midline>T  KLI FD DGTL ++   +  ++  + AE   P    E V + IG   P +I   L+        + +E  V  +   ++ +Y   N  N++ L+P+    L+ LK +G+ LAV T K            G+D+  S+   G    A         KP P  ++ LCG+ G +P++ L VGD+ +D+  A  AG A VG+  G +    +  +    V D  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|17432942|sp|Q9CKJ5.1|GPH_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CKJ5</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.28838e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MTPPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RALL-------EMPSEAAVADIARTYSAHYLNPNNRNMT-LFPDAPPCLDKLKAQGFRLAVATGKGRA---------GLDNAISQTATGGYWLATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG</Hsp_qseq>
+      <Hsp_hseq>MTQFKLIGFDLDGTLVNSLPDLALSVNSAFAEFDLPQAPEDLVLTWIGNGADILIARALAWAKAQTGKTLNDEQIKALKRRFGFYY-GENLCNLSVLYPNVKSTLETLKQKGYLLAVVTNKPTKHVQPVLQAFGIDHLFSELLGGQSLPAI--------KPHPAPLYYLCGKFGLYPKQVLFVGDSKNDILAAHTAGCAVVGLTYG</Hsp_hseq>
+      <Hsp_midline>MT  KLI FD DGTL ++   +  ++  +FAE   P    + V + IG     +I RAL        +  ++  +  + R +  +Y   N  N++ L+P+    L+ LK +G+ LAV T K            G+D+  S+   G    A         KP P  ++ LCG+ GL PK+ L VGD+ +D+  A  AG A VG+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1176246|sp|P44755.1|GPH_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44755</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>6.76146e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>TPPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLE--------MPSEAAVADIARTYSAHYLNPNNRNMT-LFPDAPPCLDKLKAQGFRLAVATGK---------GRAGLDNAISQTATGGYWLATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG</Hsp_qseq>
+      <Hsp_hseq>TQFKLIGFDLDGTLVNSLPDLALSVNSALAEFNLPQAPEELVLTWIGNGAPVLIARALDWAKKQTGKVLTETEVKQVTERFNFYY-GENLCNVSRLYPNVKETLEILKEKGYVLAVVTNKPTRHVQPVLAAFGIDHLFSEMLGGQSLPAI--------KPHPAPLYYLCGKFGFEPRQVLFVGDSKNDIIAGHAAGCAVVGLTYG</Hsp_hseq>
+      <Hsp_midline>T  KLI FD DGTL ++   +  ++  + AE   P    E V + IG   P +I   L+        + +E  V  +   ++ +Y   N  N++ L+P+    L+ LK +G+ LAV T K            G+D+  S+   G    A         KP P  ++ LCG+ G +P++ L VGD+ +D+     AG A VG+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|730313|sp|P40852.1|GPHC_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase, chromosomal; Short=PGP; Short=PGPase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>P40852</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.01903e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>PPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLE---MPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS--KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG--AHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>PCTAVLIDLDGTLVDSAPDIVEAANRMLADFGSPALPFDTVAGFIGRGVPNLVRRVLETAGLTPRVEAAEAVAMFHRHYAETNGRLGSVFPGVEAGLEALRRQGYRLACVTNKPRALAVPLLALTGLSQY-LEVLVAGDSIAQMKPDPEPLRHACNLLDVDTAQGVLVGDSAVDVAAARAAGIPVCLVRYGYAGPGGPAALGAD--ALLDSLEALPALL</Hsp_hseq>
+      <Hsp_midline>P   ++ D DGTL D+   I++   R  A+ G P    + V   IG  +P ++R +LE   +      A+    +  HY   N R  ++FP     L+ L+ QG+RLA  T K RA     ++ T    Y L    AG+  +  KP PE +   C  L +D  + ++VGD+A D+  A  AG     V  G         LGA   A+LD L  LP  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|22256803|sp|Q9JMQ2.1|PPAX_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q9JMQ2</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.49152e-15</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>ILFDLDGTLINTNELIIASFLHTLEHYYPSKYKREDVLAFIGPSLFDTFSSMDPDKCEDMIA----MYRAYNHDMHDSLVTEYETVYETLDALKKAGFTLGIVTTKLRDTVNMGLKLTGIGEFFETVVTLDDVTNAKPDPEPVLLALKQLGSEPAEAIMVGDNYHDVLAGKNAGTKTAGVAWTIKGPEMLAKHEPDFMLEKMSDL</Hsp_hseq>
+      <Hsp_midline>I+FD DGTL +T + II +   +         + E V + IG SL +   ++     E  +A     Y A+  + ++  +T +      LD LK  GF L + T K R  ++  +  T  G ++       +  + KP PE V     +LG +P EA++VGD  HD+    NAG    GVA      E L       +L+ +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|3913768|sp|O67359.1|GPH_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67359</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.62762e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLE-MPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEY-PSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAA</Hsp_qseq>
+      <Hsp_hseq>RVILFDLDGTLIDSAKDIALALEKTLKELGLEEYYPDNVTKYIGGG----VRALLEKVLKDKFREEYVEVFRKHYLENPVVYTKPYPEIPYTLEALKSKGFKLAVVSNKLEELSKKILDILNLSGYFDLIVGGDTFGEKKPSPTPVLKTLEILGEEPEKALIVGDTDADIEAGKRAGTKT</Hsp_hseq>
+      <Hsp_midline>++I+FD DGTL D+ + I   + ++  E G      + V   IG      +RALLE +  +    +    +  HYL         +P+ P  L+ LK++GF+LAV + K        +      GY+        +   KPSP  V      LG +P++AL+VGDT  D+     AG   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|51316500|sp|Q8XIY6.1|PPAX_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Putative pyrophosphatase PpaX [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>Q8XIY6</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.92664e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPSKPSP--EMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQL</Hsp_qseq>
+      <Hsp_hseq>KAVLFDLDGTLINTNDLILKSFKHTFKTMLDLEPSEEEITMNYGRPLQEIFKSY----DENRIEEMINCYRKINLELHDDECKEFADVDLMLKTLKSKGIKIGVVTSKKSDMAERGAKLMGIFKYF-DTFITPEITTKHKPDGEPVLKACENLGVSPSEALMVGDSPYDILAGKNAGAKTCGVKYTALPLEKL</Hsp_hseq>
+      <Hsp_midline>K ++FD DGTL +T   I+ + + +F       P  E +    G  L EI ++      E  + ++   Y    L  ++     F D    L  LK++G ++ V T K     +          Y+  T    E  +K  P  E V   C  LG+ P EAL+VGD+ +D+    NAGA   GV   A   E+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81442313|sp|Q88QS2.1|GPH_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88QS2</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>7.59932e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TPPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVAD--IARTYSAHYLN---PNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSELPG</Hsp_qseq>
+      <Hsp_hseq>TLPRLVMFDLDGTLIDSVPDLAAAVDRMLLELGRPPAGLEAVRHWVGNGAQVLVRRALAGGIDHADVDDALAEQALALFMDAYAESHELTVVYPGVRDTLRWLRKQGVEMALITNKPERFVGPLLDQMKIGNFFRWIIGGDTLPQKKPDPAALLFVMQMAGVTPQQSLFVGDSRSDVQAAKAAGVQCVGLTYGYNHGRPIDAESPSLVIDDLRALLPG</Hsp_hseq>
+      <Hsp_midline>T P+L++FD DGTL D+   +   + R   E G PP   E VR  +G     ++R  L    + A  D  +A    A +++    ++    ++P     L  L+ QG  +A+ T K    +   + Q   G ++         P  KP P  +  +    G+ P+++L VGD+  D+  A  AG   VG+  G  H R     +P L + D  + LPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|166989836|sp|A7Z971.1|PPAX_BACA2</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus amyloliquefaciens subsp. plantarum str. FZB42]</Hit_def>
+  <Hit_accession>A7Z971</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>8.41606e-15</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYW--LATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>ILFDLDGTLIDTNELIIASYLHTLDHYCPGQFKREDVLPFIGPPLYETFSGI----NAEKCDEMISMYRAFNHEKHDELVTEYETVYETLDELKKAGYQLGIVTTKLRDTVNMGLKLTGIGAFFDTVVTLDDVKHP-KPDPEPVRLALSRLGCDPSEAIMVGDNYHDVMAGKNAGTKTAGVAWTIKGAQTLSAYEPDYMLEKMSDL</Hsp_hseq>
+      <Hsp_midline>I+FD DGTL DT + II +   +         + E V   IG  L E    +    +     ++   Y A     ++  +T +      LD+LK  G++L + T K R  ++  +  T  G ++  + T    ++P KP PE V      LG DP EA++VGD  HD+    NAG    GVA      + L       +L+ +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|57015368|sp|P40853.2|GPHP_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase, plasmid; Short=PGP; Short=PGPase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>P40853</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>9.03211e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>PPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLE---MPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS--KPSPEMVFGLCGELGLDPKEALVVGDT</Hsp_qseq>
+      <Hsp_hseq>PCTAVLIDLDGTLVDCAPDIVEAANRMLADLGSPALPFGTVAGFIGRGVPNLVRRVLETAQLAPRVDATDAVAMFHRHYADTNGRLGSVFPGVEAGLAALRRQGYRLACVTNKPRALAVPLLALTGLSQY-LEVLVAGDSIAQMKPDPEPLRHACNLLDVDAAQGVLVGDS</Hsp_hseq>
+      <Hsp_midline>P   ++ D DGTL D    I++   R  A+ G P      V   IG  +P ++R +LE   +       D    +  HY + N R  ++FP     L  L+ QG+RLA  T K RA     ++ T    Y L    AG+  +  KP PE +   C  L +D  + ++VGD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|33301128|sp|Q87L12.1|GPH_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87L12</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.38789e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RALLEMP------SEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>KLIAFDLDGTLLDSVPDLAVAADQAVQALGYPAVSEEQVRDYVGNGADVLIGRALSQSMTISSDLSEDLRAKGRELFDDFYAQSGHQLSHLYPTVKETLEELHQAGFTMALVTNKPSKFVPEILEQHGIAKYFVDVLGGDAFPEKKPNPVALNWLMEKHQVKASEMLMVGDSKNDILAAKNAGCASFGLTYGYNHGEPISASNPDFVADSLSEL</Hsp_hseq>
+      <Hsp_midline>KLI FD DGTL D+   +     ++    G+P    E+VR  +G     +I RAL +        SE   A     +   Y    ++   L+P     L++L   GF +A+ T K    +   + Q     Y++       +P  KP+P  +  L  +  +   E L+VGD+ +D+  A NAG A+ G+  G +  E +  +    V D LSEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|116248193|sp|Q8DCT7.2|GPH_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DCT7</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.67627e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRS--------LIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>KLIAFDLDGTLLDSVPDLAVAADQATRAVGFPGVTELQVRDYVGNGADILIGRALSQSLTINPELSDELR-AQARELFDDFYQQTGHKLSHLYPTVKETLKELHQAGFTLALVTNKPSKFVPDVLQQHGIADYFVDVLGGDSFPEKKPNPIALNWLMEKHQIQPTEMLMVGDSKNDILAAKNAGCASFGLTYGYNHGEPIAASEPDFVADSLAQL</Hsp_hseq>
+      <Hsp_midline>KLI FD DGTL D+   +     ++    GFP     +VR         LIG +L + +    E+  E   A     +   Y    ++   L+P     L +L   GF LA+ T K    + + + Q     Y++       +P  KP+P  +  L  +  + P E L+VGD+ +D+  A NAG A+ G+  G +  E +  +    V D L++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|116248194|sp|Q7MH14.2|GPH_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MH14</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>4.44456e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRS--------LIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>KLIAFDLDGTLLDSVPDLAVAADQATRAVGFPGVTELQVRDYVGNGADILIGRALSQSLTINPELSDELR-AQARELFDDFYQQTGHKLSHLYPTVKETLKALHQAGFTLALVTNKPSKFVPDVLQQHGIADYFVDVLGGDSFPEKKPNPIALNWLMEKHQIQPTEMLMVGDSKNDILAAKNAGCASFGLTYGYNHGEPISASEPDFVADSLAQL</Hsp_hseq>
+      <Hsp_midline>KLI FD DGTL D+   +     ++    GFP     +VR         LIG +L + +    E+  E   A     +   Y    ++   L+P     L  L   GF LA+ T K    + + + Q     Y++       +P  KP+P  +  L  +  + P E L+VGD+ +D+  A NAG A+ G+  G +  E +  +    V D L++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|110826511|sp|P68910.1|Y2257_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein Mb2257 [Mycobacterium bovis AF2122/97] &gt;gi|614089495|sp|P9WPI8.1|Y2232_MYCTO RecName: Full=Uncharacterized protein MT2292 [Mycobacterium tuberculosis CDC1551] &gt;gi|614089503|sp|P9WPI9.1|Y2232_MYCTU RecName: Full=Uncharacterized protein Rv2232 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P68910</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>4.6501e-14</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRA--LLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPSKPSPEMVFG-LCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLG------APHLAVLDGLSELPGF</Hsp_qseq>
+      <Hsp_hseq>PQLVIFDLDGTLTDSARGIVSSFRHALNHIGAPVPEGDLATHIVGPPMHETLRAMGLGESAEEAIVA-----YRADYSARGWAMNSLFDGIGPLLADLRTAGVRLAVATSKAEPTARRILRHFGIEQHFEVIAGASTDGSRGSKVDVLAHALAQLRPLPERLVMVGDRSHDVDGAAAHGIDTVVVGWG-YGRADFIDKTSTTVVTHAATIDELREALGV</Hsp_hseq>
+      <Hsp_midline>P+L+IFD DGTL D+ + I+ + R +    G P PE +    ++G  + E +RA  L E   EA VA     Y A Y        +LF    P L  L+  G RLAVAT K        +       ++   A A    S+ S   V      +L   P+  ++VGD +HD+  AA  G   V V  G + R   +         H A +D L E  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|3913767|sp|O33512.1|GPH_RHOCA</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>O33512</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>7.34429e-14</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSE--------AAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>LIFDLDGTLIDSAPAIHKVSNDVLRARGYAPLGLDQIRSFVGQGAPHLVRCLLTTAGEDPEGPLFDAIYADLVSRYET-----DVEGNTLYPGVITALQRLREMGCPMAITTNKPYKPALAAIAHVGLTDYFQLVIGGDSLPTRKPNPEMVNE--ARRVLRRPHALYIGDSEIDAQTAQNAGLPFV-IYTEGYRKTPLDALPHAAKFHDFSALPGIV</Hsp_hseq>
+      <Hsp_midline>+IFD DGTL D+   I           G+ P   +++RS +G   P ++R LL    E        A  AD+   Y       +    TL+P     L +L+  G  +A+ T K       AI+      Y+         P+ KP+PEMV        L    AL +GD+  D   A NAG   V + T  + +  L   PH A     S LPG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|17433080|sp|Q9S586.1|GPH1_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase 1; Short=PGP 1; Short=PGPase 1 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9S586</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.58178e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALL----------EMPSEAAVADIARTYS-AHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>PRLVMFDLDGTLVDSVPDLTAAVDSMLASFGRPPAGIEKVRQWIGNGARVLVRRALAGSIEHDGIGEEETEAALALFMEAYADSHALT------EVYPGVVDTLKWLKRNGVEMALITNKPERFVAPLLDEMKLGRYFRWIIGGDTLPQQKPDPAALLFVMKMAGIEPEDALFVGDSRNDVLAAKAAGVRCAALTYGYNHGRPIAEEAPTL-VIDNLRDL</Hsp_hseq>
+      <Hsp_midline>P+L++FD DGTL D+   +   +    A  G PP   E+VR  IG     ++R  L          E  +EAA+A     Y+ +H L        ++P     L  LK  G  +A+ T K    +   + +   G Y+         P  KP P  +  +    G++P++AL VGD+ +D+  A  AG     +  G  H R     AP L V+D L +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|115299203|sp|Q4FPT7.1|GPH_PSYA2</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Psychrobacter arcticus 273-4]</Hit_def>
+  <Hit_accession>Q4FPT7</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.06752e-13</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAH--------YLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPSK-PSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSELPGFLARHY</Hsp_qseq>
+      <Hsp_hseq>QLLIFDFDGTLIDSVPDLADAVNAMLTTLGKAPYPIDTIRNWVGNGSRMLVERALVGKIEVSEGELAKETIDHAEQVFFDAYSKMGGSKTVAYPNVDSGLKKLKAAGFKLALVTNKPIRFVPKILQFFGWHDIFSEVLGGDSLPTKKPDPAPLLHVCEVLNINPAQAVMIGDSINDILAGQNANMDTLGLSYGYNYGQDIRQLNPTEAFDDFSALVDYLLKAY</Hsp_hseq>
+      <Hsp_midline>+L+IFD+DGTL D+   + D +       G  P   + +R+ +G     ++   L    E +  ++A+    H        Y          +P+    L KLKA GF+LA+ T K    +   +        +         P+K P P  +  +C  L ++P +A+++GD+ +D+    NA    +G++ G +  + +         D  S L  +L + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|115298696|sp|Q4K4Z4.1|GPH_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K4Z4</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.92565e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEA-AVADIARTYSAHYLN---PNNRNMT-LFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>PRLVMFDLDGTLVDSVPDLAAAVDQMLLKLGRKPAGVEAVREWVGNGAPMLVRRALANSLEAQGVDDVEAEYALELFNTAYEDSHELTVVYPGARETLKWLHKQGVEMALITNKPERFVAPLLDQMKIGRYFRWIIGGDTLPQKKPDPAALFFVMKMASVPASQSLFVGDSRSDVLAAKAAGVKCVALSYGYNHGRPIAEESPALVIDNLRALIPGCL</Hsp_hseq>
+      <Hsp_midline>P+L++FD DGTL D+   +   + +   + G  P   E VR  +G   P ++R  L    EA  V D+   Y+    N    ++  +T ++P A   L  L  QG  +A+ T K    +   + Q   G Y+         P  KP P  +F +     +   ++L VGD+  D+  A  AG   V ++ G  H R     +P L + +  + +PG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226704844|sp|B7JFI8.1|PPAX_BACC0</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus cereus AH820]</Hit_def>
+  <Hit_accession>B7JFI8</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>9.82561e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLHTYYPNQYKREDVLPFIGPSLHDTFSKI----DESKVEELITSYRQFNHDHHDELVEEYETVYETVQELKKQGYKVGIVTTKARQTVEMGLKLSKLDEFFDVVVTIDDVEHVKPHPEPLQKALQLLGAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLEAYKPDFMLDKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E+ V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      LG  P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|226704848|sp|A9VQ75.1|PPAX_BACWK</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus weihenstephanensis KBAB4]</Hit_def>
+  <Hit_accession>A9VQ75</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.62515e-12</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSELPGFLAR</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLNHYYSNQYKREDVLPFIGPSLHDTFSKI----DASKVEEMITCYRQFNHEHHDELVEEYETVYETVQELKKQGYKIGIVTTKARQTVEMGLKLSKLDQFFDVVVTIDDVEHVKPHPEPLQKALELLDAKPEETLMVGDNHHDIVGGQNAGTKTVAVSWTLKGRAYLEAYKPDYVLDKMSDLLPILSR</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +      + V ++   Y       ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      L   P+E L+VGD  HD+    NAG   V V+     R  L       VLD +S+L   L+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|23821646|sp|Q8UEY9.2|GPH_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>Q8UEY9</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.98807e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RALLEMPSEAAVADIARTYS---AHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG</Hsp_qseq>
+      <Hsp_hseq>LAIFDLDGTLVDTAADLVSSLNHTIAAAGLAPVTYDDLTHLVGQGARVMIKRAFALRETELPEADIDPLYERFITHYRAEMPGESRPYPGIIETLDALSQAGITLAVCTNKTEILAVPLLEKLGLTRYFAAITCGDTFAFRKPDARHILGTIEKAGGDVQRSIMVGDSINDILAARNAAVPSIGVTFG</Hsp_hseq>
+      <Hsp_midline>L IFD DGTL DT   ++ ++  + A  G  P   + +  L+G     +I RA     +E   ADI   Y     HY          +P     LD L   G  LAV T K        + +     Y+ A  C   +   KP    + G   + G D + +++VGD+ +D+  A NA   ++GV  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|115298628|sp|Q3J8A0.1|GPH_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3J8A0</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.50764e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MTPPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RALLEM----PSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSELPGFLAR</Hsp_qseq>
+      <Hsp_hseq>LKQPEMILIDVDGTLVDSVPDLTFCTDTMMERLGLPLRGETKVRQWVGNGVERLIKRALVDNMEGEPEEDLYQKAETIFLALYADNTSKRSHLYPGVNEGLAWLKSQGYRVGCVTNKAAQFTYPLLTELGIIDYFEIVISGDTLPEKKPHPAPLLHAASHFGIAPEKALMIGDSISDVKAARAANFQIVCLSYGYNHGVDIRDSQPDSVIDSLIEIKNLLSQ</Hsp_hseq>
+      <Hsp_midline>+  P++I+ D DGTL D+   +           G P     +VR  +G  +  +I RAL++     P E         + A Y +  ++   L+P     L  LK+QG+R+   T K        +++     Y+         P  KP P  +       G+ P++AL++GD+  D+  A  A    V ++ G +    +  +   +V+D L E+   L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|115299202|sp|Q3K5U8.1|GPH_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3K5U8</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>7.10836e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RALLEMPSEAAVADIARTYSAHYL----NPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>PRLVMFDLDGTLIDSVPDLAAAVDNMLLSLGRKPAGIESVREWVGNGAPVLVRRALAGGIDHSSVDDVEAEHALEVFMEAYGASHELTVVYPGVRDTLKWLHKQGVAMALITNKPERFVAPLLDQMKIGRYFKWIIGGDTLPQKKPDPAALFFVMKMSGIPASQSLFVGDSRSDVLAAKAAGVKCVGLSYGYNHGRPIAEESPTLVIDDLRKLIPGCL</Hsp_hseq>
+      <Hsp_midline>P+L++FD DGTL D+   +   +       G  P   E VR  +G   P ++ RAL      ++V D+   ++          ++    ++P     L  L  QG  +A+ T K    +   + Q   G Y+         P  KP P  +F +    G+   ++L VGD+  D+  A  AG   VG++ G  H R     +P L + D    +PG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|226704847|sp|B7HWY7.1|PPAX_BACC7</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus cereus AH187] &gt;gi|254782765|sp|B9J4R5.1|PPAX_BACCQ RecName: Full=Pyrophosphatase PpaX [Bacillus cereus Q1]</Hit_def>
+  <Hit_accession>B7HWY7</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>7.65435e-12</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLNTYYPDQYKREDVLPFIGPSLHDTFSKI----DESKVEELITSYRQFNHDHHDELVEEYETVYETVQELKKQGYKVGIVTTKARQTVEMGLKLSKLDEFFDVVVTIDDVEHVKPHPEPLQKALQLLDAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLEAYKPDFMLDKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E+ V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      L   P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|110287575|sp|Q88A30.2|GPH_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q88A30</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>7.9385e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPI---IDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALL----------EMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>PKLIMFDLDGTLVDSVPDLAVAVDTM---LAELGRPTAGLESVRAWVGNGAPVLVRRALANNLDHSGVDEALAERGLDIFMRAYAEKH-----EFTVVYPGVRETLKWLQKMGVEMALITNKPERFVAPLLDEMKLGRFFRWIIGGDTMPQKKPDPAALFFVMKMAGVPASQSLFVGDSRSDVQAAKAAGVACVALSYGYNHGRPIAEENPAMVIDDLRRLIPGCL</Hsp_hseq>
+      <Hsp_midline>PKLI+FD DGTL D+   +   +DTM    AE G P    E VR+ +G   P ++R  L          E  +E  +    R Y+  +         ++P     L  L+  G  +A+ T K    +   + +   G ++         P  KP P  +F +    G+   ++L VGD+  D+  A  AG A V ++ G  H R      P + + D    +PG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123563743|sp|Q38V12.1|PHNX_LACSS</Hit_id>
+  <Hit_def>RecName: Full=Phosphonoacetaldehyde hydrolase; Short=Phosphonatase; AltName: Full=Phosphonoacetaldehyde phosphonohydrolase [Lactobacillus sakei subsp. sakei 23K]</Hit_def>
+  <Hit_accession>Q38V12</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>8.3815e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MTPPKLIIFDWDGTLAD--TTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMP--------------SEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYW--LATACAGEYPSKPSPEMVFGLCGELGL-DPKEALVVGDTAHDLHMAANAGAAAVGVATGAH----SREQLLGAPHLA-------------------VLDGLSELPGFLARH</Hsp_qseq>
+      <Hsp_hseq>MTDIQCVIFDWAGTIIDFGSLDPVL-AFQSAFNAAGIQI-DTDRIRQDMGIEKHEHIAKLAKMPEVQRAWFAKYKRGITDADQLQLFNYFEQFLLNRLSTETTLTPAVLQVQTYLKAHHIHIATTTGYTKAMLAIAAKQAGLLGYHPELMVSKEDVAAGRPAPDMINHIMTAFNITDPQTVVKVGDTVIDMQEGKNAGVLTVGLIESSSLLGLSQAKLIDLPQKTRLAKFAEITKTLKAAGADYVIHNLSELPAILAKY</Hsp_hseq>
+      <Hsp_midline>MT  + +IFDW GT+ D  +  P++   + +F   G    + +R+R  +G    E I  L +MP              ++A    +   +    LN  +   TL P        LKA    +A  TG  +A L  A  Q    GY   L  +       +P+P+M+  +     + DP+  + VGDT  D+    NAG   VG+   +     S+ +L+  P                      V+  LSELP  LA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|51316215|sp|Q6HBC8.1|PPAX_BACHK</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus thuringiensis serovar konkukian str. 97-27] &gt;gi|81685487|sp|Q631J2.1|PPAX_BACCZ RecName: Full=Pyrophosphatase PpaX [Bacillus cereus E33L] &gt;gi|166989837|sp|A0RKU8.1|PPAX_BACAH RecName: Full=Pyrophosphatase PpaX [Bacillus thuringiensis str. Al Hakam] &gt;gi|254782764|sp|C1EZE2.1|PPAX_BACC3 RecName: Full=Pyrophosphatase PpaX [Bacillus cereus 03BB102]</Hit_def>
+  <Hit_accession>Q6HBC8</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>8.44977e-12</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLHTYYPNQYKREDVLPFIGPSLHDTFSKI----DESKVEELITSYRQFNHDHHDELVEEYETVYETVQELKKQGYKVGIVTTKARQTVEMGLKLSKLDEFFDVVVTIDDVEHVKPHPEPLQKALQLLDAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLEAYKPDFMLDKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E+ V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      L   P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|51316281|sp|Q72XV8.1|PPAX_BACC1</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus cereus ATCC 10987]</Hit_def>
+  <Hit_accession>Q72XV8</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.80236e-12</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLHTYYPNQYKREDVLPFIGPSLHDTFSKI----DESKVEELITSYRQFNHDHHDELVEEYETVYETVQELKKQGYKVGIVTTKARQTVEMGLKFSKLDEFFDVVVTIDDVEHVKPHPEPLQKALQLLDAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLEAYKPDFMLDKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E+ V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      L   P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|254782763|sp|C3LED0.1|PPAX_BACAC</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus anthracis str. CDC 684]</Hit_def>
+  <Hit_accession>C3LED0</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.1374e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLHTYYPNQYKREDVLPFIGPSLHDTFSKI----DESKVEELITSYRQFNHDHHDELVEEYETVYETVQELKKQGYKVGIVTTKARQTVEMGLKLSKLDEFFDVVVTIDDVEHVKPHPEPLQKALQLLDAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLETYKPDFMLDKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E+ V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      L   P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|51316216|sp|Q6HQY9.1|PPAX_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus anthracis] &gt;gi|254782762|sp|C3P0C8.1|PPAX_BACAA RecName: Full=Pyrophosphatase PpaX [Bacillus anthracis str. A0248]</Hit_def>
+  <Hit_accession>Q6HQY9</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.19526e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSELPGFLA</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLHTYYPNQYKREDVLPFIGPSLHDTFSKI----DESKVEELITSYRQFNHDHHDELVEEYETVYETVQELKKQGYKVGIVTTKARQTVEMGLKLSKLDEFFDVVVTIDDVEHVKPHPEPLQKALQLLDAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLETYKPDFMLDKMSDLLLILS</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E+ V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      L   P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L   L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|115298629|sp|Q48NS2.2|GPH_PSE14</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q48NS2</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.36542e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPI---IDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALL----------EMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>PKLVMFDLDGTLVDSVPDLAVAVDTM---LAELGRPIAGLESVRAWVGNGAPVLVRRALANHLDHSGVDDELAEQGLEIFMRAYAQKH-----EFTVVYPGVRETLKWLQKMGVEMALITNKPERFVAPLLDEMKLGRFFRWIIGGDTMPQKKPDPAALFFVMKMAGVPASQALFVGDSRSDVQAAKAAGVACVALSYGYNHGRPIAEENPAMVIDDLRKLIPGCL</Hsp_hseq>
+      <Hsp_midline>PKL++FD DGTL D+   +   +DTM    AE G P    E VR+ +G   P ++R  L          +  +E  +    R Y+  +         ++P     L  L+  G  +A+ T K    +   + +   G ++         P  KP P  +F +    G+   +AL VGD+  D+  A  AG A V ++ G  H R      P + + D    +PG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|226704843|sp|B7GL49.1|PPAX_ANOFW</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Anoxybacillus flavithermus WK1]</Hit_def>
+  <Hit_accession>B7GL49</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.72207e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>ILFDLDGTLINTNDLIIESFLHTLNHYYPNQYTREDVLAFIGPPL----RDTFEAIDPERVDEMIETYRAFNHAHHDALVKEYETVYDTVQTLHEKGFKLGIVTTKIRHTVNMGLKLTKLDSFFKCVITLDDVEHAKPHPEPIEKALACLQAKPEETLMVGDNHHDILAGKHAGTKTAGVAWTIKGREHLATYEPDFMLEKMSDLLSIL</Hsp_hseq>
+      <Hsp_midline>I+FD DGTL +T   II++   +           E V + IG  L    R   E      V ++  TY A     ++  +  +      +  L  +GF+L + T K R  ++  +  T    ++       +   +KP PE +      L   P+E L+VGD  HD+    +AG    GVA     RE L       +L+ +S+L   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|51316391|sp|Q815I8.1|PPAX_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus cereus ATCC 14579] &gt;gi|226704845|sp|B7IPS5.1|PPAX_BACC2 RecName: Full=Pyrophosphatase PpaX [Bacillus cereus G9842]</Hit_def>
+  <Hit_accession>Q815I8</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>2.12907e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLNTYYPNQYKREDVLPFIGPSLHDTFSKI----DESKVEEMITSYREFNHDHHDELVEEYETVYETVRELKKQGYKVGIVTTKARQTVEMGLQLSKLDEFFDVVVTIDDVEHVKPHPEPLQKALELLDAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLEAYKPDFMLDKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E+ V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +    KP PE +      L   P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|166989838|sp|A8FHS1.1|PPAX_BACP2</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus pumilus SAFR-032]</Hit_def>
+  <Hit_accession>A8FHS1</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.52312e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIIASFQHTLDHYYPGQYSREEILHFIGPSLFDTFSAM----DPDLTDDMIQMYRTFNHEQHDLLVTEYETVLDTLKVLQDRGFKLGIVTTKIRDTVLMGLKLTGLEPFFEVIVTLDDVQNEKPHPEPVQLALSKLGSDPHEAVMVGDNYHDILSGQAAGTKTAGVAWSIKGEEALFKHRPDFMLKKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II + + +           E +   IG SL +   A+          D+ + Y       ++  +T +      L  L+ +GF+L + T K R  +   +  T    ++       +  + KP PE V     +LG DP EA++VGD  HD+     AG    GVA      E L       +L  +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226704846|sp|B7HEG2.1|PPAX_BACC4</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Bacillus cereus B4264]</Hit_def>
+  <Hit_accession>B7HEG2</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.96108e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTLINTNELIISSFLHTLNTYYPNQYKREDVLPFIGPSLHDTFSKI----DENKVEEMITSYRKFNHDHHDELVEEYETVYETVRELKRQGYKVGIVTTKARQTVEMGLQLSKLDEFFDVVVTIDDVENVKPHPEPLQKALELLDAKPEEALMVGDNHHDIVGGQNAGTKTAAVSWTLKGRAYLEAYKPDFMLDKMSDL</Hsp_hseq>
+      <Hsp_midline>++FD DGTL +T + II +   +         + E V   IG SL +    +     E  V ++  +Y     + ++  +  +      + +LK QG+++ + T K R  ++  +  +    ++       +  + KP PE +      L   P+EAL+VGD  HD+    NAG     V+     R  L       +LD +S+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|75500361|sp|Q4ZMI2.1|GPH_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZMI2</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.01861e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPI---IDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALL----------EMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>PKLIMFDLDGTLVDSVPDLAVAVDTM---LAELGRPIAGLESVRAWVGNGAPVLVRRALANNLDHSGVDDALAEQGLEIFMRAYAQKH-----EFTVVYPGVRETLKWLQKMGVEMALITNKPERFVAPLLDEMKLGRFFRWIVGGDTMPQKKPDPAALFFVMKMAGAPASQSLFVGDSRSDVQAAKAAGVACVALSYGYNHGRPIAEENPAMVIDDLRKLIPGCL</Hsp_hseq>
+      <Hsp_midline>PKLI+FD DGTL D+   +   +DTM    AE G P    E VR+ +G   P ++R  L          +  +E  +    R Y+  +         ++P     L  L+  G  +A+ T K    +   + +   G ++         P  KP P  +F +    G    ++L VGD+  D+  A  AG A V ++ G  H R      P + + D    +PG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|73621344|sp|Q9HJW8.1|P845_THEAC</Hit_id>
+  <Hit_def>RecName: Full=Phosphatase Ta0845 [Thermoplasma acidophilum DSM 1728]</Hit_def>
+  <Hit_accession>Q9HJW8</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.32355e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG</Hsp_qseq>
+      <Hsp_hseq>VIFDFDGTLLDSVELRITAWKKAFQNFGVNVPE-DLIRPMIGYPGIDLAKKFVKNPLDVEM------LQEDYFLKNIESAKFFQDVIPTLAELRKRGIKTAVVTSTRRIVM-QKFSLQVDHVVTIDDVSKG----KPDPEPYLKALKMMGIPAEECIVVGDIENDLIPAKKLRCISVLVKHG</Hsp_hseq>
+      <Hsp_midline>+IFD+DGTL D+ +  I   +++F   G   PE + +R +IGY   ++ +  ++ P +  +          Y   N  +   F D  P L +L+ +G + AV T   R  +    S        +     G    KP PE        +G+  +E +VVGD  +DL  A      +V V  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|17432953|sp|Q9KNV6.1|GPH_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KNV6</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.09501e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MTPPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RAL---LEMPSEAA---VADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPSK-PSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGA</Hsp_qseq>
+      <Hsp_hseq>MKSIKLIAFDLDGTLLDSVPDLAVAADQAARAVGYPAVSEAQVRDYVGNGADVLIARALSQSLTINPELSPELRAQARHLFDEFYEQTGHKLSHLYPNVKTTLLELHQAGFILALVTNKPSKFVPDVLEQHGIAHFFSDVIGGDTFPNKKPDPMALNWLLEKHQLSAEQMLMVGDSKNDILAAKNAGCYSFGLTYGYNHGEPIANA</Hsp_hseq>
+      <Hsp_midline>M   KLI FD DGTL D+   +     ++    G+P     +VR  +G     +I RAL   L +  E +    A     +   Y    ++   L+P+    L +L   GF LA+ T K    + + + Q     ++        +P+K P P  +  L  +  L  ++ L+VGD+ +D+  A NAG  + G+  G +  E +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81643734|sp|Q6CZR3.1|GPH_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6CZR3</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>5.69993e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MTPPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEM----PSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYW-LATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQL-LGAPHLAVLDGLSEL</Hsp_qseq>
+      <Hsp_hseq>LTAIRGLAFDLDGTLIHSAPGLAAAIDQALVAQSLPAAGESRVATWIGNGADVMVERALRWAGVEPTAARVQETRERFDSYYAQTVDSGSTLFLQVKETLAQLAQQGVPMAVVTNKPTPFVAPLLAGLGIGDYFSLIIGGDDVIVKKPHPAPLYLVLGKLGLRASELLFVGDSRNDIQAAQAAGCRSVGMTYGYNYGEAIELSQPDV-VLDRFADI</Hsp_hseq>
+      <Hsp_midline>+T  + + FD DGTL  +   +   + ++      P     RV + IG     ++   L      P+ A V +    + ++Y    +   TLF      L +L  QG  +AV T K    +   ++    G Y+ L          KP P  ++ + G+LGL   E L VGD+ +D+  A  AG  +VG+  G +  E + L  P + VLD  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|51316467|sp|Q8ENK3.1|PPAX_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8ENK3</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>6.90595e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYP-SKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVA</Hsp_qseq>
+      <Hsp_hseq>RTILFDLDGTLIDTNTLIKASFEHTFKEYNLNFSNEE----ILKFNGPPLVDTFNKI-DETKADRMITTFREHNIREHDNFVTAFPHVYDTLEELQNRNISLGIVSTKMRHTVHMGLELTGISKFFSTIITYDDVTHAKPHPEPVQMAMQKLGAHPEHTLMVGDNHHDIVSGQRANVQTAAVA</Hsp_hseq>
+      <Hsp_midline>+ I+FD DGTL DT   I  +   +F E        E    ++ ++ P ++    ++  E     +  T+  H +  ++  +T FP     L++L+ +   L + + K R  +   +  T    ++       +   +KP PE V     +LG  P+  L+VGD  HD+     A      VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|116248192|sp|Q3SGR5.1|GPH_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SGR5</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.76676e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>PPKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALL--EM---PSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPS-KPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG</Hsp_qseq>
+      <Hsp_hseq>PIKAVVIDLDGTLLNTAPDLAHAAELMMAELGRPCPSLETISTYIGNGVSRLVKRVLTGEMDAEPDPALFAQAIASYQKHYGEHVSLHSRPFDGVVEGLQAFKAMGLHMACITNKAEQFTVPLLKGTGLYDYFELILSGDTLPKRKPDPLPLLHACEVFGVAPAELLLIGDSLNDTQAARAAGCPVFCVPYG</Hsp_hseq>
+      <Hsp_midline>P K ++ D DGTL +T   +        AE G P P  E + + IG  +  +++ +L  EM   P  A  A    +Y  HY    + +   F      L   KA G  +A  T K        +  T    Y+         P  KP P  +   C   G+ P E L++GD+ +D   A  AG     V  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81313994|sp|Q5L9P9.1|PHNX_BACFN</Hit_id>
+  <Hit_def>RecName: Full=Phosphonoacetaldehyde hydrolase; Short=Phosphonatase; AltName: Full=Phosphonoacetaldehyde phosphonohydrolase [Bacteroides fragilis NCTC 9343] &gt;gi|81608298|sp|Q64PZ2.1|PHNX_BACFR RecName: Full=Phosphonoacetaldehyde hydrolase; Short=Phosphonatase; AltName: Full=Phosphonoacetaldehyde phosphonohydrolase [Bacteroides fragilis YCH46]</Hit_def>
+  <Hit_accession>Q5L9P9</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.50194e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MTPPKLIIFDWDGTLAD--TTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMP--------------SEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWL-ATACAGEYPS-KPSPEMVFGLCGELGL-DPKEALVVGDTAHDLHMAANAGAAAVGVATGAHS</Hsp_qseq>
+      <Hsp_hseq>MKKIECIIMDWAGTAVDYGCFAPVAAFIK-AFAGKGLTI-DVEQTRKPMGLPKIQHIRELLTMPEVNEQFINRYRRAWTEEDVVELNHLFEKYLFASLKEYTDPIPGVIPTLEKLRAEGLKIGSTTGYTREMMDVVLPEAQAKGYRVDYCATPNLLPAGRPAPYMIFENLTKLAVPDPDTVVKVGDTIADIQEGVHAKVWSVGVVLGSNE</Hsp_hseq>
+      <Hsp_midline>M   + II DW GT  D     P+   ++ +FA  G    + E+ R  +G    + IR LL MP              +E  V ++   +  +            P   P L+KL+A+G ++   TG  R  +D  + +    GY +   A     P+ +P+P M+F    +L + DP   + VGDT  D+    +A   +VGV  G++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|145566917|sp|A0LJ16.1|PHNXL_SYNFM</Hit_id>
+  <Hit_def>RecName: Full=Phosphonoacetaldehyde hydrolase-like protein [Syntrophobacter fumaroxidans MPOB]</Hit_def>
+  <Hit_accession>A0LJ16</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>3.43796e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>PPKLIIFDWDGTLADT-----TQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEM--------------PSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYW-LATACAGEYPS-KPSPEMVFGLCGELGLDPKEALV-VGDTAHDLHMAANAGAAAVGV</Hsp_qseq>
+      <Hsp_hseq>PVKGVVLDWAGTTVDYGCIGPLSVFVEVFRHNWVEVTI-----EEARAPMGLSREDHLRAMCRAESVARKWEDVHGAPPSEMDIGNMARMVEAHLAYTIAQHADLIPGVVEAVEALRGQGIRIGSSTGYTSDMMDMLVPAVEENGYRPDSIVCASDVPAGRPFPWMCYQNAINLEVYPMAAMVKIGDTVADIREGLNAGMWTIGL</Hsp_hseq>
+      <Hsp_midline>P K ++ DW GT  D          ++  R ++ E        E  R+ +G S  + +RA+                 PSE  + ++AR   AH      ++  L P     ++ L+ QG R+  +TG     +D  +      GY   +  CA + P+ +P P M +     L + P  A+V +GDT  D+    NAG   +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|116248191|sp|Q2RPW9.2|GPH_RHORT</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+  <Hit_accession>Q2RPW9</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>4.48579e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>PKLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RALL--------EMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGK----GRA-----GLDNAISQTATGGYWLATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQLLGAPHLAVLDGLSELPGFL</Hsp_qseq>
+      <Hsp_hseq>PKAVIFDLDGTLVHSLPGLTDALNKTLAEDDLAPLDEAAVKRMVGEGAGLLVARAFAAYGLGRADDADDTATQARLAR-FLAHYAPDPLAGASVYPGALALLGALAARGIRLGVCTNKPEGPARALLEGLGLADPIMDV-VGGDTLAQ-------RKPDPAPLRALLDSLGVEADQALMVGDSPTDVATAKAAGVPVVVMSYG-YSREPVASLGALAVFDDFASLGDWL</Hsp_hseq>
+      <Hsp_midline>PK +IFD DGTL  +   + D + ++ AE    P +   V+ ++G     ++ RA          +    A  A +AR + AHY        +++P A   L  L A+G RL V T K     RA     GL + I     GG  LA         KP P  +  L   LG++  +AL+VGD+  D+  A  AG   V ++ G +SRE +     LAV D  + L  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|75431476|sp|Q5E2G4.1|GPH_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E2G4</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>4.83643e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEII-RAL-----LEMPSEAAVADIART-YSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEY--PSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSRE</Hsp_qseq>
+      <Hsp_hseq>KLIAFDLDGTLLDSVPDLARAVDLAMQDMGYPRVTLEQASHWIGNGADVLVSRALSQNYIVKDDLDAELIKQARARLDQHYHDGGHQLSHLYPDVKDTLERLHQQGYTLALVTNKPSQFVPELLEQHQL-THLFSEVIGGDTFAEKKPNPFALNWLLDKHGLTAPQMLMVGDSKNDIQAAQAAGCHSFALTYGYNHGE</Hsp_hseq>
+      <Hsp_midline>KLI FD DGTL D+   +   +  +  + G+P    E+    IG     ++ RAL     ++   +A +   AR     HY +  ++   L+PD    L++L  QG+ LA+ T K    +   + Q     +  +    G+     KP+P  +  L  + GL   + L+VGD+ +D+  A  AG  +  +  G +  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1176934|sp|P42509.1|GPH_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Probable phosphoglycolate phosphatase; Short=PGP; Short=PGPase, partial [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P42509</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.1295e-09</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>GTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVAD--IARTYSAHYLNPNNRNMTL---FPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPSK-PSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATG-AHSREQLLGAPHLAVLDGLSELPG</Hsp_qseq>
+      <Hsp_hseq>GTLIDSVPDLAAAVDRMLLELGRPPADLEAVRHWVGNGAQVLVRRALAGGIEHDAVDDVLAEQGLALFMEAYAQSHELTVVYPGVKDTLRWLQKQGVEMALITNKPERFVAPLLDQMKIGRYFRWMIGGDTLPQKKPDPAALLFVMQMAGVTPQQSLFVGDSRSDVLAAKAAGVQCVGLTYGYNHGRPIHDETPSLVIDDLRALLPG</Hsp_hseq>
+      <Hsp_midline>GTL D+   +   + R   E G PP + E VR  +G     ++R  L    E    D  +A    A ++    ++  L   +P     L  L+ QG  +A+ T K    +   + Q   G Y+         P K P P  +  +    G+ P+++L VGD+  D+  A  AG   VG+  G  H R      P L + D  + LPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|51316489|sp|Q8R821.2|PPAX_THETN</Hit_id>
+  <Hit_def>RecName: Full=Putative pyrophosphatase PpaX [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8R821</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.24001e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMPSEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYW-LATACAGEYPSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVA</Hsp_qseq>
+      <Hsp_hseq>VLFDLDGTIIDTNQLIIKSFVYTVEKHLGYKIGAEEVIPYFGEPLP----LTLQRFSKDKWEIMLKTYRDYNEKYHDRYTKIREDVKEVLARLKEEGIKTAVVTSKRRELAKRGLKLFELDKYFDVLVGLEDTEKHKPEPDPVLKALELLKSPREEALMVGDSPYDILSARSAGVRSVAVK</Hsp_hseq>
+      <Hsp_midline>++FD DGT+ DT Q II +   +  +       AE V    G  LP      L+  S+     + +TY  +    ++R   +  D    L +LK +G + AV T K R      +       Y+ +          KP P+ V      L    +EAL+VGD+ +D+  A +AG  +V V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|68052251|sp|Q9I767.1|5NTD_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I767</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.62223e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>IIFDWDGTLADTTQPIIDTMRRSFAECGFPPPEAERVRSLIGYSLPEIIRALLEMP--SEAAVADIARTYSAHYLNPNNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTATGGYWLATACAGEYPSKP-SPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAGAAAVGVATGAHSREQL</Hsp_qseq>
+      <Hsp_hseq>ILFDLDGTLTDPREGITRSVQFALARLGIDEPDLARLEHFIG---PPLLQCFMQTYGFDEARAWEAVNHYRERFRVTGLYENRVFDGIPELLEALVGRGHTLYVATSKPGVFAREIARHFAFDRHFKAIYGSELDGTRTHKEELIRHLLDSEGLAAEHCLMIGDRMHDLLGASRNGVACIGVGYGFGSEDEL</Hsp_hseq>
+      <Hsp_midline>I+FD DGTL D  + I  +++ + A  G   P+  R+   IG   P +++  ++     EA   +    Y   +         +F   P  L+ L  +G  L VAT K            A   ++ A   +    ++    E++  L    GL  +  L++GD  HDL  A+  G A +GV  G  S ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|3913203|sp|O33513.1|CBBY_RHOCA</Hit_id>
+  <Hit_def>RecName: Full=Protein CbbY [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>O33513</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.64273e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>KLIIFDWDGTLADTTQPIIDTMRRSFAECGFPPP-EAERVRSLIGYS-----LPEIIRALLEMPSEAAVADIARTYSAHYLNP-NNRNMTLFPDAPPCLDKLKAQGFRLAVATGKGRAGLDNAISQTAT--GGYWLATACAGEY--PSKPSPEMVFGLCGELGLDPKEALVVGDTAHDLHMAANAG</Hsp_qseq>
+      <Hsp_hseq>KALIFDVDGTLAETEEVHRQAFNETFAAQGLDWYWSKEDYRTLLRTTGGKERMAKHRENLGSGPSDAKIADLHKAKTQRYVEIIASGQVGLLPGVAELIDRAKASGLRLAIATTTTRANVDALIAATFSKPAGDIFEVIAAGDEVAQKKPAPDVYLRALQGLGLPPAACLAFEDSRAGLASARAAG</Hsp_hseq>
+      <Hsp_midline>K +IFD DGTLA+T +        +FA  G       E  R+L+  +     + +    L   PS+A +AD+ +  +  Y+    +  + L P     +D+ KA G RLA+AT   RA +D  I+ T +   G       AG+     KP+P++       LGL P   L   D+   L  A  AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

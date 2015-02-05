@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800542|ref|YP_207254.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>phosphoesterase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>278</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800542|ref|YP_207254.1|</Iteration_query-ID>
+  <Iteration_query-def>phosphoesterase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>278</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175777|sp|P44176.1|PHPDC_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=PHP domain-containing protein HI_1400 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44176</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.88128e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVSDGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFTKYLGDGKSCAVRHEWATLADCVSAVNGAGGMAVIAHPMRYDLSATAKRNLFEEFKNLGGAGIEVHSGNCCKNDRLNYALLADRFGLLASAGSDFHRLDDFSGGI--LGACPDLPENCKPVRAHF</Hsp_qseq>
+      <Hsp_hseq>DLHCHSTASDGVLSPTELVHRAYAQGVNVLALCDHDTIAGIDEAEIAAKEVGIELITGVEISTNWEGRGIHIVGLNFDKTHPKMTALLQSQKALREKRAVEIGDKLEKAGIPNAYDGAKALADGE--VTRAHYARYLVQIGKVSNDGQAFKRYLGQGKSAFVKAEWADIPTAIETIHAAGGIAIIAHPLRYNMTGKWVRKLIVDFKAWGGDGMEMADCGQTKDQRQMLARWAKEFDLQGSVGSDFH----FPCGWIELGKNLDLVDSVIPVWEKF</Hsp_hseq>
+      <Hsp_midline>DLHCHST SDG+L P E+V  A+  G  +LAL DHD   GI EA   A  +G+ LI GVEIS  W GR IH+VGL+FD+    +  LL   +  R KR   I  KLEK GI  AYDGA ALA  +  V+R H A +L++ G V N  QAF +YLG GKS  V+ EWA +   +  ++ AGG+A+IAHP+RY+++    R L  +FK  GG G+E+      K+ R   A  A  F L  S GSDFH    F  G   LG   DL ++  PV   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20141852|sp|O54453.3|PHPDC_SALTY</Hit_id>
+  <Hit_def>RecName: Full=PHP domain-containing protein TrpH [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>O54453</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>2.27306e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MIDLHCHSTVSDGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADR--LGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFTKYLGDGKSCAVRHEWATLADCVSAVNGAGGMAVIAHPMRYDLSATAKRNLFEEFKNLGGAGIEVHSGNCCKNDRLNYALLADRFGLLASAGSDFHR</Hsp_qseq>
+      <Hsp_hseq>IYDLHSHTTASDGLLTPETLVHRAVEMRVGTLAITDHDTTAAIPAAREEISRSGLALNLIPGVEISTVWENHEIHIVGLNIDIAHPAMRDFLAQQTERRQARGRLIAERLEKAHIPGAWEGALRLA-NGGAVTRGHFARFLVECGKAATMADVFKKYLARGKTGYVPPQWCTIEQAIDVIHHSGGKAVLAHPGRYDLSAKWLKRLVAHFADHHGDAMEVAQCQQSPNERTQLATLARQHHLWASLGSDFHQ</Hsp_hseq>
+      <Hsp_midline>+ DLH H+T SDG+L P  +V  A +     LA+TDHD T  I  AR E  R  L L LI GVEIS  W    IH+VGL+ D     +++ LA   + R  R   IA +LEK  I GA++GAL LA N   V+R H A FL++ G        F KYL  GK+  V  +W T+   +  ++ +GG AV+AHP RYDLSA   + L   F +  G  +EV       N+R   A LA +  L AS GSDFH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3025078|sp|P77766.1|PHPDC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=PHP domain-containing protein YciV [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77766</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>5.64791e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MIDLHCHSTVSDGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADR--LGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFTKYLGDGKSCAVRHEWATLADCVSAVNGAGGMAVIAHPMRYDLSATAKRNLFEEFKNLGGAGIEVHSGNCCKNDRLNYALLADRFGLLASAGSDFHR</Hsp_qseq>
+      <Hsp_hseq>IYDLHSHTTASDGCLTPEALVHRAVEMRVGTLAITDHDTTAAIAPAREEISRSGLALNLIPGVEISTVWENHEIHIVGLNIDITHPLMCEFLAQQTERRNQRAQLIAERLEKAQIPGALEGAQRLAQGG-AVTRGHFARFLVECGKASSMADVFKKYLARGKTGYVPPQWCTIEQAIDVIHHSGGKAVLAHPGRYNLSAKWLKRLVAHFAEHHGDAMEVAQCQQSPNERTQLAALARQHHLWASQGSDFHQ</Hsp_hseq>
+      <Hsp_midline>+ DLH H+T SDG L P  +V  A +     LA+TDHD T  I+ AR E  R  L L LI GVEIS  W    IH+VGL+ D     +   LA   + R +R + IA +LEK  I GA +GA  LA     V+R H A FL++ G   +    F KYL  GK+  V  +W T+   +  ++ +GG AV+AHP RY+LSA   + L   F    G  +EV       N+R   A LA +  L AS GSDFH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|704043602|sp|C8WJZ5.1|PHNPP_EGGLE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosyl 1,2-cyclic phosphate 1,2-diphosphodiesterase; AltName: Full=Cyclic phosphate dihydrolase; Short=cPDH [Eggerthella lenta DSM 2243]</Hit_def>
+  <Hit_accession>C8WJZ5</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.58674e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVSDGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVT--WRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFTKYL-GDGKSCAVRHEWATLADCVSAVNGAGGMAVIAHPMRYDLSATAKRNLFEEFKNLGGAGIEVHSGNCCKNDRLNYALLADRFGLLASAGSDFH</Hsp_qseq>
+      <Hsp_hseq>DLHVHSTMSDGSDTFEQVLEQAAQRGVERLAFTNHDTTAGLTAARELGERLGVQVVGGIEVSAYDFERGRKVHILGLGVEEGAPALAALCGSTLERRHANSLWQLDRLVEAGYEVDVERALELGRASTCLYKQHLMAALTSEPYPSAAYRTLYRSLFKNGGICDRDIDYVDARDAVRVVVEDGGLAVLAHPGQLD-----SYDLLPDLVECGLGGIERFHPDHTLADHARCAELAVRYRLVCTGGSDYH</Hsp_hseq>
+      <Hsp_midline>DLH HST+SDG     +V+  A Q G   LA T+HD T G++ AR   +RLG++++ G+E+S     RGR +H++GL  +E    L  L     + R         +L + G     + AL L      + + H+   L    +     +   + L  +G  C    ++    D V  V   GG+AV+AHP + D       +L  +    G  GIE    +    D    A LA R+ L+ + GSD+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122263523|sp|Q038M0.1|DPO3_LACC3</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus casei ATCC 334]</Hit_def>
+  <Hit_accession>Q038M0</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000111423</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANK</Hsp_qseq>
+      <Hsp_hseq>VELHLHTNMSQMDAMNPISDYVKRAKEWGHKAIAVTDHAGLQAYPEAHSAAVKAGLKMLYGVEINLVDDGTP---VAYRADEPRD-------------LASAEYVVFDVETTGLSAVYDKVIELAAVK</Hsp_hseq>
+      <Hsp_midline>++LH H+ +S  D M P ++ V+ A + G   +A+TDH       EA + A + GL+++ GVEI++   G     V    DE  +             L   E +   +E  G+   YD  + LAA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|32469727|sp|Q8EQU6.1|DPO3_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8EQU6</Hit_accession>
+  <Hit_len>1428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000269418</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>VELHTHTTMSQMDAVVSPEALVEQAAKWGHKAIAITDHAGVQGFPDAHNAGKKHGVKVLYGVEANLVDDG-----VPIAYNEAD---RNLYEDT---------FVVFDVETTGLSAVYDTIIELAAVK------------IKGGEIVDRFESF</Hsp_hseq>
+      <Hsp_midline>++LH H+T+S  D ++ P  +V  A + G   +A+TDH    G  +A     + G++++ GVE ++   G     V + ++E D   +NL  D           +   +E  G+   YD  + LAA K            IK G + ++ ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123564054|sp|Q38W73.1|DPO3_LACSS</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus sakei subsp. sakei 23K]</Hit_def>
+  <Hit_accession>Q38W73</Hit_accession>
+  <Hit_len>1446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00033942</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANK</Hsp_qseq>
+      <Hsp_hseq>IEMHLHTNMSQMDATNPIGDYVKQAAKWGQPAIAVTDHYNLQAFPDAYAAGKKNGVKILYGVEVNLVNDGTPV-----------------VYNLRDQVLESAEYVIFDVETTGLSAVYDSIIELAAVK</Hsp_hseq>
+      <Hsp_midline>I++H H+ +S  D   P  + V+ A + G   +A+TDH +     +A A   + G++++ GVE+++   G  +                 + ++R   L+  E +   +E  G+   YD  + LAA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166918295|sp|A5VJD5.1|DPO3_LACRD</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus reuteri DSM 20016]</Hit_def>
+  <Hit_accession>A5VJD5</Hit_accession>
+  <Hit_len>1443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00149293</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANK</Hsp_qseq>
+      <Hsp_hseq>VELHTHTTMSQMDATNSITELATRAHKWGHPAIAVTDHGNVQAFPEAFSVAQKTGIKMLYGMEANVVDDG-----IPLVYNENHEELAHQT------------YVIFDVETTGLSAIYDKVIELSAVK</Hsp_hseq>
+      <Hsp_midline>++LH H+T+S  D      E+   AH+ G   +A+TDH +     EA + A + G++++ G+E +V   G     + L ++E  E L +               +   +E  G+   YD  + L+A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|71151837|sp|Q7UXK9.1|DNAE2_RHOBA</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Rhodopirellula baltica SH 1]</Hit_def>
+  <Hit_accession>Q7UXK9</Hit_accession>
+  <Hit_len>1145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00347625</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVT</Hsp_qseq>
+      <Hsp_hseq>VELHCRSNFSFLDGASHPDELVQRAAELGYEGLAITDRESIAGVVRGFSPAQELGLQYIVGTEVHPT</Hsp_hseq>
+      <Hsp_midline>++LHC S  S  DG   P E+V+ A + G   LA+TD +   G+    + A  LGL+ I G E+  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|71151831|sp|Q6A780.1|DNAE2_PROAC</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Propionibacterium acnes KPA171202]</Hit_def>
+  <Hit_accession>Q6A780</Hit_accession>
+  <Hit_len>1134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00396233</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISV</Hsp_qseq>
+      <Hsp_hseq>ELHCHSSYSFLDGASNPEDLVIRAVELGLSGLALTDHDGLYGVVRMAEAAEACGLSTIIGSELSI</Hsp_hseq>
+      <Hsp_midline>+LHCHS+ S  DG   P ++V  A + G + LALTDHD   G+      A+  GL  I G E+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|122449173|sp|Q1WUF9.1|DPO3_LACS1</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus salivarius UCC118]</Hit_def>
+  <Hit_accession>Q1WUF9</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00610583</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANK</Hsp_qseq>
+      <Hsp_hseq>VELHLHSNMSMMDATNSITEYVSKAAEWGHKAIAITDHGTLQAFPEAHAAGQKNNVKILYGVEANIVDDG-----VPIAYNEQHKNLRD------------ATYVIFDTETTGLSAQYDKVIELAAVK</Hsp_hseq>
+      <Hsp_midline>++LH HS +S  D      E V  A + G   +A+TDH       EA A   +  ++++ GVE ++   G     V + ++EQ +NL++               +    E  G+   YD  + LAA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81433857|sp|Q819Y5.1|DPO3_BACCR</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q819Y5</Hit_accession>
+  <Hit_len>1435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.01864</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>VELHLHTPMSQMDAVTPVSKLVAQAGKWGHEAIAVTDHAVAQSFPEAYSAGKKAGVKVIYGVEANLVNDG-----VPIAYNEA----HRLLAEE--------TYVVFDVETTGLSAVYDTVIELAAVK------------VKGGEIIDRFESF</Hsp_hseq>
+      <Hsp_midline>++LH H+ +S  D + P +++V  A + G   +A+TDH       EA +   + G+++I GVE ++   G     V + ++E       LLA+           +   +E  G+   YD  + LAA K            +K G + ++ ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|71151828|sp|Q7TWL9.2|DNAE2_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Mycobacterium bovis AF2122/97]</Hit_def>
+  <Hit_accession>Q7TWL9</Hit_accession>
+  <Hit_len>1091</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0211843</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRT</Hsp_qseq>
+      <Hsp_hseq>ELHAHSAYSFLDGASTPEELVEEAARLGLCALALTDHDGLYGAVRFAEAAAELDVRTVFGAELSLGATART</Hsp_hseq>
+      <Hsp_midline>+LH HS  S  DG   P E+V  A + G   LALTDHD   G       A  L +R + G E+S+    RT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|618730359|sp|P9WNT4.1|DNAE2_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Mycobacterium tuberculosis CDC1551] &gt;gi|618730360|sp|P9WNT5.1|DNAE2_MYCTU RecName: Full=Error-prone DNA polymerase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WNT4</Hit_accession>
+  <Hit_len>1098</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.021578</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRT</Hsp_qseq>
+      <Hsp_hseq>ELHAHSAYSFLDGASTPEELVEEAARLGLCALALTDHDGLYGAVRFAEAAAELDVRTVFGAELSLGATART</Hsp_hseq>
+      <Hsp_midline>+LH HS  S  DG   P E+V  A + G   LALTDHD   G       A  L +R + G E+S+    RT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|73919252|sp|Q5HPS7.2|DPO3_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HPS7</Hit_accession>
+  <Hit_len>1438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0236361</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTSMSQMDGIPNISAYVEQAAKWGHQALAVTDHNVVQAFPDAHNAAEKHGIKMIYGMEGMLVDDG-----VPIAYKPTDRN------------LKDATYVVFDVETTGLSNQYDKIIELAAVK------------VHNGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+++S  DG+   +  V  A + G   LA+TDH+      +A   A++ G+++I G+E  +   G     V + +   D N            LK    +   +E  G+   YD  + LAA K            + NG + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|32469713|sp|Q8CPG6.1|DPO3_STAES</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CPG6</Hit_accession>
+  <Hit_len>1442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0236422</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTSMSQMDGIPNISAYVEQAAKWGHQALAVTDHNVVQAFPDAHNAAEKHGIKMIYGMEGMLVDDG-----VPIAYKPTDRN------------LKDATYVVFDVETTGLSNQYDKIIELAAVK------------VHNGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+++S  DG+   +  V  A + G   LA+TDH+      +A   A++ G+++I G+E  +   G     V + +   D N            LK    +   +E  G+   YD  + LAA K            + NG + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|123642441|sp|Q49X49.1|DPO3_STAS1</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49X49</Hit_accession>
+  <Hit_len>1438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.033885</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTSMSQMDGIPNISDYVDQAAKWGHKAIAVTDHNVVQAFPDAHSAAEKNGIKMIYGMEGMLVDDGVPIAYKPKDCD-----------------LKTATYVVFDVETTGLSNQYDKIIELAAVK------------VKDGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+++S  DG+   ++ V  A + G   +A+TDH+      +A + A++ G+++I G+E  +   G  I     D D                 LK    +   +E  G+   YD  + LAA K            +K+G + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|254777925|sp|B4UDQ9.1|DNAE2_ANASK</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Anaeromyxobacter sp. K]</Hit_def>
+  <Hit_accession>B4UDQ9</Hit_accession>
+  <Hit_len>1133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.039393</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVT--WRGRTIHVVGLDFDEQ</Hsp_qseq>
+      <Hsp_hseq>ELRCKSCFSFLEGASHPEELVGRAAELGLSALALADVNGLYGIVRAHAEAKRQGLPLIVGAELVVAGLAPGRPARLVLLAQDRE</Hsp_hseq>
+      <Hsp_midline>+L C S  S  +G   P E+V  A + G + LAL D +   GI  A AEA R GL LI G E+ V     GR   +V L  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123660050|sp|Q4L5W6.1|DPO3_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L5W6</Hit_accession>
+  <Hit_len>1438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0403923</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTSMSQMDGIPNISAYVNQAAKWGHKAIAVTDHNVVQAFPDAHGAAEKNGIKMIYGMEGMLVDDGVPIAYKPTDRD-----------------LKEATYVVFDVETTGLSNQYDQIIELAAVK------------VKDGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+++S  DG+   +  V  A + G   +A+TDH+      +A   A++ G+++I G+E  +   G  I     D D                 LK    +   +E  G+   YD  + LAA K            +K+G + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|254777924|sp|B8JAF5.1|DNAE2_ANAD2</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Anaeromyxobacter dehalogenans 2CP-1]</Hit_def>
+  <Hit_accession>B8JAF5</Hit_accession>
+  <Hit_len>1142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0415658</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVT--WRGRTIHVVGLDFDEQ</Hsp_qseq>
+      <Hsp_hseq>ELRCKSCFSFLEGASHPEELVGRAAELGLSALALADVNGLYGIVRAHAEAKRQGLPLIVGAELVVAGLAPGRPARLVLLAQDRE</Hsp_hseq>
+      <Hsp_midline>+L C S  S  +G   P E+V  A + G + LAL D +   GI  A AEA R GL LI G E+ V     GR   +V L  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|223635070|sp|B1H283.1|CA177_RAT</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C1orf177 homolog [Rattus norvegicus]</Hit_def>
+  <Hit_accession>B1H283</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0662336</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>NGHVKNKQQAFTKYLGDGKSCAVRHEWATLADCVSAVNGAGGMAVIAH</Hsp_qseq>
+      <Hsp_hseq>NAPHKKKQGGFSKYPRDPKHPTERIYWTTLSQCPKDVNVAGPGSWLPH</Hsp_hseq>
+      <Hsp_midline>N   K KQ  F+KY  D K    R  W TL+ C   VN AG  + + H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|110808209|sp|P0C1P9.1|DPO3_STAAU</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>P0C1P9</Hit_accession>
+  <Hit_len>1435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.068393</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTAMSQMDGIPNIGAYVKQAADWGHPAIAVTDHNVVQAFPDAHAAAEKHGIKMIYGMEGMLVDDG-----VPIAYKPQDV------------VLKDATYVVFDVETTGLSNQYDKIIELAAVK------------VHNGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  DG+      V+ A   G   +A+TDH+      +A A A++ G+++I G+E  +   G     V + +  QD              LK    +   +E  G+   YD  + LAA K            + NG + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|56749834|sp|P68852.1|DPO3_STAAW</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus MW2] &gt;gi|110808208|sp|Q2G1Z8.1|DPO3_STAA8 RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123486180|sp|Q2FHH4.1|DPO3_STAA3 RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus USA300]</Hit_def>
+  <Hit_accession>P68852</Hit_accession>
+  <Hit_len>1436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0683973</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTAMSQMDGIPNIGAYVKQAADWGHPAIAVTDHNVVQAFPDAHAAAEKHGIKMIYGMEGMLVDDG-----VPIAYKPQDV------------VLKDATYVVFDVETTGLSNQYDKIIELAAVK------------VHNGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  DG+      V+ A   G   +A+TDH+      +A A A++ G+++I G+E  +   G     V + +  QD              LK    +   +E  G+   YD  + LAA K            + NG + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|54036992|sp|P63982.1|DPO3_STAAN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus N315] &gt;gi|54040953|sp|P63981.1|DPO3_STAAM RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|166217451|sp|A7X1P4.1|DPO3_STAA1 RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus Mu3]</Hit_def>
+  <Hit_accession>P63982</Hit_accession>
+  <Hit_len>1438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0684059</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTAMSQMDGIPNIGAYVKQAADWGHPAIAVTDHNVVQAFPDAHAAAEKHGIKMIYGMEGMLVDDG-----VPIAYKPQDV------------VLKDATYVVFDVETTGLSNQYDKIIELAAVK------------VHNGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  DG+      V+ A   G   +A+TDH+      +A A A++ G+++I G+E  +   G     V + +  QD              LK    +   +E  G+   YD  + LAA K            + NG + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|56748669|sp|Q6G9U9.1|DPO3_STAAS</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|73919251|sp|Q5HGG7.2|DPO3_STAAC RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus COL] &gt;gi|172049022|sp|A6QGG4.1|DPO3_STAAE RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus str. Newman]</Hit_def>
+  <Hit_accession>Q6G9U9</Hit_accession>
+  <Hit_len>1438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0684059</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTAMSQMDGIPNIGAYVKQAADWGHPAIAVTDHNVVQAFPDAHAAAEKHGIKMIYGMEGMLVDDG-----VPIAYKPQDV------------VLKDATYVVFDVETTGLSNQYDKIIELAAVK------------VHNGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  DG+      V+ A   G   +A+TDH+      +A A A++ G+++I G+E  +   G     V + +  QD              LK    +   +E  G+   YD  + LAA K            + NG + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|56748683|sp|Q6GHH1.1|DPO3_STAAR</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GHH1</Hit_accession>
+  <Hit_len>1438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0684059</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAFT</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTAMSQMDGIPNIGAYVKQAADWGHPAIAVTDHNVVQAFPDAHAAAEKHGIKMIYGMEGMLVDDG-----VPIAYKPQDV------------VLKDATYVVFDVETTGLSNQYDKIIELAAVK------------VHNGEIIDKFERFS</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  DG+      V+ A   G   +A+TDH+      +A A A++ G+++I G+E  +   G     V + +  QD              LK    +   +E  G+   YD  + LAA K            + NG + +K + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2496191|sp|Q58982.1|Y1587_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ1587 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58982</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0726489</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS-----------DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVT</Hsp_qseq>
+      <Hsp_hseq>DLHIHTKYSGIGKFWKLKFPDSVEEPRNILKVAKKKGIEVVAITDHNTIRGGVETKKLEKEFGVEVVIGSEIMTT</Hsp_hseq>
+      <Hsp_midline>DLH H+  S           D +  P  ++++A + G  ++A+TDH+   G  E +      G+ ++ G EI  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|123497627|sp|Q2IIA8.1|DNAE2_ANADE</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Anaeromyxobacter dehalogenans 2CP-C]</Hit_def>
+  <Hit_accession>Q2IIA8</Hit_accession>
+  <Hit_len>1132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0853608</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVT--WRGRTIHVVGLDFDEQ</Hsp_qseq>
+      <Hsp_hseq>ELRCKSCFSFLEGASHPEELVGRAAELGLSGLALADVNGLYGIVRAHAEAKRQGLPLIVGAELVVAGLAPGRPARLVLLAQDRE</Hsp_hseq>
+      <Hsp_midline>+L C S  S  +G   P E+V  A + G + LAL D +   GI  A AEA R GL LI G E+ V     GR   +V L  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|123466238|sp|A0AIC1.1|DPO3_LISW6</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria welshimeri serovar 6b str. SLCC5334]</Hit_def>
+  <Hit_accession>A0AIC1</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.117909</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>ELHLHSPMSQMDATSSVDSLFKQAADWGHKAIAITDHSVAQSFPEAYGAGQKYGLKVIFGIEANLIDDG-----VPIAYNDQHIGLQDATYCV------------FDVETTGLSAVYDTIIELAGVK------------MKNGEIIDKFEAF</Hsp_hseq>
+      <Hsp_midline>+LH HS +S  D       + + A   G   +A+TDH       EA     + GL++I G+E ++   G     V + +++Q   LQ+    V              +E  G+   YD  + LA  K            +KNG + +K +AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|71151829|sp|Q73U92.1|DNAE2_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Mycobacterium avium subsp. paratuberculosis K-10]</Hit_def>
+  <Hit_accession>Q73U92</Hit_accession>
+  <Hit_len>1093</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.119748</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRT</Hsp_qseq>
+      <Hsp_hseq>ELHAHSAFSFLDGASTPEEMVEEAARLDLRALALTDHDGLYGAVRFAEAAAELDVRTVFGAELSLGPSART</Hsp_hseq>
+      <Hsp_midline>+LH HS  S  DG   P E+V  A +     LALTDHD   G       A  L +R + G E+S+    RT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|13959348|sp|Q9KA72.1|DPO3_BACHD</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KA72</Hit_accession>
+  <Hit_len>1433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.125293</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>VELHLHTAMSQMDGISSAGAYVTQASKWGHKAIAITDHGVVQAFPEAYGASQKHGIKVIYGVEANLVDDG-----VPIAYNEAHIPLLD------------SEFVVFDVETTGLSAVYNKIIELAAVK------------VKNGEIIDRFERF</Hsp_hseq>
+      <Hsp_midline>++LH H+ +S  DG+      V  A + G   +A+TDH       EA   + + G+++I GVE ++   G     V + ++E    L +             E +   +E  G+   Y+  + LAA K            +KNG + ++ + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|24418366|sp|Q8XJR3.1|DPO3_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>Q8XJR3</Hit_accession>
+  <Hit_len>1449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.176564</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>350</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDE</Hsp_qseq>
+      <Hsp_hseq>VELHMHTTMSSMDAVTAASKIVERAAKFGHKAVAITDHGVVQAFPDAQIAAKKNNIKVIYGVEGYLADNGTPIVINGHEESFDDE</Hsp_hseq>
+      <Hsp_midline>++LH H+T+S  D +   +++V  A + G   +A+TDH       +A+  A +  +++I GVE  +   G  I + G +    DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|118793|sp|P13267.2|DPO3_BACSU</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P13267</Hit_accession>
+  <Hit_len>1437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.192608</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>VELHLHSPMSQMDAVTGIGKLVEQAKKWGHEAIALTDHAVVQSFPDAYSAAKKHGIKMIYGMEANLVDDGVPIAY----------NAAHRL-------LEEETYVVFDVETTGLSAVYDTIIELAAVK------------VKGGEIIDKFEAF</Hsp_hseq>
+      <Hsp_midline>++LH HS +S  D +    ++V  A + G   +ALTDH       +A + A + G+++I G+E ++   G  I            N  + L       L+    +   +E  G+   YD  + LAA K            +K G + +K +AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|32469721|sp|Q8DRA5.1|DPO3_STRR6</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pneumoniae R6] &gt;gi|122279342|sp|Q04MH6.1|DPO3_STRP2 RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pneumoniae D39]</Hit_def>
+  <Hit_accession>Q8DRA5</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.201546</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEF--LIKNGH</Hsp_qseq>
+      <Hsp_hseq>VEFHAHTNMSTMDALPEVEEIVATAAKWGHKAVAITDHGNVQSFPHGYKAAKKAGIQLIYGIEANIV-----------------EDRVPIVYNEVEMDLSEATYVVFDVETTGLSAIYNDLIQVAASK-MYKGNVIAEFDEFINPGH</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  D +    E+V  A + G   +A+TDH +          A + G++LI G+E ++                  E+   ++ +  +  L     +   +E  G+   Y+  + +AA+K M     +AEF   I  GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|41018419|sp|Q58691.1|Y1295_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ1295 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58691</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.208932</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVSDGMLPPAEVVRLAHQNGCTLLALTDH</Hsp_qseq>
+      <Hsp_hseq>DFHTHTVFSDGELIPAELVRRARVLKHRAIAITDH</Hsp_hseq>
+      <Hsp_midline>D H H+  SDG L PAE+VR A       +A+TDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|166217455|sp|A3CQI2.1|DPO3_STRSV</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus sanguinis SK36]</Hit_def>
+  <Hit_accession>A3CQI2</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.231882</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEF--LIKNGH</Hsp_qseq>
+      <Hsp_hseq>VEFHAHTNMSTMDALPEVEEIVATAAKWGHKAVAITDHGNVQSFPHGYKAAKKAGIQLIYGMEANIV-EDR----VPIVYNEVDMELSDAT------------YVVFDVETTGLSAVYNDLIQVAASK-MHKGNIIAEFDEFINPGH</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  D +    E+V  A + G   +A+TDH +          A + G++LI G+E ++    R    V + ++E D  L +               +   +E  G+   Y+  + +AA+K M     +AEF   I  GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|11132275|sp|P57332.1|DPO3A_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit alpha [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57332</Hit_accession>
+  <Hit_len>1161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.270377</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEIS</Hsp_qseq>
+      <Hsp_hseq>IHLHVHSDYSMIDGLSKPEDLVKKAASLNMPAIAITDYNNLYGVIKFYNMAHKLGLKPIIGITVN</Hsp_hseq>
+      <Hsp_midline>I LH HS  S  DG+  P ++V+ A       +A+TD+++  G+ +    A +LGL+ I G+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|71151830|sp|Q5Z1D1.1|DNAE2_NOCFA</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Nocardia farcinica IFM 10152]</Hit_def>
+  <Hit_accession>Q5Z1D1</Hit_accession>
+  <Hit_len>1146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.279643</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISV</Hsp_qseq>
+      <Hsp_hseq>ELHAHSAYSFLDGASQPEELVEEAVRLGLEAIALTDHDGFYGTVRFAEAAKEWGIATVFGAELSL</Hsp_hseq>
+      <Hsp_midline>+LH HS  S  DG   P E+V  A + G   +ALTDHD   G       A   G+  + G E+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|21263563|sp|Q97SQ2.1|DPO3_STRPN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>Q97SQ2</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.356276</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEF--LIKNGH</Hsp_qseq>
+      <Hsp_hseq>VEFHAHTNMSTMDALPEVEEIVATAAKWGHKAVAITDHGNVQSFPHGYKAAKKAGIQLIYGMEANIV-----------------EDRVPIVYNEVEMDLSEATYVVFDVETTGLSAIYNDLIQVAASK-MYKGNVIAEFDEFINPGH</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  D +    E+V  A + G   +A+TDH +          A + G++LI G+E ++                  E+   ++ +  +  L     +   +E  G+   Y+  + +AA+K M     +AEF   I  GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|122269369|sp|Q03QS9.1|DPO3_LACBA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus brevis ATCC 367]</Hit_def>
+  <Hit_accession>Q03QS9</Hit_accession>
+  <Hit_len>1445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.362205</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTI</Hsp_qseq>
+      <Hsp_hseq>VELHLHTSMSQMDATNSIGDYVKQAKKWGMPALAITDHADVQGFPAAFNSAAKAGIKMLYGVEANLVDDGVPI</Hsp_hseq>
+      <Hsp_midline>++LH H+++S  D      + V+ A + G   LA+TDH    G   A   A + G++++ GVE ++   G  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|123549060|sp|Q2YXK4.1|DPO3_STAAB</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q2YXK4</Hit_accession>
+  <Hit_len>1438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.420205</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVE</Hsp_qseq>
+      <Hsp_hseq>VEFHLHTAMSQMDGIPNIGAYVKQAADWGHPAIAVTDHNVVQAFPDAHAAAEKHGIKMIYGME</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S  DG+      V+ A   G   +A+TDH+      +A A A++ G+++I G+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|21263551|sp|Q8Y7G1.1|DPO3_LISMO</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y7G1</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.471048</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>ELHLHSPMSQMDATSSVDSLFKQAADWGHKAIAITDHSVAQSFPEAYGAGQKYGLKVIFGIEANLIDDG-----VPIAYNDQHIALEDATYCV------------FDVETTGLSAVYDTIIELAGVK------------MKNGEIIDKFEAF</Hsp_hseq>
+      <Hsp_midline>+LH HS +S  D       + + A   G   +A+TDH       EA     + GL++I G+E ++   G     V + +++Q   L++    V              +E  G+   YD  + LA  K            +KNG + +K +AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|21263558|sp|Q92C34.1|DPO3_LISIN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92C34</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.471048</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>ELHLHSPMSQMDATSSVDSLFKQAADWGHKAIAITDHSVAQSFPEAYGAGQKYGLKVIFGIEANLIDDG-----VPIAYNDQHIALEDATYCV------------FDVETTGLSAVYDTIIELAGVK------------MKNGEIIDKFEAF</Hsp_hseq>
+      <Hsp_midline>+LH HS +S  D       + + A   G   +A+TDH       EA     + GL++I G+E ++   G     V + +++Q   L++    V              +E  G+   YD  + LA  K            +KNG + +K +AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|67460321|sp|Q720A2.1|DPO3_LISMF</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria monocytogenes serotype 4b str. F2365]</Hit_def>
+  <Hit_accession>Q720A2</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.471048</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEFLIKNGHVKNKQQAF</Hsp_qseq>
+      <Hsp_hseq>ELHLHSPMSQMDATSSVDSLFKQAADWGHKAIAITDHSVAQSFPEAYGAGQKYGLKVIFGIEANLIDDG-----VPIAYNDQHIALEDATYCV------------FDVETTGLSAVYDTIIELAGVK------------MKNGEIIDKFEAF</Hsp_hseq>
+      <Hsp_midline>+LH HS +S  D       + + A   G   +A+TDH       EA     + GL++I G+E ++   G     V + +++Q   L++    V              +E  G+   YD  + LA  K            +KNG + +K +AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|54036993|sp|P63984.1|DPO3_STRA5</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus agalactiae 2603V/R] &gt;gi|54040954|sp|P63983.1|DPO3_STRA3 RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus agalactiae NEM316]</Hit_def>
+  <Hit_accession>P63984</Hit_accession>
+  <Hit_len>1468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.523945</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>344</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVSD-GMLPPAE-VVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEF--LIKNGHVKNKQQAFTKYLGDGKSCAVRHEWATLADCVSAVNGAGGMAVIAHPMRYDL</Hsp_qseq>
+      <Hsp_hseq>VEFHAHTNMSTMDALPTVESLIDTAAKWGHPAIAITDHANVQSFPHGYHRAKKAGIKAIFGLEANIVEDK-----VPISYNEVDMNLH------------EATYVVFDVETTGLSAANNDLIQIAASK-MFKGNIIEQFDEFIDPGH---PLSAFTTELTGITDNHVRGSKPILQVLQEFQNFCQGTVLVAHNATFDV</Hsp_hseq>
+      <Hsp_midline>++ H H+ +S    LP  E ++  A + G   +A+TDH +          A + G++ I G+E ++         V + ++E D NL                 +   +E  G+  A +  + +AA+K M     + +F   I  GH      AFT  L       VR     L       N   G  ++AH   +D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|71151827|sp|Q605W1.1|DNAE2_METCA</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Methylococcus capsulatus str. Bath]</Hit_def>
+  <Hit_accession>Q605W1</Hit_accession>
+  <Hit_len>1047</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.548756</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISV</Hsp_qseq>
+      <Hsp_hseq>ELHALSNFSFLRGASHPKELVAEAARLGYAALALTDECSLAGVVRAHAEAKTLGFKLIIGSEFRL</Hsp_hseq>
+      <Hsp_midline>+LH  S  S   G   P E+V  A + G   LALTD     G+  A AEA  LG +LI G E  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|122311913|sp|Q0A9G3.1|DNAE2_ALKEH</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Alkalilimnicola ehrlichii MLHE-1]</Hit_def>
+  <Hit_accession>Q0A9G3</Hit_accession>
+  <Hit_len>1025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.592362</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISV</Hsp_qseq>
+      <Hsp_hseq>ELHCLSCFSFLRGASQPAELVQRAAELGYRALALTDACSVAGAVRAHQAAKETDLHLIHGSEIRI</Hsp_hseq>
+      <Hsp_midline>+LHC S  S   G   PAE+V+ A + G   LALTD     G   A   A    L LI+G EI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|156630468|sp|A2AVQ5.1|CA177_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C1orf177 homolog [Mus musculus]</Hit_def>
+  <Hit_accession>A2AVQ5</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.611003</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>NGHVKNKQQAFTKYLGDGKSCAVRHEWATLADCVSAVNGAGGMAVIAH</Hsp_qseq>
+      <Hsp_hseq>NSQHKKKQGVFSKYPRDPKHPTERIFWTTLSQCPKNMDIAGPGSWLPH</Hsp_hseq>
+      <Hsp_midline>N   K KQ  F+KY  D K    R  W TL+ C   ++ AG  + + H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|71151833|sp|Q88I82.1|DNAE2_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Error-prone DNA polymerase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88I82</Hit_accession>
+  <Hit_len>1033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.652948</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>DLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENL---QNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALAL</Hsp_qseq>
+      <Hsp_hseq>ELHCLSNFSFQRGASSADELFRRAREQGYQALAITDECTLAGIVRAWQAAKVHQLRLIVGSEVQLCDGPKLVLLV--------ENLTGYQNLCALITRAR-RRAEKGAYQLFRDDLLLHHQGLLAL</Hsp_hseq>
+      <Hsp_midline>+LHC S  S   G     E+ R A + G   LA+TD     GI  A   A    LRLI G E+ +    + + +V        ENL   QNL A + + R +R E  A +L +  +   + G LAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|32469698|sp|Q88VK2.1|DPO3_LACPL</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus plantarum WCFS1]</Hit_def>
+  <Hit_accession>Q88VK2</Hit_accession>
+  <Hit_len>1437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.680175</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>IDLHCHSTVS--DGMLPPAEVVRLAHQNGCTLLALTDHDHTGGISEARAEADRLGLRLINGVEISVTWRGRTIHVVGLDFDEQDENLQNLLADVRKGRLKRLEAIAAKLEKKGIGGAYDGALALAANKEMVSRTHVAEF</Hsp_qseq>
+      <Hsp_hseq>VELHLHSNMSQMDATNSVSDYVKQAAKWGHPAIAITDHSGAQAFPEAFAAGEKNNIKILYGVEANMVDDGVPIAYNDAHVD-----------------LKESTYVIFDTETTGLSAIYDRVIELSAVK-MVKGNVVDQF</Hsp_hseq>
+      <Hsp_midline>++LH HS +S  D     ++ V+ A + G   +A+TDH       EA A  ++  ++++ GVE ++   G  I       D                 LK    +    E  G+   YD  + L+A K MV    V +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

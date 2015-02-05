@@ -8,7 +8,6 @@ from Uniprot_Parser import * #parsing uniprot text file
 from Bio.SeqIO import UniprotIO #parsing uniprot xml file
 import pandas
 import numpy as np
-#from __future__ import print_function
 
 
 #[0:246000] my zone
@@ -472,7 +471,7 @@ def giwithout_note(record):
 #blast gi without note    
 def blastnote(filename):
     gi=giwithout_note(record)
-    for i in range(26,len(gi)):
+    for i in range(28,len(gi)):
         GI_numb=str(gi[i])
         result_handle = NCBIWWW.qblast("blastp","swissprot", GI_numb)
         save_file = open(GI_numb+'.xml', "w")
@@ -484,12 +483,48 @@ def blastnote(filename):
         src = path+"/"+GI_numb+'.xml' #source folder
         dst = "../res/blast_without_note"#destination folder
         shutil.move(src, dst)
+        
+        
 def blastanaliser():
     blast=[]    
     for file in os.listdir("../res/blast_without_note"):
         if file.endswith(".xml"):
             blast.append(file)
-    return blast
+    E_VALUE_THRESH = 0.05
+    lista=[]
+    for i in range(len(blast)):
+        lista.append([])
+        lista[i].append(blast[i])
+        result_handle = open("../res/blast_without_note/"+blast[i])
+        blast_record = NCBIXML.read(result_handle)
+        for alignment in blast_record.alignments:
+            for hsp in alignment.hsps:
+                 if hsp.expect < E_VALUE_THRESH:
+                     lista[i].append(alignment.title)
+                     lista[i].append(alignment.length)
+                     lista[i].append(hsp.expect)
+    save_file = open('nomatches.txt', "w")
+    for i in range(len(lista)):                
+        if len(lista[i])<2:
+            save_file.write(str(lista[i])+'\n')
+    save_file.close()
+    #        #moving the file to another directory
+    path=os.getcwd()
+    src = path+"/"+'nomatches.txt' #source folder
+    dst = "../res/blast_without_note/nomatch/"#destination folder
+    shutil.move(src, dst)
+                     
+    save_file = open('matches.txt', "w")
+    for i in range(len(lista)):                
+        if len(lista[i])>2:
+            save_file.write(str(lista[i])+'\n')
+    save_file.close()
+    #        #moving the file to another directory
+    path=os.getcwd()
+    src = path+"/"+'matches.txt' #source folder
+    dst = "../res/blast_without_note/match/"#destination folder
+    shutil.move(src, dst)
+    
 def menu(record):
     ans=True
     while ans:
@@ -569,7 +604,7 @@ def menu(record):
         elif ans=="14":
             blastnote(filename)
         elif ans=="15":
-            print(blastanaliser())
+            blastanaliser()
         elif ans=="20":
             ans = False
         else:
