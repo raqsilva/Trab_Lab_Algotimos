@@ -380,10 +380,11 @@ def tabela_uniprot():
 def tabela_uniprot2():
     dado=[]
     lista=[]
-    ident=more_info_uniprot()
-    for i in range(len(ident)):
-        dado.append(ident[i][0])       
-        lista.append(ident[i])
+    refs=more_info_uniprot()
+    for i in range(len(refs)):
+        dado.append(refs[i][0])
+        
+        lista.append(refs[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado)
     df.to_csv("teste_uniprot2", sep='\t')
