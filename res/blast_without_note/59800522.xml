@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800522|ref|YP_207234.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>thioredoxin [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>169</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800522|ref|YP_207234.1|</Iteration_query-ID>
+  <Iteration_query-def>thioredoxin [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>169</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1174688|sp|P43787.1|THIX_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-like protein HI_1115 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43787</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>5.34482e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>KKLLSGIKFAVRTALVFLLVSLFLDWVRKPDEPAGAAGRPLTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWGLRARIFQADFFG</Hsp_qseq>
+      <Hsp_hseq>KKLL---KNGLSLFLTFIVITSILDFVRRPVVPEEINKITLQDLQGNTFSLESLDQNKPTLLYFWGTWCGYCRYTSPAINSLAKEGYQVVSVALRSGNEADVNDYLSKNDYHFTTVNDPKGEFAERWQINVTPTIVLLSKGKMDLVTTGLTSYWGLKVRLFFAEFFG</Hsp_hseq>
+      <Hsp_midline>KKLL   K  +   L F++++  LD+VR+P  P       L  L G   +L    +++  L+YFWG+WCG CRY SP I+ LA +G  VV VA+RSG+ ++V  Y++K    F TV+D  G  A  W+I  TP +VL+  GKM   TTG++SYWGL+ R+F A+FFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81385185|sp|Q65HX8.1|RESA_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65HX8</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.13832e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MKKKLLSGIKFAVRTALVFLLV-----SLFLDWVRKPDEPAGAAGRP---LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDD----LAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVK-NGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>MKKK-----RFYIRTGILLVLLAALGYTLYSAVFQNTESVAVGEKAPIFSLEDVDGNRLKLDEL-KGKGVFLNFWGTWCEPCKREFPYMANQYKVFKDKGVEIVAVNVGESNLA-VRNFMKDHGVNFPVVLDKDRQVLNAYDVTPLPTTFLINPDGEIVKVVTG</Hsp_hseq>
+      <Hsp_midline>MKKK     +F +RT ++ +L+     +L+    +  +  A     P   L  + G RL L +  + + V + FWG+WC  C+ + P + +        GV +V V V   + + V  +M   G+ FP V D+D  +  ++ +   P   L+  +G++V+  TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81822132|sp|Q5WGY8.1|RESA_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Probable thiol-disulfide oxidoreductase ResA [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>Q5WGY8</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>5.60114e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>KKLLSGIKFAVRTALVFLL-VSLFLDWVRKPDEPAGAAGRPLTL-----LSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAA---DGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>KKKRSIIRFTVLFAIVCAIGYTIYANAAS--EQGAVKVGEPATNFALVDLEQERFELGQ-NQGKGVFINFWGTFCEPCEREMPYIENAYEQYKDEVEMIAVNVDEAPLT-VQSFINRHGLTFPVAIDERREVTRAYGIGPLPATILVDEHGIVQKVHTG</Hsp_hseq>
+      <Hsp_midline>KK  S I+F V  A+V  +  +++ +     ++ A   G P T      L  +R  LGQ ++ + V + FWG++C  C  + P I++      D V ++ V V     + V +++ + GL FP   DE   + R++ I   PA +LV ++G + +  TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|34395959|sp|P35160.2|RESA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P35160</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>8.93012e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MKKK----LLSGIKFAVRTALVFLLVSLFLDWVRKPDEPAGAAGRPLTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDD----LAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVK-NGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>MKKKRRLFIRTGILLVLICALGYTIYNAVFAGKESISEGSDAPNFVLEDTNGKRIELSDL-KGKGVFLNFWGTWCEPCKKEFPYMANQYKHFKSQGVEIVAVNVGE-SKIAVHNFMKSYGVNFPVVLDTDRQVLDAYDVSPLPTTFLINPEGKVVKVVTG</Hsp_hseq>
+      <Hsp_midline>MKKK    + +GI   +  AL + + +          E + A    L   +G+R+ L    + + V + FWG+WC  C+ + P + +      + GV +V V V   S   V  +M   G+ FP V D D  +  ++ ++  P   L+   GK+V+  TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81346949|sp|Q5KXL9.1|RESA_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Geobacillus kaustophilus HTA426]</Hit_def>
+  <Hit_accession>Q5KXL9</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.09311e-09</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>KFAVRTALVFLLV-----SLFLDWVRKPDEPAGAAGRP---LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDL----AADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>RLVMRTAILLVLLAAIGYTIYTNFFTEKTAVAVGSTAPDFVLTDLKGHEHRLSDY-RGKGVFLNFWGTWCKPCEREMPYMNELYPIYKKQGVEILAVNVGEPKLS-VEKFAERFGLTFPIVIDRQDQVLNAYNVGPLPTTFLIDKNGEVKQIITG</Hsp_hseq>
+      <Hsp_midline>+  +RTA++ +L+     +++ ++  +    A  +  P   LT L G    L  + R + V + FWG+WC  C  + P +++L       GV ++ V V     S V  +  + GL FP V D    +  ++ +   P   L+ KNG++ +  TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20137980|sp|Q9I3N1.1|DSBE_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I3N1</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.33404e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>VFLLVSLFL---DWVRKPDEPAGAAGRPLTLLS-------GQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRY</Hsp_qseq>
+      <Hsp_hseq>IFLIVAVFLFRGLWLDPSELPSALIGKPFPAFDLPSVQDPARRLTEADL-KGKPALVNVWGTWCPSCRVEHPELTRLAEQGVVIYGINYKDDNAAAIKWLNELHNPYLLSISDADGTLGLDLGVYGAPETYLIDKQGIIRH</Hsp_hseq>
+      <Hsp_midline>+FL+V++FL    W+   + P+   G+P             +RLT     + +  LV  WG+WC  CR + P +  LA  GV + G+  +  +A+ +            ++SD DG L     +   P   L+    ++R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|160016262|sp|A4IQF5.1|RESA_GEOTN</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Geobacillus thermodenitrificans NG80-2]</Hit_def>
+  <Hit_accession>A4IQF5</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>9.26776e-09</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDL----AADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTGISSYWGLRARI</Hsp_qseq>
+      <Hsp_hseq>LSDLEGREHRLTDY-RGKGVFLNFWGTWCKPCEREMPYMNELYPIYQKQGVEILAVNVGEPKLN-VEKFAERFGLTFPIVIDRQDQVLNAYGVGPLPTTFLIDKNGKVKKIITGTMTKEDIKQHL</Hsp_hseq>
+      <Hsp_midline>L+ L G+   L  + R + V + FWG+WC  C  + P +++L       GV ++ V V     + V  +  + GL FP V D    +  ++ +   P   L+ KNGK+ +  TG  +   ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81569726|sp|Q73B22.1|RESA_BACC1</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus cereus ATCC 10987]</Hit_def>
+  <Hit_accession>Q73B22</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.86428e-08</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDL----AADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTGISSYWGLRA</Hsp_qseq>
+      <Hsp_hseq>VTDLEGKKIELKDF-KGKGVFLNFWGTWCKPCEKEMPYMNELYPKYKEKGVEIIALDADETDIA-VKNFVKQYDLKFPVAIDKGGEIIKTYGVIPLPTSFLIDKDGKVIQEIKGEQTKEQLEE</Hsp_hseq>
+      <Hsp_midline>+T L G+++ L  F + + V + FWG+WC  C  + P +++L       GV ++ +       + V  ++ +  L FP   D+ G + +++ +   P   L+ K+GK+++   G  +   L  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81341966|sp|O31820.1|YNEN_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-like protein YneN [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31820</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.88487e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MKKKLLSGIKFAVRTALVFLLV-----SLFLDWVRKP---DEPAGAAGRPLTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLA---ADGVPVVGVAVRSGSASE--VAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVR</Hsp_qseq>
+      <Hsp_hseq>MLKKWLAGI-------LLIMLVGYTGWNLYQTYSKKEVGIQEGQQAPDFSLKTLSGEKSSL-QDAKGKKVLLNFWATWCKPCRQEMPAMEKLQKEYADKLAVVAVNFTSAEKSEKQVRAFADTYDLTFPILIDK-KGINADYNVMSYPTTYILDEKGVIQ</Hsp_hseq>
+      <Hsp_midline>M KK L+GI       L+ +LV     +L+  + +K     E   A    L  LSG++ +L Q ++ + VL+ FW +WC  CR + P ++ L    AD + VV V   S   SE  V A+     L FP + D+  G+   + + + P   ++    +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81396686|sp|Q6HL81.1|RESA_BACHK</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus thuringiensis serovar konkukian str. 97-27]</Hit_def>
+  <Hit_accession>Q6HL81</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.94087e-08</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDL----AADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTGISSYWGLRA</Hsp_qseq>
+      <Hsp_hseq>VTDLEGKKIELKDF-KGKGVFLNFWGTWCKPCEKEMPYMNELYPKYKEKGVEIIALDADETDIA-VKNFVKQYDLKFPVAIDKGGEIIKTYGVIPLPTSFLIDKDGKVIQEIKGEQTKEQLEE</Hsp_hseq>
+      <Hsp_midline>+T L G+++ L  F + + V + FWG+WC  C  + P +++L       GV ++ +       + V  ++ +  L FP   D+ G + +++ +   P   L+ K+GK+++   G  +   L  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|34395773|sp|Q8CXF3.1|RESA_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8CXF3</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.96688e-08</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>RTVLVYFWGSWCGVCRYQSPIIDDLAAD----GVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVK-NGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>KGVMLNFWATWCDPCKAEMPYMQDLYAEYKEKGVEIVAVSL-DGTELVVDQFIDEYDLTFPVPHDKNGEVKDLYKIGPMPTTYFIKPNGEIEEIVQG</Hsp_hseq>
+      <Hsp_midline>+ V++ FW +WC  C+ + P + DL A+    GV +V V++  G+   V  ++ +  L FP   D++G +   ++I   P    +K NG++     G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|20139145|sp|Q9CPK9.1|NRFX_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Probable thiol:disulfide interchange protein DsbE-2; AltName: Full=Cytochrome c biogenesis protein NrfX [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CPK9</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>5.45365e-08</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>LFLDWVRKPDEPAGA-AGRPLT------LLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFP---TVSDEDGGLARSWRIAATPAVVLVKNGKMVRY</Hsp_qseq>
+      <Hsp_hseq>LFIGLQQDPQKIASALIGKPVPTFSQADLLRTERRVTQQDLPQQTFLLNVWGSWCAYCKKEHPFLMQLAK-SMPIVGLNYRDNPQNALAML---NQLGNPFQLVINDSRGELALNLGVDGAPETYLIDQYGVIRY</Hsp_hseq>
+      <Hsp_midline>LF+   + P + A A  G+P+       LL  +R    Q    +T L+  WGSWC  C+ + P +  LA   +P+VG+  R    + +A       LG P    ++D  G LA +  +   P   L+    ++RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1729970|sp|P52237.1|DSBE_PSEFC</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Pseudomonas fluorescens bv. C]</Hit_def>
+  <Hit_accession>P52237</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>6.89804e-08</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VFLLVSLFLD---WVRKPDEPAGAAGRP-----LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVR</Hsp_qseq>
+      <Hsp_hseq>LFLLVAVFLYRGLYLDPAELPSRMIGKPFPAFNLPTVHGDKTLTQADLRGKPALVNVWATWCISCRVEHPVLNKLAEKGVVIYGINYKDDNAAALKWLAEFHNPYQLDIRDEDGNLGLNLGVYGAPETFFIDAKGVIR</Hsp_hseq>
+      <Hsp_midline>+FLLV++FL    ++   + P+   G+P     L  + G +       R +  LV  W +WC  CR + P+++ LA  GV + G+  +  +A+ +             + DEDG L  +  +   P    +    ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1169433|sp|P44943.1|NRFX_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable thiol:disulfide interchange protein DsbE-2; AltName: Full=Cytochrome c biogenesis protein NrfX [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44943</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>9.69014e-08</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFP---TVSDEDGGLARSWRIAATPAVVLVKNGKMVRY</Hsp_qseq>
+      <Hsp_hseq>QIVSPKEFPK-QPFLLNVWGSWCGYCKEEHPLLIEIAK-TLPIVGVDYRDNRQNGIK--MLKR-MGNPFILTIDDSHGELGLKLGVDGAPETYLVDENGVIRY</Hsp_hseq>
+      <Hsp_midline>Q ++  +F + +  L+  WGSWCG C+ + P++ ++A   +P+VGV  R    + +   M KR +G P   T+ D  G L     +   P   LV    ++RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|20137795|sp|Q8XFE5.1|DSBE_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8XFE5</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>9.87297e-08</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>GQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFP---TVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWGLRARIFQADF</Hsp_qseq>
+      <Hsp_hseq>GQYYQAEVLTQGKPVLLNVWATWCPTCRAEHQYLNRLAAQGIRVVGLNYKDDRAKAVAWL---KELGNPYALSLSDSDGMLGLDLGVYGAPETFLIDGRGIIRYRHAGD----LNARVWESEL</Hsp_hseq>
+      <Hsp_midline>GQ       ++ + VL+  W +WC  CR +   ++ LAA G+ VVG+  +   A  VA     + LG P   ++SD DG L     +   P   L+    ++RY         L AR+++++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|586100|sp|P37395.1|THIO_CYACA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx (chloroplast) [Cyanidium caldarium]</Hit_def>
+  <Hit_accession>P37395</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.17726e-07</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>NSEKLVLVDFWAPWCGPCRMISPVIDELAQEYVEQVKIVKIN--------------------TDENPSISAEYGIRSIPTLMLFKDGKRVDTVIG</Hsp_hseq>
+      <Hsp_midline>+ ++ VLV FW  WCG CR  SP+ID+LA + V  V +   +                    +DE+  ++  + I + P ++L K+GK V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|20137796|sp|Q8XFK6.1|DSBE_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8XFK6</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.27717e-07</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>GQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFP---TVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWGLRARIFQADF</Hsp_qseq>
+      <Hsp_hseq>GQYYQAEVLTQGKPVLLNVWATWCPTCRAEHQYLNQLSAQGIRVVGLNYKDDRAKAVAWL---KELGNPYALSLSDSDGMLGLDLGVYGAPETFLIDGRGIIRYRHAGD----LNARVWESEL</Hsp_hseq>
+      <Hsp_midline>GQ       ++ + VL+  W +WC  CR +   ++ L+A G+ VVG+  +   A  VA     + LG P   ++SD DG L     +   P   L+    ++RY         L AR+++++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|156630909|sp|P10472.5|THIO_CHLTI</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Chlorobaculum thiosulfatiphilum]</Hit_def>
+  <Hit_accession>P10472</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.34543e-07</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>FSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>LDSDKAVLVDFWASWCGPCMMLGPVIEQLADD--------------YEGKAIIAKLNV------DENPNIAGQYGIRSIPTMLIIKGGKVVDQMVG</Hsp_hseq>
+      <Hsp_midline>   D+ VLV FW SWCG C    P+I+ LA D               E  A +AK  +      DE+  +A  + I + P ++++K GK+V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|75331079|sp|Q8VWG7.1|TDX_ARATH</Hit_id>
+  <Hit_def>RecName: Full=TPR repeat-containing thioredoxin TDX; AltName: Full=HSP70-interacting protein 2; Short=AtHIP2; AltName: Full=Tetratricoredoxin; Short=AtTDX [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8VWG7</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>4.12853e-07</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>RTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>RLLILYFTATWCGPCRYMSPLYSNLATQHSRVVFLKVDIDKANDVAA---------------------SWNISSVPTFCFIRDGKEVDKVVG</Hsp_hseq>
+      <Hsp_midline>R +++YF  +WCG CRY SP+  +LA     VV + V    A++VAA                     SW I++ P    +++GK V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|57013030|sp|O31687.1|STOA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sporulation thiol-disulfide oxidoreductase A; AltName: Full=Stage IV sporulation protein H; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31687</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.30193e-07</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>EPAGAAGRPLTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSP----IIDDLAADGVPVVGVAVRSGSASE--VAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYT</Hsp_qseq>
+      <Hsp_hseq>QPAVPAVFLMKTIEGEDISIP--NKGQKTILHFWTSWCPPCKKELPQFQSFYDAHPSDSVKLVTVNLVNSEQNQQVVEDFIKANKLTFPIVLDSKGELMKEYHIITIPTSFLLNEKGEIEKT</Hsp_hseq>
+      <Hsp_midline>+PA  A   +  + G+ +++   ++ +  +++FW SWC  C+ + P      D   +D V +V V + +   ++  V  ++    L FP V D  G L + + I   P   L+     +  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|54039726|sp|P66929.1|THIO_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Helicobacter pylori J99] &gt;gi|54042250|sp|P66928.1|THIO_HELPY RecName: Full=Thioredoxin; Short=Trx [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>P66929</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>6.27863e-07</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWGLRARI</Hsp_qseq>
+      <Hsp_hseq>LVDFWAPWCGPCKMLSPVIDELA--------------SEYEGKAKICKVN------TDEQEELSAKFGIRSIPTLLFTKDGEVVHQLVGVQTKVALKEQL</Hsp_hseq>
+      <Hsp_midline>LV FW  WCG C+  SP+ID+LA              S  E  A + K        +DE   L+  + I + P ++  K+G++V    G+ +   L+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1729942|sp|P80579.1|THIO_ALIAC</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Alicyclobacillus acidocaldarius subsp. acidocaldarius]</Hit_def>
+  <Hit_accession>P80579</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>7.05808e-07</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>DRTVLVYFWGSWCGVCRYQSPIIDDLA---ADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWGLRARI</Hsp_qseq>
+      <Hsp_hseq>DKPVLVDFWAAWCGPCRMMAPVLEEFAEAHADKVTVAKLNV-----------------------DENPETTSQFGIMSIPTLILFKGGRPVKQLIGYQPKEQLEAQL</Hsp_hseq>
+      <Hsp_midline>D+ VLV FW +WCG CR  +P++++ A   AD V V  + V                       DE+      + I + P ++L K G+ V+   G      L A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|34395833|sp|Q9KCJ4.1|RESA_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KCJ4</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.00138e-06</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAAD----GVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>LEDLEGESIELRELE-GKGVFLNFWGTYCPPCEREMPHMEKLYGEYKEQGVEIIAVNANEPELT-VQRFVDRYGLSFPIVIDKGLNVIDAYGIRPLPTTILINEHGEIVKVHTG</Hsp_hseq>
+      <Hsp_midline>L  L G+ + L +    + V + FWG++C  C  + P ++ L  +    GV ++ V       + V  ++ + GL FP V D+   +  ++ I   P  +L+ ++G++V+  TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|25453296|sp|Q8KE49.3|THIO2_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-2; Short=Trx-2 [Chlorobium tepidum TLS]</Hit_def>
+  <Hit_accession>Q8KE49</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.03173e-06</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>SGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>TDQNFQAEILNSDKVALVDFWAAWCGPCMMLGPVIEELAGD--------------YEGKAIIAKLNV------DENPNTAGQYGIRSIPTMLIIKGGKVVDQMVG</Hsp_hseq>
+      <Hsp_midline>+ Q       + D+  LV FW +WCG C    P+I++LA D               E  A +AK  +      DE+   A  + I + P ++++K GK+V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|34395755|sp|Q81FU5.1|RESA_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q81FU5</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.15323e-06</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDL----AADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>VTDLEGKKIELKDL-KGKGVFLNFWGTWCKPCEKEMPYMNELYPKYKEKGVEIIALDADETDIA-VKNFVNQYGLKFPVAIDKGQKIIGTYGVGPLPTSFLIDKDGKVVEQIIG</Hsp_hseq>
+      <Hsp_midline>+T L G+++ L    + + V + FWG+WC  C  + P +++L       GV ++ +       + V  ++ + GL FP   D+   +  ++ +   P   L+ K+GK+V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|34395757|sp|Q81SZ9.1|RESA_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus anthracis] &gt;gi|160016198|sp|A0RBT0.1|RESA_BACAH RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus thuringiensis str. Al Hakam]</Hit_def>
+  <Hit_accession>Q81SZ9</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.15323e-06</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDL----AADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>VTDLEGKKIELKDL-KGKGVFLNFWGTWCKPCEKEMPYMNELYPKYKEKGVEIIALDADETDIA-VKNFVNQYGLKFPVAIDKGQKIIGTYGVGPLPTSFLIDKDGKVVEQIIG</Hsp_hseq>
+      <Hsp_midline>+T L G+++ L    + + V + FWG+WC  C  + P +++L       GV ++ +       + V  ++ + GL FP   D+   +  ++ +   P   L+ K+GK+V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|20140774|sp|Q9CM49.1|THIO_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CM49</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.45375e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>NSDVPVLLDFWAPWCGPCRMISPILDEIAAE---------FSGKVKVVKINI-----------DENQATPAQLGVRSIPTLVLFKNGKAVATQVG</Hsp_hseq>
+      <Hsp_midline>+ D  VL+ FW  WCG CR  SPI+D++AA+          SG    V   +           DE+        + + P +VL KNGK V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|75329782|sp|Q8L7S9.1|TRXY2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin Y2, chloroplastic; Short=AtTrxy2; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8L7S9</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>2.62497e-06</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>PLTLLSGQRLTLGQF-----SRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKM</Hsp_qseq>
+      <Hsp_hseq>PLTVRAAKKQTFNSFDDLLQNSDKPVLVDFYATWCGPCQLMVPILNEV-------------SETLKDIIAVVKIDTEKYPS-------LANKYQIEALPTFILFKDGKL</Hsp_hseq>
+      <Hsp_midline>PLT+ + ++ T   F     + D+ VLV F+ +WCG C+   PI++++             S +  ++ A +      +P+       LA  ++I A P  +L K+GK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|239938707|sp|O31430.2|SKFH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-like protein SkfH [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31430</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.23447e-06</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FSRDRTVLVYFWGSWCGVC-RYQSPIIDDLAADGVPVVGVAV----RSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKN-GKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>FPSDTYLLLYFWSMSCPNCHQLTDKVLQDIKDMNVKVIGVHVPYIEEEKSMEVVLTYALDRGLAIPIVLDQNYEIVTTCHVQGIPSFCLLSQYGQIITKTMG</Hsp_hseq>
+      <Hsp_midline>F  D  +L+YFW   C  C +    ++ D+    V V+GV V       S   V  Y   RGL  P V D++  +  +  +   P+  L+   G+++  T G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|61248339|sp|P0A617.2|THIO_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx; AltName: Full=MPT46 [Mycobacterium bovis AF2122/97] &gt;gi|614139507|sp|P9WG66.1|THIO_MYCTO RecName: Full=Thioredoxin; Short=Trx; AltName: Full=MPT46 [Mycobacterium tuberculosis CDC1551] &gt;gi|614139513|sp|P9WG67.1|THIO_MYCTU RecName: Full=Thioredoxin; Short=Trx; AltName: Full=MPT46 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P0A617</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>4.00225e-06</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>FSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>LSSNKPVLVDFWATWCGPCKMVAPVLEEI----------------ATERATDLTVAKLDV----DTNPETARNFQVVSIPTLILFKDGQPVKRIVG</Hsp_hseq>
+      <Hsp_midline> S ++ VLV FW +WCG C+  +P+++++                A+E A  +    L      D +   AR++++ + P ++L K+G+ V+   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|59798172|sp|Q63DQ8.1|RESA_BACCZ</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus cereus E33L]</Hit_def>
+  <Hit_accession>Q63DQ8</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>4.45821e-06</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LTLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDL----AADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLV-KNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>VTDLEGKKIELKDL-KGKGVFLNFWGTWCKPCEKEMPYMNELYPKYKEKGVEIIALDADETEIA-VKNFVKQYDLKFPVAIDKGTKIIGTYSVGPLPTSFLIDKDGKVVEKIIG</Hsp_hseq>
+      <Hsp_midline>+T L G+++ L    + + V + FWG+WC  C  + P +++L       GV ++ +       + V  ++ +  L FP   D+   +  ++ +   P   L+ K+GK+V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|134044263|sp|P52236.2|CCMG_PARDP</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE homolog; AltName: Full=Cytochrome c biogenesis protein CcmG; Flags: Precursor [Paracoccus denitrificans PD1222]</Hit_def>
+  <Hit_accession>P52236</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>4.6248e-06</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TLLSGQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTV-SDEDGGLARSWRIAATPAVVLVK-NGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>TLPGKVQLTDEMLRQPGVKLVNFWASWCPPCRAEHPTLTELSAR-LPVYGVDLKDPEGAAL-GFLSEHGDPFHALAADPRGRVAIDWGVTAPPETFIIDGSGRILHRHAG</Hsp_hseq>
+      <Hsp_midline>TL    +LT     +    LV FW SWC  CR + P + +L+A  +PV GV ++    + +  ++++ G  F  + +D  G +A  W + A P   ++  +G+++    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2507458|sp|P07591.2|TRXM_SPIOL</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin M-type, chloroplastic; Short=Trx-M; Contains: RecName: Full=Thioredoxin M-type Mc; Contains: RecName: Full=Thioredoxin M-type Md; Flags: Precursor [Spinacia oleracea]</Hit_def>
+  <Hit_accession>P07591</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.06442e-06</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>VLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGK</Hsp_qseq>
+      <Hsp_hseq>VMVDFWAPWCGPCKLIAPVIDELAKE---------YSG---KIAVYKLN--------TDEAPGIATQYNIRSIPTVLFFKNGE</Hsp_hseq>
+      <Hsp_midline>V+V FW  WCG C+  +P+ID+LA +          SG   ++A Y           +DE  G+A  + I + P V+  KNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1174671|sp|P20857.3|THIO2_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-2; Short=Trx-2 [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>P20857</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.02304e-06</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DRTVLVYFWGSWCGVCRYQSPIID---DLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISS</Hsp_qseq>
+      <Hsp_hseq>EQPVLVYFWASWCGPCQLMSPLINLAANTYSDRLKVVKLEI-----------------------DPNPTTVKKYKVEGVPALRLVKGEQILDSTEGVIS</Hsp_hseq>
+      <Hsp_midline>++ VLVYFW SWCG C+  SP+I+   +  +D + VV + +                       D +    + +++   PA+ LVK  +++  T G+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|18206255|sp|Q9SEU7.2|TRXM3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin M3, chloroplastic; Short=AtTrxm3; AltName: Full=Protein GFP ARRESTED TRAFFICKING 1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SEU7</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.90041e-06</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>VLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGK</Hsp_qseq>
+      <Hsp_hseq>VLVEFYTSWCGPCRMVHRIIDEIAGD------------YAGKLNCYLLN--------ADNDLPVAEEYEIKAVPVVLLFKNGE</Hsp_hseq>
+      <Hsp_midline>VLV F+ SWCG CR    IID++A D             A ++  Y+          +D D  +A  + I A P V+L KNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|6831696|sp|Q9Z7P5.1|THIO_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z7P5</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>7.25932e-06</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>VLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGI</Hsp_qseq>
+      <Hsp_hseq>VLVDFFAEWCGPCRMLTPILENLAAE-LPHVTIG--------------KINI------DENSKPAETYEVSSIPTLILFKDGNEVARVVGL</Hsp_hseq>
+      <Hsp_midline>VLV F+  WCG CR  +PI+++LAA+ +P V +               K  +      DE+   A ++ +++ P ++L K+G  V    G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|3334376|sp|Q41864.1|TRXM_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin M-type, chloroplastic; Short=Trx-M; Flags: Precursor [Zea mays]</Hit_def>
+  <Hit_accession>Q41864</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>9.65395e-06</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DRTVLVYFWGSWCGVCRYQSPIIDDLAADGV-PVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWG</Hsp_qseq>
+      <Hsp_hseq>ETPVLVEFWAPWCGPCRMIAPVIDELAKDYAGKITCCKVNTDDSPNVASTYGIRSI--PTVLIFKGGEKKESVIGAVPKSTL---------TTLIDKYIG</Hsp_hseq>
+      <Hsp_midline>+  VLV FW  WCG CR  +P+ID+LA D    +    V +  +  VA+    R +  PTV    GG  +   I A P   L         TT I  Y G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|20137829|sp|Q8ZD52.1|DSBE_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q8ZD52</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.12249e-05</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>RTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRY</Hsp_qseq>
+      <Hsp_hseq>KPILLNVWATWCPTCRAEHEYLNKLAAQGIRVVGLNYKDDRSKAVQWLNSLGNPYFLSLYDGDGMLGLDLGVYGAPETFLIDGQGVIRY</Hsp_hseq>
+      <Hsp_midline>+ +L+  W +WC  CR +   ++ LAA G+ VVG+  +   +  V    +     F ++ D DG L     +   P   L+    ++RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|135760|sp|P12243.2|THIO1_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-1; Short=Trx-1; AltName: Full=Thioredoxin-M [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>P12243</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>1.14305e-05</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>VLVYFWGSWCGVCRYQSPIIDDLA---ADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>VLVDFWAPWCGPCRMVAPVVDEIAQQYSDQVKVVKVN-----------------------TDENPSVASQYGIRSIPTLMIFKDGQRVDTVVG</Hsp_hseq>
+      <Hsp_midline>VLV FW  WCG CR  +P++D++A   +D V VV V                        +DE+  +A  + I + P +++ K+G+ V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|20138045|sp|Q9PAN4.1|DSBE_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PAN4</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.16209e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>LLSGIKFAVRTALVFLLVSLFLDWVRKPDEPAGAAGRP-----LTLLSGQRLTLGQFS-RDRTVLVYFWGSWCGVCRYQSPIIDDLA-ADGVPVVGVAVRSGSASEVAAYMAKRGLGFP---TVSDEDGGLARSWRIAATPAVVLVKNGKMVRY</Hsp_qseq>
+      <Hsp_hseq>LLTGV-MGVLILIALLTFTLMRSWDNAPDQ-SALLGKPAPNFSLPLLHDPSLQISNTDLAGAPYLLHVWGSWCAACATEQPVLTHFALSKRVRVIGYNWKDRRED---ALQWLEQLGNPYLAVVSDPEGKTAMDWGVTAAPTTFLIDGRGIVRW</Hsp_hseq>
+      <Hsp_midline>LL+G+   V   +  L  +L   W   PD+ +   G+P     L LL    L +          L++ WGSWC  C  + P++   A +  V V+G   +        A      LG P    VSD +G  A  W + A P   L+    +VR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|124053398|sp|Q4UNK3.2|THIO_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UNK3</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>1.3498e-05</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FSRDRTVLVYFWGSWCGVCRYQSPIIDDLAAD---GVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISS</Hsp_qseq>
+      <Hsp_hseq>LESDLPVLVDFWAEWCGPCKMLTPIIDEISKELKGKVKVLKMNI-----------------------DENPNIPSEYGIRSIPTIMLFKNGEQKDTKIGLQQ</Hsp_hseq>
+      <Hsp_midline>   D  VLV FW  WCG C+  +PIID+++ +    V V+ + +                       DE+  +   + I + P ++L KNG+      G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1351239|sp|P48384.1|TRXM_PEA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin M-type, chloroplastic; Short=Trx-M; Flags: Precursor [Pisum sativum]</Hit_def>
+  <Hit_accession>P48384</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.61054e-05</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>VLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGK</Hsp_qseq>
+      <Hsp_hseq>VLVDFWAPWCGPCRMIAPIIDELAKE------------YAGKIKCYKLN--------TDESPNTATKYGIRSIPTVLFFKNGE</Hsp_hseq>
+      <Hsp_midline>VLV FW  WCG CR  +PIID+LA +             A ++  Y           +DE    A  + I + P V+  KNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|76363565|sp|P0AA86.1|DSBE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Escherichia coli K-12] &gt;gi|88911291|sp|P0AA87.1|DSBE_ECO57 RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Escherichia coli O157:H7] &gt;gi|90110541|sp|P0AA88.1|DSBE_SHIFL RecName: Full=Thiol:disulfide interchange protein DsbE; AltName: Full=Cytochrome c biogenesis protein CcmG [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AA86</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>2.56301e-05</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>GQRLTLGQFSRDRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFP---TVSDEDGGLARSWRIAATPAVVLVKNGKMVRY</Hsp_qseq>
+      <Hsp_hseq>GQFYQADVLTQGKPVLLNVWATWCPTCRAEHQYLNQLSAQGIRVVGMNYKDDRQKAISWL---KELGNPYALSLFDGDGMLGLDLGVYGAPETFLIDGNGIIRY</Hsp_hseq>
+      <Hsp_midline>GQ       ++ + VL+  W +WC  CR +   ++ L+A G+ VVG+  +      ++     + LG P   ++ D DG L     +   P   L+    ++RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|3915119|sp|O22022.1|THIO_CYAME</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx (chloroplast) [Cyanidioschyzon merolae]</Hit_def>
+  <Hit_accession>O22022</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>2.9182e-05</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>FSRDRTVLVYFWGSWCGVCRYQSPIIDDLAAD-GVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>LQSEKLVLVDFWAPWCGPCRMIGPILEEIAKEFNLKVVQVN-----------------------TDENPNLATFYGIRSIPTLMLFKKGQRVDTVIG</Hsp_hseq>
+      <Hsp_midline>   ++ VLV FW  WCG CR   PI++++A +  + VV V                        +DE+  LA  + I + P ++L K G+ V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|3122936|sp|O30974.1|THIO_MYCSM</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Mycobacterium smegmatis]</Hit_def>
+  <Hit_accession>O30974</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>3.28966e-05</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LTLGQFSRD-----RTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTG</Hsp_qseq>
+      <Hsp_hseq>VTDDSFSTDVLGSSKPVLVDFWATWCGPCKMVAPVLEEIAAE----------KGDQLTVAKIDVD--------VDANPATARDFQVVSIPTMILFKDGAPVKRIVG</Hsp_hseq>
+      <Hsp_midline>+T   FS D     + VLV FW +WCG C+  +P+++++AA+           G    VA              D +   AR +++ + P ++L K+G  V+   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|20140672|sp|Q92JR5.1|THIO_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92JR5</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>3.34868e-05</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FSRDRTVLVYFWGSWCGVCRYQSPIIDDLAAD---GVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISS</Hsp_qseq>
+      <Hsp_hseq>LESDLPVLVDFWAEWCGPCKMLTPIIDEISKELQGKVKVLKMNI-----------------------DENPNTPSEYGIRSIPTIMLFKNGEQKDTKIGLQQ</Hsp_hseq>
+      <Hsp_midline>   D  VLV FW  WCG C+  +PIID+++ +    V V+ + +                       DE+      + I + P ++L KNG+      G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|124053397|sp|Q1RKN1.2|THIO_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin; Short=Trx [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RKN1</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>3.41864e-05</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWGL</Hsp_qseq>
+      <Hsp_hseq>DLPVLVDFWAEWCSPCRMLTPIIEEISKDL--------------ESKVKVLKMNI------DENPEIPSKYGIRSIPTVMLFKNGEQKDTKVGLHQKNSL</Hsp_hseq>
+      <Hsp_midline>D  VLV FW  WC  CR  +PII++++ D               E    + K  +      DE+  +   + I + P V+L KNG+      G+     L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|14195695|sp|P52230.4|THIO1_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-1; Short=Trx-1 [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>P52230</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>3.6496e-05</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>FSRDRTVLVYFWGSWCGVCRYQSPIIDDLAA---DGVPVVGVAVRSGSASEVAAYMAKRG-LGFPTVSDEDGGLARSWRIAATPAVVLVKN</Hsp_qseq>
+      <Hsp_hseq>LKNDKPVLVDFWAAWCGPCRQIAPSLEAIAAEYGDKIEIVKLNIDENPGT-----AAKYGVMSIPTLNVYQGGEVAKTIVGAKPKAAIVRD</Hsp_hseq>
+      <Hsp_midline>   D+ VLV FW +WCG CR  +P ++ +AA   D + +V + +     +      AK G +  PT++   GG      + A P   +V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|547613|sp|P36893.1|HELX_RHOCB</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein HelX; AltName: Full=Cytochrome c biogenesis protein HelX; Flags: Precursor [Rhodobacter capsulatus SB 1003]</Hit_def>
+  <Hit_accession>P36893</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>4.02043e-05</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>RTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGG-LARSWRIAATPAVVLV</Hsp_qseq>
+      <Hsp_hseq>KIKLVNFWASWCAPCRVEHPNLIGLKQDGIEIMGVNWKD-TPDQAQGFLAEMGSPYTRLGADPGNKMGLDWGVAGVPETFVV</Hsp_hseq>
+      <Hsp_midline>+  LV FW SWC  CR + P +  L  DG+ ++GV  +  +  +   ++A+ G  +  +  + G  +   W +A  P   +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|76363560|sp|P0AA25.2|THIO_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-1; Short=Trx-1 [Escherichia coli K-12] &gt;gi|76363561|sp|P0AA28.2|THIO_SALTY RecName: Full=Thioredoxin-1; Short=Trx-1 [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|88942917|sp|P0AA27.2|THIO_ECO57 RecName: Full=Thioredoxin-1; Short=Trx-1 [Escherichia coli O157:H7] &gt;gi|88942918|sp|P0AA26.2|THIO_ECOL6 RecName: Full=Thioredoxin-1; Short=Trx-1 [Escherichia coli CFT073] &gt;gi|88942919|sp|P0AA29.2|THIO_SALTI RecName: Full=Thioredoxin-1; Short=Trx-1 [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|88942920|sp|P0AA30.2|THIO_SHIFL RecName: Full=Thioredoxin-1; Short=Trx-1 [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AA25</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>4.19784e-05</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>DRTVLVYFWGSWCGVCRYQSPIIDDLAADGVPVVGVAVRSGSASEVAAYMAKRGLGFPTVSDEDGGLARSWRIAATPAVVLVKNGKMVRYTTGISSYWGLR</Hsp_qseq>
+      <Hsp_hseq>DGAILVDFWAEWCGPCKMIAPILDEIADE-------------------YQGKLTVAKLNI-DQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLK</Hsp_hseq>
+      <Hsp_midline>D  +LV FW  WCG C+  +PI+D++A +                   Y  K  +    + D++ G A  + I   P ++L KNG++     G  S   L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

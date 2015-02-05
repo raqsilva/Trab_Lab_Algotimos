@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800525|ref|YP_207237.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>sugar-phosphate transferase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>231</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800525|ref|YP_207237.1|</Iteration_query-ID>
+  <Iteration_query-def>sugar-phosphate transferase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>231</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|122129600|sp|Q7JZB4.1|GMPPB_DROME</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q7JZB4</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.94209e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>KAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALG-DGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLGG--QPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPP------HNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>RALILVGGYGTRLRPLTLSTPKPLVEFANKPILLHQLEALVDAGCRQVILAVSYRAEQMEKELKVEAKKLGVELIFSHETEPLG---TAGPLALAKTILAASSEPFFVLNSDVICDFPFKQLVQFHCNHGKEGTIVVTKVEEPSKYGVVLYDENG---CIKNFIEKPQEFVSNKIN-AGIYIFNPSVLDRIEVKPTSIEKEVFPEMTQQQELYAMDLTGFWMDIG</Hsp_hseq>
+      <Hsp_midline>+A+IL  G G R+RPLT +TPKPL++ A KP++   L  L  AG  ++++  ++   Q+E  L  +    GV + +S   EP G   TAG +A A  +L    +PF V N DV+ D  F    Q   +     +  +  V  P       ++ +G    + +   +P+    N +  +G+ I+ P + D IE    +    V     +Q  +     TG W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|75146657|sp|Q84JH5.1|GMPP1_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Probable mannose-1-phosphate guanylyltransferase 1 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q84JH5</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>3.3751e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLLG---GQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLSVPKPLVDFGNKPMILHQIEALKEVGVTEVVLAINYQPEVMLNFLKDFESKLGIKITCSQE-TEPLGTAGPLALARDKLADGSGDPFFVLNSDVISEYPFAELIQFHKSHGGEATIMVTKVDEPSKYGVVVMEDETDKVERFVEKPKVFVGNKIN-AGIYLLNPSVLDRIELKPTSIEKEVFPRIAADNGLFAMVLPGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D   KP+I   +  LK+ G TE+V+   +    + N L D  S  G+ I  S E    L TAG +A A   L    G PF V N DV+++  F    Q   S  G  +  +  V  P        + +   +     +P+V  GN +  +G+ +  P + D IE    +    V       N +      G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|126361387|sp|Q4I1Y5.1|MPG1_GIBZE</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Fusarium graminearum PH-1]</Hit_def>
+  <Hit_accession>Q4I1Y5</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>7.97571e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFT--AAFQTASSLPGHI--------SAHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLSVPKPLVEFANKPMIVHQIEALVAAGVTDIVLAVNYRPEVMEKFLAEYEEKFGINIEFSVE-TEPLDTAGPLKLAERILAKDDSPFFVLNSDVICDFPFEDLLAFHKSHGNEGTIVVTKVEEPSKYGVVVHQPGHR-----SLIDRFVEKPVEFVGNRIN-AGLYIFNTSILDRIELRPTSIEKETFPAMVKDNQLHSFDLEGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT + PKPL++ A KP+I   +  L  AG T+IV+   +    +E  L +    +G+NI +S E    L+TAG +  A  +L     PF V N DV+ D  F    AF  +    G I        S +  +V  P H      SL+     +P    GN +  +G+ I+   + D IE    +         ++ N++      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|121990043|sp|Q295Y7.1|GMPPB_DROPS</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Drosophila pseudoobscura pseudoobscura]</Hit_def>
+  <Hit_accession>Q295Y7</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>8.37109e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>KAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALG-DGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLGG--QPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPP------HNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>RALILVGGYGTRLRPLTLSTPKPLVEFANKPILLHQLEALVDAGCRQVILAVSYRAEQMEKELKVEADKLGVELIFSHETEPLG---TAGPLALAKSILSASPEPFFVLNSDVICDFPFKQLVQFHRNHGKEGTIVVTKVEEPSKYGVVLYDEDG---CIKNFIEKPQEFVSNKIN-AGIYIFNPSVLERIEVKPTSIEKEVFPAMAEQQELYAMDLTGFWMDIG</Hsp_hseq>
+      <Hsp_midline>+A+IL  G G R+RPLT +TPKPL++ A KP++   L  L  AG  ++++  ++   Q+E  L  +    GV + +S   EP G   TAG +A A  +L    +PF V N DV+ D  F    Q   +     +  +  V  P       ++ DG    + +   +P+    N +  +G+ I+ P + + IE    +    V      Q  +     TG W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75164045|sp|Q941T9.1|GMPP2_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Probable mannose-1-phosphate guanylyltransferase 2 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q941T9</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>3.12591e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLL---GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLSFPKPLVDFANKPMILHQIEALKEVGVTEVVLAINYRPEVMLNFLKDFEDKLGITITCSQE-TEPLGTAGPLALARDKLVDGSGEPFFVLNSDVISEYPFAELIKFHKSHGGEATIMVTKVDEPSKYGVVVMEEVTGMVEKFVEKPKIFVGNKIN-AGIYLLNPSVLDRIELKPTSIEKEVFPRIASDAKLFALVLPGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D A KP+I   +  LK+ G TE+V+   +    + N L D     G+ I  S E    L TAG +A A   L    G+PF V N DV+++  F    +   S  G  +  +  V  P        +    ++     +P++  GN +  +G+ +  P + D IE    +    V        ++      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75134614|sp|Q6Z9A3.1|GMPP3_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Probable mannose-1-phosphate guanylyltransferase 3 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q6Z9A3</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>5.53619e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLL---GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHT------GLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLSFPKPLVDFANKPMILHQIEALKEVGVTEVVLAINYRPEVMLNFLKDFEDKLGITITCSQE-TEPLGTAGPLALARDKLVDGSGEPFFVLNSDVISEYPFAELIKFHKNHGGEATIMVTKVDEPSKYGVVVMEEATGMVEKFVEKPKIFVGNKIN-AGIYLLNPSVLDRIE------LKPTSIEKEVFPRISADAKLFAMVLPGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D A KP+I   +  LK+ G TE+V+   +    + N L D     G+ I  S E    L TAG +A A   L    G+PF V N DV+++  F    +   +  G  +  +  V  P        +    ++     +P++  GN +  +G+ +  P + D IE      L P  + +    R+S           G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|74582503|sp|O74624.1|MPG1_HYPJE</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Trichoderma reesei]</Hit_def>
+  <Hit_accession>O74624</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.02328e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFTA--AFQTASSLPGHI-------SAHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGFGTRLRPLTLTLPKPLVEFCNKPMIVHQIEALVAAGVTDIVLAVNYRPEIMEKFLAEYEEKYNINIEFSVE-SEPLDTAGPLKLAERILGKDDSPFFVLNSDVICDYPFKELLEFHKAHGDEGTIVVTKVEEPSKYGVVVHKPNHP----SRIDRFVEKPVEFVGNRIN-AGMYIFNPSVLKRIELRPTSIEKETFPAMVADNQLHSFDLEGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   KP+I   +  L  AG T+IV+   +    +E  L +    Y +NI +S E +  L+TAG +  A  +LG    PF V N DV+ D  F     F  A    G I        +   +V + P++P    S +     +P    GN +  +G+ I+ P +   IE    +         +  N++      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|613779449|sp|D4GU70.1|AGL11_HALVD</Hit_id>
+  <Hit_def>RecName: Full=Low-salt glycan biosynthesis nucleotidyltransferase Agl11 [Haloferax volcanii DS2]</Hit_def>
+  <Hit_accession>D4GU70</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>2.00195e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGR-QIENALGDGSAYGVNIAYSPE--PAGGLETAGGIAQALPLLGGQPFLVANGD-VLTD--IDFTAAFQTASSLPGHISAHLWLVGNPPH------NPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIE</Hsp_qseq>
+      <Hsp_hseq>MKGVLLSGGTGSRLRPITHTGPKQLVPVANKPVLEYAVEDLKEAGITEIGVILGHKGREEIQNLLGDGSDYGVEITYIVQGNPL-GLAHAAGCAK--DFVGDDDFVMYLGDNILKEGVVDLVESFESGDFGAG---IALQEVENPQQFGIADVDDQGNVTQLIEKPDEPPTN----LALIGMYVFSPAVFDAIE</Hsp_hseq>
+      <Hsp_midline>MK ++L+ G G R+RP+T T PK L+ VA KP++ + +  LK+AG TEI +     GR +I+N LGDGS YGV I Y  +  P  GL  A G A+    +G   F++  GD +L +  +D   +F++     G     L  V NP        +  G+ + L +    P  +    L   G+ ++ P +FD IE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|24638016|sp|O74484.1|MPG1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74484</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>2.1588e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYS--PEPAGGLETAGGIAQALPLLGG--QPFLVANGDVLTDIDFT--AAFQTASSLPGHISAHLWLVGNPP------HNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIE--AGSVAK-LAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLTLPKPLVEFGNKPMILHQVEALAAAGVTDIVLAVNYRPEIMVEALKKYEKEYNVNITFSVENEPLG---TAGPLALARDILAKDHSPFFVLNSDVICEYPFADLAAFHKAHGAEGTIV--VTKVEEPSKYGVVVHYPNSE-SLIERFVEKPVEFVSNRIN-GGIYILNPSVLDRIEPRPTSIEKEVFPAMVNDKQLHSFDLE---GYWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++   KP+I   +  L  AG T+IV+   +    +  AL      Y VNI +S   EP G   TAG +A A  +L     PF V N DV+ +  F   AAF  A    G I   +  V  P       H P+ + SL+     +P     N +   G+ I  P + D IE    S+ K + P ++N+ + +    +   G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|82181763|sp|Q68EY9.1|GMPBA_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta-A; AltName: Full=GDP-mannose pyrophosphorylase B-A; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta-A [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q68EY9</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>2.83465e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSA---YGVNIAYSPEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNP--------DGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLSVPKPLVDFCNKPILLHQVEALVKAGVTHVILAVSYMSDMLEKEMKEQEKRLGIRISMSHEKEPLG---TAGPLALARELLTENSEPFFVLNSDVICDF----PFEDMVRFHKHHGKEGTIVVTKVEEPSKYGVVVYETESGQIQRFVEKPQVFVSNKIN-SGLYIFSPAVLDRIQLRPTSIEKEIFPAMAQEGQLYAMELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D   KP++   +  L +AG T +++  +++   +E  + +        +++++  EP G   TAG +A A  LL    +PF V N DV+ D      F+       H      +V      P        + +   +     +P+V   N +  SG+ I+ P + D I+    +    +     ++ ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|160011330|sp|A2VD83.1|GMPBB_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta-B; AltName: Full=GDP-mannose pyrophosphorylase B-B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta-B [Xenopus laevis]</Hit_def>
+  <Hit_accession>A2VD83</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>3.69648e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSA---YGVNIAYSPEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNPDGDFSLLPDGSV--------RPEVSGGNGLTFSGVGIYRPEMFDGIEA--GSVAK-LAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLSVPKPLVDFCNKPILLHQVEALVKAGVTHVILAVSYMSDMLEKEMKEQEKRLGIRISMSHEKEPLG---TAGPLALARELLTENSEPFFVLNSDVICDF----PFEDMVRFHKHHGKEGTIVVTKVEEPSKYGVVIYEAESGRIQRFVEKPQVFVSNKIN-SGLYIFSPAVLDRIQLRPTSIEKEIFPVMAQE---GQLFALELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D   KP++   +  L +AG T +++  +++   +E  + +        +++++  EP G   TAG +A A  LL    +PF V N DV+ D      F+       H      +V      P     ++ +           +P+V   N +  SG+ I+ P + D I+    S+ K + PV+  E    ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81875204|sp|Q8BTZ7.1|GMPPB_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Mus musculus]</Hit_def>
+  <Hit_accession>Q8BTZ7</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.11221e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENAL-GDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLSTPKPLVDFCNKPILLHQVEALAAAGVDHVILAVSYMSQMLEKEMKAQEQRLGIRISMSHEEEPLG---TAGPLALARDLLSETADPFFVLNSDVICDFPFQAMVQFHRHHGQEGSILVTKVEEPSKYGVVVCEADTGRIHRFVEKPQVFVSNKIN-AGMYILSPAVLQRIQLKPTSIEKEIFPVMAKEGQLYAMELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT +TPKPL+D   KP++   +  L  AG   +++  +++ + +E  +       G+ I+ S   EP G   TAG +A A  LL     PF V N DV+ D  F A  Q         S  +  V  P        + D   +     +P+V   N +  +G+ I  P +   I+    +    +     ++ ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|160013885|sp|Q9Y5P6.2|GMPPB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y5P6</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>7.95165e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENAL-GDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLSTPKPLVDFCNKPILLHQVEALAAAGVDHVILAVSYMSQVLEKEMKAQEQRLGIRISMSHEEEPLG---TAGPLALARDLLSETADPFFVLNSDVICDFPFQAMVQFHRHHGQEGSILVTKVEEPSKYGVVVCEADTGRIHRFVEKPQVFVSNKIN-AGMYILSPAVLQRIQLQPTSIEKEVFPIMAKEGQLYAMELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT +TPKPL+D   KP++   +  L  AG   +++  +++ + +E  +       G+ I+ S   EP G   TAG +A A  LL     PF V N DV+ D  F A  Q         S  +  V  P        + D   +     +P+V   N +  +G+ I  P +   I+    +    V     ++ ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|160011348|sp|P0C5I2.1|GMPPB_PIG</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase 37-kDa subunit; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Sus scrofa]</Hit_def>
+  <Hit_accession>P0C5I2</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>9.8666e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENAL-GDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLSIPKPLVDFCNKPILLHQVEALASAGVDHVILAVSYMSQMLEKEMKAQEQRLGIRISMSHEEEPLG---TAGPLALARDLLSETAEPFFVLNSDVICDFPFQAMVQFHRHHGQEGSILVTKVEEPSKYGVVVCEADTGRIHRFVEKPQVFVSNKIN-AGMYILSPAVLQRIQLQPTSIEKEIFPVMAKEGQLYAMELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D   KP++   +  L  AG   +++  +++ + +E  +       G+ I+ S   EP G   TAG +A A  LL    +PF V N DV+ D  F A  Q         S  +  V  P        + D   +     +P+V   N +  +G+ I  P +   I+    +    +     ++ ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|82181704|sp|Q68EQ1.1|GMPPB_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q68EQ1</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.84689e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSA---YGVNIAYSPEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNP--------DGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLSVPKPLVDFCNKPILLHQVEALVKAGVNHVILAVSYMSDMLEKEMKEQEKRLGIRISMSHEKEPLG---TAGPLALARELLTENSDPFFVLNSDVICDF----PFEEMVRFHKHHGKEGTIVVTKVEEPSKYGVVVYEAESGQIQRFVEKPQVFVSNKIN-SGLYIFSPAVLDRIQLRPTSIEKEIFPAMAQEGQLFAMELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D   KP++   +  L +AG   +++  +++   +E  + +        +++++  EP G   TAG +A A  LL     PF V N DV+ D      F+       H      +V      P        + +   +     +P+V   N +  SG+ I+ P + D I+    +    +     ++ ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|82182098|sp|Q6DBU5.1|GMPPB_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Danio rerio]</Hit_def>
+  <Hit_accession>Q6DBU5</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>2.50107e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENAL-GDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEA--GSVAK-LAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLTVPKPLVEFCNKPILLHQVEALVKAGVRHVILAVSYMSELLEREMRAQEQRLGIKISLSHEKEPLG---TAGPLALARELLTDNQEPFFVLNSDVICDFPFDDMLKFHQQHGREGTIVVTKVEEPSKYGVVVYEGDSGRIHRFVEKPQVFVSNKIN-AGMYIFSPAMLRRIQLRPTSIEKEIFPVMAEE---GQLYAMELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++   KP++   +  L +AG   +++  +++   +E  +       G+ I+ S   EP G   TAG +A A  LL    +PF V N DV+ D  F    +         +  +  V  P        +GD   +     +P+V   N +  +G+ I+ P M   I+    S+ K + PV+  E    ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|74852954|sp|Q54K39.1|GMPPB_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54K39</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>2.5502e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLLG-GQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPP-------HNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLSKPKPIVEFANKAMILHQIEALCKIGVNEVVLAVNYRPQLMSQYLEPYEKKLGIKISYSHETV-PLGTAGPLALARDLLNDGEPFFVLNSDIICDFPFADLLAFHKSHGGEGTIMVTKVEEPSKYGVVVYKEENGQILKFVE---KPQVYVGNKIN-AGVYIFNPTILDRIQPKPTSIEKEIFPAMAADSQLYCMQLEGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKP+++ A K +I   +  L + G  E+V+   +  + +   L       G+ I+YS E    L TAG +A A  LL  G+PF V N D++ D  F        S  G  +  +  V  P           +G      +   +P+V  GN +  +GV I+ P + D I+    +    +       +++   +  G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|74609835|sp|Q6FRY2.1|MPG12_CANGA</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase 2; AltName: Full=ATP-mannose-1-phosphate guanylyltransferase 2; AltName: Full=GDP-mannose pyrophosphorylase 2 [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>Q6FRY2</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>2.92429e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISAHLWLVGNPPH-----NPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVA---KLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLSVPKPLVEFCNRPMILHQIEALAEAGVTDIVLAVNYRPEVMVDTLKKYEKEYGVNITFSVETEPLG---TAGPLKLAEKILKKDNSPFFVLNSDVICEYPFKELAEFHKSHGGKGTIVAT--KVDEPSKYGVIVHDLGTPNLIDRFVEKPKEFVGNRIN-AGLYILNPEVIDLIEMKPTSIETETFPKLVNEKSLYTFDLE---GFWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT + PKPL++   +P+I   +  L +AG T+IV+   +    + + L      YGVNI +S   EP G   TAG +  A  +L     PF V N DV+ +  F   A F  +    G I A    V  P       +  G  +L+     +P+   GN +  +G+ I  PE+ D IE    +   +  P L+NE        +   G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|122138202|sp|Q2YDJ9.1|GMPPB_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Bos taurus]</Hit_def>
+  <Hit_accession>Q2YDJ9</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>7.31568e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENAL-GDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLSIPKPLADFCNKPILLHQVEALAAAGVDHVILAVSYMSQVLEKEMKAQEQKLGIRISMSHEEEPLG---TAGPLALARDLLCETADPFFVLNSDVICDFPFEAMVQFHRHHGQEGSILVTKVEEPSKYGVVVCEADTGRVHRFVEKPQVFVSNKIN-AGVYILSPSVLRRIQLQPTSIEKEIFPVMAKEGQLYAMELQGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL D   KP++   +  L  AG   +++  +++ + +E  +       G+ I+ S   EP G   TAG +A A  LL     PF V N DV+ D  F A  Q         S  +  V  P        + D   +     +P+V   N +  +GV I  P +   I+    +    +     ++ ++   +  G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1709086|sp|P41940.2|MPG1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=ATP-mannose-1-phosphate guanylyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=NDP-hexose pyrophosphorylase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P41940</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>9.14455e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGR-QIENALGDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISAHLWLVGNPPH-----NPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAG--SVAKLA-PVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLTVPKPLVEFGNRPMILHQIEALANAGVTDIVLAVNYRPEVMVETLKKYEKEYGVNITFSVETEPLG---TAGPLKLAEDVLKKDNSPFFVLNSDVICEYPFKELADFHKAHGGKGTIVAT--KVDEPSKYGVIVHDIATPNLIDRFVEKPKEFVGNRIN-AGLYILNPEVIDLIEMKPTSIEKETFPILVEEKQLYSFDLE---GFWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+   +     +E        YGVNI +S   EP G   TAG +  A  +L     PF V N DV+ +  F   A F  A    G I A    V  P       +     +L+     +P+   GN +  +G+ I  PE+ D IE    S+ K   P+L+ E +      +   G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|75097412|sp|O22287.1|GMPP1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanylyltransferase 1; AltName: Full=GDP-mannose pyrophosphorylase 1; AltName: Full=Protein CYTOKINESIS DEFECTIVE 1; AltName: Full=Protein EMBRYO DEFECTIVE 101; AltName: Full=Protein HYPERSENSITIVE TO AMMONIUM ION 1; AltName: Full=Protein SENSITIVE TO OZONE 1; AltName: Full=Protein VITAMIN C DEFECTIVE 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O22287</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.02759e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSA---YGVNIAYSPEPAGGLETAGGIAQALPLL---GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDG--IEAGSVAKLAPVLLNEMRQNRVSGQKHT----------------GLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLSFPKPLVDFANKPMILHQIEALKAVGVDEVVLAINYQPEVMLNFLKDFETKLEIKITCSQETEPLG---TAGPLALARDKLLDGSGEPFFVLNSDVISEYPLKEMLEFHKSHGGEASIMVTKVDEPSKY----------GVVVMEESTGRVEKF----VEKPKLYVGNKINAG-IYLLNPSVLDKIELRPTSIEKETFPKIAAAQGLYAMVLPGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D A KP+I   +  LK  G  E+V+   +    + N L D        +  +   EP G   TAG +A A   L    G+PF V N DV+++       +   S  G  S  +  V  P             G V  E S G    F    + +P+++ G  I AG +  L P +L+++     S +K T                G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|46396146|sp|O93827.1|MPG1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=ATP-mannose-1-phosphate guanylyltransferase; AltName: Full=CASRB1; AltName: Full=GDP-mannose pyrophosphorylase [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>O93827</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.17617e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEA--GSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLTLPKPLVEFGNRPMILHQIEALAAAGVTDIVLAVNYRPEVMVSTLKKYEEEYGVSITFSVEEEPLG---TAGPLKLAEEVLKKDDSPFFVLNSDVICDYPFKELADFHKAHGAAGTIVAT--KVDEPSKYGVIVHDRDTPNLIDRFVEKPVEFVGNRINAGLYILNPSVIDLIEMRPTSIEKETFPILVEQKQ--LYSFDLEGYWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+   +    + + L      YGV+I +S   EP G   TAG +  A  +L     PF V N DV+ D  F   A F  A    G I A    V  P        D D   L D  V   V        +G+ I  P + D IE    S+ K    +L E +Q  +      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|74613414|sp|Q7RVR8.1|MPG1_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>Q7RVR8</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.46659e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHIS-------AHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLTMPKPLVEFGNKRMILHQIEALAAAGVTDIVLAVNYRPEIMEKYLAEYEKQFGINITISIE-SEPLGTAGPLKLAEDVLRKDDTPFFVLNSDVTCEYPFKELAAFHKAHGDEGTIVVTKVEEPSKYGVVVHKPNHP----SRIDRFVEKPVQFVGNRIN-AGLYIFNPSVIDRVELRPTSIEQETFPAMVRDGQLHSFDLEGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++   K +I   +  L  AG T+IV+   +    +E  L +    +G+NI  S E +  L TAG +  A  +L     PF V N DV  +  F   AAF  A    G I        +   +V + P++P    S +     +P    GN +  +G+ I+ P + D +E    +         +R  ++      G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|160011351|sp|A3QMC8.1|GMPPB_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>A3QMC8</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.29712e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALG-DGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLGGQ-PFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLTQPKPLVEFANKPMMLHQMEALAEVGVDTVVLAVSYRAEQLEQEMTVHADRLGVKLIFSLEEEPLG---TAGPLALARKHLEGDAPFFVLNSDVICDFPFKQMVEFHKNHGKEGTIAVTKVEEPSKYGVVVFDQDKGKIDDFVEKPQEYVGNKIN-AGLYIFSSKILDRIPLKPTSIEKEIFPEMAFSGNLYAFVLPGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++ A KP++   +  L + G   +V+  ++   Q+E  +       GV + +S   EP G   TAG +A A   L G  PF V N DV+ D  F    +   +     +  +  V  P        D D   + D   +P+   GN +  +G+ I+  ++ D I     +    +         +      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74692434|sp|Q752H4.1|MPG1_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q752H4</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>5.75869e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGR-QIENALGDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEA--GSVAKLA-PVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLTVPKPLVEFCNRPMILHQIEALAAAGVTDIVLAVNYRPEVMVETLKKYEKQYGVSITFSVETEPLG---TAGPLKLAEKVLKKDNSPFFVLNSDVICEYPFKELAAFHRAHGGKGTIVA--TKVDEPSKYGVIVHDIATPNLIDRFVEKPVEFVGNRINAGLYILNPEVIDLIELRPTSIEKETFPIL---VEQKSLYSFDLEGYWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+   +     +E        YGV+I +S   EP G   TAG +  A  +L     PF V N DV+ +  F   AAF  A    G I A    V  P        D     L D  V   V        +G+ I  PE+ D IE    S+ K   P+L   + Q  +      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|110826012|sp|Q2UJU5.1|MPG1_ASPOR</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>Q2UJU5</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>6.6743e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFT--AAFQTASSLPGHIS-------AHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVS--GQKHT----GLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLTLPKPLVEFGNRPMILHQVESLAAAGVTDIVLAVNYRPDVMVSALKKYEEQYNVKIEFSVE-SEPLGTAGPLKLAEKILGKDDSPFFVLNSDVICDYPFKELAEFHKKHGDEGTIVVTKVDEPSKYGVVVHKPNHP----SRIDRFVEKPVEFVGNRIN-AGIYIMNPSVLNRIE------LRPTSIEQETFPAICKDGQLHSFDLEGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+   +    + +AL      Y V I +S E +  L TAG +  A  +LG    PF V N DV+ D  F   A F       G I        +   +V + P++P    S +     +P    GN +  +G+ I  P + + IE      L P  + +     +   GQ H+    G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|75335843|sp|Q9M2S0.1|GMPP2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable mannose-1-phosphate guanylyltransferase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9M2S0</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>7.2081e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIV--INH--------AWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLL---GGQPFLVANGDVLTD--IDFTAAFQTASSLPGHISAHLWLVGNPP-------HNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLSLPKPLVDFANKPMILHQIEALKAIGVDEVVLAINYEPEQLLVMSKFSNDVEATLG----IKITCSQETEPLG---TAGPLALARDKLVDGSGQPFFVLNSDVISDYPLEEMIAFHNAHG--GEASIMVTKVDEPSKYGVVVMEEATGRVERFVE---KPKLFVGNKIN-AGIYLLNPSVLDRIELRPTSIEKEIFPQIAEAEKLYAMLLPGFWMDIG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL+D A KP+I   +  LK  G  E+V  IN+        +     +E  LG      +  +   EP G   TAG +A A   L    GQPF V N DV++D  ++   AF  A    G  S  +  V  P            G      +   +P++  GN +  +G+ +  P + D IE    +    +        ++      G W+D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|74626246|sp|Q9Y725.1|MPG11_CANGA</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase 1; AltName: Full=ATP-mannose-1-phosphate guanylyltransferase 1; AltName: Full=GDP-mannose pyrophosphorylase 1 [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>Q9Y725</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.53718e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVIN-HAWLGRQIENALGDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISA-------HLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLTVPKPLVEFGNRPMILHQIEALANAGVTDIVLAVNCRPEVMVETLQKYEKEYGVSITFSVETEPLG---TAGPLKLAEKVLKKDNSPFFVLNSDVICEYPFKELADFHKAHGGKGTIVATKVDEPSKYGVIVHDIATPN----LIDRFVEKPKEFVGNRIN-AGLYILNPEVIDLIEMKPTSIETETFPILVEQKSLYSFDLEGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+  +      +E        YGV+I +S   EP G   TAG +  A  +L     PF V N DV+ +  F   A F  A    G I A          ++ +    P+    L+     +P+   GN +  +G+ I  PE+ D IE    +         + Q  +      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|338818269|sp|P0CO21.1|MPG1_CRYNB</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Cryptococcus neoformans var. neoformans B-3501A] &gt;gi|338818270|sp|P0CO20.1|MPG1_CRYNJ RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Cryptococcus neoformans var. neoformans JEC21]</Hit_def>
+  <Hit_accession>P0CO21</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.59895e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDG-SAYGVNIAYSPEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFTA--AFQTASSLPGHI--------SAHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIE--AGSVAK-LAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLSWPKPLVEFCNKAMILHQIEALVKAGVKDIVLAVNYRPEVMVSVLKKTEEEFGINIHFSVE-TEPLGTAGPLALAREILGKDDSPFFVLNSDVTCVYPFEAFRDFHIAHKCEGSIMVTKVAEPSAYGVVVTKPN-------STVIDRFVEKPVEFVGNRINAGIYIFNPSVLDRIELRPTSIEKEIFPAIAADQQLHSFDLQ---GFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT + PKPL++   K +I   +  L +AG  +IV+   +    + + L      +G+NI +S E    L TAG +A A  +LG    PF V N DV     F A   F  A    G I        SA+  +V  P        S + D  V   V        +G+ I+ P + D IE    S+ K + P +  + + +    Q   G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|74601649|sp|Q6BN12.1|MPG1_DEBHA</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=ATP-mannose-1-phosphate guanylyltransferase; AltName: Full=GDP-mannose pyrophosphorylase [Debaryomyces hansenii CBS767]</Hit_def>
+  <Hit_accession>Q6BN12</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>4.07216e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSA-YGVNIAYS--PEPAGGLETAGGIAQALPLLGGQ--PFLVANGDVLTDIDFT--AAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAG--SVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLTLPKPLVEFGNRPMILHQIEALAKAGVTDIVLAVNYRPEVMVSTLKKYEAEYGVTITFSVEEEPLG---TAGPLKLAEKVLKKDDTPIFVLNSDVICDYPFQELADFHKTSGGKATIVAT--KVDEPSKYGVIVHDRDTPNLIDRFVEKPVEFVGNRINAGLYILNPSVIDLIEMKPTSIEKETFPILVENKE--LYSFDLEGYWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   +P+I   +  L +AG T+IV+   +    + + L    A YGV I +S   EP G   TAG +  A  +L     P  V N DV+ D  F   A F   S     I A    V  P        D D   L D  V   V        +G+ I  P + D IE    S+ K    +L E ++  +      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|74665871|sp|Q4U3E8.1|MPG1_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4U3E8</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>4.49062e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFT--AAFQTASSLPGHIS-------AHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVS--GQKHT----GLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLTLPKPLVEFGNRPMILHQVESLAAAGVTDIVLAVNYRPDVMVAALKKYEEQYNVRIEFSVE-SEPLGTAGPLKLAEKILGKDDSPFFVLNSDIICDYPFKQLAEFHKKHGDEGTIVVTKVDEPSKYGVVVHKPNHP----SRIDRFVEKPVEFVGNRIN-AGIYILNPSVLKRIE------LRPTSIEQETFPAICSDGQLHSFDLEGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+   +    +  AL      Y V I +S E +  L TAG +  A  +LG    PF V N D++ D  F   A F       G I        +   +V + P++P    S +     +P    GN +  +G+ I  P +   IE      L P  + +     +   GQ H+    G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|353526258|sp|Q5B1J4.2|MPG1_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5B1J4</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>5.92115e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYSPEPAGGLETAGGIAQALPLLG--GQPFLVANGDVLTDIDFT--AAFQTASSLPGHIS-------AHLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGFGTRLRPLTLTLPKPLVEFGNRPMILHQVESLAAAGVTDIVLAVNYRPDVMVSALKKYEEQYNVKIEFSVE-TEPLGTAGPLKLAESILAKDDSPFFVLNSDVICDYPFQQLAEFHKRHGDEGTIVVTKVDEPSKYGVVVHKPNHP----SRIDRFVEKPVEFVGNRIN-AGMYILNPSVLKRIELRPTSIEQETFPAIVRDGQLHSFDLEGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+   +    + +AL      Y V I +S E    L TAG +  A  +L     PF V N DV+ D  F   A F       G I        +   +V + P++P    S +     +P    GN +  +G+ I  P +   IE    +         +R  ++      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|74604610|sp|Q6CCU3.1|MPG1_YARLI</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6CCU3</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.36106e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGR-QIENALGDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISA</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLTLPKPLVEFGNKPMILHQVESLAAAGVKDIVLAVNYRPEVMIETLKKYEEKYGVNITFSVETEPLG---TAGPLKLAEEILCKDDTPFFVLNSDVICDYPFAELAEFHKKNNAEATIVA</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   KP+I   +  L  AG  +IV+   +     IE        YGVNI +S   EP G   TAG +  A  +L     PF V N DV+ D  F   A F   ++    I A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74644313|sp|Q70SJ2.1|MPG1_KLULA</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q70SJ2</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.80929e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGR-QIENALGDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISA-------HLWLVGNPPHNPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAG--SVAKLA-PVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLTVPKPLVEFGNRPMILHQIEALAAAGVTDIVLAVNYRPEVMVETLKKYEDEFGVSITFSVETEPLG---TAGPLKLAESVLKKDNSPFFVLNSDVICDYPFKELADFHQAHGGKGTIVATKVDEPSKYGVIVHDIATPN-----LIDRFVEKPVEFVGNRINAGLYILNPEVIDLIDLKPTSIEKETFPIL---VEQKSLYSFDLEGYWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT T PKPL++   +P+I   +  L  AG T+IV+   +     +E        +GV+I +S   EP G   TAG +  A  +L     PF V N DV+ D  F   A F  A    G I A          ++ +    P+     L D  V   V        +G+ I  PE+ D I+    S+ K   P+L   + Q  +      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|160013901|sp|Q61S97.2|GMPPB_CAEBR</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase beta; AltName: Full=GDP-mannose pyrophosphorylase B; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase beta [Caenorhabditis briggsae]</Hit_def>
+  <Hit_accession>Q61S97</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>2.41766e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALG-DGSAYGVNIAYS--PEPAGGLETAGGIAQALP-LLGGQPFLVANGDVLTDIDFT--AAFQTASSLPGHISAHLWLVGNPPHNPDGDFSLLPDGSV-----RPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKALILVGGYGTRLRPLTLTQPKPLVEFANKPMMLHQMEALAAVGVDTVVLAVSYRAEQLEAEMTVHADRLGVKLIFSLEEEPLG---TAGPLALARKHLEDDDPFFVLNSDVICDFPFKQMVEFHKQHGKEGTIA--VTKVEEP--SKYGVVVFKEDGKIDDFVEKPQEYVGNKIN-AGLYIFNSAILDRIPLKPTSIEKEIFPQMATSGNLYAYVLPGFWMDVG</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G G R+RPLT T PKPL++ A KP++   +  L   G   +V+  ++   Q+E  +       GV + +S   EP G   TAG +A A   L    PF V N DV+ D  F     F       G I+  +  V  P  +  G      DG +     +P+   GN +  +G+ I+   + D I     +    +         +      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|730818|sp|P39629.1|RMLA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=Spore coat polysaccharide biosynthesis protein SpsI; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39629</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>2.73647e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPH----NPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQNRVSGQKHT-----GLWLDVGT</Hsp_qseq>
+      <Hsp_hseq>MKGVILAGGNGSRLMPLTKAVNKHLLPVGPYPMIYWSIMKLQEAGIKDILLISQKEHMPQFYKLLGNGEELGVTITYQVQPAAS-GISDGLSYAKRFTKKESFILLLGDNIFEDSLKPYTERFEQQGKGAKVLLKEVDDPERFGIAEIDEKNKRIRSIIEKPEQPPTN-LCVTGIYMYDAEVFSYIEQISPSKRGELEITDVNNLYIENSQLTYDVLSGWWVDAGT</Hsp_hseq>
+      <Hsp_midline>MK +ILA G G R+ PLT    K LL V   P+I W + +L++AG  +I +I+      Q    LG+G   GV I Y  +PA     + G++ A      + F++  GD + +       +            L  V +P        D     +     +PE    N L  +G+ +Y  E+F  IE  S +K   + + ++    +   + T     G W+D GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|134991|sp|P08075.1|RMLA_STRGR</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=Sugar-nucleotidylation enzyme; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Streptomyces griseus]</Hit_def>
+  <Hit_accession>P08075</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>5.45087e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPFLVANGD---VLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNPDGDFSLLPDGSV----RPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMRQ------NRVSGQKHTGLWLDVGTVCRLKEAQAL</Hsp_qseq>
+      <Hsp_hseq>MKALVLAGGTGTRLRPITHTSAKQLVPVANKPVLFYGLEAIRAAGIIDVGIVVGDTADEIVAAVGDGSRFGLKVSYIPQ-SKPLGLAHCVLISRDFLGEDDFIMYLGDNFVVGVVEDSVREFRAARP-----DAHLMLTRVPEPRSFGVAELSDSGQVLGLEEKPAHPKSDLALVGVYLFSPAIHEAVAAITPSWRGELEITDAVQWLIDAGRDVRSTVISGYWKDTGNVTDMLEVNRL</Hsp_hseq>
+      <Hsp_midline>MKA++LA G G R+RP+T T+ K L+ VA KP++ + L  ++ AG  ++ I       +I  A+GDGS +G+ ++Y P+ +  L  A  +  +   LG   F++  GD   V    D    F+ A        AHL L   P     G   L   G V           + L   GV ++ P + + + A + +    + + +  Q        V     +G W D G V  + E   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|74625549|sp|Q9P8N0.1|MPG1_PICAN</Hit_id>
+  <Hit_def>RecName: Full=Mannose-1-phosphate guanyltransferase; AltName: Full=GDP-mannose pyrophosphorylase; AltName: Full=GTP-mannose-1-phosphate guanylyltransferase [Ogataea angusta]</Hit_def>
+  <Hit_accession>Q9P8N0</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.07808e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGD-GSAYGVNIAYS--PEPAGGLETAGGIAQALPLL--GGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHN----PDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVA---KLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MKGLILVGGYGTRLRPLTLSLPKPLVEFGNRPMILHQIEALANAGCTDIVLAVNYKPEVMVGALKQYEKEYGVSITFSVEEEPLG---TAGPLKLAEKILKKDNTPIFVLNSDVICEYPLRDLLEFHTAHGGEATIVATKVDEPSKYGVIVHDRDVPNLIERFVEKPVEFVGNRINAGIYVLNPSVIDLIEMRPTSIEHETFPILV---EQKKLYSFDLPGYWMDVG</Hsp_hseq>
+      <Hsp_midline>MK +IL  G G R+RPLT + PKPL++   +P+I   +  L  AG T+IV+   +    +  AL      YGV+I +S   EP G   TAG +  A  +L     P  V N DV+ +       +  ++  G  +     V  P        D D   L +  V   V        +G+ +  P + D IE    +   +  P+L+    Q ++      G W+DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|81637477|sp|O06486.1|RFBF_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable glucose-1-phosphate cytidylyltransferase; AltName: Full=CDP-glucose pyrophosphorylase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O06486</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.33563e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQ-AGFTEIVINHAWLGRQIE----------NALG-DGSAYGVNIAYSPEP------AGGLE--TAGGIAQALPLLGGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNPDGDFSLLPDGSVR--PEVSGGNGLTFSGVGIYRPEMFDGI-EAGSVAKLAPVLLNEMRQNRVSGQKHTGLWLDVGTVCRLKEAQAL</Hsp_qseq>
+      <Hsp_hseq>MKAVILCGGKGTRMSEVTNDIPKPLAMIGGKPIL-WHIMKIYQYYGVNEFILLLGYKGEKIKEYFLDYEWKHNSLTLDSSTGEVQMLGQPETWKITFLETGVDTLTAGRILQAKDYIGDETFLLTYGDGLANINL---FHLISYHQTKGAAAT-VTGIDKVSQFGTLT-VEDGMAKTFSEKTSSDGIINGGFFVLSPKVFDYLPKDGNTMFEDEPLKNLAKDGELAVYRHYGFWTAIDTYKNLLEVNKM</Hsp_hseq>
+      <Hsp_midline>MKA+IL  G+G RM  +T+  PKPL  + GKP++ WH+ ++ Q  G  E ++   + G +I+          N+L  D S   V +   PE         G++  TAG I QA   +G + FL+  GD L +I+    F   S      +A   + G    +  G  + + DG  +   E +  +G+   G  +  P++FD + + G+       L N  +   ++  +H G W  + T   L E   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|189043282|sp|B0RVK9.1|RMLA_XANCB</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Xanthomonas campestris pv. campestris str. B100] &gt;gi|189043283|sp|P0C7J4.1|RMLA_XANCP RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Xanthomonas campestris pv. campestris str. ATCC 33913]</Hit_def>
+  <Hit_accession>B0RVK9</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.27717e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>KAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQAL----PLLGGQPFLVANGD-VLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNPDGDFSL---LPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNEMR---QNRV---SGQKHTG------LWLDVGTVCRLKEA</Hsp_qseq>
+      <Hsp_hseq>KGIILAGGSGTRLYPITKGVSKQLLPVYDKPMIYYPLSVLMLAGIRDILIINTPHEQALFQSLLGDGAQWGVNIQYAVQP-----SPDGLAQAYLIGRDFVGGKPSCLVLGDNIFHGHGLTDTLRRADAREQGATVFGYWVNDPERYGVAEFDQHGKVIDIAEKPEKPRSN---YAVTGLY---FYDGKASDYAAALKPSPRGELEITDLNRCYLDAGDLHLEPLGRGYAWLDTGTHQSLHEA</Hsp_hseq>
+      <Hsp_midline>K +ILA G G R+ P+T    K LL V  KP+I + L  L  AG  +I +IN        ++ LGDG+ +GVNI Y+ +P     +  G+AQA       +GG+P  +  GD +      T   + A +     +   + V +P      +F     + D + +PE    N   ++  G+Y    +DG  +   A L P    E+     NR    +G  H         WLD GT   L EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|75462873|sp|Q9AGY6.1|HDDC_ANETH</Hit_id>
+  <Hit_def>RecName: Full=D-glycero-alpha-D-manno-heptose 1-phosphate guanylyltransferase; AltName: Full=D-alpha-D-heptose 1-phosphate guanylyltransferase [Aneurinibacillus thermoaerophilus]</Hit_def>
+  <Hit_accession>Q9AGY6</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>3.78129e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSAYGVNIAYS--PEPAGGLETAGGIAQALPLLGGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHL</Hsp_qseq>
+      <Hsp_hseq>MEAIILVGGLGKRLRSVVSELPKPMAPIDNKPFLHYIFWYLNKQGIDQVILSTGYKHEMIETYFGN-RYHGISINYSIEQEPLG---TGGAIKKAFRKTTEENVVIINGDTLFLVDLRKMFERHISFKADLTLAL</Hsp_hseq>
+      <Hsp_midline>M+A+IL  G G+R+R +    PKP+  +  KP + +    L + G  +++++  +    IE   G+   +G++I YS   EP G   T G I +A      +  ++ NGD L  +D    F+   S    ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|38258700|sp|Q58501.1|GLMU_METJA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional protein GlmU; Includes: RecName: Full=UDP-N-acetylglucosamine pyrophosphorylase; AltName: Full=N-acetylglucosamine-1-phosphate uridyltransferase; Includes: RecName: Full=Glucosamine-1-phosphate N-acetyltransferase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58501</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.29364e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPHNPDGDFSLLPDGSV-----RPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVA-----KLAPVLLNEMRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MDAIILCAGKGERLRPLTENRPKPMIPIAGKPILQHIIEKVE-----DLVDNIYLIVKYKKEKIVDYFKNHPKIKFLEQ--GEIDGTGQAVLTAKDYVDDEFLVINGDIIFEDDLEEFLKYKYAVA------VKEVKNPENF--GVVVLDDENNIIELQEKPENPKSN-LINAGIYKFDKKIFELIEKTKISERGERELTDAIKHLIKEEKVKGIKLNGYWNDVG</Hsp_hseq>
+      <Hsp_midline>M A+IL AG+GER+RPLT+  PKP++ +AGKP++   + +++     ++V N   + +  +  + D       I +  +  G ++  G             FLV NGD++ + D     +   ++       +  V NP +   G   L  + ++     +PE    N L  +G+  +  ++F+ IE   ++     +L   + + +++ +V G K  G W DVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|114152766|sp|Q9ZAE7.2|RMLA_ACTS5</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Actinoplanes sp. SE50/110]</Hit_def>
+  <Hit_accession>Q9ZAE7</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>3.61711e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQAL----PLLGGQPFLVANGD-VLTDIDFTAAFQTASSLPG</Hsp_qseq>
+      <Hsp_hseq>MRGILLAGGTGSRLRPVTWAVSKQLMPVYDKPMIYYPLATLVSCGIREILVITTETEAAQFQRLLGDGSQWGLRLEFAVQ-----QRPGGIAEAFLIGEEFLAGGPVALMLGDNLLHGVDFRPCVQRARETAG</Hsp_hseq>
+      <Hsp_midline>M+ ++LA G G R+RP+T    K L+ V  KP+I + L  L   G  EI VI       Q +  LGDGS +G+ + ++ +     +  GGIA+A       L G P  +  GD +L  +DF    Q A    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|9977936|sp|P55255.2|RMLA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P55255</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.59169e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPF-------LVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNP</Hsp_qseq>
+      <Hsp_hseq>MKGIILAGGSGTRLYPITRGVSKQLLPVYDKPMIYYPLSVLMLAGIRDILVITAPEDNASFKRLLGDGSDFGISISYAVQP-----SPDGLAQAFII--GEEFIGNDNVCLVLGDNIFYGQSFTQTLKQAAAQTHGATVFAYQVKNP</Hsp_hseq>
+      <Hsp_midline>MK +ILA G G R+ P+T    K LL V  KP+I + L  L  AG  +I VI         +  LGDGS +G++I+Y+ +P     +  G+AQA  +  G+ F       LV   ++     FT   + A++     +   + V NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|9978667|sp|P57040.1|RMLA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P57040</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.72249e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPF-------LVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNP</Hsp_qseq>
+      <Hsp_hseq>MKGIILAGGSGTRLYPITRGVSKQLLPVYDKPMIYYPLSVLMLAGIRDILVITAPEDNASFKRLLGDGSDFGISISYAVQP-----SPDGLAQAFII--GEEFIGNDNVCLVLGDNIFYGQSFTQTLKQAAAQTHGATVFAYQVKNP</Hsp_hseq>
+      <Hsp_midline>MK +ILA G G R+ P+T    K LL V  KP+I + L  L  AG  +I VI         +  LGDGS +G++I+Y+ +P     +  G+AQA  +  G+ F       LV   ++     FT   + A++     +   + V NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|48429088|sp|P61887.1|RMLA2_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase 2; Short=G1P-TT 2; AltName: Full=dTDP-glucose pyrophosphorylase 2; AltName: Full=dTDP-glucose synthase 2 [Escherichia coli K-12] &gt;gi|48429089|sp|P61888.1|RMLA2_SHIFL RecName: Full=Glucose-1-phosphate thymidylyltransferase 2; AltName: Full=dTDP-glucose pyrophosphorylase 2; AltName: Full=dTDP-glucose synthase 2 [Shigella flexneri]</Hit_def>
+  <Hit_accession>P61887</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.39454e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEIVINHAWLGR-QIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQAL----PLLGGQPFLVANGD</Hsp_qseq>
+      <Hsp_hseq>MKGIILAGGSGTRLHPITRGVSKQLLPIYDKPMIYYPLSVLMLAGIREILIITTPEDKGYFQRLLGDGSEFGIQLEYAEQP-----SPDGLAQAFIIGETFLNGEPSCLVLGD</Hsp_hseq>
+      <Hsp_midline>MK +ILA G G R+ P+T    K LL +  KP+I + L  L  AG  EI+I      +   +  LGDGS +G+ + Y+ +P     +  G+AQA       L G+P  +  GD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|190359460|sp|A6UUQ4.1|GLMU_META3</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional protein GlmU; Includes: RecName: Full=UDP-N-acetylglucosamine pyrophosphorylase; AltName: Full=N-acetylglucosamine-1-phosphate uridyltransferase; Includes: RecName: Full=Glucosamine-1-phosphate N-acetyltransferase [Methanococcus aeolicus Nankai-3]</Hit_def>
+  <Hit_accession>A6UUQ4</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>4.07381e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQ---------AGFTEIVINHAWLGRQ---IENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPFLVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPH------NPDGDFSLLPDGSVRPEVSGGNGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNE-----MRQNRVSGQKHTGLWLDVG</Hsp_qseq>
+      <Hsp_hseq>MDAVILCAGKGTRLMPLTENIPKPMLPVGGAPILERIINKIDKLVENIYLIVKYEKEIIINHFKNNDKIKFIEQTDIDGTGYAVLMAKNH------------------ISGD-FLVINGDIIFDDDLTNIVN--DDVKNIIT--LNEVDNPSNFGVIVVDNQNNIIELQEKPKNPK----SNLINAGIYKFENKIFDILETLRPSERGEVELTDAIKELIKENNIKGIKLNGYWNDIG</Hsp_hseq>
+      <Hsp_midline>M A+IL AG+G R+ PLT+  PKP+L V G P++   + ++ +             EI+INH     +   IE    DG+ Y V +A +                   + G  FLV NGD++ D D T        +   I+  L  V NP +      +   +   L +    P+    + L  +G+  +  ++FD +E    ++   V L +     +++N + G K  G W D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|585825|sp|P37762.1|RMLA_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P37762</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>9.64332e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MKAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPFLVANGDV</Hsp_qseq>
+      <Hsp_hseq>MKGIILAGGSGTRLYPITRGVSKQLLPVYDKPMIYYPLSVLMLAGIRDILVITAPEDNAAFQRLLGDGSDFGIRLQYAVQP-----SPDGLAQAFII--GEEF-IGNGNV</Hsp_hseq>
+      <Hsp_midline>MK +ILA G G R+ P+T    K LL V  KP+I + L  L  AG  +I VI         +  LGDGS +G+ + Y+ +P     +  G+AQA  +  G+ F + NG+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1710100|sp|P55254.1|RMLA_SALAN</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; AltName: Full=dTDP-glucose synthase [Salmonella enterica subsp. enterica serovar Anatum]</Hit_def>
+  <Hit_accession>P55254</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.27783e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>KAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPF-------LVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPH------NPDGDFSLLPDGSVRPEVSGG-NGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNE--MRQNRVS----GQKHTGLWLDVGTVCRLKEAQALAAA</Hsp_qseq>
+      <Hsp_hseq>KGIILAGGSGTRLYPVTMAVSKQLLPIYDKPMIYYPLSTLMLAGIRDILIISTPQDTPRFQQLLGDGSQWGLNLQYKVQP-----SPDGLAQAFII--GEEFIGNDDCALVLGDNIFYGHDLPKLMEAAVNKESGATVFAYHVNDPERYGVVEFDQSGTAVSLEEKPLQPKSNYAVTGLYFYDNSVV--EMAKNLKPSARGELEITDINRIYMEQGRLSVAMMGRGYA--WLDTGTHQSLIEASNFIAT</Hsp_hseq>
+      <Hsp_midline>K +ILA G G R+ P+T    K LL +  KP+I + L  L  AG  +I +I+      + +  LGDGS +G+N+ Y  +P     +  G+AQA  +  G+ F       LV   ++    D     + A +     +   + V +P        +  G    L +  ++P+ +    GL F    +   EM   ++  +  +L    +N   M Q R+S    G+ +   WLD GT   L EA    A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|141362|sp|P26393.1|RMLA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Glucose-1-phosphate thymidylyltransferase; AltName: Full=dTDP-glucose pyrophosphorylase; Short=Ep; AltName: Full=dTDP-glucose synthase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P26393</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.30271e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>KAMILAAGRGERMRPLTDTTPKPLLDVAGKPLIGWHLCRLKQAGFTEI-VINHAWLGRQIENALGDGSAYGVNIAYSPEPAGGLETAGGIAQALPLLGGQPF-------LVANGDVLTDIDFTAAFQTASSLPGHISAHLWLVGNPPH------NPDGDFSLLPDGSVRPEVSGG-NGLTFSGVGIYRPEMFDGIEAGSVAKLAPVLLNE--MRQNRVS----GQKHTGLWLDVGTVCRLKEAQALAAA</Hsp_qseq>
+      <Hsp_hseq>KGIILAGGSGTRLYPVTMAVSKQLLPIYDKPMIYYPLSTLMLAGIRDILIISTPQDTPRFQQLLGDGSQWGLNLQYKVQP-----SPDGLAQAFII--GEEFIGHDDCALVLGDNIFYGHDLPKLMEAAVNKESGATVFAYHVNDPERYGVVEFDQKGTAVSLEEKPLQPKSNYAVTGLYFYDNSVV--EMAKNLKPSARGELEITDINRIYMEQGRLSVAMMGRGYA--WLDTGTHQSLIEASNFIAT</Hsp_hseq>
+      <Hsp_midline>K +ILA G G R+ P+T    K LL +  KP+I + L  L  AG  +I +I+      + +  LGDGS +G+N+ Y  +P     +  G+AQA  +  G+ F       LV   ++    D     + A +     +   + V +P        +  G    L +  ++P+ +    GL F    +   EM   ++  +  +L    +N   M Q R+S    G+ +   WLD GT   L EA    A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

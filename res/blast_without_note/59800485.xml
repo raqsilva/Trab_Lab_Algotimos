@@ -4,7 +4,7 @@
   <BlastOutput_program>blastp</BlastOutput_program>
   <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
-  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_db>swissprot</BlastOutput_db>
   <BlastOutput_query-ID>gi|59800485|ref|YP_207197.1|</BlastOutput_query-ID>
   <BlastOutput_query-def>preprotein translocase subunit SecG [Neisseria gonorrhoeae]</BlastOutput_query-def>
   <BlastOutput_query-len>116</BlastOutput_query-len>
@@ -26,1409 +26,485 @@
 <Iteration_hits>
 <Hit>
   <Hit_num>1</Hit_num>
-  <Hit_id>gi|489783329|ref|WP_003687220.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria gonorrhoeae] &gt;gi|59800485|ref|YP_207197.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae FA 1090] &gt;gi|194097611|ref|YP_002000647.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae NCCP11945] &gt;gi|538320721|ref|YP_008501781.1| preprotein translocase, SecG subunit [Neisseria gonorrhoeae MS11] &gt;gi|59717380|gb|AAW88785.1| putative protein-export protein [Neisseria gonorrhoeae FA 1090] &gt;gi|193932901|gb|ACF28725.1| putative protein-export protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|226511966|gb|EEH61311.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae 1291] &gt;gi|268547388|gb|EEZ42806.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae 35/02] &gt;gi|268549841|gb|EEZ44860.1| preprotein translocase, SecG subunit [Neisseria gonorrhoeae FA19] &gt;gi|268582309|gb|EEZ46985.1| preprotein translocase, SecG subunit [Neisseria gonorrhoeae MS11] &gt;gi|268584654|gb|EEZ49330.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae PID18] &gt;gi|268586887|gb|EEZ51563.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae PID1] &gt;gi|268621589|gb|EEZ53989.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae PID332] &gt;gi|268623760|gb|EEZ56160.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae SK-92-679] &gt;gi|291011571|gb|EFE03567.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae DGI2] &gt;gi|291611730|gb|EFF40799.1| preprotein translocase SecG subunit [Neisseria gonorrhoeae F62] &gt;gi|636862579|gb|KDM99677.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae] &gt;gi|636864477|gb|KDN01409.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae] &gt;gi|636866957|gb|KDN03756.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae] &gt;gi|654607478|gb|KEC87951.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae] &gt;gi|693766171|gb|KGI97027.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae]</Hit_def>
-  <Hit_accession>WP_003687220</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|84028696|sp|P0AGA1.1|SECG_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG; AltName: Full=P12; AltName: Full=Preprotein translocase band 1 subunit [Escherichia coli O157:H7] &gt;gi|84028697|sp|P0AGA0.1|SECG_ECOL6 RecName: Full=Protein-export membrane protein SecG; AltName: Full=P12; AltName: Full=Preprotein translocase band 1 subunit [Escherichia coli CFT073] &gt;gi|84028698|sp|P0AG99.1|SECG_ECOLI RecName: Full=Protein-export membrane protein SecG; AltName: Full=P12; AltName: Full=Preprotein translocase band 1 subunit [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AGA1</Hit_accession>
+  <Hit_len>110</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>237.654</Hsp_bit-score>
-      <Hsp_score>605</Hsp_score>
-      <Hsp_evalue>4.26979e-78</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>7.37752e-18</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>116</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAP</Hsp_qseq>
+      <Hsp_hseq>LLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASAT--LFGSSGSGNFMTRMTALLATLFFIISLVLGNINSNKTNKGSEWENL----SAPAKTEQTQPAAP</Hsp_hseq>
+      <Hsp_midline>+ ++ +I A+ ++ L++LQ GKGAD GA+FG+G+ +   +FGS+G+ NF++R TA+ AT FF   + +  I+++ T  G ++ N+     AP     T+P+AP</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>2</Hit_num>
-  <Hit_id>gi|489798305|ref|WP_003702196.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria gonorrhoeae] &gt;gi|268626065|gb|EEZ58465.1| preprotein translocase subunit SecG [Neisseria gonorrhoeae SK-93-1035]</Hit_def>
-  <Hit_accession>WP_003702196</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|13959569|sp|Q9HV52.1|SECG_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HV52</Hit_accession>
+  <Hit_len>129</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>236.113</Hsp_bit-score>
-      <Hsp_score>601</Hsp_score>
-      <Hsp_evalue>1.9682e-77</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>3.03401e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>115</Hsp_identity>
-      <Hsp_positive>115</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
       <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGTTFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAG TFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_qseq>FKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYI---HTHTTKH-GLDFSNIRQTQQAPKPVSNTEPSAPVPQQQ</Hsp_qseq>
+      <Hsp_hseq>LEKVVIVVHLLMALGLVGLILVQHGKGADAGASFGAGASAT--VFGSQGSATFLSRITGILAAVFFLTSLGLAYFAKEKSDALQHIGLPDPAVLEQKQEKAPAAD---DVPVLQEQ</Hsp_hseq>
+      <Hsp_midline> + ++ +++++ AL ++ L+L+QHGKGADAGA+FG+G+ +   VFGS G+A FLSR T + A  FF T + + Y     +   +H GL    + + +Q   P ++     PV Q+Q</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>3</Hit_num>
-  <Hit_id>gi|488168115|ref|WP_002239323.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|402333597|gb|EJU68899.1| preprotein translocase, SecG subunit [Neisseria meningitidis 80179] &gt;gi|485348110|gb|EOC09827.1| preprotein translocase, SecG subunit [Neisseria meningitidis 73696]</Hit_def>
-  <Hit_accession>WP_002239323</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|3024606|sp|P95577.1|SECG_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>P95577</Hit_accession>
+  <Hit_len>126</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>234.958</Hsp_bit-score>
-      <Hsp_score>598</Hsp_score>
-      <Hsp_evalue>5.43135e-77</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.22167e-16</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
       <Hsp_hit-to>116</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>114</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNVQQTQQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSN++QTQQAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>FKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHT----TKHGLDFSNIRQTQQAPK----PVSNTEPSAPVP</Hsp_qseq>
+      <Hsp_hseq>LETVVIVFHLLGALGVVALVLLQQGKGADAGASFGAGASNT--VFGGQGTSTFLSKFTAILAACFFITSLGLGYFAKEKAQQLTQVGLPDPAVLEVKQKPAADDVPVLEGQKPAAVP</Hsp_hseq>
+      <Hsp_midline> +T++ + +++ AL V+ LVLLQ GKGADAGA+FG+G+ +   VFG  G + FLS+ TA+ A  FF T + + Y         T+ GL    + + +Q P     PV   +  A VP</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>4</Hit_num>
-  <Hit_id>gi|488143470|ref|WP_002214678.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|15677723|ref|NP_274884.1| preprotein translocase subunit SecG [Neisseria meningitidis MC58] &gt;gi|218767534|ref|YP_002342046.1| preprotein translocase subunit SecG [Neisseria meningitidis Z2491] &gt;gi|254804290|ref|YP_003082511.1| preprotein translocase subunit SecG [Neisseria meningitidis alpha14] &gt;gi|385324838|ref|YP_005879277.1| preprotein translocase subunit SecG [Neisseria meningitidis 8013] &gt;gi|385329133|ref|YP_005883436.1| preprotein translocase subunit SecG [Neisseria meningitidis alpha710] &gt;gi|385337384|ref|YP_005891257.1| preprotein translocase subunit SecG [Neisseria meningitidis WUE 2594] &gt;gi|385341268|ref|YP_005895139.1| preprotein translocase subunit SecG [Neisseria meningitidis M01-240149] &gt;gi|385851975|ref|YP_005898490.1| preprotein translocase subunit SecG [Neisseria meningitidis M04-240196] &gt;gi|385853939|ref|YP_005900453.1| preprotein translocase subunit SecG [Neisseria meningitidis H44/76] &gt;gi|385855901|ref|YP_005902414.1| preprotein translocase subunit SecG [Neisseria meningitidis M01-240355] &gt;gi|385856565|ref|YP_005903077.1| preprotein translocase subunit SecG [Neisseria meningitidis NZ-05/33] &gt;gi|7227147|gb|AAF42222.1| protein-export membrane protein SecG [Neisseria meningitidis MC58] &gt;gi|121051542|emb|CAM07840.1| putative protein-export integral membrane protein [Neisseria meningitidis Z2491] &gt;gi|254667832|emb|CBA03834.1| preprotein translocase SecG subunit [Neisseria meningitidis alpha14] &gt;gi|254673861|emb|CBA09641.1| preprotein translocase SecG subunit [Neisseria meningitidis alpha275] &gt;gi|261393225|emb|CAX50844.1| preprotein translocase SecG subunit [Neisseria meningitidis 8013] &gt;gi|304337549|gb|EFM03712.1| preprotein translocase, SecG subunit [Neisseria meningitidis ATCC 13091] &gt;gi|308389985|gb|ADO32305.1| preprotein translocase subunit SecG [Neisseria meningitidis alpha710] &gt;gi|316985503|gb|EFV64450.1| preprotein translocase, SecG subunit [Neisseria meningitidis H44/76] &gt;gi|319409798|emb|CBY90106.1| preprotein translocase SecG subunit [Neisseria meningitidis WUE 2594] &gt;gi|325127464|gb|EGC50393.1| preprotein translocase, SecG subunit [Neisseria meningitidis N1568] &gt;gi|325129504|gb|EGC52332.1| preprotein translocase, SecG subunit [Neisseria meningitidis OX99.30304] &gt;gi|325133531|gb|EGC56194.1| preprotein translocase, SecG subunit [Neisseria meningitidis M13399] &gt;gi|325135482|gb|EGC58100.1| preprotein translocase, SecG subunit [Neisseria meningitidis M0579] &gt;gi|325139545|gb|EGC62085.1| preprotein translocase, SecG subunit [Neisseria meningitidis CU385] &gt;gi|325143781|gb|EGC66098.1| preprotein translocase, SecG subunit [Neisseria meningitidis M01-240013] &gt;gi|325200943|gb|ADY96398.1| preprotein translocase, SecG subunit [Neisseria meningitidis H44/76] &gt;gi|325201474|gb|ADY96928.1| preprotein translocase, SecG subunit [Neisseria meningitidis M01-240149] &gt;gi|325204842|gb|ADZ00296.1| preprotein translocase, SecG subunit [Neisseria meningitidis M01-240355] &gt;gi|325206798|gb|ADZ02251.1| preprotein translocase, SecG subunit [Neisseria meningitidis M04-240196] &gt;gi|325207454|gb|ADZ02906.1| preprotein translocase, SecG subunit [Neisseria meningitidis NZ-05/33] &gt;gi|372200107|gb|EHP14238.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM220] &gt;gi|372200435|gb|EHP14511.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM233] &gt;gi|389606595|emb|CCA45508.1| protein-export membrane protein secG Preprotein translocase band 1 subunit; P12 [Neisseria meningitidis alpha522] &gt;gi|402315342|gb|EJU50906.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM255] &gt;gi|402315563|gb|EJU51126.1| preprotein translocase, SecG subunit [Neisseria meningitidis 93003] &gt;gi|402315979|gb|EJU51533.1| preprotein translocase, SecG subunit [Neisseria meningitidis 93004] &gt;gi|402321282|gb|EJU56757.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM140] &gt;gi|402321616|gb|EJU57089.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM183] &gt;gi|402326947|gb|EJU62345.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM2781] &gt;gi|402328135|gb|EJU63515.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM576] &gt;gi|402329067|gb|EJU64429.1| preprotein translocase, SecG subunit [Neisseria meningitidis 98008] &gt;gi|402329525|gb|EJU64886.1| preprotein translocase, SecG subunit [Neisseria meningitidis 69166] &gt;gi|402334471|gb|EJU69759.1| preprotein translocase, SecG subunit [Neisseria meningitidis 92045] &gt;gi|402336295|gb|EJU71556.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM2657] &gt;gi|402340832|gb|EJU76023.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3081] &gt;gi|432200563|gb|ELK56653.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM422] &gt;gi|432206845|gb|ELK62846.1| preprotein translocase, SecG subunit [Neisseria meningitidis 68094] &gt;gi|432207527|gb|ELK63516.1| preprotein translocase, SecG subunit [Neisseria meningitidis 97021] &gt;gi|432208162|gb|ELK64141.1| preprotein translocase, SecG subunit [Neisseria meningitidis 88050] &gt;gi|432213330|gb|ELK69252.1| preprotein translocase, SecG subunit [Neisseria meningitidis 70012] &gt;gi|432213769|gb|ELK69679.1| preprotein translocase, SecG subunit [Neisseria meningitidis 63041] &gt;gi|432214652|gb|ELK70549.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2006087] &gt;gi|432219725|gb|ELK75561.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2002038] &gt;gi|432220482|gb|ELK76302.1| preprotein translocase, SecG subunit [Neisseria meningitidis 97014] &gt;gi|432221056|gb|ELK76871.1| preprotein translocase, SecG subunit [Neisseria meningitidis M13255] &gt;gi|432225373|gb|ELK81116.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM418] &gt;gi|432239086|gb|ELK94645.1| preprotein translocase, SecG subunit [Neisseria meningitidis 9757] &gt;gi|432239202|gb|ELK94760.1| preprotein translocase, SecG subunit [Neisseria meningitidis 9506] &gt;gi|432244782|gb|ELL00264.1| preprotein translocase, SecG subunit [Neisseria meningitidis 12888] &gt;gi|432245260|gb|ELL00731.1| preprotein translocase, SecG subunit [Neisseria meningitidis 4119] &gt;gi|432245686|gb|ELL01151.1| preprotein translocase, SecG subunit [Neisseria meningitidis 63049] &gt;gi|432251264|gb|ELL06635.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2004090] &gt;gi|432251707|gb|ELL07070.1| preprotein translocase, SecG subunit [Neisseria meningitidis 96023] &gt;gi|432255692|gb|ELL11021.1| preprotein translocase, SecG subunit [Neisseria meningitidis 65014] &gt;gi|432257107|gb|ELL12413.1| preprotein translocase, SecG subunit [Neisseria meningitidis 61103] &gt;gi|432257788|gb|ELL13081.1| preprotein translocase, SecG subunit [Neisseria meningitidis 97020] &gt;gi|432258983|gb|ELL14263.1| preprotein translocase, SecG subunit [Neisseria meningitidis 69096] &gt;gi|432264596|gb|ELL19798.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3642] &gt;gi|432266555|gb|ELL21738.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3652] &gt;gi|432268687|gb|ELL23854.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2007056] &gt;gi|432269965|gb|ELL25113.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2001212] &gt;gi|432271640|gb|ELL26763.1| preprotein translocase, SecG subunit [Neisseria meningitidis 70030] &gt;gi|432277849|gb|ELL32895.1| preprotein translocase, SecG subunit [Neisseria meningitidis 63006] &gt;gi|485272873|gb|EOB39580.1| preprotein translocase, SecG subunit [Neisseria meningitidis 70021] &gt;gi|485273074|gb|EOB39766.1| preprotein translocase, SecG subunit [Neisseria meningitidis 69155] &gt;gi|485273090|gb|EOB39781.1| preprotein translocase, SecG subunit [Neisseria meningitidis 69176] &gt;gi|485279335|gb|EOB45608.1| preprotein translocase, SecG subunit [Neisseria meningitidis 96060] &gt;gi|485279897|gb|EOB46116.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2000080] &gt;gi|485280136|gb|EOB46337.1| preprotein translocase, SecG subunit [Neisseria meningitidis 94018] &gt;gi|485286190|gb|EOB52023.1| preprotein translocase, SecG subunit [Neisseria meningitidis 75689] &gt;gi|485286585|gb|EOB52390.1| preprotein translocase, SecG subunit [Neisseria meningitidis 75643] &gt;gi|485287031|gb|EOB52803.1| preprotein translocase, SecG subunit [Neisseria meningitidis 69100] &gt;gi|485292930|gb|EOB58320.1| preprotein translocase, SecG subunit [Neisseria meningitidis 97018] &gt;gi|485293195|gb|EOB58568.1| preprotein translocase, SecG subunit [Neisseria meningitidis 63023] &gt;gi|485293739|gb|EOB59069.1| preprotein translocase, SecG subunit [Neisseria meningitidis 61106] &gt;gi|485299621|gb|EOB64578.1| preprotein translocase, SecG subunit [Neisseria meningitidis 70082] &gt;gi|485300105|gb|EOB65026.1| preprotein translocase, SecG subunit [Neisseria meningitidis 65012] &gt;gi|485300420|gb|EOB65313.1| preprotein translocase, SecG subunit [Neisseria meningitidis 64182] &gt;gi|485307163|gb|EOB71600.1| preprotein translocase, SecG subunit [Neisseria meningitidis 96024] &gt;gi|485307692|gb|EOB72081.1| preprotein translocase, SecG subunit [Neisseria meningitidis 97008] &gt;gi|485309241|gb|EOB73536.1| preprotein translocase, SecG subunit [Neisseria meningitidis 97027] &gt;gi|485312422|gb|EOB76531.1| preprotein translocase, SecG subunit [Neisseria meningitidis 98005] &gt;gi|485314151|gb|EOB78129.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2004085] &gt;gi|485314264|gb|EOB78236.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2003022] &gt;gi|485319449|gb|EOB83107.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2000063] &gt;gi|485320657|gb|EOB84206.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM604] &gt;gi|485321046|gb|EOB84575.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2002007] &gt;gi|485325708|gb|EOB88827.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM606] &gt;gi|485327849|gb|EOB90927.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM607] &gt;gi|485351310|gb|EOC12801.1| preprotein translocase, SecG subunit [Neisseria meningitidis 81858] &gt;gi|485354440|gb|EOC15732.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2002020] &gt;gi|485356141|gb|EOC17299.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM477] &gt;gi|485358443|gb|EOC19372.1| preprotein translocase, SecG subunit [Neisseria meningitidis M13265] &gt;gi|485390932|gb|EOC49554.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2005172] &gt;gi|485392441|gb|EOC50934.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2008223] &gt;gi|485392958|gb|EOC51414.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2003051] &gt;gi|485397999|gb|EOC56132.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM271] &gt;gi|485398757|gb|EOC56835.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM115] &gt;gi|485404888|gb|EOC62562.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3042] &gt;gi|485405287|gb|EOC62918.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3222] &gt;gi|485406777|gb|EOC64271.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3131] &gt;gi|485411673|gb|EOC68839.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3144] &gt;gi|485413689|gb|EOC70643.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3164] &gt;gi|485414578|gb|EOC71534.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3158] &gt;gi|485417933|gb|EOC74660.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM27] &gt;gi|485418558|gb|EOC75237.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM51] &gt;gi|485419777|gb|EOC76345.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM80] &gt;gi|485421079|gb|EOC77585.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM80] &gt;gi|485424319|gb|EOC80588.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM165] &gt;gi|485424885|gb|EOC81103.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3223] &gt;gi|514068424|gb|EPF53412.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM134] &gt;gi|514069173|gb|EPF54104.1| preprotein translocase, SecG subunit [Neisseria meningitidis 98002] &gt;gi|530898157|gb|EQC96983.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3141] &gt;gi|530898514|gb|EQC97313.1| preprotein translocase, SecG subunit [Neisseria meningitidis 96037] &gt;gi|530904615|gb|EQD03033.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3139] &gt;gi|530905312|gb|EQD03693.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM045] &gt;gi|530906344|gb|EQD04650.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM151] &gt;gi|530910177|gb|EQD08264.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM003] &gt;gi|530913133|gb|EQD11037.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM1476] &gt;gi|530913574|gb|EQD11449.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM0552] &gt;gi|530915861|gb|EQD13613.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM518] &gt;gi|530919471|gb|EQD17015.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3173] &gt;gi|530921024|gb|EQD18455.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3230] &gt;gi|530921973|gb|EQD19346.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM2866] &gt;gi|610426053|gb|AHW74929.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|663090658|gb|KER38950.1| preprotein translocase, SecG subunit [Neisseria meningitidis 992008] &gt;gi|744798255|gb|AJC63043.1| preprotein translocase subunit SecG [Neisseria meningitidis LNP21362]</Hit_def>
-  <Hit_accession>WP_002214678</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|18202829|sp|Q9CP52.1|SECG_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CP52</Hit_accession>
+  <Hit_len>115</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>234.187</Hsp_bit-score>
-      <Hsp_score>596</Hsp_score>
-      <Hsp_evalue>8.77948e-77</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>4.04307e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>113</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNVQQTQQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSN++QTQQAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>FKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAM--VYIHTHTTKHGL--DFS----NIRQTQQAPKPVSNTEPSAPVPQ</Hsp_qseq>
+      <Hsp_hseq>YQTLLLGYAII-AIVIVFLILIQQGKGADAGASFGGGASGT--IFGSVGSGNFLSKMTALLATAFFVMSIVIGNVNSHRNNVKQGKFDDLSATAEQIQQQQKIDAPAVETKNS-DIPQ</Hsp_hseq>
+      <Hsp_midline>++TL+    II A+ ++ L+L+Q GKGADAGA+FG G+     +FGS G+ NFLS+ TA+ AT FF   + +  V  H +  K G   D S     I+Q Q+   P   T+ S  +PQ</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>5</Hit_num>
-  <Hit_id>gi|489849174|ref|WP_003752857.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria polysaccharea] &gt;gi|296838667|gb|EFH22605.1| preprotein translocase, SecG subunit [Neisseria polysaccharea ATCC 43768]</Hit_def>
-  <Hit_accession>WP_003752857</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|1173417|sp|P44713.1|SECG_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44713</Hit_accession>
+  <Hit_len>112</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>233.417</Hsp_bit-score>
-      <Hsp_score>594</Hsp_score>
-      <Hsp_evalue>1.78469e-76</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000179864</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>113</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNVQQTQQAPKPVNNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSN++QTQQAPKPV+NTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTH</Hsp_qseq>
+      <Hsp_hseq>VLLFIYVVVAIALIGFILVQQGKGANAGAS--FGGGASGTMFGSAGAGNFLTRTSAILATAFFVIALVLGNMNSH</Hsp_hseq>
+      <Hsp_midline>++  I ++ A+A+I  +L+Q GKGA+AGA+   G G++  +FGSAG  NFL+R++A+ AT FF   + +  +++H</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>6</Hit_num>
-  <Hit_id>gi|645196766|ref|WP_025457669.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria polysaccharea]</Hit_def>
-  <Hit_accession>WP_025457669</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|81675180|sp|Q5HQU8.1|SECG_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus epidermidis RP62A] &gt;gi|81843020|sp|Q8CPY2.1|SECG_STAES RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HQU8</Hit_accession>
+  <Hit_len>77</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.646</Hsp_bit-score>
-      <Hsp_score>592</Hsp_score>
-      <Hsp_evalue>3.39787e-76</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.000233494</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>112</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNVQQTRQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAV+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSN++QT+QAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGS---AGNANFLSRSTAVAATFFFATCMAMVYI</Hsp_qseq>
+      <Hsp_hseq>TLIIVLLIIDCIALVTVVLLQEGK---SNGLSGAISGGAEQLFGKQKQRGVDLFLHRLTIILAILFFVLMFCISYL</Hsp_hseq>
+      <Hsp_midline>TLI ++ II  +A++ +VLLQ GK   +    G+ SG A+ +FG     G   FL R T + A  FF     + Y+</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>7</Hit_num>
-  <Hit_id>gi|518102007|ref|WP_019272215.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria lactamica]</Hit_def>
-  <Hit_accession>WP_019272215</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|81649728|sp|Q6GB52.1|SECG_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81694962|sp|Q5HHN9.1|SECG_STAAC RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus aureus subsp. aureus COL] &gt;gi|81704588|sp|Q7A1F4.1|SECG_STAAW RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81706012|sp|Q7A6Q1.1|SECG_STAAN RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus aureus subsp. aureus N315] &gt;gi|81781928|sp|Q99VK3.1|SECG_STAAM RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q6GB52</Hit_accession>
+  <Hit_len>77</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.646</Hsp_bit-score>
-      <Hsp_score>592</Hsp_score>
-      <Hsp_evalue>3.39787e-76</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000671017</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>112</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNVQQTRQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSN++QT+QAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGS---AGNANFLSRSTAVAATFFFATCMAMVYI</Hsp_qseq>
+      <Hsp_hseq>TFLIVLLIIDCIALITVVLLQEGKSSGLS---GAISGGAEQLFGKQKQRGVDLFLNRLTIILSILFFVLMICISYL</Hsp_hseq>
+      <Hsp_midline>T + ++ II  +A+I +VLLQ GK +      G+ SG A+ +FG     G   FL+R T + +  FF   + + Y+</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>8</Hit_num>
-  <Hit_id>gi|488170751|ref|WP_002241959.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|393292634|emb|CCI72047.1| Protein-export membrane protein secG Preprotein translocase band 1 subunit [Neisseria meningitidis alpha704] &gt;gi|402339596|gb|EJU74810.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM2795] &gt;gi|402341553|gb|EJU76727.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3001] &gt;gi|485372427|gb|EOC32236.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2004032] &gt;gi|514068689|gb|EPF53657.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2007461]</Hit_def>
-  <Hit_accession>WP_002241959</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|84029491|sp|Q49W06.1|SECG_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49W06</Hit_accession>
+  <Hit_len>77</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.646</Hsp_bit-score>
-      <Hsp_score>592</Hsp_score>
-      <Hsp_evalue>4.09055e-76</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000805609</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>112</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKYGLDFSNVQQTQQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTK+GLDFSN++QTQQAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>TLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGS---AGNANFLSRSTAVAATFFFATCMAMVY</Hsp_qseq>
+      <Hsp_hseq>TLIMVLLILDCIALVTVVLLQEGK---SNGLSGAISGGAEQLFGKQKQRGIDLFLHRLTIVLSVIFFLLMLGISY</Hsp_hseq>
+      <Hsp_midline>TLI ++ I+  +A++ +VLLQ GK   +    G+ SG A+ +FG     G   FL R T V +  FF   + + Y</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>9</Hit_num>
-  <Hit_id>gi|488189112|ref|WP_002260320.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|485399399|gb|EOC57422.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM90] &gt;gi|485399616|gb|EOC57623.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM90]</Hit_def>
-  <Hit_accession>WP_002260320</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|122539964|sp|Q2G026.1|SECG_STAA8</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecG [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>Q2G026</Hit_accession>
+  <Hit_len>91</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.261</Hsp_bit-score>
-      <Hsp_score>591</Hsp_score>
-      <Hsp_evalue>4.7658e-76</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00111897</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>112</Hsp_identity>
-      <Hsp_positive>115</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHATKHGLDFSNVQQTQQAPKPVSNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTH TKHGLDFSN++QTQQAPKPVSNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGS---AGNANFLSRSTAVAATFFFATCMAMVYI</Hsp_qseq>
+      <Hsp_hseq>TFLIVLLIIDCIALITVVLLQEGKSSGLS---GAISGGAEQLFGKQKQRGVDLFLNRLTIILSILFFVLMICISYL</Hsp_hseq>
+      <Hsp_midline>T + ++ II  +A+I +VLLQ GK +      G+ SG A+ +FG     G   FL+R T + +  FF   + + Y+</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>10</Hit_num>
-  <Hit_id>gi|488150332|ref|WP_002221540.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|121634200|ref|YP_974445.1| preprotein translocase subunit SecG [Neisseria meningitidis FAM18] &gt;gi|161869327|ref|YP_001598494.1| preprotein translocase subunit SecG [Neisseria meningitidis 053442] &gt;gi|385339370|ref|YP_005893242.1| preprotein translocase subunit SecG [Neisseria meningitidis G2136] &gt;gi|120865906|emb|CAM09643.1| putative protein-export integral membrane protein [Neisseria meningitidis FAM18] &gt;gi|161594880|gb|ABX72540.1| protein-export integral membrane protein [Neisseria meningitidis 053442] &gt;gi|325131529|gb|EGC54236.1| preprotein translocase, SecG subunit [Neisseria meningitidis M6190] &gt;gi|325139217|gb|EGC61763.1| preprotein translocase, SecG subunit [Neisseria meningitidis ES14902] &gt;gi|325141582|gb|EGC64048.1| preprotein translocase, SecG subunit [Neisseria meningitidis 961-5945] &gt;gi|325197614|gb|ADY93070.1| preprotein translocase, SecG subunit [Neisseria meningitidis G2136] &gt;gi|432201244|gb|ELK57327.1| preprotein translocase, SecG subunit [Neisseria meningitidis 98080] &gt;gi|432226544|gb|ELK82271.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM586] &gt;gi|432227988|gb|ELK83690.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM762] &gt;gi|432233385|gb|ELK89013.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM174] &gt;gi|432236811|gb|ELK92415.1| preprotein translocase, SecG subunit [Neisseria meningitidis M7124] &gt;gi|432237681|gb|ELK93274.1| preprotein translocase, SecG subunit [Neisseria meningitidis M7089] &gt;gi|432238844|gb|ELK94407.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM126] &gt;gi|485328081|gb|EOB91139.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM133] &gt;gi|485331672|gb|EOB94499.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM43] &gt;gi|485334695|gb|EOB97312.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM82] &gt;gi|485335411|gb|EOB97978.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM94] &gt;gi|485337590|gb|EOC00019.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM95] &gt;gi|485341355|gb|EOC03533.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM313] &gt;gi|485342216|gb|EOC04318.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM1482] &gt;gi|485344555|gb|EOC06512.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM1495] &gt;gi|485348673|gb|EOC10347.1| preprotein translocase, SecG subunit [Neisseria meningitidis 73704] &gt;gi|485360627|gb|EOC21355.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM3147] &gt;gi|485364138|gb|EOC24544.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2001072] &gt;gi|485365282|gb|EOC25579.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2001073] &gt;gi|485366777|gb|EOC26973.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2000081] &gt;gi|485370526|gb|EOC30475.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2001001] &gt;gi|485373747|gb|EOC33475.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2001213] &gt;gi|485376714|gb|EOC36247.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2004264] &gt;gi|485379659|gb|EOC39004.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2000175] &gt;gi|485379821|gb|EOC39161.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2005079] &gt;gi|485383772|gb|EOC42870.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2001068] &gt;gi|485386249|gb|EOC45162.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2005040] &gt;gi|485386296|gb|EOC45206.1| preprotein translocase, SecG subunit [Neisseria meningitidis 2002004] &gt;gi|485429197|gb|EOC85062.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM23] &gt;gi|485429881|gb|EOC85674.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM32] &gt;gi|485434300|gb|EOC89669.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM35] &gt;gi|485435277|gb|EOC90535.1| preprotein translocase, SecG subunit [Neisseria meningitidis NM36] &gt;gi|694193689|gb|KGI98897.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|723271276|gb|KHC98467.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|723272804|gb|KHC99987.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|726975171|gb|KHF22600.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|730570094|gb|AIZ17896.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|730572398|gb|AIZ19800.1| preprotein translocase subunit SecG [Neisseria meningitidis M7124] &gt;gi|730574728|gb|AIZ21677.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|730577183|gb|AIZ23630.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|730580533|gb|AIZ26514.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|743394722|gb|KID54260.1| preprotein translocase subunit SecG [Neisseria meningitidis LNP27256] &gt;gi|747186900|gb|KIF90698.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|747187390|gb|KIF91113.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|747189608|gb|KIF92866.1| preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|747190334|gb|KIF93439.1| preprotein translocase subunit SecG [Neisseria meningitidis]</Hit_def>
-  <Hit_accession>WP_002221540</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|81651512|sp|Q6GIL2.1|SECG_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GIL2</Hit_accession>
+  <Hit_len>77</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>231.876</Hsp_bit-score>
-      <Hsp_score>590</Hsp_score>
-      <Hsp_evalue>6.75775e-76</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00118717</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>111</Hsp_identity>
-      <Hsp_positive>116</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKYGLDFSNVQQTQQAPKPISNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTK+GLDFSN++QTQQAPKP+SNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGS---AGNANFLSRSTAVAATFFFATCMAMVYI</Hsp_qseq>
+      <Hsp_hseq>TFLIVLLIIDCIALITVVLLQEGKSSGFS---GAISGGAEQLFGKQKQRGVDLFLNRLTIILSILFFVLMICISYL</Hsp_hseq>
+      <Hsp_midline>T + ++ II  +A+I +VLLQ GK +      G+ SG A+ +FG     G   FL+R T + +  FF   + + Y+</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>11</Hit_num>
-  <Hit_id>gi|488180343|ref|WP_002251551.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|432271796|gb|ELL26918.1| preprotein translocase, SecG subunit [Neisseria meningitidis 77221]</Hit_def>
-  <Hit_accession>WP_002251551</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|84029490|sp|Q4L4K9.1|SECG_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Probable protein-export membrane protein SecG [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L4K9</Hit_accession>
+  <Hit_len>77</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>230.72</Hsp_bit-score>
-      <Hsp_score>587</Hsp_score>
-      <Hsp_evalue>2.17229e-75</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0012242</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>112</Hsp_identity>
-      <Hsp_positive>115</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNVQQTQQAPKPVSNTELSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSN++QTQQAPKPVSNTE SAPVPQQQK</Hsp_midline>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>TLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGS---AGNANFLSRSTAVAATFFFATCMAMVY</Hsp_qseq>
+      <Hsp_hseq>TLFIVLLIIDCIALITVVLLQEGK---SNGLSGAISGGAEQLFGKQKQRGVDLFLHRLTIILAVIFFLIMIGISY</Hsp_hseq>
+      <Hsp_midline>TL  ++ II  +A+I +VLLQ GK   +    G+ SG A+ +FG     G   FL R T + A  FF   + + Y</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>12</Hit_num>
-  <Hit_id>gi|488173484|ref|WP_002244692.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria meningitidis] &gt;gi|432201483|gb|ELK57564.1| preprotein translocase, SecG subunit [Neisseria meningitidis 87255]</Hit_def>
-  <Hit_accession>WP_002244692</Hit_accession>
-  <Hit_len>116</Hit_len>
+  <Hit_id>gi|6226126|sp|O32233.1|SECG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable protein-export membrane protein SecG [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32233</Hit_accession>
+  <Hit_len>76</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>230.335</Hsp_bit-score>
-      <Hsp_score>586</Hsp_score>
-      <Hsp_evalue>3.66774e-75</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00129753</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>110</Hsp_identity>
-      <Hsp_positive>115</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATLFFATCMAMVYIHTHTTKYGLDFSNVQQTQQAPKPISNTEPSAPVPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAAT FFATCMAMVYIHTHTTK+GLDFSN++QTQQAPKP+SNTEPSAPVPQQQK</Hsp_midline>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>IISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFG---SAGNANFLSRSTAVAATFFFATCMAMVYI</Hsp_qseq>
+      <Hsp_hseq>VIVSIALIIVVLLQSSKSAGLS---GAISGGAEQLFGKQKARGLDLILHRITVVLAVLFFVLTIALAYI</Hsp_hseq>
+      <Hsp_midline>+I ++A+I++VLLQ  K A      G+ SG A+ +FG   + G    L R T V A  FF   +A+ YI</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>13</Hit_num>
-  <Hit_id>gi|489772339|ref|WP_003676242.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria cinerea] &gt;gi|269145689|gb|EEZ72107.1| preprotein translocase, SecG subunit [Neisseria cinerea ATCC 14685]</Hit_def>
-  <Hit_accession>WP_003676242</Hit_accession>
-  <Hit_len>119</Hit_len>
+  <Hit_id>gi|6226125|sp|O66505.1|SECG_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O66505</Hit_accession>
+  <Hit_len>100</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>219.55</Hsp_bit-score>
-      <Hsp_score>558</Hsp_score>
-      <Hsp_evalue>5.8912e-71</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>115</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00318322</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>108</Hsp_identity>
-      <Hsp_positive>114</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>119</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPV----SNTEPSAPVPQQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAIAATFFFATCMAMVYIHTHTTKHGLDFSSVQQTQQAPKPAVPVKNNTEPAAPVPQQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTA+AATFFFATCMAMVYIHTHTTKHGLDFS+++QTQQAPKP     +NTEP+APVPQQQ</Hsp_midline>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>IISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRST</Hsp_qseq>
+      <Hsp_hseq>VIIAVVLIISTLLQKGRG-DVGAAFGGGMG--QSIFGVGGVETILTKAT</Hsp_hseq>
+      <Hsp_midline>+I A+ +I+  LLQ G+G D GA FG G G  Q +FG  G    L+++T</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>14</Hit_num>
-  <Hit_id>gi|489780053|ref|WP_003683944.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria flavescens] &gt;gi|224952757|gb|EEG33966.1| preprotein translocase, SecG subunit [Neisseria flavescens NRL30031/H210] &gt;gi|241320863|gb|EER57096.1| preprotein translocase, SecG subunit [Neisseria flavescens SK114]</Hit_def>
-  <Hit_accession>WP_003683944</Hit_accession>
-  <Hit_len>119</Hit_len>
+  <Hit_id>gi|11134551|sp|P57460.1|SECG_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57460</Hit_accession>
+  <Hit_len>109</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>211.846</Hsp_bit-score>
-      <Hsp_score>538</Hsp_score>
-      <Hsp_evalue>5.98779e-68</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>115</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.0986495</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>104</Hsp_identity>
-      <Hsp_positive>111</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>119</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVS----NTEPSAPVPQQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAIAATFFFATCMAMVYIHTHSSKHGLDFSDVKQTQQAPKPATPAQNNTTPVAPNPQQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTA+AATFFFATCMAMVYIHTH++KHGLDFS+++QTQQAPKP +    NT P AP PQQQ</Hsp_midline>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>IINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHT</Hsp_qseq>
+      <Hsp_hseq>IVFIFISFSLIFFILLQPGKGLNN--TVHSHTKNNIKFFNSIGTNNFITKIIKILAFFFLLISIILCNINS</Hsp_hseq>
+      <Hsp_midline>I+ I  + ++I  +LLQ GKG +   T  S + +    F S G  NF+++   + A FF    + +  I++</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>15</Hit_num>
-  <Hit_id>gi|490654022|ref|WP_004519013.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria subflava] &gt;gi|284797913|gb|EFC53260.1| preprotein translocase, SecG subunit [Neisseria subflava NJ9703]</Hit_def>
-  <Hit_accession>WP_004519013</Hit_accession>
-  <Hit_len>119</Hit_len>
+  <Hit_id>gi|10720400|sp|O25847.2|SECG_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25847</Hit_accession>
+  <Hit_len>199</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>209.92</Hsp_bit-score>
-      <Hsp_score>533</Hsp_score>
-      <Hsp_evalue>4.16839e-67</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>115</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.63494</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>104</Hsp_identity>
-      <Hsp_positive>110</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>119</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVS----NTEPSAPVPQQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALFVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHSSKHGLDFSDVKQTQQAPKPATPAQNNTTPVAPNPQQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL VIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTH++KHGLDFS+++QTQQAPKP +    NT P AP PQQQ</Hsp_midline>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>FGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIH</Hsp_qseq>
+      <Hsp_hseq>LGAYSGSNESLFGAKGPASFMAKLTMFLGLLFVINTIALGYFY</Hsp_hseq>
+      <Hsp_midline> G+ SGS + +FG+ G A+F+++ T      F    +A+ Y +</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>16</Hit_num>
-  <Hit_id>gi|738543849|ref|WP_036492092.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria mucosa] &gt;gi|694240693|gb|KGJ31578.1| preprotein translocase subunit SecG [Neisseria mucosa]</Hit_def>
-  <Hit_accession>WP_036492092</Hit_accession>
-  <Hit_len>119</Hit_len>
+  <Hit_id>gi|10720278|sp|Q9ZJX2.1|SECG_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Protein-export membrane protein SecG [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZJX2</Hit_accession>
+  <Hit_len>198</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>209.149</Hsp_bit-score>
-      <Hsp_score>531</Hsp_score>
-      <Hsp_evalue>7.59161e-67</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>115</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.44499</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>104</Hsp_identity>
-      <Hsp_positive>109</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>119</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVS----NTEPSAPVPQQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALFVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHSNKHGLDFSDVKQTQQAPKPATPAQNNTTPVAPNPQQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL VIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTH+ KHGLDFS+++QTQQAPKP +    NT P AP PQQQ</Hsp_midline>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>FGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIH</Hsp_qseq>
+      <Hsp_hseq>LGAYSGSNDSLFGAKGPASFMAKLTMFLGLLFVINTIALGYFY</Hsp_hseq>
+      <Hsp_midline> G+ SGS   +FG+ G A+F+++ T      F    +A+ Y +</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>17</Hit_num>
-  <Hit_id>gi|489844388|ref|WP_003748083.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria mucosa] &gt;gi|317399841|gb|EFV80504.1| preprotein translocase subunit SecG [Neisseria mucosa C102]</Hit_def>
-  <Hit_accession>WP_003748083</Hit_accession>
-  <Hit_len>119</Hit_len>
+  <Hit_id>gi|75169926|sp|Q9CAP8.1|LACS9_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Long chain acyl-CoA synthetase 9, chloroplastic [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9CAP8</Hit_accession>
+  <Hit_len>691</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>207.608</Hsp_bit-score>
-      <Hsp_score>527</Hsp_score>
-      <Hsp_evalue>3.06363e-66</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>115</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.85267</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>584</Hsp_hit-from>
+      <Hsp_hit-to>631</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>103</Hsp_identity>
-      <Hsp_positive>109</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>119</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVS----NTEPSAPVPQQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALFVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHSNKHGLDFSDVKQTQQAPKPATPAQNDTTPVAPNPQQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL VIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTH+ KHGLDFS+++QTQQAPKP +    +T P AP PQQQ</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>18</Hit_num>
-  <Hit_id>gi|489804427|ref|WP_003708304.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria lactamica] &gt;gi|313669104|ref|YP_004049388.1| protein-export integral membrane protein [Neisseria lactamica 020-06] &gt;gi|269209632|gb|EEZ76087.1| preprotein translocase, SecG subunit [Neisseria lactamica ATCC 23970] &gt;gi|309379498|emb|CBX21864.1| unnamed protein product [Neisseria lactamica Y92-1009] &gt;gi|313006566|emb|CBN88030.1| putative protein-export integral membrane protein [Neisseria lactamica 020-06] &gt;gi|673469796|gb|KFJ36426.1| preprotein translocase, SecG subunit [Neisseria lactamica ATCC 23970]</Hit_def>
-  <Hit_accession>WP_003708304</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>198.364</Hsp_bit-score>
-      <Hsp_score>503</Hsp_score>
-      <Hsp_evalue>1.1436e-62</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>100</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>100</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>96</Hsp_identity>
-      <Hsp_positive>100</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>100</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFASCMAMVYIHTHTTKHGLDFSNVQQTKQAPK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFA+CMAMVYIHTHTTKHGLDFSN++QT+QAPK</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>19</Hit_num>
-  <Hit_id>gi|746361018|ref|WP_039405607.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Morococcus cerebrosus] &gt;gi|742699211|gb|KIC11469.1| preprotein translocase subunit SecG [Morococcus cerebrosus]</Hit_def>
-  <Hit_accession>WP_039405607</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>196.052</Hsp_bit-score>
-      <Hsp_score>497</Hsp_score>
-      <Hsp_evalue>1.10194e-61</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>120</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>103</Hsp_identity>
-      <Hsp_positive>111</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>120</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTE----PSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALSVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRATAIAATFFFATCMAMVYIHTHTNKHGLDFSNVKQTQQAPKPAAPAENQPTPAAPAPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL+V+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSR+TA+AATFFFATCMAMVYIHTHT KHGLDFSN++QTQQAPKP +  E    P+AP PQQQK</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>20</Hit_num>
-  <Hit_id>gi|515029074|ref|WP_016686328.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria sicca]</Hit_def>
-  <Hit_accession>WP_016686328</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>191.815</Hsp_bit-score>
-      <Hsp_score>486</Hsp_score>
-      <Hsp_evalue>5.37588e-60</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>120</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>102</Hsp_identity>
-      <Hsp_positive>110</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>120</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEP----SAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALSVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRATAIAATFFFATCMAMVYIHTHTNKHGLDFSNVQQTQQAPKPAAPAENQPALAAPAPQQQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL+V+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSR+TA+AATFFFATCMAMVYIHTHT KHGLDFSN++QTQQAPKP +  E     +AP PQQQK</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>21</Hit_num>
-  <Hit_id>gi|496465594|ref|WP_009174439.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria sp. oral taxon 014] &gt;gi|298282315|gb|EFI23803.1| preprotein translocase, SecG subunit [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
-  <Hit_accession>WP_009174439</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>185.267</Hsp_bit-score>
-      <Hsp_score>469</Hsp_score>
-      <Hsp_evalue>1.70282e-57</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>115</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>120</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>92</Hsp_identity>
-      <Hsp_positive>103</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>120</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQ-----TQQAPKPVSNTEPSAPVPQQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTVIWIINIISALAVIVLVLLQHGKGADAGATFGSGTGSAQGVFGSGGNANFLSHATAIAATFFFATCMAMVYIHSNTTRHGLDFSNVKQSLPAKTQQAPTNGGKTDTVPAAPKQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWIINIISALAVIVLVLLQHGKGADAGATFGSG+GSAQGVFGS GNANFLS +TA+AATFFFATCMAMVYIH++TT+HGLDFSN++Q     TQQAP     T+     P+QQ</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>22</Hit_num>
-  <Hit_id>gi|489855642|ref|WP_003759305.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria sicca] &gt;gi|255048578|gb|EET44042.1| preprotein translocase, SecG subunit [Neisseria sicca ATCC 29256]</Hit_def>
-  <Hit_accession>WP_003759305</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>183.726</Hsp_bit-score>
-      <Hsp_score>465</Hsp_score>
-      <Hsp_evalue>8.80558e-57</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>106</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>106</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>95</Hsp_identity>
-      <Hsp_positive>102</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>106</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTE</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALSVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRATAIAATFFFATCMAMVYIHTHTNKHGLDFSNVKQTQQAPKPAAPAE</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL+V+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSR+TA+AATFFFATCMAMVYIHTHT KHGLDFSN++QTQQAPKP +  E</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>23</Hit_num>
-  <Hit_id>gi|489839218|ref|WP_003742926.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria mucosa] &gt;gi|288566945|gb|EFC88505.1| preprotein translocase, SecG subunit [Neisseria mucosa ATCC 25996]</Hit_def>
-  <Hit_accession>WP_003742926</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>182.57</Hsp_bit-score>
-      <Hsp_score>462</Hsp_score>
-      <Hsp_evalue>1.9485e-56</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>106</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>106</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>95</Hsp_identity>
-      <Hsp_positive>102</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>106</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTE</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALSVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRATAIAATFFFATCMAMVYIHTHTNKHGLDFSNVQQTQQAPKPATPAE</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL+V+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSR+TA+AATFFFATCMAMVYIHTHT KHGLDFSN++QTQQAPKP +  E</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>24</Hit_num>
-  <Hit_id>gi|496668472|ref|WP_009310962.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria sp. GT4A_CT1] &gt;gi|348609679|gb|EGY59410.1| hypothetical protein HMPREF1028_00200 [Neisseria sp. GT4A_CT1]</Hit_def>
-  <Hit_accession>WP_009310962</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>179.104</Hsp_bit-score>
-      <Hsp_score>453</Hsp_score>
-      <Hsp_evalue>4.47013e-55</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>100</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>100</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>93</Hsp_identity>
-      <Hsp_positive>99</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>100</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALSVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRATAIAATFFFATCMAMVYIHTHTNKHGLDFSNVKQTQQAPK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL+V+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSR+TA+AATFFFATCMAMVYIHTHT KHGLDFSN++QTQQAPK</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>25</Hit_num>
-  <Hit_id>gi|489872769|ref|WP_003776299.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria macacae] &gt;gi|339888677|gb|EGQ78111.1| preprotein translocase subunit SecG [Neisseria macacae ATCC 33926]</Hit_def>
-  <Hit_accession>WP_003776299</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>177.563</Hsp_bit-score>
-      <Hsp_score>449</Hsp_score>
-      <Hsp_evalue>1.899e-54</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>100</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>100</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>92</Hsp_identity>
-      <Hsp_positive>99</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>100</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALSVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRATAIAATFFFATCMAMVYIHTHTNKHGLDFSDVKQTQQAPK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL+V+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSR+TA+AATFFFATCMAMVYIHTHT KHGLDFS+++QTQQAPK</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>26</Hit_num>
-  <Hit_id>gi|518100183|ref|WP_019270391.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria sicca]</Hit_def>
-  <Hit_accession>WP_019270391</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>177.178</Hsp_bit-score>
-      <Hsp_score>448</Hsp_score>
-      <Hsp_evalue>3.20054e-54</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>100</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>100</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>92</Hsp_identity>
-      <Hsp_positive>99</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>100</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIINIISALSVVVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRATAIAATFFFATCMAMVYIHTHTNKHGLDFSNVQQTKQAPK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWIINIISAL+V+VLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSR+TA+AATFFFATCMAMVYIHTHT KHGLDFSN++QT+QAPK</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>27</Hit_num>
-  <Hit_id>gi|490410943|ref|WP_004283750.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria weaveri] &gt;gi|343969363|gb|EGV37578.1| preprotein translocase subunit SecG [Neisseria weaveri LMG 5135] &gt;gi|343970151|gb|EGV38348.1| preprotein translocase subunit SecG [Neisseria weaveri ATCC 51223]</Hit_def>
-  <Hit_accession>WP_004283750</Hit_accession>
-  <Hit_len>104</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>174.096</Hsp_bit-score>
-      <Hsp_score>440</Hsp_score>
-      <Hsp_evalue>2.77483e-53</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>101</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>101</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>81</Hsp_identity>
-      <Hsp_positive>93</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>101</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKP</Hsp_qseq>
-      <Hsp_hseq>MEAFKTAIWIVNIFSALCVILLVLMQHGKGADAGATFGSGSGSAQGVFGSSGNANFLSRATAIAATVFFATCLAMVYIHSHSNKHGLDFSNVQQSQPAELP</Hsp_hseq>
-      <Hsp_midline>MEAFKT IWI+NI SAL VI+LVL+QHGKGADAGATFGSGSGSAQGVFGS+GNANFLSR+TA+AAT FFATC+AMVYIH+H+ KHGLDFSN++Q+Q A  P</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>28</Hit_num>
-  <Hit_id>gi|736299532|ref|WP_034333495.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG, partial [Conchiformibius steedae]</Hit_def>
-  <Hit_accession>WP_034333495</Hit_accession>
-  <Hit_len>111</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>149.443</Hsp_bit-score>
-      <Hsp_score>376</Hsp_score>
-      <Hsp_evalue>1.36135e-43</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>114</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>111</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>79</Hsp_identity>
-      <Hsp_positive>91</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>115</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHT-TKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLILIVNIFSSLAIIGLVLMQHGRGADAGASFG-GSGSAQGVFGSGGNANFLSRMTGVAATVFFATCLLLGYIHSQRGSSSGLDFSNIQQSQSAPAIEST---SAPVPMQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLI I+NI S+LA+I LVL+QHG+GADAGA+FG GSGSAQGVFGS GNANFLSR T VAAT FFATC+ + YIH+   +  GLDFSNI+Q+Q AP   S    SAPVP Q</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>29</Hit_num>
-  <Hit_id>gi|496408498|ref|WP_009117362.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria wadsworthii] &gt;gi|349790465|gb|EGZ44374.1| homoserine dehydrogenase [Neisseria wadsworthii 9715]</Hit_def>
-  <Hit_accession>WP_009117362</Hit_accession>
-  <Hit_len>116</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>149.058</Hsp_bit-score>
-      <Hsp_score>375</Hsp_score>
-      <Hsp_evalue>2.51094e-43</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>111</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>109</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>71</Hsp_identity>
-      <Hsp_positive>91</Hsp_positive>
-      <Hsp_gaps>2</Hsp_gaps>
-      <Hsp_align-len>111</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPV</Hsp_qseq>
-      <Hsp_hseq>METIKTVIWLLNIFASITVIILVLMQQGKGADAGATFG-GSGSAQGVFGSAGNANFLSRATAIAATVFFASCLSLVYINTHVPKHGLDFSTVQQ-KNAPAETEQQGATSPV</Hsp_hseq>
-      <Hsp_midline>ME  KT+IW++NI +++ VI+LVL+Q GKGADAGATFG GSGSAQGVFGSAGNANFLSR+TA+AAT FFA+C+++VYI+TH  KHGLDFS ++Q + AP        ++PV</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>30</Hit_num>
-  <Hit_id>gi|494578724|ref|WP_007342812.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria bacilliformis] &gt;gi|327464292|gb|EGF10596.1| preprotein translocase subunit SecG [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
-  <Hit_accession>WP_007342812</Hit_accession>
-  <Hit_len>112</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>147.517</Hsp_bit-score>
-      <Hsp_score>371</Hsp_score>
-      <Hsp_evalue>1.00863e-42</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>110</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>105</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>73</Hsp_identity>
-      <Hsp_positive>91</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>110</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAP</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIMILNGFAGLAIILLVLMQHGKGADAGASFASGSGSAQGVFGSAGSGNFLSRSTYIAATVFFATCLALTYIYSHSGKGKLDFSNVQQS----APV-KTQPAAP</Hsp_hseq>
-      <Hsp_midline>MEAFKTLI I+N  + LA+I+LVL+QHGKGADAGA+F SGSGSAQGVFGSAG+ NFLSRST +AAT FFATC+A+ YI++H+ K  LDFSN++Q+     PV  T+P+AP</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>31</Hit_num>
-  <Hit_id>gi|739631555|ref|WP_037487573.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Snodgrassella alvi] &gt;gi|664669164|gb|KES11561.1| Preprotein translocase subunit SecG [Snodgrassella alvi SCGC AB-598-O02]</Hit_def>
-  <Hit_accession>WP_037487573</Hit_accession>
-  <Hit_len>118</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>144.821</Hsp_bit-score>
-      <Hsp_score>364</Hsp_score>
-      <Hsp_evalue>1.13164e-41</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>113</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>76</Hsp_identity>
-      <Hsp_positive>89</Hsp_positive>
-      <Hsp_gaps>3</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTIILIVNIFAALFVIVLVLMQQGKGADAGAAFGSGS--AQGVFGAAGNANFLSRSTAIAATIFFITCLALGYISTH-GRTGLDFSTVNQKQAVQQPAANQPASAPVAPAKK</Hsp_hseq>
-      <Hsp_midline>MEAFKT+I I+NI +AL VIVLVL+Q GKGADAGA FGSGS  AQGVFG+AGNANFLSRSTA+AAT FF TC+A+ YI TH  + GLDFS + Q Q   +P +N   SAPV   +K</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>32</Hit_num>
-  <Hit_id>gi|692422298|ref|WP_032136859.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Kingella sp. Sch538]</Hit_def>
-  <Hit_accession>WP_032136859</Hit_accession>
-  <Hit_len>114</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>144.821</Hsp_bit-score>
-      <Hsp_score>364</Hsp_score>
-      <Hsp_evalue>1.21165e-41</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>95</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>94</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>68</Hsp_identity>
-      <Hsp_positive>84</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>95</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQT</Hsp_qseq>
-      <Hsp_hseq>MEAFKTVIWIVNIFSSLAIIALVLMQHGKGADAGASFG-GSGSAQGVFGSAGNANFLTRMTAISAAVFFASCLALGYINTHANKSGLDFSTVQQS</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWI+NI S+LA+I LVL+QHGKGADAGA+FG GSGSAQGVFGSAGNANFL+R TA++A  FFA+C+A+ YI+TH  K GLDFS ++Q+</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>33</Hit_num>
-  <Hit_id>gi|739618839|ref|WP_037475366.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Snodgrassella alvi] &gt;gi|664667994|gb|KES10530.1| Preprotein translocase subunit SecG [Snodgrassella alvi SCGC AB-598-O11]</Hit_def>
-  <Hit_accession>WP_037475366</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>143.28</Hsp_bit-score>
-      <Hsp_score>360</Hsp_score>
-      <Hsp_evalue>5.52264e-41</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>115</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>77</Hsp_identity>
-      <Hsp_positive>91</Hsp_positive>
-      <Hsp_gaps>7</Hsp_gaps>
-      <Hsp_align-len>119</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKH-GLDFSNIRQTQQ--APKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLILIVNIFAALSVIVLVLMQQGKGADAGAAFGSGS--AQGVFGAAGNANFLSRSTAIAATIFFATCLALGYISTH--RHSGLDFSDVKPQQQVVVPSATPASTPAVPAKPAQK</Hsp_hseq>
-      <Hsp_midline>MEAFKTLI I+NI +AL+VIVLVL+Q GKGADAGA FGSGS  AQGVFG+AGNANFLSRSTA+AAT FFATC+A+ YI TH  +H GLDFS+++  QQ   P     + P+ P    QK</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>34</Hit_num>
-  <Hit_id>gi|736885286|ref|WP_034884735.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Gilliamella apicola] &gt;gi|664675390|gb|KES15797.1| Preprotein translocase subunit SecG [Gilliamella apicola SCGC AB-598-I20]</Hit_def>
-  <Hit_accession>WP_034884735</Hit_accession>
-  <Hit_len>118</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>142.895</Hsp_bit-score>
-      <Hsp_score>359</Hsp_score>
-      <Hsp_evalue>6.40357e-41</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>116</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>113</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>75</Hsp_identity>
-      <Hsp_positive>88</Hsp_positive>
-      <Hsp_gaps>3</Hsp_gaps>
-      <Hsp_align-len>116</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPVPQQQK</Hsp_qseq>
-      <Hsp_hseq>MEAFKTIILIVNIFAALFVIVLVLMQQGKGADAGAAFGSGS--AQGVFGAAGNANFLSRSTAIAATIFFITCLALGYISTH-GRTGLDFRTVNQKQAVQQPAANQPASAPVAPAKK</Hsp_hseq>
-      <Hsp_midline>MEAFKT+I I+NI +AL VIVLVL+Q GKGADAGA FGSGS  AQGVFG+AGNANFLSRSTA+AAT FF TC+A+ YI TH  + GLDF  + Q Q   +P +N   SAPV   +K</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>35</Hit_num>
-  <Hit_id>gi|254670972|emb|CBA07674.1|</Hit_id>
-  <Hit_def>protein-export integral membrane protein, partial [Neisseria meningitidis alpha153]</Hit_def>
-  <Hit_accession>CBA07674</Hit_accession>
-  <Hit_len>94</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>142.124</Hsp_bit-score>
-      <Hsp_score>357</Hsp_score>
-      <Hsp_evalue>7.40937e-41</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>87</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>89</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>77</Hsp_identity>
-      <Hsp_positive>79</Hsp_positive>
-      <Hsp_gaps>2</Hsp_gaps>
-      <Hsp_align-len>89</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAM-VYIHTHT-TKHGL</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIVNIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATWHGYGVYSHPHDKTRFGL</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFAT     VY H H  T+ GL</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>36</Hit_num>
-  <Hit_id>gi|736304082|ref|WP_034335152.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG, partial [Conchiformibius kuhniae]</Hit_def>
-  <Hit_accession>WP_034335152</Hit_accession>
-  <Hit_len>98</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>140.198</Hsp_bit-score>
-      <Hsp_score>352</Hsp_score>
-      <Hsp_evalue>3.82781e-40</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>99</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>98</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>66</Hsp_identity>
-      <Hsp_positive>82</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>99</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAP</Hsp_qseq>
-      <Hsp_hseq>MEALKTVIWIVNIFSSLAIIALVLMQHGRGADAGASFG-GSGSAQGVFGSGGNANFLSRMTGMAATVFFASCLLLGYIHSQQSNKGLDFSTVQQSSIAP</Hsp_hseq>
-      <Hsp_midline>MEA KT+IWI+NI S+LA+I LVL+QHG+GADAGA+FG GSGSAQGVFGS GNANFLSR T +AAT FFA+C+ + YIH+  +  GLDFS ++Q+  AP</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>37</Hit_num>
-  <Hit_id>gi|294482385|gb|EFG30079.1|</Hit_id>
-  <Hit_def>preprotein translocase, SecG subunit [Simonsiella muelleri ATCC 29453]</Hit_def>
-  <Hit_accession>EFG30079</Hit_accession>
-  <Hit_len>194</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>141.739</Hsp_bit-score>
-      <Hsp_score>356</Hsp_score>
-      <Hsp_evalue>1.59765e-39</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>99</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>100</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>70</Hsp_identity>
-      <Hsp_positive>83</Hsp_positive>
-      <Hsp_gaps>3</Hsp_gaps>
-      <Hsp_align-len>101</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKH--GLDFSNIRQTQQAP</Hsp_qseq>
-      <Hsp_hseq>MEAFKTVIWIINIFASLAVIGLVLIQHGKGADAGANFG-GSGSAQGVFGSGGNANFLTRITGIAATIFFASCLALGYIHTKSNNKVGGLDFSDVQQTGSTP</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWIINI ++LAVI LVL+QHGKGADAGA FG GSGSAQGVFGS GNANFL+R T +AAT FFA+C+A+ YIHT +     GLDFS+++QT   P</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>38</Hit_num>
-  <Hit_id>gi|736176461|ref|WP_034294428.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG, partial [Alysiella crassa]</Hit_def>
-  <Hit_accession>WP_034294428</Hit_accession>
-  <Hit_len>102</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>138.272</Hsp_bit-score>
-      <Hsp_score>347</Hsp_score>
-      <Hsp_evalue>2.53577e-39</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>101</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>102</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>66</Hsp_identity>
-      <Hsp_positive>84</Hsp_positive>
-      <Hsp_gaps>3</Hsp_gaps>
-      <Hsp_align-len>103</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKH--GLDFSNIRQTQQAPKP</Hsp_qseq>
-      <Hsp_hseq>MEAFKTVIWIINIFSSLAIIALVLMQHGKGADAGANFG-GSGSAQGVFGSGGNANFLTRMTGIAAAVFFASCLALGYVNTKSANKVGGIDFSDVQQSSQIAEP</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWIINI S+LA+I LVL+QHGKGADAGA FG GSGSAQGVFGS GNANFL+R T +AA  FFA+C+A+ Y++T +     G+DFS+++Q+ Q  +P</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>39</Hit_num>
-  <Hit_id>gi|750347640|ref|WP_040629558.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG, partial [Simonsiella muelleri]</Hit_def>
-  <Hit_accession>WP_040629558</Hit_accession>
-  <Hit_len>96</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>137.502</Hsp_bit-score>
-      <Hsp_score>345</Hsp_score>
-      <Hsp_evalue>4.09812e-39</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>95</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>96</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>69</Hsp_identity>
-      <Hsp_positive>82</Hsp_positive>
-      <Hsp_gaps>3</Hsp_gaps>
-      <Hsp_align-len>97</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKH--GLDFSNIRQT</Hsp_qseq>
-      <Hsp_hseq>MEAFKTVIWIINIFASLAVIGLVLIQHGKGADAGANFG-GSGSAQGVFGSGGNANFLTRITGIAATIFFASCLALGYIHTKSNNKVGGLDFSDVQQT</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWIINI ++LAVI LVL+QHGKGADAGA FG GSGSAQGVFGS GNANFL+R T +AAT FFA+C+A+ YIHT +     GLDFS+++QT</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>40</Hit_num>
-  <Hit_id>gi|739534964|ref|WP_037393353.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Snodgrassella alvi] &gt;gi|662244051|gb|KEQ00713.1| Preprotein translocase subunit SecG [Snodgrassella alvi SCGC AB-598-J21]</Hit_def>
-  <Hit_accession>WP_037393353</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>138.272</Hsp_bit-score>
-      <Hsp_score>347</Hsp_score>
-      <Hsp_evalue>5.38006e-39</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>97</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>94</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>72</Hsp_identity>
-      <Hsp_positive>83</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>98</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKH-GLDFSNIRQTQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLILIVNIFAALSVIVLVLMQQGKGADAGAAFGSGS--AQGVFGAAGNANFLSRSTAIAATVFFVTCLALGYISTH--RHSGLDFSNVKPKQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLI I+NI +AL+VIVLVL+Q GKGADAGA FGSGS  AQGVFG+AGNANFLSRSTA+AAT FF TC+A+ YI TH  +H GLDFSN++  QQ</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>41</Hit_num>
-  <Hit_id>gi|597814451|gb|AHN29281.1|</Hit_id>
-  <Hit_def>Preprotein translocase subunit SecG [Snodgrassella alvi wkB2] &gt;gi|664671795|gb|KES13318.1| Preprotein translocase subunit SecG [Snodgrassella alvi SCGC AB-598-P14]</Hit_def>
-  <Hit_accession>AHN29281</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>138.272</Hsp_bit-score>
-      <Hsp_score>347</Hsp_score>
-      <Hsp_evalue>5.38006e-39</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>97</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>94</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>72</Hsp_identity>
-      <Hsp_positive>83</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>98</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKH-GLDFSNIRQTQQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLILIVNIFAALSVIVLVLMQQGKGADAGAAFGSGS--AQGVFGAAGNANFLSRSTAIAATVFFVTCLALGYISTH--RHSGLDFSNVKPKQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLI I+NI +AL+VIVLVL+Q GKGADAGA FGSGS  AQGVFG+AGNANFLSRSTA+AAT FF TC+A+ YI TH  +H GLDFSN++  QQ</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>42</Hit_num>
-  <Hit_id>gi|739546579|ref|WP_037404847.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Snodgrassella alvi] &gt;gi|637116088|gb|KDN13294.1| Preprotein translocase subunit SecG [Snodgrassella alvi] &gt;gi|637118872|gb|KDN15599.1| Preprotein translocase subunit SecG [Snodgrassella alvi]</Hit_def>
-  <Hit_accession>WP_037404847</Hit_accession>
-  <Hit_len>120</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>137.117</Hsp_bit-score>
-      <Hsp_score>344</Hsp_score>
-      <Hsp_evalue>1.25109e-38</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>96</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>93</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>71</Hsp_identity>
-      <Hsp_positive>83</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>97</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKH-GLDFSNIRQTQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLILIVNIFAALSVIVLVLMQQGKGADAGAAFGSGS--AQGVFGAAGNANFLSRSTAIAATIFFISCLALGYISTH--RHSGLDFSNVKQQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKTLI I+NI +AL+VIVLVL+Q GKGADAGA FGSGS  AQGVFG+AGNANFLSRSTA+AAT FF +C+A+ YI TH  +H GLDFSN++Q Q</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>43</Hit_num>
-  <Hit_id>gi|489880911|ref|WP_003784371.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Kingella denitrificans] &gt;gi|324980708|gb|EGC16370.1| preprotein translocase, SecG subunit [Kingella denitrificans ATCC 33394]</Hit_def>
-  <Hit_accession>WP_003784371</Hit_accession>
-  <Hit_len>124</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>134.035</Hsp_bit-score>
-      <Hsp_score>336</Hsp_score>
-      <Hsp_evalue>2.20915e-37</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>105</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>105</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>63</Hsp_identity>
-      <Hsp_positive>85</Hsp_positive>
-      <Hsp_gaps>2</Hsp_gaps>
-      <Hsp_align-len>106</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTT-KHGLDFSNIRQTQQAPKPVSNT</Hsp_qseq>
-      <Hsp_hseq>METFKNVIWIVNIFSSLGIIILVLMQHGKGADTGASFG-GSGSAQGVFGSGGNANFLSRMTSLFAVIFFSSCLALGYIHSRTYGKGGMDFSDVKQSAPQTQPVQHS</Hsp_hseq>
-      <Hsp_midline>ME FK +IWI+NI S+L +I+LVL+QHGKGAD GA+FG GSGSAQGVFGS GNANFLSR T++ A  FF++C+A+ YIH+ T  K G+DFS+++Q+    +PV ++</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>44</Hit_num>
-  <Hit_id>gi|739735287|ref|WP_037588503.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Stenoxybacter acetivorans]</Hit_def>
-  <Hit_accession>WP_037588503</Hit_accession>
-  <Hit_len>110</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>125.561</Hsp_bit-score>
-      <Hsp_score>314</Hsp_score>
-      <Hsp_evalue>2.93552e-34</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>111</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>107</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>76</Hsp_identity>
-      <Hsp_positive>87</Hsp_positive>
-      <Hsp_gaps>4</Hsp_gaps>
-      <Hsp_align-len>111</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAPV</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIWIMNIFSALAVVVLVLLQQGKGADAGAAFGSGS--AQGVFGAAGNANFLSRSTALAATVFFATCLGLGFIATNAGKSNLDFSTVQQT--APAQTQPAEASKPI</Hsp_hseq>
-      <Hsp_midline>MEAFKTLIWI+NI SALAV+VLVLLQ GKGADAGA FGSGS  AQGVFG+AGNANFLSRSTA+AAT FFATC+ + +I T+  K  LDFS ++QT  AP      E S P+</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>45</Hit_num>
-  <Hit_id>gi|496977321|ref|WP_009425797.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria sp. oral taxon 020] &gt;gi|429164501|gb|EKY06632.1| preprotein translocase, SecG subunit [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
-  <Hit_accession>WP_009425797</Hit_accession>
-  <Hit_len>114</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>125.561</Hsp_bit-score>
-      <Hsp_score>314</Hsp_score>
-      <Hsp_evalue>4.25104e-34</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>110</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>105</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>71</Hsp_identity>
-      <Hsp_positive>89</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>110</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQAPKPVSNTEPSAP</Hsp_qseq>
-      <Hsp_hseq>MEAFKTLIMILNGFAGLTVILLVLMQHGKGADAGASFSGGSGSAQGVFGSAGSSNFLSRSTAIAATVFFATCLAMTYIYSHSGKQQIDFSNVQQSTPA-----KTQPAVP</Hsp_hseq>
-      <Hsp_midline>MEAFKTLI I+N  + L VI+LVL+QHGKGADAGA+F  GSGSAQGVFGSAG++NFLSRSTA+AAT FFATC+AM YI++H+ K  +DFSN++Q+  A      T+P+ P</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>46</Hit_num>
-  <Hit_id>gi|518801961|ref|WP_019957915.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Vitreoscilla stercoraria]</Hit_def>
-  <Hit_accession>WP_019957915</Hit_accession>
-  <Hit_len>111</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>119.783</Hsp_bit-score>
-      <Hsp_score>299</Hsp_score>
-      <Hsp_evalue>5.66103e-32</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>98</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>95</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>63</Hsp_identity>
-      <Hsp_positive>77</Hsp_positive>
-      <Hsp_gaps>3</Hsp_gaps>
-      <Hsp_align-len>98</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDFSNIRQTQQA</Hsp_qseq>
-      <Hsp_hseq>MEAFKTIIFLVNIFSALAVIVLVLLQHGKGADAGAAF--GSGSAQGVFGAAGSANFLSRGTALAAVLFFASCLGLGYFSANQSS-GLNFDQPAPTTQS</Hsp_hseq>
-      <Hsp_midline>MEAFKT+I+++NI SALAVIVLVLLQHGKGADAGA F  GSGSAQGVFG+AG+ANFLSR TA+AA  FFA+C+ + Y   + +  GL+F     T Q+</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>47</Hit_num>
-  <Hit_id>gi|740499042|ref|WP_038329927.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Kingella kingae]</Hit_def>
-  <Hit_accession>WP_038329927</Hit_accession>
-  <Hit_len>121</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>119.398</Hsp_bit-score>
-      <Hsp_score>298</Hsp_score>
-      <Hsp_evalue>1.27491e-31</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>94</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>95</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>66</Hsp_identity>
-      <Hsp_positive>85</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>95</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHG-LDFSNIRQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTIIWIINIFSSLSIIILVLMQNGKGADAGASFGSGSGSAQGVFGSAGNANFLTRLTGICAAVFFASCLALSYVHSHSGKTGTLDFSDVQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWIINI S+L++I+LVL+Q+GKGADAGA+FGSGSGSAQGVFGSAGNANFL+R T + A  FFA+C+A+ Y+H+H+ K G LDFS+++Q</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>48</Hit_num>
-  <Hit_id>gi|489887755|ref|WP_003791205.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Kingella kingae] &gt;gi|380833472|gb|EIC13342.1| preprotein translocase subunit SecG [Kingella kingae PYKK081]</Hit_def>
-  <Hit_accession>WP_003791205</Hit_accession>
-  <Hit_len>121</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>118.242</Hsp_bit-score>
-      <Hsp_score>295</Hsp_score>
-      <Hsp_evalue>2.8596e-31</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>94</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>95</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>66</Hsp_identity>
-      <Hsp_positive>85</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>95</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHG-LDFSNIRQ</Hsp_qseq>
-      <Hsp_hseq>MEAFKTIIWIINIFSSLSIIILVLMQNGKGADAGASFGSGSGSAQGVFGSAGNANFLTRLTGICAAVFFASCLALSYVHSHSGKTGTLDFSDVQQ</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWIINI S+L++I+LVL+Q+GKGADAGA+FGSGSGSAQGVFGSAGNANFL+R T + A  FFA+C+A+ Y+H+H+ K G LDFS+++Q</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>49</Hit_num>
-  <Hit_id>gi|750379196|ref|WP_040661109.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Neisseria shayeganii]</Hit_def>
-  <Hit_accession>WP_040661109</Hit_accession>
-  <Hit_len>108</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>115.931</Hsp_bit-score>
-      <Hsp_score>289</Hsp_score>
-      <Hsp_evalue>1.53974e-30</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>89</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>87</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>60</Hsp_identity>
-      <Hsp_positive>71</Hsp_positive>
-      <Hsp_gaps>2</Hsp_gaps>
-      <Hsp_align-len>89</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHGLDF</Hsp_qseq>
-      <Hsp_hseq>MEAFKTIIMIIGGFASLAVIGLILMQQGKGADAGAAFGSGS--AQGVFGSAGSANFLSRSTAIAAAVFFACCLALSYISTYGNKSRLNF</Hsp_hseq>
-      <Hsp_midline>MEAFKT+I II   ++LAVI L+L+Q GKGADAGA FGSGS  AQGVFGSAG+ANFLSRSTA+AA  FFA C+A+ YI T+  K  L+F</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>50</Hit_num>
-  <Hit_id>gi|740486710|ref|WP_038317642.1|</Hit_id>
-  <Hit_def>preprotein translocase subunit SecG [Kingella kingae]</Hit_def>
-  <Hit_accession>WP_038317642</Hit_accession>
-  <Hit_len>121</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>115.161</Hsp_bit-score>
-      <Hsp_score>287</Hsp_score>
-      <Hsp_evalue>4.64599e-30</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>92</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>93</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>64</Hsp_identity>
-      <Hsp_positive>82</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>93</Hsp_align-len>
-      <Hsp_qseq>MEAFKTLIWIINIISALAVIVLVLLQHGKGADAGATFGSGSGSAQGVFGSAGNANFLSRSTAVAATFFFATCMAMVYIHTHTTKHG-LDFSNI</Hsp_qseq>
-      <Hsp_hseq>MEAFKTIIWIINIFSSLSIIILVLMQNGKGADAGASFGSSSGSAQGVFGSAGNANFLTRLTGICAAVFFASCLALSYVHSHSGKTGTLDFSDV</Hsp_hseq>
-      <Hsp_midline>MEAFKT+IWIINI S+L++I+LVL+Q+GKGADAGA+FGS SGSAQGVFGSAGNANFL+R T + A  FFA+C+A+ Y+H+H+ K G LDFS++</Hsp_midline>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>VAATFFFATCMAMVYIHTHT-----TKHGLDFSNIRQ---TQQAPKPV</Hsp_qseq>
+      <Hsp_hseq>VHADSFYSYCVALVVASQHTVEGWASKQGIDFANFEELCTKEQAVKEV</Hsp_hseq>
+      <Hsp_midline>V A  F++ C+A+V    HT     +K G+DF+N  +    +QA K V</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>59435263</Statistics_db-num>
-      <Statistics_db-len>21254927129</Statistics_db-len>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.041</Statistics_kappa>

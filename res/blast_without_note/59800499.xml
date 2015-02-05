@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800499|ref|YP_207211.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0030 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>245</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800499|ref|YP_207211.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0030 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>245</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|254800224|sp|C1AZ44.1|HEM1_RHOOB</Hit_id>
+  <Hit_def>RecName: Full=Glutamyl-tRNA reductase; Short=GluTR [Rhodococcus opacus B4]</Hit_def>
+  <Hit_accession>C1AZ44</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.858356</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MKALETAAVHTRKPAPE------TETPPPGLSDGIAPVPAASGITKLAVVSLCPPIEDAVYGQLFHGKAGILLDNILKAAGLDAAYVHKTCWVKTAAVGNPMPSEQAVADALGQIARELDGCRAPAVLFLGQ</Hsp_qseq>
+      <Hsp_hseq>MSVLLVGVSHRTAPVPVLERVAVTDTDRPKLTD---KLLASSHISEAMIVSTCNRVEIYAVVDAFHGALAEVGELLADHSGLDLTDLHRHAYVRYS---------EAAAEHLFAVASGLDSMVIGEQQILGQ</Hsp_hseq>
+      <Hsp_midline>M  L     H   P P       T+T  P L+D    + A+S I++  +VS C  +E       FHG    + + +   +GLD   +H+  +V+ +         +A A+ L  +A  LD         LGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|123145121|sp|Q0SF26.1|HEM1_RHOSR</Hit_id>
+  <Hit_def>RecName: Full=Glutamyl-tRNA reductase; Short=GluTR [Rhodococcus jostii RHA1]</Hit_def>
+  <Hit_accession>Q0SF26</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.897876</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MKALETAAVHTRKPAPE------TETPPPGLSDGIAPVPAASGITKLAVVSLCPPIEDAVYGQLFHGKAGILLDNILKAAGLDAAYVHKTCWVKTAAVGNPMPSEQAVADALGQIARELDGCRAPAVLFLGQ</Hsp_qseq>
+      <Hsp_hseq>MSVLLVGVSHRTAPVPVLERVAVTDTDRPKLTD---KLLASSHISEAMIVSTCNRVEIYAVVDAFHGALAEVGELLADHSGLDLTDLHRHAYVRYS---------EAAAEHLFAVASGLDSMVIGEQQILGQ</Hsp_hseq>
+      <Hsp_midline>M  L     H   P P       T+T  P L+D    + A+S I++  +VS C  +E       FHG    + + +   +GLD   +H+  +V+ +         +A A+ L  +A  LD         LGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|667467007|sp|A2QUQ2.1|CHIA1_ASPNC</Hit_id>
+  <Hit_def>RecName: Full=Endochitinase A; AltName: Full=Chitinase A; Flags: Precursor [Aspergillus niger CBS 513.88]</Hit_def>
+  <Hit_accession>A2QUQ2</Hit_accession>
+  <Hit_len>1257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.58104</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1141</Hsp_hit-from>
+      <Hsp_hit-to>1239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>EALGLGPMWLKQAAAVLPPKNTPATPAQARPQTVRAATIRPSQPHNVQTRL---ETMKALETAAVHTRKPAPETETPPPGLSDGIAPV--PAASGITKL</Hsp_qseq>
+      <Hsp_hseq>DALTASPSGSQPAGESSPGQSAPTAPASTAPTTTETVIVVPSQSSTSQPVILGTGSVRASSTFHIQPSQSGSRVPVAPSGTAAGVSPVFTGAASRVSRL</Hsp_hseq>
+      <Hsp_midline>+AL   P   + A    P ++ P  PA   P T     + PSQ    Q  +    +++A  T  +   +        P G + G++PV   AAS +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|47117002|sp|Q24459.2|PCL_DROME</Hit_id>
+  <Hit_def>RecName: Full=Polycomb protein Pcl; AltName: Full=Polycomblike protein [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q24459</Hit_accession>
+  <Hit_len>1043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.23062</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ARYLHLHEALGLGPMWLKQAAAVLPPKNTPATPAQARPQTVRAATIRPSQPHNVQ</Hsp_qseq>
+      <Hsp_hseq>ATYGYLAQPAGQQPQWMTTTYQILPPSVGPATVAKRYYATTGPQTTHPTHPSTIQ</Hsp_hseq>
+      <Hsp_midline>A Y +L +  G  P W+     +LPP   PAT A+    T    T  P+ P  +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123873215|sp|Q18LF5.1|ORFA_ELHVK</Hit_id>
+  <Hit_def>RecName: Full=Protein ORF A [Elephantid herpesvirus 1 (isolate Kiba)]</Hit_def>
+  <Hit_accession>Q18LF5</Hit_accession>
+  <Hit_len>599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.53956</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>443</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>GLGPMWLKQAAAVLPPKNTPATPAQARPQTVRAATIRPSQPHNVQTR</Hsp_qseq>
+      <Hsp_hseq>GYGPM-MDQATALLPPI--------LQPHQTKVATVRPHIHHDVETE</Hsp_hseq>
+      <Hsp_midline>G GPM + QA A+LPP          +P   + AT+RP   H+V+T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|158937337|sp|Q5VZ89.2|DEN4C_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=DENN domain-containing protein 4C [Homo sapiens]</Hit_def>
+  <Hit_accession>Q5VZ89</Hit_accession>
+  <Hit_len>1673</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.75826</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>710</Hsp_hit-from>
+      <Hsp_hit-to>786</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>QTRLETMKALETAAV---HTR-KPAPETETPPPGLSDGIAPVP----------AASGITKLAVVSLCPPIEDAVYGQ</Hsp_qseq>
+      <Hsp_hseq>KTKMQTEEVCDASAIVAKHSQPSPEPHSPTEPPAWGSSIVKVPSGIFDVNSRKSSTGSISNVLFSTQDPVEDAVFGE</Hsp_hseq>
+      <Hsp_midline>+T+++T +  + +A+   H++  P P + T PP     I  VP          +++G     + S   P+EDAV+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|426019570|sp|A6H8H2.1|DEN4C_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=DENN domain-containing protein 4C [Mus musculus]</Hit_def>
+  <Hit_accession>A6H8H2</Hit_accession>
+  <Hit_len>1906</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.47402</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>938</Hsp_hit-from>
+      <Hsp_hit-to>1020</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>SQPHNVQTRLETMKALETAAVHTR----KPAPETETPPPGLSDGIAPVPA---------ASGITKLAVVSLCPPIEDAVYGQL</Hsp_qseq>
+      <Hsp_hseq>TPPELTTTELHIEEECDISAIVSKHLQPTPEPQSPTEPPAWGSSIVKVPSGLFDTNNRTSTGSTSTVLFSTQAPVEDAVFSEV</Hsp_hseq>
+      <Hsp_midline>+ P    T L   +  + +A+ ++     P P++ T PP     I  VP+         ++G T   + S   P+EDAV+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75153256|sp|Q8H8U5.1|IN21B_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Protein IN2-1 homolog B; AltName: Full=Glutathione S-transferase GSTZ5 [Oryza sativa Japonica Group] &gt;gi|223635219|sp|A1XBB7.1|IN21B_ORYSI RecName: Full=Protein IN2-1 homolog B; AltName: Full=Glutathione S-transferase GSTZ5 [Oryza sativa Indica Group]</Hit_def>
+  <Hit_accession>Q8H8U5</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.94163</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>APETETPPPGLSDGIAPVPAASGITKLAVVSLCPPIEDAVYGQLFHGKAGILLDNILKAAGLDAAYVHKTCWVKTAAV-GNPMPSEQAVADALGQIARELDGCRAPAVLFLGQAFV--NLERQAMIETL</Hsp_qseq>
+      <Hsp_hseq>SSEKEVLPPSLTSSSEPPPLFDGTTRLYVAYHCPYAQRAWIARNYKG-----LQDKIKIVAIDLA--DRPAWYKEKVYPENKVPSLEHNNQVKGE---SLDLVKYIDTNFEGPALLPDDSEKQQFAEEL</Hsp_hseq>
+      <Hsp_midline>+ E E  PP L+    P P   G T+L V   CP  + A   + + G     L + +K   +D A   +  W K      N +PS +      G+    LD  +     F G A +  + E+Q   E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81779051|sp|Q98EI6.1|TSAD_RHILO</Hit_id>
+  <Hit_def>RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase; AltName: Full=N6-L-threonylcarbamoyladenine synthase; Short=t(6)A synthase; AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD; AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD [Mesorhizobium loti MAFF303099]</Hit_def>
+  <Hit_accession>Q98EI6</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.12563</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>VHKTCWVKTAAVGNPMPSEQAVADALGQIARELDGCRAPAVLFLGQAFVNLERQAMIETLCGSRPFFIIDHPARLLRQPELKARNWQVLKQLKRALRQGGG</Hsp_qseq>
+      <Hsp_hseq>VADICASFQAAVADALADR--VSRALARFSQTFPGTKNPALVVAGGVAANHTIKATLERLCAEAGFIFVAPPLKLCTD-NAAMIAWAGIERLREGMAQENG</Hsp_hseq>
+      <Hsp_midline>V   C    AAV + +     V+ AL + ++   G + PA++  G    N   +A +E LC    F  +  P +L          W  +++L+  + Q  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|166220322|sp|A6WXJ1.1|TSAD_OCHA4</Hit_id>
+  <Hit_def>RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase; AltName: Full=N6-L-threonylcarbamoyladenine synthase; Short=t(6)A synthase; AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD; AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD [Ochrobactrum anthropi ATCC 49188]</Hit_def>
+  <Hit_accession>A6WXJ1</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.42179</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>VHKTCWVKTAAVGNPMPSEQAVADALGQIARELDGCRAPAVLFLGQAFVNLERQAMIETLCGSRPFFIIDHPARL</Hsp_qseq>
+      <Hsp_hseq>VADICASFQAAVADTLSDR--VGRSLERFRNEFPDCETPALVVAGGVAANKTLRAALETLCARHGFSFIAPPLDL</Hsp_hseq>
+      <Hsp_midline>V   C    AAV + +     V  +L +   E   C  PA++  G    N   +A +ETLC    F  I  P  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

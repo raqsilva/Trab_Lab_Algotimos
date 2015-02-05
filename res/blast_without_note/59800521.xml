@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800521|ref|YP_207233.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>ATPase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>359</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800521|ref|YP_207233.1|</Iteration_query-ID>
+  <Iteration_query-def>ATPase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>359</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|12230999|sp|P45135.2|MRP_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45135</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>5.06329e-100</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>VRSVGQRSDGIHIALHFGFPVAHIAAALADAVQETLMPETGGAHIHLGIDTEIGTHKVRPGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQ-KNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQIALGIADK</Hsp_qseq>
+      <Hsp_hseq>LKKVEKGGDTLRIELQLPFAWNSGAEQLKQAVSDALLKATDCKLIKWAVAYQIATLKRANNQPAVKGVKNIIAVSSGKGGVGKSSVSVNLALALQAQGARVGILDADIYGPSIPHMLGAADQRPTSPDNQHITPIKAH-GLSANSIGFLMNEDSATIWRGPMASSALSQLLNETLWDSLDYLVIDMPPGTGDIQLTLSQQIPVTGAVVVTTPQDIALLDAVKGISMFERVSVPVLGIVENMSMHICSECGHHEAIFGTGGAEKMAEKYNVKVLAQLPLHIRIREDLDAG--------NPTVVRVPENEISQAFLQLAEK</Hsp_hseq>
+      <Hsp_midline>++ V +  D + I L   F     A  L  AV + L+  T    I   +  +I T K       +KGVKNIIAV+SGKGGVGKS+ + NLA A+   GARVG+LDAD+YGPS P MLG  D++P    NQ + P+++  G+   SIGFL++   A +WRGPM S AL QL+ ++ WD +DYL ID+PPGTGDIQLTLSQ+IPVTG+V+VTTPQDIAL+DA K + MF +V++P+LG++ENMS+HICS CGH EA+FGT G + +A + NV +L QLPL + +RE +D G        +P + R+  +   Q  L +A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2497977|sp|P72190.1|YCAB_PSEFR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ATP-binding protein in capB 3&apos;region [Pseudomonas fragi]</Hit_def>
+  <Hit_accession>P72190</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>1.22603e-99</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IDTEIGTHKVRPGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHD-RKPDQKNQK-LIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQIALGI</Hsp_qseq>
+      <Hsp_hseq>INCVIAPHKAQAQIPGLANVKNIVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGVMFGIAEGTRPKIRDQKWFVPIEAH-GVEVMSMAFLTDDNTPMVWRGPMVSGALLQLVTQTAWNDLDYLVIDMPPGTGDIQLTLAQKVPVAGSVIVTTPQDLALLDARKGVEMFRKVNIPVLGVVENMAVHICSNCGHAEHLFGEGGGEKLATQYGVEVLASLPLAMEIREQADNGKPTAIADPNSPIALIYQELAVTSGRGL</Hsp_hseq>
+      <Hsp_midline>I+  I  HK +  +  +  VKNI+AVASGKGGVGKSTT ANLA A+AR GARVG+LDAD+YGPSQ  M G+ +  +P  ++QK  +P+E+  G++VMS+ FL D    +VWRGPMVS AL QL+ Q+ W+++DYL ID+PPGTGDIQLTL+Q++PV GSVIVTTPQD+AL+DARK V+MFRKVNIP+LGV+ENM+VHICSNCGH+E LFG  GG+ LA +  V +L  LPL++ +RE  D G P  + D +  IA IY + A     G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|84028165|sp|P0AF09.1|MRP_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp [Escherichia coli CFT073] &gt;gi|84028166|sp|P0AF08.1|MRP_ECOLI RecName: Full=Protein mrp [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AF09</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.10737e-95</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>PNTARTLGGEKAVRSVGQRSDGIHIALHFGFPVAHIAAALADAVQETLMPETGGAHIHLGIDTEIGTHKVRPGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQIALGIADKGK</Hsp_qseq>
+      <Hsp_hseq>PTLKHNLTTLKALHHVAWMDDTLHVELVMPFVWHSAFEELKEQCSAELLRITGAKAIDWKLSHNIATLKRVKNQPGINGVKNIIAVSSGKGGVGKSSTAVNLALALAAEGAKVGILDADIYGPSIPTMLGAENQRPTSPDGTHMAPIMSHGLATNSIGYLVTDDNAMVWRGPMASKALMQMLQETLWPDLDYLVLDMPPGTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGIVMFEKVEVPVLGIVENMSVHICSNCGHHEPIFGTGGAEKLAEKYHTQLLGQMPLHISLREDLDKGTPTVISRPESEFTAIYRQLADRVAAQLYWQGE</Hsp_hseq>
+      <Hsp_midline>P     L   KA+  V    D +H+ L   F        L +     L+  TG   I   +   I T K       I GVKNIIAV+SGKGGVGKS+T  NLA A+A  GA+VG+LDAD+YGPS PTMLG  +++P   +   +    S G+   SIG+LV    A+VWRGPM S+AL Q++ ++ W ++DYL +D+PPGTGDIQLTL+Q IPVTG+V+VTTPQDIALIDA+K + MF KV +P+LG++ENMSVHICSNCGH E +FGT G + LA + +  LLGQ+PL + +RE +D GTP  +         IY   A ++A  +  +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|74851525|sp|Q54F15.1|NUBPL_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Iron-sulfur protein NUBPL; AltName: Full=Nucleotide-binding protein-like; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54F15</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>2.94793e-75</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>GTHKVRPGVT--TIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGV--HDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQI--ALGIADKGKDFSSRFPKIVV</Hsp_qseq>
+      <Hsp_hseq>GSGHRQPQVTKVAIEGIKNIIAVSSAKGGVGKSTCAVNIALGLSSHNLSVGLLDVDVFGPSIPLMMDLKNHEKPFTNELNQMIPLQNY-GIKCMSMGFLVNEDDPIIWRGPMVGSALEKLLRQTDWGHLDVLVCDLPPGTGDAILTMCQRVPLTGAVIVSTPQDVALADVVRGVNMFKKVEVPILGLVENMSYFNCPHCNESTHIFGNEGAKNTAKKMGINFLGDVPIHLQIRETSDSGKPITVTQPDSPQAKNYKDISKEIIKQLEIINNDENKDNKEPNIII</Hsp_hseq>
+      <Hsp_midline>G+   +P VT   I+G+KNIIAV+S KGGVGKST   N+A  ++     VG+LD D++GPS P M+ +  H++    +  ++IP+++  GI+ MS+GFLV+    ++WRGPMV  AL++L+ Q++W  +D L  DLPPGTGD  LT+ QR+P+TG+VIV+TPQD+AL D  + V+MF+KV +PILG++ENMS   C +C  S  +FG +G K+ A ++ +  LG +P+ L +RE  D G P  +       A+ Y D + +I   L I +  ++  ++ P I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|116242683|sp|Q8TB37.3|NUBPL_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Iron-sulfur protein NUBPL; AltName: Full=IND1 homolog; AltName: Full=Nucleotide-binding protein-like; AltName: Full=huInd1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8TB37</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>1.15025e-72</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>PGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGAR--VGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQI</Hsp_qseq>
+      <Hsp_hseq>PKQKPIEGVKQVIVVASGKGGVGKSTTAVNLALALAANDSSKAIGLLDVDVYGPSVPKMMNLKG-NPELSQSNLMRPLLNYGIACMSMGFLVEESEPVVWRGLMVMSAIEKLLRQVDWGQLDYLVVDMPPGTGDVQLSVSQNIPITGAVIVSTPQDIALMDAHKGAEMFRRVHVPVLGLVQNMSVFQCPKCKHKTHIFGADGARKLAQTLGLEVLGDIPLHLNIREASDTGQPIVFSQPESDEAKAYLRIAVEV</Hsp_hseq>
+      <Hsp_midline>P    I+GVK +I VASGKGGVGKSTT  NLA A+A   +   +G+LD D+YGPS P M+ +    P+     L+    + GI  MS+GFLV+  + VVWRG MV  A+++L+ Q +W ++DYL +D+PPGTGD+QL++SQ IP+TG+VIV+TPQDIAL+DA K  +MFR+V++P+LG+++NMSV  C  C H   +FG DG + LA  L + +LG +PL L +REA D G P          A+ Y   A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1709101|sp|P53383.1|MRP_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P53383</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>9.81373e-72</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>IRTLLDTVAVPNTARTLGGEKAVRSVGQRSDGIHIALHFGFPVAHIAAALADAVQETLMPETGGAHIHLGIDTEIGTHKVRPGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKN----QKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEA-LFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQIA</Hsp_qseq>
+      <Hsp_hseq>VLTVLRPVQDPELQKSLVELNMIRDVAIAGGTVSFTLVLTTPACPLREFIVEDCEKAVKTLPGVEKVEVKVTAETPQQKSLPDRQSVGQVKNIIAISSGKGGVGKSTVAVNVAVALAQTGAAVGLLDADIYGPNAPTMLGLSGAAVQVQNSPQGEVLEPV-FNHGIKMVSMGFLIDPDQPVIWRGPMLNGIIRQFLYQVNWGALDYLIVDMPPGTGDAQLTLTQSVPMAGAVIVTTPQTVSLLDARRGLKMFQQMGVNVLGIVENMSYFIPPDLPDRQYDLFGSGGGEKASKELNVPLLGCVPLEIGLREGGDKGVPIVVSQPESASAKALTAIAKQIA</Hsp_hseq>
+      <Hsp_midline>+ T+L  V  P   ++L     +R V      +   L    P   +   + +  ++ +    G   + + +  E    K  P   ++  VKNIIA++SGKGGVGKST   N+A A+A+ GA VG+LDAD+YGP+ PTMLG+       +N    + L PV  + GI+++S+GFL+D  Q V+WRGPM++  ++Q ++Q  W  +DYL +D+PPGTGD QLTL+Q +P+ G+VIVTTPQ ++L+DAR+ + MF+++ + +LG++ENMS  I  +    +  LFG+ GG+  +  LNVPLLG +PL + +RE  D G P  +     A A+  T  A QIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|341941201|sp|Q9CWD8.2|NUBPL_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Iron-sulfur protein NUBPL; AltName: Full=Nucleotide-binding protein-like; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9CWD8</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.59935e-71</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>PGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGAR--VGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQI</Hsp_qseq>
+      <Hsp_hseq>PKQKPIEGVREVIVVASGKGGVGKSTTAVNLALALAANDSSKAVGLLDVDVYGPSIPKMMNLRGNPELSPNNLMRPLLNY-GIACMSMGFLVEETAPLVWRGLMVMSAIEKLLRQVDWGQLDYLVVDMPPGTGDVQLSVSQNIPISGAVIVSTPQDIALMDAHKGAEMFRKVNVPVLGLVQNMSVFQCPKCKHKTHIFGADGARKLAQTLDLDVLGDVPLHLSIREASDMGQPVVFSQPGSDEAKAYLHIASEV</Hsp_hseq>
+      <Hsp_midline>P    I+GV+ +I VASGKGGVGKSTT  NLA A+A   +   VG+LD D+YGPS P M+ +        N  + P+ +  GI  MS+GFLV+    +VWRG MV  A+++L+ Q +W ++DYL +D+PPGTGD+QL++SQ IP++G+VIV+TPQDIAL+DA K  +MFRKVN+P+LG+++NMSV  C  C H   +FG DG + LA  L++ +LG +PL L +REA D G P          A+ Y   A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2497979|sp|Q57731.1|Y283_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ATP-binding protein MJ0283 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57731</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>8.38091e-71</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>KVRPGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIP-VTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFD</Hsp_qseq>
+      <Hsp_hseq>KIRENMSKIK---HKIVILSGKGGVGKSTVTVNLAAALNLMGKKVGVLDADIHGPNIPKMLGVENTQPMAGPAGIFPIVTKDGIKTMSIGYLLPDDKTPVIWRGPKVSGAIRQFLSDVVWGELDYLLIDTPPGTGDEQLTIMQSIPDIDGAIIVTTPEEVSVLDVKKSIMMAKMLNIPIIGIIENMSGFVCPYCNKVVDIFGRGGGEKAAKELGVEFLGRIPLDIKAREASDKGIPMVLLD</Hsp_hseq>
+      <Hsp_midline>K+R  ++ IK   + I + SGKGGVGKST T NLAAA+  MG +VGVLDAD++GP+ P MLGV + +P      + P+ + DGI+ MSIG+L+ D    V+WRGP VS A++Q +    W E+DYL ID PPGTGD QLT+ Q IP + G++IVTTP++++++D +K++ M + +NIPI+G++ENMS  +C  C     +FG  GG+  A  L V  LG++PL +  REA D G P  L D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|12230996|sp|O24999.2|MRP_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O24999</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.98087e-70</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>QNIRTLLDTVAVPNTARTLGGEKAVRSVGQRSDGIHIALHFGFPVAHIAAALADAVQETLMPETGGAHIHLGIDTEIGTHKVRPGVTTI-KGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVH--DRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAA</Hsp_qseq>
+      <Hsp_hseq>EDVLNALKTIIYPNFEKDIVSFGFVKNITLHDDQLGLLIEIPSSSEETSAILRENISKA-MQEKGVKALNLDIKTPPKPQAPKPTTKNLAKNIKHVVMISSGKGGVGKSTTSVNLSIALANLNQKVGLLDADVYGPNIPRMMGLQSADVIMDPSGKKLIPLKAF-GVSVMSMGLLYDEGQSLIWRGPMLMRAIEQMLSDIIWGDLDVLVVDMPPGTGDAQLTLAQAVPLSAGITVTTPQIVSLDDAKRSLDMFKKLHIPIAGIVENMGSFVCEHCKKESEIFGSNSMSELLEAYHTQILAKLPLEPKVRLGGDRGEPIVISHPNSVSAKIFEKMA</Hsp_hseq>
+      <Hsp_midline>+++   L T+  PN  + +     V+++    D + + +         +A L + + +  M E G   ++L I T       +P    + K +K+++ ++SGKGGVGKSTT+ NL+ A+A +  +VG+LDAD+YGP+ P M+G+   D   D   +KLIP+++  G+ VMS+G L D GQ+++WRGPM+ +A++Q++    W ++D L +D+PPGTGD QLTL+Q +P++  + VTTPQ ++L DA++++DMF+K++IPI G++ENM   +C +C     +FG++   +L    +  +L +LPL   VR   D G P  +   +   A+I+   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|12230334|sp|Q9ZMM5.1|MRP_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZMM5</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>9.08867e-70</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>QNIRTLLDTVAVPNTARTLGGEKAVRSVGQRSDGIHIALHFGFPVAHIAAALADAVQETLMPETGGAHIHLGIDTEIGTHKVRPGVTTI-KGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVH--DRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAA</Hsp_qseq>
+      <Hsp_hseq>EDVLNALKTIIYPNFEKDIVSFGFVKNITLHDNQLGLLIEIPSSSEETSAILRENISKA-MQEKGVKALNLDIKTPPKPQAPKPTTKNLAKNIKHVVMISSGKGGVGKSTTSVNLSIALANLNQKVGLLDADVYGPNIPRMMGLQNADVIMDPSGKKLIPLKAF-GVSVMSMGLLYDEGQSLIWRGPMLMRAIEQMLSDIIWGDLDVLVVDMPPGTGDAQLTLAQAVPLSAGITVTTPQIVSLDDAKRSLDMFKKLHIPIAGIVENMGSFVCEHCKKESEIFGSNSMSGLLEAYNTQILAKLPLEPKVRLGGDKGEPIVISHPTSVSAKIFEKMA</Hsp_hseq>
+      <Hsp_midline>+++   L T+  PN  + +     V+++    + + + +         +A L + + +  M E G   ++L I T       +P    + K +K+++ ++SGKGGVGKSTT+ NL+ A+A +  +VG+LDAD+YGP+ P M+G+   D   D   +KLIP+++  G+ VMS+G L D GQ+++WRGPM+ +A++Q++    W ++D L +D+PPGTGD QLTL+Q +P++  + VTTPQ ++L DA++++DMF+K++IPI G++ENM   +C +C     +FG++    L    N  +L +LPL   VR   D G P  +       A+I+   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74635300|sp|Q6CE48.1|IND1_YARLI</Hit_id>
+  <Hit_def>RecName: Full=Iron-sulfur protein IND1; AltName: Full=Iron-sulfur protein required for NADH dehydrogenase 1; Flags: Precursor [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6CE48</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>4.61326e-67</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTP</Hsp_qseq>
+      <Hsp_hseq>IAGVKKTIVVSSAKGGVGKSTVSVNTALSLAKRGLRVGLLDVDIFGPSIPTMFGLSGEPRMTHEGKLIPM-SKFGIQVMSMGFLVDPNKAVAWRGLLVQKALEQLLQDVDWGTLDVLVMDLPPGTGDVQLTIAQTVKIDGAIIVSTPQDVALVDVVRGLDLFEKTYTKVLGLVQNMSVFVCPNCNHETHIFGVDGAVSKAKSRGLGVLGNVPLDPQICSQSDKGVP</Hsp_hseq>
+      <Hsp_midline>I GVK  I V+S KGGVGKST + N A ++A+ G RVG+LD D++GPS PTM G+          KLIP+ S  GIQVMS+GFLVD  +AV WRG +V +AL+QL+   +W  +D L +DLPPGTGD+QLT++Q + + G++IV+TPQD+AL+D  + +D+F K    +LG+++NMSV +C NC H   +FG DG    A    + +LG +PL   +    D G P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|6226409|sp|O58667.1|Y949_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ATP-binding protein PH0949 [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O58667</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>3.44805e-66</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>IAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGV-----HDRKPDQKNQKLIPVESS-----DGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQI</Hsp_qseq>
+      <Hsp_hseq>IAVLSGKGGVGKSTVAVNLTAALAKMGYFVGILDADIHGPNVAKMLGVDKEEVYAEKFDDGHFEMIPPTTDFMGQVTPIKVMSMGMMVPEDQPVIWRGPLVTKAIKQLLGDVKWGSLDFMIIDFPPGTGDEILTVVQSIKLDAAIIVTTPQEVALLDTGKAVNMMKKMEVPYVAVVENMSYLICPHCGNKIDIFGEGGGEKLAQKEGVDFLGKIPIDLKAREASDLGIPIVLYEDTPA-AKAFMELAEKL</Hsp_hseq>
+      <Hsp_midline>IAV SGKGGVGKST   NL AA+A+MG  VG+LDAD++GP+   MLGV     +  K D  + ++IP  +        I+VMS+G +V   Q V+WRGP+V++A++QL+   +W  +D++ ID PPGTGD  LT+ Q I +  ++IVTTPQ++AL+D  KAV+M +K+ +P + V+ENMS  IC +CG+   +FG  GG+ LA +  V  LG++P+ L  REA D G P  L+++ PA A+ + + A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|12230333|sp|Q9RVM9.1|MRP_DEIRA</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Deinococcus radiodurans R1]</Hit_def>
+  <Hit_accession>Q9RVM9</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>8.82834e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>MNIQNIRTLLDTVAVPNTARTLGGEKAVRSVGQRSDGIHIALHFGFPVAHIAAALADAVQETLM--PETGGAHIHLGIDTEIGTHKVRPGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGV-HDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>MNDALLRAL-STVNDPELHRDLVSLGMIERAELSGDVAQVKVNLTTPACPLKGQIELDVRSALLQVPGVRDVQIEFGAMVRAATQPALPGV------KHVVLVGSGKGGVGKSSVAVNLAASLARDGARVGLLDADVYGPSVAHMLGQGQARVTANEDRKMRPIEAH-GVRFISMANLSPAGQALVWRGPMLHSAIQQFLKDSAWGELDYLIVDLPPGTGDVQLSLTQTVQVTGAVIVTTPQDVALIDAARAIDMFRKASVPVLGVVENMSYFVAPDTGLTYDIFGRGGSRKLGEQY--PLLGEIPLDVEVRKDADAGAPAIL--AHP</Hsp_hseq>
+      <Hsp_midline>MN   +R L  TV  P   R L     +       D   + ++   P   +   +   V+  L+  P      I  G      T    PGV      K+++ V SGKGGVGKS+   NLAA++AR GARVG+LDAD+YGPS   MLG    R    +++K+ P+E+  G++ +S+  L   GQA+VWRGPM+  A+QQ +  S W E+DYL +DLPPGTGD+QL+L+Q + VTG+VIVTTPQD+ALIDA +A+DMFRK ++P+LGV+ENMS  +  + G +  +FG  G + L  +   PLLG++PL + VR+  D G PA L   HP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|21264170|sp|Q9V0D9.1|Y851_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ATP-binding protein PYRAB08510 [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9V0D9</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>5.29877e-64</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>IAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGV-----HDRKPDQKNQKLIP-----VESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQIALGIADKGKDFS</Hsp_qseq>
+      <Hsp_hseq>VAVLSGKGGVGKSTVAVNLTAALAKMGYFVGILDADIHGPNVAKMLGVEKEEIYAEKFDDGHFEMIPPMADFMGQVTPIKVMSMGMMVPEDQPIIWRGALVTKAIKQLLGDVKWGSLDFMIIDFPPGTGDEILTVVQSIQLDAAIIVTTPQEVALLDTGKAVNMMKKMEVPYIAVVENMSYLICPHCGNKIDIFGEGGGEKLAEKEGVDFLGKIPIDLKAREASDLGIPIVLYGDTPA-----AKAFMEIAEKLVNKLKEMK</Hsp_hseq>
+      <Hsp_midline>+AV SGKGGVGKST   NL AA+A+MG  VG+LDAD++GP+   MLGV     +  K D  + ++IP     +     I+VMS+G +V   Q ++WRG +V++A++QL+   +W  +D++ ID PPGTGD  LT+ Q I +  ++IVTTPQ++AL+D  KAV+M +K+ +P + V+ENMS  IC +CG+   +FG  GG+ LA +  V  LG++P+ L  REA D G P  L+ + PA       A  +IA  + +K K+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|6225722|sp|O66946.1|MRP_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O66946</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.66603e-63</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVH-DRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQA-VVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAA</Hsp_qseq>
+      <Hsp_hseq>VPGVKHIIAVGSGKGGVGKSTVAANLAVALSQLGYKVGLLDADVYGPSVPTLFGLKGERVTVDQFQRIIPVEKY-GLKILSIGFMLPSEDTPIIWRGPMLMKALTEFLFSTKWGNLDFLVMDLPPGTGDVQITLAQNVELTGAVVVTTPQDVALADVKKAVSMFREVNIPVLGVIENMAYFICPSDKQKYYIFGKGKVAEFANAYGLKILGSIPIDPEVAEKSDKGEPIVISHPDSEVAKAFLSIA</Hsp_hseq>
+      <Hsp_midline>+ GVK+IIAV SGKGGVGKST  ANLA A++++G +VG+LDAD+YGPS PT+ G+  +R    + Q++IPVE   G++++SIGF++ +    ++WRGPM+ +AL + +F ++W  +D+L +DLPPGTGD+Q+TL+Q + +TG+V+VTTPQD+AL D +KAV MFR+VNIP+LGV+ENM+  IC +      +FG     + A    + +LG +P+   V E  D G P  +      +A+ +   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1723296|sp|P50863.1|SALA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog SalA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P50863</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>2.58355e-63</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>NIRTLLDTVAVPNTARTLGGEKAVRSVGQRSDGIHIALHFGFPVAHIAAALADAVQETL---MPETGGAHIHLGIDT--EIGTHKVRPGVTTIKGVKNI------IAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQI</Hsp_qseq>
+      <Hsp_hseq>EVRKLVGEMREPFLQRPLGELDAVKEIKIKPEKRHISVKVA--LAKTGTAEQMQIQQEIVNVLKGAGAETVGLRFEELPEETVAKFRAPSAEKKTLLNMDNPPVFLAVASGKGGVGKSTVSVNLAISLARLGKKVGLIDADIYGFSVPDMMGITVR-PTIEGEKLLPVERF-GVKVMSMGFFVEENAPVVWRGPMLGKMLNNFFHEVEWGEVDYIVLDLPPGTGDVALDVHTMLPSCKEIIVSTPHPTAAFVAARAGSMAIKTDHEVVGVIENMAYYESAKTGEREYVFGKGGGDKLAEELNVPLLGRIPLKQPDWDK-DQFAPS-VYDENHPIGEIYQDIAKKI</Hsp_hseq>
+      <Hsp_midline> +R L+  +  P   R LG   AV+ +  + +  HI++     +A    A    +Q+ +   +   G   + L  +   E    K R      K + N+      +AVASGKGGVGKST + NLA ++AR+G +VG++DAD+YG S P M+G+  R P  + +KL+PVE   G++VMS+GF V+    VVWRGPM+ + L     + EW EVDY+ +DLPPGTGD+ L +   +P    +IV+TP   A   A +A  M  K +  ++GV+ENM+ +  +  G  E +FG  GG  LA  LNVPLLG++PL  P  +  D   P+ ++DE+  I  IY D A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|38258817|sp|Q8U1R0.1|Y1145_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ATP-binding protein PF1145 [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8U1R0</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>4.86016e-63</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>IAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGV-----HDRKPDQKNQKLIP-----VESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQIALGIADKGKDFS</Hsp_qseq>
+      <Hsp_hseq>IAVLSGKGGVGKSTVAVNLTAALAKMGYFVGILDADIHGPNVAKMFGIGNTDIYAEKFEDGHFEMIPPTVDFMGQVTPIKVMSMGMMVPEDQPIIWRGSLVTKAIKQLLGDVMWGELDFMIIDFPPGTGDEILTVVQSIQLDAAIVVTTPQEVALLDTGKAVNMMKKMEVPYIAVIENMSYLICPHCGNKIDIFGEGGGEKLAEKEGVDFLGKVPIDLKAREASDLGIPIVLYGDTPA-----AKAFMEIAEKLVNKLKEIK</Hsp_hseq>
+      <Hsp_midline>IAV SGKGGVGKST   NL AA+A+MG  VG+LDAD++GP+   M G+     +  K +  + ++IP     +     I+VMS+G +V   Q ++WRG +V++A++QL+    W E+D++ ID PPGTGD  LT+ Q I +  +++VTTPQ++AL+D  KAV+M +K+ +P + V+ENMS  IC +CG+   +FG  GG+ LA +  V  LG++P+ L  REA D G P  L+ + PA       A  +IA  + +K K+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|20141465|sp|P53381.2|MRP_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>P53381</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>4.78399e-62</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>TTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPD-------QKNQKLIPVESSDGIQVMSIGFLVDT-GQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIY</Hsp_qseq>
+      <Hsp_hseq>TNYGNIKNVIGVISGKGGVGKSTVTGILATQLAKKGYKVGVLDADITGPSMPRFFGINEKRADIVAMDSEGKQVKFVPVKTELGIKVISMNLLMEVEDDPVIWRGPMVTGVLNQMFKDTDWEELDYLLIDMPPGTSDITLTVMQTFPIKELVIVSTPQDMVSMIVKKLVTMAHKMNVCVRGVVENMA-YIECECGKKMRVFSKKSSEEHAEYLGLPLIGELPINLDLTEALENGKAEEYVAENPLYSLIF</Hsp_hseq>
+      <Hsp_midline>T    +KN+I V SGKGGVGKST T  LA  +A+ G +VGVLDAD+ GPS P   G+++++ D        K  K +PV++  GI+V+S+  L++     V+WRGPMV+  L Q+   ++W+E+DYL ID+PPGT DI LT+ Q  P+   VIV+TPQD+  +  +K V M  K+N+ + GV+ENM+ +I   CG    +F     ++ A  L +PL+G+LP++L + EA++ G       E+P  + I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|75536039|sp|Q4UKB5.1|MRP_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UKB5</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>5.57044e-61</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMD</Hsp_qseq>
+      <Hsp_hseq>VENVKKIILVASGKGGVGKSTISALIAQQLSLENYRVGIVDADIYGPSIPHIFGINEV-PKTKDGRIIPI-TVKSIQVISIGFFVKDHSAIIWRGPMASKTIYQLLSVTKWDNLDYLIIDMPPGTGDIHLSMLENYHLDGVIIVTTPQKISEIDVIRSIDLYQKLNLPILGIIENMS-----------YMFESNSGGHLSQKYNIPLIAQIPIMPQIADACD</Hsp_hseq>
+      <Hsp_midline>++ VK II VASGKGGVGKST +A +A  ++    RVG++DAD+YGPS P + G+++  P  K+ ++IP+ +   IQV+SIGF V    A++WRGPM S+ + QL+  ++WD +DYL ID+PPGTGDI L++ +   + G +IVTTPQ I+ ID  +++D+++K+N+PILG++ENMS            +F ++ G  L+ + N+PL+ Q+P+   + +A D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|38257881|sp|Q92JA4.1|MRP_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92JA4</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.02606e-60</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>KVRPGVTTIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMD</Hsp_qseq>
+      <Hsp_hseq>KVQKPKHFVENVKKIILVASGKGGVGKSTISALIAQQLSLANYRVGIVDADIYGPSIPHIFGINEV-PQTKDGRIIPV-LAQSIEIISIGFFVKDHSAIIWRGPMASKTIYQLLSVTKWDNLDYLIIDMPPGTGDIHLSILENYHLDGVIIVTTPQKISEIDVIRSIDLYQKLNLPILGIIENMSYMLKNNS-----------GGHLSQKYNIPLIAQMPITPQIAEACD</Hsp_hseq>
+      <Hsp_midline>KV+     ++ VK II VASGKGGVGKST +A +A  ++    RVG++DAD+YGPS P + G+++  P  K+ ++IPV  +  I+++SIGF V    A++WRGPM S+ + QL+  ++WD +DYL ID+PPGTGDI L++ +   + G +IVTTPQ I+ ID  +++D+++K+N+PILG++ENMS  + +N            G  L+ + N+PL+ Q+P++  + EA D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|122425290|sp|Q1RHB0.1|MRP_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RHB0</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>7.41707e-60</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTP</Hsp_qseq>
+      <Hsp_hseq>VENVKKIILVASGKGGVGKSTISALIAQQLSLENHRVGIVDADIYGPSIPHIFGINEV-PQTVGGRIIPVRAKN-IEVISIGFFVKNYSAIIWRGPMASKTIYQLLSVTKWDNLDYLIIDMPPGTGDIHLSMLENYHLNGVVIVTTPQKMSEIDVVRSIDLYQKLNLPIIGIIENMS-----------DLFDGNSGSHLSQKYNIPLIAQIPVIPKIANACDKSLP</Hsp_hseq>
+      <Hsp_midline>++ VK II VASGKGGVGKST +A +A  ++    RVG++DAD+YGPS P + G+++  P     ++IPV + + I+V+SIGF V    A++WRGPM S+ + QL+  ++WD +DYL ID+PPGTGDI L++ +   + G VIVTTPQ ++ ID  +++D+++K+N+PI+G++ENMS            LF  + G  L+ + N+PL+ Q+P+   +  A D   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|257096642|sp|Q7QGS3.4|NUBP2_ANOGA</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Anopheles gambiae]</Hit_def>
+  <Hit_accession>Q7QGS3</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.49953e-57</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESS--DGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVT---GSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPL</Hsp_qseq>
+      <Hsp_hseq>VKHIILVLSGKGGVGKSTVSTQLALTLAEADHKVGLLDIDLCGPSVPYLLGLEDRDVHQCDEGWVPVYTSAEKRLAVMSIGFLLKNRSDAVIWRGPKKTAMIKQFLEDVNWDELDYLIIDTPPGTSDEHITVMECLKTVRTEGAIIVTTPQEMALEDVRKEVTFCKKTGIPILGIVENMSGFVCPNCSECTNIFSSGGGHSLAELAKVPHLGTLPI</Hsp_hseq>
+      <Hsp_midline>VK+II V SGKGGVGKST +  LA  +A    +VG+LD DL GPS P +LG+ DR   Q ++  +PV +S    + VMSIGFL+ +   AV+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ + +      G++IVTTPQ++AL D RK V   +K  IPILG++ENMS  +C NC     +F + GG  LA    VP LG LP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|75128408|sp|Q6STH5.1|HF101_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Fe-S cluster assembly factor HCF101, chloroplastic; AltName: Full=Protein HIGH CHLOROPHYLL FLUORESCENCE 101; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q6STH5</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>2.27109e-57</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDR----KPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTD</Hsp_qseq>
+      <Hsp_hseq>ISNIIAVSSCKGGVGKSTVAVNLAYTLAGMGARVGIFDADVYGPSLPTMVNPESRILEMNPEKKT--IIPTEYM-GVKLVSFGF-AGQGRAIM-RGPMVSGVINQLLTTTEWGELDYLVIDMPPGTGDIQLTLCQVAPLTAAVIVTTPQKLAFIDVAKGVRMFSKLKVPCVAVVENM-CHFDAD-GKRYYPFGKGSGSEVVKQFGIPHLFDLPIRPTLSASGDSGTPEVVSDPLSDVARTFQD</Hsp_hseq>
+      <Hsp_midline>+ NIIAV+S KGGVGKST   NLA  +A MGARVG+ DAD+YGPS PTM+    R     P++K   +IP E   G++++S GF    G+A++ RGPMVS  + QL+  +EW E+DYL ID+PPGTGDIQLTL Q  P+T +VIVTTPQ +A ID  K V MF K+ +P + V+ENM  H  ++ G     FG   G ++  +  +P L  LP+   +  + D GTP  + D    +AR + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|257096739|sp|Q29DB7.2|NUBP2_DROPS</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila pseudoobscura pseudoobscura]</Hit_def>
+  <Hit_accession>Q29DB7</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>4.35389e-57</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIIVLSGKGGVGKSTVSTQLALALRHSGHKVGLLDIDLCGPSVPFLLGLEGSNIYQCDEGWVPIYTDASKTLAVMSIGFLLKNRTDPVIWRGPKKTMMIRQFLTDVKWEELDYLIIDTPPGTSDEHITVMECMREVPCNGAIIVTTPQSVALDDVRKEITFCKKTGIKLLGIVENMSGFVCPNCTNCTNIFSSNGGVELAHLVQIPHLGTLPID--PRVGVLAGSTASVLDELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  LA A+   G +VG+LD DL GPS P +LG+      Q ++  +P+  ++S  + VMSIGFL+ +    V+WRGP  +  ++Q +   +W+E+DYL ID PPGT D  +T+ +    +P  G++IVTTPQ +AL D RK +   +K  I +LG++ENMS  +C NC +   +F ++GG +LA  + +P LG LP+    R  +  G+ A + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|257096566|sp|B3M9R3.1|NUBP2_DROAN</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila ananassae]</Hit_def>
+  <Hit_accession>B3M9R3</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>5.38524e-57</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLALALRQTGHKVGLLDIDLCGPSVPYLLGLEGSDIFQCDEGWVPIYTDESQTLAVMSIGFLLKNRTDPVIWRGPKKTMMIRQFLTDVKWDELDYLIIDTPPGTSDEHITVMECLREVPCNGAIIVTTPQGVALDDVRKEITFCKKTGIKLLGIVENMSGFVCPHCTSCTNIFSSNGGVELAKYAQIPHLGTLPID--PRVGVLAGTTASVLDELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  LA A+ + G +VG+LD DL GPS P +LG+      Q ++  +P+  + S  + VMSIGFL+ +    V+WRGP  +  ++Q +   +WDE+DYL ID PPGT D  +T+ +    +P  G++IVTTPQ +AL D RK +   +K  I +LG++ENMS  +C +C     +F ++GG +LA    +P LG LP+    R  +  GT A + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|74633536|sp|Q6C5D0.1|CFD1_YARLI</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor CFD1; AltName: Full=Cytosolic Fe-S cluster-deficient protein 1 [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6C5D0</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>6.63016e-57</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>TIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLVDT-GQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRI----PVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPL</Hsp_qseq>
+      <Hsp_hseq>SLAGVKNIVLVLSGKGGVGKSSVTTQLALTLAAQGKKVGVLDIDLTGPSIPRFFGMEDKQVYQSSAGWVPVYTDASRNLCLMSLGFLLSSRGDSVVWRGPRKTAMIRQFIRDVVWGELDYLLIDTPPGTSDEHISIAEELRFCDQILGAVIVTTPQGVALADVRKELSFCKKIGFPILGIIENMSGYVCPHCSECQNIFSKGGGENLAKQYECKFLGTVPI</Hsp_hseq>
+      <Hsp_midline>++ GVKNI+ V SGKGGVGKS+ T  LA  +A  G +VGVLD DL GPS P   G+ D++  Q +   +PV  ++S  + +MS+GFL+ + G +VVWRGP  +  ++Q +    W E+DYL ID PPGT D  +++++ +     + G+VIVTTPQ +AL D RK +   +K+  PILG++ENMS ++C +C   + +F   GG++LA +     LG +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|257096564|sp|B4PES4.1|NBP22_DROYA</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog 2 [Drosophila yakuba]</Hit_def>
+  <Hit_accession>B4PES4</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.16088e-56</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLVDTGQ-AVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>LEKVKNIIVVLSGKGGVGKSTVSTQLSLALRKNGFKVGLLDIDLCGPSVPYLLGLEGRDIFQCDEGWVPVYTDESQTLAVMSIGFLLKNREDPVIWRGPKKTMMIRQFLTDVRWDELDYLIIDTPPGTSDEHITVMECLKEVGCHGAIIVTTPQEVALDDVRKEITFCKKTSINILGIVENMSGFVCPHCTSCTNIFSSNGGTSLANYAQVPHLGTLPID--PRVGVLAGSTTSVLDELP</Hsp_hseq>
+      <Hsp_midline>++ VKNII V SGKGGVGKST +  L+ A+ + G +VG+LD DL GPS P +LG+  R   Q ++  +PV  + S  + VMSIGFL+   +  V+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ +    +   G++IVTTPQ++AL D RK +   +K +I ILG++ENMS  +C +C     +F ++GG  LA    VP LG LP+    R  +  G+   + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|257096567|sp|B3NIP2.1|NUBP2_DROER</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila erecta]</Hit_def>
+  <Hit_accession>B3NIP2</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.40535e-56</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLVDTGQ-AVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>LEKVKNIIVVLSGKGGVGKSTVSTQLSLALRKNGFKVGLLDIDLCGPSVPYLLGLEGRDIFQCDEGWVPVYTDESQTLAVMSIGFLLKNREDPVIWRGPKKTMMIRQFLTDVRWDELDYLIIDTPPGTSDEHITVMECLKEVGCHGAIIVTTPQEVALDDVRKEITFCKKTGINILGIVENMSGFVCPHCTSCTNIFSSNGGASLATYAQVPHLGTLPID--PRVGVLAGSTTSVLDELP</Hsp_hseq>
+      <Hsp_midline>++ VKNII V SGKGGVGKST +  L+ A+ + G +VG+LD DL GPS P +LG+  R   Q ++  +PV  + S  + VMSIGFL+   +  V+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ +    +   G++IVTTPQ++AL D RK +   +K  I ILG++ENMS  +C +C     +F ++GG  LA    VP LG LP+    R  +  G+   + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|257096651|sp|B3RPX4.1|NUBP2_TRIAD</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Trichoplax adhaerens]</Hit_def>
+  <Hit_accession>B3RPX4</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.58407e-56</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRI---PVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAM-DGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>IKSVVLILSGKGGVGKSTVASQIALELANGGNKVGILDVDLCGPSIPRVLGLEDKDVHQCADGWIPVYADKNEKLAVMSIGFLLRNSKDAVVWRGPKKNAMIKQFLSDVVWGDLDYLIIDTPPGTSDEHITVAENVRGLNLTGAVMVTTPQAVALGDVRREITFCKKVGIPIVGIVENMSGYTCPNCSECTNIFSKGGGEALAQLTQVPFLGCLPLDPKLTMSIEDGKSFTELYSESP</Hsp_hseq>
+      <Hsp_midline>+K+++ + SGKGGVGKST  + +A  +A  G +VG+LD DL GPS P +LG+ D+   Q     IPV  + ++ + VMSIGFL+ ++  AVVWRGP  +  ++Q +    W ++DYL ID PPGT D  +T+++ +    +TG+V+VTTPQ +AL D R+ +   +KV IPI+G++ENMS + C NC     +F   GG+ LA    VP LG LPL   +  ++ DG +   L+ E P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|257096568|sp|B4IYG8.1|NUBP2_DROGR</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila grimshawi]</Hit_def>
+  <Hit_accession>B4IYG8</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.74934e-56</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLALALRATGHKVGLLDIDLCGPSVPYLLGLEGRDIFQCDDGWVPIYTDESKTLAVMSIGFLLKNRTDPVIWRGPKKTMMIKQFLSDVKWDELDYLIIDTPPGTSDEHITVMECLREVPCNGAIIVTTPQGVALDDVRKEITFCKKTGIKLLGIVENMSGFVCPHCTECTNIFSSNGGAELANLAQVPHLGTLPID--PRVGVLAGSTASALDELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  LA A+   G +VG+LD DL GPS P +LG+  R   Q +   +P+  + S  + VMSIGFL+ +    V+WRGP  +  ++Q +   +WDE+DYL ID PPGT D  +T+ +    +P  G++IVTTPQ +AL D RK +   +K  I +LG++ENMS  +C +C     +F ++GG +LA    VP LG LP+    R  +  G+ A   DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|257096563|sp|B4IUH5.1|NBP21_DROYA</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog 1 [Drosophila yakuba]</Hit_def>
+  <Hit_accession>B4IUH5</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.26594e-56</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLVDTGQ-AVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>LEKVKNIIVVLSGKGGVGKSTVSTQLSLALRKNGFKVGLLDIDLCGPSVPYLLGLEGRDIFQCDEGWVPVYTDESQTLAVMSIGFLLKNREDPVIWRGPKKTMMIRQFLTDVRWDELDYLIIDTPPGTSDEHITVMECLKEVGCHGAIIVTTPQEVALDDVRKEITFCKKTGINILGIVENMSGFVCPHCTSCTNIFSSNGGASLANYAQVPHLGTLPID--PRVGVLAGSTTSVLDELP</Hsp_hseq>
+      <Hsp_midline>++ VKNII V SGKGGVGKST +  L+ A+ + G +VG+LD DL GPS P +LG+  R   Q ++  +PV  + S  + VMSIGFL+   +  V+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ +    +   G++IVTTPQ++AL D RK +   +K  I ILG++ENMS  +C +C     +F ++GG  LA    VP LG LP+    R  +  G+   + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|257096645|sp|B4IAD1.1|NUBP2_DROSE</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila sechellia]</Hit_def>
+  <Hit_accession>B4IAD1</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.6012e-56</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLVDTGQ-AVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLSLALRKNGFKVGLLDIDLCGPSVPYLLGLEGRDIFQCDEGWVPVYTDESQTLAVMSIGFLLKNREDPVIWRGPKKTMMIRQFLTDVRWDELDYLIIDTPPGTSDEHITVMECLKEVGCHGAIIVTTPQEVALDDVRKEITFCKKTGINILGIVENMSGFVCPHCTSCTNIFSSNGGVSLATYAQVPHLGTLPID--PRVGVLAGTTTSVLDELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  L+ A+ + G +VG+LD DL GPS P +LG+  R   Q ++  +PV  + S  + VMSIGFL+   +  V+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ +    +   G++IVTTPQ++AL D RK +   +K  I ILG++ENMS  +C +C     +F ++GG  LA    VP LG LP+    R  +  GT   + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|74606320|sp|Q6CQV4.1|CFD1_KLULA</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor CFD1; AltName: Full=Cytosolic Fe-S cluster-deficient protein 1 [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q6CQV4</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>4.72607e-56</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>TIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVE----SSDGIQVMSIGFLVDT-GQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVT---GSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQI</Hsp_qseq>
+      <Hsp_hseq>SLKDIKHIILVLSGKGGVGKSSVTTQTALTLCLKGYKVGVLDIDLTGPSLPRMFGLENKQVYQASKGWIPVSVPTTSGGELKLMSLGFLLDDRGNSVVWRGPKKSAMIKQFIKDVDWGDLDYLIIDTPPGTSDEHISIAEELRWAAPDGAIIVTTPQGVATADVRKEINFCKKVNFNILGVIENMSGFICPHCAECTDIFSRGGGFKLASEYNVPYLGNIPIDPTFVELIEKQTG---FKE--SLVDLYKDSGLYV</Hsp_hseq>
+      <Hsp_midline>++K +K+II V SGKGGVGKS+ T   A  +   G +VGVLD DL GPS P M G+ +++  Q ++  IPV     S   +++MS+GFL+D  G +VVWRGP  S  ++Q +   +W ++DYL ID PPGT D  +++++ +      G++IVTTPQ +A  D RK ++  +KVN  ILGV+ENMS  IC +C     +F   GG  LA+  NVP LG +P+     E ++  T    F E  ++  +Y D+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74948322|sp|Q9VPD2.1|NUBP2_DROME</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VPD2</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>6.01542e-56</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLVDTGQ-AVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLSLALRKNGFKVGLLDIDLCGPSVPYLLGLEGRDIFQCDDGWVPVYTDESQTLAVMSIGFLLKNREDPVIWRGPKKTMMIRQFLTDVRWDELDYLIIDTPPGTSDEHITVMECLKEVGCHGAIIVTTPQEVALDDVRKEITFCKKTGINILGIVENMSGFVCPHCTSCTNIFSSNGGVSLATYAQVPHLGTLPID--PRVGILAGTTTSVLDELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  L+ A+ + G +VG+LD DL GPS P +LG+  R   Q +   +PV  + S  + VMSIGFL+   +  V+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ +    +   G++IVTTPQ++AL D RK +   +K  I ILG++ENMS  +C +C     +F ++GG  LA    VP LG LP+    R  +  GT   + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|257096646|sp|B4QJ46.1|NUBP2_DROSI</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila simulans]</Hit_def>
+  <Hit_accession>B4QJ46</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>9.19531e-56</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSD--GIQVMSIGFLVDTGQ-AVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLSLALRKNGFKVGLLDIDLCGPSVPYLLGLEGRDIFQCDEGWVPVYTDEFQTLAVMSIGFLLKNREDPVIWRGPKKTMMIRQFLTDVRWDELDYLIIDTPPGTSDEHITVMECLKEVGCHGAIIVTTPQEVALDDVRKEITFCKKTGINILGIVENMSGFVCPHCTSCTNIFSSNGGVSLATYAQVPHLGTLPID--PRVGVLAGTTTSVLDELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  L+ A+ + G +VG+LD DL GPS P +LG+  R   Q ++  +PV + +   + VMSIGFL+   +  V+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ +    +   G++IVTTPQ++AL D RK +   +K  I ILG++ENMS  +C +C     +F ++GG  LA    VP LG LP+    R  +  GT   + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|257096596|sp|A8WWQ7.1|NUBP1_CAEBR</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP1 homolog [Caenorhabditis briggsae]</Hit_def>
+  <Hit_accession>A8WWQ7</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>9.90752e-56</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGAR-VGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRI----PVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALF--GTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP--AIARIYTDAAFQI</Hsp_qseq>
+      <Hsp_hseq>IKHKILILSGKGGVGKSTLTSNLARALASDPSKQVAILDVDICGPSQPRMMGVEDEEVHNSADGWTPVGIQPNLTLMSIAFLIGDKNDAVIWRGARKNGMIKQFLKDVDWGEVDYLLIDTPPGTSDEHISLVQFLLQAGPLDGALIVSTPQEVSLLDVRKEVSFCIKTKVPILGVVENMARFVCPNCAHTTLLFPTSTGGAEKMCEDSNLELLAQLPLEPALAEALDNGE--DFFETNPDSTLAKSFMDLAEKV</Hsp_hseq>
+      <Hsp_midline>+K+ I + SGKGGVGKST T+NLA A+A   ++ V +LD D+ GPSQP M+GV D +         PV     + +MSI FL+ D   AV+WRG   +  ++Q +   +W EVDYL ID PPGT D  ++L Q +    P+ G++IV+TPQ+++L+D RK V    K  +PILGV+ENM+  +C NC H+  LF   T G + +    N+ LL QLPL   + EA+D G     F+ +P   +A+ + D A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|257096648|sp|B4N4D9.1|NUBP2_DROWI</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila willistoni]</Hit_def>
+  <Hit_accession>B4N4D9</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>3.13472e-55</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLVDT-GQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLALALRHTGHKVGLLDIDLCGPSVPYLLGLEGSDIYQCDDGWVPIYTDESKTLAVMSIGFLLKSRTDPVIWRGPKKTMMIKQFLQDVKWDELDYLIIDTPPGTSDEHITVMECLREVPCNGAIIVTTPQGVALDDVRKEITFCKKTGIKLLGIVENMSGFVCPHCTTCTNIFSSNGGIELANLAQIPHLGTLPID--PRVGILAGTTASVLSELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  LA A+   G +VG+LD DL GPS P +LG+      Q +   +P+  + S  + VMSIGFL+ +    V+WRGP  +  ++Q +   +WDE+DYL ID PPGT D  +T+ +    +P  G++IVTTPQ +AL D RK +   +K  I +LG++ENMS  +C +C     +F ++GG +LA    +P LG LP+    R  +  GT A +  E P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|74585350|sp|Q59YD9.1|CFD1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor CFD1; AltName: Full=Cytosolic Fe-S cluster-deficient protein 1 [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q59YD9</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>5.69112e-55</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>TIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDG------------IQVMSIGFLV-DTGQAVVWRGP----MVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRI----PVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHPAIARIYTDAAFQ-IALGIADK--GKDFSSRF</Hsp_qseq>
+      <Hsp_hseq>SIEHVKHIILILSGKGGVGKSSVTTQVALTLVNKGFNVGVLDIDLTGPSLPRMFGVENKQVHQSTQGWVPVSVYNNNNNQGTDSKRGNLSLMSLGFLLGDRGNSVVWRGPKKTAMIKQFLKDVVWGSTETPLDYLLIDTPPGTSDEHIAIAEELRWANPIDGAIIVTTPQQVATADVRKEINFCKKVNFQILGIVENMSGFICPHCSECTNIFSSGGGKALSEQLNLTYLGNVPIDPQFVELVE----LQNEQENKKLIELYDDCELKPILNGIVDKILDKNLPSRI</Hsp_hseq>
+      <Hsp_midline>+I+ VK+II + SGKGGVGKS+ T  +A  +   G  VGVLD DL GPS P M GV +++  Q  Q  +PV   +             + +MS+GFL+ D G +VVWRGP    M+ Q L+ +++ S    +DYL ID PPGT D  + +++ +    P+ G++IVTTPQ +A  D RK ++  +KVN  ILG++ENMS  IC +C     +F + GGK L+ +LN+  LG +P+     E ++     +   E+  +  +Y D   + I  GI DK   K+  SR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|257096643|sp|B4KY56.1|NUBP2_DROMO</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila mojavensis]</Hit_def>
+  <Hit_accession>B4KY56</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>7.46741e-55</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDE</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLALALRATGHKVGLLDIDLCGPSVPHLLGLEGRDIYQCDDGWVPIYTDESKTLAVMSIGFLLKNRNDPVIWRGPKKTMMIKQFLTDVKWEDLDYLIIDTPPGTSDEHITVMECMREVPCNGAIIVTTPQGVALDDVRKELTFCKKTGIKVLGIVENMSGFVCPHCSDCTNIFSSFGGAELAQLAQVPLLGTLPID--PRVGVLAGSTASVLNE</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  LA A+   G +VG+LD DL GPS P +LG+  R   Q +   +P+  + S  + VMSIGFL+ +    V+WRGP  +  ++Q +   +W+++DYL ID PPGT D  +T+ +    +P  G++IVTTPQ +AL D RK +   +K  I +LG++ENMS  +C +C     +F + GG +LA    VPLLG LP+    R  +  G+ A + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81610834|sp|Q68XP6.1|MRP_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Protein mrp homolog [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XP6</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>8.12376e-55</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSN-CGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMD</Hsp_qseq>
+      <Hsp_hseq>VENVKKIILVASGKGGVGKSTISALIAQQLSLENYQVGIVDADIYGPSIPHIFGINEI-PKTVEGRIIPILAQN-IQIISIGFFVKAHSAIIYRGPMASKIIYQLLSNTRWNNLDYLIIDMPPGTGDIHLSMLENYHLDGVIVVTTPQKISEIDVIRSIDLYRKLGLPILGIIENMIYMLESDRCGH------------LSKKYNIPLIAKIPIIPQIANACD</Hsp_hseq>
+      <Hsp_midline>++ VK II VASGKGGVGKST +A +A  ++    +VG++DAD+YGPS P + G+++  P     ++IP+ + + IQ++SIGF V    A+++RGPM S+ + QL+  + W+ +DYL ID+PPGTGDI L++ +   + G ++VTTPQ I+ ID  +++D++RK+ +PILG++ENM   + S+ CGH            L+ + N+PL+ ++P+   +  A D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|27808667|sp|Q93459.2|NUBP1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP1 homolog [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q93459</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>8.3615e-55</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGAR-VGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRI----PVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALF--GTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP--AIARIYTDAAFQI</Hsp_qseq>
+      <Hsp_hseq>IKHKILILSGKGGVGKSTLTSNLARALASDPSKQVAILDVDICGPSQPRMMGVEDEEVHNSADGWTPVGIQPNLTLMSIAFLLGDKNDAVIWRGARKNGMIKQFLKDVDWGEVDYLLIDTPPGTSDEHISLVQFLLQAGPLDGALIVSTPQEVSLLDVRKEVSFCVKTKVPILGVVENMARFVCPNCAHTTLLFPTSTGGAEQMCKDSNLELLAQLPLEPALAKALDNGE--DFFETNPDSTLAKSFLDLAEKV</Hsp_hseq>
+      <Hsp_midline>+K+ I + SGKGGVGKST T+NLA A+A   ++ V +LD D+ GPSQP M+GV D +         PV     + +MSI FL+ D   AV+WRG   +  ++Q +   +W EVDYL ID PPGT D  ++L Q +    P+ G++IV+TPQ+++L+D RK V    K  +PILGV+ENM+  +C NC H+  LF   T G + +    N+ LL QLPL   + +A+D G     F+ +P   +A+ + D A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|257096647|sp|B4LGB4.1|NUBP2_DROVI</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila virilis]</Hit_def>
+  <Hit_accession>B4LGB4</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>5.03599e-54</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIVVLSGKGGVGKSTVSTQLALALRATGHKVGLLDIDLCGPSVPYLLGLEGSDIYQCEDGWVPIYTDESKTLAVMSIGFLLKNRNDPVIWRGPKKTMMIRQFLTDVKWEDMDYLIIDTPPGTSDEHITVMECMREVPCNGAIIVTTPQGVALDDVRKEITFCKKTGIKLLGIVENMSGFVCPHCTECTNIFSSNGGAELARLAQVPHLGTLPID--PRVGVLSGSTASVLNELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  LA A+   G +VG+LD DL GPS P +LG+      Q     +P+  + S  + VMSIGFL+ +    V+WRGP  +  ++Q +   +W+++DYL ID PPGT D  +T+ +    +P  G++IVTTPQ +AL D RK +   +K  I +LG++ENMS  +C +C     +F ++GG +LA    VP LG LP+    R  +  G+ A + +E P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|257096565|sp|B0XDJ0.1|NUBP2_CULQU</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Culex quinquefasciatus]</Hit_def>
+  <Hit_accession>B0XDJ0</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>5.80525e-54</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVES--SDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIP---VTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPL</Hsp_qseq>
+      <Hsp_hseq>IKHIILVLSGKGGVGKSTVSTQLALTLAESGHKVGLLDIDLCGPSVPFLLGLEGHDVHQCEQGWVPVFSGADQRLAVMSIGFLLKNRDEAVIWRGPKKTAMIKQFLEDVAWDELDYLVIDTPPGTSDEHITVMECLKGVNADGAIIVTTPQEMALEDVRKEVTFCKKTGIAILGIVENMSGFVCPNCAECTKIFSSGGGVALAELAQVPHLGTLPI</Hsp_hseq>
+      <Hsp_midline>+K+II V SGKGGVGKST +  LA  +A  G +VG+LD DL GPS P +LG+      Q  Q  +PV S     + VMSIGFL+ +  +AV+WRGP  +  ++Q +    WDE+DYL ID PPGT D  +T+ + +      G++IVTTPQ++AL D RK V   +K  I ILG++ENMS  +C NC     +F + GG  LA    VP LG LP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|731773|sp|P40558.1|CFD1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor CFD1; AltName: Full=Cytosolic Fe-S cluster-deficient protein 1; AltName: Full=Ribosomal export protein 19 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P40558</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>7.8598e-54</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>TIKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVE----SSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVT---GSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPL</Hsp_qseq>
+      <Hsp_hseq>SLAGIKHIILILSGKGGVGKSSVTTQTALTLCSMGFKVGVLDIDLTGPSLPRMFGLENESIYQGPEGWQPVKVETNSTGSLSVISLGFLLGDRGNSVIWRGPKKTSMIKQFISDVAWGELDYLLIDTPPGTSDEHISIAEELRYSKPDGGIVVTTPQSVATADVKKEINFCKKVDLKILGIIENMSGFVCPHCAECTNIFSSGGGKRLSEQFSVPYLGNVPI</Hsp_hseq>
+      <Hsp_midline>++ G+K+II + SGKGGVGKS+ T   A  +  MG +VGVLD DL GPS P M G+ +    Q  +   PV+    S+  + V+S+GFL+ D G +V+WRGP  +  ++Q +    W E+DYL ID PPGT D  +++++ +  +   G ++VTTPQ +A  D +K ++  +KV++ ILG++ENMS  +C +C     +F + GGK L+ + +VP LG +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|257096644|sp|B4H7P4.1|NUBP2_DROPE</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Drosophila persimilis]</Hit_def>
+  <Hit_accession>B4H7P4</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>9.32297e-54</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV--ESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQ---RIPVTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>VKNVIIVLSGKGGVGKSTVSTQLALALRHSGHKVGLLDIDLCGPSVPFLLGLEGSNIYQCDEGWVPIYTDASKTLAVMSIGFLLKNRTDPVIWRGPKKTMMIRQFLTDVKWEELDYLIIDTPPGTSDEHITVMECMREVPCNGAIIVTTPQSVALDDVRKEITFCKKTGIKLLGIVE---IFVCPNCTNCTNIFSSNGGVELAHLVQIPHLGTLPID--PRVGVLAGSTASVLDELP</Hsp_hseq>
+      <Hsp_midline>VKN+I V SGKGGVGKST +  LA A+   G +VG+LD DL GPS P +LG+      Q ++  +P+  ++S  + VMSIGFL+ +    V+WRGP  +  ++Q +   +W+E+DYL ID PPGT D  +T+ +    +P  G++IVTTPQ +AL D RK +   +K  I +LG++E   + +C NC +   +F ++GG +LA  + +P LG LP+    R  +  G+ A + DE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|442570071|sp|Q4I174.2|CFD1_GIBZE</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor CFD1; AltName: Full=Cytosolic Fe-S cluster-deficient protein 1 [Fusarium graminearum PH-1]</Hit_def>
+  <Hit_accession>Q4I174</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.14345e-53</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>VKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPV-----ESSDGI---QVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIP-------VTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPL</Hsp_qseq>
+      <Hsp_hseq>VKHIILVLSGKGGVGKSSVTTQLALSLTSAGHSVGILDVDLTGPSIPRMLSIEASKVTQVPGGWAPVLVHEADESKGLGSLHAMSLGFLLPKRGDAVVWRGPKKTAMIRQFLKDVLWDETDYLLIDTPPGTSDEHISLAETLQKDATLGQVAGAVVVTTPQAVATADVRKELNFCTKTNIRVLGVVENMSGYVCPHCSECTDIFGSGGGKSMAEEFNVPFLGSVPM</Hsp_hseq>
+      <Hsp_midline>VK+II V SGKGGVGKS+ T  LA ++   G  VG+LD DL GPS P ML +   K  Q      PV     + S G+     MS+GFL+   G AVVWRGP  +  ++Q +    WDE DYL ID PPGT D  ++L++ +        V G+V+VTTPQ +A  D RK ++   K NI +LGV+ENMS ++C +C     +FG+ GGK +A   NVP LG +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|121784535|sp|Q2H317.1|NBP35_CHAGB</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NBP35; AltName: Full=Nucleotide-binding protein 35 [Chaetomium globosum CBS 148.51]</Hit_def>
+  <Hit_accession>Q2H317</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>1.31405e-53</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>PGVTT-IKGVKNIIAVASGKGGVGKSTTTANLAAAMA-RMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLV-DTGQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIP---VTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALF--GTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP------AIARIYTDAAFQIAL</Hsp_qseq>
+      <Hsp_hseq>PAITARLAGVKHKILVLSGKGGVGKSTLTAQLAQALATNPEATVGVMDTDICGPSIPKMLGVEAETIHVSGSGWSPVWAADNLAVMSIQFMLPNRDDAIIWRGPKKNGLIKQFLKDVEWGDLDFLLVDTPPGTSDEHLSVNTFLKESRIEGAVVVTTPQEVSLLDVRKEIDFCRKAGIRILGLVENMSLFVCPKCTHATEIFQATTGGGRALAAEMGIPFLGAVPLDPRLGMACDYGE--SFFDSFPDSPACLALKQVVRGLAGQIGL</Hsp_hseq>
+      <Hsp_midline>P +T  + GVK+ I V SGKGGVGKST TA LA A+A    A VGV+D D+ GPS P MLGV             PV ++D + VMSI F++ +   A++WRGP  +  ++Q +   EW ++D+L +D PPGT D  L+++  +    + G+V+VTTPQ+++L+D RK +D  RK  I ILG++ENMS+ +C  C H+  +F   T GG+ LAA + +P LG +PL   +  A D G     FD  P      A+ ++    A QI L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|257096598|sp|Q6P298.2|NUBP1_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor nubp1; AltName: Full=Nucleotide-binding protein 1; Short=NBP 1 [Danio rerio]</Hit_def>
+  <Hit_accession>Q6P298</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>2.52917e-53</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>PGVTTIK----GVKNIIAVASGKGGVGKSTTTANLAAAMARMGAR-VGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDT-GQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIP---VTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALF--GTDGGKDLAARLNVPLLGQLPLSLPVREAMDGG</Hsp_qseq>
+      <Hsp_hseq>PAIEEIKQKMTSVKHKILVLSGKGGVGKSTFSAHLSHALASDSSKEVALLDVDICGPSIPKIMGLEGEQVHQSGSGWSPVYVEDNLAVMSIGFLLSSPDDAVIWRGPKKNGMIKQFLRDVDWGEVDYLIVDTPPGTSDEHLSIVQYLSGAGIDGAVIITTPQEVSLQDVRKEIRFCKKVNLPILGVIENMSGFVCPKCKNTSQIFPPTTGGAQRMCEELNLPLLGRIPLDPRIGKSCDEG</Hsp_hseq>
+      <Hsp_midline>P +  IK     VK+ I V SGKGGVGKST +A+L+ A+A   ++ V +LD D+ GPS P ++G+   +  Q      PV   D + VMSIGFL+ +   AV+WRGP  +  ++Q +   +W EVDYL +D PPGT D  L++ Q +    + G+VI+TTPQ+++L D RK +   +KVN+PILGV+ENMS  +C  C ++  +F   T G + +   LN+PLLG++PL   + ++ D G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|82179260|sp|Q5I050.1|NUP1B_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor nubp1-B; AltName: Full=Nucleotide-binding protein 1-B; Short=NBP 1-B [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q5I050</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>3.75442e-53</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>PGVTTIKG----VKNIIAVASGKGGVGKSTTTANLAAAMAR-MGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDGIQVMSIGFLVDT-GQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIP---VTGSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALF--GTDGGKDLAARLNVPLLGQLPLSLPVREAMDGGTPARLFDEHP</Hsp_qseq>
+      <Hsp_hseq>PAIEEIKEKMSLVKHKILVLSGKGGVGKSTFSAHLAHGLAQDEGKEVALLDVDICGPSIPRMMGLEGEQVHQSGSGWSPVYVEDNLAVMSVGFLLSSPDDAVIWRGPKKNGMIKQFLRDVDWGEVDYLIVDTPPGTSDEHLSVVQYLSAAGIDGAVIVTTPQEVSLQDVRKEINFCRKVKLPIIGVVENMSGFICPKCENESQIFPPTTGGAEKMCTDLNVSLLGKVPLDPNIGKSCDTGK--SFFTEIP</Hsp_hseq>
+      <Hsp_midline>P +  IK     VK+ I V SGKGGVGKST +A+LA  +A+  G  V +LD D+ GPS P M+G+   +  Q      PV   D + VMS+GFL+ +   AV+WRGP  +  ++Q +   +W EVDYL +D PPGT D  L++ Q +    + G+VIVTTPQ+++L D RK ++  RKV +PI+GV+ENMS  IC  C +   +F   T G + +   LNV LLG++PL   + ++ D G     F E P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|257096649|sp|A9V7A1.1|NUBP2_MONBE</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Monosiga brevicollis]</Hit_def>
+  <Hit_accession>A9V7A1</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>5.05719e-53</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>IKGVKNIIAVASGKGGVGKSTTTANLAAAMARMGARVGVLDADLYGPSQPTMLGVHDRKPDQKNQKLIPVESSDG-IQVMSIGFLVDT-GQAVVWRGPMVSQALQQLMFQSEWDEVDYLFIDLPPGTGDIQLTLSQRIPVT---GSVIVTTPQDIALIDARKAVDMFRKVNIPILGVLENMSVHICSNCGHSEALFGTDGGKDLAARLNVPLLGQLPL</Hsp_qseq>
+      <Hsp_hseq>LAGVKHIVLVLSGKGGVGKSTVASQMAIGLIHRGLKVGLLDIDLTGPSIPTMFGVADQQVHTSSEGWVPLYKYDQRLAIMSIGFLLDSRDEAVIWRGPKKNAMIQQFLSEVCWDELDCLVVDTPPGTSDEHLSIVDALKLCKPDGAILVTTPQGVALSDVRREAEFCRKARLKVLGVVENMSGFACPHCKDCTNLFSKGGGEKLAQEIAAPFLGAIPI</Hsp_hseq>
+      <Hsp_midline>+ GVK+I+ V SGKGGVGKST  + +A  +   G +VG+LD DL GPS PTM GV D++    ++  +P+   D  + +MSIGFL+D+  +AV+WRGP  +  +QQ + +  WDE+D L +D PPGT D  L++   + +    G+++VTTPQ +AL D R+  +  RK  + +LGV+ENMS   C +C     LF   GG+ LA  +  P LG +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1433 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800524|ref|YP_207236.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>4-hydroxyphenylacetate 3-monooxygenase reductase subunit [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>166</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800524|ref|YP_207236.1|</Iteration_query-ID>
+  <Iteration_query-def>4-hydroxyphenylacetate 3-monooxygenase reductase subunit [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>166</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20454960|sp|Q57501.2|HPAC_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxyphenylacetate 3-monooxygenase reductase component; AltName: Full=4-HPA 3-monooxygenase small component; AltName: Full=Flavin:NADH reductase [Escherichia coli]</Hit_def>
+  <Hit_accession>Q57501</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>3.0696e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKN--CGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>FRDAMASLSAAVNIITTEGDAGQCGITATAVCSVTDTPPSLMVCINANSAMNPVFQGNGKLCVNVLNHEQELMARHFAGMTGMAMEERFSLSCWQKGPLAQPVLKGSLASLEGEIRDVQAIGTHLVYLV---EIKNIILSAEGHGLIYFKRRFHPV</Hsp_hseq>
+      <Hsp_midline>FRDAMAS +A V++ITT+G AG+ GIT TAV  VTD PP++M+CIN ++ + P+   NG LC+N+L  E + +A HFAG+TG++ EERF+   W +G   Q  ++G+LA L G I     IGTH V+ V   EIKN     +   L+YF+R+F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20454974|sp|Q8ZQ51.1|HPAC_SALTY</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxyphenylacetate 3-monooxygenase reductase component; AltName: Full=4-HPA 3-monooxygenase small component; AltName: Full=Flavin:NADH reductase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZQ51</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>3.8085e-43</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRP--ALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>FRDAMASLAAAVNIVTTAGHAGRCGITATAVCSVTDTPPSVMVCINANSAMNPVFQGNGRLCINVLNHEQELMARHFAGMTGMAMEERFHQPCWQNGPLGQPVLNGALAGLEGEISEVQTIGTHLVYLV---AIKNIILSQDGHGLIYFKRRFHPV</Hsp_hseq>
+      <Hsp_midline>FRDAMAS AA V+++TT G AGR GIT TAV  VTD PP+VM+CIN ++ + P+   NG LCIN+L  E + +A HFAG+TG++ EERF    W  G  GQ  + GALA L G I     IGTH V+ V    IKN    +    L+YF+R+F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20455021|sp|Q9RPU2.1|HPAC_SALDU</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxyphenylacetate 3-monooxygenase reductase component; AltName: Full=4-HPA 3-monooxygenase small component; AltName: Full=Flavin:NADH reductase [Salmonella enterica subsp. enterica serovar Dublin]</Hit_def>
+  <Hit_accession>Q9RPU2</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>4.19568e-43</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRP--ALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>FRDAMASLAAAVNIVTTAGHAGRCGITATAVCSVTDTPPSVMVCINANSAMNPVFQGNGRLCINVLNHEQELMARHFAGMTGMAMEERFHQPCWQNGPLGQPVLNGALAGLEGEISEVQTIGTHLVYLV---AIKNIILSQDGHGLIYFKRRFHPV</Hsp_hseq>
+      <Hsp_midline>FRDAMAS AA V+++TT G AGR GIT TAV  VTD PP+VM+CIN ++ + P+   NG LCIN+L  E + +A HFAG+TG++ EERF    W  G  GQ  + GALA L G I     IGTH V+ V    IKN    +    L+YF+R+F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20454971|sp|Q8Z7Q5.1|HPAC_SALTI</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxyphenylacetate 3-monooxygenase reductase component; AltName: Full=4-HPA 3-monooxygenase small component; AltName: Full=Flavin:NADH reductase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z7Q5</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>6.88172e-43</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRP--ALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>FRDAMASLAAAVNIVTTAGHAGRCGITATAVCSVTDTPPSVMVCINANSAMNPVFQGNGRLCINVLNHEQELMARHFVGMTGMAMEERFHQPCWQNGPLGQPVLNGALASLEGEISEVQTIGTHLVYLV---AIKNIILSQEGHGLIYFKRRFHPV</Hsp_hseq>
+      <Hsp_midline>FRDAMAS AA V+++TT G AGR GIT TAV  VTD PP+VM+CIN ++ + P+   NG LCIN+L  E + +A HF G+TG++ EERF    W  G  GQ  + GALA L G I     IGTH V+ V    IKN    +    L+YF+R+F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|20454957|sp|Q48441.1|HPAC_KLEOX</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxyphenylacetate 3-monooxygenase reductase component; AltName: Full=4-HPA 3-monooxygenase small component; AltName: Full=Flavin:NADH reductase [Klebsiella oxytoca]</Hit_def>
+  <Hit_accession>Q48441</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>9.05147e-38</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAP------VTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRP--ALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>FRDAMASLSPAVNVITTEAEAG------AAVSPHRPSCSVTDTPPSVMVCINANSAMNPVFQGNGKLCINVLNHEQEEMARHFAGMTGMTMDDRFGLSGWQKGALGQPVLKGALASLEGEISQVQTIGSHLVYLV---EIRNITLSQQGHGLIYFKRRFHPV</Hsp_hseq>
+      <Hsp_midline>FRDAMAS +  V+VITT+  AG       AV+P      VTD PP+VM+CIN ++ + P+   NG LCIN+L  E +++A HFAG+TG++ ++RF    W +G  GQ  ++GALA L G I     IG+H V+ V   EI+N    +    L+YF+R+F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|317412144|sp|C5B0U5.1|RUTF_METEA</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Methylobacterium extorquens AM1]</Hit_def>
+  <Hit_accession>C5B0U5</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>3.91643e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>SFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>AYREAMSRLASAVHLITTDGPGGRAGFTASAVCSVSDAPPTLLVCINRTSSAYAALTQNGTLCVNTLGEGHETVAGLFGGRTPV--DERFAAGTWRRLRSGALALTDALVSFDCRIVGRHAVGSHDVLYCAVEAVAASG-QADALLYSERRYRTL</Hsp_hseq>
+      <Hsp_midline>++R+AM+  A+ VH+ITTDG  GR G T +AV  V+D PPT+++CINR++     L++NG+LC+N L + H+ VA  F G T +  +ERFA   W R ++G L +  AL      IVG+H +G+H V Y  ++ +   G +  ALLY  R++R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|317412051|sp|B7KWT3.1|RUTF1_METC4</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF 1; AltName: Full=FMN reductase 1; AltName: Full=NADH-flavin reductase RutF 1; AltName: Full=NADH:flavin oxidoreductase 1 [Methylobacterium extorquens CM4]</Hit_def>
+  <Hit_accession>B7KWT3</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>5.87373e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>SFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>AFREAMSRLASAVHLITTDGPGGRAGFTASAVCSVSDAPPTLLVCINRASSAYAALTQNGTLCVNTLGEGHETVASLFGGRTPV--DERFAAGTWRRLRSGAPALADALVSFDCRIVGRHAVGSHDVLYCAVEAVAASG-QADALLYSERRYRTL</Hsp_hseq>
+      <Hsp_midline>+FR+AM+  A+ VH+ITTDG  GR G T +AV  V+D PPT+++CINR++     L++NG+LC+N L + H+ VA  F G T +  +ERFA   W R ++G   +  AL      IVG+H +G+H V Y  ++ +   G +  ALLY  R++R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|317412052|sp|A9W3H7.1|RUTF1_METEP</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF 1; AltName: Full=FMN reductase 1; AltName: Full=NADH-flavin reductase RutF 1; AltName: Full=NADH:flavin oxidoreductase 1 [Methylobacterium extorquens PA1]</Hit_def>
+  <Hit_accession>A9W3H7</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>4.71224e-36</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>YREAMSRLASAVHLITTDGPGGRAGFTASAVCSVSDAPPTLLVCINRASSAYAALTQNGTLCVNTLGEGHETVASLFGGRTPV--DERFAAGTWRRLRSGAPALADALVSFDCRIVGRHAVGSHDVLYCAVEAVAASG-EADALLYSERRYRTL</Hsp_hseq>
+      <Hsp_midline>+R+AM+  A+ VH+ITTDG  GR G T +AV  V+D PPT+++CINR++     L++NG+LC+N L + H+ VA  F G T +  +ERFA   W R ++G   +  AL      IVG+H +G+H V Y  ++ +   G +  ALLY  R++R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|317412145|sp|C7CM32.1|RUTF_METED</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Methylobacterium extorquens DM4]</Hit_def>
+  <Hit_accession>C7CM32</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>5.29917e-36</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>SFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>AYREAMSRLASAVHLITTDGPGGRAGFTASAVCSVSDAPPTLLVCINRASSAYAALTQNGTLCVNTLGEGHETVASLFGGRTPV--DERFAAGTWRRLPSGAPALTDALVSFDCRIVGRHAVGSHDVLYCAVEAVAASG-QADALLYSERRYRTL</Hsp_hseq>
+      <Hsp_midline>++R+AM+  A+ VH+ITTDG  GR G T +AV  V+D PPT+++CINR++     L++NG+LC+N L + H+ VA  F G T +  +ERFA   W R  +G   +  AL      IVG+H +G+H V Y  ++ +   G +  ALLY  R++R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123775167|sp|Q48MQ8.1|RUTF_PSE14</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q48MQ8</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.48403e-35</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>QLAFRDAMSSLAAAVNVITTDGPGGRAGFTATAVCSVTDQPPTLLVCINRSASVYETFIENGLLCVNTLGNGQQDLSNLFGGKR--SQQERFDGGQWESGVTGAPILNSAKLALDCKVTQSVSVGTHDILFCQVLDIRDQG-ESDALVYFARQY</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+S AA V+VITTDG  GR G T TAV  VTD+PPT+++CINRSA +     ENG LC+N L +  QD++  F G    S +ERF    W  G TG   +  A   L   +     +GTH + + ++ +I++ G +  AL+YF RQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|317412148|sp|A4VQH9.1|RUTF_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VQH9</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>3.94071e-34</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>YRDAMARLAAAVNIITTDGPSGRAGFTATAVCSVTDEPPTLLVCLNRSASAHPIVTANGQLCVNTLAGAQRDLSNLFGGKTPMA--ERFAAAQWSTGVTGSPLLDGATVSFDCRISHSASVGTHDILYCEVLAVYRRD-SSDALVYFGRNYHGL</Hsp_hseq>
+      <Hsp_midline>+RDAMA  AA V++ITTDG +GR G T TAV  VTDEPPT+++C+NRSA   PI++ NG LC+N LA   +D++  F G T ++  ERFA   W  G TG   ++GA       I     +GTH + Y  +  +        AL+YF R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|75503286|sp|Q4ZXS1.1|RUTF_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZXS1</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>1.39479e-33</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>QLAFRDAMSGLAAAVNLITTDGPGGRAGFTATAVCSVTDQPPTLLVCINRSASVYDAFIENGTLCVNTLGNGQQDLSNLFGGKS--SQQERFAGGQWEAGVTGAPVLDSAKLALDCKVSQSVSVGTHDILFCEVVDIRH-QSGADALVYFGRRY</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+  AA V++ITTDG  GR G T TAV  VTD+PPT+++CINRSA +     ENG+LC+N L +  QD++  F G +  S +ERFA   W  G TG   ++ A   L   +     +GTH + +  + +I++      AL+YF R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|317412088|sp|A7MFX8.1|RUTF_CROS8</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MFX8</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>1.33821e-32</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQAFRDAMSRLGAAVNIVTTDGPAGMAGFTASAVCSVTDSPPTLLVCLNRNASVWPVFQANGQLCVNTLAAGHEALSGLFGGKTPM--EERFAAARWRRGVTGSPQLDGAVVSFDCRVEQVVPVSTHDVLLCRVLEISR-NDDTHGLVWFDRRYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V+++TTDG AG  G T +AV  VTD PPT+++C+NR+A + P+   NG LC+N LA  H+ ++  F G T +  EERFA   W RG TG  +++GA+      +     + TH V   R+ EI         L++F R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|317412090|sp|A6T797.1|RUTF_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6T797</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.47575e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>LQKTFQTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>MELTDKASFRDAMAHVGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRSASVWPVFSEHHTLCVNTLAAGQEALSTLFGGKTAM--DERFAAADWQTGATGCPRLEAALVSFDCRIDQRVSVGTHDILFCHVVAITRHPEPR-GLMWFDRGYHTL</Hsp_hseq>
+      <Hsp_midline>++ T + SFRDAMA   A V++ITTDG AGR G T +AV  VTD PPT+++C+NRSA + P+ SE+ +LC+N LA   + ++  F G T +  +ERFA   W  G TG   +E AL      I  +  +GTH + +  +  I      R  L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|317412055|sp|A9W6X8.1|RUTF2_METEP</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF 2; AltName: Full=FMN reductase 2; AltName: Full=NADH-flavin reductase RutF 2; AltName: Full=NADH:flavin oxidoreductase 2 [Methylobacterium extorquens PA1]</Hit_def>
+  <Hit_accession>A9W6X8</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.60978e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>ADLQKTFQTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>SDPEAVSASAYREAMAQLASAVHLVTTDGPGGRAGLTATSVCSVSDGPPTLLVCLNRNSSAYPAFLRNGVLCINTLTAAHEGLATDFAGR--VPQAERFAGPDWGRLQTGAPVLAGALVAFDCRIVDRHEVGTHDVLICAVEALAEISGAE-SLLYAGRHYRVL</Hsp_hseq>
+      <Hsp_midline>+D +    +++R+AMA  A+ VH++TTDG  GR G+T T+V  V+D PPT+++C+NR++   P    NG LCIN L   H+ +A  FAG   +   ERFA   W R +TG   + GAL      IV +HE+GTH V    ++ +        +LLY  R +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|317412054|sp|B7KT53.1|RUTF2_METC4</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF 2; AltName: Full=FMN reductase 2; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase 2 [Methylobacterium extorquens CM4]</Hit_def>
+  <Hit_accession>B7KT53</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.77161e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>ADLQKTFQTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>SDPEAVSASAYREAMAQLASAVHLVTTDGPGGRAGLTATSVCSVSDGPPTLLVCLNRNSSAYPAFLRNGVLCINTLTAAHEGLATDFAGR--VPQAERFAGPDWGRLQTGAPVLAGALVAFDCRIVDRHEVGTHDVLICAVEALAEISGAE-SLLYAGRHYRVL</Hsp_hseq>
+      <Hsp_midline>+D +    +++R+AMA  A+ VH++TTDG  GR G+T T+V  V+D PPT+++C+NR++   P    NG LCIN L   H+ +A  FAG   +   ERFA   W R +TG   + GAL      IV +HE+GTH V    ++ +        +LLY  R +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|317412057|sp|C9Y0S2.1|RUTF_CROTZ</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Cronobacter turicensis z3032]</Hit_def>
+  <Hit_accession>C9Y0S2</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.20491e-32</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQAFRDAMSRLGAAVNIVTTDGPAGMAGFTASAVCSVTDSPPTLLVCLNRNASVWPVFQANGQLCVNTLAAGHEALSGLFGGKTPM--EERFAAARWRRGVTGSPQLDGAVVSFDCRVEQVVPVSTHDVLLCRVLEITR-NDDTHGLVWFDRHYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V+++TTDG AG  G T +AV  VTD PPT+++C+NR+A + P+   NG LC+N LA  H+ ++  F G T +  EERFA   W RG TG  +++GA+      +     + TH V   R+ EI         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|317412143|sp|D3RKL5.1|RUTF_KLEVT</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Klebsiella variicola At-22]</Hit_def>
+  <Hit_accession>D3RKL5</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>5.29804e-32</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>KASFRDAMAHVGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRSASVWPVFSEHHTLCVNTLAAGQEALSTLFGGKTAM--DERFAAADWQTGATGCPRLEAALVSFDCRIDQRVSVGTHDILFCHVVAITRHPEPR-GLMWFDRGYHTL</Hsp_hseq>
+      <Hsp_midline>+ SFRDAMA   A V++ITTDG AGR G T +AV  VTD PPT+++C+NRSA + P+ SE+ +LC+N LA   + ++  F G T +  +ERFA   W  G TG   +E AL      I  +  +GTH + +  +  I      R  L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|317412087|sp|D5CE37.1|RUTF_ENTCC</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Enterobacter cloacae subsp. cloacae ATCC 13047]</Hit_def>
+  <Hit_accession>D5CE37</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>7.06243e-32</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPA---LLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>KQTFRDAMACVGAAVNIITTDGPAGRAGFTASAVCSVTDSPPTLLVCLNRGASVWPTFSENRTLCVNTLSAGQEPLSNLFGGKTPM--EDRFAAARWQTGETGCPRLEEALASFDCRISQVVSVGTHDILFCDIVSII----RHPAPQGLVWFDRGYHAL</Hsp_hseq>
+      <Hsp_midline>+ +FRDAMA   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P  SEN +LC+N L+   + ++  F G T +  E+RFA   W  G+TG   +E ALA     I     +GTH + +  +  I     + PA   L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|317412089|sp|B5XXN5.1|RUTF_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XXN5</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>7.69022e-32</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>KASFRDAMAHVGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRSASVWPVFSEHHTLCVNTLAAGQEALSTLFGGKTAM--DERFAAADWQTGATGCPRLEAALVSFDCRIDQRVSVGTHDILFCHVVAITRHPEPR-GLMWFGRGYHTL</Hsp_hseq>
+      <Hsp_midline>+ SFRDAMA   A V++ITTDG AGR G T +AV  VTD PPT+++C+NRSA + P+ SE+ +LC+N LA   + ++  F G T +  +ERFA   W  G TG   +E AL      I  +  +GTH + +  +  I      R  L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|317412092|sp|C5CN84.1|RUTF_VARPS</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Variovorax paradoxus S110]</Hit_def>
+  <Hit_accession>C5CN84</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.11195e-31</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>KADYRNAMARLGAAVNIITTDGPAGRAGFTASAVCSVTDEPPMLLVCLNRSASVYPAFTANGVLCVNVLAAGHQALSGLFGGKTPM--DERFAAGRWSRKATGSPVLEDAAASFDCRVVQATSAGTHDVLFCEALAIAIGGAAQ-SLIYFDRRY</Hsp_hseq>
+      <Hsp_midline>+  +R+AMA   A V++ITTDG AGR G T +AV  VTDEPP +++C+NRSA + P  + NG LC+N+LA  HQ ++  F G T +  +ERFA   W R  TG   +E A A     +V     GTH V +     I   G  + +L+YF R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|317412146|sp|B1ZB19.1|RUTF_METPB</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Methylobacterium populi BJ001]</Hit_def>
+  <Hit_accession>B1ZB19</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>2.20585e-31</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>TSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>SAYREAMSRLASAVHLITTDGPGGRAGFTASAVCSVSDAPPTLLVCINRAASAYAPLIRNGTLCVNTLGGGHETVAGLFGGRTPM--DERFAAGTWRRLRSGAPALTDALVSFDCRIVERHAVGSHDVLYCAV-EAVAAAGQADALLYSERRYRTL</Hsp_hseq>
+      <Hsp_midline>+++R+AM+  A+ VH+ITTDG  GR G T +AV  V+D PPT+++CINR+A     L  NG+LC+N L   H+ VA  F G T +  +ERFA   W R ++G   +  AL      IV +H +G+H V Y  + E      +  ALLY  R++R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|317412086|sp|A4W920.1|RUTF_ENT38</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4W920</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>2.42682e-31</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>SFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPA---LLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>TFRDAMACVGAAVNIITTDGPAGQAGFTASAVCSVTDSPPTLLVCLNRGASVWPTFNENRTLCVNTLSAGQEPLSNLFGGKTPMA--DRFAAARWQTGETGCPRLEDALASFDCRISQVVSVGTHDILFCTIESIT----RHPAPQGLVWFDRGYHAL</Hsp_hseq>
+      <Hsp_midline>+FRDAMA   A V++ITTDG AG+ G T +AV  VTD PPT+++C+NR A + P  +EN +LC+N L+   + ++  F G T ++  +RFA   W  G+TG   +E ALA     I     +GTH + +  ++ I     + PA   L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|317412091|sp|D7A989.1|RUTF_STAND</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Starkeya novella DSM 506]</Hit_def>
+  <Hit_accession>D7A989</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>8.73718e-31</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>YRDAMARLGAAVTIVTTDGPGGRAGFTASAVCSVTDSPPTLLVCLNKSSSAAHAVHANGVVCVNTLAAGHEALSNLFGGRT--PPEERFAAGQWHTSATGAPILVGAVVAFDCRIVKTVEVGTHDVLFCEVVGLAE-GGGREGLIYFSRRY</Hsp_hseq>
+      <Hsp_midline>+RDAMA   A V ++TTDG  GR G T +AV  VTD PPT+++C+N+S+     +  NG +C+N LA  H+ ++  F G T   PEERFA   WH   TG   + GA+      IV   E+GTH V +  +  +   G  R  L+YF R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|20455390|sp|Q8XAV0.2|RUTF_ECO57</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O157:H7] &gt;gi|317412066|sp|B5YU49.1|RUTF_ECO5E RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O157:H7 str. EC4115] &gt;gi|317412067|sp|C6UPM9.1|RUTF_ECO5T RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O157:H7 str. TW14359]</Hit_def>
+  <Hit_accession>Q8XAV0</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>9.46393e-31</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQNGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|317412083|sp|D2NGI4.1|RUTF_ECOS5</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli SE15]</Hit_def>
+  <Hit_accession>D2NGI4</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.01948e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEKALVSFDCRISQVVSVGTHDILFCAIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|317412058|sp|C8U5G9.1|RUTF_ECO10</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O103:H2 str. 12009] &gt;gi|317412059|sp|C8UMM3.1|RUTF_ECO1A RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O111:H- str. 11128] &gt;gi|317412060|sp|A7ZKB2.1|RUTF_ECO24 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O139:H28 str. E24377A] &gt;gi|317412061|sp|C8TNB7.1|RUTF_ECO26 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O26:H11 str. 11368] &gt;gi|317412063|sp|D3H120.1|RUTF_ECO44 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli 042] &gt;gi|317412068|sp|B7NLB9.1|RUTF_ECO7I RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli IAI39] &gt;gi|317412069|sp|B7MQ18.1|RUTF_ECO81 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli ED1a] &gt;gi|317412072|sp|C6EHK0.1|RUTF_ECOBD RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli BL21(DE3)] &gt;gi|317412073|sp|C6UFB8.1|RUTF_ECOBR RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli B str. REL606] &gt;gi|317412075|sp|D3QPK0.1|RUTF_ECOCB RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O55:H7 str. CB9615] &gt;gi|317412078|sp|A7ZYW2.1|RUTF_ECOHS RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli HS] &gt;gi|317412081|sp|B1IV90.1|RUTF_ECOLC RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli ATCC 8739] &gt;gi|317412082|sp|B7N3G3.1|RUTF_ECOLU RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli UMN026] &gt;gi|317412085|sp|B1LIZ8.1|RUTF_ECOSM RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>C8U5G9</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.34387e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|317412093|sp|A1JMW4.1|RUTF_YERE8</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JMW4</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.39688e-30</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>FRDAMARLGSAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRSASVYSVFQQNQTLCVNTLCAEHESLSNLFGGKTPM--EMRFSAARWSTLVTGCPVLSGAVASFDCHITQVISVGTHDILFCQAAAVIH-NDDQHGLAYFDRCYHPL</Hsp_hseq>
+      <Hsp_midline>FRDAMA   + V++ITTDG AGR G T +AV  VTD PPT+++C+NRSA +  +  +N +LC+N L  EH+ ++  F G T +  E RF+   W    TG   + GA+A    HI     +GTH + + +   + +    +  L YF R + PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|317412062|sp|B7UNZ0.1|RUTF_ECO27</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>B7UNZ0</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.67976e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRINQVVSVGTHDILFCTIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|317412064|sp|B7MIF4.1|RUTF_ECO45</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli S88] &gt;gi|317412080|sp|D5CZG7.1|RUTF_ECOKI RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli IHE3034]</Hit_def>
+  <Hit_accession>B7MIF4</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.77139e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--ELRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|81477466|sp|Q8FJ45.1|RUTF_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FJ45</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.86972e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQESLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|122957534|sp|Q0T627.1|RUTF_SHIF8</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Shigella flexneri 5 str. 8401] &gt;gi|317412065|sp|B7LFB7.1|RUTF_ECO55 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli 55989] &gt;gi|317412070|sp|B7M8Z2.1|RUTF_ECO8A RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli IAI1] &gt;gi|317412150|sp|D2AC38.1|RUTF_SHIF2 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Shigella flexneri 2002017]</Hit_def>
+  <Hit_accession>Q0T627</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.19065e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHR-HTTPYGLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|122990831|sp|Q1RDL0.1|RUTF_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli UTI89] &gt;gi|317412079|sp|A1A9R2.1|RUTF_ECOK1 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>Q1RDL0</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>3.74341e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEI</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--ELRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAI</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|20455374|sp|P75893.3|RUTF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli K-12] &gt;gi|317412074|sp|C4ZQD5.1|RUTF_ECOBW RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli BW2952] &gt;gi|317412076|sp|C9QZ69.1|RUTF_ECOD1 RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli DH1] &gt;gi|317412077|sp|B1X9C8.1|RUTF_ECODH RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli str. K-12 substr. DH10B]</Hit_def>
+  <Hit_accession>P75893</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>7.99908e-30</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPAFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHR-HTTPYGLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P  +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|123148200|sp|Q0TJ60.1|RUTF_ECOL5</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q0TJ60</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.15959e-29</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>QQTFRDAMSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQESLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLGEALVSFDCRISQVVSVGTHDILFCAIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>Q +FRDAM+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++  AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|317412149|sp|A8GCT2.1|RUTF_SERP5</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GCT2</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>3.84672e-29</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVR-LDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>FRDAMARLGSAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRSASVYSVFKQNQTLCVNTLAAEHESLSNLFGGKTPM--ELRFSAARWSTLATGSPILHGAVVSFDCQIGQIVSVGTHDIFFCQALALTRNDDSH--GLAYFDRRYHSL</Hsp_hseq>
+      <Hsp_midline>FRDAMA   + V++ITTDG AGR G T +AV  VTD PPT+++C+NRSA +  +  +N +LC+N LA EH+ ++  F G T +  E RF+   W    TG   + GA+      I     +GTH +F+ + L   +N       L YF R++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|317412147|sp|D4GEU9.1|RUTF_PANAM</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Pantoea ananatis LMG 20103]</Hit_def>
+  <Hit_accession>D4GEU9</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>7.03216e-29</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>YRNAMARLGSAVNIITTDGPGGRAGFTASAVCSVTDTPPTLLVCLNRSASVHPAFIQNQVLCVNTLADSHESLSNLFGGKTPM--EQRFDAAEWTDLATGSPILTNALVSFDCKVTQITRVGTHDIMFCEVVALR-CNDDCHGLAYFDRRYHPL</Hsp_hseq>
+      <Hsp_midline>+R+AMA   + V++ITTDG  GR G T +AV  VTD PPT+++C+NRSA + P   +N  LC+N LAD H+ ++  F G T +  E+RF    W    TG   +  AL      +     +GTH + +  +  ++ C      L YF R++ PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|81394054|sp|Q6FFZ4.1|RUTF_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6FFZ4</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>8.65324e-29</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>QQAFRQGMSNLGAAVNVITTDGVAGKSGFTASAVCSVTDTPPTLLVCLNRSASVFETFKQNQVLCVNTLAAHQAHLSNIFGGKTPMV--DRFAHGEWRTLATQAPVLTDALVSFDCEVVQSLSVGSHDVFFCQVKAIQHCQ-GQNALMYFNRNY</Hsp_hseq>
+      <Hsp_midline>Q +FR  M++  A V+VITTDG AG+ G T +AV  VTD PPT+++C+NRSA +     +N  LC+N LA     ++  F G T +   +RFA+  W    T    +  AL      +V    +G+H VF+ ++  I++C   + AL+YF R +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>8.65324e-29</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>QQAFRQGMSNLGAAVNVITTDGVAGKSGFTASAVCSVTDTPPTLLVCLNRSASVFETFKQNQVLCVNTLAAHQAHLSNIFGGKTPMV--DRFAHGEWRTLATQAPVLTDALVSFDCEVVQSLSVGSHDVFFCQVKAIQHCQ-GQNALMYFNRNY</Hsp_hseq>
+      <Hsp_midline>Q +FR  M++  A V+VITTDG AG+ G T +AV  VTD PPT+++C+NRSA +     +N  LC+N LA     ++  F G T +   +RFA+  W    T    +  AL      +V    +G+H VF+ ++  I++C   + AL+YF R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|317412050|sp|B9J8R4.1|RUTF1_AGRRK</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF 1; AltName: Full=FMN reductase 1; AltName: Full=NADH-flavin reductase RutF 1; AltName: Full=NADH:flavin oxidoreductase 1 [Agrobacterium radiobacter K84]</Hit_def>
+  <Hit_accession>B9J8R4</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>2.95762e-28</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>VITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRP</Hsp_qseq>
+      <Hsp_hseq>IVTTNGPAGLAGFAATAVCSVTDSPPTLLVCLNRSASVHPAVTENGVLCVNVLSEGHQDLSRLFGGKTPVA--ERFAAAAWSELSTGSPALEDALVSFDCRIVRRADGGTHDILMCEVDAIRQRDGGQ-GLVYFDRNYHP</Hsp_hseq>
+      <Hsp_midline>++TT+G AG  G   TAV  VTD PPT+++C+NRSA + P ++ENG LC+N+L++ HQD++  F G T ++  ERFA   W    TG   +E AL      IV + + GTH +    +D I+     +  L+YF R + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81738105|sp|Q89Q06.1|RUTF_BRADU</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89Q06</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>4.37123e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>LQKTFQTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>MQDVAPQDYRDAMACLGAAVNIVTTDGSAGRAGFTASAICSVTDDPPTLLVCINRGSSAYSSVTRNEVVCVNVLSARHEPLSRLFGG--KVPADERFAAAAWSTLATGAPVLADCSAAFDCRIADTVNVGTHDVLFCRVVALQRFGCTD-NLIYFGRAY</Hsp_hseq>
+      <Hsp_midline>+Q      +RDAMA   A V+++TTDG+AGR G T +A+  VTD+PPT+++CINR +     ++ N  +C+N+L+  H+ ++  F G   +  +ERFA   W    TG   +    A     I     +GTH V + R+  ++  GC    L+YF R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|123769617|sp|Q32HQ4.1|RUTF_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32HQ4</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>1.50798e-26</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>MASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>MSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHRHATPY-GLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>M+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81723556|sp|Q83LK9.4|RUTF_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Shigella flexneri] &gt;gi|317412084|sp|B6I983.1|RUTF_ECOSE RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Escherichia coli SE11]</Hit_def>
+  <Hit_accession>Q83LK9</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>2.61118e-26</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>MASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>MSCMGAAVNIITTDGPAGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHR-HTTPYGLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>M+   A V++ITTDG AGR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|123759627|sp|Q3Z3A6.1|RUTF_SHISS</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>Q3Z3A6</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>6.74842e-26</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>MASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>MSCMGAAVNIITTDGPSGRAGFTASAVCSVTDTPPTLLVCLNRGASVWPVFNENRTLCVNTLSAGQEPLSNLFGGKTPM--EHRFAAARWQTGVTGCPQLEEALVSFDCRISQVVSVGTHDILFCAIEAIHR-HTTPYGLVWFDRSYHAL</Hsp_hseq>
+      <Hsp_midline>M+   A V++ITTDG +GR G T +AV  VTD PPT+++C+NR A + P+ +EN +LC+N L+   + ++  F G T +  E RFA   W  G TG  ++E AL      I     +GTH + +  ++ I         L++F R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|317412053|sp|B9JLT5.1|RUTF2_AGRRK</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF 2; AltName: Full=FMN reductase 2; AltName: Full=NADH-flavin reductase RutF 2; AltName: Full=NADH:flavin oxidoreductase 2 [Agrobacterium radiobacter K84]</Hit_def>
+  <Hit_accession>B9JLT5</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>6.85321e-25</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>QTSFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIK-NCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>KQEYRDAMARLGAAVNIVTTDGPGGLAGFAATAVCSVTDSPPTLLVCLNRTSSAYPAVNANRVLCVNTLERGHEDLSRLFGGKTPV--HERFEGASWSSLETGAPVLDDALISLDCRVKAISDGGTHDILICDVVAIRENDGGQ--ALIYFDRRY</Hsp_hseq>
+      <Hsp_midline>+  +RDAMA   A V+++TTDG  G  G   TAV  VTD PPT+++C+NR++   P ++ N  LC+N L   H+D++  F G T +   ERF    W   +TG   ++ AL  L   +    + GTH +    +  I+ N G +  AL+YF R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|317412056|sp|A9CHR3.1|RUTF_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) RutF; AltName: Full=FMN reductase; AltName: Full=NADH-flavin reductase RutF; AltName: Full=NADH:flavin oxidoreductase [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>A9CHR3</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.22539e-23</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIK-NCGCKRPALLYFRRQFRPL</Hsp_qseq>
+      <Hsp_hseq>YRNAMARLGAAVNIVTTDGAAGRAGFAATAVCSVSDNPPTLLVCLNRNASAYKVVKANGVICINTLAAHHEVLSTLFGGKT--PAEERFAAGSWGVLETGAPVLEDALVSFDCRIREAHDGGTHDILICTVVDMKINAG--DEALMYFNRRYRVL</Hsp_hseq>
+      <Hsp_midline>+R+AMA   A V+++TTDGAAGR G   TAV  V+D PPT+++C+NR+A    ++  NG +CIN LA  H+ ++  F G T    EERFA   W   +TG   +E AL      I   H+ GTH +    + ++K N G    AL+YF R++R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|75344347|sp|O87008.1|TFTC_BURCE</Hit_id>
+  <Hit_def>RecName: Full=NADH:FAD oxidoreductase; AltName: Full=Chlorophenol-4-monooxygenase component 1; AltName: Full=Two component enzyme C [Burkholderia cepacia]</Hit_def>
+  <Hit_accession>O87008</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>6.94525e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LQKTFQT----SFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>LKKAFETVASFDFRDALSKASTPVTVVATNGPFGLAGLTCSAVCSVCDRPPTVLLCINRKSYAAGIIKSNGVLSVNWLAAGQAVISQTFAGVGSVPMEERFADKGWQTIATGAPYRMDAAVSFDCTIANIVDVGSHSVIFAEVVA-RNHAEECTPLIYHRRQY</Hsp_hseq>
+      <Hsp_midline>L+K F+T     FRDA++  +  V V+ T+G  G  G+T +AV  V D PPTV+LCINR +    I+  NG L +N LA     +++ FAG+  +  EERFA   W    TG      A       I    ++G+H V +  +   +N   +   L+Y RRQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|123340106|sp|Q0S808.1|HSAB_RHOSR</Hit_id>
+  <Hit_def>RecName: Full=Flavin-dependent monooxygenase, reductase subunit HsaB; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione 4-hydroxylase, reductase subunit; AltName: Full=Flavin:NADH reductase [Rhodococcus jostii RHA1]</Hit_def>
+  <Hit_accession>Q0S808</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>9.49662e-16</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRRQF</Hsp_qseq>
+      <Hsp_hseq>FRTVLGQFCTGVTIITTIDDGVPVGFACQSFAALSLEPPLVLFCPTKTSRSWAAIERSGIFCVNVLAEEQQSTCARF----GSRDPDKFAGIDWTESPLGSPILTGSLAHIDCSLESVHDGGDHWVAFGRVSSLSEIREERP-LLFYRGQY</Hsp_hseq>
+      <Hsp_midline>FR  +     GV +ITT       G    + A ++ EPP V+ C  +++R    +  +G  C+N+LA+E Q     F    G    ++FA   W     G   + G+LAH+   +   H+ G H+V + R+  +     +RP LL++R Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|614084443|sp|P9WND8.1|HSAB_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Flavin-dependent monooxygenase, reductase subunit HsaB; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione 4-hydroxylase, reductase subunit; AltName: Full=Flavin:NADH reductase [Mycobacterium tuberculosis CDC1551] &gt;gi|614084449|sp|P9WND9.1|HSAB_MYCTU RecName: Full=Flavin-dependent monooxygenase, reductase subunit HsaB; AltName: Full=3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione 4-hydroxylase, reductase subunit; AltName: Full=Flavin:NADH reductase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WND8</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.71846e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>SFRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRLDEIKNCGCKRPALLYFRR</Hsp_qseq>
+      <Hsp_hseq>TFRSVLGQFCTGITVITTVHDDVPVGFACQSFAALSLEPPLVLFCPTKVSRSWQAIEASGRFCVNVLTEKQKDVSARF----GSKEPDKFAGIDWRPSELGSPIIEGSLAYIDCTVASVHDGGDHFVVFGAVESLSEVPAVKPRPLLFYR</Hsp_hseq>
+      <Hsp_midline>+FR  +     G+ VITT       G    + A ++ EPP V+ C  + +R    +  +G  C+N+L ++ +DV+  F    G    ++FA   W   + G   IEG+LA++   +   H+ G HFV +  ++ +      +P  L F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2507085|sp|P54990.2|NTAB_AMIAI</Hit_id>
+  <Hit_def>RecName: Full=FMN reductase (NADH) NtaB; AltName: Full=Nitrilotriacetate monooxygenase component B; Short=NTA monooxygenase component B; Short=NTA-MO B [Aminobacter aminovorans]</Hit_def>
+  <Hit_accession>P54990</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>6.29724e-15</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>FRDAMASCAAGVHVITTDGAAGRYGITMTAVAPVTDEPPTVMLCINRSARIIPILSENGSLCINMLADEHQDVAEHFAGLTGLSPEERFAYHIWHRGKTGQLEIEGALAHLHGHIVGKHEIGTHFVFYVRL</Hsp_qseq>
+      <Hsp_hseq>FRRALGTFPTGVTIVTAPGVDGPAGVTANSFASVSLDPPLVLWSIGHTSRSHSKFQQSATFAINILADDQVGVSQVFAGGSA----DKFSLVDWHTGRTGAPLIDNALAYFDCVCEARHEGGDHTIMIGRV</Hsp_hseq>
+      <Hsp_midline>FR A+ +   GV ++T  G  G  G+T  + A V+ +PP V+  I  ++R      ++ +  IN+LAD+   V++ FAG +     ++F+   WH G+TG   I+ ALA+       +HE G H +   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
