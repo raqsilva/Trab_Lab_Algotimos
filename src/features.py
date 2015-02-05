@@ -59,7 +59,7 @@ def tabela(lista,locus):
         dado.append(locus[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado, headers)
-    df.to_csv("teste", sep='\t')
+    df.to_csv("../res/excel/teste", sep='\t')
     
     
 #return protein ID
@@ -201,7 +201,7 @@ def tabela_pseudogenes(lista,locus):
         dado.append(locus[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado, headers)
-    df.to_csv("teste_pseudogenes", sep='\t')
+    df.to_csv("../res/excel/teste_pseudogenes", sep='\t')
     
 
 #Getting genes names
@@ -310,7 +310,7 @@ def tabela_tRNA(lista,locus):
         dado.append(locus[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado, headers)
-    df.to_csv("teste_tRNA", sep='\t')
+    df.to_csv("../res/excel/teste_tRNA", sep='\t')
     
               
 
@@ -374,7 +374,7 @@ def tabela_uniprot():
             lista.append(ident[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado)
-    df.to_csv("teste_uniprot", sep='\t')
+    df.to_csv("../res/excel/teste_uniprot", sep='\t')
     
     
 def tabela_uniprot2():
@@ -387,7 +387,7 @@ def tabela_uniprot2():
         lista.append(refs[i])
     data=np.array(lista)
     df=pandas.DataFrame(data, dado)
-    df.to_csv("teste_uniprot2", sep='\t')
+    df.to_csv("../res/excel/teste_uniprot2", sep='\t')
 
 
 #Searching articles from PubMed DB referring to my organism and a gene
