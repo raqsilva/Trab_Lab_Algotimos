@@ -734,7 +734,7 @@ def menu(record):
         elif ans=="18":
             print(getfunction())
         elif ans=="19":
-           file = open("../res/blast_without_note/match/function/allhits.txt",'w')
+           file = open("../res/blast_without_note/match/allhits/allhits.txt",'w')
            lista=allhits()         
            for i in range(len(lista)):
                file.write("%s\n" % lista[i])

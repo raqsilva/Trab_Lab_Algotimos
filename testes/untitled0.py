@@ -17,41 +17,28 @@ import pandas
 import numpy as np
 import urllib.request
 import os
-def allhits():
-    lista=[]
-    handle = open("../res/blast_without_note/match/matches.txt").readlines()    
-    first = 'sp|'
-    last = '|'
-    gi=[]
-    xml='['
-    
-    
-        
-    for q in range(len(handle)):
-        lista.append([])
-        x=handle[q].split()
-        for i in range (len(x)):
-            m=x[i]
-            if 'sp|' in m:    
-                try:
-                    start = m.rindex( first ) + len( first )
-                    end = m.rindex( last, start )
-                    novo= m[start:end]
-                    lista[q].append(novo)
-                except:
-                    pass
-          
-    
-    for f in handle:
-        n = f[f.index(xml) + len(xml):] 
-        g = n.split('.xml', 1)[0]  
-        gi.append(g[1:])
-    
-    for p in range(len(lista)):
-        lista[p].append(gi[p])
-    return lista
-file = open("../res/blast_without_note/match/function/allhits.txt",'w')
-lista=allhits()         
-for i in range(len(lista)):
-        file.write("%s\n" % lista[i])
-file.close()
+
+blast=[]    
+for file in os.listdir("../res/blast_without_note/match/function/"):
+    if file.endswith(".txt"):
+           blast.append(file)
+
+lista=[]
+match=[]
+for j in range(len(blast)):
+    nome=blast[j]
+    gi = nome.replace(".txt","")
+    func='CC '
+    file = open("../res/blast_without_note/match/function/"+nome,'r') 
+    data = file.readlines()
+    for i in data:
+        if func in i:
+            function=i.replace('CC   -!- FUNCTION:', '')
+            lista.append('Gi: '+gi+'  '+'Possivel função:  '+function)
+#function to se the proteins that have possible note:   
+for n in range(len(blast)):
+    name=blast[n]
+    gis = name.replace(".txt","")
+    for k in lista:
+        if gis in k:
+            match.append(gis)
