@@ -365,6 +365,7 @@ def more_info_uniprot():
     return refs
     
 
+#creating data frame for posterior excel file
 def tabela_uniprot():
     dado=[]
     lista=[]
@@ -377,11 +378,12 @@ def tabela_uniprot():
     df=pandas.DataFrame(data, dado)
     df.to_csv("../res/excel/teste_uniprot", sep='\t')
     
-    
+
+#creating data frame for posterior excel file   
 def tabela_uniprot2():
     dado=[]
     lista=[]
-    refs=tab()
+    refs=sorting(tab())
     for i in range(len(refs)):
         dado.append(refs[i][0])
         lista.append(refs[i])
@@ -409,6 +411,16 @@ def tab():
                 lista[j].append(refs[j][g])        
     return lista
     
+
+def sorting(lista):
+    mat=[]
+    for i in range(len(ID)):
+        for j in range(len(lista)):
+            if ID[i]==lista[j][0]:
+                mat.append(lista[j])
+    return mat
+
+
 
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
@@ -630,7 +642,6 @@ def menu(record):
             print(tabela_pseudogenes(lista_pseudo,locus_pseudo))
             print(tabela_uniprot())
             print(tabela_uniprot2())
-            
         elif ans=="14":
             blastnote(filename)
         elif ans=="15":
@@ -642,7 +653,7 @@ def menu(record):
         else:
             print("\nInvalid")
 
-gimatch()
+#gimatch()
 
 def create_file():
     start=str(input(print("Insira o inicio da sua zona do genoma:")))
