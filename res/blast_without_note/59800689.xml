@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800689|ref|YP_207401.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0236 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>428</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800689|ref|YP_207401.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0236 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>428</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|189028466|sp|Q8TB92.3|HMGC2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxymethyl-3-methylglutaryl-CoA lyase, cytoplasmic; AltName: Full=3-hydroxymethyl-3-methylglutaryl-CoA lyase-like protein 1; AltName: Full=Endoplasmic reticulum 3-hydroxymethyl-3-methylglutaryl-CoA lyase; Short=er-cHL [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8TB92</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.889379</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>KVELPWFDVRFDFISYIALTEAKELHALPRLSNRCRYQIVGCTMDDHFQIAEPI---PGIRYQAFIVGIQAVSRNGLASQEELSAFNRQADAFAQSMGGQTLHTDLAAFIEV</Hsp_qseq>
+      <Hsp_hseq>KVIVP-TDIKIEFINRLSQTGLSVIEVTSFVSSRWVPQ-----MADHTEVMKGIHQYPGVRYPVLTPNLQGFHHAVAAGATEISVFGAASESFSKKNINCSIEESMGKFEEV</Hsp_hseq>
+      <Hsp_midline>KV +P  D++ +FI+ ++ T    +     +S+R   Q     M DH ++ + I   PG+RY      +Q       A   E+S F   +++F++     ++   +  F EV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|408407633|sp|D4A5C3.1|HMGC2_RAT</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxymethyl-3-methylglutaryl-CoA lyase, cytoplasmic; AltName: Full=3-hydroxymethyl-3-methylglutaryl-CoA lyase-like protein 1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>D4A5C3</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.20713</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KVELPWFDVRFDFISYIALTEAKELHALPRLSNRCRYQIVGCTMDDHFQIAEPI---PGIRYQAFIVGIQAVSRNGLASQEELSAFNRQADAFAQSMGGQTLHTDLAAFIEVASA</Hsp_qseq>
+      <Hsp_hseq>KVIVP-TDIKIEFINQLSQTGLSVIEVTSFVSSRWVPQ-----MADHAEVMGGIHQYPGVRYPVLVPNLQGLQHAVAAGATEIAVFGAASESFSKKNINCSIEESMGRFEQVISS</Hsp_hseq>
+      <Hsp_midline>KV +P  D++ +FI+ ++ T    +     +S+R   Q     M DH ++   I   PG+RY   +  +Q +     A   E++ F   +++F++     ++   +  F +V S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|162416010|sp|A0JRF5.1|ARAA_ARTS2</Hit_id>
+  <Hit_def>RecName: Full=L-arabinose isomerase [Arthrobacter sp. FB24]</Hit_def>
+  <Hit_accession>A0JRF5</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.85392</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>KPLITLKELSKVELPWFDVRFDFIS</Hsp_qseq>
+      <Hsp_hseq>KPLLHLHTQANVELPWADIDFDFMN</Hsp_hseq>
+      <Hsp_midline>KPL+ L   + VELPW D+ FDF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|380876967|sp|D3ZBP4.1|MICA1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Protein-methionine sulfoxide oxidase MICAL1; AltName: Full=Molecule interacting with CasL protein 1; Short=MICAL-1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>D3ZBP4</Hit_accession>
+  <Hit_len>1047</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.8167</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>760</Hsp_hit-from>
+      <Hsp_hit-to>805</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>SEPQTGHSAPKPADAPAKPVPVPQTPAKPLITLKELSKVELPWFDV</Hsp_qseq>
+      <Hsp_hseq>STTQSGPSSPVPPVTEASPVPSPSQPARRLIRLSSVERLRLSSLNI</Hsp_hseq>
+      <Hsp_midline>S  Q+G S+P P    A PVP P  PA+ LI L  + ++ L   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|136158|sp|P10021.1|TNPA_BACTU</Hit_id>
+  <Hit_def>RecName: Full=Transposase for transposon Tn4430 [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>P10021</Hit_accession>
+  <Hit_len>987</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.34974</Hsp_evalue>
+      <Hsp_query-from>208</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>624</Hsp_hit-from>
+      <Hsp_hit-to>814</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>QIAEPIPGIRYQAF------------IVGIQAVSRNGLASQEELSAF-----NRQADAFAQSMGGQTLHTDLAAFIEVASALDAFCARVDQTIAIHLVSPTSISGVELRSAVTGVGFVLEDDGAF----HYTDTSGST--MFSICSLNNEPFTNALLDNQSYKGFSMLLDIPHSPAGEKTFDDLFMDLAVRLSGQLNLNLVNDKMEEV</Hsp_qseq>
+      <Hsp_hseq>KMAEATPGISYRQMANASQWRMYDDAMVRAQSILVN-FQKEQKLSSYWGDGTTSSSDGMRLSIAVRSLHADSNPHYGTGKGGTIYRFVSDQLSAYHVKVITTNA----RDALHVLDGLLHHETDLKIEEHYTDTAGYTDQVFALTHLLGFRFAPRIRDLADTKLFSI-------PGGEE-----YENVQALLKGKINVKLIKENYEDI</Hsp_hseq>
+      <Hsp_midline>++AE  PGI Y+              +V  Q++  N    +++LS++        +D    S+  ++LH D             +    DQ  A H+   T+ +    R A+  +  +L  +       HYTDT+G T  +F++  L    F   + D    K FS+       P GE+     + ++   L G++N+ L+ +  E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|88911345|sp|P20701.3|ITAL_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Integrin alpha-L; AltName: Full=CD11 antigen-like family member A; AltName: Full=Leukocyte adhesion glycoprotein LFA-1 alpha chain; Short=LFA-1A; AltName: Full=Leukocyte function-associated molecule 1 alpha chain; AltName: CD_antigen=CD11a; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P20701</Hit_accession>
+  <Hit_len>1170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>4.38044</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>545</Hsp_hit-from>
+      <Hsp_hit-to>646</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LQEQDAVYIAKQKQAKASPF---KTEIETALEEIGIIGNSAHTVSEPQTGHSAPKPADAPAKPVPVPQTPAKPLITLKELSKVELPWFDVRFDFISYIALTEAKE</Hsp_qseq>
+      <Hsp_hseq>LEEQGAVYIFNGRHGGLSPQPSQRIEGTQVLSGIQWFGRSIHGVKDLEGDGLADVAVGAESQMIVLSSRPVVDMVTLMSFSPAEIPVHEVE---CSYSTSNKMKE</Hsp_hseq>
+      <Hsp_midline>L+EQ AVYI   +    SP    + E    L  I   G S H V + +    A     A ++ + +   P   ++TL   S  E+P  +V     SY    + KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81878264|sp|Q8JZS7.1|HMGC2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxymethyl-3-methylglutaryl-CoA lyase, cytoplasmic; AltName: Full=3-hydroxymethyl-3-methylglutaryl-CoA lyase-like protein 1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q8JZS7</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>8.59257</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KVELPWFDVRFDFISYIALTEAKELHALPRLSNRCRYQIVGCTMDDHFQIAEPI---PGIRYQAFIVGIQAVSRNGLASQEELSAFNRQADAFAQSMGGQTLHTDLAAFIEVASA</Hsp_qseq>
+      <Hsp_hseq>KVIVP-TDIKIELINQLSQTGLSVIEVTSFVSSRWVPQ-----MADHAEVMRGIRQYPGVRYPVLTPNLQGFQHAVAAGATEIAVFGAASESFSKKNINCSIEESMGRFQEVISS</Hsp_hseq>
+      <Hsp_midline>KV +P  D++ + I+ ++ T    +     +S+R   Q     M DH ++   I   PG+RY      +Q       A   E++ F   +++F++     ++   +  F EV S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800679|ref|YP_207391.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0226 [Neisseria]</BlastOutput_query-def>
+  <BlastOutput_query-len>140</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800679|ref|YP_207391.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0226 [Neisseria]</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|332278175|sp|Q8GUU3.2|CPS3B_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Cleavage and polyadenylation specificity factor subunit 3-II; AltName: Full=Cleavage and polyadenylation specificity factor 73 kDa subunit II; Short=AtCPSF73-II; Short=CPSF 73 kDa subunit II; AltName: Full=Protein EMBRYO SAC DEVELOPMENT ARREST 26 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8GUU3</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.847466</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>KCFCDKFPSGDTFRMCIILDDYDNRVDYYVGIYDYITSTLMSDIYYRSTID</Hsp_qseq>
+      <Hsp_hseq>KALIPSFALGRAQELCMLLDDYWERMNIKVPIYFSSGLTIQANMYYKMLIS</Hsp_hseq>
+      <Hsp_midline>K     F  G    +C++LDDY  R++  V IY     T+ +++YY+  I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|75057805|sp|Q5E9L7.1|VPS16_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Vacuolar protein sorting-associated protein 16 homolog [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E9L7</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.22052</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>KCFCDKFPSGDTFRMCIILDDYDNRVDYYVGI</Hsp_qseq>
+      <Hsp_hseq>KCFLDRFPPDSFVRMCQDLRVLNAIRDYHIGI</Hsp_hseq>
+      <Hsp_midline>KCF D+FP     RMC  L   +   DY++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|158564298|sp|Q2KHI9.2|MCM9_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=DNA helicase MCM9; AltName: Full=Mini-chromosome maintenance deficient domain-containing protein 1; AltName: Full=Minichromosome maintenance 9 [Mus musculus]</Hit_def>
+  <Hit_accession>Q2KHI9</Hit_accession>
+  <Hit_len>1134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.4656</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>QQFCLEFHHDKVIFYHNEFDEEDGYPVLSCSLHTFKTALIAWNAFLQLPKSIHSVVETVI</Hsp_qseq>
+      <Hsp_hseq>ESYVSEYHKNDILLILKERDEDAHYPVVVNAMSLFETNMEIGDYFTVFPNEVLTVFDSAL</Hsp_hseq>
+      <Hsp_midline>+ +  E+H + ++    E DE+  YPV+  ++  F+T +   + F   P  + +V ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|167016740|sp|A1S397.1|Y645_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=UPF0231 protein Sama_0645 [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S397</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.52908</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GQQFCLEFHHDK------VIFYHNEFDEEDGYPV------LSCSLHTFKTALIAWNAFL</Hsp_qseq>
+      <Hsp_hseq>GREFSLELDEEQARVYANVLGYDNQDELDDGMSLYDAELEASCGLEDLEAALQSWQAFL</Hsp_hseq>
+      <Hsp_midline>G++F LE   ++      V+ Y N+ + +DG  +       SC L   + AL +W AFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|408407691|sp|F1M5F3.2|MCM9_RAT</Hit_id>
+  <Hit_def>RecName: Full=DNA helicase MCM9; AltName: Full=Mini-chromosome maintenance deficient domain-containing protein 1; AltName: Full=Minichromosome maintenance 9 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>F1M5F3</Hit_accession>
+  <Hit_len>1124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.09619</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>QQFCLEFHHDKVIFYHNEFDEEDGYPVLSCSLHTFKTALIAWNAFLQLPKSIHSVVETVI</Hsp_qseq>
+      <Hsp_hseq>ESYVSEYHKNDILLILKERDEDAHYPLVVNAMTLFETNMEIGDYFTVFPNEVLTVFDSAL</Hsp_hseq>
+      <Hsp_midline>+ +  E+H + ++    E DE+  YP++  ++  F+T +   + F   P  + +V ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|387912921|sp|Q9NXL9.4|MCM9_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=DNA helicase MCM9; Short=hMCM9; AltName: Full=Mini-chromosome maintenance deficient domain-containing protein 1; AltName: Full=Minichromosome maintenance 9 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9NXL9</Hit_accession>
+  <Hit_len>1143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.44749</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>QQFCLEFHHDKVIFYHNEFDEEDGYPVLSCSLHTFKTALIAWNAFLQLPKSIHSVVETVI</Hsp_qseq>
+      <Hsp_hseq>ESYVSEYHKNDILLILKERDEDAHYPVVVNAMTLFETNMEIGEYFNMFPSEVLTIFDSAL</Hsp_hseq>
+      <Hsp_midline>+ +  E+H + ++    E DE+  YPV+  ++  F+T +     F   P  + ++ ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1169360|sp|P45004.1|DMSA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Dimethyl sulfoxide reductase DmsA; Short=DMSO reductase; Short=DMSOR; Short=Me2SO reductase; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45004</Hit_accession>
+  <Hit_len>806</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.84587</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>EHFKIIELIENNPNEIYDDGGGQQFCLE</Hsp_qseq>
+      <Hsp_hseq>ENTKLIVLFGNNPAETRMSGGGLTYCIE</Hsp_hseq>
+      <Hsp_midline>E+ K+I L  NNP E    GGG  +C+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|23396927|sp|Q9H269.2|VPS16_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Vacuolar protein sorting-associated protein 16 homolog; Short=hVPS16 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H269</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.86845</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>KCFCDKFPSGDTFRMCIILDDYDNRVDYYVGI</Hsp_qseq>
+      <Hsp_hseq>KCFLDRFPPDSFVHMCQDLRVLNAVRDYHIGI</Hsp_hseq>
+      <Hsp_midline>KCF D+FP      MC  L   +   DY++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|118854|sp|P04415.1|DPOL_BPT4</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase; AltName: Full=Gp43 [Enterobacteria phage T4]</Hit_def>
+  <Hit_accession>P04415</Hit_accession>
+  <Hit_len>898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.96959</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>776</Hsp_hit-from>
+      <Hsp_hit-to>863</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>IIELIENNPNEIYDDGGGQQFCLEFHHDKVIFYHNEFDEEDGYPVLSCSL---------HTFKTALIAWNAFLQLPKSIHSVVETVIE</Hsp_qseq>
+      <Hsp_hseq>IAEVKTANDIAKYDDKGWPGFKCPFHIRGVLTYRRAVSGLGVAPILDGNKVMVLPLREGNPFGDKCIAWPSGTELPKEIRSDVLSWID</Hsp_hseq>
+      <Hsp_midline>I E+   N    YDD G   F   FH   V+ Y          P+L  +          + F    IAW +  +LPK I S V + I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|342187150|sp|Q920Q4.3|VPS16_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Vacuolar protein sorting-associated protein 16 homolog; Short=mVPS16 [Mus musculus]</Hit_def>
+  <Hit_accession>Q920Q4</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.05193</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>KCFCDKFPSGDTFRMCIILDDYDNRVDYYVGI</Hsp_qseq>
+      <Hsp_hseq>KCFLDRFPPDSFVHMCQDLRVLNAIRDYHIGI</Hsp_hseq>
+      <Hsp_midline>KCF D+FP      MC  L   +   DY++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2496635|sp|P55465.1|Y4GI_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein y4gI [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55465</Hit_accession>
+  <Hit_len>909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.17754</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>CFCDKFPSGDTFRMCIILDDYDNRVDYYVGIYDYITSTLMSDIYYRSTI--DEHFKIIELIENNPNEIYDDGGGQQFCLEFHHDKVIFYHN-EFDEEDGYPVLS</Hsp_qseq>
+      <Hsp_hseq>CFCQAVAAGDLATECFAVDTWQG--DEHAGFYG-------EEIYHRVMAHNQQYVRFSRLLRKTFTEALDDIEDSSVDL-LHVDGRHFYHDVKADFENWIPKLS</Hsp_hseq>
+      <Hsp_midline>CFC    +GD    C  +D +    D + G Y         +IY+R      ++ +   L+     E  DD       L  H D   FYH+ + D E+  P LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|408407688|sp|F1N2W9.2|MCM9_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=DNA helicase MCM9; AltName: Full=Minichromosome maintenance 9 [Bos taurus]</Hit_def>
+  <Hit_accession>F1N2W9</Hit_accession>
+  <Hit_len>1139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.72498</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>QQFCLEFHHDKVIFYHNEFDEEDGYPVLSCSLHTFKTALIAWNAFLQLPKSIHSVVETVI</Hsp_qseq>
+      <Hsp_hseq>ESYVSEYHKNDILLILKERDEDAHYPVVVNAMTLFETNMEIGEYFNAFPNEVLTIFDNAL</Hsp_hseq>
+      <Hsp_midline>+ +  E+H + ++    E DE+  YPV+  ++  F+T +     F   P  + ++ +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

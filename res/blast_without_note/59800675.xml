@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800675|ref|YP_207387.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>membrane protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>77</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800675|ref|YP_207387.1|</Iteration_query-ID>
+  <Iteration_query-def>membrane protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>77</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6685718|sp|P72295.1|OCCQ_RHIML</Hit_id>
+  <Hit_def>RecName: Full=Octopine transport system permease protein OccQ [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>P72295</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.352333</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>PVLLGAYLLTAGSKTFAVASFLFAFGALFGQIGALALYLRHKSLRAAPSS</Hsp_qseq>
+      <Hsp_hseq>PDGWGSDMLRATGMTVAVASSAFTIGLVFGCLGATASFSKSLALQAAASS</Hsp_hseq>
+      <Hsp_midline>P   G+ +L A   T AVAS  F  G +FG +GA A + +  +L+AA SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|62286836|sp|Q72SP8.1|FLGI_LEPIC</Hit_id>
+  <Hit_def>RecName: Full=Flagellar P-ring protein; AltName: Full=Basal body P-ring protein; Flags: Precursor [Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130] &gt;gi|62286886|sp|Q8F2V3.1|FLGI_LEPIN RecName: Full=Flagellar P-ring protein; AltName: Full=Basal body P-ring protein; Flags: Precursor [Leptospira interrogans serovar Lai str. 56601]</Hit_def>
+  <Hit_accession>Q72SP8</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.541211</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>VLLGAYLLTAGSKTFAVASFLFAFGALFGQIGALALYLRHKSLRAAPSSSQGNR</Hsp_qseq>
+      <Hsp_hseq>VLLQSPLKTAGDKTYAVASGVISFGG------------RQEQERG--SSSRGNK</Hsp_hseq>
+      <Hsp_midline>VLL + L TAG KT+AVAS + +FG             R +  R   SSS+GN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1175380|sp|Q09708.1|YAGG_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C12G12.16c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q09708</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.89579</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>FAVASFLFAFGALFGQIGALALYLRHKSLRAAPSSSQGN</Hsp_qseq>
+      <Hsp_hseq>FPTGNFYYEIGPLLSQIGKLLFDLRSLNERDNPFHAQNN</Hsp_hseq>
+      <Hsp_midline>F   +F +  G L  QIG L   LR  + R  P  +Q N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|26394133|sp|O94744.1|GIT3_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Glucose receptor protein git3; AltName: Full=Glucose-insensitive transcription protein 3 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O94744</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>6.03249</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>RRKIYLLSVALFTLAFMLPVLLGAYLLTAGSKTF</Hsp_qseq>
+      <Hsp_hseq>RRGLYRFRHTVFTLSFVIPLTIGGLAFTNKRNTF</Hsp_hseq>
+      <Hsp_midline>RR +Y     +FTL+F++P+ +G    T    TF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

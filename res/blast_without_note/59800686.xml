@@ -1,0 +1,910 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800686|ref|YP_207398.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>outer membrane protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>175</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800686|ref|YP_207398.1|</Iteration_query-ID>
+  <Iteration_query-def>outer membrane protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>175</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2833486|sp|Q57201.1|Y1457_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1457; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57201</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.07512e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MKKALAALIALALPAAALAEGASGFYVQAD-------AAHAKASSSLGSAKGFSPRISAGYRIN-DLRFAVDYTRY----KNYKQAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLN----RASAHLGGSDSF-SKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>MKKLLIVTMLFTLALSAQAQ----WYVQGDLGASKIDITHVNSSNS----PSFTQRISVGYAFDKNFRLAVDYTNYGKVTANYADVVDVSLKGKSLGLTGFYDFDL-ADFKPYVGVRVSTNGADVTANARYYRIEAFATETRIGIGALAGVQYKLTDNVALNTNIEYNRLA-----SNVSDVGVKAGLRFSF</Hsp_hseq>
+      <Hsp_midline>MKK L   +   L  +A A+    +YVQ D         H  +S+S      F+ RIS GY  + + R AVDYT Y     NY        K  S+G +  YDFD  +  KPY G R+S N     A+A     ++F ++T  G+G LAGV Y +T NV L+    YN +       NV    + AG+R  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|129147|sp|P09888.2|OMPC_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein P.IIC; Short=Protein IIC; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P09888</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>4.29517e-16</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>AALAEGASGFYVQADAAHAKASSS------LGSAKG----------------FSPRISAGYRINDLRFAVDYTRYKNYK---------------------------QAPSTDFK-------LYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHL-----------------GGSDSFSKT--------------SAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>AASEDGGRGPYVQADLAYAAERITHDYPKPTGTGKNKISTVSDYFRNIRTHSVHPRVSVGYDFGSWRIAADYARYRKWNNNKYSVSIKELLRNDNSASGVRGHLNIQTQKTEHQENGTFHAVSSLGLSTIYDFDTGSRFKPYIGMRVAYGHVRHQVRSVEQETEIITTYPSNGGGKVSLSSKMPPKSAHHQSNSIRRVGLGVIAGVGFDITPNLTLDTGYRYHNWGRLENTR-FKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>AA  +G  G YVQAD A+A    +       G+ K                   PR+S GY     R A DY RY+ +                            Q   T+ +       + S+G S IYDFDT S  KPY G R++       +                 GG  S S                  GLGV+AGV + +TPN+ LD GYRY+  G++ N +  ++ E S G+R +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|417404|sp|Q05034.1|OPA67_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA67; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q05034</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.56094e-15</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNYK---------------------QAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSL----------------------------------NRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNNSKYSVSIKKLQNQYNKKTENQENGTFHAASSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTGFLTTAGARGAAPTVSSPYKNTQDAH---QESNSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +                      Q   T     S+G S +YDF      KPY GAR++                                   N   AH    +S S    GLGV+AGV + +TPN+ LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|417409|sp|Q04878.1|OPAE_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA55; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04878</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.00928e-15</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNY--------------KQAPSTDFK-----------LYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKTS--------------------------------AGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKELENKNQNKRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARV----AYGHVRHSIDSTKKTTKFLTSSYGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +              K     D K           + S+G S +YDF      KPY GAR+    A  H+  S DS  KT+                                 GLGV+AGV + +TP + LD GYRY+Y G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|417410|sp|Q04879.1|OPAF_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA56; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04879</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.08714e-15</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNY--------------KQAPSTDFK-----------LYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKTS--------------------------------AGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNDDKYSVDIKELENKNQNKRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARV----AYGHVRHSIDSTKKTTKFLTSSYGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +              K     D K           + S+G S +YDF      KPY GAR+    A  H+  S DS  KT+                                 GLGV+AGV + +TP + LD GYRY+Y G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|417407|sp|Q04874.1|OPAB_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA51; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04874</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>2.42985e-15</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNY--------------KQAPSTDFK-----------LYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKTS--------------------------------AGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKELENKNQNKRDLKTENQENGTFHAVSSLGLSAVYDFKLNGKFKPYIGARV----AYGHVRHSIDSTKKTTKFLTSSYGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +              K     D K           + S+G S +YDF      KPY GAR+    A  H+  S DS  KT+                                 GLGV+AGV + +TP + LD GYRY+Y G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|417415|sp|Q04880.1|OPAK_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA57; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04880</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.57418e-15</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ALAEGASGFYVQADAAHA---------------KASSSLGS-------AKGFSPRISAGYRINDLRFAVDYTRYKNYKQ----------------APSTDFK-----------LYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKTSA---------------------------------GLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>ASEDGGRGPYVQADLAYAYEHITHDYPEPTAPNKNKISTVSDYFRNIRTRSVHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVSIKELLRNKGNGNRTDLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARV----AYGHVRHSIDSTKKTTEVTTILHGPGTTPTVYPGKNTQDAHRESDSIRRVGLGAVAGVGIDITPNLTLDAGYRYHYWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>A  +G  G YVQAD A+A               K   S  S        +   PR+S GY     R A DY RY+ +                     TD K           + S+G S +YDF      KPY GAR+    A  H+  S DS  KT+                                  GLG +AGV   +TPN+ LDAGYRY+Y G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|129190|sp|P10170.1|OPR1_NEIMC</Hit_id>
+  <Hit_def>RecName: Full=Opacity-related protein POPM1 [Neisseria meningitidis serogroup C]</Hit_def>
+  <Hit_accession>P10170</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>6.98238e-15</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>AKGFSPRISAGYRINDLRFAVDYTRYKNYKQAPSTDFKLY------------------------SIGASVIYDFDTQSPVKPYFGARLSLNRASAHL---------------GGS-----------------DSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>AHSIHPRVSVGYDFGGWRIAADYASYRKWKESNFSTKKVTEEIKDNYKETKTEHQGNGSFHATSSLGLSAIYDFKLNDKFKPYIGARVAYGHVKHQVHSVETKTTTVTSKPKGGTPAGGPVIKTDPSKPPYHESHSISSLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTR-FKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>A    PR+S GY     R A DY  Y+ +K++  +  K+                         S+G S IYDF      KPY GAR++       +               GG+                 +S S +S GLGV+AGV + +TP + LD GYRY+  G++ N +  ++ E S G+R +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|417402|sp|Q04885.1|OPA65_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA65; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04885</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>8.26864e-15</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNYKQAPST------DFK------------------LYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHL-------------------GG-----------SDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWKESNSSIKKVTEDIKDNYKETKTEHQENGTFHAVSSLGLSTIYDFQISDKIKPYIGVRVGYGHVRHQVRSVGQETITVTPKPKNGTQGGPVKSTSPIPAYHENRSSRRLGFGAMAGVGIDVAPGLTLDAGYRYHYWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +K++ S+      D K                  + S+G S IYDF     +KPY G R+        +                   GG            ++ S    G G +AGV   V P + LDAGYRY+Y G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|60392865|sp|Q04882.2|OPAJ_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA58; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04882</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>9.40522e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>AALAEGASGFYVQADAAHA----------KASSSLGSAKGFS------------PRISAGYRINDLRFAVDYTRYKNYK---------------------------QAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKTSA---------------------------------GLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>AAGEDHGRGPYVQADLAYAYEHITHDYPEQTDPSKGKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVSIKELLRNKVNGNRTDRKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARV----AYGHVRHSIDSTKKTTEVTTILHGPGTTPTVYPGKNTQDAHRESDSIRRVGLGAVAGVGIDITPNLTLDAGYRYHYWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>AA  +   G YVQAD A+A          +   S G     S            PR+S GY     R A DY RY+ +                            Q   T   + S+G S +YDF      KPY GAR+    A  H+  S DS  KT+                                  GLG +AGV   +TPN+ LDAGYRY+Y G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|129222|sp|P11297.1|OP28_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein V28; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P11297</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.32887e-14</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNY--------------KQAPSTDFK-----------LYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKTS--------------------------------AGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKELENKNQNKRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARV----AYGHVRHSIDSTKKTTKFLTSSYGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +              K     D K           + S+G S +YDF      KPY GAR+    A  H+  S DS  KT+                                 GLGV+AGV + +TP + LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|417412|sp|Q04884.1|OPAH_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA60; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04884</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.3786e-14</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ALAEGASGFYVQADAAHA---------------KASSSLGS-------AKGFSPRISAGYRINDLRFAVDYTRYKNYK---------------------------QAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKT----------------------------------SAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>ASEDGGRGPYVQADLAYAYEHITHDYPEPTAPNKNKISTVSDYFRNIRTRSVHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIENVRIRKENGIRIDRKTENQENGTFHAVSSLGLSAIYDFQINDKFKPYIGARV----AYGHVRHSIDSTKKTIEVTTVPSNAPNGAVTTYNTDPKTQNDYQSNSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>A  +G  G YVQAD A+A               K   S  S        +   PR+S GY     R A DY RY+ +                            Q   T   + S+G S IYDF      KPY GAR+    A  H+  S DS  KT                                    GLGV+AGV + +TP + LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|129221|sp|P11296.1|OPAC_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA50; AltName: Full=V0; AltName: Full=opA30; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P11296</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>2.87177e-14</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>85</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>ALAEGASGFYVQADAAHAKASSSLGSAK----------------------GFSPRISAGYRINDLRFAVDYTRYKNY---------------------------KQAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLS--------------------------------LNRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>ASEDGGRGPYVQADLAYAYEHITHDYPKPTDPSKGKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWSDNKYSVSIKNMRVHKHNSNRKNLKTENQENGSFHAVSSLGLSAIYDFQINDKFKPYIGARVAYGHVRHSIDSTKKITGLLTTSTPGIMSGVYKVLRTPGAHR-ESDSIRR--VGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>A  +G  G YVQAD A+A    +    K                         PR+S GY     R A DY RY+ +                            Q   +   + S+G S IYDF      KPY GAR++                                L    AH   SDS  +   GLGV+AGV + +TP + LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|417403|sp|Q05033.1|OPA66_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA66; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q05033</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>3.22504e-14</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNYK---------------------------QAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGS-DSFSKTSA----------------------------------GLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNDSKYSVSIKNLQRRTSNGNRRDRKTENQENGSFHAVSSLGLSAVYDFKLNDKFKPYIGARV----AYGHVRHSIDSTKKTTEFLTTAGARGTDPTVSSPYKNTQDAHQESNSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +                            Q   +   + S+G S +YDF      KPY GAR+    A  H+  S DS  KT+                                   GLGV+AGV + +TPN+ LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|417408|sp|Q04883.1|OPAD_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA59; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04883</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.50917e-13</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNYK--------------------------QAPSTDFKLY-------SIGASVIYDFDTQSPVKPYFGARLSL----------------------NRASA--------HLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIKELLRNDNANSGGSHLNIKTRKTEHRENGTFHAASSLGLSAVYDFDTGSRFKPYIGMRVAYGHVRHQVRSVQQETIAVTTYPQNAASSVTTNAPIRKLPHHESRSISSLGFGAVAGVGIDITPNLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +                           +   T+ +         S+G S +YDFDT S  KPY G R++                       N AS+         L   +S S +S G G +AGV   +TPN+ LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|417405|sp|Q04881.1|OPA68_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA68; AltName: Full=opA27.5; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04881</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>2.77039e-13</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNYK---------------------------QAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGSDSFSK--TSAG-----------------------------LGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNDSKYSVSIKNLQRRTSNGNRRDRKTENQENGSFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKITQFLTTAGARGTVSTVHPPYKSTQDAHHQSDSIRRVGLGVIAGVGFGITPKLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +                            Q   +   + S+G S +YDF      KPY GAR++       +  +   ++  T+AG                             LGV+AGV + +TP + LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|60392864|sp|Q04877.2|OPAI_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA54; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04877</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.8481e-12</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>FSPRISAGYRINDLRFAVDYTRYKNYK---------------------------QAPSTDFKLY-------SIGASVIYDFDTQSPVKPYFGARL------------------------------SLNRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>IHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIKELLRNDNANSGGNKHLNIKTRKTEHRENGTFHAASSLGLSAVYDFDTGSRFKPYIGMRVAYGHVRHQVRSVQQETIAVTTYPQNAASSVTTNAPIRKLPHHESRSISSLGFGAVAGVGIDITPKLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>  PR+S GY     R A DY RY+ +                            +   T+ +         S+G S +YDFDT S  KPY G R+                              + N     L   +S S +S G G +AGV   +TP + LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1709468|sp|P45088.1|OPA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Protein opa [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45088</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>9.29828e-12</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>GYRINDLRFAVDYTRYKNYKQAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGSDSFSKTS---AGLGVLAGVSYAVTPNVDLDAGYRYNYVG-----KVNN</Hsp_qseq>
+      <Hsp_hseq>GYKVGNTRVAGDYTHH-----GKVDGTKIQGLGASVLYDFDTNSKVQPYVGARVATNQFKYTNRAEQKFKSSSDIKLGYGVVAGAKYKLDGNWYANGGVEYNRLGNFDSTKVNN</Hsp_hseq>
+      <Hsp_midline>GY++ + R A DYT +           K+  +GASV+YDFDT S V+PY GAR++ N+          F  +S    G GV+AG  Y +  N   + G  YN +G     KVNN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|417406|sp|Q04876.1|OPAA_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA53; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04876</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.37185e-11</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNY---------------------------------KQAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRAS--------------AHLGG------------SDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWNNSKYSVSIKELGRNDNSTSNSSHLNIKTQKTEHQENGTFHATSSLGLSAIYDFKLNDKFKPYIGVRVAYGHVKHQVRSVESETTTVTTHNGAPVPQGPTPKPAYHKSRSISSLGFGAVAGVGIDITPKLTLDAGYRYHNWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +                                  Q   T     S+G S IYDF      KPY G R++                    H G               S S +S G G +AGV   +TP + LDAGYRY+  G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|417411|sp|Q04875.1|OPAG_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA52; AltName: Full=opA31; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04875</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>5.8743e-11</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>PRISAGYRINDLRFAVDYTRYKNYK---------------------------------QAPSTDFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGSDSFSKTSA-------------------------------------GLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>PRVSVGYDFGGWRIAADYARYRKWHNNKYSVNIKELERKNNKTSGGDQLNIKYQKTEHQENGTFHAVSSLGLSTVYDFRVNDKFKPYIGVRVGYGHVRH---GIDSTKKTKNTLTAYHGAGTKPTYYDDIDSGKNQKNTYRQNRSSRRLGFGAMAGVGIDVAPGLTLDAGYRYHYWGRLENTR-FKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>PR+S GY     R A DY RY+ +                                  Q   T   + S+G S +YDF      KPY G R+          G DS  KT                                       G G +AGV   V P + LDAGYRY+Y G++ N +  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2495674|sp|Q57392.1|Y414_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0414 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57392</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>2.32038e-05</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>YAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVRVKF</Hsp_qseq>
+      <Hsp_hseq>YDITPNITLDLGYRYNDWGRLENVR-FKTHEASFGVRYRF</Hsp_hseq>
+      <Hsp_midline>Y +TPN+ LD GYRYN  G++ NV+  ++ E S GVR +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|81628627|sp|Q83BB2.1|Y1600_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein CBU_1600; Flags: Precursor [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83BB2</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00121669</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MKKALA-ALIALALPAAALAEGA-------SGFYVQADAAHAKASSSLGSAKGFSPRISA--GYRINDLRFAVDYTRYKNYKQAPS-TDFKLYSIGASVIYDFDTQSPVKPYFGARLSL------NRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRY</Hsp_qseq>
+      <Hsp_hseq>MKRLITLILVSLAIPPI-YAGGAVDTPFLNSGPYV---GLHGGVALPSGSDLNAGPVVGAQVGYRMGNVRIEGALSYYSNSLEANSDAKLRMTTLMANGYYDFNFNAPLVPFVGVGVGWVHAWRTNNGVLLNRGPDNNEFAYQGI---AGVSFRVSPRVTLGVDYRY</Hsp_hseq>
+      <Hsp_midline>MK+ +   L++LA+P    A GA       SG YV     H   +   GS     P + A  GYR+ ++R     + Y N  +A S    ++ ++ A+  YDF+  +P+ P+ G  +        N       G D+      G+   AGVS+ V+P V L   YRY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|129191|sp|P10171.1|OPR3_NEIMC</Hit_id>
+  <Hit_def>RecName: Full=Opacity-related protein POPM3 [Neisseria meningitidis serogroup C]</Hit_def>
+  <Hit_accession>P10171</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00243955</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>AALAEGASGFYVQADAAHA--------------KASSSLGS------AKGFSPRISAGYRINDLRFAVDYTRYKNY--------------KQAPSTDFKLY-----------SIGASVIYDFDTQSPVKPYFGARLS</Hsp_qseq>
+      <Hsp_hseq>AASEDRRSPYYVQADLAYAAERITHDYPQATGANNTSTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKELENKHNNKKDLKTENQENGTFHAASSLGLSAIYDFKLKGKFKPYIGARVA</Hsp_hseq>
+      <Hsp_midline>AA  +  S +YVQAD A+A                +S++        A    PR+S GY     R A DY  Y+ +              K     D K             S+G S IYDF  +   KPY GAR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|55977751|sp|Q56957.2|AIL_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Attachment invasion locus protein; Flags: Precursor [Yersinia pseudotuberculosis IP 32953]</Hit_def>
+  <Hit_accession>Q56957</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00428424</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>DFKLYSIGASVIYDFDTQSPVKPYFGARLSLNRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGELSAGVR</Hsp_qseq>
+      <Hsp_hseq>DFKYYSVTAGPVFRINEYVSLYGLLGAGHGKAKVSSIFGQSESRSKTSLAYG--AGLQFNPHPNFVIDASYEYS---KLDDVK-VGTWMLGAGYR</Hsp_hseq>
+      <Hsp_midline>DFK YS+ A  ++  +    +    GA     + S+  G S+S SKTS   G  AG+ +   PN  +DA Y Y+   K+++VK V +  L AG R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81523864|sp|Q8ZRJ9.1|PAGN_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein PagN; AltName: Full=Adhesin/invasin protein PagN; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZRJ9</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00480951</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>YDFDTQSPVKPYFGA-------RLSLNRASAHLGGSDSFS--KTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSGE</Hsp_qseq>
+      <Hsp_hseq>YDFHNSTAFTPYISAGVGLAHVKLSNNTIPVGFGINETLSASKNNFAWGAGIGAKYAVTDNIMIDASYKYINAGKVSISKNHYAGD</Hsp_hseq>
+      <Hsp_midline>YDF   +   PY  A       +LS N      G +++ S  K +   G   G  YAVT N+ +DA Y+Y   GKV+  KN  +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|122482335|sp|Q24UC6.1|Y2577_DESHY</Hit_id>
+  <Hit_def>RecName: Full=UPF0102 protein DSY2577 [Desulfitobacterium hafniense Y51]</Hit_def>
+  <Hit_accession>Q24UC6</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.553514</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EGASGFYVQADAAHAKASSSLGSAKGFSPRISAGYRINDLRFAVDYTRYKNYKQAPSTDFKLYSI</Hsp_qseq>
+      <Hsp_hseq>EGETIIFIEV------RTRSTGSRGWGEESITAKKRERLYRIATHYLKYRNYKEWPSLRFDLIAI</Hsp_hseq>
+      <Hsp_midline>EG +  +++        + S GS       I+A  R    R A  Y +Y+NYK+ PS  F L +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|81751057|sp|Q8FVC3.1|Y921_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein BRA0921/BS1330_II0913; Flags: Precursor [Brucella suis 1330]</Hit_def>
+  <Hit_accession>Q8FVC3</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.00339</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LYSIGASVIYDFDTQSPVKPYFGARL-------------SLNRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRY</Hsp_qseq>
+      <Hsp_hseq>VWTAMANAYVDLPRVGPLTPYLGAGIGAAYVKYDTWKTSEICPTCTLQSDKDGFDSWRFAMALMAGVSYDLTDQLKLDLGYRY</Hsp_hseq>
+      <Hsp_midline>+++  A+   D     P+ PY GA +              +          D F      + ++AGVSY +T  + LD GYRY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|75495788|sp|Q579D9.1|Y312_BRUAB</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein BruAb2_0312; Flags: Precursor [Brucella abortus bv. 1 str. 9-941] &gt;gi|123545435|sp|Q2YIU6.1|Y314_BRUA2 RecName: Full=Uncharacterized protein BAB2_0314; Flags: Precursor [Brucella abortus 2308]</Hit_def>
+  <Hit_accession>Q579D9</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.02195</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LYSIGASVIYDFDTQSPVKPYFGARL-------------SLNRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRY</Hsp_qseq>
+      <Hsp_hseq>VWTAMANAYVDLPRVGPLTPYLGAGIGAAYVKYDTWKTSEICPTCTLQSDKDGFDSWRFAMALMAGVSYDLTDQLKLDLGYRY</Hsp_hseq>
+      <Hsp_midline>+++  A+   D     P+ PY GA +              +          D F      + ++AGVSY +T  + LD GYRY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|81850644|sp|Q8YD01.1|Y376_BRUME</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein BMEII0376; Flags: Precursor [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>Q8YD01</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.04085</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LYSIGASVIYDFDTQSPVKPYFGARL-------------SLNRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRY</Hsp_qseq>
+      <Hsp_hseq>VWTAMANAYVDLPRVGPLTPYLGAGIGAAYVKYDTWKTSEICPTCTLQSDKDGFDSWRFAMALMAGVSYDLTDQLKLDLGYRY</Hsp_hseq>
+      <Hsp_midline>+++  A+   D     P+ PY GA +              +          D F      + ++AGVSY +T  + LD GYRY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|254803800|sp|B8FRJ6.1|Y3740_DESHD</Hit_id>
+  <Hit_def>RecName: Full=UPF0102 protein Dhaf_3740 [Desulfitobacterium hafniense DCB-2]</Hit_def>
+  <Hit_accession>B8FRJ6</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.6071</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EGASGFYVQADAAHAKASSSLGSAKGFSPRISAGYRINDLRFAVDYTRYKNYKQAPSTDFKLYSI</Hsp_qseq>
+      <Hsp_hseq>EGETIIFIEV------RTRSTGSRGWGEESITAKKRERLYRIATHYLKFRNYKEWPSLRFDLIAI</Hsp_hseq>
+      <Hsp_midline>EG +  +++        + S GS       I+A  R    R A  Y +++NYK+ PS  F L +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|3914204|sp|Q45335.1|OM25_BRUO2</Hit_id>
+  <Hit_def>RecName: Full=25 kDa outer-membrane immunogenic protein; Flags: Precursor [Brucella ovis ATCC 25840]</Hit_def>
+  <Hit_accession>Q45335</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.62286</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>SIGASVIYDFDTQSPVKPYF-----GARLSLNRASAHLGGSDSFSKTSAGLGVLAGVSYAVTPNVDLDAGYRYNYVGKVNNVKNVRSG</Hsp_qseq>
+      <Hsp_hseq>SLRARVGYDLN---PVMPYLTAGIAGSQIKLNN------GLDDESKFRVGWTAGAGLEAKLTDNILGRVEYRYTQYGNKLDTQDIRVG</Hsp_hseq>
+      <Hsp_midline>S+ A V YD +   PV PY      G+++ LN       G D  SK   G    AG+   +T N+     YRY   G   + +++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

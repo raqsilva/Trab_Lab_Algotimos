@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800683|ref|YP_207395.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>Trk system potassium uptake protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>485</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800683|ref|YP_207395.1|</Iteration_query-ID>
+  <Iteration_query-def>Trk system potassium uptake protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>485</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|678019069|sp|E1V6C5.1|TRKH_HALED</Hit_id>
+  <Hit_def>RecName: Full=Trk system potassium uptake protein TrkH [Halomonas elongata DSM 2581]</Hit_def>
+  <Hit_accession>E1V6C5</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>3.83893e-122</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>IAHVLSRLGMLFSFILLIPAALSYAFSDGAYTAFATTATVTLSGSCIVRLATLRFRRELRPRDGFTLVLMLWLAFAAMAAMPMYLY-FPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIGYYNSPLIEAVIIVFTIFGGINFASHFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLFKFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWKK</Hsp_qseq>
+      <Hsp_hseq>ILRILGLLLMMFSLTMVPPILISLLFADGMWQAFVVALGITVGTGALMYLPNRHARKELRTRDGFLIAALFWSVLGLFGSLPLMLTGAAALSPTDAVFESFSGLTTTGATVITGIDLLPEAILYYRQQLQWLGGMGIVVLAVAILPTLGVGGMALYRTEIPGPLKDSKLTPRITETAKALWYIYATLTVTCALAYMAAGMNWFDALGHSFSTVAIGGFSTHDASIGYFDSAAIELICSAFLLISAFSFSLHFVAWRERRLTHYFQDPEARFLMLFLAGLIIITSVSLWLTSDYETL-QGLRHAVFEVVSIATTAGFSVADFSTWPGALPFLLFVAAFVGGCSGSTGGGMKVIRIILILKQGMREVMRLIHPSAVIAVKIGKVSVPDGIAQAVWGFFSAYVLLFFLMLVGVMATGVDQVTAWSTVGATLNNLGPALGEA--SAHYGDLPSLAKWILVVAMLLGRLEIFTVVVLFTPAFWRK</Hsp_hseq>
+      <Hsp_midline>I  +L  L M+FS  ++ P  +S  F+DG + AF     +T+    ++ L     R+ELR RDGF +  + W       ++P+ L     +  TDA FES SGLTTTGATVI  +D L  ++ ++R  L WLGGMGI+VLAVAILP LGVGG  L++ EIPG  K+SK++PRI++ AK LW+ Y  +T+  A     AGM WFDA+ H+ +T+++GGFSTHDASIGY++S  IE +   F +    +F+ HF A   R L  Y++D E R ++L L+G I+ +++ LW T  Y    + LR+  F  VSI    G S  DF+ WP  +   +F  A +   SGSTGGG+K IR +++ K  +RE+M L+HP AV  VKI   ++PD +A  V  F   Y +   L    +MA+G++  TA++ V A + N GP LGE   + +Y  L  + KWI V AMLLGRLEIFTV +LFTPA+W+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|17865681|sp|Q9L6L2.1|TRKH_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Trk system potassium uptake protein TrkH [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q9L6L2</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>1.05941e-116</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>IAHVLSRLGMLFSFILLIPAALSYAFSDGAYTAFATTATVTLSGSCIVRLATLRFRRELRPRDGFTLVLMLWLAFAAMAAMP-MYLYFPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIGYYNSPLIEAVIIVFTIFGGINFASHFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLFKFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWKK</Hsp_qseq>
+      <Hsp_hseq>ITRIVGLLVILFSGTMILPGLVALIYRDGAGRAFTQTFFVALAIGSILWWPNRREKGELKSREGFLIVVLFWTVLGSVGALPFIFSESPNLTITDAFFESFSGLTTTGATTLVGLDSLPHAILFYRQMLQWFGGMGIIVLAVAILPILGVGGMQLYRAEMPGPLKDNKMRPRIAETAKTLWLIYVLLTVACALALWFAGMPAFDAIGHSFSTIAIGGFSTHDASVGYFDSPTINTIIAIFLLISGCNYGLHFSLLSGRSLKVYWRDPEFRMFIGVQLTLVVICTLVLWFHNIYDSALTTLNQAFFQVVSMATTAGFTTDSIARWPLFLPVLLLCSAFIGGCAGSTGGGLKVIRILLLFKQGNRELKRLVHPNAVYSIKLGNRALPERILEAVWGFFSAYALVFIVSMLAIIATGVDDFSAFASVVATLNNLGPGLGVV--ADNFASMNPVAKWILIANMLFGRLEVFTLLVLFTPTFWRE</Hsp_hseq>
+      <Hsp_midline>I  ++  L +LFS  +++P  ++  + DGA  AF  T  V L+   I+     R + EL+ R+GF +V++ W    ++ A+P ++   PN+  TDAFFES SGLTTTGAT +  +D L  ++ F+R ML W GGMGIIVLAVAILP+LGVGG QL++AE+PG  K++KM PRI++ AK LW  Y L+T+  A  L FAGM  FDA+ H+ +T+++GGFSTHDAS+GY++SP I  +I +F +  G N+  HF+ L+ RSLK YW+D E R  + +    ++   L LW    Y     +L    F  VS+    G +    A+WPL + + +   A I   +GSTGGG+K IR L+LFK   RE+  L+HP AV ++K+  +A+P+R+   V  F   Y +  ++    ++A+G++  +AF +V+A + N GPGLG V  A N+A ++ + KWI +  ML GRLE+FT+ +LFTP +W++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|84029191|sp|P0AFZ8.1|TRKH_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Trk system potassium uptake protein TrkH [Escherichia coli O157:H7] &gt;gi|84029192|sp|P0AFZ7.1|TRKH_ECOLI RecName: Full=Trk system potassium uptake protein TrkH [Escherichia coli K-12] &gt;gi|84029193|sp|P0AFZ9.1|TRKH_SHIFL RecName: Full=Trk system potassium uptake protein TrkH [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFZ8</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>5.67134e-116</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>IAHVLSRLGMLFSFILLIPAALSYAFSDGAYTAFATTATVTLSGSCIVRLATLRFRRELRPRDGFTLVLMLWLAFAAMAAMP-MYLYFPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIGYYNSPLIEAVIIVFTIFGGINFASHFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLFKFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWKK</Hsp_qseq>
+      <Hsp_hseq>ITRIVGLLVILFSGTMIIPGLVALIYRDGAGRAFTQTFFVALAIGSMLWWPNRKEKGELKSREGFLIVVLFWTVLGSVGALPFIFSESPNLTITDAFFESFSGLTTTGATTLVGLDSLPHAILFYRQMLQWFGGMGIIVLAVAILPILGVGGMQLYRAEMPGPLKDNKMRPRIAETAKTLWLIYVLLTVACALALWFAGMDAFDAIGHSFATIAIGGFSTHDASIGYFDSPTINTIIAIFLLISGCNYGLHFSLLSGRSLKVYWRDPEFRMFIGVQFTLVVICTLVLWFHNVYSSALMTINQAFFQVVSMATTAGFTTDSIARWPLFLPVLLLCSAFIGGCAGSTGGGLKVIRILLLFKQGNRELKRLVHPNAVYSIKLGNRALPERILEAVWGFFSAYALVFIVSMLAIIATGVDDFSAFASVVATLNNLGPGLGVV--ADNFTSMNPVAKWILIANMLFGRLEVFTLLVLFTPTFWRE</Hsp_hseq>
+      <Hsp_midline>I  ++  L +LFS  ++IP  ++  + DGA  AF  T  V L+   ++     + + EL+ R+GF +V++ W    ++ A+P ++   PN+  TDAFFES SGLTTTGAT +  +D L  ++ F+R ML W GGMGIIVLAVAILP+LGVGG QL++AE+PG  K++KM PRI++ AK LW  Y L+T+  A  L FAGM  FDA+ H+ AT+++GGFSTHDASIGY++SP I  +I +F +  G N+  HF+ L+ RSLK YW+D E R  + +    ++   L LW    Y+    ++    F  VS+    G +    A+WPL + + +   A I   +GSTGGG+K IR L+LFK   RE+  L+HP AV ++K+  +A+P+R+   V  F   Y +  ++    ++A+G++  +AF +V+A + N GPGLG V  A N+  ++ + KWI +  ML GRLE+FT+ +LFTP +W++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81728830|sp|Q87TN7.1|TRKH_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Trk system potassium uptake protein TrkH [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87TN7</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.028</Hsp_bit-score>
+      <Hsp_score>850</Hsp_score>
+      <Hsp_evalue>2.7251e-106</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>482</Hsp_align-len>
+      <Hsp_qseq>IAHVLSRLGMLFSFILLIPAALSYAFSDGAYTAFATTATVTLSGSCIVRLATLRFRRELRPRDGFTLVLMLWLAFAAMAAMPMYLY-FPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIGYYNSPLIEAVIIVFTIFGGINFASHFAALNSRSL--KTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLFKFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWKK</Hsp_qseq>
+      <Hsp_hseq>IIRIVGLLLALFSVTMLAPALVALLYRDGAGVPFVTTFFVLLFCGAMCWFPNRRHKHELKSRDGFLIVVLFWTVLGSAGSLPFLIADNPNISVTDAFFESFSALTTTGATVIVGLDELPKAILFYRQFLQWFGGMGIIVLAVAILPVLGIGGMQLYRAEIPGPVKDTKMTPRIAETAKALWYIYLSLTIACAVAFWLAGMTPFDAISHSFSTIAIGGFSTHDASMGYFDSYAINLITVVFLLISACNFTLHFAAFASGGVHPKYYWKDPEFRAFIFIQVLLFLVCFLLLLKHHSYTSPYDAFDQALFQTVSISTTAGFTTTGFADWPLFLPVLLLFSSFIGGCAGSTGGGMKVIRILLLTLQGARELKRLVHPRAVYTIKVGGSALPQRVVDAVWGFFSAYALVFVVCMLGLIATGMDELSAFSAVAATLNNLGPGLGEV--ALHFGDVNDKAKWVLIVSMLFGRLEIFTLLILLTPTFWRS</Hsp_hseq>
+      <Hsp_midline>I  ++  L  LFS  +L PA ++  + DGA   F TT  V L    +      R + EL+ RDGF +V++ W    +  ++P  +   PN+  TDAFFES S LTTTGATVI  +D L  ++ F+R  L W GGMGIIVLAVAILP+LG+GG QL++AEIPG  K++KM+PRI++ AK LW+ Y  +TI  A     AGM  FDA+ H+ +T+++GGFSTHDAS+GY++S  I  + +VF +    NF  HFAA  S  +  K YWKD E R  + +     L   L L     Y    ++     F  VSI    G + T FA WPL + + + F + I   +GSTGGG+K IR L+L     RE+  L+HP+AV T+K+ G A+P R+   V  F   Y +  V+    L+A+GM+  +AF+AV A + N GPGLGEV  A ++  ++   KW+ + +ML GRLEIFT+ IL TP +W+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|136239|sp|P23849.1|TRKG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Trk system potassium uptake protein TrkG [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P23849</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>7.79321e-105</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>423</Hsp_align-len>
+      <Hsp_qseq>ELRPRDGFTLVLMLWLAFAAMAAMPMYLYFP-NMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIGYYNSPLIEAVIIVFTIFGGINFASHFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLFKFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWKK</Hsp_qseq>
+      <Hsp_hseq>QLRTRDGFIIIVMFWILFSVISAFPLWIDSELNLTFIDALFEGVSGITTTGATVIDDVSSLPRAYLYYRSQLNFIGGLGVIVLAVAVLPLLGIGGAKLYQSEMPGPFKDDKLTPRLADTSRTLWITYSLLGIACIVCYRLAGMPLFDAICHGISTVSLGGFSTHSESIGYFNNYLVELVAGSFSLLSAFNFTLWYIVISRKTIKPLIRDIELRFFLLIALGVIIVTSFQVWHIGMYDLHG-SFIHSFFLASSMLTDNGLATQDYASWPTHTIVFLLLSSFFGGCIGSTCGGIKSLRFLILFKQSKHEINQLSHPRALLSVNVGGKIVTDRVMRSVWSFFFLYTLFTVFFILVLNGMGYDFLTSFATVAACINNMGLGFG--ATASSFGVLNDIAKCLMCIAMILGRLEIYPVIILFSGFFWRS</Hsp_hseq>
+      <Hsp_midline>+LR RDGF +++M W+ F+ ++A P+++    N+ F DA FE +SG+TTTGATVI  V  L  +  ++R  LN++GG+G+IVLAVA+LP+LG+GG +L+++E+PG  K+ K++PR++  ++ LW  Y+L+ I    C   AGM  FDA+CH ++T+SLGGFSTH  SIGY+N+ L+E V   F++    NF   +  ++ +++K   +D E R  LL+  G I+ ++  +WH G Y   G S  ++ F   S+   NGL+  D+A WP    +++   +      GST GGIK++R L+LFK S  E+  L HP+A+ +V + GK + DR+  +V SF F+Y +  V F  +L   G +F T+F  V ACI N G G G    A ++  L+ + K +   AM+LGRLEI+ V ILF+  +W+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3915891|sp|P44843.2|TRKH_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Trk system potassium uptake protein TrkH [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44843</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>4.27317e-99</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>478</Hsp_align-len>
+      <Hsp_qseq>MLFSFILLIPAALSYAFSDGAYTAFATTATVTLSGSCIVRLATLRFRRELRPRDGFTLVLMLWLAFAAMAAMPMYLY-FPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIGYYNSPLIEAVIIVFTIFGGINFASH---FAALNSRSL-KTYWKDEECR---TMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLFKFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWKK</Hsp_qseq>
+      <Hsp_hseq>MCFSGTMLVPAFVALIYGDGGGKAFMQAFMLSLIAGTLLWWPCHHHKQELRSRDGFLIVVAFWLVLGSLATLPLLLFDSPHLTIASAVFEAFSGLTTTGATVMTGLDNLPKSILFYRQFLQWLGGMGIIVLAVAIIPLLGIGGTQLYRAESSGPLKDQKSLPKISEVAKALWIIYASLTVLCAIAYWLSGMNLFDAIGHSFSTISNGGFSTHDASIGYFNQASIYWVTTIFMLIGGVNFSLHISAFLALGKRNIWRNYWKDPEFRFFLTMQIIFIGIV---SLSLYGYGLVSDINEAVTKGALQLTSMSMTAGYTIFDIDNLPPFIGLLLVISAVIGGCGGSTTGGLKAIRTLILWKQIDRELHSLIHPNLVQPIRIGKNRLAPRMIESIWAFFIIFILVYWGCVFAVILCGMNTFDAMGAVFATLTNAGPGLGFIHES--FIGVPESAKLVFSFAMICGRLEMFSLIVLFIPSYWKK</Hsp_hseq>
+      <Hsp_midline>M FS  +L+PA ++  + DG   AF     ++L    ++       ++ELR RDGF +V+  WL   ++A +P+ L+  P++    A FE+ SGLTTTGATV+  +D L  S+ F+R  L WLGGMGIIVLAVAI+P+LG+GGTQL++AE  G  K+ K  P+IS+VAK LW  Y  +T+L A     +GM  FDA+ H+ +T+S GGFSTHDASIGY+N   I  V  +F + GG+NF+ H   F AL  R++ + YWKD E R   TM ++  G +   +L L+  G  +   E++   A    S+ +  G +  D    P  I L +   A I    GST GG+K IR L+L+K   RE+  L+HP  V+ ++I    +  R+  ++ +F  I+ +      F ++  GM    A  AV A +TNAGPGLG +  +  + G+    K +   AM+ GRLE+F++ +LF P+YWKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|678019076|sp|E1V6K4.1|TRKI_HALED</Hit_id>
+  <Hit_def>RecName: Full=Trk system potassium uptake protein TrkI [Halomonas elongata DSM 2581]</Hit_def>
+  <Hit_accession>E1V6K4</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>2.32218e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>490</Hsp_align-len>
+      <Hsp_qseq>MHKILPIAHVLSRLGMLFSFILLIPAALSYAFSDGAYTAFATTATVTLSGSCIVRLATLRFRRELRPRDGFTLVLMLWLAFAAMAAMPMYLYFPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIG-YYNSPLIEAVIIVFTIFGGINFASHFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIR---ALVLFKFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGE-VGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWKK</Hsp_qseq>
+      <Hsp_hseq>LRRWAPILKVLAVLWLVLAIFMAIPLLVLIVESEPDALAFGLSIAIVLAAATLSWIVTWRIPVSLKPWQMFVLTTLSWVTISSFASLPLVLGAPQLSLTNAVFESVSAITTTGSTILVHIEDLSDGLKLWRGIMQWLGGIGIIVMGIAILPFLKVGGMRLFHTE--SSDWSDKVMPRTGGIAKATLSIYCGFTLLAAMAYYLGGMSPLDAVVHAMTSLATGGFANSDASFGAYAEQPQLLWMGSLFMLCGALPFVLYIRFLRGSRMALL-RDQQVQGLLLLLLLVILALT--IWRVSQGTPAFTSLTQVTFNVVSVVTTTGYASDDYSAWGATAYVAFFYLTFVGGCSGSTSGGMKIFRFQVAMLLLRDQLR---YLIHASGVFVSRYNNQPLTDDITRGVVAFSFFFFLTVAGLALGLSLLGLDFTTALSGAATAVANVGPGLGETIGPAGNFAPLPDAAKWLLCVGMLMGRLEILTVLVLLTPMFWRQ</Hsp_hseq>
+      <Hsp_midline>+ +  PI  VL+ L ++ +  + IP  +    S+    AF  +  + L+ + +  + T R    L+P   F L  + W+  ++ A++P+ L  P +  T+A FES+S +TTTG+T++ H++ L+  +  WR ++ WLGG+GIIV+ +AILP L VGG +LF  E    D   K+ PR   +AK     Y   T+LAA   +  GM   DAV HA+ +L+ GGF+  DAS G Y   P +  +  +F + G + F  +   L    +    +D++ + +LLLL   ILA    +W          SL    FN VS+    G ++ D++ W     +  F+L  +   SGST GG+K  R   A++L +  LR    L+H   V   + + + + D +   V++F F +F+TV   +  L   G++FTTA +     + N GPGLGE +GPAGN+A L    KW+    ML+GRLEI TV +L TP +W++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|38372551|sp|Q58880.1|Y1485_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized cation transporter MJ1485 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58880</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>2.60569e-29</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>431</Hsp_align-len>
+      <Hsp_qseq>RRELRPRD---GFTLVL--MLWLAFAAMAAMPMYLYFPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHALATLSLGGFSTHDASIGYYNSPLIEAVIIVFTIFGGI-NFASHFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLFKFSLREMMVLLHPK-AVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGME-FTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRLEIFTVFILFTPAYWK</Hsp_qseq>
+      <Hsp_hseq>KRATKPKNLKLHHTMVASALAWLIASFIGAIPLYLSIDYFSYVDAVYESMSAWTTTGMTLIPNVEVLPKSILFWRSFQQWIGGVGILVLSALVLARSGTVAYLLYTSE---ARQERIMPSAIGTIKTIIWI-YILYTILGVLLLYLSGLSFWDALNLTMTGISTGGMSISNYSFPY--NDFAKIVMIGIMMVGGVMSFSIHHKLLTGK----YFNDIQTKYALI-----VTAFISIIISIKDKVPIIDSL----FTVVSAMTSTGFTTINVGNLSSLSLFLIIFLMLIGGGAGTTTGGVKIIRFLVILKALLYEIKEIIYPKSAVIHEHLDDMDLNYRIIREAFVVFFLYCLSSFLTALIFIALGYNPYDSIFDAV-SFTSNIGISLGVVT-----LKTPVIGKIAGIIAMWIGRLEIIPVLVLFATLYFK</Hsp_hseq>
+      <Hsp_midline>+R  +P++     T+V   + WL  + + A+P+YL      + DA +ESMS  TTTG T+IP+V+ L  S+ FWR    W+GG+GI+VL+  +L   G     L+ +E     +E  M   I  +   +W  Y L TIL    L+ +G+ ++DA+   +  +S GG S  + S  Y  +   + V+I   + GG+ +F+ H   L  +    Y+ D + +  L+     + A    +          +SL    F  VS   + G +  +      L    + FL  I   +G+T GG+K IR LV+ K  L E+  +++PK AV    +    +  R+        F+Y ++  L + + +A G   + + F AV +  +N G  LG V          V+ K   + AM +GRLEI  V +LF   Y+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81342139|sp|O32081.1|KTRB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Ktr system potassium uptake protein B; Short=K(+)-uptake protein KtrB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32081</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00301749</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>AAMAAMPMYLYFPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHM---LNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQV---AKKLWFGYTLITILAAACLHF---AGMGW----FDAVCHALATLSLGGFST-HDASIGYYNSPLIEAVIIVFTIFGGINFASHFAALNSRSLKTYWKDEECRTMLLLLSGSILASAL</Hsp_qseq>
+      <Hsp_hseq>AVLLMLPISTTKP-LSWIDALFTAASATTVTGLAV---VDTGTQFTVFGQTVIMGLIQIGGLGFMTFAVLIVMILG----KKIGLKERMLVQEALNQPTIGGVIGLVKVLFLFSISIELIAALILSIRLVPQYGWSSGLFASLFHAISAFNNAGFSLWPDNLMSYVGDPTVNLVITFLFITGGIGFTVLFDVMKNRRFKTFSLHTK-----LMLTGTLMLNAI</Hsp_hseq>
+      <Hsp_midline>A +  +P+    P + + DA F + S  T TG  V   VD       F + +   L  +GG+G +  AV I+ +LG    +    +   + +E+   P I  V    K L+     I ++AA  L        GW    F ++ HA++  +  GFS   D  + Y   P +  VI    I GGI F   F  + +R  KT+    +     L+L+G+++ +A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81341916|sp|O31658.1|KTRD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Ktr system potassium uptake protein D; Short=K(+)-uptake protein KtrD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31658</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0434453</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>473</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>FTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVGGTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFAGMGWFDAVCHA--------LATLSLGGFS-THDASIGYYNSPLIEAVIIVFTIFGGINFAS-------HFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLANGLSNTDFAQWPLLISLWMFFLANIL---ASSGSTGGGIKT----IRALVLFKFSLREMMVLLHPKAVRTVK--ISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPA-GNYAGLDVMQKWICVTAMLLGRLEIFT</Hsp_qseq>
+      <Hsp_hseq>FIDALFTAVSSVSVTGLTVVDTADTFSTIGIFILAFVLQFGGIGIMTLGTFIWLIMG-KRIGLKERKLIMVDQNQSQFSGIVNLMKQVLFLILWIEFFGGLILGTYFLTYYDSYQEAYLHGFFASISATTNGGFDITGNSMIPFRHDYFVQFITMLLIIFGAIGFPVLVEVKDFLFSKHRRYPFTLFTKITTITFGSLVLFGAIGIFALEANHAFAGKSWHDILFLSLFQSTATR-SGGLATIDISQ---LSDSTLFFICALMFIGASPSSVGGGIRTTTFALNLLALFHFARGN-------KAVKVFKRELHPADLMKSLVVTMMAILLVFGATLIL-----------TITEKHSLLELLFEVCSAFGTTGLSLGITADLSSVGKCVIMIVMFIGRIGILT</Hsp_hseq>
+      <Hsp_midline>F DA F ++S ++ TG TV+   D  +    F    +   GG+GI+ L   I  ++G     L + ++  +D+       I  + K++ F    I       L    + ++D+   A        ++  + GGF  T ++ I + +   ++ + ++  IFG I F          F+         + K        L+L G+I   AL   H      + + L  + F   +   + GL+  D +Q   L    +FF+  ++   AS  S GGGI+T    +  L LF F+          KAV+  K  +    +   L +T+M+ + ++  T++L             T   +++  +       G  G + G  A L  + K + +  M +GR+ I T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75339341|sp|Q4PT23.1|WTR6_ARATH</Hit_id>
+  <Hit_def>RecName: Full=WAT1-related protein At1g25270 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q4PT23</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.65458</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>LRFRRELRPRDGFTLVLMLWLAFAAMAAMPMYLYFPNMGFTDAFFESMSGLTTTGATVI</Hsp_qseq>
+      <Hsp_hseq>LIFQRKKRPEFTWRLLLLAFVSGLLGAAIPNILYLPGMARTSATFSAASSIISPLITLV</Hsp_hseq>
+      <Hsp_midline>L F+R+ RP   + L+L+ +++    AA+P  LY P M  T A F + S + +   T++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|187608895|sp|P18894.3|OXDA_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=D-amino-acid oxidase; Short=DAAO; Short=DAMOX; Short=DAO [Mus musculus]</Hit_def>
+  <Hit_accession>P18894</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>5.34438</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>THDASIGYYNSPLIEAVIIVFTIFGGINFASHFAALNS-RSLKTYWK</Hsp_qseq>
+      <Hsp_hseq>THDPSLGIYNSPYIIPGSKTVTL-GGIFQLGNWSGLNSVRDHNTIWK</Hsp_hseq>
+      <Hsp_midline>THD S+G YNSP I       T+ GGI    +++ LNS R   T WK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|75344693|sp|O87953.1|KTRB_VIBAL</Hit_id>
+  <Hit_def>RecName: Full=Ktr system potassium uptake protein B; Short=K(+)-uptake protein KtrB [Vibrio alginolyticus]</Hit_def>
+  <Hit_accession>O87953</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>8.09317</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>RPRDGFTLVLMLWLAFAAMAAMPMYLYFPNMGFTDAFFESMSGLTTTGATVIPHVDGLAPSVNFWRHMLNWLGGMGIIVLAVAILPMLGVG---GTQLFKAEIPGIDKESKMSPRISQVAKKLWFGYTLITILAAACLHFA--------GMGW----FDAVCHALATLSLGGFST-HDASIGYYNSPLIEAVIIVFTIFGGINFAS------------HFAALNSRSLKTYWKDEECRTMLLLLSGSILASALYLWHTGHYAGFGESLRYTAFNFVSIGLAN-GLSNTDFAQWPLLISLWMFFLANILASSGSTGGGIKTIRALVLF----KFSLREMMVLLHPKAVRTVKISGKAIPDRLALTVMSFIFIYFMTVVLFSFLLMASGMEFTTAFTAVIACITNAGPGLGEVGPAGNYAGLDVMQKWICVTAMLLGRL</Hsp_qseq>
+      <Hsp_hseq>EPRIILLSFLGVLLPSAVLLTLPVF-SVSGLSITDALFTATSAISVTGLGVVDTGQHFTLAGKILLMCLMQIGGLGQMTLSAVLLYMFGVRLSLRQQALAKEALGQERQVNLRRLVKKI---------VTFALVAEAIGFVFLSYRWVPEMGWQTGMFYALFHSISAFNNAGFALFSDSMMSFVNDPLVSFTLAGLFIFGGLGFTVIGDVWRHWRKGFHFLHIHTKIML-------IATPLLLLVGTVLFWLLERHNPNTMGSLTTGGQWLAAFFQSASARTAGFNSVDLTQFTQPALLIMIVLMLIGAGSTSTGGGIKVSTFAVAFMATWTFLRQKKHVVMFKRTV-----NWPTVTKSLAIIVVSG---AILTTAMF-LLMLTEKASFDKVMFETISAFATVGL------TAGLTAELSEPGKYIMIVVMIIGRI</Hsp_hseq>
+      <Hsp_midline> PR      L + L  A +  +P++     +  TDA F + S ++ TG  V+        +       L  +GG+G + L+  +L M GV      Q    E  G +++  +   + ++         +   L A  + F          MGW    F A+ H+++  +  GF+   D+ + + N PL+   +    IFGG+ F              HF  ++++ +          T LLLL G++L   L   +           ++ A  F S      G ++ D  Q+     L M  L  I A S STGGGIK     V F     F  ++  V++  + V     +   +   LA+ V+S      +T  +F  L++     F       I+     G        AG  A L    K+I +  M++GR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1993 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800669|ref|YP_207381.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>iron ABC transporter permease [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>509</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800669|ref|YP_207381.1|</Iteration_query-ID>
+  <Iteration_query-def>iron ABC transporter permease [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>509</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2501372|sp|P71338.2|FBPB2_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Fe(3+)-transport system permease protein FbpB 2; AltName: Full=Iron(III)-transport system permease protein FbpB 2 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P71338</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>688.723</Hsp_bit-score>
+      <Hsp_score>1776</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>509</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>419</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>507</Hsp_align-len>
+      <Hsp_qseq>PKKIPIWLTGLILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIFRGKAKIYHSGKGVARPYPVKTLKLPGQIGAIVFLSSLLILGIIIPFGVLIHWMMVGTS----GTFALVSVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVLFSGIPVFLLKKYAFK</Hsp_qseq>
+      <Hsp_hseq>PRRPPFWLTLLIILIGLPLCLPFLYVILRATEVGLTRSVELLFRPRMAELLSNTMLLMVCVTIGAISLGTFCAFLLERYRFFGKAFFEVAMTLPLCIPAFVSGFTWISLTFRVEVFWGTIGIMTLSSFPLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYAISPQLKPAIGSSILLIALHMLVEFGAVSILNYQTFTTAIFQEYEMSFNNSTAALLSAVLMAICILIVFGEIFFRGKQTLYHSGKGVTRPYLVKTLSFGKQCLTFGFFSSIFILSIGVPVIMLIYWLIVGTSLESAGDFS--EFLSAFSNSFIISGLGALLTVMCALPLVWAAVRYRSYLTIWIDRLPYLLHAVPGLVIALSLVYFSIHYANDLYQTFFVIIIAYFMLYLPMAQTTLRASLEQLSDQIEKVGQSLGRNPFYIFRTLTLPAILPGVAAAFALVFLNLMKELTATLLLTSNDIKTLSIAVWEHTSDAQYAAATPYALMLVLFSGIPVFLLKKYAFK</Hsp_hseq>
+      <Hsp_midline>P++ P WLT LI+LI LPL LPFLYV +R+ +VG+ R+VELLFRPRM +LLSNT+ +M  VT+ +I LG  CA L +RYRFFGK FF+ A+TLPLCIPAFVS FTWISLTFRVE FWGT+ IM+LSSFPLAYLPV A LKR+  S EEVSLSLGKS + TF+ AI PQLKPAIGSS+LLIALHMLVEFGAVSILNY TFTTAIFQEYEMS+NN+TAALLSAVL A+C ++VFGE  FRGK  +YHSGKGV RPY VKTL    Q     F SS+ IL I +P  +LI+W++VGTS    G F+      AF  S  +S LGA+LT++CALPLVWA+VRYR++LT+WIDRLP+LLHAVPGLVIALSLVYFSI+Y   +YQTF V+I+AYFMLYLPMAQTTLR SLEQL   +E+VG +LGR  F+IFRTL LP+ILPG+ AAFALVFL LMKELTATLLLT++D+ TLS AVWE+TSDAQYAAATPYALMLVLFSGIPVFLLKKYAFK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1173433|sp|P21409.2|FBPB_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Fe(3+)-transport system permease protein SfuB; AltName: Full=Iron(III)-transport system permease protein SfuB [Serratia marcescens]</Hit_def>
+  <Hit_accession>P21409</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.7452e-76</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>510</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>469</Hsp_align-len>
+      <Hsp_qseq>PFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIFRGKAKIYHSGKGVARPYPVKTLKLPGQIGAIVFLSSLLILGIIIPFGVLIHWMMVGTSGTFALVSVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVLFS</Hsp_qseq>
+      <Hsp_hseq>PLGFVIGVAFETGWQTVKALVFRPRVAELLLNTLLLVVLTLPICAVLGVALAWLTERTTLPGRRLWAVLATAPLAVPAFVQSYAWISLVPSMHGLGAGVFISVLAYFPFIYLPAAAVLRRLDPGIEDVATSLGSRPPAVFFRVVLPQLKLAVCGGSLLIALHLLAEYGLYAMIRFDTFTTAIFDQFQSTFNGPAANMLAGVLVLCCLGLLLLEAISRGRARYARVGSGSARSQTPRRLSPPLAALALLLPIALTALALGVPFITLARWLWLGGFEVWRNAELWPALWQTLSLSAAGALLITLCAIPMAWLSVRYPARLYRVLEGCNYVTSSLPGIVVALALVTITIHSFRPIYQTEITLLLAYLLMFMPRALINLRAGIAQAPVELENVARSLGKSPAQALWSTTLRLAAPGVAAGAALVFLAIANELTATLLLAPNGTRTLATGFWALTSEIDYVAAAPYALIMVALS</Hsp_hseq>
+      <Hsp_midline>P  +V   +++ G      L+FRPR+ +LL NTL ++     I  VLG+A A L +R    G+  +    T PL +PAFV  + WISL   + G    V I  L+ FP  YLP  A L+R+    E+V+ SLG      FF  +LPQLK A+    LLIALH+L E+G  +++ + TFTTAIF +++ ++N   A +L+ VL   C  ++  E+I RG+A+    G G AR    + L  P    A++   +L  L + +PF  L  W+ +G    +    ++ A  ++LS+SA GA+L  LCA+P+ W SVRY   L   ++   ++  ++PG+V+AL+LV  +I+    +YQT I ++LAY ++++P A   LR  + Q P  +E V  +LG+       +  L    PG+ A  ALVFL +  ELTATLLL  +   TL+T  W  TS+  Y AA PYAL++V  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20141378|sp|P41032.2|CYST_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Sulfate transport system permease protein CysT [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P41032</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>7.2816e-15</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>RMWDLLSN-------TLTMMAG--VTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----------------VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAV</Hsp_qseq>
+      <Hsp_hseq>QYWDVVTNPQVVAAYKVTLLAAFVASIFNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQFDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSLGEFGAV</Hsp_hseq>
+      <Hsp_midline>+ WD+++N        +T++A    ++ + V G+  A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G                  + M+ +S P     V+  L+ +   YEE + +LG +RLQ+F   +LP+L PA+ + V L     L EFGAV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000422584</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>LGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVY-FSIN---------YTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD</Hsp_qseq>
+      <Hsp_hseq>VASIFNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSLGEFGAVIFIAGN</Hsp_hseq>
+      <Hsp_midline>+ +I   +  L + W   RYR      +D L  L  A+P  V  L+L   FS+N         +   V  T++ + +A     +P    T++  LE+L    E+   TLG      FR +VLP + P + A  AL F + + E  A + +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|118163|sp|P16701.1|CYST_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Sulfate transport system permease protein CysT [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P16701</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.09514e-13</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>RMWDLLSNTLTMMA-GVTLISI--------VLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----------------VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAV</Hsp_qseq>
+      <Hsp_hseq>QYWEVITNPQVVAAYKVTLLSAFVASIFNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGEWLAKFDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAETLGATRWQSFCKVVLPELSPALVAGVALSFTRSLGEFGAV</Hsp_hseq>
+      <Hsp_midline>+ W++++N   + A  VTL+S         V G+  A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G                  + M+ +S P     V+  L+ +   YEE + +LG +R Q+F   +LP+L PA+ + V L     L EFGAV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00306478</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>LGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVY-FSIN---------YTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD</Hsp_qseq>
+      <Hsp_hseq>VASIFNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGEWLAKFDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAETLGATRWQSFCKVVLPELSPALVAGVALSFTRSLGEFGAVIFIAGN</Hsp_hseq>
+      <Hsp_midline>+ +I   +  L + W   RYR      +D L  L  A+P  V  L+L   FS+N         +   V  T++ + +A     +P    T++  LE+L    E+   TLG   +  F  +VLP + P + A  AL F + + E  A + +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|7387527|sp|Q44123.1|FBPB_ACTPL</Hit_id>
+  <Hit_def>RecName: Full=Ferric transport system permease protein FbpB [Actinobacillus pleuropneumoniae]</Hit_def>
+  <Hit_accession>Q44123</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.46704e-13</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>660</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>493</Hsp_align-len>
+      <Hsp_qseq>NRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACAL----LFQRYRFFGKTF-----------FQTAITLPLCIPAFVSCFTWISLTFRVE----GFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYPTFTTAIFQEYEMSY-NNNTAALLSAVLTAVCGIVVFGESIFRGKAKIYHSGKGVARPYPVKTLKLPGQIGAIVFLS-----SLLILGIIIPFGVLIHWMMVGTSGTFALVSVFDAFIRSLSVSA------------LGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPA-VYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVL</Hsp_qseq>
+      <Hsp_hseq>EQVVRILGQGYIVRVISNSLFLSGFVGIVSTVFGLAFALYTTRIAHRTAFIGKIFSILPIVTPPFVVGLGVTLMLGRSGYVTEFLDTYFGFKDHNWLYGFNGIAIAQILAFAPISFMILDGALKSIHPSIEEASYTLRANRYQTFYNIIFPLLRPALANSFLIVFIQSLADFSNPLVLGGSFDVIATQIYFYIAGSQLDYASASTLGSMLLIFSLLIFIVQYMWIGN-RSYVTVSGKSYRGDVQDLPSGLKYTIIVMLGFWVVFNFALYGSIFYGSFTVNW---GVDYTLTLNNYAMLFGQGLSDGAWPSLINTMIYAGIAAPLTALFGLLIAYIVVRKDFQGKKTLEFLTMLCFAVPGTVAGVSYI-LAFNDAPMYITGTGIIIIISMVMRDLPIGMRAAIAGLGQLDKSLDEASLSLKGSSLKTIWFIVFPLLKPALLSALVTSFVRAMTTVSAIVFLVTADTRVATAYILNRVEDGEYGVAIAYGSILIV</Hsp_hseq>
+      <Hsp_midline> + V +L +  +  ++SN+L +   V ++S V G+A AL    +  R  F GK F               +TL L    +V+ F      F+      GF G  +   L+  P++++ ++ ALK I  S EE S +L  +R QTF++ I P L+PA+ +S L++ +  L +F    +L  ++    T I+     S  +  +A+ L ++L     ++   + ++ G  + Y +  G +    V+ L    +   IV L      +  + G I      ++W   G   T  L +    F + LS  A            + A LT L  L + +  VR        ++ L  L  AVPG V  +S +  + N  P  +  T I++I++  M  LP+        L QL K +++   +L          +V P + P + +A    F++ M  ++A + L   D    +  +     D +Y  A  Y  +L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|74576664|sp|Q9V2C1.1|WTPB_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=Molybdate/tungstate transport system permease protein WtpB [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9V2C1</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.25248e-12</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>LILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFR---VEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN-YPTFTTAIFQEYEMSYNNNTAALLSAVLTAVC-GIVVFGESIFR---GKAK</Hsp_qseq>
+      <Hsp_hseq>LIVYIALPIIVIFTKQALDFRML-----VKTIHDPLVIEALRNSLLTATATALISLLFGVPLGYVLARKDFRGKSLVQAIIDVPIVIPHSVVGIMLL-VTFSNAILDSYKGIIAAMLFVSAPFAINSARDGFLAVDEKLEHVARTLGASKLRTFFSISLPIALPSIASGAIMAWARGISEVGAILIVAYYPKTAQVLVMEYFNNYGLRASRPISVILMGISLGIFV----VLRWLIGKAK</Hsp_hseq>
+      <Hsp_midline>LI+ IALP+ + F   A+    +     V+ +  P + + L N+L       LIS++ G+    +  R  F GK+  Q  I +P+ IP  V     + +TF    ++ + G +  M   S P A          +    E V+ +LG S+L+TFFS  LP   P+I S  ++     + E GA+ I+  YP     +  EY  +Y    +  +S +L  +  GI V    + R   GKAK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0061463</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>VFDAFIRSLSVSALGAILTILCALPLVW----ASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLV</Hsp_qseq>
+      <Hsp_hseq>VIEALRNSLLTATATALISLLFGVPLGYVLARKDFRGKSLVQAIIDVPIVIPHSVVGIML---LVTFS----NAILDSYKGIIAAMLFVSAPFAINSARDGFLAVDEKLEHVARTLGASKLRTFFSISLPIALPSIASGAIMAWARGISEVGA-ILIVAYYPKTAQVLVMEYFNNYGLRASRPISVILM</Hsp_hseq>
+      <Hsp_midline>V +A   SL  +   A++++L  +PL +       R ++ +   ID    + H+V G+++   LV FS     A+  ++  +I A   +  P A  + R     + + +E V  TLG      F ++ LP  LP I +   + + + + E+ A +L+ A    T    V EY ++    A+ P +++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|38258702|sp|Q58763.1|WTPB_METJA</Hit_id>
+  <Hit_def>RecName: Full=Molybdate/tungstate transport system permease protein WtpB [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58763</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.42328e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>KKIPIWLTGLILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIP---------AFVSCFTWISLTFR--VEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN-YPTFTTAIFQEYEMSYNNNTAALLS</Hsp_qseq>
+      <Hsp_hseq>EKFDIAMTVFLVMIFLFIFLPIIY--MLSNPGDLNQ----LLDKEVIEAFKTTLLAGAVATLIALIFGIPTGYILARYDFKFKSFVEAVLDLPMAIPHSVIGIIILSFIYGIDIINFIGRYVVDNFWGIVTVYLFVGIPFMVNSIRDGFLSVDEEIEYVSRTLGASKIRTFFEISLPLIKNNIISGIILSFARGISEVGAILIIAYYPKTVPILIYERFMSFGLDASKPIS</Hsp_hseq>
+      <Hsp_midline>+K  I +T  +++I L + LP +Y  M S    +N+    L    + +    TL   A  TLI+++ GI    +  RY F  K+F +  + LP+ IP         +F+     I+   R  V+ FWG V +      P     +      +    E VS +LG S+++TFF   LP +K  I S ++L     + E GA+ I+  YP     +  E  MS+  + +  +S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.177339</Hsp_evalue>
+      <Hsp_query-from>308</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>SVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYF-----SINYTPA-VYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVLFS</Hsp_qseq>
+      <Hsp_hseq>EVIEAFKTTLLAGAVATLIALIFGIPTGYILARYDFKFKSFVEAVLDLPMAIPHSVIGIIILSFIYGIDIINFIGRYVVDNFWGIVTVYLFVGIPFMVNSIRDGFLSVDEEIEYVSRTLGASKIRTFFEISLPLIKNNIISGIILSFARGISEVGA-ILIIAYYPKTVPILIYERFMSFGLDASKPISVGMILIS</Hsp_hseq>
+      <Hsp_midline> V +AF  +L   A+  ++ ++  +P  +   RY      +++ +  L  A+P  VI + ++ F      IN+    V   F  ++  Y  + +P    ++R     + + +E V  TLG      F  + LP I   I +   L F + + E+ A +L+ A    T+   ++E        A+ P ++ ++L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|152013470|sp|A2CI71.1|CYST_CHLAT</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT (chloroplast) [Chlorokybus atmophyticus]</Hit_def>
+  <Hit_accession>A2CI71</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>3.30309e-12</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>INRAVELLFRPRMWDLLSN-------TLTMMAGV--TLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFT---------WISLTFRVEGFW------GTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIFRGKAKIY</Hsp_qseq>
+      <Hsp_hseq>LSRASDELFK-DFWQIAAEPVAISTYVVTLMTALFATLINGFFGVIIAWVLVRYNFPGKRIIDAAIDLPFALPTSVAGLTLATVYSDQGWIGHLFESIGIKVAFTRVGVAVAMIFVSFPFVVRTLQPVLVEIDQELEEAAWSLGASTWRTFWRVIFPPLTPAIVTGVALAFSRAIGEYGSVVIVASNIPFKDLTAPVLIFQRLE-QYDYTGATIIGTVILSISLFLLFGINFIQSLNQLY</Hsp_hseq>
+      <Hsp_midline>++RA + LF+   W + +         +T+M  +  TLI+   G+  A +  RY F GK     AI LP  +P  V+  T         WI   F   G        G  + M   SFP     ++  L  I    EE + SLG S  +TF+  I P L PAI + V L     + E+G+V I+  N P    T    IFQ  E  Y+   A ++  V+ ++   ++FG +  +   ++Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.2713</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LVWASVRY----RNFLTVWIDRLPFLL-HAVPGLVIALSLVYFSINYTPAVYQ--------TFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD</Hsp_qseq>
+      <Hsp_hseq>IAWVLVRYNFPGKRIIDAAID-LPFALPTSVAGLTLAT--VYSDQGWIGHLFESIGIKVAFTRVGVAVAMIFVSFPFVVRTLQPVLVEIDQELEEAAWSLGASTWRTFWRVIFPPLTPAIVTGVALAFSRAIGEYGSVVIVASN</Hsp_hseq>
+      <Hsp_midline>+ W  VRY    +  +   ID LPF L  +V GL +A   VY    +   +++        T + V +A   +  P    TL+  L ++ + +E+   +LG   +  F  ++ P + P I    AL F + + E  + +++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|74570470|sp|O57893.1|WTPB_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=Molybdate/tungstate transport system permease protein WtpB [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O57893</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.46913e-11</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>VELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFR---VEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNNN</Hsp_qseq>
+      <Hsp_hseq>VKTVHDPLVLEALRNSLLTATATALISLFFGVPLGYILARKDFRGKNFVQAIIDVPVVIPHSVVGIMLL-VTFSNAILDSYKGIIAAMLFVSAPFAINSARDGFLAVDEKLEHVARTLGASRIRTFFSISLPMALPSIASGGIMAWARSMSEVGAILIVAYYPKTAQILV---MEYFNN</Hsp_hseq>
+      <Hsp_midline>V+ +  P + + L N+L       LIS+  G+    +  R  F GK F Q  I +P+ IP  V     + +TF    ++ + G +  M   S P A          +    E V+ +LG SR++TFFS  LP   P+I S  ++     + E GA+ I+ Y   T  I     M Y NN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.90936e-06</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VFDAFIRSLSVSALGAILTILCALPLVW----ASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVLFS</Hsp_qseq>
+      <Hsp_hseq>VLEALRNSLLTATATALISLFFGVPLGYILARKDFRGKNFVQAIIDVPVVIPHSVVGIMLL-------VTFSNAILDSYKGIIAAMLFVSAPFAINSARDGFLAVDEKLEHVARTLGASRIRTFFSISLPMALPSIASGGIMAWARSMSEVGA-ILIVAYYPKTAQILVMEYFNNYGLRASRPISVMLMLIS</Hsp_hseq>
+      <Hsp_midline>V +A   SL  +   A++++   +PL +       R +NF+   ID    + H+V G+++        + ++ A+  ++  +I A   +  P A  + R     + + +E V  TLG      F ++ LP  LP I +   + + + M E+ A +L+ A    T    V EY ++    A+ P ++ML+L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|122197343|sp|Q2EEX6.1|CYST_HELSJ</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT [Helicosporidium sp. ex Simulium jonesi]</Hit_def>
+  <Hit_accession>Q2EEX6</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.5341e-11</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>ILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGTVM----------------IMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP---TFTTAIFQEYEMSYNNNTAALLS-AVLTAVCGIVVFGESI</Hsp_qseq>
+      <Hsp_hseq>ILILILPLYALFSYASNASWSLILEKATD----PIAVAAYTLTIKMALYTAIINTIFGFIIAWVLTRYNFSGKRIMDAIVDLPLALPTSVAGLA-LSTVFGRNGLFGHILDFYNYEIIYTKRGILLAMIFVSFPFSVRAIQPILKEINKEEEEAAWSLGSGPLETFKRFIFPIILPAILNGFTLTFSRSLSEFGSIVMVAGNLPLQDLVSSVLISQYLEQYDYIGACVISIIVLMLACSVLLFVQII</Hsp_hseq>
+      <Hsp_midline>IL++ LPL   F Y +  SW + + +A +    P      + T+ M     +I+ + G   A +  RY F GK      + LPL +P  V+    +S  F   G +G ++                 M   SFP +   ++  LK I+   EE + SLG   L+TF   I P + PAI +   L     L EFG++ ++  N P     ++ +  +Y   Y+   A ++S  VL   C +++F + I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0735988</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD</Hsp_qseq>
+      <Hsp_hseq>ILLAMIFVSFPFSVRAIQPILKEINKEEEEAAWSLGSGPLETFKRFIFPIILPAILNGFTLTFSRSLSEFGSIVMVAGN</Hsp_hseq>
+      <Hsp_midline>++LA   +  P +   ++  L+++ K  E+   +LG G    F+  + P ILP I   F L F + + E  + +++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|3023606|sp|P56343.1|CYST_CHLVU</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT (chloroplast) [Chlorella vulgaris]</Hit_def>
+  <Hit_accession>P56343</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.59074e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFT---------WISLTFRVEGFW------GTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVL</Hsp_qseq>
+      <Hsp_hseq>PVVVLFLLIFQNNWHEVLRKATD----PIAVSAYLLTVQMAFYAALVNSIFGFIITWVLTRYQFWGREFLDAAVDLPFALPTSVAGLTLATVYGDQGWIGSLFNLFGFQIVFTKIGVLLAMIFVSFPFVIRTLQPVLQEMEKSLEEAAWSLGASSWETFRKVILPTLWPALFTGFTLSFSRALGEFGSIVMISSNLPFKDLVASVLIYQSLE-QYDYLGASVIGAVV</Hsp_hseq>
+      <Hsp_midline>P+ + FL +   +W   + +A +    P        T+ M     L++ + G     +  RY+F+G+ F   A+ LP  +P  V+  T         WI   F + GF       G ++ M   SFP     ++  L+ +  S EE + SLG S  +TF   ILP L PA+ +   L     L EFG++ ++  N P      +  I+Q  E  Y+   A+++ AV+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.43075e-06</Hsp_evalue>
+      <Hsp_query-from>311</Hsp_query-from>
+      <Hsp_query-to>482</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>DAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLVIALSLVYFSINYTPAVYQTF--------IVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD-DVHTLSTAVWEYTSDAQY</Hsp_qseq>
+      <Hsp_hseq>SAYLLTVQMAFYAALVNSIFGFIITWVLTRYQFWGREFLDAAVD-LPFALPTSVAGLTLAT--VYGDQGWIGSLFNLFGFQIVFTKIGVLLAMIFVSFPFVIRTLQPVLQEMEKSLEEAAWSLGASSWETFRKVILPTLWPALFTGFTLSFSRALGEFGSIVMISSNLPFKDLVASVLIYQSLEQY</Hsp_hseq>
+      <Hsp_midline> A++ ++ ++   A++  +    + W   RY    R FL   +D LPF L  +V GL +A   VY    +  +++  F        I V+LA   +  P    TL+  L+++ K +E+   +LG   +  FR ++LP++ P +   F L F + + E  + ++++++     L  +V  Y S  QY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|13878457|sp|Q9MUL9.1|CYST_MESVI</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT (chloroplast) [Mesostigma viride]</Hit_def>
+  <Hit_accession>Q9MUL9</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.63906e-10</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFT---------WI-----SLTFRVE-GFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIFRGKAKIYH</Hsp_qseq>
+      <Hsp_hseq>LILPILALLSRASQELFSNFWSIAMEPAAIYAYSITLSMALIASIVNGIFGIFIAWILVRYNFPGKRIVDAAIDLPFALPTSVAGLTLATVYSEKGWIGHFLQSLSIKVVFTKLGVGVAMIFVSFPFVVRTLQPVLQDIEKELEEAAWSLGASSWTTFWKVIFPSLIPSLLTGIALAFSRAVGEYGSVVIIASNIPFKDLTAPVLIFQKLE-QYDYTGATVIGTVILSISLFILVGINIIQSLNQMYS</Hsp_hseq>
+      <Hsp_midline>L LP L +  R+ Q   +    +   P      S TL+M    ++++ + GI  A +  RY F GK     AI LP  +P  V+  T         WI     SL+ +V     G  + M   SFP     ++  L+ I    EE + SLG S   TF+  I P L P++ + + L     + E+G+V I+  N P    T    IFQ+ E  Y+   A ++  V+ ++   ++ G +I +   ++Y </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0339109</Hsp_evalue>
+      <Hsp_query-from>312</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>AFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLVIALSLVYFSINYTPAVYQTFIVVIL--------AYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD</Hsp_qseq>
+      <Hsp_hseq>AYSITLSMALIASIVNGIFGIFIAWILVRYNFPGKRIVDAAID-LPFALPTSVAGLTLAT--VYSEKGWIGHFLQSLSIKVVFTKLGVGVAMIFVSFPFVVRTLQPVLQDIEKELEEAAWSLGASSWTTFWKVIFPSLIPSLLTGIALAFSRAVGEYGSVVIIASN</Hsp_hseq>
+      <Hsp_midline>A+  +LS++ + +I+  +  + + W  VRY    +  +   ID LPF L  +V GL +A   VY    +     Q+  + ++        A   +  P    TL+  L+ + K +E+   +LG   +  F  ++ PS++P +    AL F + + E  + +++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|7387528|sp|Q57341.2|FBPB1_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Putative ferric transport system permease protein FbpB 1 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57341</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.66639e-10</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>467</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>585</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>469</Hsp_align-len>
+      <Hsp_qseq>NRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACAL----LFQRYRFFGKTF-----------FQTAITLPLCIPAFVSCFTWISLTFRVE----GFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYPTFTTAIFQEYEMSY-NNNTAALLSAVLTAVCGIVVFGESIFRG-KAKIYHSGKGVARPYPVKTLKLPGQ-----IGAIVF--LSSLLILGIIIPFGVLIHWMMVGTSGTFALVS------------VFDAFIRSLSVSALGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTP-AVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVH</Hsp_qseq>
+      <Hsp_hseq>QQVMRILTQSYIVRVITNSLFLSGFVGIVSTVFGLAFALYTTRIARRTAFIGKIFSILPIVTPPFVVGLGVTLMLGRSGYVTEFLSTNFGFSSHNWLYGFNGIAIAQILAFAPISFMILDGALKSVHPSIEEASYTLRANRYQTFYQIIFPLLRPALANSFLIVFIQSLADFSNPLVLGGSFDVIATQIYFYIAGSQLDYASASTLGSMLLIFSLAIFIIQYIWIGNRSYVTVSGK----SYRGDVQELPNGLKYTIIGMLGFWVIFNMALYGSIFYGSFTVNW---GVNYTLTLKNYAMLFGQGLSDGAWPSLINTLIYAGIAAPLTAFFGLLIAYIVVRKDFQGKKSLEFLTMLCFAVPGTVAGVSYI-LAFNNAPLYITGTGIIVIISMVMRDLPIGMRAAIAGLGQLDKSLDEASLSLKGSSWKTLCFIVLPLLKPALLSALVTSFVRAMTTVSAIIFLVTADTR</Hsp_hseq>
+      <Hsp_midline> + + +L +  +  +++N+L +   V ++S V G+A AL    + +R  F GK F               +TL L    +V+ F   +  F       GF G  +   L+  P++++ ++ ALK +  S EE S +L  +R QTF+  I P L+PA+ +S L++ +  L +F    +L  ++    T I+     S  +  +A+ L ++L      +   + I+ G ++ +  SGK     Y     +LP       IG + F  + ++ + G I      ++W   G + T  L +             + + I +L  + + A LT    L + +  VR        ++ L  L  AVPG V  +S +  + N  P  +  T I+VI++  M  LP+        L QL K +++   +L    +     +VLP + P + +A    F++ M  ++A + L   D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75314699|sp|Q9TJR4.1|CYST_PROWI</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT [Prototheca wickerhamii]</Hit_def>
+  <Hit_accession>Q9TJR4</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>3.986e-10</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>LPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFT---------WISLTFRVEGF------WGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVF</Hsp_qseq>
+      <Hsp_hseq>LPLFALFSLILKNSWKDILEKAVD----PIAICAYGFTIKMALIAALFNSIFGFLITWVITRYEFKGKKFIDAAVDLPFALPTSVAGLTLATVYGNQGWVGRFLKMGNLQIIYTKFGVLLAMIFVSFPFVIRSLQPVLQGLDHGLEEAAWCLGASSFQTFLRVIFPTLVPALVTGFTLSFSRALGEFGSVVMISSNLPLDDLVTSVLIYQSLE-QYDYFGASVIGAVILMIALLIIF</Hsp_hseq>
+      <Hsp_midline>LPL   F  +   SW+  + +AV+    P        T+ M     L + + G     +  RY F GK F   A+ LP  +P  V+  T         W+    ++         +G ++ M   SFP     ++  L+ +    EE +  LG S  QTF   I P L PA+ +   L     L EFG+V ++  N P      +  I+Q  E  Y+   A+++ AV+  +  +++F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00032511</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>482</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>SLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLLHAVPGLVIALSLV-----------YFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD-DVHTLSTAVWEYTSDAQY</Hsp_qseq>
+      <Hsp_hseq>TIKMALIAALFNSIFGFLITWVITRYEFKGKKFIDAAVD-LPF---ALPTSVAGLTLATVYGNQGWVGRFLKMGNLQIIYTKF-GVLLAMIFVSFPFVIRSLQPVLQGLDHGLEEAAWCLGASSFQTFLRVIFPTLVPALVTGFTLSFSRALGEFGSVVMISSNLPLDDLVTSVLIYQSLEQY</Hsp_hseq>
+      <Hsp_midline>++ ++ + A+   +    + W   RY    + F+   +D LPF   A+P  V  L+L            +  +     +Y  F  V+LA   +  P    +L+  L+ L  G+E+    LG   F  F  ++ P+++P +   F L F + + E  + ++++++  +  L T+V  Y S  QY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|190431663|sp|Q8U4K4.2|WTPB_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Molybdate/tungstate transport system permease protein WtpB [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8U4K4</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>3.16009e-09</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>LILLIALPLTLPFLYVA--MRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFR---VEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN-YPTFTTAIFQEYEMSYNNNTAALLSAVLTAVC</Hsp_qseq>
+      <Hsp_hseq>LVAFIGLPLFMIFIKQAYDLEALQ-------RTLVDPLVIESIRNSLFTATVSTLLGILFGVPLGYVLARKEFKGKNFVQALIDTPIVIPHSVVGIMLL-VTFSDAILDNYKGIVAVMLFVSSPFIVNSARDGFLSVDEKLEYVARTLGASGLRTFFSVTLPNAIHSIASGAIMAWARAISEVGAILIVAYYPKTAQVLIMEYFNNYGLRASRPIAVILVTIS</Hsp_hseq>
+      <Hsp_midline>L+  I LPL + F+  A  + + Q         L  P + + + N+L      TL+ I+ G+    +  R  F GK F Q  I  P+ IP  V     + +TF    ++ + G V +M   S P            +    E V+ +LG S L+TFFS  LP    +I S  ++     + E GA+ I+  YP     +  EY  +Y    +  ++ +L  + </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0156116</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VFDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVLFS</Hsp_qseq>
+      <Hsp_hseq>VIESIRNSLFTATVSTLLGILFGVPLGYVLARKEFKGKNFVQALIDTPIVIPHSVVGIML---LVTFS----DAILDNYKGIVAVMLFVSSPFIVNSARDGFLSVDEKLEYVARTLGASGLRTFFSVTLPNAIHSIASGAIMAWARAISEVGA-ILIVAYYPKTAQVLIMEYFNNYGLRASRPIAVILVTIS</Hsp_hseq>
+      <Hsp_midline>V ++   SL  + +  +L IL  +PL +   R     +NF+   ID    + H+V G+++   LV FS     A+   +  ++     +  P    + R     + + +E V  TLG      F ++ LP+ +  I +   + + + + E+ A +L+ A    T    + EY ++    A+ P A++LV  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74503016|sp|Q5JEB3.1|WTPB_THEKO</Hit_id>
+  <Hit_def>RecName: Full=Molybdate/tungstate transport system permease protein WtpB [Thermococcus kodakarensis KOD1]</Hit_def>
+  <Hit_accession>Q5JEB3</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>4.43511e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>TGLILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIP-AFVSCFTWISLTFRV-EGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN-YPTFTTAIFQEYEMSYNN</Hsp_qseq>
+      <Hsp_hseq>TFLIAYIAVPIAVIFLKQAS-----DVEMLVKTLHDPYVIEAIRNSLLTATATALIALLFGVPLGYVLARKDFPGKSAVQALVDVPIVIPHSVVGIMLLVTFSNSILDSYKGIVAAMLFVSAPFTINAARDGFLAVDEKLEAVARTLGASRWRAFLSISLPMAFPSIASGAIMTWARAISEVGAILIVAYYPKTAQVLILEY---FNN</Hsp_hseq>
+      <Hsp_midline>T LI  IA+P+ + FL  A       +   V+ L  P + + + N+L       LI+++ G+    +  R  F GK+  Q  + +P+ IP + V     ++ +  + + + G V  M   S P            +    E V+ +LG SR + F S  LP   P+I S  ++     + E GA+ I+  YP     +  EY   +NN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.979248</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>502</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>VFDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVLFS-GIPVFL</Hsp_qseq>
+      <Hsp_hseq>VIEAIRNSLLTATATALIALLFGVPLGYVLARKDFPGKSAVQALVDVPIVIPHSVVGIML---LVTFS----NSILDSYKGIVAAMLFVSAPFTINAARDGFLAVDEKLEAVARTLGASRWRAFLSISLPMAFPSIASGAIMTWARAISEVGA-ILIVAYYPKTAQVLILEYFNNYGLRASRPIAVIMVSLSLGIFVIL</Hsp_hseq>
+      <Hsp_midline>V +A   SL  +   A++ +L  +PL +   R     ++ +   +D    + H+V G+++   LV FS     ++  ++  ++ A   +  P      R     + + +E V  TLG   +  F ++ LP   P I +   + + + + E+ A +L+ A    T    + EY ++    A+ P A+++V  S GI V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|118166|sp|P27370.1|CYSW_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Sulfate transport system permease protein CysW [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>P27370</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.25094e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>SPKKIPIWLTGLILL-IALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGTVMI------------MSLS----SFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN---------YPTFTTAIFQEYEMSYNNNTAALLSAV</Hsp_qseq>
+      <Hsp_hseq>SKSLLPLALIGISLLYVGLIIIIPAANVAVQAFSEGLSGFIKNLGDRNLQEAIRLTLLMGVISVPLNTLFGLAAAFAIARKQFPGKSLLLSVIDLPFSISPVVAGLM-IVLLYGRNGWLGPLLESNDIKIIFAWPGMALATIFVSMPFVAREVIPNLEEIGTDAEEAASTLGANGWQTFWRVTLPSIKWSMLYGVVLTTARALGEFGAVSVVSGSITGKTQTLPLFVEEAYKQYQTTLSYTAALLLGGI</Hsp_hseq>
+      <Hsp_midline>S   +P+ L G+ LL + L + +P   VA++++  G++  ++ L    + + +  TL M      ++ + G+A A    R +F GK+   + I LP  I   V+    I L +   G+ G ++             M+L+    S P     V   L+ I    EE + +LG +  QTF+   LP +K ++   V+L     L EFGAVS+++          P F    +++Y+ + +   A LL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|75314767|sp|Q9TKU8.1|CYST_NEPOL</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT (chloroplast) [Nephroselmis olivacea]</Hit_def>
+  <Hit_accession>Q9TKU8</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.97014e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MKNTMSPKKIPIWLTGLILLIAL-PLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----------------VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVL</Hsp_qseq>
+      <Hsp_hseq>MKN-----RLVSWAWALTLMYMLVSLILPIGALLQKSSQESVSEFVSIATAPVAMSAYAVTLSSALIAALLNGVFGLLIAWVLVRYEFPGRRLLDAAVDLPFALPTSVAGLT-LATVYSDQGWIGTWLSSLNIQVAFTRLGVMLAMLFVSFPFVVRTLQPVLQDMERELEEAAWSLGASPFNTFLRVLCPPLMPAMMTGIALAFSRAVGEYGSVVIVSGNIPFQDLIAPVLIFQRLE-QYDYSGATVIGTVV</Hsp_hseq>
+      <Hsp_midline>MKN     ++  W   L L+  L  L LP   +  +S Q  ++  V +   P      + TL+      L++ V G+  A +  RY F G+     A+ LP  +P  V+  T ++  +  +G+ GT                ++ M   SFP     ++  L+ +    EE + SLG S   TF   + P L PA+ + + L     + E+G+V I+  N P         IFQ  E  Y+ + A ++  V+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000733096</Hsp_evalue>
+      <Hsp_query-from>281</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LILGIIIPFGVLIHWMMVGTSGTFALVS----VFDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLVIALSLVYFSINY--------TPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD</Hsp_qseq>
+      <Hsp_hseq>MLVSLILPIGALLQKSSQESVSEFVSIATAPVAMSAYAVTLSSALIAALLNGVFGLLIAWVLVRYEFPGRRLLDAAVD-LPFALPTSVAGLTLAT--VYSDQGWIGTWLSSLNIQVAFTRLGVMLAMLFVSFPFVVRTLQPVLQDMERELEEAAWSLGASPFNTFLRVLCPPLMPAMMTGIALAFSRAVGEYGSVVIVSGN</Hsp_hseq>
+      <Hsp_midline>+++ +I+P G L+      +   F  ++       A+  +LS + + A+L  +  L + W  VRY    R  L   +D LPF L  +V GL +A   VY    +           V  T + V+LA   +  P    TL+  L+ + + +E+   +LG   F  F  ++ P ++P +    AL F + + E  + ++++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81773676|sp|Q8Z8X0.1|PHNV_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Putative 2-aminoethylphosphonate transport system permease protein PhnV [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z8X0</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>2.25466e-07</Hsp_evalue>
+      <Hsp_query-from>308</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNF---LTVWIDRLPFLLHAVPGLVIALS-LVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLV</Hsp_qseq>
+      <Hsp_hseq>AAWDALLASLTIGFCASLFALLCG---VWAALALRQYGVKTQKWLSMVFYLPSAIPSVSVGLGILVAFS-QGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMVSELALSLSLSMGELGATVMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLV</Hsp_hseq>
+      <Hsp_midline>+ +DA + SL++    ++  +LC    VWA++  R +      W+  + +L  A+P + + L  LV FS      +  T  +V+ A+F+L      + + T L ++   +E V ++LG   ++  R + LP ++P + +  AL     M EL AT+++      TL  A++  T     A      ++LV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0125037</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEG---FWGTVMIMSLSSFPL----AYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNNNTA--ALLSAVLTAV</Hsp_qseq>
+      <Hsp_hseq>WDALLASLTIGFCASLFALLCGVWAALALRQYGVKTQKWLSMVFYLPSAIPS-VSVGLGILVAFS-QGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMVSELALSLSLSMGELGATVMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLVAI</Hsp_hseq>
+      <Hsp_midline>WD L  +LT+    +L +++ G+  AL  ++Y    + +      LP  IP+ VS    I + F  +G     GT+ I+  + F L     +  V   L RIS   E V+ SLG S         LP L P + S + L     + E GA  ++  P +TT     + ++   N A  A L+ VL A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81677824|sp|Q5PFQ5.1|PHNV_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Putative 2-aminoethylphosphonate transport system permease protein PhnV [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150]</Hit_def>
+  <Hit_accession>Q5PFQ5</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>2.38647e-07</Hsp_evalue>
+      <Hsp_query-from>308</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNF---LTVWIDRLPFLLHAVPGLVIALS-LVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLV</Hsp_qseq>
+      <Hsp_hseq>AAWDALLASLTIGFCASLFALLCG---VWAALALRQYGVKTQKWLSMVFYLPSAIPSVSVGLGILVAFS-QGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMVSALALSLSLSMGELGATVMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLV</Hsp_hseq>
+      <Hsp_midline>+ +DA + SL++    ++  +LC    VWA++  R +      W+  + +L  A+P + + L  LV FS      +  T  +V+ A+F+L      + + T L ++   +E V ++LG   ++  R + LP ++P + +A AL     M EL AT+++      TL  A++  T     A      ++LV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0131669</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEG---FWGTVMIMSLSSFPL----AYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNNNTA--ALLSAVLTAV</Hsp_qseq>
+      <Hsp_hseq>WDALLASLTIGFCASLFALLCGVWAALALRQYGVKTQKWLSMVFYLPSAIPS-VSVGLGILVAFS-QGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMVSALALSLSLSMGELGATVMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLVAI</Hsp_hseq>
+      <Hsp_midline>WD L  +LT+    +L +++ G+  AL  ++Y    + +      LP  IP+ VS    I + F  +G     GT+ I+  + F L     +  V   L RIS   E V+ SLG S         LP L P + S++ L     + E GA  ++  P +TT     + ++   N A  A L+ VL A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|75291682|sp|Q6QJE2.1|SULP2_CHLRE</Hit_id>
+  <Hit_def>RecName: Full=Sulfate permease 2, chloroplastic; Flags: Precursor [Chlamydomonas reinhardtii]</Hit_def>
+  <Hit_accession>Q6QJE2</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>2.43077e-07</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>IALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTL-ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCF---------TWISLTFRVEG------FWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN</Hsp_qseq>
+      <Hsp_hseq>IGLVVLVPFLNVFVQAFAKGIIPFLEHCADPDFLHALKMTL-MLAFVTVPLNTVFGTVAAINLTRNEFPGKVFLMSLLDLPFSISPVVTGLMLTLLYGRTGWFAALLRETGINVVFAFTGMALATMFVTLPFVVRELIPILENMDLSQEEAARTLGANDWQVFWNVTLPNIRWGLLYGVILCNARAMGEFGAVSVIS</Hsp_hseq>
+      <Hsp_midline>I L + +PFL V ++++  GI   +E    P     L  TL M+A VT+ ++ V G   A+   R  F GK F  + + LP  I   V+            W +   R  G      F G  +     + P     +   L+ + LS EE + +LG +  Q F++  LP ++  +   V+L     + EFGAVS+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|75505877|sp|Q57SD8.1|PHNV_SALCH</Hit_id>
+  <Hit_def>RecName: Full=Putative 2-aminoethylphosphonate transport system permease protein PhnV [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q57SD8</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.44511e-06</Hsp_evalue>
+      <Hsp_query-from>308</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>SVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNF---LTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLV</Hsp_qseq>
+      <Hsp_hseq>AAWDALLASLTIGFCASLFALLCG---VWAALALRQYGVKTQKWLSMVFYLPSAIPSVSVGLGILVAFSQGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMMSALALSLSLSMGELGATMMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLV</Hsp_hseq>
+      <Hsp_midline>+ +DA + SL++    ++  +LC    VWA++  R +      W+  + +L  A+P + + L ++         +  T  +V+ A+F+L      + + T L ++   +E V ++LG   ++  R + LP ++P + +A AL     M EL AT+++      TL  A++  T     A      ++LV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0240867</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEG---FWGTVMIMSLSSFPL----AYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNNNTA--ALLSAVLTAV</Hsp_qseq>
+      <Hsp_hseq>WDALLASLTIGFCASLFALLCGVWAALALRQYGVKTQKWLSMVFYLPSAIPS-VSVGLGILVAFS-QGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMMSALALSLSLSMGELGATMMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLVAI</Hsp_hseq>
+      <Hsp_midline>WD L  +LT+    +L +++ G+  AL  ++Y    + +      LP  IP+ VS    I + F  +G     GT+ I+  + F L     +  V   L RIS   E V+ SLG S         LP L P + S++ L     + E GA  ++  P +TT     + ++   N A  A L+ VL A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81671798|sp|P96065.1|PHNV_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Putative 2-aminoethylphosphonate transport system permease protein PhnV [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P96065</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.71938e-06</Hsp_evalue>
+      <Hsp_query-from>308</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNF---LTVWIDRLPFLLHAVPGLVIALS-LVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLV</Hsp_qseq>
+      <Hsp_hseq>AAWDALLASLTIGFCASLFALLCG---VWAALALRQYGVKTQKWLSMVFYLPSAIPSVSVGLGILVAFS-QGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMMSALALSLSLSMGELGATMMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLV</Hsp_hseq>
+      <Hsp_midline>+ +DA + SL++    ++  +LC    VWA++  R +      W+  + +L  A+P + + L  LV FS      +  T  +V+ A+F+L      + + T L ++   +E V ++LG   ++  R + LP ++P + +A AL     M EL AT+++      TL  A++  T     A      ++LV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0270339</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEG---FWGTVMIMSLSSFPL----AYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNNNTA--ALLSAVLTAV</Hsp_qseq>
+      <Hsp_hseq>WDALLASLTIGFCASLFALLCGVWAALALRQYGVKTQKWLSMVFYLPSAIPS-VSVGLGILVAFS-QGPLQMNGTLWIVLTAHFVLISAFTFSNVSTGLARISADIENVASSLGASPWYRLRHVTLPLLMPWMMSALALSLSLSMGELGATMMIYPPGWTTLPVAIFSLTDRGNIADGAALTIVLVAI</Hsp_hseq>
+      <Hsp_midline>WD L  +LT+    +L +++ G+  AL  ++Y    + +      LP  IP+ VS    I + F  +G     GT+ I+  + F L     +  V   L RIS   E V+ SLG S         LP L P + S++ L     + E GA  ++  P +TT     + ++   N A  A L+ VL A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1170989|sp|P45322.1|MODB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum transport system permease protein ModB [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45322</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.34861e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>TLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFV-----------------SCFTWISLTFRVEGF-W-GTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGA</Hsp_qseq>
+      <Hsp_hseq>SLSVAVSSMLWSLPLAIFVAWLLARKNFYGKSLITGVIHLPLVLPPVVIGYLLLVAMGRNGFIGKYLYQWFGLSF---GFSWKGAVLSSAVVAFPLVVRAIRLSLENIDIKLEQAAQTLGASAWRVFFTITLPLSLPGVLAGLVLGFARSLGEFGA</Hsp_hseq>
+      <Hsp_midline>+L++     L S+ L I  A L  R  F+GK+     I LPL +P  V                   + W  L+F   GF W G V+  ++ +FPL    +  +L+ I +  E+ + +LG S  + FF+  LP   P + + ++L     L EFGA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000759122</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD---DVHTLSTAVWEYTSDAQYAAATPYALMLVLFS</Hsp_qseq>
+      <Hsp_hseq>VLSSAVVAFPLVVRAIRLSLENIDIKLEQAAQTLGASAWRVFFTITLPLSLPGVLAGLVLGFARSLGEFGATITFVSNIAGETQTIPLAMYSFI---QTPGAEEQTARLCLFA</Hsp_hseq>
+      <Hsp_midline>+L+  ++  P+    +R SLE +   +EQ   TLG   + +F T+ LP  LPG+ A   L F + + E  AT+   ++   +  T+  A++ +    Q   A      L LF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74570234|sp|O30143.1|WTPB_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Molybdate/tungstate transport system permease protein WtpB [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O30143</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.51022e-06</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>PRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCF-------------TWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN-YPTFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIFRGKAKIYHSGKG</Hsp_qseq>
+      <Hsp_hseq>PAVWKVVLTTYYAALISTLIAVIFGTPLAYILARKSFPGKSVVEGIVDLPVVIPHTVAGIALLVVFGSSGLIGSFSPLKF-VDALPGIVVAMLFVSVPIYINQAKEGFASVDVRLEHVARTLGSSPLRVFFTVSLPLSVRHIVAGAIMSWARGISEFGAVVVIAYYPMIAPTLIYERYLSEGLSAAMPVAAILILLSLAVFVALRIIVGREDV-SEGQG</Hsp_hseq>
+      <Hsp_midline>P +W ++  T       TLI+++ G   A +  R  F GK+  +  + LP+ IP  V+               ++  L F V+   G V+ M   S P+     +     + +  E V+ +LG S L+ FF+  LP     I +  ++     + EFGAV ++  YP     +  E  +S   + A  ++A+L  +   V     I  G+  +   G+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|126795|sp|P26246.1|CYST_MARPO</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT (chloroplast) [Marchantia polymorpha]</Hit_def>
+  <Hit_accession>P26246</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.07232e-06</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGF------W----------GTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIFRGKAKIYHS</Hsp_qseq>
+      <Hsp_hseq>LALPIFFLLYKTKQQPWNILLQTALEPVVLSAYGFTFLTALLATIINAIFGLILAWVLVRYEFPGKKLLDATVDLPFALPTSVGGLTLMTV-FNDKGWIKPICSWLNIKIVFNPIGVLLAMIFVSLPFVVRTIQPVLQNMEEDLEEAAWCLGASPWTTFWHILFPPLTPSLLTGTTLGFSRALGEYGSIVLIASNIPMKDLVISVLLFQKLE-QYDYKSATIIASFVLIISFTALFFINKIQLWKKTFHK</Hsp_hseq>
+      <Hsp_midline>L LP  ++  ++ Q   N  ++    P +      T       T+I+ + G+  A +  RY F GK      + LP  +P  V   T +++ F  +G+      W          G ++ M   S P     ++  L+ +    EE +  LG S   TF+  + P L P++ +   L     L E+G++ ++  N P      +  +FQ+ E  Y+  +A ++++ +  +    +F  +  +   K +H </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.48135</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>505</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>VFDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLVIA------------LSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD----DVHTLSTAVWEYTSDAQYAAATPYALMLVLFSGIPVFLLKK</Hsp_qseq>
+      <Hsp_hseq>VLSAYGFTFLTALLATIINAIFGLILAWVLVRYEFPGKKLLDATVD-LPFALPTSVGGLTLMTVFNDKGWIKPICSWLNIKIVFNP------IGVLLAMIFVSLPFVVRTIQPVLQNMEEDLEEAAWCLGASPWTTFWHILFPPLTPSLLTGTTLGFSRALGEYGSIVLIASNIPMKDL-VISVLLFQKLEQYDYKSATIIASFVLIISFTALFFINK</Hsp_hseq>
+      <Hsp_midline>V  A+  +   + L  I+  +  L L W  VRY    +  L   +D LPF L  +V GL +              S +   I + P      I V+LA   + LP    T++  L+ + + +E+    LG   +  F  ++ P + P +     L F + + E  + +L+ ++    D+  +S  +++      Y +AT  A  +++ S   +F + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|122211703|sp|Q32RF7.1|CYST_ZYGCR</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate transport system permease protein cysT (chloroplast) [Zygnema circumcarinatum]</Hit_def>
+  <Hit_accession>Q32RF7</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.79154e-05</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>ILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGF------W----------GTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVL</Hsp_qseq>
+      <Hsp_hseq>ILILFLPVTALLLRTKEQSWYTIFQAVTE----PVVLSAYKVTFLTAALAAVINAFLGLILAWILVRYRFPGKNFLDAAVDLPFALPTSVGGLTLMTV-YSDKGWMGPICSWLGIKIAFSRLGVLIAMMFVSLPFIVRTIQPVLQSMEEETEEAAWCIGASPWTTFWNVLFPPMISPLLTGTALGFSRAIGEYGSIVLVASNIPMKDLVVSVLIFQRLEQYDYKGATAIASVVL</Hsp_hseq>
+      <Hsp_midline>IL++ LP+T   L    +SW        E    P +      T    A   +I+  LG+  A +  RYRF GK F   A+ LP  +P  V   T +++ +  +G+      W          G ++ M   S P     ++  L+ +    EE +  +G S   TF++ + P +   + +   L     + E+G++ ++  N P      +  IFQ  E        A+ S VL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.336704</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VFDAFIRSLSVSALGAILTILCALPLVWASVRYR----NFLTVWIDRLPFLLHAVPGLVIALSL--VYFSINYTPAVYQ--------TFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD---DVHTLSTAVWEYTSDAQYAAATPYALMLVLFS</Hsp_qseq>
+      <Hsp_hseq>VLSAYKVTFLTAALAAVINAFLGLILAWILVRYRFPGKNFLDAAVD-LPF---ALPTSVGGLTLMTVYSDKGWMGPICSWLGIKIAFSRLGVLIAMMFVSLPFIVRTIQPVLQSMEEETEEAAWCIGASPWTTFWNVLFPPMISPLLTGTALGFSRAIGEYGSIVLVASNIPMKDLVVSVLIFQRLEQYDYKGATAIASVVLLVS</Hsp_hseq>
+      <Hsp_midline>V  A+  +   +AL A++     L L W  VRYR    NFL   +D LPF   A+P  V  L+L  VY    +   +          + + V++A   + LP    T++  L+ + +  E+    +G   +  F  ++ P ++  +    AL F + + E  + +L+ ++       +S  +++      Y  AT  A +++L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|6226427|sp|P77156.1|YDCU_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Inner membrane ABC transporter permease protein YdcU [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77156</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>4.63205e-05</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFG-KTFFQTAITLPLCIPAFVSCFTWISL--------------------------------TFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSS</Hsp_qseq>
+      <Hsp_hseq>IRALFNPANYDIILRTLTMAVAVTIASAILAFPMAWYMARYTSGKMKAFFYIAVMLPMWASYIVKAYAWTLLLAKDGVAQWFLQHLGLEPLLTAFLTLPAVGGNTLSTSGL-GRFLVFLYIWLPFMILPVQAALERLPPSLLQASADLGARPRQTFRYVVLPLAIPGIAAG</Hsp_hseq>
+      <Hsp_midline>+  LF P  +D++  TLTM   VT+ S +L    A    RY     K FF  A+ LP+     V  + W  L                                T    G  G  ++      P   LPV+AAL+R+  S  + S  LG    QTF   +LP   P I + </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.786684</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>443</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>LAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAA</Hsp_qseq>
+      <Hsp_hseq>LVFLYIWLPFMILPVQAALERLPPSLLQASADLGARPRQTFRYVVLPLAIPGIAAG</Hsp_hseq>
+      <Hsp_midline>L +  ++LP     ++ +LE+LP  + Q  A LG      FR +VLP  +PGI A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|251765172|sp|O32209.2|YVGM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative molybdenum transport system permease protein YvgM [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32209</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>6.34866e-05</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCF----------------TWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAA</Hsp_qseq>
+      <Hsp_hseq>VLSFQVAAVAGIVVI--ILGTLAGAWMSRASFFGKTALETCFMLPLVLPPTVVGFILIVIFGKHSFIGQAIEWIFQQPVIFTWWAAVIASAVVAFPLMYQSAKTGFADIDPDIQGAAMVDGASRWKVFIHISVPLAYPSLLTGSILSLARALGEFGATLMFAGNIPGVTQTLPTAIY--VALDSGNNTLA</Hsp_hseq>
+      <Hsp_midline>+LS  +  +AG+ +I  +LG        R  FFGKT  +T   LPL +P  V  F                 WI     +  +W  V+  ++ +FPL Y   +     I    +  ++  G SR + F    +P   P++ +  +L     L EFGA  +   N P    T  TAI+    +   NNT A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|84029446|sp|P0AFL2.1|POTI_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Putrescine transport system permease protein PotI [Escherichia coli CFT073] &gt;gi|84029447|sp|P0AFL1.1|POTI_ECOLI RecName: Full=Putrescine transport system permease protein PotI [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AFL2</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.00018278</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>LGIACALLFQRY-RFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWG-------TVMIMSLSSFPLAYLPV--EAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTT---AIFQEYEMSYNNNTAALLSAVLTAVCGIVVF</Hsp_qseq>
+      <Hsp_hseq>LGTIAAVVLVRFGRFRGSNGFAFMITAPLVMPDVITGLSLLLLFVALAHAIGWPADRGMLTIWLAHVTFCTAYVAVVISSRLRELDRSIEEAAMDLGATPLKVFFVITLPMIMPAIISGWLLAFTLSLDDLVIASFVSGPGATTLPMLVFSSVRMGVNPEINALATLILGAV-GIVGF</Hsp_hseq>
+      <Hsp_midline>LG   A++  R+ RF G   F   IT PL +P  ++  + + L   +    G         + ++  +F  AY+ V   + L+ +  S EE ++ LG + L+ FF   LP + PAI S  LL     L +    S ++ P  TT    +F    M  N    AL + +L AV GIV F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|75303156|sp|Q8RVC7.1|SULP1_CHLRE</Hit_id>
+  <Hit_def>RecName: Full=Sulfate permease 1, chloroplastic; Flags: Precursor [Chlamydomonas reinhardtii]</Hit_def>
+  <Hit_accession>Q8RVC7</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000217246</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFT---------WISLTFRVEGFW------GTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN</Hsp_qseq>
+      <Hsp_hseq>INCVFGFVLAWVLVRYNFAGKKILDAAVDLPFALPTSVAGLTLATVYGDEFFIGQFLQAQGVQVVFTRLGVVIAMIFVSFPFVVRTMQPVMQEIQKEMEEAAWSLGASQWRTFTDVVLPPLLPALLTGTALAFSRALGEFGSIVIVS</Hsp_hseq>
+      <Hsp_midline>I+ V G   A +  RY F GK     A+ LP  +P  V+  T         +I    + +G        G V+ M   SFP     ++  ++ I    EE + SLG S+ +TF   +LP L PA+ +   L     L EFG++ I++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>5.34933</Hsp_evalue>
+      <Hsp_query-from>312</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>AFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLVIALSLVYFSINYTPAVYQ--------TFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD</Hsp_qseq>
+      <Hsp_hseq>AYYVTFSCSLIAAAINCVFGFVLAWVLVRYNFAGKKILDAAVD-LPFALPTSVAGLTLAT--VYGDEFFIGQFLQAQGVQVVFTRLGVVIAMIFVSFPFVVRTMQPVMQEIQKEMEEAAWSLGASQWRTFTDVVLPPLLPALLTGTALAFSRALGEFGSIVIVSSN</Hsp_hseq>
+      <Hsp_midline>A+  + S S + A +  +    L W  VRY    +  L   +D LPF L  +V GL +A   VY    +     Q        T + V++A   +  P    T++  ++++ K ME+   +LG   +  F  +VLP +LP +    AL F + + E  + ++++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2501371|sp|P74547.1|CYSW_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Sulfate transport system permease protein CysW [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P74547</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000443974</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGF-------WGTVMIMSLS---------SFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILN----YPTFTTAIFQEYEMSYNNNTAA</Hsp_qseq>
+      <Hsp_hseq>LNTVFGLCAAWVLARNQFPGRALFLSVLDLPFSISPVVAGLM-IVLLYGKNGWIGSWFASWDIQIIFSVPGMAIATIFVTLPFVAREVIPVLEELGPEQEEAARTLGAKDWQIFWRVTLPNIRWGLLYGVLLTNARAMGEFGAVAVVSGSILGKTSTLPIFVEQEYKNYQTEAA</Hsp_hseq>
+      <Hsp_midline>++ V G+  A +  R +F G+  F + + LP  I   V+    I L +   G+       W   +I S+          + P     V   L+ +    EE + +LG    Q F+   LP ++  +   VLL     + EFGAV++++      T T  IF E E       AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|400831|sp|P31135.1|POTH_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putrescine transport system permease protein PotH [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31135</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00055823</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>509</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>FDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTV------WIDRLPFLLHAVPGL-----VIALSLVYFSINYTP-AVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVW-EYTSDAQYAAATPYALMLVLFSGIPVFLLKKYAFK</Hsp_qseq>
+      <Hsp_hseq>FDAYLQSLQVAAISTFCCLLIGYPLAWAVAHSKPSTRNILLLLVILPSWTSFL-IRVYAWMGILKNNGVLNNFLLWLGVIDQPLTILHTNLAVYIGIVYAYVPFMVLPIYTALIRIDYSLVEAALDLGARPLKTFFTVIVPLTKGGIIAGSMLVFIPAVGEFVIPELLGGPDSIMIGRVLWQEFFNNRDWPVASAVAIIMLLLLIVPIMWFHKHQQK</Hsp_hseq>
+      <Hsp_midline>FDA+++SL V+A+     +L   PL WA        RN L +      W   L   ++A  G+     V+   L++  +   P  +  T + V +     Y+P     + T+L ++   + +    LG      F T+++P    GI A   LVF+  + E     LL   D   +   +W E+ ++  +  A+  A++++L   +P+    K+  K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0022734</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>PLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPT---FTTAIFQEYEMSYNNNTAALLSAV</Hsp_qseq>
+      <Hsp_hseq>PFMVLPIYTALIRIDYSLVEAALDLGARPLKTFFTVIVPLTKGGIIAGSMLVFIPAVGEFVIPELLGGPDSIMIGRVLWQEF---FNNRDWPVASAV</Hsp_hseq>
+      <Hsp_midline>P   LP+  AL RI  S  E +L LG   L+TFF+ I+P  K  I +  +L+ +  + EF    +L  P        ++QE+   +NN    + SAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|118164|sp|P27367.1|CYST_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Sulfate transport system permease protein CysT [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>P27367</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000749467</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>RMWDLLSNTLTMMA-----GVTL----ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGF----------------WGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVF</Hsp_qseq>
+      <Hsp_hseq>RIWELATQPVAVAAYEVTFGLSLAAAALNGVFGVIIAWVLTRYDFPGKKLFDSFIDLPFALPTAVAGLT-LATVYSDKGWIGQFIAPFGVQIAFTRWGVLLAMVFISLPFVVRTVEPLLLELEVEAEEAAASLGASPSETFWRVILPPILPGVLAGVAQGFSRAVGEFGSVVIISGNLPFDDLIAPVLIFERLE-QYDYAGATVIGSVLLLFSLVILF</Hsp_hseq>
+      <Hsp_midline>R+W+L +  + + A     G++L    ++ V G+  A +  RY F GK  F + I LP  +P  V+  T ++  +  +G+                WG ++ M   S P     VE  L  + +  EE + SLG S  +TF+  ILP + P + + V       + EFG+V I+  N P         IF+  E  Y+   A ++ +VL     +++F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>5.8812</Hsp_evalue>
+      <Hsp_query-from>428</Hsp_query-from>
+      <Hsp_query-to>504</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>FRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD---DVHTLSTAVWEYTSDAQYAAATPYALMLVLFSGIPVFLLK</Hsp_qseq>
+      <Hsp_hseq>FWRVILPPILPGVLAGVAQGFSRAVGEFGSVVIISGNLPFDDLIAPVLIFERLEQYDYAGATVIGSVLLLFSLVILFVIN</Hsp_hseq>
+      <Hsp_midline>F  ++LP ILPG+ A  A  F + + E  + ++++ +   D       ++E      YA AT    +L+LFS + +F++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|449061832|sp|D4GQ17.1|MOBDP_HALVD</Hit_id>
+  <Hit_def>RecName: Full=Probable molybdenum ABC transporter permease protein HVO_B0370 [Haloferax volcanii DS2]</Hit_def>
+  <Hit_accession>D4GQ17</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00179282</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>TLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSC--------------FTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNY</Hsp_qseq>
+      <Hsp_hseq>TLVAVAFGVPLAYWLSRTSFRGRDVILALVMLPLVLPPVVSGMLLLRLVGPAGLGQLTSVPLT---RSLFGVVLAQTYVASPFLVVTAKTAFDGVDRQLEAAARSLGEDRVGSVRRVTLPLAKQGILAGVTLTFARAIGEFGATLMLAY</Hsp_hseq>
+      <Hsp_midline>TL+++  G+  A    R  F G+      + LPL +P  VS                T + LT      +G V+  +  + P   +  + A   +    E  + SLG+ R+ +     LP  K  I + V L     + EFGA  +L Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0695614</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLV</Hsp_qseq>
+      <Hsp_hseq>VVLAQTYVASPFLVVTAKTAFDGVDRQLEAAARSLGEDRVGSVRRVTLPLAKQGILAGVTLTFARAIGEFGATLML-AYYPRTLPVQIWVSYLSTGLDAAFPVALVLV</Hsp_hseq>
+      <Hsp_midline>V+LA   +  P    T +T+ + + + +E    +LG       R + LP    GI A   L F + + E  ATL+L A    TL   +W         AA P AL+LV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|84028143|sp|P0AF02.1|MODB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum transport system permease protein ModB [Escherichia coli O157:H7] &gt;gi|84028144|sp|P0AF01.1|MODB_ECOLI RecName: Full=Molybdenum transport system permease protein ModB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AF02</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0018852</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVS--ILNYPTFTTAI</Hsp_qseq>
+      <Hsp_hseq>YDWFGITFAFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDVKLEQAARTLGAGRWRVFFTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTI</Hsp_hseq>
+      <Hsp_midline>+ W  +TF    + G V+  ++ SFPL    +  AL+ + +  E+ + +LG  R + FF+  LP   P I    +L     L EFGA    + N P  T  I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0863264</Hsp_evalue>
+      <Hsp_query-from>277</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LSSLLILGIIIPFGVLIHWMMVGTSGTFALVSVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD---DVHTLSTAVW</Hsp_qseq>
+      <Hsp_hseq>VSSLAVL-FSLPFGIFFAWLLVRC--TFPGKALLD------SVLHLPLVLPPVVVGYLLLVSMGRRGFIG---ERLYDWFG-----------ITFAFSWRGAV--------LAAAVMSFPLMVRAIRLALEGVDVKLEQAARTLGAGRWRVFFTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAMY</Hsp_hseq>
+      <Hsp_midline>+SSL +L   +PFG+   W++V    TF   ++ D      SV  L  +L  +    L+  S+  R F+    +RL                + F+ ++  AV        LA  ++  P+    +R +LE +   +EQ   TLG G + +F T+ LP  LPGI     L F + + E  AT+   ++   +  T+ +A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2501395|sp|P55452.1|Y4FN_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Probable ABC transporter permease protein y4fN [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55452</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00202341</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>505</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>512</Hsp_align-len>
+      <Hsp_qseq>ELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGTVMIMSLSSFP--------------------LAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAIFQEYEMSYNN----NTAALLSAVLTAVCGIVVFGESIFRGKAKIYHSGKGVARPYPVKTLKLPGQIGAIVFLSSLLILGIIIPFGVLIHWMMVGTS---------------------GTFALVSVFDAFIRSLSVSALGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQ-----TFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWE--YTSDAQYAAATPYALMLVLFSGIPVFLLKK</Hsp_qseq>
+      <Hsp_hseq>ELARSRRVRAALWNTVWMTAATTLTVTIVGMFQVAVLEYFRVPGRGFLKIAFSTPLVFGGVVAAAGY-NFTYGPSGAITAALAALFPSLPRDWFIGWFGVLFAHTFLMTSFHFLFLRAAMRRVDYSTIEAARSMGASEMTILRCVVLPVILPTVLAVTLLTLITAMGSFAAPQVLGGRDFH--MLSQMVLTLNSLRRPDMAALLALLMGLVLMGLILLSQYFEAKGA-YTAGAKATTRIQLRAIRNPLARIVVTALAYLLAAIYLMPVALIVLFSFAPASSIGIDVLPSSFTLANYARVLGGGAAFVPFFNSMLMSSIAVAVGLAIT-LFAVPIM---VRKRNWLTRGLDICFVLPWIIPTMLLAVGLIVAFDAPNPLVGNLVLLGSYWLLPIGYVIFSLPLMVRFMRSAFIGIDPAFDEAARAMGASGPYRLRRVVLPLVAPTAILVAGMKFNNLLAEYPLSAFLYNVNNKPLPIAIVDGAVSADPDQAAVSLVYVTLIMAFSLAVILIAE</Hsp_hseq>
+      <Hsp_midline>EL    R+   L NT+ M A  TL   ++G+    + + +R  G+ F + A + PL     V+   + + T+   G     +     S P                      +L + AA++R+  S  E + S+G S +      +LP + P + +  LL  +  +  F A  +L    F   +  +  ++ N+    + AALL+ ++  V   ++     F  K   Y +G        ++ ++ P     +  L+ LL    ++P  +++ +     S                     G  A V  F++ + S    A+G  +T L A+P++   VR RN+LT  +D    L   +P +++A+ L+       P V       ++ ++ + Y +  LP+    +R++   +    ++    +G    +  R +VLP + P       + F  L+ E   +  L   +   L  A+ +   ++D   AA +   + L++   + V L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|83288468|sp|P0AEB1.1|CYSW_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Sulfate transport system permease protein CysW [Escherichia coli CFT073] &gt;gi|83288469|sp|P0AEB0.1|CYSW_ECOLI RecName: Full=Sulfate transport system permease protein CysW [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEB1</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0044992</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>ILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWI--------------SLTFRVEGFW-GTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSILNYPTFTTAI-----FQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIFRGK</Hsp_qseq>
+      <Hsp_hseq>MLVSAFILLVPMIYIFVQAFSKGLMPVLQNLADPDMLHAIWLTVMIALIAVPVNLVFGILLAWLVTRFNFPGRQLLLTLLDIPFAVSPVVAGLVYLLFYGSNGPLGGWLDEHNLQIMFSWPGMVLVTIFVTCPFVVRELVPVMLSQGSQEDEAAILLGASGWQMFRRVTLPNIRWALLYGVVLTNARAIGEFGAVSVVSGSIRGETLSLPLQIELLEQDYNTVGSFTAAALLTLMAIITLFLKSMLQWR</Hsp_hseq>
+      <Hsp_midline>+L+ A  L +P +Y+ ++++  G+   ++ L  P M   +  T+ +      +++V GI  A L  R+ F G+    T + +P  +   V+   ++                  ++   W G V++    + P     +   +       +E ++ LG S  Q F    LP ++ A+   V+L     + EFGAVS+++       +      +  E  YN   +   +A+LT +  I +F +S+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1168526|sp|P45090.1|ARTQ_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Arginine ABC transporter permease protein ArtQ [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45090</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00571034</Hsp_evalue>
+      <Hsp_query-from>355</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LLHAVPGLVIALSLVYFSINYTPAV-------YQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSI----LPGITAAFALVFLKLMKELTATLLLTADDV</Hsp_qseq>
+      <Hsp_hseq>LLRGLPEIIVVL-LVYFGSTELVEMLTGEYIEFGAFGCGVLALSLIFAAYASQTLRGAIQAIPKGQWESGAALGLSKSYTFIHIVMPQVWRHALPGLSTQ----WLVLLKDTALVSLIGVDDL</Hsp_hseq>
+      <Hsp_midline>LL  +P +++ L LVYF       +       +  F   +LA  +++   A  TLR +++ +PKG  + GA LG    + F  +V+P +    LPG++      +L L+K+     L+  DD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|84027947|sp|P0AFR9.1|YDCV_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Inner membrane ABC transporter permease protein YdcV [Escherichia coli K-12] &gt;gi|84027948|sp|P0AFS0.1|YDCV_SHIFL RecName: Full=Inner membrane ABC transporter permease protein YdcV [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFR9</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0307782</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>RPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISL--TFRVE-GFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAI</Hsp_qseq>
+      <Hsp_hseq>RSDILDAVTLSLKVAALATLIALVLGTLAAAALWRRDFFGKNAISLLLLLPIALPGIVTGLALLTAFKTINLEPGFFTIVVGHATFCVVVVFNNVIARFRRTSWSLVEASMDLGANGWQTFRYVVLPNLSSAL</Hsp_hseq>
+      <Hsp_midline>R  + D ++ +L + A  TLI++VLG   A    R  FFGK      + LP+ +P  V+    ++   T  +E GF+  V+  +     + +  V A  +R S S  E S+ LG +  QTF   +LP L  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|584757|sp|P37730.1|AMYD_THETU</Hit_id>
+  <Hit_def>RecName: Full=Probable starch degradation products transport system permease protein AmyD [Thermoanaerobacterium thermosulfurigenes]</Hit_def>
+  <Hit_accession>P37730</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0324621</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LTGLILLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRM--------WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTW----------IS-----------LTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLL</Hsp_qseq>
+      <Hsp_hseq>LLSLIIVVLIPFIIG-IYYSFTDWN-GINQPVFIGLKNFMTLRDDAEFWNSIIFTAKFAVACIVIINVVGLSLAMLVTR-KIFARNFMRTAFYLPNLIGGLILGFIWNFIFVDVFQTISDATHIGWLGGWLSTTNTGFWGLVIVTSWQMIGYVMVIYIAYIESIPTDLIEASKIDGANSWQQFRNVVFPLIAPAFTVSLFI</Hsp_hseq>
+      <Hsp_midline>L  LI+++ +P  +  +Y +   W  GIN+ V +  +  M        W+ +  T        +I  V+G++ A+L  R + F + F +TA  LP  I   +  F W          IS           L+    GFWG V++ S        +   A ++ I     E S   G +  Q F + + P + PA   S+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|585498|sp|P37731.1|MODB_AZOVI</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum transport system permease protein ModB [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>P37731</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0651113</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>SLSVSALGAILTILCALPLVWASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQ------------TFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTA---DDVHTLSTAVWEYTSDAQYAAATPYALMLVLFS</Hsp_qseq>
+      <Hsp_hseq>TLELASLTTVLLLVVGTPIAWWLARTRSRLKGAIGAVVALPLVLPPTVLGFYLLVTMGPHGP-IGQLTQFLGLGTLPFTFAGLVVASVFYSLPFVVQPLQNAFEAIGERPLEVASTLRAGPWDTFFTVVVPLARPGFITAAILGFAHTVGEFGVVLMIGGNIPEKTRTVAVQIFDHVEAMEYAQAHWLAGGMVLFS</Hsp_hseq>
+      <Hsp_midline>+L +++L  +L ++   P+ W   R R+ L   I  +  L   +P  V+   L+     + P + Q            TF  +++A     LP     L+ + E + +   +V +TL  G +  F T+V+P   PG   A  L F   + E    L++     +   T++  ++++    +YA A   A  +VLFS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0738104</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>TLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEG-----------------FWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL--NYP----TFTTAIFQEYE-MSYNN</Hsp_qseq>
+      <Hsp_hseq>TLELASLTTVLLLVVGTPIAWWLARTRSRLKGAIGAVVALPLVLPPTVLGF-YLLVTMGPHGPIGQLTQFLGLGTLPFTFAGLVVASVFYSLPFVVQPLQNAFEAIGERPLEVASTLRAGPWDTFFTVVVPLARPGFITAAILGFAHTVGEFGVVLMIGGNIPEKTRTVAVQIFDHVEAMEYAQ</Hsp_hseq>
+      <Hsp_midline>TL + +  T++ +V+G   A    R R   K      + LPL +P  V  F ++ +T    G                 F G V+     S P    P++ A + I     EV+ +L      TFF+ ++P  +P   ++ +L   H + EFG V ++  N P    T    IF   E M Y  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2501403|sp|Q53683.1|YOE1_STRAT</Hit_id>
+  <Hit_def>RecName: Full=Putative ABC transporter permease protein ORF1, partial [Streptomyces antibioticus]</Hit_def>
+  <Hit_accession>Q53683</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0666021</Hsp_evalue>
+      <Hsp_query-from>294</Hsp_query-from>
+      <Hsp_query-to>462</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>HWMMVGTSGTFALVSVFDAFIRSLSVSALGAILTILCALPLVWASVRYR----NFLTVWI---DRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAA-------------FALVFLKLMKELTATLLLT</Hsp_qseq>
+      <Hsp_hseq>HPTLANVRQAFAEQPLAHAALNSLLVALATAAVTVLIATPMAYVMARHRTKAARAATGWVVVSQAFPFVL-----LIIPLFLVLKRLR----LIDSLTGLVLVYVVWSLPFALWMLAGHARAVPAELEEAAAVDGAGRVRTLTSVTVPLLAPGIAATALFAFVTAWNEFFFALVLLKSPHRQTLPVVLT</Hsp_hseq>
+      <Hsp_midline>H  +      FA   +  A + SL V+   A +T+L A P+ +   R+R       T W+      PF+L     L+I L LV   +     +  +   ++L Y +  LP A   L      +P  +E+  A  G G      ++ +P + PGI A              FALV LK     T  ++LT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|585497|sp|Q08382.1|MODB_RHOCA</Hit_id>
+  <Hit_def>RecName: Full=Molybdenum transport system permease protein ModB [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>Q08382</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.101867</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>TLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWIS-----------LTFRVE-GFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAV</Hsp_qseq>
+      <Hsp_hseq>TVLLLALGTPLAWWLSRGGGLWKEIVATLVSLPIVLPPTVLGFYLLIAMGPNSPLTDLLGFKLSFTFAGLVVGSVIYSLPFVVNPIRNAFVAMGPRPMEVAATLRASPLDAFFTVALPQAAPGLITGAILGFAHTVGEFGVV</Hsp_hseq>
+      <Hsp_midline>T++ + LG   A    R     K    T ++LP+ +P  V  F  +            L F++   F G V+   + S P    P+  A   +     EV+ +L  S L  FF+  LPQ  P + +  +L   H + EFG V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1709723|sp|P47290.1|POTC_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine transport system permease protein PotC homolog [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>P47290</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.104679</Hsp_evalue>
+      <Hsp_query-from>324</Hsp_query-from>
+      <Hsp_query-to>506</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>AILTILCALPLV----WASVRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQT--FIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATPYALMLVLFS--GIPVFLLKKY</Hsp_qseq>
+      <Hsp_hseq>GVITVLVSVPIAVISAFALLRTRNALKKTIFGITNFSLATPDIITAISLVLLFANTWLSFNQQLGFFTIITSHISFSVPYALILIYPKIQKLNPNLILASQDLGYSPLKTFFHITLPYLMPSIFSAVLVVFATSFDDYVITSLVQG-SVKTIATELYSFRKGIK-AWAIAFGSILILISVLGVCLITLQKY</Hsp_hseq>
+      <Hsp_midline> ++T+L ++P+     +A +R RN L   I  +     A P ++ A+SLV    N   +  Q   F  +I ++    +P A   +   +++L   +      LG      F  + LP ++P I +A  +VF     +   T L+    V T++T ++ +    + A A  +  +L+L S  G+ +  L+KY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.66078</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>LSNTLTMMAGVTLISIVLGIACALLFQRYR------FFGKTFFQTAITLPLCIPAFVSCF--TWISLTFRVEGFWGTVMIMSLS-SFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLI</Hsp_qseq>
+      <Hsp_hseq>LINSIIIGVITVLVSVPIAVISAFALLRTRNALKKTIFGITNFSLATPDIITAISLVLLFANTWLSFNQQL-GFF-TIITSHISFSVPYALILIYPKIQKLNPNLILASQDLGYSPLKTFFHITLPYLMPSIFSAVLVV</Hsp_hseq>
+      <Hsp_midline>L N++ +     L+S+ + +  A    R R       FG T F  A    +   + V  F  TW+S   ++ GF+ T++   +S S P A + +   +++++ +    S  LG S L+TFF   LP L P+I S+VL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|83287906|sp|P0AE35.1|ARTQ_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Arginine ABC transporter permease protein ArtQ [Escherichia coli CFT073] &gt;gi|83287907|sp|P0AE34.1|ARTQ_ECOLI RecName: Full=Arginine ABC transporter permease protein ArtQ [Escherichia coli K-12] &gt;gi|83287908|sp|P0AE36.1|ARTQ_SHIFL RecName: Full=Arginine ABC transporter permease protein ArtQ [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AE35</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.119228</Hsp_evalue>
+      <Hsp_query-from>383</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>FIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSI----LPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSD</Hsp_qseq>
+      <Hsp_hseq>FLCGVIALSLLYAAYASQTLRGALKAVPVGQWESGQALGLSKSAIFFRLVMPQMWRHALPGLGNQ----WLVLLKDTALVSLISVNDLMLQTKSIATRTQE</Hsp_hseq>
+      <Hsp_midline>F+  ++A  +LY   A  TLR +L+ +P G  + G  LG     IF  LV+P +    LPG+       +L L+K+     L++ +D+   + ++   T +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|251757387|sp|P46340.2|YQGI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable ABC transporter permease protein YqgI [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P46340</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.121747</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>DLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGK--TFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPV-----EAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGA</Hsp_qseq>
+      <Hsp_hseq>DQLFNSFYILFITMLITIPLGVGGGVFMAEYAPNNKVTDFIRTCIEVLSSLPSIVIGMFGLLMFVNLTG-WGYTIIGGALALTVFNLPVMVRVTEDAIRSVPKDLKEASLALGVSRWHTVKTVLIPSAIPSIITGAILASGRVFGEAAA</Hsp_hseq>
+      <Hsp_midline>D L N+  ++    LI+I LG+   +    Y    K   F +T I +   +P+ V     + +   + G WG  +I    +  +  LPV     E A++ +    +E SL+LG SR  T  + ++P   P+I +  +L +  +  E  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.550174</Hsp_evalue>
+      <Hsp_query-from>342</Hsp_query-from>
+      <Hsp_query-to>487</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>RNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTLSTAVWEYTSDAQYAAATP</Hsp_qseq>
+      <Hsp_hseq>NNKVTDFIRTCIEVLSSLPSIVIGMFGLLMFVNLTGWGY-TIIGGALALTVFNLPVMVRVTEDAIRSVPKDLKEASLALGVSRWHTVKTVLIPSAIPSIITGAILASGRVFGE-AAALLFTAG----LTTPRLNFTEWNPFSETSP</Hsp_hseq>
+      <Hsp_midline> N +T +I     +L ++P +VI +  +   +N T   Y T I   LA  +  LP+       ++  +PK +++    LG   +   +T+++PS +P I     L   ++  E  A LL TA     L+T    +T    ++  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2506581|sp|P31549.2|THIP_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Thiamine transport system permease protein ThiP [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31549</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.191693</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>469</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>431</Hsp_align-len>
+      <Hsp_qseq>TLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISL------------------TFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAV-SILNYPTFTT---AIFQEYEMSYNNNTAALLSAVLTAVC--GIVVFGESIFRGKAKIYHSGKGVARPYPVKTLKLPGQIGAIVFLSSLLILGIIIPFGVLIHWMMVGTSGTFALVSVFDAFIRSLSVSALGAILTILCALPLVWAS----VRYRNFLTVWIDRLPFLLHAVPGLVIALSLVYFSINYTPAVYQTFI-VVILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVHTL</Hsp_qseq>
+      <Hsp_hseq>ALLSVIPAIFLARALYRRRFPGRLALLRLCAMTLILPVLVAVFGILSVYGRQGWLATLCQSLGLEWTFSPYGLQGILLAHVFFNLPMASRLLLQALENIPGEQRQLAAQLGMRSWHFFRFVEWPWLRRQIPPVAALIFMLCFASFATVLSLGGGPQATTIELAIYQALSYDYDPARAAML-ALLQMVCCLGLVLLSQRL----SKAIAPGTTLLQGWRDPDDRLHSRICDTVLIVLALLLLLPPLLAVIVDGVNRQLPEVLAQPVLWQALWTSLRIALAAGVLCVVLTMMLLWSSRELRARQKMLAGQVLEMSGMLILAMPGIVLATGF-FLLLNNTIGLPQSADGIVIFTNALMAIPYALKVLENPMRDITARYSMLCQSLGIEGWSRLKVVELRALKRPLAQALAFACVLSIGDFGVVALFGNDDFRTL</Hsp_hseq>
+      <Hsp_midline> L+S++  I  A    R RF G+        + L +P  V+ F  +S+                  TF   G  G ++     + P+A   +  AL+ I     +++  LG      F     P L+  I     LI +     F  V S+   P  TT   AI+Q     Y+   AA+L A+L  VC  G+V+  + +    +K    G  + + +     +L  +I   V +   L+L +     V++  +        A   ++ A   SL ++    +L ++  + L+W+S     R +      ++    L+ A+PG+V+A    +  +N T  + Q+   +VI    ++ +P A   L   +  +      +  +LG   +   + + L ++   +  A A   +  + +     L   DD  TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|614139040|sp|P9WG00.1|SUGB_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Trehalose transport system permease protein SugB [Mycobacterium tuberculosis CDC1551] &gt;gi|614139046|sp|P9WG01.1|SUGB_MYCTU RecName: Full=Trehalose transport system permease protein SugB [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WG00</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.211958</Hsp_evalue>
+      <Hsp_query-from>364</Hsp_query-from>
+      <Hsp_query-to>486</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>IALSLVYFSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQLPKGMEQV----GATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTADDVH-TLSTAVWEYTSDAQYAAAT</Hsp_qseq>
+      <Hsp_hseq>ISLVTPLFNIERAIGLFDTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGATPGQA----FRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSLTATKAAITAPVAIANFTGSSQFEEPT</Hsp_hseq>
+      <Hsp_midline>I+L    F+I     ++ T+  +IL Y    LP+A  TL     ++P  +E+     GAT G+     FR +++P   PG+  A  LVF+    +L   L LTA     T   A+  +T  +Q+   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|84027910|sp|P0AFR7.1|YCJO_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Inner membrane ABC transporter permease protein YcjO [Escherichia coli K-12] &gt;gi|84027911|sp|P0AFR8.1|YCJO_SHIFL RecName: Full=Inner membrane ABC transporter permease protein YcjO [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFR7</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.213623</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>VGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGTVMIMSLS-----------------------------SFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVSIL</Hsp_qseq>
+      <Hsp_hseq>VGVSNYVRILSDPGFWHSLWMTVWYTALVVAGSTVLGLAVAMFFNREFRLRKT-ARSLVILSYVTPSISLVFAW---KYMFNNGYGIVNYLGVDLLHLYEQAPLWFDNPGSSFVLVVLFAIWRYFPYAFISFLAILQTIDKSLYEAAEMDGANAWQRFRIVTLPAIMPVLATVVTLRTIWMFYMFADVYLL</Hsp_hseq>
+      <Hsp_midline>VG++  V +L  P  W  L  T+   A V   S VLG+A A+ F R     KT  ++ + L    P+    F W    +     +G V  + +                               FP A++   A L+ I  S  E +   G +  Q F    LP + P + + V L  + M   F  V +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
