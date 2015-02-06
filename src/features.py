@@ -423,6 +423,16 @@ def sorting(lista):
     return mat
 
 
+def GO():
+    l=[]
+    lista=sorting(tab())
+    for i in range(len(lista)):
+        for j in range(len(lista[i])):
+            if "GO" in lista[i][j]:
+                l.append(lista[i][0])
+                l.append(lista[i][j])
+    return l
+
 
 #Searching articles from PubMed DB referring to my organism and a gene
 def DB_pubmed(gene):
@@ -650,6 +660,8 @@ def menu(record):
             blastanaliser()
         elif ans=="16":
             gimatch()
+        elif ans=="17":
+            print(GO())
         elif ans=="20":
             ans = False
         else:
