@@ -1,0 +1,1461 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800661|ref|YP_207373.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>anhydrase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>176</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800661|ref|YP_207373.1|</Iteration_query-ID>
+  <Iteration_query-def>anhydrase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>176</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|71152960|sp|P0A9W9.1|YRDA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Protein YrdA [Escherichia coli K-12] &gt;gi|71152961|sp|P0A9X0.1|YRDA_SHIFL RecName: Full=Protein YrdA [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0A9W9</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.047</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>2.2063e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>NAIRTFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>DVLRPYRDLFPQIGQRVMIDDSSVVIGDVRLADDVGIWPLVVIRGDVHYVQIGARTNIQDGSMLHVTHKSSYNPDGNPLTIGEDVTVGHKVMLHGCTIGNRVLVGMGSILLDGAIVEDDVMIGAGSLVPQNKRLESGYLYLGSPVKQIRPLSDEEKAGLRYSANNYVKWKDEY</Hsp_hseq>
+      <Hsp_midline>+ +R +++  P+I +  MID++ VVIG+V LA+DV +WP  V+RGDV+ + +GAR+NIQDGS+LHV+HK++  P+G+PL IGEDVTVGHKVMLHGC IGNRVLVGMGS +LD A++EDDVMIGAGSLVP  KRLE GYLY+GSPV+Q+R L+DEEKA L+YSA +YVK   +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|75172889|sp|Q9FWR5.1|GCA1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Gamma carbonic anhydrase 1, mitochondrial; Short=AtCA1; Short=GAMMA CA1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FWR5</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>1.18565e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>RTFQN---RTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>RTLMNVFDKAPIVDKEAFVAPSASVIGDVHIGRGSSIWYGCVLRGDVNTVSVGSGTNIQDNSLVHVA-KSNLSGKVHPTIIGDNVTIGHSAVLHGCTVEDETFIGMGATLLDGVVVEKHGMVAAGALVRQNTRIPSGEVWGGNPARFLRKLTDEEIAFISQSATNYSNLAQAH</Hsp_hseq>
+      <Hsp_midline>RT  N   + P + +   +  +  VIG+V +    S+W   VLRGDVN+++VG+ +NIQD S++HV+ K+    +  P +IG++VT+GH  +LHGC + +   +GMG+T+LD  V+E   M+ AG+LV    R+  G ++ G+P R +R LTDEE AF+  SA +Y  L++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|75169075|sp|Q9C6B3.1|GCA2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Gamma carbonic anhydrase 2, mitochondrial; Short=AtCA2; Short=GAMMA CA2; AltName: Full=Transcription factor APFI; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9C6B3</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.40504e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>RTFQN---RTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSK</Hsp_qseq>
+      <Hsp_hseq>RTLMNVFDKSPLVDKDVFVAPSASVIGDVQIGKGSSIWYGCVLRGDVNNISVGSGTNIQDNTLVHVA-KTNISGKVLPTLIGDNVTVGHSAVIHGCTVEDDAFVGMGATLLDGVVVEKHAMVAAGSLVKQNTRIPSGEVWGGNPAKFMRKLTDEEIVYISQSAKNYINLAQ</Hsp_hseq>
+      <Hsp_midline>RT  N   ++P + +   +  +  VIG+V + +  S+W   VLRGDVN+I+VG+ +NIQD +++HV+ KT    +  P +IG++VTVGH  ++HGC + +   VGMG+T+LD  V+E   M+ AGSLV    R+  G ++ G+P + +R LTDEE  ++  SA +Y+ L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|12230953|sp|P40882.2|Y3753_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein PA3753 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P40882</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>4.91007e-36</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>EIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>ETHPDSWIAPSAAVIGKVRLDAGASVWFGAVLRGDNELIHIGEHSNVQDGSVMHTD-------MGYPLTLGKGVTVGHNAMLHGCSVGDYSLVGINAVILNGAKIGKYCIIGANALIPEGKEIPDGSLVMGSPGKVVRELSEPQKKMLEASAAHYVHNARRY</Hsp_hseq>
+      <Hsp_midline>E H    I  +  VIG+V L    SVW  AVLRGD   I +G  SN+QDGSV+H          G PL +G+ VTVGH  MLHGC +G+  LVG+ + +L+ A I    +IGA +L+P  K +  G L +GSP + VR L++ +K  L+ SAAHYV  +++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81637592|sp|O34696.1|YTOA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transferase YtoA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34696</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>5.94052e-34</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>IRTFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVS-HKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>IYPYKEHKPDIHPTAFIADNATITGDVVIGEQSSIWFSVVIRGDVAPTRIGNRVNIQDLSCLHQSPNKT--------LLIEDDATIGHQVTLHSAVIRKNALIGMGSIILDGAEIGEGAFIGAGSLVPPGKIIPPGHLAFGRPAKVIRPLTEEDRKDMQRIRSEYVEKGQYY</Hsp_hseq>
+      <Hsp_midline>I  ++   P+IH T  I +   + G+V + E  S+W   V+RGDV    +G R NIQD S LH S +KT        L+I +D T+GH+V LH   I    L+GMGS +LD A I +   IGAGSLVPP K +  G+L  G P + +R LT+E++  ++   + YV+  + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75165017|sp|Q94AU7.1|GCA3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Gamma carbonic anhydrase 3, mitochondrial; Short=AtCA3; Short=GAMMA CA3; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q94AU7</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.69228e-34</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>RTFQN---RTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>RTLMNVFDKTPNVDKGAFVAPNASLSGDVHVGRGSSIWYGCVLRGDANSISVGAGTNIQDNALVHVA-KTNLSGKVLPTVIGDNVTIGHSAVLHGCTVEDEAYIGTSATVLDGAHVEKHAMVASGALVRQNTRIPSGEVWGGNPAKFLRKVTEEERVFFSSSAVEYSNLAQAH</Hsp_hseq>
+      <Hsp_midline>RT  N   +TP + +   +     + G+V +    S+W   VLRGD NSI+VGA +NIQD +++HV+ KT    +  P VIG++VT+GH  +LHGC + +   +G  +TVLD A +E   M+ +G+LV    R+  G ++ G+P + +R +T+EE+ F   SA  Y  L++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2493491|sp|Q57752.1|Y304_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0304 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57752</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>7.16604e-34</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>IHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSK</Hsp_qseq>
+      <Hsp_hseq>ISKNVRIAKGAVIVGDVTIGDYSSVWYNAVIRGDVDKIIIGNYSNIQDCCVVHCS-------KGYPTIIGDYVSIGHGAVIHGCRIEDNVLVGMNATILNGAKIGENCIIGANALVTQNKEIPPNSLVLGVPGRVVRELTEEEIKSIKENALRYVKLSE</Hsp_hseq>
+      <Hsp_midline>I +   I +  V++G+V++ +  SVW  AV+RGDV+ I +G  SNIQD  V+H S       +G P +IG+ V++GH  ++HGCRI + VLVGM +T+L+ A I ++ +IGA +LV   K +    L +G P R VR LT+EE   +K +A  YVKLS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|12643682|sp|P77181.1|PAAY_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Phenylacetic acid degradation protein PaaY [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77181</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.43472e-26</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>TPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHY</Hsp_qseq>
+      <Hsp_hseq>TPVVPEESFVHPTAVLIGDVILGKGVYVGPNASLRGDFGRIVVKDGANIQDNCVMH------GFPE-QDTVVGEDGHIGHSAILHGCIIRRNALVGMNAVVMDGAVIGENSIVGASAFVKAKAEMPANYLIVGSPAKAIRELSEQELAWKKQGTHEY</Hsp_hseq>
+      <Hsp_midline>TP + E   +    V+IG+V L + V V P A LRGD   I V   +NIQD  V+H        PE    V+GED  +GH  +LHGC I    LVGM + V+D AVI ++ ++GA + V  +  +   YL +GSP + +R L+++E A+ K     Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226699716|sp|B7N7R0.1|CAIE_ECOLU</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli UMN026] &gt;gi|254813535|sp|B7MNP2.1|CAIE_ECO81 RecName: Full=Carnitine operon protein CaiE [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>B7N7R0</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.40884e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFRGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V    R E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|9911059|sp|P39206.2|CAIE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli K-12] &gt;gi|226699715|sp|B1XBG0.1|CAIE_ECODH RecName: Full=Carnitine operon protein CaiE [Escherichia coli str. K-12 substr. DH10B] &gt;gi|259585661|sp|C4ZPW1.1|CAIE_ECOBW RecName: Full=Carnitine operon protein CaiE [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P39206</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.54724e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCLIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFRGEKRQLLMGTPARAVRNVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V    R E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|56404607|sp|Q8FLA7.2|CAIE_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli CFT073] &gt;gi|123148442|sp|Q0TLV4.1|CAIE_ECOL5 RecName: Full=Carnitine operon protein CaiE [Escherichia coli 536] &gt;gi|150438867|sp|A1A785.2|CAIE_ECOK1 RecName: Full=Carnitine operon protein CaiE [Escherichia coli APEC O1] &gt;gi|150438868|sp|Q1RGG3.2|CAIE_ECOUT RecName: Full=Carnitine operon protein CaiE [Escherichia coli UTI89] &gt;gi|226699711|sp|B7MAF8.1|CAIE_ECO45 RecName: Full=Carnitine operon protein CaiE [Escherichia coli S88]</Hit_def>
+  <Hit_accession>Q8FLA7</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.56344e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFRGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V    R E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|254813533|sp|B7UI81.1|CAIE_ECO27</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>B7UI81</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.59633e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFRGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V    R E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|226699717|sp|B1LFW8.1|CAIE_ECOSM</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LFW8</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.66421e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLLVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFRGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V    R E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|226699713|sp|B7NHD9.1|CAIE_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NHD9</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>3.30709e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAISFVKAGFRGEKRQLLMGTPARAVRNVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V    R E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|189081550|sp|B1IRE1.1|CAIE_ECOLC</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli ATCC 8739]</Hit_def>
+  <Hit_accession>B1IRE1</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>6.98899e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPIVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFSGEKRQLLIGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V      E   L IG+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|56404642|sp|Q8XA36.2|CAIE_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia coli O157:H7] &gt;gi|226699712|sp|B5YYC9.1|CAIE_ECO5E RecName: Full=Carnitine operon protein CaiE [Escherichia coli O157:H7 str. EC4115]</Hit_def>
+  <Hit_accession>Q8XA36</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>7.13569e-25</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>FEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYTDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFHGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline>F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V      E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|150438871|sp|Q3Z5X4.2|CAIE_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Shigella sonnei Ss046] &gt;gi|166991438|sp|A7ZHC6.1|CAIE_ECO24 RecName: Full=Carnitine operon protein CaiE [Escherichia coli O139:H28 str. E24377A] &gt;gi|166991439|sp|A7ZVY5.1|CAIE_ECOHS RecName: Full=Carnitine operon protein CaiE [Escherichia coli HS] &gt;gi|226699714|sp|B7M0D2.1|CAIE_ECO8A RecName: Full=Carnitine operon protein CaiE [Escherichia coli IAI1] &gt;gi|254813534|sp|B7L4F8.1|CAIE_ECO55 RecName: Full=Carnitine operon protein CaiE [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>Q3Z5X4</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.10358e-24</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFHGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V      E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|56404597|sp|Q83SQ8.2|CAIE_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Shigella flexneri] &gt;gi|150438870|sp|Q0T8F9.2|CAIE_SHIF8 RecName: Full=Carnitine operon protein CaiE [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q83SQ8</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.47561e-24</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFSGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V      E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|150438869|sp|Q32K62.2|CAIE_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32K62</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>3.52432e-24</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPTAFVHPSAVLIGYVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFHGEKRQLLMGTPARAVRSVSDDELHWKRLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V      E   L +G+P R VR ++D+E  + + +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226699718|sp|B7LWM6.1|CAIE_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LWM6</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>3.63554e-24</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKL</Hsp_qseq>
+      <Hsp_hseq>AFERLIPVVHPTAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLIVQAGANIQDGCIMHGYCDTDT-------IVGENGHIGHGAILHGCVIGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFSGEKRQLLMGTPARAVRSVSDDELRWKHLNTKEYQDL</Hsp_hseq>
+      <Hsp_midline> F+   P +H T  +  + V+IG+V +   V + P A LRGD   + V A +NIQDG ++H    T         ++GE+  +GH  +LHGC IG   LVGM S ++D AVI ++ ++ A S V      E   L +G+P R VR ++D+E  +   +   Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|74852728|sp|Q54JC2.1|Y2881_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein DDB_G0288155 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54JC2</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.95868e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>IRTFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>LTAFGDNAPIVGQKSFIAPNASIIGDVVIGKESSIWYNAVLRGDVNSIHIGDKTVVSDRTVVHCSSNGPLGPK--PTQIGDKVYIGPGSIVHAATILGESFIGTGSTLCDGSVVEKNGFLEAGSLLTAGKTIKSGEYWGGSPAKFIRQVTKDDESQLEKIIEQNINLSEQH</Hsp_hseq>
+      <Hsp_midline>+  F +  P + +   I     +IG+V + ++ S+W  AVLRGDVNSI +G ++ + D +V+H S      P+  P  IG+ V +G   ++H   I     +G GST+ D +V+E +  + AGSL+   K ++ G  + GSP + +R +T ++++ L+      + LS+Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|25091501|sp|Q9FMV1.1|GCAL1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Gamma carbonic anhydrase-like 1, mitochondrial; Short=AtCAL1; Short=GAMMA CAL1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FMV1</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>2.37002e-23</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>PEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSP--LVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>PKVAVDAYVAPNVVLAGQVTVWDGSSVWNGAVLRGDLNKITVGFCSNVQERCVVHAAWSS---PTGLPAATIIDRYVTVGAYSLLRSCTIEPECIIGQHSILMEGSLVETRSILEAGSVVPPGRRIPSGELWGGNPARFIRTLTNEETLEIPKLAVAINHLSGDY</Hsp_hseq>
+      <Hsp_midline>P++     +    V+ G+V++ +  SVW  AVLRGD+N ITVG  SN+Q+  V+H +  +   P G P   +I   VTVG   +L  C I    ++G  S +++ +++E   ++ AGS+VPP +R+  G L+ G+P R +R LT+EE   +   A     LS  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|56404645|sp|Q8Z9L6.1|CAIE_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z9L6</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>3.58916e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPDAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLILEAGSNLQDGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVVGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFQGEARQLLVGSPARVLRQVTDQELYWKRLNTKEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD   + + A SN+QDG ++H    T         ++ E+  +GH  +LHGC +G   LVGM S ++D AVI ++ ++ A S V    + E   L +GSP R +R +TD+E  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|62510418|sp|Q5PIL2.1|CAIE_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|226699721|sp|B5R1Q8.1|CAIE_SALEP RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|226699722|sp|B5RGA3.1|CAIE_SALG2 RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|226699723|sp|B4TIG8.1|CAIE_SALHS RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|226699724|sp|B4T6J4.1|CAIE_SALNS RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|226699725|sp|B5BL53.1|CAIE_SALPK RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601] &gt;gi|226699726|sp|B4TWR2.1|CAIE_SALSV RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|254813536|sp|C0Q4L1.1|CAIE_SALPC RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>Q5PIL2</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>3.93781e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPDAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLILEAGSNLQDGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVVGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFQGEARQLLVGSPARVLRQVTDQELHWKRLNTKEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD   + + A SN+QDG ++H    T         ++ E+  +GH  +LHGC +G   LVGM S ++D AVI ++ ++ A S V    + E   L +GSP R +R +TD+E  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|226699720|sp|B5FHG3.1|CAIE_SALDC</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853]</Hit_def>
+  <Hit_accession>B5FHG3</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>4.10342e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPDAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLILEAGSNLQDGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVVGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFQGEARQLLVGSPARVLRQVTDQELHWKRLNTKEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD   + + A SN+QDG ++H    T         ++ E+  +GH  +LHGC +G   LVGM S ++D AVI ++ ++ A S V    + E   L +GSP R +R +TD+E  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|56404648|sp|Q8ZRX6.1|CAIE_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZRX6</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.01472e-22</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPDAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLILEAGSNLQDGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVVGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFQGEARQLLVGSPARVLRQVTDQELHWKHLNTKEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD   + + A SN+QDG ++H    T         ++ E+  +GH  +LHGC +G   LVGM S ++D AVI ++ ++ A S V    + E   L +GSP R +R +TD+E  +   +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|226699719|sp|B5F748.1|CAIE_SALA4</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Agona str. SL483]</Hit_def>
+  <Hit_accession>B5F748</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.04649e-22</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPDAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLILEAGSNLQDGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVVGRDALVGMNSVIMDGAMIGEESIVAAMSFVKAGFQGEARQLLVGSPARVLRQVTDQELHWKRLNTKEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD   + + A SN+QDG ++H    T         ++ E+  +GH  +LHGC +G   LVGM S ++D A+I ++ ++ A S V    + E   L +GSP R +R +TD+E  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|25091504|sp|Q9SMN1.1|GCAL2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Gamma carbonic anhydrase-like 2, mitochondrial; Short=AtCAL2; Short=GAMMA CAL2; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SMN1</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.37347e-22</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>PEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSP--LVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLSKQY</Hsp_qseq>
+      <Hsp_hseq>PKVAVDAYVAPNVVLAGQVTVWDGSSVWNGAVLRGDLNKITVGFCSNVQERCVVHAAWSS---PTGLPAQTLIDRYVTVGAYSLLRSCTIEPECIIGQHSILMEGSLVETRSILEAGSVLPPGRRIPSGELWGGNPARFIRTLTNEETLEIPKLAVAINHLSGDY</Hsp_hseq>
+      <Hsp_midline>P++     +    V+ G+V++ +  SVW  AVLRGD+N ITVG  SN+Q+  V+H +  +   P G P   +I   VTVG   +L  C I    ++G  S +++ +++E   ++ AGS++PP +R+  G L+ G+P R +R LT+EE   +   A     LS  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|68565011|sp|Q57TJ2.1|CAIE_SALCH</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q57TJ2</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.84101e-22</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPDAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRQILEAGSNLQDGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVVGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFQGEARQLLVGSPARVLRQVTDQELHWKRLNTKEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD     + A SN+QDG ++H    T         ++ E+  +GH  +LHGC +G   LVGM S ++D AVI ++ ++ A S V    + E   L +GSP R +R +TD+E  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|189081551|sp|A9MYJ4.1|CAIE_SALPB</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7]</Hit_def>
+  <Hit_accession>A9MYJ4</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>6.2971e-22</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPDAFVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLILEAGSNLQYGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVVGRDALVGMNSVIMDGAVIGEESIVAAMSFVKAGFQGEARQLLVGSPARVLRQVTDQELHWKRLNTKEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD   + + A SN+Q G ++H    T         ++ E+  +GH  +LHGC +G   LVGM S ++D AVI ++ ++ A S V    + E   L +GSP R +R +TD+E  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|56404608|sp|Q8GB16.1|CAIE_PROSL</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Proteus sp. LE138]</Hit_def>
+  <Hit_accession>Q8GB16</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>9.51056e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>AIRTFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>SIYAFEGVIPVVHPTAYIHPSAVLIGDVIIGAGVYIGPLASLRGDYGRLIVEAGANLQDGCVMHGYTDMDT-------IVQENGHIGHGAILHSCIIGRDSLVGMNSVIMDGAIIGEESIVAAMSFVKAGFQGQARQMLMGSPAKHVRDISDQDMQWKRMNTREYQDLT</Hsp_hseq>
+      <Hsp_midline>+I  F+   P +H T  I  + V+IG+V +   V + P A LRGD   + V A +N+QDG V+H              ++ E+  +GH  +LH C IG   LVGM S ++D A+I ++ ++ A S V    + +   + +GSP + VR ++D++  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166991437|sp|A8ALR8.1|CAIE_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Carnitine operon protein CaiE [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8ALR8</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.67921e-20</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>TFQNRTPEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLV------PPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVKLS</Hsp_qseq>
+      <Hsp_hseq>AFEGLIPVVHPEAYVHPSAVLIGDVIVGAGVYIGPLASLRGDYGRLILEAGANLQDGCIMHGYCDTDT-------IVHENGHIGHGAILHGCVIGRDALVGMNSVIMDGAIIGEESIVAAMSFVKAGFVGAPRQ------LLVGAPARVKRDVTDEELHWKRLNTQEYQDLA</Hsp_hseq>
+      <Hsp_midline> F+   P +H    +  + V+IG+V +   V + P A LRGD   + + A +N+QDG ++H    T         ++ E+  +GH  +LHGC IG   LVGM S ++D A+I ++ ++ A S V       PR+      L +G+P R  R +TDEE  + + +   Y  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|729004|sp|P40881.1|CAH_METTE</Hit_id>
+  <Hit_def>RecName: Full=Carbonic anhydrase; Flags: Precursor [Methanosarcina thermophila]</Hit_def>
+  <Hit_accession>P40881</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.37412e-10</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>PEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVN-SITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLV</Hsp_qseq>
+      <Hsp_hseq>PVIDPTAYIDPQASVIGEVTIGANVMVSPMASIRSDEGMPIFVGDRSNVQDGVVLHALETI--NEEGEPI---EDNIVEVDGKEYAVYIGNNVSLAHQSQVHGPAAVGDDTFIGMQAFV</Hsp_hseq>
+      <Hsp_midline>P I  T  ID    VIGEV++  +V V P A +R D    I VG RSN+QDG VLH         EG P+   ED  V      +   IGN V +   S V   A + DD  IG  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74856540|sp|Q54XU5.1|DCTN5_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Dynactin subunit 5 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54XU5</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>2.345e-06</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>VWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGS----PLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLK-YSAAHY</Hsp_qseq>
+      <Hsp_hseq>IKPGVIVRGDLASVNIGRLSIISENTVIRPSSK---KFKGSLVYFPQNIGDHVLVGEGCVISAASIGSNVYIGNNCIISKRCILKDCCIIADNTILPPDTVVPPFTYYSGTPGVYKEDLPDCIEQFQKEYTTSLY</Hsp_hseq>
+      <Hsp_midline>+ P  ++RGD+ S+ +G  S I + +V+  S K   K +GS    P  IG+ V VG   ++    IG+ V +G    +    +++D  +I   +++PP   +     Y G+P      L D  + F K Y+ + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|123512095|sp|Q2K8X7.1|LPXA_RHIEC</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Rhizobium etli CFN 42]</Hit_def>
+  <Hit_accession>Q2K8X7</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.432e-06</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>IHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSI---------TVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIG</Hsp_qseq>
+      <Hsp_hseq>LHANVELLAHAVVTGRTVVGKGTRIFPMAVVGGDPQSVHHGGEDTTLTVGANCTIREG----VTMNTGTADFGGRTIVGDNNLFLANSHVAHDCRVGNHVIMSNNVMLAGHVVIEDRVILGGGSAVHQFTRV-GRHAFVG</Hsp_hseq>
+      <Hsp_midline>+H    +    VV G   + +   ++P AV+ GD  S+         TVGA   I++G    V+  T     G   ++G++ + + +  + H CR+GN V++     +    VIED V++G GS V    R+ G + ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|166231990|sp|Q1MH44.1|LPXA_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q1MH44</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>6.14158e-06</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>IHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSI---------TVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRL</Hsp_qseq>
+      <Hsp_hseq>LHANVELLSHAIVTGRTVIGKGTRIFPMAVVGGDPQSVHHGGEETTLTVGANCTIREG----VTMNTGTADFGGQTIVGDNNLFLANSHVAHDCRVGNHVIMSNNVMLAGHVVIEDRVILGGGSAVHQFTRV</Hsp_hseq>
+      <Hsp_midline>+H    +    +V G   + +   ++P AV+ GD  S+         TVGA   I++G    V+  T     G   ++G++ + + +  + H CR+GN V++     +    VIED V++G GS V    R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|226738540|sp|B5ZN93.1|LPXA_RHILW</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Rhizobium leguminosarum bv. trifolii WSM2304]</Hit_def>
+  <Hit_accession>B5ZN93</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.37402e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>IHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSI---------TVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRL</Hsp_qseq>
+      <Hsp_hseq>LHENVELLSHAVVAGRTVIGKGTRIFPMAVIGGDPQSVHHGGEETTLSVGANCTMREG----VTMNTGTADFGGQTIVGDNNLFLANSHVAHDCKVGNHVIMSNNVMLAGHVVIEDRVILGGGSAVHQFTRV</Hsp_hseq>
+      <Hsp_midline>+HE   +    VV G   + +   ++P AV+ GD  S+         +VGA   +++G    V+  T     G   ++G++ + + +  + H C++GN V++     +    VIED V++G GS V    R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226738539|sp|B3PYQ2.1|LPXA_RHIE6</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Rhizobium etli CIAT 652]</Hit_def>
+  <Hit_accession>B3PYQ2</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.686e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>IHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSI---------TVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRL</Hsp_qseq>
+      <Hsp_hseq>LQENVELLSHAIVTGRTVIGKGTRIFPMAVVGGDPQSVHHAGEETTLSVGANCTIREG----VTMNTGTADFGGQTIVGDNNLFLANSHVAHDCRVGNHVIMSNNVMLAGHVVIEDRVILGGGSAVHQFTRV</Hsp_hseq>
+      <Hsp_midline>+ E   +    +V G   + +   ++P AV+ GD  S+         +VGA   I++G    V+  T     G   ++G++ + + +  + H CR+GN V++     +    VIED V++G GS V    R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226738533|sp|A1B8X9.1|LPXA_PARDP</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Paracoccus denitrificans PD1222]</Hit_def>
+  <Hit_accession>A1B8X9</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>6.00066e-05</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>VVIGEVSLAEDVSVWPCAVL---------RGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGA</Hsp_qseq>
+      <Hsp_hseq>VVAGETLIGDETVVFPFASLGEVPQDLKFRGERTRLEIGARNRIRE----YVTMNPGTEGGGGVTRIGDDGLFMAGSHVAHDCQIGNRVILVNNASVAGHCVLEDDVIVGG</Hsp_hseq>
+      <Hsp_midline>VV GE  + ++  V+P A L         RG+   + +GAR+ I++    +V+     +  G    IG+D + +    + H C+IGNRV++   ++V    V+EDDV++G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|119371935|sp|Q39T44.1|LPXD_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase [Geobacter metallireducens GS-15]</Hit_def>
+  <Hit_accession>Q39T44</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>6.49055e-05</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>EACVVIGEVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLH-GCRIGNRVLVGMGSTVLDDA-------------------VIEDDVMIGAGSLV</Hsp_qseq>
+      <Hsp_hseq>EGALVGHNVAMGSDVTIYPGAFV-GD--GVTLGDRVTIFPGVVIY---------EG--VTLGSDVTLHSNVVVYQGCRIGNRVTIHAGTIIGSDGFGYAPDGDGFYKIPQLGIVVIEDDVEVGANTTI</Hsp_hseq>
+      <Hsp_midline>E  +V   V++  DV+++P A + GD   +T+G R  I  G V++         EG  + +G DVT+   V+++ GCRIGNRV +  G+ +  D                    VIEDDV +GA + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|254810139|sp|C3MBR2.1|LPXA_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>C3MBR2</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000146847</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>VVIGEVSLAEDVSVWPCAVLRGDVNSI---------TVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIG</Hsp_qseq>
+      <Hsp_hseq>VVIGRTTIGKGTKIFPGAVIGGDSQSVHHSAVDTTLVIGENCTIREG----VTMNTGTVEHGGTTVVGNNNLFLAYSHVAHDCRLGNNIILSNNVMLAGHVTVEDRAILGGGSAVHQFTRV-GKQAFIG</Hsp_hseq>
+      <Hsp_midline>VVIG  ++ +   ++P AV+ GD  S+          +G    I++G    V+  T     G   V+G + + + +  + H CR+GN +++     +     +ED  ++G GS V    R+ G   +IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|60390055|sp|Q74AT5.1|LPXD_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase [Geobacter sulfurreducens PCA]</Hit_def>
+  <Hit_accession>Q74AT5</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000156434</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>EVSLAEDVSVWPCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLH-GCRIGNRVLVGMGSTV-------------------LDDAVIEDDVMIGAGSLV</Hsp_qseq>
+      <Hsp_hseq>NVKLGSEITIHPGAVV-GD--NVTIGDRVTLHPGVVLY---------EG--VTVGDDVTLHANVTVYQGCRIGNRVTIHGGTIIGSDGFGYAPDGDGWYKIPQLGNVVIEDDVEIGANAAI</Hsp_hseq>
+      <Hsp_midline> V L  ++++ P AV+ GD  ++T+G R  +  G VL+         EG  + +G+DVT+   V ++ GCRIGNRV +  G+ +                   L + VIEDDV IGA + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|21362668|sp|Q92Q45.1|LPXA_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q92Q45</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00022998</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VIGEVSLAEDVSVWPCAVLRGDVNSI---------TVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIG</Hsp_qseq>
+      <Hsp_hseq>VIGHTSVGKGTKIFPGAVIGGDSQSVHHSALNTKLVIGENCTIREG----VTMNTGTVEHGGATIVGNNNLFLAYSHVAHDCRLGNNIILSNNVMLAGHVTVEDRAILGGGSAVHQFTRI-GRQAFIG</Hsp_hseq>
+      <Hsp_midline>VIG  S+ +   ++P AV+ GD  S+          +G    I++G    V+  T     G   ++G + + + +  + H CR+GN +++     +     +ED  ++G GS V    R+ G   +IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81601586|sp|Q5X0C0.1|LPXD1_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase 1 [Legionella pneumophila str. Lens]</Hit_def>
+  <Hit_accession>Q5X0C0</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000318249</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVR</Hsp_qseq>
+      <Hsp_hseq>GNNVIFAANVGVSDHVHIEDEVILGARTGVPPHKHLKKGTVYLGNPAK</Hsp_hseq>
+      <Hsp_midline>GN V+      V D   IED+V++GA + VPP K L+ G +Y+G+P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|81602068|sp|Q5X8X9.1|LPXD1_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase 1 [Legionella pneumophila str. Paris] &gt;gi|119371427|sp|Q5ZZB1.2|LPXD1_LEGPH RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase 1 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1]</Hit_def>
+  <Hit_accession>Q5X8X9</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00032438</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVR</Hsp_qseq>
+      <Hsp_hseq>GNNVIFAANVGVSDHVHIEDEVILGARTGVPPHKHLKKGTVYLGNPAK</Hsp_hseq>
+      <Hsp_midline>GN V+      V D   IED+V++GA + VPP K L+ G +Y+G+P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|75248562|sp|Q8W0E4.1|SAT1_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Probable serine acetyltransferase 1; AltName: Full=OsSERAT1;1 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q8W0E4</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00087704</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GSPLVIGEDVTVGHKVMLHGC---------RIGNRVLVGMGSTVLDDAVIEDDVMIGAGSL----VPPRKRLEGGYLYIGSPVR</Hsp_qseq>
+      <Hsp_hseq>GETAVIGDNVSILHHVTLGGTGKAVGDRHPKIGDGVLIGAGATILGNVRIGAGAKIGAGSLVLIDVPPRTT------AVGNPAR</Hsp_hseq>
+      <Hsp_midline>G   VIG++V++ H V L G          +IG+ VL+G G+T+L +  I     IGAGSL    VPPR         +G+P R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|729024|sp|P39856.1|CAPG_STAAU</Hit_id>
+  <Hit_def>RecName: Full=Protein CapG [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>P39856</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00105193</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>PCAVLRGDVNSITVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVG-HKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLE</Hsp_qseq>
+      <Hsp_hseq>PYLIQIGNHVTITSGVKFATHDGGVWIFRKKYPEIDNFHRIFIGNNVFIGINSIILPGVTIGNNVVVGAGSVVTKD--VPDNVIIGGN----PAKKIK</Hsp_hseq>
+      <Hsp_midline>P  +  G+  +IT G +    DG V     K         + IG +V +G + ++L G  IGN V+VG GS V  D  + D+V+IG      P K+++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0483404</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRLEGGYLYIGSPVRQVRLLTDEEKAFLKYSAAHYVK</Hsp_qseq>
+      <Hsp_hseq>FHRIFIGNNVFIGINSIILPGVTIGNNVVVGAGSVVT--KDVPDNVIIGGNPAKKIKSIEAYETKILE--NADYTK</Hsp_hseq>
+      <Hsp_midline> H   IGN V +G+ S +L    I ++V++GAGS+V   K +    +  G+P ++++ +   E   L+   A Y K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|254810127|sp|B9JEY0.1|LPXA_AGRRK</Hit_id>
+  <Hit_def>RecName: Full=Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase; Short=UDP-N-acetylglucosamine acyltransferase [Agrobacterium radiobacter K84]</Hit_def>
+  <Hit_accession>B9JEY0</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00153049</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>IHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNSI---------TVGARSNIQDGSVLHVSHKTAAKPEGSPLVIGED-VTVGHKVMLHGCRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLVPPRKRL</Hsp_qseq>
+      <Hsp_hseq>LHDSVQLLTHVVVTGRTTIGKGTKIFPMAVVGGDPQSVHHGGEETTLDIGENCTIREG----VTINTGTADYGGKTVVGNNNLFLANSHVAHDCRVGNNVIMSNNVMLAGHVTVEDRAILGGGCAVHQFTRI</Hsp_hseq>
+      <Hsp_midline>+H++  +    VV G  ++ +   ++P AV+ GD  S+          +G    I++G    V+  T     G   V+G + + + +  + H CR+GN V++     +     +ED  ++G G  V    R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|416775|sp|Q03513.1|CCMM_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Carbon dioxide concentrating mechanism protein CcmM [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>Q03513</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00202191</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>PEIHETCMIDEACVVIGEVSLAEDVSVWPCAVLRGDVNS-ITVGARSNIQDGSVLH---VSHKTAAKPEGSPLVIGEDVTVGHKVMLHG-CRIGNRVLVGMGSTVLDDAVIEDDVMIGAGSLV</Hsp_qseq>
+      <Hsp_hseq>PYIDPAAQVHAIASIIGDVRIAAGVRVAAGVSIRADEGAPFQVGKESILQEGAVIHGLEYGRVLGDDQADYSVWIGQRVAITHKALIHGPAYLGDDCFVGFRSTVF-------NARVGAGSVI</Hsp_hseq>
+      <Hsp_midline>P I     +     +IG+V +A  V V     +R D  +   VG  S +Q+G+V+H                + IG+ V + HK ++HG   +G+   VG  STV        +  +GAGS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|119370560|sp|Q13T65.2|GLMU_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional protein GlmU; Includes: RecName: Full=UDP-N-acetylglucosamine pyrophosphorylase; AltName: Full=N-acetylglucosamine-1-phosphate uridyltransferase; Includes: RecName: Full=Glucosamine-1-phosphate N-acetyltransferase [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q13T65</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00211722</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>IDEACVVIGEVSLAEDVSVWPCAVLRG-------DVNSIT------------VGARSNIQDGSVLHVSHKTAAKPEGSPLVIGEDVTVGHKVMLHGCRIGNRVLVGMGSTVLD-------DAVIEDDVMIGAGS-LVPPRKRLEGGYLYIGSPV</Hsp_qseq>
+      <Hsp_hseq>IDVNCVFEGRVTLADNVTVGPNCVIRNANIGAGTRVDAFTHIEGAEVGANVVLGPYARLRPGASLHDESHVGNFVEVKNAVLGHGSKANHLTYIGDADIGARVNIGAGTITCNYDGANKFRTIIEDDVFVGSDTQLVAPVRVKRGATIAAGTTV</Hsp_hseq>
+      <Hsp_midline>ID  CV  G V+LA++V+V P  V+R         V++ T            +G  + ++ G+ LH         E    V+G      H   +    IG RV +G G+   +         +IEDDV +G+ + LV P +   G  +  G+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

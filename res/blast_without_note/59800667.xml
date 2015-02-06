@@ -1,0 +1,1613 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800667|ref|YP_207379.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>phosphotransacetylase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>500</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800667|ref|YP_207379.1|</Iteration_query-ID>
+  <Iteration_query-def>phosphotransacetylase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>500</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|123777022|sp|Q7CJ96.1|PTA_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q7CJ96</Hit_accession>
+  <Hit_len>717</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.426</Hsp_bit-score>
+      <Hsp_score>1269</Hsp_score>
+      <Hsp_evalue>8.99779e-166</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>379</Hsp_hit-from>
+      <Hsp_hit-to>711</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>AGREAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>ASERPRRLSPPAFRYELTELARKAGKRIVLPEGDEPRTIKAASICAERGIATCVLLGNPEEIQRVATSQGVELGKGVEIIDPVAVREQYVPRLVELRKSKGMTEVVAREQLEDNVVLGTLMLEKGEVDGLVSGAVHTTANTIRPPLQLIKTAPGSSLVSSVFFMLLPDQVLVYGDCAINPDPTAEQLSEIAIQSADSAAAFGIEPRVAMISYSTGNSGAGSDVEKVREATRLAQEKRPDLIIDGPLQYDAAIMADVAKSKAPNSPVAGRATVFIFPDLNTGNTTYKAVQRSADLISIGPMLQGMRKPVNDLSRGALVDDIVYTVALTAIQSAQ</Hsp_hseq>
+      <Hsp_midline>A    +RLSP  FRY L + AR+AGKRIVLPEG EPRT++AA+IC E+GIA CVLL   EE++ VA  +G+ L   +EIIDP ++ EQYV  + ELRKSKG+T   AR+QL+D VVLGT+M+ + +VDGLVSGAVHTTANTIRP LQLIKTAPG+SLVSSVFFMLLP+QVLV+GDCA+NP+PTA+QL++IAIQSADSA AFGI+P+VAMISYST NSG+G DV+ V EAT+LA+EKRPDL IDGPLQYDAA +  V KSKAP SPVAG+ATV +FPDLNTGN TYKAVQRSA+++S+GP+LQG+RKPVNDLSRGALV+DIV+T+ALTA+Q+ Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00150735</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ETLLAQGKSDDWFDALVGKVA--ALDAANLVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAAPGV-LEGFVVDGAAASVAEAAAEKTGLT--FFGSSDA----LKDVSVLAGREAKRLSPAQFRYNL-----IDFARQAGKRIVLPEGAEPRTVQAAAIC</Hsp_qseq>
+      <Hsp_hseq>ETLLSSNQQDVLMEEIVARYHENTKDAEVVLVEGLVPTRKHQFANALNYEIAKTLNAEIVFVIALGNDSPDQLKERIELARSSFGGSKNKNITGVIINKLNAPVDEQGRTRPDLSEIFDDSTKASVANIDPSQLFANSPIPVLGCVPWSFELIATRAIDMAKHLNARIINEGDIKTRRVKSVTFC</Hsp_hseq>
+      <Hsp_midline>ETLL+  + D   + +V +      DA  +++EG+ P     +    N E+A +L+A  VF +   N   D L  ++ LA+  F  +    + G +++   A V E    +  L+  F  S+ A    +    + A      L    + + L     ID A+    RI+     + R V++   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|325530208|sp|Q9RY77.2|PTA_DEIRA</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Deinococcus radiodurans R1]</Hit_def>
+  <Hit_accession>Q9RY77</Hit_accession>
+  <Hit_len>702</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.73</Hsp_bit-score>
+      <Hsp_score>1262</Hsp_score>
+      <Hsp_evalue>6.71914e-165</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>696</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>KRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>RRLPPSAFRYELIQRARAANKRIVLPEGDEPRTVKAAIRCTEKGIARCVLLAPPEKVRQVAQGQGLELPEGLEIIDPETVRGKYVAPMVELRKSKGLTEPQAEAQLEDSVVLGTMMLALGEVDGLVSGAVHTTASTVRPALQLIKTAPGSSLVSSVFFMLMPEQVLVYGDAAINPDPNAQELADIAIQSADSAHAFGIPVRVAMLSYSTGESGSGEDVEKVKEATKLVRERRPELLVDGPLQYDAASVPSVGRSKAPDSPVAGRATVFIFPDLNTGNTTYKAVQRSAGVVAVGPMLQGLRKPVNDLSRGALVDDIVYTIALTAIQATQ</Hsp_hseq>
+      <Hsp_midline>+RL P+ FRY LI  AR A KRIVLPEG EPRTV+AA  C EKGIARCVLLA  E+V  VA+ +G+ LP+ LEIIDP ++  +YV PM ELRKSKGLT   A  QL+D+VVLGTMM+A  +VDGLVSGAVHTTA+T+RPALQLIKTAPG+SLVSSVFFML+P QVLV+GD A+NP+P AQ+LADIAIQSADSA AFGI  +VAM+SYST  SGSG DV+ V EATKL RE+RP+L +DGPLQYDAA+VP VG+SKAP SPVAG+ATV +FPDLNTGN TYKAVQRSA V++VGP+LQGLRKPVNDLSRGALV+DIV+TIALTA+QA Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81545149|sp|Q9KT08.1|PTA_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KT08</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.189</Hsp_bit-score>
+      <Hsp_score>1258</Hsp_score>
+      <Hsp_evalue>3.09117e-164</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>711</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>AKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>SRRLSPPAFRYQLTELARSANKRIVLPEGDEPRTVKAAAICAERGIAQCVLLGNPEEIKRVAAQQGVELGSGIEIIDPKVAQEKYVARLVELRKSKGMTEVVAREQLEDTVVLGTMMLERNEVDGLVSGAVHTTANTIRPPLQIIKTAPNASLVSSIFFMLLPDQVLVYGDCAINPDPNAEQLAEIAIQSADSAAAFGIEPRVAMISYSTGTSGQGADVDKVREATRIAKEKRPDLVIDGPLQYDAAIMENVAASKAPNSPVAGKATVFVFPDLNTGNTTYKAVQRSADLVSIGPMLQGMRKPVNDLSRGALVDDIVYTIALTAIQAGQ</Hsp_hseq>
+      <Hsp_midline>++RLSP  FRY L + AR A KRIVLPEG EPRTV+AAAIC E+GIA+CVLL   EE++ VA ++G+ L   +EIIDP    E+YV  + ELRKSKG+T   AR+QL+DTVVLGTMM+ +N+VDGLVSGAVHTTANTIRP LQ+IKTAP ASLVSS+FFMLLP+QVLV+GDCA+NP+P A+QLA+IAIQSADSA AFGI+P+VAMISYST  SG G DVD V EAT++A+EKRPDL IDGPLQYDAA +  V  SKAP SPVAG+ATV VFPDLNTGN TYKAVQRSA+++S+GP+LQG+RKPVNDLSRGALV+DIV+TIALTA+QA Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.05775</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>AETLLAQGKSDDWFDALVGKVAAL--DAANLVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAAPG-VLEGFVVDGAAASVAEAAAEKTGLT-FFGSSDALK</Hsp_qseq>
+      <Hsp_hseq>AETLIGSEKMDVLLETVVERYNQINKDAEVTLIEGLVPTRKHPFANQVNAEIANTLGAEIVFVATPGTDNPTQLKERIEVACSNFGGTKNKSISGVIINKLNAPVDEAGRTRPDLSEIFDDADHAK</Hsp_hseq>
+      <Hsp_midline>AETL+   K D   + +V +   +  DA   +IEG+ P     +    N E+A +L A  VF       +   L  ++ +A   F       + G +++   A V EA   +  L+  F  +D  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81522381|sp|Q8ZND6.1|PTA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZND6</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.649</Hsp_bit-score>
+      <Hsp_score>1254</Hsp_score>
+      <Hsp_evalue>1.43099e-163</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>713</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>AKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQME</Hsp_qseq>
+      <Hsp_hseq>SRRLSPPAFRYQLTELARKAGKRVVLPEGDEPRTVKAAAICAERGIATCVLLGNPDEINRVAASQGVELGAGIEIVDPEVVRESYVARLVELRKSKGMTEPVAREQLEDNVVLGTLMLEQDEVDGLVSGAVHTTANTIRPPLQLIKTAPGSSLVSSVFFMLLPEQVYVYGDCAINPDPTAEQLAEIAIQSADSAIAFGIEPRVAMLSYSTGTSGAGSDVEKVREATRLAQEKRPDLMIDGPLQYDAAVMADVAKSKAPNSPVAGRATVFIFPDLNTGNTTYKAVQRSADLISIGPMLQGMRKPVNDLSRGALVDDIVYTIALTAIQASQQQ</Hsp_hseq>
+      <Hsp_midline>++RLSP  FRY L + AR+AGKR+VLPEG EPRTV+AAAIC E+GIA CVLL   +E+  VA  +G+ L   +EI+DP  + E YV  + ELRKSKG+T   AR+QL+D VVLGT+M+ Q++VDGLVSGAVHTTANTIRP LQLIKTAPG+SLVSSVFFMLLP QV V+GDCA+NP+PTA+QLA+IAIQSADSA AFGI+P+VAM+SYST  SG+G DV+ V EAT+LA+EKRPDL IDGPLQYDAA +  V KSKAP SPVAG+ATV +FPDLNTGN TYKAVQRSA+++S+GP+LQG+RKPVNDLSRGALV+DIV+TIALTA+QA Q +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.128062</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ETLLAQGKSDDWFDALVGKVAA--LDAANLVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAAPGV-LEGFVVDGAAASVAEAAAEKTGLT--FFGSSDA---------LKDVSVLAGREAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAIC</Hsp_qseq>
+      <Hsp_hseq>ESLLSSNQKDVLMEEIIANYHANTKDAEVVLVEGLVPTRKHQFAQSLNYEIAKTLNAEIVFVMSQGTDTPEQLNERIELTRSSFGGAKNTNITGVIINKLNAPVDEQGRTRPDLSEIFDDSSKAQVIKIDPAKLQESSPLPVLGAVPWSFDLIATRAIDMARHLNATIINEGDIKTRRVKSVTFC</Hsp_hseq>
+      <Hsp_midline>E+LL+  + D   + ++    A   DA  +++EG+ P     +    N E+A +L+A  VF +       + L  ++ L +  F  A    + G +++   A V E    +  L+  F  SS A         L++ S L    A   S        ID AR     I+     + R V++   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1172706|sp|P45107.2|PTA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45107</Hit_accession>
+  <Hit_len>711</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>485.723</Hsp_bit-score>
+      <Hsp_score>1249</Hsp_score>
+      <Hsp_evalue>6.53125e-163</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>711</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>RLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>RLSPPAFRFQLTELARAAKKRIVLPEGDEPRTIKAAVLCAERGIAECVLLADPASVQRVAEAQGVKLGKGITIINPADVRENYVDRLVELRKAKGMTETAAREQLEDTVVLGTMMLEANEVDGLVSGAVHTTANTIRPPMQIIKTAPGSSIVSSIFFMLLPDQVLVYGDCAVNPDPTAEQLAEIAIQSADSAKAFGIDPKVAMISYSTGTSGSGADVEKVKEATRIAKEKRPDLLIDGPLQYDAAVMEDVARSKAPNSPVAGKATVFVFPDLNTGNTTYKAVQRSADLVSIGPMLQGMRKPVNDLSRGALVDDIVYTIALTAIQATQ</Hsp_hseq>
+      <Hsp_midline>RLSP  FR+ L + AR A KRIVLPEG EPRT++AA +C E+GIA CVLLA    V+ VA+ +G+ L   + II+PA + E YV+ + ELRK+KG+T   AR+QL+DTVVLGTMM+  N+VDGLVSGAVHTTANTIRP +Q+IKTAPG+S+VSS+FFMLLP+QVLV+GDCAVNP+PTA+QLA+IAIQSADSAKAFGIDPKVAMISYST  SGSG DV+ V EAT++A+EKRPDL IDGPLQYDAA +  V +SKAP SPVAG+ATV VFPDLNTGN TYKAVQRSA+++S+GP+LQG+RKPVNDLSRGALV+DIV+TIALTA+QA Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00673567</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ATAETLLAQGKSDDWFDALVGKVAALDAAN--LVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAA--PGVLEGFVVDGAAASVAEAAAEKTGLTFFGSSDALKDVS------VLAGREAKRLSPAQFRYNL-----IDFARQAGKRIVLPEGAEPRTVQAAAIC</Hsp_qseq>
+      <Hsp_hseq>SVAESLIGQNQSDVLLEKIVANHQQLTKNNDIVVVEGLIPTRKHGYANSINYEIAQALDAEIVLVAAPATETPTELKDRVEAAASLFGGKNNPNLL-GVVVNKFNAPVDESGRTRPDLAEIFDSFQHNHISETEVNKLFAGSAIKLLACVPWNANLIATRAIDLVKHLGASII-NEGEINRRIRGITFC</Hsp_hseq>
+      <Hsp_midline>+ AE+L+ Q +SD   + +V     L   N  +V+EG+ P     Y    N E+A +LDA  V            L  ++  A   F     P +L G VV+   A V E+   +  L     S     +S      + AG   K L+   +  NL     ID  +  G  I+  EG   R ++    C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|71152910|sp|P0A9M8.2|PTA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Escherichia coli K-12] &gt;gi|71152911|sp|P0A9M9.2|PTA_SHIFL RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0A9M8</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>485.723</Hsp_bit-score>
+      <Hsp_score>1249</Hsp_score>
+      <Hsp_evalue>6.69505e-163</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>714</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>FGSSDALKDVSVLAGREAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQME</Hsp_qseq>
+      <Hsp_hseq>YINADWIESLTATSER-SRRLSPPAFRYQLTELARKAGKRIVLPEGDEPRTVKAAAICAERGIATCVLLGNPAEINRVAASQGVELGAGIEIVDPEVVRESYVGRLVELRKNKGMTETVAREQLEDNVVLGTLMLEQDEVDGLVSGAVHTTANTIRPPLQLIKTAPGSSLVSSVFFMLLPEQVYVYGDCAINPDPTAEQLAEIAIQSADSAAAFGIEPRVAMLSYSTGTSGAGSDVEKVREATRLAQEKRPDLMIDGPLQYDAAVMADVAKSKAPNSPVAGRATVFIFPDLNTGNTTYKAVQRSADLISIGPMLQGMRKPVNDLSRGALVDDIVYTIALTAIQSAQQQ</Hsp_hseq>
+      <Hsp_midline>+ ++D ++ ++  + R ++RLSP  FRY L + AR+AGKRIVLPEG EPRTV+AAAIC E+GIA CVLL    E+  VA  +G+ L   +EI+DP  + E YV  + ELRK+KG+T   AR+QL+D VVLGT+M+ Q++VDGLVSGAVHTTANTIRP LQLIKTAPG+SLVSSVFFMLLP QV V+GDCA+NP+PTA+QLA+IAIQSADSA AFGI+P+VAM+SYST  SG+G DV+ V EAT+LA+EKRPDL IDGPLQYDAA +  V KSKAP SPVAG+ATV +FPDLNTGN TYKAVQRSA+++S+GP+LQG+RKPVNDLSRGALV+DIV+TIALTA+Q+ Q +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.149509</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ETLLAQGKSDDWFDALVGKVAA--LDAANLVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAAPGV-LEGFVVDGAAASVAEAAAEKTGLTFFGSSDALKDVSVLAGREAKRLSP------AQFRYNL-----IDFARQAGKRIVLPEGAEPRTVQAAAIC</Hsp_qseq>
+      <Hsp_hseq>EGLLSSNQKDVLMEEIVANYHANTKDAEVVLVEGLVPTRKHQFAQSLNYEIAKTLNAEIVFVMSQGTDTPEQLKERIELTRNSFGGAKNTNITGVIVNKLNAPVDEQGRTRPDLSEIFDDSSKAKVNNVDPAKLQESSPLPVLGAVPWSFDLIATRAIDMARHLNATIINEGDINTRRVKSVTFC</Hsp_hseq>
+      <Hsp_midline>E LL+  + D   + +V    A   DA  +++EG+ P     +    N E+A +L+A  VF +       + L  ++ L +  F  A    + G +V+   A V E    +  L+      +   V+ +   + +  SP        + ++L     ID AR     I+       R V++   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|325530205|sp|Q1J2D0.1|PTA_DEIGD</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Deinococcus geothermalis DSM 11300]</Hit_def>
+  <Hit_accession>Q1J2D0</Hit_accession>
+  <Hit_len>703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.411</Hsp_bit-score>
+      <Hsp_score>1243</Hsp_score>
+      <Hsp_evalue>4.69726e-162</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>371</Hsp_hit-from>
+      <Hsp_hit-to>698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>KRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>RRLPPSAFRYELIQKARAANKRIVLPEGDEPRTVRAAIRCVEKGIARCVLLAQPEKVRQVAEGQGLTLPDGLEIIDPDRVRANYVAPMVELRKHKGLTAPQAEAQLEDNVVLGTMMLALDEVDGLVSGAVHTTANTVRPALQLIKTAPGVRLVSSIFFMLMPEQVVVYGDAAINPNPNAEELADIAIQSADSARAFGIPPRIAMLSYSTGESGAGADVEKVRIATRLVRERRPDLPVDGPLQYDAASVLSVGRQKAPNSPVAGRATVFIFPDLNTGNTTYKAVQRAAGVVAVGPMLQGLRKPVNDLSRGALVDDIVYTIALTAIQATQ</Hsp_hseq>
+      <Hsp_midline>+RL P+ FRY LI  AR A KRIVLPEG EPRTV+AA  C EKGIARCVLLA+ E+V  VA+ +G++LPD LEIIDP  +   YV PM ELRK KGLT   A  QL+D VVLGTMM+A ++VDGLVSGAVHTTANT+RPALQLIKTAPG  LVSS+FFML+P QV+V+GD A+NPNP A++LADIAIQSADSA+AFGI P++AM+SYST  SG+G DV+ V  AT+L RE+RPDL +DGPLQYDAA+V  VG+ KAP SPVAG+ATV +FPDLNTGN TYKAVQR+A V++VGP+LQGLRKPVNDLSRGALV+DIV+TIALTA+QA Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>9.22615</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>ATAETLLAQGKSDDWFDALV--------GKVAALDAANLVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAAPGV-LEGFVVDGA</Hsp_qseq>
+      <Hsp_hseq>SVAEEQLSQGQEEELMENVVALAREAAAGVTGGADV--LVVEGLALNERNVYAGPLNASLARNLEADVVLVSSLAGVTPATLADELEIAAQAYRRSDGSGLAGYVLNFA</Hsp_hseq>
+      <Hsp_midline>+ AE  L+QG+ ++  + +V        G     D   LV+EG+A +   +Y    N  LA +L+A  V            LA +L +A Q +  + G  L G+V++ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81541724|sp|Q9I5A5.1|PTA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I5A5</Hit_accession>
+  <Hit_len>704</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.478</Hsp_bit-score>
+      <Hsp_score>1225</Hsp_score>
+      <Hsp_evalue>2.34135e-159</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>374</Hsp_hit-from>
+      <Hsp_hit-to>698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>RLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>RLSPPAFRYQVVQRAQKAGKRIVLPEGSEPRTVQAAAICQARGIARCVLLAKPEEVQAVAQAQGIVLPEGLEIIDPDLVRQRYVEPMVELRKGKGLNAPMAEQQLEDSVVLATMMLALDEVDGLVSGAIHTTASTIRPALQLIKTAPGYNLVSSVFFMLLPDQVLVYGDCAVNPDPSASDLAEIAVQSAASAQAFGIPARVAMISYSTGDSGSGVDVDKVREATRLAREQRPDLLIDGPLQYDAAAIASVGRQKAPNSPVAGQATVFIFPDLNTGNTTYKAVQRSADCVSVGPMLQGLRKPVNDLSRGALVEDIVYTIALTAIQA</Hsp_hseq>
+      <Hsp_midline>RLSP  FRY ++  A++AGKRIVLPEG+EPRTVQAAAIC  +GIARCVLLAK EEV+AVA+ +GI LP+ LEIIDP  + ++YVEPM ELRK KGL    A +QL+D+VVL TMM+A ++VDGLVSGA+HTTA+TIRPALQLIKTAPG +LVSSVFFMLLP+QVLV+GDCAVNP+P+A  LA+IA+QSA SA+AFGI  +VAMISYST +SGSG DVD V EAT+LARE+RPDL IDGPLQYDAA +  VG+ KAP SPVAGQATV +FPDLNTGN TYKAVQRSA+ +SVGP+LQGLRKPVNDLSRGALVEDIV+TIALTA+QA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0161732</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>ATAETLLAQGKSDDWFDALVG--KVAALDAANLVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAA--PGVLEGFVVDGAAASVAEAAAEKTGLTFFG-----SSDALKDVSVLAG--REAKRLSPAQFR----------YNLIDFARQAGKRIVLPEGAEPRTVQ</Hsp_qseq>
+      <Hsp_hseq>AQVERMLGDGQLDELLEEIISLYQRAAADKDVVIVEGMVPTRHASYAARVNFHLAKSLDAEVILVSAPENETLTELTDRIEIQAQLFGGPRDPKVL-GVILNKVRGE-ADAANAEDGVADFARRLTEHSPLLRDDFRLIGCIPWQDELNAARTRDIADLLSARVINAGDYEQRRVQKIVLCARAVPNTVQ</Hsp_hseq>
+      <Hsp_midline>A  E +L  G+ D+  + ++   + AA D   +++EG+ P     Y A  N  LA SLDA  +     +N     L  ++ +  Q F     P VL G +++      A+AA  + G+  F       S  L+D   L G       L+ A+ R           N  D+ ++  ++IVL   A P TVQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81393784|sp|Q6FEP2.1|PTA_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6FEP2</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>7.82176e-159</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>709</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>RLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>RLSPSAFRHELVQKSIAAKKRIVLPEGDEPRTVQAAAICQSRGIAHCILLAKPEAVVEVAKARGIELPDDLEIIDPDLIRNQYITPMVELRNGK-LNELQAKEQLQDTVVLGTMMLALDQVDGLVSGAIHTTANTVRPAFQLIKTAPDYSLVSSVFFMLLPDEVYVYGDCAINPDPDADQLAEIAIQSADSAKAFGINPRIAMISYSTGTSGAGADVEKVAKATEIAKQRRPDLLIDGPLQYDAASVESVGRQKAPDSQVAGRANVFIFPDLNTGNTTYKAVQRSANVVSVGPMLQGLNKPVNDLSRGALVDDIVFTIALTAIQAEQ</Hsp_hseq>
+      <Hsp_midline>RLSP+ FR+ L+  +  A KRIVLPEG EPRTVQAAAIC  +GIA C+LLAK E V  VAK RGI LPD LEIIDP  +  QY+ PM ELR  K L    A++QLQDTVVLGTMM+A + VDGLVSGA+HTTANT+RPA QLIKTAP  SLVSSVFFMLLP++V V+GDCA+NP+P A QLA+IAIQSADSAKAFGI+P++AMISYST  SG+G DV+ V +AT++A+++RPDL IDGPLQYDAA+V  VG+ KAP S VAG+A V +FPDLNTGN TYKAVQRSANV+SVGP+LQGL KPVNDLSRGALV+DIVFTIALTA+QA+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81436217|sp|Q820S1.1|PTA_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q820S1</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>4.92875e-155</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>691</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>EAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>QEQRLSPPAFRYRLVKRAQEADCRIVLPEGYEPRTIQAATICQERGIARCVLLAKPDAVKAVASARGITLPEGLEMIDPEKVRRNYVAAMVELRKHKGLNEPMALAQLEDNVVLGTMMLATGEVDGLVSGAINTTANTIRPALQLIKTAPGFKLVSSVFFMLLPEQVVVYGDCAVNPNPTAEELADIALQSAASAQALGIEPRVAMLSYSTGDSGSGQEVEKVREATRLARLARPDLLIDGPLQYDAAAIASVGRQKAPGSPVAGRATVFIFPDLNTGNTTYKAVQRSANVVSVGPMLQGLRKPVNDLSRGASVEDIVYTIALTAVQA</Hsp_hseq>
+      <Hsp_midline>+ +RLSP  FRY L+  A++A  RIVLPEG EPRT+QAA IC E+GIARCVLLAK + V+AVA  RGI+LP+ LE+IDP  +   YV  M ELRK KGL    A  QL+D VVLGTMM+A  +VDGLVSGA++TTANTIRPALQLIKTAPG  LVSSVFFMLLP QV+V+GDCAVNPNPTA++LADIA+QSA SA+A GI+P+VAM+SYST +SGSG +V+ V EAT+LAR  RPDL IDGPLQYDAA +  VG+ KAPGSPVAG+ATV +FPDLNTGN TYKAVQRSANV+SVGP+LQGLRKPVNDLSRGA VEDIV+TIALTAVQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00859414</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>TAETLLAQGKSDDWFDALVG--KVAALDAANLVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFFAAA</Hsp_qseq>
+      <Hsp_hseq>TVEHLLGEGQIDDLMEDIVRRFKQASEGYDVMVVEGMVPTRHVSYASRVNTRLASSLDADIILVSSAEDDALQAITDRIEIQAQFFGGA</Hsp_hseq>
+      <Hsp_midline>T E LL +G+ DD  + +V   K A+     +V+EG+ P     Y +  N  LA SLDA  +    +++    A+  ++ +  QFF  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81442143|sp|Q88PS4.1|PTA_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88PS4</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.713</Hsp_bit-score>
+      <Hsp_score>1101</Hsp_score>
+      <Hsp_evalue>5.33989e-141</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>691</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>RLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>RLSPAVFRYQLIQRAQQANKRIVLPEGAEPLLVQAAAICQARGIARCVLLAKPEDVDAVARAQGITLPPGLEILDPELIRGRYVEPMVELRKSKNLNAPMAEQQLEDPVVIGTMMLALDEVDGLVSGLVHSTANTIRPALQLIKTAPGSSLVSSVFFMLFPEQVLVYGDCVMNPHPSAAELAEIAQQSAASAQAFGIAPRVAMISYSS-DSASDEEVEKVREATRLAQDAAQELLIDGPLQYDAAANPAIARELAPASPVAGRATVFVFPDLNTGNTTHKAVQRSADGVSLGPMLQGLRKPVNDLPRGAQVDDIVHTIALTAIQA</Hsp_hseq>
+      <Hsp_midline>RLSPA FRY LI  A+QA KRIVLPEGAEP  VQAAAIC  +GIARCVLLAK E+V+AVA+ +GI+LP  LEI+DP  +  +YVEPM ELRKSK L    A +QL+D VV+GTMM+A ++VDGLVSG VH+TANTIRPALQLIKTAPG+SLVSSVFFML P QVLV+GDC +NP+P+A +LA+IA QSA SA+AFGI P+VAMISYS+ +S S  +V+ V EAT+LA++   +L IDGPLQYDAA  P + +  AP SPVAG+ATV VFPDLNTGN T+KAVQRSA+ +S+GP+LQGLRKPVNDL RGA V+DIV TIALTA+QA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.316795</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>ATAETLLAQGKSDDWFDALVGKVAALDAAN--LVIEGIAPDADKIYLAGKNVELALSLDAAAVFAVRSDNTDADALAHQLNLAKQFF</Hsp_qseq>
+      <Hsp_hseq>AHVERMLGDGQLDELLEEIIRLYQQACVGNDVVVVEGMVPTRHASYAARVNLHLAKSLDAEVILVSAPENEVLSELSGRVELQAQLF</Hsp_hseq>
+      <Hsp_midline>A  E +L  G+ D+  + ++         N  +V+EG+ P     Y A  N+ LA SLDA  +     +N     L+ ++ L  Q F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|11133754|sp|P57273.1|PTA_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57273</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.47129e-130</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>386</Hsp_hit-from>
+      <Hsp_hit-to>708</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>PAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>PKEFCYNLKLLSQKKNKRIKLPESYEIRILKSVAICSDSNIAQCVLLGDPKKIYSIANDNGINLKKNIEIIDPISVRQEYLARFLEIRKGKNINEFSAKKQLEDNTVLATLILESNHVDGLVSGSINTTSDTIRPALQIIKTNPQSLLVSSIFFMLLPNQVLIYGDCAININPTAEELAVIAIQSADSAKMFGIEPRIAMLSYSTGCSGFGCQVEKVKEATSIIKNRRSDLIIDGPIQYDAAVSNKVAKLKAPSSPISGSANVFIFPDLNSGNIAYKAVQRSSRIVSIGPMLQGLRKPVNDLSRGASVEDIIYTIALTSIQSE</Hsp_hseq>
+      <Hsp_midline>P +F YNL   +++  KRI LPE  E R +++ AIC +  IA+CVLL   +++ ++A + GI+L  ++EIIDP S+ ++Y+    E+RK K +    A+KQL+D  VL T+++  N VDGLVSG+++TT++TIRPALQ+IKT P + LVSS+FFMLLPNQVL++GDCA+N NPTA++LA IAIQSADSAK FGI+P++AM+SYST  SG G  V+ V EAT + + +R DL IDGP+QYDAA    V K KAP SP++G A V +FPDLN+GN  YKAVQRS+ ++S+GP+LQGLRKPVNDLSRGA VEDI++TIALT++Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|25091013|sp|Q8K9W5.1|PTA_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9W5</Hit_accession>
+  <Hit_len>709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>2.02691e-128</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>708</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>TFFGSSDALKDVSVLAGREAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>SFFNKNHLISLKKKTTNFYKKTYSPKEFCYRLKILSKSKHKRIILPESYEPRILKAASICHRLGIAECILLGDPKKIYNIANENKIDLNKNIEIKDPILIRDQYVPRLLEIRKNKKIDEIFARKQLKDNVILATLILESGKVDGLVSGTINTTANTIRPALQIIKTDPIYSLVSSIFFILLPNEVLIYGDCAINIEPNSKELAEIAIQSANSAKMFGIEPRIAMLSYSTGFSGTGWQVEKIRDATSIVKSKRPDLLIDGPIQYDAAISKEVAKLKIPYSSILGSANIFIFPDLNSGNITYKAVQRSADLICIGPMLQGLKKPVNDLSRGASVEDIVYTIALTSIQS</Hsp_hseq>
+      <Hsp_midline>+FF  +  +           K  SP +F Y L   ++   KRI+LPE  EPR ++AA+ICH  GIA C+LL   +++  +A E  I L  ++EI DP  + +QYV  + E+RK+K +    ARKQL+D V+L T+++    VDGLVSG ++TTANTIRPALQ+IKT P  SLVSS+FF+LLPN+VL++GDCA+N  P +++LA+IAIQSA+SAK FGI+P++AM+SYST  SG+G  V+ + +AT + + KRPDL IDGP+QYDAA    V K K P S + G A + +FPDLN+GN TYKAVQRSA+++ +GP+LQGL+KPVNDLSRGA VEDIV+TIALT++Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81404090|sp|Q726S7.1|PTA_DESVH</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Desulfovibrio vulgaris str. Hildenborough]</Hit_def>
+  <Hit_accession>Q726S7</Hit_accession>
+  <Hit_len>704</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>1.7991e-118</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>702</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>SVLAGREAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDP--ASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQMEG</Hsp_qseq>
+      <Hsp_hseq>SRLINRKSSRITPKMFEFNLIEKAKRNRMRIVLPEGAEERILRAADILVRREVADIILLGDANTVGSRIGDLGLDM-DGVQIVQPNLSPKFDEYVAAYHECRKKKGISMEQARDMMNDPTYFGTMMVHKGDADGMVSGAINTTAHTIRPAFEFIKTKPGVSIVSSVFLMCLKDRVLVFGDCAVNPNPTAEQLAEIAISASHTARIFGVDPRVAMLSYSTGSSGKGADVEKVIEATRIAKERAPELLLEGPLQYDAAIDMDVARTKLPGSTVAGQATVFIFPDLNTGNNTYKAVQRAAGAVAIGPVLQGLNKPVNDLSRGCTVADIVNTVAITAIQAQAEKG</Hsp_hseq>
+      <Hsp_midline>S L  R++ R++P  F +NLI+ A++   RIVLPEGAE R ++AA I   + +A  +LL     V +   + G+ + D ++I+ P  +   ++YV    E RK KG++ E AR  + D    GTMM+ + D DG+VSGA++TTA+TIRPA + IKT PG S+VSSVF M L ++VLVFGDCAVNPNPTA+QLA+IAI ++ +A+ FG+DP+VAM+SYST +SG G DV+ VIEAT++A+E+ P+L ++GPLQYDAA    V ++K PGS VAGQATV +FPDLNTGN TYKAVQR+A  +++GP+LQGL KPVNDLSRG  V DIV T+A+TA+QA+  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|32363209|sp|Q89AS7.1|PTA_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AS7</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>2.46204e-118</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>390</Hsp_hit-from>
+      <Hsp_hit-to>711</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>PAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>PSLFIYNLKHLAKKFMKNILLPEGCELRIIKAASICSKNDIAYCTLLGNPKKIKNIAESNNIVLNSNIEIIDPKLIRKNYVERLCHLRRHHGITLAHANELVKDNSILSTLILESKKVDGLVSGSIGTTSSIILPALQLIKTSPGSSLISSVFFMLLSDYVTLYADCAVNINPDATQLAEIAIQSSNTARLFGIFPKVAMLSYATGCSGFGDTVDKVKEATRIVQERSPNLIVDGPIQYDAAINRSVAKLKCPHSLVAGNATVFIFPDLNSGNITYKAVQRSANILSIGPILQGINQPVNDLSRGSSVQDIVYTIAVTVLQS</Hsp_hseq>
+      <Hsp_midline>P+ F YNL   A++  K I+LPEG E R ++AA+IC +  IA C LL   ++++ +A+   I L  ++EIIDP  + + YVE +C LR+  G+T   A + ++D  +L T+++    VDGLVSG++ TT++ I PALQLIKT+PG+SL+SSVFFMLL + V ++ DCAVN NP A QLA+IAIQS+++A+ FGI PKVAM+SY+T  SG G  VD V EAT++ +E+ P+L +DGP+QYDAA    V K K P S VAG ATV +FPDLN+GN TYKAVQRSAN+LS+GP+LQG+ +PVNDLSRG+ V+DIV+TIA+T +Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81445836|sp|Q8CJR5.1|PTA_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>Q8CJR5</Hit_accession>
+  <Hit_len>697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>1.05575e-117</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>688</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>AKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>SDRVTPMMFEHKLLEQARSDLRRVVLPEGTEERVLHAAEVLLRRGVCELTLLGPVEQIRKKAADLGIDLGGA-ELIDPAASELRDSFAEKYAALRAHKGVTVELAYDVVSDVNYFGTLMVQEGFADGMVSGSVHSTAATIRPAFEIIKTKPDAAIVSSVFFMCLADKVLVYGDCAVNPDPDAEQLADIATQSASTAAQFGVEPRIAMLSYSTGTSGSGADVDKVREATELVRSRRPDLSVEGPIQYDAAVEPSVAATKLPGSAVAGQASVLIFPDLNTGNNTYKAVQRSAGAIAVGPVLQGLRKPVNDLSRGALVQDIVNTVAITAIQAQQ</Hsp_hseq>
+      <Hsp_midline>+ R++P  F + L++ AR   +R+VLPEG E R + AA +   +G+    LL   E++   A + GI L  + E+IDPA+  L + + E    LR  KG+T E A   + D    GT+M+ +   DG+VSG+VH+TA TIRPA ++IKT P A++VSSVFFM L ++VLV+GDCAVNP+P A+QLADIA QSA +A  FG++P++AM+SYST  SGSG DVD V EAT+L R +RPDL+++GP+QYDAA  P V  +K PGS VAGQA+VL+FPDLNTGN TYKAVQRSA  ++VGP+LQGLRKPVNDLSRGALV+DIV T+A+TA+QA+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81719793|sp|Q82JD2.1|PTA_STRAW</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Streptomyces avermitilis MA-4680 = NBRC 14893]</Hit_def>
+  <Hit_accession>Q82JD2</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>1.02144e-114</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>PGVLEGFVVDGAAASVAEAAAEKTGLTFF----GSSDALKDVSVLAGREAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>PTAAELFSLEGKLNAATPRKAE-TALGLFERYVDTGDLLKRVSAPS---SDRLTPMMFEHKLLEQARSDKRRVVLPEGTETRVLHAAEVLLRRGVCDLTLLGPVDQIRKKAADLGIDLGGS-QLIDPVTSQLRDSFAEKYAQLRAHKGVSVELAYDVVADVNYFGTLMVQEGLADGMVSGSVHSTAATIRPAFEIIKTKPDTKIVSSVFFMCLADKVLVYGDCAVNPDPNAEQLCDIAVQSAATARQFGVEPRIAMLSYSTGTSGSGADVDKVREATELVRLRRDDLKIEGPIQYDAAVEPSVAATKLPGSDVAGQASVLIFPDLNTGNNTYKAVQRSAGAIAVGPVMQGLRKPVNDLSRGALVQDIVNTVAITAIQAQ</Hsp_hseq>
+      <Hsp_midline>P   E F ++G   +     AE T L  F     + D LK VS  +   + RL+P  F + L++ AR   +R+VLPEG E R + AA +   +G+    LL   +++   A + GI L  S ++IDP +  L + + E   +LR  KG++ E A   + D    GT+M+ +   DG+VSG+VH+TA TIRPA ++IKT P   +VSSVFFM L ++VLV+GDCAVNP+P A+QL DIA+QSA +A+ FG++P++AM+SYST  SGSG DVD V EAT+L R +R DL I+GP+QYDAA  P V  +K PGS VAGQA+VL+FPDLNTGN TYKAVQRSA  ++VGP++QGLRKPVNDLSRGALV+DIV T+A+TA+QA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|614115222|sp|P9WHP0.1|PTA_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Mycobacterium tuberculosis CDC1551] &gt;gi|614115227|sp|P9WHP1.1|PTA_MYCTU RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WHP0</Hit_accession>
+  <Hit_len>690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.984</Hsp_bit-score>
+      <Hsp_score>907</Hsp_score>
+      <Hsp_evalue>3.08043e-112</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>362</Hsp_hit-from>
+      <Hsp_hit-to>686</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>SPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>TPQMFTYRLLQQARSDLMRIVLPEGDDDRILKSAGRLLQRGIVDLTILGDEAKVRLRAAELGVDL-DGATVIEPCASELHDQFADQYAQLRKAKGITVEHAREIMNDATYFGTMLVHNCHADGMVSGAAHTTAHTVRPALEIIKTVPGISTVSSIFLMCLPDRVLAYGDCAIIPNPTVEQLADIAICSARTAAQFGIEPRVAMLSYSTGDSGKGADVDKVRAATELVRAREPQLPVEGPIQYDAAVEPSVAATKLRDSPVAGRATVLIFPDLNTGNNTYKAVQRSAGAIAIGPVLQGLRKPVNDLSRGALVDDIVNTVAITAIQAQ</Hsp_hseq>
+      <Hsp_midline>+P  F Y L+  AR    RIVLPEG + R +++A    ++GI    +L    +V   A E G+ L D   +I+P +  L +Q+ +   +LRK+KG+T E AR+ + D    GTM++     DG+VSGA HTTA+T+RPAL++IKT PG S VSS+F M LP++VL +GDCA+ PNPT +QLADIAI SA +A  FGI+P+VAM+SYST +SG G DVD V  AT+L R + P L ++GP+QYDAA  P V  +K   SPVAG+ATVL+FPDLNTGN TYKAVQRSA  +++GP+LQGLRKPVNDLSRGALV+DIV T+A+TA+QA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|6685771|sp|P73662.1|PTA_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P73662</Hit_accession>
+  <Hit_len>697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.035</Hsp_bit-score>
+      <Hsp_score>863</Hsp_score>
+      <Hsp_evalue>1.2962e-105</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>354</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>DALKDVSVLAGREAKRLSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDS-LEIIDPASL--VEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>DGEKLLNYLKTIRSKGITPKLFLYNLVQAATAAQRHIVLPEGEEIRILKAAASLINHGIVRLTLLGNIEAIEQTVKINHIDLDLSKVRLINPKTSPDRERYAETYYQLRKHKGVTLAMARDILTDISYFGTMMVHLGEADGMVSGSVNTTQHTVRPALQIIKTQPGFSLVSSVFFMCLEDRVLVYGDCAVNPDPNAEQLAEIALTSAATAKNFGIEPRVALLSYSSGSSGQGADVEKVRQATAIAKEREPDLALEGPIQYDAAVDSTVAAQKMPGSAVAGKATVFIFPDLNTGNNTYKAVQRETKAIAIGPILQGLNKPVNDLSRGCLVEDIINTVVITALQVK</Hsp_hseq>
+      <Hsp_midline>D  K ++ L    +K ++P  F YNL+  A  A + IVLPEG E R ++AAA     GI R  LL   E +E   K   I L  S + +I+P +    E+Y E   +LRK KG+T   AR  L D    GTMM+   + DG+VSG+V+TT +T+RPALQ+IKT PG SLVSSVFFM L ++VLV+GDCAVNP+P A+QLA+IA+ SA +AK FGI+P+VA++SYS+ +SG G DV+ V +AT +A+E+ PDLA++GP+QYDAA    V   K PGS VAG+ATV +FPDLNTGN TYKAVQR    +++GP+LQGL KPVNDLSRG LVEDI+ T+ +TA+Q K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|6685772|sp|P77844.1|PTAS_CORGL</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Corynebacterium glutamicum ATCC 13032]</Hit_def>
+  <Hit_accession>P77844</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>1.31045e-103</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>MSAELFENWLLKRARAEHSHIVLPEGDDDRILMAAHQLLDQDICDITILGDPVKIKERATELGLHL-NTAYLVNPLTDPRLEEFAEQFAELRKSKSVTIDEAREIMKDISYFGTMMVHNGDADGMVSGAANTTAHTIKPSFQIIKTVPEASVVSSIFLMVLRGRLWAFGDCAVNPNPTAEQLGEIAVVSAKTAAQFGIDPRVAILSYSTGNSGGGSDVDRAIDALAEARRLNPELCVDGPLQFDAAVDPGVARKKMPDSDVAGQANVFIFPDLEAGNIGYKTAQRTGHALAVGPILQGLNKPVNDLSRGATVPDIVNTVAITAIQA</Hsp_hseq>
+      <Hsp_midline>+S   F   L+  AR     IVLPEG + R + AA    ++ I    +L    +++  A E G+ L ++  +++P +   +E++ E   ELRKSK +T ++AR+ ++D    GTMM+   D DG+VSGA +TTA+TI+P+ Q+IKT P AS+VSS+F M+L  ++  FGDCAVNPNPTA+QL +IA+ SA +A  FGIDP+VA++SYST NSG G DVD  I+A   AR   P+L +DGPLQ+DAA  PGV + K P S VAGQA V +FPDL  GN  YK  QR+ + L+VGP+LQGL KPVNDLSRGA V DIV T+A+TA+QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|313104162|sp|Q59330.2|PTAS_THETC</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Thermoanaerobacterium thermosaccharolyticum DSM 571]</Hit_def>
+  <Hit_accession>Q59330</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>5.31768e-99</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>NLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDP--ASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPN------QVLVFGDCAVNPNPTAQQLADIAIQSADSAKAF-GIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>SIIEKAKSNKKKIVLPEGAEPRTLKAADIVLKEGIADLVLLGNADEIRNAAEGLDIS---KAEIIDPLKSEKFDKYATDFYELRKNKGITLEKAKETIKDNIYFGCMMVKEGYADGLVSGAIHATADLLRPAFQIVKTAPGAKIVSSFFIMEVPNCEFGENGVFLFADCAVNPSPNAEELASIAVQSANTAKTLLGMEPRVAMLSFSTKGSASHELVDKVRTATEIAKNLIPDVAIDGELQLDAALVKEVAELKAPGSPVAGRANVLIFPDLQAGNIGYKLVQRLAKANAIGPITQGMGAPVNDLSRGCSYKDIVDVIATTAVQAQ</Hsp_hseq>
+      <Hsp_midline>++I+ A+   K+IVLPEGAEPRT++AA I  ++GIA  VLL   +E+   A+   IS     EIIDP  +   ++Y     ELRK+KG+T E A++ ++D +  G MM+ +   DGLVSGA+H TA+ +RPA Q++KTAPGA +VSS F M +PN       V +F DCAVNP+P A++LA IA+QSA++AK   G++P+VAM+S+ST  S S   VD V  AT++A+   PD+AIDG LQ DAA V  V + KAPGSPVAG+A VL+FPDL  GN  YK VQR A   ++GP+ QG+  PVNDLSRG   +DIV  IA TAVQA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|6685779|sp|Q9ZKU4.1|PTAS_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZKU4</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>1.14948e-96</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LSPAQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDP--ASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>ITPLAFQRSLEKKAKKQIKKVVLPESEDERILKAAHRLNLMGAVGLILLGDKEAINSQAKNLNLNL-ENVEIINPNTSHYREEFAKSLYELRKSKGLSEQEAERLALDKTYFATMLVHLGYAHAMVSGVNHTTAETIRPALQIIKTKPGVSLVSSVFLMCLDTQVFVFGDCAIIPNPSPKELAEIATTSAQTAKQFNIAPKVALLSYATGNSAQGEMIDKINEALTIVQKLDPQLEIDGPLQFDASIDKGVAKKKMPNSQVAGQASVFIFPDLNAGNIAYKAVQRSAKAVAIGPILQGLNKPINDLSRGALVEDIVNTVLISAIQAQ</Hsp_hseq>
+      <Hsp_midline>++P  F+ +L   A++  K++VLPE  + R ++AA   +  G    +LL  +E + + AK   ++L +++EII+P  +   E++ + + ELRKSKGL+ ++A +   D     TM++       +VSG  HTTA TIRPALQ+IKT PG SLVSSVF M L  QV VFGDCA+ PNP+ ++LA+IA  SA +AK F I PKVA++SY+T NS  G  +D + EA  + ++  P L IDGPLQ+DA+   GV K K P S VAGQA+V +FPDLN GN  YKAVQRSA  +++GP+LQGL KP+NDLSRGALVEDIV T+ ++A+QA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|6685768|sp|O52593.1|PTAS_CLOTH</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Ruminiclostridium thermocellum ATCC 27405]</Hit_def>
+  <Hit_accession>O52593</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>5.78816e-94</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>FRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKE---RGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPN------QVLVFGDCAVNPNPTAQQLADIAIQSADSAKAF-GIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQME</Hsp_qseq>
+      <Hsp_hseq>FLEQIIERAKSDVKTIVLPESTDLRVIKAASMIMKKGIAKVVLIGNEKEIKSLAGDIDLEGVMIEDSLN----SEKLEDYANTLYELRKSKGMTIEAARETIKDPLYYGVMMVKKGEADGMVAGAVNSTANTLRPALQILKTAPGTKLVSSFFVMVVPNCEYGHNGTFVYADCGLVENPDADQLSEIAISASKSFEMLVGAKPQVAMLSYSSYGSAKSELTEKVIKATQLAKEKAPHLAIDGELQVDAAIVPEVAKSKAKGSSVAGKANVLIFPDLDAGNIAYKLTQRLAKAEAYGPITQGLARPVNDLSRGCSAEDIVGVAAITAVQAQYVK</Hsp_hseq>
+      <Hsp_midline>F   +I+ A+   K IVLPE  + R ++AA++  +KGIA+ VL+   +E++++A +    G+ + DSL     +  +E Y   + ELRKSKG+T E AR+ ++D +  G MM+ + + DG+V+GAV++TANT+RPALQ++KTAPG  LVSS F M++PN         V+ DC +  NP A QL++IAI ++ S +   G  P+VAM+SYS+  S      + VI+AT+LA+EK P LAIDG LQ DAA VP V KSKA GS VAG+A VL+FPDL+ GN  YK  QR A   + GP+ QGL +PVNDLSRG   EDIV   A+TAVQA+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|18269815|sp|P71103.2|PTAS_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>P71103</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>1.07715e-90</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>NLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLV--EQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPN------QVLVFGDCAVNPNPTAQQLADIAIQSADSAKAF-GIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>SIWECAKQDKKRIILAEGEEKRNLIAADKIIKEGLAELVLVGDENKIKEKASELNLDISKA-EIMDPETSLKTETYARDFYELRKHKGMTIEKSEKMVRDPLYFATMALKDGYVDGMVSGAVHTTGDLLRPGLQIIKTAPGVKIVSGFFVMIIPDCDYGEEGLLLFADCAVNPNPTSDELADIAITTAETARKLCNVEPKVAMLSFSTMGSAKGEMVDKVKNAVEITKKFRPDLAIDGELQLDAAIDSEVAALKAPSSNVAGNANVLVFPDLQTGNIGYKLVQRFAKAKAIGPICQGFAKPINDLSRGCSSEDIVNVVAITVVQAQR</Hsp_hseq>
+      <Hsp_midline>++ + A+Q  KRI+L EG E R + AA    ++G+A  VL+    +++  A E  + +  + EI+DP + +  E Y     ELRK KG+T E + K ++D +   TM +    VDG+VSGAVHTT + +RP LQ+IKTAPG  +VS  F M++P+       +L+F DCAVNPNPT+ +LADIAI +A++A+    ++PKVAM+S+ST+ S  G  VD V  A ++ ++ RPDLAIDG LQ DAA    V   KAP S VAG A VLVFPDL TGN  YK VQR A   ++GP+ QG  KP+NDLSRG   EDIV  +A+T VQA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|38605106|sp|Q8CQ62.1|PTAS_STAES</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CQ62</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>1.70133e-81</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>RIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRP-----DLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>KIVLPEGEDERVLIAATQLQKTDYVSPIVLGNEDNIKSLASKHALDLT-QIEIIDPATSELKDELVDAFVERRKGKA-TKEQAVELLDNVNYFGTMLVYTGKAEGLVSGAAHSTGDTVRPALQIIKTKPGVSRTSGIFFMIKGDEQYIFGDCAINPELDAQGLAEIAVESAKSAQSFGMDPKVAMLSFSTKGSAKSDDVTKVQEALKLAQEKAEADQLDHVVIDGEFQFDAAIVPSVAEKKAPGAKIQGDANVFVFPSLEAGNIGYKIAQRLGGYDAVGPVLQGLNSPVNDLSRGCSTEDVYNLSIITAAQALQ</Hsp_hseq>
+      <Hsp_midline>+IVLPEG + R + AA    +      ++L   + ++++A +  + L   +EIIDPA+  L ++ V+   E RK K  T E A + L +    GTM++     +GLVSGA H+T +T+RPALQ+IKT PG S  S +FFM+  ++  +FGDCA+NP   AQ LA+IA++SA SA++FG+DPKVAM+S+ST  S    DV  V EA KLA+EK        + IDG  Q+DAA VP V + KAPG+ + G A V VFP L  GN  YK  QR     +VGP+LQGL  PVNDLSRG   ED+     +TA QA Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|71153074|sp|Q5HRF7.1|PTAS_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HRF7</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>6.64937e-81</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>RIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKR-----PDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>KIVLPEGEDERVLIAATQLQKTDYVSPIVLGNEDNIKSLASKHALDLT-QIEIIDPATSELKDELVDAFVERRKGKA-TKEQAVELLDNVNYFGTMLVYTGKAEGLVSGAAHSTGDTVRPALQIIKTKPGVSRTSGIFFMIKGDEQYIFGDCAINPELDAQGLAEIAVESAKSAQSFGMNPKVAMLSFSTKGSAKSDDVTKVQEALKLAQEKAEADQLEHVVIDGEFQFDAAIVPSVAEKKAPGAKIQGDANVFVFPSLEAGNIGYKIAQRLGGYDAVGPVLQGLNSPVNDLSRGCSTEDVYNLSIITAAQALQ</Hsp_hseq>
+      <Hsp_midline>+IVLPEG + R + AA    +      ++L   + ++++A +  + L   +EIIDPA+  L ++ V+   E RK K  T E A + L +    GTM++     +GLVSGA H+T +T+RPALQ+IKT PG S  S +FFM+  ++  +FGDCA+NP   AQ LA+IA++SA SA++FG++PKVAM+S+ST  S    DV  V EA KLA+EK        + IDG  Q+DAA VP V + KAPG+ + G A V VFP L  GN  YK  QR     +VGP+LQGL  PVNDLSRG   ED+     +TA QA Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|585753|sp|P38503.3|PTAS_METTE</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Methanosarcina thermophila]</Hit_def>
+  <Hit_accession>P38503</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>7.6595e-81</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>FRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASL--VEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPN------QVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGID-PKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>FLEKISERAKKLNKTIALPETEDIRTLQAAAKILERGIADIVLVGNEADIKALAGDLDLS---KAKIVDPKTYEKKDEYINAFYELRKHKGITLENAAEIMSDYVYFAVMMAKLGEVDGVVSGAAHSSSDTLRPAVQIVKTAKGAALASAFFIISVPDCEYGSDGTFLFADSGMVEMPSVEDVANIAVISAKTFELLVQDVPKVAMLSYSTKGSAKSKLTEATIASTKLAQELAPDIAIDGELQVDAAIVPKVAASKAPGSPVAGKANVFIFPDLNCGNIAYKIAQRLAKAEAYGPITQGLAKPINDLSRGCSDEDIVGAVAITCVQA</Hsp_hseq>
+      <Hsp_midline>F   + + A++  K I LPE  + RT+QAAA   E+GIA  VL+    +++A+A +  +S     +I+DP +    ++Y+    ELRK KG+T E+A + + D V    MM    +VDG+VSGA H++++T+RPA+Q++KTA GA+L S+ F + +P+         +F D  +   P+ + +A+IA+ SA + +    D PKVAM+SYST  S      +  I +TKLA+E  PD+AIDG LQ DAA VP V  SKAPGSPVAG+A V +FPDLN GN  YK  QR A   + GP+ QGL KP+NDLSRG   EDIV  +A+T VQA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|730415|sp|P39646.3|PTAS_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase; AltName: Full=Vegetative protein 43; Short=VEG43 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39646</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>8.49528e-81</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>AGK--RIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASL--VEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>AGKDVKIVFPEGLDERILEAVSKLAGNKVLNPIVIGNENEIQAKAKELNLTL-GGVKIYDPHTYEGMEDLVQAFVERRKGKA-TEEQARKALLDENYFGTMLVYKGLADGLVSGAAHSTADTVRPALQIIKTKEGVKKTSGVFIMARGEEQYVFADCAINIAPDSQDLAEIAIESANTAKMFDIEPRVAMLSFSTKGSAKSDETEKVADAVKIAKEKAPELTLDGEFQFDAAFVPSVAEKKAPDSEIKGDANVFVFPSLEAGNIGYKIAQRLGNFEAVGPILQGLNMPVNDLSRGCNAEDVYNLALITAAQA</Hsp_hseq>
+      <Hsp_midline>AGK  +IV PEG + R ++A +      +   +++    E++A AKE  ++L   ++I DP +   +E  V+   E RK K  T E ARK L D    GTM++ +   DGLVSGA H+TA+T+RPALQ+IKT  G    S VF M    +  VF DCA+N  P +Q LA+IAI+SA++AK F I+P+VAM+S+ST  S    + + V +A K+A+EK P+L +DG  Q+DAA VP V + KAP S + G A V VFP L  GN  YK  QR  N  +VGP+LQGL  PVNDLSRG   ED+     +TA QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|71153072|sp|Q6GJ80.1|PTAS_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GJ80</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>9.16861e-81</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>RIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREK----RPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>KIVLPEGEDERVLTAATQLQATDYVTPIVLGDETKVQSLAQKLNLDISN-IELINPATSELKAELVQSFVERRKGK-TTEEQAQELLNNVNYFGTMLVYAGKADGLVSGAAHSTGDTVRPALQIIKTKPGVSRTSGIFFMIKGDEQYIFGDCAINPELDSQGLAEIAVESAKSALSFGMDPKVAMLSFSTKGSAKSDDVTKVQEAVKLAQQKAEEEKLEAIIDGEFQFDAAIVPGVAEKKAPGAKLQGDANVFVFPSLEAGNIGYKIAQRLGGYDAVGPVLQGLNSPVNDLSRGCSIEDVYNLSFITAAQALQ</Hsp_hseq>
+      <Hsp_midline>+IVLPEG + R + AA           ++L    +V+++A++  + + + +E+I+PA+  L  + V+   E RK K  T E A++ L +    GTM++     DGLVSGA H+T +T+RPALQ+IKT PG S  S +FFM+  ++  +FGDCA+NP   +Q LA+IA++SA SA +FG+DPKVAM+S+ST  S    DV  V EA KLA++K    + +  IDG  Q+DAA VPGV + KAPG+ + G A V VFP L  GN  YK  QR     +VGP+LQGL  PVNDLSRG  +ED+     +TA QA Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|54038909|sp|P99092.1|PTAS_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus aureus subsp. aureus N315] &gt;gi|54041589|sp|P65862.1|PTAS_STAAM RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|71153071|sp|Q5HI88.1|PTAS_STAAC RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>P99092</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>1.14657e-80</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>RIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREK----RPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>KIVLPEGEDERVLTAATQLQATDYVTPIVLGDETKVQSLAQKLDLDISN-IELINPATSELKAELVQSFVERRKGKA-TEEQAQELLNNVNYFGTMLVYAGKADGLVSGAAHSTGDTVRPALQIIKTKPGVSRTSGIFFMIKGDEQYIFGDCAINPELDSQGLAEIAVESAKSALSFGMDPKVAMLSFSTKGSAKSDDVTKVQEAVKLAQQKAEEEKLEAIIDGEFQFDAAIVPGVAEKKAPGAKLQGDANVFVFPSLEAGNIGYKIAQRLGGYDAVGPVLQGLNSPVNDLSRGCSIEDVYNLSIITAAQALQ</Hsp_hseq>
+      <Hsp_midline>+IVLPEG + R + AA           ++L    +V+++A++  + + + +E+I+PA+  L  + V+   E RK K  T E A++ L +    GTM++     DGLVSGA H+T +T+RPALQ+IKT PG S  S +FFM+  ++  +FGDCA+NP   +Q LA+IA++SA SA +FG+DPKVAM+S+ST  S    DV  V EA KLA++K    + +  IDG  Q+DAA VPGV + KAPG+ + G A V VFP L  GN  YK  QR     +VGP+LQGL  PVNDLSRG  +ED+     +TA QA Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|38605109|sp|Q8NXW4.1|PTAS_STAAW</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|71153073|sp|Q6GBP8.1|PTAS_STAAS RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>Q8NXW4</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>5.25336e-80</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>RIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREK----RPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>KIVLPEGEDERVLTAATQLQATDYVTPIVLGDETKVQSLAQKLDLDISN-IELINPATSELKAELVQSFVERRKGKA-TEEQAQELLNNVNYFGTMLVYAGKADGLVSGAAHSTGDTVRPALQIIKTKPGVSRTSGIFFMIKGDVQYIFGDCAINPELDSQGLAEIAVESAKSALSFGMDPKVAMLSFSTKGSAKSDDVTKVQEAVKLAQQKAEEEKLEAIIDGEFQFDAAIVPGVAEKKAPGAKLQGDANVFVFPSLEAGNIGYKIAQRLGGYDAVGPVLQGLNSPVNDLSRGCSIEDVYNLSIITAAQALQ</Hsp_hseq>
+      <Hsp_midline>+IVLPEG + R + AA           ++L    +V+++A++  + + + +E+I+PA+  L  + V+   E RK K  T E A++ L +    GTM++     DGLVSGA H+T +T+RPALQ+IKT PG S  S +FFM+  +   +FGDCA+NP   +Q LA+IA++SA SA +FG+DPKVAM+S+ST  S    DV  V EA KLA++K    + +  IDG  Q+DAA VPGV + KAPG+ + G A V VFP L  GN  YK  QR     +VGP+LQGL  PVNDLSRG  +ED+     +TA QA Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|6685769|sp|O83132.1|PTAS_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O83132</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.80511e-69</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>AGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKRE-EVEAVAKERGISLPDSLEIIDPA--SLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVL-------VFGDCAVNPNPTAQQLADIAIQSADSAKAF-GIDPKVAMISYSTVNSGSGPDVDT--VIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>AQKRLVLPEACEQRTLEAARLIVFRNIAAKVFLVGCERDIKNTADRCGIDLTD-MVVIDPSVSKHRDQFAERYFQKRKHKGISLAQAAEDMRDPLRFAAMMLDQGHADAMVAGAENTTARVLRAGLTIIGTLPSVKTASSCFVMDTNNPRLGGTRGLFIFSDCAVIPTPTAEQLADIACSAAESCRTFIGEEPTVALLSYSTKGSGGDSDENILRVREAVRILHERRVDFTFDGELQLDAALVPKITEKKAPHSPITGKVNTLVFPDLSSGNIGYKLVQRLSDADAYGPFLQGFAKPLSDLSRGCSVEDIVAACAVTLVQS</Hsp_hseq>
+      <Hsp_midline>A KR+VLPE  E RT++AA +   + IA  V L   E +++  A   GI L D + +IDP+     +Q+ E   + RK KG++   A + ++D +    MM+ Q   D +V+GA +TTA  +R  L +I T P     SS F M   N  L       +F DCAV P PTA+QLADIA  +A+S + F G +P VA++SYST  SG   D +   V EA ++  E+R D   DG LQ DAA VP + + KAP SP+ G+   LVFPDL++GN  YK VQR ++  + GP LQG  KP++DLSRG  VEDIV   A+T VQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2499984|sp|P77218.1|EUTD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Ethanolamine utilization protein EutD [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77218</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>5.70629e-67</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>DFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPA---SLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFML--LPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAF-GIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQME</Hsp_qseq>
+      <Hsp_hseq>ELALRAPARVVFPDALDQRVLKAAQYLHQQGLATPILVANPFELRQFALSHGVAM-DGLQVIDPHGNLAMREEFAHRW--LARAGEKTPPDALEKLTDPLMFAAAMVSAGKADVCIAGNLSSTANVLRAGLRIIGLQPGCKTLSSIFLMLPQYSGPALGFADCSVVPQPTAAQLADIALASAETWRAITGEEPRVAMLSFSSNGSARHPCVANVQQATEIVRERAPKLVVDGELQFDAAFVPEVAAQKAPASPLQGKANVMVFPSLEAGNIGYKIAQRLGGYRAVGPLIQGLAAPMHDLSRGCSVQEII-ELALVAAVPRQTE</Hsp_hseq>
+      <Hsp_midline>+ A +A  R+V P+  + R ++AA   H++G+A  +L+A   E+   A   G+++ D L++IDP    ++ E++      L ++   TP DA ++L D ++    M++    D  ++G + +TAN +R  L++I   PG   +SS+F ML       L F DC+V P PTA QLADIA+ SA++ +A  G +P+VAM+S+S+  S   P V  V +AT++ RE+ P L +DG LQ+DAA VP V   KAP SP+ G+A V+VFP L  GN  YK  QR     +VGPL+QGL  P++DLSRG  V++I+  +AL A   +Q E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|6686283|sp|P41790.2|EUTD_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Ethanolamine utilization protein EutD [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P41790</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>9.62978e-65</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>DFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPAS---LVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFML--LPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAF-GIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>ELAVRAPARVVFPDALDERVLKAAHYLQQYGLARPVLVASPFALRQFALSHRMAM-DGIQVIDPHSNLSMRQRFAQRW--LARAGEKTPPDAVEKLSDPLMFAAAMVSAGEADVCIAGNLSSTANVLRAGLRVIGLQPGCKTLSSIFLMLPQYAGPALGFADCSVVPQPTAAQLADIALASADTWRAITGEEPRVAMLSFSSNGSARHPNVANVQQATELVRERAPQLLVDGELQFDAAFVPEVAAQKAPDSPLQGRANVMIFPSLEAGNIGYKITQRLGGYRAVGPLIQGLAAPLHDLSRGCSVQEII-ELALVAAVPRQ</Hsp_hseq>
+      <Hsp_midline>+ A +A  R+V P+  + R ++AA    + G+AR VL+A    +   A    +++ D +++IDP S   + +++ +    L ++   TP DA ++L D ++    M++  + D  ++G + +TAN +R  L++I   PG   +SS+F ML       L F DC+V P PTA QLADIA+ SAD+ +A  G +P+VAM+S+S+  S   P+V  V +AT+L RE+ P L +DG LQ+DAA VP V   KAP SP+ G+A V++FP L  GN  YK  QR     +VGPL+QGL  P++DLSRG  V++I+  +AL A   +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|730417|sp|P39197.1|PTAS_PARDE</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Paracoccus denitrificans]</Hit_def>
+  <Hit_accession>P39197</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.63178e-58</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASL--VEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLL--PNQV----LVFGDCAVNPNPTAQQLADIAIQSADSAKA-FGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>RHIILPEGEDPRVAEAARRLLAAGLARVTLMG------------GPEIPGAGRI-DPAGGPDLAELADHWHRMRAARGMTAERALTEMRDPIRQAAMRVRLGQADGTVGGAVATTADTVRAALQIIGKAPGAGIVSSFFLMLSCGPGAPVRGGMIFADCGLVIQPDARELAAIALSAADSCRRILAEEPRVALLSFSTAGSAEHPSLGRIREALALIRAAAPGLEVDGEMQFDAALDEAIRARKAPESPLTGRPNVFVFPDLADGNIGYKIAERLAGLTAIGPILQGLAKPANDLSRACSVKDIVNATAITAMQTK</Hsp_hseq>
+      <Hsp_midline>+ I+LPEG +PR  +AA      G+AR  L+             G  +P +  I DPA    + +  +    +R ++G+T E A  +++D +    M +     DG V GAV TTA+T+R ALQ+I  APGA +VSS F ML   P       ++F DC +   P A++LA IA+ +ADS +     +P+VA++S+ST  S   P +  + EA  L R   P L +DG +Q+DAA    +   KAP SP+ G+  V VFPDL  GN  YK  +R A + ++GP+LQGL KP NDLSR   V+DIV   A+TA+Q K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|6685767|sp|O51535.1|PTAS_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Borrelia burgdorferi B31]</Hit_def>
+  <Hit_accession>O51535</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>1.83322e-56</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>IVLPEGAEPRTVQAAAICHEKGIA-RCVLLAKREEVEAVAKERGIS--LPDSLEIIDPASL--VEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLL--------------PNQVLVFGDCAVNPNPTAQQLADIAIQSADSAK-AFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIAL</Hsp_qseq>
+      <Hsp_hseq>IVFPESSDSRVLKAAIVILQKNLADSIILIGKKDTVINSLKEFSNCNDILGRIEVVDPNSFPDIEMYLDEYWSLQKLKGVTKQSLKTQVLDEITFAMLMVRFGYAKSCVCGAVSTSAKVLSNALRIIPKLEGVKIISS--FMIMDTLCTARNVDFCFGHNGILFFADCSVVVNPNSLELAEIALQSAKSFKDILNAKPKVALLSFSTKGSSSAKETEKVKNALNIVRNKESDLLIDGELQLDSAIIKDVAEKKCRESLVAGSANVLIFPNLDAGNIGYKLVERFAFAKAYGPFLQGFSKPISDLSRGCSVDEIVFASAL</Hsp_hseq>
+      <Hsp_midline>IV PE ++ R ++AA +  +K +A   +L+ K++ V    KE      +   +E++DP S   +E Y++    L+K KG+T +  + Q+ D +    +M+        V GAV T+A  +  AL++I    G  ++SS  FM++               N +L F DC+V  NP + +LA+IA+QSA S K      PKVA++S+ST  S S  + + V  A  + R K  DL IDG LQ D+A +  V + K   S VAG A VL+FP+L+ GN  YK V+R A   + GP LQG  KP++DLSRG  V++IVF  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2499983|sp|P75359.1|PTAS_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75359</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.4857e-53</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>NLIDFARQ----AGKR--IVLPEGAEPRTVQAAAICHEKGIARC-VLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMI--SYSTVNSGSGPDVDTVIEATKLAREKRPDLA--IDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQ</Hsp_qseq>
+      <Hsp_hseq>SVIDLLKQRVQSAGKKPVIIFPEGWSPTVMEAVNQLQQAGILTPPVIFRTRSEVPA-----GFNTAIKHYVIEEMDLT-KYANFVYEKRKHKGMEMREAQKFVRDASSLAATLVALNEVDGEVCGKEYATKDTLRPALQLLGTG---NFVSSVFIMEKNEERLYFTDCAFAVYPSPQELAVVAENTFKFAQSMG-EPELKMVFLSYSTLGSGKGEAVDKVVSATQIFLEKHPELKANVCGELQFDSAFVEKVRKQKAPNLTWNGSANIYVFPNLDAGNIGYKIAQRLGGYEAIGPIVLGLARPFNDLSRGASVSDVFNVGIITAAQ</Hsp_hseq>
+      <Hsp_midline>++ID  +Q    AGK+  I+ PEG  P  ++A     + GI    V+   R EV A     G +      +I+   L  +Y   + E RK KG+   +A+K ++D   L   ++A N+VDG V G  + T +T+RPALQL+ T    + VSSVF M    + L F DCA    P+ Q+LA +A  +   A++ G +P++ M+  SYST+ SG G  VD V+ AT++  EK P+L   + G LQ+D+A V  V K KAP     G A + VFP+L+ GN  YK  QR     ++GP++ GL +P NDLSRGA V D+     +TA Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1709890|sp|P47541.1|PTAS_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>P47541</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>2.98448e-52</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>IVLPEGAEPRTVQAAAICHE-KGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDP-KVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDL--AIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>IIFPEGWSASVLKAVEMLNESKLIQPAVIFHNRQEIPANFDKKITHY-----VIDEMDLT-SYANFVYEKRKHKGMDLKEAQKFVRDPSSLAATLVALKVVDGEVCGKEYATKDTLRPALQLLATG---NFVSSVFIMEKGEERLYFTDCAFAVYPNSQELATIAENTFNFAKSLNEDEIKMAFLSYSTLGSGKGEMVDKVVLATKLFLEKHPELHQSVCGELQFDAAFVEKVRLQKAPQLTWKNSANIYVFPNLDAGNIAYKIAQRLGGYDAIGPIVLGLSSPVNDLSRGASVSDIFNVGIITAAQA</Hsp_hseq>
+      <Hsp_midline>I+ PEG     ++A  + +E K I   V+   R+E+ A   ++         +ID   L   Y   + E RK KG+  ++A+K ++D   L   ++A   VDG V G  + T +T+RPALQL+ T    + VSSVF M    + L F DCA    P +Q+LA IA  + + AK+   D  K+A +SYST+ SG G  VD V+ ATKL  EK P+L  ++ G LQ+DAA V  V   KAP       A + VFP+L+ GN  YK  QR     ++GP++ GL  PVNDLSRGA V DI     +TA QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|6685774|sp|Q49112.1|PTAS_MYCCT</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Mycoplasma capricolum subsp. capricolum ATCC 27343]</Hit_def>
+  <Hit_accession>Q49112</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>6.32336e-52</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>YNLIDFARQAG-----KRIVLPEGAEPRTVQAAA--ICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGI-DPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQA-TVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALT</Hsp_qseq>
+      <Hsp_hseq>YTLEEIKNQLGLKSEKKSIVFPE-AESEIIQSVAKTLVDEKLGLPILLFKSSKEVPSEIKNNSSIKTICLDEFDTKEFEEEFVK----LRKGKA-TIEVAHQVMQLPNYIGAMLVKLNQADCMLSGLNNTTADTIRPALQIIGTKPGYNIASSIFVMSKGNENYIFTDCALNIKPTSEQLVEITQMAVDFAKALNVKNVEAALLSYSTNGSGKGEDVDRVHQAVEILKSKEKDYVCEGEIQFDAAFDKKTRDKKFKNCSLLKQTPDIFVFPDINAGNIGYKIAQRMGGFEAIGPFVLGLNQPVNDLSRGATFVDVLNTAIMT</Hsp_hseq>
+      <Hsp_midline>Y L +   Q G     K IV PE AE   +Q+ A  +  EK     +L    +EV +  K         L+  D     E++V+    LRK K  T E A + +Q    +G M++  N  D ++SG  +TTA+TIRPALQ+I T PG ++ SS+F M   N+  +F DCA+N  PT++QL +I   + D AKA  + + + A++SYST  SG G DVD V +A ++ + K  D   +G +Q+DAA        K     +  Q   + VFPD+N GN  YK  QR     ++GP + GL +PVNDLSRGA   D++ T  +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1170873|sp|P43837.1|MAO2_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent malic enzyme; Short=NADP-ME [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43837</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>2.45692e-40</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>ARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDS--LEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQ-DTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>AKSAKQRIILAEGEENKALHATQEVISMGLANPILIGRRSVIEEKIKKLGLRLTAGVDFEIVDNEDNPRYEECWKHYYELTKRKGITPAIAKRVVRSNTTVLASTLLSLGYADALVCGLFGSYGKHLASIRDIIGLKDGVKTAAALNSLVLPTGNVFLTDTHVNSNPTAEELAEITLMAAEEIHRFGIEPAVALLSHSNFGSSDSLGAPKMREVLQIVKERNPHLMIDGEMRGDLAMNEAHRKELMPDSPLKGSANLLVFPDLSASRISYSLLRGTTTAITVGPILMGMNKSAHILNPGASVRRIINMIAYAAVKAQQ</Hsp_hseq>
+      <Hsp_midline>A+ A +RI+L EG E + + A       G+A  +L+ +R  +E   K+ G+ L      EI+D       E+  +   EL K KG+TP  A++ ++ +T VL + +++    D LV G   +    +     +I    G    +++  ++LP   +   D  VN NPTA++LA+I + +A+    FGI+P VA++S+S   S        + E  ++ +E+ P L IDG ++ D A      K   P SP+ G A +LVFPDL+    +Y  ++ +   ++VGP+L G+ K  + L+ GA V  I+  IA  AV+A+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|17865770|sp|Q9ZFV8.2|MAO2_SALTY</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent malic enzyme; Short=NADP-ME [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q9ZFV8</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>1.31106e-39</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>ARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDS--LEIIDPAS--LVEQYVEPMCELRKSKGLTPEDA-RKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQ-RSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>ARKDPKRVVLPEGEEARVLHATQELITLGLAKPILIGRPSVIEMRIQKLGLQIKAGVDFEIVNNESDPRFKEYWSEYYQIMKRRGITQEQAQRAMIGNHTAIGAIMVQRGEADAMICGTIGDYHEHFSVVKAVFGYRDGVHTAGAMNALLLPSGNTFIADTYVNEDPTPEQLAEIAVMAAETVRRFGIEPKVALLSHSNFGSSNSLSASKMRETLERVRERAPDLMIDGEMHGDAALVESIRNDRMPDSPLKGAANILVMPNMEAARISYNLLRVSSSEGVTVGPVLMGVSKPVHVLTPIASVRRIVNMVALAVVEAQ</Hsp_hseq>
+      <Hsp_midline>AR+  KR+VLPEG E R + A       G+A+ +L+ +   +E   ++ G+ +      EI++  S    ++Y     ++ K +G+T E A R  + +   +G +M+ + + D ++ G +            +     G     ++  +LLP+      D  VN +PT +QLA+IA+ +A++ + FGI+PKVA++S+S   S +      + E  +  RE+ PDL IDG +  DAA V  +   + P SP+ G A +LV P++     +Y  ++  S+  ++VGP+L G+ KPV+ L+  A V  IV  +AL  V+A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|6685630|sp|P76558.1|MAO2_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent malic enzyme; Short=NADP-ME [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76558</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>1.64753e-39</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>ARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDS--LEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQL-QDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQ-RSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAK</Hsp_qseq>
+      <Hsp_hseq>ARKAPKRVVLPEGEEARVLHATQELVTLGLAKPILIGRPNVIEMRIQKLGLQIKAGVDFEIVNNESDPRFKEYWTEYFQIMKRRGVTQEQAQRALISNPTVIGAIMVQRGEADAMICGTVGDYHEHFSVVKNVFGYRDGVHTAGAMNALLLPSGNTFIADTYVNDEPDAEELAEITLMAAETVRRFGIEPRVALLSHSNFGSSDCPSSSKMRQALELVRERAPELMIDGEMHGDAALVEAIRNDRMPDSSLKGSANILVMPNMEAARISYNLLRVSSSEGVTVGPVLMGVAKPVHVLTPIASVRRIVNMVALAVVEAQ</Hsp_hseq>
+      <Hsp_midline>AR+A KR+VLPEG E R + A       G+A+ +L+ +   +E   ++ G+ +      EI++  S    ++Y     ++ K +G+T E A++ L  +  V+G +M+ + + D ++ G V            +     G     ++  +LLP+      D  VN  P A++LA+I + +A++ + FGI+P+VA++S+S   S   P    + +A +L RE+ P+L IDG +  DAA V  +   + P S + G A +LV P++     +Y  ++  S+  ++VGP+L G+ KPV+ L+  A V  IV  +AL  V+A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|6685624|sp|O30807.1|MAO1_RHIME</Hit_id>
+  <Hit_def>RecName: Full=NAD-dependent malic enzyme; Short=NAD-ME [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>O30807</Hit_accession>
+  <Hit_len>770</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>2.12989e-31</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>768</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>RIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISL-PD-SLEIIDPAS--LVEQYVEPMCELRKSKGLTPEDARKQLQ-DTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQAKQ</Hsp_qseq>
+      <Hsp_hseq>RVIFAEGEDERVLRAAQVLLEEGTAKPILIGRPQIIETRLRRYGLRIRPDVDFEVVNPEGDPRYRDYVDDYFALVGRLGVIPEAARTIVRTNTTVIGALAVKRGEADALICGVEGRYSRHLRDVSQIIGKRSGVLDFSALSLLISQRGATFFTDTYVSFSPSAEEIAQTTVMAANEIRRFGITPRAALVSHSNFGSRDSESAFKMRTALQLVRELAPDLEVDGEMHGDSAISEVLRQRVMPDSTLNGEANLLVFPNLDAANITLGVVKTMTDSLHVGPILLGSALPAHILSPSVTSRGVVNMAALAVVESSH</Hsp_hseq>
+      <Hsp_midline>R++  EG + R ++AA +  E+G A+ +L+ + + +E   +  G+ + PD   E+++P        YV+    L    G+ PE AR  ++ +T V+G + + + + D L+ G     +  +R   Q+I    G    S++  ++       F D  V+ +P+A+++A   + +A+  + FGI P+ A++S+S   S        +  A +L RE  PDL +DG +  D+A    + +   P S + G+A +LVFP+L+  N T   V+   + L VGP+L G   P + LS       +V   AL  V++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|7387861|sp|O30808.2|MAO2_RHIME</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent malic enzyme; Short=NADP-ME [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>O30808</Hit_accession>
+  <Hit_len>761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>8.81839e-28</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>365</Hsp_hit-from>
+      <Hsp_hit-to>759</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>RSDNTDADALAHQLN---LAKQFFAAAPGVLEGFVVDGAAASVAEAAAEKTGLTFFGSSDALKDVSVLAGREAKRLSP-AQFRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDS-LEIIDP--ASLVEQYVEPMCELRKSKGLTPEDARKQLQ-DTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>KEDVPDDVAAAYQGNRPRFGPQYIIPVP--FDPRLISAIPMAVAKAAME-TGV----ARKPIEDLKAYGQQLSARRDPIASTLQRIVERVRRQPKRIVFAEGEEVQMMRSAIAYANQQLGTALLLGREEVMRETAEREGIDLDRAGIQIVNARLSKRVGAYTDFLYSRLQRKGYLFRDVQRLINTDRNHFAASMVALGDADGMVTGLTRNYSTALEDVRRCIDPKPGHRVIG-VSIALCRGRTVLVADTAVHDMPTSEELADIAEEAAGLAKRLGYVPRVAMLAYSTFGHPSGERSERVREAVKILDRRRVDFEYDGEMAADVALNARV-MEQYPFCRLSGTANVLVMPAFHSASISTKMLQELGGSTVIGPLLVGLDKSVQIASMSAKDSDLVNLAAIAAYNA</Hsp_hseq>
+      <Hsp_midline>+ D  D  A A+Q N      Q+    P   +  ++     +VA+AA E TG+    +   ++D+     + + R  P A     +++  R+  KRIV  EG E + +++A     + +   +LL + E +   A+  GI L  + ++I++   +  V  Y + +    + KG    D ++ +  D       M+A  D DG+V+G     +  +    + I   PG  ++  V   L   + ++  D AV+  PT+++LADIA ++A  AK  G  P+VAM++YST    SG   + V EA K+   +R D   DG +  D A    V   + P   ++G A VLV P  ++ + + K +Q       +GPLL GL K V   S  A   D+V   A+ A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|6685636|sp|Q9ZDF6.1|MAO2_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Probable NADP-dependent malic enzyme; Short=NADP-ME [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZDF6</Hit_accession>
+  <Hit_len>767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>9.42929e-21</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>446</Hsp_hit-from>
+      <Hsp_hit-to>763</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>KRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERG--ISLPDSLEIIDPA--SLVEQYVEPMCELRKSKGLTPEDARKQLQ-DTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGIDPKVAMISYSTVNSGSGPDVDTVIEATKL----AREKRPDLAIDGPLQYDAATVPGVG-----KSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>KRIVFAEGEEEEVISAALMMRDEKYGNPIIIGRVERIEVTLKKIGKDISLA-GIQIMNAALSDRLEQYTDYLYKRLQRKGYLYRDCAKLVKTDKNIFAACMVACGDGDALLTGVTKSYIDSLEDIIKVISPKQNRRILGYSI-MIAKDHNIIIADNCITEYPNSLELAQIATQTAEIAKNMGITPRVALIAFSTFGNSSQEKTVRIREAVNILDNFSKDKKKLNGIKVDFEYDGEMSVKVALDHDLRKLYQFCRLSGSANVLIMPGLNSAAISTELLQKFSSNSFIGPITNGFAKPVQILPTTATANEILKIATFACVEA</Hsp_hseq>
+      <Hsp_midline>KRIV  EG E   + AA +  ++     +++ + E +E   K+ G  ISL   ++I++ A    +EQY + + +  + KG    D  K ++ D  +    M+A  D D L++G   +  +++   +++I       ++     M+  +  ++  D  +   P + +LA IA Q+A+ AK  GI P+VA+I++ST  + S      + EA  +    +++K+    I    +YD      V      +       ++G A VL+ P LN+   + + +Q+ ++   +GP+  G  KPV  L   A   +I+       V+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|18202288|sp|P58255.1|PTB_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Phosphate butyryltransferase; AltName: Full=Phosphotransbutyrylase [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>P58255</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>6.73512e-09</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>FRYNLIDFARQAGKRIVLPEGAEPRTVQAAAICHEKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQL---IKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGI-DPKVAMI-SYSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>FNEIIMKVKSKEMKKVAVAVAQDEPVLEAVRDAKKNGIADAILVGDHDEIVSIALKIGMDVND-FEIVN---------EP-------------NVKKAALKAVELVSTGKADMVMKGLVN-----TATFLRSVLNKEVGLRTGKTMSHVA-VFETEKFDRLLFLTDVAFNTYPELKEKIDIVNNSVKVAHAIGIENPKVAPICAVEVINPKMPSTLDAAMLSKMSDRGQIKGCVVDGPLALDIALSEEAAHHKGVTGEVAGKADIFLMPNIETGNVMYKTLTYTTDSKN-GGILVGTSAPVVLTSRADSHETKMNSIALAALVA</Hsp_hseq>
+      <Hsp_midline>F   ++    +  K++ +    +   ++A     + GIA  +L+   +E+ ++A + G+ + D  EI++         EP             + +K     V L +   A   + GLV+     TA  +R  L     ++T    S V+ VF     +++L   D A N  P  ++  DI   S   A A GI +PKVA I +   +N      +D  + +    R +     +DGPL  D A        K     VAG+A + + P++ TGN  YK +  + +  + G +L G   PV   SR    E  + +IAL A+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|730419|sp|Q05624.1|PTB_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=Phosphate butyryltransferase; AltName: Full=Phosphotransbutyrylase [Clostridium beijerinckii NCIMB 8052]</Hit_def>
+  <Hit_accession>Q05624</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>7.92922e-09</Hsp_evalue>
+      <Hsp_query-from>211</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>EKGIARCVLLAKREEVEAVAKERGISLPDSLEIIDPASLVEQYVEPMCELRKSKGLTPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQL---IKTAPGASLVSSVFFMLLPNQVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGID-PKVAMIS-YSTVNSGSGPDVDTVIEATKLAREKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAV---QRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>ENNIAQAILVGDKQQIHEIAKKINLDLSD-YEIMD--------------IKDPKKATLEAVK------------LVSSGHADMLMKGLV-DTATFLRSVLNKEVGLRTGKLMSHVA-VFDVEGWDRLLFLTDAAFNTYPEFKDKVGMINNAVVVAHACGIDVPRVAPICPVEVVNTSMQSTVDAALLAKMSDRGQIKGCVIDGPFALDNAISEEAAHHKGVTGSVAGKADILLLPNIEAANVMYKTLTYFSKSRN----GGLLVGTSAPVILTSRADSFETKVNSIALAALVA</Hsp_hseq>
+      <Hsp_midline>E  IA+ +L+  ++++  +AK+  + L D  EI+D              ++  K  T E  +            +++    D L+ G V  TA  +R  L     ++T    S V+ VF +   +++L   D A N  P  +    +   +   A A GID P+VA I     VN+     VD  + A    R +     IDGP   D A        K     VAG+A +L+ P++   N  YK +    +S N    G LL G   PV   SR    E  V +IAL A+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|251757310|sp|P54530.2|PTB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable phosphate butyryltransferase; AltName: Full=Phosphotransbutyrylase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54530</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>8.02629e-09</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>TPEDARKQLQDTVVLGTMMMAQNDVDGLVSGAVHTTANTIRPALQLIKTAPGASLVSSVFFMLLPN--QVLVFGDCAVNPNPTAQQLADIAIQSADSAKAFGID-PKVA-MISYSTVNSGSGPDVDTVIEATKLAR-EKRPDLA---IDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIAL</Hsp_qseq>
+      <Hsp_hseq>TPEESAK-------LAVRAVHHKTADVLMKGNVPTSV-LLKAVLNRQEGLRSASVLSHVAVFDIPDFDRLMFVTDSAMNIAPSLEELRQILQNAVHVAHAVGNNMPKAAALAAVETVN----PKMEATVNAAALAQMYKRGQIKGCIVDGPLALDNAVSQIAAAQKKISGDVAGNADILLVPTIEAGNILYKSLIYFAKA-SVAAVITGAKAPIALTSRADSAENKLYSIAL</Hsp_hseq>
+      <Hsp_midline>TPE++ K       L    +     D L+ G V T+   ++  L   +    AS++S V    +P+  +++   D A+N  P+ ++L  I   +   A A G + PK A + +  TVN    P ++  + A  LA+  KR  +    +DGPL  D A        K     VAG A +L+ P +  GN  YK++   A   SV  ++ G + P+   SR    E+ +++IAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|6685776|sp|Q9X0L4.1|PTAS_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9X0L4</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>8.05058e-09</Hsp_evalue>
+      <Hsp_query-from>335</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>LVFGDCAVNPNPTAQQLADIAIQSADSAKAFGID-PKVAMI-SYSTVNSGSGPDVDTVIEATKLA----REKRPDLAIDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSRGALVEDIVFTIALTAVQA</Hsp_qseq>
+      <Hsp_hseq>LIISDPGMLISPTLEQKVDMIEHCVRVANVMGLETPKVAVVGAIEVVN----PKMPITMEAAILSKMNQRGQIKGCIVDGPFALDNVVSEEAAKKKGIQSPVAGKADILILPDIEAANILYKALVFLAKAKSASTILGG-KVPVVLTSRADSEETKFYSIALSAVFA</Hsp_hseq>
+      <Hsp_midline>L+  D  +  +PT +Q  D+       A   G++ PKVA++ +   VN    P +   +EA  L+    R +     +DGP   D        K K   SPVAG+A +L+ PD+   N  YKA+   A   S   +L G + PV   SR    E   ++IAL+AV A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|6685777|sp|Q9X448.2|PTAS_RHIML</Hit_id>
+  <Hit_def>RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>Q9X448</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.18117e-08</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>VSSVFFMLLPNQV--LVFGDCAVNPNPTAQQLADIAIQSADSAKAFGI-DPKVAMISYSTVNSGSGPDVDTVIEATKLAR-EKRPDLA---IDGPLQYDAATVPGVGKSKAPGSPVAGQATVLVFPDLNTGNCTYKAVQRSANVLSVGPLLQGLRKPVNDLSR</Hsp_qseq>
+      <Hsp_hseq>ISHVFVMDVPGHTDTLFITDAAINIFPDLEAKRDIVQNAIDLWVAIGLGEPRVAILSAVETVTAKIP---STIEAAALCKMAERGQITGGVLEGPLAFDNAIDQEAARIKGINSPVAGHAQILVVPDLEAGNMLAKNLTFLTHADAAG-LVLGARVPIVLTSR</Hsp_hseq>
+      <Hsp_midline>+S VF M +P     L   D A+N  P  +   DI   + D   A G+ +P+VA++S     +   P   + IEA  L +  +R  +    ++GPL +D A      + K   SPVAG A +LV PDL  GN   K +    +  + G L+ G R P+   SR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
