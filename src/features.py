@@ -392,6 +392,7 @@ def tabela_uniprot2():
     df.to_csv("../res/excel/teste_uniprot2", sep='\t')
 
 
+#appending extra columns for posterior data frame
 def tab():
     refs=more_info_uniprot()
     lista=[]
@@ -411,7 +412,8 @@ def tab():
                 lista[j].append(refs[j][g])        
     return lista
     
-
+    
+#sorting by protein ID
 def sorting(lista):
     mat=[]
     for i in range(len(ID)):
