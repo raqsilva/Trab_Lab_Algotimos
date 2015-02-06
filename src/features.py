@@ -560,7 +560,7 @@ def gimatch():
     for i in handle:
         n = i[i.index(xml) + len(xml):] 
         g = n.split('.xml', 1)[0]  
-        gi.append(g)
+        gi.append(g[1:])
     for J in handle:
         s3 = J[J.index(s2) + len(s2):] 
         sP = s3.split('|', 1)[0] 
@@ -570,14 +570,41 @@ def gimatch():
         gimatch.append(gi[k]+' '+hit[k])    
             
             
-    for w in range(len(hit)):  
-        site = urllib.request.urlopen("http://www.uniprot.org/uniprot/"+hit[w]+".txt")
+    
+    for n in range(len(gi)):
+        site = urllib.request.urlopen("http://www.uniprot.org/uniprot/"+hit[n]+".txt")
         data = site.readlines()
-        nome=hit[w]
+        nome=gi[n]
         file = open("../res/blast_without_note/match/function/"+nome+'.txt',"wb") #open file in binary mode
         file.writelines(data)
         file.close()
+#function to see possible function of proteins that didnt have note:
+def getfunction():
+    blast=[]    
+    for file in os.listdir("../res/blast_without_note/match/function/"):
+        if file.endswith(".txt"):
+               blast.append(file)
     
+    lista=[]
+    match=[]
+    for j in range(len(blast)):
+        nome=blast[j]
+        gi = nome.replace(".txt","")
+        func='CC   -!- FUNCTION:'
+        file = open("../res/blast_without_note/match/function/"+nome,'r') 
+        data = file.readlines()
+        for i in data:
+            if func in i:
+                function=i.replace('CC   -!- FUNCTION:', '')
+                lista.append('Gi: '+gi+'  '+'Possivel função:  '+function)
+    #function to se the proteins that have possible note:   
+    for n in range(len(blast)):
+        name=blast[n]
+        gis = name.replace(".txt","")
+        for k in lista:
+            if gis in k:
+                match.append(gis)
+    return lista
 def menu(record):
     ans=True
     while ans:
@@ -599,7 +626,8 @@ def menu(record):
     15.blastanaliser
     16.pega no primeiro hit do blast
     17.GO numbers
-    20.Exit
+    18.function to see possible function of proteins that didnt have note:
+    60.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":
@@ -663,7 +691,10 @@ def menu(record):
             gimatch()
         elif ans=="17":
             print(GO())
-        elif ans=="20":
+            
+        elif ans=="18":
+            print(getfunction())
+        elif ans=="60":
             ans = False
         else:
             print("\nInvalid")
