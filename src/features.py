@@ -548,7 +548,6 @@ def blastanaliser():
     src = path+"/"+'matches.txt' #source folder
     dst = "../res/blast_without_note/match/"#destination folder
     shutil.move(src, dst)
-    
 
 def gimatch():
     handle = open("../res/blast_without_note/match/matches.txt").readlines()    
@@ -605,6 +604,42 @@ def getfunction():
             if gis in k:
                 match.append(gis)
     return lista
+    
+#return all hits from blast
+def allhits():
+    lista=[]
+    handle = open("../res/blast_without_note/match/matches.txt").readlines()    
+    first = 'sp|'
+    last = '|'
+    gi=[]
+    xml='['
+    
+    
+        
+    for q in range(len(handle)):
+        lista.append([])
+        x=handle[q].split()
+        for i in range (len(x)):
+            m=x[i]
+            if 'sp|' in m:    
+                try:
+                    start = m.rindex( first ) + len( first )
+                    end = m.rindex( last, start )
+                    novo= m[start:end]
+                    lista[q].append(novo)
+                except:
+                    pass
+          
+    
+    for f in handle:
+        n = f[f.index(xml) + len(xml):] 
+        g = n.split('.xml', 1)[0]  
+        gi.append(g[1:])
+    
+    for p in range(len(lista)):
+        lista[p].append(gi[p])
+    return lista
+    
 def menu(record):
     ans=True
     while ans:
@@ -627,6 +662,7 @@ def menu(record):
     16.pega no primeiro hit do blast
     17.GO numbers
     18.function to see possible function of proteins that didnt have note:
+    19.return all hits from blast
     60.Exit
     """)
         ans=input("Choose an option? ")
@@ -694,6 +730,12 @@ def menu(record):
             
         elif ans=="18":
             print(getfunction())
+        elif ans=="19":
+           file = open("../res/blast_without_note/match/function/allhits.txt",'w')
+           lista=allhits()         
+           for i in range(len(lista)):
+               file.write("%s\n" % lista[i])
+           file.close()
         elif ans=="60":
             ans = False
         else:
