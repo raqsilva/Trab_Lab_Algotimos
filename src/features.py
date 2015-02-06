@@ -577,6 +577,8 @@ def gimatch():
         file = open("../res/blast_without_note/match/function/"+nome+'.txt',"wb") #open file in binary mode
         file.writelines(data)
         file.close()
+        
+        
 #function to see possible function of proteins that didnt have note:
 def getfunction():
     blast=[]    
@@ -605,6 +607,7 @@ def getfunction():
                 match.append(gis)
     return lista
     
+<<<<<<< HEAD
 #return all hits from blast
 def allhits():
     lista=[]
@@ -639,6 +642,8 @@ def allhits():
     for p in range(len(lista)):
         lista[p].append(gi[p])
     return lista
+=======
+>>>>>>> origin/master
     
 def menu(record):
     ans=True
