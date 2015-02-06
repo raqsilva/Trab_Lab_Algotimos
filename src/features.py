@@ -607,7 +607,6 @@ def getfunction():
                 match.append(gis)
     return lista
     
-<<<<<<< HEAD
 #return all hits from blast
 def allhits():
     lista=[]
@@ -642,8 +641,7 @@ def allhits():
     for p in range(len(lista)):
         lista[p].append(gi[p])
     return lista
-=======
->>>>>>> origin/master
+
     
 def menu(record):
     ans=True
