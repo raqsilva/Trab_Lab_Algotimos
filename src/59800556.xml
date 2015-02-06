@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800556|ref|YP_207268.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>type IV pilius assembly protein PilP [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>181</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800556|ref|YP_207268.1|</Iteration_query-ID>
+  <Iteration_query-def>type IV pilius assembly protein PilP [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>181</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|122310918|sp|Q0A5T6.1|ACDH_ALKEH</Hit_id>
+  <Hit_def>RecName: Full=Acetaldehyde dehydrogenase; AltName: Full=Acetaldehyde dehydrogenase [Alkalilimnicola ehrlichii MLHE-1]</Hit_def>
+  <Hit_accession>Q0A5T6</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0134021</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>ENAPDTKRIKETLEKFSLENMRYV-------GILKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESITDDSIILNELIEDS</Hsp_qseq>
+      <Hsp_hseq>QGKPDHKAITESIERMVAEVQRYVPGYRIKNGPTFDGQRVSTFLEVE------GLGDYLPHYSGNLDIMTAAAARAAEIFAES</Hsp_hseq>
+      <Hsp_midline>+  PD K I E++E+   E  RYV       G    GQ+VS F+E E      G+G+YL    G ++ +T  +    E+  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|123565135|sp|Q390P5.1|ACDH3_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Acetaldehyde dehydrogenase 3; AltName: Full=Acetaldehyde dehydrogenase [acetylating] 3 [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q390P5</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.643404</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ENAPDTKRIKETLEKFSLENMRYV-------GILKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESIT</Hsp_qseq>
+      <Hsp_hseq>ETAPDEARIVESVHAMIADVQRYVPGYRLVNGPVFDGNRVSIYLEVE------GLGDYLPKYAGNLDIMT</Hsp_hseq>
+      <Hsp_midline>E APD  RI E++     +  RYV       G +  G +VS ++E E      G+G+YL +  G ++ +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|122236284|sp|Q0WSH6.1|PP312_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Pentatricopeptide repeat-containing protein At4g14850; AltName: Full=Protein LOVASTATIN INSENSITIVE 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q0WSH6</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.05877</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESITDDSIILNELIEDSTGNWVSRKAELLLNSSDK</Hsp_qseq>
+      <Hsp_hseq>LNLGMQLHGLVLRSGFDTDVSVCNGLIDFYGKCKQIRSSEIIFTEMGTKNAVSWCSLVAAYVQNHEDE</Hsp_hseq>
+      <Hsp_midline>L  G ++ G +   G+   V V N L   YG+ + I    II  E+   +  +W S  A  + N  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|263401684|sp|A1K6L8.1|ACDH1_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Acetaldehyde dehydrogenase 1; AltName: Full=Acetaldehyde dehydrogenase [acetylating] 1 [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K6L8</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.53944</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ENAPDTKRIKETLEKFSLENMRYV-------GILKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESIT</Hsp_qseq>
+      <Hsp_hseq>ESAPDQARITESILQMIGEVQKYVPGYRLVNGPSYDGNKVSVFME------VAGLGDYLPKYAGNLDIMT</Hsp_hseq>
+      <Hsp_midline>E+APD  RI E++ +   E  +YV       G    G KVS F+E        G+G+YL +  G ++ +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75170796|sp|Q9FIB2.1|PP373_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Putative pentatricopeptide repeat-containing protein At5g09950 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FIB2</Hit_accession>
+  <Hit_len>995</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.67352</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>329</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LKSGQKVSGFIEAEGYV-YTVGVGNYLGQNYGRIESITDDSIILNELIEDSTGNW</Hsp_qseq>
+      <Hsp_hseq>LKKGREVHGHVITTGLVDFMVGIGNGLVNMYAKCGSIADARRVFYFMTDKDSVSW</Hsp_hseq>
+      <Hsp_midline>LK G++V G +   G V + VG+GN L   Y +  SI D   +   + +  + +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|122167625|sp|Q0D840.1|TRXH1_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin H1; Short=OsTrxh1; AltName: Full=Phloem sap 13 kDa protein 1 [Oryza sativa Japonica Group] &gt;gi|158513158|sp|A2YIW7.1|TRXH_ORYSI RecName: Full=Thioredoxin H-type; Short=Trx-H; AltName: Full=Phloem sap 13 kDa protein 1 [Oryza sativa Indica Group]</Hit_def>
+  <Hit_accession>Q0D840</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.45543</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ACSQNSEDLNEWMAQTRREAKAEIIPFQA----PTLPVAPVYSPPQLTGPNAFDFRRMETAKKGENAPDTKRIKETLEKFSLENMRYVGILKSG</Hsp_qseq>
+      <Hsp_hseq>AC-HNKDEFDAQMTKAKEAGKVVIIDFTASWCGPCRFIAPVFAEYAKKFPGAV-FLKV----------DVDELKEVAEKYNVEAMPTFLFIKDG</Hsp_hseq>
+      <Hsp_midline>AC  N ++ +  M + +   K  II F A    P   +APV++      P A  F ++          D   +KE  EK+++E M     +K G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|124007114|sp|Q4UNB0.2|ACKA_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UNB0</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.51874</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>NAPDTKRIKETLEKFSLENMRYVGILKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESITDDSIILNELIEDSTGNWVSRKAELLLNSSDKNTEQAAAPAAEQ</Hsp_qseq>
+      <Hsp_hseq>NSPDAK--------FAIDLFVYRIVLEIGKLTAALEGVDCLIFTAGV----GQNSAVIRKMITEKLLWLGIKIDDTKN---QKNEHLISTSDSKVKVFAVPTNEE</Hsp_hseq>
+      <Hsp_midline>N+PD K        F+++   Y  +L+ G+  +     +  ++T GV    GQN   I  +  + ++   +  D T N   +K E L+++SD   +  A P  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|263402678|sp|A1WLL3.1|ACDH_VEREI</Hit_id>
+  <Hit_def>RecName: Full=Acetaldehyde dehydrogenase; AltName: Full=Acetaldehyde dehydrogenase [Verminephrobacter eiseniae EF01-2]</Hit_def>
+  <Hit_accession>A1WLL3</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.33978</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ENAPDTKRIKETLEKFSLENMRYV-------GILKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESIT</Hsp_qseq>
+      <Hsp_hseq>EGKPDEAAITQSIHDMIREVQKYVPGYKLVNGPVFDGQRVSVFMEVE------GLGDYLPKYAGNLDIMT</Hsp_hseq>
+      <Hsp_midline>E  PD   I +++     E  +YV       G +  GQ+VS F+E E      G+G+YL +  G ++ +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75116883|sp|Q683I9.1|PP295_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Pentatricopeptide repeat-containing protein At3g62890 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q683I9</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.9379</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>432</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LKSGQKVSG--FIEAEGYVYTVGVGNYLGQNYGRIESITDDSIILNELIEDSTGNWVSRKAELLLNSSDKNTEQAAAPAAEQ</Hsp_qseq>
+      <Hsp_hseq>VKGINKVPGCSYVEVEGVVHEFVVGDESQQESERIYAMLDE--IMQRLRE---AGYVTDTKEVLLDLNEKDKEIALSYHSEK</Hsp_hseq>
+      <Hsp_midline>+K   KV G  ++E EG V+   VG+   Q   RI ++ D+  I+  L E     +V+   E+LL+ ++K+ E A +  +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|82179198|sp|Q5HZQ9.1|PCX4_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Pecanex-like protein 4 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q5HZQ9</Hit_accession>
+  <Hit_len>1184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.42142</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1040</Hsp_hit-from>
+      <Hsp_hit-to>1143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>FDFRRMETAKKGENAPDTKRIKETLEKFSLENMRYVGILKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESITDDSIILNEL-IEDSTGNWVSRKAELLLNSSD</Hsp_qseq>
+      <Hsp_hseq>YTFKLMVDKSSLGQVEDFKELINYLEEY--DNDWYIGLASDMEWQQAVLQEKPYLFSLGHDPNMGVYTGRVLTLQEQLVQIGKLNAEAVRGQWANLSWELLYATND</Hsp_hseq>
+      <Hsp_midline>+ F+ M          D K +   LE++  +N  Y+G+    +     ++ + Y++++G    +G   GR+ ++ +  + + +L  E   G W +   ELL  ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|54039758|sp|P66983.1|TRPA_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus N315] &gt;gi|54042262|sp|P66982.1|TRPA_STAAM RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|166200521|sp|A7X240.1|TRPA_STAA1 RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus Mu3] &gt;gi|189040541|sp|A6U1J5.1|TRPA_STAA2 RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus JH1] &gt;gi|189040542|sp|A5ISQ5.1|TRPA_STAA9 RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus JH9]</Hit_def>
+  <Hit_accession>P66983</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.58872</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GPNAFDFRRMETAKKGENAPD-----TKRIKETLEKFSLENMRYVGILKSGQKVSGFI-EAEGYVYTVGVGNYLGQN</Hsp_qseq>
+      <Hsp_hseq>GEQAFFEKCRDTGVYGLIIPDLPYELSQRLKQQFSHYGVKIISLVAMTTDDKRIKDIVSHAEGFIYTVTMNATTGQN</Hsp_hseq>
+      <Hsp_midline>G  AF  +  +T   G   PD     ++R+K+    + ++ +  V +    +++   +  AEG++YTV +    GQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|38258804|sp|Q8NWU1.1|TRPA_STAAW</Hit_id>
+  <Hit_def>RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus MW2] &gt;gi|56749712|sp|Q6G9I6.1|TRPA_STAAS RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|71153358|sp|Q5HG46.1|TRPA_STAAC RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus COL] &gt;gi|122539608|sp|Q2FYR3.1|TRPA_STAA8 RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123485998|sp|Q2FH63.1|TRPA_STAA3 RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus USA300] &gt;gi|172048880|sp|A6QGS5.1|TRPA_STAAE RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus str. Newman] &gt;gi|189040543|sp|A8Z245.1|TRPA_STAAT RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus subsp. aureus USA300_TCH1516]</Hit_def>
+  <Hit_accession>Q8NWU1</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.70987</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GPNAFDFRRMETAKKGENAPD-----TKRIKETLEKFSLENMRYVGILKSGQKVSGFI-EAEGYVYTVGVGNYLGQN</Hsp_qseq>
+      <Hsp_hseq>GEQAFFEKCRDTGVYGLIIPDLPYELSQRLKQQFSHYGVKIISLVAMTTDDKRIKDIVSHAEGFIYTVTMNATTGQN</Hsp_hseq>
+      <Hsp_midline>G  AF  +  +T   G   PD     ++R+K+    + ++ +  V +    +++   +  AEG++YTV +    GQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|75216191|sp|Q9ZQA1.1|PP188_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Pentatricopeptide repeat-containing protein At2g36730 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9ZQA1</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.02626</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESITDDSIILNELIEDSTGNWVSRKAELLLN</Hsp_qseq>
+      <Hsp_hseq>LTAGRQIQVEVLKHGFDFDVYVGNNLIHLYGTCKKTSDARKVFDEMTERNVVSWNSIMTALVEN</Hsp_hseq>
+      <Hsp_midline>L +G+++   +   G+ + V VGN L   YG  +  +D   + +E+ E +  +W S    L+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|206729932|sp|Q63HM2.4|PCX4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Pecanex-like protein 4; AltName: Full=Hepatitis C virus F protein-binding protein 2; Short=HCV F protein-binding protein 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q63HM2</Hit_accession>
+  <Hit_len>1172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.78216</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1025</Hsp_hit-from>
+      <Hsp_hit-to>1131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>AFDFRRMETAKKGENAP--DTKRIKETLEKFSLENMRYVGILKSGQKVSGFIEAEGYVYTVGVGNYLGQNYGRIESITDDSIILNELIEDST-GNWVSRKAELLLNSSD</Hsp_qseq>
+      <Hsp_hseq>AFRYTLKLMIDKASLGPIEDFRELIKYLEEY--ERDWYIGLVSDEKWKEAILQEKPYLFSLGYDSNMGIYTGRVLSLQELLIQVGKLNPEAVRGQWANLSWELLYATND</Hsp_hseq>
+      <Hsp_midline>AF +       K    P  D + + + LE++  E   Y+G++   +     ++ + Y++++G  + +G   GR+ S+ +  I + +L  ++  G W +   ELL  ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123549156|sp|Q2YXZ6.1|TRPA_STAAB</Hit_id>
+  <Hit_def>RecName: Full=Tryptophan synthase alpha chain [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q2YXZ6</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.48521</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GPNAFDFRRMETAKKGENAPD-----TKRIKETLEKFSLENMRYVGILKSGQKVSGFI-EAEGYVYTVGVGNYLGQN</Hsp_qseq>
+      <Hsp_hseq>GEQAFFEKCRDTGVYGLIIPDLPFELSQRLKQQFSHYGVKIISLVAMTTDDKRIKEIVSHAEGFIYTVTMNATTGQN</Hsp_hseq>
+      <Hsp_midline>G  AF  +  +T   G   PD     ++R+K+    + ++ +  V +    +++   +  AEG++YTV +    GQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|14916774|sp|O66861.1|Y603_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator aq_603 [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O66861</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.95764</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>RRMETAKKGENAPDTKRIKETLEKFSLENMRY</Hsp_qseq>
+      <Hsp_hseq>RRLLAVNQGVSFIGRKYVKEVLEKFGLRNVRF</Hsp_hseq>
+      <Hsp_midline>RR+    +G +    K +KE LEKF L N+R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

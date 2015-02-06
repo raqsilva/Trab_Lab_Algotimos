@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800598|ref|YP_207310.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0140 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>178</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800598|ref|YP_207310.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0140 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>178</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175253|sp|P44005.1|Y489_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0489 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44005</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>4.8225e-18</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SAFTSATLLPGTSEAAFALFVRNFPKHAYGAL---------LCAGLANGLGSMVSYWMGRLLPSRKMPSEKTL---NLIRRFGIWLLAFAWLPVVGDALPLTAGWLRLNPWTSGLMLVIGKTARYAFILW</Hsp_qseq>
+      <Hsp_hseq>SAFLSATVLPGNSEVIFVALA--VPKLMLGSLFNVDILALILIATAGNSLGSLTTYGIGRWMPKFDPKNYRTLWAINQLRRYGAIALLLSWLPVVGDLFCAIAGWLRLNFVTSSLFIFLGKMVRYVALLF</Hsp_hseq>
+      <Hsp_midline>SAF SAT+LPG SE  F       PK   G+L         L A   N LGS+ +Y +GR +P     + +TL   N +RR+G   L  +WLPVVGD     AGWLRLN  TS L + +GK  RY  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|83288348|sp|P0ADR0.1|YQAA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Inner membrane protein YqaA [Escherichia coli K-12] &gt;gi|83288349|sp|P0ADR1.1|YQAA_SHIFL RecName: Full=Inner membrane protein YqaA [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ADR0</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.95535e-15</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>SAFTSATLLPGTSEAAFALFVRNFPKHAYGALLCAGLANGLGSMVSYWMGRLLPSRKMP--SEKTLNLIRRFGIWLLAFAWLPVVGDALPLTAGWLRLNPWTSGLMLVIGKTARYAFI</Hsp_qseq>
+      <Hsp_hseq>SSFLSATLLPGNSEVVLVAMLLSGISHPWVLVLTATMGNSLGGLTNVILGRFFPLRKTSRWQEKATGWLKRYGAVTLLLSWMPVVGDLLCLLAGWMRISWGPVIFFLCLGKALRYVAV</Hsp_hseq>
+      <Hsp_midline>S+F SATLLPG SE      + +   H +  +L A + N LG + +  +GR  P RK     EK    ++R+G   L  +W+PVVGD L L AGW+R++       L +GK  RY  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|172046085|sp|Q0VDD8.3|DYH14_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Dynein heavy chain 14, axonemal; AltName: Full=Axonemal beta dynein heavy chain 14; AltName: Full=Ciliary dynein heavy chain 14 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q0VDD8</Hit_accession>
+  <Hit_len>3507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0357899</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>1234</Hsp_hit-from>
+      <Hsp_hit-to>1289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>CAVFLHRPPPFGGGVKIPYNPSPIFTCLGLFAMIPSYTYAA--LAFS-AFTSATLLPG</Hsp_qseq>
+      <Hsp_hseq>CAVFITMNPRYGGGVELPDNLKSLFRPVAM--MVPHYQMIAEIILFSFGFKSANSLSG</Hsp_hseq>
+      <Hsp_midline>CAVF+   P +GGGV++P N   +F  + +  M+P Y   A  + FS  F SA  L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81342806|sp|O51266.1|DEDA_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Inner membrane protein BB_0250 [Borrelia burgdorferi B31]</Hit_def>
+  <Hit_accession>O51266</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.41323</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IPSYTYAALAFS--AFTSATLLPG----TSEAAFALF--VRNFPKHAYGALLCAGLANG--LGSMVSYWMGRLLPSRKMPSEKTLNLIRRFGIW</Hsp_qseq>
+      <Hsp_hseq>IIEYIDSNIAYSPIVFFSLLILAGLNVPISEDAIVLMGGILSSRKNEYTILIFLGIFWGAYLGDIISFYIGKLMGNKLFKNKKDNNLLDKINYY</Hsp_hseq>
+      <Hsp_midline>I  Y  + +A+S   F S  +L G     SE A  L   + +  K+ Y  L+  G+  G  LG ++S+++G+L+ ++   ++K  NL+ +   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|82241816|sp|Q802U2.1|MIO_DANRE</Hit_id>
+  <Hit_def>RecName: Full=WD repeat-containing protein mio [Danio rerio]</Hit_def>
+  <Hit_accession>Q802U2</Hit_accession>
+  <Hit_len>876</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.69546</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TCLGLFAMIPSYTY----AALAFSAFTSATLLPGTSEAAFALFVRNFPKHAYGALLCAGLANG</Hsp_qseq>
+      <Hsp_hseq>TELSLYRIGPSGSSETKAGALQLSEETAATLLAINSDTPFMKCVAWYPKHEPECLLAVGHTNG</Hsp_hseq>
+      <Hsp_midline>T L L+ + PS +      AL  S  T+ATLL   S+  F   V  +PKH    LL  G  NG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|310943038|sp|C5DRL9.1|MIC27_ZYGRC</Hit_id>
+  <Hit_def>RecName: Full=MICOS complex subunit MIC27 [Zygosaccharomyces rouxii CBS 732]</Hit_def>
+  <Hit_accession>C5DRL9</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.61687</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>GAYGCAVFLHRPPPFGGGVKIPYNPSPIFTCLG-LFAMIPSYTYAALAFSAFTSATLLPGTSEAAFALFVRNFPKHAY--------GALLCAGLANGLGSMVSYWMGRL</Hsp_qseq>
+      <Hsp_hseq>GAFFCGRVLTNKNNWGYRSIVNRNPS----ILGRLLTSLPSRTVLPLALAGVVFNQLTPGTAKNACHTFERDFLSESFVQEYHRIWDQLYVQGIKQGSGQIGETFQNSL</Hsp_hseq>
+      <Hsp_midline>GA+ C   L     +G    +  NPS     LG L   +PS T   LA +      L PGT++ A   F R+F   ++          L   G+  G G +   +   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|254789133|sp|B1WPL5.1|TRMD_CYAA5</Hit_id>
+  <Hit_def>RecName: Full=tRNA (guanine-N(1)-)-methyltransferase; AltName: Full=M1G-methyltransferase; AltName: Full=tRNA [GM37] methyltransferase [Cyanothece sp. ATCC 51142]</Hit_def>
+  <Hit_accession>B1WPL5</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.11951</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>PFGGGVKIPYNPSPIFTCLGLFAMIPSYTYAALAFSAFTSATLLPGTSEAAFALFVRNFPKHAYGALLCAGLANGLGSMVSYWMGRLLPSRKMPSEKTLNLIRRFGIWLLAFAWLPVVGDALPLTAGWLRLNPWTSG</Hsp_qseq>
+      <Hsp_hseq>PYGGGVGMVLKPEPIFAAVNSVHRLPS-----------TQVILLTPQGSPLTQTTLQDLSTNYQQLILICGHYEGVDERIRYLADREIS---------------LGDFILTCGEIP----ALALINGVVRLLPGTVG</Hsp_hseq>
+      <Hsp_midline>P+GGGV +   P PIF  +     +PS           T   LL           +++   +    +L  G   G+   + Y   R +                 G ++L    +P    AL L  G +RL P T G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81803372|sp|Q8PM34.1|KMO_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Kynurenine 3-monooxygenase; AltName: Full=Kynurenine 3-hydroxylase [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PM34</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.66946</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PPPFGGGVKIPYN-----PSPIFTCLGLFAMIPSYTYAALAFSAFTSATLLPGTSEAAFALFVRNFPK</Hsp_qseq>
+      <Hsp_hseq>PPQPGGGFRIEGNALHIWPRGRYMCIALPNDGGTFTVTLFLPNAGEPSFATTRTGDEAFALFARDFPD</Hsp_hseq>
+      <Hsp_midline>PP  GGG +I  N     P   + C+ L     ++T      +A   +     T + AFALF R+FP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1050 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800625|ref|YP_207337.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>ABC transporter permease [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>275</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800625|ref|YP_207337.1|</Iteration_query-ID>
+  <Iteration_query-def>ABC transporter permease [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>275</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|401551|sp|P31309.1|P29K_STRPA</Hit_id>
+  <Hit_def>RecName: Full=29 kDa membrane protein in fimA 5&apos;region; AltName: Full=ORF1 [Streptococcus parasanguinis]</Hit_def>
+  <Hit_accession>P31309</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>3.78612e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNHR</Hsp_qseq>
+      <Hsp_hseq>LQNALITAIAIGIVAGAVGCFIILRGMSLMGDAISHAVLPGVALSFIL-GINFF---IGAIVFGLLASILITYIKSNSIIKSDTAIGITFSSFLALGVILIGVAKSSTDLFHILFGNILAVQDQDMWMTIGVGVTVLLVICLLFRPLLLTSFDPVLAQSMGVRVKIYHYLLMVLLTLVSVTAMQSVGTILIVAMLITPAATAYLYANSLWSMMLLSSSLGALASILGLFIGYSLNIAVGSCIVLTSAVFFLISFF------IAPKQRKNKH</Hsp_hseq>
+      <Hsp_midline>+  AL +   + + A  VG F+++R MSL+GDA+SHAVLPG A+ ++  G++     +G    G+L ++L   +   + +K D      + S LA+GVILI    SS DL H+LFG++LAV    + +   V    L+ + +++RPL+L S DP+  +S+  +  ++H + ++L+ +  V+  Q++G ++ V +++ PA TA L+A ++ +++LLS  +     ++GL I Y + I  G  I+L  +V +L S        I PK  KN  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1171961|sp|P42361.1|P29K_STRGN</Hit_id>
+  <Hit_def>RecName: Full=29 kDa membrane protein in scaA 5&apos;region; AltName: Full=ORF2 [Streptococcus gordonii]</Hit_def>
+  <Hit_accession>P42361</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>7.83354e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRF----TTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFK</Hsp_qseq>
+      <Hsp_hseq>LQNALITAIVIGVVAGAVGCFIILRGMSLMGDAISHAVLPGVALSFI--------LGINFFIGAITFGLLASIIITYIKGNSIIKSDTAIGITFSSFLALGIILISVAKSSTDLFHILFGNILAVQDLDMWISIGVGILVLLVISIFFKQLLLTSFDPLLAQAMGMKVNFYHYLLMILLTLVSVTAMQSVGTILIVAMLITPAATAYLYAKSLKTMILLSSALGAGASVLGLFIGYSFNVAAGSSIVLTSALIFLVSFFIAPKQRYLKRKVK</Hsp_hseq>
+      <Hsp_midline>+  AL +   + + A  VG F+++R MSL+GDA+SHAVLPG A+ ++        +G+  F   +   LLA ++  +    + +K D      + S LA+G+ILIS   SS DL H+LFG++LAV    + +   V  L L+ +++ ++ L+L S DPL  +++  K   +H + +IL+ +  V+  Q++G ++ V +++ PA TA L+A+++ T+ILLS  +     ++GL I Y   + +G +I+L  ++++L S  +  +   L +  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20455070|sp|Q9KD29.1|MNTC_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system membrane protein MntC [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KD29</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>8.86635e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILIS-KNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNHR</Hsp_qseq>
+      <Hsp_hseq>LQQALTAAILVGIICGVIGCFIILRGMALMGDAISHAVLPGVVIAYMIGA----SFFIGAVITGVITALAIGYVSQNSRVKEDSAIGILFTAAFALGIVLITGMRGTGVDLWHILFGNVLAVSRTDLWVTLGIGLFVLLIIILFYRPLLLSTFDPVMAQATGIPVQMIHYLLMLLLSLVTVAALQTVGIVLVVAMLITPGATAYLLTNRLPVMLCLAAMFGVISAIAGIYFSVIYDVASGASIVLVASTLFALAFFFSPKQGVLTRYWRGKR</Hsp_hseq>
+      <Hsp_midline>+  AL +   + +    +G F+++R M+L+GDA+SHAVLPG  + YM       +  +G    G++ AL  G VS+ + +KED+     + ++ A+G++LI+   G+ VDL H+LFG+VLAV    L +   +    L+ + + YRPL+L + DP+  ++      + H + ++L+ +  V+  Q +GI++ V +++ P  TA L    +  ++ L+ +  +   + G+  S   ++ SG +I+L  S L+  +     + G+L ++++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20455062|sp|Q92AG0.1|MNTC_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system membrane protein MntC [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92AG0</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>3.02617e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGIL</Hsp_qseq>
+      <Hsp_hseq>LQKALITSVTVGIVSGVIGSFIILRGMSLMGDAISHAVLPGVAISYMM-GMNFF---IGAATFGIAAALGIGFVNQKSRIKNDTAIGIVFSAFFALGIILISFAKSSTDLYHILFGNVLAVRSSDMWMTIIIAILVISLVAIFYKEFLVSSFDPVMAEAYGLNVRFLHYFLMLLLTLVTVSALQTVGIILVVAMLITPAATAYLLTNKLSKMIMLASTFGAVSAIIGLYFSYIFNLASGAAMVLVATIIFFIAFLFAPKQGLL</Hsp_hseq>
+      <Hsp_midline>+  AL +   + + +  +G F+++R MSL+GDA+SHAVLPG A+ YM  G++     +G    G+  AL  G V++ + +K D      + +  A+G+ILIS   SS DL H+LFG+VLAV    + +   ++ L +  +A+ Y+  ++ S DP+  ++        H   ++L+ +  VS  Q +GI++ V +++ PA TA L    +  +I+L+        +IGL  SY   + SG A++L  ++++  + +   + G+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|20455053|sp|Q8Y652.1|MNTC_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system membrane protein MntC [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y652</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.49563e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNHRH</Hsp_qseq>
+      <Hsp_hseq>LQKALITSVTVGIVSGVIGSFIILRGMSLMGDAISHAVLPGVAISYMM-GMNFF---IGAATFGIAAALGIGFVNQKSRIKNDTAIGIVFSAFFALGIILISFAKSSTDLYHILFGNVLAVRSSDMWMTIIIAIIVISLVALFYKEFLVSSFDPVMAEAYGLNVKFLHYFLMLLLTLVTVSALQTVGIILVVAMLITPAATAYLLTNKLSKMIVLASTFGAVSAIIGLYFSYIFNLASGAAMVLVATIIFFIAFLFAPKQGLL---FSKKRE</Hsp_hseq>
+      <Hsp_midline>+  AL +   + + +  +G F+++R MSL+GDA+SHAVLPG A+ YM  G++     +G    G+  AL  G V++ + +K D      + +  A+G+ILIS   SS DL H+LFG+VLAV    + +   ++ + +  +A+ Y+  ++ S DP+  ++        H   ++L+ +  VS  Q +GI++ V +++ PA TA L    +  +I+L+        +IGL  SY   + SG A++L  ++++  + +   + G+L   F   R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1171962|sp|P42362.1|P29K_STREE</Hit_id>
+  <Hit_def>RecName: Full=29 kDa membrane protein in psaA 5&apos;region; AltName: Full=ORF1 [Streptococcus pneumoniae]</Hit_def>
+  <Hit_accession>P42362</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>7.0998e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNHR</Hsp_qseq>
+      <Hsp_hseq>LQNALITAIAIGIVAGAVGCFIILRGMSLMGDAISHAVLPGVALSFIL-GINF---FIGAIAFGLLASILITYIKSNSIIKSDTAMGYLSLPRPRSHSDRVAK--SSTDLFHILFGNILAVQDQDMWVTIGVGVAVLLVIVLLFRPLLLTSFDPVLAQSMGVRVKLYHYLLMVLLTLVSVTAMQSVGTILIAAMLITPAATAYLYANSLWSMMLLSSGLGALASILGLFIGYSFNIAVGSCIVLTSAIFFLISFF------IAPKQRKNKH</Hsp_hseq>
+      <Hsp_midline>+  AL +   + + A  VG F+++R MSL+GDA+SHAVLPG A+ ++  G++     +G  A G+L ++L   +   + +K D       L         ++K  SS DL H+LFG++LAV    + +   V    L+ + +++RPL+L S DP+  +S+  +  L+H + ++L+ +  V+  Q++G ++   +++ PA TA L+A ++ +++LLS  +     ++GL I Y   I  G  I+L  ++ +L S        I PK  KN  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1351805|sp|P31606.2|YCXC_CYAPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized membrane protein in ycf23-apcF intergenic region; AltName: Full=ORF299 [Cyanophora paradoxa]</Hit_def>
+  <Hit_accession>P31606</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.0083e-27</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>SLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILIS--KNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCS</Hsp_qseq>
+      <Hsp_hseq>ALLAGIVGSFLMLQRLTLLSDAISHSVLPGLAIAFSFG---IPLI-FGALLASIISVIIINWIRTESRLKEDTAIGIVFASFFGLGILLISVIQKENKVDLNHFLFGNILGITSEDLQNTSIILAIILLFFISCYRQLKCYTFDPIMAQTIGLPINFLQSTFLILVALTIIVSMKAIGVILVLALLVTPGATGLLIGKSLEYVILTSSIIGVSCSFSGMLLSYLFNIPPGPTIVLITS</Hsp_hseq>
+      <Hsp_midline>+L A  VG FL+++R++L+ DA+SH+VLPG A+ + F    +P +  G   A ++  ++   +   + LKED      + S   +G++LIS  +  + VDL H LFG++L +    LQ  + +  + L+     YR L   + DP+  +++          FLILV + ++   +A+G+++ + L++ P  T  L  +++  +IL S +I + C   G+L+SY   IP GP I+L  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1175230|sp|P44660.1|Y359_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable iron transport system membrane protein HI_0359 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44660</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>2.108e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGK</Hsp_qseq>
+      <Hsp_hseq>MQNALLTALIVSIICALLSCYLVLKGWSLMGDAISHAVLPGIVLAYL-AGIPL---AIGAFFSGIFCSLGVGYLKENSRIKEDTAMGIVFSGMFAIGLVMFTKIQTEEHLTHILFGNVLGVSHQELIQSAVISAIIFCLIVFKRKDFLLYCFDPSHARVAGLSPKILHYGLLILLALTIVSTMQVVGVILVVAMLIAPGITALTLTKSFDKMLWVAIASSIASSLIGVILSYHFDASTGACIILLQAAFFVIALAYSK</Hsp_hseq>
+      <Hsp_midline>M  AL +   +S+  A +  +LV++  SL+GDA+SHAVLPG  + Y+ AG+ L    +G F +G+  +L  G +   + +KED      +    AIG+++ +K  +   L H+LFG+VL V    L   A +S +    +    +  +L   DP   +       + H   LIL+ + +VS  Q +G+++ V +++ P ITA    ++   ++ +++  ++   LIG+++SYH +  +G  IIL  +  ++ ++   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|17380574|sp|Q56955.2|YFED_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Chelated iron transport system membrane protein YfeD [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q56955</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>3.64049e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVI</Hsp_qseq>
+      <Hsp_hseq>MQRAIVAAIVTGVVCAILSCYLVLKGWSLMGDAISHAVLPGIVLAFW---LGIP-LVIGAFVSGIFCAVATGYLKENSRVKEDTVMGIVFSGMFAFGLVLFSRIDTDQHLSHILFGNMLGISLTELKQTLWIAGFTLLVVLLKRKDFMLYCFDPNHARVIGLPVKFLHYGLLCLLALTIVASLQAVGVILVIAMLIAPGIIAFMICRSFDQMLVVATLVSVVACVLGTLISFHIDGATGPCIVIIQALFFVVALI</Hsp_hseq>
+      <Hsp_midline>M  A+ +     +  A +  +LV++  SL+GDA+SHAVLPG  + +    L +P + +G F +G+  A+  G +   + +KED      +    A G++L S+  +   L H+LFG++L + +  L+    ++G TL+ + +  +  +L   DP   + +       H   L L+ + +V+  QA+G+++ + +++ P I A +  R+   +++++ L+++   ++G LIS+HI+  +GP I++  ++ ++ ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2501365|sp|Q55282.1|MNTB_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system membrane protein MntB [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55282</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.00127e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>LSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGIL-PKWFKN</Hsp_qseq>
+      <Hsp_hseq>LVCAVLSCYITLKGWSLMGDAISHAVVPGVVLAY---ALNIP-FAIGAFTFGFGATVAIGYVKSKTRLKEDAVIGIVFTGFFALGLVLVTKIPSNVDLFHILFGNVLGISQQDIIQTLIAGSITLIVILLRRKDLLLFCFDPNHAKAIGLRTQVMYYTLLSVLALTIVAALQTAGIILVISMLVTPGSIGYLLSDRFDHMLWYSVVSSVLSCVLGTYLSYHFDVSTGGMIVVILTTLFVIAMIGAPKYGILAQEWRKR</Hsp_hseq>
+      <Hsp_midline>L  A +  ++ ++  SL+GDA+SHAV+PG  + Y    L++P   +G F  G    +  G V   T LKEDA     +    A+G++L++K  S+VDL H+LFG+VL +    +        +TLI + +  + L+L   DP   K++  +  + +   L ++ + +V+  Q  GI++ + +++ P     L +     ++  SV+ ++   ++G  +SYH ++ +G  I++  + L++ ++I   + GIL  +W K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|14916933|sp|O35024.1|MNTC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system membrane protein MntC [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O35024</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>8.34138e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>HYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGL-SLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISK-----NGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIE-IPSGPAIILCCSVLYLFSVILGKEGGILPK</Hsp_qseq>
+      <Hsp_hseq>QWVLAGTLLLGTASGVLGSFVLLRKQSLIGDAMAHSALPGVCLAFLFTGQKSLPFFLLGAALAGLLGTFCIQLIPRLSKTKEDSAIGIVLSVFFGVGIILLTYIQQQGAGSQSGLDSFLFGQAASLVRQDIILIAGISAVLLLLCIVFFKEFTLITFDLAFAKGLGIPVRFLNGLLACLIVCAVVIGLQTVGVILMAAMLITPAITARYWTERLTGMIIIAGITGGVSGVAGTLLSTTMKGMATGPLMILSATLLFLFSMICAPKRGLAAK</Hsp_hseq>
+      <Hsp_midline> + LA    L  ++  +G F+++R+ SLIGDA++H+ LPG  + ++F G  SLP   +G   AG+L      L+ R +  KED+           +G+IL++       GS   L   LFG   ++    + LIA +S + L+   V ++   L + D  F K +       + +   L+V  +V G Q +G+++   +++ PAITAR W   +  +I+++ +     G+ G L+S  ++ + +GP +IL  ++L+LFS+I   + G+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1175231|sp|P44661.1|Y360_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable iron transport system membrane protein HI_0360 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44661</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.60872e-21</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>FLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNHRH</Hsp_qseq>
+      <Hsp_hseq>YLMLKGWSLIGDALSHSVVPGVAIAYAFA---LP-YALGAFFAGILAALSILWIKSISKLKEDAVIGFIFSTFFALGLLIVSLNPTAVNVQNIILGNILGIADEDIYQVAIIIGVCLVLLLLFWKDLLLIFFDETQAITVGLSPLFYKILFFTLLSACVVAALQTVGAILVIAMVVTPGATAYLLTDKFKTLSIIAIILGAVTSFVGVYISYYLDGATGGVIVTLQTLLFLVAFLFSPKYGLLTRNKKAVEN</Hsp_hseq>
+      <Hsp_midline>+L+++  SLIGDALSH+V+PG A+ Y FA   LP   +G F AG+L AL    +   + LKEDA     + +  A+G++++S N ++V++ +++ G++L +    +  +A + G+ L+ L + ++ L+L   D     +V      + ++F  L+   +V+  Q +G ++ + +++ P  TA L      TL ++++++      +G+ ISY+++  +G  I+   ++L+L + +   + G+L +  K   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2501368|sp|P73087.1|Y2045_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized membrane protein slr2045 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P73087</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.00044e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILIS-KNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLI-LLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFS</Hsp_qseq>
+      <Hsp_hseq>MQNAIVASLLVSLACGLIGSFIVINRMVFISGGVAHAAYGGIGLGYYFAFNPLW----GAFVFSLVMALAMGWVARKYQQRSDTLIGVMWALGMAIGIMLIDLTKGYKADVASYLFGSILTVPRQELWLMAGLDMLIIILLFLLYKEFLAISFDPVYATTRNLPVDILYLTLVAAIALTVVMVMQLVGLIMVIALLSIPAAIAGQYVRDVPQMMAVASGLGMVFCG-VGLALSYSFNLSSGATIILVASIAYLIS</Hsp_hseq>
+      <Hsp_midline>M  A+ +   +SL+   +G F+V+ RM  I   ++HA   G  +GY FA   L     G F   ++MAL  G V+R    + D      +   +AIG++LI    G   D+   LFGS+L V    L L+A +  L +I L ++Y+  +  S DP++  + N    + ++  +  + + +V   Q +G++M + L+ +PA  A  + R++  ++ + S L  +FCG +GL +SY   + SG  IIL  S+ YL S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2501366|sp|Q56954.1|YFEC_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Chelated iron transport system membrane protein YfeC [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q56954</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>9.27249e-20</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>ALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAV---DIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNH--RHH</Hsp_qseq>
+      <Hsp_hseq>AIVGAVCAFLSA-----YLMLKGWSLMGDALSHSVVPGVAGAY---ALGFP-YAAGAFFTGMLAALAMTLVRHITRLREDAIIGFIFSTFFAVGLLIVSLNPTSVNVQSIIFGNILGIADEDVLQVEIIILVS---FVILCLIWKDLLAVFFDESHAMSIGLSPLRLKILFFTLLSACTVAALQTVGAILVIAMVVTPGATAYLLTDRFGRLLIIAIAIGAITSAFGAYLSFYLDGATGGVIVTLQTLVFLPAFFFAPKHGLLATRYRTRLKRRH</Hsp_hseq>
+      <Hsp_midline>A+    C  LSA     +L+++  SL+GDALSH+V+PG A  Y    L  P    G F  GML AL   LV   T L+EDA     + +  A+G++++S N +SV++  ++FG++L +   D+  +++I  VS    + L +I++ L+    D     S+        ++F  L+    V+  Q +G ++ + +++ P  TA L     G L+++++ I       G  +S++++  +G  I+   ++++L +     + G+L   ++    R H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1175840|sp|P44691.1|ZNUB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=High-affinity zinc uptake system membrane protein ZnuB [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44691</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>4.97109e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>ALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYL------SSLAIGVILISK-NGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLF--LKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFS</Hsp_qseq>
+      <Hsp_hseq>ALLTGIVLSLITAPLGVFVVWRKMAYFGDTLSHSALLGVALGIF--------LQVNPYIAIVVLTLILAIAMVW--LESNTQFSIDTLLGIIAHSCLSLGVVTVGLLRNVRVDLMNYLFGDLLAINYTDLIYIGIGVIIVLSTLIYFWQSLLSTTVSPELAQVEGINIKKM--RFILMILTALTIALSMKFVGALIITSLLIIPAATARRFARTPESMVGWAIIMSMLSIIGGLILSAFYDTAAGPSVVICSAFLFVLS</Hsp_hseq>
+      <Hsp_midline>AL +   LSL  AP+GVF+V R+M+  GD LSH+ L G A+G          + V  + A +++ L+  +   +  L+ +  F+   L      S L++GV+ +       VDL++ LFG +LA++   L  I     + L TL   ++ L+  ++ P    ++ +N K      I +IL  + +    + +G L+   L+++PA TAR +AR   +++  ++++++   + GL++S   +  +GP++++C + L++ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2507486|sp|P39832.3|ZNUB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=High-affinity zinc uptake system membrane protein ZnuB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P39832</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.07271e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALL--AGLV--SRFTTLKEDANFAAFYLSSLAIGVILIS-KNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSG--FQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVI</Hsp_qseq>
+      <Hsp_hseq>LACAAGPLGSFVVWRRMSYFGDTLAHASLLGVAFGLL--------LDVNPFYAVIAVTLLLAGGLVWLEKRPQLAIDTLLGIMAHSALSLGLVVVSLMSNIRVDLMAYLFGDLLAVTPEDLISIAIGVVIVVAILFWQWRNLLSMTISP-DLAFVDGVK-LQRVKLLLMLVTALTIGVAMKFVGALIITSLLIIPAATARRFARTPEQMAGVAVLVGMVAVTGGLTFSAVYDTPAGPSVVLCAALLFILSMM</Hsp_hseq>
+      <Hsp_midline>L+ +A P+G F+V RRMS  GD L+HA L G A G +        + V  F A + + LL   GLV   +   L  D        S+L++G++++S  +   VDL+  LFG +LAV    L  IA    + +  L   +R L+  +I P  L  V+G   L  V  L+++V  L  G   + +G L+   L+++PA TAR +AR    +  ++VL+ +     GL  S   + P+GP+++LC ++L++ S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|20455043|sp|O34500.1|MNTD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system membrane protein MntD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34500</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>3.83582e-15</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>LSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAG-LSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSV--DLLHLLFG----------SVLAVDI--PALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKN</Hsp_qseq>
+      <Hsp_hseq>VSCGLIGTFLVLRSMAMLADAISHTVLLGIVGAFLVTGSLDGIYMFIGAAATGLLTAFLVQLLHS-KGVQSDAAIGVVFTSLFAIGVILLSVYGANVHLDIEHSLMGEIAFVPWNTVTVFGVDIGPKAFWMLASVLVLNVVLISVCYKEFKIASFDPQMALALGIPVLLIHYVQMGMLSLTTVASFDSVGAVLVVAMLIVPPAAAHLLTDRLLYMLILSALIGGLSAVMGYFFATWLNVSISGAMAAMTGVCYASAFLFSPANGVITKKLRT</Hsp_hseq>
+      <Hsp_midline>+S   +G FLV+R M+++ DA+SH VL G    ++  G L    M +G  A G+L A L  L+     ++ DA     + S  AIGVIL+S  G++V  D+ H L G          +V  VDI   A  ++A+V  L ++ ++V Y+   + S DP    ++     L H + + ++ +  V+ F ++G ++ V ++++P   A L    +  +++LS LI     ++G   +  + +    A+     V Y  + +     G++ K  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|14195465|sp|Q9PJX8.1|Y698_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein TC_0698 [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PJX8</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.37675e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>ALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVG-YMFAGLSLPAMGV-GGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGS-SVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKE</Hsp_qseq>
+      <Hsp_hseq>SLLAAFGASIAGGIVGSYIVVKRIVSISGSIAHSILGGVGIALWLQYQFDLPISPLHGAIASAIFVAICIGNVHLKYHEREDSIISMIWSIGMAVGMLCISKLPSFNSDLADFLFGNILWVTSRDLYFLGILDLLIVATVSICHTRFLALCFDEKYMALNRYSIKAWYFLLLILTAITTVVLMYVMGVILMLSMLVLPVSIACRFSYKMSSIIFTASILNICCSFLGIILAYILDLPVGPIIAILMGIAYSLSLLLKRS</Hsp_hseq>
+      <Hsp_midline>+L + F  S++   VG ++V++R+  I  +++H++L G  +  ++     LP   + G  A+ + +A+  G V      +ED+  +  +   +A+G++ ISK  S + DL   LFG++L V    L  +  +  L + T+++ +   +    D  ++         W+ + LIL  +  V     +G+++ + +++LP   A  ++  M ++I  + ++ + C  +G++++Y +++P GP I +   + Y  S++L + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|14195490|sp|Q9Z809.1|Y543_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein CPn_0543/CP_0209/CPj0543/CpB0565 [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z809</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.98279e-12</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>SLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFA---GLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISK----NGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKE</Hsp_qseq>
+      <Hsp_hseq>SVAGGVMGTYIVVKRIVSISGSISHAILGGIGLTLWIQYKLHLSFFPM-YGAIVGAIFLALCIGKIHLKYQEREDSLIAMIWSVGMAIGIIFISRLPTFNG---ELINFLFGNILWVTPSDLYSLGIFDLLVLGIVVLCHTRFLALCFDERYTALNHCSVQLWYFLLLVLTAITIVMLIYVMGTILMLSMLVLPVAIACRFSYKMTRIMFISVLLNILCSFSGICIAYCLDFPVGPTISLLMGLGYTASLCVKKR</Hsp_hseq>
+      <Hsp_midline>S++   +G ++V++R+  I  ++SHA+L G  +         LS   M  G     + +AL  G +      +ED+  A  +   +AIG+I IS+    NG   +L++ LFG++L V    L  +     L L  + + +   +    D  +    +    LW+ + L+L  + +V     +G ++ + +++LP   A  ++  M  ++ +SVL+ + C   G+ I+Y ++ P GP I L   + Y  S+ + K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|25091744|sp|Q8K9M7.1|ZNUB_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=High-affinity zinc uptake system membrane protein ZnuB [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9M7</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.42026e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSS--VDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVS-GFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVI</Hsp_qseq>
+      <Hsp_hseq>LSFATGPLGSFIIWRRISSFGDTLSHSSILGLAISILF---QIDSFYTELFFMSFLAIILVWM-EQLLSVSLETILSIISHSSLSLGIICISLMSTSHHIDLSNYLFGDLLLVTVFDLCIIALGSLIVLTILFFRWNSILLLTVNEE-LAQIDGVNIFYARLTLMLTTAICISIAIKFVGVLLITSLLIIPPATAQIFSNSPEKTIGFSILISIISVTGGIFLSFFYNVPTSPSIVLFSSCVYLLSNI</Hsp_hseq>
+      <Hsp_midline>LS +  P+G F++ RR+S  GD LSH+ + G A+  +F    + +     F    L  +L  +  +  ++  +   +    SSL++G+I IS   +S  +DL + LFG +L V +  L +IA  S + L  L   +  ++L +++   L  ++G    +  + L+L     +S   + +G+L+   L+++P  TA++++ +    I  S+LI++     G+ +S+   +P+ P+I+L  S +YL S I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|14195325|sp|O84072.1|Y069_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein CT_069 [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84072</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.42513e-11</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVG-------GFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLH-----LLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISY-------------HIEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNH</Hsp_qseq>
+      <Hsp_hseq>ICMTTALWGTILLVERQPLLSESLSHACYPGLLIGALLS-YKVPAFSDSLWVIIFFGCLASVLGCLGISFLEKKLAMHKDSALCLVLVSFFGVGVILVSYVKDCCPLLYNKINAYLYGQAATLGYTEAKLALIIFCLSAVVLWWWYRQISVAIFDREFAYSCGLRTRTAELVVLVFISLVIVSGVRSVGILLISAMFVAPPLSARQLSDRLSTILILSSIFGGICGALGCYFSVAFTCQTVVEGKPISIILPTGPLVVFFAGVLVFLCLIFSWKTGWITRYFRRK</Hsp_hseq>
+      <Hsp_midline>+ ++ A  G  L++ R  L+ ++LSHA  PG  +G + +   +PA           G  A +L  L    + +   + +D+      +S   +GVIL+S       LL+      L+G    +     +L   +  L+ + L   YR + +   D  F  S   +     ++ L+ + + +VSG +++GIL+   + + P ++AR  +  + T+++LS +    CG +G   S               I +P+GP ++    VL    +I   + G + ++F+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|14195417|sp|Q9WXX9.1|Y125_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein TM_0125 [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9WXX9</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>3.6968e-11</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>LVMRRMSLIGDALSHAVLPG-AAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGS-SVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYR-PLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYL</Hsp_qseq>
+      <Hsp_hseq>VVFRRMEFIGDGTAHAVFAGLAAATLIGADHRLIA-----FATALLFAFAVSLFSR-SRISESSAIGILLPFFMAVGVVLFSVSGRYQTDVMGYLFGDVLLVNSTDVAITAVVLALSVI-LTVVFRWDIKYFIVDEKMARFYGIKTDLIRFLITSFIAITVVTTVKVVGVILTGALLILPGLVSKIFGKSFWSLTTISVIFSTGVFFAGFLTAYTLDLPPGPVIVIIAFVSFL</Hsp_hseq>
+      <Hsp_midline>+V RRM  IGD  +HAV  G AA   + A   L A     FA  +L A    L SR + + E +         +A+GV+L S +G    D++  LFG VL V+   + + A V  L++I L V++R  +    +D    +    K  L   +    + + +V+  + +G++++  L++LP + ++++ ++  +L  +SV+ +      G L +Y +++P GP I++   V +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|14195438|sp|O84422.1|Y417_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein CT_417 [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84422</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.97967e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>ALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVG-YMFAGLSLPAMGV-GGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGS-SVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKE</Hsp_qseq>
+      <Hsp_hseq>SLLAAFGASIAAGIIGSYIVVKRIVSISGSIAHSILGGVGIALWLQYQFNLPISPLHGAIASAIFVAICIGNVHLKYHEREDSIISMIWSIGMAIGIICISKLPSFNSELSDFLFGNILWVTPQDLYFLGILDLFIVATVSICHTRFLALCFDEKYMALNHYSIKTWYLLLLILTAITTVVLMYVMGVILMLSMLVLPVSIACRFSYKMSHIIYIASILNIVCSFLGIMLAYLLDLPVGPVIAILMGGAYSLSLLLKRS</Hsp_hseq>
+      <Hsp_midline>+L + F  S++A  +G ++V++R+  I  +++H++L G  +  ++    +LP   + G  A+ + +A+  G V      +ED+  +  +   +AIG+I ISK  S + +L   LFG++L V    L  +  +    + T+++ +   +    D  ++   +     W+++ LIL  +  V     +G+++ + +++LP   A  ++  M  +I ++ ++ + C  +G++++Y +++P GP I +     Y  S++L + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|11387288|sp|P57402.1|ZNUB_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=High-affinity zinc uptake system membrane protein ZnuB [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57402</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.32427e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLM----ALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILIS--KNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLW-HVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVI</Hsp_qseq>
+      <Hsp_hseq>LSLTTGPLGSFIVWRRMSSFGDTLSHSSLLGIALSIAF--------NINSFYAILILMSFIAIILAWLEELLPVSLDTVLNIISHSSLSLGMVFISLISSKKEINITNYLFGDLLSVTKNDLITISISSILILSILLFRWHSILSSTINEE-LSQIDGINVLYARLTIMLMTAFTIAIAIKFVGALLITSLLIIPPATAQHFSGSPEKMVIIAIIVSILSVTGGISLSVFYNTPASPSIVLCSSFLCLISNI</Hsp_hseq>
+      <Hsp_midline>LSL+  P+G F+V RRMS  GD LSH+ L G A+   F         +  F A +++    A++   +     +  D        SSL++G++ IS   +   +++ + LFG +L+V    L  I+  S L L  L   +  ++  +I+   L  ++G   L+  +  +++    +    + +G L+   L+++P  TA+ ++ +   ++++++++++     G+ +S     P+ P+I+LC S L L S I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|46397189|sp|Q89AJ1.1|ZNUB_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=High-affinity zinc uptake system membrane protein ZnuB [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AJ1</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.88367e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLV----SRFTTLKEDANFAAFYLSSLAIGVILISK--NGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLW-HVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFS</Hsp_qseq>
+      <Hsp_hseq>LTTITGPLGLFIIWRRMSSFGDTLSHSSLLGIS----FAVL----LNIHPFFMVIITILLFGMLIIWLNYTTVLSLDTILGIIGYSFLSLGMIIINSISNFQKNKLTNYLFGNLLEVTYIDI-VILIISCVSILFVLVWYWDLMLLTTINSDLAKIDGVNVLKINSILIFLITLTIGIAIKFIGSLIAISLLIIPAATAQRFSTSPEKMAFFSVIIGIISITWGILMSVYYNLAISPTIVFCSSIVFVIS</Hsp_hseq>
+      <Hsp_midline>L+    P+G+F++ RRMS  GD LSH+ L G +    FA L    + +  F   ++  LL G++    +  T L  D        S L++G+I+I+   N     L + LFG++L V    + +I  +S ++++ + V Y  L+L +     L  ++G   L  + I + L+ + +    + +G L+++ L+++PA TA+ ++ +   +   SV+I +     G+L+S +  +   P I+ C S++++ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|14195339|sp|Q9PKX0.1|Y341_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein TC_0341 [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PKX0</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>6.68049e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFA------GLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLH-----LLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYH-------------IEIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNH</Hsp_qseq>
+      <Hsp_hseq>ICMTTALWGTILLVERRPLLSESLSHACYPGLLIGALLSYKVPLFSDSLWIIILCGCAASILGCLCIAFLEKKLAMHKDSALCLILVSFFGVGVILVSYVKDSCPLLYNKINAYLYGQAATLGYAEARLALIIFCLSAFVLWWWYRQISVAIFDREFAYSCGLRTRTAEMIVLVFISLVIVSGVRSVGILLISAMFVAPPLSARQLSDKLSSILILSSIFGGICGALGCYFSVAFTCQSIIEGKATVIVLPTGPLVVFFAGVLVFLCLIFSWKTGWITRYIRRK</Hsp_hseq>
+      <Hsp_midline>+ ++ A  G  L++ R  L+ ++LSHA  PG  +G + +        SL  + + G AA +L  L    + +   + +D+      +S   +GVIL+S    S  LL+      L+G    +     +L   +  L+   L   YR + +   D  F  S   +     +I L+ + + +VSG +++GIL+   + + P ++AR  +  + ++++LS +    CG +G   S               I +P+GP ++    VL    +I   + G + ++ +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|14195422|sp|Q9Z8J6.1|Y347_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein CPn_0347/CP_0413/CPj0347/CpB0354 [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z8J6</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.85049e-08</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAG--LSLPA----MGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLH-----LLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISY</Hsp_qseq>
+      <Hsp_hseq>ICMTTALWGTILLISKQPLLSESLSHASYPGLLVGALMAQYVFSLQASIFWIVLFGCAASVFGYGIIVFLGKVCKLHKDSALCFVLVVFFAIGVILASYVKESSPTLYNRINAYLYGQAATLGFLEATLAAIVFCASLFALWWWYRQIVVTTFDKDFAVTCGLKTVLYEALSLIFISLVIVSGVRSVGIVLISAMFVAPSLGARQLSDRLSTILILS---AFFGGISGALGSY</Hsp_hseq>
+      <Hsp_midline>+ ++ A  G  L++ +  L+ ++LSHA  PG  VG + A    SL A    + + G AA +    +   + +   L +D+      +   AIGVIL S    S   L+      L+G    +      L A V   +L  L   YR +V+ + D  F  +   K  L+  + LI + + +VSG +++GI++   + + P++ AR  +  + T+++LS   A F G+ G L SY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|14195268|sp|P96119.1|TROD_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Zinc transport system membrane protein TroD [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>P96119</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.51893e-08</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>GVFLVMRRMSLIGDALSHAVLPGAAVGYMFA-GLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSV--DLLHLLFGSV----------LAVDIP-ALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLP</Hsp_qseq>
+      <Hsp_hseq>GVFLVLRRISLMSDAISHSVILGIVLGYFLSRTLSSFVPFVGAVIAGICSVICAELLQKTGMVKSDAAVGLVFPAMFGLGVILVSLYAGNVHLDTDAVLLGEIGLAPLDRVSFFAWSLPRSLVQMGSVLCGLLLLLALFFKELKISTFDPVLATSLGFSPTLINYGLMLAVSITCVGAFDSVGAVLVIALMITP</Hsp_hseq>
+      <Hsp_midline>GVFLV+RR+SL+ DA+SH+V+ G  +GY  +  LS     VG   AG+   + A L+ +   +K DA     + +   +GVIL+S    +V  D   +L G +           A  +P +L  + +V    L+ LA+ ++ L + + DP+   S+     L +   ++ V +  V  F ++G ++ + LM+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|81669143|sp|O34610.1|ZNUB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=High-affinity zinc uptake system membrane protein ZnuB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34610</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>3.29045e-08</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>APV-GVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILIS--KNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPA</Hsp_qseq>
+      <Hsp_hseq>APILGVYLVLRRQALMADTLSHISLSGVAIGF-FLSTNITAASIVVVTIG---AIGIEYMRRAYRTYSEVSIAILMAAGLSFAMFLISLSKGTANMSIDQYLFGSLVTVNQQQVYIISIITLLILLYFIVLRRPLYLLTFDEATAKTSGINTNVLSLSFSIVTGLAISVIIPIIGVLLVSALLVLPAAFAIRIAKGFNMVFITAILISLFSVFTGLTSSYQLGTPPGPS</Hsp_hseq>
+      <Hsp_midline>AP+ GV+LV+RR +L+ D LSH  L G A+G+ F   ++ A  +     G   A+    + R      + + A    + L+  + LIS  K  +++ +   LFGS++ V+   + +I+ ++ L L+   V+ RPL L + D    K+      +  + F I+  + +      +G+L+   L++LPA  A   A+    + + ++LI+LF    GL  SY +  P GP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|14195267|sp|P96118.1|TROC_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Zinc transport system membrane protein TroC [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>P96118</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.05135e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGL-VSRFTTLKEDANFAAFYLSSLAIGVILI-----SKNGSSVDLLHLLFG---SVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNG-KGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHI-EIPSGPAIILCCSVLYLFSVILGKEGGILPKWFKNHR</Hsp_qseq>
+      <Hsp_hseq>LGLGSGLVGSFAVLRRQSLFGDAVSHATLPGIVIAFLLTGTKSTEILLLGAALSGLVGTVVMLMVMRTTKIDTDGAQGIVLGVFLGFGFLLLTHVQKSPQAAKAGLNKFILGQAATILQRDVLLIIAMEVVIGLLVL---LFWKELKLSTFDRDF-SAVQGFSPQLMEFMLTALIVVAVVVGVQAVGVILMSALLTAPAVAARQWTNSLRVLCALAALFGGVSGVSGSVVSAQVPRLSTGPVIVLVLTGIALVSIMLGPQRGVLYQLWRRRR</Hsp_hseq>
+      <Hsp_midline>L L +  VG F V+RR SL GDA+SHA LPG  + ++  G     + + G A   L+  +  L V R T +  D          L  G +L+     S   +   L   + G   ++L  D+  +  +  V GL ++   + ++ L L + D  F  +V G    L   +   L+V+ +V G QA+G+++   L+  PA+ AR W  ++  L  L+ L     G+ G ++S  +  + +GP I+L  + + L S++LG + G+L + ++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|14195318|sp|O83079.1|Y036_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein TP_0036 [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O83079</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>7.2577e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MHYALASVFCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFAAFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAVDIPALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSG</Hsp_qseq>
+      <Hsp_hseq>MRNAFVASFLIALLCPLVGMHLVLRRYALMGDALAHGSLAGVSIA-VSCGIH-P--GWGSFFFTALVGVLIEFLRAFFKNHHDLILSIVLSLSVGIAVTLLSSGLIQADIDSYLFGSILVVSTRDLWIMLALSVFCVGTLALRYHQLLYLAFDEETARICGVAADGINYVASVVISATIAASIKITGILVLSSLMTVPVATALQLRVGFLLTLVAAFLFSMLDTALGLVFSYYLNVAPG</Hsp_hseq>
+      <Hsp_midline>M  A  + F ++L    VG+ LV+RR +L+GDAL+H  L G ++  +  G+  P  G G F    L+ +L   +  F     D   +     S+ I V L+S      D+   LFGS+L V    L ++ A+S   + TLA+ Y  L+  + D    +         + +  +++   + +  +  GIL+   LM +P  TA          ++ + L ++    +GL+ SY++ +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|14195423|sp|Q9Z8J7.1|Y346_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein CPn_0346/CP_0414/CPj0346/CpB0353 [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z8J7</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>8.25113e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAGLSLPAMGVGGFAAGMLMALLAGLVSRF--TTLK--EDANFAAFYLSSLAIGVIL---ISKNGS-SVDLLHLLFGSVLAVDI-PALQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIAL</Hsp_qseq>
+      <Hsp_hseq>ISCSGAFAGTFLVLRKMAMYANAVSHTVLFGLVCVCLFTHQLTTLSLGTLTLAAMATAMLTGFLIYFIRNTFKVSEESSTALVFSLLFSLSLVLLVFMTKNAHIGTELVLGNADSLTKEDIFPVTIVILANAVITIFA----FRSLVCSSFDSVFASSLGIPIRLVDYLIIFQLSACLVGAFKAVGVLMALAFLIIPSLIAKVIAKSIRSLMAWSLVFSI</Hsp_hseq>
+      <Hsp_midline>+S S A  G FLV+R+M++  +A+SH VL G     +F              A M  A+L G +  F   T K  E+++ A  +    ++ ++L   ++KN     +L+     S+   DI P   +I A + +T+      +R LV  S D +F  S+     L   + +  +   LV  F+A+G+LM++  +++P++ A++ A+++ +L+  S++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|14195326|sp|O84073.1|Y070_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein CT_070 [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84073</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>7.04713e-05</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>FCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAG----LSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFA---AFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAV---DIPALQLIAAVSGLTLITLAVIY---RPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLS</Hsp_qseq>
+      <Hsp_hseq>FAIAVSCSVVGTFLVLKKMAMYANVVSHTILFGLVCVCLFTHQLIHLSMQALTIAAVSTTLLTGASIHFIRNVFKVAEEASTALVFSLLFSASLLLLVFLTRNA------HV--GTELVIGNADALAKTDILPIFLVLLINLGISYCFFSSFVCVSFDTIFAFSLGIRIRLVDYLIMLLLSASIVGAFKAVGVLMSLAFLLIPGLIAKLIASSVQEMMVYS</Hsp_hseq>
+      <Hsp_midline>F +++S + VG FLV+++M++  + +SH +L G     +F      LS+ A+ +   +  +L       +     + E+A+ A   +   S+  + ++ +++N       H+  G+ L +   D  A   I  +  + LI L + Y      V  S D +F  S+  +  L   + ++L+  ++V  F+A+G+LMS+  +++P + A+L A ++  +++ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|14195338|sp|Q9PKW9.1|Y342_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system membrane protein TC_0342 [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PKW9</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000482353</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>FCLSLSAAPVGVFLVMRRMSLIGDALSHAVLPGAAVGYMFAG----LSLPAMGVGGFAAGMLMALLAGLVSRFTTLKEDANFA---AFYLSSLAIGVILISKNGSSVDLLHLLFGSVLAV---DIPALQLIAAVSGLTLITLAVIY---RPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLPAITARLWARNMGTLILLSVLIALFCGLIG</Hsp_qseq>
+      <Hsp_hseq>FAIAVSCSIIGTFLVLKKMAMYANVVSHTILFGLVCACLFTHQLTHLSMQNLTIAAISTTLLTGASIHFIRNVFKVAEEASTALVFSLLFSASLLLLVFLTRNA------HV--GTELVIGNADALAKTDIFPVFLVLLXNLGVSYCFFSSFICVSFDTVFAFSLGIRVKLIDYLMMFLLSASIVGAFKAVGVLMSLAFLLVPGLIAKLIASSVQEMMGYSMIFGVLSALIA</Hsp_hseq>
+      <Hsp_midline>F +++S + +G FLV+++M++  + +SH +L G     +F      LS+  + +   +  +L       +     + E+A+ A   +   S+  + ++ +++N       H+  G+ L +   D  A   I  V  + L  L V Y      +  S D +F  S+  +  L   + + L+  ++V  F+A+G+LMS+  +++P + A+L A ++  ++  S++  +   LI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|122063363|sp|Q2JXC9.1|COAX_SYNJA</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase [Synechococcus sp. JA-3-3Ab]</Hit_def>
+  <Hit_accession>Q2JXC9</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.81155</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>WARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAII</Hsp_qseq>
+      <Hsp_hseq>WARNTGAAIRSGILHTLLAGLRDFLADWRRRFPQGPLLV</Hsp_hseq>
+      <Hsp_midline>WARN G  I   +L  L  GL   L  +    P GP ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|576011178|sp|A9CIM3.1|PCS_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylcholine synthase; Short=PC synthase; Short=PCS; AltName: Full=CDP-diglyceride-choline O-phosphatidyltransferase [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>A9CIM3</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.92689</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>LQLIAAVSGLTLITLAVIYRPLVLESIDPLFLKSVNGKGGLWHVIFLILVVMNLVSGFQALGILMSVGLMMLP-AITARLWARNMGTLILLSVLIALFCGLIGLLISYHIEIPSGPAIILCCSVLYLFSVILGKEGGIL</Hsp_qseq>
+      <Hsp_hseq>LSFVAA--GMIVVSSAIYYADMGMKTDEYFF----SGFPVVWNMVVFTLFVMDASATTAMTVVTVSVFLTFLPINFLHPVRVKRLRPLNLL--VVAIWCALGGYALLMHFETPTWAVIAFVASGIYLYCI-----GGIL</Hsp_hseq>
+      <Hsp_midline>L  +AA  G+ +++ A+ Y  + +++ +  F    +G   +W+++   L VM+  +      + +SV L  LP      +  + +  L LL  ++A++C L G  +  H E P+   I    S +YL+ +     GGIL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

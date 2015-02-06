@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800647|ref|YP_207359.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>polyamine ABC transporter ATP-binding protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>430</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800647|ref|YP_207359.1|</Iteration_query-ID>
+  <Iteration_query-def>polyamine ABC transporter ATP-binding protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>430</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|13638401|sp|P31134.2|POTG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putrescine transport ATP-binding protein PotG [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31134</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>2.1876e-144</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>ATTASSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISW</Hsp_qseq>
+      <Hsp_hseq>AKTRKALTPLLEIRNLTKSYDGQHAVDDVSLTIYKGEIFALLGASGCGKSTLLRMLAGFEQPSAGQIMLDGVDLSQVPPYLRPINMMFQSYALFPHMTVEQNIAFGLKQDKLPKAEIASRVNEMLGLVHMQEFAKRKPHQLSGGQRQRVALARSLAKRPKLLLLDEPMGALDKKLRDRMQLEVVDILERVGVTCVMVTHDQEEAMTMAGRIAIMNRGKFVQIGEPEEIYEHPTTRYSAEFIGSVNVFEGVLKERQEDGLVLDSPGLVHPLKVDADASVVDNVPVHVALRPEKIMLCEEPPA--NGCNFAVGEVIHIAYLGDLSVYHVRLKSGQMISAQLQNAHRHRKGL--PTWGDEVRLCW</Hsp_hseq>
+      <Hsp_midline>A T  +  P L+I+ L K +   +AVD++ L IY+ EIFALLG+SG GKSTLLRMLAG E P+ G+I+LDG D++++ PY RPINMMFQSYALFPHMTVEQNIAFGLKQDK+PK EI +RV EML LV M +FAKRKPHQLSGGQ+QR+ALARSLAKRPK+LLLDEP+GALDKKLR + QLE+V+ LE+VGVTC+MVTHDQEEAMTMA RIAIM+ G+  Q+G P ++Y++P +R++AEFIG  N+F+GV+ E   D  V++  GL + +++D          + V++RPE I L +E P      N+A G V  IAYLG  ++YH++L +G+++ +Q+   + + + +  PTW + V + W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81834532|sp|Q7NQN5.1|POTA_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NQN5</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.168</Hsp_bit-score>
+      <Hsp_score>827</Hsp_score>
+      <Hsp_evalue>2.3847e-105</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVP</Hsp_qseq>
+      <Hsp_hseq>LEIKNVVKRFGDYTAVNDVSLSVEAGEFFTLPGPSGCGKTTLLRMLAGFEQPDAGQILLDGQDMSQVAPEKRPVHTVFQSYALFPHMTVRENIAFPLKMAKWDKRKIAAQVDELLEDVRLTQFGDRYPHEMSGGQRQRVAIARALVDRPRLLLLDEPLSALDAKLREEMQIELINLQKEVGITFVYVTHDQGEALALSHRIAVMSHGKVEQLDAPEKLYSYPKNRFVADFLGQCNVLEGTVKALHGDAMTVALKGCGD-VKCQAVAGVKEGQQGWLALRPEKVKLDKELPE-LPDEAYFKGRVHDCLYLGDVTLYVVEVADGVLVEAMQP</Hsp_hseq>
+      <Hsp_midline>L+I+ +VK+FGD  AV+++ L +   E F L G SG GK+TLLRMLAG E P+ G+I+LDGQD++++AP  RP++ +FQSYALFPHMTV +NIAF LK  K  K +I A+V+E+L  V++T+F  R PH++SGGQ+QR+A+AR+L  RP++LLLDEPL ALD KLR++ Q+EL+N  ++VG+T + VTHDQ EA+ ++ RIA+MS G+++Q+  P  +Y YP +RF A+F+G+ N+ +G V   H D   +  +G  + V+     G    Q  W+++RPE + L KE PE L D  + KG V +  YLG   +Y +++A+G +V++  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123252483|sp|Q1GIE5.1|POTA_RUEST</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Ruegeria sp. TM1040]</Hit_def>
+  <Hit_accession>Q1GIE5</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>1.86349e-99</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>390</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDN----YAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIE-CEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANG</Hsp_qseq>
+      <Hsp_hseq>IKIDGLTKIFGEGAEAFTALDDVSLTIQSNEFFTLLGPSGCGKTTLLRMIAGFLDPTRGQLMLDGKDLLRHPPHQRPVNTVFQSYALFPHMTVSENIAFGLQMLKRPKAEIAATVSEMLELVQMTAMADRKTAQISGGQQQRVALARALAPRPKVLLLDEPLSALDFKLRKEMQLELKRLQHETGITFVFVTHDQEEALTMSDRIAVMNAGTIRQIGGPRDIYDHPAERFVADFIGDTNFLKAQMVSSTESGALVRLASGEEILAKAPEGGAHSAGQAVTLAVRPEHARLCERTDALL------IGTLDNVVYFGTDTHYHVTMEGG</Hsp_hseq>
+      <Hsp_midline>++I GL K FG+      A+D++ L I  NE F LLG SG GK+TLLRM+AG   P +G+++LDG+D+ +  P+ RP+N +FQSYALFPHMTV +NIAFGL+  K PK EI A V EML LVQMT  A RK  Q+SGGQQQR+ALAR+LA RPK+LLLDEPL ALD KLR++ QLEL     + G+T + VTHDQEEA+TM+ RIA+M+ G ++Q+G P D+YD+P  RF A+FIG+TN     ++ +    A++    G E   +   G    + Q + +++RPE   L +     L       GT+  + Y G+   YH+ +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|123630284|sp|Q47T99.1|POTA_THEFY</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Thermobifida fusca YX]</Hit_def>
+  <Hit_accession>Q47T99</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>4.36517e-99</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTATTASSAKPYLQIQGLVKKFGD----NYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLAN</Hsp_qseq>
+      <Hsp_hseq>VVATESNQAVPAISLEKVSKTYRSGQVTTTAVESIDLEIRQGEFFSLLGPSGCGKTTTMRMIAGFEEPTSGVVRLSGKDVTGVPPNRRDVNMVFQSYALFPHMTVAENVAFGLKRKKVPAAEIRTRVAEMLELVELGDRAKYKPRQLSGGQQQRVALARALVNRPSALLLDEPLGALDLKLRQAMQLELKRIQREVGITFVYVTHDQSEALTMSDRIAVMNKGRIEQLGTPAQIYETPATRFVAGFIGTSNILTGTA-QRVSDTLVRIDYGGDQHV-LANTPQQMSDLGLVITVRPEKIRLGKDVPD--ANVSRIRGTVREVVYLGATTHYTVRTVD</Hsp_hseq>
+      <Hsp_midline>+ AT ++ A P + ++ + K +        AV++IDL+I Q E F+LLG SG GK+T +RM+AG E P  G + L G+D+T + P  R +NM+FQSYALFPHMTV +N+AFGLK+ K+P  EI  RV EML LV++   AK KP QLSGGQQQR+ALAR+L  RP  LLLDEPLGALD KLRQ  QLEL     +VG+T + VTHDQ EA+TM+ RIA+M+ G+++Q+GTP+ +Y+ P +RF A FIG +NI  G   +  +D  V    G + HV + +     S+  L +++RPE I L K+ P+   + +  +GTV+E+ YLG+   Y ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123068848|sp|Q1AS06.1|POTA_RUBXD</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Rubrobacter xylanophilus DSM 9941]</Hit_def>
+  <Hit_accession>Q1AS06</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>7.08447e-99</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECE-GLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISW</Hsp_qseq>
+      <Hsp_hseq>VRLQNVTKRFGDFTAVEDLSLDIHEGEFFSLLGPSGCGKTTTLRMIAGFEEPTEGEVVVAGRSMRGVPPYRRPVNTVFQSYALFPHLDVFENVAFGLRRAGVPKGEISRRVGEACALVKLSGFERRKPSRLSGGQQQRVALARALVNRPKVLLLDEPLGALDLKLRKQMQLELKNLQHEVGITFIYVTHDQEEALTMSDRIAVMNEGRVQQVADPATLYELPANRFVADFIGQTNILEGTVEAVEGERAVIRTAGGLRLEAVAPNGFRPAVGEAVEAAVRPEKLRVGEA-----GD-NVVAAEVAEVVYLGSSTQYILRAPDG----GRLVAHRQNDREAAALRPGEAVSVAW</Hsp_hseq>
+      <Hsp_midline>+++Q + K+FGD  AV+++ LDI++ E F+LLG SG GK+T LRM+AG E P +G++++ G+ +  + PY RP+N +FQSYALFPH+ V +N+AFGL++  +PKGEI  RV E   LV+++ F +RKP +LSGGQQQR+ALAR+L  RPK+LLLDEPLGALD KLR+Q QLEL N   +VG+T I VTHDQEEA+TM+ RIA+M++G++QQV  P+ +Y+ P +RF A+FIG+TNI +G V     + AVI    GL       +G      + +  ++RPE + + +      GD N     V E+ YLGS   Y ++  +G     ++ A     R        E V ++W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|122964746|sp|Q110U3.1|POTA_TRIEI</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Trichodesmium erythraeum IMS101]</Hit_def>
+  <Hit_accession>Q110U3</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>1.43049e-97</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>AIMTATTASSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECE-GLE-----NHVRIDHG--LGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISWPE</Hsp_qseq>
+      <Hsp_hseq>ALNIGTTLNKTKNDVELRKVFKVFEGHTAVKGVDFNIRQGEFFSILGPSGCGKTTTLRLIAGFETPSAGEIIIRGQSMSQTPAYRRPVNTVFQSYALFNHLSVKDNIAFGLRIKRLGKTETEEKVAQALQLVKMEKFADRYPNQISGGQQQRVALARALVNRPAVLLLDEPLGALDLKLRKQMQMELSNIHKDLGVTFVMVTHDQQEAMSMSDRIAVMHEGRIEQIGSPQEIYECPESPFVADFIGDTNLFQGCVEYNNNSSLVVKTDSGLNISAEYKKVNGKNGEIYGGTS---VVLSVRPEKVNLSLYPPDV--SENCFEGRLRNVMYMGTHVHYQVNLLSGDQMMVRQPNTER-----TLPNLDTPMYVYWSK</Hsp_hseq>
+      <Hsp_midline>A+   TT +  K  ++++ + K F  + AV  +D +I Q E F++LG SG GK+T LR++AG E+P+ G+II+ GQ +++   Y RP+N +FQSYALF H++V+ NIAFGL+  ++ K E + +V + L+LV+M KFA R P+Q+SGGQQQR+ALAR+L  RP +LLLDEPLGALD KLR+Q Q+EL N  + +GVT +MVTHDQ+EAM+M+ RIA+M +G+++Q+G+P ++Y+ P S F A+FIG+TN+F G V  N+    V++ + GL        V   +G   GG S   + +S+RPE ++L    P+     N  +G ++ + Y+G+   Y + L +G  +  + P         T P  D  +Y+ W +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|146325076|sp|A1TXH7.1|POTA_MARAV</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1TXH7</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>4.24759e-97</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIE-NHADYAVIECEGLENHVRI-DHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWD----ETVYISW</Hsp_qseq>
+      <Hsp_hseq>LSLSNLTKQFDGKKVLDSLDLDIFDGEFITLLGPSGCGKTTLLRMMAGFEHPDDGTIALGDQDLTHTPPEHRPLNTVFQNYALFPHMSVFDNVAYGLKMEKRPKQEIRERVEDALAMVQLEDFARRKPHQLSGGQQQRVAIARAVVKRPKVLLLDEPLSALDYKLRRTMQVELKRLQRELGITFVFVTHDQEEALSMSDRVVVLKDGLIQQLGTPREVYERPANLFTARFVGETNFFPGRVDKANGDDTITVDVFGLKRTFRKPDFPVSGG--QSLHVLLRPEDIRVL--APD---DEDGVAGKIVERNYKGSTLDSVIHLEDG----TEVLASEFFDED--DPTFDYRLGEPVKVSW</Hsp_hseq>
+      <Hsp_midline>L +  L K+F     +D++DLDI+  E   LLG SG GK+TLLRM+AG E P+ G I L  QD+T   P  RP+N +FQ+YALFPHM+V  N+A+GLK +K PK EI  RVE+ L +VQ+  FA+RKPHQLSGGQQQR+A+AR++ KRPK+LLLDEPL ALD KLR+  Q+EL     ++G+T + VTHDQEEA++M+ R+ ++ DG +QQ+GTP +VY+ P + FTA F+GETN F G V + N  D   ++  GL+   R  D  + G   Q L V +RPEDI +    P+   D +   G + E  Y GS     I L +G    ++V A  ++  +   PT+D    E V +SW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81540286|sp|Q9HY19.1|POTA2_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA 2 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HY19</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>4.54799e-97</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>412</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>PYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVP------APYWYVRNITPPTW</Hsp_qseq>
+      <Hsp_hseq>PLLEIRNVTRRFGDFTAVDNVSLTINTGEFFTLLGPSGCGKTTLLRMLAGFDQPDSGEIRLNGQDLAGVEPEKRPVHTVFQSYALFPHMSVAQNIAFPLKMAGVAKSEIDARVEQALKDVRLADKGGRMPTQLSGGQRQRVAIARALVNRPRLLLLDEPLSALDAKLREEMQIELINLQKDVGITFVYVTHDQGEALALSHRIAVMNQGRVEQLDAPETIYSFPRSRFVADFIGQCNLLDATVEAVDGERVRIDLRGLGEVQALKSFDAQPGEA-CVLTLRPEKIRLAQSVTADSDEVHF-RGRVAELLYLGDVTLYIVELENGERLETLLPNATPGRAKFFEVGDAVEAAW</Hsp_hseq>
+      <Hsp_midline>P L+I+ + ++FGD  AVDN+ L I   E F LLG SG GK+TLLRMLAG + P+ G+I L+GQD+  + P  RP++ +FQSYALFPHM+V QNIAF LK   + K EIDARVE+ L+ V++     R P QLSGGQ+QR+A+AR+L  RP++LLLDEPL ALD KLR++ Q+EL+N  + VG+T + VTHDQ EA+ ++ RIA+M+ G+++Q+  P  +Y +P SRF A+FIG+ N+ D  V     +   I+  GL     +      P E    +++RPE I L +       + ++ +G V E+ YLG   +Y ++L NG  +++ +P      A ++ V +     W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122260747|sp|Q02R79.1|POTA_PSEAB</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Pseudomonas aeruginosa UCBPP-PA14]</Hit_def>
+  <Hit_accession>Q02R79</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>9.65721e-97</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>PYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVP</Hsp_qseq>
+      <Hsp_hseq>PLLEIRNVTRRFGDFTAVDNVSLTINTGEFFTLLGPSGCGKTTLLRMLAGFDQPDSGEIRLNGQDLAGVEPEKRPVHTVFQSYALFPHMSVAQNIAFPLKMAGVAKSEIDARVEQALKDVRLADKGGRMPTQLSGGQRQRVAIARALVNRPRLLLLDEPLSALDAKLREEMQIELINLQKDVGITFVYVTHDQGEALALSHRIAVMNQGRVEQLDAPETIYSFPRSRFVADFIGQCNLLDATVEAVDGERVRIDLRGLGEVQALKSFDAQPGEA-CVLTLRPEKIRLAQSVTADSNEVHF-RGRVAELLYLGDVTLYIVELENGERLETLLP</Hsp_hseq>
+      <Hsp_midline>P L+I+ + ++FGD  AVDN+ L I   E F LLG SG GK+TLLRMLAG + P+ G+I L+GQD+  + P  RP++ +FQSYALFPHM+V QNIAF LK   + K EIDARVE+ L+ V++     R P QLSGGQ+QR+A+AR+L  RP++LLLDEPL ALD KLR++ Q+EL+N  + VG+T + VTHDQ EA+ ++ RIA+M+ G+++Q+  P  +Y +P SRF A+FIG+ N+ D  V     +   I+  GL     +      P E    +++RPE I L +       + ++ +G V E+ YLG   +Y ++L NG  +++ +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81829020|sp|Q6MCV4.1|POTA_PARUW</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Candidatus Protochlamydia amoebophila UWE25]</Hit_def>
+  <Hit_accession>Q6MCV4</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>1.25584e-95</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>IQGLV-----KKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIEN-HADYAVIECEGLE-----NHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISW</Hsp_qseq>
+      <Hsp_hseq>VEGIVFEHVSKKFADSIALNDVSFAINKGEFFSLLGPSGCGKTTLLRILAGFEKPDQGRILLDGQDITKLPANKRPINTVFQNYALFPHLTIWENIAFGLRIAQRSETEIKREVEQMLGLIQMKEHGHKKPDQISGGQKQRVAIARALVNHPRILLLDEPLAALDLKLRQKMLLDLDRIHDEVGITFIFVTHDQSEAMAVSDRIAVLHKGSLEQIGNPIEIYEMPKSSFVADFIGDTNFFDGWVKETAQKEYSLVDVEGFPQIYCFNDKQLSKG------DAVHLSVRPEKIHISREQIQAHPLQNVFQGIVDDVIYKGDHTHFGIQVGDRKISVNQQHSR--FLLDEAPIKWKDVVWIWW</Hsp_hseq>
+      <Hsp_midline>++G+V     KKF D+ A++++   I + E F+LLG SG GK+TLLR+LAG E P+QG+I+LDGQDITKL    RPIN +FQ+YALFPH+T+ +NIAFGL+  +  + EI   VE+ML L+QM +   +KP Q+SGGQ+QR+A+AR+L   P+ILLLDEPL ALD KLRQ+  L+L    ++VG+T I VTHDQ EAM ++ RIA++  G L+Q+G P ++Y+ P S F A+FIG+TN FDG V E    +Y++++ EG       N  ++  G        + +S+RPE I + +E+ +     N  +G V ++ Y G    + I++ + ++  +Q  +   ++ +  P  W + V+I W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123745156|sp|Q3MAR5.1|POTA_ANAVT</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Anabaena variabilis ATCC 29413]</Hit_def>
+  <Hit_accession>Q3MAR5</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>7.68994e-95</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYA-VIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISWPEN</Hsp_qseq>
+      <Hsp_hseq>VELRNVFKFFNQEPAVHGVDLDVKQGEFFSILGPSGCGKTTTLRLIAGFEQVDAGKLLIQGQPMTNIPPYRRPVNTVFQSYALFNHLNVWDNVAFGLRLKKSRKSEVESRVKEALKLVKMESLRSRFPSQLSGGQQQRVALARALVNRPAVVLLDEPLGALDLKLRKEMQVELSNLHKNLGLTFIMVTHDQEEALSLSDRIAVMNQGKIEQIGTPQEIYERPKTSFVADFIGDTNLFSGEITVLEAEYIQIVTKTGLTIVVARNEDTPAELLKSVVVSVRPEKIQLSLYPPSSLN--NCFEGRLINVMYLGTHVNYLVQLINGININVLQPNTFGNL-----PDRETPIYAWWAES</Hsp_hseq>
+      <Hsp_midline>++++ + K F    AV  +DLD+ Q E F++LG SG GK+T LR++AG E  + GK+++ GQ +T + PY RP+N +FQSYALF H+ V  N+AFGL+  K  K E+++RV+E L+LV+M     R P QLSGGQQQR+ALAR+L  RP ++LLDEPLGALD KLR++ Q+EL N  + +G+T IMVTHDQEEA++++ RIA+M+ G+++Q+GTP ++Y+ P + F A+FIG+TN+F G +    A+Y  ++   GL   V  +        + + VS+RPE I L    P  L   N  +G +  + YLG+   Y ++L NG  +    P  +  +     P  +  +Y  W E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81542032|sp|Q9I6T2.1|POTA1_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA 1 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I6T2</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>9.62252e-95</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDN----YAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQD----KMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLEN-HVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKG---TVKEIAYLGSFAIYHIKLANGRVVKSQVP</Hsp_qseq>
+      <Hsp_hseq>VSIRAVRKVYGDPESGPVALKRVDLDIRDNEFFTLLGPSGCGKTTLLRMIAGFEFPTEGEILLYGENIAARPPFERPVNTVFQHYALFPHMSIAENLAFGLESRPLGRSLGKAEIAERVREMLALVQMERFADRRPGQLSGGQQQRVALARALAPQPRVLLLDEPLSALDLKLRQAMREELKAIQAKTGITFIFVTHDQEEALTMSDRIAVLSEGQVQQVGPPEEIYERPGNRFVADFIGETNFIEAELLQRDGPLALYRGPGGEAFEAAARDGLAAGAR--VCLSIRPERLDLLAA--------NTGGGLPCTVESQVYLGTDLQYRVRLADGSLLTVRTP</Hsp_hseq>
+      <Hsp_midline>+ I+ + K +GD      A+  +DLDI  NE F LLG SG GK+TLLRM+AG E P +G+I+L G++I    P++RP+N +FQ YALFPHM++ +N+AFGL+       + K EI  RV EML LVQM +FA R+P QLSGGQQQR+ALAR+LA +P++LLLDEPL ALD KLRQ  + EL     + G+T I VTHDQEEA+TM+ RIA++S+GQ+QQVG P ++Y+ P +RF A+FIGETN  +  +++     A+    G E        GL   +   + +SIRPE +DL           N   G   TV+   YLG+   Y ++LA+G ++  + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81852729|sp|Q8YM92.1|POTA_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>Q8YM92</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.56241e-94</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYA-VIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISWPEN</Hsp_qseq>
+      <Hsp_hseq>VELRNVFKFFNQEPAVHGVDLDVRQGEFFSILGPSGCGKTTTLRLIAGFEQVDAGKLLIQGQPMTNIPPYRRPVNTVFQSYALFNHLNVWDNVAFGLRLKKSRKSEVESRVKEALKLVKMESLRSRFPSQLSGGQQQRVALARALVNRPAVVLLDEPLGALDLKLRKEMQVELSNLHKNLGLTFVMVTHDQEEALSLSDRIAVMNQGKIEQIGTPQEIYERPKTSFVADFIGDTNLFSGEITVLEAEYIQIVTKTGLTIVVARNEDTPAELLKPVVVSVRPEKIQLSLYPPSSLN--NCFEGRLINVMYLGTHVNYVVQLINGMNINVLQPNTFGNL-----PDRETPIYAWWAES</Hsp_hseq>
+      <Hsp_midline>++++ + K F    AV  +DLD+ Q E F++LG SG GK+T LR++AG E  + GK+++ GQ +T + PY RP+N +FQSYALF H+ V  N+AFGL+  K  K E+++RV+E L+LV+M     R P QLSGGQQQR+ALAR+L  RP ++LLDEPLGALD KLR++ Q+EL N  + +G+T +MVTHDQEEA++++ RIA+M+ G+++Q+GTP ++Y+ P + F A+FIG+TN+F G +    A+Y  ++   GL   V  +        + + VS+RPE I L    P  L   N  +G +  + YLG+   Y ++L NG  +    P  +  +     P  +  +Y  W E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123533725|sp|Q2SJY7.1|POTA_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SJY7</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>3.63879e-94</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>SAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIEC-EGLENHVRIDHGLGGPSEQDLWVSIRPED--IDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVV</Hsp_qseq>
+      <Hsp_hseq>SKPPILTLADITKRFDTQEVLSGFNLSIEDGEFFTILGPSGCGKTTVLRLIAGFEGADEGRIMLNGQDVSKLSAEKRPVNTVFQSYALFPHMTVFDNVAFGLKMAKVSKPEIAERVKEALATVRLSDFATRKPHQLSGGQKQRVAIARAVVNRPKVLLLDESLSALDYKLRQQMQMELKQLQRKLGITFIYVTHDQEEALSMSDRVLVMHNGQAQQVGTPREIYECPNNLFVASFIGEINVFNAEIVESLSDYRYLAAMDGFKREIHADRRFEAGDK--VHVLLRPEDLRIEYLEDAPDRPG----FSGQVLERNYTGQTLDSQIQLQSGQTI</Hsp_hseq>
+      <Hsp_midline>S  P L +  + K+F     +   +L I   E F +LG SG GK+T+LR++AG E  ++G+I+L+GQD++KL+   RP+N +FQSYALFPHMTV  N+AFGLK  K+ K EI  RV+E L  V+++ FA RKPHQLSGGQ+QR+A+AR++  RPK+LLLDE L ALD KLRQQ Q+EL     ++G+T I VTHDQEEA++M+ R+ +M +GQ QQVGTP ++Y+ PN+ F A FIGE N+F+  ++E+ +DY  +   +G +  +  D       +  + V +RPED  I+  ++ P+  G      G V E  Y G      I+L +G+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|81779882|sp|Q98HF7.1|POTA_RHILO</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Mesorhizobium loti MAFF303099]</Hit_def>
+  <Hit_accession>Q98HF7</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>1.15077e-93</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>390</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>GDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVV--IENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANG</Hsp_qseq>
+      <Hsp_hseq>GQVAALDKVSVSIRENEFFTLLGPSGCGKTTLLRLIAGFDFPTAGEILLYGQDIAPLPPFKRPVNTVFQSYALFPHMTVADNIGFGLEMLGKPKAEIKARVAEMLKLVKMEALAGRRTAQISGGQQQRVALARALAPQPKVLLLDEPLSALDYKLRKEMQIELKRLQHETGITFIFVTHDQEEALTMSDRIAVMSSGKILQVGSPWDIYDKPAERFVADFIGETNFLTAAISGTGNGKTRATLKS-GTTIEATVAEGF--QPKDNATVVVRPEHAKLTKDK----GDLS---GTVENIVYFGTDTHIHVQLDSG</Hsp_hseq>
+      <Hsp_midline>G   A+D + + I +NE F LLG SG GK+TLLR++AG + P  G+I+L GQDI  L P+ RP+N +FQSYALFPHMTV  NI FGL+    PK EI ARV EML+LV+M   A R+  Q+SGGQQQR+ALAR+LA +PK+LLLDEPL ALD KLR++ Q+EL     + G+T I VTHDQEEA+TM+ RIA+MS G++ QVG+P D+YD P  RF A+FIGETN     +    N    A ++  G      +  G     + +  V +RPE   L K+K    GD +   GTV+ I Y G+    H++L +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122974074|sp|Q18AM3.1|POTA_PEPD6</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Peptoclostridium difficile 630]</Hit_def>
+  <Hit_accession>Q18AM3</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.32843e-93</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKL-ANGRV</Hsp_qseq>
+      <Hsp_hseq>IELRDISKHYEELTVLDNFNLDIKKNEFLTLLGPSGCGKTTTLKIIAGFEYADDGKVLFEGKEINNLPPYERQVNTVFQKYALFPHMDVYENVAFGLKIKKTPKDVIDAKVKEVLKLVALEGFERRQVESLSGGQQQRIAIARALVNEPKVLLLDEPLGALDLKLRQEMQIELKRIQKKLGITFVFVTHDQEEALTMSDTIVVMYKGKIQQMGTPQDIYNEPKNSFVAKFIGESNIFDGIMIE---DYKVNFCN--RDFECVDKGF--EKNENIEVVIRPEDIKMV--KPE----EGMLKGKVTSTVFKGVH--YEIELNENGRL</Hsp_hseq>
+      <Hsp_midline>++++ + K + +   +DN +LDI +NE   LLG SG GK+T L+++AG E  + GK++ +G++I  L PY+R +N +FQ YALFPHM V +N+AFGLK  K PK  IDA+V+E+L+LV +  F +R+   LSGGQQQRIA+AR+L   PK+LLLDEPLGALD KLRQ+ Q+EL    +++G+T + VTHDQEEA+TM+  I +M  G++QQ+GTP D+Y+ P + F A+FIGE+NIFDG++IE   DY V  C    +   +D G      +++ V IRPEDI +   KPE        KG V    + G    Y I+L  NGR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81859198|sp|Q9X196.1|POTA_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9X196</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>1.54395e-93</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISW</Hsp_qseq>
+      <Hsp_hseq>VSIKNVSKFFDDFQVLKNVSLDIKKGEFFSILGPSGCGKTTLLRVIAGFEGVESGDVLLDGKSILNLPPNKRPVNIIFQNYALFPHLTVFENIAFPLKLKKLSENEINQRVNELLSLIRMEEHAQKMPSQLSGGQKQRVAIARALANEPRVLLLDEPLSALDAKLRQELLVELDNLHDRVGITFIYVTHDQAEAISVSDRVALMNEGEIVQVGTPYEVYESPVNVFAATFIGETNLMKAEVVEVEDEYYVVESPGI-GQFRCYRDKEAKKGDRLLITLRPEKIRISRKQFRSEETFNVFHGVVDEEIYMGHQTKYFVRLDEGYIMKV-YKQHARYILDEPIIKWEDEVFITW</Hsp_hseq>
+      <Hsp_midline>+ I+ + K F D   + N+ LDI + E F++LG SG GK+TLLR++AG E    G ++LDG+ I  L P  RP+N++FQ+YALFPH+TV +NIAF LK  K+ + EI+ RV E+L L++M + A++ P QLSGGQ+QR+A+AR+LA  P++LLLDEPL ALD KLRQ+  +EL N  ++VG+T I VTHDQ EA++++ R+A+M++G++ QVGTP +VY+ P + F A FIGETN+    V+E   +Y V+E  G+    R            L +++RPE I + +++      +N   G V E  Y+G    Y ++L  G ++K        Y+ +     W++ V+I+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123755740|sp|Q32EY4.1|POTA_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32EY4</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>1.66885e-93</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>SSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVV</Hsp_qseq>
+      <Hsp_hseq>SSLSPLVQLAGIRKCFDGKEVISQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDSGRIMLDNEDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEITPRVMEALRMVQLETFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVVMRDGRIEQDGTPREIYEEPKNLFVAGFIGEINMFNATVIERLDEQRVRANVEGRECNIYVNFAV--EPGQKLHVLLRPEDL-----RVEEINDDNHAEGLIGYVRERNYKGMTLESVVELENGKMV</Hsp_hseq>
+      <Hsp_midline>SS  P +Q+ G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G+I+LD +DIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV E LR+VQ+  FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M DG+++Q GTP ++Y+ P + F A FIGE N+F+  VIE   +  V    EG E ++ ++  +     Q L V +RPED+     + E + D N A+G    V+E  Y G      ++L NG++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|122313837|sp|Q0AGF4.1|POTA_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AGF4</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>2.99901e-93</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHV-----RIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTW-----DETVYISWPE</Hsp_qseq>
+      <Hsp_hseq>LELRNVIRRFGDFTAVDNVSLSIQAGEFFTLLGPSGCGKTTLLRMIAGFDVPDSGQILLDGQDIANTPPEKRPIHTVFQSYALFPHMTVADNVAFPLKMSKVAPAEIKKRMEKALEEVQLSRFTHRFPHELSGGQKQRVAFARGLINRPRLLLMDEPLGALDAKLREDMQRELINLQKEVGITFIFVTHSQDEALALSQRIAVMNLGNIEQIGTPSAIYGTPANRFIADFIGKINLMEARVTQISNTAMTLEINGLGTTVLPPKKEIQAGDQG------VIAIRPEQVAVHALAKQAEIPHAHT-GKVLDFLYVGDVTTYVIELDSGIQIEA-------LLANSSPGRARFFEVDDPVIVSWPQ</Hsp_hseq>
+      <Hsp_midline>L+++ ++++FGD  AVDN+ L I   E F LLG SG GK+TLLRM+AG + P+ G+I+LDGQDI    P  RPI+ +FQSYALFPHMTV  N+AF LK  K+   EI  R+E+ L  VQ+++F  R PH+LSGGQ+QR+A AR L  RP++LL+DEPLGALD KLR+  Q EL+N  ++VG+T I VTH Q+EA+ ++ RIA+M+ G ++Q+GTPS +Y  P +RF A+FIG+ N+ +  V +       +E  GL   V      I  G  G       ++IRPE + ++    +    +    G V +  Y+G    Y I+L +G  +++        + N +P        D+ V +SWP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|56753034|sp|P69874.1|POTA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Escherichia coli K-12] &gt;gi|56753035|sp|P69875.1|POTA_ECOL6 RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Escherichia coli CFT073] &gt;gi|56753036|sp|P69876.1|POTA_ECO57 RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Escherichia coli O157:H7] &gt;gi|56753037|sp|P69877.1|POTA_SHIFL RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Shigella flexneri] &gt;gi|123344121|sp|Q0TIU8.1|POTA_ECOL5 RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Escherichia coli 536]</Hit_def>
+  <Hit_accession>P69874</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>4.2016e-93</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>SSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVV</Hsp_qseq>
+      <Hsp_hseq>SSLSPLVQLAGIRKCFDGKEVIPQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDSGRIMLDNEDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEITPRVMEALRMVQLETFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVVMRDGRIEQDGTPREIYEEPKNLFVAGFIGEINMFNATVIERLDEQRVRANVEGRECNIYVNFAV--EPGQKLHVLLRPEDL-----RVEEINDDNHAEGLIGYVRERNYKGMTLESVVELENGKMV</Hsp_hseq>
+      <Hsp_midline>SS  P +Q+ G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G+I+LD +DIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV E LR+VQ+  FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M DG+++Q GTP ++Y+ P + F A FIGE N+F+  VIE   +  V    EG E ++ ++  +     Q L V +RPED+     + E + D N A+G    V+E  Y G      ++L NG++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123775830|sp|Q4K681.1|POTA_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K681</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>6.46282e-93</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNY----AVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKM----PKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIE---CEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVP</Hsp_qseq>
+      <Hsp_hseq>VSIRSVRKVYGDPHSGPVALKNIDLDIRDNEFFTLLGPSGCGKTTLLRMIAGFEFPTQGEILLYGENIADRPPFERPVNTVFQHYALFPHMTLAENLAFGLESRPMGQVLSKAQIDERVREMLALVQMERFAARKPNQLSGGQQQRIALARALAPHPKVLLLDEPLSALDLKLRQAMREELKAIQAKTGITFIFVTHDQEEALTLSDRIAVLSEGEVQQVGRPEEIYEQPRNRFVADFIGETNFIPAMVSRVEAGLAWFSGPAGQALPAQPCTTAKVG----QQVTLSVRPERLHLRGDASQ-----GALACRIEALIYLGTDLQYQVSLGDGTRLTVRTP</Hsp_hseq>
+      <Hsp_midline>+ I+ + K +GD +    A+ NIDLDI  NE F LLG SG GK+TLLRM+AG E P QG+I+L G++I    P++RP+N +FQ YALFPHMT+ +N+AFGL+   M     K +ID RV EML LVQM +FA RKP+QLSGGQQQRIALAR+LA  PK+LLLDEPL ALD KLRQ  + EL     + G+T I VTHDQEEA+T++ RIA++S+G++QQVG P ++Y+ P +RF A+FIGETN    +V    A  A       + L         +G    Q + +S+RPE + L  +  +           ++ + YLG+   Y + L +G  +  + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123084483|sp|Q1RD28.1|POTA_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Escherichia coli UTI89] &gt;gi|146325068|sp|A1AA20.1|POTA_ECOK1 RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>Q1RD28</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>1.22916e-92</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>SSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVV</Hsp_qseq>
+      <Hsp_hseq>NSLSPLVQLAGIRKCFDGKEVIPQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDSGRIMLDNEDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEITPRVMEALRMVQLETFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVVMRDGRIEQDGTPREIYEEPKNLFVAGFIGEINMFNATVIERLDEQRVRANVEGRECNIYVNFAV--EPGQKLHVLLRPEDL-----RVEEINDDNHAEGLIGYVRERNYKGMTLESVVELENGKMV</Hsp_hseq>
+      <Hsp_midline>+S  P +Q+ G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G+I+LD +DIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV E LR+VQ+  FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M DG+++Q GTP ++Y+ P + F A FIGE N+F+  VIE   +  V    EG E ++ ++  +     Q L V +RPED+     + E + D N A+G    V+E  Y G      ++L NG++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123732367|sp|Q3Z2Z3.1|POTA_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Shigella sonnei Ss046] &gt;gi|123755582|sp|Q31ZK0.1|POTA_SHIBS RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Shigella boydii Sb227]</Hit_def>
+  <Hit_accession>Q3Z2Z3</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>1.95005e-92</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>SSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVV</Hsp_qseq>
+      <Hsp_hseq>SSLSPLVQLAGIRKCFDGKEVIPQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDSGRIMLDNEDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEITPRVMEALRMVQLETFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVVMREGRIEQDGTPREIYEEPKNLFVAGFIGEINMFNATVIERLDEQRVRANVEGRECNIYVNFAV--EPGQKLHVLLRPEDL-----RVEEINDDNHAEGLIGYVRERNYKGMTLESVVELENGKMV</Hsp_hseq>
+      <Hsp_midline>SS  P +Q+ G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G+I+LD +DIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV E LR+VQ+  FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M +G+++Q GTP ++Y+ P + F A FIGE N+F+  VIE   +  V    EG E ++ ++  +     Q L V +RPED+     + E + D N A+G    V+E  Y G      ++L NG++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|60389830|sp|Q6LR20.1|POTA_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LR20</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>4.32187e-92</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MTATTASSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVI-ECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVV</Hsp_qseq>
+      <Hsp_hseq>MNAST-TSKKPVIQLKGLNKSFDGKQIIAGLDLNVNDGEFLTILGPSGCGKTTVLRLIAGFENSDAGQVIIANKDVTQVPAEQRHVNTVFQSYALFPHMTVFENVAFGLRMQKVSESEIEPRVMDALRMVQLDKFAPRKPHQLSGGQQQRVAIARAVVNKPKVLLLDESLSALDYKLRKQMQLELKQLQRKLGITFIFVTHDQEEALSMSDRIIVMRDGNIEQDGSPREIYEEPTNLFVARFIGEINVFDATVKERLDEKRIMAEVEGRTAQIHCE--LAVKTGDKLKVLLRPEDIRL-----EEINNDEHAKGIIGYVRERTYKGMTLDSVIELESGMSV</Hsp_hseq>
+      <Hsp_midline>M A+T +S KP +Q++GL K F     +  +DL++   E   +LG SG GK+T+LR++AG E+ + G++I+  +D+T++    R +N +FQSYALFPHMTV +N+AFGL+  K+ + EI+ RV + LR+VQ+ KFA RKPHQLSGGQQQR+A+AR++  +PK+LLLDE L ALD KLR+Q QLEL     ++G+T I VTHDQEEA++M+ RI +M DG ++Q G+P ++Y+ P + F A FIGE N+FD  V E   +  ++ E EG    +  +  L   +   L V +RPEDI L     E + +   AKG    V+E  Y G      I+L +G  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123768255|sp|Q2YAD6.1|POTA_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2YAD6</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>6.5408e-92</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWV------SIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVP------APYWYVRNITPPTW--DETVYISWPE</Hsp_qseq>
+      <Hsp_hseq>LEIRNVTRRFGGYTAVDNVSIDVEAGEFFTLLGPSGCGKTTLLRMIAGFDLPDSGQILLDGKDMVGIPPEKRPVHTVFQTYALFPHMTVADNIAFPLKMAGKAPQEIKKRVNELLERVHLPNFGNRFPHELSGGQKQRVAFARGLVNRPRLLLLDEPLGALDAKLREEMQIELINLQKEIGITFIFVTHAQDEALALSHRIAVMNRGNVEQIDEPSKIYSAPRNHFVADFIGKISVMNATVMEAVPSHLKLAIEGLGE-------VTAPAREGMEVGDKGVLAIRPEQVRISHPSNESQLK-NHFRGKVHDFLYVGDVTTYIVELANGAYIEALLPNSAPGRAKFFEVDDEVTISWRHDAGIFLNDPE</Hsp_hseq>
+      <Hsp_midline>L+I+ + ++FG   AVDN+ +D+   E F LLG SG GK+TLLRM+AG + P+ G+I+LDG+D+  + P  RP++ +FQ+YALFPHMTV  NIAF LK       EI  RV E+L  V +  F  R PH+LSGGQ+QR+A AR L  RP++LLLDEPLGALD KLR++ Q+EL+N  +++G+T I VTH Q+EA+ ++ RIA+M+ G ++Q+  PS +Y  P + F A+FIG+ ++ +  V+E    +  +  EGL         +  P+ + + V      +IRPE + +     E     N  +G V +  Y+G    Y ++LANG  +++ +P      A ++ V +    +W  D  ++++ PE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|122957504|sp|Q0T5R2.1|POTA_SHIF8</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q0T5R2</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>2.4016e-91</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>SSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVV</Hsp_qseq>
+      <Hsp_hseq>SSLSPLVQLAGIRKCFDGKEVIPQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDSGRIMLDNEDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEITPRVMEALRMVQLETFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVMMRDGRIEQDGTPRDIYEEPKNLFVTGFIAEIHMFNATVIERLDEQRVRANVEGRECNIYVNFAV--EPGQKLHVLLRPEDL-----RVEEINDDNHAEGLIGYVRERNYKGMTLESVVELENGKMV</Hsp_hseq>
+      <Hsp_midline>SS  P +Q+ G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G+I+LD +DIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV E LR+VQ+  FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M DG+++Q GTP D+Y+ P + F   FI E ++F+  VIE   +  V    EG E ++ ++  +     Q L V +RPED+     + E + D N A+G    V+E  Y G      ++L NG++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123386797|sp|Q1QE80.1|POTA_PSYCK</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Psychrobacter cryohalolentis K5]</Hit_def>
+  <Hit_accession>Q1QE80</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>2.46498e-91</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>IMTATTASSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIF--------------DGVVIENHADYAVIECE------GLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWD----ETVYISW</Hsp_qseq>
+      <Hsp_hseq>LTTPASANTDKVLLQLTGLKKTYDNTEVLKDINLDIKHGEFITLLGPSGCGKTTLLRLIAGFEQPSAGAIYLDGVQMAGLPADKRPVNTVFQQYALFPHMTVAQNVAYGLKLRKVPKVEIQTRVREMLAMVQLEHLANRRPQDLSGGQQQRVAIARAVINRPKLLLLDEPLSALDHKLRLQMQSELKRLQRELGITFVFVTHDQEEALSMSDRIAVMKDGRFQQIGTPIEIYETPANLFTAKFIGETNLFKAEVKGVYPEQPDRDGRVTNGRIEVEVCEAQVQDGPTPVRNLRRPDFANDVQVGDIVNLLLRPEDLRIYDPNDK---EHGGLLGRVIESNYKGSTLDSIIELTNGHIIK----ASEFFDED--DPSFDYKLNEGVKVSW</Hsp_hseq>
+      <Hsp_midline>+ T  +A++ K  LQ+ GL K + +   + +I+LDI   E   LLG SG GK+TLLR++AG E P+ G I LDG  +  L    RP+N +FQ YALFPHMTV QN+A+GLK  K+PK EI  RV EML +VQ+   A R+P  LSGGQQQR+A+AR++  RPK+LLLDEPL ALD KLR Q Q EL     ++G+T + VTHDQEEA++M+ RIA+M DG+ QQ+GTP ++Y+ P + FTA+FIGETN+F              DG V     +  V E +       + N  R D          + + +RPED+ +Y    +   ++    G V E  Y GS     I+L NG ++K    A  ++  +   P++D    E V +SW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|123361499|sp|Q160M2.1|POTA_ROSDO</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Roseobacter denitrificans OCh 114]</Hit_def>
+  <Hit_accession>Q160M2</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>5.30585e-91</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQD-LWVSIRPEDIDLYKEKPE</Hsp_qseq>
+      <Hsp_hseq>IDVRNAVKRYGDFTALKTISLSIRDNEFFTLLGPSGCGKTTLLRMIAGFEDVTEGEIFLYGEEIEDLPPNRRPVNTVFQNYALFPHMDVMENVGFGLEMLGKPKAQARARAGEILELVQLSQFANRKPSQLSGGQQQRVALARALAPQPKVLLLDEPLSALDLKLRKAMQLELKHLQRETGITFIFVTHDQDEALTMSDRIAVMSAGELQQLGDARDIYEKPANRFVADFIGETNLFE-VTIKSR-DGTRVLCAFLNGLTLTCDAVAGMDVGDRVHMSIRPERIKLRSSKVE</Hsp_hseq>
+      <Hsp_midline>+ ++  VK++GD  A+  I L I  NE F LLG SG GK+TLLRM+AG E   +G+I L G++I  L P  RP+N +FQ+YALFPHM V +N+ FGL+    PK +  AR  E+L LVQ+++FA RKP QLSGGQQQR+ALAR+LA +PK+LLLDEPL ALD KLR+  QLEL +   + G+T I VTHDQ+EA+TM+ RIA+MS G+LQQ+G   D+Y+ P +RF A+FIGETN+F+ V I++  D   + C  L         + G    D + +SIRPE I L   K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|81727720|sp|Q87PH3.1|POTA_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87PH3</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>6.5975e-91</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>SAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDI</Hsp_qseq>
+      <Hsp_hseq>AGKPVIRLSGISKSFDGKEIIGNLNLDVNHGEFLTILGPSGCGKTTVLRMIAGFETADNGQIVLDDQDVTQVPAEHRHVNTVFQSYALFPHMTVFDNVAFGLRMQKTPAAEIEPRVMEALRMVRLEKMAQRKPHQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQIELKQLQRQLGITFIFVTHDQEEALSMSDRIIVMRDGVIEQDGSPREIYEEPKNLFVARFIGEINVFNATMLERIDEKRIRAEIEGVESVVYYDK--EAQAGDKLQVLLRPEDL</Hsp_hseq>
+      <Hsp_midline>+ KP +++ G+ K F     + N++LD+   E   +LG SG GK+T+LRM+AG E+ + G+I+LD QD+T++    R +N +FQSYALFPHMTV  N+AFGL+  K P  EI+ RV E LR+V++ K A+RKPHQLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q+EL     Q+G+T I VTHDQEEA++M+ RI +M DG ++Q G+P ++Y+ P + F A FIGE N+F+  ++E   +  +  E EG+E+ V  D      +   L V +RPED+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|81853297|sp|Q8Z7H7.1|POTA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z7H7</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>2.59758e-90</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>SAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHG--LGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETV----YISWPEN</Hsp_qseq>
+      <Hsp_hseq>SLSPLVLLSGISKSFDGKEVISQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDAGHIMLDNQDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEIAPRVTDALRMVQLEEFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVVMRNGVIEQDGTPREIYEEPKNLFVAGFIGEINRFDATVIERLDEQRVRASVEGRECNIYVNFAVELG----QKLNVLLRPEDL-----RVEEINDDNHIEGLIGYVRERNYKGMTLESVVELENGKMV---MVSEFF---NEDDPDFDHSLDQKMAISWVES</Hsp_hseq>
+      <Hsp_midline>S  P + + G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G I+LD QDIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV + LR+VQ+ +FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M +G ++Q GTP ++Y+ P + F A FIGE N FD  VIE   +  V    EG E ++ ++    LG    Q L V +RPED+     + E + D N  +G    V+E  Y G      ++L NG++V   + + ++   N   P +D ++     ISW E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|81821591|sp|Q5PMK1.1|POTA_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150]</Hit_def>
+  <Hit_accession>Q5PMK1</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>3.21889e-90</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>SAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETV----YISWPEN</Hsp_qseq>
+      <Hsp_hseq>SLSPLVLLSGISKSFDGKEVISQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDAGHIMLDNQDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEIAPRVTDALRMVQLEEFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVVMRNGVIEQDGTPREIYEEPKNLFVAGFIGEINRFDATVIERLDEQRVRASVEGRECNIYVNFAV--EPGQKLNVLLRPEDL-----RVEEINDDNHIEGLIGYVRERNYKGMTLESVVELENGKMV---MVSEFF---NEDDPDFDHSLDQKMAISWVES</Hsp_hseq>
+      <Hsp_midline>S  P + + G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G I+LD QDIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV + LR+VQ+ +FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M +G ++Q GTP ++Y+ P + F A FIGE N FD  VIE   +  V    EG E ++ ++  +     Q L V +RPED+     + E + D N  +G    V+E  Y G      ++L NG++V   + + ++   N   P +D ++     ISW E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|81820072|sp|Q5LT05.1|POTA_RUEPO</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Ruegeria pomeroyi DSS-3]</Hit_def>
+  <Hit_accession>Q5LT05</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>3.52402e-90</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>421</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>AVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIEC-EGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRV-VKSQVPAPYWYVRNITPPTWDETVYISWP</Hsp_qseq>
+      <Hsp_hseq>ALGGVDIDIADNEFFTLLGPSGCGKTTILRLIAGFEHPTSGSLDMFGQSLLDLPPYKRQINTVFQSYALFPHMSVAENIGFGLEMLGKPKSEIKSTVAEMMDLVQMSHLADRQTSQISGGQQQRVALARALAPKPRVLLLDEPLSALDFKLRKNMQLELKRLQTETGITFIFVTHDQEEALTMSDRIAVMSDGAIRQIGSPRDIYDHPADRFVADFIGDTNFLPADVIATEGERVSLRLGSGKTITAPARHAGGG----RVTLAVRPEHARLEAE------DSGLLPGVLSDAVYFGTDTHFHIALDDGTAFVLRQQNSPDTETRF----AKGERVSVSFP</Hsp_hseq>
+      <Hsp_midline>A+  +D+DI  NE F LLG SG GK+T+LR++AG E P  G + + GQ +  L PY R IN +FQSYALFPHM+V +NI FGL+    PK EI + V EM+ LVQM+  A R+  Q+SGGQQQR+ALAR+LA +P++LLLDEPL ALD KLR+  QLEL     + G+T I VTHDQEEA+TM+ RIA+MSDG ++Q+G+P D+YD+P  RF A+FIG+TN     VI    +   +    G        H  GG     + +++RPE   L  E      D     G + +  Y G+   +HI L +G   V  Q  +P    R        E V +S+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|17865745|sp|P40790.2|POTA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|81309710|sp|Q57QC8.1|POTA_SALCH RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>P40790</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>3.545e-90</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>SAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGT---VKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETV----YISWPEN</Hsp_qseq>
+      <Hsp_hseq>SLSPLVLLSGISKSFDGKEVISQLDLTINNGEFLTLLGPSGCGKTTVLRLIAGLETVDAGHIMLDNQDITHVPAENRYVNTVFQSYALFPHMTVFENVAFGLRMQKTPAAEIAPRVTDALRMVQLEEFAQRKPHQLSGGQQQRVAIARAVVNKPRLLLLDESLSALDYKLRKQMQNELKALQRKLGITFVFVTHDQEEALTMSDRIVVMRNGVIEQDGTPREIYEEPKNLFVAGFIGEINRFDATVIERLDEQRVRASVEGRECNIYVNFAV--EPGQKLNVLLRPEDL-----RVEEINDDNHIEGLIGYVRERNYKGMTLESVVELENGKMV---MVSEFF---NEDDPDFDHSLDQKMAISWVES</Hsp_hseq>
+      <Hsp_midline>S  P + + G+ K F     +  +DL I   E   LLG SG GK+T+LR++AG+E+ + G I+LD QDIT +   +R +N +FQSYALFPHMTV +N+AFGL+  K P  EI  RV + LR+VQ+ +FA+RKPHQLSGGQQQR+A+AR++  +P++LLLDE L ALD KLR+Q Q EL     ++G+T + VTHDQEEA+TM+ RI +M +G ++Q GTP ++Y+ P + F A FIGE N FD  VIE   +  V    EG E ++ ++  +     Q L V +RPED+     + E + D N  +G    V+E  Y G      ++L NG++V   + + ++   N   P +D ++     ISW E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81544970|sp|Q9KS33.1|POTA_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KS33</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>3.95539e-90</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>SSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAV-IECEGLENHVRIDHGLGGPSEQDLWVSIRPEDI</Hsp_qseq>
+      <Hsp_hseq>SVGKPVIRLSGISKSFDGKEIIGNLNLDVNHGEFLTILGPSGCGKTTVLRMIAGFETADQGQILLDDQDVTQVPAEQRHVNTVFQSYALFPHMTVFENVAFGLRMQKVPQSEIEPRVMEALRMVRLAEMAQRKPHQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQSELKQLQRQLGITFIFVTHDQEEALSMSDRIIVMRSGKIEQDGSPREIYEDPKNLFVARFIGEINVFQATTIDRIDEKRIRVDIEGIESIVYYEDEVKAGDK--LQVLLRPEDL</Hsp_hseq>
+      <Hsp_midline>S  KP +++ G+ K F     + N++LD+   E   +LG SG GK+T+LRM+AG E+ +QG+I+LD QD+T++    R +N +FQSYALFPHMTV +N+AFGL+  K+P+ EI+ RV E LR+V++ + A+RKPHQLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q EL     Q+G+T I VTHDQEEA++M+ RI +M  G+++Q G+P ++Y+ P + F A FIGE N+F    I+   +  + ++ EG+E+ V  +  +    +  L V +RPED+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81825558|sp|Q65UE1.1|POTA_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65UE1</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>5.68607e-90</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>AKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDL</Hsp_qseq>
+      <Hsp_hseq>SKPIIELRSLKKSYNENTIIDNFNLTINNGEFLTILGPSGCGKTTVLRLIAGFEEANGGQIILDGEDVTDLPAEHRPVNTVFQSYALFPHMTIFENVAFGLRMQKVPNEEIKPRVLEALRMVQLEEMADRKPTQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQNELKALQRKLGITFIFVTHDQEEALTMSDRIIVLRKGNIEQDGSPREIYEEPSNLFVAKFIGEINIFDAQVL-NRVDEKRVRANVEGRVCDIYTDLAVKEGQKLKVLLRPEDVQL</Hsp_hseq>
+      <Hsp_midline>+KP ++++ L K + +N  +DN +L I   E   +LG SG GK+T+LR++AG E  N G+IILDG+D+T L    RP+N +FQSYALFPHMT+ +N+AFGL+  K+P  EI  RV E LR+VQ+ + A RKP QLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q EL     ++G+T I VTHDQEEA+TM+ RI ++  G ++Q G+P ++Y+ P++ F A+FIGE NIFD  V+ N  D   +          I   L     Q L V +RPED+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|75538975|sp|O85818.1|POTA_AGGAC</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>O85818</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>3.16846e-89</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>KPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVI-ECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEY</Hsp_qseq>
+      <Hsp_hseq>KPIIELRSITKSYGSNTIIKDFNLTINNGEFLTILGPSGCGKTTVLRLLAGLEELDSGNIILDGEDITNVPAEKRHVNTVFQSYALFPHMTIFENVAFGLRMQKVPEAEIKPRVLEALRMVQLEEMADRKPTQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQYELKVLQRQLGITFIFVTHDQEEAITMSDRIVLLRKGKIAQDGSPREIYEEPANLFVARFIGEINVFDATVIERKSENVVLANVEGRVCDIYTD--IPVKKDQQLQVLLRPEDI-VIKELDEH</Hsp_hseq>
+      <Hsp_midline>KP ++++ + K +G N  + + +L I   E   +LG SG GK+T+LR+LAG+E  + G IILDG+DIT +    R +N +FQSYALFPHMT+ +N+AFGL+  K+P+ EI  RV E LR+VQ+ + A RKP QLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q EL     Q+G+T I VTHDQEEA+TM+ RI ++  G++ Q G+P ++Y+ P + F A FIGE N+FD  VIE  ++  V+   EG    +  D  +    +Q L V +RPEDI + KE  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|146325058|sp|A0LUE6.1|POTA_ACIC1</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Acidothermus cellulolyticus 11B]</Hit_def>
+  <Hit_accession>A0LUE6</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>3.25535e-89</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>KFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHI--KLANGRVVKSQ-------VPAP</Hsp_qseq>
+      <Hsp_hseq>RTGDVVAVHALTLAVRSGEFFSLLGPSGCGKTTTLRMIAGFEEPTTGRILLEGRDVTDVPPHRRDVNMVFQNYALFPHLTVWENVAFGPKRKKLPREEIRRRVGEALELVDLVGREKRRPDELSGGQQQRVALARALVNRPRALLLDEPLGALDLKLRQAMQLELKRIQREAGVTFVYVTHDQGEALTMSDRIAVMNAGRVEQLGTPREIYETPSTPFVAGFIGTSNVISAPLARIEGAIALLATSA-DERVLVPLRVPVPPGASISATVRPEKIRLSLHPPD--GDRCRLLGVVREVVYLGTATQYVVATSVAEQLVVYAQNDGTADLVPAP</Hsp_hseq>
+      <Hsp_midline>+ GD  AV  + L +   E F+LLG SG GK+T LRM+AG E P  G+I+L+G+D+T + P+ R +NM+FQ+YALFPH+TV +N+AFG K+ K+P+ EI  RV E L LV +    KR+P +LSGGQQQR+ALAR+L  RP+ LLLDEPLGALD KLRQ  QLEL     + GVT + VTHDQ EA+TM+ RIA+M+ G+++Q+GTP ++Y+ P++ F A FIG +N+    +       A++     +  V +   +  P    +  ++RPE I L    P+  GD     G V+E+ YLG+   Y +   +A   VV +Q       VPAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|123772160|sp|Q3KBH4.1|POTA_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3KBH4</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>3.27943e-89</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNY----AVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRI-DHGLGGPSEQDLWVSIRPEDIDLY-KEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLAN</Hsp_qseq>
+      <Hsp_hseq>IEVRNVSKRYSDDPGLAPALDNVSVNIADNEFFTLLGPSGCGKTTLLRAIAGFEHVSDGEIRLAGETVNHLPPFKRRVNTVFQSYALFPHMSVAQNIAFGLEMQGLDRKTIPGRVDEMLALVQMEHLAGRKPAQLSGGQQQRVALARALAPKPKVLLLDEPLSALDLKLRKEMQVELKRVQQEAGITFIFVTHDQEEALTLSDRIAVMSAGKILQIGTPIDIYERPQHRFVAQFIGDINFLPGQLKRGEHNENIFVPNGMPVEIPCPPQGVNGSSVQ---LAFRPERSQLVAADQPHHL------RGVIEAVLYVGTATLYQCRLNN</Hsp_hseq>
+      <Hsp_midline>++++ + K++ D+     A+DN+ ++I  NE F LLG SG GK+TLLR +AG E  + G+I L G+ +  L P+ R +N +FQSYALFPHM+V QNIAFGL+   + +  I  RV+EML LVQM   A RKP QLSGGQQQR+ALAR+LA +PK+LLLDEPL ALD KLR++ Q+EL    ++ G+T I VTHDQEEA+T++ RIA+MS G++ Q+GTP D+Y+ P  RF A+FIG+ N   G +     +  +    G+   +     G+ G S Q   ++ RPE   L   ++P +L      +G ++ + Y+G+  +Y  +L N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|122976957|sp|Q1B8V9.1|POTA_MYCSS</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Mycobacterium sp. MCS] &gt;gi|146325077|sp|A1UG51.1|POTA_MYCSK RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Mycobacterium sp. KMS]</Hit_def>
+  <Hit_accession>Q1B8V9</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>7.17565e-89</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>SSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIEN-HADYAVIECEGLENHVRI-DHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLG</Hsp_qseq>
+      <Hsp_hseq>NKSGPVIEIDHVTKRFADYVAVADADFSIASGEFFSMLGPSGCGKTTTLRMIAGFETPTSGAIRLEGTDVSRVPPHKRNVNTVFQHYALFPHMSVWDNVAYGPRSMKKDKSEVKRRVDELLEVVRLTDFAKRKPGQLSGGQQQRVALARALVNYPSALLLDEPLGALDLKLRHAMQFELKRIQREVGITFIYVTHDQEEALTMSDRIAVMNAGNVEQIGTPTDIYDRPATVFVANFIGQANLWSGRQTGRLNRDYVEIDVLGSKLKARPGDTAIEAGGHATLMV--RPERLRVSMEPP--VGDVAAVRATVRDMTFQG</Hsp_hseq>
+      <Hsp_midline>+ + P ++I  + K+F D  AV + D  I   E F++LG SG GK+T LRM+AG E+P  G I L+G D++++ P+ R +N +FQ YALFPHM+V  N+A+G +  K  K E+  RV+E+L +V++T FAKRKP QLSGGQQQR+ALAR+L   P  LLLDEPLGALD KLR   Q EL     +VG+T I VTHDQEEA+TM+ RIA+M+ G ++Q+GTP+D+YD P + F A FIG+ N++ G      + DY  I+  G +   R  D  +       L V  RPE + +  E P  +GD    + TV+++ + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|146325065|sp|Q0SRL2.2|POTA_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Clostridium perfringens SM101]</Hit_def>
+  <Hit_accession>Q0SRL2</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>8.35136e-89</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIEN-HADYA--VIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLAN</Hsp_qseq>
+      <Hsp_hseq>IELKGITKSYGKDTILDNLSLNIKKNEFLTLLGPSGCGKTTTLKIIAGFETADSGQVVFENNIINDIPPYERQLNTVFQKYALFPHMNVYENIAFGLKLKKIPKDIIDQKVKEMLKLVALEGYENRDIEALSGGQQQRVAIARALVNEPKVLLLDEPLGALDMKLRKEMQIELKKIQQKLGITFIFVTHDQEEALTMSDTIVVMNKGEIQQMGSPEDIYNEPANSFVAKFIGESNIVDGIMLDDFKVEFGGKIFDC--------VDKGF--EKNEAIEVVIRPEDFEMVKYENGML------KGTVTSIIFKGVH--YEIEVKN</Hsp_hseq>
+      <Hsp_midline>++++G+ K +G +  +DN+ L+I +NE   LLG SG GK+T L+++AG E+ + G+++ +   I  + PY+R +N +FQ YALFPHM V +NIAFGLK  K+PK  ID +V+EML+LV +  +  R    LSGGQQQR+A+AR+L   PK+LLLDEPLGALD KLR++ Q+EL    +++G+T I VTHDQEEA+TM+  I +M+ G++QQ+G+P D+Y+ P + F A+FIGE+NI DG+++++   ++   + +C        +D G      + + V IRPED ++ K +   L      KGTV  I + G    Y I++ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|123031372|sp|Q0I3Y9.1|POTA_HISS1</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Haemophilus somnus 129PT]</Hit_def>
+  <Hit_accession>Q0I3Y9</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>1.81817e-88</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>KPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDI</Hsp_qseq>
+      <Hsp_hseq>KPIIELRSLTKSYDTKTIINNFNLTINNGEFLTILGPSGCGKTTVLRLIAGFEELNEGRIILDGEDVTDIPAERRHINTVFQSYALFPHMTIFENVAFGLRMQKVPNADIKPRVMEALRMVRLEEMADRKPTQLSGGQQQRVAIARAVVNKPKVLLLDESLSALDYKLRKEMQNELKALQRQLGITFIFVTHDQEEALTMSDRIIVMNKGTIQQDGSPRDIYEDPKNLFVAKFIGEINIFDAIVIE-RTDEKTVKANVEGRVCDIHTELTVQPNQKLKILLRPEDI</Hsp_hseq>
+      <Hsp_midline>KP ++++ L K +     ++N +L I   E   +LG SG GK+T+LR++AG E  N+G+IILDG+D+T +    R IN +FQSYALFPHMT+ +N+AFGL+  K+P  +I  RV E LR+V++ + A RKP QLSGGQQQR+A+AR++  +PK+LLLDE L ALD KLR++ Q EL     Q+G+T I VTHDQEEA+TM+ RI +M+ G +QQ G+P D+Y+ P + F A+FIGE NIFD +VIE   D   ++         I   L     Q L + +RPEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81766800|sp|Q8XIZ5.1|POTA_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Clostridium perfringens str. 13] &gt;gi|123049692|sp|Q0TNZ3.1|POTA_CLOP1 RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Clostridium perfringens ATCC 13124]</Hit_def>
+  <Hit_accession>Q8XIZ5</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>2.60394e-88</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIEN-HADYA--VIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLG</Hsp_qseq>
+      <Hsp_hseq>IELKGITKSYGKDTILDNLSLNIKKNEFLTLLGPSGCGKTTTLKIIAGFETADSGQVVFENNIINDIPPYERQLNTVFQKYALFPHMNVYENIAFGLKLKKMPKDVIDQKVKEMLKLVALEGYENRDIEALSGGQQQRVAIARALVNEPKVLLLDEPLGALDMKLRKGMQIELKRIQQKLGITFIFVTHDQEEALTMSDTIVVMNKGEIQQMGSPEDIYNEPANSFVAKFIGESNIVDGTMLDDFKVEFAGRIFNC--------VDKGF--EKNEAIEVVIRPEDFEMVKYEEGML------KGTVTSVIFKG</Hsp_hseq>
+      <Hsp_midline>++++G+ K +G +  +DN+ L+I +NE   LLG SG GK+T L+++AG E+ + G+++ +   I  + PY+R +N +FQ YALFPHM V +NIAFGLK  KMPK  ID +V+EML+LV +  +  R    LSGGQQQR+A+AR+L   PK+LLLDEPLGALD KLR+  Q+EL    +++G+T I VTHDQEEA+TM+  I +M+ G++QQ+G+P D+Y+ P + F A+FIGE+NI DG ++++   ++A  +  C        +D G      + + V IRPED ++ K +   L      KGTV  + + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|75353993|sp|Q5E586.1|POTA_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E586</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>3.53334e-88</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MTATTASSAKPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANG-RVVKSQ</Hsp_qseq>
+      <Hsp_hseq>MNVTQQSEKEAVIKLTGISKSFDGKEVISNFDLDVNHGEFLTILGPSGCGKTTVLRMIAGFETADAGTILLDSTDVTSVPAEQRHVNTVFQSYALFPHMTVFENVAFGLRMQKVAESEIEPRVTEALQMVRLAQMANRKPHQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQIELKQLQRQLGITFIFVTHDQEEALSMSDRIIVMRDGVIEQDGTPREIYEEPKNLFVARFIGEINVF-AATVQERLDEKRIKAEIEDTSAIVYCDLDVAPGDKVKVLLRPEDLRLEEIKE---SDNKGITGYVRERTYKGMTLDSVLELDSGMRVMISE</Hsp_hseq>
+      <Hsp_midline>M  T  S  +  +++ G+ K F     + N DLD+   E   +LG SG GK+T+LRM+AG E+ + G I+LD  D+T +    R +N +FQSYALFPHMTV +N+AFGL+  K+ + EI+ RV E L++V++ + A RKPHQLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q+EL     Q+G+T I VTHDQEEA++M+ RI +M DG ++Q GTP ++Y+ P + F A FIGE N+F    ++   D   I+ E  +    +   L       + V +RPED+ L + K     D     G V+E  Y G      ++L +G RV+ S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81854881|sp|Q97KS6.1|POTA_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>Q97KS6</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>5.97714e-88</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHA---DYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLY-KEKPEYLG</Hsp_qseq>
+      <Hsp_hseq>IELKNVSKKYGENYVIKNLNLFVRRNEFLTFLGPSGCGKTTTLNMIAGFETPDEGNIIFEDSSINIVPPHKRQINTVFQKYALFSHMNVYENVAFGLRIKKLPEKQIREEVEKMLSLVDLKGFEKRSTDSLSGGQQQRVAIARALVNKPKLLLLDEPLGALDLKLRKEMQLELKNIQQKLGITFIFVTHDQEEALTMSDTIVVLNKGTVQQIGTPEDIYNEPKNKFVANFIGVSNILNGVMLHDYKVKFDDETFDC--------VDTGFN--ENEDVDVVVRPEDIKIVSKENGKLFG</Hsp_hseq>
+      <Hsp_midline>++++ + KK+G+NY + N++L + +NE    LG SG GK+T L M+AG E+P++G II +   I  + P+ R IN +FQ YALF HM V +N+AFGL+  K+P+ +I   VE+ML LV +  F KR    LSGGQQQR+A+AR+L  +PK+LLLDEPLGALD KLR++ QLEL N  +++G+T I VTHDQEEA+TM+  I +++ G +QQ+GTP D+Y+ P ++F A FIG +NI +GV++ ++    D    +C        +D G      +D+ V +RPEDI +  KE  +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|146325078|sp|A1TAI4.1|POTA_MYCVP</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Mycobacterium vanbaalenii PYR-1]</Hit_def>
+  <Hit_accession>A1TAI4</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>6.0229e-88</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVI-ENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWDETVYISW</Hsp_qseq>
+      <Hsp_hseq>IEIDHVTKSFGDYVAVADADFSIASGEFFSMLGPSGCGKTTTLRMIAGFETPTEGAIRLEGADVSRTPPNKRNVNTVFQHYALFPHMTVWDNVAYGPRSKKLGKGEIRKRVDELLDIVRLTDFAERKPAQLSGGQQQRVALARALVNYPSALLLDEPLGALDLKLRHVMQFELKRIQREVGITFIYVTHDQEEALTMSDRIAVMNAGNVEQIGTPTEIYDRPATVFVASFIGQANLWAGRQTGRANRDYVEVDVLGSTLKARPGETTIEPGGHATLM-VRPERIRVSMDAPT--GDVAAVRATVSDLTFQGPVVRLSLAAPDDSTVIAHV-GPEQDLPLLRP---GDDVFVSW</Hsp_hseq>
+      <Hsp_midline>++I  + K FGD  AV + D  I   E F++LG SG GK+T LRM+AG E+P +G I L+G D+++  P  R +N +FQ YALFPHMTV  N+A+G +  K+ KGEI  RV+E+L +V++T FA+RKP QLSGGQQQR+ALAR+L   P  LLLDEPLGALD KLR   Q EL     +VG+T I VTHDQEEA+TM+ RIA+M+ G ++Q+GTP+++YD P + F A FIG+ N++ G      + DY  ++  G     R       P      + +RPE I +  + P   GD    + TV ++ + G      +   +   V + V  P   +  + P    + V++SW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81830530|sp|Q72FW5.1|POTA_DESVH</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Desulfovibrio vulgaris str. Hildenborough]</Hit_def>
+  <Hit_accession>Q72FW5</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>8.22771e-88</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADY---AVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLY---KEKPEYLGDYNWAKGTVKEIAYLGSFAIYHIKLANGRVVKSQVPAPYWYVRNITPPTWD--ETVYISW</Hsp_qseq>
+      <Hsp_hseq>IELRGVTKNFEDTCALDNIDLEIRNGEFLTLLGPSGCGKTTILRLISGFEKPDAGVITLKGQRMDDAPPEARQVNTVFQNYALFPHMSVRENVGFGLRMQRRPKDEIARRVHDALRMVHLEAHADRRPRQLSGGQQQRVAIARAVVNNPLVLLLDEPFSALDYKLRKQMQLEIKHLQRQLGITFVFVTHDQEEAFAMSDRVVVMNDGKIEQIGSPQEIYEEPANLYVARFVGEINILNAVIAANHGDGLYDAVI--EGVTFPIRSQRTF-APGDK-VNVLLRPEDLRVYTLTEDRPA--GPH--LTGRIEESVYKGATVDLIVTLSDGR----RLMAAEFFNEDDVDINYNPGETVTVSW</Hsp_hseq>
+      <Hsp_midline>++++G+ K F D  A+DNIDL+I   E   LLG SG GK+T+LR+++G E P+ G I L GQ +    P  R +N +FQ+YALFPHM+V +N+ FGL+  + PK EI  RV + LR+V +   A R+P QLSGGQQQR+A+AR++   P +LLLDEP  ALD KLR+Q QLE+ +   Q+G+T + VTHDQEEA  M+ R+ +M+DG+++Q+G+P ++Y+ P + + A F+GE NI + V+  NH D    AVI  EG+   +R       P ++ + V +RPED+ +Y   +++P   G +    G ++E  Y G+     + L++GR    ++ A  ++  +     ++  ETV +SW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|146345487|sp|P45171.2|POTA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45171</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>2.06973e-87</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>KPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVI-ECEGLENHVRIDHGLGGPSEQD--LWVSIRPEDI</Hsp_qseq>
+      <Hsp_hseq>KPIIELRSIKKSYGSNTIINDFNLTINNGEFVTILGPSGCGKTTVLRLLAGLEELDSGSIILDGEDITNVPAEKRHINTVFQSYALFPHMTIFENVAFGLRMQKVPNEEIKPRVLEALRMVQLEEMADRKPTQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQQELKMLQRQLGITFIFVTHDQEEAITMSDRIVLLRKGKIAQDGSPREIYEDPANLFVARFIGEINVFEATVIERKSEQVVLANVEGRICDIYTDM----PVEKDQKLQVLLRPEDI</Hsp_hseq>
+      <Hsp_midline>KP ++++ + K +G N  +++ +L I   E   +LG SG GK+T+LR+LAG+E  + G IILDG+DIT +    R IN +FQSYALFPHMT+ +N+AFGL+  K+P  EI  RV E LR+VQ+ + A RKP QLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q EL     Q+G+T I VTHDQEEA+TM+ RI ++  G++ Q G+P ++Y+ P + F A FIGE N+F+  VIE  ++  V+   EG    +  D     P E+D  L V +RPEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|146325069|sp|Q4QK57.2|POTA_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QK57</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>2.43049e-87</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>KPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVI-ECEGLENHVRIDHGLGGPSEQD--LWVSIRPEDI</Hsp_qseq>
+      <Hsp_hseq>KPIIELRSIKKSYGSNTIINDFNLAINNGEFVTILGPSGCGKTTVLRLLAGLEELDSGSIILDGEDITNVPAEKRHINTVFQSYALFPHMTIFENVAFGLRMQKVPNEEIKPRVLEALRMVQLEEMADRKPTQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQQELKMLQRQLGITFIFVTHDQEEAITMSDRIVLLRKGKIAQDGSPREIYEDPANLFVARFIGEINVFEATVIERKSEQVVLANVEGRICDIYTDM----PVEKDQKLQVLLRPEDI</Hsp_hseq>
+      <Hsp_midline>KP ++++ + K +G N  +++ +L I   E   +LG SG GK+T+LR+LAG+E  + G IILDG+DIT +    R IN +FQSYALFPHMT+ +N+AFGL+  K+P  EI  RV E LR+VQ+ + A RKP QLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q EL     Q+G+T I VTHDQEEA+TM+ RI ++  G++ Q G+P ++Y+ P + F A FIGE N+F+  VIE  ++  V+   EG    +  D     P E+D  L V +RPEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|146325080|sp|Q9CP06.2|POTA_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CP06</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>3.19248e-87</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>KPYLQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDI</Hsp_qseq>
+      <Hsp_hseq>KPIIELRSITKSYGDKTIIENFNLTINNGEFLTILGPSGCGKTTVLRLLAGLEELDSGNIILDGEDITHVPAEQRHVNTVFQSYALFPHMTIFENVAFGLRMQKVPNEEIKPRVLEALRMVQLEEYAYSKPAQLSGGQQQRIAIARAVVNKPKVLLLDESLSALDYKLRKQMQNELKALQRKLGITFIFVTHDQEEALTMSDRIIVLRKGHIQQDGSPREIYEEPKNLFVAKFIGEINIFNATVL-TRVDEKRVRANVEGRVCDIYTNLDVVAEQKLKVLLRPEDI</Hsp_hseq>
+      <Hsp_midline>KP ++++ + K +GD   ++N +L I   E   +LG SG GK+T+LR+LAG+E  + G IILDG+DIT +    R +N +FQSYALFPHMT+ +N+AFGL+  K+P  EI  RV E LR+VQ+ ++A  KP QLSGGQQQRIA+AR++  +PK+LLLDE L ALD KLR+Q Q EL     ++G+T I VTHDQEEA+TM+ RI ++  G +QQ G+P ++Y+ P + F A+FIGE NIF+  V+    D   +          I   L   +EQ L V +RPEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|81838694|sp|Q82TL6.1|POTA_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Spermidine/putrescine import ATP-binding protein PotA [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82TL6</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>3.36677e-87</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>LQIQGLVKKFGDNYAVDNIDLDIYQNEIFALLGSSGSGKSTLLRMLAGMESPNQGKIILDGQDITKLAPYDRPINMMFQSYALFPHMTVEQNIAFGLKQDKMPKGEIDARVEEMLRLVQMTKFAKRKPHQLSGGQQQRIALARSLAKRPKILLLDEPLGALDKKLRQQTQLELVNTLEQVGVTCIMVTHDQEEAMTMATRIAIMSDGQLQQVGTPSDVYDYPNSRFTAEFIGETNIFDGVVIENHADYAVIECEGLENHVRIDHGLGGPSEQDLWVSIRPEDIDLYKEKPEYLGDYNWAK---------GTVKEIAYLGSFAIYHIKLANGRVVKS</Hsp_qseq>
+      <Hsp_hseq>LELRDVTRRFGDFTAVDCVNLSIEAGELFTLLGPSGCGKTTLLRMIAGFDVPDSGQILLDGQDIANTPPEKRPIHTVFQSYALFPHMTVADNVAFPLKMSGKTPAEIKKRVEKALEEVQLSRFTHRFPHELSGGQKQRVAFARGLINRPRLLLMDEPLGALDAKLREDMQRELISLQKEVGITFVFVTHSQDEALALSQRIAVMNQGQVEQIGEPSVIYSHPANRFIADFIGKINLMAARVTQVSDNDMTLEIDQL-----------GTTTLPLKQGIKTGDQGVMAIRPEQVSVHALARHAELPHAHTGKVLDFLYVGDVTTYIVELDCGIRVEA</Hsp_hseq>
+      <Hsp_midline>L+++ + ++FGD  AVD ++L I   E+F LLG SG GK+TLLRM+AG + P+ G+I+LDGQDI    P  RPI+ +FQSYALFPHMTV  N+AF LK       EI  RVE+ L  VQ+++F  R PH+LSGGQ+QR+A AR L  RP++LL+DEPLGALD KLR+  Q EL++  ++VG+T + VTH Q+EA+ ++ RIA+M+ GQ++Q+G PS +Y +P +RF A+FIG+ N+    V +   +   +E + L           G +   L   I+  D  +   +PE +  +  A+         G V +  Y+G    Y ++L  G  V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

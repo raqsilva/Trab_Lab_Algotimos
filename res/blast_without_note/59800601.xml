@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800601|ref|YP_207313.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>Na(+)/H(+) antiporter [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>459</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800601|ref|YP_207313.1|</Iteration_query-ID>
+  <Iteration_query-def>Na(+)/H(+) antiporter [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>459</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|298286910|sp|P27611.3|NHAC_BACPE</Hit_id>
+  <Hit_def>RecName: Full=Na(+)/H(+) antiporter NhaC; AltName: Full=Sodium/hydrogen antiporter; AltName: Full=Sodium/proton antiporter [Bacillus pseudofirmus OF4]</Hit_def>
+  <Hit_accession>P27611</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>5.14735e-99</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>459</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>PHMSIIAAIVVLILYGLARGLKYNDMQAGMIGALNQGMGAVYLFFFIGLMVSALMMSGAIPTLMYYGFGLISPTYFYFSAFALCSVIGVSIGSSLTACATVGVAFMGMAAAFQADMAMTAGAIVSGVFFGDKMSPLSDTTGISASIVGIDLFEHIKNMMYTTIPAWLISAALMLWLLPSVAAQDLNSVESFRSQLEATGLVHGYSLIPFALLVVLALMRVNAVVAMLFTVIAA-VAVTYLHSTPDLRQLGAWFYGGYKLEGEAFKDIAKLISRGGLESMFFTQTIVILGMSLGGLLFALGVIPSLLEAVRTFLTNAGRATFSVAMTSVGVNFLIGEQYLSILLSGETFKPVYDKLGLHSCNLSRTLEDAGTVINPLVPWSVCGVFISHALGVPVWEYLPYAFFCYLSLALTLLFGWTGLTLSKK</Hsp_qseq>
+      <Hsp_hseq>PHIPLVVCLLIAAVFGRYLRVGWNDLESAMIDGLKIGIKPIFILALVGIVIAVWMMSGTVPTLLFYGLSIISPEWFAVSTLLICMIVSSFTGSSFTTVGTIGVAMMGIGTALGIDPAIAAGAVVCGACFGDKMSPLSDTTNFAPGIVGVDLFDHIRHLLWTTVPSFVITVILFLMIGRSQATSTTQDIQAMLTALDSQFTLSVLTLLSPLLVVILAMRRFPTIPVLVVGILTGIITAAFVQGNADVARWFTIIQNGFSME-TGNEVIDGIVNRGGLQSMMWSISLVMIALTLGGVIQRIGVIDTLLQSLTRKLSSRGHLIAATATSSIGVNVVTGEQYLSILLPGKTFESFYTKLNVAKKNLSRTLEDAGTLVNPLIPWGVSGAFFASTLGVDVIDYLPFAFFLFLSPFMTILFGYLGIGVGKE</Hsp_hseq>
+      <Hsp_midline>PH+ ++  +++  ++G    + +ND+++ MI  L  G+  +++   +G++++  MMSG +PTL++YG  +ISP +F  S   +C ++    GSS T   T+GVA MG+  A   D A+ AGA+V G  FGDKMSPLSDTT  +  IVG+DLF+HI+++++TT+P+++I+  L L +  S A      +++  + L++   +   +L+   L+V+LA+ R   +  ++  ++   +   ++    D+ +       G+ +E    + I  +++RGGL+SM ++ ++V++ ++LGG++  +GVI +LL+++   L++ G    + A +S+GVN + GEQYLSILL G+TF+  Y KL +   NLSRTLEDAGT++NPL+PW V G F +  LGV V +YLP+AFF +LS  +T+LFG+ G+ + K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|27734431|sp|O07553.1|NHAC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Na(+)/H(+) antiporter NhaC; AltName: Full=Sodium/hydrogen antiporter; AltName: Full=Sodium/proton antiporter [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O07553</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>5.52526e-86</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>PHMSIIAAIVVLILYGLARGLKYNDMQAGMIGALNQGMGAVYLFFFIGLMVSALMMSGAIPTLMYYGFGLISPTYFYFSAFALCSVIGVSIGSSLTACATVGVAFMGMAAAFQADMAMTAGAIVSGVFFGDKMSPLSDTTGISASIVGIDLFEHIKNMMYTTIPAWLISAALMLWLLPSVAAQDLNSVESFRSQLEATGLVHGYSLIPFALLVVL-----ALMRVNAVVAMLFTVIAAVAVTYLHST-PDLRQLGAWFYGGYKLEGEAFKDIAKLISRGGLESMFFTQTIVILGMSLGGLLFALGVIPSLLEAVRTFLTNAGRATFSVAMTSVGVNFLIGEQYLSILLSGETFKPVYDKLGLHSCNLSRTLEDAGTVINPLVPWSVCGVFISHALGVPVWEYLPYAFFCYLSLALTLLFGW</Hsp_qseq>
+      <Hsp_hseq>PHIPLFLSVVMLSAAALWFGFPWKSIEKGIVDGIKNGVQPIIVLALIGILIGAWMYSGAIPTMTVYALSFIEPSHLLLTALFSCMIISTLVGSSLTTVSTIGVALIGVASAAGVPLEWTAGAVICGACFGDKMSPMSDTTNFAAGIGEIPIFEHIRHMMGTTIPALLITVVLFYFLGSSVSA-DAASTDNIQQVI--TGIKDAANVTPWALLSPLLVVLLAMKRVSVIPVLTAGIISSGILTAIFVPYSSLQAFMTALQNGTTFETDN-EAAAKIINRGGLQSMMGSVSLIMIAFALGGLMEKIGLISALLEGVMKGIRSKGRLVAATVCSSIGVNLATGEQYLSILIPGQSFKSLYDKRNIQRKFLTRSLEDGGTLINPLIPWGVSGAFMASALGVPVIDYIPFTFFLYISPMISILIGF</Hsp_hseq>
+      <Hsp_midline>PH+ +  ++V+L    L  G  +  ++ G++  +  G+  + +   IG+++ A M SGAIPT+  Y    I P++   +A   C +I   +GSSLT  +T+GVA +G+A+A    +  TAGA++ G  FGDKMSP+SDTT  +A I  I +FEHI++MM TTIPA LI+  L  +L  SV+A D  S ++ +  +  TG+    ++ P+ALL  L     A+ RV+ +  +   +I++  +T +      L+        G   E +  +  AK+I+RGGL+SM  + +++++  +LGGL+  +G+I +LLE V   + + GR   +   +S+GVN   GEQYLSIL+ G++FK +YDK  +    L+R+LED GT+INPL+PW V G F++ ALGVPV +Y+P+ FF Y+S  +++L G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1731094|sp|P54571.1|MLEN_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Malate-2H(+)/Na(+)-lactate antiporter [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54571</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>2.1103e-64</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>453</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>ILYGLARGLKYNDMQAGMIGALNQGMGAVYLFFFIGLMVSALMMSGAIPTLMYYGFGLISPTYFYFSAFALCSVIGVSIGSSLTACATVGVAFMGMAAAFQADMAMTAGAIVSGVFFGDKMSPLSDTTGISASIVGIDLFEHIKNMMYTTIPAWLISAAL--MLWLLPSVAAQDLNSVESFRSQLEATGLVHGYSLIPFALLVVLALMRVNAVVAMLFTVIAAVAVTYLHSTPDLRQLGAWFYGGYKLEGEAFKDIAKLISRGGLESMFFTQTIVILGMSLGGLLFALGVIPSLLEAVRTFLTNAGRATFSVAMTSVGVNFLIGEQYLSILLSGETFKPVYDKLGLHSCNLSRTLEDAGTVINPLVPWSVCGVFISHALGVPVWEYLPYAFFCYLSLALTLLFGWTG</Hsp_qseq>
+      <Hsp_hseq>MLLGIRLGYSYKDLQNAIVHGISNGLEAVLILVSVGALIGTWIAGGVVPTLIYYGLEFIHPSIFLLATLIICSIMSVATGTSWGTVGTAGIAMIAIGEGLGIPLPLVAGAILSGAYFGDKLSPLSDSTVLASSLSKVDVLAHVRAMLYLSIPAYVITAILFTVVGFMYGGKNIDLDKVEFLKSSLQNTFDIHIWMLIPAVLVIVLLAMKKPSMPVIVIGALLGAIWAVVFQGMDIAHAIATAYNGFSIKTDV-EFLNGLLNRGGIVGMLDSLVVIIFGLGFGGLLEKLGVLKVIVSTFEKKLTSAGNVTLSTLIVAFLANIFGCAMYVSLILTPKIMEDSYDRLHLDRRVLSRNSEVGGTLTSGMVPWSDNGIYMAGILGVSTFSYLPFMWLSFVAIGLAIIYGYTG</Hsp_hseq>
+      <Hsp_midline>+L G+  G  Y D+Q  ++  ++ G+ AV +   +G ++   +  G +PTL+YYG   I P+ F  +   +CS++ V+ G+S     T G+A + +       + + AGAI+SG +FGDK+SPLSD+T +++S+  +D+  H++ M+Y +IPA++I+A L  ++  +      DL+ VE  +S L+ T  +H + LIP  L++VL  M+  ++  ++   +       +    D+    A  Y G+ ++ +  + +  L++RGG+  M  +  ++I G+  GGLL  LGV+  ++      LT+AG  T S  + +   N      Y+S++L+ +  +  YD+L L    LSR  E  GT+ + +VPWS  G++++  LGV  + YLP+ +  ++++ L +++G+TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2498052|sp|Q57007.1|Y1107_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized Na(+)/H(+) antiporter HI_1107 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57007</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.61001e-57</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>GLKYNDMQAGMIGALNQGMGAVYLFFFIGLMVSALMMSGAIPTLMYYGFGLISPTYFYFSAFALCSVIGVSIGSSLTACATVGVAFMGMAAAFQADMAMTAGAIVSGVFFGDKMSPLSDTTGISASIVGIDLFEHIKNMMYTTIPAWLISAALMLWLLPSVAAQDLNSVESFRSQLEATGLVHGYS---LIPFALLVVLALMRVNAVVAMLFTVIAAVAVTYLHSTPDLRQLGAWFYGGYKL----EGEAFKDIAKLISRGGLESMFFTQTIVILGMSLGGLLFALGVIPSLLEAVRTFLTNAGRATFSVAMTSVGVNF-LIG---EQYLSILLSGETFKPVYDKLGLHSCNLSRTLEDAGTVINPLVPWSVCGVFISHALGVPVWEYLPYAFFCYLSLALTLLFGWTGLTLSK</Hsp_qseq>
+      <Hsp_hseq>GHCYLDILDAISEKIAKTMPALLILITVGLLIGTWISGGTIPMMIYYGLKAISPEYLYVTALFLTAIVSICTGTSWGSAGTVGVAFMGVAIGLDANLAATAGAVVAGAYFGDKLSPLSDTTNIASAAAGVDLYEHIAHLLYTTLPSFILSATVYVVYGLNYDFSNVATPEKVNTMIHELEQVYHFNFLLLIPVAIVLWGSITKKPTIPVMLLSAFIAIINAILIQKFSLSDVINSAVNGFDTSMIHHTSVSSDLSRLLNRGGMNSMMGTLLICFCALSFAGVLQLSGALTVIIQKLLTFV----HSTLSLIITTILCGLTMIGVTCNGQISILIPGEMLKNAYVEKGLHPKNLSRTAEDSATIIEPILPWTAAGAYMAGTLGVATLSYLPWAILCWSGIIFAIIYGASGIGIAK</Hsp_hseq>
+      <Hsp_midline>G  Y D+   +   + + M A+ +   +GL++   +  G IP ++YYG   ISP Y Y +A  L +++ +  G+S  +  TVGVAFMG+A    A++A TAGA+V+G +FGDK+SPLSDTT I+++  G+DL+EHI +++YTT+P++++SA + +    +    ++ + E   + +     V+ ++   LIP A+++  ++ +   +  ML +   A+    L     L  +      G+            D+++L++RGG+ SM  T  I    +S  G+L   G +  +++ + TF+     +T S+ +T++     +IG      +SIL+ GE  K  Y + GLH  NLSRT ED+ T+I P++PW+  G +++  LGV    YLP+A  C+  +   +++G +G+ ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|74568509|sp|Q9HHN1.1|ARCD_HALSA</Hit_id>
+  <Hit_def>RecName: Full=Arginine/ornithine antiporter ArcD [Halobacterium sp. NRC-1] &gt;gi|342161934|sp|B0R9X2.1|ARCD_HALS3 RecName: Full=Arginine/ornithine antiporter ArcD [Halobacterium salinarum R1]</Hit_def>
+  <Hit_accession>Q9HHN1</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>9.7015e-57</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>459</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>GEALAVVVALIA--AMGYTIISLE-WLPHMSIIAAIVVLILYGLARGLKYNDMQAGMIGALNQGMGAVYLFFFIGLMVSALMMSGAIPTLMYYGFGLISPTYFYFSAFALCSVIGVSIGSSLTACATVGVAFMGMAAAFQADMAMTAGAIVSGVFFGDKMSPLSDTTGISASIVGIDLFEHIKNMMYTTIPAWLISAAL--MLWLLPSVAAQDLNSVESFRSQLEATGLVHGYSLIPFALLVV-----LALMRVNAVVAMLFTVIAAVAVTYLHSTPDLRQLGAWFYGGYKLEGEAFKDIAKLISRGGLESMFFTQTIVILGMSLGGLLFALGVIPSLLEAVRTFLTNAGRATFSVAMTSVGVNFLIGEQYLSILLSGETFKPVYDKLGLHSCNLSRTLEDAGTVINPLVPWSVCGVFISHALGVPVWEYLPYAFFCYLSLALTLLFGWTGLTLSKK</Hsp_qseq>
+      <Hsp_hseq>GQALLPIAGMITFLAVGIVLLGLDAQMPLLWGIAFTGVIARYGW--GYTWDELFDGISNSIVMGLGAIFILFIIYMLIASWVDAGTIPFIMYWGLEFLTPAVFVPLAALLSFVVATAIGSSWTTAGSLGIALVGIGSGLGIPAPLTAGAILSGVYMGDKQSPLSDTTLLASGVSDVDLWDHVRGMFPNTIIVGVISLALYAVLGLMAETGGTGGTGAEVAQIQ---GGLAGTYTLSVLVLLPLVITFGLAIKGYPALPSLGAGVFSAAGVSILIQGRGFAEAWQIIYSGTGPK-TGVDLVNNLLSTGGLEGSIWVITIVFGALSIGGILEATGVLSVIAHNTAKAVDSVGGATLVTALGPLVINALTADQYMSIVIPGMTFRDLNDEYDLDGTSLSRTLEETGTVSEPMIPWNSGGVFMASALGVPVLSYLPYYFVGILSPILVVIMGFTGWKMYMK</Hsp_hseq>
+      <Hsp_midline>G+AL  +  +I   A+G  ++ L+  +P +  IA   V+  YG   G  ++++  G+  ++  G+GA+++ F I +++++ + +G IP +MY+G   ++P  F   A  L  V+  +IGSS T   ++G+A +G+ +       +TAGAI+SGV+ GDK SPLSDTT +++ +  +DL++H++ M   TI   +IS AL  +L L+           E  + Q    GL   Y+L    LL +     LA+    A+ ++   V +A  V+ L       +     Y G   +      +  L+S GGLE   +  TIV   +S+GG+L A GV+  +       + + G AT   A+  + +N L  +QY+SI++ G TF+ + D+  L   +LSRTLE+ GTV  P++PW+  GVF++ ALGVPV  YLPY F   LS  L ++ G+TG  +  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

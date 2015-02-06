@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800626|ref|YP_207338.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>ABC transporter ATP-binding protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>251</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800626|ref|YP_207338.1|</Iteration_query-ID>
+  <Iteration_query-def>ABC transporter ATP-binding protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>251</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14195266|sp|P96117.1|TROB_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Zinc transport system ATP-binding protein TroB [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>P96117</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>5.44641e-54</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>SIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGL----TRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQA</Hsp_qseq>
+      <Hsp_hseq>AVQVDDLTLAYRQKPVLWDVDVRIPEGVIEAIIGPNGAGKSTLLKAIMGLLPLASGEVRVFGRPFSKERRRVAYVPQRSAVDWDFPTTVFDVVLMGSYGSLGWILRPGKREKARAREAIEEVGMGAFLDRQISELSGGQQQRVFLARALVQDADLYFMDEPFQGVDAATEQAIVTLLKTLKGRGKTLLVVHHDLQTVAEYFDRVLLLNVRVIAEGAVVSAFTEEYVQRA</Hsp_hseq>
+      <Hsp_midline>++ V++LT++YR++P +  VD+   E  + A+ GPNGAGKST LK++MGL P+ +G +R+ G      R+ +AY+PQ+S +D   P TVFD+  MG +  +G+       +K R  EA+E VGM  F  RQI+ LS GQ QRV  AR LVQ+A    +DEPF  VDA T   ++ +L+     G  ++ V HD + V  YF   LLL    IA GA  +  TE Y+ +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20455061|sp|Q92AF9.1|MNTB_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system ATP-binding protein MntB [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92AF9</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.81596e-53</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG--LT--RQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYL</Hsp_qseq>
+      <Hsp_hseq>IQGLTIAYKQKVAIDDVTLQIATGKLTGIVGPNGAGKSTLLKGMMGLVPREKGQVTLDNKPLTYWRKKIAYVPQRSEVDLTFPITVFDMVLLGTYPALGLIKRPGKKEKQLAFDALEQVEMTAFSKRQIGELSGGQLQRVFIARALAQHAEIFFLDEPFAGIDMASEALIMKLLKKLRDNGKTIVVVHHDFHKVAAYFDDIILLNKKLVAHGPVEQTFTEEKI</Hsp_hseq>
+      <Hsp_midline>++ LT++Y+++ A+  V +      +  + GPNGAGKST LK +MGL P + G + LD   LT  R+ IAY+PQ+S++D + P+TVFD+  +G +  +G  K     +KQ   +ALE+V M  F++RQI  LS GQ QRV  AR L Q+A+   LDEPF  +D  +   ++ +L+K    G  I+ V HD+ +V AYF + +LL ++ +A G  E   TE  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20455052|sp|Q8Y651.1|MNTB_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system ATP-binding protein MntB [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y651</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>3.82513e-51</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRL--DGLT--RQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYL</Hsp_qseq>
+      <Hsp_hseq>IQGLTIAYKQKVAIDNVTLQIASGKLTGIVGPNGAGKSTLLKGMMGLIPREQGQVTLADKPLTYWRKKIAYVPQRSEVDLTFPITVFDMVLLGTYPALGLIKRPGKKEKQLALDALEQVEMTGFMKRQIGELSGGQLQRVFIARALAQHAEIFFLDEPFAGIDMTSEALIMRLLKKLRDNGKTIVVVHHDFHKVAAYFDDIILLNKKLVAHGPVEQTFTEEKI</Hsp_hseq>
+      <Hsp_midline>++ LT++Y+++ A+ +V +      +  + GPNGAGKST LK +MGL P + G + L    LT  R+ IAY+PQ+S++D + P+TVFD+  +G +  +G  K     +KQ   +ALE+V M  F +RQI  LS GQ QRV  AR L Q+A+   LDEPF  +D  +   ++ +L+K    G  I+ V HD+ +V AYF + +LL ++ +A G  E   TE  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1176910|sp|P42360.1|YSC1_STRGN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ABC transporter ATP-binding protein in scaA 5&apos;region; AltName: Full=ORF1 [Streptococcus gordonii]</Hit_def>
+  <Hit_accession>P42360</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>5.02058e-48</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GIGMSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPID-TGSIRLDG--LTRQ--NIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQA</Hsp_qseq>
+      <Hsp_hseq>GVIYMIEIQNLSVSYQGQLALDKANVTIKGPTITGIIGPNGAGKSTLIKGLLGI--VDHQGQALLDGQPLDKELKRIAYVEQKINIDYNFPIKVKECVSLGLYPKIKLFQRLKTSDWDKVNQALKIVGLEDFAERQISQLSGGQFQRVLIARCLVQEADYIFLDEPFVGIDSVSEEIIMKTLRQLRKDGKTILIVHHDLSKVVAYFDQVLLLNKKVVAFGSTESTFTKENMQQT</Hsp_hseq>
+      <Hsp_midline>G+   I ++NL+VSY+ + A+   ++T +  ++  + GPNGAGKST +K L+G+  +D  G   LDG  L ++   IAY+ Q+ +ID + P+ V +  ++GL+ +I  F+ + T+   +V++AL+ VG+  FA RQI+ LS GQFQRVL AR LVQ A ++ LDEPF  +D+ +   ++  L++    G  I+ V HD  +V AYF   LLL ++ +A G+TE+  T+  + Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|14916931|sp|O34338.1|MNTB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system ATP-binding protein MntB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34338</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>2.90832e-46</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLT----RQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILT</Hsp_qseq>
+      <Hsp_hseq>LDNVTVAYHKKPVLQDISLQVPEGKLIGIIGPNGAGKSTLIKTILGLVPRASGDISIYGKDYKDQRTRIGYVPQRGSVDWDFPTSPLDVVLMGRYGRIGLLKRPKKADVEMAKAALTKVGMHDYAKRQISQLSGGQQQRVFLARALCQNADIYFMDEPFAGVDAATERAIMTLLAELKEKGKTVLVVHHDLQTAEDYFDWILLLHLRKIAFGPTENVFT</Hsp_hseq>
+      <Hsp_midline>++N+TV+Y ++P +  + +   E  +  + GPNGAGKST +K+++GL P  +G I + G      R  I Y+PQ+  +D   P +  D+  MG +  IG  K    A  +    AL +VGM  +A+RQI+ LS GQ QRV  AR L QNA    +DEPF  VDA T   ++ +L +    G  ++ V HD +    YF   LLL   KIA G TE + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|14195324|sp|O84071.1|Y068_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system ATP-binding protein CT_068 [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84071</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>7.56013e-46</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG----LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQA</Hsp_qseq>
+      <Hsp_hseq>VEDLCVNYDHSDVLCHITFSLPAGAMAAIIGPNGAGKSTLLKASLGLIRASSGQSLFFGQRFSKVHHRIAYMPQRASVDWDFPMTVLDLVLMGCYGYKGIWNRISTDDRQEAMRILERVGLEAFANRQIGKLSGGQQQRAFLARSLMQKADLYLMDELFSAIDMASYQMVVDVLQELKSEGKTIVVIHHDLSNVRKLFDHVILLNKHLVCSGSVEECLTKEAIFQA</Hsp_hseq>
+      <Hsp_midline>VE+L V+Y     + H+  +    +M A+ GPNGAGKST LK+ +GL    +G     G         IAY+PQ++ +D   PMTV DL  MG +   G +  I+T  +Q     LERVG+  FA RQI  LS GQ QR   AR L+Q A   L+DE F+A+D  +   ++DVLQ+    G  I+ + HD   VR  F + +LL +  + +G+ E  LT+  + QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14195340|sp|Q9PKX1.1|Y339_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system ATP-binding protein TC_0339 [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PKX1</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>3.99968e-45</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG----LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQA</Hsp_qseq>
+      <Hsp_hseq>VDDLCVNYDHSDVLCHIAFSLPSGAMAAIIGPNGAGKSTLLKASLGLIRASSGQSLFFGQKFAKVHQRIAYMPQRASVDWDFPMTVLDLVLMGCYGYKGMWNRISTGDRREAMNILERVGLADFANRQIGKLSGGQQQRAFLARSLMQKADLYLMDELFSAIDMASYRMVVDVLQDLKKEGKTIVVIHHDLSNVRQLFDHVILLNKHLVCSGSVEKCLTKEAIFQA</Hsp_hseq>
+      <Hsp_midline>V++L V+Y     + H+  +    +M A+ GPNGAGKST LK+ +GL    +G     G       Q IAY+PQ++ +D   PMTV DL  MG +   G +  I+T  ++     LERVG+  FA RQI  LS GQ QR   AR L+Q A   L+DE F+A+D  +   ++DVLQ     G  I+ + HD   VR  F + +LL +  + +G+ E  LT+  + QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2492541|sp|Q55281.1|MNTA_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system ATP-binding protein MntA [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55281</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>1.59361e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRR-RPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMG-LQPIDTGSIRLDGLTRQN------IAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYL</Hsp_qseq>
+      <Hsp_hseq>LDISVDGVSVTYNNARLALYNATCTVEPGTITALVGPNGSGKSTLFKSIMGFLQP-SQGRVRIGGFSVQKAQKQQLMAYVPQADEVDWNFPVSVFDVVMMGRYGYMNVLRIPSAKDRRLVMESLERVGMVKYRDRQIGELSGGQKKRAFLARALAQEGKVILLDEPFTGVDVKTEKGMIDLLMELRDEGHTILISTHDLASISTFCDHTILLNRTILAQGKTEETFTKENL</Hsp_hseq>
+      <Hsp_midline>+ I V+ ++V+Y   R A+++   T E  ++ A+ GPNG+GKST  KS+MG LQP   G +R+ G + Q       +AY+PQ  ++D + P++VFD+  MG +  +   +  +   ++ V E+LERVGM ++  RQI  LS GQ +R   AR L Q  K +LLDEPF  VD +T   ++D+L +    GH I+   HD   +  +  +T+LL R  +A G TE   T+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|14195421|sp|Q9Z8J5.1|Y348_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system ATP-binding protein CPn_0348/CP_0412/CPj0348/CpB0355 [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z8J5</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.95329e-43</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG----LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQA</Hsp_qseq>
+      <Hsp_hseq>VHNLCVNYEHAAVLYHISFSLGKGSLTAILGPNGAGKSTLLKASLGLIKPSSGTVYFFNQKFKKVRQRIAYMPQRASVDWDFPMTVLDLALMGCYSYKGMWGRISSDDRREAFHILERVGLESVADRQIGQLSGGQQQRAFLARALMQKADLYLMDELFSAIDMASFKTSVGVLQELRDQGKTIVVVHHDLSHVRQLFDHVVLLNKRLICCGPTDECLNGDTIFQT</Hsp_hseq>
+      <Hsp_midline>V NL V+Y     ++H+  +  + S+ A+ GPNGAGKST LK+ +GL    +G++          RQ IAY+PQ++ +D   PMTV DLA MG +   G +  I++  ++     LERVG+   A RQI  LS GQ QR   AR L+Q A   L+DE F+A+D  +    + VLQ+    G  I+ V HD   VR  F + +LL +  I  G T+  L    + Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20455071|sp|Q9KD30.1|MNTB_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Manganese transport system ATP-binding protein MntB [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KD30</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.40919e-42</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIR-LDGLTR---QNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQA</Hsp_qseq>
+      <Hsp_hseq>VDNLSVFYEQHQAIKNIRFQAGPGQMIGILGPNGAGKSTLMKAILGLERY-TGTVKVLDKHVRHVRKQIAYVPQRNAIDWDFPVLVEDVVMMGRFAHIPWFKRAGKNDKRLVEESLKKVGMEEYRSRQIGELSGGQQQRVFIARALAQESELFFLDEPFVGIDVTSESIILSLLQELRDRGKTIFVVHHDLSKVEKYFDQVLMLNKELIAYGPVADVYTPEMVAKT</Hsp_hseq>
+      <Hsp_midline>V+NL+V Y +  A+ ++        M  + GPNGAGKST +K+++GL+   TG+++ LD   R   + IAY+PQ++ ID   P+ V D+  MG +  I +FK      K+ V E+L++VGM ++  RQI  LS GQ QRV  AR L Q ++   LDEPF  +D  +   +L +LQ+    G  I  V HD  +V  YF   L+L +E IA G    + T   +A+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1169664|sp|P44662.1|Y361_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable iron transport system ATP-binding protein HI_0361 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44662</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.53328e-42</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LGGIGMSIIVENLTVSYRR-RPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRL------DGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYL</Hsp_qseq>
+      <Hsp_hseq>MDSFSTSIWVNDVTVRYNNGHTAIHNMTFSLNSGTICALVGVNGSGKSTLFKSIMGLVKPQQGEIKLCDLPISQALKRNLVAYVPQSEEVDWQFPVSVYDVVMMGRYGYMNFLRIPKAIDKQKVQEAMQRVNIEHLAHRQIGELSGGQKKRVFLARALAQQSPIILLDEPFTGVDVKTENAIVDLLQQLREEGHLILVSTHNLGSVPDFCDQVVMINRTVIAAGKTEDTFNQHNL</Hsp_hseq>
+      <Hsp_midline>+     SI V ++TV Y     A+H++  +    ++ A+ G NG+GKST  KS+MGL     G I+L        L R  +AY+PQ  ++D   P++V+D+  MG +  + F +      KQ+V EA++RV +   A RQI  LS GQ +RV  AR L Q +  +LLDEPF  VD +T   ++D+LQ+    GH I+   H+   V  +    +++ R  IAAG TE    +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|14195562|sp|Q56953.1|YFEB_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Chelated iron transport system membrane protein YfeB [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q56953</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.29902e-39</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRR-RPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLD------GLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYL</Hsp_qseq>
+      <Hsp_hseq>LVVDNVTVTYNNGHTAIYDASFSLTGGTICALVGVNGSGKSTLFKSIMGLVKPSVGKVELSHKPISHALKQNTIAYVPQTEDVDWNFPVLVEDVVMMGRYGKMNFLRIPSREDKAIVNKSIERVGLTALRSRQIGELSGGQKKRVFLARALAQQGTLLLLDEPFTGVDVKTENAIIELLQSLRDEGHLILVSTHNLGSVPEFCDHVILINQTVLAAGPIETTFTQKNL</Hsp_hseq>
+      <Hsp_midline>++V+N+TV+Y     A++    +    ++ A+ G NG+GKST  KS+MGL     G + L        L +  IAY+PQ  D+D + P+ V D+  MG + ++ F +  +   K  V++++ERVG+     RQI  LS GQ +RV  AR L Q    LLLDEPF  VD +T   ++++LQ     GH I+   H+   V  +  + +L+ +  +AAG  ET  T+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1351806|sp|P48334.1|YCXD_CYAPA</Hit_id>
+  <Hit_def>RecName: Full=Probable ABC transporter ATP-binding protein in ycf23-apcF intergenic region; AltName: Full=ORF244 [Cyanophora paradoxa]</Hit_def>
+  <Hit_accession>P48334</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.13162e-36</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMG-LQPIDTGSIRLDGLTRQN----IAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLA</Hsp_qseq>
+      <Hsp_hseq>INNLTVSYPHGTVLQNIFLTIESGKLIGIIGPNGAGKSTLLKTIIEQIKPI-SGEIFYQGAPLKNQRARIGYVPQRAQVDWDFPINVWDVVMMARLKKIGWFSSYSKKSYECVKAALEKVDMLKYKDRNIRELSGGQQQRVFLARLLAQEADLLLLDEPFTGVDFQTQKIIFSLLKEQIASNKIVIVIHHDLGESIINFDELILLNKKIISHDLTTKILNSKKLS</Hsp_hseq>
+      <Hsp_midline>+ NLTVSY     + ++ +T E   +  + GPNGAGKST LK+++  ++PI +G I   G   +N    I Y+PQ++ +D   P+ V+D+  M    +IG+F   +    + V  ALE+V M ++  R I  LS GQ QRV  AR+L Q A  LLLDEPF  VD +T   +  +L++       +I + HD  +    F   +LL ++ I+   T  IL    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|20141007|sp|Q926D8.1|ZURA_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Zinc uptake system ATP-binding protein ZurA [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q926D8</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.83588e-28</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQN------IAYLPQQSD-IDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTT---YELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQASAKM--QQQESPDWC</Hsp_qseq>
+      <Hsp_hseq>IEVNNVSYHYDKEHALENIHFQVEKGSFTGLIGPNGSGKSTMLKLILGVLKKQQGSIALFGEKQADFKDWVKIGFVSQKSNAFNSAFPATVKEVVASGLTKKKGLFKTLNNQDKEAIDYALKRVEMTDYLHRNIGELSGGQQQRVFIARALVSRPELLILDEPTVGVDVENVKAFYELLAELNRTE--EMTLLLVTHDLVAVNTYVNHVISINKRIIFDGSAHEY--QHYLADRELEILAEQRRREDAC</Hsp_hseq>
+      <Hsp_midline>I V N++  Y +  A+ ++    E+ S   + GPNG+GKST LK ++G+     GSI L G  + +      I ++ Q+S+  + + P TV ++ A GL  + G FK +N   K+ +  AL+RV M  +  R I  LS GQ QRV  AR LV   + L+LDEP   VD       YELL  L +       ++ V HD   V  Y  + + + +  I  G+      + YLA    ++  +Q+   D C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|61218502|sp|P0A2U6.1|ADCC_STRPN</Hit_id>
+  <Hit_def>RecName: Full=Zinc transport system ATP-binding protein AdcC [Streptococcus pneumoniae TIGR4] &gt;gi|61218503|sp|P0A2U7.1|ADCC_STRR6 RecName: Full=Zinc transport system ATP-binding protein AdcC [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>P0A2U6</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.88775e-28</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQN----IAYLPQQ-SDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVL-QKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREK</Hsp_qseq>
+      <Hsp_hseq>ITVEDLSFYYDKEPVLEHINYCVDSGEFVTLTGENGAAKTTLIKASLGILQPRIGKVAISKTNTQGKKLRIAYLPQQIASFNAGFPSTVYEFVKSGRYPRKGWFRRLNAHDEEHIKASLDSVGMWEHRDKRLGSLSGGQKQRAVIARMFASDPDVFILDEPTTGMDAGSKNEFYELMHHSAHHHGKAVLMITHDPEEVKDYADRNIHLVRNQ</Hsp_hseq>
+      <Hsp_midline>I VE+L+  Y + P + H++   +      + G NGA K+T +K+ +G+     G + +     Q     IAYLPQQ +  +   P TV++    G +   G+F+ +N   ++ +  +L+ VGM +   +++  LS GQ QR + ARM   +    +LDEP   +DA +  E  +++    H  G A++ + HD E+V+ Y    + L R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|119370735|sp|Q28QF9.1|HMUV_JANSC</Hit_id>
+  <Hit_def>RecName: Full=Hemin import ATP-binding protein HmuV [Jannaschia sp. CCS1]</Hit_def>
+  <Hit_accession>Q28QF9</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>4.06322e-28</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNI---------AYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQ--------NAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREK-IAAGATETILTESYLAQA-SAKMQQQESPDWCAS</Hsp_qseq>
+      <Hsp_hseq>LTVENIEVTLGATPVLHGIDMVAQPGQVTAIVGHNGSGKTTLLRAMTQETPY-TGTIRLDGADLASFKPWELATRRAVLPQASRI--AFPFTVLEVVRLGL------LAGRDGARKALPQEALARVGLSGFEGRYYQELSGGEQQRVQLARVLAQVWEPVQDGQPRWLFLDEPVSSLDIGHQLEVMEIAREYARGGGGVIAVMHDLNLTAMFADHVVLLADGRCLSAGRPAQVMTDVTLSQAYGCTLQVNTSPPGDAT</Hsp_hseq>
+      <Hsp_midline>+ VEN+ V+    P +H +D+  +   + A+ G NG+GK+T L+++    P  TG+IRLDG    +          A LPQ S I  + P TV ++  +GL        G + A+K    EAL RVG+  F  R    LS G+ QRV  AR+L Q          ++L LDEP +++D     E++++ ++   GG  +IAV+HD      +  + +LLA  + ++AG    ++T+  L+QA    +Q   SP   A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|20141068|sp|Q9XDA6.1|ZURA_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Zinc uptake system ATP-binding protein ZurA [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q9XDA6</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>8.01962e-28</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQN------IAYLPQQSD-IDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTT---YELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTESYLAQASAKM--QQQESPDWC</Hsp_qseq>
+      <Hsp_hseq>IEVNNVSYHYDKEHALENIHFQVAKGSFTGLIGPNGSGKSTMLKLILGVLKKQQGSISLFGEKQADFKDWVKIGFVSQKSNAFNSAFPATVKEVVASGLTKKKGLFKTLNNKDKEDIDYALKRVEMTDYLHRNIGELSGGQQQRVFIARALVSRPELLILDEPTVGVDVENVKAFYELLAELNRTE--EMTLLLVTHDLMAVNTYVNHVISINKRIIFDGSAHEY--QHYLADRELEILAEQRRREDAC</Hsp_hseq>
+      <Hsp_midline>I V N++  Y +  A+ ++     + S   + GPNG+GKST LK ++G+     GSI L G  + +      I ++ Q+S+  + + P TV ++ A GL  + G FK +N   K+ +  AL+RV M  +  R I  LS GQ QRV  AR LV   + L+LDEP   VD       YELL  L +       ++ V HD   V  Y  + + + +  I  G+      + YLA    ++  +Q+   D C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123535023|sp|Q2SPI3.1|ZNUC1_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC 1 [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SPI3</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.72582e-27</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSI-RLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQ----KCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTE</Hsp_qseq>
+      <Hsp_hseq>IRLQDVTVKIQGRTLIENVTFDINSGEIITVIGPNGAGKSTLAKALLGIQPLSRGEVLRRPGL---KIGYMPQRFHIDASLPLTVKR-----------FLQLAHNPQRWR--EALQRVEMEHVAKQPMHTLSGGELQRVLLARALQRAPDLLVLDEPAQGVDVTGQAELYRLIRSLRDELHCGA---LLVSHDLHLVMASTDQVLCLNRHICCAGHPEKVSNE</Hsp_hseq>
+      <Hsp_midline>I ++++TV  + R  + +V        +  V GPNGAGKST  K+L+G+QP+  G + R  GL    I Y+PQ+  ID S P+TV             F +  +  Q+ R  EAL+RV M   A++ +  LS G+ QRVL AR L +    L+LDEP   VD     EL  +++    + HCG    + V HD   V A     L L R    AG  E +  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81858061|sp|Q9KQB8.1|ZNUC_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KQB8</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>4.37092e-26</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MSIIVE--NLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSI-RLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCG-GHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTE-SYLA</Hsp_qseq>
+      <Hsp_hseq>MAILIELQDICVDFEQRRVLDNIRLTLTKGNITTLIGPNGAGKSTLVKVILGLQSLSSGKIIRQSGI---RIGYVPQKLKLNDTLPLTVNR-----------FLKLAGRFSTQELSEALRLVGGEHLQSSDMHKLSGGETQRVLLARALLQRPDLLVLDEPAQGVDVQGQIDLYDLIHTLRNRFGCAVLMVSHDLHLVMAKTDEVICLQHHVCCSGSPESIAKHPSYLA</Hsp_hseq>
+      <Hsp_midline>M+I++E  ++ V + +R  + ++ +T  + ++  + GPNGAGKST +K ++GLQ + +G I R  G+    I Y+PQ+  ++ + P+TV             F K       Q + EAL  VG        +  LS G+ QRVL AR L+Q    L+LDEP   VD +   +L D++       G A++ V HD   V A     + L      +G+ E+I    SYLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123278070|sp|Q21PQ7.1|ZNUC_SACD2</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Saccharophagus degradans 2-40]</Hit_def>
+  <Hit_accession>Q21PQ7</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>7.69542e-26</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQ--NIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVL----QKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>IQLNNIHLRFSAEPVLEGINLTIHQSEIVTIIGPNGAGKSSLVKVITGLIAPTTGSITHCAQGKQPLRIGYMPQTLHLDPSMPIKVSRFLSLA---------GPKAPSRSARKAALEQVGIANLSSAQMHNLSGGEFQRVLLARAILQRPNLLVLDEPLQGVDVNGQIELYRLIAELRQQLQC---AIVMVSHDLHLVMAQTDSVVCLNRHMCCHGQPESV</Hsp_hseq>
+      <Hsp_midline>I + N+ + +   P +  +++T  +  +  + GPNGAGKS+ +K + GL    TGSI      +Q   I Y+PQ   +D S P+ V    ++          G     +     ALE+VG+   +  Q+ +LS G+FQRVL AR ++Q    L+LDEP   VD     EL  ++    Q+  C   AI+ V HD   V A   + + L R     G  E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|81815826|sp|O34946.1|ZNUC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=High-affinity zinc uptake system ATP-binding protein ZnuC [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34946</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>1.49464e-25</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMG-LQPID---TGSIRLDGLTRQNIAYLPQQ-SDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVD---ARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAR</Hsp_qseq>
+      <Hsp_hseq>VSLKDIVFGYSHTPVLDKVSLDIESGEFVGITGPNGASKSTLIKVMLGMLKPWEGTVTISKRNTEGKRLTIGYVPQQISSFNAGFPSTVLELVQSGRYTKGKWFKRLNEEDHLEVEKALKMVEMWDLRHRKIGDLSGGQKQKICIARMLASNPDLLMLDEPTTAVDYDSRKGFYEFMHHLVKNH--NRTVVMVTHEQNEVQQFLDKVIRLER</Hsp_hseq>
+      <Hsp_midline>+ ++++   Y   P +  V +  E      + GPNGA KST +K ++G L+P +   T S R     R  I Y+PQQ S  +   P TV +L   G + +  +FK +N      V +AL+ V M     R+I  LS GQ Q++  ARML  N   L+LDEP  AVD    +  YE +  L K H     ++ V H+  +V+ +    + L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123767997|sp|Q2W4W1.1|ZNUC_MAGSA</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Magnetospirillum magneticum AMB-1]</Hit_def>
+  <Hit_accession>Q2W4W1</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>4.61841e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>VDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQ-KCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>VDLTVDAGRIITVVGPNGAGKSSLLKVALGLLRPDAGTVERGA---KVIGYVPQRLDIGRLLPLSVRRFLAMAVA---------ERPPAGRLEETLDLVGAGHVLGRQVVDLSGGEMQRVLLARALLRRPDLLVLDEPVGGVDVAGQAELYDLITGQAREHGVGVLMVSHDLHVVMAATDHVVCLNRHVCCAGHPETV</Hsp_hseq>
+      <Hsp_midline>VD+T +   +  V GPNGAGKS+ LK  +GL   D G++       + I Y+PQ+ DI R  P++V    AM +                R+ E L+ VG      RQ+  LS G+ QRVL AR L++    L+LDEP   VD     EL D++  +    G  ++ V HD   V A   + + L R    AG  ET+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|60390639|sp|Q8YUV1.1|PHNC1_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Phosphonates import ATP-binding protein PhnC 1 [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>Q8YUV1</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>4.87041e-25</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQ------------PMTVFDLAAMGLWYEIGFFKGI----NTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVD---ARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLL</Hsp_qseq>
+      <Hsp_hseq>VAIEVSNLSKSFKGKTAIKNVYCSINEGEMVALIGASGSGKSTLLRHINGLHIGDAGTVYIFGTVLQSKGKVHSKITSLRSQIGCIFQQFNLVNRLTVIENVLVGKLARLSILRSILRLFSKEEKAQALSALERVGIIEHAYKRASKLSGGQQQRVAIARCLVQGAKIILADEPIASLDPESARKVMELL--VQLNRQSGITVVASLHQIQMVRSYFDRAIAL</Hsp_hseq>
+      <Hsp_midline>++I V NL+ S++ + A+ +V  +  E  M A+ G +G+GKST L+ + GL   D G++ + G   Q+   +  +    RSQ             +TV +   +G    +   + I    +  +K +   ALERVG+ + A ++ + LS GQ QRV  AR LVQ AK +L DEP  ++D   AR   ELL  +Q     G  ++A LH  + VR+YF   + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2506102|sp|P07821.3|FHUC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Iron(3+)-hydroxamate import ATP-binding protein FhuC; AltName: Full=Ferric hydroxamate uptake protein C; AltName: Full=Ferrichrome transport ATP-binding protein FhuC; AltName: Full=Iron(III)-hydroxamate import ATP-binding protein FhuC [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P07821</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.47923e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQN---------IAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQK-CHCGGHAIIAVLHDYEQVRAYFPNTLLL-AREKIAAGATETIL</Hsp_qseq>
+      <Hsp_hseq>LRNISFRVPGRTLLHPLSLTFPAGKVTGLIGHNGSGKSTLLKMLGRHQPPSEGEILLDAQPLESWSSKAFARKVAYLPQQ--LPPAEGMTVRELVAIGRYPWHGALGRFGAADREKVEEAISLVGLKPLAHRLVDSLSGGERQRAWIAMLVAQDSRCLLLDEPTSALDIAHQVDVLSLVHRLSQERGLTVIAVLHDINMAARYCDYLVALRGGEMIAQGTPAEIM</Hsp_hseq>
+      <Hsp_midline>+ N++     R  +H + +TF    +  + G NG+GKST LK L   QP   G I LD    ++         +AYLPQQ  +  ++ MTV +L A+G +   G       A +++V EA+  VG++  A R +  LS G+ QR   A ++ Q+++ LLLDEP +A+D     ++L ++ +     G  +IAVLHD      Y    + L   E IA G    I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81839870|sp|Q87RE5.1|ZNUC_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87RE5</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.64634e-24</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKC-HCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTE-SYLA</Hsp_qseq>
+      <Hsp_hseq>VSLEQLCVEFDDRRVLDNISMELEKGKITTLIGPNGAGKSTLVKVILGLQKPTSG--KLVKAKKLKIGYVPQKLKLNDSLPLNV-----------IRFLNLAGKYSKQECLDALRLVGAEHLIKSNMHRLSGGENQRVLLARALLQRPDLLVLDEPAQGVDVQGQIDLYDLIESIRHRFDCAVFMVSHDLHLVMAKTDDVICLHHHVCCSGSPATITQHPSYIA</Hsp_hseq>
+      <Hsp_midline>+ +E L V +  R  + ++ +  E+  +  + GPNGAGKST +K ++GLQ   +G  +L    +  I Y+PQ+  ++ S P+ V           I F        KQ   +AL  VG     +  +  LS G+ QRVL AR L+Q    L+LDEP   VD +   +L D+++   H    A+  V HD   V A   + + L      +G+  TI    SY+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|81818190|sp|P94374.1|YXLF_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ABC transporter ATP-binding protein YxlF [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94374</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>2.40501e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG---LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQ-KQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQ--KCHCGGHAIIAVLHDYEQV</Hsp_qseq>
+      <Hsp_hseq>IESLCKSYRHHEAVKNVSFHVNENECVALLGPNGAGKTTTLQMLAGLLSPTSGTIKLLGEKKLDRRLIGYLPQY-------PAFYSWMTANEFLTFAGRLSGLSKRKCQEKIGEMLEFVGLHEAAHKRIGGYSGGMKQRLGLAQALLHKPKFLILDEPVSALDPTGRFEVLDMMRELKKHMAVLFSTHVLHDAEQV</Hsp_hseq>
+      <Hsp_midline>+E+L  SYR   AV +V     E+   A+ GPNGAGK+T L+ L GL    +G+I+L G   L R+ I YLPQ        P     + A       G   G++  + ++++ E LE VG+ + A ++I   S G  QR+  A+ L+   KFL+LDEP +A+D    +E+LD+++  K H        VLHD EQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|34222619|sp|Q93DX8.1|CYSA_BURCE</Hit_id>
+  <Hit_def>RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA; AltName: Full=Sulfate-transporting ATPase, partial [Burkholderia cepacia]</Hit_def>
+  <Hit_accession>Q93DX8</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>2.44073e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLT-------RQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGH-AIIAVLHDYEQVRAYFPNTLLLAR</Hsp_qseq>
+      <Hsp_hseq>MGITVRNLQKRFGDFTALDNVSLDFPPGELVALLGPSGCGKTTLLRVIAGLEHADAGQVVLQGLDVASVGARDRQVGFVFQHYALFRH--MTVFENVAFGLRVKPRRERPSEAAIREKVHELLKLVQLDWLAQRYPSELSGGQRQRIALARALAVEPKVLLLDEPFGALDAKVRKELRGWLRRLHDDLHISTIFVTHDQEEALEVADRIVVLNR</Hsp_hseq>
+      <Hsp_midline>M I V NL   +    A+ +V + F    + A+ GP+G GK+T L+ + GL+  D G + L GL         + + ++ Q   + R   MTVF+  A GL  +    +    A +++VHE L+ V +   A+R  + LS GQ QR+  AR L    K LLLDEPF A+DA+   EL   L++ H   H + I V HD E+        ++L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|81827100|sp|Q6D4A8.1|ZNUC_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D4A8</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>2.74387e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MSIIV--ENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVL----QKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI-LTESYLA</Hsp_qseq>
+      <Hsp_hseq>MSTLVSLNNISVTFGSRKILSDISLTLQAGRILTLLGPNGAGKSTLVRVVLGLLAPTSGSLVRDPALR--IGYVPQKLHLDTTLPLTVSR-----------FMQLRPGVKKQDILPALKRVQAAHLLEQPMQKLSGGETQRVLLARALLNQPQLLVLDEPTQGVDVNGQMALYDLINQLRQEFHCG---VLMVSHDLHLVMAKTDEVLCLNQHVCCSGTPEVVSLHPEFLA</Hsp_hseq>
+      <Hsp_midline>MS +V   N++V++  R  +  + +T +   +  + GPNGAGKST ++ ++GL    +GS+  D   R  I Y+PQ+  +D + P+TV             F +     +KQ +  AL+RV       + +  LS G+ QRVL AR L+   + L+LDEP   VD      L D++    Q+ HCG   ++ V HD   V A     L L +    +G  E + L   +LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|123555848|sp|Q31I51.1|ZNUC_THICR</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Thiomicrospira crunogena XCL-2]</Hit_def>
+  <Hit_accession>Q31I51</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>2.90499e-24</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGL-QPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELL----DVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>ITAKNINHAYGNKTVLNDISLTLHSNEIVTLIGPNGAGKSTLLKILLNLIQPTSGEVTRKTGL---RIGFMPQKIQVDASMPLSVQRFLELGLARQSQTLFNKKTNDTTELHEVINDLKLNDLLTHPIQQVSGGEMQRILLARALLRNPELLILDEPVQGVDLQGQTELYHYISEIRDKYGCG---ILMVSHDLHIVMRSTNKVLCLNQHLCCSGLPQTV</Hsp_hseq>
+      <Hsp_midline>I  +N+  +Y  +  ++ + +T   + +  + GPNGAGKST LK L+ L QP      R  GL    I ++PQ+  +D S P++V     +GL  +        T     +HE +  + +       I  +S G+ QR+L AR L++N + L+LDEP   VD +   EL     ++  K  CG   I+ V HD   V       L L +    +G  +T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|81310986|sp|Q5E6M2.1|ZNUC1_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC 1 [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E6M2</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>5.42743e-24</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDAR---TTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>LTLQDVCVVFDDRHVIDNVSLSIESNKIITLIGPNGAGKSTLVKTILGLQKPTSGTIKKEKKLR--IGYVPQKLHLNDSLPLSVH-----------GFLKLAGKYSQQEHLSALKLVEAEHLLNSNMHKLSGGESQRVLLARALLQRPDLLVLDEPAQGVDVQGQISLYALIESIR--HRFNCAVFMVSHDLHLVMAKTDEVICLQHHICCSGAPESI</Hsp_hseq>
+      <Hsp_midline>+ ++++ V +  R  + +V ++ E + +  + GPNGAGKST +K+++GLQ   +G+I+ +   R  I Y+PQ+  ++ S P++V            GF K      +Q    AL+ V         +  LS G+ QRVL AR L+Q    L+LDEP   VD +   + Y L++ ++  H    A+  V HD   V A     + L      +GA E+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123771641|sp|Q3IWB5.1|ZNUC_RHOS4</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Rhodobacter sphaeroides 2.4.1]</Hit_def>
+  <Hit_accession>Q3IWB5</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>5.518e-24</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSI-RLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVD---ARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>IAAHHLAVRRGRDEILSDVSLSVAPREIVTIVGPNGSGKSTLLRALLGILPAAAGRVSRRPGL---RIGYVPQRLQVDGTLPLTAAR-----------FLSLPRRRAPAEVAAALERVGVPEVADRQLADLSGGQFQRVLLARALLTEPELLMLDEPTQGLDQPGEAAFYRLIEEVRSTT--GAAILMVSHDLHVVMAASDRVICLNRHVCCEGTPRVV</Hsp_hseq>
+      <Hsp_midline>I   +L V   R   +  V ++     +  + GPNG+GKST L++L+G+ P   G + R  GL    I Y+PQ+  +D + P+T              F           V  ALERVG+ + A RQ+A LS GQFQRVL AR L+   + L+LDEP   +D       Y L++ ++     G AI+ V HD   V A     + L R     G    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|81853265|sp|Q8Z5W6.1|ZNUC_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z5W6</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>5.80377e-24</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDAR---TTYELLDVLQK-CHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>VSLENVSVSFGQRRVLSDVSLELSPGKILTLLGPNGAGKSTLVRVVLGLVAPDEGVIKRNGQLR--IGYVPQKLYLDTTLPLTVNR-----------FLRLRPCTQKTDILPALKRVQAGHLIDAPMQKLSGGETQRVLLARALLNRPQLLVLDEPTQGVDVNGQVALYDLIDQLRRELDC---AVLMVSHDLHLVMAKTDEVLCLNHHICCSGAPEVV</Hsp_hseq>
+      <Hsp_midline>+ +EN++VS+ +R  +  V +      +  + GPNGAGKST ++ ++GL   D G I+ +G  R  I Y+PQ+  +D + P+TV             F +     QK  +  AL+RV         +  LS G+ QRVL AR L+   + L+LDEP   VD       Y+L+D L++   C   A++ V HD   V A     L L      +GA E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81828823|sp|Q6LTB1.1|ZNUC_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LTB1</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>6.01599e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MSIIVE--NLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSI-RLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQK----CHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTE-SYLA</Hsp_qseq>
+      <Hsp_hseq>MTTLVELQSVTVTFGDRHVLDQVSMKLERGQITTLIGPNGAGKSTLVKVITGLRKPSTGHVVRQKGI---RIGYVPQKLQLNSTLPLTVDRFMRLAGRYD-------ENARK----EALSLVGGTHLHHSDMHSLSGGEMQRVLLARALLQKPDVLVLDEPVQGVDVNGQLELYNLIQSLRDILNC---SILMVSHDLHLVMAKTDNVICLHHHICCSGEPDTITNHPSYVA</Hsp_hseq>
+      <Hsp_midline>M+ +VE  ++TV++  R  +  V +  E   +  + GPNGAGKST +K + GL+   TG + R  G+    I Y+PQ+  ++ + P+TV     +   Y+         A+K    EAL  VG        +  LS G+ QRVL AR L+Q    L+LDEP   VD     EL +++Q      +C   +I+ V HD   V A   N + L      +G  +TI    SY+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2492569|sp|Q57243.1|Y1272_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ABC transporter ATP-binding protein HI_1272 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57243</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>6.21191e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLT---------RQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVH---EALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLARE-KIAAGATETILTESYLAQ</Hsp_qseq>
+      <Hsp_hseq>MLLETQNLAIGYEGKTLVQHIQFTLEENQICCLLGANGAGKSTFLKTLLGLQPPIGGDIVWQGKSLSDYSPTELARHIAYVPQAH--SHLFPFLVQDMVMMG---RSAFLKWYQTPKKSDLDLALMALQELEIAHLAQRYYHQLSGGEKQLVLIARAIAQQAKLLIMDEPTSSLDFGNQIRVLEKIKQLQKQNIALIISTHNPQQAAFLGDNIVLLDQQFGFQQGDKKHLLTLENLAK</Hsp_hseq>
+      <Hsp_midline>M +  +NL + Y  +  V H+  T EE+ +  + G NGAGKSTFLK+L+GLQP   G I   G +          ++IAY+PQ        P  V D+  MG      F K   T +K  +     AL+ + +   A+R    LS G+ Q VL AR + Q AK L++DEP +++D      +L+ +++      A+I   H+ +Q      N +LL ++     G  + +LT   LA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|119370746|sp|Q2J3T0.1|HMUV_RHOP2</Hit_id>
+  <Hit_def>RecName: Full=Hemin import ATP-binding protein HmuV [Rhodopseudomonas palustris HaA2]</Hit_def>
+  <Hit_accession>Q2J3T0</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>6.63295e-24</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMG-LQPIDTGSIRLDGLTRQNIAYLPQQ---------SDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQ--------NAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAA-GATETIL</Hsp_qseq>
+      <Hsp_hseq>VHNVDLAVAQGELIAIVGPNGAGKSTLLRMLSGDLRPT-SGSVRLG--DRELSSYSPRELADRRAVLAQHINVSFPFTVEEIVRMGTG-DVGHRKA-----GALIDAALHEVGLGEFRSRDITTLSGGEQQRAHFARVLVQLWSSEAVRGPGILLLDEPTSSLDIRHQLDLAHTARRCARNGATVIAILHDLNLATRFAERIVVMHRGAVAADGPPSTVM</Hsp_hseq>
+      <Hsp_midline>VH+VD+   +  + A+ GPNGAGKST L+ L G L+P  +GS+RL    R+  +Y P++           I+ S P TV ++  MG   ++G  K         +  AL  VG+ +F  R I  LS G+ QR  FAR+LVQ            LLLDEP +++D R   +L    ++C   G  +IA+LHD      +    +++ R  +AA G   T++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|13878458|sp|Q9MUN1.1|CYSA_MESVI</Hit_id>
+  <Hit_def>RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA; AltName: Full=Sulfate-transporting ATPase (chloroplast) [Mesostigma viride]</Hit_def>
+  <Hit_accession>Q9MUN1</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>8.03852e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG-------LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCG-GHAIIAVLHDYEQ</Hsp_qseq>
+      <Hsp_hseq>MSILIDNISKKFGNFQALNHINLEIKSGSIIALLGPSGSGKSTLLRIIAGLDTPDEGTIWISGKNASGYSIQSRNIGFVFQNYALFKN--MTVYDNIAFGLELRRISFNDIS----RKVNKLLELVQLQNLGHRYPAQLSGGQRQRIALARALAIEPKVLLLDEPFGALDARVRKNLRAWLRDLHNKFSITTIIVTHDQQE</Hsp_hseq>
+      <Hsp_midline>MSI+++N++  +    A++H+++  +  S+ A+ GP+G+GKST L+ + GL   D G+I + G       +  +NI ++ Q   + ++  MTV+D  A GL      F  I+    ++V++ LE V ++    R  A LS GQ QR+  AR L    K LLLDEPF A+DAR    L   L+  H       I V HD ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|81821474|sp|Q5PIA5.1|ZNUC_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|134035920|sp|Q57NA5.2|ZNUC_SALCH RecName: Full=Zinc import ATP-binding protein ZnuC [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q5PIA5</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>8.37183e-24</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDAR---TTYELLDVLQK-CHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>VSLENVSVSFGQRRVLSDVSLELSPGKILTLLGPNGAGKSTLVRVVLGLVAPDEGVIKRNGQLR--IGYVPQKLYLDTTLPLTVNR-----------FLRLRPGTQKTDILPALKRVQAGHLIDAPMQKLSGGETQRVLLARALLNRPQLLVLDEPTQGVDVNGQVALYDLIDQLRRELDC---AVLMVSHDLHLVMAKTDEVLCLNHHICCSGAPEVV</Hsp_hseq>
+      <Hsp_midline>+ +EN++VS+ +R  +  V +      +  + GPNGAGKST ++ ++GL   D G I+ +G  R  I Y+PQ+  +D + P+TV             F +     QK  +  AL+RV         +  LS G+ QRVL AR L+   + L+LDEP   VD       Y+L+D L++   C   A++ V HD   V A     L L      +GA E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|56748650|sp|Q63TY1.1|CYSA_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA; AltName: Full=Sulfate-transporting ATPase [Burkholderia pseudomallei K96243]</Hit_def>
+  <Hit_accession>Q63TY1</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>9.76314e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLT-------RQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGH-AIIAVLHDYEQ</Hsp_qseq>
+      <Hsp_hseq>MGITVRNLHKRFGEFAALDDVSLDFPAGELVALLGPSGCGKTTLLRVIAGLEHADSGQVVLQGLDVASVGARERQVGFVFQHYALFRH--MTVFENVAFGLRVKPRRERPSEAAIRAKVHELLSLVQLDWLAQRYPSELSGGQRQRIALARALAVEPKVLLLDEPFGALDAKVRKELRGWLRRLHDDLHISTIFVTHDQEE</Hsp_hseq>
+      <Hsp_midline>M I V NL   +    A+  V + F    + A+ GP+G GK+T L+ + GL+  D+G + L GL         + + ++ Q   + R   MTVF+  A GL  +    +    A + +VHE L  V +   A+R  + LS GQ QR+  AR L    K LLLDEPF A+DA+   EL   L++ H   H + I V HD E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|56748649|sp|Q62K82.1|CYSA_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA; AltName: Full=Sulfate-transporting ATPase [Burkholderia mallei ATCC 23344]</Hit_def>
+  <Hit_accession>Q62K82</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.06327e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLT-------RQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGH-AIIAVLHDYEQ</Hsp_qseq>
+      <Hsp_hseq>MGITVRNLHKRFGEFAALDDVSLDFPAGELVALLGPSGCGKTTLLRVIAGLEHADSGQVVLQGLDVASVGARERQVGFVFQHYALFRH--MTVFENVAFGLRVKPRRERPSEAAIRAKVHELLSLVQLDWLAQRYPSELSGGQRQRIALARALAVEPKVLLLDEPFGALDAKVRKELRGWLRRLHDDLHISTIFVTHDQEE</Hsp_hseq>
+      <Hsp_midline>M I V NL   +    A+  V + F    + A+ GP+G GK+T L+ + GL+  D+G + L GL         + + ++ Q   + R   MTVF+  A GL  +    +    A + +VHE L  V +   A+R  + LS GQ QR+  AR L    K LLLDEPF A+DA+   EL   L++ H   H + I V HD E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|134035921|sp|Q8ZNV7.2|ZNUC_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZNV7</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>1.08267e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDAR---TTYELLDVLQK-CHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>VSLENVSVSFGQRRVLSDVSLELSPGKILTLLGPNGAGKSTLVRVVLGLVAPDEGVIKHNGQLR--IGYVPQKLYLDTTLPLTVNR-----------FLRLRPGTQKTDILPALKRVQAGHLIDAPMQKLSGGETQRVLLARALLNRPQLLVLDEPTQGVDVNGQVALYDLIDQLRRELDC---AVLMVSHDLHLVMAKTDEVLCLNHHICCSGAPEVV</Hsp_hseq>
+      <Hsp_midline>+ +EN++VS+ +R  +  V +      +  + GPNGAGKST ++ ++GL   D G I+ +G  R  I Y+PQ+  +D + P+TV             F +     QK  +  AL+RV         +  LS G+ QRVL AR L+   + L+LDEP   VD       Y+L+D L++   C   A++ V HD   V A     L L      +GA E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|56748648|sp|Q609Q1.1|CYSA_METCA</Hit_id>
+  <Hit_def>RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA; AltName: Full=Sulfate-transporting ATPase [Methylococcus capsulatus str. Bath]</Hit_def>
+  <Hit_accession>Q609Q1</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.27945e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG-------LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAI-IAVLHDYEQ</Hsp_qseq>
+      <Hsp_hseq>MSIEIRNITKSFGSFQALKGIDLTIGSGELVALLGPSGCGKTTLLRIIAGLEAADSGQILLHGEDTTHRHVRERRVGFVFQHYALFRH--MSVFENIAFGLRVRPRGQRPPEAEIRRRVQELLELVQLDWLADRHPGQLSGGQRQRIALARALAVEPKVLLLDEPFGALDAKVRKDLRRWLRRLHDGLHITSVFVTHDQEE</Hsp_hseq>
+      <Hsp_midline>MSI + N+T S+    A+  +D+T     + A+ GP+G GK+T L+ + GL+  D+G I L G       +  + + ++ Q   + R   M+VF+  A GL       +      ++RV E LE V +   A R    LS GQ QR+  AR L    K LLLDEPF A+DA+   +L   L++ H G H   + V HD E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|14195416|sp|Q9WXX8.1|Y124_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Probable metal transport system ATP-binding protein TM_0124 [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9WXX8</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.49481e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MSII-VENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVD---ARTTYELLDVLQKCHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILTES</Hsp_qseq>
+      <Hsp_hseq>MKIVEVKNLTYRINDFEILKNVTFSVEEGEFVGIIGPNGAGKTTLVRILVGDIKNYEGKVEVRG----KIGYLPQLHQVQREFPITVKEFAAMGMY---GRYRKIDW---EKVRSTLKDVGILHKENDPIKNLSGGEFQRLSLARALLSDPDILVLDEPEAGVDEMGKASFYELLNRLRKEK--NITVIMVSHDIGMVFKECSTIMCLNRTLHCHGPTETINPED</Hsp_hseq>
+      <Hsp_midline>M I+ V+NLT        + +V  + EE     + GPNGAGK+T ++ L+G      G + + G     I YLPQ   + R  P+TV + AAMG++   G ++ I+    ++V   L+ VG+       I +LS G+FQR+  AR L+ +   L+LDEP   VD     + YELL+ L+K       +I V HD   V       + L R     G TETI  E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|71164860|sp|P0A9X3.1|ZNUC_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Escherichia coli O157:H7] &gt;gi|71164861|sp|P0A9X2.1|ZNUC_ECOL6 RecName: Full=Zinc import ATP-binding protein ZnuC [Escherichia coli CFT073] &gt;gi|71164862|sp|P0A9X1.1|ZNUC_ECOLI RecName: Full=Zinc import ATP-binding protein ZnuC [Escherichia coli K-12] &gt;gi|122958287|sp|Q0TGX4.1|ZNUC_ECOL5 RecName: Full=Zinc import ATP-binding protein ZnuC [Escherichia coli 536] &gt;gi|123084449|sp|Q1RAS6.1|ZNUC_ECOUT RecName: Full=Zinc import ATP-binding protein ZnuC [Escherichia coli UTI89] &gt;gi|123728403|sp|Q322E8.1|ZNUC_SHIBS RecName: Full=Zinc import ATP-binding protein ZnuC [Shigella boydii Sb227] &gt;gi|123732363|sp|Q3Z2L6.1|ZNUC_SHISS RecName: Full=Zinc import ATP-binding protein ZnuC [Shigella sonnei Ss046] &gt;gi|134035909|sp|A1AC19.1|ZNUC_ECOK1 RecName: Full=Zinc import ATP-binding protein ZnuC [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>P0A9X3</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.93874e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDAR---TTYELLDVLQK-CHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>VSLENVSVSFGQRRVLSDVSLELKPGKILTLLGPNGAGKSTLVRVVLGLVTPDEGVIKRNGKLR--IGYVPQKLYLDTTLPLTVNR-----------FLRLRPGTHKEDILPALKRVQAGHLINAPMQKLSGGETQRVLLARALLNRPQLLVLDEPTQGVDVNGQVALYDLIDQLRRELDCG---VLMVSHDLHLVMAKTDEVLCLNHHICCSGTPEVV</Hsp_hseq>
+      <Hsp_midline>+ +EN++VS+ +R  +  V +  +   +  + GPNGAGKST ++ ++GL   D G I+ +G  R  I Y+PQ+  +D + P+TV             F +      K+ +  AL+RV         +  LS G+ QRVL AR L+   + L+LDEP   VD       Y+L+D L++   CG   ++ V HD   V A     L L      +G  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123769612|sp|Q32HA3.1|ZNUC_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32HA3</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.93874e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDAR---TTYELLDVLQK-CHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>VSLENVSVSFGQRRVLSDVSLELKPGKILTLLGPNGAGKSTLVRVVLGLVTPDEGVIKRNGKLR--IGYVPQKLYLDTTLPLTVKR-----------FLRLRPGTHKEDILPALKRVQAGHLINAPMQKLSGGETQRVLLARALLNRPQLLVLDEPTQGVDVNGQVALYDLIDQLRRELDCG---VLMVSHDLHLVMAKTDEVLCLNHHICCSGTPEVV</Hsp_hseq>
+      <Hsp_midline>+ +EN++VS+ +R  +  V +  +   +  + GPNGAGKST ++ ++GL   D G I+ +G  R  I Y+PQ+  +D + P+TV             F +      K+ +  AL+RV         +  LS G+ QRVL AR L+   + L+LDEP   VD       Y+L+D L++   CG   ++ V HD   V A     L L      +G  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|56748748|sp|Q7NX01.1|CYSA1_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA 1; AltName: Full=Sulfate-transporting ATPase 1 [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NX01</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>2.38527e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG-------LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAI-IAVLHDYEQVRAYFPNTLLLAREKI</Hsp_qseq>
+      <Hsp_hseq>MSIQVENIRKAFGDFVALNDISLNFPGGELVALLGPSGCGKTTLLRIIAGLEQADAGRVLLDGQDASATHVRERQVGFVFQHYALFRH--MTVFDNVAFGLRMKPRRERPSEAEIARKVHALLDLVQLDWLADRLPAQLSGGQRQRIALARALAVEPRVLLLDEPFGALDAKVRKELRRWLRKLHDELHITSLFVTHDQEEALEVADRVVLMNHGKV</Hsp_hseq>
+      <Hsp_midline>MSI VEN+  ++    A++ + + F    + A+ GP+G GK+T L+ + GL+  D G + LDG       +  + + ++ Q   + R   MTVFD  A GL  +    +       ++VH  L+ V +   A R  A LS GQ QR+  AR L    + LLLDEPF A+DA+   EL   L+K H   H   + V HD E+        +L+   K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|34222546|sp|Q8DIA0.1|CYSA_THEEB</Hit_id>
+  <Hit_def>RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA; AltName: Full=Sulfate-transporting ATPase [Thermosynechococcus elongatus BP-1]</Hit_def>
+  <Hit_accession>Q8DIA0</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.57528e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG-------LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGH-AIIAVLHDYEQ</Hsp_qseq>
+      <Hsp_hseq>MGITIENVSKSFGSFQAVKQVDLDIASGSLVALLGPSGSGKSTLLRLIAGLEMPDTGRILLTGKDATYQSVQERNIGFVFQHYALFKH--MTVRQNIAFGLELRKVPRAKINA----RVAELLELVQLTGLGDRYPSQLSGGQRQRVALARALAVEPKVLLLDEPFGALDAKVRKELRAWLRRLHDDVHVTTVFVTHDQEE</Hsp_hseq>
+      <Hsp_midline>M I +EN++ S+    AV  VD+     S+ A+ GP+G+GKST L+ + GL+  DTG I L G       +  +NI ++ Q   + +   MTV    A GL         IN     RV E LE V +     R  + LS GQ QRV  AR L    K LLLDEPF A+DA+   EL   L++ H   H   + V HD E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|3023607|sp|P56344.1|CYSA_CHLVU</Hit_id>
+  <Hit_def>RecName: Full=Probable sulfate/thiosulfate import ATP-binding protein CysA; AltName: Full=Sulfate-transporting ATPase (chloroplast) [Chlorella vulgaris]</Hit_def>
+  <Hit_accession>P56344</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>2.87015e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MSIIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDG--------------LTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCGGHAI----IAVLHDYEQVRAYFPNTLLLAREKI</Hsp_qseq>
+      <Hsp_hseq>MSILIENISKRFGSFQALDRVNLEIKNGSLVGLLGPSGSGKSTLLRVLAGLEKPDSGRIWLEGQDATQMKLQDREIGFVFQNYALFPH---------LTVSENVAFGLEIQ----KIDSLLKKKRVNELLKLMQLEKFGDSYPNQLSGGQRQRVALARALAMEPKVLLLDEPFAALDAKIRKQLRSWLRELH---HKISVTTVFVTHDYSEAMELAQEIVLLENGKI</Hsp_hseq>
+      <Hsp_midline>MSI++EN++  +    A+  V++  +  S+  + GP+G+GKST L+ L GL+  D+G I L+G                 QN A  P          +TV +  A GL  +    K  +  +K+RV+E L+ + + +F       LS GQ QRV  AR L    K LLLDEPF A+DA+   +L   L++ H   H I    + V HDY +        +LL   KI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|81839260|sp|Q83KR7.1|ZNUC_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Shigella flexneri] &gt;gi|123146962|sp|Q0T3U8.1|ZNUC_SHIF8 RecName: Full=Zinc import ATP-binding protein ZnuC [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q83KR7</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>3.02078e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSIRLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDAR---TTYELLDVLQK-CHCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETI</Hsp_qseq>
+      <Hsp_hseq>VSLENVSVSFGQRRVLSDVSLELKPGKILTLLGPNGAGKSTLVRVVLGLVTPDEGVIKRNGKLR--IGYVPQKLYLDTTLPLTVNR-----------FLRLRPGTHKEDILPALKRVQAGHLINAPMQKLSGGETQRVLLARALLNCPQLLVLDEPTQGVDVNGQVALYDLIDQLRRELDCG---VLMVSHDLHLVMAKTDEVLCLNHHICCSGTPEVV</Hsp_hseq>
+      <Hsp_midline>+ +EN++VS+ +R  +  V +  +   +  + GPNGAGKST ++ ++GL   D G I+ +G  R  I Y+PQ+  +D + P+TV             F +      K+ +  AL+RV         +  LS G+ QRVL AR L+   + L+LDEP   VD       Y+L+D L++   CG   ++ V HD   V A     L L      +G  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|60390583|sp|Q8XDV7.1|PHNC_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Phosphonates import ATP-binding protein PhnC [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8XDV7</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>3.77437e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGS---IRLDGLT--------------RQNIAYLPQQSD-IDRSQPMTVFDLAAMG---LWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKCHCG-GHAIIAVLH--DY</Hsp_qseq>
+      <Hsp_hseq>ICVEQLSKTFNQHQALHAVDLNIHHGEMVALLGPSGSGKSTLLRHLSGLITGDKSAGSHIELLGRTVQREGRLARDIRKSRANTGYIFQQFNLVNRLSVLENVLIGALGSTPFWRTC--FSWFTREQKQRALQALTRVGMAHFAYQRVSTLSGGQQQRVAIARALMQQAKVILADEPIASLDPESARIVMDTLRDINQNDGITVVVTLHQVDY</Hsp_hseq>
+      <Hsp_midline>I VE L+ ++ +  A+H VD+      M A+ GP+G+GKST L+ L GL   D  +   I L G T              R N  Y+ QQ + ++R   +    + A+G    W     F      QKQR  +AL RVGM  FA ++++ LS GQ QRV  AR L+Q AK +L DEP  ++D  +   ++D L+  +   G  ++  LH  DY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|134035916|sp|Q7N545.2|ZNUC_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Zinc import ATP-binding protein ZnuC [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N545</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>3.83081e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>IIVENLTVSYRRRPAVHHVDITFEEHSMWAVFGPNGAGKSTFLKSLMGLQPIDTGSI-RLDGLTRQNIAYLPQQSDIDRSQPMTVFDLAAMGLWYEIGFFKGINTAQKQRVHEALERVGMRQFARRQIAHLSNGQFQRVLFARMLVQNAKFLLLDEPFNAVDARTTYELLDVLQKC----HCGGHAIIAVLHDYEQVRAYFPNTLLLAREKIAAGATETILT</Hsp_qseq>
+      <Hsp_hseq>ITLKNVAVNFGDRRVLNNISLHLQRGNILTLLGPNGAGKSTLVRVVLGLIEPSSGTIEQTDGL---KIGYVPQKLHLDPTLPLTVKRF----MMLKPGVKSG-------DILPALERVNAAHLLQQPMQKLSGGESQRVLLARALLNQPQLLVLDEPTQGVDVNGQLALYDLINQIRTELHC---AVLMVSHDLHLVMAKTDEVLCLNQHICCSGTPEVVST</Hsp_hseq>
+      <Hsp_midline>I ++N+ V++  R  ++++ +  +  ++  + GPNGAGKST ++ ++GL    +G+I + DGL    I Y+PQ+  +D + P+TV       +  + G   G        +  ALERV      ++ +  LS G+ QRVL AR L+   + L+LDEP   VD      L D++ +     HC   A++ V HD   V A     L L +    +G  E + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

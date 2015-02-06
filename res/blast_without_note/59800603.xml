@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800603|ref|YP_207315.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>metalloprotease [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>211</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800603|ref|YP_207315.1|</Iteration_query-ID>
+  <Iteration_query-def>metalloprotease [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>211</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|145572757|sp|Q5FA84.2|YBEY_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5FA84</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.836</Hsp_bit-score>
+      <Hsp_score>917</Hsp_score>
+      <Hsp_evalue>3.59411e-125</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MKRAKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYREDGH</Hsp_qseq>
+      <Hsp_hseq>MKRAKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYREDGH</Hsp_hseq>
+      <Hsp_midline>MKRAKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYREDGH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|26006912|sp|Q9K0P7.1|YBEY_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9K0P7</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>1.5096e-109</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MKRAKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>MKRTKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYRRADISLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSEKLYGDLIICPQVVLKEAAEQGKTPEQHFAHLTIHGTLHLMGYDHIEDDEAEIMEAEEIRLMRAAGFPNPYQED</Hsp_hseq>
+      <Hsp_midline>MKR KKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEY RADI LILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSE+LYGDLIICPQVVLKEAAEQGKTPE+HFAHLTIHGTLHLMGYDHI+DDEAEIMEAEEIRLMRAAG+PNPY+ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|26006911|sp|Q9JVS5.1|YBEY_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JVS5</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>1.82303e-108</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MKRAKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYREDGH</Hsp_qseq>
+      <Hsp_hseq>MKRTKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKSGYRRADISLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSEKLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGVLHLMGYDHIEDDEAEIMEAEEIRLMLAAGFPNPYQEDGH</Hsp_hseq>
+      <Hsp_midline>MKR KKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALK+ Y RADI LILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSE+LYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHG LHLMGYDHI+DDEAEIMEAEEIRLM AAG+PNPY+EDGH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|166227285|sp|A1KSE7.1|YBEY_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KSE7</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>3.70586e-108</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MKRAKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>MKRTKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYRRADISLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSEKLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGVLHLMGYDHIEDDEAEIMEAEEIRLMLAAGFPNPYQED</Hsp_hseq>
+      <Hsp_midline>MKR KKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEY RADI LILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSE+LYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHG LHLMGYDHI+DDEAEIMEAEEIRLM AAG+PNPY+ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|238689711|sp|B2VBL6.1|YBEY_ERWT9</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Erwinia tasmaniensis]</Hit_def>
+  <Hit_accession>B2VBL6</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.03414e-41</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>GLPAETDFQRWLEAVLPQFQPESEVTIRLVDEAESRELNHTYRSKDKPTNVLSFPFE----APPGIELPLLGDLIICRQVVEQEAVEQGKTREAHWAHMVIHGSLHLLGYDHIEDDEAEEMESLETEIMLALGYPDPY</Hsp_hseq>
+      <Hsp_midline>G+PAE DF RW  + L      +++ + L+DE E+R  N  YR KD  TNVLSF        P  +   L GDLIIC QVV +EA EQGKT E H+AH+ IHG+LHL+GYDHI+DDEAE ME+ E  +M A GYP+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|259645749|sp|C6DBX6.1|YBEY_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DBX6</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>5.07754e-41</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LNFENAS-SAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>LDLQIASEQAQGLPEEKDFQRWLEGVLPQFQEVSEVTIRIVDEAESRDLNNTYRGKDKPTNVLSFPFE----APPEVELPLLGDLIICRQVVEQEAAEQEKTVEEHWAHMVVHGSLHLLGYDHIEDSEAEEMEALETEIMQSMGYADPY</Hsp_hseq>
+      <Hsp_midline>L+ + AS  A G+P E+DF RW    L      +++ + ++DE E+R  N  YRGKD  TNVLSF        P +V   L GDLIIC QVV +EAAEQ KT E H+AH+ +HG+LHL+GYDHI+D EAE MEA E  +M++ GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123626555|sp|Q47A73.1|YBEY_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47A73</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>5.99754e-41</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>QRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>NRLNLSVQYACNREGLPLRADFVRWARAALVG---GGEVTIRLVDADEGQSLNKEYRGKDYATNVLSF--------PYDTEPVVMGDLVVCPSVVSKEAAEQNKPLEAHYAHLTVHGMLHLQGWDHDNDDDAQAMEDEEREILAAMGYPDPY</Hsp_hseq>
+      <Hsp_midline> R +L+ + A +  G+P   DF RWA +AL       ++ + L+D +E ++ N++YRGKDYATNVLSF        P      + GDL++CP VV KEAAEQ K  E H+AHLT+HG LHL G+DH  DD+A+ ME EE  ++ A GYP+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|46577368|sp|Q7NQI5.1|YBEY_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NQI5</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.3818e-40</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MKRAKKYPFLTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>MKKAKRNPLLARLAGRLELTLDVRSDAAALPPPALIRRACQAALRRDVKQAQISIVIVDAAEGRQLNNDYRGKDYATNVLSFALNEGE--PVE-GLPLFGDLVLCAPVVEQEAAEQNKALMAHYAHLLVHGMLHLQGFDHEEDAEAEAMEVLETVIVKQLGYPDPYHEE</Hsp_hseq>
+      <Hsp_midline>MK+AK+ P L     R  L  +  S AA +P      R   +AL+ +  +A I ++++D  E R  N DYRGKDYATNVLSFALNEGE  P +    L+GDL++C  VV +EAAEQ K    H+AHL +HG LHL G+DH +D EAE ME  E  +++  GYP+PY E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|59799108|sp|Q6D7K8.1|YBEY_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D7K8</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>1.77607e-40</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LNFENAS-SAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>LDLQIASEQAQGLPEEKDFQRWLEGVLPQFQEVSEVTIRIVDEAESRDLNNTYRGKDKPTNVLSFPFE----APPEVELPLLGDLIICRQVVEREAVEQEKTVEEHWAHMVVHGSLHLLGYDHIEDSEAEEMEALETEIMQSMGYADPY</Hsp_hseq>
+      <Hsp_midline>L+ + AS  A G+P E+DF RW    L      +++ + ++DE E+R  N  YRGKD  TNVLSF        P +V   L GDLIIC QVV +EA EQ KT E H+AH+ +HG+LHL+GYDHI+D EAE MEA E  +M++ GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|171855250|sp|A3QH43.1|YBEY_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QH43</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>5.00014e-40</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>FHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRE</Hsp_qseq>
+      <Hsp_hseq>LHLDLQVATQAEQLPSQEEFESWVRLALGNVMPEAEMTIRLVDEAESQQLNHTYRGKDKPTNVLSFPFES----PPEVELPLLGDLVICVPVVEQEAEIQGKSLTAHWAHMVVHGCLHLLGYDHIIDSEAEEMESLETQLIESLGFPNPYKE</Hsp_hseq>
+      <Hsp_midline> HL+ + A+ A  +P++ +F  W   AL N    A++ + L+DE E++  N  YRGKD  TNVLSF        P +V   L GDL+IC  VV +EA  QGK+   H+AH+ +HG LHL+GYDHI D EAE ME+ E +L+ + G+PNPY+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|62901202|sp|Q5P762.1|YBEY_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P762</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>9.82287e-40</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>LTLQRQRFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>LTVQRA---IGAENRARS---PTSALIRRWALAALRGD---AEMTVRLVGEAEGRRLNRDYRGKDYATNVLTFVYDE--------SERLAGDLVLCVPVVAREAAEQGKPLEAHFAHLIVHGMLHLQGFDHEAPDEAEEMETLETRVLATLGYPNPY</Hsp_hseq>
+      <Hsp_midline>LT+QR    +  EN + +   P      RWA +AL+ +   A++ + L+ E E R  NRDYRGKDYATNVL+F  +E        SERL GDL++C  VV +EAAEQGK  E HFAHL +HG LHL G+DH   DEAE ME  E R++   GYPNPY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|229553943|sp|B2FJ87.1|YBEY_STRMK</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Stenotrophomonas maltophilia K279a]</Hit_def>
+  <Hit_accession>B2FJ87</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>3.36863e-39</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>RLDVAISYALPRAGLPAAVSFRRWVAAALKGRIREADLAIRVVDAKEGQSLNRHYRGKDYATNVLSFPAEVPEGLPKGVKFPLLGDLVICAPVVAREADEQGKALNAHYAHLTVHGVLHLLGWDHEDDKEAEAMEQLEREILAELGIDDPY</Hsp_hseq>
+      <Hsp_midline>R  +    A   AG+PA   F RW  +ALK     AD+ + ++D +E ++ NR YRGKDYATNVLSF     E LP  V   L GDL+IC  VV +EA EQGK    H+AHLT+HG LHL+G+DH  D EAE ME  E  ++   G  +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|62901406|sp|Q5GZ48.1|YBEY_XANOR</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;gi|123521734|sp|Q2P263.1|YBEY_XANOM RecName: Full=Endoribonuclease YbeY [Xanthomonas oryzae pv. oryzae MAFF 311018]</Hit_def>
+  <Hit_accession>Q5GZ48</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.03954e-39</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>RLDVAVSYALPRAGLPSAVSFRKWVAAALKGRIREADLAVRLVDEKEGCSLNHHYRGKDYATNVLSFPAELPEGLPKGIKMPLLGDLVICAPVVAREAAEQGKSLAAHYAHLTVHGTLHLLGWDHDDDKEADAMEQLEREILADLGIDDPY</Hsp_hseq>
+      <Hsp_midline>R  +    A   AG+P+   F +W  +ALK     AD+ + L+DE+E  + N  YRGKDYATNVLSF     E LP  +   L GDL+IC  VV +EAAEQGK+   H+AHLT+HGTLHL+G+DH  D EA+ ME  E  ++   G  +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|238693470|sp|B4SQK2.1|YBEY_STRM5</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Stenotrophomonas maltophilia R551-3]</Hit_def>
+  <Hit_accession>B4SQK2</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.12678e-39</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>RLDVAISYALPRAGLPAAVSFRKWVAAALKGRIREADLAIRVVDAKEGQSLNRHYRGKDYATNVLSFPADVPEGLPKGVKFPLLGDLVICAPVVAREADEQGKALNAHYAHLTVHGVLHLLGWDHEDDKEAEAMEQLEREILAELGIADPY</Hsp_hseq>
+      <Hsp_midline>R  +    A   AG+PA   F +W  +ALK     AD+ + ++D +E ++ NR YRGKDYATNVLSF  +  E LP  V   L GDL+IC  VV +EA EQGK    H+AHLT+HG LHL+G+DH  D EAE ME  E  ++   G  +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|26006928|sp|Q8PJR6.1|YBEY_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PJR6</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.39997e-39</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>RLDVAVSYALPRAGLPSAVSFRKWVAAALKGRIREADLAVRVVDEKEGCSLNHHYRGKDYATNVLSFPAELPEGLPKGIKMPLLGDLVICAPVVAREAAEQGKSLAAHYAHLTVHGTLHLLGWDHEDDKEAEAMEQLEREILADLGIDDPY</Hsp_hseq>
+      <Hsp_midline>R  +    A   AG+P+   F +W  +ALK     AD+ + ++DE+E  + N  YRGKDYATNVLSF     E LP  +   L GDL+IC  VV +EAAEQGK+   H+AHLT+HGTLHL+G+DH  D EAE ME  E  ++   G  +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|238688644|sp|B1KDV6.1|YBEY_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KDV6</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.19088e-38</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>LNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRE</Hsp_qseq>
+      <Hsp_hseq>LDLQIATDNKQLPTQQDFELWVRTALRNTMTEAELTVRVVDAEESQALNSTYRGKDKPTNVLSFPFEA----PAEIELPLLGDLIICASVVEHEAIQQNKPLQAHWAHMVVHGCLHLLGYDHINDIEAEEMESIETQLIESLGFNNPYKE</Hsp_hseq>
+      <Hsp_midline>L+ + A+    +P ++DF  W  +AL+N    A++ + ++D EE++A N  YRGKD  TNVLSF        P ++   L GDLIIC  VV  EA +Q K  + H+AH+ +HG LHL+GYDHI D EAE ME+ E +L+ + G+ NPY+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|26006927|sp|Q8P8B2.1|YBEY_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Xanthomonas campestris pv. campestris str. ATCC 33913] &gt;gi|81305917|sp|Q4UVS5.1|YBEY_XANC8 RecName: Full=Endoribonuclease YbeY [Xanthomonas campestris pv. campestris str. 8004] &gt;gi|229554360|sp|B0RRV9.1|YBEY_XANCB RecName: Full=Endoribonuclease YbeY [Xanthomonas campestris pv. campestris str. B100]</Hit_def>
+  <Hit_accession>Q8P8B2</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.20079e-38</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>RLDVGVSYALPRTGLPSSVSFRKWVAAALKGRIREADLAVRVVDEKEGCSLNHHYRGKDYATNVLSFPAEMPQGLPKGVKMPLLGDLVICAPVVAREAAEQGKSLSAHYAHLTVHGTLHLLGWDHEDDKEADAMEQLEREILAELGIDDPY</Hsp_hseq>
+      <Hsp_midline>R  +    A    G+P+   F +W  +ALK     AD+ + ++DE+E  + N  YRGKDYATNVLSF     + LP  V   L GDL+IC  VV +EAAEQGK+   H+AHLT+HGTLHL+G+DH  D EA+ ME  E  ++   G  +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123730288|sp|Q3BS90.1|YBEY_XANC5</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Xanthomonas campestris pv. vesicatoria str. 85-10]</Hit_def>
+  <Hit_accession>Q3BS90</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.22671e-38</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>RLDVAVSYALPRAGLPSAVSFRKWVAAALKGRIREADLAVRVVDEKEGCSLNHHYRGKDYATNVLSFPAELPEGLPKGIKMPLLGDLVICAPVVAREAAEQGKLLAAHYAHLTVHGTLHLLGWDHEDDKEAEAMEQLEREILADLGIDDPY</Hsp_hseq>
+      <Hsp_midline>R  +    A   AG+P+   F +W  +ALK     AD+ + ++DE+E  + N  YRGKDYATNVLSF     E LP  +   L GDL+IC  VV +EAAEQGK    H+AHLT+HGTLHL+G+DH  D EAE ME  E  ++   G  +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|122400164|sp|Q1H3L8.1|YBEY_METFK</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H3L8</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>1.75974e-38</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>RLAMNVQYASEWDSLPNEKQFRKWARAALR---VDTEATLRIVDEEEGRMLNRDYRGKDYATNVLTFPLEE--------EPWLVGDIILCAPVVAREAAEQNITLESHYAHLTVHGILHMHGYDHEDEHQAELMESIESFTMIQLGYPDPY</Hsp_hseq>
+      <Hsp_midline>R  +N + AS    +P E+ F +WA +AL+   +  +  L ++DEEE R  NRDYRGKDYATNVL+F L E           L GD+I+C  VV +EAAEQ  T E H+AHLT+HG LH+ GYDH  + +AE+ME+ E   M   GYP+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|259710170|sp|C1DMW4.1|YBEY_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DMW4</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.95716e-37</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>NASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSE-----RLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>QVASVRPLPAEDDFRRWCELALRQRSADSELTIRLVDEEEGRELNRTWRHKDYPTNVLSF--------PAEVPEGLLDIPLLGDLVICVPVVEREAAEQDKAADAHWAHLVIHGCLHLLGYDHIEDAEAEEMESLERDLLAELGYPDPYDGD</Hsp_hseq>
+      <Hsp_midline>  +S   +PAE DF RW   AL+     +++ + L+DEEE R  NR +R KDY TNVLSF        P +V E      L GDL+IC  VV +EAAEQ K  + H+AHL IHG LHL+GYDHI+D EAE ME+ E  L+   GYP+PY  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|254800588|sp|B3PER3.1|YBEY_CELJU</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Cellvibrio japonicus Ueda107]</Hit_def>
+  <Hit_accession>B3PER3</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>2.75362e-37</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>RFHLNFENASSAAGIPAERDFYRWAWSALKNEYL-RADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRE</Hsp_qseq>
+      <Hsp_hseq>KYQIDIEINSASQQLPSEEHIRQWISTALDSQQLDEAEVSVYIVDTDEGRDLNREYRERDYATNVLSFPAD----IPPEVEIPLLGDLVVCAPVVEHEADEQHKPLDAHWAHMLIHGSLHLLGYDHIDNDEAETMEALETQLLARLGYADPYDE</Hsp_hseq>
+      <Hsp_midline>++ ++ E  S++  +P+E    +W  +AL ++ L  A++ + ++D +E R  NR+YR +DYATNVLSF  +    +P +V   L GDL++C  VV  EA EQ K  + H+AH+ IHG+LHL+GYDHI +DEAE MEA E +L+   GY +PY E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|166977828|sp|A8GB31.1|YBEY_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GB31</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>6.33566e-37</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>AGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>SGLPDEATFQRWLEGVLPQFQEEAEVTIRLVDEAESNELNLTYRGMDKPTNVLSFPFEA----PPGIELPLLGDLIICRQVVEREAAEQDKALEAHWAHMVVHGSLHLLGYDHIEDDEAEEMESLETEIMHGLGYPDPY</Hsp_hseq>
+      <Hsp_midline>+G+P E  F RW    L      A++ + L+DE E+   N  YRG D  TNVLSF        P  +   L GDLIIC QVV +EAAEQ K  E H+AH+ +HG+LHL+GYDHI+DDEAE ME+ E  +M   GYP+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|59799101|sp|Q66DD5.1|YBEY_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Yersinia pseudotuberculosis IP 32953] &gt;gi|166988546|sp|A7FKV1.1|YBEY_YERP3 RecName: Full=Endoribonuclease YbeY [Yersinia pseudotuberculosis IP 31758] &gt;gi|238691434|sp|B2K894.1|YBEY_YERPB RecName: Full=Endoribonuclease YbeY [Yersinia pseudotuberculosis PB1/+]</Hit_def>
+  <Hit_accession>Q66DD5</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>6.75415e-37</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>CADSQGLPTEGDFQRWLEAVLPLFQPVSEVTIRLVDEAESHDLNLTYRGKDKSTNVLSFPFEA----PPEIELPLLGDLIICRQVVEKEAIEQEKALLAHWAHMVVHGSLHLLGYDHIDDDEAEEMELIETEIMHGLGYPDPY</Hsp_hseq>
+      <Hsp_midline> + + G+P E DF RW  + L      +++ + L+DE E+   N  YRGKD +TNVLSF        P ++   L GDLIIC QVV KEA EQ K    H+AH+ +HG+LHL+GYDHI DDEAE ME  E  +M   GYP+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123519813|sp|Q2NUU1.1|YBEY_SODGM</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Sodalis glossinidius str. &apos;morsitans&apos;]</Hit_def>
+  <Hit_accession>Q2NUU1</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.43095e-36</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>CDEARGLPAEADFLRWLQGVLPLFRDCAEVTVRLVDEAESHELNMTYRGKDRPTNVLSFPFEA----PPEVELPLLGDLVICHQVVEREAQQQEKALEAHWAHMVVHGSLHLLGYDHIQDEEALEMESLETEIMQKLGYPDPY</Hsp_hseq>
+      <Hsp_midline>   A G+PAE DF RW    L      A++ + L+DE E+   N  YRGKD  TNVLSF        P +V   L GDL+IC QVV +EA +Q K  E H+AH+ +HG+LHL+GYDHI+D+EA  ME+ E  +M+  GYP+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|145572776|sp|A1JQ74.1|YBEY_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JQ74</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.63589e-36</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>CADSQGLPTEADFQHWLEAVLPQFQEVSEVTIRVVDEAESHELNLTYRGKDKPTNVLSFPFEA----PPEIELPLLGDLIICRQVVEQEAVEQEKALLAHWAHMVVHGSLHLLGYDHIVDDEAEEMESIETEIMQSLGYPDPY</Hsp_hseq>
+      <Hsp_midline> + + G+P E DF  W  + L      +++ + ++DE E+   N  YRGKD  TNVLSF        P ++   L GDLIIC QVV +EA EQ K    H+AH+ +HG+LHL+GYDHI DDEAE ME+ E  +M++ GYP+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|166228922|sp|A7N1G7.1|YBEY_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7N1G7</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.76849e-36</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>GLPSEQDFQLWLDKTIPLFQPQAELTIRIVDEQESHELNHEYRGKDKPTNVLSFPFE----VPPGMEMDLLGDLIICRQVVEKEAVEQNKPLLAHWAHMVVHGSLHLLGYDHIEDDEAEEMESLETEIMQGMGYEDPY</Hsp_hseq>
+      <Hsp_midline>G+P+E+DF  W    +     +A++ + ++DE+E+   N +YRGKD  TNVLSF       +P  +   L GDLIIC QVV KEA EQ K    H+AH+ +HG+LHL+GYDHI+DDEAE ME+ E  +M+  GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|238693170|sp|B4EV26.1|YBEY_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4EV26</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.97923e-36</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>TENTQGLPSEAQFITWLEAVLPQFQPISEVTIRIVDEAESHELNLTYRGKDRPTNVLSFPFE----APPEVELPLLGDLIICRQVVEKEADEQNKTVEEHWAHMVIHGCLHLLGYDHIEDDEAEEMEGLETEILQKLGYEDPY</Hsp_hseq>
+      <Hsp_midline>  +  G+P+E  F  W  + L      +++ + ++DE E+   N  YRGKD  TNVLSF        P +V   L GDLIIC QVV KEA EQ KT E H+AH+ IHG LHL+GYDHI+DDEAE ME  E  +++  GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|17865774|sp|O87574.2|YBEY_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>O87574</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.18118e-36</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>AGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>AGLPDEAQFQRWLDGVIPQFQEEAEVTIRLVDEAESHDLNLTYRGKDKPTNVLSFPFE----APAGIEMPLLGDLIICRQVVEQEAQEQSKPLEAHWAHMVVHGSLHLLGYDHIDDDEAEEMESLETEIMLAMGYEDPY</Hsp_hseq>
+      <Hsp_midline>AG+P E  F RW    +      A++ + L+DE E+   N  YRGKD  TNVLSF        P  +   L GDLIIC QVV +EA EQ K  E H+AH+ +HG+LHL+GYDHI DDEAE ME+ E  +M A GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|259647080|sp|C3K2K8.1|YBEY_PSEFS</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Pseudomonas fluorescens SBW25]</Hit_def>
+  <Hit_accession>C3K2K8</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>3.02809e-36</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>FHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>LELDLQLATEAPA-PSEAQFREWCALALRQRTADSELTIRLVDEPEGRELNHTWRQKDYATNVLSFPADVPDEL---LDIPLLGDLVICVEVVEREAKEQGKELEAHWAHLVIHGCLHLLGYDHIDDDEAEEMETLEQTLLAELGHPDPYADD</Hsp_hseq>
+      <Hsp_midline>  L+ + A+ A   P+E  F  W   AL+     +++ + L+DE E R  N  +R KDYATNVLSF  +  + L   +   L GDL+IC +VV +EA EQGK  E H+AHL IHG LHL+GYDHI DDEAE ME  E  L+   G+P+PY +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|123531265|sp|Q2SBF2.1|YBEY_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SBF2</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>3.08177e-36</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>FHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>LDVDIQIASEEADLPSEEQLILWAQAALRETGDR-EVTIRIVDAEESRELNAQYRGKDKPTNVLSFPFEN----PPGLTLPLLGDLVICAPVVFNEAVEQQKTAAAHWAHMVIHGMLHLQGYDHIIDEEAEVMESLETELVTSLGFPPPY</Hsp_hseq>
+      <Hsp_midline>  ++ + AS  A +P+E     WA +AL+    R ++ + ++D EE+R  N  YRGKD  TNVLSF        P  ++  L GDL+IC  VV  EA EQ KT   H+AH+ IHG LHL GYDHI D+EAE+ME+ E  L+ + G+P PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123652712|sp|Q4K5I1.1|YBEY_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K5I1</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>3.34724e-36</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>FHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>LELDLQRASQQPA-PSDEQFRQWCELALRQRTADSELTIRLVDEAEGRELNHTWRHKDYATNVLSFPADVPDEL---LDIPLLGDLVICIAVVEREAAEQGKELQAHWAHLVIHGCLHLLGYDHIDDDEAEEMEALERTLLAELGHPDPYADD</Hsp_hseq>
+      <Hsp_midline>  L+ + AS     P++  F +W   AL+     +++ + L+DE E R  N  +R KDYATNVLSF  +  + L   +   L GDL+IC  VV +EAAEQGK  + H+AHL IHG LHL+GYDHI DDEAE MEA E  L+   G+P+PY +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|123090090|sp|Q21FH2.1|YBEY_SACD2</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Saccharophagus degradans 2-40]</Hit_def>
+  <Hit_accession>Q21FH2</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>3.50383e-36</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>LNFENASSA--AGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>IDIQQASTADASQLPSDKQFEIWVEAALQQRMNEAELSIRIVDEDESQALNLQYRGKDKSTNVLSFPCE----LPDGVELPLLGDLVICAQVVAKEALEQGKLLHAHWAHMVVHGTLHLLGYDHIEDGEAEEMEAIEIQVLLELGYPNPY</Hsp_hseq>
+      <Hsp_midline>++ + AS+A  + +P+++ F  W  +AL+     A++ + ++DE+E++A N  YRGKD +TNVLSF       LP  V   L GDL+IC QVV KEA EQGK    H+AH+ +HGTLHL+GYDHI+D EAE MEA EI+++   GYPNPY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|226704003|sp|B5FNB0.1|YBEY_SALDC</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853] &gt;gi|226704004|sp|B5QWB9.1|YBEY_SALEP RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|226704005|sp|B5R815.1|YBEY_SALG2 RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91]</Hit_def>
+  <Hit_accession>B5FNB0</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>3.71537e-36</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>AGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>AGLPDEAQFQRWLDGVIPQFQEEAEVTIRLVDETESHDLNLTYRGKDKPTNVLSFPFE----APPGIEMPLLGDLIICRQVVEQEAQEQSKPLEAHWAHMVVHGSLHLLGYDHIDDDEAEEMESLETEIMLAMGYEDPY</Hsp_hseq>
+      <Hsp_midline>AG+P E  F RW    +      A++ + L+DE E+   N  YRGKD  TNVLSF        P  +   L GDLIIC QVV +EA EQ K  E H+AH+ +HG+LHL+GYDHI DDEAE ME+ E  +M A GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|62901210|sp|Q5PLS8.1|YBEY_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|238689934|sp|B5BCD3.1|YBEY_SALPK RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601]</Hit_def>
+  <Hit_accession>Q5PLS8</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.13291e-36</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>AGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>AGLPDEAQFQRWLDGVIPQFQEEAEVTIRLVDEAESHDLNLTYRGKDKPTNVLSFPFE----APPGIEMPLLGDLIICRQVVEQEAQEQSKPLEAHWAHMVVHGSLHLLGYDHIDDDEAEEMESLETEIMLAMGYEDPY</Hsp_hseq>
+      <Hsp_midline>AG+P E  F RW    +      A++ + L+DE E+   N  YRGKD  TNVLSF        P  +   L GDLIIC QVV +EA EQ K  E H+AH+ +HG+LHL+GYDHI DDEAE ME+ E  +M A GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|26006915|sp|Q8Z8G6.1|YBEY_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|75484424|sp|Q57RQ9.1|YBEY_SALCH RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|189041075|sp|A9MUI2.1|YBEY_SALPB RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] &gt;gi|226704002|sp|B5EZB0.1|YBEY_SALA4 RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|238690245|sp|B4TB72.1|YBEY_SALHS RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|238693560|sp|B4SYM8.1|YBEY_SALNS RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|238693645|sp|B4TPY8.1|YBEY_SALSV RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|254807367|sp|C0PW97.1|YBEY_SALPC RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>Q8Z8G6</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>4.59735e-36</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>AGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>AGLPDEAQFQRWLDGVIPQFQEEAEVTIRLVDEAESHDLNLTYRGKDKPTNVLSFPFE----APPGIEMPLLGDLIICRQVVEQEAQEQSKPLEAHWAHMVVHGSLHLLGYDHIDDDEAEEMESLETEIMLAMGYEDPY</Hsp_hseq>
+      <Hsp_midline>AG+P E  F RW    +      A++ + L+DE E+   N  YRGKD  TNVLSF        P  +   L GDLIIC QVV +EA EQ K  E H+AH+ +HG+LHL+GYDHI DDEAE ME+ E  +M A GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|31077048|sp|Q87RP6.1|YBEY_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87RP6</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>6.41915e-36</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>GLPSQQDFQLWLDKTIPLFQPQAEVTIRIVDEKESHALNHEYRGKDKPTNVLSFPFE----APPGMEIDLLGDLIICRQVVEKEAIEQNKPLLAHWAHMVVHGSLHLLGYDHIEDDEAEEMESLETEIMQGMGYEDPY</Hsp_hseq>
+      <Hsp_midline>G+P+++DF  W    +     +A++ + ++DE+E+ A N +YRGKD  TNVLSF        P  +   L GDLIIC QVV KEA EQ K    H+AH+ +HG+LHL+GYDHI+DDEAE ME+ E  +M+  GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|123061206|sp|Q12R24.1|YBEY_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Shewanella denitrificans OS217]</Hit_def>
+  <Hit_accession>Q12R24</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>6.5186e-36</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>LNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRE</Hsp_qseq>
+      <Hsp_hseq>LDLQIAVDSNQLPSQADFETWVRTALGNTLDTAELTIRLVEIAESQSLNHDYRGKDKPTNVLSFPFEA----PPGMELPLLGDLVICVAVVEQEALEQNKPLQAHWAHMVIHGCLHLLGYDHIIDQEAEEMESLETQLIEGLGFSNPYKE</Hsp_hseq>
+      <Hsp_midline>L+ + A  +  +P++ DF  W  +AL N    A++ + L++  E+++ N DYRGKD  TNVLSF        P  +   L GDL+IC  VV +EA EQ K  + H+AH+ IHG LHL+GYDHI D EAE ME+ E +L+   G+ NPY+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|166229102|sp|A5UBD4.1|YBEY_HAEIE</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Haemophilus influenzae PittEE]</Hit_def>
+  <Hit_accession>A5UBD4</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.84187e-35</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>GLPTEEQIVQWATAAIQPEGNEVEMTVRIVDEAESHELNLTYRGKDRPTNVLSFPFE----CPDEVELPLLGDLVICRQVVEREAAEQEKPLMAHWAHMVVHGGLHLLGYDHIEDDEAEEMESLETQIMQGLGFDDPY</Hsp_hseq>
+      <Hsp_midline>G+P E    +WA +A++ E    ++ + ++DE E+   N  YRGKD  TNVLSF        P +V   L GDL+IC QVV +EAAEQ K    H+AH+ +HG LHL+GYDHI+DDEAE ME+ E ++M+  G+ +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|123345401|sp|Q0VN64.1|YBEY_ALCBS</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Alcanivorax borkumensis SK2]</Hit_def>
+  <Hit_accession>Q0VN64</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.99995e-35</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LNFENASSAAGIPAERDFYRWA-WSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>VDIQWASDAPDAPDETHLCEWVRHAAIAAGGVVGDITLRIVDEEEIRTLNRDYRDKDAPTNVLSFPFEMPEGLPEGAMDPLVGDIIICAAVVRREANEQHKPLVAHWAHMVTHGVLHLLGYDHIDDDDAIVMETLEIRALGELGFPDPY</Hsp_hseq>
+      <Hsp_midline>++ + AS A   P E     W   +A+    +  DI L ++DEEE R  NRDYR KD  TNVLSF     E LP    + L GD+IIC  VV +EA EQ K    H+AH+  HG LHL+GYDHI DD+A +ME  EIR +   G+P+PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81337018|sp|Q4QPP0.1|YBEY_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Haemophilus influenzae 86-028NP] &gt;gi|166228383|sp|A5UFH8.1|YBEY_HAEIG RecName: Full=Endoribonuclease YbeY [Haemophilus influenzae PittGG]</Hit_def>
+  <Hit_accession>Q4QPP0</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>2.13783e-35</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>GLPTEEQIVQWATGAVQPEGNEVEMTVRIVDEAESHELNLTYRGKDRPTNVLSFPFE----CPDEVELPLLGDLVICRQVVEREAAEQEKPLMAHWAHMVVHGCLHLLGYDHIEDDEAEEMESLETQIMQGLGFDDPY</Hsp_hseq>
+      <Hsp_midline>G+P E    +WA  A++ E    ++ + ++DE E+   N  YRGKD  TNVLSF        P +V   L GDL+IC QVV +EAAEQ K    H+AH+ +HG LHL+GYDHI+DDEAE ME+ E ++M+  G+ +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|59799096|sp|Q65RX3.1|YBEY_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65RX3</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.37997e-35</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>SEDQSNLPTLEQFTLWATNAVRAEHFEPEITIRIVDEAESHELNFTYRGKDRPTNVLSFPFE----CPEEVELPLLGDLVICRQVVEREAQEQGKPLTAHWAHMVVHGSLHLLGYDHIEDDEAVEMESLETEIMTGLGFEDPYSYD</Hsp_hseq>
+      <Hsp_midline>+   + +P    F  WA +A++ E+   +I + ++DE E+   N  YRGKD  TNVLSF        P +V   L GDL+IC QVV +EA EQGK    H+AH+ +HG+LHL+GYDHI+DDEA  ME+ E  +M   G+ +PY  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|26006919|sp|Q9KTE2.1|YBEY_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gi|254807269|sp|C3LTK8.1|YBEY_VIBCM RecName: Full=Endoribonuclease YbeY [Vibrio cholerae M66-2]</Hit_def>
+  <Hit_accession>Q9KTE2</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.50787e-35</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>GLPSEAEFALWLTRTITPFQAQAEVTVRIVDEAESHALNLNYRGKDKPTNVLSFPFE----APSGMEMDLLGDLVICRQVVEREAIEQNKPLQAHWAHMVVHGSLHLLGYDHIEDDEAEEMESLETEIMQEMGFTDPY</Hsp_hseq>
+      <Hsp_midline>G+P+E +F  W    +     +A++ + ++DE E+ A N +YRGKD  TNVLSF        P  +   L GDL+IC QVV +EA EQ K  + H+AH+ +HG+LHL+GYDHI+DDEAE ME+ E  +M+  G+ +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2495567|sp|P71335.1|YBEY_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P71335</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.5347e-35</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>GLPTEEQIVQWATGAVQPEGNEVEMTVRIVDEAESHELNLTYRGKDRPTNVLSFPFE----CPDEVELPLLGDLVICRQVVEREASEQEKPLMAHWAHMVVHGSLHLLGYDHIEDDEAEEMESLETQIMQGLGFDDPY</Hsp_hseq>
+      <Hsp_midline>G+P E    +WA  A++ E    ++ + ++DE E+   N  YRGKD  TNVLSF        P +V   L GDL+IC QVV +EA+EQ K    H+AH+ +HG+LHL+GYDHI+DDEAE ME+ E ++M+  G+ +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|26006920|sp|Q9PEX5.1|YBEY_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PEX5</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.87136e-35</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>IPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>LPAAVSFRKWVAATLQGRIRKADLAIRIVDEKEGRALNYHYRNKDYATNVLSFPAQLPEPLPKALKIPLLGDIVMCAPVIAREAAEQGKSLSAHYAHLTVHGTLHLLGWNHEDHQEADAMEQLEREILANLGISDPYLEE</Hsp_hseq>
+      <Hsp_midline>+PA   F +W  + L+    +AD+ + ++DE+E RA N  YR KDYATNVLSF     E LP  +   L GD+++C  V+ +EAAEQGK+   H+AHLT+HGTLHL+G++H    EA+ ME  E  ++   G  +PY E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|171704389|sp|A6VQP6.1|YBEY_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VQP6</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>3.64244e-35</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRED</Hsp_qseq>
+      <Hsp_hseq>SEDQTNLPTPEQFTQWATAAVRAEALEPEITIRIVDEAESHDLNLTYRGKDRPTNVLSFPFE----CPEEVELPLLGDLVICRQVVEREAEQQGKPLPAHWAHMVVHGCLHLLGYDHIEDDEAVEMESLETQIMTELGFEDPYSYD</Hsp_hseq>
+      <Hsp_midline>+     +P    F +WA +A++ E L  +I + ++DE E+   N  YRGKD  TNVLSF        P +V   L GDL+IC QVV +EA +QGK    H+AH+ +HG LHL+GYDHI+DDEA  ME+ E ++M   G+ +PY  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|145558843|sp|A1WVF5.1|YBEY_HALHL</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Halorhodospira halophila SL1]</Hit_def>
+  <Hit_accession>A1WVF5</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>4.315e-35</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>FHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPYRE</Hsp_qseq>
+      <Hsp_hseq>LELAFQHVAGASAPEAER-VQAWLEPVFEAHGRGGELTVRIVDEDESRALNRDYRGRDKPTNVLSFPCELPPGLPAEAAQ-ILGDLVVCAPVVAREAAEQGKPEADHWAHMLVHGALHLLGYDHEDPAQAERMEAEERRILAALGVPDPYQE</Hsp_hseq>
+      <Hsp_midline>  L F++ + A+   AER    W     +      ++ + ++DE+E+RA NRDYRG+D  TNVLSF       LP + ++ + GDL++C  VV +EAAEQGK    H+AH+ +HG LHL+GYDH    +AE MEAEE R++ A G P+PY+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|46577360|sp|Q7N748.1|YBEY_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N748</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>4.52835e-35</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>AAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>SQGLPKETLFQHWLDGVLPQFQSESEVTIRIVDEAESHDLNLTYRGKNKPTNVLSFPFE----APPEIDLPLLGDLIICRQVVEKEAEEQQKTIEEHWAHMVVHGCLHLLGYDHIEDDEAEEMESLETEIMQKLGYADPY</Hsp_hseq>
+      <Hsp_midline>+ G+P E  F  W    L      +++ + ++DE E+   N  YRGK+  TNVLSF        P ++   L GDLIIC QVV KEA EQ KT E H+AH+ +HG LHL+GYDHI+DDEAE ME+ E  +M+  GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|189041074|sp|A9MKB9.1|YBEY_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MKB9</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>4.62573e-35</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>FHLNFENASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>LQLACENHS---GLPDEAQFQRWLDGVIPQFQEASEVTIRLVDEAESHDLNLTYRGKDKPTNVLSFPFE----APPGIEMPLLGDLIICRQVVEQEAQEQDKPLEAHWAHMVVHGSLHLLGYDHIDDDEAEEMESLETEIMLAMGYEDPY</Hsp_hseq>
+      <Hsp_midline>  L  EN S   G+P E  F RW    +      +++ + L+DE E+   N  YRGKD  TNVLSF        P  +   L GDLIIC QVV +EA EQ K  E H+AH+ +HG+LHL+GYDHI DDEAE ME+ E  +M A GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|167016753|sp|A6T6B3.1|YBEY_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Klebsiella pneumoniae subsp. pneumoniae MGH 78578] &gt;gi|226701661|sp|B5XZQ2.1|YBEY_KLEP3 RecName: Full=Endoribonuclease YbeY [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>A6T6B3</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>4.72835e-35</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>CEETSGLPDEALFQRWVDAVIPPFQEESELTIRLVDVAESHELNLTYRGKDKPTNVLSFPFEA----PPGIEMPLLGDLIICRQVVEQEASEQGKPLEAHWAHMVVHGSLHLLGYDHIEDDEAEEMEGLETEIMLALGYEDPY</Hsp_hseq>
+      <Hsp_midline>    +G+P E  F RW  + +      +++ + L+D  E+   N  YRGKD  TNVLSF        P  +   L GDLIIC QVV +EA+EQGK  E H+AH+ +HG+LHL+GYDHI+DDEAE ME  E  +M A GY +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|46577549|sp|Q9JRS8.1|YBEY_AGGAC</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease YbeY [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>Q9JRS8</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>5.62964e-35</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ASSAAGIPAERDFYRWAWSALKNEYLRADIGLILLDEEEARAYNRDYRGKDYATNVLSFALNEGEILPCQVSERLYGDLIICPQVVLKEAAEQGKTPERHFAHLTIHGTLHLMGYDHIKDDEAEIMEAEEIRLMRAAGYPNPY</Hsp_qseq>
+      <Hsp_hseq>SADESGLPTAAQIEQWATAAVQPQSGEVEMTVRIVDETESHALNFNYRGKDHPTNVLSFPFE----CPDEVELPLLGDLVICRQVVEREAQEQEKPLIAHWAHMVVHGSLHLLGYDHIEDDEAEEMESLETQIMMGLGFVDPY</Hsp_hseq>
+      <Hsp_midline>++  +G+P      +WA +A++ +    ++ + ++DE E+ A N +YRGKD+ TNVLSF        P +V   L GDL+IC QVV +EA EQ K    H+AH+ +HG+LHL+GYDHI+DDEAE ME+ E ++M   G+ +PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

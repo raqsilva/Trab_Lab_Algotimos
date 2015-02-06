@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800614|ref|YP_207326.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>3&apos;-5&apos; exonuclease [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800614|ref|YP_207326.1|</Iteration_query-ID>
+  <Iteration_query-def>3&apos;-5&apos; exonuclease [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>264</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|85542061|sp|O93845.2|DPOE_EMENI</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>O93845</Hit_accession>
+  <Hit_len>2207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>3.22134e-05</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>DDGEEVVIAKFFELVEKHTPQLV-SWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDG----SKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRF</Hsp_qseq>
+      <Hsp_hseq>EPNERAVIERFFEHIKEAKPTVIATYNGDFFDWPFVEARASVLGIDM--YKEIG---------FRKNSE-DIYQSDHCAHMDCFAWVNRDSYLPQGSRGLKAVTVAKLGYDPDELDPELMTPYASERPQTLAEYSVSDAVATYYLYMKY</Hsp_hseq>
+      <Hsp_midline>+  E  VI +FFE +++  P ++ ++NG  FD P +  R+ + GI+   Y + G         F+ N+    Y   HC  MD  A     + +P            KLG D      ++   + + R + +  Y  +DAV TY +Y+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|74674212|sp|Q4WXH8.1|DPOE_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4WXH8</Hit_accession>
+  <Hit_len>2230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>9.16551e-05</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>DDGEEVVIAKFFELVEKHTPQLV-SWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDG----SKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>EPNERSVIERFFEHIKEAKPTVIATYNGDFFDWPFVEARASVLGIDM--YKEIG---------FRKNSE-DIYQSDHCVHMDCFAWVNRDSYLPQGSRGLKAVTVAKLGYDPDELDPELMTPYASERPQTLAEYSVSDAVATYYLYMKYV</Hsp_hseq>
+      <Hsp_midline>+  E  VI +FFE +++  P ++ ++NG  FD P +  R+ + GI+   Y + G         F+ N+    Y   HC  MD  A     + +P            KLG D      ++   + + R + +  Y  +DAV TY +Y+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3913534|sp|P87154.1|DPOE_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P87154</Hit_accession>
+  <Hit_len>2199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00254118</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>TILAFDIETVPDVQGIRTLYDLPSSLPD---DEVVLFAQQKRRAQTGGDFMQHHLHQVVAVSCCMRWGQDKVHVGTIGEMDDGEEV-VIAKFFELVEKHTPQ-LVSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDG----SKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>TIMAFDIETT----------KLPLKFPDSSFDKIMMISYM----IDGQGFLITNREIISQNIEDFHYTPREEFEGPFIIFNEPDEVGLLHRFFKHIRSAKPSVIVTYNGDFFDWPFVDARAAFHGLNLTE----ETGFFRDAED--------EYKSSYCSHMDAFRWVKRDSYLPQGSQGLKAVTVSKLGYNPIELDPELMTPYASEKPQVLAQYSVSDAVATYFLYMKYV</Hsp_hseq>
+      <Hsp_midline>TI+AFDIET            LP   PD   D++++ +        G  F+  +   +        +   +   G     ++ +EV ++ +FF+ +    P  +V++NG  FD P +  R+  +G+N         G F D+ D         Y   +C  MD     +  + +P            KLG +      ++   + + + + +  Y  +DAV TY +Y+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|73920201|sp|P95690.2|DPOL1_SULAC</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase 1; AltName: Full=DNA polymerase I [Sulfolobus acidocaldarius DSM 639]</Hit_def>
+  <Hit_accession>P95690</Hit_accession>
+  <Hit_len>876</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0122422</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>EMDDGEEVVIAKFFELVEKHTPQLVSWNGGGFDLPVLHYRSL</Hsp_qseq>
+      <Hsp_hseq>EIFDSEKKLLARLFEIIREY-PMLLTFNGDDFDIPYIYFRAL</Hsp_hseq>
+      <Hsp_midline>E+ D E+ ++A+ FE++ ++ P L+++NG  FD+P +++R+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|74609249|sp|Q6FNY7.1|DPOE_CANGA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>Q6FNY7</Hit_accession>
+  <Hit_len>2217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0169126</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>HVGTIGEMDDGEEVVIAKFFELVEKHTPQLVS-WNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMD----GSKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>HVTIFNEVD--ELAVLQRFFEHIRDVRPTVISTFNGDFFDWPFIEKRASVRGLDMFE-------EIGFAPDSE-----GEYKSSYCVHMDCFRWVKRDSYLPQGSQGLKAVTQAKLGYNPIELDPELMTPYAYERPQQLSEYSVSDAVATYYLYMKYV</Hsp_hseq>
+      <Hsp_midline>HV    E+D  E  V+ +FFE +    P ++S +NG  FD P +  R+ + G++          + G + D +       Y   +C  MD     +  + +P            KLG +      ++   +   R +++  Y  +DAV TY +Y+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|118841|sp|P21951.1|DPOE_YEAST</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P21951</Hit_accession>
+  <Hit_len>2222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0173675</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>DDGEEVVIAKFFELVEKHTPQLVS-WNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMD----GSKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>ENDEVALLQRFFEHIRDVRPTVISTFNGDFFDWPFIHNRSKIHGL------DMFD-EIGFAPDAE-----GEYKSSYCSHMDCFRWVKRDSYLPQGSQGLKAVTQSKLGYNPIELDPELMTPYAFEKPQHLSEYSVSDAVATYYLYMKYV</Hsp_hseq>
+      <Hsp_midline>++ E  ++ +FFE +    P ++S +NG  FD P +H RS I+G+      D  D + G + D +       Y   +C  MD     +  + +P            KLG +      ++   +   + + +  Y  +DAV TY +Y+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|74633323|sp|Q6C4J0.1|DPOE_YARLI</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6C4J0</Hit_accession>
+  <Hit_len>2183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0318437</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>DDGEEVVIAKFFELVEKHTPQ-LVSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNY-ISRYHQRHCDLMDLLA-----LYQPRANVPLDDMA--KLCGFPGKLGMDGSKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRF</Hsp_qseq>
+      <Hsp_hseq>EPNEKAVLEKWFEHIRDVCPTVMTSYNGDFFDFPFIDKRTAFHGMNL--YDEIG-----------WKKVEEERYECSYCVHMDCLNWVKRDSYLPQGSQGLKAVTKVKLSYDPKELDPEKMTPYARDHPQILAE---YSVSDAVATYYLYMKY</Hsp_hseq>
+      <Hsp_midline>+  E+ V+ K+FE +    P  + S+NG  FD P +  R+  +G+N   Y + G           W      RY   +C  MD L       Y P+ +  L  +   KL   P +L  +    +   H   L E   Y  +DAV TY +Y+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|341940503|sp|Q9WVF7.3|DPOE1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Mus musculus]</Hit_def>
+  <Hit_accession>Q9WVF7</Hit_accession>
+  <Hit_len>2283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0466003</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>TILAFDIETVPDVQGIRTLYDLPSSLPD---DEVVLFAQQKRRAQTGGDFMQHHLHQVVAVSCCMRWGQDKVHVGTIGEMDDGEEV-VIAKFFELVEKHTPQ-LVSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDGSKV----WEAFHAGRLKEIRNYCETDAVNTYLMYLRF</Hsp_qseq>
+      <Hsp_hseq>VVLAFDIETT----------KLPLKFPDAETDQIMMISYMI----DGQGYLITNREIVSEDIEDFEFTPKPEYEGPFCVFNEPDEVHLIQRWFEHIQETKPTIMVTYNGDFFDWPFVEARAAIHGLSMYQ-------EIGFQKDSQ-----GEYKAPQCIHMDCLRWVKRDSYLPVGSHNLKAAAKAKLGYDPVELDPEDMCRMATEQPQTLATYSVSDAVATYYLYMKY</Hsp_hseq>
+      <Hsp_midline> +LAFDIET            LP   PD   D++++ +        G  ++  +   V        +     + G     ++ +EV +I ++FE +++  P  +V++NG  FD P +  R+ I+G++  +       + G  +D +       Y    C  MD L   +  + +P+           KLG D  ++           + + +  Y  +DAV TY +Y+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|116241339|sp|Q07864.5|DPOE1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Homo sapiens]</Hit_def>
+  <Hit_accession>Q07864</Hit_accession>
+  <Hit_len>2286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0550787</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>EEVVIAKFFELVEKHTPQ-LVSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDGSKV----WEAFHAGRLKEIRNYCETDAVNTYLMYLRF</Hsp_qseq>
+      <Hsp_hseq>EAHLIQRWFEHVQETKPTIMVTYNGDFFDWPFVEARAAVHGLSMQQ-------EIGFQKDSQ-----GEYKAPQCIHMDCLRWVKRDSYLPVGSHNLKAAAKAKLGYDPVELDPEDMCRMATEQPQTLATYSVSDAVATYYLYMKY</Hsp_hseq>
+      <Hsp_midline>E  +I ++FE V++  P  +V++NG  FD P +  R+ ++G++  +       + G  +D +       Y    C  MD L   +  + +P+           KLG D  ++           + + +  Y  +DAV TY +Y+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|3122019|sp|O29753.1|DPOL_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O29753</Hit_accession>
+  <Hit_len>781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.156903</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>QDKVHVGTIGEMDDGEEV-------VIAKFFELVEKHTPQL-VSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLG-MDGSKVWEAFHAGRLKEIRNYCETDAVNTYLM</Hsp_qseq>
+      <Hsp_hseq>KDPIIVISVKTNDDDEIILTGDERKIISDFVKLIKSYDPDIIVGYNQDAFDWPYLRKRAERWNIPLDVGRDGSNVVFRGGRP-------KITGRLNVDLYDIAMRISDIKIKKLENVAEFLGTKIEIADIEAKDIYRYWSRGEKEKVLNYARQDAINTYLI</Hsp_hseq>
+      <Hsp_midline>+D + V ++   DD E +       +I+ F +L++ + P + V +N   FD P L  R+  + I      D  +  F   R            + + DL D+           L+++A+  G   ++  ++   ++  +  G  +++ NY   DA+NTYL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|3913522|sp|O27276.1|DPOL1_METTH</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase PolB subunit 1 [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O27276</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.175305</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>QVVAVSCCMRWGQDKVHVGTIGEMDDGEEVV------IAKFFELVEKHTPQ-LVSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDGSKVWEAFHAGRLK-EIRNYCETDAVNTY</Hsp_qseq>
+      <Hsp_hseq>EIVMIGVAGNMGYESV-ISTAGDHLDFVEVVEDERELLERFAEIVIDKKPDILVGYNSDNFDFPYITRRAAILGAELDLGW---DGSKIRTMRRGFANATAIKGTVHVDLYPVMRRYMNLDRYTLERVYQELFGEEKIDLPGDRLWEYWDRDELRDELFRYSLDDVVATH</Hsp_hseq>
+      <Hsp_midline>++V +      G + V + T G+  D  EVV      + +F E+V    P  LV +N   FD P +  R+ I G      W   DG    +    + N  +     H DL  ++  Y       L+ + +      K+ + G ++WE +    L+ E+  Y   D V T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|338818011|sp|P0CN27.1|DPOE_CRYNB</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Cryptococcus neoformans var. neoformans B-3501A] &gt;gi|338818012|sp|P0CN26.1|DPOE_CRYNJ RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Cryptococcus neoformans var. neoformans JEC21]</Hit_def>
+  <Hit_accession>P0CN27</Hit_accession>
+  <Hit_len>2250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.211125</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>EEVVIAKFFELVEKHTPQLV-SWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDG----SKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>EPAVIRRWFEHIRDSKPTVIATYNGDSFDFPFVDARAKIHGISM--YEEIG---------FK-PDIEEEYKSRSTMHMDCFRWVKRDSYLPQGSQGLKAVTTAKLGYNPIELDPELMTPYAIEQPQILAQYSVSDAVATYYLYMKYV</Hsp_hseq>
+      <Hsp_midline>E  VI ++FE +    P ++ ++NG  FD P +  R+ I+GI+   Y + G         FK  +    Y  R    MD     +  + +P            KLG +      ++   +   + + +  Y  +DAV TY +Y+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|74704124|sp|Q4PFV5.1|DPOE_USTMA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Ustilago maydis 521]</Hit_def>
+  <Hit_accession>Q4PFV5</Hit_accession>
+  <Hit_len>2305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.655754</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VIAKFFELVEKHTPQLV-SWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDG----SKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>VLQRFFSHFREARPTVVATYNGDLFDFPFIDARARAHGLNMM-------SEIGFAKDSD-----NEYKSRATAHLDCFRWVQRDSYLPQGSQGLKAVTVAKLGYDPMELDPELMTPYAIEQPQTLAQYSVSDAVATYYLYMKYV</Hsp_hseq>
+      <Hsp_midline>V+ +FF    +  P +V ++NG  FD P +  R+  +G+N          + G ++D       + Y  R    +D     Q  + +P            KLG D      ++   +   + + +  Y  +DAV TY +Y+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|218512015|sp|Q6BNG2.2|DPOE_DEBHA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Debaryomyces hansenii CBS767]</Hit_def>
+  <Hit_accession>Q6BNG2</Hit_accession>
+  <Hit_len>2226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.793945</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>EEVVIAKFFELVEKHTPQLV-SWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDGS----KVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>EKMVLVRFFEHIRDSRPTVIATFNGDFFDWPFVEKRTTFH-----------DMDMFEEIGFAKDNE-GEYKSKYCVHMDCYRWVKRDSYLPQGSQGLKAVTTAKLGYNPTELDPELMTPYAYEKPQLLSEYSVSDAVATYYLYYKYV</Hsp_hseq>
+      <Hsp_midline>E++V+ +FFE +    P ++ ++NG  FD P +  R+  +           D D  +   F  +N    Y  ++C  MD     +  + +P            KLG + +    ++   +   + + +  Y  +DAV TY +Y ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|3913508|sp|O50607.1|DPOL1_SULOH</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase 1; AltName: Full=DNA polymerase B1; AltName: Full=DNA polymerase I [Sulfurisphaera ohwakuensis]</Hit_def>
+  <Hit_accession>O50607</Hit_accession>
+  <Hit_len>872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.02432</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>IGEMDDGEEVVIAKFFELVEKHTPQLVSWNGGGFDLPVLHYRSL</Hsp_qseq>
+      <Hsp_hseq>IVETFKSERELIRRFFDIILDY-PIILTFNGDDFDIPYIYYRAL</Hsp_hseq>
+      <Hsp_midline>I E    E  +I +FF+++  + P ++++NG  FD+P ++YR+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74607133|sp|Q6CUS7.1|DPOE_KLULA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q6CUS7</Hit_accession>
+  <Hit_len>2185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.15639</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>332</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>EEVVIAKFFELVEKHTPQLVS-WNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMD----GSKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRFC</Hsp_qseq>
+      <Hsp_hseq>EMALLQRFFEHIRDVRPTVISTFNGDFFDWPFVENRAKFHGLNMF-------DEIGFAPDSE-----GEYKSSYCTHMDCFRWVKRDSYLPQGSQGLKAVTQAKLGYNPLELDPELMTPYAYEKPQILSEYSVSDAVATYYLYMKYV</Hsp_hseq>
+      <Hsp_midline>E  ++ +FFE +    P ++S +NG  FD P +  R+  +G+N          + G + D +       Y   +C  MD     +  + +P            KLG +      ++   +   + + +  Y  +DAV TY +Y+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|74609261|sp|Q6FP10.1|MED16_CANGA</Hit_id>
+  <Hit_def>RecName: Full=Mediator of RNA polymerase II transcription subunit 16; AltName: Full=Mediator complex subunit 16 [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>Q6FP10</Hit_accession>
+  <Hit_len>973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.34022</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>734</Hsp_hit-from>
+      <Hsp_hit-to>811</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LGMDGSKVWEAFHAGRLKEIRN-------YCETD--AVNTYLMYLRFCLVSGRFDADEYEMEIKRIRNYLSAQTEDKP</Hsp_qseq>
+      <Hsp_hseq>LGVFGAKIPRTLILTILKEIKNVTAIITKFPETNYPILNESSTYLKMLLIESPINFEKFETFLMDVNNKLSAFSEQQP</Hsp_hseq>
+      <Hsp_midline>LG+ G+K+        LKEI+N       + ET+   +N    YL+  L+    + +++E  +  + N LSA +E +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|341940977|sp|P70402.2|MYBPH_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Myosin-binding protein H; Short=MyBP-H; AltName: Full=H-protein [Mus musculus]</Hit_def>
+  <Hit_accession>P70402</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.38549</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>IYGINAARYW----DTGDGDF-------GDSRDFKWNNYISRYHQRHCDLMDLL</Hsp_qseq>
+      <Hsp_hseq>VWGCNAALEWTPPQDTGNTELLGYTVQKADKRTGQWFTVLERYHPTTCTISDLI</Hsp_hseq>
+      <Hsp_midline>++G NAA  W    DTG+ +         D R  +W   + RYH   C + DL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|74507331|sp|Q9HH06.1|DPOL_PYRGL</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase [Pyrococcus glycovorans]</Hit_def>
+  <Hit_accession>Q9HH06</Hit_accession>
+  <Hit_len>775</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.63468</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>EMDDGEEVVIAKFFELVEKHTPQ-LVSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDGSKVW-----EAFHAGR-LKEIRNYCETDAVNTY</Hsp_qseq>
+      <Hsp_hseq>EVVSSEREMIKRFLKVIREKDPDVIITYNGDSFDLPYLVKRAEKLGIKLPLGRDGSEPKMQRLGDMTAVEIKGRIH------FDLYHVIRRTINLPTYTLEAV--YEAIFGKPKEKVYAHEIAEAWETGKGLERVAKYSMEDAKVTY</Hsp_hseq>
+      <Hsp_midline>E+   E  +I +F +++ +  P  ++++NG  FDLP L  R+   GI      D  +       D        R H       DL  + +   N+P   +  +  +    G    KV+     EA+  G+ L+ +  Y   DA  TY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|442570135|sp|Q752B8.2|DPOE_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q752B8</Hit_accession>
+  <Hit_len>2180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.85584</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>DDGEEVVIAKFFELVEKHTPQLVS-WNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMD----GSKVWEAFHAGRLKEIRNYCETDAVNTYLMYLRF</Hsp_qseq>
+      <Hsp_hseq>EEDERSLLERFFEHIRDVRPTVISTFNGDFFDWPFVEARSKIRGLSMF-------DEIGFAPDSE-----GEYKSSYCAHMDCYRWVKRDSYLPQGSQGLKAVTQVKLGYNPIELDPELMTPYAYEKPQHLSEYSVSDAVATYYLYMKY</Hsp_hseq>
+      <Hsp_midline>++ E  ++ +FFE +    P ++S +NG  FD P +  RS I G++          + G + D +       Y   +C  MD     +  + +P            KLG +      ++   +   + + +  Y  +DAV TY +Y+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|116242667|sp|Q13203.4|MYBPH_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Myosin-binding protein H; Short=MyBP-H; AltName: Full=H-protein [Homo sapiens]</Hit_def>
+  <Hit_accession>Q13203</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.43336</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>IYGINAARYW----DTGDGDF-------GDSRDFKWNNYISRYHQRHCDLMDLL</Hsp_qseq>
+      <Hsp_hseq>VWGCNAALQWTPPQDTGNTELLGYMVQKADKKTGQWFTVLERYHPTTCTISDLI</Hsp_hseq>
+      <Hsp_midline>++G NAA  W    DTG+ +         D +  +W   + RYH   C + DL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|254802399|sp|B8GQ39.1|AMIE_THISH</Hit_id>
+  <Hit_def>RecName: Full=Aliphatic amidase; AltName: Full=Acylamide amidohydrolase [Thioalkalivibrio sulfidiphilus HL-EbGr7]</Hit_def>
+  <Hit_accession>B8GQ39</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.72087</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>RTLYDLPSSLPDDEVVLFAQQKRRAQTGGDFM----QHHLH</Hsp_qseq>
+      <Hsp_hseq>KEMYDTASTIPGDETEIFADACRRAKTWGVFSLTGEQHEDH</Hsp_hseq>
+      <Hsp_midline>+ +YD  S++P DE  +FA   RRA+T G F     QH  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|6225283|sp|O93745.2|DPOL1_AERPE</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase 1; AltName: Full=DNA polymerase I [Aeropyrum pernix K1]</Hit_def>
+  <Hit_accession>O93745</Hit_accession>
+  <Hit_len>959</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.92475</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GTIGEMDDGEEVVIAKFFELVEKHTPQLVSWNGGGFDLPVLHYRSLIYGI</Hsp_qseq>
+      <Hsp_hseq>GTEVEIYDSERAMLLDLVRILQRY-PLVVSFNGDNFDLPYIARRLEVLGV</Hsp_hseq>
+      <Hsp_midline>GT  E+ D E  ++     +++++ P +VS+NG  FDLP +  R  + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|12643274|sp|P26811.2|DPOL1_SULSO</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase 1; AltName: Full=DNA polymerase I; AltName: Full=Pol B1 [Sulfolobus solfataricus P2]</Hit_def>
+  <Hit_accession>P26811</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.3037</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>EEVVIAKFFELVEKHTPQLVSWNGGGFDLPVLHYRSLIYG</Hsp_qseq>
+      <Hsp_hseq>EYELLGRFFDILLEY-PIVLTFNGDDFDLPYIYFRALKLG</Hsp_hseq>
+      <Hsp_midline>E  ++ +FF+++ ++ P ++++NG  FDLP +++R+L  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|6093459|sp|O88599.1|MYBPH_RAT</Hit_id>
+  <Hit_def>RecName: Full=Myosin-binding protein H; Short=MyBP-H; AltName: Full=H-protein [Rattus norvegicus]</Hit_def>
+  <Hit_accession>O88599</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.57278</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>IYGINAARYW----DTGDGDF-------GDSRDFKWNNYISRYHQRHCDLMDLL</Hsp_qseq>
+      <Hsp_hseq>VWGCNAALEWMPPQDTGNTELLGYTVQKADKKTGQWFTVLERYHPTTCTVSDLI</Hsp_hseq>
+      <Hsp_midline>++G NAA  W    DTG+ +         D +  +W   + RYH   C + DL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|74854710|sp|Q54RD4.1|DPOE1_DICDI</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase epsilon catalytic subunit A; AltName: Full=DNA polymerase II subunit A [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54RD4</Hit_accession>
+  <Hit_len>2380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.39827</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>EEVVIAKFFELVEKHTPQL-VSWNGGGFDLPVLHYRSLIYGIN</Hsp_qseq>
+      <Hsp_hseq>EKSVLERFFSEIKREKPHIFVSYNGDMFDWPFVESRAEYHGLS</Hsp_hseq>
+      <Hsp_midline>E+ V+ +FF  +++  P + VS+NG  FD P +  R+  +G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|3915679|sp|Q58295.2|DPOL_METJA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase; Contains: RecName: Full=Mja pol-1 intein; Contains: RecName: Full=Mja pol-2 intein [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58295</Hit_accession>
+  <Hit_len>1634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.7923</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>EMDDGEEVVIAKFFELVEKHTPQLVSWNGGGFDLPVLHYRSLIYGIN</Hsp_qseq>
+      <Hsp_hseq>EVVKNEKELIKKIIETLKEYD-VIYTYNGDNFDFPYLKARAKIYGID</Hsp_hseq>
+      <Hsp_midline>E+   E+ +I K  E ++++   + ++NG  FD P L  R+ IYGI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2494186|sp|Q51334.1|DPOL_PYRSD</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase; AltName: Full=Deep vent DNA polymerase; Contains: RecName: Full=Endonuclease PI-PspI; AltName: Full=Psp-GDB pol intein [Pyrococcus sp. GB-D]</Hit_def>
+  <Hit_accession>Q51334</Hit_accession>
+  <Hit_len>1312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.6249</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>EMDDGEEVVIAKFFELVEKHTPQ-LVSWNGGGFDLPVLHYRSLIYGINAARYWDTGDGDFGDSRDFKWNNYISRYHQRHCDLMDLLALYQPRANVPLDDMAKLCGFPGKLGMDGSKVW-----EAFHAGR-LKEIRNYCETDAVNTY</Hsp_qseq>
+      <Hsp_hseq>EVVSSEREMIKRFLKVIREKDPDVIITYNGDSFDLPYLVKRAEKLGIKLPLGRDGSEPKMQRLGDMTAVEIKGRIH------FDLYHVIRRTINLPTYTLEAV--YEAIFGKPKEKVYAHEIAEAWETGKGLERVAKYSMEDAKVTY</Hsp_hseq>
+      <Hsp_midline>E+   E  +I +F +++ +  P  ++++NG  FDLP L  R+   GI      D  +       D        R H       DL  + +   N+P   +  +  +    G    KV+     EA+  G+ L+ +  Y   DA  TY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

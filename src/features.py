@@ -471,7 +471,7 @@ def giwithout_note(record):
 #blast gi without note    
 def blastnote(filename):
     gi=giwithout_note(record)
-    for i in range(28,len(gi)):
+    for i in range(44,len(gi)):
         GI_numb=str(gi[i])
         result_handle = NCBIWWW.qblast("blastp","swissprot", GI_numb)
         save_file = open(GI_numb+'.xml', "w")
@@ -525,6 +525,34 @@ def blastanaliser():
     dst = "../res/blast_without_note/match/"#destination folder
     shutil.move(src, dst)
     
+handle = open("../res/blast_without_note/match/matches.txt").readlines()
+def gimatch():
+    gimatch=[]
+    gi=[]
+    hit=[]
+    s2='sp|'
+    xml='['
+    for i in handle:
+        n = i[i.index(xml) + len(xml):] 
+        g = n.split('.xml', 1)[0]  
+        gi.append(g)
+    for J in handle:
+        s3 = J[J.index(s2) + len(s2):] 
+        sP = s3.split('|', 1)[0] 
+        sp=sP[:6]    
+        hit.append(sp)
+    for k  in range(len(gi)):
+        gimatch.append(gi[k]+' '+hit[k])    
+            
+            
+    for w in range(len(hit)):  
+        site = urllib.request.urlopen("http://www.uniprot.org/uniprot/"+hit[w]+".txt")
+        data = site.readlines()
+        nome=hit[w]
+        file = open("../res/blast_without_note/match/function/"+nome+'.txt',"wb") #open file in binary mode
+        file.writelines(data)
+        file.close()
+    
 def menu(record):
     ans=True
     while ans:
@@ -544,6 +572,7 @@ def menu(record):
     13.tabela
     14.Get note from protein without note
     15.blastanaliser
+    16.pega no primeiro hit do blast
     20.Exit
     """)
         ans=input("Choose an option? ")
@@ -605,12 +634,14 @@ def menu(record):
             blastnote(filename)
         elif ans=="15":
             blastanaliser()
+        elif ans=="16":
+            gimatch()
         elif ans=="20":
             ans = False
         else:
             print("\nInvalid")
 
-
+gimatch()
 
 def create_file():
     start=str(input(print("Insira o inicio da sua zona do genoma:")))

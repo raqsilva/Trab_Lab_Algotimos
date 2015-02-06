@@ -1,0 +1,798 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800583|ref|YP_207295.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>secretion protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>424</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800583|ref|YP_207295.1|</Iteration_query-ID>
+  <Iteration_query-def>secretion protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>424</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|17379918|sp|Q9EXN6.1|MCHE_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Microcin H47 secretion protein MchE [Escherichia coli]</Hit_def>
+  <Hit_accession>Q9EXN6</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>4.83043e-40</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>423</Hsp_align-len>
+      <Hsp_qseq>FFRPEVAIARQTSLTGKVILTR--PLSFSLWTTFASISALLIILFLIFGNYTRKTTMEGQILPASGVIRVYAPDTGTITAKFVEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVERLENQKLHISQQIDGQKRRIRLAEEMLR-------KYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRREEAGLLQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQIIRAGRSGYIAIPNVEVGRQVDPSKLLLSIVPERTE-LYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAYGEEKPLQIGMTLEADILHEKRRLYEWVLEPIYSM</Hsp_qseq>
+      <Hsp_hseq>MFRQDALENRKMKWQGRAILLPGIPLWLIMLGSIVFITAFL--MFIIVGTYSRRVNVSGEVTTWPRAVNIYSGVQGFVVRQFVHEGQLIKKGDPVYLIDISKSTRSGIVTDNHRRDI-------ENQLVRVDNIISRLEESKKITLDTLEKQRLQYTDAFRRSSDIIQRAEEGIKIMKNNMENYRNYQAKGLINKDQLTNQVALYYQQQNNLLSLSGQNEQNALQITTLESQIQTQAADFDNRIYQMELQRYELQKELVNTDVEGEIIIRALTDGKVDSLSVTVGQMVNTGDSLLQVIPENIENYYLILWVPNDAVPYISAGDKVNIRYEAFPAEKFGQFSATVKTISRTPASTQEMLTYKGAPQNTPGASVPWYKVIAMPEKQIIRYDEKYLPLENGMKAESTLFLEKRRIYQWMLSPFYDM</Hsp_hseq>
+      <Hsp_midline> FR +    R+    G+ IL    PL   +  +   I+A L  +F+I G Y+R+  + G++      + +Y+   G +  +FV +G+ +K GD ++ +  S+    G V    + +        E +L R+  I      S K T++ LE Q+L  +         I+ AEE ++        YR   A   ++K ++ N  A   +Q+  L +   +      +I T    + +     +    Q+E    ++ +E+++ ++  E IIRA   G +   +V VG+ V+    LL ++PE  E  Y  L++P+ A  +I   DKV +RY+A+P +KFG  S +V ++++T    QE+        +   ++ P Y V   P+K  I    +  PL+ GM  E+ +  EKRR+Y+W+L P Y M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|117653|sp|P22519.1|CVAA_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Colicin V secretion protein CvaA [Escherichia coli]</Hit_def>
+  <Hit_accession>P22519</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.6663e-39</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>PLSFSLWTTFASISALLIILFLIFGNYTRKTTMEGQILPASGVIRVYAPDTGTITAKFVEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVERLENQKLHISQQIDGQKRRIRLAEEMLR-------KYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRREEAGLLQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQIIRAGRSGYIAIPNVEVGRQVDPSKLLLSIVPERTE-LYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAYGEEKPLQIGMTLEADILHEKRRLYEWVLEPIYSM</Hsp_qseq>
+      <Hsp_hseq>PLWLIMLGSIVFITAFL--MFIIVGTYSRRVNVSGEVTTWPRAVNIYSGVQGFVVRQFVHEGQLIKKGDPVYLIDISKSTRNGIVTDNHRRDI-------ENQLVRVDNIISRLEESKKITLDTLEKQRLQYTDAFRRSSDIIQRAEEGIKIMKNNMENYRYYQSKGLINKDQLTNQVALYYQQQNNLLSLSGQNEQNALQITTLESQIQTQAADFDNRIYQMELQRLELQKELVNTDVEGEIIIRALSDGKVDSLSVTVGQMVNTGDSLLQVIPENIENYYLILWVPNDAVPYISAGDKVNIRYEAFPSEKFGQFSATVKTISRTPASTQEMLTYKGAPQNTPGASVPWYKVIATPEKQIIRYDEKYLPLENGMKAESTLFLEKRRIYQWMLSPFYDM</Hsp_hseq>
+      <Hsp_midline>PL   +  +   I+A L  +F+I G Y+R+  + G++      + +Y+   G +  +FV +G+ +K GD ++ +  S+    G V    + +        E +L R+  I      S K T++ LE Q+L  +         I+ AEE ++        YR+  +   ++K ++ N  A   +Q+  L +   +      +I T    + +     +    Q+E    ++ +E+++ ++  E IIRA   G +   +V VG+ V+    LL ++PE  E  Y  L++P+ A  +I   DKV +RY+A+P +KFG  S +V ++++T    QE+        +   ++ P Y V   P+K  I    +  PL+ GM  E+ +  EKRR+Y+W+L P Y M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1708225|sp|P55125.1|HLYD_PASSP</Hit_id>
+  <Hit_def>RecName: Full=Leukotoxin secretion protein D [Mannheimia cf. haemolytica]</Hit_def>
+  <Hit_accession>P55125</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>5.71228e-11</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>ALLIILFL----IFGNYTRK---TTMEGQILPASGVIRVYAPDTGTITAK-FVEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKT---------------EAVLKKTLAEQELGRLKLIHENETRSLK---------ATVERLENQKLHISQQIDGQKRRI-----------RLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRRE----EAGLLQ-----EIRTQNLTLASLPK--RHETEQSQLERTIADISQEVLDFEMRSEQIIRAGRSGYIAIPNVE-VGRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITA-YGEEKPLQIGMTLEADILHEKRRLYEWVLEPI</Hsp_qseq>
+      <Hsp_hseq>AYLIMLFLAVAIVLASVSKVEIVATAPGK-LTFSGRSKEIKPIENTIVQEIFVKDGQFVEKGQLLVSLTA--LGSDADIKKTITSLSLAKLENYRYQTLLTAIEKESLPVIDLSNTEFKDSSEEDRLRIKHLIEEQYTTWQKQKTQKTLAYKRKDAEKQTISAYVRKYEGATRIEQEKLKDFRKLYQQKSLSKHELLSQENKAIEAQNELAVYRSKLNELESDLLNVKEELELITQFFKSDVLEKLKQHIENERQLQLELEKNNQR------RQASMIRAPVSGTVQQLKIHTIGGVVTTAETLMIIVPEDDVLEATALIQNKDIGFVAAGQEVIIKVETFPYTRYGYITGRIKHISPDAI---EQPNLGL-----------VFNATVSIDKQALSSPDGHKIELGLGMTITAEIKTGERSVMSYLLSPL</Hsp_hseq>
+      <Hsp_midline>A LI+LFL    +  + ++     T  G+ L  SG  +   P   TI  + FV+DG+ V+ G  L +L+    G+   +++ + +                A+ K++L   +L   +    +E   L+          T ++ + QK    ++ D +K+ I           R+ +E L+ +R L    ++SK E+++ E + +E + +L  YR +    E+ LL      E+ TQ      L K  +H   + QL+  +   +Q       R   +IRA  SG +    +  +G  V  ++ L+ IVPE   L A   I +   GF+    +V+++ + +PY ++G  +G +  ++  A+   E   LG+           V+   +  DK  +++  G +  L +GMT+ A+I   +R +  ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|126362|sp|P16534.1|HLYD_PASHA</Hit_id>
+  <Hit_def>RecName: Full=Leukotoxin secretion protein D [Mannheimia haemolytica]</Hit_def>
+  <Hit_accession>P16534</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.30444e-10</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>FVEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKT---------------EAVLKKTLAEQELGRLKLIHENETRSLK---------ATVERLENQKLHISQQIDGQKRRI-----------RLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRRE----EAGLLQ-----EIRTQNLTLASLPK--RHETEQSQLERTIADISQEVLDFEMRSEQIIRAGRSGYIAIPNVE-VGRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITA-YGEEKPLQIGMTLEADILHEKRRLYEWVLEPI</Hsp_qseq>
+      <Hsp_hseq>FVKDGQFVEKGQLLVSLTA--LGSDADIKKTMASLSLAKLENYRYQTLLTAIEKESLPVIDLSRTEFKDSSEEDRLRIKHLIEEQYTTWQKQKTQKTLAYKRKEAEKQTIFAYVRKYEGATRIEQEKFKDFKALYKQKSLSKHELLAQENKLIEAQNELAVYRSKLNELENDLLNVKEELELITQFFKSDVLEKLKQHIENERQLRLELEKNNQR------RQASMIRAPVSGTVQQLKIHTIGGVVTTAETLMIIVPEDDVLEATALVPNKDIGFVAAGQEVIIKVETFPYTRYGYLTGRIKHISPDAI---EQPNVGL-----------VFNATIAIDRKNLTSPDGRKIDLSSGMTITAEIKTGERSVMSYLLSPL</Hsp_hseq>
+      <Hsp_midline>FV+DG+ V+ G  L +L+    G+   +++ + +                A+ K++L   +L R +    +E   L+          T ++ + QK    ++ + +K+ I           R+ +E  + ++ L    ++SK E++  E +L+E + +L  YR +    E  LL      E+ TQ      L K  +H   + QL   +   +Q       R   +IRA  SG +    +  +G  V  ++ L+ IVPE   L A   +P+   GF+    +V+++ + +PY ++G  +G +  ++  A+   E   +G+           V+   I  D+  +T+  G +  L  GMT+ A+I   +R +  ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|460425283|sp|J7QCA7.1|CYAD_BORP1</Hit_id>
+  <Hit_def>RecName: Full=Protein CyaD [Bordetella pertussis 18323] &gt;gi|460425284|sp|P0DKX9.1|CYAD_BORPE RecName: Full=Protein CyaD [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>J7QCA7</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>5.63297e-10</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>ILFLIFGNYTRKTTMEGQILPASGVIRVYAPDTGTITAKFVEDGEKVKAGDKLFALSTS---------RFGAGGSVQQQLKTEAVLKKTLAEQELGRLKLIHE--------NETRSLKATVERLENQKLHISQQIDGQKRRIRLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRREEAGLLQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQIIRAGRSGYIA-IPNVEVGRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTAL--GRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAYGEEKPLQIGMTLEADILHEKRRLYEWVLEPIYSMSG</Hsp_qseq>
+      <Hsp_hseq>LVWSVVGKTEIVVHAAGKVVPVGQSKIIAASETGRVARVLVADNSRVAAGDVLLRLDAGVTEAEERKWRVQAAQARQDEARSRAMIRAL----DTGRAPVLAELPADPGMMAAQSYLDSQYADYQAQLRSIEAAIATYRRELGLVTQIAHAHRGLRRDGDVSQQAYLEKEQARMTLEGRLRQSEAQRAALQTQTRRQAFETLVLARKLA---AQAEQEIARTSAQ------RSRLVLTAPVDGVVQQLVALTEGTAVAATQPLMMVVPSGAGIQVQAQLDSKDIGFVRAGAPATVKVGAYDYTKYGTLEGKVLYVSPDTVVDDRQQHS----------------YRVTIALAHPALEVDGKPRLLKEGMAVQADIRTGSRRLIEYLLSPVARHAG</Hsp_hseq>
+      <Hsp_midline>+++ + G         G+++P      + A +TG +    V D  +V AGD L  L            R  A  + Q + ++ A+++      + GR  ++ E             L +     + Q   I   I   +R + L  ++   +R L  +  VS+Q  +  E   +  + +L     + A L  + R Q      L ++     +Q E+ IA  S +      RS  ++ A   G +  +  +  G  V  ++ L+ +VP    +     + S   GF++      ++  AY Y K+G   G V+ V+   +   RQ+ S                Y V I    P +   G+ + L+ GM ++ADI    RRL E++L P+   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|126361|sp|P18790.1|LTXD_AGGAC</Hit_id>
+  <Hit_def>RecName: Full=Leukotoxin export protein LtxD [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>P18790</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.27415e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>FASISALLI----ILFLIFGNYTRKTTMEGQILPASGVIRVYAPDTGTITAKFVEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKT------------------EAVLKKTLAEQELGRLKL--IHENETRSLKATVE------------------RLENQKLHISQQIDGQKRRIRLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRREEAGLLQEIRTQNLTLASLPKRHETEQSQL-ERTIADISQEVLD------FEM----RSEQI--IRAGRSGYIAIPNVE-VGRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAYGEEKPLQIGMTLEADILHEKRRLYEWVLEPI</Hsp_qseq>
+      <Hsp_hseq>FVSYSIMLFLTLAIIVSIFSNVEIIATASGKFALSGRSKEIKPIENSLVKHIFVKEGEYVKKGELLLKLT-----ALGAEADTLKTKTSLSQAKLEEFRYKSLLEAVEKDQLPILDFSKIDLPFMTENDQKRVTLLIEEQFSTWQKQRHQKTLNLNKKEAEKLSYLARIKKYEGLINTEQVRLDDFRALYKEHAIAKHTVLDEENKYQDAINELEVYK---ASLMQ---VENEVL--LAKEEQELVTQLFKNDILDKLKQATDNVNLLTFELDKNNQRQQVSEIRAPVSGTVQQLKVHTIDGVVTTAETLMVVVPEEDSLEVTALIQNKDIGFVKEGQEVVIKVEAFPYTRYGYLTGKVKNITLDAI---EHPKLGLVFNTI-----------IELDKKTLSTEEKEIPLSAGMEITAEIKTGMRSVISYLLSPL</Hsp_hseq>
+      <Hsp_midline>F S S +L     I+  IF N     T  G+   +     +   +   +   FV++GE VK G+ L  L+     A G+    LKT                  EAV K  L   +  ++ L  + EN+ + +   +E                  + E +KL    +I   +  I   +  L  +R L    A++K  +++ E +  +   +L+ Y+   A L+Q    +N  L  L K  +   +QL +  I D  ++  D      FE+    + +Q+  IRA  SG +    V  +   V  ++ L+ +VPE   L     I +   GF+K   +VV++ +A+PY ++G  +G V ++   A+   E   LG+V + +           I+ DK T++   +E PL  GM + A+I    R +  ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123194|sp|P09986.1|HLYDC_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Hemolysin secretion protein D, chromosomal [Escherichia coli]</Hit_def>
+  <Hit_accession>P09986</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.91292e-08</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>ISALLIILFL--IFGNYTRKTTMEGQILPASGVIRVYAPDTGTITAKF-VEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKTEA-------------VLKKTLAEQELGRLKL--------IHENE----TRSLKATVERLENQK--------------LHISQQIDGQKRRIRLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRREEAGLLQEIRTQNLTLASLPKRHETE-QSQLERTIADISQEVLDFEMRSEQ----IIRAGRSGYIAIPNVEV-GRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAYGEEKPLQIGMTLEADILHEKRRLYEWVLEPI</Hsp_qseq>
+      <Hsp_hseq>IMGFLVIAFILSVLGQVEIVATANGK-LTLSGRSKEIKPIENSIVKEIIVKEGESVRKGDVLLKLT-----ALGAEADTLKTQSSLLQARLEQIRYQILSRSIELNKLPELKLPDEPYFQNVSEEEVLRLTSLIKEQFSTWQNQKYQKELNLDKKRAERLTILARINRYENVSRVEKSRLDDFRSLLHKQAIAKHAVLEQENKYVEAANELRVYKSQLEQIESEILSAKEEYQLVTQLFKNEILDKLRQTTDSIELLTLELEKNEERQQASVIRAPVSGKVQQLKVHTEGGVVTTAETLMVIVPEDDTLEVTALVQNKDIGFINVGQNAIIKVEAFPYTRYGYLVGKVKNINLDAIEDQKL-GL-------------VFNVIVSVEENDLSTGNKHIPLSSGMAVTAEIKTGMRSVISYLLSPL</Hsp_hseq>
+      <Hsp_midline>I   L+I F+  + G      T  G+ L  SG  +   P   +I  +  V++GE V+ GD L  L+     A G+    LKT++             +L +++   +L  LKL        + E E    T  +K      +NQK              L I  +I+  +   R+ +  L  +R L    A++K  ++  E + +E   +L  Y+ +   +  EI +       + +  + E   +L +T   I    L+ E   E+    +IRA  SG +    V   G  V  ++ L+ IVPE   L     + +   GFI      +++ +A+PY ++G   G V ++   A+  Q+L GL             V+ V +  ++  ++   +  PL  GM + A+I    R +  ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|12230884|sp|Q03025.2|APRE_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Alkaline protease secretion protein AprE [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q03025</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.56686e-06</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>EGQILPASGVIR-----VYAPDTGTITAKFVEDGEKVKAGDKLFALSTS-----------RFGAGGSVQQQLKTEAVLKKT------LAEQ----------ELGRLKLIHE------NETRSLKATVERLENQKLHISQQIDGQKRRIRLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRREEAGLLQEIRTQNLTLASL--PKRHETEQSQLERTIAD--ISQEVL-------DFEMRSEQIIRAGRSGYIAIPNVEV-GRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSD--LAKSN-EPVYLVKIKPDKPTITAYGEEKPLQI--GMTLEADILHEKRRLYEWVLEPIYS</Hsp_qseq>
+      <Hsp_hseq>QGVAVPATVIISGQRKSVQHPLGGVVKHILVRDGQHVEAGEPLIRMEPTQARANVDSLLNRYANARLNQARLQAEYDGRRTLEMPAGLAEQAPLPTLGERLELQR-QLLHSRQTALANELSALRANIEGLRAQLEGLRQTEGNQRLQQRLLNSQLSGARDLAEEGYMPRNQLLEQERQLAEVNARLS----ESSGRFGQIR-QSIAEAQMRIAQREEEYRKEVNGQLAETQVNARTLWEELSSARYELRHAE-IRAPVSGYVAGLKVFTDGGVIGPGELLMYIVPNSDSLEVEGQLAVNLVDRIHSGLPVEMLFTAFNQSKTPRVTGEVT----------------MVSADRLLDEQNKQPYYALRAQVDA---AAMGKLKGLQIRPGMAVQVFVRTGERSLLNYLFKPLFD</Hsp_hseq>
+      <Hsp_midline>+G  +PA+ +I      V  P  G +    V DG+ V+AG+ L  +  +           R+      Q +L+ E   ++T      LAEQ          EL R +L+H       NE  +L+A +E L  Q   + Q    Q+ + RL    L   R L+    + + +++  E +L E  A+L     E +G   +IR Q++  A +   +R E  + ++   +A+  ++   L        +E+R  + IRA  SGY+A   V   G  + P +LL+ IVP    L     +  +    I     V + + A+   K    +G V                 MVS+D  L + N +P Y ++ + D     A G+ K LQI  GM ++  +   +R L  ++ +P++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123210|sp|P06739.1|HLYDP_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Hemolysin secretion protein D, plasmid [Escherichia coli]</Hit_def>
+  <Hit_accession>P06739</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>4.13276e-06</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>ISALLIILFL--IFGNYTRKTTMEGQILPASGVIRVYAPDTGTITAKF-VEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKTEA-------------VLKKTLAEQELGRLKL--------IHENE----TRSLKATVERLENQKLHISQQIDGQKR-------RI-------RLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRREEAGLLQEIRTQNLTLASLPKRHETE-QSQLERTIADISQEVLDFEMRSEQ----IIRAGRSGYIAIPNVEV-GRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAYGEEKPLQIGMTLEADILHEKRRLYEWVLEPI</Hsp_qseq>
+      <Hsp_hseq>IMGFLVIAFILSVLGQVEIVATANGK-LTHSGRSKEIKPIENSIVKEIIVKEGESVRKGDVLLKLT-----ALGAEADTLKTQSSLLQARLEQTRYQILSRSIELNKLPELKLPDEPYFQNVSEEEVLRLTSLIKEQFSTWQNQKYQKELNLDKKRAERLTVLARINRYENLSRVEKSRLDDFSSLLHKQAIAKHAVLEQENKYVEAVNELRVYKSQLEQIESEILSAKEEYQLVTQLFKNEILDKLRQTTDNIGLLTLELAKNEERQQASVIRAPVSVKVQQLKVHTEGGVVTTAETLMVIVPEDDTLEVTALVQNKDIGFINVGQNAIIKVEAFPYTRYGYLVGKVKNINLDAIEDQRL-GL-------------VFNVIISIEENCLSTGNKNIPLSSGMAVTAEIKTGMRSVISYLLSPL</Hsp_hseq>
+      <Hsp_midline>I   L+I F+  + G      T  G+ L  SG  +   P   +I  +  V++GE V+ GD L  L+     A G+    LKT++             +L +++   +L  LKL        + E E    T  +K      +NQK      +D ++        RI       R+ +  L  +  L    A++K  ++  E + +E   +L  Y+ +   +  EI +       + +  + E   +L +T  +I    L+     E+    +IRA  S  +    V   G  V  ++ L+ IVPE   L     + +   GFI      +++ +A+PY ++G   G V ++   A+  Q L GL             V+ V I  ++  ++   +  PL  GM + A+I    R +  ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1173324|sp|Q08633.1|RTX3D_ACTPL</Hit_id>
+  <Hit_def>RecName: Full=RTX-III toxin determinant D; AltName: Full=APX-IIID; AltName: Full=Cytolysin IIID; Short=CLY-IIID; AltName: Full=Toxin RTX-III secretion protein D [Actinobacillus pleuropneumoniae]</Hit_def>
+  <Hit_accession>Q08633</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>2.2638e-05</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>RLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDAYRRE----EAGLLQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQ-----IIRAGRSGYIA-IPNVEVGRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAYGEEKPLQIGMTLEADILHEKRRLYEWVLEPI</Hsp_qseq>
+      <Hsp_hseq>RIEKEKLSDLKKLYDVKSISKHELLAQENRYVEASNELSVYQSHLKEVESDLLKA--QEDLKLVTQLFKSDILE-KLQQNIQREKQLTLELE-KNEQRQLASIIRAPVSGTVQQLKTHTKGGVVTTAETLMVIAPEDDVLEVSALIQNKDVGFVEIGQEAVIKVETFPYTRYGYLYGKVKTITLDAI---EHPQLGLVFNSI-----------IEINKKTLTDGDKEIQLGSGMSVIAEIKTGERSVISFLLSPL</Hsp_hseq>
+      <Hsp_midline>R+ +E L   + L    ++SK E++  E   +E   +L  Y+      E+ LL+    ++L L +   + +  + +L++ I    Q  L+ E ++EQ     IIRA  SG +  +     G  V  ++ L+ I PE   L     I +   GF++   + V++ + +PY ++G   G V ++   A+   E   LG+V + +           I+ +K T+T   +E  L  GM++ A+I   +R +  ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123209|sp|P26761.1|RTX1D_ACTPL</Hit_id>
+  <Hit_def>RecName: Full=RTX-I toxin determinant D; AltName: Full=APX-ID; AltName: Full=Cytolysin ID; Short=CLY-ID; AltName: Full=HLY-ID; AltName: Full=Toxin RTX-I secretion protein D [Actinobacillus pleuropneumoniae]</Hit_def>
+  <Hit_accession>P26761</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000363273</Hsp_evalue>
+      <Hsp_query-from>266</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IIRAGRSGYIAIPNVEVGRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVAKTALGRQELSGLGMVSSDLAKSNEPVYLVKIKPDKPTITAY-GEEKPLQIGMTLEADILHEKRRLYEWVLEPI</Hsp_qseq>
+      <Hsp_hseq>VIRAPVSYVQQLKTHTVGGVVTTAETLMVIAPEDDVLEVTALIQNKDIGFIEVGQDAVIKVETFPYTRYGYLMGKVKNITLEAI---EHPQLGLVFNSI-----------ISIDRKTLSGKDGKEIELGSGMSVTAEIKTGERSVISYLLSPL</Hsp_hseq>
+      <Hsp_midline>+IRA  S    +    VG  V  ++ L+ I PE   L     I +   GFI+     V++ + +PY ++G   G V ++   A+   E   LG+V + +           I  D+ T++   G+E  L  GM++ A+I   +R +  ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2506509|sp|P52599.2|EMRK_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Probable multidrug resistance protein EmrK [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P52599</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00561868</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>75</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>SALLIILFLIFGNYTRKTTME-------------GQILPASGVIRVYAPDTGTITAKFVEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKTEAVLKKTLAEQELGRL-----KLIHENETRSLKATVERLENQKLHISQQIDGQKRRIRLAEEMLRKYRFLSANDAVSKQEMMNVEAELLEQKAKLDA----YRREEAGLLQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQIIRAGRSGYIAIPNVEVGRQVDPSKLLLSIVPER</Hsp_qseq>
+      <Hsp_hseq>SLLAVVLFIAFSGAYAYWSMELEDMISTDDAYVTGNADPISAQV------SGSVTVVNHKDTNYVRQGDILVSLD--------------KTDATIALNKAKNNLANIVRQTNKLYLQDKQYSAEVASARIQYQ-----QSLEDYNRRVPLAKQGV-----------ISKETLEHTKDTLISSKAALNAAIQAYKANKALVM------NTPLNRQPQVVEA---------ADATKEAWLALKRTD--IKSPVTGYIAQRSVQVGETVSPGQSLMAVVPAR</Hsp_hseq>
+      <Hsp_midline>S L ++LF+ F       +ME             G   P S  +      +G++T    +D   V+ GD L +L               KT+A +    A+  L  +     KL  +++  S +    R++ Q     Q ++   RR+ LA++ +           +SK+ + + +  L+  KA L+A    Y+  +A ++      N  L   P+  E          AD ++E      R++  I++  +GYIA  +V+VG  V P + L+++VP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|374110753|sp|Q7ANN5.1|PRSE_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Type I secretion system membrane fusion protein PrsE [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q7ANN5</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.219682</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>SLWTTFASISALLIILFLIFGNYTRKTTMEGQILPASGVI------RVYAPDTGTITAKFVEDGEKVKAGDKLFALSTSRFGAGGSVQQQLKTEAVLKKTLA---------------------EQELGRL-------KLIHENETR-------SLKATVERLENQKLHISQQIDGQKRRIRLAEEMLRKY-RFLSANDAVSKQEMMNVE--AELLEQKAKLD-------AYRREEAGLLQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMR----SEQIIR-------AGRSGYIAIPNVEVGRQVDPSKLLLSIVPERTELYAHLYIPSSAAGFIKPKDKVVLRYQAYPYQKFGLASGSVVSVA</Hsp_qseq>
+      <Hsp_hseq>SLSRHLIGVSVLALALVAGVGGWAATTELSSAIVAGGVVIVDDNVKKVQHLTGGIVGELLVKEGDRVEAGQVLIRLD------GTTVRANL---AIIESTLAQFYARRARLQAERMGAASFEIEEDLAEFIPGTAAAKLI-EGEQRLFASRRSALSGMKGQLDSRKAQLADEVEGLTVQLNAIEEALKLIAEELTGVDSLFGQGLVPMQRVTTLKRQRAELEGGRGRHIAARAQARGKSSEIDLQILQL------DEDRRSEISKELTDVEAKIAEYEERRTAATDQLRRLDITAPLSGRIYQLAIHTVN--GVINPGETLMLVVPEAEDLTVEAKVATHDIDQIRVGQSVEIRFSAFNQRTTPEVEAEVVTVA</Hsp_hseq>
+      <Hsp_midline>SL      +S L + L    G +   T +   I+    VI      +V     G +    V++G++V+AG  L  L       G +V+  L   A+++ TLA                     E++L          KLI E E R       +L     +L+++K  ++ +++G   ++   EE L+     L+  D++  Q ++ ++    L  Q+A+L+       A R +  G   EI  Q L L       E  +S++ + + D+  ++ ++E R    ++Q+ R       +GR   +AI  V     ++P + L+ +VPE  +L     + +     I+    V +R+ A+  +        VV+VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|13431707|sp|Q28641.1|MYH4_RABIT</Hit_id>
+  <Hit_def>RecName: Full=Myosin-4; AltName: Full=Myosin heavy chain 2b; Short=MyHC-2b; AltName: Full=Myosin heavy chain 4; AltName: Full=Myosin heavy chain, skeletal muscle, juvenile [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>Q28641</Hit_accession>
+  <Hit_len>1938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.492956</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1570</Hsp_hit-from>
+      <Hsp_hit-to>1762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEEIDQLKRNHIRVVESMQSTLDAEIRSRNDAIRIKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQLHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKVAEQELLDASERVQLLHTQNTSLINTKKKLETDISQIQGEMEDIVQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++T++   R  N  + I ++++G    +        R+A E LR YR          L  +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226694176|sp|P12882.3|MYH1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Myosin-1; AltName: Full=Myosin heavy chain 1; AltName: Full=Myosin heavy chain 2x; Short=MyHC-2x; AltName: Full=Myosin heavy chain IIx/d; Short=MyHC-IIx/d; AltName: Full=Myosin heavy chain, skeletal muscle, adult 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>P12882</Hit_accession>
+  <Hit_len>1939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.08486</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1571</Hsp_hit-from>
+      <Hsp_hit-to>1763</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRFLSA---------NDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEVDRKIAEKDEEIDQMKRNHIRIVESMQSTLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQAILKDTQLHLDDALRSQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDISQIQGEMEDIIQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ ++K  H     S+++T++   R  N  + + ++++G    +        R+A E LR YR   A         +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122132085|sp|Q076A4.1|MYH8_CANFA</Hit_id>
+  <Hit_def>RecName: Full=Myosin-8; AltName: Full=Developmental myosin heavy chain neonatal; AltName: Full=Myosin heavy chain 8; AltName: Full=Myosin heavy chain, skeletal muscle, perinatal; Short=MyHC-perinatal [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>Q076A4</Hit_accession>
+  <Hit_len>1939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.1227</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1572</Hsp_hit-from>
+      <Hsp_hit-to>1764</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRREEAGLLQEI----------RTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEVDRKIAEKDEEIDQLKRNHIRVMESMQSTLDAEIRSRNDALRVKKKMEGDLNEMEIQLNHANRLAAESLRNYRNTQGILKDTQLHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKTAEQELLDASERVQLLHTQNTSLINTKKKLENDVSQLQSEVEEVIQESRNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++T++   R  N  L + ++++G    +        RLA E LR YR          L  +DA+  QE +             ++AE+ E +A L+   R      QE+           TQN +L +  K+ E + SQL+  + ++ QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|73921191|sp|Q5SX40.1|MYH1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Myosin-1; AltName: Full=Myosin heavy chain 1; AltName: Full=Myosin heavy chain 2x; Short=MyHC-2x; AltName: Full=Myosin heavy chain, skeletal muscle, adult 1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q5SX40</Hit_accession>
+  <Hit_len>1942</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.22329</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1574</Hsp_hit-from>
+      <Hsp_hit-to>1766</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEEIDQLKRNHIRVVESMQSTLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHSNRMAAEALRNYRNTQGILKDTQLHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDISQIQGEMEDIVQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++T++   R  N  + + ++++G    +        R+A E LR YR          L  +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|13431716|sp|Q9UKX2.1|MYH2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Myosin-2; AltName: Full=Myosin heavy chain 2; AltName: Full=Myosin heavy chain 2a; Short=MyHC-2a; AltName: Full=Myosin heavy chain IIa; Short=MyHC-IIa; AltName: Full=Myosin heavy chain, skeletal muscle, adult 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UKX2</Hit_accession>
+  <Hit_len>1941</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.65116</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1573</Hsp_hit-from>
+      <Hsp_hit-to>1765</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEVDRKIAEKDEEIDQLKRNHIRIVESMQSTLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQIHLDDALRSQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDISQMQGEMEDILQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++T++   R  N  + + ++++G    +        R+A E LR YR          +  +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|75054115|sp|Q8MJV0.1|MYH1_HORSE</Hit_id>
+  <Hit_def>RecName: Full=Myosin-1; AltName: Full=Myosin heavy chain 1; AltName: Full=Myosin heavy chain 2x; Short=MyHC-2x; AltName: Full=Myosin heavy chain, skeletal muscle, adult 1 [Equus caballus]</Hit_def>
+  <Hit_accession>Q8MJV0</Hit_accession>
+  <Hit_len>1938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.93135</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1570</Hsp_hit-from>
+      <Hsp_hit-to>1762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEEIDQLKRNHVRVVETMQTMLDAEIRSRNDAIRIKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQLHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDISQLQGEMEDIVQEAHNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     +++  ++   R  N  + I ++++G    +        R+A E LR YR          L  +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ SQL+  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|3041707|sp|P13535.3|MYH8_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Myosin-8; AltName: Full=Myosin heavy chain 8; AltName: Full=Myosin heavy chain, skeletal muscle, perinatal; Short=MyHC-perinatal [Homo sapiens]</Hit_def>
+  <Hit_accession>P13535</Hit_accession>
+  <Hit_len>1937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.16621</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1570</Hsp_hit-from>
+      <Hsp_hit-to>1762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMNVEAELLEQKAKL---------------------------DAYRREEAGLLQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEVDRKIAEKDEEIDQLKRNHTRVVETMQSTLDAEIRSRNDALRVKKKMEGDLNEMEIQLNHANRLAAESLRNYRNTQGILKETQLHLDDALRGQEDLKEQLAIVERRANLLQAEIEELWATLEQTERSRKIAEQELLDASER-----VQLLHTQNTSLINTKKKLENDVSQLQSEVEEVIQESRNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     ++++T++   R  N  L + ++++G    +        RLA E LR YR          L  +DA+  QE +  +  ++E++A L                           DA  R     +Q + TQN +L +  K+ E + SQL+  + ++ QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|125952600|sp|Q076A6.2|MYH1_CANFA</Hit_id>
+  <Hit_def>RecName: Full=Myosin-1; AltName: Full=Myosin heavy chain 1; AltName: Full=Myosin heavy chain 2x; Short=MyHC-2x; AltName: Full=Myosin heavy chain, skeletal muscle, adult 1 [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>Q076A6</Hit_accession>
+  <Hit_len>1939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.22113</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1571</Hsp_hit-from>
+      <Hsp_hit-to>1763</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEEIDQLKRNHIRVVESMQSTLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQIHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDISQIQGEMEDIIQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++T++   R  N  + + ++++G    +        R+A E LR YR          +  +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|73920236|sp|P13542.2|MYH8_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Myosin-8; AltName: Full=Myosin heavy chain 8; AltName: Full=Myosin heavy chain, skeletal muscle, perinatal; Short=MyHC-perinatal [Mus musculus]</Hit_def>
+  <Hit_accession>P13542</Hit_accession>
+  <Hit_len>1937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.88891</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1570</Hsp_hit-from>
+      <Hsp_hit-to>1762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEEIDQLKRNHVRVVETMQSTLDAEIRSRNDALRVKKKMEGDLNEMEIQLNHANRLAAESLRNYRNTQGILKDTQLHLDDALRGQEDLKEQLAIVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLENDVSQLQSEVEEVIQESRNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     ++++T++   R  N  L + ++++G    +        RLA E LR YR          L  +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ E + SQL+  + ++ QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|75054116|sp|Q8MJV1.1|MYH2_HORSE</Hit_id>
+  <Hit_def>RecName: Full=Myosin-2; AltName: Full=Myosin heavy chain 2; AltName: Full=Myosin heavy chain 2a; Short=MyHC-2a; AltName: Full=Myosin heavy chain, skeletal muscle, adult 2 [Equus caballus]</Hit_def>
+  <Hit_accession>Q8MJV1</Hit_accession>
+  <Hit_len>1937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>4.34699</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1569</Hsp_hit-from>
+      <Hsp_hit-to>1761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEEIDQLKRNHVRVVETMQTMLDAEIRSRNDAIRIKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQLHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDISQLQGEMEDILQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     +++  ++   R  N  + I ++++G    +        R+A E LR YR          L  +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ SQL+  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|75056480|sp|Q9TV61.1|MYH1_PIG</Hit_id>
+  <Hit_def>RecName: Full=Myosin-1; AltName: Full=Myosin heavy chain 1; AltName: Full=Myosin heavy chain 2x; Short=MyHC-2x; AltName: Full=Myosin heavy chain, skeletal muscle, adult 1 [Sus scrofa]</Hit_def>
+  <Hit_accession>Q9TV61</Hit_accession>
+  <Hit_len>1939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>6.44637</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1571</Hsp_hit-from>
+      <Hsp_hit-to>1763</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRREEAGLLQEI----------RTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEVDRKIAEKDEEIDQLKRNHVRVVESMQSMLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQIHLDDALRSQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKVAEQELLDASERVQLLHTQNTSLINTKKKLETDISQIQGEMEDIIQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++ ++   R  N  + + ++++G    +        R+A E LR YR          +  +DA+  QE +             ++AE+ E +A L+   R      QE+           TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|224471840|sp|Q9Y623.2|MYH4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Myosin-4; AltName: Full=Myosin heavy chain 2b; Short=MyHC-2b; AltName: Full=Myosin heavy chain 4; AltName: Full=Myosin heavy chain IIb; Short=MyHC-IIb; AltName: Full=Myosin heavy chain, skeletal muscle, fetal [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y623</Hit_accession>
+  <Hit_len>1939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.14406</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1571</Hsp_hit-from>
+      <Hsp_hit-to>1763</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMNVEAELLEQKAKL---------DAYRREEAGL-------------LQEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEELDQLKRNHLRVVESMQSTLDAEIRSRNDALRIKKKMEGDLNEMEIQLNHANRQAAEALRNLRNTQGILKDTQLHLDDAIRGQDDLKEQLAMVERRANLMQAEVEELRASLERTERGRKMAEQELLDASERVQLLHTQNTSLINTKKKLETDISQIQGEMEDIVQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++EL +LK  H     S+++T++   R  N  L I ++++G    +        R A E LR  R          L  +DA+  Q+ +  +  ++E++A L          +  R E G              +Q + TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|75056482|sp|Q9TV63.1|MYH2_PIG</Hit_id>
+  <Hit_def>RecName: Full=Myosin-2; AltName: Full=Myosin heavy chain 2; AltName: Full=Myosin heavy chain 2a; Short=MyHC-2a; AltName: Full=Myosin heavy chain, skeletal muscle, adult 2 [Sus scrofa]</Hit_def>
+  <Hit_accession>Q9TV63</Hit_accession>
+  <Hit_len>1939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.52071</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1571</Hsp_hit-from>
+      <Hsp_hit-to>1763</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRF---------LSANDAVSKQEMMN------------VEAELLEQKAKLDAYRREEAGLLQEI----------RTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEVDRKIAEKDEEIDQLKRNHVRVVESMQSMLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQIHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKVAEQELLDASERVQLLHTQNTSLINTKKKLETDISQMQGEMEDILQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++ ++   R  N  + + ++++G    +        R+A E LR YR          +  +DA+  QE +             ++AE+ E +A L+   R      QE+           TQN +L +  K+ ET+ SQ++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|75055811|sp|Q9BE40.2|MYH1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Myosin-1; AltName: Full=Myosin heavy chain 1; AltName: Full=Myosin heavy chain 2x; Short=MyHC-2x; AltName: Full=Myosin heavy chain, skeletal muscle, adult 1 [Bos taurus]</Hit_def>
+  <Hit_accession>Q9BE40</Hit_accession>
+  <Hit_len>1938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>9.31567</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1570</Hsp_hit-from>
+      <Hsp_hit-to>1762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QLKTEAVLKKTLAEQELGRLKLIHENETRSLKATVE---RLENQKLHISQQIDGQKRRI--------RLAEEMLRKYRFLSA---------NDAVSKQEMMN------------VEAELLEQKAKLDAYRRE----EAGLL------QEIRTQNLTLASLPKRHETEQSQLERTIADISQEVLDFEMRSEQII</Hsp_qseq>
+      <Hsp_hseq>QVKSEIDRKIAEKDEEIDQLKRNHIRIVESMQSTLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHANRMAAEALKNYRSTQAILKDTQIHLDDALRGQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDITQIQGEMEDIIQEARNAEEKAKKAI</Hsp_hseq>
+      <Hsp_midline>Q+K+E   K    ++E+ +LK  H     S+++T++   R  N  + + ++++G    +        R+A E L+ YR   A         +DA+  QE +             ++AE+ E +A L+   R     E  LL      Q + TQN +L +  K+ ET+ +Q++  + DI QE  + E ++++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

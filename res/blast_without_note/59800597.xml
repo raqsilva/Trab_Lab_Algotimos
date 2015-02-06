@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800597|ref|YP_207309.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>endonuclease III [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>209</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800597|ref|YP_207309.1|</Iteration_query-ID>
+  <Iteration_query-def>endonuclease III [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>209</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81175286|sp|P0AB84.1|END3_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Escherichia coli CFT073] &gt;gi|81175287|sp|P0AB83.1|END3_ECOLI RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AB84</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>8.12805e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEYPAK</Hsp_qseq>
+      <Hsp_hseq>MNKAKRLEILTRLRENNPHPTTELNFSSPFELLIAVLLSAQATDVSVNKATAKLYPVANTPAAMLELGVEGVKTYIKTIGLYNSKAENIIKTCRILLEQHNGEVPEDRAALEALPGVGRKTANVVLNTAFGWPTIAVDTHIFRVCNRTQFAPGKNVEQVEEKLLKVVPAEFKVDCHHWLILHGRYTCIARKPRCGSCIIEDLCEYKEK</Hsp_hseq>
+      <Hsp_midline>MN+  R EI  R R  NPHPTTELNF+SPFELLIAVLLSAQATDV VNKATAKL+PVA+TP AML+LG++GV  Y KTIGLY +K+++I++TCRI+LE++NG+VPEDR ALE+LPGVGRKTANVVLNTAFG P +AVDTHIFRV NRT+ APGK+V +VE+KL++ +P EF +D HHWLILHGRYTC A KP+C +CII DLCEY  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1169526|sp|P44319.1|END3_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44319</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>4.30952e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEYPAK</Hsp_qseq>
+      <Hsp_hseq>MNKTKRIEILTRLREQNPHPTTELQYNSPFELLIAVILSAQATDKGVNKATEKLFPVANTPQAILDLGLDGLKSYIKTIGLFNSKAENIIKTCRDLIEKHNGEVPENREALEALAGVGRKTANVVLNTAFGHPTIAVDTHIFRVCNRTNFAAGKDVVKVEEKLLKVVPNEFKVDVHHWLILHGRYTCIARKPRCGSCIIEDLCEYKEK</Hsp_hseq>
+      <Hsp_midline>MN+  R EI  R R  NPHPTTEL +NSPFELLIAV+LSAQATD GVNKAT KLFPVA+TPQA+LDLGLDG+  Y KTIGL+ +K+++I++TCR ++EK+NG+VPE+REALE+L GVGRKTANVVLNTAFGHP +AVDTHIFRV NRT  A GKDV +VE+KL++ +P EF +D HHWLILHGRYTC A KP+C +CII DLCEY  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|59797880|sp|Q92GH4.1|END3_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92GH4</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>1.96444e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>MQAQIVNKIFEIFSKNNPNPKTELIYKNDFTLLVAVILSAQATDISVNLATKSLFATYDTPEKILELGEEGLKKYIKSIGLFNSKAKNIIALCKILISNYQASVPNDFKALIKLPGVGRKTANVVLNCLFGMPTMAVDTHVFRVANRIGLAKGDTPEIVENELLQIIDTKWLTHAHHWLILHGRYICKARKPDCDICPIKEYCDY</Hsp_hseq>
+      <Hsp_midline>M  QI  +IFE F   NP+P TEL + + F LL+AV+LSAQATD+ VN AT  LF   DTP+ +L+LG +G+ +Y K+IGL+ +K+K+I+  C+I++  Y   VP D +AL  LPGVGRKTANVVLN  FG P MAVDTH+FRV+NR  +A G     VE++L++ I  ++L  AHHWLILHGRY CKA KP C  C I + C+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|25008426|sp|Q8KA16.1|END3_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8KA16</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>1.54546e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEYPAK</Hsp_qseq>
+      <Hsp_hseq>MNKKKRFEILSLFYKKNSNPKIELVFSSDFELLLSVILSAKSTDVMVNKITGTLFQIANTPQSILKLGFNKLRHYIKSIGLYNTKSLNIINSAYLIKTKYNNKVPSNRTELESLPGVGRKTANIILNVLFNKNTIAVDTHVFRVANRTGFAKGKNVIEVEKKMIKIVPSIFKKYVHFWFVLHGRYVCTARQLKCKTCFIEKLCEFDKK</Hsp_hseq>
+      <Hsp_midline>MN++ R EI   F   N +P  EL F+S FELL++V+LSA++TDV VNK T  LF +A+TPQ++L LG + +  Y K+IGLY TKS +I+ +  ++  KYN +VP +R  LESLPGVGRKTAN++LN  F    +AVDTH+FRV+NRT  A GK+V EVE K+++ +P  F    H W +LHGRY C A + +C+TC I  LCE+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|11386793|sp|P57219.1|END3_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57219</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>2.1799e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEYPAK</Hsp_qseq>
+      <Hsp_hseq>MNKKKRYEILSILSRNNPEPKIELFFSSDFELLLSVILSAQSTDFIVNKTTKILFKIANTPETIFLLGLERLKNYIKDIGLYNTKALNIIRTSFIILTKYNSIVPNNRIELESLPGVGRKTANIILNILFKKKTIAVDTHVFRVCNRTNFAKGKNVKIVEEKLIKVVPSIFKLNFHSWFILHGRYICTARKIKCNICLIFKLCEFKQK</Hsp_hseq>
+      <Hsp_midline>MN++ R EI       NP P  EL F+S FELL++V+LSAQ+TD  VNK T  LF +A+TP+ +  LGL+ +  Y K IGLY TK+ +I++T  I+L KYN  VP +R  LESLPGVGRKTAN++LN  F    +AVDTH+FRV NRT  A GK+V+ VE+KL++ +P  F ++ H W ILHGRY C A K +C  C+I  LCE+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75536019|sp|Q4UK93.1|END3_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UK93</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>2.47625e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>MQAQIVNKIFEIFSKNNPSPKTELIYKNDFTLLVAVMLSAQATDISVNLATKSLFETYDTTEKILELGEDGLKKYIKSIGLFNSKAKNIIALCKILISNYQSSVPNDFKELIKLPGVGRKTANVVLNCLFGMPTMAVDTHVFRVAKRIGLARGNSPEIVEKELLQIINEKWLTHAHHWLILHGRYICKARKPDCDICPIKEYCEY</Hsp_hseq>
+      <Hsp_midline>M  QI  +IFE F   NP P TEL + + F LL+AV+LSAQATD+ VN AT  LF   DT + +L+LG DG+ +Y K+IGL+ +K+K+I+  C+I++  Y   VP D + L  LPGVGRKTANVVLN  FG P MAVDTH+FRV+ R  +A G     VE +L++ I +++L  AHHWLILHGRY CKA KP C  C I + CEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|8134428|sp|O83754.1|END3_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O83754</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>1.2761e-73</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>IFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>VFEQLHAANPQPQGELHWRNTFTLLVAVLLSAQATDKSVNKATAALFDVADTPQAMLALGEERLCSYIRTINLYPTKARRIIALSAELIERFAAQVPCDAHALESLPGVGHKTANVVLNMGFGIPTIAVDTHILRTAPRIGLSSGRTPRAVERDLLVVTPREFRMHAHHWILLHGRYTCTARRPRCTECCLRDLC</Hsp_hseq>
+      <Hsp_midline>+FE+  AANP P  EL++ + F LL+AVLLSAQATD  VNKATA LF VADTPQAML LG + +  Y +TI LY TK++ I+     ++E++  QVP D  ALESLPGVG KTANVVLN  FG P +AVDTHI R + R  ++ G+  R VE  L+   P+EF M AHHW++LHGRYTC A +P+C  C + DLC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|3023687|sp|O05956.1|END3_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>O05956</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>7.68088e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>MQAQIMNKIFEIFSKNNPKPQTELIYKNDFTLLVAVILSARATDISVNLATKHLFETYNTPEKFLELGEEGLKKYIKSIGLFNSKAKNIIALCQILIKNYQTSIPNNFKELVKLPGVGRKTANVVLNCLFAMPTMAVDTHVFRVSKRIGLAKGNTAAIVEKELLQIIDEKWLTYAHHWLILHGRYICKARKPGCNICPIKEYCEY</Hsp_hseq>
+      <Hsp_midline>M  QI  +IFE F   NP P TEL + + F LL+AV+LSA+ATD+ VN AT  LF   +TP+  L+LG +G+ +Y K+IGL+ +K+K+I+  C+I+++ Y   +P + + L  LPGVGRKTANVVLN  F  P MAVDTH+FRVS R  +A G     VE +L++ I +++L  AHHWLILHGRY CKA KP C  C I + CEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|59797722|sp|Q68W04.1|END3_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68W04</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>1.30642e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>MQAQIVNKIFEIFSKNNPKPQTALIYKNDFTLLVAVILSARATDISVNLVTKHLFETYNTPEKILALGEEGLKKYIKSIGLFNSKAKNIIASCQILIKNYQASIPNDFKELVKLPGVGRKTANVVLNCLFAMPTMAVDTHVFRVSKRIGLAKGNTTVIVEKELLQIIDEKWLTHAHHWLVLHGRYICKARKPSCRICHIKEYCEY</Hsp_hseq>
+      <Hsp_midline>M  QI  +IFE F   NP P T L + + F LL+AV+LSA+ATD+ VN  T  LF   +TP+ +L LG +G+ +Y K+IGL+ +K+K+I+ +C+I+++ Y   +P D + L  LPGVGRKTANVVLN  F  P MAVDTH+FRVS R  +A G     VE +L++ I +++L  AHHWL+LHGRY CKA KP C+ C I + CEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|32129508|sp|Q89AW4.1|END3_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AW4</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>1.61602e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEYPAKS</Hsp_qseq>
+      <Hsp_hseq>LNHKNRYKILKMFSNIYINFKTGLVFTSNFELLISVMLSAQTTDRMVNKTTQRLFGIANTPSGFISIGLHAIRENIRKLGLYNKKSSNILRTCEILLKRYGGKVPNNREDLESLPGVGRKTANVILNVIFKKKTIAVDTHVFRLCNRIGFAKGTTVLTVEKKLLNIVPEKFKLNFHAWFIMHGRYICTSRVPKCSKCIISSLCEFKDKN</Hsp_hseq>
+      <Hsp_midline>+N + R +I + F     +  T L F S FELLI+V+LSAQ TD  VNK T +LF +A+TP   + +GL  + E  + +GLY  KS +I++TC I+L++Y G+VP +RE LESLPGVGRKTANV+LN  F    +AVDTH+FR+ NR   A G  V  VE KL+  +P++F ++ H W I+HGRY C +  P+C  CII+ LCE+  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|729418|sp|P39788.1|END3_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39788</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>1.25025e-54</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>PHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKD-VREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>PHAECELVHSNPFELVVAVALSAQCTDALVNRVTKTLFQKYKRPEDYLAVPLEELQQDIKSIGLYRNKAKNIQKLSKMIIEDYGGEVPRDRDELVKLPGVGRKTANVVVSVAFGVPAIAVDTHVERVSKRLGICRWKDSVLEVEKTLMRKVPKEDWSVTHHRLIFFGRYHCKAQSPRCAECPLLSLC</Hsp_hseq>
+      <Hsp_midline>PH   EL  ++PFEL++AV LSAQ TD  VN+ T  LF     P+  L + L+ + +  K+IGLY+ K+K+I +  ++++E Y G+VP DR+ L  LPGVGRKTANVV++ AFG P +AVDTH+ RVS R  I   KD V EVE  LMR +PKE     HH LI  GRY CKA  P+C  C +  LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|8134433|sp|Q9WYK0.1|END3_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9WYK0</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>2.23277e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>MIEELAREIVKRF--PRNHKETD-----PFRVLISTVLSQRTRDENTEKASKKLFEVYRTPQELAKAKPEDLYDLIKESGMYRQKAERIVEISRILVEKYGGRVPDSLEELLKLPGVGRKTANIVLWVGFKKPALAVDTHVHRISNRLGWVKTRTPEETEEALKKLLPEDLWGPINGSMVEFGRRICKPQNPLCEECFLKNHCEF</Hsp_hseq>
+      <Hsp_midline>M  ++ +EI +RF     H  T+     PF +LI+ +LS +  D    KA+ KLF V  TPQ +     + + +  K  G+Y+ K++ I++  RI++EKY G+VP+  E L  LPGVGRKTAN+VL   F  P +AVDTH+ R+SNR      +   E E+ L + +P++     +  ++  GR  CK   P C+ C + + CE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|3023691|sp|P73715.1|END3_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P73715</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>3.13666e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>NRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMA---VDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>KKQRATEILLILKKLYPGATCSLDYQTPVQLLVATILSAQCTDERVNKVTPALFQRYPDANALAYGDRQEIEELIHSTGFFRNKAKNIQGACRKIVEEFDGEVPQRMEELLTLPGVARKTANVVLAHAFG--ILAGVTVDTHVKRLSQRLGLTKATDPIRIERDLMKLIPQPDWENFSIHIIYHGRAVCAARKPLCGECQLAHLC</Hsp_hseq>
+      <Hsp_midline> +Q   EI    +   P  T  L++ +P +LL+A +LSAQ TD  VNK T  LF       A+       + E   + G ++ K+K+I   CR ++E+++G+VP+  E L +LPGV RKTANVVL  AFG  ++A   VDTH+ R+S R  +    D   +E  LM+ IP+    +    +I HGR  C A KP C  C +  LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2506195|sp|P46303.2|UVEN_MICLC</Hit_id>
+  <Hit_def>RecName: Full=Ultraviolet N-glycosylase/AP lyase; AltName: Full=Pyrimidine dimer glycosylase; AltName: Full=UV-endonuclease; Contains: RecName: Full=UV endonuclease 32 kDa isoform; Contains: RecName: Full=UV endonuclease 31 kDa isoform [Micrococcus luteus NCTC 2665]</Hit_def>
+  <Hit_accession>P46303</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.38248e-36</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>PHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIP--KEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>PYAVAELDFETPFELLVATVLSAQTTDVRVNAATPALFARFPDAHAMAAATEPELQELVRSTGFYRNKASAILRLSQELVGRHDGEVPARLEDLVALPGVGRKTAFVVLGNAFGQPGITVDTHFGRLARRLGFTDETDPGKGRARRGRPVPPARDWTMLSHR-LIFHGRRVCHARRPACGRCPIARWC</Hsp_hseq>
+      <Hsp_midline>P+   EL+F +PFELL+A +LSAQ TDV VN AT  LF       AM       + E  ++ G Y+ K+  I++  + ++ +++G+VP   E L +LPGVGRKTA VVL  AFG P + VDTH  R++ R       D  +   +  R +P  +++ M +H  LI HGR  C A +P C  C I   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|54037049|sp|P63541.1|END3_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Mycobacterium bovis AF2122/97] &gt;gi|613780876|sp|P9WQ10.1|END3_MYCTO RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Mycobacterium tuberculosis CDC1551] &gt;gi|613780881|sp|P9WQ11.1|END3_MYCTU RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P63541</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>6.35151e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>MNRALAQ--------AFPHVYCELDFTTPLELAVATILSAQSTDKRVNLTTPALFARYRTARDYAQADRTELESLIRPTGFYRNKAASLIGLGQALVERFGGEVPATMDKLVTLPGVGRKTANVILGNAFGIPGITVDTHFGRLVRRWRWTTAEDPVKVEQAVGELIERKEWTLLSHRVIFHGRRVCHARRPACGVCVLAKDC</Hsp_hseq>
+      <Hsp_midline>MNR + Q        A PH   EL+F +P EL +A +LSAQ+TD  VN  T  LF    T +         +    +  G Y+ K+  ++   + ++E++ G+VP   + L +LPGVGRKTANV+L  AFG P + VDTH  R+  R +    +D  +VE  +   I ++      H +I HGR  C A +P C  C++   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|15213993|sp|Q9CB92.2|END3_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>Q9CB92</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.65025e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>MNRQIRQEIFERFRAANPHPTTELNFNSPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>MNRALAQ--------AFPHVYCELDFTSPLELTVATILSAQSTDKRVNLTTPAVFARYRSALDYMQADRAELENFIRPTGFFRNKAASLIRLGQALVERFDGEVPSTMVDLFTLPGVGRKTANVILGNAFGIPGITVDTHFGRLVRRWRWTAEEDPVKVEHAVGELIERDQWTLLSHRVIFHGRRVCHARKPACGVCVLAKDC</Hsp_hseq>
+      <Hsp_midline>MNR + Q        A PH   EL+F SP EL +A +LSAQ+TD  VN  T  +F    +    +      +  + +  G ++ K+  +++  + ++E+++G+VP     L +LPGVGRKTANV+L  AFG P + VDTH  R+  R +    +D  +VE  +   I ++      H +I HGR  C A KP C  C++   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|3915935|sp|Q58030.2|END3_METJA</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58030</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>9.78097e-24</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>SPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCI--INDLCEYPAK</Hsp_qseq>
+      <Hsp_hseq>DPFKVLISTIISARTKDEVTEEVSKKLFKEIKDVDDLLNIDEEKLADLIYPAGFYKNKAKNLKKLAKILKENYNGKVPDSLEELLKLPGVGRKTANLVITLAFNKDGICVDTHVHRICNRWEIVDTETPEETEFELRKKLPKKYWKVINNLLVVFGREICSS-KSKCDKCFKEIKEKCPYYEK</Hsp_hseq>
+      <Hsp_midline> PF++LI+ ++SA+  D    + + KLF        +L++  + + +     G YK K+K++ +  +I+ E YNG+VP+  E L  LPGVGRKTAN+V+  AF    + VDTH+ R+ NR +I   +   E E +L + +PK++    ++ L++ GR  C + K +C  C   I + C Y  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|614103572|sp|A7M7B9.1|NTH_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III-like protein 1; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase; Flags: Precursor [Gallus gallus]</Hit_def>
+  <Hit_accession>A7M7B9</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.54019e-22</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>QEIFERFRAANPH---PTTELNFN------SP-----FELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNRTKIAPGKDVREVED---KLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>QQQLERIREMRRHRDAPVDEMGVDKCYDTSAPPQVMRYQVLLSLMLSSQTKDQVTSAAMLRLRQRGLTVDSILQMDDATLGQIIYPVGFWRNKVKYIKQTTAILKQKYGGDIPGTVEELVKLPGVGPKMAHLAMNIAWNSVSGIAVDTHVHRITNRLKWV-KKETRYPEETRVALEDWLPRDLWREINWLLVGFGQQTCLPVNPRCKECLNQDIC</Hsp_hseq>
+      <Hsp_midline>Q+  ER R    H   P  E+  +      +P     +++L++++LS+Q  D   + A  +L     T  ++L +    + +    +G ++ K K+I QT  I+ +KY G +P   E L  LPGVG K A++ +N A+     +AVDTH+ R++NR K    K+ R  E+    L  ++P++   + +  L+  G+ TC  + P+C+ C+  D+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|109892805|sp|Q2KID2.1|NTH_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III-like protein 1; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q2KID2</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.97336e-22</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNR---TKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>YQVLLSLMLSSQTKDQVTAGAMQRLRARGLTVDSILQTDDSTLGALIYPVGFWRSKVKYIKQTSAILQQRYDGDIPASVAELVALPGVGPKMAHLAMAVAWGTVSGIAVDTHVHRIANRLRWTKKAT-KSPEETRRALEEWLPRELWSEINGLLVGFGQQTCLPIRPRCQACLNRALC</Hsp_hseq>
+      <Hsp_midline>+++L++++LS+Q  D     A  +L     T  ++L      +      +G +++K K+I QT  I+ ++Y+G +P     L +LPGVG K A++ +  A+G    +AVDTH+ R++NR   TK A  K   E    L  ++P+E   + +  L+  G+ TC  ++P+CQ C+   LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|341941198|sp|P54137.2|NTH_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog; Short=CeNTH; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P54137</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>3.93436e-22</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPV-MAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>FQVLVALMLSSQTRDEVNAAAMKRLKDHGLSIGKILEFKVPDLETILCPVGFYKRKAVYLQKTAKILKDDFSGDIPDSLDGLCALPGVGPKMANLVMQIAWGECVGIAVDTHVHRISNRLGWIKTSTPEKTQKALEILLPKSEWQPINHLLVGFGQMQCQPVRPKCGTCLCRFTC</Hsp_hseq>
+      <Hsp_midline>F++L+A++LS+Q  D     A  +L     +   +L+  +  +      +G YK K+ ++ +T +I+ + ++G +P+  + L +LPGVG K AN+V+  A+G  V +AVDTH+ R+SNR          + +  L   +PK      +H L+  G+  C+ ++P+C TC+    C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|613504028|sp|O35980.2|NTH_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III-like protein 1; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>O35980</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>8.7001e-21</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNRTKIAPG--KDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>YQVLLSLMLSSQTKDQVTAGAMQRLRARGLTVESILQTDDDTLGRLIYPVGFWRNKVKYIKQTTAILQQRYEGDIPASVAELVALPGVGPKMAHLAMAVAWGTISGIAVDTHVHRIANRLRWTKKMTKTPEETRKNLEEWLPRVLWSEVNGLLVGFGQQICLPVHPRCQACLNKALC</Hsp_hseq>
+      <Hsp_midline>+++L++++LS+Q  D     A  +L     T +++L    D +      +G ++ K K+I QT  I+ ++Y G +P     L +LPGVG K A++ +  A+G    +AVDTH+ R++NR +      K   E    L  ++P+    + +  L+  G+  C  + P+CQ C+   LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|29840795|sp|P78549.2|NTH_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III-like protein 1; Short=hNTH1; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P78549</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>2.70153e-20</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNR---TKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>YQVLLSLMLSSQTKDQVTAGAMQRLRARGLTVDSILQTDDATLGKLIYPVGFWRSKVKYIKQTSAILQQHYGGDIPASVAELVALPGVGPKMAHLAMAVAWGTVSGIAVDTHVHRIANRLRWTKKAT-KSPEETRAALEEWLPRELWHEINGLLVGFGQQTCLPVHPRCHACLNQALC</Hsp_hseq>
+      <Hsp_midline>+++L++++LS+Q  D     A  +L     T  ++L      + +    +G +++K K+I QT  I+ + Y G +P     L +LPGVG K A++ +  A+G    +AVDTH+ R++NR   TK A  K   E    L  ++P+E   + +  L+  G+ TC  + P+C  C+   LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|75206080|sp|Q9SIC4.2|NTH1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog 1, chloroplastic; Short=AtNTH1; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase 1; Short=DNA glycoslyase/AP lyase 1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SIC4</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.89216e-20</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPVAD-TPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNRTKIA--PGKDVR-----EVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>FAVLLGALLSSQTKDQVNNAAIHRLHQNGLLTPEAVDKADESTIKELIYPVGFYTRKATYMKKIARICLVKYDGDIPSSLDDLLSLPGIGPKMAHLILHIAWNDVQGICVDTHVHRICNRLGWVSRPGTKQKTTSPEETRVALQQWLPKEEWVAINPLLVGFGQMICTPIRPRCEACSVSKLC</Hsp_hseq>
+      <Hsp_midline>F +L+  LLS+Q  D   N A  +L      TP+A+       + E    +G Y  K+ ++ +  RI L KY+G +P   + L SLPG+G K A+++L+ A+     + VDTH+ R+ NR      PG   +     E    L +++PKE  +  +  L+  G+  C  ++P+C+ C ++ LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|614103555|sp|B9DFZ0.1|NTH2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog 2, chloroplastic; Short=AtNTH2; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase 2; Short=DNA glycoslyase/AP lyase 2; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>B9DFZ0</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>5.58356e-19</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPVAD-TPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNRTKIA--PGKDVR-----EVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>FYVLIGTLLSSQTKEHITGAAVERLHQNGLLTPEAIDKADESTIKELIYPVGFYTRKATNVKKVAKICLMEYDGDIPRTLEELLSLPGVGPKIAHLVLHVAWNDVQGICVDTHVHRICNRLGWVSKPGTKQKTSSPEETRVALQQWLPKGEWVAINFLLVGFGQTICTPLRPHCGTCSITEIC</Hsp_hseq>
+      <Hsp_midline>F +LI  LLS+Q  +     A  +L      TP+A+       + E    +G Y  K+ ++ +  +I L +Y+G +P   E L SLPGVG K A++VL+ A+     + VDTH+ R+ NR      PG   +     E    L +++PK   +  +  L+  G+  C  L+P C TC I ++C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74621135|sp|Q8SRB8.1|NTH_ENCCU</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase [Encephalitozoon cuniculi GB-M1]</Hit_def>
+  <Hit_accession>Q8SRB8</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>2.46924e-17</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>PTTELNFNSPFELLIAVLLSAQATDVGVNKATA---KLFP--VADTPQAMLDLGLDGVM--------EYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPV-MAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>PSCRTEEERRFHILVSLLLSSQTKDEVTYEAMARLRKLLPESAATDGEARGGLTIERVANSDVKHINECIKKVGFHNRKAANLKKIAEILREK---GLPREMKDLISLPGIGNKMALLYMSHACNRTVGISVDTHVHRISNRIGLVRTRDVESTRRELERVVPRKEWKTINNILVGFGQTICVAKRPRCEECCIRGRC</Hsp_hseq>
+      <Hsp_midline>P+        F +L+++LLS+Q  D    +A A   KL P   A   +A   L ++ V         E  K +G +  K+ ++ +   I+ EK    +P + + L SLPG+G K A + ++ A    V ++VDTH+ R+SNR  +   +DV     +L R +P++     ++ L+  G+  C A +P+C+ C I   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|232205|sp|P29588.1|GTMR_METTF</Hit_id>
+  <Hit_def>RecName: Full=G/T mismatches repair enzyme; AltName: Full=Mismatch glycosylase; Short=MIG; AltName: Full=Thymine-DNA glycosylase [Methanothermobacter thermautotrophicus]</Hit_def>
+  <Hit_accession>P29588</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>4.85795e-16</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>PFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMR----FIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEYPAK</Hsp_qseq>
+      <Hsp_hseq>PYVILITEILLRRTTAGHVKKIYDKFFVKYKCFEDILKTPKSEIAKDIKEIGLSNQRAEQLKELARVVINDYGGRVPRNRKAILDLPGVGKYTCAAVMCLAFGKKAAMVDANFVRVINRYFGGSYENLNYNHKALWELAETLVPGGKCRDFNLGLMDFSAIICAPRKPKCEKCGMSKLCSYYEK</Hsp_hseq>
+      <Hsp_midline>P+ +LI  +L  + T   V K   K F      + +L      + +  K IGL   +++ + +  R+V+  Y G+VP +R+A+  LPGVG+ T   V+  AFG     VD +  RV NR      +++      L       +P     D +  L+      C   KP+C+ C ++ LC Y  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1351660|sp|Q09907.1|NTH_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q09907</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>8.3016e-15</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDV-------GVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPV-MAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIIN</Hsp_qseq>
+      <Hsp_hseq>FQTLVALMLSSQTKDIVLGPTMRNLKEKLAGGLCLEDI-QNIDEVSLNKLIE---KVGFHNRKTIYLKQMARILSEKFQGDIPDTVEDLMTLPGVGPKMGYLCMSIAWNKTVGIGVDVHVHRICNLLHWCNTKTEEQTRAALQSWLPKELWFELNHTLVGFGQTICLPRGRRCDMCTLS</Hsp_hseq>
+      <Hsp_midline>F+ L+A++LS+Q  D+        + +  A    + D  Q + ++ L+ ++E    +G +  K+ ++ Q  RI+ EK+ G +P+  E L +LPGVG K   + ++ A+   V + VD H+ R+ N       K   +    L  ++PKE   + +H L+  G+  C     +C  C ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|14285602|sp|Q08214.1|NTH2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog 2; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase 2; Short=DNA glycoslyase/AP lyase 2; AltName: Full=Endonuclease III-like glycosylase 2; AltName: Full=Redoxyendonuclease 2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q08214</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.21669e-12</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>NSPFELLIAVLLSAQATDVGVNKATAKLFPVA-DTPQAMLDLGLDGVME--------YTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPV-MAVDTHIFRVS---NRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>NFRLQFLIGTMLSAQTRDERMAQAALNITEYCLNTLKIAEGITLDGLLKIDEPVLANLIRCVSFYTRKANFIKRTAQLLVDNFDSDIPYDIEGILSLPGVGPKMGYLTLQKGWGLIAGICVDVHVHRLCKMWNWVDPIKCKTAEHTRKELQVWLPHSLWYEINTVLVGFGQLICMARGKRCDLCLANDVC</Hsp_hseq>
+      <Hsp_midline>N   + LI  +LSAQ  D  + +A   +     +T +    + LDG+++          + +  Y  K+  I +T +++++ ++  +P D E + SLPGVG K   + L   +G    + VD H+ R+    N       K       +L  ++P     + +  L+  G+  C A   +C  C+ ND+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|614103580|sp|C8VC05.2|NTH_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase; Short=DNA glycoslyase/AP lyase; Flags: Precursor [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>C8VC05</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.21689e-11</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>TIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFG-HPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTC</Hsp_qseq>
+      <Hsp_hseq>TVGFHNNKTKYIKKAAEIIRDQYNSDIPSTPAELMKLPGVGPKMAYLCMSAAWGKHEGIGVDVHVHRITNLWGWHKTKTPEETRMSLESWLPKDKWHEINKLLVGLGQTVCLPVGRRCGDC</Hsp_hseq>
+      <Hsp_midline>T+G +  K+K+I +   I+ ++YN  +P     L  LPGVG K A + ++ A+G H  + VD H+ R++N       K   E    L  ++PK+   + +  L+  G+  C  +  +C  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|81637527|sp|O31584.1|YFHQ_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable A/G-specific adenine glycosylase YfhQ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31584</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>4.42015e-11</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>TPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRT-----KIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>TVEALADADEEKVLKAWEGLGYY-SRVRNLQSAVKEVKQEYGGIVPPDEKDFGGLKGVGPYTKGAVLSIAYNKPIPAVDGNVMRVMSRILSIWDDIAKPKTRTIFEDAIRAFISKEKPSEFNQGLMELGALICTPKSPSCLLCPVQQHC</Hsp_hseq>
+      <Hsp_midline>T +A+ D   + V++  + +G Y ++ +++    + V ++Y G VP D +    L GVG  T   VL+ A+  P+ AVD ++ RV +R       IA  K     ED +  FI KE   + +  L+  G   C    P C  C +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|401436|sp|P31378.1|NTH1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Endonuclease III homolog 1; AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase 1; Short=DNA glycoslyase/AP lyase 1; AltName: Full=Endonuclease III-like glycosylase 1; AltName: Full=Redoxyendonuclease 1; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P31378</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.75231e-09</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPV---------ADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNRTKIAPGKDVR---EVEDKLMRFIPKEFLMDAHHWLILHGRYTCKA</Hsp_qseq>
+      <Hsp_hseq>LQVLLGVMLSSQTKDEVTAMAMLNIMRYCIDELHSEEGMTLEAVLQINETKLDELIHSVGFHTRKAKYILSTCKILQDQFSSDVPATINELLGLPGVGPKMAYLTLQKAWGKIEGICVDVHVDRLTKLWKWVDAQKCKTPDQTRTQLQNWLPKGLWTEINGLLVGFGQIITKS</Hsp_hseq>
+      <Hsp_midline> ++L+ V+LS+Q  D     A   +              T +A+L +    + E   ++G +  K+K+I+ TC+I+ ++++  VP     L  LPGVG K A + L  A+G    + VD H+ R++   K    +  +   +   +L  ++PK    + +  L+  G+   K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1171084|sp|P44320.1|MUTY_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44320</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>3.41364e-09</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>AMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPG-KDVREVEDKLM----RFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>ALANASQDEVLHLWTGLGYY-ARARNLHKAAQKVRDEFNGNFPTNFEQVWALSGVGRSTAGAILSSVLNQPYPILDGNVKRVLARYFAVEGWSGEKKVENRLWALTEQVTPTTRVADFNQAMMDIGAMVCMRTKPKCDLCPLNIDC</Hsp_hseq>
+      <Hsp_midline>A+ +   D V+     +G Y  +++++ +  + V +++NG  P + E + +L GVGR TA  +L++    P   +D ++ RV  R     G    ++VE++L     +  P   + D +  ++  G   C   KP+C  C +N  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|127559|sp|P17802.1|MUTY_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P17802</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>6.40376e-09</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>LDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIA---PGKDVREVEDKLM----RFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>LDEVLHLWTGLGYY-ARARNLHKAAQQVATLHGGKFPETFEEVAALPGVGRSTAGAILSLSLGKHFPILDGNVKRVLARCYAVSGWPGK--KEVENKLWSLSEQVTPAVGVERFNQAMMDLGAMICTRSKPKCSLCPLQNGC</Hsp_hseq>
+      <Hsp_midline>LD V+     +G Y  +++++ +  + V   + G+ PE  E + +LPGVGR TA  +L+ + G     +D ++ RV  R       PGK  +EVE+KL     +  P   +   +  ++  G   C   KP+C  C + + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|32129767|sp|Q89A45.1|MUTY_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89A45</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>8.83141e-09</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>KLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFI----PKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCE</Hsp_qseq>
+      <Hsp_hseq>KRFPNIDT---LSDSPLDSILNLWSGLGYY-TRARNIYKTAKILKQKFNGIFPNSYAEIIKLPGIGKSTAGAILSFGFNLYSCILDGNIKRVLIRY-YSININNKYIEKLLWKTIESITPIYHTNKFNQALIDIGALICLKSNPKCNICPLKSTCK</Hsp_hseq>
+      <Hsp_midline>K FP  DT   + D  LD ++     +G Y T++++I +T +I+ +K+NG  P     +  LPG+G+ TA  +L+  F      +D +I RV  R   +   + + +E  L + I    P       +  LI  G   C    P+C  C +   C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|48428272|sp|Q9UIF7.1|MUTYH_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine DNA glycosylase; AltName: Full=MutY homolog; Short=hMYH [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UIF7</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>2.49045e-08</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>TPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESL-PGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFL-----MDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>TLQDLASASLEEVNQLWAGLGYY-SRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFGQATGVVDGNVARVLCRVRAIGADPSSTLVSQQLWGLAQQLVDPARPGDFNQAAMELGATVCTPQRPLCSQCPVESLC</Hsp_hseq>
+      <Hsp_midline>T Q +    L+ V +    +G Y ++ + + +  R V+E+  G +P   E L+ L PGVGR TA  + + AFG     VD ++ RV  R +         +  + +  + ++ +      D +   +  G   C   +P C  C +  LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|11386923|sp|P57617.1|MUTY_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57617</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.05434e-08</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>QAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTA--FGHPVMAVDTHIFRVSNRTKIAPG--KDVREVEDKLMRFIP-----------KEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>KSLNDSKLDDVLYLWSGLGYY-NRAKNIYKSAQIIKKKYKGIFPDQFSNIIQLPGIGRSTAGAILSLSLNFFYPIL--DGNVKRILVRYYGISGLLKD-KKIEKKLWNIIESITPIHNTGKFNQGMMDI-------GASICISIKPKCTICPLKKEC</Hsp_hseq>
+      <Hsp_midline>+++ D  LD V+     +G Y  ++K+I ++ +I+ +KY G  P+    +  LPG+GR TA  +L+ +  F +P++  D ++ R+  R     G  KD +++E KL   I             + +MD        G   C ++KP+C  C +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|614103192|sp|P9WQ08.1|MUTY_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Mycobacterium tuberculosis CDC1551] &gt;gi|614103202|sp|P9WQ09.1|MUTY_MYCTU RecName: Full=A/G-specific adenine glycosylase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WQ08</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>8.09854e-08</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>SPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFR-----VSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>SPWQILVSEFMLQQTPAARVLAIWPDWVRRWPTPSATATASTADVLRAWGKLG-YPRRAKRLHECATVIARDHNDVVPDDIEILVTLPGVGSYTARAVACFAYRQRVPVVDTNVRRVVARAVHGRADAGAPSVPRDHADVLALLPHRETAPEFSVALMELGATVCTARTPRCGLCPL-DWCAW</Hsp_hseq>
+      <Hsp_midline>SP+++L++  +  Q     V            TP A        V+     +G Y  ++K + +   ++   +N  VP+D E L +LPGVG  TA  V   A+   V  VDT++ R     V  R         R+  D L     +E   +    L+  G   C A  P+C  C + D C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1723233|sp|Q10159.1|MYH1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine DNA glycosylase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q10159</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.03872e-07</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>FELLIAVLLSAQATDVGVNKATAKLFPVADTPQAMLDLGLDG-VMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPE-DREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFL-----MDAHHWLILHGRYTCKALKPQCQTCIINDLCE</Hsp_qseq>
+      <Hsp_hseq>YEVLVSEIMLQQTRVETVKRYYTKWMETLPTLKSCAEAEYNTQVMPLWSGMGFY-TRCKRLHQACQHLAKLHPSEIPRTGDEWAKGIPGVGPYTAGAVLSIAWKQPTGIVDGNVIRVLSRALAIHSDCSKGKANALIWKLANELVDPVRPGDFNQALMELGAITCTPQSPRCSVCPISEICK</Hsp_hseq>
+      <Hsp_midline>+E+L++ ++  Q     V +   K      T ++  +   +  VM     +G Y T+ K + Q C+ + + +  ++P    E  + +PGVG  TA  VL+ A+  P   VD ++ RV +R         +   + L+  +  E +      D +  L+  G  TC    P+C  C I+++C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|462663|sp|Q05869.1|MUTY_SALTY</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q05869</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.05041e-07</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>LDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIA---PGKDVREVEDKLM----RFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>LDEVLHLWTGLGYY-ARARNLHKAAQQVATLHGGEFPQTFAEIAALPGVGRSTAGAILSLALGKHYPILDGNVKRVLARCYAVSGWPGK--KEVENTLWTLSEQVTPARGVERFNQAMMDLGAMVCTRSKPKCTLCPLQNGC</Hsp_hseq>
+      <Hsp_midline>LD V+     +G Y  +++++ +  + V   + G+ P+    + +LPGVGR TA  +L+ A G     +D ++ RV  R       PGK  +EVE+ L     +  P   +   +  ++  G   C   KP+C  C + + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|48428185|sp|Q8R5G2.1|MUTYH_RAT</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine DNA glycosylase; AltName: Full=MutY homolog; Short=rMYH [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q8R5G2</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.09349e-07</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>TPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESL-PGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKD------VREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>TLQDLASASLEEVNQLWSGLGYY-SRGRRLQEGARKVVEELGGHVPRTAETLQQLLPGVGRYTAGAIASIAFDQVTGVVDGNVIRVLCRVR-AIGADPTSSFVSHHLWDLAQQLVDPARPGDFNQAAMELGATVCTPQRPLCNHCPVQSLC</Hsp_hseq>
+      <Hsp_midline>T Q +    L+ V +    +G Y ++ + + +  R V+E+  G VP   E L+ L PGVGR TA  + + AF      VD ++ RV  R + A G D         + D   + +      D +   +  G   C   +P C  C +  LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|341940982|sp|Q99P21.2|MUTYH_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine DNA glycosylase; AltName: Full=MutY homolog; Short=mMYH [Mus musculus]</Hit_def>
+  <Hit_accession>Q99P21</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.42334e-07</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>QAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESL-PGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILH------------------GRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>QDLASASLEEVNQLWSGLGYY-SRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFDQVTGVVDGNVLRVLCRVR-AIGAD------------PTSTLVSHHLWNLAQQLVDPARPGDFNQAAMELGATVCTPQRPLCSHCPVQSLC</Hsp_hseq>
+      <Hsp_midline>Q +    L+ V +    +G Y ++ + + +  R V+E+  G +P   E L+ L PGVGR TA  + + AF      VD ++ RV  R + A G D            P   L+  H W +                    G   C   +P C  C +  LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|41018436|sp|Q58829.1|Y1434_METJA</Hit_id>
+  <Hit_def>RecName: Full=Putative endonuclease MJ1434 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58829</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.96788e-07</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SPFELLIAVLLSAQATDVGVNKATAKLFPVADTPQ--AMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYN-----GQVPED----REALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGK-DVREVEDKLMRFIPK--EFLMDAHHWLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>TRYEVVVGAILTQNTSWKNVERAINNL-KMEDLLEEVKILNVDEDKLKELIRPAGFYNLKAKRLKNVTKFIVENYGNTEEMAKTDKDTLILRAELLSINGVGKETADSILLYALDRESFVVDAYTKRMFSRLGVINEKAKYDEIKEIFEKNLPKDLEIYKEYHALIVEHCKKFCRK-KALCDNCPIKEFC</Hsp_hseq>
+      <Hsp_midline>+ +E+++  +L+   +   V +A   L  + D  +   +L++  D + E  +  G Y  K+K +    + ++E Y       +  +D    R  L S+ GVG++TA+ +L  A       VD +  R+ +R  +   K    E+++   + +PK  E   + H  ++ H +  C+  K  C  C I + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|460425337|sp|A0R567.1|MUTY_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0R567</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.21203e-05</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>YKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNR----TKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILH-GRYTCKALKPQCQTCIIN</Hsp_qseq>
+      <Hsp_hseq>YPRRAKRLHECAVVIASEYDDVVPRDVDTLLTLPGIGAYTARAVACFAYQASVPVVDTNVRRVVTRAVHGAADAPAS-TRDL-DMVAALLPPDTTAPTFSAALMELGATVCTARSPRCGICPLS</Hsp_hseq>
+      <Hsp_midline>Y  ++K + +   ++  +Y+  VP D + L +LPG+G  TA  V   A+   V  VDT++ RV  R       AP    R++ D +   +P +         ++  G   C A  P+C  C ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|25008823|sp|Q8K926.1|MUTY_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=A/G-specific adenine glycosylase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K926</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000206034</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>QAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDV-REVEDKLMRFIPKEFLMDAHH------WLILHGRYTCKALKPQCQTCIINDLC</Hsp_qseq>
+      <Hsp_hseq>QSLNQSKLDDILCLWSGLGYYK-RAENIYKTVKIIKEEFQEKFPTGFSDLIKLPGIGRSTAGAILSLSLDYFFPILEGNVKRILMRYYGIIGYVTEKKIEQKLWYLI--ELITPIHNTGSFNQGIMDIGALICTPKNPKCNLCPLIQKC</Hsp_hseq>
+      <Hsp_midline>Q++    LD ++     +G YK ++++I +T +I+ E++  + P     L  LPG+GR TA  +L+ +  +    ++ ++ R+  R     G    +++E KL   I  E +   H+       ++  G   C    P+C  C +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|84028203|sp|O49498.2|DML3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=DEMETER-like protein 3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O49498</Hit_accession>
+  <Hit_len>1044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00262756</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>527</Hsp_hit-from>
+      <Hsp_hit-to>700</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DLGLDG--VMEYT-KTIGLYKTKSKHIMQTCRIVLEKYNGQVPEDREALESLP------------GVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAP------GKDVREV-----EDKLMRFI-------PKEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEYPAKS</Hsp_qseq>
+      <Hsp_hseq>DVRLSGQNVLETTIKKRGQFRILSERILKFLNDEVNQ-NGNI--DLEWLRNAPSHLVKRYLLEIEGIGLKSAECVRLLGLKHHAFPVDTNVGRIAVRLGLVPLEPLPNGVQMHQLFEYPSMDSIQKYLWPRLCKLPQETLYELHYQMITFGKVFCTKTIPNCNACPMKSECKYFASA</Hsp_hseq>
+      <Hsp_midline>D+ L G  V+E T K  G ++  S+ I++     + + NG +  D E L + P            G+G K+A  V      H    VDT++ R++ R  + P      G  + ++      D + +++       P+E L + H+ +I  G+  C    P C  C +   C+Y A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|30923457|sp|Q9V3I8.2|OGG1_DROME</Hit_id>
+  <Hit_def>RecName: Full=N-glycosylase/DNA lyase; AltName: Full=dOgg1; Includes: RecName: Full=8-oxoguanine DNA glycosylase; Includes: RecName: Full=DNA-(apurinic or apyrimidinic site) lyase; Short=AP lyase [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9V3I8</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00421738</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>LIAVLLSAQATDVG-VNKATAKLFPVADTPQAMLDLGLDGVMEYTKTIGLYKTKSKHIMQTCRIVLEKYNGQ----------VPEDREALESLPGVGRKTANVVLNTAFGH-PVMAVDTHIFRVSNRTKIAPGKDVREVEDKLMRFIPKEFLMDAHHWLILHGRYTCKA</Hsp_qseq>
+      <Hsp_hseq>MIEWFCATFGTKIGHFNGADAYTFPTINRFHDIPCEDLNAQLRAAK----FGYRAKFIAQTLQEI-QKKGGQNWFISLKSMPFEKAREELTLLPGIGYKVADCICLMSMGHLESVPVDIHIYRIAQNYYLPHLTGQKNVTKKIYEEVSK-------HFQKLHGKYAGWA</Hsp_hseq>
+      <Hsp_midline>+I    +   T +G  N A A  FP  +    +    L+  +   K    +  ++K I QT + + +K  GQ            + RE L  LPG+G K A+ +   + GH   + VD HI+R++    +      + V  K+   + K       H+  LHG+Y   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|71658826|sp|Q9SJQ6.2|ROS1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Protein ROS1; AltName: Full=DEMETER-like protein 1; AltName: Full=Repressor of silencing 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SJQ6</Hit_accession>
+  <Hit_len>1393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.111196</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>935</Hsp_hit-from>
+      <Hsp_hit-to>1056</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>VPEDR--EALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDVRE-VEDKLMRFIP-----------------KEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>VPPDKAKEYLLSFNGLGLKSVECVRLLTLHHLAFPVDTNVGRIAVRLGWVPLQPLPESLQLHLLEMYPMLESIQKYLWPRLCKLDQKTLYELHYQMITFGKVFCTKSKPNCNACPMKGECRH</Hsp_hseq>
+      <Hsp_midline>VP D+  E L S  G+G K+   V      H    VDT++ R++ R    P + + E ++  L+   P                 ++ L + H+ +I  G+  C   KP C  C +   C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|10720147|sp|O70249.1|OGG1_RAT</Hit_id>
+  <Hit_def>RecName: Full=N-glycosylase/DNA lyase; Includes: RecName: Full=8-oxoguanine DNA glycosylase; Includes: RecName: Full=DNA-(apurinic or apyrimidinic site) lyase; Short=AP lyase [Rattus norvegicus]</Hit_def>
+  <Hit_accession>O70249</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.199047</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VMEYTKTIGLYKTKSKHIMQTCRIVLEKYNG----------QVPEDREALESLPGVGRKTANVVLNTAFGHP-VMAVDTHIFRVSNR</Hsp_qseq>
+      <Hsp_hseq>VETHLRKLGL-GYRARYVCASAKAILEEQGGPAWLQQLRVASYEEAHKALCTLPGVGTKVADCICLMALDKPQAVPVDIHVWQIAHR</Hsp_hseq>
+      <Hsp_midline>V  + + +GL   +++++  + + +LE+  G             E  +AL +LPGVG K A+ +   A   P  + VD H++++++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|378405159|sp|Q9SR66.2|DML2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=DEMETER-like protein 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SR66</Hit_accession>
+  <Hit_len>1332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.201744</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>867</Hsp_hit-from>
+      <Hsp_hit-to>988</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>VPEDR--EALESLPGVGRKTANVVLNTAFGHPVMAVDTHIFRVSNRTKIAPGKDV-REVEDKLMRFIP-----------------KEFLMDAHHWLILHGRYTCKALKPQCQTCIINDLCEY</Hsp_qseq>
+      <Hsp_hseq>VPPDKAKEYLLSINGLGLKSVECVRLLSLHQIAFPVDTNVGRIAVRLGWVPLQPLPDELQMHLLELYPVLESVQKYLWPRLCKLDQKTLYELHYHMITFGKVFCTKVKPNCNACPMKAECRH</Hsp_hseq>
+      <Hsp_midline>VP D+  E L S+ G+G K+   V   +       VDT++ R++ R    P + +  E++  L+   P                 ++ L + H+ +I  G+  C  +KP C  C +   C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|12643533|sp|O08760.2|OGG1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=N-glycosylase/DNA lyase; Includes: RecName: Full=8-oxoguanine DNA glycosylase; Includes: RecName: Full=DNA-(apurinic or apyrimidinic site) lyase; Short=AP lyase [Mus musculus]</Hit_def>
+  <Hit_accession>O08760</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.265639</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>YTKTIGLYKTKSKHIMQTCRIVLEKYNGQV----------PEDREALESLPGVGRKTANVVLNTAFGHP-VMAVDTHIFRVSNR</Hsp_qseq>
+      <Hsp_hseq>HLRKLGL-GYRARYVRASAKAILEEQGGPAWLQQLRVAPYEEAHKALCTLPGVGAKVADCICLMALDKPQAVPVDVHVWQIAHR</Hsp_hseq>
+      <Hsp_midline>+ + +GL   +++++  + + +LE+  G             E  +AL +LPGVG K A+ +   A   P  + VD H++++++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

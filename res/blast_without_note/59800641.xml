@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800641|ref|YP_207353.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>zinc-binding alcohol dehydrogenas [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>354</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800641|ref|YP_207353.1|</Iteration_query-ID>
+  <Iteration_query-def>zinc-binding alcohol dehydrogenas [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>354</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81815783|sp|O34788.1|BDHA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=(R,R)-butanediol dehydrogenase; AltName: Full=Acetoin reductase/2,3-butanediol dehydrogenase; Short=AR/BDH [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34788</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>3.46562e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVD-VVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>MKAARWHNQKDIRIEHIEEPKTEPGKVKIKVKWCGICGSDLHEYLGGPIFIP-VDKPHPLTNETAPVTMGHEFSGEVVEVGEGVENYKVGDRVVVEPIF----ATHGHQGAYNLDEQMGFLGLAGGGGGFSEYVSVDEELLFKLPDELSYEQGALVEPSAVALYAVRSSKLKAGDKAAVFGCGPIGLLVIEALKAAGATDIYAVELSPERQQKAEELGA--IIVDPSKTDDVVAEIAERTGG-GVDVAFEVTGVPVVLRQAIQSTTIAGETVIVSIWEKGAEIHPNDIVIKERTVKGIIGYRDIFPAVLSLMKEGYFSADKLVTKKIVLDDLIEEGFGALI-KEKSQVKILVRPN</Hsp_hseq>
+      <Hsp_midline>MKAAR++N+ DIRIE I EP   PG V I V WCGICG+DLHE++ GPIFIP    PHP++ E+APVTMGHEFSG V  VGEGV++ KVG  VVVEP         G    Y+L + M F+GL G GGG SE ++V    +  + D++  +Q AL+EP +V  +A   S  KAGD A V G GPIGLL+   LKA G   +   ELS  R+ KA E G    I+DPS+ D VV E+ + T G GVDVAFE T V  VL   +++   A   VIVSIW   A ++ + +V+KE  V+G I Y +     + L++EG  + +  +T++I LD L+ EGF  LI   +S VKI+V PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|341940281|sp|P39714.2|BDH1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=(R,R)-butanediol dehydrogenase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P39714</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.80667e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRI-EDIPEPTVAPG-TVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMN--------------FIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSE--VDVVEEVKKLTNG-EGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWS-HPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLE---PFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>MRALAYFKKGDIHFTNDIPRPEIQTDDEVIIDVSWCGICGSDLHEYLDGPIFMPKDGECHKLSNAALPLAMGHEMSGIVSKVGPKVTKVKVGDHVVVDAASSCADLHCWPHSKFYNSKPCDACQRGSENLCTHAGFVGLGVISGGFAEQVVVSQHHIIPVPKEIPLDVAALVEPLSVTWHAVKISGFKKGSSALVLGAGPIGLCTILVLKGMGASKIVVSEIAERRIEMAKKLGVE--VFNPSKHGHKSIEILRGLTKSHDGFDYSYDCSGIQVTFETSLKALTFKGTATNIAVWGPKPVPFQPMDVTLQEKVMTGSIGYVVEDFEEVVRAIHNGDIAMEDCKQLITGKQRIEDGWEKGFQELMDHKESNVKILLTPN</Hsp_hseq>
+      <Hsp_midline>M+A  ++ KGDI    DIP P +     V I+V+WCGICG+DLHE+++GPIF+P  G  H +S  + P+ MGHE SG+V  VG  V  +KVG HVVV+      D+     S ++ SK  +              F+GLG   GG +E++ V +  + P+  +IPLD AAL+EPLSV  HA   SG K G  ALV GAGPIGL    VLK  G  K++++E+++ R + A++ GV   + +PS+     +E ++ LT   +G D +++C+ +    +T ++A         +++W   P       V ++E  + G+I Y   D  E ++ +  G I +E     IT + +++    +GF+ L+ + ES VKI++ PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|731294|sp|P39713.1|BDH2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Probable diacetyl reductase [(R)-acetoin forming] 2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P39713</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>8.44486e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRIED-IPEP-TVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPY-IIRDDVPTGEGSN-------------YHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIK-VIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWS-HPATVNVHSVVMKELDVRGTIAYC-NDHAETIKLVEEGKINLEP---FITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>MRALAYFGKGNIRFTNHLKEPHIVAPDELVIDIEWCGICGTDLHEYTDGPIFFPEDGHTHEISHNPLPQAMGHEMAGTVLEVGPGVKNLKVGDKVVVEPTGTCRDRYRWPLSPNVDKEWCAACKKGYYNICSYLGLCGAGVQSGGFAERVVMNESHCYKVPDFVPLDVAALIQPLAVCWHAIRVCEFKAGSTALIIGAGPIGLGTILALNAAGCKDIVVSEPAKVRRELAEKMGARVY--DPTAHAAKESIDYLRSIADGGDGFDYTFDCSGLEVTLNAAIQCLTFRGTAVNLAMWGHHKIQFSPMDITLHERKYTGSMCYTHHDFEAVIEALEEGRIDIDRARHMITGRVNIEDGLDGAIMKLINEKESTIKIILTPN</Hsp_hseq>
+      <Hsp_midline>M+A  ++ KG+IR  + + EP  VAP  + I++ WCGICGTDLHE+ +GPIF P  GH H IS    P  MGHE +G V  VG GV ++KVG  VVVEP    RD        N             Y++   +   G G   GG +E++ +     + + D +PLD AALI+PL+V  HA      KAG  AL+ GAGPIGL     L A G K ++++E +K R++ A + G   Y  DP+     E +  L +    G+G D  F+C+ +   L+  ++        V +++W  H    +   + + E    G++ Y  +D    I+ +EEG+I+++     IT R+ ++  +     +LI+  ES +KII+ PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|461928|sp|Q06004.3|DHSO_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=Glucitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q06004</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>1.11654e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGE---SAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPAT-VNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>MKAAVMHNTREIKIETLPVPDINHDEVLIKVMAVGICGSDLHYYTNGRI------------GNYVVEKPFILGHECAGEIAAVGSSVDQFKVGDRVAVEPGVTCGRCEACKEGRYNLCPDVQFLATPPVDGAFVQYIKMRQDFVFLIPDSLSYEEAALIEPFSVGIHAAARTKLQPGSTIAIMGMGPVGLMAVAAAKAFGAGTIIVTDLEPLRLEAAKKMG-ATHIINIREQDALEEIKTITNDRGVDVAWETAGNPAALQSALASVRRGGKLAIVGLPSQNEIPLNVPFIADNEIDIYGIFRYANTYPKGIEFLASGIVDTKHLVTDQYSLEQ-TQDAMERALQFKNECLKVMVYPN</Hsp_hseq>
+      <Hsp_midline>MKAA  +N  +I+IE +P P +    V I V   GICG+DLH +  G I            G      P  +GHE +G + AVG  VD  KVG  V VEP +        +   Y+L  D+ F+      G   + I +++ +V  I D +  ++AALIEP SVG HA  R+  + G    + G GP+GL+  A  KA G   +I+T+L   R + A++ G A +I++  E D +EE+K +TN  GVDVA+E       L + + + +    L IV + S     +NV  +   E+D+ G   Y N + + I+ +  G ++ +  +T +  L++   +  ER +      +K++V PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|292495088|sp|Q00796.4|DHSO_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Homo sapiens]</Hit_def>
+  <Hit_accession>Q00796</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.47288e-45</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGV--DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERL</Hsp_qseq>
+      <Hsp_hseq>HGPGDLRLENYPIPEPGPNEVLLRMHSVGICGSDVHYWEYGRIGNFI-----------VKKPMVLGHEASGTVEKVGSSVKHLKPGDRVAIEPGAPRENDEFCKMGRYNLSPSIFFCATPPDDGNLCRFYKHNAAFCYKLPDNVTFEEGALIEPLSVGIHACRRGGVTLGHKVLVCGAGPIGMVTLLVAKAMGAAQVVVTDLSATRLSKAKEIG-ADLVLQISKESPQEIARKVEGQLGCKPEVTIECTGAEASIQAGIYATRSGGNLVLVGLGSEMTTVPLLHAAIREVDIKGVFRYCNTWPVAISMLASKSVNVKPLVTHRFPLEKAL-EAFETF</Hsp_hseq>
+      <Hsp_midline>+  GD+R+E+ P P   P  V + +   GICG+D+H +  G I  FI              P+ +GHE SG V  VG  V  +K G  V +EP   R++    +   Y+LS  + F       G L         + + + D +  ++ ALIEPLSVG HA  R G   G   LV GAGPIG++   V KA G  +V++T+LS  R  KA+E G AD +L  S+    E  +K+    G   +V  ECT     +   + A +   NLV+V + S   TV +    ++E+D++G   YCN     I ++    +N++P +T R  L+K + E FE  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75069845|sp|Q58D31.3|DHSO_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Bos taurus]</Hit_def>
+  <Hit_accession>Q58D31</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>9.09207e-45</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN--GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>HGPGDLRLENYPIPEPGPNEVLLKMHSVGICGSDVHYWQHGRIGDFV-----------VKKPMVLGHEASGTVVKVGSLVRHLQPGDRVAIEPGAPRETDEFCKIGRYNLSPTIFFCATPPDDGNLCRFYKHNANFCYKLPDNVTFEEGALIEPLSVGIHACRRAGVTLGNKVLVCGAGPIGLVSLLAAKAMGAAQVVVTDLSASRLSKAKEVG-ADFILQISNESPQEIAKKVEGLLGSKPEVTIECTGVETSIQAGIYATHSGGTLVLVGLGSEMTSVPLVHAATREVDIKGVFRYCNTWPMAISMLASKSVNVKPLVTHRFPLEKAL-EAFETSKKGLGLKVMIKCDPN</Hsp_hseq>
+      <Hsp_midline>+  GD+R+E+ P P   P  V + +   GICG+D+H +  G I  F+              P+ +GHE SG V  VG  V  ++ G  V +EP   R+     +   Y+LS  + F       G L         + + + D +  ++ ALIEPLSVG HA  R+G   G+  LV GAGPIGL+     KA G  +V++T+LS +R  KA+E G AD+IL  S     E  KK+    G   +V  ECT V   +   + A      LV+V + S   +V +     +E+D++G   YCN     I ++    +N++P +T R  L+K + E FE         V I  +PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75076245|sp|Q4R639.3|DHSO_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q4R639</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.05106e-44</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGV--DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>HGPGDLRLENYPIPEPGPNEVLLRMHSVGICGSDVHYWEEGRIGNFI-----------VKKPMVLGHEASGTVEKVGSLVKHLKPGDRVAIEPGVPRENDEFCKSGRYNLSPSIFFCATPPDDGNLCRFYKHNAAFCYKLPDNVTFEEGALIEPLSVGIHACRRGGVTLGHRVLVCGAGPIGVVSLLVAKAMGAAQVVVTDLSAPRLSKAKEIG-ADLVLQISKESPQEIAGKVEGLLGCKPEVTIECTGAEASIQAGIYATRSGGTLVLVGLGSEMTTIPLLHAAVREVDIKGVFRYCNTWPVAISMLASKSVNIKPLVTHRFPLEKAL-EAFETFKKGLGLKIMLKCDPN</Hsp_hseq>
+      <Hsp_midline>+  GD+R+E+ P P   P  V + +   GICG+D+H + EG I  FI              P+ +GHE SG V  VG  V  +K G  V +EP + R++    +   Y+LS  + F       G L         + + + D +  ++ ALIEPLSVG HA  R G   G   LV GAGPIG++   V KA G  +V++T+LS  R  KA+E G AD +L  S+    E   K+    G   +V  ECT     +   + A +    LV+V + S   T+ +    ++E+D++G   YCN     I ++    +N++P +T R  L+K + E FE         + +  +PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|728047699|sp|P0DMQ6.1|DHSO_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Gallus gallus]</Hit_def>
+  <Hit_accession>P0DMQ6</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.1176e-44</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADY---ILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFE</Hsp_qseq>
+      <Hsp_hseq>HRAGDLRLENRPIPEPGPNEVLLRMHSVGICGSDVHYWQHGRIGDFV-----------VKDPMVLGHEASGTVIKVGAGVTHLKPGDRVAIEPGVPRETDEFCKTGRYNLSPTIFFCATPPDDGNLCRYYKHSASYCYKLPDSVTFEEGALIEPLSVGIHACKRAGVTLGSRVFVSGSGPIGLVNVIIAKMMGAAAVVVTDLSASRLQTAKELG-ADFTIQIKNETPQEVAAKVESLL-GCMPEITVECTGVQACIQASIYATRSGGTLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAISLLASKRINIKPLVTHRFPLEKAL-EAFE</Hsp_hseq>
+      <Hsp_midline>+  GD+R+E+ P P   P  V + +   GICG+D+H +  G I  F+              P+ +GHE SG V  VG GV  +K G  V +EP + R+     +   Y+LS  + F       G L         + + + D +  ++ ALIEPLSVG HA  R+G   G    V G+GPIGL+   + K  G   V++T+LS +R   A+E G AD+   I + +  +V  +V+ L  G   ++  ECT V   +   + A +    LV+V +     TV + +  ++E+D+RG   YCN     I L+   +IN++P +T R  L+K + E FE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75061641|sp|Q5R5F3.1|DHSO_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R5F3</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>9.27697e-44</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGV--DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>HGPGDLRLENYPIPEPGPNEVLLRMHSVGICGSDVHYWEDGRIGNFI-----------VKKPMVLGHEASGTVEKVGSLVKHLKPGDRVAIEPGAPRENDEFCKIGRYNLSPSIFFCATPPDDGNLCRFYKHNAAFCYKLPDNVTFEEGAMIEPLSVGIHACRRGGVTLGHKVLVCGAGPIGMVTLLVAKAMGAAQVVVTDLSATRLSKAKEIG-ADLVLQISKESPQEIARKVEGLLGCKPEVTIECTGAGASIQAGIYATHSGGTLVLVGLGSEMTTIPLLHAAIREVDIKGVFRYCNTWPVAISMLASKSVNVKPLITHRFPLEKAL-EAFETFKKGLGLKIMLKCDPN</Hsp_hseq>
+      <Hsp_midline>+  GD+R+E+ P P   P  V + +   GICG+D+H + +G I  FI              P+ +GHE SG V  VG  V  +K G  V +EP   R++    +   Y+LS  + F       G L         + + + D +  ++ A+IEPLSVG HA  R G   G   LV GAGPIG++   V KA G  +V++T+LS  R  KA+E G AD +L  S+    E  +K+    G   +V  ECT     +   + A      LV+V + S   T+ +    ++E+D++G   YCN     I ++    +N++P IT R  L+K + E FE         + +  +PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|118625|sp|P07846.1|DHSO_SHEEP</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Ovis aries]</Hit_def>
+  <Hit_accession>P07846</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>5.86636e-43</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN--GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFE</Hsp_qseq>
+      <Hsp_hseq>HGPGDLRLENYPIPEPGPNEVLLKMHSVGICGSDVH-YWQGRIGDFV-----------VKKPMVLGHEASGTVVKVGSLVRHLQPGDRVAIQPGAPRQTDEFCKIGRYNLSPTIFFCATPPDDGNLCRFYKHNANFCYKLPDNVTFEEGALIEPLSVGIHACRRAGVTLGNKVLVCGAGPIGLVNLLAAKAMGAAQVVVTDLSASRLSKAKEVG-ADFILEISNESPEEIAKKVEGLLGSKPEVTIECTGVETSIQAGIYATHSGGTLVLVGLGSEMTSVPLVHAATREVDIKGVFRYCNTWPMAISMLASKSVNVKPLVTHRFPLEKAL-EAFE</Hsp_hseq>
+      <Hsp_midline>+  GD+R+E+ P P   P  V + +   GICG+D+H + +G I  F+              P+ +GHE SG V  VG  V  ++ G  V ++P   R      +   Y+LS  + F       G L         + + + D +  ++ ALIEPLSVG HA  R+G   G+  LV GAGPIGL+     KA G  +V++T+LS +R  KA+E G AD+IL+ S     E  KK+    G   +V  ECT V   +   + A      LV+V + S   +V +     +E+D++G   YCN     I ++    +N++P +T R  L+K + E FE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74655020|sp|Q07993.1|XYL2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=D-xylulose reductase; AltName: Full=Xylitol dehydrogenase; Short=XDH [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q07993</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.20447e-42</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>GDIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILD----PSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCN-DHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIV</Hsp_qseq>
+      <Hsp_hseq>GKITLTNVSIPKISDPNEVIIQIKATGICGSDIHYYTHGRIANYV-----------VESPMVLGHESSGIVALIGENVKTLKVGDRVALEPGIPDRFSPEMKEGRYNLDPNLKFAATPPFDGTLTKYYKTMKDFVYKLPDDVSFEEGALIEPLSVAIHANKLAKIKFGARCVVFGAGPIGLLAGKVASVFGAADVVFVDLLENKLETARQFG-ATHIVNSGDLPHGVTVDSVIKKAIGKKGADVVFECSGAEPCVRAGIEVCKAGGTIVQVGMGQEEIQFPISIIPTKELTFQGCFRYCQGDYSDSIELVSSRKLSLKPFITHRYSFKDAV-EAFEETSHHPLNNIKTII</Hsp_hseq>
+      <Hsp_midline>G I + ++  P ++ P  V I +   GICG+D+H +  G I  ++             +P+ +GHE SG+V  +GE V  +KVG  V +EP I     P  +   Y+L  ++ F       G L++     + +V+ + D +  ++ ALIEPLSV  HA   +  K G   +V GAGPIGLL   V    G   V+  +L + + + AR+ G A +I++    P  V V   +KK    +G DV FEC+     +   +E CK    +V V +        +  +  KEL  +G   YC  D++++I+LV   K++L+PFIT R      V E FE   H+  + +K I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|152031591|sp|Q64442.3|DHSO_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Mus musculus]</Hit_def>
+  <Hit_accession>Q64442</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>1.27585e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILD---PSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>HGPGDIRLENYPIPELGPNDVLLKMHSVGICGSDVHYWEHGRIGDFV-----------VKKPMVLGHEAAGTVTKVGELVKHLKPGDRVAIEPGVPREVDEYCKIGRYNLTPTIFFCATPPDDGNLCRFYKHNADFCYKLPDSVTFEEGALIEPLSVGIYACRRGSVSLGNKVLVCGAGPVGMVTLLVAKAMGAAQVVVTDLSASRLTKAKEVG-ADFTIQVGKETPQEIASKVESLL-GSKPEVTIECTGAESSVQTGIYATHSGGTLVIVGMGAEMVNLPLVHAAIREVDIKGVFRYCNTWPMAISMLASKTLNVKPLVTHRFPLEKAV-EAFETAKKGVGLKVMIKCDPN</Hsp_hseq>
+      <Hsp_midline>+  GDIR+E+ P P + P  V + +   GICG+D+H +  G I  F+              P+ +GHE +G V  VGE V  +K G  V +EP + R+     +   Y+L+  + F       G L         + + + D +  ++ ALIEPLSVG +A  R     G+  LV GAGP+G++   V KA G  +V++T+LS +R  KA+E G AD+ +     +  ++  +V+ L  G   +V  ECT     + T + A      LVIV + +    + +    ++E+D++G   YCN     I ++    +N++P +T R  L+K V E FE         V I  +PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|14423681|sp|Q9Z9U1.1|DHSO_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=Glucitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9Z9U1</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.51509e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEP-YIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIKVIITELS--KARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPA-TVNVHSVVMKELDVRGTIAYC-NDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNES--AVKIIVNP</Hsp_qseq>
+      <Hsp_hseq>HGTGHFAVQEKPEPTPGKHQVKIKVKYTGVCGSDIHTYE---------GH-YPVA---APVTLGHEFSGEIVELGEGVTGFNVGDRVTSETTYSICGKCSYCTSGDYNLCSHRKGLG-NQQDGSFAKYVIARQESLHHLPAGVDDRSAAMTEPLACTHHAIAKTSINKGDLVVVTGPGPIGLLAAQVAKSHGGTVIITGLSNDQVRLKKAKEVGI-DYAIDTQEVDIKELVSELTDGYGADVVLECSGAVPAAKQGIDLLRKKGQYAQVGLFAQPEIQFNFEKIIQKEISVVGSRSQKPADWEPALSLLNEKKVNAKTLVTHEYTISE-----WDKAYHAIKSGEAIKVLLTP</Hsp_hseq>
+      <Hsp_midline>+  G   +++ PEPT     V I V + G+CG+D+H +          GH +P++   APVT+GHEFSG +  +GEGV    VG  V  E  Y I          +Y+L      +G     G  ++ +  ++  +H +   +    AA+ EPL+  HHA  ++    GD+ +V G GPIGLL A V K+ G  VIIT LS  + R  KA+E G+ DY +D  EVD+ E V +LT+G G DV  EC+         ++  +       V +++ P    N   ++ KE+ V G+ +    D    + L+ E K+N +  +T    + +     +++  H  +S  A+K+++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|33112473|sp|Q59545.1|XYLD_MORMO</Hit_id>
+  <Hit_def>RecName: Full=D-xylulose reductase; AltName: Full=Xylitol dehydrogenase; Short=XDH [Morganella morganii]</Hit_def>
+  <Hit_accession>Q59545</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.57336e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRIEDIPEPTV-APGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFER</Hsp_qseq>
+      <Hsp_hseq>MKALVLEKAGKIAIQDWQSNEVLGDDDVEIKIHTVGICGSDVHYYQHGRI------GPFVVD---EPMVLGHEASGVITAAGKNVKHLKVGDRVCMEPGIPDLQSPQSRAGIYNLDPAVRFWATPPIDGCLRESVIHPAAFTFKLPDNVSFAQGAMVEPLAIGMQSATKAGIKPGDIGLVIGAGTIGIITQSALAGGCSDVIICDVFDEKLKVAEKYQGLHAVNSKDQQALADKVRELTGGEGVNVLFECSGAKPVIASISDHIAPGGTAVLVGMPIDPAPLDIVAAQAKEVTFKTILRYANMYPRTIRLLSSGKLNVAPLLSATYKFKDSV-EAYER</Hsp_hseq>
+      <Hsp_midline>MKA      G I I+D     V     V I +   GICG+D+H +  G I       P  +     P+ +GHE SGV+ A G+ V  +KVG  V +EP I     P      Y+L   + F       G L E +     +   + D +   Q A++EPL++G  +  ++G K GD+ LV GAG IG++  + L      VII ++   +   A +      +    +  + ++V++LT GEGV+V FEC+    V+ ++ +   P    V+V +   PA +++ +   KE+  +  + Y N +  TI+L+  GK+N+ P ++   K    V E +ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|152031592|sp|P27867.4|DHSO_RAT</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P27867</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.68282e-39</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>YNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN--GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVN---VHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>HGPGDIRLENYPIPELGPNDVLLKMHSVGICGSDVHYWEHGRIGDFV-----------VKKPMVLGHEAAGTVTKVGPMVKHLKPGDRVAIEPGVPREIDEFCKIGRYNLTPSIFFCATPPDDGNLCRFYKHSADFCYKLPDSVTFEEGALIEPLSVGIYACRRGSVSLGNKVLVCGAGPIGIVTLLVAKAMGASQVVVIDLSASRLAKAKEVG-ADFTIQVAKETPHDIAKKVESVLGSKPEVTIECTGAESSVQTGIYATHSGGTLVVVGMG--PEMINLPLVHAAV-REVDIKGVFRYCNTWPMAVSMLASKTLNVKPLVTHRFPLEKAV-EAFETAKKGLGLKVMIKCDPN</Hsp_hseq>
+      <Hsp_midline>+  GDIR+E+ P P + P  V + +   GICG+D+H +  G I  F+              P+ +GHE +G V  VG  V  +K G  V +EP + R+     +   Y+L+  + F       G L         + + + D +  ++ ALIEPLSVG +A  R     G+  LV GAGPIG++   V KA G  +V++ +LS +R  KA+E G AD+ +  ++    +  KK+ +  G   +V  ECT     + T + A      LV+V +   P  +N   VH+ V +E+D++G   YCN     + ++    +N++P +T R  L+K V E FE         V I  +PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|229830633|sp|Q1PSI9.2|IDND_VITVI</Hit_id>
+  <Hit_def>RecName: Full=L-idonate 5-dehydrogenase [Vitis vinifera]</Hit_def>
+  <Hit_accession>Q1PSI9</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>5.25106e-39</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTVAPGTVGINVAWCGICGTDLHEF--MEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEV-DVVEEVKKL--TNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKL-DKLVSEGFERLIHNNESAVKIIVN</Hsp_qseq>
+      <Hsp_hseq>LKIQPYILPSLGPYDVKVRIKAVGICGSDVHHFKTMRCANFIV-----------KKPMVIGHECAGIIEEVGSEVKNLVAGDRVALEPGISCNRCSLCRNGQYNLCREMKFFGSPPTNGSLANQVVHPSNLCFKLPDNVSLEEGAMCEPLSVGIHACRRANVGPETNVLIMGSGPIGLVTMLAARAFGAPRIVLVDVDDQRLAIAKDLGADDIIRVSTNIQDLDEEVAKIQSTMVTGVDVSFDCVGFNKTMSTALNATRAGGKVCLVGLAQSEMTVPLTPAAAREVDIVGIFRYRNTWPLCLEFLRSGKIDVKPLITHRFTFSQKDVEEAFETSARGG-NAIKVMFN</Hsp_hseq>
+      <Hsp_midline>++I+    P++ P  V + +   GICG+D+H F  M    FI              P+ +GHE +G++  VG  V ++  G  V +EP I  +         Y+L ++M F G     G L+ ++         + D + L++ A+ EPLSVG HA  R+        L+ G+GPIGL+     +A G  ++++ ++   R   A++ G  D I   + + D+ EEV K+  T   GVDV+F+C   NK + T + A +    + +V +     TV +     +E+D+ G   Y N     ++ +  GKI+++P IT R     K V E FE       +A+K++ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|51315834|sp|Q07786.1|DHSO2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase 2; AltName: Full=L-iditol 2-dehydrogenase 2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q07786</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>9.27933e-39</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>GDIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYI-IRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVAD------YILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYC-NDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNP</Hsp_qseq>
+      <Hsp_hseq>GDIAIEQRPIPTIKDPHYVKLAIKATGICGSDIHYYRSGGIGKYI-----------LKAPMVLGHESSGQVVEVGDAVTRVKVGDRVAIEPGVPSRYSDETKEGS-YNLCPHMAFAATPPIDGTLVKYYLSPEDFLVKLPEGVSYEEGACVEPLSVGVHSNKLAGVRFGTKVVVFGAGPVGLLTGAVARAFGATDVIFVDVFDNKLQRAKDFGATNTFNSSQFSTDKAQ-DLADGVQKLLGGNHADVVFECSGADVCIDAAVKTTKVGGTMVQVGMGKNYTNFPIAEVSGKEMKLIGCFRYSFGDYRDAVNLVATGKVNVKPLITHKFKFEDAAKAYDYNIAHGGEVVKTIIFGP</Hsp_hseq>
+      <Hsp_midline>GDI IE  P PT+  P  V + +   GICG+D+H +  G I  +I             AP+ +GHE SG V  VG+ V  +KVG  V +EP +  R    T EGS Y+L   M F       G L +       ++  + + +  ++ A +EPLSVG H+   +G + G   +V GAGP+GLL  AV +A G   VI  ++   +  +A++ G  +      +  D ++ D+ + V+KL  G   DV FEC+  +  +D  V+  K    +V V +  +     +  V  KE+ + G   Y   D+ + + LV  GK+N++P IT + K +         + H  E    II  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|33112488|sp|Q8U7Y1.1|XYLD_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=Putative D-xylulose reductase; AltName: Full=Xylitol dehydrogenase; Short=XDH [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>Q8U7Y1</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>2.65081e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRIEDIPEP------TVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSN---YHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDK-ARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKI-IVNPN</Hsp_qseq>
+      <Hsp_hseq>MKALVLEEKGKLSLRDFDIPGGAGSGELGPKDVRIRTHTVGICGSDVHYYTHGKI-----GH----FVVNAPMVLGHEASGTVIETGSDVTHLKIGDRVCMEPGIPD---PTSRASKLGIYNVDPAVRFWATPPIHGCLTPEVIHPAAFTYKLPDNVSFAEGAMVEPFAIGMQAALRARIQPGDIAVVTGAGPIGMMVALAALAGGCAKVIVADLAQPKLDIIAAYDGIE--TINIRERNLAEAVSAATDGWGCDIVFECSGAAPAILGMAKLARPGGAIVLVGMPVDPVPVDIVGLQAKELRVETVFRYANVYDRAVALIASGKVDLKPLISATIPFEDSIA-GFDRAVEARETDVKLQIVMPQ</Hsp_hseq>
+      <Hsp_midline>MKA     KG + + D   P       + P  V I     GICG+D+H +  G I     GH       +AP+ +GHE SG V   G  V  +K+G  V +EP I     PT   S    Y++   + F       G L+ ++     + + + D +   + A++EP ++G  A +R+  + GD+A+V GAGPIG+++A    A G  KVI+ +L++ + D  A   G+    ++  E ++ E V   T+G G D+ FEC+     +  + +  +P   +V+V +   P  V++  +  KEL V     Y N +   + L+  GK++L+P I+  I  +  ++ GF+R +   E+ VK+ IV P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|544159|sp|P35497.1|DHSO1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase 1; AltName: Full=L-iditol 2-dehydrogenase 1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P35497</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>3.16405e-38</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>GDIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYI-IRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVAD------YILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYC-NDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNP</Hsp_qseq>
+      <Hsp_hseq>GDIAIEQRPIPTIKDPHYVKLAIKATGICGSDIHYYRSGGIGKYI-----------LKAPMVLGHESSGQVVEVGDAVTRVKVGDRVAIEPGVPSRYSDETKEG-RYNLCPHMAFAATPPIDGTLVKYYLSPEDFLVKLPEGVSYEEGACVEPLSVGVHSNKLAGVRFGTKVVVFGAGPVGLLTGAVARAFGATDVIFVDVFDNKLQRAKDFGATNTFNSSQFSTDKAQ-DLADGVQKLLGGNHADVVFECSGADVCIDAAVKTTKVGGTMVQVGMGKNYTNFPIAEVSGKEMKLIGCFRYSFGDYRDAVNLVATGKVNVKPLITHKFKFEDAAKAYDYNIAHGGEVVKTIIFGP</Hsp_hseq>
+      <Hsp_midline>GDI IE  P PT+  P  V + +   GICG+D+H +  G I  +I             AP+ +GHE SG V  VG+ V  +KVG  V +EP +  R    T EG  Y+L   M F       G L +       ++  + + +  ++ A +EPLSVG H+   +G + G   +V GAGP+GLL  AV +A G   VI  ++   +  +A++ G  +      +  D ++ D+ + V+KL  G   DV FEC+  +  +D  V+  K    +V V +  +     +  V  KE+ + G   Y   D+ + + LV  GK+N++P IT + K +         + H  E    II  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|29427393|sp|O58389.1|TDH_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=Probable L-threonine 3-dehydrogenase [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O58389</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>5.09348e-38</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>DIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRR--WVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHS-VVMKELDVRG-TIAYCNDHAETI-KLVEEGKINLEPFITQRIKLDKLVSEGFERL</Hsp_qseq>
+      <Hsp_hseq>DVPKP--GPGEVLIKVLATSICGTDLHIYE---------WNEWAQSRIKPPQIMGHEVAGEVVEIGPGVEGIEVGDYVSVETHIVCGKCYACRRGQYHVCQNTKIFGVD-TDGVFAEYAVVPAQNIWKNPKS--IPPEYATLQEPLGNAVDT-VLAGPISGKSVLITGAGPLGLLGIAVAKASGAYPVIVSEPSDFRRELAKKVG-ADYVINPFEEDVVKEVMDITDGNGVDVFLEFSGAPKALEQGLQAVTPAGRVSLLGLYPGKVTIDFNNLIIFKALTIYGITGRHLWETWYTVSRLLQSGKLNLDPIITHKYKGFDKYEEAFELM</Hsp_hseq>
+      <Hsp_midline>D+P+P   PG V I V    ICGTDLH +           +    S    P  MGHE +G V  +G GV+ I+VG +V VE +I+           YH+ ++    G+    G  +E   V  +  W +P S  IP + A L EPL       V +G  +G   L+ GAGP+GLL  AV KA G   VI++E S  R++ A++ G ADY+++P E DVV+EV  +T+G GVDV  E +   K L+  ++A  PA  + ++ ++    T++ ++ ++ K L + G T  +  +   T+ +L++ GK+NL+P IT + K      E FE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|29427550|sp|Q9UYX0.1|TDH_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=Probable L-threonine 3-dehydrogenase [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9UYX0</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>5.99036e-38</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>DIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRR--WVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHS-VVMKELDVRG-TIAYCNDHAETI-KLVEEGKINLEPFITQRIKLDKLVSEGFERL</Hsp_qseq>
+      <Hsp_hseq>DVPKP--GPGEVLIKVIATSICGTDLHIYE---------WNEWAQSRIKPPQIMGHEVAGEVVEVGPGVEGIEVGDYVSVETHIVCGKCYACRRGQYHVCQNTKIFGVD-TDGVFAEYAVVPAQNVWKNPKS--IPPEYATLQEPLGNAVDT-VLAGPISGKSVLITGAGPLGLLGIAVAKASGAYPVIVSEPSDFRRELAKKVG-ADYVINPFEEDVVKEVMDITDGNGVDVFLEFSGAPKALEQGLQAVTPAGRVSLLGLYPGKVSIDFNNLIIFKALTVYGITGRHLWETWYTVSRLLQSGKLNLDPIITHKYKGFDKYEEAFELM</Hsp_hseq>
+      <Hsp_midline>D+P+P   PG V I V    ICGTDLH +           +    S    P  MGHE +G V  VG GV+ I+VG +V VE +I+           YH+ ++    G+    G  +E   V  +  W +P S  IP + A L EPL       V +G  +G   L+ GAGP+GLL  AV KA G   VI++E S  R++ A++ G ADY+++P E DVV+EV  +T+G GVDV  E +   K L+  ++A  PA  + ++ ++    +++ ++ ++ K L V G T  +  +   T+ +L++ GK+NL+P IT + K      E FE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|29427524|sp|Q8U259.1|TDH_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Probable L-threonine 3-dehydrogenase [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8U259</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.24215e-37</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>DIPEPTVAPGTVGINVAWCGICGTDLH-----EFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHS-VVMKELDVRG-TIAYCNDHAETI-KLVEEGKINLEPFITQRIKLDKLVSEGFERL</Hsp_qseq>
+      <Hsp_hseq>DVPKP--GPGEVLIKILATSICGTDLHIYEWNEWAQTRI--------------RPPQIMGHEVAGEVVEVGPGVEGIEVGDYVSVETHIVCGKCYACKRGQYHVCQNTKIFGVD-TDGVFAEYAVVPAQNVWKNPKNIPPEYATLQEPLGNAVDT-VLAGPIAGKSVLITGAGPLGLLGIAVAKASGAYPVIVSEPSEFRRNLAKKVG-ADYVINPFEEDVVKEVMDITDGNGVDVFLEFSGAPKALEQGLQAVTPAGRVSLLGLFPGKVSIDFNNLIIFKALTVYGITGRHLWETWYTVSRLLQSGKLNIDPIITHKYKGFDKYEEAFELM</Hsp_hseq>
+      <Hsp_midline>D+P+P   PG V I +    ICGTDLH     E+ +  I                P  MGHE +G V  VG GV+ I+VG +V VE +I+       +   YH+ ++    G+    G  +E   V  + V      IP + A L EPL       V +G  AG   L+ GAGP+GLL  AV KA G   VI++E S+ R++ A++ G ADY+++P E DVV+EV  +T+G GVDV  E +   K L+  ++A  PA  + ++ ++    +++ ++ ++ K L V G T  +  +   T+ +L++ GK+N++P IT + K      E FE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|33112495|sp|Q92MT4.1|XYLD_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Putative D-xylulose reductase; AltName: Full=Xylitol dehydrogenase; Short=XDH [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q92MT4</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>9.23008e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>KAARFYNKGDIRIEDIP-EPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYI--LDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKI</Hsp_qseq>
+      <Hsp_hseq>KALVLEKKGQLSLRDIPVRRDLSPTDVLIGIRTVGVCGSDVHYYTHGKI------GPFVVN---EPMILGHEAAGVVLEVGSQVRHLKKGDRVCMEPGIPDLSSRSSKLGIYNVDPSVRFWATPPVHGCLTPEVVHPAAFTYRLPDHVSFAEGAMVEPFAIGVQAALRAGIRPGDVGAVMGAGPIGMMTALAALAGGCSKVYVADLAQPKLDVI---GAYEGIETINVRQQAVSEALAGATGGWGADVVFECSGAAPAILALPSLARPGGTVVLVGMPVEPVPFDIVGMQAKELRIETVFRYANVYDRAIELIASGKVDLKPLISATIPFDESIA-AFDRAVEARPTDVKI</Hsp_hseq>
+      <Hsp_midline>KA     KG + + DIP    ++P  V I +   G+CG+D+H +  G I       P  ++    P+ +GHE +GVV  VG  V  +K G  V +EP I      + +   Y++   + F       G L+ ++     + + + D +   + A++EP ++G  A +R+G + GDV  V GAGPIG++ A    A G  KV + +L++ + D     G  + I  ++  +  V E +   T G G DV FEC+     +  L    +P   +V+V +   P   ++  +  KEL +     Y N +   I+L+  GK++L+P I+  I  D+ ++  F+R +    + VKI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|74680485|sp|Q5ARL6.1|XYL2_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5ARL6</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.1195e-36</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTV-APGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFITQRIKLD</Hsp_qseq>
+      <Hsp_hseq>VKFEDRPIPKLKSPHDVIVNVKYTGICGSDVHYWDHGAIGQFV-----------VKEPMVLGHESSGIVTQIGSAVTSLKVGDHVAMEPGIPCRRCEPCKAGKYNLCEKMAFAATPPYDGTLAKYYTLPEDFCYKLPESISLPEGALMEPLGVAVHIVRQANVTPGQTVVVFGAGPVGLLCCAVAKAFGAIRIIAVDIQKPRLDFAKKF-AATATFEPSKAPATENATRMIAENDLGRGADVAIDASGVEPSVHTGIHVLRPGGTYVQGGMGRSEMNFPIMAACTKELNIKGSFRYGSGDYKLAVQLVASGQINVKELITGIVKFE</Hsp_hseq>
+      <Hsp_midline>++ ED P P + +P  V +NV + GICG+D+H +  G I  F+              P+ +GHE SG+V  +G  V  +KVG HV +EP I        +   Y+L + M F       G L++   +   + + + + I L + AL+EPL V  H   ++    G   +V GAGP+GLL  AV KA G I++I  ++ K R D A++   A    +PS+    E   ++      G G DVA + + V   + T +   +P    V   +        + +   KEL+++G+  Y   D+   ++LV  G+IN++  IT  +K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|67461628|sp|Q5JI69.1|TDH_THEKO</Hit_id>
+  <Hit_def>RecName: Full=Probable L-threonine 3-dehydrogenase [Thermococcus kodakarensis KOD1]</Hit_def>
+  <Hit_accession>Q5JI69</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>1.90499e-36</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DIPEPTVAPGTVGINVAWCGICGTDLH-----EFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIA-VKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHS-VVMKELDVRG-TIAYCNDHAETI-KLVEEGKINLEPFITQRIKLDKLVSEGFERL</Hsp_qseq>
+      <Hsp_hseq>DVPKP--GPGEVLIKVLATSICGTDLHIYEWNEWAQSRI--------------KPPQIMGHEVAGEVVEVGPGVEDLQVGDYISVETHIVCGKCYACKHNRYHVCQNTKIFGVDMDGVFAHYAIVPAKNAWKNP--KDMPPEYAALQEPLGNAVDT-VLAGPIAGRSTLITGAGPLGLLGIAVAKASGAYPVIVSEPSEFRRKLAKKVG-ADYVVNPFEEDPVKFVMDITDGAGVEVFLEFSGAPKALEQGLKAVTPGGRVSLLGLFPREVTIDFNNLIIFKALEVHGITGRHLWETWYTVSSLIQSGKLNLDPIITHKYKGFDKFEEAFELM</Hsp_hseq>
+      <Hsp_midline>D+P+P   PG V I V    ICGTDLH     E+ +  I                P  MGHE +G V  VG GV+D++VG ++ VE +I+       + + YH+ ++    G+   G      I   K  W +P    +P + AAL EPL       V +G  AG   L+ GAGP+GLL  AV KA G   VI++E S+ R+  A++ G ADY+++P E D V+ V  +T+G GV+V  E +   K L+  ++A  P   + ++ ++    T++ ++ ++ K L+V G T  +  +   T+  L++ GK+NL+P IT + K      E FE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|74696959|sp|Q86ZV0.2|XYL2_ASPOR</Hit_id>
+  <Hit_def>RecName: Full=D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>Q86ZV0</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>6.24978e-36</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTVAPG-TVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYI-IRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFITQRIKLD</Hsp_qseq>
+      <Hsp_hseq>VKFEDRPIPQLRDAHDVLVDVRFTGICGSDVHYWEHGSIGQFV-----------VKDPMVLGHESSGVISKVGSAVTTLKVGDHVAMEPGIPCRRCEPCKEG-KYNLCEKMAFAATPPYDGTLAKYYVLPEDFCYKLPENINLQEAAVMEPLSVAVHIVKQANVAPGQSVVVFGAGPVGLLCCAVARAFGSPKVIAVDIQKGRLEFAKKYA-ATAIFEPSKVSALENAERIVNENDLGRGADIVIDASGAEPSVHTGIHVLRPGGTYVQGGMGRNEITFPIMAACTKELNVRGSFRYGSGDYKLAVNLVASGKVSVKELITGVVSFE</Hsp_hseq>
+      <Hsp_midline>++ ED P P +     V ++V + GICG+D+H +  G I  F+              P+ +GHE SGV+  VG  V  +KVG HV +EP I  R   P  EG  Y+L + M F       G L++   +   + + + + I L +AA++EPLSV  H   ++    G   +V GAGP+GLL  AV +A G  KVI  ++ K R + A++   A  I +PS+V  +E  +++ N    G G D+  + +     + T +   +P    V   +  +  T  + +   KEL+VRG+  Y   D+   + LV  GK++++  IT  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|226703632|sp|B6YTJ5.1|TDH_THEON</Hit_id>
+  <Hit_def>RecName: Full=Probable L-threonine 3-dehydrogenase [Thermococcus onnurineus NA1]</Hit_def>
+  <Hit_accession>B6YTJ5</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.64987e-35</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DIPEPTVAPGTVGINVAWCGICGTDLH-----EFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEK--IAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHS-VVMKELDVRG-TIAYCNDHAETI-KLVEEGKINLEPFITQRIKLDKLVSEGFERL</Hsp_qseq>
+      <Hsp_hseq>DIPKP--GPGEVLIKVLATSICGTDLHIYEWNEWAQSRI--------------KPPQIMGHEVAGEVIEVGPGVDTINVGDYISAETHIVCGKCYACKHNRYHVCQNTKIFGVD-MDGVFAEYAIVPAQNAWKNP--KDMPPEYATLQEPLGNAVDT-VLAGPIAGRSTLITGAGPLGLLGIAVAKASGAYPVIVSEPSEFRRELAKKVG-ADYVVNPFEEDPVKFVMDITDGAGVEVFLEFSGAPKAFEQGLQAVTPGGRVSLLGLFPREVTFDINNLVIFKALEVHGITGRHLWETWYTVSSLIQSGKLNLDPIITHKYKGFDKFEEAFELM</Hsp_hseq>
+      <Hsp_midline>DIP+P   PG V I V    ICGTDLH     E+ +  I                P  MGHE +G V  VG GVD I VG ++  E +I+       + + YH+ ++    G+    G  +E   +  +  W +P    +P + A L EPL       V +G  AG   L+ GAGP+GLL  AV KA G   VI++E S+ R++ A++ G ADY+++P E D V+ V  +T+G GV+V  E +   K  +  ++A  P   + ++ ++    T ++++ V+ K L+V G T  +  +   T+  L++ GK+NL+P IT + K      E FE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|33112499|sp|Q98D10.1|XYLD_RHILO</Hit_id>
+  <Hit_def>RecName: Full=Putative D-xylulose reductase; AltName: Full=Xylitol dehydrogenase; Short=XDH [Mesorhizobium loti MAFF303099]</Hit_def>
+  <Hit_accession>Q98D10</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.76415e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>354</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRIEDIPEPT-VAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGE---SAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKAR-KDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKI</Hsp_qseq>
+      <Hsp_hseq>MRALVLEKKGELSLREIALPLDVGPDDVKIAIHTVGVCGSDVHYYTHGAI------------GSYVVRAPMVLGHEAAGTVVETGANVETFKAGDRVCMEPGVPNLSSRATKLGIYNVDPDVSFWATPPVHGVLAPYAVHPAAFTYKLPDNVSFAEGAMVEPFAIGMQAASRARIVPGDVAVVVGCGPIGIMIALAALAGGCSKVLISDFSAPKLKIAAQYAGIVP--VNIGERSLVDAVAAATDKWGADIVFEASGSPKAFADLFDVVRPGGAVVLVGLPVEPVALNVPAAISKEVRIETVFRYANIFDRALQLIASGKVDLKPLITGTYDFADSI-KAFERAAQGNPEDVKL</Hsp_hseq>
+      <Hsp_midline>M+A     KG++ + +I  P  V P  V I +   G+CG+D+H +  G I            G     AP+ +GHE +G V   G  V+  K G  V +EP +        +   Y++  D++F       G L+        + + + D +   + A++EP ++G  A  R+    GDVA+V G GPIG+++A    A G  KV+I++ S  + K  A+ +G+    ++  E  +V+ V   T+  G D+ FE +   K    L +  +P   +V+V +   P  +NV + + KE+ +     Y N     ++L+  GK++L+P IT        + + FER    N   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|67461669|sp|Q5SKS4.1|TDH_THET8</Hit_id>
+  <Hit_def>RecName: Full=L-threonine 3-dehydrogenase [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>Q5SKS4</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.77476e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>MKA-ARFYNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLH-----EFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAV--KRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-------CNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>MRALAKLAPEEGLTLVDRPVPEPGPGEILVRVEAASICGTDLHIWKWDAWARGRI--------------RPPLVTGHEFSGVVEAVGPGVRRPQVGDHVSLESHIVCHACPACRTGNYHVCLNTQILGVDR-DGGFAEYVVVPAENAWVNP--KDLPFEVAAILEPFGNAVHTVYAGSGVSGKSVLITGAGPIGLMAAMVVRASGAGPILVSDPNPYRLAFARP--YADRLVNPLEEDLLEVVRRVT-GSGVEVLLEFSGNEAAIHQGLMALIPGGEARILGIPSDPIRFDLAG----ELVMRGITAFGIAGRRLWQTWMQGTALVYSGRVDLSPLLTHRLPLSRY-REAFGLLASGQ--AVKVILDPK</Hsp_hseq>
+      <Hsp_midline>M+A A+   +  + + D P P   PG + + V    ICGTDLH      +  G I                P+  GHEFSGVV AVG GV   +VG HV +E +I+    P     NYH+  +   +G+    GG +E + V  +  WV+P    +P + AA++EP     H        +G   L+ GAGPIGL+ A V++A G   +++++ +  R   AR    AD +++P E D++E V+++T G GV+V  E +     +   + A  P     I+ I S P   ++      EL +RG  A+            +   LV  G+++L P +T R+ L +   E F  L      AVK+I++P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|67461808|sp|Q72L62.1|TDH_THET2</Hit_id>
+  <Hit_def>RecName: Full=L-threonine 3-dehydrogenase [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>Q72L62</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>3.72673e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>MKA-ARFYNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLH-----EFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAV--KRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-------CNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>MRALAKLAPEEGLTLVDRPVPEPGPGEILVRVEAASICGTDLHIWKWDAWARGRI--------------RPPLVTGHEFSGVVEAVGPGVKRPQVGDHVSLESHVVCHACPACRTGNYHVCLNTKILGVDR-DGGFAEYVVVPAENAWVNP--KDLPFEVAAILEPFGNAVHTVYAGSGVSGKSVLITGAGPIGLMAAMVARASGAGPILVSDPNPYRLAFARP--YADRLVNPLEEDLLEVVRRVT-GSGVEVLLEFSGNEAAIHQGLMALIPGGEARILGIPSDPIRFDLAG----ELVMRGITAFGIAGRRLWQTWMQGTALVYSGRVDLSPLITHRLPLSRY-REAFGLLASGQ--AVKVILDPK</Hsp_hseq>
+      <Hsp_midline>M+A A+   +  + + D P P   PG + + V    ICGTDLH      +  G I                P+  GHEFSGVV AVG GV   +VG HV +E +++    P     NYH+  +   +G+    GG +E + V  +  WV+P    +P + AA++EP     H        +G   L+ GAGPIGL+ A V +A G   +++++ +  R   AR    AD +++P E D++E V+++T G GV+V  E +     +   + A  P     I+ I S P   ++      EL +RG  A+            +   LV  G+++L P IT R+ L +   E F  L      AVK+I++P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|74681638|sp|Q5GN51.1|XYL2_ASPNG</Hit_id>
+  <Hit_def>RecName: Full=D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus niger] &gt;gi|294863182|sp|A2QY54.1|XYL2_ASPNC RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus niger CBS 513.88]</Hit_def>
+  <Hit_accession>Q5GN51</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>7.08148e-35</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFITQRIKLD</Hsp_qseq>
+      <Hsp_hseq>VKFEDRPIPEINNPHDVLVNVRFTGICGSDVHYWEHGSIGQFIV-----------KDPMVLGHESSGVVSKVGSAVTSLKVGDCVAMEPGIPCRRCEPCKAGKYNLCVKMAFAATPPYDGTLAKYYVLPEDFCYKLPESITLQEGAIMEPLSVAVHIVKQAGINPGQSVVVFGAGPVGLLCCAVAKAYGASKVIAVDIQKGRLDFAKKYA-ATATFEPAKAAALENAQRIITENDLGSGADVAIDASGAEPSVHTGIHVLRAGGTYVQGGMGRSEITFPIMAACTKELNVKGSFRYGSGDYKLAVSLVSAGKVNVKELITGVVKFE</Hsp_hseq>
+      <Hsp_midline>++ ED P P +  P  V +NV + GICG+D+H +  G I  FI              P+ +GHE SGVV  VG  V  +KVG  V +EP I        +   Y+L   M F       G L++   +   + + + + I L + A++EPLSV  H   ++G   G   +V GAGP+GLL  AV KA G  KVI  ++ K R D A++   A    +P++   +E  +++      G G DVA + +     + T +   +     V   +     T  + +   KEL+V+G+  Y   D+   + LV  GK+N++  IT  +K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|294863185|sp|A1CFY8.2|XYL2_ASPCL</Hit_id>
+  <Hit_def>RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus clavatus NRRL 1]</Hit_def>
+  <Hit_accession>A1CFY8</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>7.90762e-34</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>DIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFITQRIKLDK</Hsp_qseq>
+      <Hsp_hseq>QVKFEDRPIPELRDPHDVIVNVKYTGICGSDVHYWEHGAI-----GH----FVVKDPMVLGHESSGVVAKVGSAVTSLKVGDRVAMEPGVPCRRCEPCKAGKYNLCEKMAFAATPPYDGTLAKYYPLPEDFCYKLPENISLQEGALMEPLGVAVHITRQASIKPGESVVVFGAGPVGLLCCAVARAFGASKIIAVDIQKTRLDFAKKYA-ATAIFEPAKVSAVANADQMREENDLGPGADVVIDASGAEPSVHTGIHVLRPGGTYVQGGMGRNEINFPIMAACTKELTIKGSFRYGSGDYKLAVDLVASGKVNVKDLITGVVEFQE</Hsp_hseq>
+      <Hsp_midline> ++ ED P P +  P  V +NV + GICG+D+H +  G I     GH         P+ +GHE SGVV  VG  V  +KVG  V +EP +        +   Y+L + M F       G L++   +   + + + + I L + AL+EPL V  H   ++  K G+  +V GAGP+GLL  AV +A G  K+I  ++ K R D A++   A  I +P++V  V    ++      G G DV  + +     + T +   +P    V   +  +     + +   KEL ++G+  Y   D+   + LV  GK+N++  IT  ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|294863186|sp|B0YC65.2|XYL2_ASPFC</Hit_id>
+  <Hit_def>RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus fumigatus A1163] &gt;gi|294863187|sp|Q4WAU7.2|XYL2_ASPFU RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>B0YC65</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.30954e-33</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>DIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFIT</Hsp_qseq>
+      <Hsp_hseq>QVKFEDRPIPELKDPHDVLVNVKFTGICGSDVHYWEHGSIGQFV-----------VKGPMVLGHESSGVISKVGSAVTGLKVGDRVAMEPGIPCRRCEPCKAGKYNLCEKMAFAATPPYDGTLAKFYVLPEDFCYKLPDNISLQEGALMEPLGVAVHIVKQASVTPGQSVIVFGAGPVGLLCCAVAKAFGAAKIIAVDIQKARLDFAKKY-AATSTFEPAKVSAVDNADRLRKENNLGVGADVVIDASGAEPSVHTGIHVLRPGGTYVQGGMGRSEIMFPIMAACTKELAIKGSFRYGSGDYNLAVGLVASGKVNVKDLIT</Hsp_hseq>
+      <Hsp_midline> ++ ED P P +  P  V +NV + GICG+D+H +  G I  F+              P+ +GHE SGV+  VG  V  +KVG  V +EP I        +   Y+L + M F       G L++   +   + + + D I L + AL+EPL V  H   ++    G   +V GAGP+GLL  AV KA G  K+I  ++ KAR D A++   A    +P++V  V+   +L      G G DV  + +     + T +   +P    V   +        + +   KEL ++G+  Y   D+   + LV  GK+N++  IT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|121741510|sp|Q0CWQ2.1|XYL2_ASPTN</Hit_id>
+  <Hit_def>RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Aspergillus terreus NIH2624]</Hit_def>
+  <Hit_accession>Q0CWQ2</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>4.02339e-33</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>DIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFITQRIKLDK</Hsp_qseq>
+      <Hsp_hseq>QVKFEDRPIPELKDPHGVIVNVRFTGICGSDVHYWEHGSIGQFV-----------VKDPMVLGHESSGVITKVGSAVTTLKVGDRVAMEPGIPCRRCEPCKAGKYNLCYEMAFAATPPYDGTLAKYYALPEDFCYKLPEQITLQEGALMEPLGVAVHIVRQAAVTPGQSVVVFGAGPVGLLCCAVARAFGASKIVAVDIQKPRLEFAKNYA-ATAIFEPAKVAAQENAARLIAENDLGPGADVAIDASGAEPSVHTGIHVLRTGGTYVQGGMGRSEMNFPIMAACTKELNVKGSFRYGSGDYKLAVELVASGRVNVKELITGVVKFEE</Hsp_hseq>
+      <Hsp_midline> ++ ED P P +  P  V +NV + GICG+D+H +  G I  F+              P+ +GHE SGV+  VG  V  +KVG  V +EP I        +   Y+L  +M F       G L++  A+   + + + ++I L + AL+EPL V  H   ++    G   +V GAGP+GLL  AV +A G  K++  ++ K R + A+    A  I +P++V   E   +L      G G DVA + +     + T +   +     V   +        + +   KEL+V+G+  Y   D+   ++LV  G++N++  IT  +K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81815843|sp|O35045.1|YJMD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized zinc-type alcohol dehydrogenase-like protein YjmD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O35045</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>6.91297e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKGDIRIEDIPEPTVAPG-TVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVN</Hsp_qseq>
+      <Hsp_hseq>MKAVQVRKAYDLVTAEVKKPVLSKDDEVLVKVKRVGICGSDMHIYHG----------TNPLA--TLPRVIGHEVTGQVEAVGANVQSLKPGDHVVIEPISYCGSCYACRKGRPNVCAKLSVFGVHE-DGGMREYIVLPERQLHAVSKDLPWEEAVMAEPYTIGAQAVWRGQVEKGDTVLIQGAGPIGICVLKMAKLAGAAVMMTDLNNERLAFAKENG-ADAVVNVQAEHVAERVLEWTGNEGANVVIDAVCLPETFALSIEAVSPAGHVVVLGFDERAAQISQLPITKKEVTITGSRLQTNQFPKVVELLNGGRLMHNGLVTHTFSVDD-VHHAFQFIKEHPDQVRKAVIT</Hsp_hseq>
+      <Hsp_midline>MKA +     D+   ++ +P ++    V + V   GICG+D+H +             +P++  + P  +GHE +G V AVG  V  +K G HVV+EP               ++   ++  G+    GG+ E I +  R +H +S  +P ++A + EP ++G  A  R   + GD  L+ GAGPIG+ +  + K  G  V++T+L+  R   A+E+G AD +++     V E V + T  EG +V  +   + +     +EA  PA ++V++      A ++   +  KE+ + G+    N   + ++L+  G++     +T    +D  V   F+ +  + +   K ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|75333946|sp|Q9FJ95.1|DHSO_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FJ95</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>9.33333e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>AARFYNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEF--MEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEV-DVVEEVKKLTN--GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKL-DKLVSEGFERLIHNNESAVKIIVN</Hsp_qseq>
+      <Hsp_hseq>AAWLVGINTLKIQPFLLPSVGPHDVRVRMKAVGICGSDVHYLKTMRCADFVV-----------KEPMVIGHECAGIIEEVGEEVKHLVVGDRVALEPGISCWRCNLCREGRYNLCPEMKFFATPPVHGSLANQVVHPADLCFKLPENVSLEEGAMCEPLSVGVHACRRAEVGPETNVLVMGAGPIGLVTMLAARAFSVPRIVIVDVDENRLAVAKQLGADEIVQVTTNLEDVGSEVEQIQKAMGSNIDVTFDCAGFNKTMSTALAATRCGGKVCLVGMGHGIMTVPLTPAAAREVDVVGVFRYKNTWPLCLEFLTSGKIDVKPLITHRFGFSQKEVEDAFETSARGS-NAIKVMFN</Hsp_hseq>
+      <Hsp_midline>AA       ++I+    P+V P  V + +   GICG+D+H    M    F+              P+ +GHE +G++  VGE V  + VG  V +EP I            Y+L  +M F       G L+ ++         + + + L++ A+ EPLSVG HA  R+        LV GAGPIGL+     +A  + +++I ++ + R   A++ G  + +   + + DV  EV+++    G  +DV F+C   NK + T + A +    + +V +     TV +     +E+DV G   Y N     ++ +  GKI+++P IT R     K V + FE     + +A+K++ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|139822|sp|P22144.1|XYL2_PICST</Hit_id>
+  <Hit_def>RecName: Full=D-xylulose reductase; AltName: Full=Xylitol dehydrogenase; Short=XDH [Scheffersomyces stipitis CBS 6054]</Hit_def>
+  <Hit_accession>P22144</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.14276e-32</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>DIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYI---IRDDVPTGEGSNYHLSKDMNFI-------GLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIK-VIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLV--------EEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVN</Hsp_qseq>
+      <Hsp_hseq>DISFETYDAPEISEPTDVLVQVKKTGICGSDIHFYAHGRIGNFV-----------LTKPMVLGHESAGTVVQVGKGVTSLKVGDNVAIEPGIPSRFSDEYKSG---HYNLCPHMAFAATPNSKEGEPNPPGTLCKYFKSPEDFLVKLPDHVSLELGALVEPLSVGVHASKLGSVAFGDYVAVFGAGPVGLLAAAVAKTFGAKGVIVVDIFDNKLKMAKDIGAATHTFN-SKTGGSEELIKAFGGNVPNVVLECTGAEPCIKLGVDAIAPGGRFVQVGNAAGPVSFPITVFAMKELTLFGSFRYGFNDYKTAVGIFDTNYQNGRENAPIDFEQLITHRYKFKDAI-EAYD-LVRAGKGAVKCLID</Hsp_hseq>
+      <Hsp_midline>DI  E    P ++ P  V + V   GICG+D+H +  G I  F+            + P+ +GHE +G V  VG+GV  +KVG +V +EP I     D+  +G   +Y+L   M F        G     G L +       ++  + D + L+  AL+EPLSVG HA        GD   V GAGP+GLL AAV K  G K VI+ ++   +   A++ G A +  + S+    EE+ K   G   +V  ECT     +   V+A  P    V V   + P +  +    MKEL + G+  Y  ND+   + +         E   I+ E  IT R K    + E ++ L+   + AVK +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|399373|sp|Q02912.1|DHSO_BOMMO</Hit_id>
+  <Hit_def>RecName: Full=Sorbitol dehydrogenase; AltName: Full=L-iditol 2-dehydrogenase [Bombyx mori]</Hit_def>
+  <Hit_accession>Q02912</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.86529e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>AARFYNKGDIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYIL---DPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVN</Hsp_qseq>
+      <Hsp_hseq>AAVLHGANDVRIEKIPVPEINDDEVLIKIDCVGICGSDVKLYSTGT-----CGA----DVIDKPIVIGHEGAGTVVKVGDKVSSLRVGDRVAIEPTQPCRSCELCKRGKYNLCVEPRYCSSMGAPGNLCRYYKHVADFCHKLPDNLTMEEGAAVQPLAIVIHACNRAKITLGSKIVILGAGPIGILCAMSAKAMGASKIILTDVVQSRLDAALELGADNVLLVRREYTDEEVVEKIVKLL-GDRPDVSIDACGYGSAQRVALLVTKTAGLVLVVGIADKTVELPLSQALLREVDVVGSFRIMNTYQPALAAVSSGAIPLDKFITHRFPLNK-TKEALD--LAKSGAAMKILIH</Hsp_hseq>
+      <Hsp_midline>AA  +   D+RIE IP P +    V I +   GICG+D+  +  G      CG          P+ +GHE +G V  VG+ V  ++VG  V +EP          +   Y+L  +  +    G  G L         + H + D + +++ A ++PL++  HA  R+    G   ++ GAGPIG+L A   KA G  K+I+T++ ++R D A E G  + +L   + ++ +VVE++ KL  G+  DV+ +           +   K A  +++V I      + +   +++E+DV G+    N +   +  V  G I L+ FIT R  L+K   E  +  +  + +A+KI+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|294863179|sp|A1D9C9.1|XYL2_NEOFI</Hit_id>
+  <Hit_def>RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Neosartorya fischeri NRRL 181]</Hit_def>
+  <Hit_accession>A1D9C9</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>3.97261e-32</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>DIRIEDIPEPTVA-PGTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTN----GEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFIT</Hsp_qseq>
+      <Hsp_hseq>QVKFEDRPIPELKDPHDVLVNVKFTGICGSDVHYWEHGSIGQFV-----------VKDPMVLGHESSGVISKVGSAVTGLKVGDRVAMEPGIPCRRCEPCKAGKYNLCEKMAFAATPPYDGTLAKFYVLPEDFCYKLPDNISLQEGALMEPLGVAVHIVRQASVTPGQSVIVFGAGPVGLLCCAVAKAFGAAKIIAVDIQKPRLDFAKRY-AATSTFEPAKVSAVDNADRLRKENNLGVGADVVIDASGAEPSVHTGIHVLRPGGTYVQGGMGRSEIMFPIMAACTKELTFKGSFRYGSGDYKLAVGLVASGRVNVKDLIT</Hsp_hseq>
+      <Hsp_midline> ++ ED P P +  P  V +NV + GICG+D+H +  G I  F+              P+ +GHE SGV+  VG  V  +KVG  V +EP I        +   Y+L + M F       G L++   +   + + + D I L + AL+EPL V  H   ++    G   +V GAGP+GLL  AV KA G  K+I  ++ K R D A+    A    +P++V  V+   +L      G G DV  + +     + T +   +P    V   +        + +   KEL  +G+  Y   D+   + LV  G++N++  IT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|294863178|sp|C5FTT1.1|XYL2_ARTOC</Hit_id>
+  <Hit_def>RecName: Full=Probable D-xylulose reductase A; AltName: Full=Xylitol dehydrogenase A [Arthroderma otae CBS 113480]</Hit_def>
+  <Hit_accession>C5FTT1</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.10061e-31</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTVAPG-TVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGV----DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAY-CNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERL</Hsp_qseq>
+      <Hsp_hseq>VKFEDRPVPVLKDAHDVLVNVRYTGICGSDVHYWDHGSI------GPFVLT---EPMVLGHESSGVVTEIGPAVKSLKVGDRVALEPGICCRRCEPCKSGKYNLCVDMVFAATPPYDGTLAKYYVLPEDFCYKLPSAMDLKDGALMEPLGVAVHITRQAEVKPGDTVVVFGAGPVGLLCCAASRAFGAIKIISVDIQPERLDFAKKYAATGVFL-PEKASAVENAERLRSGHGLGRGADVVIDASGAEQSVHTGIYVARPGGTYVQGGMGRDEISFPIMAACTKELNMKGSFRYNSGDYKLALELVGSGRLSVKELVTKVVAFTD-AEQAFEEV</Hsp_hseq>
+      <Hsp_midline>++ ED P P +     V +NV + GICG+D+H +  G I       P  ++    P+ +GHE SGVV  +G  V  +KVG  V +EP I        +   Y+L  DM F       G L++   +   + + +   + L   AL+EPL V  H   ++  K GD  +V GAGP+GLL  A  +A G IK+I  ++   R D A++       L P +   VE  ++L +G G+    DV  + +   + + T +   +P    V   +     +  + +   KEL+++G+  Y   D+   ++LV  G+++++  +T+ +       + FE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|403399444|sp|C5J3R8.1|LAD_TALEM</Hit_id>
+  <Hit_def>RecName: Full=L-arabinitol 4-dehydrogenase; Short=LAD [Rasamsonia emersonii]</Hit_def>
+  <Hit_accession>C5J3R8</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.50064e-31</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>PGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARE--SGVADYILD---PSEVDVVEEVKKLTNGEGV-------DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKI</Hsp_qseq>
+      <Hsp_hseq>PGQVTVEIRSTGICGSDVHFWHAG------CIGPMIVTGDH---ILGHESAGVVIAVAPDVKTLKPGDRVAIEPNIICNKCEPCLTGRYNGCEAVEFLSTPPVDGLLRRYVNHPAIWCHKIGD-MSFEDGALLEPLSVALAGMDRAGVRLGDPVLVAGAGPIGLVTLLCVRAAGATPIVITDIDEGRLRFAKELVPEVRTYRVQTGLSAEENAAGILDALNDGNGSAPDAIRPRVAMECTGVESSVASAIWSVKFGGKVFVIGVGKNEMKVPFMRLSTWEIDLQYQYRYCNTWPKAIRLVKNGVINLKKLVTHRFPLEDAV-KAFETAANPKTGAIKV</Hsp_hseq>
+      <Hsp_midline>PG V + +   GICG+D+H +  G      C  P  ++G+     +GHE +GVV AV   V  +K G  V +EP II +         Y+  + + F+      G L   +     W H I D +  +  AL+EPLSV      R+G + GD  LV GAGPIGL+    ++A G   ++IT++ + R   A+E    V  Y +     +E +    +  L +G G         VA ECT V   + + + + K    + ++ +  +   V    +   E+D++    YCN   + I+LV+ G INL+  +T R  L+  V + FE   +    A+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|226703618|sp|B3PUI4.1|TDH_RHIE6</Hit_id>
+  <Hit_def>RecName: Full=L-threonine 3-dehydrogenase [Rhizobium etli CIAT 652]</Hit_def>
+  <Hit_accession>B3PUI4</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>6.82074e-31</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTM--GHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLG-GCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAET-IKLVE--EGKINLEPFITQRIKLDKLVSEGFERLIHNNESAV</Hsp_qseq>
+      <Hsp_hseq>LWMEDVPVPEVGPNDVLIRVKKSAICGTDVHIW-----------NWDQWAQKTIPVPMVVGHEFSGEIAEIGSAVTRYHVGERVSGEGHIVCGKCRNCRAGRGHLCR--NTLGVGVNRPGSFGEFVCIPESNVVPIPDDISDEIAAIFDPFGNAVHTAL-SFDLVGEDVLVTGAGPIGIMGALVAKRSGARKVVITDINPHRLDLARKLGI-DHVVDASKENLADVMKAIGMTEGFDVGLEMSGAAPAFRDMIDKMNNGGKIAILGIAPAGFEIDWNKVIFKMLNLKGI--YGREMFETWYKMIAFVQGGLDLSPIITHRIKIDDF-RDGFEAMRSGNSGKV</Hsp_hseq>
+      <Hsp_midline>+ +ED+P P V P  V I V    ICGTD+H +           +    + ++ PV M  GHEFSG +  +G  V    VG+ V  E +I+            HL +  N +G+G    G   E + +    V PI D I  + AA+ +P     H  + S    G+  LV GAGPIG++ A V K  G  KV+IT+++  R D AR+ G+ D+++D S+ ++ + +K +   EG DV  E +        +++       + I+ I      ++ + V+ K L+++G   Y  +  ET  K++   +G ++L P IT RIK+D    +GFE +   N   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|403399442|sp|A2QAC0.1|LAD_ASPNC</Hit_id>
+  <Hit_def>RecName: Full=L-arabinitol 4-dehydrogenase; Short=LAD [Aspergillus niger CBS 513.88]</Hit_def>
+  <Hit_accession>A2QAC0</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.71344e-30</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>VAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIK-VIITELSKARKDKARESGVADYILDPSEVDVVEE------VKKLTNGEGV-------DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKI</Hsp_qseq>
+      <Hsp_hseq>LQPGEVTIEVRSTGICGSDVHFWHAG------CIGPMIVTGDH---ILGHESAGQVVAVAPDVTSLKPGDRVAVEPNIICNACEPCLTGRYNGCENVQFLSTPPVDGLLRRYVNHPAIWCHKIGD-MSYEDGALLEPLSVSLAGIERSGLRLGDPCLVTGAGPIGLITLLSARAAGASPIVITDIDEGRLEFAK-SLVPDVRTYKVQIGLSAEQNAEGIINVFNDGQGSGPGALRPRIAMECTGVESSVASAIWSVKFGGKVFVIGVGKNEMTVPFMRLSTWEIDLQYQYRYCNTWPRAIRLVRNGVIDLKKLVTHRFLLEDAI-KAFETAANPKTGAIKV</Hsp_hseq>
+      <Hsp_midline>+ PG V I V   GICG+D+H +  G      C  P  ++G+     +GHE +G V AV   V  +K G  V VEP II +         Y+  +++ F+      G L   +     W H I D +  +  AL+EPLSV      RSG + GD  LV GAGPIGL+     +A G   ++IT++ + R + A+ S V D      ++ +  E      +    +G+G         +A ECT V   + + + + K    + ++ +  +  TV    +   E+D++    YCN     I+LV  G I+L+  +T R  L+  + + FE   +    A+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123765757|sp|Q2K618.1|TDH_RHIEC</Hit_id>
+  <Hit_def>RecName: Full=L-threonine 3-dehydrogenase [Rhizobium etli CFN 42]</Hit_def>
+  <Hit_accession>Q2K618</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>2.41035e-30</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTM--GHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLG-GCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAET-IKLVE--EGKINLEPFITQRIKLDKLVSEGFERLIHNNESAV</Hsp_qseq>
+      <Hsp_hseq>LWMENVPVPEVGPNDVLIRVKKSAICGTDVHIW-----------NWDQWAQKTIPVPMVVGHEFSGEIAEIGSAVTRYHVGERVSGEGHIVCGKCRNCRAGRGHLCR--NTLGVGVNRPGSFGEFVCIPESNVVPIPDDISDEIAAIFDPFGNAVHTAL-SFDLVGEDVLVTGAGPIGIMGALVAKRSGARKVVITDINPHRLDLARKLGI-DHVVDASKENLADVMKAIGMTEGFDVGLEMSGAAPAFRDMIDKMNNGGKIAILGIAPAGFEIDWNKVIFKMLNLKGI--YGREMFETWYKMIAFVQGGLDLSPIITHRIKIDDF-RDGFEAMRSGNSGKV</Hsp_hseq>
+      <Hsp_midline>+ +E++P P V P  V I V    ICGTD+H +           +    + ++ PV M  GHEFSG +  +G  V    VG+ V  E +I+            HL +  N +G+G    G   E + +    V PI D I  + AA+ +P     H  + S    G+  LV GAGPIG++ A V K  G  KV+IT+++  R D AR+ G+ D+++D S+ ++ + +K +   EG DV  E +        +++       + I+ I      ++ + V+ K L+++G   Y  +  ET  K++   +G ++L P IT RIK+D    +GFE +   N   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|81322633|sp|Q8KQL2.1|ARPD_ENTAV</Hit_id>
+  <Hit_def>RecName: Full=D-arabitol-phosphate dehydrogenase; Short=APDH [Enterococcus avium]</Hit_def>
+  <Hit_accession>Q8KQL2</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>8.85358e-30</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>DIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVE-PYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHA-YVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIKVIITELSKA--RKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPAT-VNVHSVVMKELDVRGTIAYC-NDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNP</Hsp_qseq>
+      <Hsp_hseq>DLSVPEATDDKVLIKVAYTGICGSDIHTF-KGEYKNP-----------TTPVVLGHEFSGQVVEVGANVPKVKVGDRVTSETTFYVCGECDYCKEKQYNLCPHRKGIGTQQ-NGSMANYVLAREESIHLLPDHLSYEGAAMSEPLACCVHAMYQKSHLELKDTIIIMGPGPIGLYLLQIAKEIGAFVIMTGITKDAHRLALAKKLG-ADVIVDTMKEDLAKVVNEITDGYGVDKVYDASGAVPAVNASLPLIRKQGQFIQVGLFANKMVDLDTESIIQREIEYIGSRSQNPYDWPIAIHLLAKGAINIDEMITKKYPLTEW-REAFDKVMEGNEIKVMIESNP</Hsp_hseq>
+      <Hsp_midline>D+  P      V I VA+ GICG+D+H F +G    P           + PV +GHEFSG V  VG  V  +KVG  V  E  + +  +    +   Y+L      IG     G ++  +  +   +H + D +  + AA+ EPL+   HA Y +S  +  D  ++ G GPIGL L  + K  G  VI+T ++K   R   A++ G AD I+D  + D+ + V ++T+G GVD  ++ +     ++  +   +     + V ++++    ++  S++ +E++  G+ +    D    I L+ +G IN++  IT++  L +   E F++++  NE  V I  NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|74619055|sp|Q7SI09.1|LAD_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=L-arabinitol 4-dehydrogenase; Short=LAD [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>Q7SI09</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.24496e-29</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>GTVGINVAWCGICGTDLHEFMEGPI--FIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKG-IKVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEG---VDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVN</Hsp_qseq>
+      <Hsp_hseq>GEVTVAVRSTGICGSDVHFWKHGCIGPMIVECDH-----------VLGHESAGEVIAVHPSVKSIKVGDRVAIEPQVICNACEPCLTGRYNGCERVDFLSTPPVPGLLRRYVNHPAVWCHKIGN-MSYENGAMLEPLSVALAGLQRAGVRLGDPVLICGAGPIGLITMLCAKAAGACPLVITDIDEGRLKFAKEICPEVVTHKVERLSAEESAKKIVESFGGIEPAVALECTGVESSIAAAIWAVKFGGKVFVIGVGKNEIQIPFMRASVREVDLQFQYRYCNTWPRAIRLVENGLVDLTRLVTHRFPLEDAL-KAFETASDPKTGAIKVQIQ</Hsp_hseq>
+      <Hsp_midline>G V + V   GICG+D+H +  G I   I  C H            +GHE +G V AV   V  IKVG  V +EP +I +         Y+  + ++F+      G L   +     W H I + +  +  A++EPLSV      R+G + GD  L+ GAGPIGL+     KA G   ++IT++ + R   A+E            +   E  KK+    G     VA ECT V   +   + A K    + ++ +  +   +      ++E+D++    YCN     I+LVE G ++L   +T R  L+  + + FE        A+K+ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|403399443|sp|B6HI95.1|LAD_PENCW</Hit_id>
+  <Hit_def>RecName: Full=L-arabinitol 4-dehydrogenase; Short=LAD [Penicillium rubens Wisconsin 54-1255]</Hit_def>
+  <Hit_accession>B6HI95</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>2.87918e-29</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>GTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLL-LAAVLKAKGIKVIITELSKARKDKARESGVADYILDPSEVDVVEE------VKKLTNGEGV-------DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKI</Hsp_qseq>
+      <Hsp_hseq>GEVTIEVRSTGICGSDVHFWHAG------CIGPMIVTGDH---VLGHESAGQVLAVAPDVTHLKVGDRVAVEPNVICNACEPCLTGRYNGCVNVAFLSTPPVDGLLRRYVNHPAVWCHKIGD-MSYEDGAMLEPLSVTLAAIERSGLRLGDPLLITGAGPIGLISLLSARAAGACPIVITDIDEGRLAFAK-SLVPEVRTYKVEIGKSAEECADGIINALNDGQGSGPDALRPKLALECTGVESSVNSAIWSVKFGGKVFVIGVGKNEMTIPFMRLSTQEIDLQYQYRYCNTWPRAIRLIQNGVIDLSKLVTHRYSLENAL-QAFETASNPKTGAIKV</Hsp_hseq>
+      <Hsp_midline>G V I V   GICG+D+H +  G      C  P  ++G+     +GHE +G V AV   V  +KVG  V VEP +I +         Y+   ++ F+      G L   +     W H I D +  +  A++EPLSV   A  RSG + GD  L+ GAGPIGL+ L +   A    ++IT++ + R   A+ S V +      E+    E      +  L +G+G         +A ECT V   +++ + + K    + ++ +  +  T+    +  +E+D++    YCN     I+L++ G I+L   +T R  L+  + + FE   +    A+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|74696010|sp|Q763T4.1|LAD_ASPOZ</Hit_id>
+  <Hit_def>RecName: Full=L-arabinitol 4-dehydrogenase; Short=LAD [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>Q763T4</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>5.09543e-29</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>TVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIK-VIITELSKARKDKARESGVADYILDPSEVDVVEE------VKKLTNGEGV-------DVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAETIKLVEEGKINLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPN</Hsp_qseq>
+      <Hsp_hseq>SLKPGEVTVQVRSTGICGSDVHFWHAG------CIGPMIVTGDH---ILGHESAGEVIAVASDVTHLKPGDRVAVEPNIPCHACEPCLTGRYNGCEKVLFLSTPPVDGLLRRYVNHPAVWCHKIGD-MSYEDGALLEPLSVSLAAIERSGLRLGDPVLVTGAGPIGLITLLSARAAGATPIVITDIDEGRLAFAK-SLVPDVITYKVQTNLSAEDNAAGIIDAFNDGQGSAPDALKPKLALECTGVESSVASAIWSVKFGGKVFVIGVGKNEMKIPFMRLSTQEIDLQYQYRYCNTWPRAIRLVRNGVISLKKLVTHRFLLEDAL-KAFETAADPKTGAIKVQIMSN</Hsp_hseq>
+      <Hsp_midline>++ PG V + V   GICG+D+H +  G      C  P  ++G+     +GHE +G V AV   V  +K G  V VEP I            Y+  + + F+      G L   +     W H I D +  +  AL+EPLSV   A  RSG + GD  LV GAGPIGL+     +A G   ++IT++ + R   A+ S V D I    + ++  E      +    +G+G         +A ECT V   + + + + K    + ++ +  +   +    +  +E+D++    YCN     I+LV  G I+L+  +T R  L+  + + FE        A+K+ +  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|67461729|sp|Q67N85.1|TDH_SYMTH</Hit_id>
+  <Hit_def>RecName: Full=L-threonine 3-dehydrogenase [Symbiobacterium thermophilum IAM 14863]</Hit_def>
+  <Hit_accession>Q67N85</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>5.89374e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MKAARFYNKG-DIRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTMGHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLGGCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGIKVIIT-ELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHS-VVMKELDVRGTIA--YCNDHAETIKLVEEGKI-NLEPFITQRIKLDKLVSEGFERLIHNNESAVKIIVNPNL</Hsp_qseq>
+      <Hsp_hseq>MRALRKLEAGPGATLQEVPIPTIGPRDVLVKVRAASICGTDYHIYTWDPW---SAGRVKP------PLTIGHELAGEVVAVGREVTACKVGDYVSAETHIVCNRCPRCHMGEYHLCENTKILGV-DTDGAFAEYVAVPEQNIWVNDKDIPFELQSIQEPLGNAVHTALNGDLTARSV-LITGCGPIGIMSVPVAKMAGAEIVMAMDINEYRLQLAGQLG-ADVLINPTKQDPVEVVRSYTRGYGADVVLEMSGNPTAIRQGLKAARNGARISLLGLPGRPLELDLAADVIMRGLVLQGITGRRMWQTWYQVRSLYRAGLAERLRPLVTHRMPLEQI--DAAMELMGSGQSG-KIVLVPDL</Hsp_hseq>
+      <Hsp_midline>M+A R    G    ++++P PT+ P  V + V    ICGTD H +   P      G   P      P+T+GHE +G V AVG  V   KVG +V  E +I+ +  P      YHL ++   +G+    G  +E +AV  + +      IP +  ++ EPL    H  +     A  V L+ G GPIG++   V K  G ++++  ++++ R   A + G AD +++P++ D VE V+  T G G DV  E +     +   ++A +  A + ++ +   P  +++ + V+M+ L ++G           +   L   G    L P +T R+ L+++  +    L+ + +S  KI++ P+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|123384608|sp|Q1MDT5.1|TDH_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=L-threonine 3-dehydrogenase [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q1MDT5</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>1.0464e-28</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>IRIEDIPEPTVAPGTVGINVAWCGICGTDLHEFMEGPIFIPPCGHPHPISGESAPVTM--GHEFSGVVYAVGEGVDDIKVGQHVVVEPYIIRDDVPTGEGSNYHLSKDMNFIGLG-GCGGGLSEKIAVKRRWVHPISDKIPLDQAALIEPLSVGHHAYVRSGAKAGDVALVGGAGPIGLLLAAVLKAKGI-KVIITELSKARKDKARESGVADYILDPSEVDVVEEVKKLTNGEGVDVAFECTSVNKVLDTLVEACKPAANLVIVSIWSHPATVNVHSVVMKELDVRGTIAYCNDHAET-IKLVE--EGKINLEPFITQRIKLDKLVSEGFERLIHNNESAV</Hsp_qseq>
+      <Hsp_hseq>LWMENVPVPEVGPNDVLIRVKKSAICGTDVHIW-----------NWDQWAQKTIPVPMVVGHEFSGEIAEIGSAVTRYHVGERVSGEGHIVCGKCRNCRAGRGHLCR--NTLGVGVNRPGSFGEFVCIPESNVVPIPDDISDEIAAIFDPFGNAVHTAL-SFDLVGEDVLVTGAGPIGIMGALVAKRSGARKVVITDINPHRLELARKLGI-DHVVDASKENLADVMKAIGMTEGFDVGLEMSGAAPAFRDMIDKMNNGGKIAILGIAPAGFEIDWNKVIFKMLNLKGI--YGREMFETWYKMIAFVQGGLDLAPIITHRIGIDDF-RDGFEAMRSGNSGKV</Hsp_hseq>
+      <Hsp_midline>+ +E++P P V P  V I V    ICGTD+H +           +    + ++ PV M  GHEFSG +  +G  V    VG+ V  E +I+            HL +  N +G+G    G   E + +    V PI D I  + AA+ +P     H  + S    G+  LV GAGPIG++ A V K  G  KV+IT+++  R + AR+ G+ D+++D S+ ++ + +K +   EG DV  E +        +++       + I+ I      ++ + V+ K L+++G   Y  +  ET  K++   +G ++L P IT RI +D    +GFE +   N   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

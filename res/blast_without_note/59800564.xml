@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800564|ref|YP_207276.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>cytochrome c biogenesis protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>395</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800564|ref|YP_207276.1|</Iteration_query-ID>
+  <Iteration_query-def>cytochrome c biogenesis protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>395</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|32700076|sp|P48269.2|CCSA_CHLRE</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Chlamydomonas reinhardtii]</Hit_def>
+  <Hit_accession>P48269</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>5.34516e-42</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFA--VQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKGGKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>RWEKS-------GHFPLSNLYESLMFLAWCCTFLYLLYCTSFTLLVEKMLGSLIAPCSLLMNAFATFSLPKEMQQASPLVPALQSNWLMMHVTVMIISYATLIIGSLLSILFLILFKHKKGTPKKYDNFINNLDALSYRIIGLGFPFLTIGILSGAVWANEAWGSYWSWDPKETWALLTWLVFAIYLHTRLTKGWEGEKPAIIAAVGFLVVWFCYLGVNLIGEGLHSYG</Hsp_hseq>
+      <Hsp_midline>RW +S       GH P+SNLYE  +        +YL Y   F   V+K+ G +    ++++     +S+ +E     PL+PALQS W+ +HV    I Y    I ++L I  L+  + ++   K +      +D + Y+ I +GF F TI  + GA+WA +AWG YWSWDPKETWA + WL +A++LH RL  GW G+  A  A +G  V  F ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|212288165|sp|A5GTF4.1|CCSA_SYNR3</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. RCC307]</Hit_def>
+  <Hit_accession>A5GTF4</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>2.61517e-40</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>DAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIA-------ELVSLRA-------------EEKGGKLWLP--PSAL---IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>DSGHFPISNLYESLCFLAWGCTFTQLFVERSWPSPLVPAATTPMALVCVAFAS-FALPDTLQNAAPLVPALRSSWLVMHVSVIMMSYAALLVGSLLSAAVLFTQPGQAMELRSSSIGSGSFQKAGLQTDGGTVVLEAAPIALSERLDNLSYRTITVGFLLLTVGIISGAVWANEAWGSWWSWDPKETWALICWLVYAAYLHTRLSRGWQGRRPAWVAVSGLFVISVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>D+GH P+SNLYE             L+ E  +    +         V V F   +++        PL+PAL+S W+ +HV    + Y A  + ++L  A       + + LR+             +  GG + L   P AL   +D + Y+ I VGFL  T+  I GA+WA +AWG +WSWDPKETWA I WL YA +LH RL  GW+G+  AW A+ GLFV +  +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123581428|sp|Q3AXK1.1|CCSA_SYNS9</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. CC9902]</Hit_def>
+  <Hit_accession>Q3AXK1</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.14096e-40</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---------KGG----------------KLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LVLRWWQS-------GHFPISNLYESLCFLAWACTLTQLLVERAWPSPIVAAAATPMGLGCIAFAS-FALPDQLQSAAPLVPALRSSWLVMHVSVIMVSYAALLVGSLLSLAVLVMDRGEALQLRSSSIGSGGFRQAVTTPDSGFLELQSLEISTNEQLDSLSYRTITVGFLMLTVGIISGAVWANEAWGSYWSWDPKETWALICWLVYAAYLHTRLSRGWQGRRPALVAVVGLIVIAVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>L++RW +S       GH P+SNLYE          L  L  E  +    +           + F   +++  +  +  PL+PAL+S W+ +HV    + Y A  + ++L +A LV  R E           GG                 L +  +  +D + Y+ I VGFL  T+  I GA+WA +AWG YWSWDPKETWA I WL YA +LH RL  GW+G+  A  A++GL V A  +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3023446|sp|P56315.1|CCSA_CHLVU</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Chlorella vulgaris]</Hit_def>
+  <Hit_accession>P56315</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>9.38226e-40</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV--------------------SLRAE-------------EKGGKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGTL</Hsp_qseq>
+      <Hsp_hseq>LILRW-------VDSGHFPLSNLYESLIFLAWCLLLLYIYIEVSTKTLFLGVLTSPAILCLVAFTD-FSLPTELQQSTPLVPALQSNWLVMHVTVMIASYAALLLGCFIAIAYLVLSKFFIKTTFVTAPLSSQNTVLRQESFLEEKQKTDIVFEKNDKN-LKFLFFLDNLSYRTIGIGFCFLTLGILSGAIWANETWGNYWSWDPKETWAFITWLTFACYLHSRLVGGWTGSKPALVASFGFLVVWVCYLGVNLLGQGLHSYGFL</Hsp_hseq>
+      <Hsp_midline>L++RW        D+GH P+SNLYE  I       L+Y+Y E       LG      +  +V F   +S+  E     PL+PALQS W+ +HV      Y A  +   + IA LV                     LR E             EK  K  L     +D + Y+ I +GF F T+  + GA+WA + WG YWSWDPKETWAFI WL +A +LH RLV GW G   A  A  G  V    ++GVN+   GLHSYG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81596214|sp|Q5N3C1.1|CCSA_SYNP6</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus elongatus PCC 6301] &gt;gi|123557387|sp|Q31QX6.1|CCSA_SYNE7 RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>Q5N3C1</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>4.78449e-39</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>AFVFFALFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAE------------------------------EKGGK----------LWLPPSAL-----IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>AILLPTLLCYWTGVAFPNLKGLPAIGTAGMAIANLCMAALLG-----ARWLE-------AGYFPISNLYESLFFLAWGLTAI-HLLAE-KLSGSRLVGAATSPLALGIVAFAAFTLPKEMRQAEPLVPALKSNWLMMHVSVMMVSYAALLVGSLLSVAFLVVTRGQAIELRGSSVGTGSFRQVKLNRASDLTIATAESGGSGGTAVLEQPVLQLAPEQLSLADTLDNVSYRVIGLGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLVFAAYLHARITRGWQGRRPAILATVGFGVVWVCYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>A +   L  Y +G    ++K +P     GM      ++A+ G      RW E       AG+ P+SNLYE +F L   +TA+ +L  E K +  +L G     +A+ +     +++ +E    +PL+PAL+S W+ +HV    + Y A  + ++L +A LV  R +                              E GG           L L P  L     +D V Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A  A +G  V    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123132586|sp|Q0IAM4.1|CCSA_SYNS3</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. CC9311]</Hit_def>
+  <Hit_accession>Q0IAM4</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>3.81151e-38</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>NVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLR------------------------------AEEKGGKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>KVSSEKTSGLVTLLIATANLALTAQLVLRWWQS-------GHFPISNLYESLCFLAWACTLTQLLVERSWPTPIVAAAATPMGLGCIAFAS-FALPDQLQEASPLVPALRSSWLVMHVSVIMVSYAALLVGSLLSVAVLVTDRGHALELRSSSIGSGGYRRAALATPLGNVGDSEVQLSSVKFTRNELLDSLSYRTITVGFLLLTVGIISGAVWANEAWGSYWSWDPKETWALICWLVYAAYLHTRLSRGWQGRRPALVASAGLVVIGVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline> V +    G+ T+    + +A    L++RW +S       GH P+SNLYE          L  L  E  +    +           + F   +++  +     PL+PAL+S W+ +HV    + Y A  + ++L +A LV+ R                              +E +   +    + L+D + Y+ I VGFL  T+  I GA+WA +AWG YWSWDPKETWA I WL YA +LH RL  GW+G+  A  A  GL V    +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|140453|sp|P22554.1|CCSA_GUITH</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Guillardia theta]</Hit_def>
+  <Hit_accession>P22554</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>8.19254e-38</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>ALFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKGGKL----------WLPPSA---------LIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>SLISYWLGLIFKKIKNV---FYIGYGSTILACITITIILG--TRWIES-------GYFPLSNLYESLMFLTWGLLFSAIYLEYKTNLYLIGAIVSPISLFIVSFST-LSLPQDMQKAAPLVPALKSNWLMMHVSVMMLSYSTLIIGSLLAILYLVLIKAQQKKHSLKDFAFANLEFTFPKSTNSTNFNLLETLDNLSYRTIGFGFPLLTIGIIAGAVWANEAWGTYWSWDPKETWALITWLVFAAYLHARITKSWTGERPAYLAALGFVVVWICYLGVNFLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>+L +Y  G +   +KNV     +G G+       +    G   RW ES       G+ P+SNLYE  +          +Y E K  +  +G  V      +V F    S+ ++     PL+PAL+S W+ +HV    + Y    I ++L I  LV ++A++K   L            P S           +D + Y+ I  GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+   W G+  A+ A +G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1351782|sp|P48257.1|CCSA_CYAPA</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Cyanophora paradoxa]</Hit_def>
+  <Hit_accession>P48257</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>1.31311e-37</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>VSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL---------------VSLRAEEKGG---------------------KLWLPPSALI------DEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>IANVSIFLLLITRW-------ITAGYFPISNLYESLFFLVWGLNTIWLFLYKNNMRIQLLDNSVSLLLTLLVGF-LHFILPQEMREISPLVPALKSNWLMMHVSVMMISYATLMIGSLLSIIYLYFLYRVDKLLNKINAVNLMTSNQNSNSLIYNLSFNTLLNSSKSMEYQILLKDLSLIKLSKRLDNLSYRLITFGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLIFAIYLHTRIIKGWQGKKAAMVASLGFFIIWICYLGVNLLGKGIHSYG</Hsp_hseq>
+      <Hsp_midline>++ V+ F  L+ RW         AG+ P+SNLYE +F L   +  +    Y+    +Q L   V   + ++VGF L + + +E   I PL+PAL+S W+ +HV    I Y    I ++L I  L               V+L    +                       ++ L   +LI      D + Y+ I  GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A++LH R++ GW+GK  A  A +G F+    ++GVN+   G+HSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1351783|sp|P49523.1|CCSA_ODOSI</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Odontella sinensis]</Hit_def>
+  <Hit_accession>P49523</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>8.89104e-37</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>TNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKG--------------------GKLWLPPSAL-----------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>TKNLSQVGKISAIVANILLFFILGSRWIV-------AGYFPLSNLYESLLFLTWTLLTIYLYVEFKTKSKLVGAILIPVALLINGFAN-LTLSVDMQKSSPLVPALQSNWLMLHVSMMMLSYGTLIMGSLLCILFLVISKYQDIDLQILDESSLPLYNIMLDYYEAKLFSPSDEVSELGKLKLLQSLDNWSYRIIGLGFPFLTIGIIAGGVWANEAWGSYWSWDPKETWALITWIVFATYLHSRITKGWEGKKTAILGGLGFFVIWICYLGVNFLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>T  L  +G + A V+ +  F  L  RW         AG+ P+SNLYE  +        +YLY E K   + +G  +     ++ GF    ++S +     PL+PALQS W+ +HV    + YG   + ++L I  LV  + ++                       KL+ P   +           +D   Y+ I +GF F TI  I G +WA +AWG YWSWDPKETWA I W+ +A +LH R+  GW GK  A    +G FV    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|212288164|sp|A5GLB4.1|CCSA_SYNPW</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. WH 7803]</Hit_def>
+  <Hit_accession>A5GLB4</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>2.39253e-36</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE----------------------------------KGGKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LVLRWWQS-------GHFPISNLYESLCFLAWACTLTQLLVERQWPSPLVAASATPMGLGCIAFAS-FALPDQLQQASPLVPALRSSWLVMHVSVIMVSYAALLVGSLLSVAVLMTDRGQQLELRSSSIGSGAFRKAVSITGETSAVGVQAAPELQLSSIDFSRSEQLDSLSYRTITVGFLLLTVGIISGAVWANEAWGSWWSWDPKETWALICWLVYAAYLHTRLSRGWQGRRPAMVASLGLVVIVVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>L++RW +S       GH P+SNLYE          L  L  E ++    +           + F   +++  +     PL+PAL+S W+ +HV    + Y A  + ++L +A L++ R ++                                  +   +    S  +D + Y+ I VGFL  T+  I GA+WA +AWG +WSWDPKETWA I WL YA +LH RL  GW+G+  A  A +GL V    +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|13878420|sp|Q9MUM3.1|CCSA_MESVI</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Mesostigma viride]</Hit_def>
+  <Hit_accession>Q9MUM3</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>3.118e-36</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL-------VSLRAEEKGG-----------------KLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LSIRWFDSH-------HFPLSNMYESLMFLCWCFTFFHLLIEKYIQINFIGFITVPIAMLVNAFATFFLPLDMQHS-TPLVPALKSNWLIMHVTIMMASYAALILGSLLSIAFLFLTYNKQIELQGNSIGNINDEMNSYITIDIEFQKNESIELAKLIDNLSYRTIGIGFPLLTIGIISGAVWANDAWGSYWSWDPKETWALITWIIFAIYLHTRITKGWQGRRPAIVAFIGFVIVWVCYLGVNLLGQGLHSYG</Hsp_hseq>
+      <Hsp_midline>L +RW +S+       H P+SN+YE  +         +L  E    +  +G        +V  F  ++      H+  PL+PAL+S W+ +HV      Y A  + ++L IA L       + L+    G                     +  + LID + Y+ I +GF   TI  I GA+WA DAWG YWSWDPKETWA I W+ +A++LH R+  GW+G+  A  A IG  +    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|212288135|sp|B2XT99.1|CCSA_HETA2</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Heterosigma akashiwo NIES-293] &gt;gi|212288136|sp|B2XTQ5.1|CCSA_HETA4 RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Heterosigma akashiwo CCMP452]</Hit_def>
+  <Hit_accession>B2XT99</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>5.42272e-36</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>VPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV-----------SLRAE--EKGGKLWLPPSAL----------------------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGTL</Hsp_qseq>
+      <Hsp_hseq>VNNNLICNLAKFSAVNSNVILFFYLSWRWY-------NYNFFPLSNLYESLMFLSCLLLFIYQFIEFKTRSRVIGALVLPLIVLVQGFAS-LSLPTAMQKSSPLVPALQSNWLMLHVSMMMLSYATLLLGSLFSILYLVLYKDKKILTKKSIKEQFVEENFVFQLTTSAFSLNQTSNIITEAKTDRQRLILSLDNWSYRTIGIGFPFLTMGIISGAVWANEAWGSYWSWDPKETWALITWLIFASYLHARLTKGWRGKRAAFLGSFGFFIVWVCYLGVNFLGKGLHSYGFL</Hsp_hseq>
+      <Hsp_midline>V  N +  +    A  S V  F  L  RW+       +    P+SNLYE  +    +   +Y + E K   + +G  V   + +V GF    S+        PL+PALQS W+ +HV    + Y    + ++  I  LV           S++ +  E+     L  SA                       +D   Y+ I +GF F T+  I GA+WA +AWG YWSWDPKETWA I WL +A +LH RL  GWRGK  A+    G F+    ++GVN    GLHSYG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|212288156|sp|A2C1K1.1|CCSA_PROM1</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. NATL1A]</Hit_def>
+  <Hit_accession>A2C1K1</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>8.46466e-36</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>TGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIA-------ELVSLRAEEKGGKLWLPPSAL----------------------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>SQLILRWWQS-------GHFPISNLYESLCFLTWGCTLAQLFVERAWRSPIVSAVATPVSLLSIGFAS-FVLPENLQSSAPLVPALRSSWLVMHVSVIMCSYAALLIGSILSFGVFLVDGKKQFNIRNSSFGSGSFRQSSELYLDERNENLNSIQPIEFTNAEQLDSLSYRSITAGFLLLTVGLISGAVWANEAWGSWWSWDPKETWALICWLVYAAYLHTRLTRGWQGKKPAILAIAGFFVIIVCYIGVNLLGVGLHSYG</Hsp_hseq>
+      <Hsp_midline>+ L++RW +S       GH P+SNLYE          L  L+ E  +    +         + +GF   + +     +  PL+PAL+S W+ +HV      Y A  I ++L          +  ++R    G   +   S L                      +D + Y++I  GFL  T+  I GA+WA +AWG +WSWDPKETWA I WL YA +LH RL  GW+GK  A  AI G FV    +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123729732|sp|Q3AK79.1|CCSA_SYNSC</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. CC9605]</Hit_def>
+  <Hit_accession>Q3AK79</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>9.67513e-36</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE--------------------KGGKLWLPPSAL-----IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LILRWWQS-------GHFPISNLYESLCFLAWACTLTQLLVERAWPSPIVAAAATPMGLGCIAFAS-FALPDQLQSAAPLVPALRSSWLVMHVSVIMVSYAALLVGSLLSLAVLVTDRDQSLELRSSSIGSGGFRQAASIANGGSVQLQSVQLSTNEQLDSLSYRTITVGFLMLTVGIVSGAVWANEAWGSYWSWDPKETWALICWLVYAAYLHTRLSRGWQGRRPALVAVVGLVVIAVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>L++RW +S       GH P+SNLYE          L  L  E  +    +           + F   +++  +  +  PL+PAL+S W+ +HV    + Y A  + ++L +A LV+ R +                      GG + L    L     +D + Y+ I VGFL  T+  + GA+WA +AWG YWSWDPKETWA I WL YA +LH RL  GW+G+  A  A++GL V A  +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123732655|sp|Q46LG5.1|CCSA_PROMT</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. NATL2A]</Hit_def>
+  <Hit_accession>Q46LG5</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.75432e-35</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>TGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIA-------ELVSLRAEEKGGKLWLPPSAL----------------------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>SQLILRWWQS-------GHFPISNLYESLCFLTWGCTLAQLFLERAWRSPIVSAVATPVSLLSIGFAS-FVLPENLQSSAPLVPALRSSWLVMHVSVIMCSYAALLIGSILSFGVFLVDGKKQFNIRNSSFGSGSFRQSSELYLDERNENLNSIQPIEFTNAEQLDSLSYRSITAGFLLLTVGLISGAVWANEAWGSWWSWDPKETWALICWLVYAAYLHTRITRGWQGKKPAILAIAGFFVIIVCYIGVNLLGVGLHSYG</Hsp_hseq>
+      <Hsp_midline>+ L++RW +S       GH P+SNLYE          L  L+ E  +    +         + +GF   + +     +  PL+PAL+S W+ +HV      Y A  I ++L          +  ++R    G   +   S L                      +D + Y++I  GFL  T+  I GA+WA +AWG +WSWDPKETWA I WL YA +LH R+  GW+GK  A  AI G FV    +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81574657|sp|Q7U772.1|CCSA_SYNPX</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. WH 8102]</Hit_def>
+  <Hit_accession>Q7U772</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.78065e-35</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---------KGG----------------KLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LVLRWWES-------GHFPISNLYESLCFLAWACTLTQLLVERSWPSPIVAAAATPMGLGCIAFAS-FALPDQLQSAAPLVPALRSSWLVMHVSVIMVSYAALLVGSLLSLAVLLTDRGEALELRSSSIGSGGFRQSMRVGSDGVLQLQSIRLSTGEQLDSLSYRTITVGFLMLTVGIVSGAVWANEAWGSYWSWDPKETWALICWLVYAAYLHTRLSRGWQGRRPALVAVVGLVVIAVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>L++RW ES       GH P+SNLYE          L  L  E  +    +           + F   +++  +  +  PL+PAL+S W+ +HV    + Y A  + ++L +A L++ R E           GG                 + L     +D + Y+ I VGFL  T+  + GA+WA +AWG YWSWDPKETWA I WL YA +LH RL  GW+G+  A  A++GL V A  +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81742872|sp|Q8DIH3.1|CCSA_THEEB</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Thermosynechococcus elongatus BP-1]</Hit_def>
+  <Hit_accession>Q8DIH3</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>3.47468e-35</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>FTGLLV-RWHESYLLRPDAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV--------------------SLRAEE-------KGGKLWLPPSAL------------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>ITGLLAARWIE-------GGYFPISNLYESLFFLCWGLTAMHFVAE--SISGQPLVGVVTAPVAMGITAFAALSLPPEMQQSAPLVPALKSNWLMMHVSVMMLSYATLMVGSLLAIALLVVTWGQPVNLKGSSVGTGSFRSRRPEPSLEASTGNGGTTVLTPPALQLSLQRLTLAETLDNLSYRMIGLGFPLLTIGIISGAVWANEAWGAPWSWDPKETWALIVWLVYAAYLHARMTRDWQGRKPAILATVGFGVVWVCYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline> TGLL  RW E        G+ P+SNLYE +F L   +TA+ ++      + Q L G V   +A+ +      S+  E     PL+PAL+S W+ +HV    + Y    + ++L IA LV                    S R E         GG   L P AL            +D + Y+ I +GF   TI  I GA+WA +AWG  WSWDPKETWA IVWL YA +LH R+   W+G+  A  A +G  V    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|212288128|sp|B1WP68.1|CCSA_CYAA5</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Cyanothece sp. ATCC 51142]</Hit_def>
+  <Hit_accession>B1WP68</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.8469e-35</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>75</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>EIFLLRYFLSSQSAIMWQCAFVFFALFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE--------------------------------------------------KGGKLWLPPSAL-----IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>DLITLQNFLDNSSFLL-----LFLTMLIYWAGAAFPNVTWLPT-----LGTTGVAIANLCMATLLGARWLE-------AGYFPLSNLYESLFFLAWGVTAI-HLVAE-QMSRSALVGVVTTPVAMGITAFAALSLPPEMQTSAPLVPALKSNWLMMHVSVMMLSYATLMVGSVLAIAFLVVTRNRDIELKGSSVGTGGYRDKLGRSLLNNNHKQTTVNLTQSNGSGGTAILESVAVKPETVTLSPQRLNLADTLDNISYRIIGLGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLVFAAYLHARITKGWQGRKPAILAASGFVVVWVCYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>++  L+ FL + S ++     +F  +  Y +GA   +V  +PT     +GT    ++ +   T L  RW E       AG+ P+SNLYE +F L   +TA+ +L  E + +   L G V   +A+ +      S+  E  T  PL+PAL+S W+ +HV    + Y    + ++L IA LV  R  +                                                  K   + L P  L     +D + Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A  A  G  V    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|212288145|sp|B0JLZ5.1|CCSA_MICAN</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Microcystis aeruginosa NIES-843]</Hit_def>
+  <Hit_accession>B0JLZ5</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.25655e-34</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>LRYFLSSQSAIMWQCAFVFFALFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYE-VFILFLVITAL-MYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---KGGKL----------------------------------------WLPPSAL-----IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LENFLDNTSFLV-----LFLTMLVYWAGAAFPSIPLLP-----GLGSTGVAIANLCIAALLGARWLE-------AGYFPISNLYESLFFLAWGVTAVHLIAEYTSR---SRLVGVVTTPVAMGITAFATLSLPGEMQTSAPLVPALKSNWLMMHVSVMMLSYAALMVGSLMAIAFLIVTRGQNIELKGSSVGTGAYRLQNKLSTTLSAPIFMETANGGTTALLTPTLTAMATLSPQRLSLAETLDNISYRVIGLGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLVFAAYLHARITRGWQGRKPAILAASGFVVVWVCYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>L  FL + S ++     +F  +  Y +GA   S+  +P     G+G+    ++ +     L  RW E       AG+ P+SNLYE +F L   +TA+ +   Y  +    +L G V   +A+ +      S+  E  T  PL+PAL+S W+ +HV    + Y A  + +++ IA L+  R +    KG  +                                         L P  L     +D + Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A  A  G  V    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|212288160|sp|A2BW66.1|CCSA_PROM5</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. MIT 9515]</Hit_def>
+  <Hit_accession>A2BW66</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>6.10346e-34</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>AGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL-------VSLRAEEKG-----------GKLWLPP-----SALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>SGHFPISNLYESLYFLVWGISLGQLLVEKEYPNPIIPVIAIPIELLTIAFAC-FVLPDDLKLSSNLVPALRSSWLIMHVSVVMLSYAALIIGSLLSASVLFINNRQPLQLRSSSTGIGGFRMSNEYSGNNFNEPINFTHTEELDTLSYRSILVGFVLLTLGLITGAIWANEAWGTWWSWDPKETWAFISWLFYAAYLHMRISRGWQGRRPALFATSGFFVVLICYLGVNFLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>+GH P+SNLYE     +   +L  L  E ++    +         + + F   + +  +      L+PAL+S W+ +HV    + Y A  I ++L  + L       + LR+   G           G  +  P     +  +D + Y++I VGF+  T+  I GA+WA +AWG +WSWDPKETWAFI WL YA +LH+R+  GW+G+  A +A  G FV    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|81576104|sp|Q7V1U0.1|CCSA_PROMP</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus subsp. pastoris str. CCMP1986]</Hit_def>
+  <Hit_accession>Q7V1U0</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>8.34979e-34</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>AGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL-------VSLRAEEKG----------------GKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>SGHFPISNLYESLYFLVWGITLGQLLIEKEYSTPIIPAIAIPIELLTIAFAC-FVLPEDLKLSSNLVPALRSSWLVMHVSVVMLSYAALIMGSLLSASVLFINNSQPLQLRSSSMGVGGFKISNSYSTNNVIEPINFSHSEELDTLSYRSILVGFVLLTLGLITGAIWANEAWGTWWSWDPKETWAFISWLFYAAYLHMRISRGWQGRRPALLATSGFFVVLICYIGVNFLGVGLHSYG</Hsp_hseq>
+      <Hsp_midline>+GH P+SNLYE     +    L  L  E +++   +         + + F   + +  +      L+PAL+S W+ +HV    + Y A  + ++L  + L       + LR+   G                  +    S  +D + Y++I VGF+  T+  I GA+WA +AWG +WSWDPKETWAFI WL YA +LH+R+  GW+G+  A  A  G FV    +IGVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|212288163|sp|B1XQL3.1|CCSA_SYNP2</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. PCC 7002]</Hit_def>
+  <Hit_accession>B1XQL3</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.2273e-33</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>ASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIA-------ELVSLRAEEKGGKLW----------------------------------------------LPPSAL-----IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>AAFPNIPG--LTGLGTLGVAIANLCMATLLGARWLE-------AGYFPLSNLYESLFFLAWGVTTMHLVAE-WMSRSRWVGVITAPVAMGITAFAALSLPAEMQNSAPLVPALKSNWLMMHVSVMMISYAALLVGSLLAIAFLIVTKGQKIELRGSSVGNGSYRLRQPQNTTDETPVTVVAFQKTEPQSNGNTAVLASPDLQQLTTTPALSPQMLSLADTLDNISYRIIGLGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLVFAAYLHARITRGWQGRQPAFLAAAGFFVVWVCYLGVNILGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>A+  N+P   L G+GT+   ++ +   T L  RW E       AG+ P+SNLYE           M+L  E   +  +  G +   +A+ +      S+  E     PL+PAL+S W+ +HV    I Y A  + ++L IA       + + LR    G   +                                              L P  L     +D + Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A+ A  G FV    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|140297|sp|P12214.1|CCSA_MARPO</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Marchantia polymorpha]</Hit_def>
+  <Hit_accession>P12214</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.81733e-33</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>TGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKG----------------GKLWLPPS---------------------ALIDEV---MYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>TFLLIRWSSS-------GHFPLSNLYESSMFLSWSFTLIHLILENKSKNTWLGIITAPSAMLTHGFAT-LSLPKEMQESVFLVPALQSHWLMMHVTMMMLSYSTLLCGSLLAITILIITLTKQKNLPILTSYFNFPFNSFIFKNLLQPMENEILSYKTQKVFSFINFRKWQLIKELDNWSYRVISLGFPLLTIGILSGAVWANEAWGSYWNWDPKETWALITWLIFAIYLHTRMIKGWQGKKPAIIASLGFFIVWICYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>T LL+RW  S       GH P+SNLYE  +       L++L  E K     LG        +  GF    S+ +E      L+PALQS W+ +HV    + Y      ++L I  L+    ++K                  K  L P                       LI E+    Y+ I++GF   TI  + GA+WA +AWG YW+WDPKETWA I WL +A++LH R++ GW+GK  A  A +G F+    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123506688|sp|Q2JV29.1|CCSA_SYNJA</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. JA-3-3Ab]</Hit_def>
+  <Hit_accession>Q2JV29</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.99907e-33</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>DAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---KGGKLWL-------------------PPSA---------------------------------LIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>DAGYFPLSNLYESLFFLAWGITALHLLALH--WTRSRWVGVTTAPLATGVVAFAALALPADMQEAQPLVPALQSNWLMMHVTVMLLAYAALLVGSLLAIAFLIVTRGQEVQLKGNSLGLQFGPSQPATHPEWTEATLPSPAAELVYAGIRSPRPAEPPPQPAPEGIPLQRLSLAEILDNTSYRLIGLGFPLLTIGIIAGAVWANEAWGTYWSWDPKETWALITWLVFAAYLHARITKGWQGKRPALLASLGFGVVWVCYLGVNFLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>DAG+ P+SNLYE +F L   ITAL  L     +   +  G     +A  V      ++  +    QPL+PALQS W+ +HV    + Y A  + ++L IA L+  R +E   KG  L L                    P+A                                 ++D   Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+GK  A  A +G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|212288155|sp|A3PCH3.1|CCSA_PROM0</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. MIT 9301]</Hit_def>
+  <Hit_accession>A3PCH3</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>2.66878e-33</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL-------VSLRAEEKG----------------GKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LLFRWSIS-------GHFPISNLYESLYFLAWGITLGQLLVEREYQAPIIPSIAIPIELLIVSFAC-FVLPEDLKSSSNLVPALRSSWLVMHVSVVMLSYAALIIGSLLSMSVLFINKNKPLQIRSSSTGIGGFKLSNSYPVNDLVESIEFSHSEELDTLSYRSILIGFVLLTLGLISGAVWANEAWGTWWSWDPKETWAFISWLFYAAYLHMRISKGWQGRKPALLASTGFLVVLVCYLGVNFLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>LL RW  S       GH P+SNLYE          L  L  E ++    +         ++V F   + +  +  +   L+PAL+S W+ +HV    + Y A  I ++L ++ L       + +R+   G                  +    S  +D + Y++I +GF+  T+  I GA+WA +AWG +WSWDPKETWAFI WL YA +LH+R+  GW+G+  A  A  G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|123554320|sp|Q31BB2.1|CCSA_PROM9</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. MIT 9312]</Hit_def>
+  <Hit_accession>Q31BB2</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>3.15545e-33</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL-------VSLRAEEKG----------------GKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LLFRWSIS-------GHFPVSNLYESLYFLAWGISMGQLYIEREYSSPIIPSIAIPIELLTVAFAC-FVLPDDLKLSSNLVPALRSSWLVMHVSVVMLSYAALIIGSLLSASVLFINRNKPLQIRSSSTGIGGFKFFNNNYLNDLADPVEFSHSEELDTLSYRSILIGFVLLTLGLISGAVWANEAWGTWWSWDPKETWAFITWLFYAAYLHMRISKGWQGRRPALLATSGFLVVIVCYLGVNFLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>LL RW  S       GH PVSNLYE         ++  LY E +++   +         + V F   + +  +      L+PAL+S W+ +HV    + Y A  I ++L  + L       + +R+   G                  +    S  +D + Y++I +GF+  T+  I GA+WA +AWG +WSWDPKETWAFI WL YA +LH+R+  GW+G+  A  A  G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123504199|sp|Q2JQ31.1|CCSA_SYNJB</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechococcus sp. JA-2-3B&apos;a(2-13)]</Hit_def>
+  <Hit_accession>Q2JQ31</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>7.33769e-33</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>DAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSV--SREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---KGGKL--------------W----------------------------LPP--------------SALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>DAGYFPLSNLYESLFFLAWGITALHLLALH--WSRSRWVGVMTA--PVVTGIVAFAALVLPEDMQVAQPLVPALQSNWLMMHVTVMLLAYAALLVGSLLSISFLIVTRGQEVHLKGNSLGLQFRPPQPQTHPEWAEATLPSPASELAYAGLRSPRPAPSSAELPPQPAPEGIPWQRLSLAEILDNTSYRLIGLGFPLLTIGIIAGAVWANEAWGTYWSWDPKETWALITWLVFAAYLHARITKGWQGRRPALLASLGFGVVWVCYLGVNFLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>DAG+ P+SNLYE +F L   ITAL  L     ++  +  G +     VV G V + ++    +    QPL+PALQS W+ +HV    + Y A  + ++L I+ L+  R +E   KG  L              W                            LPP              + ++D   Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A  A +G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|212288161|sp|A2BQQ0.1|CCSA_PROMS</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. AS9601]</Hit_def>
+  <Hit_accession>A2BQQ0</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>9.87446e-33</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL-------VSLRAEEKG------------GKLWLP----PSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LLFRWSIS-------GHFPISNLYESLYFLTWGITLGQLLVEREYQAPIIPSIAIPIELLTVAFAC-FVLPEDLKLSSNLVPALRSSWLVMHVSVVMLSYAALIIGSLLSMSVLFINKNKPLQIRSSSTGIGGFKLSNSYPVNDLVEPIEFSHSEELDTLSYRSILVGFVLLTLGLISGAVWANEAWGTWWSWDPKETWAFISWLFYAAYLHMRISKGWQGRKPALLASTGFLVVLVCYLGVNFLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>LL RW  S       GH P+SNLYE          L  L  E ++    +         + V F   + +  +      L+PAL+S W+ +HV    + Y A  I ++L ++ L       + +R+   G              L  P     S  +D + Y++I VGF+  T+  I GA+WA +AWG +WSWDPKETWAFI WL YA +LH+R+  GW+G+  A  A  G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|81577728|sp|Q7V806.1|CCSA_PROMM</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. MIT 9313]</Hit_def>
+  <Hit_accession>Q7V806</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.49087e-32</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---------KGG--------------------KLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LVLRWWQS-------GHFPISNLYESLCFLAWACTLAQLLVERSLSSPIVSAAATPMALLCVAFAS-FALPETLQEASPLVPALRSSWLVMHVSVIMCSYAALLVGSFLSMAVLFTDRQQTLELRSSSIGTGGFRQAKLATSSMDQSDGLRLSSINLSRTEQLDSLSYRTITVGFLLLTLGLISGAVWANEAWGSWWSWDPKETWALICWMVYAAYLHTRFSRGWSGRRPALVAVAGIVVIVVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>L++RW +S       GH P+SNLYE          L  L  E   +   +         + V F   +++        PL+PAL+S W+ +HV      Y A  + + L +A L + R +           GG                     + L  +  +D + Y+ I VGFL  T+  I GA+WA +AWG +WSWDPKETWA I W+ YA +LH R   GW G+  A  A+ G+ V    +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|212288158|sp|A2CAB5.1|CCSA_PROM3</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. MIT 9303]</Hit_def>
+  <Hit_accession>A2CAB5</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.61223e-32</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---------KGG--------------------KLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LVLRWWQS-------GHFPISNLYESLCFLAWACTLAQLLVERSLSSPIVSAAATPMALLCVAFAS-FALPETLQEASPLVPALRSSWLVMHVSVIMCSYAALLVGSFLSMAVLFTDRQQTLELRSSSIGTGGFRQAKLATSAIDQNDGLRLSSINLSRTEQLDSLSYRTITVGFLLLTLGLISGAVWANEAWGSWWSWDPKETWALICWMVYAAYLHTRFSRGWSGRRPALVAVAGIVVIVVCYIGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>L++RW +S       GH P+SNLYE          L  L  E   +   +         + V F   +++        PL+PAL+S W+ +HV      Y A  + + L +A L + R +           GG                     + L  +  +D + Y+ I VGFL  T+  I GA+WA +AWG +WSWDPKETWA I W+ YA +LH R   GW G+  A  A+ G+ V    +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|254813800|sp|B2Y206.1|CCSA_WELMI</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Welwitschia mirabilis]</Hit_def>
+  <Hit_accession>B2Y206</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.70571e-32</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>IMWQCAFVFFALFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL------------VSLRAE---EKGGKLWLPPS----------ALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>ILTQIYFSFILVITLVFGGTLVYPVNKLSNSV-KKGIIFPFFCITLN---LIIRWFYS-------RHLPLSNLYESLMFFSWNFCLIPFFIDIKNPNTQWIGVITAPSALFTHAFATLILPIEMQQSQRLIPALQSHWLIMHVTIIFLGYVTLLCGSLSSIALLAINLEKKLSFFTLYFRKEYSYENKRKAFHPYSFKNFRKSQMIHQIDNLSYYTIVIGFTFLTIGILSGAVWANEAWGSYWSWDPKEIWALITWLIFANYIHIRLNKGWEGNKPALVASLGLFFVWICYFGVNILGIGFHSYG</Hsp_hseq>
+      <Hsp_midline>I+ Q  F F  +   + G  L    N  +N++   G +F +         L++RW  S        H+P+SNLYE  + F     L+  + + K    +  G +    A+         +  E    Q LIPALQS W+ +HV   F+GY      ++  IA L            +  R E   E   K + P S            ID + Y  I +GF F TI  + GA+WA +AWG YWSWDPKE WA I WL +A ++H+RL  GW G   A  A +GLF     + GVN+   G HSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|122164930|sp|Q06R81.1|CCSA_JASNU</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Jasminum nudiflorum]</Hit_def>
+  <Hit_accession>Q06R81</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>2.10516e-32</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>TGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYL--YYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV-SLRAEEK-----------GGKLWLPPSALIDEVM----------------------------------YKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>TGLLVIRWIYS-------GHFPLSNLYESLMFLSWSLSLIHRVPYFKKN---QKFLSTIIGPSAIFTQAFATSGLLTEIHESTILVPALQSEWLIMHVSMMILGYAALLCGSLLSVALLVIAVRKNKKSFFTSNPLFKLNGSFFFGEIEYMDERINVLQNTPNTSFFSTFFSTKNYYRSQFIQQLDYWSYRVISLGFLFLTIGILSGAVWANEAWGSYWSWDPKETWAFITWIVFAIFLHIRTNVKWKGTNSAIVASIGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>TGLLV RW  S       GH P+SNLYE  +      +L++   Y++     QK    + G  A+         +  E H    L+PALQS W+ +HV    +GY A    ++L +A LV ++R  +K            G  +      +DE +                                  Y+ I++GFLF TI  + GA+WA +AWG YWSWDPKETWAFI W+ +A++LH+R    W+G   A  A IG  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|226701668|sp|B7K1C1.1|CCSA_CYAP8</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Cyanothece sp. PCC 8801]</Hit_def>
+  <Hit_accession>B7K1C1</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>3.79093e-32</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>EIFLLRYFLSSQSAIMWQCAFVFFALFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIA-------ELVSLRAEEKG--------GKLWL-----------------------------PPSALI-----------------DEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>NLITLENFLDNSSFLI-----LLLTMLIYWAGAAFPGMSILPT-----LGTAGVAIANLSIATLLGSRWLE-------GGYFPLSNLYESLFFLAWGVTAV-HLIAE-KMSRSTLVGVVTTPVAMGITAFAALSLPADMQTSAPLVPALKSNWLMMHVSVMMLSYATLMVGAVLAIAFLIVTRGQDVELRGSSVGTGSYRNKLGRIQLSQAEKTPDGSVVAMADGNGSVGTAVLDRVDPQTLVTDLPNLSPQRLNLADTLDNISYRIIGLGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLVFAAYLHARITRGWQGRKPAILAASGFIVVWVCYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline> +  L  FL + S ++     +   +  Y +GA    +  +PT     +GT    ++ ++  T L  RW E        G+ P+SNLYE +F L   +TA+ +L  E K +   L G V   +A+ +      S+  +  T  PL+PAL+S W+ +HV    + Y    + A+L IA       + V LR    G        G++ L                              P  L+                 D + Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A  A  G  V    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|212288159|sp|A9BAR6.1|CCSA_PROM4</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. MIT 9211]</Hit_def>
+  <Hit_accession>A9BAR6</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>3.83768e-32</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>AGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVP-------------------------------ANFIGYGAF-----CISAMLGIAELVSLRAEEKGGKLWLPPSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>SGHFPVSNLYESLCFLTWTSTLVQLIIERRYLNPIIPAILTPFSLLTISFAS-FALPGELQIAGPLVPALRSSWLVMHVSVIMCSYSALLLGSLLSLAVLILSNSNELQIRGSSLGIGAYRTSNSTKSGYVNSRSLQQLFSNEEN----------LDNLSYQTITVGFLLLTLGLVSGAVWANEAWGSWWSWDPKETWALISWLVYAAYLHARITRGWQGRKPAMIATFGFLIIVICYIGVNLLGVGLHSYG</Hsp_hseq>
+      <Hsp_midline>+GH PVSNLYE        + L+ L  E ++    +   +  F  + + F   +++  E     PL+PAL+S W+ +HV                                 + +G GA+       S  +    L  L + E+           +D + Y+ I VGFL  T+  + GA+WA +AWG +WSWDPKETWA I WL YA +LH R+  GW+G+  A  A  G  +    +IGVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|212288157|sp|A8G4E3.1|CCSA_PROM2</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Prochlorococcus marinus str. MIT 9215]</Hit_def>
+  <Hit_accession>A8G4E3</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>5.64221e-32</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAEL-------VSLRAEEKG------------GKLWLP----PSALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>LLFRWSIS-------GHFPISNLYESLYFLTWGITMGQLLIEREYQSPIIPSIAIPIELLTVAFAC-FVLPDDLKISSNLVPALRSSWLVMHVSVVMLSYAALIIGSLLSASVLFINKNKPLQIRSSSTGIGGFKISNNYPLNELVEPIEFSHSEELDTLSYRSILIGFVLLTLGLISGAVWANEAWGTWWSWDPKETWAFISWMFYAAYLHMRISKGWQGRRPALLATTGFLVVLICYLGVNFLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>LL RW  S       GH P+SNLYE          +  L  E ++    +         + V F   + +  +      L+PAL+S W+ +HV    + Y A  I ++L  + L       + +R+   G             +L  P     S  +D + Y++I +GF+  T+  I GA+WA +AWG +WSWDPKETWAFI W+ YA +LH+R+  GW+G+  A  A  G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|81709906|sp|Q7NJ10.1|CCSA_GLOVI</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Gloeobacter violaceus PCC 7421]</Hit_def>
+  <Hit_accession>Q7NJ10</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>6.11525e-32</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>ASVKNVPTNTLLGMGTVFAWVSAVA--GFTGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSV--SREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV--------SLRAEEKG----------GKLWLPPSA-----------------------------------LIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>AAFRRVPLLHELGTG-----ASAVALLSVTGLLTARWIET-------DHFPVSNLYES-LFFLCWCVLAVHIAAEAFARQRLVG-VF-TLPVALGMVAFSSLTLSPAMKAGGPLVPALKSNWLMMHVSVMILSYGALMVGSLVSIAFLIVTWKQKDPELRGSSVGTGGFQKAEYTDSESTPPAGSMLSSLGVGGSETTVTLTSATATAGTALRRSNLAETLDNLSYRLIGLGFPLITVGIIAGAVWANEAWGSYWSWDPKETWSLITWFIFAAYLHARITRGWQGRRPATLAAVGFVSVWITYLGVNFLAQGLHSYG</Hsp_hseq>
+      <Hsp_midline>A+ + VP    LG G      SAVA    TGLL  RW E+        H PVSNLYE  + FL    L        FA Q+L G VF  + V +G V + S+  S       PL+PAL+S W+ +HV    + YGA  + +++ IA L+         LR    G               PP+                                     +D + Y+ I +GF   T+  I GA+WA +AWG YWSWDPKETW+ I W  +A +LH R+  GW+G+  A  A +G       ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|75160523|sp|Q8S8U8.1|CCSA_ATRBE</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Atropa belladonna]</Hit_def>
+  <Hit_accession>Q8S8U8</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>6.94459e-32</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>TGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYL--YYEGKFAV-QKLGG----FVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKGGKLWLPPSALIDEVM------------------------------YKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>TGLLVTRWISS-------GHFPLSDLYESLIFLSWSFSLIHIIPYFKNNVLILSKITGPSAIFTQGFATS--------GILTEIHQSGILVPALQSEWLIMHVSMMILGYAALLCGSLLSVALLV--ITFRKNRKLFYKSNGFVNESFLLGENVLENTSFSAKNYYRSQLIQQLDYWSYRVISLGFTFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWIVFAIYLHTRTNINLRGANSAIIATIGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>TGLLV RW  S       GH P+S+LYE  I      +L+++  Y++    +  K+ G    F  GF            +  E H    L+PALQS W+ +HV    +GY A    ++L +A LV      K  KL+   +  ++E                                Y+ I++GF F TI  + GA+WA +AWG YW+WDPKETWAFI W+ +A++LH R     RG   A  A IG  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|122201765|sp|Q2MI51.1|CCSA_SOLLC</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>Q2MI51</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.63155e-31</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>TGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV-SLRAEEK---GGKLWLPPSALIDEVM-------------------------YKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>TGLLVTRWVSS-------GHFPLSDLYESLIFLSWSFSLIHIIPYFKKNVLILSK-ITGPSAILTQGFATSGILTEIHQSGILVPALQSEWLIMHVSMMILGYAALLCGSLLSVALLVITFRKNRKLFSKSNVFLNESFFLGENVVENTSFFCTKNYYRSQLIQQLDYWSYRVISLGFTFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWIVFAIYLHTRTNRNLRGPNSAIVASIGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>TGLLV RW  S       GH P+S+LYE  I      +L+++    K  V  L   + G  A++        +  E H    L+PALQS W+ +HV    +GY A    ++L +A LV + R   K      ++L  S  + E +                         Y+ I++GF F TI  + GA+WA +AWG YW+WDPKETWAFI W+ +A++LH R     RG   A  A IG  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|122201803|sp|Q2MID8.1|CCSA_SOLBU</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Solanum bulbocastanum] &gt;gi|122209872|sp|Q2VED1.1|CCSA_SOLTU RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Solanum tuberosum]</Hit_def>
+  <Hit_accession>Q2MID8</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>3.06706e-31</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKGGKLWLPPSALIDEVM-------------------------------YKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>TGLLVTRWISS-------GHFPLSDLYESLIFLSWSFSLIHIIPYFKKNVLILSK-ITGPSAILTQGFATSGILTEIHQSGILVPALQSEWLIMHVSMMILGYAALLCGSLLSVALLV--ITFRKNRKLFYKSNGFLNESFFLGENVVENTSFFCAKNYYRSQLIQQLDYWSYRVISLGFTFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWIVFAIYLHTRTNRNLRGPNSAIVASIGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>TGLLV RW  S       GH P+S+LYE  I      +L+++    K  V  L   + G  A++        +  E H    L+PALQS W+ +HV    +GY A    ++L +A LV      K  KL+   +  ++E                                 Y+ I++GF F TI  + GA+WA +AWG YW+WDPKETWAFI W+ +A++LH R     RG   A  A IG  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|212288134|sp|B2LMP9.1|CCSA_GUIAB</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Guizotia abyssinica]</Hit_def>
+  <Hit_accession>B2LMP9</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>3.54522e-31</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAG-------FTGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV-SLR----AEEKGGKLWLPPSALIDEVMYK---------------------------------AIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>ILTHISFSIVSIVITLHLITLLGNEIIKPYDSSEKGMIATFLCLTGLLITRWIYS-------GHFPLSDLYESFIFLSWSFSLIHIVPYFKIRKNDLTTITASSTIFTQGFAT-SGLLNEIHKPTILVPALQSEWLIMHVSMMILSYAALLCGSLLSVALLVITFRNIFYSSKSNNFLKLNESFSFGEIQYKNERNNIFQKTYFFSDKNYYKAQFIQQLDYWSYRVISLGFIFLTIGILSGAVWANEAWGSYWSWDPKETWAFITWIVFAIYLHTRTKKNLQGANSAIVATLGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>+  +IS ++++ V  +   TLLG   +  + S+  G        TGLL+ RW  S       GH P+S+LYE FI      +L+++    K     L            GF     +  E H    L+PALQS W+ +HV    + Y A    ++L +A LV + R    + +    L L  S    E+ YK                                  I++GF+F TI  + GA+WA +AWG YWSWDPKETWAFI W+ +A++LH R     +G   A  A +G  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|81670399|sp|P72978.1|CCSA_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P72978</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>3.64629e-31</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>DAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIA-------ELVSLRAEE-----------KGGKL--------------------------------WLPPSAL-----IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>EAGYFPISNLYESLFFLAWGITAVHFIAE--RMSQSRFVGAVTSPIALGIVAFAALTLPVDMQQSAPLVPALKSNWLMMHVSVMMVSYATLMVGSLLAIAFLFVTRGQAVELRGSSVGTGGFRQGLVKGNNLNPVGNLNPALEGVSGNSGNVAVLEKTTSTPAITLSPQRLTLADTLDNISYRIIGLGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLVFAAYLHARITKGWQGRKPAILAASGFTVVWICYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>+AG+ P+SNLYE +F L   ITA+ ++    + +  +  G V   +A+ +      ++  +     PL+PAL+S W+ +HV    + Y    + ++L IA       + V LR              KG  L                                 L P  L     +D + Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A  A  G  V    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|122179548|sp|Q1KXQ2.1|CCSA_HELAN</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Helianthus annuus]</Hit_def>
+  <Hit_accession>Q1KXQ2</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>3.94306e-31</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAG-------FTGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV-------------------------SLRAEEKGGKLWLPPSALIDEVMYKA-------------IAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>ILTHISFSIVSIVITLHLITLLGNEIIKPYDSSEKGMIATFLCLTGLLTTRWIYS-------GHFPLSDLYESLIFLSWSFSLIHIVPYFKIRKNDLTTITASITIFTQGFAT-SGLLNEIHKPTILVPALQSEWLIMHVSMMILSYAALLCGSLLSVALLVITFRNIFYSSKSNNLLKLNESFSFGEIQYKNERNNIFQKTSFFSDKNYYKAQFIQQLDYWSYRVISLGFIFLTIGILSGAVWANEAWGSYWSWDPKETWAFITWIVFAIYLHTRTNKNLQGANSAIVATLGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>+  +IS ++++ V  +   TLLG   +  + S+  G        TGLL  RW  S       GH P+S+LYE  I      +L+++    K     L            GF     +  E H    L+PALQS W+ +HV    + Y A    ++L +A LV                          ++ + +   ++   S   D+  YKA             I++GF+F TI  + GA+WA +AWG YWSWDPKETWAFI W+ +A++LH R     +G   A  A +G  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|140299|sp|P12216.1|CCSA_TOBAC</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Nicotiana tabacum] &gt;gi|122213589|sp|Q3C1Q5.1|CCSA_NICSY RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Nicotiana sylvestris]</Hit_def>
+  <Hit_accession>P12216</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>6.78737e-31</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>TGLLV-RWHESYLLRPDAGHIPVSNLYEVFIL----FLVITALMYLYYEGKFAVQKLGG----FVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKGGKLWLPPSALIDEVM-------------------------------YKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>TGLLVTRWISS-------GHFPLSDLYESLIFLSWSFSLIHIIPY-FKKNVLILSKITGPSAIFTQGFATS--------GILTEIHQSVILVPALQSEWLIMHVSMMILGYAALLCGSLLSVALLV--ITFRKNRQLFYKSNGFLNESFFLGENVLQNTSFFSAKNYYRSQLIQQLDYWSYRVISLGFTFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWIVFAIYLHTRTNRNLRGANSAIVASIGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>TGLLV RW  S       GH P+S+LYE  I     F +I  + Y + +    + K+ G    F  GF            +  E H    L+PALQS W+ +HV    +GY A    ++L +A LV      K  +L+   +  ++E                                 Y+ I++GF F TI  + GA+WA +AWG YW+WDPKETWAFI W+ +A++LH R     RG   A  A IG  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|122212872|sp|Q33BX3.1|CCSA_NICTO</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>Q33BX3</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>7.12372e-31</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>LFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGF-------TGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKGGKLWLPPSALIDEVM-------------------------------YKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>ILTHISFSIVSIVITIHLITLLVDEIVKLYDSSEKGIIVTFFCITGLLVTRWISS-------GHFPLSDLYESLIFLSWSFSLIHIIPYFKKNVLILSKIIGPSAIFTQGFAT-SGILTEIHQSVILVPALQSEWLIMHVSMMILGYAALLCGSLLSVALLV--ITFRKNRQLFYKSNGFLNESFFLGENVLQNTYFFSAKNYYRSQLIQQLDYWSYRVISLGFTFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWIVFAIYLHTRTNRNLRGANSAIVASIGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>+  +IS ++++ V  +   TLL    V  + S+  G        TGLLV RW  S       GH P+S+LYE  I      +L+++    K  V  L   +        GF     +  E H    L+PALQS W+ +HV    +GY A    ++L +A LV      K  +L+   +  ++E                                 Y+ I++GF F TI  + GA+WA +AWG YW+WDPKETWAFI W+ +A++LH R     RG   A  A IG  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|401500|sp|P31564.1|CCSA_GALSU</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Galdieria sulphuraria]</Hit_def>
+  <Hit_accession>P31564</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>7.6299e-31</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>GHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE----KGGKLWLPPSA----------------LIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>SYFPLSNLYESLLFLSWSLTTIQLILEFKFKHKLIGAIASPISTLTLAFSSFF-LPKYMQEVSPLIPALKSNWLLMHVSVILISYAMLLIGSLLSILFLLLSRNNKLNYTKNNNLTTASNSNDTLILKNEDKLNLLNTIDNLSYRIIGLGFPFLTIGIISGAVWANEAWGSYWSWDPKETWALITWIIFAIYLHTRINKSWQGKKSAIVAGFGFVVVWICYLGVNFLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline> + P+SNLYE  +        + L  E KF  + +G        + + F  ++ + +    + PLIPAL+S W+ +HV    I Y    I ++L I  L+  R  +    K   L    ++                 ID + Y+ I +GF F TI  I GA+WA +AWG YWSWDPKETWA I W+ +A++LH R+   W+GK  A  A  G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|212288112|sp|B0CBA0.1|CCSA_ACAM1</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Acaryochloris marina MBIC11017]</Hit_def>
+  <Hit_accession>B0CBA0</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>7.98686e-31</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>AFVFFALFAYISGAVLASVKNVPTNTLLGMGTVFAWVSAVAGFTGLLVRWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV-----------------SLRAEEKGGKLWLPPSAL------------------------------------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>AVLFVTMLVYWGGLAFPNIPFFPTLGTAGMAIANLCMACLLG-----ARWME-------GGYFPISNLYESLFFLAWGVTTIHLLAE-WLSRSRLVGAATAPVAMGIAAFAALSLPDEMQSSAPLVPALKSNWLMMHVSVMMLSYSALIVGSLLAIAFLIVTFGQPVELKGSSIGTGSFRKREPQAPAASTASNLDEGLSMGSAQATAVLTPVSTPQAPSFSLNRMSLAESLDNLSYRMIGLGFPLLTVGIIAGAVWANEAWGAPWSWDPKETWALITWLVFAAYLHARITRGWQGRRPAYLATGGFFVVWVCYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>A +F  +  Y  G    ++   PT    GM      ++ + G      RW E        G+ P+SNLYE           ++L  E   +  +L G     +A+ +      S+  E  +  PL+PAL+S W+ +HV    + Y A  + ++L IA L+                 S R  E         S L                                    +D + Y+ I +GF   T+  I GA+WA +AWG  WSWDPKETWA I WL +A +LH R+  GW+G+  A+ A  G FV    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|226701667|sp|B7KA41.1|CCSA_CYAP7</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Cyanothece sp. PCC 7424]</Hit_def>
+  <Hit_accession>B7KA41</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>8.99467e-31</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>DAGHIPVSNLYE-VFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE--------------KGGKLWLP-------------------------PS---------ALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>EAGYFPISNLYESLFFLAWGVTAAHLIAQQ--MSRSHLVGVVTTPVAMGISAFAALTLPADMQTSAPLVPALKSNWLMMHVSVMMLSYATLMVGSALAIAFLFVTKGQNVELHGSSVGTGGYRTGVRLNKPQPVQETAIEGSGNVAVLNTTVVSDAPSLSLQRLSIADTLDNISYRIIGLGFPLLTIGIIAGAVWANEAWGSYWSWDPKETWALITWLVFAAYLHARITKGWQGRKPAILAASGFVVVWVCYLGVNLLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>+AG+ P+SNLYE +F L   +TA   +  +   +   L G V   +A+ +      ++  +  T  PL+PAL+S W+ +HV    + Y    + + L IA L   + +                G +L  P                         PS           +D + Y+ I +GF   TI  I GA+WA +AWG YWSWDPKETWA I WL +A +LH R+  GW+G+  A  A  G  V    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1723363|sp|P51369.1|CCSA_PORPU</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Porphyra purpurea]</Hit_def>
+  <Hit_accession>P51369</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.20987e-30</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>GHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEE---KGGKL-----------------WLPPSAL-------------------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>GYFPLSNLYESLLFLAWGLTFVHLFIESKTKSRLIGAVSIPVAMFVTAFAS-LALPIEMQKASPLVPALKSNWLMMHVSIMMISYSILILGSLLSILFLIITRGQDINLKGSSVGTGSYTVKSLDSNPSFAFSNPSGIVQEQSNMLINSTRMNLLESIDNLSYRIIGLGFPLLTIGIVAGAVWANEAWGSYWSWDPKETWALITWLIFAAYLHCRITKSWQGKRPAILASVGFLVVWICYLGVNFLGKGLHSYG</Hsp_hseq>
+      <Hsp_midline>G+ P+SNLYE  +        ++L+ E K   + +G         V  F    ++  E     PL+PAL+S W+ +HV    I Y    + ++L I  L+  R ++   KG  +                 +  PS +                   ID + Y+ I +GF   TI  + GA+WA +AWG YWSWDPKETWA I WL +A +LH R+   W+GK  A  A +G  V    ++GVN    GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|122219162|sp|Q49KU9.1|CCSA_EUCGG</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Eucalyptus globulus subsp. globulus]</Hit_def>
+  <Hit_accession>Q49KU9</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>2.90426e-30</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>TGLLV-RWHESYLLRPDAGHIPVSNLYEVFIL----FLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVS---REAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELV-SLRA------------------------EEKGGKLWLPPS-------------ALIDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYGT</Hsp_qseq>
+      <Hsp_hseq>TGLLVTRWIYS-------GHFPLSDLYESLIFLSWSFSVIHMVPYF--------KKHKNYLSTITAPSTIFTQGFATSGLLTEMHQSEIVVPALQSQWLMMHVSMMILGYAALLCGSLLSVALLVITLRKAIRVFSKKNNFLNESFSFVEIQYMNERSNVL-LTTSFCSSRNYYRAQLIQQLDQWSYRIISLGFLFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWTLFAIYLHTRTNKNWESFNCAIVASIGFLIIWICYFGVNLLGIGLHSYGS</Hsp_hseq>
+      <Hsp_midline>TGLLV RW  S       GH P+S+LYE  I     F VI  + Y         +K   ++    A    F   ++ S    E H  + ++PALQS W+ +HV    +GY A    ++L +A LV +LR                          E+   L L  S               +D+  Y+ I++GFLF TI  + GA+WA +AWG YW+WDPKETWAFI W  +A++LH R    W     A  A IG  +    + GVN+   GLHSYG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1175648|sp|P41650.1|CCSA_PINTH</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA (chloroplast) [Pinus thunbergii]</Hit_def>
+  <Hit_accession>P41650</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>3.78463e-30</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>TGLLV-RWHESYLLRPDAGHIPVSNLYEVFILFLVITALMYLYYEGKFAVQKLGGFVFGFMAVVVGFVLWYSVSREAHTIQPLIPALQSWWMKIHVPANFIGYGAFCISAMLGIAELVSLRAEEKG----------GKLWLPPSAL-----------------------------IDEVMYKAIAVGFLFFTIATILGALWAADAWGRYWSWDPKETWAFIVWLNYAVWLHLRLVAGWRGKVLAWWAIIGLFVTAFAFIGVNMFLSGLHSYG</Hsp_qseq>
+      <Hsp_hseq>TGLLINRWLYS-------GHLPLSNLYESFMFLSWSSSVFHILLEVRSRDDRWLGAITAPSAMLTHGFATLGLPEEMQRSGMLVPALQSHWSMMHVSMILFSYATLLCGSLASIALLVIMSGVNRQVIFGAMDNLFSRAILPNENFYSHEKQKSDLQYTVYFSSTNYRKCQLIKQLDHWSYRAIGLGFSLSTIGTLSGAIWANEAWGSYWSWDPKETWALITWTIFAIYLHTRMNKGWQGEEPAIVASLGFFIVWIRYLGVNLLGIGLHSYG</Hsp_hseq>
+      <Hsp_midline>TGLL+ RW  S       GH+P+SNLYE F+     +++ ++  E +    +  G +    A++        +  E      L+PALQS W  +HV      Y      ++  IA LV +    +            +  LP                                 +D   Y+AI +GF   TI T+ GA+WA +AWG YWSWDPKETWA I W  +A++LH R+  GW+G+  A  A +G F+    ++GVN+   GLHSYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800582|ref|YP_207294.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0122 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>135</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800582|ref|YP_207294.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0122 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20138291|sp|Q97CQ5.1|GLYA_THEVO</Hit_id>
+  <Hit_def>RecName: Full=Serine hydroxymethyltransferase; Short=SHMT; Short=Serine methylase [Thermoplasma volcanium GSS1]</Hit_def>
+  <Hit_accession>Q97CQ5</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.2706</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>IAGNVANAATTKGGPTWGDFVAIPAAAATVHFLPKNFFGAIGANGVYNLTRDWVNDAVNAPPYNGRPIFEIE</Hsp_qseq>
+      <Hsp_hseq>ISGTNANSAAIYALAKPGDLVAVPALSGGGHISAAE-FGILGMRGVRTISYPYDKNTMTVDPDEASKIIKRE</Hsp_hseq>
+      <Hsp_midline>I+G  AN+A        GD VA+PA +   H      FG +G  GV  ++  +  + +   P     I + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|400020|sp|P24342.2|HXD11_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-D11; AltName: Full=Homeobox protein Hox-4.6; Short=Chox-4.6; Short=Ghox-4.6; AltName: Full=Homeobox protein Hox-4E; Short=Chox-4E [Gallus gallus]</Hit_def>
+  <Hit_accession>P24342</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.29872</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>KGGPTWGDFVAIPAAAATVHFLPKNFFGAIGANGVYNLTRDWVNDAVNAPPYN</Hsp_qseq>
+      <Hsp_hseq>KTDPVCGHHGASPAAS--------NFYGSVGRNGILPQGFDQFYEPAPAPPYQ</Hsp_hseq>
+      <Hsp_midline>K  P  G   A PAA+        NF+G++G NG+     D   +   APPY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|74732341|sp|Q96MB7.1|HARB1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative nuclease HARBI1; AltName: Full=Harbinger transposase-derived nuclease [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96MB7</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.20874</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>NIAGNVANAATTKGGPTWGDFVAIPAAAATVHFLPKNFFGAIGANGVYNLTRDWVNDAVNAP</Hsp_qseq>
+      <Hsp_hseq>RCVANVTEALVERAS----QFIRFPADEASIQALKDEFYGLAGMPGVMGVV-DCIHVAIKAP</Hsp_hseq>
+      <Hsp_midline>    NV  A   +       F+  PA  A++  L   F+G  G  GV  +  D ++ A+ AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|74676458|sp|Q08058.1|COQ10_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Coenzyme Q-binding protein COQ10, mitochondrial; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q08058</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.17582</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>LPKNFFGAIGANGVYNLTRDWVNDAVNAPP</Hsp_qseq>
+      <Hsp_hseq>LKRNFFGLSGTNHTIREQRYVLRKAINAPP</Hsp_hseq>
+      <Hsp_midline>L +NFFG  G N      R  +  A+NAPP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|226731271|sp|A8ZV69.1|RL5_DESOH</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L5 [Desulfococcus oleovorans Hxd3]</Hit_def>
+  <Hit_accession>A8ZV69</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.62186</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>SIKMIELQLHELKLVSGGGPVTDNIAGNVANAATTKGGPT</Hsp_qseq>
+      <Hsp_hseq>NIKIIDSAVEELKLISGQQPVIRRARKSIAAFKLRQGMPV</Hsp_hseq>
+      <Hsp_midline>+IK+I+  + ELKL+SG  PV      ++A     +G P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
