@@ -428,7 +428,7 @@ def GO():
     lista=sorting(tab())
     for i in range(len(lista)):
         for j in range(len(lista[i])):
-            if "GO" in lista[i][j]:
+            if "GO:GO:" in lista[i][j]:
                 l.append(lista[i][0])
                 l.append(lista[i][j])
     return l
@@ -598,6 +598,7 @@ def menu(record):
     14.Get note from protein without note
     15.blastanaliser
     16.pega no primeiro hit do blast
+    17.GO numbers
     20.Exit
     """)
         ans=input("Choose an option? ")
