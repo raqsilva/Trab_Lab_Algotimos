@@ -525,8 +525,9 @@ def blastanaliser():
     dst = "../res/blast_without_note/match/"#destination folder
     shutil.move(src, dst)
     
-handle = open("../res/blast_without_note/match/matches.txt").readlines()
+
 def gimatch():
+    handle = open("../res/blast_without_note/match/matches.txt").readlines()    
     gimatch=[]
     gi=[]
     hit=[]

@@ -1,0 +1,106 @@
+ID   SPUD_PSEAE              Reviewed;         367 AA.
+AC   Q9I6J1;
+DT   07-JAN-2015, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   07-JAN-2015, entry version 76.
+DE   RecName: Full=Putrescine-binding periplasmic protein SpuD;
+DE   Flags: Precursor;
+GN   Name=spuD; OrderedLocusNames=PA0300;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG
+OS   12228).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T.,
+RA   Reizer J., Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an
+RT   opportunistic pathogen.";
+RL   Nature 406:959-964(2000).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 26-366 OF APOPROTEIN AND IN
+RP   COMPLEX WITH PUTRESCINE, FUNCTION, DISRUPTION PHENOTYPE, DISULFIDE
+RP   BOND, AND MUTAGENESIS OF PHE-273.
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=22300763; DOI=10.1016/j.jmb.2012.01.010;
+RA   Wu D., Lim S.C., Dong Y., Wu J., Tao F., Zhou L., Zhang L.H., Song H.;
+RT   "Structural basis of substrate binding specificity revealed by the
+RT   crystal structures of polyamine receptors SpuD and SpuE from
+RT   Pseudomonas aeruginosa.";
+RL   J. Mol. Biol. 416:697-712(2012).
+CC   -!- FUNCTION: Putrescine-binding protein probably required for
+CC       putrescine uptake into cells. Binds putrescine with high affinity
+CC       (KD=3 nM), spermidine with relatively low affinity (KD=6.8 uM).
+CC       Does not bind cadaverine or spermine. Putrescine binding induces
+CC       large inter-domain conformational changes.
+CC       {ECO:0000269|PubMed:22300763}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|PIRNR:PIRNR019574}.
+CC   -!- DISRUPTION PHENOTYPE: No change in type 3 secretion system (T3SS)
+CC       induction. {ECO:0000269|PubMed:22300763}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein
+CC       PotD/PotF family. {ECO:0000255|PIRNR:PIRNR019574}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004091; AAG03689.1; -; Genomic_DNA.
+DR   PIR; E83607; E83607.
+DR   RefSeq; NP_248991.1; NC_002516.2.
+DR   PDB; 3TTK; X-ray; 2.97 A; A/B/C=26-365.
+DR   PDB; 3TTM; X-ray; 2.00 A; A/B=26-366.
+DR   PDBsum; 3TTK; -.
+DR   PDBsum; 3TTM; -.
+DR   ProteinModelPortal; Q9I6J1; -.
+DR   SMR; Q9I6J1; 26-366.
+DR   STRING; 208964.PA0300; -.
+DR   EnsemblBacteria; AAG03689; AAG03689; PA0300.
+DR   GeneID; 880655; -.
+DR   KEGG; pae:PA0300; -.
+DR   PATRIC; 19834826; VBIPseAer58763_0314.
+DR   PseudoCAP; PA0300; -.
+DR   HOGENOM; HOG000263815; -.
+DR   KO; K11073; -.
+DR   OMA; PTEMLPI; -.
+DR   OrthoDB; EOG66XBH9; -.
+DR   PhylomeDB; Q9I6J1; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019810; F:putrescine binding; IDA:PseudoCAP.
+DR   GO; GO:0015846; P:polyamine transport; IMP:PseudoCAP.
+DR   InterPro; IPR001188; Sperm_putr-bd.
+DR   PANTHER; PTHR30222:SF5; PTHR30222:SF5; 1.
+DR   PIRSF; PIRSF019574; Periplasmic_polyamine_BP; 1.
+DR   PRINTS; PR00909; SPERMDNBNDNG.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Disulfide bond; Periplasm;
+KW   Reference proteome; Signal; Transport.
+FT   SIGNAL        1     24       {ECO:0000255}.
+FT   CHAIN        25    367       Putrescine-binding periplasmic protein
+FT                                SpuD. {ECO:0000255}.
+FT                                /FTId=PRO_0000431396.
+FT   REGION       36     37       Putrescine-binding.
+FT                                {ECO:0000269|PubMed:22300763}.
+FT   BINDING     244    244       Putrescine.
+FT                                {ECO:0000269|PubMed:22300763}.
+FT   BINDING     275    275       Putrescine.
+FT                                {ECO:0000269|PubMed:22300763}.
+FT   DISULFID    173    236       {ECO:0000269|PubMed:22300763}.
+FT   MUTAGEN     273    273       F->W: Significant decrease in affinity
+FT                                for putrescine (to KD=0.75 uM).
+FT                                {ECO:0000269|PubMed:22300763}.
+SQ   SEQUENCE   367 AA;  40630 MW;  8734EE5F8F9BAF94 CRC64;
+     MMKRFGKTLL ALTLAGSVAG MAQAADNKVL HVYNWSDYIA PDTLEKFTKE TGIKVVYDVY
+     DSNEVLEAKL LAGKSGYDVV VPSNSFLAKQ IKAGVYQKLD KSKLPNWKNL NKDLMHTLEV
+     SDPGNEHAIP YMWGTIGIGY NPDKVKAAFG DNAPVDSWDL VFKPENIQKL KQCGVSFLDS
+     PTEILPAALH YLGYKPDTDN PKELKAAEEL FLKIRPYVTY FHSSKYISDL ANGNICVAIG
+     YSGDIYQAKS RAEEAKNKVT VKYNIPKEGA GSFFDMVAIP KDAENTEGAL AFVNFLMKPE
+     IMAEITDVVQ FPNGNAAATP LVSEAIRNDP GIYPSEEVMK KLYTFPDLPA KTQRAMTRSW
+     TKIKSGK
+//

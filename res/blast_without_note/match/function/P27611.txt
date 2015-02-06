@@ -1,0 +1,120 @@
+ID   NHAC_BACPE              Reviewed;         462 AA.
+AC   P27611; D3FYJ2;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUN-2010, sequence version 3.
+DT   07-JAN-2015, entry version 89.
+DE   RecName: Full=Na(+)/H(+) antiporter NhaC;
+DE   AltName: Full=Sodium/hydrogen antiporter;
+DE   AltName: Full=Sodium/proton antiporter;
+GN   Name=nhaC; OrderedLocusNames=BpOF4_13965;
+OS   Bacillus pseudofirmus (strain OF4).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=398511;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND SUBCELLULAR LOCATION.
+RC   STRAIN=OF4;
+RX   PubMed=1660475;
+RA   Ivey D.M., Guffanti A.A., Bossewitch J.S., Padan E., Krulwich T.A.;
+RT   "Molecular cloning and sequencing of a gene from alkaliphilic Bacillus
+RT   firmus OF4 that functionally complements an Escherichia coli strain
+RT   carrying a deletion in the nhaA Na+/H+ antiporter gene.";
+RL   J. Biol. Chem. 266:23483-23489(1991).
+RN   [2]
+RP   SEQUENCE REVISION, AND FUNCTION.
+RC   STRAIN=OF4;
+RX   PubMed=9190799;
+RA   Ito M., Guffanti A.A., Zemsky J., Ivey D.M., Krulwich T.A.;
+RT   "Role of the nhaC-encoded Na+/H+ antiporter of alkaliphilic Bacillus
+RT   firmus OF4.";
+RL   J. Bacteriol. 179:3851-3857(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=OF4;
+RX   PubMed=21951522; DOI=10.1111/j.1462-2920.2011.02591.x;
+RA   Janto B., Ahmed A., Ito M., Liu J., Hicks D.B., Pagni S.,
+RA   Fackelmayer O.J., Smith T.A., Earl J., Elbourne L.D., Hassan K.,
+RA   Paulsen I.T., Kolsto A.B., Tourasse N.J., Ehrlich G.D., Boissy R.,
+RA   Ivey D.M., Li G., Xue Y., Ma Y., Hu F.Z., Krulwich T.A.;
+RT   "Genome of alkaliphilic Bacillus pseudofirmus OF4 reveals adaptations
+RT   that support the ability to grow in an external pH range from 7.5 to
+RT   11.4.";
+RL   Environ. Microbiol. 13:3289-3309(2011).
+CC   -!- FUNCTION: Na(+)/H(+) antiporter. Involved in pH homeostasis and
+CC       sodium extrusion. {ECO:0000269|PubMed:1660475,
+CC       ECO:0000269|PubMed:9190799}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:1660475};
+CC       Multi-pass membrane protein {ECO:0000269|PubMed:1660475}.
+CC   -!- SIMILARITY: Belongs to the NhaC Na(+)/H(+) (TC 2.A.35) antiporter
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U61539; AAC45432.1; -; Genomic_DNA.
+DR   EMBL; CP001878; ADC50844.1; -; Genomic_DNA.
+DR   PIR; A41594; A41594.
+DR   RefSeq; YP_003427736.1; NC_013791.2.
+DR   TCDB; 2.A.35.1.1; the nhac na(+):h(+) antiporter (nhac) family.
+DR   EnsemblBacteria; ADC50844; ADC50844; BpOF4_13965.
+DR   GeneID; 8767844; -.
+DR   KEGG; bpf:BpOF4_13965; -.
+DR   PATRIC; 31948120; VBIBacPse80461_2725.
+DR   HOGENOM; HOG000283662; -.
+DR   KO; K03315; -.
+DR   BioCyc; BPSE398511:GJI9-1265-MONOMER; -.
+DR   Proteomes; UP000001544; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015297; F:antiporter activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006814; P:sodium ion transport; IEA:UniProtKB-KW.
+DR   InterPro; IPR004770; Na/H_antiport_NhaC.
+DR   InterPro; IPR018461; Na/H_Antiport_NhaC-like.
+DR   Pfam; PF03553; Na_H_antiporter; 1.
+DR   TIGRFAMs; TIGR00931; antiport_nhaC; 1.
+PE   3: Inferred from homology;
+KW   Antiport; Cell membrane; Complete proteome; Ion transport; Membrane;
+KW   Reference proteome; Sodium; Sodium transport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    462       Na(+)/H(+) antiporter NhaC.
+FT                                /FTId=PRO_0000052415.
+FT   TOPO_DOM      1      6       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM      7     25       Helical; Name=M1. {ECO:0000255}.
+FT   TOPO_DOM     26     31       Extracellular. {ECO:0000255}.
+FT   TRANSMEM     32     50       Helical; Name=M2. {ECO:0000255}.
+FT   TOPO_DOM     51     71       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     72     91       Helical; Name=M3. {ECO:0000255}.
+FT   TOPO_DOM     92     97       Extracellular. {ECO:0000255}.
+FT   TRANSMEM     98    118       Helical; Name=M4. {ECO:0000255}.
+FT   TOPO_DOM    119    125       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    126    145       Helical; Name=M5. {ECO:0000255}.
+FT   TOPO_DOM    146    188       Extracellular. {ECO:0000255}.
+FT   TRANSMEM    189    208       Helical; Name=M6. {ECO:0000255}.
+FT   TOPO_DOM    209    228       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    229    248       Helical; Name=M7. {ECO:0000255}.
+FT   TOPO_DOM    249    250       Extracellular. {ECO:0000255}.
+FT   TRANSMEM    251    271       Helical; Name=M8. {ECO:0000255}.
+FT   TOPO_DOM    272    306       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    307    326       Helical; Name=M9. {ECO:0000255}.
+FT   TOPO_DOM    327    353       Extracellular. {ECO:0000255}.
+FT   TRANSMEM    354    373       Helical; Name=M10. {ECO:0000255}.
+FT   TOPO_DOM    374    401       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    402    421       Helical; Name=M11. {ECO:0000255}.
+FT   TOPO_DOM    422    429       Extracellular. {ECO:0000255}.
+FT   TRANSMEM    430    450       Helical; Name=M12. {ECO:0000255}.
+FT   TOPO_DOM    451    462       Cytoplasmic. {ECO:0000255}.
+FT   CONFLICT     23     23       T -> A (in Ref. 1; AAC45432).
+FT                                {ECO:0000305}.
+FT   CONFLICT    278    278       A -> V (in Ref. 1; AAC45432).
+FT                                {ECO:0000305}.
+FT   CONFLICT    339    354       LTRKLSSRGHLIAATA -> ANKKIIFTWTFDCSDS (in
+FT                                Ref. 1; AAC45432). {ECO:0000305}.
+SQ   SEQUENCE   462 AA;  49362 MW;  11ECFBD9DBD6A3F9 CRC64;
+     MEKKATVGFT LLLLGVMMAI IITSMFVLKV EPHIPLVVCL LIAAVFGRYL RVGWNDLESA
+     MIDGLKIGIK PIFILALVGI VIAVWMMSGT VPTLLFYGLS IISPEWFAVS TLLICMIVSS
+     FTGSSFTTVG TIGVAMMGIG TALGIDPAIA AGAVVCGACF GDKMSPLSDT TNFAPGIVGV
+     DLFDHIRHLL WTTVPSFVIT VILFLMIGRS QATSTTQDIQ AMLTALDSQF TLSVLTLLSP
+     LLVVILAMRR FPTIPVLVVG ILTGIITAAF VQGNADVARW FTIIQNGFSM ETGNEVIDGI
+     VNRGGLQSMM WSISLVMIAL TLGGVIQRIG VIDTLLQSLT RKLSSRGHLI AATATSSIGV
+     NVVTGEQYLS ILLPGKTFES FYTKLNVAKK NLSRTLEDAG TLVNPLIPWG VSGAFFASTL
+     GVDVIDYLPF AFFLFLSPFM TILFGYLGIG VGKEQSLANK RG
+//
