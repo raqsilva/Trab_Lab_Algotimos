@@ -667,6 +667,39 @@ def uniprotallhits():
                     shutil.move(src, dst)
                 except:
                         pass
+def allfunctions():
+    handle = open("../res/blast_without_note/match/allhits/allhits.txt").readlines()
+    for n in range(len (handle)):       
+            x=handle[n].split()
+            for k in range(len(x)-1,len(x)):
+                e=x[k]
+                limpo=e.replace("']","")
+                ginote=(limpo[1:])
+                blast=[]    
+                for file in os.listdir("../res/blast_without_note/match/function/teste/"+ginote):
+                    if file.endswith(".txt"):
+                           blast.append(file)
+                    lista=[]
+                    for j in range(len(blast)):
+                        nome=blast[j]
+                        gi = nome.replace(".txt","")
+                        first = '-!- FUNCTION:'
+                        last = 'CC'
+                        file = open("../res/blast_without_note/match/function/teste/"+ginote+'/'+gi+'.txt').read()
+                        data = file.replace("\n", " ") 
+                        try:
+                            start = data.rindex( first ) + len( first )
+                            end = data.rindex(last, start)
+                            novo= data[start:end] 
+                            lista.append('Gi: '+gi+'  '+'Possivel função:  '+novo)
+                        except:
+                            pass   
+                        
+                    file = open("../res/blast_without_note/match/allhits/funcao_all_hits/"+ginote+".txt",'w')       
+                    for i in range(len(lista)):
+                        file.write("%s\n" % lista[i])
+                    file.close()
+                
     
 def menu(record):
     ans=True
@@ -692,6 +725,7 @@ def menu(record):
     18.function to see possible function of proteins that didnt have note:
     19.return all hits from blast
     20.Go to uniprot and download information for all hits
+    21.Get all information for all hits
     60.Exit
     """)
         ans=input("Choose an option? ")
@@ -771,6 +805,9 @@ def menu(record):
            file.close()
         elif ans=="20":
             uniprotallhits()
+            
+        elif ans=="21":    
+            allfunctions()
         elif ans=="60":
             ans = False
         else:

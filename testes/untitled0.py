@@ -36,7 +36,6 @@ for n in range(len (handle)):
                 for j in range(len(blast)):
                     nome=blast[j]
                     gi = nome.replace(".txt","")
-                    print(ginote)
                     first = '-!- FUNCTION:'
                     last = 'CC'
                     file = open("../res/blast_without_note/match/function/teste/"+ginote+'/'+gi+'.txt').read()
