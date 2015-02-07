@@ -49,7 +49,7 @@ for n in range(len (handle)):
                     except:
                         pass   
                     
-                file = open("../res/blast_without_note/match/function/teste/"+ginote+".txt",'w')       
+                file = open("../res/blast_without_note/match/allhits/funcao_all_hits/"+ginote+".txt",'w')       
                 for i in range(len(lista)):
                     file.write("%s\n" % lista[i])
                 file.close()
