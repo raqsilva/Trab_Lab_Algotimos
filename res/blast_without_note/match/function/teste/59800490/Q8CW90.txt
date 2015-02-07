@@ -1,0 +1,94 @@
+ID   FIU_ECOL6               Reviewed;         760 AA.
+AC   Q8CW90;
+DT   05-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Catecholate siderophore receptor Fiu;
+DE   AltName: Full=Ferric iron uptake protein;
+DE   AltName: Full=TonB-dependent receptor Fiu;
+DE   Flags: Precursor;
+GN   Name=fiu; OrderedLocusNames=c0890;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P.,
+RA   Rasko D., Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D.,
+RA   Mayhew G.F., Rose D.J., Zhou S., Schwartz D.C., Perna N.T.,
+RA   Mobley H.L.T., Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence
+RT   of uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: Involved in the active transport across the outer
+CC       membrane of iron complexed with catecholate siderophores such as
+CC       dihydroxybenzoylserine and dihydroxybenzoate. It derives its
+CC       energy for transport by interacting with the trans-periplasmic
+CC       membrane protein TonB. Can also transport catechol-substitued
+CC       cephalosporins. Receptor for microcins M, H47 and E492 (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the TonB-dependent receptor family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014075; AAN79363.1; -; Genomic_DNA.
+DR   RefSeq; NP_752820.1; NC_004431.1.
+DR   ProteinModelPortal; Q8CW90; -.
+DR   STRING; 199310.c0890; -.
+DR   EnsemblBacteria; AAN79363; AAN79363; c0890.
+DR   GeneID; 1037863; -.
+DR   KEGG; ecc:c0890; -.
+DR   PATRIC; 18279829; VBIEscCol75197_0844.
+DR   HOGENOM; HOG000130432; -.
+DR   KO; K16090; -.
+DR   OMA; TITVIPE; -.
+DR   OrthoDB; EOG6JQGXR; -.
+DR   BioCyc; ECOL199310:C0890-MONOMER; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004872; F:receptor activity; IEA:InterPro.
+DR   GO; GO:0015343; F:siderophore transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   Gene3D; 2.170.130.10; -; 1.
+DR   Gene3D; 2.40.170.20; -; 1.
+DR   InterPro; IPR030148; Fiu.
+DR   InterPro; IPR012910; Plug.
+DR   InterPro; IPR000531; TonB-dep_rcpt_b-brl.
+DR   InterPro; IPR010916; TonB_box_CS.
+DR   InterPro; IPR010105; TonB_sidphr_rcpt.
+DR   PANTHER; PTHR32552:SF8; PTHR32552:SF8; 1.
+DR   Pfam; PF07715; Plug; 1.
+DR   Pfam; PF00593; TonB_dep_Rec; 1.
+DR   TIGRFAMs; TIGR01783; TonB-siderophor; 1.
+DR   PROSITE; PS00430; TONB_DEPENDENT_REC_1; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Complete proteome; Ion transport; Iron;
+KW   Iron transport; Membrane; Receptor; Signal; TonB box; Transmembrane;
+KW   Transmembrane beta strand; Transport.
+FT   SIGNAL        1     31       {ECO:0000255}.
+FT   CHAIN        32    760       Catecholate siderophore receptor Fiu.
+FT                                /FTId=PRO_0000248082.
+FT   MOTIF       743    760       TonB C-terminal box. {ECO:0000250}.
+SQ   SEQUENCE   760 AA;  81926 MW;  686472A1ED455B92 CRC64;
+     MENNRNFPAR QFHSLTFFAG LCIGITPVAQ ALAAEGQANA DDTLVVEAST PSLYAPQQSA
+     DPKFSRPVAD TTRTMTVISE QVIKDQGATN LTDALKNVPG VGAFFAGENG NSTTGDAIYM
+     RGADTSNSIY IDGIRDIGSV SRDTFNTEQV EVIKGPSGTD YGRSAPTGSI NMISKQPRND
+     SGIDASASIG SAWFRRGTLD VNQVIGDTTA VRLNVMGEKT HDAGRDKVKN ERYGVAPSVV
+     FGLGTANRLY LNYLHVTQHN TPDGGIPTIG LPGYSAPSAG TAALNHSGKV DTHNFYGTDS
+     DYDDSTTDTA TMRFEHDIND NTTIRNTTRW SRVKQDYLMT AIMGGASNIT QPTSDVNSWT
+     WSRTANTKDV SNKILTNQTN LTSTFYTGAI GHDLSTGVEF TRETQTNYGV NPVTLPAVNI
+     YHPDSSIHPG GLTRNGANAN GQTDTFAIYA FDTLQITRDF ELNGGIRLDN YHTEYDSATA
+     CGGSGRGAIT CPAGVAKGSP VTTVDTAKSG NLVNWKAGAL YHLTENGNVY INYAVSQQPP
+     GGNNFALAQS GSGNSANRTD FKPQKANTSE IGTKWQVLDK RLLLTAALFR TDIENEVEQN
+     DDGTYSQYGK KRVEGYEISV AGNITPAWQM IGGYTQQKAT IKNGKDVAQD GSSSLPYTPE
+     HAFTLWSQYQ ATDDISVGAG ARYIGSMHKG SDGAVGTPAF TEGYWVADAK LGYRVNRNLD
+     FQLNVYNLFD TDYVASINKS GYRYHPGEPR TFLLTANMHF
+//

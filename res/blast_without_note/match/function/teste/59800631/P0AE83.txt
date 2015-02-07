@@ -1,0 +1,106 @@
+ID   CPXA_ECOL6              Reviewed;         457 AA.
+AC   P0AE83; P08336;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=Sensor protein CpxA;
+DE            EC=2.7.13.3;
+GN   Name=cpxA; OrderedLocusNames=c4863;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P.,
+RA   Rasko D., Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D.,
+RA   Mayhew G.F., Rose D.J., Zhou S., Schwartz D.C., Perna N.T.,
+RA   Mobley H.L.T., Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence
+RT   of uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: This protein is involved in several diverse cellular
+CC       processes, such as the functioning of acetohydroxyacid synthetase
+CC       I, in the biosynthesis of isoleucine and valine, the TraJ protein
+CC       activation activity for tra gene expression in F plasmid, and the
+CC       synthesis, translocation, or stability of cell envelope proteins.
+CC       Activates CpxR by phosphorylation (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-
+CC       pass membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014075; AAN83291.1; -; Genomic_DNA.
+DR   RefSeq; NP_756717.1; NC_004431.1.
+DR   ProteinModelPortal; P0AE83; -.
+DR   SMR; P0AE83; 188-456.
+DR   STRING; 199310.c4863; -.
+DR   EnsemblBacteria; AAN83291; AAN83291; c4863.
+DR   GeneID; 1040202; -.
+DR   KEGG; ecc:c4863; -.
+DR   PATRIC; 18287414; VBIEscCol75197_4565.
+DR   HOGENOM; HOG000269851; -.
+DR   KO; K07640; -.
+DR   OMA; IPVEKAC; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; ECOL199310:C4863-MONOMER; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein; Transferase;
+KW   Transmembrane; Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    457       Sensor protein CpxA.
+FT                                /FTId=PRO_0000074741.
+FT   TOPO_DOM      1      7       Cytoplasmic. {ECO:0000305}.
+FT   TRANSMEM      8     29       Helical. {ECO:0000305}.
+FT   TOPO_DOM     30    163       Periplasmic. {ECO:0000305}.
+FT   TRANSMEM    164    184       Helical. {ECO:0000305}.
+FT   TOPO_DOM    185    457       Cytoplasmic. {ECO:0000305}.
+FT   DOMAIN      185    237       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      245    455       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     248    248       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   457 AA;  51624 MW;  720EE4A62885BA33 CRC64;
+     MIGSLTARIF AIFWLTLALV LMLVLMLPKL DSRQMTELLD SEQRQGLMIE QHVEAELAND
+     PPNDLMWWRR LFRAIDKWAP PGQRLLLVTT EGRVIGAERS EMQIIRNFIG QADNADHPQK
+     KKYGRVELVG PFSVRDGEDN YQLYLIRPAS SSQSDFINLL FDRPLLLLIV TMLVSTPLLL
+     WLAWSLAKPA RKLKNAADEV AQGNLRQHPE LEAGPQEFLA AGASFNQMVT ALERMMTSQQ
+     RLLSDISHEL RTPLTRLQLG TALLRRRSGE SKELERIETE AQRLDSMIND LLVMSRNQQK
+     NALVSETIKA NQLWSEVLDN AAFEAEQMGK SLTVNFPPGP WPLYGNPNAL ESALENIVRN
+     ALRYSHTKIE VGFAVDKDGI TITVDDDGPG VSPEDREQIF RPFYRTDEAR DRESGGTGLG
+     LAIVETAIQQ HRGWVKAEDS PLGGLRLVIW LPLYKRS
+//

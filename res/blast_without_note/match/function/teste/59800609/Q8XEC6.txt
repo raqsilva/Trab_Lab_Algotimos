@@ -1,0 +1,94 @@
+ID   DUSC_ECO57              Reviewed;         316 AA.
+AC   Q8XEC6;
+DT   28-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-JAN-2015, entry version 70.
+DE   RecName: Full=tRNA-dihydrouridine synthase C;
+DE            EC=1.-.-.-;
+GN   Name=dusC; OrderedLocusNames=Z3389, ECs3026;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D.,
+RA   Rose D.J., Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A.,
+RA   Posfai G., Hackett J., Klink S., Boutin A., Shao Y., Miller L.,
+RA   Grotbeck E.J., Davis N.W., Lim A., Dimalanta E.T., Potamousis K.,
+RA   Apodaca J., Anantharaman T.S., Lin J., Yen G., Schwartz D.C.,
+RA   Welch R.A., Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T.,
+RA   Iida T., Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T.,
+RA   Kuhara S., Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli
+RT   O157:H7 and genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- FUNCTION: Catalyzes the synthesis of dihydrouridine, a modified
+CC       base found in the D-loop of most tRNAs. {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the Dus family. DusC subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005174; AAG57272.1; -; Genomic_DNA.
+DR   EMBL; BA000007; BAB36449.1; -; Genomic_DNA.
+DR   PIR; B91007; B91007.
+DR   PIR; D85851; D85851.
+DR   RefSeq; NP_288717.1; NC_002655.2.
+DR   RefSeq; NP_311053.1; NC_002695.1.
+DR   ProteinModelPortal; Q8XEC6; -.
+DR   SMR; Q8XEC6; 1-312.
+DR   STRING; 155864.Z3389; -.
+DR   PRIDE; Q8XEC6; -.
+DR   EnsemblBacteria; AAG57272; AAG57272; Z3389.
+DR   EnsemblBacteria; BAB36449; BAB36449; BAB36449.
+DR   GeneID; 916730; -.
+DR   GeneID; 957879; -.
+DR   KEGG; ece:Z3389; -.
+DR   KEGG; ecs:ECs3026; -.
+DR   PATRIC; 18355416; VBIEscCol44059_2910.
+DR   eggNOG; COG0042; -.
+DR   HOGENOM; HOG000217854; -.
+DR   KO; K05541; -.
+DR   OMA; TRTYPEA; -.
+DR   OrthoDB; EOG6VHZFQ; -.
+DR   BioCyc; ECOL386585:GJFA-2975-MONOMER; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0017150; F:tRNA dihydrouridine synthase activity; IEA:InterPro.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001269; tRNA_hU_synthase.
+DR   InterPro; IPR018517; tRNA_hU_synthase_CS.
+DR   PANTHER; PTHR11082; PTHR11082; 1.
+DR   Pfam; PF01207; Dus; 1.
+DR   PIRSF; PIRSF006621; Dus; 1.
+DR   PROSITE; PS01136; UPF0034; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; FAD; Flavoprotein; Oxidoreductase; tRNA processing.
+FT   CHAIN         1    316       tRNA-dihydrouridine synthase C.
+FT                                /FTId=PRO_0000162110.
+FT   CONFLICT    263    263       S -> G (in Ref. 2; BAB36449).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   316 AA;  35345 MW;  725C8A7EFF13787F CRC64;
+     MRVLLAPMEG VLDSLVRELL TEVNDYDLCI TEFVRVVDQL LPVKVFHRIC PELQNASRTP
+     SGTLVRVQLL GQFPQWLAEN AARAVELGSW GVDLNCGCPS KTVNGSGGGA TLLKDPELIY
+     QGAKAMREAV PAHLPVSVKV RLGWDSGEKK FEIADAVQQA GATELVVHGR TKEQGYRAEH
+     IDWQAIGEIR QRLNIPVIAN GEIWDWQSAQ ECMAISGCDS VMIGRGALNI PNLSRVVKYN
+     EPRMPWPEVV ALLQKYTRLE KQSDTGLYHV ARIKQWLSYL RKEYDEATEL FQHVRVLNNS
+     PDIARAIQAI DIGKLR
+//

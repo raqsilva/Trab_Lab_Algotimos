@@ -1,0 +1,110 @@
+ID   SPHS_SYNE7              Reviewed;         413 AA.
+AC   P39664; Q31PH8;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   18-APR-2006, sequence version 2.
+DT   07-JAN-2015, entry version 103.
+DE   RecName: Full=Sensor protein SphS;
+DE            EC=2.7.13.3;
+GN   Name=sphS; OrderedLocusNames=Synpcc7942_1011;
+OS   Synechococcus elongatus (strain PCC 7942) (Anacystis nidulans R2).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Synechococcus.
+OX   NCBI_TaxID=1140;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF N-TERMINUS.
+RX   PubMed=8497200; DOI=10.1111/j.1365-2958.1993.tb01205.x;
+RA   Aiba H., Nagaya M., Mizuno T.;
+RT   "Sensor and regulator proteins from the cyanobacterium Synechococcus
+RT   species PCC7942 that belong to the bacterial signal-transduction
+RT   protein families: implication in the adaptive response to phosphate
+RT   limitation.";
+RL   Mol. Microbiol. 8:81-91(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7942;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Pitluck S., Schmutz J., Larimer F., Land M.,
+RA   Kyrpides N., Lykidis A., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Synechococcus elongatus PCC
+RT   7942.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Member of the two-component regulatory system SphR/SphS.
+CC       Sensory kinase. Is involved in inducible production of alkaline
+CC       phosphatase in response to phosphate limitation as it is directly
+CC       involved in the regulation of phoA transcription in response to
+CC       phosphate limitation. SphS functions as a protein kinase that
+CC       phosphorylates SphR.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -!- SIMILARITY: Contains 1 PAS (PER-ARNT-SIM) domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D13172; BAA02454.1; -; Genomic_DNA.
+DR   EMBL; CP000100; ABB57041.1; -; Genomic_DNA.
+DR   PIR; S32932; S32932.
+DR   RefSeq; YP_400028.1; NC_007604.1.
+DR   ProteinModelPortal; P39664; -.
+DR   STRING; 1140.Synpcc7942_1011; -.
+DR   EnsemblBacteria; ABB57041; ABB57041; Synpcc7942_1011.
+DR   GeneID; 3773939; -.
+DR   KEGG; syf:Synpcc7942_1011; -.
+DR   PATRIC; 23787269; VBISynElo51371_1165.
+DR   eggNOG; COG0642; -.
+DR   HOGENOM; HOG000276842; -.
+DR   KO; K07636; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; SYNEL:SYNPCC7942_1011-MONOMER; -.
+DR   BRENDA; 2.7.13.3; 6187.
+DR   Proteomes; UP000002717; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR013767; PAS_fold.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   Pfam; PF00989; PAS; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Direct protein sequencing;
+KW   Kinase; Nucleotide-binding; Phosphoprotein; Reference proteome;
+KW   Transferase; Two-component regulatory system.
+FT   CHAIN         1    413       Sensor protein SphS.
+FT                                /FTId=PRO_0000074880.
+FT   DOMAIN      176    398       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     179    179       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+FT   CONFLICT    384    413       VTGGAWLRVQLPQEPSLTPALKIGTGRRSG -> SPAGLGC
+FT                                GYNCPKNHPSPLRLRSELDVAAA (in Ref. 1; AA
+FT                                sequence). {ECO:0000305}.
+SQ   SEQUENCE   413 AA;  46216 MW;  FA93EC0909A8DB87 CRC64;
+     MAAWEFALGL LTASLWRWAR KWRSPVKVKP MLAAVSSLEP QLEQITTDLR DRDRLLEDLP
+     VSFLLLDADN LVLEANRSAR VLLALPPEDY CRPLLEVVRS YELDRLVARC RAANAPQTDR
+     WTLTPVNPDP LQVVPQTPRP VQGQAIPLSN GQIGVLIEDR QELVDLAQQR NRWVSDVAHE
+     LKTPLTSIRL LAEALRDRLQ DEPQVWVDRL LGETQRLGQL VQDLLELSRL EQGPSGLQKL
+     EAVDLVALLT SVRNSLEPLA EPLRLGWAYQ GPEQGFVRGD RQRLFRLWLN LVDNAIRHSP
+     SGGCLYVELR QRGDTWICDL YDDGPGFADA DLPYLFERFY RGDPSRVRPA AASSSSPGSG
+     LGLAIARQVV EAHQGRISAR NHPVTGGAWL RVQLPQEPSL TPALKIGTGR RSG
+//

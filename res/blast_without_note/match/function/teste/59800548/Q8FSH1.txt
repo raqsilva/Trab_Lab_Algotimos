@@ -1,0 +1,117 @@
+ID   MSHA_COREF              Reviewed;         424 AA.
+AC   Q8FSH1;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   04-FEB-2015, entry version 70.
+DE   RecName: Full=D-inositol 3-phosphate glycosyltransferase;
+DE            EC=2.4.1.250 {ECO:0000255|HAMAP-Rule:MF_01695};
+DE   AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+DE            Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   Name=mshA {ECO:0000255|HAMAP-Rule:MF_01695}; OrderedLocusNames=CE0422;
+OS   Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM
+OS   11189 / NBRC 100395).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Corynebacteriaceae; Corynebacterium.
+OX   NCBI_TaxID=196164;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395;
+RX   PubMed=12840036; DOI=10.1101/gr.1285603;
+RA   Nishio Y., Nakamura Y., Kawarabayasi Y., Usuda Y., Kimura E.,
+RA   Sugimoto S., Matsui K., Yamagishi A., Kikuchi H., Ikeo K.,
+RA   Gojobori T.;
+RT   "Comparative complete genome sequence analysis of the amino acid
+RT   replacements responsible for the thermostability of Corynebacterium
+RT   efficiens.";
+RL   Genome Res. 13:1572-1579(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of a N-acetyl-glucosamine moiety
+CC       to 1D-myo-inositol 3-phosphate to produce 1D-myo-inositol 2-
+CC       acetamido-2-deoxy-glucopyranoside 3-phosphate in the mycothiol
+CC       biosynthesis pathway. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- CATALYTIC ACTIVITY: UDP-N-acetyl-D-glucosamine + 1D-myo-inositol
+CC       3-phosphate = UDP + 1-O-(2-acetamido-2-deoxy-alpha-D-
+CC       glucopyranosyl)-1D-myo-inositol 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01695}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase group 1 family.
+CC       MshA subfamily. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000035; BAC17232.1; -; Genomic_DNA.
+DR   RefSeq; NP_737032.1; NC_004369.1.
+DR   ProteinModelPortal; Q8FSH1; -.
+DR   SMR; Q8FSH1; 1-409.
+DR   STRING; 196164.CE0422; -.
+DR   EnsemblBacteria; BAC17232; BAC17232; BAC17232.
+DR   GeneID; 1032544; -.
+DR   KEGG; cef:CE0422; -.
+DR   PATRIC; 21486998; VBICorEff9312_0445.
+DR   HOGENOM; HOG000077288; -.
+DR   KO; K15521; -.
+DR   OMA; LVHSHYW; -.
+DR   OrthoDB; EOG647TVR; -.
+DR   BioCyc; CEFF196164:GJW8-433-MONOMER; -.
+DR   Proteomes; UP000001409; Chromosome.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01695; MshA; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR028098; Glyco_trans_4_N.
+DR   InterPro; IPR017814; Mycothiol_biosynthesis_MshA.
+DR   Pfam; PF13579; Glyco_trans_4_4; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   TIGRFAMs; TIGR03449; mycothiol_MshA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycosyltransferase; Magnesium; Metal-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    424       D-inositol 3-phosphate
+FT                                glycosyltransferase.
+FT                                /FTId=PRO_0000400117.
+FT   REGION       15     16       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   REGION       20     25       1D-inositol 3-phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       303    303       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       304    304       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       306    306       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       330    330       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING       9      9       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      23     23       UDP-GlcNAc; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      78     78       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     110    110       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     134    134       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     154    154       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     231    231       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     236    236       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     294    294       UDP-GlcNAc; via amide nitrogen and
+FT                                carbonyl oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     316    316       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     324    324       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+SQ   SEQUENCE   424 AA;  46017 MW;  BAE1EDBDC024E26A CRC64;
+     MRVAMISMHT SPLQQPGVGD SGGMNVYILS TGTELARQGV EVDIFTRATR PSQGEVVQVA
+     PNLRVINIVA GPYEGLAKEE LSTQLAAFAG GVLEFTRRGG IEYDLIHSHY WLSGQVGWLM
+     RDLWRIPLVH TAHTLAAVKN SYRADEDTPE SEARRICEQQ LVDNADVLAV NTQEELADLV
+     HHYDADPDRI SVVSPGADIA LYTPGNDRAT ERSRRELGVP LHAKVVAFVG RLQPFKGPQV
+     LIHAVAELLE RDPQRNLRVL ICGGPSGPSA TPETYRNLAV ELGVDKRIRF LDPRPPEELV
+     AVYRAADIIA VPSYNESFGL VAMEAQATGT PVVAARVGGL PVAVAEGETG LLVDGHDPAL
+     WADTLATLLD DDETRIRMGQ DAVEHARNFS WAATATQLSS LYSEATTAEC DGGIPRRADG
+     ARWD
+//

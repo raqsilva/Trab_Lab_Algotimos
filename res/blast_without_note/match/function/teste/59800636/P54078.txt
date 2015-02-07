@@ -1,0 +1,111 @@
+ID   TATC_MYCLE              Reviewed;         310 AA.
+AC   P54078; Q9CC36; Q9S373;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 2.
+DT   07-JAN-2015, entry version 88.
+DE   RecName: Full=Sec-independent protein translocase protein TatC {ECO:0000255|HAMAP-Rule:MF_00902};
+GN   Name=tatC {ECO:0000255|HAMAP-Rule:MF_00902}; Synonyms=mttB;
+GN   OrderedLocusNames=ML1332; ORFNames=B2126_C1_183, MLCB2533.28, u2126a;
+OS   Mycobacterium leprae (strain TN).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium.
+OX   NCBI_TaxID=272631;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Smith D.R., Robison K.;
+RL   Submitted (MAR-1994) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TN;
+RX   PubMed=11234002; DOI=10.1038/35059006;
+RA   Cole S.T., Eiglmeier K., Parkhill J., James K.D., Thomson N.R.,
+RA   Wheeler P.R., Honore N., Garnier T., Churcher C.M., Harris D.E.,
+RA   Mungall K.L., Basham D., Brown D., Chillingworth T., Connor R.,
+RA   Davies R.M., Devlin K., Duthoy S., Feltwell T., Fraser A., Hamlin N.,
+RA   Holroyd S., Hornsby T., Jagels K., Lacroix C., Maclean J., Moule S.,
+RA   Murphy L.D., Oliver K., Quail M.A., Rajandream M.A., Rutherford K.M.,
+RA   Rutter S., Seeger K., Simon S., Simmonds M., Skelton J., Squares R.,
+RA   Squares S., Stevens K., Taylor K., Whitehead S., Woodward J.R.,
+RA   Barrell B.G.;
+RT   "Massive gene decay in the leprosy bacillus.";
+RL   Nature 409:1007-1011(2001).
+CC   -!- FUNCTION: Part of the twin-arginine translocation (Tat) system
+CC       that transports large folded proteins containing a characteristic
+CC       twin-arginine motif in their signal peptide across membranes.
+CC       Together with TatB, TatC is part of a receptor directly
+CC       interacting with Tat signal peptides. {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -!- SUBUNIT: The Tat system comprises two distinct complexes: a TatABC
+CC       complex, containing multiple copies of TatA, TatB and TatC
+CC       subunits, and a separate TatA complex, containing only TatA
+CC       subunits. Substrates initially bind to the TatABC complex, which
+CC       probably triggers association of the separate TatA complex to form
+CC       the active translocon. {ECO:0000255|HAMAP-Rule:MF_00902}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -!- SIMILARITY: Belongs to the TatC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA17191.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=CAC31713.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00017; AAA17191.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AL035310; CAA22942.1; -; Genomic_DNA.
+DR   EMBL; AL583921; CAC31713.1; ALT_INIT; Genomic_DNA.
+DR   PIR; F87075; F87075.
+DR   PIR; S72851; S72851.
+DR   RefSeq; NP_301956.1; NC_002677.1.
+DR   STRING; 272631.ML1332; -.
+DR   EnsemblBacteria; CAC31713; CAC31713; CAC31713.
+DR   GeneID; 910452; -.
+DR   KEGG; mle:ML1332; -.
+DR   PATRIC; 18055028; VBIMycLep78757_2452.
+DR   Leproma; ML1332; -.
+DR   eggNOG; COG0805; -.
+DR   HOGENOM; HOG000245380; -.
+DR   KO; K03118; -.
+DR   OrthoDB; EOG60SCQS; -.
+DR   Proteomes; UP000000806; Chromosome.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0033281; C:TAT protein transport complex; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008320; F:protein transmembrane transporter activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043953; P:protein transport by the Tat complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00902; TatC; 1.
+DR   InterPro; IPR019820; Sec-indep_translocase_CS.
+DR   InterPro; IPR002033; TatC.
+DR   PANTHER; PTHR30371:SF0; PTHR30371:SF0; 1.
+DR   Pfam; PF00902; TatC; 1.
+DR   PRINTS; PR01840; TATCFAMILY.
+DR   TIGRFAMs; TIGR00945; tatC; 1.
+DR   PROSITE; PS01218; TATC; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Complete proteome; Membrane; Protein transport;
+KW   Reference proteome; Translocation; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN         1    310       Sec-independent protein translocase
+FT                                protein TatC.
+FT                                /FTId=PRO_0000098089.
+FT   TRANSMEM     38     58       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    109    129       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    142    162       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    190    210       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    229    249       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    250    270       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+SQ   SEQUENCE   310 AA;  34536 MW;  74362D5AD9C3E96F CRC64;
+     MRACDLLKRI KQHYRRSRTN PDATMSLIDH LTELRTRLLI SLAAIVVTTI FGFIWYSHSI
+     FGLESLGEWL RRPYCSLPQS ARADISPDGQ CRLLATAPFD QFMLRIKVGM AAGIVLASPV
+     WFYQLWAFIT PGLYTKERRF TVAFVVPAAV LFAGGTVLAY LVLSKALGFL LIVGSGVQVT
+     ALSGDRYFGF LLNLLVVFGV SFEFPLLIVM LNIAGLLTYQ RLKSWRRGLI FAMFVFAAVF
+     TPGSDPFSMT ALGAALTVLL ELAIQLVRLH DKRRVKHEAL IADDEASVIE PPSSIPERSY
+     TATRSHDDVT
+//

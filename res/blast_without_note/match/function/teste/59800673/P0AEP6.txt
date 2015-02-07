@@ -1,0 +1,121 @@
+ID   GALU_SHIFL              Reviewed;         302 AA.
+AC   P0AEP6; P25520;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   07-JAN-2015, entry version 67.
+DE   RecName: Full=UTP--glucose-1-phosphate uridylyltransferase;
+DE            EC=2.7.7.9;
+DE   AltName: Full=Alpha-D-glucosyl-1-phosphate uridylyltransferase;
+DE   AltName: Full=UDP-glucose pyrophosphorylase;
+DE            Short=UDPGP;
+DE   AltName: Full=Uridine diphosphoglucose pyrophosphorylase;
+GN   Name=galU; OrderedLocusNames=SF1236, S1322;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], CHARACTERIZATION OF ROLE IN LPS
+RP   SYNTHESIS AND VIRULENCE, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=7528731;
+RA   Sandlin R.C., Lampel K.A., Keasler S.P., Goldberg M.B., Stolzer A.L.,
+RA   Maurelli A.T.;
+RT   "Avirulence of rough mutants of Shigella flexneri: requirement of O
+RT   antigen for correct unipolar localization of IcsA in the bacterial
+RT   outer membrane.";
+RL   Infect. Immun. 63:229-237(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H.,
+RA   Yang J., Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J.,
+RA   Sun L., Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S.,
+RA   Cheng H., Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y.,
+RA   Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/IAI.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W.,
+RA   Fournier G., Mayhew G.F., Plunkett G. III, Rose D.J., Darling A.,
+RA   Mau B., Perna N.T., Payne S.M., Runyen-Janecky L.J., Zhou S.,
+RA   Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella
+RT   flexneri serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: May play a role in stationary phase survival.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: UTP + alpha-D-glucose 1-phosphate =
+CC       diphosphate + UDP-glucose.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; lipopolysaccharide
+CC       biosynthesis.
+CC   -!- SUBUNIT: Homotetramer or homopentamer. {ECO:0000250}.
+CC   -!- DISRUPTION PHENOTYPE: A transposon mutant in galU (only the first
+CC       220 residues could be expressed) allows HeLa cell invasion but no
+CC       cell spreading. Shows decreased secretion of IscA, a protein
+CC       required for cell spreading. The lipopolysaccharide produced is of
+CC       a size consistent with it containing only lipid A and a single
+CC       core component. {ECO:0000269|PubMed:7528731}.
+CC   -!- SIMILARITY: Belongs to the UDPGP type 2 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L32811; AAD15244.1; -; Genomic_DNA.
+DR   EMBL; AE005674; AAN42849.1; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP16734.1; -; Genomic_DNA.
+DR   RefSeq; NP_707142.1; NC_004337.2.
+DR   RefSeq; NP_836927.1; NC_004741.1.
+DR   ProteinModelPortal; P0AEP6; -.
+DR   SMR; P0AEP6; 4-297.
+DR   STRING; 198214.SF1236; -.
+DR   PaxDb; P0AEP6; -.
+DR   PRIDE; P0AEP6; -.
+DR   EnsemblBacteria; AAN42849; AAN42849; SF1236.
+DR   EnsemblBacteria; AAP16734; AAP16734; S1322.
+DR   GeneID; 1024213; -.
+DR   GeneID; 1077674; -.
+DR   KEGG; sfl:SF1236; -.
+DR   KEGG; sfx:S1322; -.
+DR   PATRIC; 18703882; VBIShiFle31049_1445.
+DR   eggNOG; COG1210; -.
+DR   HOGENOM; HOG000283477; -.
+DR   KO; K00963; -.
+DR   OMA; EHALRHK; -.
+DR   OrthoDB; EOG6Z9B3V; -.
+DR   UniPathway; UPA00030; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0003983; F:UTP:glucose-1-phosphate uridylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009103; P:lipopolysaccharide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0006011; P:UDP-glucose metabolic process; IEA:InterPro.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR005771; GalU_uridylyltTrfase_bac/arc.
+DR   InterPro; IPR005835; NTP_transferase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR01099; galU; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Lipopolysaccharide biosynthesis; Magnesium;
+KW   Nucleotidyltransferase; Transferase; Virulence.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    302       UTP--glucose-1-phosphate
+FT                                uridylyltransferase.
+FT                                /FTId=PRO_0000201363.
+SQ   SEQUENCE   302 AA;  32942 MW;  ADEAEB3F6A1194CB CRC64;
+     MAAINTKVKK AVIPVAGLGT RMLPATKAIP KEMLPLVDKP LIQYVVNECI AAGITEIVLV
+     THSSKNSIEN HFDTSFELEA MLEKRVKRQL LDEVQSICPP HVTIMQVRQG LAKGLGHAVL
+     CAHPVVGDEP VAVILPDVIL DEYESDLSQD NLAEMIRRFD ETGHSQIMVE PVADVTAYGV
+     VDCKGVELAP GESVPMVGVV EKPKADVAPS NLAIVGRYVL SADIWPLLAK TPPGAGDEIQ
+     LTDAIDMLIE KETVEAYHMK GKSHDCGNKL GYMQAFVEYG IRHNTLGTEF KAWLEEEMGI
+     KK
+//

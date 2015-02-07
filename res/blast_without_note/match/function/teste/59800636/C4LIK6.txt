@@ -1,0 +1,98 @@
+ID   TATC_CORK4              Reviewed;         414 AA.
+AC   C4LIK6;
+DT   21-SEP-2011, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 1.
+DT   07-JAN-2015, entry version 31.
+DE   RecName: Full=Sec-independent protein translocase protein TatC {ECO:0000255|HAMAP-Rule:MF_00902};
+GN   Name=tatC {ECO:0000255|HAMAP-Rule:MF_00902};
+GN   OrderedLocusNames=ckrop_0907;
+OS   Corynebacterium kroppenstedtii (strain DSM 44385 / CCUG 35717).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Corynebacteriaceae; Corynebacterium.
+OX   NCBI_TaxID=645127;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 44385 / CCUG 35717;
+RX   PubMed=18430482; DOI=10.1016/j.jbiotec.2008.03.004;
+RA   Tauch A., Schneider J., Szczepanowski R., Tilker A., Viehoever P.,
+RA   Gartemann K.-H., Arnold W., Blom J., Brinkrolf K., Brune I.,
+RA   Goetker S., Weisshaar B., Goesmann A., Droege M., Puehler A.;
+RT   "Ultrafast pyrosequencing of Corynebacterium kroppenstedtii DSM44385
+RT   revealed insights into the physiology of a lipophilic corynebacterium
+RT   that lacks mycolic acids.";
+RL   J. Biotechnol. 136:22-30(2008).
+CC   -!- FUNCTION: Part of the twin-arginine translocation (Tat) system
+CC       that transports large folded proteins containing a characteristic
+CC       twin-arginine motif in their signal peptide across membranes.
+CC       Together with TatB, TatC is part of a receptor directly
+CC       interacting with Tat signal peptides. {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -!- SUBUNIT: The Tat system comprises two distinct complexes: a TatABC
+CC       complex, containing multiple copies of TatA, TatB and TatC
+CC       subunits, and a separate TatA complex, containing only TatA
+CC       subunits. Substrates initially bind to the TatABC complex, which
+CC       probably triggers association of the separate TatA complex to form
+CC       the active translocon. {ECO:0000255|HAMAP-Rule:MF_00902}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -!- SIMILARITY: Belongs to the TatC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001620; ACR17661.1; -; Genomic_DNA.
+DR   RefSeq; YP_002906204.1; NC_012704.1.
+DR   STRING; 645127.ckrop_0907; -.
+DR   EnsemblBacteria; ACR17661; ACR17661; ckrop_0907.
+DR   GeneID; 7875927; -.
+DR   KEGG; ckp:ckrop_0907; -.
+DR   PATRIC; 21517129; VBICorKro120627_0935.
+DR   eggNOG; COG0805; -.
+DR   HOGENOM; HOG000245380; -.
+DR   KO; K03118; -.
+DR   OMA; FEAFMIQ; -.
+DR   OrthoDB; EOG60SCQS; -.
+DR   BioCyc; CKRO645127:GI7D-897-MONOMER; -.
+DR   Proteomes; UP000001473; Chromosome.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0033281; C:TAT protein transport complex; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008320; F:protein transmembrane transporter activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043953; P:protein transport by the Tat complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00902; TatC; 1.
+DR   InterPro; IPR019820; Sec-indep_translocase_CS.
+DR   InterPro; IPR002033; TatC.
+DR   PANTHER; PTHR30371:SF0; PTHR30371:SF0; 1.
+DR   Pfam; PF00902; TatC; 1.
+DR   PRINTS; PR01840; TATCFAMILY.
+DR   TIGRFAMs; TIGR00945; tatC; 1.
+DR   PROSITE; PS01218; TATC; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Complete proteome; Membrane; Protein transport;
+KW   Reference proteome; Translocation; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN         1    414       Sec-independent protein translocase
+FT                                protein TatC.
+FT                                /FTId=PRO_0000412861.
+FT   TRANSMEM     45     65       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    119    139       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    157    177       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    200    220       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    238    258       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TRANSMEM    259    279       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+SQ   SEQUENCE   414 AA;  44492 MW;  72CA6C427CE0409E CRC64;
+     MTQSTSVSKG GRVSRKAKKN PDGTMSIVDH LRELRTRLLR ALAAIAVTTI IGFIWYEHGI
+     PAWAIGPLHV PRLPSLGEIL KEPYCSLPPS ARATFSADNE CRLLATSPFE MFMLRMKMGG
+     LAGLVMACPI WLIEIWRFIT PGLLKNERRW TLSVGTIAGF LFVLGVVAAY LVLPMGLDVL
+     LHLGDSTQIS ALTGEKYFNF VIALILVFGL SFEVPLFTAM LNLAGVVHYE QLKDKRRIMI
+     VVIFIFAAIA TPGQDPISML VLALTLVVLM ELALQFTRIH DRRAARHVSE WEGLSDDEAS
+     PLKVAPSSIP AAESIYDGDH KGIAGGGDAH PAGGSGPIPK PSPVTAPTRA PSASESPTPT
+     PSPAPSDSPT SGSHHAPPAA VLRRGPRSWN DSTGDNDGKP GQDTIQSSSF DDVL
+//

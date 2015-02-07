@@ -1,0 +1,99 @@
+ID   RMLA_XANCB              Reviewed;         295 AA.
+AC   B0RVK9; P55256;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-JAN-2015, entry version 49.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase;
+DE            EC=2.7.7.24;
+DE   AltName: Full=dTDP-glucose pyrophosphorylase;
+DE   AltName: Full=dTDP-glucose synthase;
+GN   Name=rmlA; OrderedLocusNames=xcc-b100_3733;
+OS   Xanthomonas campestris pv. campestris (strain B100).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=509169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8253667;
+RA   Koeplin R., Wang G., Hoette B., Priefer U.B., Puehler A.;
+RT   "A 3.9-kb DNA region of Xanthomonas campestris pv. campestris that is
+RT   necessary for lipopolysaccharide production encodes a set of enzymes
+RT   involved in the synthesis of dTDP-rhamnose.";
+RL   J. Bacteriol. 175:7786-7792(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B100;
+RX   PubMed=18304669; DOI=10.1016/j.jbiotec.2007.12.013;
+RA   Vorhoelter F.-J., Schneiker S., Goesmann A., Krause L., Bekel T.,
+RA   Kaiser O., Linke B., Patschkowski T., Rueckert C., Schmid J.,
+RA   Sidhu V.K., Sieber V., Tauch A., Watt S.A., Weisshaar B., Becker A.,
+RA   Niehaus K., Puehler A.;
+RT   "The genome of Xanthomonas campestris pv. campestris B100 and its use
+RT   for the reconstruction of metabolic pathways involved in xanthan
+RT   biosynthesis.";
+RL   J. Biotechnol. 134:33-45(2008).
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: dTTP + alpha-D-glucose 1-phosphate =
+CC       diphosphate + dTDP-alpha-D-glucose.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; dTDP-L-rhamnose biosynthesis.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS O-antigen
+CC       biosynthesis.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate
+CC       thymidylyltransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF204145; AAA16191.1; -; Genomic_DNA.
+DR   EMBL; AM920689; CAP53100.1; -; Genomic_DNA.
+DR   PIR; A49906; A49906.
+DR   RefSeq; YP_001905138.1; NC_010688.1.
+DR   ProteinModelPortal; B0RVK9; -.
+DR   SMR; B0RVK9; 4-290.
+DR   STRING; 509169.xccb100_3733; -.
+DR   EnsemblBacteria; CAP53100; CAP53100; xcc-b100_3733.
+DR   GeneID; 6324995; -.
+DR   KEGG; xca:xccb100_3733; -.
+DR   PATRIC; 24087418; VBIXanCam108527_3770.
+DR   eggNOG; COG1209; -.
+DR   KO; K00973; -.
+DR   OMA; PHDAEQF; -.
+DR   OrthoDB; EOG6RC3RN; -.
+DR   BioCyc; XCAM509169:GHW4-3819-MONOMER; -.
+DR   UniPathway; UPA00124; -.
+DR   UniPathway; UPA00281; -.
+DR   Proteomes; UP000001188; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019305; P:dTDP-rhamnose biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:InterPro.
+DR   GO; GO:0009243; P:O antigen biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   PANTHER; PTHR22572:SF13; PTHR22572:SF13; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR01207; rmlA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lipopolysaccharide biosynthesis; Magnesium;
+KW   Metal-binding; Nucleotidyltransferase; Transferase.
+FT   CHAIN         1    295       Glucose-1-phosphate
+FT                                thymidylyltransferase.
+FT                                /FTId=PRO_0000333188.
+FT   METAL       111    111       Magnesium. {ECO:0000250}.
+FT   METAL       226    226       Magnesium. {ECO:0000250}.
+SQ   SEQUENCE   295 AA;  32508 MW;  585D239B6EAF4554 CRC64;
+     MTQRKGIILA GGSGTRLYPI TKGVSKQLLP VYDKPMIYYP LSVLMLAGIR DILIINTPHE
+     QALFQSLLGD GAQWGVNIQY AVQPSPDGLA QAYLIGRDFV GGKPSCLVLG DNIFHGHGLT
+     DTLRRADARE QGATVFGYWV NDPERYGVAE FDQHGKVIDI AEKPEKPRSN YAVTGLYFYD
+     GKASDYAAAL KPSPRGELEI TDLNRCYLDA GDLHLEPLGR GYAWLDTGTH QSLHEAANFI
+     ETIQMRQGLQ VCCPEEIAFG QGWIDAEQLE RLAAPLLKND YGKYLTALAK RGAVH
+//

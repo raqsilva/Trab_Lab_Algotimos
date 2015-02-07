@@ -1,0 +1,191 @@
+ID   NTH_CAEEL               Reviewed;         298 AA.
+AC   P54137; C7G4V3; D5MCR0; D5MCR1; D5MCR2;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 2.
+DT   07-JAN-2015, entry version 109.
+DE   RecName: Full=Endonuclease III homolog {ECO:0000255|HAMAP-Rule:MF_03183};
+DE            Short=CeNTH;
+DE            EC=3.2.2.- {ECO:0000255|HAMAP-Rule:MF_03183};
+DE            EC=4.2.99.18 {ECO:0000255|HAMAP-Rule:MF_03183};
+DE   AltName: Full=Bifunctional DNA N-glycoslyase/DNA-(apurinic or apyrimidinic site) lyase {ECO:0000255|HAMAP-Rule:MF_03183};
+DE            Short=DNA glycoslyase/AP lyase {ECO:0000255|HAMAP-Rule:MF_03183};
+GN   Name=nth-1 {ECO:0000255|HAMAP-Rule:MF_03183}; ORFNames=R10E4.5;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditoidea; Rhabditidae; Peloderinae; Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM D), FUNCTION, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, AND DISRUPTION PHENOTYPE.
+RX   PubMed=19481506; DOI=10.1016/j.dnarep.2009.04.020;
+RA   Morinaga H., Yonekura S., Nakamura N., Sugiyama H., Yonei S.,
+RA   Zhang-Akiyama Q.M.;
+RT   "Purification and characterization of Caenorhabditis elegans NTH, a
+RT   homolog of human endonuclease III: essential role of N-terminal
+RT   region.";
+RL   DNA Repair 8:844-851(2009).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], ALTERNATIVE INITIATION,
+RP   AND ALTERNATIVE SPLICING.
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for
+RT   investigating biology.";
+RL   Science 282:2012-2018(1998).
+RN   [3]
+RP   DISRUPTION PHENOTYPE.
+RX   PubMed=16783005; DOI=10.1534/genetics.106.059840;
+RA   Denver D.R., Feinberg S., Steding C., Durbin M., Lynch M.;
+RT   "The relative roles of three DNA repair pathways in preventing
+RT   Caenorhabditis elegans mutation accumulation.";
+RL   Genetics 174:57-65(2006).
+CC   -!- FUNCTION: Bifunctional DNA N-glycosylase with associated
+CC       apurinic/apyrimidinic (AP) lyase function that catalyzes the first
+CC       step in base excision repair (BER), the primary repair pathway for
+CC       the repair of oxidative DNA damage. The DNA N-glycosylase activity
+CC       releases the damaged DNA base from DNA by cleaving the N-
+CC       glycosidic bond, leaving an AP site. The AP lyase activity cleaves
+CC       the phosphodiester bond 3' to the AP site by a beta-elimination.
+CC       Primarily recognizes and repairs oxidative base damage of
+CC       pyrimidines. {ECO:0000255|HAMAP-Rule:MF_03183,
+CC       ECO:0000269|PubMed:19481506}.
+CC   -!- CATALYTIC ACTIVITY: The C-O-P bond 3' to the apurinic or
+CC       apyrimidinic site in DNA is broken by a beta-elimination reaction,
+CC       leaving a 3'-terminal unsaturated sugar and a product with a
+CC       terminal 5'-phosphate. {ECO:0000255|HAMAP-Rule:MF_03183}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03183};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster does not appear to play
+CC       a role in catalysis, but is probably involved in the proper
+CC       positioning of the enzyme along the DNA strand.
+CC       {ECO:0000255|HAMAP-Rule:MF_03183};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Temperature dependence:
+CC         Optimum temperature is 26 degrees Celsius.
+CC         {ECO:0000269|PubMed:19481506};
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000255|HAMAP-Rule:MF_03183}.
+CC       Mitochondrion {ECO:0000255|HAMAP-Rule:MF_03183}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing, Alternative initiation; Named isoforms=4;
+CC       Name=d;
+CC         IsoId=P54137-1; Sequence=Displayed;
+CC       Name=a;
+CC         IsoId=P54137-2; Sequence=VSP_041641;
+CC         Note=Produced by alternative initiation.;
+CC       Name=b;
+CC         IsoId=P54137-3; Sequence=VSP_041642;
+CC         Note=Produced by alternative splicing.;
+CC       Name=c;
+CC         IsoId=P54137-4; Sequence=VSP_041643;
+CC         Note=Produced by alternative splicing.;
+CC   -!- DISRUPTION PHENOTYPE: Increases the total average mutation rate
+CC       17-fold. No significant abnormality in lifespan or sensitivity to
+CC       oxidizing agents such as hydrogen peroxide and methyl viologen
+CC       (MV); due to the redundancy with other DNA glycosylases.
+CC       {ECO:0000269|PubMed:16783005, ECO:0000269|PubMed:19481506}.
+CC   -!- SIMILARITY: Belongs to the Nth/MutY family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03183}.
+CC   -!- SIMILARITY: Contains 1 HhH domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_03183}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB518695; BAI22676.1; -; mRNA.
+DR   EMBL; Z50874; CAA90766.2; -; Genomic_DNA.
+DR   EMBL; Z50874; CBK55598.1; -; Genomic_DNA.
+DR   EMBL; Z50874; CBK55599.1; -; Genomic_DNA.
+DR   EMBL; Z50874; CBK55600.1; -; Genomic_DNA.
+DR   PIR; T24131; T24131.
+DR   RefSeq; NP_001254906.1; NM_001267977.1. [P54137-1]
+DR   RefSeq; NP_001254907.1; NM_001267978.1. [P54137-2]
+DR   RefSeq; NP_001254908.1; NM_001267979.1. [P54137-3]
+DR   RefSeq; NP_001254909.1; NM_001267980.1. [P54137-4]
+DR   UniGene; Cel.10201; -.
+DR   UniGene; Cel.40199; -.
+DR   ProteinModelPortal; P54137; -.
+DR   SMR; P54137; 65-239.
+DR   STRING; 6239.R10E4.5; -.
+DR   EnsemblMetazoa; R10E4.5d; R10E4.5d; WBGene00011201. [P54137-1]
+DR   GeneID; 187770; -.
+DR   KEGG; cel:CELE_R10E4.5; -.
+DR   CTD; 187770; -.
+DR   WormBase; R10E4.5a; CE44645; WBGene00011201; nth-1.
+DR   WormBase; R10E4.5b; CE44659; WBGene00011201; nth-1.
+DR   WormBase; R10E4.5c; CE44689; WBGene00011201; nth-1.
+DR   WormBase; R10E4.5d; CE44095; WBGene00011201; nth-1.
+DR   eggNOG; COG0177; -.
+DR   GeneTree; ENSGT00510000047513; -.
+DR   HOGENOM; HOG000252209; -.
+DR   InParanoid; P54137; -.
+DR   OMA; WRNKVKY; -.
+DR   OrthoDB; EOG76MK8Z; -.
+DR   Reactome; REACT_258191; Recognition and association of DNA glycosylase with site containing an affected pyrimidine.
+DR   Reactome; REACT_259526; Displacement of DNA glycosylase by APE1.
+DR   NextBio; 936446; -.
+DR   PRO; PR:P54137; -.
+DR   Proteomes; UP000001940; Chromosome III.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; ISS:WormBase.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034042; F:5-formyluracil DNA N-glycosylase activity; IDA:WormBase.
+DR   GO; GO:0034043; F:5-hydroxymethyluracil DNA N-glycosylase activity; IDA:WormBase.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000703; F:oxidized pyrimidine nucleobase lesion DNA N-glycosylase activity; IDA:WormBase.
+DR   GO; GO:0070301; P:cellular response to hydrogen peroxide; IGI:WormBase.
+DR   GO; GO:0045008; P:depyrimidination; IDA:WormBase.
+DR   GO; GO:0000737; P:DNA catabolic process, endonucleolytic; IDA:GOC.
+DR   GO; GO:0006281; P:DNA repair; IMP:WormBase.
+DR   Gene3D; 1.10.1670.10; -; 1.
+DR   Gene3D; 1.10.340.30; -; 1.
+DR   HAMAP; MF_03183; Endonuclease_III_Nth; 1.
+DR   InterPro; IPR011257; DNA_glycosylase.
+DR   InterPro; IPR004036; Endonuclease-III-like_CS2.
+DR   InterPro; IPR004035; Endouclease-III_FeS-bd_BS.
+DR   InterPro; IPR003651; Endouclease3_FeS-loop_motif.
+DR   InterPro; IPR003265; HhH-GPD_domain.
+DR   InterPro; IPR000445; HhH_motif.
+DR   InterPro; IPR023170; HTH_base_excis_C.
+DR   Pfam; PF00633; HHH; 1.
+DR   Pfam; PF00730; HhH-GPD; 1.
+DR   SMART; SM00478; ENDO3c; 1.
+DR   SMART; SM00525; FES; 1.
+DR   SUPFAM; SSF48150; SSF48150; 1.
+DR   PROSITE; PS00764; ENDONUCLEASE_III_1; 1.
+DR   PROSITE; PS01155; ENDONUCLEASE_III_2; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Alternative initiation; Alternative splicing;
+KW   Complete proteome; DNA damage; DNA repair; Glycosidase; Hydrolase;
+KW   Iron; Iron-sulfur; Lyase; Metal-binding; Mitochondrion; Nucleus;
+KW   Reference proteome.
+FT   CHAIN         1    298       Endonuclease III homolog.
+FT                                /FTId=PRO_0000102229.
+FT   DOMAIN      138    165       HhH. {ECO:0000255|HAMAP-Rule:MF_03183}.
+FT   ACT_SITE    158    158       Nucleophile; for N-glycosylase activity.
+FT                                {ECO:0000255|HAMAP-Rule:MF_03183}.
+FT   METAL       226    226       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_03183}.
+FT   METAL       233    233       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_03183}.
+FT   METAL       236    236       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_03183}.
+FT   METAL       242    242       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_03183}.
+FT   SITE        177    177       Important for catalytic activity.
+FT                                {ECO:0000255|HAMAP-Rule:MF_03183}.
+FT   VAR_SEQ       1    158       Missing (in isoform c). {ECO:0000305}.
+FT                                /FTId=VSP_041643.
+FT   VAR_SEQ       1     74       Missing (in isoform b). {ECO:0000305}.
+FT                                /FTId=VSP_041642.
+FT   VAR_SEQ       1      5       Missing (in isoform a). {ECO:0000305}.
+FT                                /FTId=VSP_041641.
+SQ   SEQUENCE   298 AA;  33117 MW;  ACD504175243F42A CRC64;
+     MHSFSMKRVV ASSSVAAVAT CDVEGTVVAW RRDVELIRKM RKDMIAPVDT MGCHKLADPL
+     AAPPVHRFQV LVALMLSSQT RDEVNAAAMK RLKDHGLSIG KILEFKVPDL ETILCPVGFY
+     KRKAVYLQKT AKILKDDFSG DIPDSLDGLC ALPGVGPKMA NLVMQIAWGE CVGIAVDTHV
+     HRISNRLGWI KTSTPEKTQK ALEILLPKSE WQPINHLLVG FGQMQCQPVR PKCGTCLCRF
+     TCPSSTAKNV KSETEETSTS IEVKQEVEDE FEDEKPAKKI KKTRKTRTKI EVKTESET
+//

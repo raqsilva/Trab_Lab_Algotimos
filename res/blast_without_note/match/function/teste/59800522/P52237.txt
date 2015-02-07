@@ -1,0 +1,94 @@
+ID   DSBE_PSEFC              Reviewed;         178 AA.
+AC   P52237; Q51754;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   07-JAN-2015, entry version 87.
+DE   RecName: Full=Thiol:disulfide interchange protein DsbE;
+DE   AltName: Full=Cytochrome c biogenesis protein CcmG;
+GN   Name=dsbE; Synonyms=ccmG, cyt5, tipB;
+OS   Pseudomonas fluorescens biotype C.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=335;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 17400 / Stanier C-18 / NBRC 15833;
+RX   PubMed=8878040; DOI=10.1046/j.1365-2958.1996.391399.x;
+RA   Gaballa A., Koedam N., Cornelis P.;
+RT   "A cytochrome c biogenesis gene involved in pyoverdine production in
+RT   Pseudomonas fluorescens ATCC 17400.";
+RL   Mol. Microbiol. 21:777-785(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=09906;
+RX   PubMed=8692990; DOI=10.1073/pnas.93.14.7315;
+RA   Yang C.-H., Azad H.R., Cooksey D.A.;
+RT   "A chromosomal locus required for copper resistance, competitive
+RT   fitness, and cytochrome c biogenesis in Pseudomonas fluorescens.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 93:7315-7320(1996).
+CC   -!- FUNCTION: Involved in disulfide bond formation. Catalyzes a late,
+CC       reductive step in the assembly of periplasmic c-type cytochromes,
+CC       probably the reduction of disulfide bonds of the apocytochrome c
+CC       to allow covalent linkage with the heme. Possible subunit of a
+CC       heme lyase (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Single-
+CC       pass membrane protein {ECO:0000250}; Periplasmic side
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the thioredoxin family. DsbE subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 thioredoxin domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00691}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z47979; CAA88019.1; -; Genomic_DNA.
+DR   EMBL; U44827; AAC44227.1; -; Genomic_DNA.
+DR   ProteinModelPortal; P52237; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015036; F:disulfide oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0017004; P:cytochrome complex assembly; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR004799; Periplasmic_diS_OxRdtase_DsbE.
+DR   InterPro; IPR013740; Redoxin.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   Pfam; PF08534; Redoxin; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   TIGRFAMs; TIGR00385; dsbE; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Cytochrome c-type biogenesis;
+KW   Disulfide bond; Membrane; Redox-active center; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    178       Thiol:disulfide interchange protein DsbE.
+FT                                /FTId=PRO_0000201299.
+FT   TOPO_DOM      1      3       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM      4     24       Helical. {ECO:0000255}.
+FT   TOPO_DOM     25    178       Periplasmic. {ECO:0000255}.
+FT   DOMAIN       34    178       Thioredoxin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+FT   DISULFID     73     76       Redox-active. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+FT   CONFLICT      8      8       V -> L (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+FT   CONFLICT     34     34       R -> A (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+FT   CONFLICT     44     44       N -> S (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+FT   CONFLICT     49     49       H -> Q (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+FT   CONFLICT     60     60       R -> I (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+FT   CONFLICT    120    120       I -> V (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+FT   CONFLICT    152    152       Y -> F (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+FT   CONFLICT    163    164       DE -> EQ (in Ref. 1; CAA88019).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   178 AA;  20043 MW;  83BF444DCD8BF679 CRC64;
+     MKRWLMVVPL ALFLLVAVFL YRGLYLDPAE LPSRMIGKPF PAFNLPTVHG DKTLTQADLR
+     GKPALVNVWA TWCISCRVEH PVLNKLAEKG VVIYGINYKD DNAAALKWLA EFHNPYQLDI
+     RDEDGNLGLN LGVYGAPETF FIDAKGVIRD KYVGVIDEVV WRDELAAKYQ ALVDEAKP
+//

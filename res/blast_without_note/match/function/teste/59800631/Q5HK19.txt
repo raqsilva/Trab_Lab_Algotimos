@@ -1,0 +1,137 @@
+ID   WALK_STAEQ              Reviewed;         610 AA.
+AC   Q5HK19;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Sensor protein kinase WalK;
+DE            EC=2.7.13.3;
+GN   Name=walK; Synonyms=yycG; OrderedLocusNames=SERP2533;
+OS   Staphylococcus epidermidis (strain ATCC 35984 / RP62A).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=176279;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35984 / RP62A;
+RX   PubMed=15774886; DOI=10.1128/JB.187.7.2426-2438.2005;
+RA   Gill S.R., Fouts D.E., Archer G.L., Mongodin E.F., DeBoy R.T.,
+RA   Ravel J., Paulsen I.T., Kolonay J.F., Brinkac L.M., Beanan M.J.,
+RA   Dodson R.J., Daugherty S.C., Madupu R., Angiuoli S.V., Durkin A.S.,
+RA   Haft D.H., Vamathevan J.J., Khouri H., Utterback T.R., Lee C.,
+RA   Dimitrov G., Jiang L., Qin H., Weidman J., Tran K., Kang K.H.,
+RA   Hance I.R., Nelson K.E., Fraser C.M.;
+RT   "Insights on evolution of virulence and resistance from the complete
+RT   genome analysis of an early methicillin-resistant Staphylococcus
+RT   aureus strain and a biofilm-producing methicillin-resistant
+RT   Staphylococcus epidermidis strain.";
+RL   J. Bacteriol. 187:2426-2438(2005).
+RN   [2]
+RP   FUNCTION IN REGULATING CELL WALL METABOLISM AND BIOFILM FORMATION.
+RX   PubMed=17094812; DOI=10.1186/1471-2180-6-96;
+RA   Qin Z.-Q., Zhang J., Xu B., Chen L., Wu Y., Yang X., Shen X.,
+RA   Molin S., Danchin A., Jiang H., Qu D.;
+RT   "Structure-based discovery of inhibitors of the YycG histidine kinase:
+RT   new chemical leads to combat Staphylococcus epidermidis infections.";
+RL   BMC Microbiol. 6:96-96(2006).
+CC   -!- FUNCTION: Member of the two-component regulatory system WalK/WalR
+CC       that regulates genes involved in autolysis, biofilm formation and
+CC       cell wall metabolism. WalK functions as a sensor protein kinase
+CC       which is autophosphorylated at a histidine residue and transfers
+CC       its phosphate group to WalR (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- PTM: Autophosphorylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -!- SIMILARITY: Contains 1 PAC (PAS-associated C-terminal) domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00141}.
+CC   -!- SIMILARITY: Contains 1 PAS (PER-ARNT-SIM) domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00140}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000029; AAW53341.1; -; Genomic_DNA.
+DR   RefSeq; YP_190074.1; NC_002976.3.
+DR   ProteinModelPortal; Q5HK19; -.
+DR   STRING; 176279.SERP2533; -.
+DR   EnsemblBacteria; AAW53341; AAW53341; SERP2533.
+DR   GeneID; 3240734; -.
+DR   KEGG; ser:SERP2533; -.
+DR   PATRIC; 19615932; VBIStaEpi130894_2452.
+DR   eggNOG; COG5002; -.
+DR   HOGENOM; HOG000223176; -.
+DR   KO; K07652; -.
+DR   OMA; SDGAIND; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; SEPI176279:GJJB-2611-MONOMER; -.
+DR   Proteomes; UP000000531; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR000700; PAS-assoc_C.
+DR   InterPro; IPR013767; PAS_fold.
+DR   InterPro; IPR029151; Sensor-like.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   Pfam; PF00989; PAS; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SUPFAM; SSF103190; SSF103190; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55785; SSF55785; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   TIGRFAMs; TIGR00229; sensory_box; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+DR   PROSITE; PS50113; PAC; 1.
+DR   PROSITE; PS50112; PAS; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Complete proteome; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase;
+KW   Transmembrane; Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    610       Sensor protein kinase WalK.
+FT                                /FTId=PRO_0000353066.
+FT   TRANSMEM     14     34       Helical. {ECO:0000255}.
+FT   TRANSMEM    185    205       Helical. {ECO:0000255}.
+FT   DOMAIN      206    258       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      263    334       PAS. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00140}.
+FT   DOMAIN      327    380       PAC. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00141}.
+FT   DOMAIN      384    602       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     387    387       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   610 AA;  69944 MW;  1ECE9A660C6EF6D9 CRC64;
+     MKWLKQLQSL HTKLVIVYVL LIIIGMQIIG LYFTNSLEKE LLDNFKKNIT QYAKQLDVNI
+     EKVYKDKDKG SVNAQKDIQD LLNEYANRQE IGEIRFIDKD QIIMATTKQS NRGLINQKVN
+     DGSVQKALSL GQTNDHMVLK DYGSGKERVW VYNIPVKVDK QTIGDIYIES KINDVYNQLN
+     NINQIFIVGT AISLFITVIL GFFIARTITK PITDMRNQTV EMSKGNYTQR VKIYGNDEIG
+     ELALAFNNLS KRVQEAQANT ESEKRRLDSV ITHMSDGILA TDRRGRVRIA NDMALKMLGL
+     AKEDVIGYYM LGVLNLENEF SLEEIQENSD SFLLDINEEE GIIARVNFST IVQETGFVTG
+     YIAVLHDVTE QQQVERERRE FVANVSHELR TPLTSMNSYI EALEEGAWQD KELAPSFLSV
+     TREETERMIR LVNDLLQLSK MDNESDQITK EIIDFNMFIN KIINRHEMAA KDTTFVREIP
+     QQTIFAEIDP DKMTQVFDNV ITNAMKYSRG EKRVEFHVKQ NALYNRMTIR IKDNGIGIPI
+     NKVDKIFDRF YRVDKARTRK MGGTGLGLAI SKEIVEAHNG RIWANSVEGQ GTSIFITLPC
+     EIIEDGDWDE
+//

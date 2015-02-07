@@ -1,0 +1,93 @@
+ID   CYC4_PSEAE              Reviewed;         201 AA.
+AC   P00106;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   08-DEC-2000, sequence version 3.
+DT   07-JAN-2015, entry version 110.
+DE   RecName: Full=Cytochrome c4;
+DE   Flags: Precursor;
+GN   Name=cc4; OrderedLocusNames=PA5490;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG
+OS   12228).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T.,
+RA   Reizer J., Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an
+RT   opportunistic pathogen.";
+RL   Nature 406:959-964(2000).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 21-201.
+RA   Ambler R.P.;
+RL   Submitted (MAY-1995) to UniProtKB.
+CC   -!- FUNCTION: Diheme, high potential cytochrome c believed to be an
+CC       intermediate electron donor to terminal oxidation systems.
+CC   -!- SUBCELLULAR LOCATION: Periplasm.
+CC   -!- PTM: Binds 2 heme groups per subunit.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004091; AAG08875.1; -; Genomic_DNA.
+DR   PIR; A00098; CCPS4A.
+DR   PIR; A82961; A82961.
+DR   RefSeq; NP_254177.1; NC_002516.2.
+DR   ProteinModelPortal; P00106; -.
+DR   SMR; P00106; 21-201.
+DR   STRING; 208964.PA5490; -.
+DR   DNASU; 877732; -.
+DR   EnsemblBacteria; AAG08875; AAG08875; PA5490.
+DR   GeneID; 877732; -.
+DR   KEGG; pae:PA5490; -.
+DR   PATRIC; 19845867; VBIPseAer58763_5755.
+DR   PseudoCAP; PA5490; -.
+DR   eggNOG; COG2863; -.
+DR   HOGENOM; HOG000221626; -.
+DR   InParanoid; P00106; -.
+DR   OMA; IAACAGC; -.
+DR   OrthoDB; EOG6JDWB3; -.
+DR   PhylomeDB; P00106; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0020037; F:heme binding; ISS:PseudoCAP.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0055114; P:oxidation-reduction process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.760.10; -; 2.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   InterPro; IPR024167; Cytochrome_c4.
+DR   Pfam; PF00034; Cytochrom_C; 2.
+DR   PIRSF; PIRSF000005; Cytochrome_c4; 1.
+DR   SUPFAM; SSF46626; SSF46626; 2.
+DR   PROSITE; PS51007; CYTC; 2.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Direct protein sequencing; Electron transport;
+KW   Heme; Iron; Metal-binding; Periplasm; Reference proteome; Signal;
+KW   Transport.
+FT   SIGNAL        1     20       {ECO:0000269|Ref.2}.
+FT   CHAIN        21    201       Cytochrome c4.
+FT                                /FTId=PRO_0000006508.
+FT   METAL        38     38       Iron (heme 1 axial ligand).
+FT   METAL        77     77       Iron (heme 1 axial ligand).
+FT   METAL       134    134       Iron (heme 2 axial ligand).
+FT   METAL       178    178       Iron (heme 2 axial ligand).
+FT   BINDING      34     34       Heme 1 (covalent).
+FT   BINDING      37     37       Heme 1 (covalent).
+FT   BINDING     130    130       Heme 2 (covalent).
+FT   BINDING     133    133       Heme 2 (covalent).
+FT   CONFLICT     86     87       DQ -> NE (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   201 AA;  20735 MW;  E829B7B8F361F7B5 CRC64;
+     MNKLLVSLLL TLGLTGLAHA AGDAAAGQAK AAVCGACHGA DGNSPAPNFP KLAGQGERYL
+     LKQMHDIKDG KRTVLEMTGL LTNLSDQDLA DIAAYFASQK MSVGMADPNL VAQGEALFRG
+     GKIAEGMPAC TGCHSPSGVG IATAGFPHLG GQHATYVAKQ LTDFREGTRT NDGDTKIMQS
+     IAAKLSNKDI AAISSYIQGL H
+//

@@ -1,0 +1,120 @@
+ID   RHLB_SALTI              Reviewed;         421 AA.
+AC   P0A2P1; P40863; Q9L6R8;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   07-JAN-2015, entry version 71.
+DE   RecName: Full=ATP-dependent RNA helicase RhlB {ECO:0000255|HAMAP-Rule:MF_00661};
+DE            EC=3.6.4.13 {ECO:0000255|HAMAP-Rule:MF_00661};
+GN   Name=rhlB {ECO:0000255|HAMAP-Rule:MF_00661};
+GN   OrderedLocusNames=STY3640, t3382;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P.,
+RA   Cronin A., Davis P., Davies R.M., Dowd L., White N., Farrar J.,
+RA   Feltwell T., Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K.,
+RA   Krogh A., Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C.,
+RA   Quail M.A., Rutherford K.M., Simmonds M., Skelton J., Stevens K.,
+RA   Whitehead S., Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella
+RT   enterica serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/JB.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J.,
+RA   Burland V., Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2
+RT   and CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: DEAD-box RNA helicase involved in RNA degradation. Has
+CC       RNA-dependent ATPase activity and unwinds double-stranded RNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SUBUNIT: Component of the RNA degradosome, which is a multiprotein
+CC       complex involved in RNA processing and mRNA degradation.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. RhlB
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09401.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70906.1; -; Genomic_DNA.
+DR   RefSeq; NP_457832.1; NC_003198.1.
+DR   RefSeq; NP_807046.1; NC_004631.1.
+DR   ProteinModelPortal; P0A2P1; -.
+DR   STRING; 220341.STY3640; -.
+DR   PRIDE; P0A2P1; -.
+DR   EnsemblBacteria; AAO70906; AAO70906; t3382.
+DR   EnsemblBacteria; CAD09401; CAD09401; CAD09401.
+DR   GeneID; 1249895; -.
+DR   KEGG; sty:STY3640; -.
+DR   PATRIC; 18545398; VBISalEnt120419_3709.
+DR   HOGENOM; HOG000268807; -.
+DR   KO; K03732; -.
+DR   OMA; RVQELAY; -.
+DR   OrthoDB; EOG6GBMBM; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004004; F:ATP-dependent RNA helicase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006401; P:RNA catabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00661; DEAD_helicase_RhlB; 1.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR023554; RNA_helicase_ATP-dep_RhlB.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; Helicase; Hydrolase;
+KW   Nucleotide-binding; RNA-binding.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    421       ATP-dependent RNA helicase RhlB.
+FT                                /FTId=PRO_0000200782.
+FT   DOMAIN       40    219       Helicase ATP-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00661}.
+FT   DOMAIN      245    390       Helicase C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00661}.
+FT   NP_BIND      53     60       ATP. {ECO:0000255|HAMAP-Rule:MF_00661}.
+FT   MOTIF         9     37       Q motif.
+FT   MOTIF       165    168       DEAD box.
+SQ   SEQUENCE   421 AA;  47093 MW;  8A48375C667EBD67 CRC64;
+     MSKTHLTEQK FSDFALHPQV VEALEKKGFY NCTPIQALAL PLTLAGRDVA GQAQTGTGKT
+     MAFLTSTFHY LLSHPAIDDR KVNQPRALIM APTRELAVQI HADAEPLAQA TGLKLGLAYG
+     GDGYDKQLKV LESGVDILIG TTGRLIDYAK QNHINLGAIQ VVVLDEADRM YDLGFIKDIR
+     WLFRRMPPAA QRLNMLFSAT LSYRVRELAF EQMNNAEYVE VEPEQKTGHR IKEELFYPSN
+     EEKMRLLQTL IEEEWPDRAI IFANTKHRCE DIWGHLAADG HRVGLLTGDV AQKKRLRILD
+     EFTRGDLDIL VATDVAARGL HIPAVTHVFN YDLPDDCEDY VHRIGRTGRA GASGHSISLA
+     CEEYALNLPA IESYIGHSIP VSKYNPEALM NDLPKPLRLT RSRPGNGPRR AGAPRNRRRS
+     G
+//

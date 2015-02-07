@@ -1,0 +1,110 @@
+ID   DEGPL_CHLTR             Reviewed;         497 AA.
+AC   P18584; O84830;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 2.
+DT   07-JAN-2015, entry version 112.
+DE   RecName: Full=Probable periplasmic serine endoprotease DegP-like;
+DE            EC=3.4.21.107;
+DE   AltName: Full=59 kDa immunogenic protein;
+DE   AltName: Full=Protease Do;
+DE   AltName: Full=SK59;
+DE   Flags: Precursor;
+GN   Name=htrA; OrderedLocusNames=CT_823;
+OS   Chlamydia trachomatis (strain D/UW-3/Cx).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=272561;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=L2;
+RX   PubMed=2379836; DOI=10.1016/0378-1119(90)90439-X;
+RA   Kahane S., Weinstein Y., Sarov I.;
+RT   "Cloning, characterization and sequence of a novel 59-kDa protein of
+RT   Chlamydia trachomatis.";
+RL   Gene 90:61-67(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=D/UW-3/Cx;
+RX   PubMed=9784136; DOI=10.1126/science.282.5389.754;
+RA   Stephens R.S., Kalman S., Lammel C.J., Fan J., Marathe R., Aravind L.,
+RA   Mitchell W.P., Olinger L., Tatusov R.L., Zhao Q., Koonin E.V.,
+RA   Davis R.W.;
+RT   "Genome sequence of an obligate intracellular pathogen of humans:
+RT   Chlamydia trachomatis.";
+RL   Science 282:754-759(1998).
+CC   -!- FUNCTION: Might be efficient in the degradation of transiently
+CC       denatured and unfolded proteins which accumulate in the periplasm
+CC       following stress conditions. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 PDZ (DHR) domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA23116.1; Type=Miscellaneous discrepancy; Note=Sequencing errors. The putative 59 kDa immunogenic protein was translated on the complementary strand to that of what seems to be the real protein.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M31119; AAA23116.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AE001273; AAC68420.1; -; Genomic_DNA.
+DR   PIR; H71465; H71465.
+DR   PIR; JQ0642; JQ0642.
+DR   RefSeq; NP_220344.1; NC_000117.1.
+DR   ProteinModelPortal; P18584; -.
+DR   STRING; 272561.CT823; -.
+DR   MEROPS; S01.480; -.
+DR   EnsemblBacteria; AAC68420; AAC68420; CT_823.
+DR   GeneID; 884623; -.
+DR   KEGG; ctr:CT_823; -.
+DR   PATRIC; 20381358; VBIChlTra43535_0909.
+DR   eggNOG; COG0265; -.
+DR   InParanoid; P18584; -.
+DR   KO; K01362; -.
+DR   OMA; MEMSADI; -.
+DR   OrthoDB; EOG61ZTDN; -.
+DR   Proteomes; UP000000431; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; ISS:UniProtKB.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISS:UniProtKB.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF13180; PDZ_2; 2.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; SSF50156; 2.
+DR   SUPFAM; SSF50494; SSF50494; 2.
+DR   TIGRFAMs; TIGR02037; degP_htrA_DO; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Periplasm; Protease; Reference proteome;
+KW   Repeat; Serine protease; Signal; Stress response.
+FT   SIGNAL        1     16       {ECO:0000255}.
+FT   CHAIN        17    497       Probable periplasmic serine endoprotease
+FT                                DegP-like.
+FT                                /FTId=PRO_0000026932.
+FT   DOMAIN      290    381       PDZ 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   DOMAIN      394    485       PDZ 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   REGION      128    289       Serine protease.
+FT   REGION      245    247       Substrate binding. {ECO:0000250}.
+FT   REGION      302    306       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    143    143       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    173    173       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    247    247       Charge relay system. {ECO:0000255}.
+SQ   SEQUENCE   497 AA;  53244 MW;  86A5E31BB84A38BA CRC64;
+     MMKRLLCVLL STSVFSSPML GYSASKKDSK ADICLAVSSG DQEVSQEDLL KEVSRGFSRV
+     AAKATPGVVY IENFPKTGNQ AIASPGNKRG FQENPFDYFN DEFFNRFFGL PSHREQQRPQ
+     QRDAVRGTGF IVSEDGYVVT NHHVVEDAGK IHVTLHDGQK YTAKIVGLDP KTDLAVIKIQ
+     AEKLPFLTFG NSDQLQIGDW AIAIGNPFGL QATVTVGVIS AKGRNQLHIV DFEDFIQTDA
+     AINPGNSGGP LLNINGQVIG VNTAIVSGSG GYIGIGFAIP SLMAKRVIDQ LISDGQVTRG
+     FLGVTLQPID SELATCYKLE KVYGALVTDV VKGSPAEKAG LRQEDVIVAY NGKEVESLSA
+     LRNAISLMMP GTRVVLKIVR EGKTIEIPVT VTQIPTEDGV SALQKMGVRV QNITPEICKK
+     LGLAADTRGI LVVAVEAGSP AASAGVAPGQ LILAVNRQRV ASVEELNQVL KNSKGENVLL
+     MVSQGDVVRF IVLKSDE
+//

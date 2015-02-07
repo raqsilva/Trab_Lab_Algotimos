@@ -1,0 +1,94 @@
+ID   RIMI_SHIFL              Reviewed;         148 AA.
+AC   P0A947; P09453;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 1.
+DT   07-JAN-2015, entry version 66.
+DE   RecName: Full=Ribosomal-protein-alanine acetyltransferase;
+DE            EC=2.3.1.128;
+DE   AltName: Full=Acetylating enzyme for N-terminal of ribosomal protein S18;
+GN   Name=rimI; OrderedLocusNames=SF4404, S4676;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H.,
+RA   Yang J., Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J.,
+RA   Sun L., Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S.,
+RA   Cheng H., Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y.,
+RA   Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/IAI.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W.,
+RA   Fournier G., Mayhew G.F., Plunkett G. III, Rose D.J., Darling A.,
+RA   Mau B., Perna N.T., Payne S.M., Runyen-Janecky L.J., Zhou S.,
+RA   Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella
+RT   flexneri serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: This enzyme acetylates the N-terminal alanine of
+CC       ribosomal protein S18. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + ribosomal-protein L-alanine = CoA
+CC       + ribosomal-protein N-acetyl-L-alanine.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. RimI
+CC       subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 N-acetyltransferase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00532}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005674; AAN45819.1; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP19594.1; -; Genomic_DNA.
+DR   RefSeq; NP_710112.1; NC_004337.2.
+DR   RefSeq; NP_839782.1; NC_004741.1.
+DR   ProteinModelPortal; P0A947; -.
+DR   SMR; P0A947; 1-148.
+DR   STRING; 198214.SF4404; -.
+DR   PaxDb; P0A947; -.
+DR   EnsemblBacteria; AAN45819; AAN45819; SF4404.
+DR   EnsemblBacteria; AAP19594; AAP19594; S4676.
+DR   GeneID; 1023573; -.
+DR   GeneID; 1080874; -.
+DR   KEGG; sfl:SF4404; -.
+DR   KEGG; sfx:S4676; -.
+DR   PATRIC; 18711410; VBIShiFle31049_5100.
+DR   eggNOG; COG0456; -.
+DR   HOGENOM; HOG000078523; -.
+DR   KO; K03789; -.
+DR   OMA; NNLADCF; -.
+DR   OrthoDB; EOG6D8B8B; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008999; F:ribosomal-protein-alanine N-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006474; P:N-terminal protein amino acid acetylation; IEA:InterPro.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   InterPro; IPR006464; Rbsml_AcTrfase.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR01575; rimI; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Cytoplasm; Transferase.
+FT   CHAIN         1    148       Ribosomal-protein-alanine
+FT                                acetyltransferase.
+FT                                /FTId=PRO_0000074566.
+FT   DOMAIN        2    147       N-acetyltransferase.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00532}.
+SQ   SEQUENCE   148 AA;  16610 MW;  46A8412D38D42F86 CRC64;
+     MNTISSLETT DLPAAYHIEQ RAHAFPWSEK TFASNQGERY LNFQLTQNGK MAAFAITQVV
+     LDEATLFNIA VDPDYQRQGL GRALLEHLID ELEKRGVATL WLEVRASNAA AIALYESLGF
+     NEATIRRNYY PTTDGREDAI IMALPISM
+//

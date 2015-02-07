@@ -1,0 +1,109 @@
+ID   TADA_SALTI              Reviewed;         172 AA.
+AC   Q8XGY4; Q7AMI0;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   26-JUN-2007, sequence version 2.
+DT   07-JAN-2015, entry version 78.
+DE   RecName: Full=tRNA-specific adenosine deaminase {ECO:0000255|HAMAP-Rule:MF_00972};
+DE            EC=3.5.4.33 {ECO:0000255|HAMAP-Rule:MF_00972};
+GN   Name=tadA {ECO:0000255|HAMAP-Rule:MF_00972};
+GN   OrderedLocusNames=STY2814, t0289;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P.,
+RA   Cronin A., Davis P., Davies R.M., Dowd L., White N., Farrar J.,
+RA   Feltwell T., Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K.,
+RA   Krogh A., Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C.,
+RA   Quail M.A., Rutherford K.M., Simmonds M., Skelton J., Stevens K.,
+RA   Whitehead S., Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella
+RT   enterica serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/JB.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J.,
+RA   Burland V., Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2
+RT   and CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the deamination of adenosine to inosine at the
+CC       wobble position 34 of tRNA(Arg2). {ECO:0000255|HAMAP-
+CC       Rule:MF_00972}.
+CC   -!- CATALYTIC ACTIVITY: Adenine(34) in tRNA + H(2)O = hypoxanthine(34)
+CC       in tRNA + NH(3). {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00972};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00972};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -!- SIMILARITY: Belongs to the cytidine and deoxycytidylate deaminase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -!- SIMILARITY: Contains 1 CMP/dCMP deaminase zinc-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO68014.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC       Sequence=CAD02770.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02770.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE014613; AAO68014.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_457097.1; NC_003198.1.
+DR   RefSeq; NP_804165.1; NC_004631.1.
+DR   ProteinModelPortal; Q8XGY4; -.
+DR   SMR; Q8XGY4; 2-157.
+DR   STRING; 220341.STY2814; -.
+DR   PRIDE; Q8XGY4; -.
+DR   EnsemblBacteria; AAO68014; AAO68014; t0289.
+DR   EnsemblBacteria; CAD02770; CAD02770; CAD02770.
+DR   GeneID; 1249123; -.
+DR   KEGG; sty:STY2814; -.
+DR   PATRIC; 18543642; VBISalEnt120419_2862.
+DR   eggNOG; COG0590; -.
+DR   HOGENOM; HOG000085050; -.
+DR   KO; K11991; -.
+DR   OMA; HRVEISE; -.
+DR   OrthoDB; EOG64FKGZ; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0052717; F:tRNA-specific adenosine-34 deaminase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0002100; P:tRNA wobble adenosine to inosine editing; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00972; tRNA_aden_deaminase; 1.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR028883; tRNA_aden_deaminase.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Metal-binding; tRNA processing; Zinc.
+FT   CHAIN         1    172       tRNA-specific adenosine deaminase.
+FT                                /FTId=PRO_0000171736.
+FT   DOMAIN        7    105       CMP/dCMP deaminase zinc-binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00972}.
+FT   ACT_SITE     59     59       Proton donor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00972}.
+FT   METAL        57     57       Zinc; via pros nitrogen; catalytic.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00972}.
+FT   METAL        87     87       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00972}.
+FT   METAL        90     90       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00972}.
+SQ   SEQUENCE   172 AA;  19204 MW;  CD34E298DAF45F3F CRC64;
+     MSDVELDHEY WMRHALTLAK RAWDEREVPV GAVLVHNHRV IGEGWNRPIG RHDPTAHAEI
+     MALRQGGLVL QNYRLLDTTL YVTLEPCVMC AGAMVHSRIG RVVFGARDAK TGAAGSLIDV
+     LHHPGMNHRV EIIEGVLRDE CATLLSDFFR MRRQEIKALK KADRAEGAGP AV
+//

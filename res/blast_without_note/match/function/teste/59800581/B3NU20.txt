@@ -1,0 +1,99 @@
+ID   NO66_DROER              Reviewed;         657 AA.
+AC   B3NU20;
+DT   19-JAN-2010, integrated into UniProtKB/Swiss-Prot.
+DT   02-SEP-2008, sequence version 1.
+DT   07-JAN-2015, entry version 38.
+DE   RecName: Full=Bifunctional lysine-specific demethylase and histidyl-hydroxylase NO66;
+DE            EC=1.14.11.-;
+DE   AltName: Full=Histone lysine demethylase NO66;
+GN   ORFNames=GG18702;
+OS   Drosophila erecta (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+OC   Pterygota; Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha;
+OC   Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7220;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Tucson 14021-0224.01;
+RX   PubMed=17994087; DOI=10.1038/nature06341;
+RG   Drosophila 12 genomes consortium;
+RT   "Evolution of genes and genomes on the Drosophila phylogeny.";
+RL   Nature 450:203-218(2007).
+CC   -!- FUNCTION: Oxygenase that can act as both a histone lysine
+CC       demethylase and a ribosomal histidine hydroxylase. Specifically
+CC       demethylates 'Lys-4' (H3K4me) and 'Lys-36' (H3K36me) of histone
+CC       H3, thereby playing a central role in histone code (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Protein N(6),N(6)-dimethyl-L-lysine + 2-
+CC       oxoglutarate + O(2) = protein N(6)-methyl-L-lysine + succinate +
+CC       formaldehyde + CO(2).
+CC   -!- CATALYTIC ACTIVITY: Protein N(6)-methyl-L-lysine + 2-oxoglutarate
+CC       + O(2) = protein L-lysine + succinate + formaldehyde + CO(2).
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the MINA53/NO66 family. NO66 subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 JmjC domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00538}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CH954180; EDV45796.1; -; Genomic_DNA.
+DR   RefSeq; XP_001976869.1; XM_001976833.1.
+DR   EnsemblMetazoa; FBtr0138756; FBpp0137248; FBgn0110911.
+DR   GeneID; 6550993; -.
+DR   KEGG; der:Dere_GG18702; -.
+DR   FlyBase; FBgn0110911; Dere\GG18702.
+DR   KO; K16914; -.
+DR   OrthoDB; EOG74FF0N; -.
+DR   PhylomeDB; B3NU20; -.
+DR   Proteomes; UP000008711; Unassembled WGS sequence.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0051864; F:histone demethylase activity (H3-K36 specific); ISS:UniProtKB.
+DR   GO; GO:0032453; F:histone demethylase activity (H3-K4 specific); ISS:UniProtKB.
+DR   GO; GO:0005506; F:iron ion binding; ISS:UniProtKB.
+DR   GO; GO:0016706; F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors; ISS:UniProtKB.
+DR   GO; GO:0070544; P:histone H3-K36 demethylation; ISS:UniProtKB.
+DR   GO; GO:0034720; P:histone H3-K4 demethylation; ISS:UniProtKB.
+DR   GO; GO:0045892; P:negative regulation of transcription, DNA-templated; ISS:UniProtKB.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   InterPro; IPR003347; JmjC_dom.
+DR   InterPro; IPR013109; NO66.
+DR   PANTHER; PTHR13096:SF4; PTHR13096:SF4; 1.
+DR   Pfam; PF08007; Cupin_4; 1.
+DR   SMART; SM00558; JmjC; 1.
+DR   PROSITE; PS51184; JMJC; 1.
+PE   3: Inferred from homology;
+KW   Chromatin regulator; Complete proteome; Dioxygenase; Iron;
+KW   Metal-binding; Nucleus; Oxidoreductase; Phosphoprotein; Repressor;
+KW   Transcription; Transcription regulation.
+FT   CHAIN         1    657       Bifunctional lysine-specific demethylase
+FT                                and histidyl-hydroxylase NO66.
+FT                                /FTId=PRO_0000390985.
+FT   DOMAIN      315    454       JmjC. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00538}.
+FT   METAL       355    355       Iron; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00538}.
+FT   METAL       357    357       Iron; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00538}.
+FT   METAL       420    420       Iron; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00538}.
+FT   MOD_RES     133    133       Phosphoserine. {ECO:0000250}.
+FT   MOD_RES     139    139       Phosphothreonine. {ECO:0000250}.
+FT   MOD_RES     140    140       Phosphoserine. {ECO:0000250}.
+SQ   SEQUENCE   657 AA;  73649 MW;  2596732EFB8D11D8 CRC64;
+     MQKASTSAGA KTAGNRKMQK SPNNGAAKAQ KSAKTVDTVT DSELLYNPPA FLTAAEKERR
+     KYLQARVRAE GESASTSSKS NATRPTDRKR HLQAEDPLPA DANNNDTNKG GKVAQESAST
+     QAAGTTKRKQ PRSQGLEQTS PIMVNGEALA CPLVRKSLPA AEAAKSCPLP SKKDSVTKSP
+     MTVHEAPKVD SATSNSNEKQ LATMPVDIHK TDSIEEGRRV LEWLINPVAV NQFFADFWEN
+     NACVVQRKNP NYYSKLMSFK MIDDILMRNR VEFGTNLDVT IYRNGKRETL NPEGRAFPSV
+     VWDFYAEGCS IRILNPSTYL LGLRQVCSIM QEFFHCLVGA NVYLTPPNSQ GFAPHYDDIE
+     AFVIQVEGRK RWRLYEPPEK ADQLSRTSSG NYDQKQLGEP IIDEVLEAGD LLYFPRGTVH
+     QAITEKGHFS LHITLSVYQQ QAYANLLETL MPIVLKKAVK KSVALRRGLP LHTFHVLGEV
+     QRTNRCESRD QLVENVQKLV SKYLMPSTQD IDEAVDQLAK KFQHEALPPI ILPEEKVRTV
+     FGSRSISDQE GNSVCDYEFD TDTSVRLLRA NILRLVNEDD GSVKIYHHVN NALEYCKYEP
+     NFLEILQEEA IAVEVLISAY PYYITVDQLP LKTVARKVEV ATALWEHGLL MTEKPFK
+//

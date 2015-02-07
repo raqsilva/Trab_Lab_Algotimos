@@ -1,0 +1,125 @@
+ID   RIBD_CHLMU              Reviewed;         371 AA.
+AC   Q9PLJ6;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   27-APR-2001, sequence version 2.
+DT   07-JAN-2015, entry version 97.
+DE   RecName: Full=Riboflavin biosynthesis protein RibD;
+DE   Includes:
+DE     RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase;
+DE              Short=DRAP deaminase;
+DE              EC=3.5.4.26;
+DE     AltName: Full=Riboflavin-specific deaminase;
+DE   Includes:
+DE     RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase;
+DE              EC=1.1.1.193;
+DE     AltName: Full=HTP reductase;
+GN   Name=ribD; OrderedLocusNames=TC_0103;
+OS   Chlamydia muridarum (strain MoPn / Nigg).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=243161;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MoPn / Nigg;
+RX   PubMed=10684935; DOI=10.1093/nar/28.6.1397;
+RA   Read T.D., Brunham R.C., Shen C., Gill S.R., Heidelberg J.F.,
+RA   White O., Hickey E.K., Peterson J.D., Utterback T.R., Berry K.J.,
+RA   Bass S., Linher K.D., Weidman J.F., Khouri H.M., Craven B., Bowman C.,
+RA   Dodson R.J., Gwinn M.L., Nelson W.C., DeBoy R.T., Kolonay J.F.,
+RA   McClarty G., Salzberg S.L., Eisen J.A., Fraser C.M.;
+RT   "Genome sequences of Chlamydia trachomatis MoPn and Chlamydia
+RT   pneumoniae AR39.";
+RL   Nucleic Acids Res. 28:1397-1406(2000).
+CC   -!- FUNCTION: Converts 2,5-diamino-6-(ribosylamino)-4(3h)-pyrimidinone
+CC       5'-phosphate into 5-amino-6-(ribosylamino)-2,4(1h,3h)-
+CC       pyrimidinedione 5'-phosphate.
+CC   -!- CATALYTIC ACTIVITY: 2,5-diamino-6-hydroxy-4-(5-
+CC       phosphoribosylamino)pyrimidine + H(2)O = 5-amino-6-(5-
+CC       phosphoribosylamino)uracil + NH(3).
+CC   -!- CATALYTIC ACTIVITY: 5-amino-6-(5-phospho-D-ribitylamino)uracil +
+CC       NADP(+) = 5-amino-6-(5-phospho-D-ribosylamino)uracil + NADPH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 2/4.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 3/4.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the cytidine and
+CC       deoxycytidylate deaminase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the HTP
+CC       reductase family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAF38983.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE002160; AAF38983.1; ALT_INIT; Genomic_DNA.
+DR   PIR; D81742; D81742.
+DR   RefSeq; NP_296487.1; NC_002620.2.
+DR   ProteinModelPortal; Q9PLJ6; -.
+DR   STRING; 243161.TC0103; -.
+DR   EnsemblBacteria; AAF38983; AAF38983; TC_0103.
+DR   GeneID; 1245633; -.
+DR   KEGG; cmu:TC_0103; -.
+DR   PATRIC; 20371560; VBIChlMur19118_0116.
+DR   eggNOG; COG0117; -.
+DR   KO; K11752; -.
+DR   OrthoDB; EOG66F07R; -.
+DR   BioCyc; CMUR243161:GHYU-110-MONOMER; -.
+DR   UniPathway; UPA00275; UER00401.
+DR   UniPathway; UPA00275; UER00402.
+DR   Proteomes; UP000000800; Chromosome.
+DR   GO; GO:0008703; F:5-amino-6-(5-phosphoribosylamino)uracil reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008835; F:diaminohydroxyphosphoribosylaminopyrimidine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.430.10; -; 1.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR024072; DHFR-like_dom.
+DR   InterPro; IPR004794; Eubact_RibD.
+DR   InterPro; IPR011549; RibD_C.
+DR   InterPro; IPR002734; RibDG_C.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   Pfam; PF01872; RibD_C; 1.
+DR   PIRSF; PIRSF006769; RibD; 1.
+DR   SUPFAM; SSF53597; SSF53597; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR00326; eubact_ribD; 1.
+DR   TIGRFAMs; TIGR00227; ribD_Cterm; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Metal-binding; Multifunctional enzyme;
+KW   NADP; Oxidoreductase; Riboflavin biosynthesis; Zinc.
+FT   CHAIN         1    371       Riboflavin biosynthesis protein RibD.
+FT                                /FTId=PRO_0000171717.
+FT   NP_BIND     301    307       NADP. {ECO:0000250}.
+FT   REGION        1    150       Deaminase.
+FT   REGION      151    371       Reductase.
+FT   ACT_SITE     57     57       Proton donor. {ECO:0000250}.
+FT   METAL        55     55       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        80     80       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        89     89       Zinc; catalytic. {ECO:0000250}.
+FT   BINDING     159    159       NADP; via amide nitrogen and carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     173    173       Substrate. {ECO:0000250}.
+FT   BINDING     175    175       NADP. {ECO:0000250}.
+FT   BINDING     189    189       Substrate. {ECO:0000250}.
+FT   BINDING     201    201       NADP. {ECO:0000250}.
+FT   BINDING     205    205       NADP. {ECO:0000250}.
+FT   BINDING     209    209       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     212    212       Substrate. {ECO:0000250}.
+FT   BINDING     230    230       NADP. {ECO:0000250}.
+FT   BINDING     299    299       Substrate. {ECO:0000250}.
+SQ   SEQUENCE   371 AA;  40912 MW;  2A37C047D233A1CA CRC64;
+     MEVSSEQQLF FMREAVALGE RGRIFAPPNP WVGCVIVKNG CIIGRGWHKG IGSPHAEVCA
+     FQDQTSSLVG ADVYVTLEPC CHFGRTPPCV DLLIKSKVSS VYIALLDPDP RVCKRGVARL
+     KEAGISVYVG IGHEEAKASL QPYLHQRETG LPWVVMKTAA SLDGQTSDRR GISQWISGEQ
+     ARLDVGRLRA ESQAVIVGSR TVCLDNPRLS ARMPSGDLYE RQPLRVVVDS RGSVPLDARV
+     WNPDSGNVLL ATTEQCSKEH IQKLEDRGVE VWKSSPQQVD LKRLLQYLAE KGCLQVLVEG
+     GARLHSAFWR EHLVNAGVIY WGPKFLGDQG SPMLRDLQLC LDNAEHVKIT KTFLVGDSVK
+     TCFECVGRED G
+//

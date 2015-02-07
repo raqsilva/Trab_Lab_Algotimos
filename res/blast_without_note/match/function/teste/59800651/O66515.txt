@@ -1,0 +1,99 @@
+ID   AMT_AQUAE               Reviewed;         423 AA.
+AC   O66515;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   07-JAN-2015, entry version 92.
+DE   RecName: Full=Ammonia channel;
+DE   AltName: Full=Ammonia transporter;
+DE   Flags: Precursor;
+GN   Name=amt; Synonyms=amtB; OrderedLocusNames=aq_112;
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+RN   [2]
+RP   PROTEIN SEQUENCE OF N-TERMINUS, AND CRYSTALLIZATION.
+RX   PubMed=15361618; DOI=10.1126/science.1101952;
+RA   Khademi S., O'Connell J.D. III, Remis J., Robles-Colmenares Y.,
+RA   Miercke L.J., Stroud R.M.;
+RT   "Mechanism of ammonia transport by Amt/MEP/Rh: structure of AmtB at
+RT   1.35 A.";
+RL   Science 305:1587-1594(2004).
+CC   -!- FUNCTION: Involved in the uptake of ammonia.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Multi-pass membrane protein.
+CC   -!- SIMILARITY: Belongs to the ammonia transporter channel
+CC       (TC 1.A.11.2) family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000657; AAC06478.1; -; Genomic_DNA.
+DR   PIR; H70310; H70310.
+DR   RefSeq; NP_213075.1; NC_000918.1.
+DR   RefSeq; WP_010880013.1; NC_000918.1.
+DR   ProteinModelPortal; O66515; -.
+DR   STRING; 224324.aq_112; -.
+DR   TCDB; 1.A.11.1.5; the ammonia transporter channel (amt) family.
+DR   EnsemblBacteria; AAC06478; AAC06478; aq_112.
+DR   GeneID; 1192526; -.
+DR   KEGG; aae:aq_112; -.
+DR   PATRIC; 20957912; VBIAquAeo85532_0096.
+DR   eggNOG; COG0004; -.
+DR   HOGENOM; HOG000017736; -.
+DR   InParanoid; O66515; -.
+DR   KO; K03320; -.
+DR   OMA; ATSLKHM; -.
+DR   OrthoDB; EOG69GZGV; -.
+DR   BioCyc; AAEO224324:GJBH-90-MONOMER; -.
+DR   Proteomes; UP000000798; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008519; F:ammonium transmembrane transporter activity; IEA:InterPro.
+DR   Gene3D; 1.10.3430.10; -; 1.
+DR   InterPro; IPR029020; Ammonium/urea_transptr.
+DR   InterPro; IPR001905; Ammonium_transpt.
+DR   InterPro; IPR018047; Ammonium_transpt_CS.
+DR   InterPro; IPR024041; NH4_transpt_AmtB-like_dom.
+DR   PANTHER; PTHR11730; PTHR11730; 1.
+DR   Pfam; PF00909; Ammonium_transp; 1.
+DR   SUPFAM; SSF111352; SSF111352; 1.
+DR   TIGRFAMs; TIGR00836; amt; 1.
+DR   PROSITE; PS01219; AMMONIUM_TRANSP; 1.
+PE   1: Evidence at protein level;
+KW   Ammonia transport; Cell membrane; Complete proteome;
+KW   Direct protein sequencing; Membrane; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   SIGNAL        1     20       {ECO:0000269|PubMed:15361618}.
+FT   CHAIN        21    423       Ammonia channel.
+FT                                /FTId=PRO_0000001306.
+FT   TRANSMEM     31     51       Helical. {ECO:0000255}.
+FT   TRANSMEM     64     84       Helical. {ECO:0000255}.
+FT   TRANSMEM    123    143       Helical. {ECO:0000255}.
+FT   TRANSMEM    150    170       Helical. {ECO:0000255}.
+FT   TRANSMEM    183    203       Helical. {ECO:0000255}.
+FT   TRANSMEM    217    237       Helical. {ECO:0000255}.
+FT   TRANSMEM    246    266       Helical. {ECO:0000255}.
+FT   TRANSMEM    278    298       Helical. {ECO:0000255}.
+FT   TRANSMEM    301    321       Helical. {ECO:0000255}.
+FT   TRANSMEM    331    351       Helical. {ECO:0000255}.
+FT   TRANSMEM    374    394       Helical. {ECO:0000255}.
+SQ   SEQUENCE   423 AA;  44323 MW;  166203BBB2A8A15B CRC64;
+     MRALGFIGII LSIFSSFAYA SEAKLDTGNT AWMLVASALV VFMTVPGLAL FYGGLDKSKS
+     ILNTIAMSFS AFAVVTLTWI FVGYSVAYGD DIFGFIGNPF QYVLGKGISG INSDTGYPAL
+     LDLMFQLTFA TITTALISGS FVGRMKFSAW ILFAILWSVF VYPPVAHWVW GGGFLANDGA
+     LDFAGGTVVH INAGIAGLVG ALILGRRKDT SLIPNNVPLV ALGAGILWFG WFGFNAGSAL
+     GANESAAWAM INTTVATSTA ALAWMFTEWL HVGKPTVVGI SSGIVAGLVA ITPAAGFVNL
+     IGSIFIGAIA SVCAYFMVAL VKPKFGYDDA LDVFGIHGVR GIVGAVLTGV FADPNVGGTP
+     GLLYGNPKQV LIQIEGVIAT ILYSAILTAV ILLVLKAVVG LRVSEEEELE LDSSLHGEKA
+     YNL
+//

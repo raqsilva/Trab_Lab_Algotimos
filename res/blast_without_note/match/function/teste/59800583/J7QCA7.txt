@@ -1,0 +1,93 @@
+ID   CYAD_BORP1              Reviewed;         440 AA.
+AC   J7QCA7; P11091;
+DT   06-MAR-2013, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2012, sequence version 1.
+DT   07-JAN-2015, entry version 12.
+DE   RecName: Full=Protein CyaD;
+GN   Name=cyaD; OrderedLocusNames=BN118_0470;
+OS   Bordetella pertussis (strain ATCC 9797 / DSM 5571 / NCTC 10739 /
+OS   18323).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Bordetella.
+OX   NCBI_TaxID=568706;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=ATCC 9797 / DSM 5571 / NCTC 10739 / 18323;
+RX   PubMed=2905265;
+RA   Glaser P., Sakamoto H., Bellalou J., Ullmann A., Danchin A.;
+RT   "Secretion of cyclolysin, the calmodulin-sensitive adenylate cyclase-
+RT   haemolysin bifunctional protein of Bordetella pertussis.";
+RL   EMBO J. 7:3997-4004(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 9797 / DSM 5571 / NCTC 10739 / 18323;
+RX   PubMed=23051057; DOI=10.1186/1471-2164-13-545;
+RA   Park J., Zhang Y., Buboltz A.M., Zhang X., Schuster S.C., Ahuja U.,
+RA   Liu M., Miller J.F., Sebaihia M., Bentley S.D., Parkhill J.,
+RA   Harvill E.T.;
+RT   "Comparative genomics of the classical Bordetella subspecies: the
+RT   evolution and exchange of virulence-associated diversity amongst
+RT   closely related pathogens.";
+RL   BMC Genomics 13:545-545(2012).
+CC   -!- FUNCTION: CyaD is necessary for transport of calmodulin-sensitive
+CC       adenylate cyclase-hemolysin (cyclolysin).
+CC       {ECO:0000269|PubMed:2905265}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Single-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the membrane fusion protein (MFP)
+CC       (TC 8.A.1) family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X14199; CAA32413.1; -; Genomic_DNA.
+DR   EMBL; HE965805; CCJ61895.1; -; Genomic_DNA.
+DR   PIR; S02387; BVBRCD.
+DR   RefSeq; YP_006625215.1; NC_018518.1.
+DR   ProteinModelPortal; J7QCA7; -.
+DR   EnsemblBacteria; CCJ61895; CCJ61895; BN118_0470.
+DR   GeneID; 13800760; -.
+DR   KEGG; bper:BN118_0470; -.
+DR   eggNOG; COG0845; -.
+DR   HOGENOM; HOG000274493; -.
+DR   KO; K11003; -.
+DR   OMA; NYASEND; -.
+DR   Proteomes; UP000005250; Chromosome.
+DR   GO; GO:0009276; C:Gram-negative-bacterium-type cell wall; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   InterPro; IPR006143; RND_pump_MFP.
+DR   InterPro; IPR003997; Rtx_secretion_protD_GmN_bac.
+DR   InterPro; IPR006144; Secretion_HlyD_CS.
+DR   InterPro; IPR010129; T1SS_HlyD.
+DR   PANTHER; PTHR30386:SF3; PTHR30386:SF3; 1.
+DR   Pfam; PF00529; HlyD; 1.
+DR   PRINTS; PR01490; RTXTOXIND.
+DR   TIGRFAMs; TIGR01843; type_I_hlyD; 1.
+DR   PROSITE; PS00543; HLYD_FAMILY; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Cytolysis;
+KW   Hemolysis; Membrane; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    440       Protein CyaD.
+FT                                /FTId=PRO_0000421306.
+FT   TOPO_DOM      1     55       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     56     75       Helical. {ECO:0000255}.
+FT   TOPO_DOM     76    440       Periplasmic. {ECO:0000255}.
+FT   CONFLICT     16     16       L -> V (in Ref. 1; CAA32413).
+FT                                {ECO:0000305}.
+FT   CONFLICT    205    206       EL -> DV (in Ref. 1; CAA32413).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   440 AA;  48054 MW;  27B773B66BD00FF3 CRC64;
+     MRRALRELAA RHGRVLAASW RQRHRRPAGW FDPVETEFLP SALSLQERPI SPTARWLARI
+     LMALAAGALV WSVVGKTEIV VHAAGKVVPV GQSKIIAASE TGRVARVLVA DNSRVAAGDV
+     LLRLDAGVTE AEERKWRVQA AQARQDEARS RAMIRALDTG RAPVLAELPA DPGMMAAQSY
+     LDSQYADYQA QLRSIEAAIA TYRRELGLVT QIAHAHRGLR RDGDVSQQAY LEKEQARMTL
+     EGRLRQSEAQ RAALQTQTRR QAFETLVLAR KLAAQAEQEI ARTSAQRSRL VLTAPVDGVV
+     QQLVALTEGT AVAATQPLMM VVPSGAGIQV QAQLDSKDIG FVRAGAPATV KVGAYDYTKY
+     GTLEGKVLYV SPDTVVDDRQ QHSYRVTIAL AHPALEVDGK PRLLKEGMAV QADIRTGSRR
+     LIEYLLSPVA RHAGESLGER
+//

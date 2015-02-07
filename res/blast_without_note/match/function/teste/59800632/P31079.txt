@@ -1,0 +1,91 @@
+ID   PETR_RHOCB              Reviewed;         237 AA.
+AC   P31079; D5ANZ1;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2006, sequence version 3.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Protein PetR;
+GN   Name=petR; OrderedLocusNames=RCAP_rcc02767;
+OS   Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Rhodobacter.
+OX   NCBI_TaxID=272942;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=MT1131;
+RX   PubMed=1323023; DOI=10.1111/j.1365-2958.1992.tb00889.x;
+RA   Tokito M.K., Daldal F.;
+RT   "petR, located upstream of the fbcFBC operon encoding the cytochrome
+RT   bc1 complex, is homologous to bacterial response regulators and
+RT   necessary for photosynthetic and respiratory growth of Rhodobacter
+RT   capsulatus.";
+RL   Mol. Microbiol. 6:1645-1654(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-309 / NBRC 16581 / SB1003;
+RX   PubMed=20418398; DOI=10.1128/JB.00366-10;
+RA   Strnad H., Lapidus A., Paces J., Ulbrich P., Vlcek C., Paces V.,
+RA   Haselkorn R.;
+RT   "Complete genome sequence of the photosynthetic purple nonsulfur
+RT   bacterium Rhodobacter capsulatus SB 1003.";
+RL   J. Bacteriol. 192:3545-3546(2010).
+CC   -!- FUNCTION: Necessary for photosynthetic and respiratory growth.
+CC       Probable promoter-specific protein mediating the interaction
+CC       between DNA and RNA polymerase. {ECO:0000269|PubMed:1323023}.
+CC   -!- SIMILARITY: Contains 1 response regulatory domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00169}.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-2 is the initiator.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA78098.2; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z12113; CAA78098.2; ALT_INIT; Genomic_DNA.
+DR   EMBL; CP001312; ADE86496.1; -; Genomic_DNA.
+DR   PIR; S22632; S22632.
+DR   RefSeq; YP_003578903.1; NC_014034.1.
+DR   ProteinModelPortal; P31079; -.
+DR   EnsemblBacteria; ADE86496; ADE86496; RCAP_rcc02767.
+DR   GeneID; 9005586; -.
+DR   KEGG; rcp:RCAP_rcc02767; -.
+DR   PATRIC; 35505738; VBIRhoCap134200_2810.
+DR   HOGENOM; HOG000034819; -.
+DR   KO; K07659; -.
+DR   OMA; FAENAGN; -.
+DR   BioCyc; RCAP272942:GJIY-2805-MONOMER; -.
+DR   Proteomes; UP000002361; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001867; Sig_transdc_resp-reg_C.
+DR   InterPro; IPR016032; Sig_transdc_resp-reg_C-effctor.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   Pfam; PF00486; Trans_reg_C; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SMART; SM00862; Trans_reg_C; 1.
+DR   SUPFAM; SSF46894; SSF46894; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   3: Inferred from homology;
+KW   Activator; Complete proteome; DNA-binding; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation;
+KW   Two-component regulatory system.
+FT   CHAIN         1    237       Protein PetR.
+FT                                /FTId=PRO_0000081183.
+FT   DOMAIN        8    121       Response regulatory.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+FT   DNA_BIND     77     95       H-T-H motif. {ECO:0000250}.
+FT   MOD_RES      57     57       4-aspartylphosphate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+SQ   SEQUENCE   237 AA;  26355 MW;  4E3B8D95F70162EB CRC64;
+     MMSASPPHLL IVDDDERIRG LLQKFLIRNG FLVTAGRDAA HARRLLSGLE FNLIVLDVMM
+     PGEDGLSLTR DLRTKMATPI LLLTARGETR ERIEGLEAGA DDYLPKPFEP KELLLRINAI
+     LRRVPEAVTA GPKYLSLGPL RYDLDRGELS QGDQPVRLTA TEAALMRIFA AHAGEVIGRT
+     ELIEELGRDR SASAEEAAGD RAVDVQITRL RRKIEPDPRE PRYLQTVRGL GYMLAPD
+//

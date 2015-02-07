@@ -1,0 +1,105 @@
+ID   TSAD_STRM5              Reviewed;         341 AA.
+AC   B4SHI9;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   04-FEB-2015, entry version 46.
+DE   RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            EC=2.6.99.4 {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=N6-L-threonylcarbamoyladenine synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            Short=t(6)A synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+GN   Name=tsaD {ECO:0000255|HAMAP-Rule:MF_01445}; Synonyms=gcp;
+GN   OrderedLocusNames=Smal_0327;
+OS   Stenotrophomonas maltophilia (strain R551-3).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Stenotrophomonas;
+OC   Stenotrophomonas maltophilia group.
+OX   NCBI_TaxID=391008;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=R551-3;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Chain P., Malfatti S., Shin M., Vergez L.,
+RA   Lang D., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Mikhailova N., Taghavi S., Monchy S., Newman L., Vangronsveld J.,
+RA   van der Lelie D., Richardson P.;
+RT   "Complete sequence of Stenotrophomonas maltophilia R551-3.";
+RL   Submitted (JUN-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group
+CC       on adenosine at position 37 (t(6)A37) in tRNAs that read codons
+CC       beginning with adenine. Is involved in the transfer of the
+CC       threonylcarbamoyl moiety of threonylcarbamoyl-AMP (TC-AMP) to the
+CC       N6 group of A37, together with TsaE and TsaB. TsaD likely plays a
+CC       direct catalytic role in this reaction. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445}.
+CC   -!- CATALYTIC ACTIVITY: L-threonylcarbamoyladenylate + adenine(37) in
+CC       tRNA = AMP + N(6)-L-threonylcarbamoyladenine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01445};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001111; ACF50032.1; -; Genomic_DNA.
+DR   RefSeq; WP_012509844.1; NC_011071.1.
+DR   RefSeq; YP_002026715.1; NC_011071.1.
+DR   ProteinModelPortal; B4SHI9; -.
+DR   STRING; 391008.Smal_0327; -.
+DR   EnsemblBacteria; ACF50032; ACF50032; Smal_0327.
+DR   GeneID; 6478123; -.
+DR   KEGG; smt:Smal_0327; -.
+DR   PATRIC; 23705472; VBISteMal40512_0328.
+DR   eggNOG; COG0533; -.
+DR   HOGENOM; HOG000109568; -.
+DR   KO; K01409; -.
+DR   OMA; FAFPRPM; -.
+DR   OrthoDB; EOG6K402S; -.
+DR   BioCyc; SMAL391008:GH1H-339-MONOMER; -.
+DR   Proteomes; UP000001867; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0016747; F:transferase activity, transferring acyl groups other than amino-acyl groups; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070526; P:threonylcarbamoyladenosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01445; TsaD; 1.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/YgjD.
+DR   InterPro; IPR022450; TsaD.
+DR   Pfam; PF00814; Peptidase_M22; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   TIGRFAMs; TIGR00329; gcp_kae1; 1.
+DR   TIGRFAMs; TIGR03723; T6A_YgjD; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Cytoplasm; Iron; Metal-binding;
+KW   Transferase; tRNA processing.
+FT   CHAIN         1    341       tRNA N6-adenosine
+FT                                threonylcarbamoyltransferase.
+FT                                /FTId=PRO_1000146026.
+FT   REGION      138    142       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01445}.
+FT   METAL       115    115       Iron. {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   METAL       119    119       Iron. {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   METAL       304    304       Iron. {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   BINDING     171    171       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01445}.
+FT   BINDING     184    184       Substrate; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   BINDING     276    276       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01445}.
+SQ   SEQUENCE   341 AA;  35844 MW;  DD6DACE8A28DE9ED CRC64;
+     MRVLGIESSC DETGVAVYDT DLAGSAALRA HAVYSQIALH AEYGGVVPEL ASRDHVRKLL
+     PLVRQTLAEA GLGVGDIDGV AYTAGPGLVG ALLVGAGVAR SLAWALEVPA VGVHHMEGHL
+     LAPLMEDDPP QAPFVALLVS GGHTQLVAVD AIGQYRLLGE TLDDAAGEAF DKTAKMMGLP
+     YPGGPQLARL AEQGTPGVYR FARPMIDRPG LDFSFSGLKT QVLMAWRDSD QSEQTRADIA
+     RGFEDAVVET LSIKCERALE AAGTNVIVVA GGVGANKRLR ARLQQMAERL GGRACFPRPA
+     LCTDNGAMIA FAGALRLQAG QHSPPKVDVT PRWDMATLPA V
+//

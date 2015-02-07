@@ -1,0 +1,104 @@
+ID   HRPA_RALSO              Reviewed;         568 AA.
+AC   Q52498;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   07-JAN-2015, entry version 99.
+DE   RecName: Full=Hypersensitivity response secretion protein HrpA;
+DE   Flags: Precursor;
+GN   Name=hrpA; Synonyms=hrcC; OrderedLocusNames=RSp0874; ORFNames=RS01645;
+OS   Ralstonia solanacearum (strain GMI1000) (Pseudomonas solanacearum).
+OG   Plasmid megaplasmid Rsp.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Ralstonia.
+OX   NCBI_TaxID=267608;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=GMI1000;
+RX   PubMed=1472716;
+RA   Gough C.L., Genin S., Zischek C., Boucher C.A.;
+RT   "hrp genes of Pseudomonas solanacearum are homologous to pathogenicity
+RT   determinants of animal pathogenic bacteria and are conserved among
+RT   plant pathogenic bacteria.";
+RL   Mol. Plant Microbe Interact. 5:384-389(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=GMI1000;
+RX   PubMed=7623665; DOI=10.1111/j.1365-2958.1995.tb02284.x;
+RA   van Gijsegem F., Gough C.L., Zischek C., Niqueux E., Arlat M.,
+RA   Genin S., Barberis P., German S., Castello P., Boucher C.A.;
+RT   "The hrp gene locus of Pseudomonas solanacearum, which controls the
+RT   production of a type III secretion system, encodes eight proteins
+RT   related to components of the bacterial flagellar biogenesis complex.";
+RL   Mol. Microbiol. 15:1095-1114(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GMI1000;
+RX   PubMed=11823852; DOI=10.1038/415497a;
+RA   Salanoubat M., Genin S., Artiguenave F., Gouzy J., Mangenot S.,
+RA   Arlat M., Billault A., Brottier P., Camus J.-C., Cattolico L.,
+RA   Chandler M., Choisne N., Claudel-Renard C., Cunnac S., Demange N.,
+RA   Gaspin C., Lavie M., Moisan A., Robert C., Saurin W., Schiex T.,
+RA   Siguier P., Thebault P., Whalen M., Wincker P., Levy M.,
+RA   Weissenbach J., Boucher C.A.;
+RT   "Genome sequence of the plant pathogen Ralstonia solanacearum.";
+RL   Nature 415:497-502(2002).
+CC   -!- FUNCTION: Involved in the secretion of a proteinaceous elicitor of
+CC       the hypersensitivity response in plants. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305};
+CC       Peripheral membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ245811; CAB58261.1; -; Genomic_DNA.
+DR   EMBL; M99361; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AL646053; CAD18025.1; -; Genomic_DNA.
+DR   RefSeq; NP_522435.1; NC_003296.1.
+DR   RefSeq; WP_011004171.1; NC_003296.1.
+DR   STRING; 267608.RSp0874; -.
+DR   EnsemblBacteria; CAD18025; CAD18025; RSp0874.
+DR   GeneID; 1223181; -.
+DR   KEGG; rso:RSp0874; -.
+DR   PATRIC; 20267345; VBIRalSol70888_4344.
+DR   eggNOG; COG1450; -.
+DR   HOGENOM; HOG000214462; -.
+DR   KO; K03219; -.
+DR   OMA; TQENTQA; -.
+DR   OrthoDB; EOG6423BN; -.
+DR   BioCyc; RSOL267608:GCVU-4378-MONOMER; -.
+DR   Proteomes; UP000001436; Plasmid megaplasmid Rsp.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0034053; P:modulation by symbiont of host defense-related programmed cell death; IEA:UniProtKB-KW.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   InterPro; IPR003522; T3SS_OM_pore_YscC.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 2.
+DR   PRINTS; PR01337; TYPE3OMGPROT.
+DR   TIGRFAMs; TIGR02516; type_III_yscC; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Complete proteome;
+KW   Hypersensitive response elicitation; Membrane; Plasmid;
+KW   Protein transport; Reference proteome; Signal; Translocation;
+KW   Transport.
+FT   SIGNAL        1     15       {ECO:0000255}.
+FT   CHAIN        16    568       Hypersensitivity response secretion
+FT                                protein HrpA.
+FT                                /FTId=PRO_0000013109.
+SQ   SEQUENCE   568 AA;  60440 MW;  35B2640E9C97FF7B CRC64;
+     MAAALLLWTA GTVCAAPIPW QSQKFEYVAD RKDIKEVLRD LGASQHVMTS ISTQVEGSVT
+     GSFNETPQKF LDRMAGTFGF AWYYDGAVLR VTSANEAQSA TIALTRASTA QVKRALTRMG
+     IADSRFPIQY DDDSGSIVVS GPPRLVELVR DIAQVIDRGR EDANRTVVRA FPLRYAWATD
+     HRVTVNGQSV NIRGVASILN SMYGGDGPSD SGTAPRAQDR RLDSVAPGEA SAGRAGTRAL
+     SSLGGGKSPL PPGGTGQYVG NSGPYAPPPS GENRLRSDEL DDRGSTPIIR ADPRSNSVLV
+     RDRADRMAAH QSLIESLDSR PAVLEISASI IDISENALEQ LGVDWRLHNS RFDLQTGNGT
+     NTMLNNPGSL DSVATTAGAA AAIAATPAGG VLSAVIGGGS RYLMARISAL QQTDQARITA
+     NPKVATLDNT EAVMDNRQNF YVPVAGYQSA DLYAISAGVS LRVLPMVVMD GGTVRIRMNV
+     HIEDGQITSQ QVGNLPITSQ SEIDTQALIN EGDSLLIAGY SVEQQSKSVD AVPGLSKIPL
+     VGALFRTDQT TGKRFQRMFL VTPRVITP
+//

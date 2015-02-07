@@ -1,0 +1,97 @@
+ID   GPH_PSYA2               Reviewed;         230 AA.
+AC   Q4FPT7;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   07-JAN-2015, entry version 64.
+DE   RecName: Full=Phosphoglycolate phosphatase {ECO:0000255|HAMAP-Rule:MF_00495};
+DE            Short=PGP {ECO:0000255|HAMAP-Rule:MF_00495};
+DE            Short=PGPase {ECO:0000255|HAMAP-Rule:MF_00495};
+DE            EC=3.1.3.18 {ECO:0000255|HAMAP-Rule:MF_00495};
+GN   OrderedLocusNames=Psyc_2124;
+OS   Psychrobacter arcticus (strain DSM 17307 / 273-4).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Psychrobacter.
+OX   NCBI_TaxID=259536;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17307 / 273-4;
+RX   PubMed=20154119; DOI=10.1128/AEM.02101-09;
+RA   Ayala-del-Rio H.L., Chain P.S., Grzymski J.J., Ponder M.A.,
+RA   Ivanova N., Bergholz P.W., Di Bartolo G., Hauser L., Land M.,
+RA   Bakermans C., Rodrigues D., Klappenbach J., Zarka D., Larimer F.,
+RA   Richardson P., Murray A., Thomashow M., Tiedje J.M.;
+RT   "The genome sequence of Psychrobacter arcticus 273-4, a psychroactive
+RT   Siberian permafrost bacterium, reveals mechanisms for adaptation to
+RT   low-temperature growth.";
+RL   Appl. Environ. Microbiol. 76:2304-2312(2010).
+CC   -!- FUNCTION: Specifically catalyzes the dephosphorylation of 2-
+CC       phosphoglycolate. Is involved in the dissimilation of the
+CC       intracellular 2-phosphoglycolate formed during the DNA repair of
+CC       3'-phosphoglycolate ends, a major class of DNA lesions induced by
+CC       oxidative stress. {ECO:0000255|HAMAP-Rule:MF_00495}.
+CC   -!- CATALYTIC ACTIVITY: 2-phosphoglycolate + H(2)O = glycolate +
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00495}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00495};
+CC   -!- PATHWAY: Organic acid metabolism; glycolate biosynthesis;
+CC       glycolate from 2-phosphoglycolate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00495}.
+CC   -!- SIMILARITY: Belongs to the HAD-like hydrolase superfamily.
+CC       CbbY/CbbZ/Gph/YieH family. {ECO:0000255|HAMAP-Rule:MF_00495}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000082; AAZ19971.1; -; Genomic_DNA.
+DR   RefSeq; YP_265405.1; NC_007204.1.
+DR   ProteinModelPortal; Q4FPT7; -.
+DR   STRING; 259536.Psyc_2124; -.
+DR   EnsemblBacteria; AAZ19971; AAZ19971; Psyc_2124.
+DR   GeneID; 3516112; -.
+DR   KEGG; par:Psyc_2124; -.
+DR   PATRIC; 23059231; VBIPsyArc98534_2501.
+DR   eggNOG; COG0546; -.
+DR   HOGENOM; HOG000248344; -.
+DR   KO; K01091; -.
+DR   OMA; NHGEPIS; -.
+DR   OrthoDB; EOG6HB9PJ; -.
+DR   BioCyc; PARC259536:GI3A-2188-MONOMER; -.
+DR   UniPathway; UPA00865; UER00834.
+DR   Proteomes; UP000000546; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008967; F:phosphoglycolate phosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046295; P:glycolate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.150.240; -; 1.
+DR   Gene3D; 3.40.50.1000; -; 2.
+DR   HAMAP; MF_00495; GPH_hydrolase_bact; 1.
+DR   InterPro; IPR023214; HAD-like_dom.
+DR   InterPro; IPR006439; HAD-SF_hydro_IA.
+DR   InterPro; IPR006346; PGP_bact.
+DR   InterPro; IPR023198; PGP_dom2.
+DR   Pfam; PF13419; HAD_2; 1.
+DR   PRINTS; PR00413; HADHALOGNASE.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR01549; HAD-SF-IA-v1; 1.
+DR   TIGRFAMs; TIGR01509; HAD-SF-IA-v3; 1.
+DR   TIGRFAMs; TIGR01449; PGP_bact; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Complete proteome; Hydrolase; Magnesium;
+KW   Metal-binding; Reference proteome.
+FT   CHAIN         1    230       Phosphoglycolate phosphatase.
+FT                                /FTId=PRO_0000238172.
+FT   ACT_SITE      9      9       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+FT   METAL         9      9       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+FT   METAL        11     11       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+FT   METAL       175    175       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+SQ   SEQUENCE   230 AA;  25142 MW;  AB48E503E22515B5 CRC64;
+     MDKQLLIFDF DGTLIDSVPD LADAVNAMLT TLGKAPYPID TIRNWVGNGS RMLVERALVG
+     KIEVSEGELA KETIDHAEQV FFDAYSKMGG SKTVAYPNVD SGLKKLKAAG FKLALVTNKP
+     IRFVPKILQF FGWHDIFSEV LGGDSLPTKK PDPAPLLHVC EVLNINPAQA VMIGDSINDI
+     LAGQNANMDT LGLSYGYNYG QDIRQLNPTE AFDDFSALVD YLLKAYPANN
+//

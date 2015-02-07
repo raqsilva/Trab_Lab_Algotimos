@@ -1,0 +1,102 @@
+ID   RIBD_CORAM              Reviewed;         337 AA.
+AC   O24750;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   26-NOV-2014, entry version 72.
+DE   RecName: Full=Riboflavin biosynthesis protein RibD;
+DE   Includes:
+DE     RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase;
+DE              Short=DRAP deaminase;
+DE              EC=3.5.4.26;
+DE     AltName: Full=Riboflavin-specific deaminase;
+DE   Includes:
+DE     RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase;
+DE              EC=1.1.1.193;
+DE     AltName: Full=HTP reductase;
+GN   Name=ribD; Synonyms=ribG;
+OS   Corynebacterium ammoniagenes (Brevibacterium ammoniagenes).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Corynebacteriaceae; Corynebacterium.
+OX   NCBI_TaxID=1697;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Koizumi S., Yonetani Y., Teshiba S.;
+RT   "Process for producing riboflavin.";
+RL   Patent number US5589355, 31-DEC-1996.
+CC   -!- FUNCTION: Converts 2,5-diamino-6-(ribosylamino)-4(3h)-pyrimidinone
+CC       5'-phosphate into 5-amino-6-(ribosylamino)-2,4(1h,3h)-
+CC       pyrimidinedione 5'-phosphate.
+CC   -!- CATALYTIC ACTIVITY: 2,5-diamino-6-hydroxy-4-(5-
+CC       phosphoribosylamino)pyrimidine + H(2)O = 5-amino-6-(5-
+CC       phosphoribosylamino)uracil + NH(3).
+CC   -!- CATALYTIC ACTIVITY: 5-amino-6-(5-phospho-D-ribitylamino)uracil +
+CC       NADP(+) = 5-amino-6-(5-phospho-D-ribosylamino)uracil + NADPH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 2/4.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 3/4.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the cytidine and
+CC       deoxycytidylate deaminase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the HTP
+CC       reductase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB003693; BAA20053.1; -; Genomic_DNA.
+DR   ProteinModelPortal; O24750; -.
+DR   UniPathway; UPA00275; UER00401.
+DR   UniPathway; UPA00275; UER00402.
+DR   GO; GO:0008703; F:5-amino-6-(5-phosphoribosylamino)uracil reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008835; F:diaminohydroxyphosphoribosylaminopyrimidine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.430.10; -; 1.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR024072; DHFR-like_dom.
+DR   InterPro; IPR004794; Eubact_RibD.
+DR   InterPro; IPR002734; RibDG_C.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   Pfam; PF01872; RibD_C; 1.
+DR   PIRSF; PIRSF006769; RibD; 1.
+DR   SUPFAM; SSF53597; SSF53597; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR00326; eubact_ribD; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Multifunctional enzyme; NADP;
+KW   Oxidoreductase; Riboflavin biosynthesis; Zinc.
+FT   CHAIN         1    337       Riboflavin biosynthesis protein RibD.
+FT                                /FTId=PRO_0000171720.
+FT   NP_BIND     173    176       NADP. {ECO:0000250}.
+FT   NP_BIND     281    287       NADP. {ECO:0000250}.
+FT   REGION        1    157       Deaminase.
+FT   REGION      158    337       Reductase.
+FT   ACT_SITE     65     65       Proton donor. {ECO:0000250}.
+FT   METAL        63     63       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        88     88       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        97     97       Zinc; catalytic. {ECO:0000250}.
+FT   BINDING     166    166       NADP; via amide nitrogen and carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     180    180       Substrate. {ECO:0000250}.
+FT   BINDING     182    182       NADP. {ECO:0000250}.
+FT   BINDING     196    196       Substrate. {ECO:0000250}.
+FT   BINDING     208    208       NADP. {ECO:0000250}.
+FT   BINDING     212    212       NADP. {ECO:0000250}.
+FT   BINDING     216    216       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     219    219       Substrate. {ECO:0000250}.
+FT   BINDING     279    279       Substrate. {ECO:0000250}.
+SQ   SEQUENCE   337 AA;  34888 MW;  2BBDA7B8BF2C243D CRC64;
+     MDSNPGADQA VAPIVEQALR TAMSAGWEVR GTTSPNPPVG AVIISTSGEI VGTGATQPVG
+     GVHAEVQALA DAAGKTEGAT AVVTLEPCRH TGRTGPCTQA LIEAGIKDVL FLHSDPNPSA
+     GGGEQVLVDA GINVVQLPSP EGVPDALIPW LKSVQLRRPH VTLKFAQTID GFTAAADGTS
+     QWITGEMARD YVHADREHRD AIIIGTGTAL IDNPSLTARY PDGTQREHQP RRVVIGRRNI
+     ADAGDAASNL NRLGFEQYAT IDEALAELYA TGARDVLVEG GAGLASGFAN QGLVDWLQVY
+     QAPLLLGEGI SVLAHPLTNT LKGASALCPR AASGAGR
+//

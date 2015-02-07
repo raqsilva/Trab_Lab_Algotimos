@@ -1,0 +1,91 @@
+ID   RESA_BACCR              Reviewed;         173 AA.
+AC   Q81FU5;
+DT   29-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 88.
+DE   RecName: Full=Thiol-disulfide oxidoreductase ResA {ECO:0000255|HAMAP-Rule:MF_01319};
+GN   Name=resA {ECO:0000255|HAMAP-Rule:MF_01319};
+GN   OrderedLocusNames=BC_1473;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B.,
+RA   Kapatral V., Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A.,
+RA   Chu L., Mazur M., Goltsman E., Larsen N., D'Souza M., Walunas T.,
+RA   Grechkin Y., Pusch G., Haselkorn R., Fonstein M., Ehrlich S.D.,
+RA   Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with
+RT   Bacillus anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Thiol-disulfide oxidoreductase which is required in
+CC       disulfide reduction during c-type cytochrome synthesis. May accept
+CC       reducing equivalents from CcdA, leading to breakage of disulfide
+CC       bonds in apocytochrome c; following this reduction heme can be
+CC       covalently attached. {ECO:0000255|HAMAP-Rule:MF_01319}.
+CC   -!- PATHWAY: Protein modification; cytochrome c assembly.
+CC       {ECO:0000255|HAMAP-Rule:MF_01319}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01319}; Single-pass type II membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_01319}. Note=The thioredoxin-like motif
+CC       is exposed on the outside of the membrane. {ECO:0000255|HAMAP-
+CC       Rule:MF_01319}.
+CC   -!- SIMILARITY: Belongs to the thioredoxin family. ResA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01319}.
+CC   -!- SIMILARITY: Contains 1 thioredoxin domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01319}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08453.1; -; Genomic_DNA.
+DR   RefSeq; NP_831252.1; NC_004722.1.
+DR   ProteinModelPortal; Q81FU5; -.
+DR   STRING; 226900.BC1473; -.
+DR   PRIDE; Q81FU5; -.
+DR   EnsemblBacteria; AAP08453; AAP08453; BC_1473.
+DR   GeneID; 1203822; -.
+DR   KEGG; bce:BC1473; -.
+DR   PATRIC; 32598682; VBIBacCer54481_1450.
+DR   eggNOG; COG0526; -.
+DR   OMA; MEIGKEA; -.
+DR   OrthoDB; EOG6GBMJ4; -.
+DR   BioCyc; BCER226900:GJEU-1473-MONOMER; -.
+DR   UniPathway; UPA00555; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016209; F:antioxidant activity; IEA:InterPro.
+DR   GO; GO:0015036; F:disulfide oxidoreductase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0017004; P:cytochrome complex assembly; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   HAMAP; MF_01319; ResA; 1.
+DR   InterPro; IPR000866; AhpC/TSA.
+DR   InterPro; IPR023555; Thiol-dS_OxRdtase_ResA.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   Pfam; PF00578; AhpC-TSA; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Complete proteome; Cytochrome c-type biogenesis;
+KW   Disulfide bond; Membrane; Oxidoreductase; Redox-active center;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN         1    173       Thiol-disulfide oxidoreductase ResA.
+FT                                /FTId=PRO_0000120146.
+FT   TRANSMEM     10     29       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01319}.
+FT   DOMAIN       35    173       Thioredoxin. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01319}.
+FT   DISULFID     73     76       Redox-active. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01319}.
+SQ   SEQUENCE   173 AA;  19616 MW;  D053E8004994A92A CRC64;
+     MKKNRLLFRV IILLILCGAV GFTLYQGFFA NKEKMQIGKE APNFIVTDLE GKKIELKDLK
+     GKGVFLNFWG TWCKPCEKEM PYMNELYPKY KEKGVEIIAL DADETDIAVK NFVNQYGLKF
+     PVAIDKGQKI IGTYGVGPLP TSFLIDKDGK VVEQIIGEQT KEQLEGYLKK ITP
+//

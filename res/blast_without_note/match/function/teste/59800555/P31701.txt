@@ -1,0 +1,78 @@
+ID   GSPD_PECCC              Reviewed;         650 AA.
+AC   P31701;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 2.
+DT   07-JAN-2015, entry version 77.
+DE   RecName: Full=Type II secretion system protein D;
+DE            Short=T2SS protein D;
+DE   AltName: Full=General secretion pathway protein D;
+DE   AltName: Full=Pectic enzymes secretion protein OutD;
+DE   Flags: Precursor;
+GN   Name=outD;
+OS   Pectobacterium carotovorum subsp. carotovorum (Erwinia carotovora
+OS   subsp. carotovora).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Pectobacterium.
+OX   NCBI_TaxID=555;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=SCRI 193;
+RX   PubMed=8326859; DOI=10.1111/j.1365-2958.1993.tb01589.x;
+RA   Reeves P.J., Whitcombe D., Wharam S., Gibson M., Allison G., Bunce N.,
+RA   Barallon R., Douglas P., Mulholland V., Stevens S., Walker S.,
+RA   Salmond G.P.C.;
+RT   "Molecular cloning and characterization of 13 out genes from Erwinia
+RT   carotovora subspecies carotovora: genes encoding members of a general
+RT   secretion pathway (GSP) widespread in Gram-negative bacteria.";
+RL   Mol. Microbiol. 8:443-456(1993).
+RN   [2]
+RP   IDENTIFICATION OF PROBABLE FRAMESHIFT.
+RA   Bairoch A.;
+RL   Unpublished observations (FEB-1997).
+CC   -!- FUNCTION: Involved in a type II secretion system (T2SS, formerly
+CC       general secretion pathway, GSP) for the export of proteins (By
+CC       similarity). Required for the translocation of the multiple pectic
+CC       enzymes. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X70049; CAA49645.1; -; Genomic_DNA.
+DR   PIR; S32858; S32858.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015627; C:type II protein secretion system complex; IEA:InterPro.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0015628; P:protein secretion by the type II secretion system; IEA:InterPro.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR013356; T2SS_GspD.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 2.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   TIGRFAMs; TIGR02517; type_II_gspD; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Membrane; Protein transport; Signal; Transport.
+FT   SIGNAL        1     18       {ECO:0000255}.
+FT   CHAIN        19    650       Type II secretion system protein D.
+FT                                /FTId=PRO_0000013102.
+FT   CONFLICT    139    164       ELNDNAWRGTCGDYEPANVVVMTGRA -> VERQRVAWDVW
+FT                                RLRTCERRRDDWPR (in Ref. 1; CAA49645).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   650 AA;  70144 MW;  9A228C369B0E2AFC CRC64;
+     MLLLSGSVLL MASSLAWSAE FSASFKGTDI QEFINTVSKN LNKTVIIDPS VSGTITVRSY
+     DMMNEEQYYQ FFLSVLDVYG FTVIPMDNNV LKIIRSKDAK STSMPLATDR QPGIGDEVVT
+     RVVPVNNVAA RDFGRSSREL NDNAWRGTCG DYEPANVVVM TGRAGVIHAV MTIVERVDQT
+     GDRNVTTIPL SYASSTEVVK MVNELNKMDE KSALPGMLTA NVVADERTNS AAGFGEPNSR
+     QRVIDMVKQL DRQQAVQGNT KVIYLKYAKA ADLVEVLTGV GDSIQTDQQN ALPALRKDIS
+     IKAHEQTNSL IVNAAPDIMR DLEQVIAQLD IRRPQVLVEA IIAEVQDADG MNLGVQWANK
+     NAGVTQFTNT GLPITTMMAG ADQFRRDGTL GTAATTALGG FNGIAAGFYQ GNWGMLMTAL
+     SSNSKNDILA TPSIVTLDNM EATFNVGQEV PVLAGSQTTS GDNVFQTVER KTVGIKLKVK
+     PQINEGDSVL LEIEQEVSSV ADAASSSSTN LGATFNTRTV NNAVLVSSGD TVVVGGLLDK
+     STNESANKVP LLGDIPVLGY LFRSNSTETK KRNLMLFIRP SIIRDRSQFQ SASASKYHSF
+     SAEENKQRNV SNGEGGLLDN DLLRLPEGGN AYTFRQVQSS IVAFYPAGGK
+//

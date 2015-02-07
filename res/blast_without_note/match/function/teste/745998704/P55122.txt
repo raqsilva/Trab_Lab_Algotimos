@@ -1,0 +1,118 @@
+ID   LKTB_PASSP              Reviewed;         708 AA.
+AC   P55122;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   07-JAN-2015, entry version 90.
+DE   RecName: Full=Leukotoxin translocation ATP-binding protein LktB;
+DE            EC=3.6.3.43;
+GN   Name=lktB;
+OS   Pasteurella haemolytica-like sp. (strain 5943B).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Mannheimia.
+OX   NCBI_TaxID=53500;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8478098;
+RA   Chang Y.-F., Ma D.-P., Shi J., Chengappa M.M.;
+RT   "Molecular characterization of a leukotoxin gene from a Pasteurella
+RT   haemolytica-like organism, encoding a new member of the RTX toxin
+RT   family.";
+RL   Infect. Immun. 61:2089-2095(1993).
+CC   -!- FUNCTION: Part of the ABC transporter complex LktBD involved in
+CC       leukotoxin export. Transmembrane domains (TMD) form a pore in the
+CC       inner membrane and the ATP-binding domain (NBD) is responsible for
+CC       energy generation (Probable). {ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O + peptide(In) = ADP + phosphate +
+CC       peptide(Out).
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Multi-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- DOMAIN: In LktB the peptidase C39 domain, the ATP-binding domain
+CC       (NBD) and the transmembrane domain (TMD) are fused.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Protein-1
+CC       exporter (TC 3.A.1.109) family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 ABC transmembrane type-1 domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00362, ECO:0000255|PROSITE-
+CC       ProRule:PRU00434}.
+CC   -!- SIMILARITY: Contains 1 peptidase C39 domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00362}.
+CC   -!- CAUTION: Leu-10 is present instead of the conserved Cys which is
+CC       expected to be the active site residue of peptidase C39. Thus this
+CC       protein is presumed to be without peptidase activity.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L12148; AAA16445.1; -; Genomic_DNA.
+DR   ProteinModelPortal; P55122; -.
+DR   SMR; P55122; 468-706.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030256; C:type I protein secretion system complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015440; F:peptide-transporting ATPase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0030253; P:protein secretion by the type I secretion system; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR010132; ATPase_T1SS_HlyB.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005074; Peptidase_C39.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF03412; Peptidase_C39; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF90123; SSF90123; 1.
+DR   TIGRFAMs; TIGR01846; type_I_sec_HlyB; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS50990; PEPTIDASE_C39; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Hydrolase; Membrane;
+KW   Nucleotide-binding; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    708       Leukotoxin translocation ATP-binding
+FT                                protein LktB.
+FT                                /FTId=PRO_0000092387.
+FT   TRANSMEM    159    179       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    192    212       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    270    290       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    296    316       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    389    409       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   DOMAIN        1    126       Peptidase C39. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362}.
+FT   DOMAIN      155    437       ABC transmembrane type-1.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00441}.
+FT   DOMAIN      469    704       ABC transporter. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362, ECO:0000255|PROSITE-
+FT                                ProRule:PRU00434}.
+FT   NP_BIND     503    510       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362, ECO:0000255|PROSITE-
+FT                                ProRule:PRU00434}.
+SQ   SEQUENCE   708 AA;  79772 MW;  7326D21411B5090A CRC64;
+     MEVNHQSNDL GLVALKMLAQ YHNIPLNPEE IKHKFDIEGK GLTLTSWLLA AKSLELKAKH
+     IKKEISRLHL VNLPALVWQD NGKHFLLVKI DTDKKRYLTY NLEQDAPKIL SQEEFESCYQ
+     GKIILVTSRA SIVGQLAKFD FTWFIPAVIK YRKIFLETLL VSIFLQIFAL ITPLFFQVVM
+     DKVLVHRGFS TLNIITVALA IVIIFEIVLS GLRTYIFAHS TSRIDVELGA RLFRHLLALP
+     ISYFENRRVG DTVARVRELD QIRNFLTGQA LTSVLDLLFS FIFFAVMWYY SPKLTLVILG
+     SLPCYILWSI FISPILRRRL DDKFARGADN QAFLVESVTA INMIKAMAVS PQMTDTWDKQ
+     LASYVSSSFR VTVLATIGQQ GVQLIQKTVM VINLWLGAHL VISGDLSIGQ LIAFNMLSGQ
+     VIAPVIRLAQ LWQDFTQVGI SVTRLGDVLN SPTEQYQGKL SLPEIQGDIA FKNIRFRYKP
+     DAPTILNNVN LEIKKGEVIG IVGRSGSGKS TLTKLLQRFY IPENGQVLID GHDLALADPN
+     WLRRQIGVVL QDNVLLNRSI RENIALSEPG MSMERVIYAA KLAGAHDFIS DVREGYNTIV
+     GEQGAGLSGG QRQRIAIARA LVNNPKILIF DEATSALDYE SEHIIMQNMQ KICQGRTVIL
+     IAHRLSTVKN ADRIIVMEKG EIVEQGKHNE LLQNNNGLYS YLHQLQLN
+//

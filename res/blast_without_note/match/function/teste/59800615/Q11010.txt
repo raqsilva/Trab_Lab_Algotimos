@@ -1,0 +1,102 @@
+ID   AMPN_STRLI              Reviewed;         857 AA.
+AC   Q11010;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   07-JAN-2015, entry version 86.
+DE   RecName: Full=Aminopeptidase N;
+DE            EC=3.4.11.2;
+DE   AltName: Full=Alanine aminopeptidase;
+DE   AltName: Full=Lysyl aminopeptidase;
+DE            Short=Lys-AP;
+GN   Name=pepN;
+OS   Streptomyces lividans.
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Streptomycineae; Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=1916;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 415-439.
+RC   STRAIN=66 / 1326;
+RX   PubMed=7909302; DOI=10.1016/0378-1119(94)90137-6;
+RA   Butler M.J., Aphale J.S., Binnie C., Dizonno M.A., Krygsman P.,
+RA   Soltes G.A., Walczyk E., Malek L.T.;
+RT   "The aminopeptidase N-encoding pepN gene of Streptomyces lividans
+RT   66.";
+RL   Gene 141:115-119(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=66 / 1326;
+RX   PubMed=7765336; DOI=10.1007/BF01569658;
+RA   Butler M.J., Aphale J.S., Dizonno M.A., Krygsman P., Walczyk E.,
+RA   Malek L.T.;
+RT   "Intracellular aminopeptidases in Streptomyces lividans 66.";
+RL   J. Ind. Microbiol. 13:24-29(1994).
+CC   -!- FUNCTION: Aminopeptidase with broad substrate specificity to
+CC       several peptides. Shows strong preference for leucine but cleaves
+CC       also next to Arg and lysine in peptide-bond-containing substrates.
+CC   -!- CATALYTIC ACTIVITY: Release of an N-terminal amino acid, Xaa-|-
+CC       Yaa- from a peptide, amide or arylamide. Xaa is preferably Ala,
+CC       but may be most amino acids including Pro (slow action). When a
+CC       terminal hydrophobic residue is followed by a prolyl residue, the
+CC       two may be released as an intact Xaa-Pro dipeptide.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- PTM: The N-terminus is blocked.
+CC   -!- SIMILARITY: Belongs to the peptidase M1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L23172; AAA26696.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q11010; -.
+DR   MEROPS; M01.009; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004177; F:aminopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   InterPro; IPR024571; ERAP1-like_C_dom.
+DR   InterPro; IPR012778; Pept_M1_aminopeptidase.
+DR   InterPro; IPR001930; Peptidase_M1.
+DR   InterPro; IPR014782; Peptidase_M1_N.
+DR   PANTHER; PTHR11533; PTHR11533; 1.
+DR   Pfam; PF11838; ERAP1_C; 1.
+DR   Pfam; PF01433; Peptidase_M1; 1.
+DR   PRINTS; PR00756; ALADIPTASE.
+DR   TIGRFAMs; TIGR02412; pepN_strep_liv; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   Aminopeptidase; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Metal-binding; Metalloprotease; Protease; Zinc.
+FT   CHAIN         1    857       Aminopeptidase N.
+FT                                /FTId=PRO_0000095076.
+FT   REGION      264    268       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    299    299       Proton acceptor. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       298    298       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       302    302       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       321    321       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   BINDING     130    130       Substrate. {ECO:0000250}.
+FT   SITE        386    386       Transition state stabilizer.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   857 AA;  94424 MW;  40B749F78D201A7D CRC64;
+     MPGTNLTREE ARQRATLLTV DSYEIDLDLT GAQEGGTYRS VTTVRFDVAE GGGESFIDLV
+     APTVHEVTLN GDALDTAEVF QDSRIALPGL LPGRNILRVV ADCAYTNTGE GLHRFVDPVD
+     DQAYLYTQFE VPDARRVFAS FEQPDLKATF QFTVKAPEGW TVISNSPTPE PKDNVWEFEP
+     TPRISSYVTA LIVGPYHSVH SVYEKDGQSV PLGIYCRPSL AEHLDADAIF EVTRQGFDWF
+     QEKFDYAYPF KKYDQLFVPE FNAGAMENAG AVTIRDQYVF RSKVTDAAYE VRAATILHEL
+     AHMWFGDLVT MEWWNDLWLN ESFATYAEAA CQAAAPGSKW PHSWTTFANQ MKTWAYRQDQ
+     LPSTHPIMAD ISDLDDVLVN FDGITYAKGA SVLKQLVAYV GEEAFFKGVQ AYFKRHAFGN
+     TRLSDLLGAL EETSGRDLKT WSKAWLETAG INVLRPEIET DADGVITSFA IRQEAPALPA
+     GAKGEPTLRP HRIAIGAYDL DGAGKLVRGD RVELDVDGEL TAVPQLVGKA RPAVLLLNDD
+     DLSYAKVRLD EQSLAVVTEH LGDFTESLPR ALCWASAWDM TRDAELATRD YLALVLSGIG
+     KESDIGVVQS LHRQVKLAID QYAAPTAREA LLTRWTEATL AHLRAAEAGS DHQLAWARAF
+     AATARTPEQL DLLDALLDGT QTIEGLAVDT ELRWAFVQRL AAVGRFGGSE IAAEYERDKT
+     AAGERHAATA RAARPTEAAK AEAWESVVES DKLPNAVQEA VIAGFVQTDQ RELLAAYTER
+     YFEALKDVWA SRSHEMAQQI AVGLYPAVQV SQDTLDRTDA WLASAEPNAA LRRLVSESRS
+     GIERALRAQA ADAAAAE
+//

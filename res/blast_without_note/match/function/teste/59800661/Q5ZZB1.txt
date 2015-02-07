@@ -1,0 +1,93 @@
+ID   LPXD1_LEGPH             Reviewed;         351 AA.
+AC   Q5ZZB1;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 2.
+DT   04-FEB-2015, entry version 67.
+DE   RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase 1 {ECO:0000255|HAMAP-Rule:MF_00523};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   Name=lpxD1 {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   OrderedLocusNames=lpg0100;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 /
+OS   ATCC 33152 / DSM 7513).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M.,
+RA   Asamani G., Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J.,
+RA   Steshenko V., Park S.H., Zhao B., Teplitskaya E., Edwards J.R.,
+RA   Pampou S., Georghiou A., Chou I.-C., Iannuccilli W., Ulz M.E.,
+RA   Kim D.H., Geringer-Sameth A., Goldsberry C., Morozov P., Fischer S.G.,
+RA   Segal G., Qu X., Rzhetsky A., Zhang P., Cayanis E., De Jong P.J.,
+RA   Ju J., Kalachikov S., Shuman H.A., Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella
+RT   pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Catalyzes the N-acylation of UDP-3-O-acylglucosamine
+CC       using 3-hydroxyacyl-ACP as the acyl donor. Is involved in the
+CC       biosynthesis of lipid A, a phosphorylated glycolipid that anchors
+CC       the lipopolysaccharide to the outer membrane of the cell.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- CATALYTIC ACTIVITY: (3R)-3-hydroxyacyl-[acyl-carrier-protein] +
+CC       UDP-3-O-acyl-alpha-D-glucosamine = UDP-2,3-diacyl-alpha-D-
+CC       glucosamine + [acyl-carrier-protein]. {ECO:0000255|HAMAP-
+CC       Rule:MF_00523}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SIMILARITY: Belongs to the transferase hexapeptide repeat family.
+CC       LpxD subfamily. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAU26207.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26207.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_094154.1; NC_002942.5.
+DR   ProteinModelPortal; Q5ZZB1; -.
+DR   STRING; 272624.lpg0100; -.
+DR   EnsemblBacteria; AAU26207; AAU26207; lpg0100.
+DR   GeneID; 19831667; -.
+DR   KEGG; lpn:lpg0100; -.
+DR   PATRIC; 22327120; VBILegPne29832_0106.
+DR   eggNOG; COG1044; -.
+DR   HOGENOM; HOG000294340; -.
+DR   KO; K02536; -.
+DR   OrthoDB; EOG6JB11D; -.
+DR   BioCyc; LPNE272624:GHDI-100-MONOMER; -.
+DR   UniPathway; UPA00973; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0016747; F:transferase activity, transferring acyl groups other than amino-acyl groups; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00523; LpxD; 1.
+DR   InterPro; IPR001451; Hexapep_transf.
+DR   InterPro; IPR018357; Hexapep_transf_CS.
+DR   InterPro; IPR011004; Trimer_LpxA-like.
+DR   InterPro; IPR007691; UDP-3-O_GlcNAc_AcTrfase.
+DR   InterPro; IPR020573; UDP_GlcNAc_AcTrfase_non-rep.
+DR   Pfam; PF00132; Hexapep; 4.
+DR   Pfam; PF04613; LpxD; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   TIGRFAMs; TIGR01853; lipid_A_lpxD; 1.
+DR   PROSITE; PS00101; HEXAPEP_TRANSFERASES; 2.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Lipid A biosynthesis;
+KW   Lipid biosynthesis; Lipid metabolism; Reference proteome; Repeat;
+KW   Transferase.
+FT   CHAIN         1    351       UDP-3-O-acylglucosamine N-acyltransferase
+FT                                1.
+FT                                /FTId=PRO_0000264391.
+FT   ACT_SITE    237    237       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00523}.
+SQ   SEQUENCE   351 AA;  37299 MW;  EDEF74E5ED333619 CRC64;
+     MNSSLRDIAN LVQGMVIGND AITVSTLSPI DNILPGSLVF AEGEDNIKLA ENSEAAAILI
+     GQGTIDSPKP LIQVKNPFKA FIALLNHFYP PRRISPGVHP TAVIGAEVQL GDEVYVGPFV
+     VIESGSIIGN HSVLKSHIHI GHNVVIGDHT TIHPQVTIYD NCRIGSNVTI HASTVIGSDG
+     FGYTFVDGQH LKVPHSGYVV IENNVEIGAN TAIDKATLGA TVIGEGTKID NLVQIAHSVK
+     LGKHNIICAF TGIAGSTTTG NNVIFAANVG VSDHVHIEDE VILGARTGVP PHKHLKKGTV
+     YLGNPAKPKD VAIKHELSVN RIPLIRKNIK SLTEQVAVIN KKLDIKAKEV E
+//

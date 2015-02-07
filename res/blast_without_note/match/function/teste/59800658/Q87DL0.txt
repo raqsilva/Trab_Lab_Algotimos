@@ -1,0 +1,86 @@
+ID   LOLA_XYLFT              Reviewed;         210 AA.
+AC   Q87DL0;
+DT   16-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 71.
+DE   RecName: Full=Outer-membrane lipoprotein carrier protein {ECO:0000255|HAMAP-Rule:MF_00240};
+DE   Flags: Precursor;
+GN   Name=lolA {ECO:0000255|HAMAP-Rule:MF_00240};
+GN   OrderedLocusNames=PD_0672;
+OS   Xylella fastidiosa (strain Temecula1 / ATCC 700964).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xylella.
+OX   NCBI_TaxID=183190;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Temecula1 / ATCC 700964;
+RX   PubMed=12533478; DOI=10.1128/JB.185.3.1018-1026.2003;
+RA   Van Sluys M.A., de Oliveira M.C., Monteiro-Vitorello C.B.,
+RA   Miyaki C.Y., Furlan L.R., Camargo L.E.A., da Silva A.C.R., Moon D.H.,
+RA   Takita M.A., Lemos E.G.M., Machado M.A., Ferro M.I.T., da Silva F.R.,
+RA   Goldman M.H.S., Goldman G.H., Lemos M.V.F., El-Dorry H., Tsai S.M.,
+RA   Carrer H., Carraro D.M., de Oliveira R.C., Nunes L.R., Siqueira W.J.,
+RA   Coutinho L.L., Kimura E.T., Ferro E.S., Harakava R., Kuramae E.E.,
+RA   Marino C.L., Giglioti E., Abreu I.L., Alves L.M.C., do Amaral A.M.,
+RA   Baia G.S., Blanco S.R., Brito M.S., Cannavan F.S., Celestino A.V.,
+RA   da Cunha A.F., Fenille R.C., Ferro J.A., Formighieri E.F., Kishi L.T.,
+RA   Leoni S.G., Oliveira A.R., Rosa V.E. Jr., Sassaki F.T., Sena J.A.D.,
+RA   de Souza A.A., Truffi D., Tsukumo F., Yanai G.M., Zaros L.G.,
+RA   Civerolo E.L., Simpson A.J.G., Almeida N.F. Jr., Setubal J.C.,
+RA   Kitajima J.P.;
+RT   "Comparative analyses of the complete genome sequences of Pierce's
+RT   disease and citrus variegated chlorosis strains of Xylella
+RT   fastidiosa.";
+RL   J. Bacteriol. 185:1018-1026(2003).
+CC   -!- FUNCTION: Participates in the translocation of lipoproteins from
+CC       the inner membrane to the outer membrane. Only forms a complex
+CC       with a lipoprotein if the residue after the N-terminal Cys is not
+CC       an aspartate (The Asp acts as a targeting signal to indicate that
+CC       the lipoprotein should stay in the inner membrane).
+CC       {ECO:0000255|HAMAP-Rule:MF_00240}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00240}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_00240}.
+CC   -!- SIMILARITY: Belongs to the LolA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00240}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO28543.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE009442; AAO28543.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_778894.2; NC_004556.1.
+DR   ProteinModelPortal; Q87DL0; -.
+DR   STRING; 183190.PD0672; -.
+DR   EnsemblBacteria; AAO28543; AAO28543; PD_0672.
+DR   GeneID; 1144875; -.
+DR   KEGG; xft:PD0672; -.
+DR   PATRIC; 24149122; VBIXylFas71109_0876.
+DR   eggNOG; COG2834; -.
+DR   KO; K03634; -.
+DR   OMA; YDADLNQ; -.
+DR   OrthoDB; EOG6677VP; -.
+DR   BioCyc; XFAS183190:GIX4-672-MONOMER; -.
+DR   Proteomes; UP000002516; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042954; F:lipoprotein transporter activity; IEA:InterPro.
+DR   HAMAP; MF_00240; LolA; 1.
+DR   InterPro; IPR029046; LolA/LolB/LppX.
+DR   InterPro; IPR004564; OM_lipoprot_carrier_LolA-like.
+DR   InterPro; IPR018323; OM_lipoprot_carrier_LolA_Pbac.
+DR   Pfam; PF03548; LolA; 1.
+DR   SUPFAM; SSF89392; SSF89392; 1.
+DR   TIGRFAMs; TIGR00547; lolA; 1.
+PE   3: Inferred from homology;
+KW   Chaperone; Complete proteome; Periplasm; Protein transport; Signal;
+KW   Transport.
+FT   SIGNAL        1     23       {ECO:0000255|HAMAP-Rule:MF_00240}.
+FT   CHAIN        24    210       Outer-membrane lipoprotein carrier
+FT                                protein.
+FT                                /FTId=PRO_0000018288.
+SQ   SEQUENCE   210 AA;  23633 MW;  5A350EB144248148 CRC64;
+     MLMFSRFRYI FFAVALLSGP VCAGARADLS AFTRGLKTLQ GHFSQEVIDT QGRVKERSNG
+     TVALSLPNLL RWECDAPYKQ LVVADGKRVW LFDPDLNQAS VLLQDNEERN SPLIALIDPI
+     QLDRKYDVSE EVAMRDGLRW LSLRPRGSTE ASFQSASFGF SQTQLARMEL VDNLGQRTVI
+     AFSGWQRNPV FAVNTFRFTP GKNVDVIGDR
+//

@@ -1,0 +1,94 @@
+ID   COPS_PSEUB              Reviewed;         487 AA.
+AC   Q02541;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   07-JAN-2015, entry version 96.
+DE   RecName: Full=Sensor protein CopS;
+DE            EC=2.7.13.3;
+GN   Name=copS;
+OS   Pseudomonas syringae pv. tomato.
+OG   Plasmid pPT23D.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=323;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8449873;
+RA   Mills S.D., Jasalavich C.A., Cooksey D.A.;
+RT   "A two-component regulatory system required for copper-inducible
+RT   expression of the copper resistance operon of Pseudomonas syringae.";
+RL   J. Bacteriol. 175:1656-1664(1993).
+CC   -!- FUNCTION: Member of the two-component regulatory system CopS/CopR.
+CC       Involved in the activation of copper resistance gene operon
+CC       copABCD. Specifically recognizes or transduces a signal only in
+CC       response to copper. This would lead to phosphorylation of CopR in
+CC       the cytoplasm. CopS/CopR may also regulate chromosomally encoded
+CC       genes. May also be involved in basic copper metabolism.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Multi-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L05176; AAA25804.1; -; Genomic_DNA.
+DR   PIR; C47080; C47080.
+DR   ProteinModelPortal; Q02541; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR006290; CztS_silS_copS.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   TIGRFAMs; TIGR01386; cztS_silS_copS; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Copper; Kinase;
+KW   Membrane; Nucleotide-binding; Phosphoprotein; Plasmid; Transferase;
+KW   Transmembrane; Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    487       Sensor protein CopS.
+FT                                /FTId=PRO_0000074737.
+FT   TOPO_DOM      1      9       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM     10     30       Helical. {ECO:0000255}.
+FT   TOPO_DOM     31    136       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    137    157       Helical. {ECO:0000255}.
+FT   TOPO_DOM    158    159       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    160    180       Helical. {ECO:0000255}.
+FT   TOPO_DOM    181    487       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN      181    234       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      242    455       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     245    245       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   487 AA;  53457 MW;  A9D678AACBC077FD CRC64;
+     MKPGSLTLRL SLLFVVAVAA VLIIVGVAFN ELSRHHFRAL DAQALGEKLE AITQIAKESG
+     ANPELLKARW HTLLGAHPDL SAVFLKTDGT PFFAEPPQSA VPSLAQATQR DGVWEWEKEG
+     RMFRALTASV SLPTASPPLT AWLVLDVTTH MHFFAMLERW FWGVLLASTV LSAALGWLVA
+     KNGLRPVARV TQTAASMSAG SLKERIPLEP VPDELRALIT AFNSMLGRLD DSFMRLSNFS
+     ADIAHELRTP ISNLRTHTEV ILAKKRAPEV YEENLSSNLE ELNRLSGIID GMLFLAKSDN
+     GLIVPEAVEL DLRTVISKLF GYYEFLAEDK GIQLQASGNA SIFADSVMID RVVSNLLSNA
+     LRYTSSGETI KVSIHDHGGR VELRLENPGP EIVPQHLDRI FDRFYRVDPA RREGRECGAG
+     ASDCPVLDAS AWRHYLVYIP RGPNDLHPHL HAIACPTNLT CRPDSLGTAK PGHTRLGEHE
+     TGCHCAG
+//

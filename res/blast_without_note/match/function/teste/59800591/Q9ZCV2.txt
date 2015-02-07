@@ -1,0 +1,91 @@
+ID   QUEE_RICPR              Reviewed;         234 AA.
+AC   Q9ZCV2;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=7-carboxy-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            Short=CDG synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            EC=4.3.99.3 {ECO:0000255|HAMAP-Rule:MF_00917};
+DE   AltName: Full=Queuosine biosynthesis protein QueE {ECO:0000255|HAMAP-Rule:MF_00917};
+GN   Name=queE {ECO:0000255|HAMAP-Rule:MF_00917}; OrderedLocusNames=RP607;
+OS   Rickettsia prowazekii (strain Madrid E).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=272947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Madrid E;
+RX   PubMed=9823893; DOI=10.1038/24094;
+RA   Andersson S.G.E., Zomorodipour A., Andersson J.O.,
+RA   Sicheritz-Ponten T., Alsmark U.C.M., Podowski R.M., Naeslund A.K.,
+RA   Eriksson A.-S., Winkler H.H., Kurland C.G.;
+RT   "The genome sequence of Rickettsia prowazekii and the origin of
+RT   mitochondria.";
+RL   Nature 396:133-140(1998).
+CC   -!- FUNCTION: Catalyzes the conversion of 6-carboxy-5,6,7,8-
+CC       tetrahydropterin (CPH4) to 7-carboxy-7-deazaguanine (CDG).
+CC       {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- CATALYTIC ACTIVITY: 6-carboxy-5,6,7,8-tetrahydropterin = 7-
+CC       carboxy-7-carbaguanine + NH(3). {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- COFACTOR:
+CC       Name=S-adenosyl-L-methionine; Xref=ChEBI:CHEBI:59789;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 S-adenosyl-L-methionine per subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. 7-carboxy-7-
+CC       deazaguanine synthase family. {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ235272; CAA15051.1; -; Genomic_DNA.
+DR   PIR; A71666; A71666.
+DR   RefSeq; NP_220975.1; NC_000963.1.
+DR   RefSeq; WP_010886333.1; NC_000963.1.
+DR   ProteinModelPortal; Q9ZCV2; -.
+DR   STRING; 272947.RP607; -.
+DR   EnsemblBacteria; CAA15051; CAA15051; CAA15051.
+DR   GeneID; 883801; -.
+DR   KEGG; rpr:RP607; -.
+DR   PATRIC; 17902031; VBIRicPro72556_0626.
+DR   HOGENOM; HOG000266142; -.
+DR   OMA; QAMDGPL; -.
+DR   OrthoDB; EOG6RJV40; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000002480; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016840; F:carbon-nitrogen lyase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00917; QueE; 1.
+DR   InterPro; IPR024924; 7-CO-7-deazaguanine_synth-like.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR007197; rSAM.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000370; QueE; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; Iron; Iron-sulfur; Lyase; Metal-binding;
+KW   Queuosine biosynthesis; Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN         1    234       7-carboxy-7-deazaguanine synthase.
+FT                                /FTId=PRO_0000416213.
+FT   METAL        55     55       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+FT   METAL        59     59       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+FT   METAL        62     62       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+SQ   SEQUENCE   234 AA;  26247 MW;  1BC9DAEE2E04C64B CRC64;
+     MNQRINSYKM FGHNPKRSIL SGDGTKLEVQ SIFKTIQGEG IFVGYPSIFI RLGGCNLACN
+     FCDTEFEDFK LIDIDQILNK VKNLSLNSKN AKTINLVVIT GGEPMRQPIG LLCQKLLDQD
+     FKVQIETNGT LYRSLPKEVF IVCSPKVGKT GYNKIREDLL PQISAVKFII SKNIVEYSII
+     PEVGQSAYDI PVFVQSMDQN DKRLNNENNE LAVKLALESG ARLSLQTHKF LGIE
+//

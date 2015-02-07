@@ -1,0 +1,124 @@
+ID   TSAB_VIBPA              Reviewed;         233 AA.
+AC   Q87RD1;
+DT   16-OCT-2013, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaB;
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaB;
+GN   Name=tsaB; Synonyms=yeaZ; OrderedLocusNames=VP0866;
+OS   Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=223926;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RIMD 2210633;
+RX   PubMed=12620739; DOI=10.1016/S0140-6736(03)12659-1;
+RA   Makino K., Oshima K., Kurokawa K., Yokoyama K., Uda T., Tagomori K.,
+RA   Iijima Y., Najima M., Nakano M., Yamashita A., Kubota Y., Kimura S.,
+RA   Yasunaga T., Honda T., Shinagawa H., Hattori M., Iida T.;
+RT   "Genome sequence of Vibrio parahaemolyticus: a pathogenic mechanism
+RT   distinct from that of V. cholerae.";
+RL   Lancet 361:743-749(2003).
+RN   [2]
+RP   CRYSTALLIZATION, AND SUBUNIT.
+RC   STRAIN=ATCC 43996 / DSM 11058 / NCTC 10884;
+RX   PubMed=21543872; DOI=10.1107/S1744309111010219;
+RA   Aydin I., Dimitropoulos A., Chen S.H., Thomas C., Roujeinikova A.;
+RT   "Purification, crystallization and preliminary X-ray crystallographic
+RT   analysis of the putative Vibrio parahaemolyticus resuscitation-
+RT   promoting factor YeaZ.";
+RL   Acta Crystallogr. F 67:604-607(2011).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (3.10 ANGSTROMS) OF 2-214, SUBUNIT, AND
+RP   DIMERIZATION MODE.
+RC   STRAIN=ATCC 43996 / DSM 11058 / NCTC 10884;
+RX   PubMed=21858042; DOI=10.1371/journal.pone.0023245;
+RA   Aydin I., Saijo-Hamano Y., Namba K., Thomas C., Roujeinikova A.;
+RT   "Structural analysis of the essential resuscitation promoting factor
+RT   YeaZ suggests a mechanism of nucleotide regulation through dimer
+RT   reorganization.";
+RL   PLoS ONE 6:E23245-E23245(2011).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group
+CC       on adenosine at position 37 (t(6)A37) in tRNAs that read codons
+CC       beginning with adenine. Is involved in the transfer of the
+CC       threonylcarbamoyl moiety of threonylcarbamoyl-AMP (TC-AMP) to the
+CC       N6 group of A37, together with TsaD and TsaE; this reaction does
+CC       not require ATP in vitro. TsaB seems to play an indirect role in
+CC       the t(6)A biosynthesis pathway, possibly in regulating the core
+CC       enzymatic function of TsaD (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:21543872,
+CC       ECO:0000269|PubMed:21858042}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Structural analysis identified two distinctly
+CC       different modes of TsaB dimer formation. In one form, prevalent in
+CC       the absence of nucleotide, the putative nucleotide-binding site is
+CC       incomplete and lacks a binding pocket for a nucleotide base. In
+CC       the second form, an interface between the two subunits apparently
+CC       completes a nucleotide-binding site. This analysis suggests that
+CC       the two dimer architectures observed in the crystal structures
+CC       correspond to a free and a nucleotide-bound form of TsaB. This
+CC       suggests that nucleotide binding to TsaB acts as a regulator or a
+CC       switch that changes the shape of TsaB and allows it to interact
+CC       with different partner proteins (PubMed:21858042).
+CC       {ECO:0000305|PubMed:21858042}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. TsaB subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000031; BAC59129.1; -; Genomic_DNA.
+DR   RefSeq; NP_797245.1; NC_004603.1.
+DR   PDB; 3R6M; X-ray; 3.10 A; A/B/C/D=2-214.
+DR   PDBsum; 3R6M; -.
+DR   ProteinModelPortal; Q87RD1; -.
+DR   STRING; 223926.VP0866; -.
+DR   EnsemblBacteria; BAC59129; BAC59129; BAC59129.
+DR   GeneID; 1188363; -.
+DR   KEGG; vpa:VP0866; -.
+DR   PATRIC; 20139948; VBIVibPar50997_0819.
+DR   HOGENOM; HOG000052125; -.
+DR   KO; K14742; -.
+DR   OMA; VAPRDHT; -.
+DR   OrthoDB; EOG6D8B8B; -.
+DR   BioCyc; VPAR223926:GHK4-907-MONOMER; -.
+DR   Proteomes; UP000002493; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070526; P:threonylcarbamoyladenosine biosynthetic process; IEA:InterPro.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR022496; T6A_YeaZ.
+DR   Pfam; PF00814; Peptidase_M22; 1.
+DR   TIGRFAMs; TIGR03725; T6A_YeaZ; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Cytoplasm; Reference proteome;
+KW   tRNA processing.
+FT   CHAIN         1    233       tRNA threonylcarbamoyladenosine
+FT                                biosynthesis protein TsaB.
+FT                                /FTId=PRO_0000423849.
+FT   STRAND        5      9       {ECO:0000244|PDB:3R6M}.
+FT   STRAND       11     23       {ECO:0000244|PDB:3R6M}.
+FT   STRAND       25     31       {ECO:0000244|PDB:3R6M}.
+FT   HELIX        37     49       {ECO:0000244|PDB:3R6M}.
+FT   TURN         50     52       {ECO:0000244|PDB:3R6M}.
+FT   TURN         55     57       {ECO:0000244|PDB:3R6M}.
+FT   STRAND       59     68       {ECO:0000244|PDB:3R6M}.
+FT   HELIX        70     86       {ECO:0000244|PDB:3R6M}.
+FT   STRAND       91     95       {ECO:0000244|PDB:3R6M}.
+FT   HELIX        96    108       {ECO:0000244|PDB:3R6M}.
+FT   STRAND      111    117       {ECO:0000244|PDB:3R6M}.
+FT   STRAND      124    131       {ECO:0000244|PDB:3R6M}.
+FT   STRAND      137    146       {ECO:0000244|PDB:3R6M}.
+FT   HELIX       148    153       {ECO:0000244|PDB:3R6M}.
+FT   STRAND      160    166       {ECO:0000244|PDB:3R6M}.
+FT   TURN        167    171       {ECO:0000244|PDB:3R6M}.
+FT   HELIX       173    176       {ECO:0000244|PDB:3R6M}.
+FT   STRAND      182    184       {ECO:0000244|PDB:3R6M}.
+FT   HELIX       193    204       {ECO:0000244|PDB:3R6M}.
+FT   TURN        205    207       {ECO:0000244|PDB:3R6M}.
+SQ   SEQUENCE   233 AA;  25151 MW;  8827932C4CAC5DD9 CRC64;
+     MSAKILAIDT ATENCSVALL VNDQVISRSE VAPRDHTKKV LPMVDEVLKE AGLTLQDLDA
+     LAFGRGPGSF TGVRIGIGIA QGLAFGAELP MIGVSTLAAM AQASYRLHGA TDVAVAIDAR
+     MSEVYWARYS RQENGEWIGV DEECVIPPAR LAEEAQADSK TWTTAGTGWS AYQEELAGLP
+     FNTADSEVLY PDSQDIVILA KQELEKGNTV PVEESSPVYL RDNVTWKKLP GRE
+//

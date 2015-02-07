@@ -1,0 +1,119 @@
+ID   AMPD_CITFR              Reviewed;         187 AA.
+AC   P82974; Q00831;
+DT   02-NOV-2001, integrated into UniProtKB/Swiss-Prot.
+DT   02-NOV-2001, sequence version 1.
+DT   07-JAN-2015, entry version 70.
+DE   RecName: Full=1,6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD;
+DE            EC=3.5.1.28;
+DE   AltName: Full=N-acetylmuramoyl-L-alanine amidase;
+GN   Name=ampD;
+OS   Citrobacter freundii.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Citrobacter; Citrobacter freundii complex.
+OX   NCBI_TaxID=546;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=OS60;
+RX   PubMed=8383940; DOI=10.1128/AAC.37.2.224;
+RA   Kopp U., Wiedemann B., Lindquist S., Normark S.;
+RT   "Sequences of wild-type and mutant ampD genes of Citrobacter freundii
+RT   and Enterobacter cloacae.";
+RL   Antimicrob. Agents Chemother. 37:224-228(1993).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=14507260; DOI=10.1042/BJ20030862;
+RA   Genereux C., Dehareng D., Devreese B., Van Beeumen J., Frere J.M.,
+RA   Joris B.;
+RT   "Mutational analysis of the catalytic centre of the Citrobacter
+RT   freundii AmpD N-acetylmuramyl-L-alanine amidase.";
+RL   Biochem. J. 377:111-120(2004).
+RN   [3]
+RP   STRUCTURE BY NMR, AND ZINC-BINDING SITES.
+RX   PubMed=12654266; DOI=10.1016/S0022-2836(03)00185-2;
+RA   Liepinsh E., Genereux C., Dehareng D., Joris B., Otting G.;
+RT   "NMR structure of Citrobacter freundii AmpD, comparison with
+RT   bacteriophage T7 lysozyme and homology with PGRP domains.";
+RL   J. Mol. Biol. 327:833-842(2003).
+CC   -!- FUNCTION: Involved in both cell wall peptidoglycans recycling and
+CC       beta-lactamase induction. Specifically cleaves the amide bond
+CC       between the lactyl group of N-acetylmuramic acid and the alpha-
+CC       amino group of the L-alanine in degradation products containing an
+CC       anhydro N-acetylmuramyl moiety. {ECO:0000269|PubMed:14507260}.
+CC   -!- CATALYTIC ACTIVITY: Hydrolyzes the link between N-acetylmuramoyl
+CC       residues and L-amino acid residues in certain cell-wall
+CC       glycopeptides.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC       Note=Zn(2+) is required for amidase activity.;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the N-acetylmuramoyl-L-alanine amidase 2
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z14002; CAA78390.2; -; Genomic_DNA.
+DR   PDB; 1J3G; NMR; -; A=1-187.
+DR   PDB; 2Y28; X-ray; 1.80 A; A/B/C=1-187.
+DR   PDB; 2Y2B; X-ray; 1.90 A; A/B/C=1-187.
+DR   PDB; 2Y2C; X-ray; 1.80 A; A/B/C=1-187.
+DR   PDB; 2Y2D; X-ray; 2.00 A; A/B/C=1-187.
+DR   PDB; 2Y2E; X-ray; 2.00 A; A/B/C=1-187.
+DR   PDBsum; 1J3G; -.
+DR   PDBsum; 2Y28; -.
+DR   PDBsum; 2Y2B; -.
+DR   PDBsum; 2Y2C; -.
+DR   PDBsum; 2Y2D; -.
+DR   PDBsum; 2Y2E; -.
+DR   ProteinModelPortal; P82974; -.
+DR   SMR; P82974; 1-187.
+DR   EvolutionaryTrace; P82974; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008745; F:N-acetylmuramoyl-L-alanine amidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009253; P:peptidoglycan catabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.80.10; -; 1.
+DR   InterPro; IPR002502; Amidase_domain.
+DR   Pfam; PF01510; Amidase_2; 1.
+DR   SMART; SM00644; Ami_2; 1.
+DR   SUPFAM; SSF55846; SSF55846; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell wall biogenesis/degradation; Cytoplasm; Hydrolase;
+KW   Metal-binding; Zinc.
+FT   CHAIN         1    187       1,6-anhydro-N-acetylmuramyl-L-alanine
+FT                                amidase AmpD.
+FT                                /FTId=PRO_0000164411.
+FT   ACT_SITE    116    116       Proton acceptor. {ECO:0000250}.
+FT   METAL        34     34       Zinc; catalytic.
+FT   METAL       154    154       Zinc; catalytic.
+FT   METAL       164    164       Zinc; catalytic.
+FT   SITE        162    162       Transition state stabilizer.
+FT                                {ECO:0000250}.
+FT   STRAND       11     13       {ECO:0000244|PDB:2Y28}.
+FT   STRAND       19     21       {ECO:0000244|PDB:2Y28}.
+FT   HELIX        23     25       {ECO:0000244|PDB:2Y28}.
+FT   STRAND       30     36       {ECO:0000244|PDB:2Y28}.
+FT   HELIX        47     52       {ECO:0000244|PDB:2Y28}.
+FT   HELIX        62     67       {ECO:0000244|PDB:2Y28}.
+FT   STRAND       75     78       {ECO:0000244|PDB:2Y28}.
+FT   TURN         80     82       {ECO:0000244|PDB:1J3G}.
+FT   STRAND       84     86       {ECO:0000244|PDB:2Y28}.
+FT   STRAND       92     95       {ECO:0000244|PDB:2Y28}.
+FT   STRAND      100    102       {ECO:0000244|PDB:1J3G}.
+FT   HELIX       108    111       {ECO:0000244|PDB:2Y28}.
+FT   STRAND      112    119       {ECO:0000244|PDB:2Y28}.
+FT   STRAND      121    123       {ECO:0000244|PDB:2Y28}.
+FT   HELIX       127    143       {ECO:0000244|PDB:2Y28}.
+FT   HELIX       145    149       {ECO:0000244|PDB:2Y28}.
+FT   STRAND      151    153       {ECO:0000244|PDB:2Y28}.
+FT   HELIX       154    157       {ECO:0000244|PDB:2Y28}.
+FT   TURN        159    161       {ECO:0000244|PDB:2Y28}.
+FT   TURN        164    168       {ECO:0000244|PDB:2Y2D}.
+FT   HELIX       171    177       {ECO:0000244|PDB:2Y28}.
+SQ   SEQUENCE   187 AA;  20847 MW;  DE3B49DBA20562AB CRC64;
+     MLLDEGWLAE ARRVPSPHYD CRPDDENPSL LVVHNISLPP GEFGGPWIDA LFTGTIDPNA
+     HPYFAGIAHL RVSAHCLIRR DGEIVQYVPF DKRAWHAGVS SYQGRERCND FSIGIELEGT
+     DTLAYTDAQY QQLAAVTNAL ITRYPAIANN MTGHCNIAPE RKTDPGPSFD WARFRALVTP
+     SSHKEMT
+//

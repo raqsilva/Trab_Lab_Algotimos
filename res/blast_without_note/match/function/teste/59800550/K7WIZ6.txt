@@ -1,0 +1,108 @@
+ID   RIBR_MAIZE              Reviewed;         623 AA.
+AC   K7WIZ6;
+DT   26-JUN-2013, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2013, sequence version 1.
+DT   04-FEB-2015, entry version 17.
+DE   RecName: Full=Riboflavin biosynthesis protein PYRR, chloroplastic;
+DE   Includes:
+DE     RecName: Full=Inactive diaminohydroxyphosphoribosylaminopyrimidine deaminase;
+DE              Short=DRAP deaminase;
+DE     AltName: Full=Riboflavin-specific deaminase;
+DE   Includes:
+DE     RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase;
+DE              EC=1.1.1.193;
+DE     AltName: Full=HTP reductase;
+DE   Flags: Precursor;
+GN   Name=PYRR; ORFNames=GRMZM2G090068;
+OS   Zea mays (Maize).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae;
+OC   PACMAD clade; Panicoideae; Andropogoneae; Zea.
+OX   NCBI_TaxID=4577;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, SUBCELLULAR
+RP   LOCATION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=23150645; DOI=10.1104/pp.112.208488;
+RA   Hasnain G., Frelin O., Roje S., Ellens K.W., Ali K., Guan J.C.,
+RA   Garrett T.J., de Crecy-Lagard V., Gregory J.F. III, McCarty D.R.,
+RA   Hanson A.D.;
+RT   "Identification and characterization of the missing pyrimidine
+RT   reductase in the plant riboflavin biosynthesis pathway.";
+RL   Plant Physiol. 161:48-56(2013).
+CC   -!- FUNCTION: Monofunctional pyrimidine reductase involved in the
+CC       riboflavin biosynthesis pathway. Has also a non-functional
+CC       deaminase domain that lacks the catalytically essential zinc-
+CC       binding residues. 39% activity when NADH replaces NADPH. No
+CC       evidence for a phosphatase activity conferred by the N-terminal
+CC       domain. {ECO:0000269|PubMed:23150645}.
+CC   -!- CATALYTIC ACTIVITY: 5-amino-6-(5-phospho-D-ribitylamino)uracil +
+CC       NADP(+) = 5-amino-6-(5-phospho-D-ribosylamino)uracil + NADPH.
+CC       {ECO:0000269|PubMed:23150645}.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 3/4.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast
+CC       {ECO:0000269|PubMed:23150645}.
+CC   -!- DISRUPTION PHENOTYPE: Lethal when homozygous. Required for both
+CC       endosperm and embryo formation in the seed.
+CC       {ECO:0000269|PubMed:23150645}.
+CC   -!- MISCELLANEOUS: Unlike bacteria that have a bifunctional, two-
+CC       domain RibD enzyme, plants have a monofunctional reductase and a
+CC       monofunctional deaminase, each having an enzymatically inactive
+CC       domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; JX838796; AFX59276.1; -; mRNA.
+DR   RefSeq; NP_001266474.1; NM_001279545.1.
+DR   UniGene; Zm.126241; -.
+DR   ProteinModelPortal; K7WIZ6; -.
+DR   EnsemblPlants; GRMZM2G090068_T01; GRMZM2G090068_P01; GRMZM2G090068.
+DR   GeneID; 101202729; -.
+DR   KEGG; zma:101202729; -.
+DR   OMA; ASVIHKV; -.
+DR   UniPathway; UPA00275; UER00402.
+DR   Proteomes; UP000007305; Unplaced.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008703; F:5-amino-6-(5-phosphoribosylamino)uracil reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008835; F:diaminohydroxyphosphoribosylaminopyrimidine deaminase activity; IEA:EnsemblPlants/Gramene.
+DR   GO; GO:0050661; F:NADP binding; IEA:EnsemblPlants/Gramene.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:EnsemblPlants/Gramene.
+DR   GO; GO:0009658; P:chloroplast organization; IEA:EnsemblPlants/Gramene.
+DR   GO; GO:0046443; P:FAD metabolic process; IEA:EnsemblPlants/Gramene.
+DR   GO; GO:0009644; P:response to high light intensity; IEA:EnsemblPlants/Gramene.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.430.10; -; 1.
+DR   InterPro; IPR012816; CHP02464_YbiA.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR024072; DHFR-like_dom.
+DR   InterPro; IPR004794; Eubact_RibD.
+DR   InterPro; IPR011549; RibD_C.
+DR   InterPro; IPR002734; RibDG_C.
+DR   Pfam; PF08719; DUF1768; 1.
+DR   Pfam; PF01872; RibD_C; 1.
+DR   SUPFAM; SSF53597; SSF53597; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR00326; eubact_ribD; 1.
+DR   TIGRFAMs; TIGR00227; ribD_Cterm; 1.
+DR   TIGRFAMs; TIGR02464; ribofla_fusion; 1.
+PE   1: Evidence at protein level;
+KW   Chloroplast; Complete proteome; NADP; Oxidoreductase; Plastid;
+KW   Reference proteome; Transit peptide.
+FT   TRANSIT       1     45       Chloroplast. {ECO:0000255}.
+FT   CHAIN        46    623       Riboflavin biosynthesis protein PYRR,
+FT                                chloroplastic.
+FT                                /FTId=PRO_0000422707.
+SQ   SEQUENCE   623 AA;  67802 MW;  F503D4AAD6713CB9 CRC64;
+     MPLPQPLLGG ASPAPARAAS SFLHPLLHTR HRVSTAPAAA SSFVPASHSS HANDAMLLRR
+     AADVADRSAG LTSPHPNFGC VIARPQLNTD SADSWVVGEG FLYAQGTPCA ELLASQEAGE
+     HARGGTAYLN LEPGDCFGDN TAVGSLVQAG ITRVVVGLRH PLKHLRGKAI QALRNEGIQV
+     DVVGEDLQSK LFKEALKSCL TVNAPLLYRA AFHVPFSVLK YAMTADGKIA ASSGHASWIS
+     GKASRGRVFE LRGRSDAVIV GGNTVRFDDP RLTARHVKGH VPVRIVMSQS LNLPEEANLW
+     NLNDAYTIVA TQRGARRDFQ RKLAMKGVEV VEFDMLNPRA VMSYCYDRGY LAVLWECGGT
+     LAASAISASV IHKVYAFWAP KIIGGLNAPT PVGELGMSQM TQAINLIDVS YEQIDRDMLM
+     SGFIEPIPDL SPVIPSVEEI PSIDPEVSPY ETNIISFYKT WDIFGAFSNF SPHSIQMPDE
+     NGDYFTWPTV EHYYQAHKFV GVDNPQARDI VQEIKLAKSP EEAARIGRTR QKGFPELVRT
+     DWESTKIDVM YRAIKCKFST YPHLTNMLLS TAGSVLVEAS PHDLFWGGGR EGEGLNYLGR
+     LLMQLRSEIL GTVPASAEVG EAD
+//

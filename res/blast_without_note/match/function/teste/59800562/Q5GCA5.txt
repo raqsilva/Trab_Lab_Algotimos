@@ -1,0 +1,134 @@
+ID   CCOP_RUBGE              Reviewed;         304 AA.
+AC   Q5GCA5;
+DT   21-SEP-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 48.
+DE   RecName: Full=Cbb3-type cytochrome c oxidase subunit CcoP {ECO:0000250|UniProtKB:D5ARP7};
+DE            Short=Cbb3-Cox subunit CcoP {ECO:0000250|UniProtKB:D5ARP7};
+DE   AltName: Full=C-type cytochrome CcoP {ECO:0000250|UniProtKB:Q52689};
+DE            Short=Cyt c(P) {ECO:0000250|UniProtKB:D5ARP7};
+DE   AltName: Full=Cytochrome c oxidase subunit III {ECO:0000312|EMBL:AAW66135.1};
+GN   Name=ccoP {ECO:0000312|EMBL:AAW66135.1};
+OS   Rubrivivax gelatinosus (Rhodocyclus gelatinosus) (Rhodopseudomonas
+OS   gelatinosa).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Rubrivivax.
+OX   NCBI_TaxID=28068;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAW66135.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND COFACTOR.
+RC   STRAIN=1 {ECO:0000312|EMBL:AAW66135.1};
+RX   PubMed=17178720; DOI=10.1074/jbc.M605985200;
+RA   Ouchane S., Picaud M., Therizols P., Reiss-Husson F., Astier C.;
+RT   "Global regulation of photosynthesis and respiration by FnrL: the
+RT   first two targets in the tetrapyrrole pathway.";
+RL   J. Biol. Chem. 282:7690-7699(2007).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:AAW66135.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], CATALYTIC ACTIVITY OF THE
+RP   CYTOCHROME C OXIDASE COMPLEX, AND COFACTOR.
+RC   STRAIN=1 {ECO:0000312|EMBL:AAW66135.1};
+RX   PubMed=20363758; DOI=10.1074/jbc.M110.116020;
+RA   Hassani B.K., Astier C., Nitschke W., Ouchane S.;
+RT   "CtpA, a copper-translocating P-type ATPase involved in the biogenesis
+RT   of multiple copper-requiring enzymes.";
+RL   J. Biol. Chem. 285:19330-19337(2010).
+RN   [3] {ECO:0000305, ECO:0000312|EMBL:AAW66135.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND CATALYTIC ACTIVITY OF THE
+RP   CYTOCHROME C OXIDASE COMPLEX.
+RC   STRAIN=1 {ECO:0000312|EMBL:AAW66135.1};
+RX   PubMed=20335164; DOI=10.1074/jbc.M109.086066;
+RA   Hassani B.K., Steunou A.S., Liotenberg S., Reiss-Husson F., Astier C.,
+RA   Ouchane S.;
+RT   "Adaptation to oxygen: role of terminal oxidases in photosynthesis
+RT   initiation in the purple photosynthetic bacterium, Rubrivivax
+RT   gelatinosus.";
+RL   J. Biol. Chem. 285:19891-19899(2010).
+CC   -!- FUNCTION: C-type cytochrome. Part of the cbb3-type cytochrome c
+CC       oxidase complex. CcoP subunit is required for transferring
+CC       electrons from donor cytochrome c via its heme groups to CcoO
+CC       subunit. From there, electrons are shuttled to the catalytic
+CC       binuclear center of CcoN subunit where oxygen reduction takes
+CC       place. The complex also functions as a proton pump (By
+CC       similarity). {ECO:0000250|UniProtKB:D5ARP7,
+CC       ECO:0000250|UniProtKB:D9IA45, ECO:0000250|UniProtKB:Q3J015}.
+CC   -!- COFACTOR:
+CC       Name=heme c; Xref=ChEBI:CHEBI:61717;
+CC         Evidence={ECO:0000250|UniProtKB:D9IA45,
+CC         ECO:0000269|PubMed:17178720, ECO:0000269|PubMed:20363758};
+CC       Note=Binds 2 heme C groups per subunit.
+CC       {ECO:0000250|UniProtKB:D9IA45, ECO:0000269|PubMed:17178720,
+CC       ECO:0000269|PubMed:20363758};
+CC   -!- PATHWAY: Energy metabolism; oxidative phosphorylation.
+CC       {ECO:0000250|UniProtKB:D5ARP7}.
+CC   -!- SUBUNIT: Component of the cbb3-type cytochrome c oxidase at least
+CC       composed of CcoN, CcoO, CcoQ and CcoP.
+CC       {ECO:0000250|UniProtKB:D5ARP7}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000250|UniProtKB:Q8KS19, ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000250|UniProtKB:Q8KS19, ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the CcoP / FixP family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 cytochrome c domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00433}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY648960; AAW66135.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q5GCA5; -.
+DR   UniPathway; UPA00705; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070469; C:respiratory chain; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006119; P:oxidative phosphorylation; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0015992; P:proton transport; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.760.10; -; 3.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   InterPro; IPR008168; Cyt_C_IC.
+DR   InterPro; IPR004678; Cyt_c_oxidase_cbb3_su3.
+DR   Pfam; PF13442; Cytochrome_CBB3; 2.
+DR   PIRSF; PIRSF000006; Cbb3-Cox_fixP; 1.
+DR   PRINTS; PR00605; CYTCHROMECIC.
+DR   SUPFAM; SSF46626; SSF46626; 3.
+DR   TIGRFAMs; TIGR00782; ccoP; 1.
+DR   PROSITE; PS51007; CYTC; 2.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Electron transport; Heme;
+KW   Hydrogen ion transport; Ion transport; Iron; Membrane; Metal-binding;
+KW   Oxidoreductase; Repeat; Respiratory chain; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    304       Cbb3-type cytochrome c oxidase subunit
+FT                                CcoP.
+FT                                /FTId=PRO_0000412294.
+FT   TRANSMEM     11     31       Helical. {ECO:0000255}.
+FT   TRANSMEM     61     81       Helical. {ECO:0000255}.
+FT   DOMAIN      129    209       Cytochrome c 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   DOMAIN      216    296       Cytochrome c 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   METAL       146    146       Iron (heme C 1 axial ligand).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+FT   METAL       185    185       Iron (heme C 2 axial ligand).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+FT   METAL       232    232       Iron (heme C 2 axial ligand).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+FT   METAL       273    273       Iron (heme C 1 axial ligand).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+FT   BINDING     142    142       Heme C 1 (covalent).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+FT   BINDING     145    145       Heme C 1 (covalent).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+FT   BINDING     228    228       Heme C 2 (covalent).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+FT   BINDING     231    231       Heme C 2 (covalent).
+FT                                {ECO:0000250|UniProtKB:D9IA45}.
+SQ   SEQUENCE   304 AA;  32673 MW;  50F115B26F5743A6 CRC64;
+     MSDFFNSGWS LYVAGITVVS LIFCLVVLIV ASRRKVMADD NTTGHVWDED LQELNNPLPR
+     WWAGLFLVTI AFAVIYLALY PGLGSNKGTL DWTSTGQHSA EMEKARAQMA PLYAKFVSQP
+     AEALAKDPQA MAIGERLFAN NCAQCHGADA RGSKGFPNLT DNDWLHGGTH DKIKETITGG
+     RVGNMPPMAA AVGTPEDVKN VAQYVLSLSG APHNEVAAQL GKAKFAVCAA CHGPDGKGMQ
+     AVGSANLTDK IWLHGLRRTG HHRLINNGKT NIMPAQASRL SPEQIHVLGA YVWSLSQTST
+     VAAR
+//

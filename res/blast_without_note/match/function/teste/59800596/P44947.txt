@@ -1,0 +1,129 @@
+ID   DEGS_HAEIN              Reviewed;         340 AA.
+AC   P44947;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   04-FEB-2015, entry version 107.
+DE   RecName: Full=Serine endoprotease DegS;
+DE            EC=3.4.21.107;
+DE   AltName: Full=Site-1 protease DegS;
+DE            Short=S1P protease DegS;
+DE   AltName: Full=Site-1-type intramembrane protease;
+GN   Name=degS; Synonyms=hhoB, htrH; OrderedLocusNames=HI_0945;
+OS   Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=71421;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=7542800; DOI=10.1126/science.7542800;
+RA   Fleischmann R.D., Adams M.D., White O., Clayton R.A., Kirkness E.F.,
+RA   Kerlavage A.R., Bult C.J., Tomb J.-F., Dougherty B.A., Merrick J.M.,
+RA   McKenney K., Sutton G.G., FitzHugh W., Fields C.A., Gocayne J.D.,
+RA   Scott J.D., Shirley R., Liu L.-I., Glodek A., Kelley J.M.,
+RA   Weidman J.F., Phillips C.A., Spriggs T., Hedblom E., Cotton M.D.,
+RA   Utterback T.R., Hanna M.C., Nguyen D.T., Saudek D.M., Brandon R.C.,
+RA   Fine L.D., Fritchman J.L., Fuhrmann J.L., Geoghagen N.S.M.,
+RA   Gnehm C.L., McDonald L.A., Small K.V., Fraser C.M., Smith H.O.,
+RA   Venter J.C.;
+RT   "Whole-genome random sequencing and assembly of Haemophilus influenzae
+RT   Rd.";
+RL   Science 269:496-512(1995).
+CC   -!- FUNCTION: A site-1 protease (S1P) that cleaves the peptide bond
+CC       between 'Val-148' and 'Ser-149' in RseA. Part of a regulated
+CC       intramembrane proteolysis (RIP) cascade. When heat shock or other
+CC       environmental stresses disrupt protein folding in the periplasm,
+CC       DegS senses the accumulation of unassembled outer membrane porins
+CC       (OMP) and then initiates RseA (anti sigma-E factor) degradation by
+CC       cleaving its periplasmic domain, making it a substrate for
+CC       subsequent cleavage by RseP. This cascade ultimately leads to the
+CC       sigma-E-driven expression of a variety of factors dealing with
+CC       folding stress in the periplasm and OMP assembly. Required for
+CC       basal and stress-induced degradation of RseA (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- ENZYME REGULATION: Allosterically activated by the C-terminus of
+CC       exposed OMP peptides (consensus Tyr-X-Phe-COOH); cleavage only
+CC       occurs in the presence of peptides. Inhibited when RseB is bound
+CC       to RseA.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Single-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- DOMAIN: The PDZ domain probably binds peptides ending with C-
+CC       terminal Tyr-X-Phe sequences, which activates proteolysis. In the
+CC       absence of OMP peptides the PDZ domain inhibits peptidase activity
+CC       (By similarity). {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Regulated intramembrane proteolysis (RIP) occurs
+CC       when an extracytoplasmic signal triggers a concerted proteolytic
+CC       cascade to transmit information and elicit cellular responses. A
+CC       membrane-spanning regulatory substrate protein is first cut
+CC       extracytoplasmically (site-1 protease, S1P, this enzyme), then
+CC       within the membrane itself (site-2 protease, S2P), while
+CC       cytoplasmic proteases finish degrading the regulatory protein,
+CC       liberating the effector protein (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 PDZ (DHR) domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L42023; AAC22599.1; -; Genomic_DNA.
+DR   PIR; I64103; I64103.
+DR   RefSeq; NP_439105.1; NC_000907.1.
+DR   ProteinModelPortal; P44947; -.
+DR   SMR; P44947; 33-339.
+DR   STRING; 71421.HI0945; -.
+DR   MEROPS; S01.275; -.
+DR   EnsemblBacteria; AAC22599; AAC22599; HI_0945.
+DR   GeneID; 949947; -.
+DR   KEGG; hin:HI0945; -.
+DR   PATRIC; 20190547; VBIHaeInf48452_0986.
+DR   eggNOG; COG0265; -.
+DR   KO; K04691; -.
+DR   OMA; IPINPNR; -.
+DR   OrthoDB; EOG6ZPT18; -.
+DR   PhylomeDB; P44947; -.
+DR   Proteomes; UP000000579; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0031226; C:intrinsic component of plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0071218; P:cellular response to misfolded protein; ISS:UniProtKB.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011783; Pept_S1C_DegS.
+DR   InterPro; IPR001254; Peptidase_S1.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF00595; PDZ; 1.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 1.
+DR   SUPFAM; SSF50156; SSF50156; 1.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   TIGRFAMs; TIGR02038; protease_degS; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Hydrolase;
+KW   Membrane; Protease; Reference proteome; Serine protease;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    340       Serine endoprotease DegS.
+FT                                /FTId=PRO_0000026939.
+FT   TOPO_DOM      1      4       Cytoplasmic. {ECO:0000250}.
+FT   TRANSMEM      5     24       Helical. {ECO:0000255}.
+FT   TOPO_DOM     25    340       Periplasmic. {ECO:0000250}.
+FT   DOMAIN      251    323       PDZ. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   ACT_SITE     92     92       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    122    122       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    197    197       Charge relay system. {ECO:0000255}.
+SQ   SEQUENCE   340 AA;  36039 MW;  69EA452DF5A10649 CRC64;
+     MLKKLFHSAL WGLAAAGVIL FAVPRLNNSN IFTSDDIISF KNAVRIASPA VVNVYNRSFS
+     SASINDNDQL QVNNLGSGVI MSKDGYILTN KHLIQNADQI VVALQNGNIF EASLVGSDDL
+     TDLAVLKIRA DNLSTIPQNS ARQAHVGDVV LAIGNPYNLG QSVSQGIISA IGRNAVGDSV
+     GRQNFIQTDA SINRGNSGGA LINSAGELVG ISTLSIGKTA NEIAEGLNFA IPIDIANDVL
+     RKIMRDGRVI RGYFGVQSDI SSSSEEGIVI TDVSPNSPAA KSGIQVGDVI LKLNNQEGIS
+     AREMMQIIAN TKPNSKVLVT ILRLGKILQI PVVIEEFPVN
+//

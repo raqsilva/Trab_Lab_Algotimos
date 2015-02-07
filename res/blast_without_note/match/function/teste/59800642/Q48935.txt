@@ -1,0 +1,134 @@
+ID   APHA_MYCRA              Reviewed;         341 AA.
+AC   Q48935;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   26-NOV-2014, entry version 59.
+DE   RecName: Full=Acetylpolyamine aminohydrolase;
+GN   Name=aphA; Synonyms=aph;
+OS   Mycoplana ramosa (Mycoplana bullata).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Brucellaceae; Mycoplana.
+OX   NCBI_TaxID=40837;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 1-30.
+RC   STRAIN=ATCC 49678 / DSM 7292 / JCM 7822 / NBRC 15249 / NCIMB 9440 /
+RC   FERM BP-1845;
+RX   PubMed=8824626;
+RA   Sakurada K., Ohta T., Fujishiro K., Hasegawa M., Aisaka K.;
+RT   "Acetylpolyamine amidohydrolase from Mycoplana ramosa: gene cloning
+RT   and characterization of the metal-substituted enzyme.";
+RL   J. Bacteriol. 178:5781-5786(1996).
+RN   [2]
+RP   CHARACTERIZATION.
+RC   STRAIN=ATCC 49678 / DSM 7292 / JCM 7822 / NBRC 15249 / NCIMB 9440 /
+RC   FERM BP-1845;
+RX   PubMed=3207420; DOI=10.1016/S0006-291X(88)80997-5;
+RA   Fujishiro K., Ando M., Uwajima T.;
+RT   "Crystallization and some properties of acetylpolyamine amidohydrolase
+RT   from Mycoplana bullata.";
+RL   Biochem. Biophys. Res. Commun. 157:1169-1174(1988).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS) IN COMPLEXES WITH ZINC AND
+RP   SUBSTRATES, CATALYTIC ACTIVITY, SUBUNIT, COFACTOR, ACTIVE SITE, AND
+RP   MUTAGENESIS OF HIS-158; HIS-158 AND TYR-323.
+RX   PubMed=21268586; DOI=10.1021/bi101859k;
+RA   Lombardi P.M., Angell H.D., Whittington D.A., Flynn E.F.,
+RA   Rajashankar K.R., Christianson D.W.;
+RT   "Structure of prokaryotic polyamine deacetylase reveals evolutionary
+RT   functional relationships with eukaryotic histone deacetylases.";
+RL   Biochemistry 50:1808-1817(2011).
+CC   -!- FUNCTION: Acts on many types of acetylpolyamines. Has high
+CC       affinity towards acetylputrescine, acetylcadaverine,
+CC       acetylspermidine, and acetylspermine. Acts on L-Lys-(epsilon-
+CC       acetyl)-coumarin, but has very low activity towards acetylated
+CC       peptides.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:21268586};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:21268586};
+CC   -!- ENZYME REGULATION: Inhibited by KCl at concentrations above 10 mM.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is about 8.0.;
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:21268586}.
+CC   -!- SIMILARITY: Belongs to the histone deacetylase family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D10463; BAA01256.1; -; Genomic_DNA.
+DR   PIR; T48858; T48858.
+DR   PDB; 3Q9B; X-ray; 2.25 A; A/B/C/D/E/F/G/H/I/J/K/L=1-341.
+DR   PDB; 3Q9C; X-ray; 2.30 A; A/B/C/D/E/F/G/H/I/J/K/L=1-341.
+DR   PDB; 3Q9E; X-ray; 2.50 A; A/B/C/D/E/F/G/H/I/J/K/L=1-341.
+DR   PDB; 3Q9F; X-ray; 2.35 A; A/B/C/D/E/F/G/H/I/J/K/L=1-341.
+DR   PDBsum; 3Q9B; -.
+DR   PDBsum; 3Q9C; -.
+DR   PDBsum; 3Q9E; -.
+DR   PDBsum; 3Q9F; -.
+DR   ProteinModelPortal; Q48935; -.
+DR   BindingDB; Q48935; -.
+DR   ChEMBL; CHEMBL1795187; -.
+DR   BioCyc; MetaCyc:MONOMER-14060; -.
+DR   EvolutionaryTrace; Q48935; -.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.800.20; -; 1.
+DR   InterPro; IPR000286; His_deacetylse.
+DR   InterPro; IPR023801; His_deacetylse_dom.
+DR   PANTHER; PTHR10625; PTHR10625; 1.
+DR   Pfam; PF00850; Hist_deacetyl; 1.
+DR   PRINTS; PR01270; HDASUPER.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Hydrolase; Metal-binding;
+KW   Zinc.
+FT   CHAIN         1    341       Acetylpolyamine aminohydrolase.
+FT                                /FTId=PRO_0000114737.
+FT   REGION      158    159       Substrate binding.
+FT   ACT_SITE    159    159       Proton acceptor.
+FT                                {ECO:0000305|PubMed:21268586}.
+FT   METAL       195    195       Zinc; catalytic.
+FT   METAL       197    197       Zinc; catalytic.
+FT   METAL       284    284       Zinc; catalytic.
+FT   SITE        323    323       Transition state stabilizer.
+FT   MUTAGEN     158    158       H->A: Reduces enzyme activity by 97%.
+FT                                {ECO:0000269|PubMed:21268586}.
+FT   MUTAGEN     159    159       H->A: Abolishes enzyme activity.
+FT   MUTAGEN     323    323       Y->F: Reduces enzyme activity by 99%.
+FT                                {ECO:0000269|PubMed:21268586}.
+FT   STRAND        2      4       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX         7     11       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND       17     19       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND       22     24       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX        31     42       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX        59     61       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX        65     80       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       105    111       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      113    115       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       124    144       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      147    151       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      164    166       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      169    171       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       173    183       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      189    193       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      195    197       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       200    206       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      212    219       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       221    223       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       238    240       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      244    249       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       255    272       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      277    281       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      294    296       {ECO:0000244|PDB:3Q9C}.
+FT   HELIX       300    309       {ECO:0000244|PDB:3Q9B}.
+FT   STRAND      315    319       {ECO:0000244|PDB:3Q9B}.
+FT   HELIX       328    340       {ECO:0000244|PDB:3Q9B}.
+SQ   SEQUENCE   341 AA;  36332 MW;  950583DF79059F4A CRC64;
+     MRVIFSEDHK LRNAKTELYG GELVPPFEAP FRAEWILAAV KEAGFDDVVA PARHGLETVL
+     KVHDAGYLNF LETAWDRWKA AGYKGEAIAT SFPVRRTSPR IPTDIEGQIG YYCNAAETAI
+     SPGTWEAALS SMASAIDGAD LIAAGHKAAF SLCRPPGHHA GIDMFGGYCF INNAAVAAQR
+     LLDKGAKKIA ILDVDFHHGN GTQDIFYERG DVFFASLHGD PAEAFPHFLG YAEETGKGAG
+     AGTTANYPMG RGTPYSVWGE ALTDSLKRIA AFGAEAIVVS LGVDTFEQDP ISFFKLTSPD
+     YITMGRTIAA SGVPLLVVME GGYGVPEIGL NVANVLKGVA G
+//

@@ -1,0 +1,102 @@
+ID   RHPA_HELP8              Reviewed;         492 AA.
+AC   B9XXL6;
+DT   03-SEP-2014, integrated into UniProtKB/Swiss-Prot.
+DT   14-APR-2009, sequence version 1.
+DT   07-JAN-2015, entry version 26.
+DE   RecName: Full=DEAD-box ATP-dependent RNA helicase RhpA;
+DE            EC=3.6.4.13;
+GN   Name=rhpA; ORFNames=HPB128_21g22;
+OS   Helicobacter pylori (strain B128).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=544406;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B128;
+RX   PubMed=19123947; DOI=10.1186/1471-2164-10-3;
+RA   McClain M.S., Shaffer C.L., Israel D.A., Peek R.M. Jr., Cover T.L.;
+RT   "Genome sequence analysis of Helicobacter pylori strains associated
+RT   with gastric ulceration and gastric cancer.";
+RL   BMC Genomics 10:3-3(2009).
+RN   [2]
+RP   FUNCTION AS AN ATPASE, INTERACTION WITH RNJ, SUBUNIT, SUBCELLULAR
+RP   LOCATION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=B128;
+RX   PubMed=23093592; DOI=10.1093/nar/gks945;
+RA   Redko Y., Aubert S., Stachowicz A., Lenormand P., Namane A.,
+RA   Darfeuille F., Thibonnier M., De Reuse H.;
+RT   "A minimal bacterial RNase J-based degradosome is associated with
+RT   translating ribosomes.";
+RL   Nucleic Acids Res. 41:288-301(2013).
+CC   -!- FUNCTION: DEAD-box RNA helicase probably involved in RNA
+CC       degradation. Unwinds dsRNA in both 5'- and 3'-directions (By
+CC       similarity). Background RNA-dependent ATPase activity is
+CC       stimulated about 5-fold by RNaseJ (rnj). Stimulates the dsRNase
+CC       activity of RNase J. {ECO:0000250, ECO:0000269|PubMed:23093592}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts with RNase J (rnj),
+CC       might be a member of a minimal RNA degradosome complex.
+CC       {ECO:0000250, ECO:0000269|PubMed:23093592}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:23093592}.
+CC       Note=The RNaseJ-RhpA complex co-localizes with 70S ribosomes and
+CC       polysomes; remains associated with ribosomes in the absence of
+CC       RNase J.
+CC   -!- DISRUPTION PHENOTYPE: Not essential, it can be deleted. RNase J
+CC       remains associated with the ribosomes and polysomes.
+CC       {ECO:0000269|PubMed:23093592}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; ABSY01000001; EEC25260.1; -; Genomic_DNA.
+DR   ProteinModelPortal; B9XXL6; -.
+DR   EnsemblBacteria; EEC25260; EEC25260; HPB128_21g22.
+DR   PATRIC; 27522829; VBIHelPyl107473_0023.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004386; F:helicase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cytoplasm; Helicase; Hydrolase; Nucleotide-binding;
+KW   RNA-binding.
+FT   CHAIN         1    492       DEAD-box ATP-dependent RNA helicase RhpA.
+FT                                /FTId=PRO_0000430106.
+FT   DOMAIN       51    220       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      231    393       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND      64     71       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF        20     48       Q motif.
+FT   MOTIF       168    171       DEAD box.
+SQ   SEQUENCE   492 AA;  55845 MW;  0EA636F0110D3183 CRC64;
+     MELNQPPLPT EIDDDAYHKP SFNDLGLKES VLKSVYEAGF TSPSPIQEKA IPAVLQGRDV
+     IAQAQTGTGK TAAFALPIIN NLKNNHTIEA LVITPTRELA MQISDEIFKL GKHTRTKTVC
+     VYGGQSVKKQ CEFIKKNPQV MIATPGRLLD HLKNERIHKF VPKVVVLDES DEMLDMGFLD
+     DIEEIFDYLP SEAQILLFSA TMPEPIKRLA DKILENPIKI HIAPSNITNT DITQRFYVIN
+     EHERAEAIMR LLDTQAPKKS IVFTRTKKEA DELHQFLASK NYKSTALHGD MDQRDRRASI
+     MAFKKNDADV LVATDVASRG LDISGVSHVF NYHLPLNTES YIHRIGRTGR AGKKGMAITL
+     VTPLEYKELL RMQKEIDSEI ELFEIPTINE NQIIKTLHDA KVSEGIISLY EQLTEIFEPS
+     QLVLKLLSLQ FETSKIGLNQ QEIDAIQNPK EKTPKPSHKK TPQHERARSF KKGQHRDRHP
+     KTNHHSKKPK RR
+//

@@ -1,0 +1,82 @@
+ID   QUED_RICPR              Reviewed;         138 AA.
+AC   Q9ZDY5;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase;
+DE            Short=CPH4 synthase;
+DE            EC=4.1.2.50;
+DE   AltName: Full=Queuosine biosynthesis protein QueD;
+GN   Name=queD; OrderedLocusNames=RP178;
+OS   Rickettsia prowazekii (strain Madrid E).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=272947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Madrid E;
+RX   PubMed=9823893; DOI=10.1038/24094;
+RA   Andersson S.G.E., Zomorodipour A., Andersson J.O.,
+RA   Sicheritz-Ponten T., Alsmark U.C.M., Podowski R.M., Naeslund A.K.,
+RA   Eriksson A.-S., Winkler H.H., Kurland C.G.;
+RT   "The genome sequence of Rickettsia prowazekii and the origin of
+RT   mitochondria.";
+RL   Nature 396:133-140(1998).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin
+CC       triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4)
+CC       and acetaldehyde. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate + H(2)O =
+CC       6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PTPS family. QueD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ235270; CAA14645.1; -; Genomic_DNA.
+DR   PIR; F71728; F71728.
+DR   RefSeq; NP_220568.1; NC_000963.1.
+DR   ProteinModelPortal; Q9ZDY5; -.
+DR   STRING; 272947.RP178; -.
+DR   EnsemblBacteria; CAA14645; CAA14645; CAA14645.
+DR   GeneID; 883870; -.
+DR   KEGG; rpr:RP178; -.
+DR   PATRIC; 17901106; VBIRicPro72556_0183.
+DR   eggNOG; COG0720; -.
+DR   HOGENOM; HOG000225068; -.
+DR   KO; K01737; -.
+DR   OMA; TPNCWAE; -.
+DR   OrthoDB; EOG6FFSCJ; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000002480; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Queuosine biosynthesis;
+KW   Reference proteome; Zinc.
+FT   CHAIN         1    138       6-carboxy-5,6,7,8-tetrahydropterin
+FT                                synthase.
+FT                                /FTId=PRO_0000057928.
+FT   ACT_SITE     23     23       Proton acceptor. {ECO:0000250}.
+FT   ACT_SITE     68     68       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    130    130       Charge relay system. {ECO:0000250}.
+FT   METAL        14     14       Zinc. {ECO:0000250}.
+FT   METAL        27     27       Zinc. {ECO:0000250}.
+FT   METAL        29     29       Zinc. {ECO:0000250}.
+SQ   SEQUENCE   138 AA;  16227 MW;  014B19A34593B968 CRC64;
+     MIKCTRRINF DAGHRIIGHK NKCQFLHGHH YVLEITIAAN KTDTLGMVID FGLIKNLAKK
+     WIDANFDHNL ILHQDDKEMG QQIENYTRQK IYYMRNNPTA ENIATHLKNE IFPKLFVSQN
+     FFVTSLKLYE TQNCFVEV
+//

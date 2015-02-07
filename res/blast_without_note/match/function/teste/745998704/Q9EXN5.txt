@@ -1,0 +1,117 @@
+ID   MCHF_ECOLX              Reviewed;         698 AA.
+AC   Q9EXN5; Q2WEK5;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   07-JAN-2015, entry version 91.
+DE   RecName: Full=Probable microcin-H47 secretion/processing ATP-binding protein MchF;
+DE            EC=3.4.22.-;
+GN   Name=mchF;
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=H47;
+RX   PubMed=11181394; DOI=10.1128/AAC.45.3.969-972.2001;
+RA   Azpiroz M.F., Rodriguez E., Lavina M.;
+RT   "The structure, function, and origin of the microcin H47 ATP-binding
+RT   cassette exporter indicate its relatedness to that of colicin V.";
+RL   Antimicrob. Agents Chemother. 45:969-972(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=H47;
+RX   PubMed=15047525; DOI=10.1128/AAC.48.4.1235-1241.2004;
+RA   Azpiroz M.F., Lavina M.;
+RT   "Involvement of enterobactin synthesis pathway in production of
+RT   microcin H47.";
+RL   Antimicrob. Agents Chemother. 48:1235-1241(2004).
+CC   -!- FUNCTION: Probably involved, in conjunction with MchE, in the
+CC       secretion of microcin H47.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 ABC transmembrane type-1 domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00362, ECO:0000255|PROSITE-
+CC       ProRule:PRU00434}.
+CC   -!- SIMILARITY: Contains 1 peptidase C39 domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00362}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ009631; CAJ44959.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q9EXN5; -.
+DR   MEROPS; C39.005; -.
+DR   PRIDE; Q9EXN5; -.
+DR   eggNOG; COG2274; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042626; F:ATPase activity, coupled to transmembrane movement of substances; IEA:InterPro.
+DR   GO; GO:0008234; F:cysteine-type peptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0043213; P:bacteriocin transport; IEA:UniProtKB-KW.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005074; Peptidase_C39.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF03412; Peptidase_C39; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF90123; SSF90123; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS50990; PEPTIDASE_C39; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Bacteriocin transport; Cell membrane; Hydrolase;
+KW   Membrane; Nucleotide-binding; Protease; Protein transport;
+KW   Thiol protease; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    698       Probable microcin-H47
+FT                                secretion/processing ATP-binding protein
+FT                                MchF.
+FT                                /FTId=PRO_0000092490.
+FT   TRANSMEM     33     53       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM     90    110       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    289    311       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    315    337       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    397    417       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   DOMAIN       26    145       Peptidase C39. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362}.
+FT   DOMAIN      176    458       ABC transmembrane type-1.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00441}.
+FT   DOMAIN      492    698       ABC transporter. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362, ECO:0000255|PROSITE-
+FT                                ProRule:PRU00434}.
+FT   NP_BIND     526    533       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362, ECO:0000255|PROSITE-
+FT                                ProRule:PRU00434}.
+FT   ACT_SITE     32     32       {ECO:0000255|PROSITE-ProRule:PRU00362}.
+SQ   SEQUENCE   698 AA;  77851 MW;  CEC8736DA319C520 CRC64;
+     MTNGSFRQII NQLDMRWRRR VPVIHQTETA ECGLACLAMI CGHFGKNIDL ISLRRKFNLS
+     ARGANLAGIN GIAEQLGMVT RALSLELDEL GALKMPCILH WDFSHFVVLV SVKRNRYVLH
+     DPARGRRYLG REEMSRYFTG IALEVWPGSE FLAETQQIRI SLRSLINSIY GIKRTLAKIF
+     CLSVVIEAIN LVMPVGTQLV MDHAIPAGDR GLLTLISAGL MFFILLRAAV SMLRAWSSLV
+     MSTLINIQWQ SGLFNHLLRL PLAFFERRKL GDIQSRFGSL DTLRATFTTC VVGAIMDSIM
+     VVGVFVMMLL YGGYLTWIVL GFTMVYVLIR LVTYGYYRQI SEETLVRGAR ASSYFMESLY
+     GIATVKIQGM AGIRGTHWLN LKIDAINSGI KLTKMDLLFG GINTFVAACD QVAILWLGAS
+     LVIDNQMTIG MFVAFGSFRG QFSDRVASLT SFLLQLRIMS LHNERIADIA LHEKEEKKPE
+     IEIVADMSPV SLETTDLSYR YDSQSAQVFS GLNLSVAPGE SVAITGASGA GKTTLMKVLC
+     GLFEPDSGKV LVNGTDIRQL GINNYHRMIA CVMQDDRLFS GSIRENICGF AEETDDEWMT
+     ECARASHIHD VIMKMPMGYE TLIGELGEGL SGGQKQRIFI ARALYRKPGI LFMDEATSSL
+     DTESERFVNA AIKKMNITRV IIAHRETTLR TVDRIISI
+//

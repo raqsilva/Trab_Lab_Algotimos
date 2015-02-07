@@ -1,0 +1,88 @@
+ID   DMA_SALTY               Reviewed;         278 AA.
+AC   P0DMP3; P0A291; P55893;
+DT   01-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2014, sequence version 1.
+DT   04-FEB-2015, entry version 4.
+DE   RecName: Full=DNA adenine methylase;
+DE            EC=2.1.1.72;
+DE   AltName: Full=DNA adenine methyltransferase;
+DE   AltName: Full=Deoxyadenosyl-methyltransferase;
+DE   AltName: Full=M.StyDam;
+GN   Name=dam; OrderedLocusNames=STM3484;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Methylates DNA within the sequence GATC and protects the
+CC       DNA from cleavage by the restriction endonuclease MboI. Although
+CC       it shares sequence specificity with a number of type II
+CC       restriction endonucleases and methylases, it is thought to act in
+CC       postreplication mismatch repair rather than as a part of a
+CC       restriction modification system. May also play a role in DNA
+CC       replication (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + DNA adenine = S-
+CC       adenosyl-L-homocysteine + DNA 6-methylaminopurine.
+CC   -!- SIMILARITY: Belongs to the N(4)/N(6)-methyltransferase family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE006468; AAL22346.1; -; Genomic_DNA.
+DR   RefSeq; NP_462387.1; NC_003197.1.
+DR   STRING; 99287.STM3484; -.
+DR   GeneID; 1255007; -.
+DR   KEGG; stm:STM3484; -.
+DR   PATRIC; 32385769; VBISalEnt20916_3682.
+DR   eggNOG; COG0338; -.
+DR   HOGENOM; HOG000281348; -.
+DR   KO; K06223; -.
+DR   OrthoDB; EOG6CS08V; -.
+DR   PhylomeDB; P0DMP3; -.
+DR   BioCyc; SENT99287:GCTI-3506-MONOMER; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0009007; F:site-specific DNA-methyltransferase (adenine-specific) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.1020.10; -; 1.
+DR   Gene3D; 3.40.50.150; -; 2.
+DR   InterPro; IPR023095; Ade_MeTrfase_dom_2.
+DR   InterPro; IPR002052; DNA_methylase_N6_adenine_CS.
+DR   InterPro; IPR012263; M_m6A_EcoRV.
+DR   InterPro; IPR012327; MeTrfase_D12.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF02086; MethyltransfD12; 1.
+DR   PIRSF; PIRSF000398; M_m6A_EcoRV; 1.
+DR   PRINTS; PR00505; D12N6MTFRASE.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00571; dam; 1.
+DR   PROSITE; PS00092; N6_MTASE; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA replication; Methyltransferase;
+KW   Reference proteome; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN         1    278       DNA adenine methylase.
+FT                                /FTId=PRO_0000087994.
+FT   BINDING      10     10       S-adenosyl-L-methionine. {ECO:0000250}.
+FT   BINDING      14     14       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000250}.
+FT   BINDING      54     54       S-adenosyl-L-methionine. {ECO:0000250}.
+FT   BINDING     181    181       S-adenosyl-L-methionine. {ECO:0000250}.
+SQ   SEQUENCE   278 AA;  32027 MW;  900F4B77D827C3A8 CRC64;
+     MKKNRAFLKW AGGKYPLLDD IKRHLPKGEC LVEPFVGAGS VFLNTDFSRY ILADINSDLI
+     SLYNIVKLRT DEYVQASREL FMPETNQAEV YYQLREEFNT CQDPFRRAVL FLYLNRYGYN
+     GLCRYNLRGE FNVPFGRYKR PYFPEAELYH FAEKAQNAFF YCESYADSMA RADKSSVVYC
+     DPPYAPLSAT ANFTAYHTNS FSLTQQAHLA EIAENLVSNR IPVLISNHDT ALTREWYQLA
+     KLHVVKVRRS ISSNGGTRKK VDELLALYQP GVATPARK
+//

@@ -1,0 +1,103 @@
+ID   SPHR_SYNE7              Reviewed;         257 AA.
+AC   P39663; Q31PH7;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   07-JAN-2015, entry version 91.
+DE   RecName: Full=Alkaline phosphatase synthesis transcriptional regulatory protein SphR;
+GN   Name=sphR; OrderedLocusNames=Synpcc7942_1012;
+OS   Synechococcus elongatus (strain PCC 7942) (Anacystis nidulans R2).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Synechococcus.
+OX   NCBI_TaxID=1140;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8497200; DOI=10.1111/j.1365-2958.1993.tb01205.x;
+RA   Aiba H., Nagaya M., Mizuno T.;
+RT   "Sensor and regulator proteins from the cyanobacterium Synechococcus
+RT   species PCC7942 that belong to the bacterial signal-transduction
+RT   protein families: implication in the adaptive response to phosphate
+RT   limitation.";
+RL   Mol. Microbiol. 8:81-91(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7942;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Pitluck S., Schmutz J., Larimer F., Land M.,
+RA   Kyrpides N., Lykidis A., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Synechococcus elongatus PCC
+RT   7942.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   CHARACTERIZATION.
+RX   PubMed=8157591;
+RA   Nagaya M., Aiba H., Mizuno T.;
+RT   "The sphR product, a two-component system response regulator protein,
+RT   regulates phosphate assimilation in Synechococcus sp. strain PCC 7942
+RT   by binding to two sites upstream from the phoA promoter.";
+RL   J. Bacteriol. 176:2210-2215(1994).
+CC   -!- FUNCTION: Member of the two-component regulatory system SphR/SphS.
+CC       Response regulator. Involved in inducible production of alkaline
+CC       phosphatase in response to phosphate limitation as it is directly
+CC       involved in the regulation of phoA transcription in response to
+CC       phosphate limitation. Binds to two distinct sites upstream from
+CC       the phoA promoter.
+CC   -!- PTM: Phosphorylated by SphS.
+CC   -!- SIMILARITY: Contains 1 response regulatory domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00169}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D13172; BAA02453.1; -; Genomic_DNA.
+DR   EMBL; CP000100; ABB57042.1; -; Genomic_DNA.
+DR   PIR; S32931; S32931.
+DR   RefSeq; YP_400029.1; NC_007604.1.
+DR   ProteinModelPortal; P39663; -.
+DR   STRING; 1140.Synpcc7942_1012; -.
+DR   EnsemblBacteria; ABB57042; ABB57042; Synpcc7942_1012.
+DR   GeneID; 3773940; -.
+DR   KEGG; syf:Synpcc7942_1012; -.
+DR   PATRIC; 23787271; VBISynElo51371_1166.
+DR   eggNOG; COG0745; -.
+DR   HOGENOM; HOG000034819; -.
+DR   KO; K07657; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; SYNEL:SYNPCC7942_1012-MONOMER; -.
+DR   Proteomes; UP000002717; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006817; P:phosphate ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001867; Sig_transdc_resp-reg_C.
+DR   InterPro; IPR016032; Sig_transdc_resp-reg_C-effctor.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   Pfam; PF00486; Trans_reg_C; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SMART; SM00862; Trans_reg_C; 1.
+DR   SUPFAM; SSF46894; SSF46894; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   1: Evidence at protein level;
+KW   Activator; Complete proteome; DNA-binding; Phosphate transport;
+KW   Phosphoprotein; Reference proteome; Transcription;
+KW   Transcription regulation; Transport; Two-component regulatory system.
+FT   CHAIN         1    257       Alkaline phosphatase synthesis
+FT                                transcriptional regulatory protein SphR.
+FT                                /FTId=PRO_0000081246.
+FT   DOMAIN       25    148       Response regulatory.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+FT   MOD_RES      83     83       4-aspartylphosphate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+SQ   SEQUENCE   257 AA;  29012 MW;  A53FDF257044BE68 CRC64;
+     MTSNPLDESM ESLTVVPPAA SPASRILVVE DEAVIRDMVA LVLQQEGFTV DVAADGRTAL
+     NYFRSDSPEA GSVTENPDLV VLDLMLPAVN GLDFCRLLRR QGVTVPILML SAKDTETDRV
+     VGLEIGADDY LTKPFGTREL VARCRALLRR SQNQPAETPA VLRYEGLKLF PEECRVLLDD
+     RELTLSPKEF RLLELFMRHP RRVWSRDQLL EKIWGIDFMG DSKTIDVHIR WLREKIEANP
+     SNPSYLLTVR GFGYRLG
+//

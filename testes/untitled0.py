@@ -18,27 +18,39 @@ import numpy as np
 import urllib.request
 import os
 
-blast=[]    
-for file in os.listdir("../res/blast_without_note/match/function/"):
-    if file.endswith(".txt"):
-           blast.append(file)
+handle = open("../res/blast_without_note/match/allhits/allhits.txt").readlines()
 
-lista=[]
-match=[]
-for j in range(len(blast)):
-    nome=blast[j]
-    gi = nome.replace(".txt","")
-    func='CC '
-    file = open("../res/blast_without_note/match/function/"+nome,'r') 
-    data = file.readlines()
-    for i in data:
-        if func in i:
-            function=i.replace('CC   -!- FUNCTION:', '')
-            lista.append('Gi: '+gi+'  '+'Possivel função:  '+function)
-#function to se the proteins that have possible note:   
-for n in range(len(blast)):
-    name=blast[n]
-    gis = name.replace(".txt","")
-    for k in lista:
-        if gis in k:
-            match.append(gis)
+
+
+for n in range(len (handle)):       
+        x=handle[n].split()
+        for k in range(len(x)-1,len(x)):
+            e=x[k]
+            limpo=e.replace("']","")
+            ginote=(limpo[1:])
+            blast=[]    
+            for file in os.listdir("../res/blast_without_note/match/function/teste/"+ginote):
+                if file.endswith(".txt"):
+                       blast.append(file)
+                lista=[]
+                for j in range(len(blast)):
+                    nome=blast[j]
+                    gi = nome.replace(".txt","")
+                    print(ginote)
+                    first = '-!- FUNCTION:'
+                    last = 'CC'
+                    file = open("../res/blast_without_note/match/function/teste/"+ginote+'/'+gi+'.txt').read()
+                    data = file.replace("\n", " ") 
+                    try:
+                        start = data.rindex( first ) + len( first )
+                        end = data.rindex(last, start)
+                        novo= data[start:end] 
+                        lista.append('Gi: '+gi+'  '+'Possivel função:  '+novo)
+                    except:
+                        pass   
+                    
+                file = open("../res/blast_without_note/match/function/teste/"+ginote+".txt",'w')       
+                for i in range(len(lista)):
+                    file.write("%s\n" % lista[i])
+                file.close()
+                

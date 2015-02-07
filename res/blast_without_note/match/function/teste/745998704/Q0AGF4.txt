@@ -1,0 +1,99 @@
+ID   POTA_NITEC              Reviewed;         363 AA.
+AC   Q0AGF4;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=Spermidine/putrescine import ATP-binding protein PotA {ECO:0000255|HAMAP-Rule:MF_01726};
+DE            EC=3.6.3.31 {ECO:0000255|HAMAP-Rule:MF_01726};
+GN   Name=potA {ECO:0000255|HAMAP-Rule:MF_01726};
+GN   OrderedLocusNames=Neut_1328;
+OS   Nitrosomonas eutropha (strain C91).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosomonas.
+OX   NCBI_TaxID=335283;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C91;
+RX   PubMed=17991028; DOI=10.1111/j.1462-2920.2007.01409.x;
+RA   Stein L.Y., Arp D.J., Berube P.M., Chain P.S., Hauser L., Jetten M.S.,
+RA   Klotz M.G., Larimer F.W., Norton J.M., Op den Camp H.J.M., Shin M.,
+RA   Wei X.;
+RT   "Whole-genome analysis of the ammonia-oxidizing bacterium,
+RT   Nitrosomonas eutropha C91: implications for niche adaptation.";
+RL   Environ. Microbiol. 9:2993-3007(2007).
+CC   -!- FUNCTION: Part of the ABC transporter complex PotABCD involved in
+CC       spermidine/putrescine import. Responsible for energy coupling to
+CC       the transport system. {ECO:0000255|HAMAP-Rule:MF_01726}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O + polyamine(Out) = ADP + phosphate
+CC       + polyamine(In). {ECO:0000255|HAMAP-Rule:MF_01726}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (PotA), two transmembrane proteins (PotB and PotC) and a solute-
+CC       binding protein (PotD). {ECO:0000255|HAMAP-Rule:MF_01726}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01726}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01726}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       Spermidine/putrescine importer (TC 3.A.1.11.1) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01726}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01726}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000450; ABI59578.1; -; Genomic_DNA.
+DR   RefSeq; WP_011634386.1; NC_008344.1.
+DR   RefSeq; YP_747543.1; NC_008344.1.
+DR   ProteinModelPortal; Q0AGF4; -.
+DR   STRING; 335283.Neut_1328; -.
+DR   EnsemblBacteria; ABI59578; ABI59578; Neut_1328.
+DR   GeneID; 4273953; -.
+DR   KEGG; net:Neut_1328; -.
+DR   PATRIC; 22719983; VBINitEut7577_1651.
+DR   eggNOG; COG3842; -.
+DR   KO; K11072; -.
+DR   OMA; THRFPHE; -.
+DR   OrthoDB; EOG6T7N3V; -.
+DR   BioCyc; NEUT335283:GHT6-1355-MONOMER; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-5487-MONOMER; -.
+DR   Proteomes; UP000001966; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015594; F:putrescine-importing ATPase activity; IEA:InterPro.
+DR   GO; GO:0015595; F:spermidine-importing ATPase activity; IEA:InterPro.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR017879; ABC_Sperm/Put_ATP-bd_PotA.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR008995; Mo/tungstate-bd_C_term_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005893; Sp_pt_ABC_ATP-bd.
+DR   InterPro; IPR013611; Transp-assoc_OB_typ2.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF08402; TOBE_2; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50331; SSF50331; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01187; potA; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51305; POTA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Hydrolase; Membrane; Nucleotide-binding; Transport.
+FT   CHAIN         1    363       Spermidine/putrescine import ATP-binding
+FT                                protein PotA.
+FT                                /FTId=PRO_0000286265.
+FT   DOMAIN        4    234       ABC transporter. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01726}.
+FT   NP_BIND      36     43       ATP. {ECO:0000255|HAMAP-Rule:MF_01726}.
+SQ   SEQUENCE   363 AA;  39985 MW;  E454C58DDCC1CE72 CRC64;
+     MALLELRNVI RRFGDFTAVD NVSLSIQAGE FFTLLGPSGC GKTTLLRMIA GFDVPDSGQI
+     LLDGQDIANT PPEKRPIHTV FQSYALFPHM TVADNVAFPL KMSKVAPAEI KKRMEKALEE
+     VQLSRFTHRF PHELSGGQKQ RVAFARGLIN RPRLLLMDEP LGALDAKLRE DMQRELINLQ
+     KEVGITFIFV THSQDEALAL SQRIAVMNLG NIEQIGTPSA IYGTPANRFI ADFIGKINLM
+     EARVTQISNT AMTLEINGLG TTVLPPKKEI QAGDQGVIAI RPEQVAVHAL AKQAEIPHAH
+     TGKVLDFLYV GDVTTYVIEL DSGIQIEALL ANSSPGRARF FEVDDPVIVS WPQEAAQFLV
+     DRP
+//

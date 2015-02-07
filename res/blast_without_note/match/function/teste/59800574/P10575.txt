@@ -1,0 +1,105 @@
+ID   GLRX1_BOVIN             Reviewed;         106 AA.
+AC   P10575; Q32KQ3;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 117.
+DE   RecName: Full=Glutaredoxin-1;
+DE   AltName: Full=Thioltransferase;
+DE            Short=TTase;
+GN   Name=GLRX; Synonyms=GRX;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+OC   Pecora; Bovidae; Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Crossbred X Angus; TISSUE=Liver;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (NOV-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-106.
+RC   TISSUE=Thymus;
+RX   PubMed=6386471; DOI=10.1111/j.1432-1033.1984.tb08481.x;
+RA   Klintrot I.-M., Hoeoeg J.-O., Joernvall H., Holmgren A., Luthman M.;
+RT   "The primary structure of calf thymus glutaredoxin. Homology with the
+RT   corresponding Escherichia coli protein but elongation at both ends and
+RT   with an additional half-cystine/cysteine pair.";
+RL   Eur. J. Biochem. 144:417-423(1984).
+RN   [3]
+RP   SEQUENCE REVISION TO 1-3 AND 69-72.
+RC   TISSUE=Thymus;
+RX   PubMed=2930571; DOI=10.1016/0006-291X(89)92272-9;
+RA   Papayannopoulos I.A., Gan Z.-R., Wells W.W., Biemann K.;
+RT   "A revised sequence of calf thymus glutaredoxin.";
+RL   Biochem. Biophys. Res. Commun. 159:1448-1454(1989).
+CC   -!- FUNCTION: Has a glutathione-disulfide oxidoreductase activity in
+CC       the presence of NADPH and glutathione reductase. Reduces low
+CC       molecular weight disulfides and proteins.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the glutaredoxin family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 glutaredoxin domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00686}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BC109978; AAI09979.1; -; mRNA.
+DR   PIR; A30164; GDBO.
+DR   RefSeq; NP_001032693.1; NM_001037604.2.
+DR   UniGene; Bt.2877; -.
+DR   ProteinModelPortal; P10575; -.
+DR   SMR; P10575; 2-106.
+DR   STRING; 9913.ENSBTAP00000051774; -.
+DR   PaxDb; P10575; -.
+DR   PRIDE; P10575; -.
+DR   Ensembl; ENSBTAT00000054658; ENSBTAP00000051774; ENSBTAG00000038186.
+DR   GeneID; 515416; -.
+DR   KEGG; bta:515416; -.
+DR   CTD; 2745; -.
+DR   eggNOG; COG0695; -.
+DR   GeneTree; ENSGT00390000003677; -.
+DR   HOGENOM; HOG000095204; -.
+DR   HOVERGEN; HBG000283; -.
+DR   InParanoid; P10575; -.
+DR   KO; K03676; -.
+DR   OMA; STVPRIY; -.
+DR   OrthoDB; EOG7QRQWZ; -.
+DR   TreeFam; TF326994; -.
+DR   Reactome; REACT_223832; Synthesis and interconversion of nucleotide di- and triphosphates.
+DR   NextBio; 20871819; -.
+DR   Proteomes; UP000009136; Chromosome 7.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0015035; F:protein disulfide oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR011767; GLR_AS.
+DR   InterPro; IPR002109; Glutaredoxin.
+DR   InterPro; IPR011899; Glutaredoxin_euk/vir.
+DR   InterPro; IPR014025; Glutaredoxin_subgr.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   Pfam; PF00462; Glutaredoxin; 1.
+DR   PRINTS; PR00160; GLUTAREDOXIN.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   TIGRFAMs; TIGR02180; GRX_euk; 1.
+DR   PROSITE; PS00195; GLUTAREDOXIN_1; 1.
+DR   PROSITE; PS51354; GLUTAREDOXIN_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Complete proteome; Cytoplasm; Direct protein sequencing;
+KW   Disulfide bond; Electron transport; Redox-active center;
+KW   Reference proteome; Transport.
+FT   INIT_MET      1      1       Removed. {ECO:0000269|PubMed:6386471}.
+FT   CHAIN         2    106       Glutaredoxin-1.
+FT                                /FTId=PRO_0000141599.
+FT   DOMAIN        3    106       Glutaredoxin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00686}.
+FT   MOD_RES       2      2       N-acetylalanine.
+FT                                {ECO:0000269|PubMed:2930571}.
+FT   MOD_RES       9      9       N6-succinyllysine. {ECO:0000250}.
+FT   DISULFID     23     26       Redox-active.
+FT   DISULFID     79     83
+SQ   SEQUENCE   106 AA;  11783 MW;  99E1C2260E9D02BF CRC64;
+     MAQAFVNSKI QPGKVVVFIK PTCPYCRKTQ ELLSQLPFKQ GLLEFVDITA AGNISEIQDY
+     LQQLTGARTV PRVFIGQECI GGCTDLVNMH ERGELLTRLK QMGALQ
+//

@@ -1,0 +1,93 @@
+ID   RMLA_ACTS5              Reviewed;         303 AA.
+AC   Q9ZAE7; G8SLW3;
+DT   27-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 2.
+DT   07-JAN-2015, entry version 58.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase;
+DE            EC=2.7.7.24;
+DE   AltName: Full=dTDP-glucose pyrophosphorylase;
+DE   AltName: Full=dTDP-glucose synthase;
+GN   Name=acbA; OrderedLocusNames=ACPL_3682;
+OS   Actinoplanes sp. (strain ATCC 31044 / CBS 674.73 / SE50/110).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Micromonosporineae; Micromonosporaceae; Actinoplanes.
+OX   NCBI_TaxID=134676;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 31044 / CBS 674.73 / SE50/110;
+RX   PubMed=10196166; DOI=10.1074/jbc.274.16.10889;
+RA   Stratmann A., Mahmud T., Lee S., Distler J., Floss H.G.,
+RA   Piepersberg W.;
+RT   "The AcbC protein from Actinoplanes species is a C7-cyclitol synthase
+RT   related to 3-dehydroquinate synthases and is involved in the
+RT   biosynthesis of the alpha-glucosidase inhibitor acarbose.";
+RL   J. Biol. Chem. 274:10889-10896(1999).
+RN   [2]
+RP   SEQUENCE REVISION TO 264-265.
+RA   Wehmeier U.F.;
+RL   Submitted (JAN-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 31044 / CBS 674.73 / SE50/110;
+RA   Schwientek P., Szczepanowski R., Kalinowski J., Klein A., Selber K.,
+RA   Wehmeier U.F., Stoye J., Puehler A.;
+RT   "The complete genome sequence of the acarbose producer Actinoplanes
+RT   sp. SE50/110.";
+RL   Submitted (DEC-2011) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis.
+CC       {ECO:0000250}.
+CC   -!- FUNCTION: Probably involved in the biosynthesis of the acarviose
+CC       moiety of the alpha-glucosidase inhibitor acarbose.
+CC   -!- CATALYTIC ACTIVITY: dTTP + alpha-D-glucose 1-phosphate =
+CC       diphosphate + dTDP-alpha-D-glucose.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate
+CC       thymidylyltransferase family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AEV84577.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Y18523; CAA77210.2; -; Genomic_DNA.
+DR   EMBL; CP003170; AEV84577.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_014690649.1; NC_017803.1.
+DR   RefSeq; YP_006266645.1; NC_017803.1.
+DR   ProteinModelPortal; Q9ZAE7; -.
+DR   SMR; Q9ZAE7; 2-285.
+DR   EnsemblBacteria; AEV84577; AEV84577; ACPL_3682.
+DR   GeneID; 12821024; -.
+DR   KEGG; ase:ACPL_3682; -.
+DR   KO; K00973; -.
+DR   BioCyc; ASP134676:GL7H-3608-MONOMER; -.
+DR   Proteomes; UP000005440; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   PANTHER; PTHR22572:SF13; PTHR22572:SF13; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR01207; rmlA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Magnesium; Metal-binding; Nucleotidyltransferase;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    303       Glucose-1-phosphate
+FT                                thymidylyltransferase.
+FT                                /FTId=PRO_0000208006.
+FT   METAL       108    108       Magnesium. {ECO:0000250}.
+FT   METAL       222    222       Magnesium. {ECO:0000250}.
+SQ   SEQUENCE   303 AA;  32545 MW;  CE50E7D56038E60D CRC64;
+     MRGILLAGGT GSRLRPVTWA VSKQLMPVYD KPMIYYPLAT LVSCGIREIL VITTETEAAQ
+     FQRLLGDGSQ WGLRLEFAVQ QRPGGIAEAF LIGEEFLAGG PVALMLGDNL LHGVDFRPCV
+     QRARETAGGH VFGVAVADPS AYGVVEFDAA GRVLSIEEKP VRPRSPYAVP GFYLYDADVV
+     ETARSLRPSA RGELEITEVN QAYLRRGALS VTLLGRGAVW LDTGTLADCM RAVDYVRAID
+     EGQGIKIGCV EEAAWRAGFL DTAQLRALAE PLMSSGYGQY LLALTGDGLS RTPQWPALTA
+     AAG
+//

@@ -1,0 +1,92 @@
+ID   TSDB_PSEU5              Reviewed;         216 AA.
+AC   A4VND9;
+DT   03-SEP-2014, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   04-FEB-2015, entry version 48.
+DE   RecName: Full=Thiosulfate dehydrogenase electron acceptor;
+DE   Flags: Precursor;
+GN   Name=tsdB; OrderedLocusNames=PST_2844;
+OS   Pseudomonas stutzeri (strain A1501).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=379731;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A1501;
+RA   Yan Y., Yang J., Dou Y., Ping S., Chen M., Yao Z., Li H., Lu W.,
+RA   Zhang W., Peng J., Liu W., He S., Geng L., Zhang X., Yang F., Li D.,
+RA   Lin Z., Wang Y., Elmerich C., Lin M., Jin Q.;
+RT   "Complete genome sequence of the metabolically versatile and root-
+RT   associated nitrogen-fixing bacterium Pseudomonas stutzeri A1501.";
+RL   Submitted (APR-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   IDENTIFICATION.
+RX   PubMed=22779704; DOI=10.1111/j.1462-2920.2012.02820.x;
+RA   Denkmann K., Grein F., Zigann R., Siemen A., Bergmann J.,
+RA   van Helmont S., Nicolai A., Pereira I.A., Dahl C.;
+RT   "Thiosulfate dehydrogenase: a widespread unusual acidophilic c-type
+RT   cytochrome.";
+RL   Environ. Microbiol. 14:2673-2688(2012).
+CC   -!- FUNCTION: Acts as an electron acceptor for the thiosulfate
+CC       dehydrogenase TsdA. {ECO:0000250}.
+CC   -!- PTM: Binds 2 heme groups per subunit. {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 2 cytochrome c domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00433}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000304; ABP80490.1; -; Genomic_DNA.
+DR   RefSeq; WP_011913947.1; NC_009434.1.
+DR   RefSeq; YP_001173332.1; NC_009434.1.
+DR   STRING; 379731.PST_2844; -.
+DR   EnsemblBacteria; ABP80490; ABP80490; PST_2844.
+DR   GeneID; 5095806; -.
+DR   KEGG; psa:PST_2844; -.
+DR   PATRIC; 19966200; VBIPseStu31643_2850.
+DR   eggNOG; COG2863; -.
+DR   HOGENOM; HOG000221626; -.
+DR   OMA; NIRTFVI; -.
+DR   OrthoDB; EOG6JDWB3; -.
+DR   BioCyc; PSTU379731:GJER-2839-MONOMER; -.
+DR   Proteomes; UP000000233; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:InterPro.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   Gene3D; 1.10.760.10; -; 2.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   InterPro; IPR024167; Cytochrome_c4.
+DR   Pfam; PF00034; Cytochrom_C; 2.
+DR   PIRSF; PIRSF000005; Cytochrome_c4; 1.
+DR   SUPFAM; SSF46626; SSF46626; 2.
+DR   PROSITE; PS51007; CYTC; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; Heme; Iron; Metal-binding; Reference proteome;
+KW   Repeat; Signal.
+FT   SIGNAL        1     22       {ECO:0000255}.
+FT   CHAIN        23    216       Thiosulfate dehydrogenase electron
+FT                                acceptor.
+FT                                /FTId=PRO_0000430265.
+FT   DOMAIN       23    108       Cytochrome c 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   DOMAIN      118    210       Cytochrome c 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   METAL        45     45       Iron (heme 1 axial ligand).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   METAL       145    145       Iron (heme 2 axial ligand).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   BINDING      41     41       Heme 1 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   BINDING      44     44       Heme 1 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   BINDING     141    141       Heme 2 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   BINDING     144    144       Heme 2 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+SQ   SEQUENCE   216 AA;  22328 MW;  B484EE1860C2F3B1 CRC64;
+     MKSIHWPLAG VAALLLSMQA QAADGQKIYT QGGANPAAMA CATCHGADAM GMAAAGFPRL
+     AGIDAGYSRK QLDDFRSGAR SNPIMQPIAA ALSDEEMDAV AATLEAMPAP DFAAIGRSEA
+     AEGVGARLAL RGAWERNIPE CVACHGPAGM GVGASFPPLA GQSAQYLGAQ LNAWRQGTRK
+     NDPNDLMGHI ARAMSDDEVQ AVAEYFANVG QKETGQ
+//

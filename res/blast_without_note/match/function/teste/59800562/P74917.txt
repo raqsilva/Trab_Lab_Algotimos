@@ -1,0 +1,97 @@
+ID   CY552_ACIFR             Reviewed;         230 AA.
+AC   P74917;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 2.
+DT   07-JAN-2015, entry version 93.
+DE   RecName: Full=Cytochrome c-552;
+DE   AltName: Full=Cytochrome c552;
+DE   Flags: Precursor;
+GN   Name=cyc1;
+OS   Acidithiobacillus ferrooxidans (Thiobacillus ferrooxidans).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Acidithiobacillales;
+OC   Acidithiobacillaceae; Acidithiobacillus.
+OX   NCBI_TaxID=920;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 33020 / 11Fe;
+RA   Appia C., Bengrine A., Chippaux M., Cavazza C., Bruschi M.,
+RA   Bonnefoy V.;
+RL   Submitted (AUG-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 48-95, MASS SPECTROMETRY, AND CHARACTERIZATION.
+RX   PubMed=8973648; DOI=10.1111/j.1432-1033.1996.0308r.x;
+RA   Cavazza C., Giudici-Orticoni M.-T., Nitschke W., Appia C.,
+RA   Bonnefoy V., Bruschi M.;
+RT   "Characterisation of a soluble cytochrome c4 isolated from
+RT   Thiobacillus ferrooxidans.";
+RL   Eur. J. Biochem. 242:308-314(1996).
+CC   -!- FUNCTION: Diheme, high potential cytochrome c.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Redox potential:
+CC         E(0) are +385 +/- 20 mV and +480 +/- 20 mV.;
+CC   -!- SUBCELLULAR LOCATION: Periplasm.
+CC   -!- PTM: Binds 2 heme groups per subunit.
+CC   -!- MASS SPECTROMETRY: Mass=21193; Method=Electrospray; Range=48-230;
+CC       Evidence={ECO:0000269|PubMed:8973648};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ006456; CAA07032.1; -; Genomic_DNA.
+DR   PDB; 1H1O; X-ray; 2.13 A; A/B=48-230.
+DR   PDBsum; 1H1O; -.
+DR   ProteinModelPortal; P74917; -.
+DR   SMR; P74917; 59-230.
+DR   BioCyc; MetaCyc:MONOMER-16160; -.
+DR   EvolutionaryTrace; P74917; -.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0055114; P:oxidation-reduction process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.760.10; -; 2.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   InterPro; IPR024167; Cytochrome_c4.
+DR   Pfam; PF00034; Cytochrom_C; 2.
+DR   PIRSF; PIRSF000005; Cytochrome_c4; 1.
+DR   SUPFAM; SSF46626; SSF46626; 2.
+DR   PROSITE; PS51007; CYTC; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Electron transport; Heme;
+KW   Iron; Metal-binding; Periplasm; Signal; Transport.
+FT   SIGNAL        1     47       {ECO:0000269|PubMed:8973648}.
+FT   CHAIN        48    230       Cytochrome c-552.
+FT                                /FTId=PRO_0000006534.
+FT   METAL        67     67       Iron (heme 1 axial ligand).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   METAL       170    170       Iron (heme 2 axial ligand).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   BINDING      63     63       Heme 1 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   BINDING      66     66       Heme 1 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   BINDING     166    166       Heme 2 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   BINDING     169    169       Heme 2 (covalent). {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   CONFLICT     89     89       Y -> YI (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+FT   HELIX        60     62       {ECO:0000244|PDB:1H1O}.
+FT   HELIX        64     67       {ECO:0000244|PDB:1H1O}.
+FT   HELIX        87     98       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       105    110       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       112    116       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       120    132       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       147    156       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       159    161       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       167    170       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       188    200       {ECO:0000244|PDB:1H1O}.
+FT   STRAND      201    203       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       206    212       {ECO:0000244|PDB:1H1O}.
+FT   HELIX       217    229       {ECO:0000244|PDB:1H1O}.
+SQ   SEQUENCE   230 AA;  25298 MW;  D7622872E7B1AF57 CRC64;
+     MTTYLSQDRL RNKENDTMTY QHSKMYQSRT FLLFSALLLV AGQASAAVGS ADAPAPYRVS
+     SDCMVCHGMT GRDTLYPIVP RLAGQHKSYM EAQLKAYKDH SRADQNGEIY MWPVAQALDS
+     AKITALADYF NAQKPPMQSS GIKHAGAKEG KAIFNQGVTN EQIPACMECH GSDGQGAGPF
+     PRLAGQRYGY IIQQLTYFHN GTRVNTLMNQ IAKNITVAQM KDVAAYLSSL
+//

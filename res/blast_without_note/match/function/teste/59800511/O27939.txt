@@ -1,0 +1,134 @@
+ID   PYCA_METTH              Reviewed;         491 AA.
+AC   O27939;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   04-FEB-2015, entry version 112.
+DE   RecName: Full=Pyruvate carboxylase subunit A;
+DE            EC=6.4.1.1;
+DE   AltName: Full=Pyruvic carboxylase A;
+GN   Name=pycA; OrderedLocusNames=MTH_1917;
+OS   Methanothermobacter thermautotrophicus (strain ATCC 29096 / DSM 1053 /
+OS   JCM 10044 / NBRC 100330 / Delta H) (Methanobacterium
+OS   thermoautotrophicum).
+OC   Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales;
+OC   Methanobacteriaceae; Methanothermobacter.
+OX   NCBI_TaxID=187420;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H;
+RX   PubMed=9371463;
+RA   Smith D.R., Doucette-Stamm L.A., Deloughery C., Lee H.-M., Dubois J.,
+RA   Aldredge T., Bashirzadeh R., Blakely D., Cook R., Gilbert K.,
+RA   Harrison D., Hoang L., Keagle P., Lumm W., Pothier B., Qiu D.,
+RA   Spadafora R., Vicare R., Wang Y., Wierzbowski J., Gibson R.,
+RA   Jiwani N., Caruso A., Bush D., Safer H., Patwell D., Prabhakar S.,
+RA   McDougall S., Shimer G., Goyal A., Pietrovski S., Church G.M.,
+RA   Daniels C.J., Mao J.-I., Rice P., Noelling J., Reeve J.N.;
+RT   "Complete genome sequence of Methanobacterium thermoautotrophicum
+RT   deltaH: functional analysis and comparative genomics.";
+RL   J. Bacteriol. 179:7135-7155(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 1-17.
+RC   STRAIN=ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H;
+RX   PubMed=9478969; DOI=10.1074/jbc.273.9.5155;
+RA   Mukhopadhyay B., Stoddard S.F., Wolfe R.S.;
+RT   "Purification, regulation, and molecular and biochemical
+RT   characterization of pyruvate carboxylase from Methanobacterium
+RT   thermoautotrophicum strain deltaH.";
+RL   J. Biol. Chem. 273:5155-5166(1998).
+CC   -!- FUNCTION: Pyruvate carboxylase catalyzes a 2-step reaction,
+CC       involving the ATP-dependent carboxylation of the covalently
+CC       attached biotin in the first step and the transfer of the carboxyl
+CC       group to pyruvate in the second.
+CC   -!- CATALYTIC ACTIVITY: ATP + pyruvate + HCO(3)(-) = ADP + phosphate +
+CC       oxaloacetate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC   -!- ENZYME REGULATION: Inhibited by ADP and alpha-ketoglutarate.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 8.;
+CC       Temperature dependence:
+CC         Optimum temperature is 60 degrees Celsius.;
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC   -!- SUBUNIT: Heterooctamer of four A and four B subunits.
+CC   -!- SIMILARITY: Contains 1 ATP-grasp domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00409}.
+CC   -!- SIMILARITY: Contains 1 biotin carboxylation domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000666; AAB86377.1; -; Genomic_DNA.
+DR   PIR; A69123; A69123.
+DR   RefSeq; NP_277017.1; NC_000916.1.
+DR   RefSeq; WP_010877513.1; NC_000916.1.
+DR   ProteinModelPortal; O27939; -.
+DR   SMR; O27939; 1-445.
+DR   STRING; 187420.MTH1917; -.
+DR   EnsemblBacteria; AAB86377; AAB86377; MTH_1917.
+DR   GeneID; 1471002; -.
+DR   KEGG; mth:MTH1917; -.
+DR   eggNOG; COG0439; -.
+DR   KO; K01959; -.
+DR   OMA; KDFYFME; -.
+DR   BioCyc; MetaCyc:MONOMER-14537; -.
+DR   BioCyc; MTHE187420:GJNM-1921-MONOMER; -.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000005223; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004075; F:biotin carboxylase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004736; F:pyruvate carboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   Gene3D; 3.30.470.20; -; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   InterPro; IPR004549; Acetyl_CoA_COase_biotin_COase.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR011764; Biotin_carboxylation_dom.
+DR   InterPro; IPR005482; Biotin_COase_C.
+DR   InterPro; IPR005481; CarbamoylP_synth_lsu_N.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR016185; PreATP-grasp_dom.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   Pfam; PF02785; Biotin_carb_C; 1.
+DR   Pfam; PF00289; CPSase_L_chain; 1.
+DR   Pfam; PF02786; CPSase_L_D2; 1.
+DR   SMART; SM00878; Biotin_carb_C; 1.
+DR   SUPFAM; SSF51246; SSF51246; 1.
+DR   SUPFAM; SSF52440; SSF52440; 1.
+DR   TIGRFAMs; TIGR00514; accC; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS50979; BC; 1.
+DR   PROSITE; PS00866; CPSASE_1; 1.
+DR   PROSITE; PS00867; CPSASE_2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Direct protein sequencing;
+KW   Gluconeogenesis; Ligase; Magnesium; Metal-binding;
+KW   Multifunctional enzyme; Nucleotide-binding; Pyruvate;
+KW   Reference proteome.
+FT   CHAIN         1    491       Pyruvate carboxylase subunit A.
+FT                                /FTId=PRO_0000146829.
+FT   DOMAIN        1    445       Biotin carboxylation.
+FT   DOMAIN      120    316       ATP-grasp. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00409}.
+FT   ACT_SITE    291    291       {ECO:0000255}.
+FT   BINDING     116    116       ATP. {ECO:0000250}.
+FT   BINDING     200    200       ATP. {ECO:0000250}.
+FT   BINDING     235    235       ATP. {ECO:0000250}.
+SQ   SEQUENCE   491 AA;  54657 MW;  5789C34DA7475C2E CRC64;
+     MFSKILVANR GEIAIRVMRA CRELGIKSVA VYSEADKNAL FTRYADEAYE IGKPAPSQSY
+     LRIDRILEVA EKAGAEAIHP GYGFLAENPR LGEECEKQGI KLIGPKGSVI EAMGDKITSK
+     KLMKKAGVPV IPGTDQGVSD PDEAARIADS IGYPVIIKAS AGGGGIGMRA VYEEDELIRA
+     MESTQSVAAS AFGDPTVYIE KYLERPRHIE FQVMADESGN VIHLADRECS IQRRHQKLIE
+     EAPSPIMTPE LRERMGSAAV KAAEYIGYEN AGTVEFLYSN GDFYFLEMNT RIQVEHPITE
+     VITGVDLVKE QIRVASGEEL RFTQKDINIR GHAIECRINA ENPLADFAPN PGKITGYRSP
+     GGIGVRVDSG VYMNYEIPPF YDSMISKLIV WGMDRQEAIN RMKRALSEYI ILGVKTTIPF
+     HKAIMRNEAF RRGELHTHFV DEYRRGIDAE MRKIVKEDQE MVERLQSTFL PSKKVAAISA
+     AIGTYMHSRR G
+//

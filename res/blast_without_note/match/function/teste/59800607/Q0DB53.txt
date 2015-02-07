@@ -1,0 +1,115 @@
+ID   RH52A_ORYSJ             Reviewed;         602 AA.
+AC   Q0DB53; Q69XK1;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2007, sequence version 2.
+DT   07-JAN-2015, entry version 46.
+DE   RecName: Full=DEAD-box ATP-dependent RNA helicase 52A;
+DE            EC=3.6.4.13;
+GN   OrderedLocusNames=Os06g0602400, LOC_Os06g40020; ORFNames=P0486H12.18;
+OS   Oryza sativa subsp. japonica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP clade;
+OC   Ehrhartoideae; Oryzeae; Oryza.
+OX   NCBI_TaxID=39947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=16100779; DOI=10.1038/nature03895;
+RG   International rice genome sequencing project (IRGSP);
+RT   "The map-based sequence of the rice genome.";
+RL   Nature 436:793-800(2005).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=18089549; DOI=10.1093/nar/gkm978;
+RG   The rice annotation project (RAP);
+RT   "The rice annotation project database (RAP-DB): 2008 update.";
+RL   Nucleic Acids Res. 36:D1028-D1033(2008).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 119-602.
+RC   STRAIN=cv. Nipponbare;
+RX   PubMed=12869764; DOI=10.1126/science.1081288;
+RG   The rice full-length cDNA consortium;
+RT   "Collection, mapping, and annotation of over 28,000 cDNA clones from
+RT   japonica rice.";
+RL   Science 301:376-379(2003).
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- DOMAIN: The Q motif is unique to and characteristic of the DEAD
+CC       box family of RNA helicases and controls ATP binding and
+CC       hydrolysis.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DDX3/DED1
+CC       subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAF19920.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP003615; BAD35456.1; -; Genomic_DNA.
+DR   EMBL; AP008212; BAF19920.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AK106474; -; NOT_ANNOTATED_CDS; mRNA.
+DR   RefSeq; NP_001058006.1; NM_001064541.1.
+DR   UniGene; Os.54689; -.
+DR   ProteinModelPortal; Q0DB53; -.
+DR   SMR; Q0DB53; 72-490.
+DR   PaxDb; Q0DB53; -.
+DR   PRIDE; Q0DB53; -.
+DR   GeneID; 4341457; -.
+DR   KEGG; osa:4341457; -.
+DR   Gramene; Q0DB53; -.
+DR   eggNOG; COG0513; -.
+DR   HOGENOM; HOG000268807; -.
+DR   InParanoid; Q0DB53; -.
+DR   KO; K11594; -.
+DR   Proteomes; UP000000763; Chromosome 6.
+DR   ExpressionAtlas; Q0DB53; baseline.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008026; F:ATP-dependent helicase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Complete proteome; Helicase; Hydrolase;
+KW   Nucleotide-binding; Reference proteome; RNA-binding.
+FT   CHAIN         1    602       DEAD-box ATP-dependent RNA helicase 52A.
+FT                                /FTId=PRO_0000282450.
+FT   DOMAIN      115    305       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      328    485       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     128    135       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF        84    112       Q motif.
+FT   MOTIF       249    252       DEAD box.
+FT   COMPBIAS    491    573       Gly-rich.
+SQ   SEQUENCE   602 AA;  63008 MW;  864D55BFAFD4D3B9 CRC64;
+     MAAAAAVAKS VEAGGEPGGG GGGAWSTVSR SGRSSYSAGG GVGGGKVGEL AEGLAGVEIG
+     GERRLDKYDI PVEVSGEDVP PPADGFEAAG LVEAVLRNVA RCGYESPTPV QRYSMPIALA
+     GRDLMACAQT GSGKTAAFCL PVVSGLVAAG GSGIGHRERS SFNRAAAKPR ALVLAPTREL
+     AAQINEEAKK FSFQTGLRVV VAYGGTPMYN QLRDLERGAD ILVATPGRLV DMVERSKVSL
+     EAIKYLVMDE ADRMLDMGFE PQIRKIVERM NMPRKSVRQT MLFSATFPPE IQRLASDFLS
+     NYIFITVGRV GSSTDLIMQK VELLSDGEKR GYLLDLLQRQ SVGVANSKLQ QPLTLVFVET
+     KREADSLRYW LYSKGFPATA IHGDRTQQER ESALRSFKTG LTPIMVATDV ASRGLDVPNV
+     AHVINYDLPK SIEDYVHRIG RTGRAGKAGS ATAFFTESDH SLAKGLLELM TEAKQDVPDW
+     LVQYAERPYY GGSSYGGRNR RSGGGGNRFA GRDFRQGSGG GYSGGGGGGG YSGGGGGGGY
+     SGGGGGYSGG GRGGGYSRGG RGGYSGGGGG GGGDPYRASA PPPRYYPSYP MGTADINASG
+     WD
+//

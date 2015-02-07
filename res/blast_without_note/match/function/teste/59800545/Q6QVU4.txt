@@ -1,0 +1,97 @@
+ID   GLDSA_MICEC             Reviewed;         420 AA.
+AC   Q6QVU4; Q70KC9;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   26-NOV-2014, entry version 38.
+DE   RecName: Full=L-glutamine:2-deoxy-scyllo-inosose aminotransferase;
+DE            Short=L-glutamine:DOI aminotransferase;
+DE            EC=2.6.1.100;
+GN   Name=gntA; Synonyms=genS1, gtmB;
+OS   Micromonospora echinospora (Micromonospora purpurea).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Micromonosporineae; Micromonosporaceae; Micromonospora.
+OX   NCBI_TaxID=1877;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 15835 / DSM 43036 / JCM 3074 / NBRC 12575 / NCIMB 12882 /
+RC   NRRL 2953;
+RX   PubMed=15376556; DOI=10.7164/antibiotics.57.436;
+RA   Unwin J., Standage S., Alexander D., Hosted T. Jr., Horan A.C.,
+RA   Wellington E.M.;
+RT   "Gene cluster in Micromonospora echinospora ATCC15835 for the
+RT   biosynthesis of the gentamicin C complex.";
+RL   J. Antibiot. 57:436-445(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 15835 / DSM 43036 / JCM 3074 / NBRC 12575 / NCIMB 12882 /
+RC   NRRL 2953;
+RX   PubMed=15359126;
+RA   Kharel M.K., Basnet D.B., Lee H.C., Liou K., Moon Y.H., Kim J.-J.,
+RA   Woo J.S., Sohng J.K.;
+RT   "Molecular cloning and characterization of a 2-deoxystreptamine
+RT   biosynthetic gene cluster in gentamicin-producing Micromonospora
+RT   echinospora ATCC15835.";
+RL   Mol. Cells 18:71-78(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 15835 / DSM 43036 / JCM 3074 / NBRC 12575 / NCIMB 12882 /
+RC   NRRL 2953;
+RA   Aboshanab K.M.A., Schmidt-Beissner H., Wehmeier U.F., Welzel K.,
+RA   Vente A., Piepersberg W.;
+RT   "Cloning and sequencing of the gentamicin biosynthetic gene cluster
+RT   from Micromonospora echinospora DSM 43036.";
+RL   Submitted (FEB-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the PLP-dependent transamination of 2-deoxy-
+CC       scyllo-inosose (DOI) to form 2-deoxy-scyllo-inosamine (DOIA) using
+CC       L-glutamine as the amino donor. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamine + 2-deoxy-scyllo-inosose = 2-
+CC       oxoglutaramate + 2-deoxy-scyllo-inosamine.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 2-deoxystreptamine
+CC       biosynthesis; 2-deoxystreptamine from D-glucose 6-phosphate: step
+CC       2/4.
+CC   -!- PATHWAY: Antibiotic biosynthesis; gentamicin biosynthesis.
+CC   -!- SIMILARITY: Belongs to the DegT/DnrJ/EryC1 family. L-glutamine:2-
+CC       deoxy-scyllo-inosose/scyllo-inosose aminotransferase subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY524043; AAR98547.1; -; Genomic_DNA.
+DR   EMBL; AJ575934; CAE06512.2; -; Genomic_DNA.
+DR   EMBL; AJ628149; CAF31430.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q6QVU4; -.
+DR   UniPathway; UPA00907; UER00922.
+DR   UniPathway; UPA00967; -.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Antibiotic biosynthesis; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN         1    420       L-glutamine:2-deoxy-scyllo-inosose
+FT                                aminotransferase.
+FT                                /FTId=PRO_0000233017.
+FT   MOD_RES     201    201       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   420 AA;  44731 MW;  1C97AEEC7FE93DE7 CRC64;
+     MTLLAVNGGS PIRSQQWPLW PAPAPGALDA LNEVLHSGRW AISGPYQGKQ SFERRFAAAF
+     AEFHEIGHCV PTSSGTASLM VALEACGVGA GDEVIIPGLT WVANASTVAG VNAVPVPVDV
+     DPQTLCLDPA AVERAITPRT AAIVVVHLYS AVADLDALTA IAERHEIPLI EDCAQAHGAR
+     YRDRRVGTFG AFGTFSMQHS KVLTSGEGGA VITGDAALSR RAEHLRADGR TYTPDEPAVG
+     EMELAQTAEL MGSNRCLSEF QAALLLGQLE LLDEQNERRR ANAALLDEGL GALGIQPQVS
+     SPGTTERTYY EWAGRIEDDG IGQIGVERIA PAVAAELSGA AIYASYPPMN HNRLYQPATR
+     ARFKGIAGLD LTGYSLPVAE DAGQRVVTIH HSALLGDESD MKDIVRAFEK VFANHRELRG
+//

@@ -1,0 +1,81 @@
+ID   QUED_RICBR              Reviewed;         138 AA.
+AC   Q1RHI6;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   07-JAN-2015, entry version 55.
+DE   RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase;
+DE            Short=CPH4 synthase;
+DE            EC=4.1.2.50;
+DE   AltName: Full=Queuosine biosynthesis protein QueD;
+GN   Name=queD; OrderedLocusNames=RBE_1097;
+OS   Rickettsia bellii (strain RML369-C).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; belli group.
+OX   NCBI_TaxID=336407;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RML369-C;
+RX   PubMed=16703114; DOI=10.1371/journal.pgen.0020076;
+RA   Ogata H., La Scola B., Audic S., Renesto P., Blanc G., Robert C.,
+RA   Fournier P.-E., Claverie J.-M., Raoult D.;
+RT   "Genome sequence of Rickettsia bellii illuminates the role of amoebae
+RT   in gene exchanges between intracellular pathogens.";
+RL   PLoS Genet. 2:733-744(2006).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin
+CC       triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4)
+CC       and acetaldehyde. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate + H(2)O =
+CC       6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PTPS family. QueD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000087; ABE05178.1; -; Genomic_DNA.
+DR   RefSeq; WP_011477756.1; NC_007940.1.
+DR   RefSeq; YP_538267.1; NC_007940.1.
+DR   ProteinModelPortal; Q1RHI6; -.
+DR   STRING; 336407.RBE_1097; -.
+DR   EnsemblBacteria; ABE05178; ABE05178; RBE_1097.
+DR   GeneID; 3995008; -.
+DR   KEGG; rbe:RBE_1097; -.
+DR   PATRIC; 17883771; VBIRicBel102610_1238.
+DR   eggNOG; COG0720; -.
+DR   HOGENOM; HOG000225068; -.
+DR   KO; K01737; -.
+DR   OMA; TPNCWAE; -.
+DR   OrthoDB; EOG6FFSCJ; -.
+DR   BioCyc; RBEL336407:GJCY-1130-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000001951; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Queuosine biosynthesis; Zinc.
+FT   CHAIN         1    138       6-carboxy-5,6,7,8-tetrahydropterin
+FT                                synthase.
+FT                                /FTId=PRO_0000272629.
+FT   ACT_SITE     23     23       Proton acceptor. {ECO:0000250}.
+FT   ACT_SITE     68     68       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    130    130       Charge relay system. {ECO:0000250}.
+FT   METAL        14     14       Zinc. {ECO:0000250}.
+FT   METAL        27     27       Zinc. {ECO:0000250}.
+FT   METAL        29     29       Zinc. {ECO:0000250}.
+SQ   SEQUENCE   138 AA;  15985 MW;  4E19F7E941A9FB50 CRC64;
+     MIKCTRRIEF DAGHRIIGHQ NKCQYLHGHR YVLEITIAAK NTDELGMVVD FGLIKDLAKG
+     WVDENFDHSL ILHQGDKEIG QKIESHTGQK VYYLKNNPTA ENIALHLKNE IFPKLFESQK
+     FFVTNIKLFE TPNCFVEV
+//

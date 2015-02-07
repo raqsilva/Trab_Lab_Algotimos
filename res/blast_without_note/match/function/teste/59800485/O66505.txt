@@ -1,0 +1,88 @@
+ID   SECG_AQUAE              Reviewed;         100 AA.
+AC   O66505;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   04-FEB-2015, entry version 91.
+DE   RecName: Full=Protein-export membrane protein SecG;
+GN   Name=secG; OrderedLocusNames=aq_098;
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (7.5 ANGSTROMS) OF SECYEG IN COMPLEX WITH
+RP   B.SUBTILIS SECA.
+RX   PubMed=18923516; DOI=10.1038/nature07335;
+RA   Zimmer J., Nam Y., Rapoport T.A.;
+RT   "Structure of a complex of the ATPase SecA and the protein-
+RT   translocation channel.";
+RL   Nature 455:936-943(2008).
+CC   -!- FUNCTION: Subunit of the protein translocation channel SecYEG.
+CC   -!- SUBUNIT: Component of the Sec protein translocase complex.
+CC       Heterotrimer consisting of SecY, SecE and SecG subunits. The
+CC       heterotrimers can form oligomers, although 1 heterotrimer is
+CC       thought to be able to translocate proteins. Interacts with SecDF,
+CC       and other proteins may be involved. The channel interacts with
+CC       SecA via subunit SecY. {ECO:0000269|PubMed:18923516}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the SecG family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000657; AAC06462.1; -; Genomic_DNA.
+DR   PIR; F70309; F70309.
+DR   RefSeq; NP_213064.1; NC_000918.1.
+DR   RefSeq; WP_010880002.1; NC_000918.1.
+DR   PDB; 3DL8; X-ray; 7.50 A; E/F=1-100.
+DR   PDBsum; 3DL8; -.
+DR   DIP; DIP-59811N; -.
+DR   STRING; 224324.aq_098; -.
+DR   EnsemblBacteria; AAC06462; AAC06462; aq_098.
+DR   GeneID; 1192516; -.
+DR   KEGG; aae:aq_098; -.
+DR   PATRIC; 20957888; VBIAquAeo85532_0084.
+DR   eggNOG; COG1314; -.
+DR   HOGENOM; HOG000071344; -.
+DR   InParanoid; O66505; -.
+DR   KO; K03075; -.
+DR   OMA; MYYFLLV; -.
+DR   BioCyc; AAEO224324:GJBH-79-MONOMER; -.
+DR   EvolutionaryTrace; O66505; -.
+DR   Proteomes; UP000000798; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   InterPro; IPR004692; SecG.
+DR   Pfam; PF03840; SecG; 1.
+DR   PRINTS; PR01651; SECGEXPORT.
+DR   TIGRFAMs; TIGR00810; secG; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Complete proteome; Membrane;
+KW   Protein transport; Reference proteome; Translocation; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    100       Protein-export membrane protein SecG.
+FT                                /FTId=PRO_0000157219.
+FT   TOPO_DOM      1      7       Periplasmic. {ECO:0000305}.
+FT   TRANSMEM      8     32       Helical; Name=1.
+FT   TOPO_DOM     33     48       Cytoplasmic.
+FT   TRANSMEM     49     70       Helical; Name=2.
+FT   TOPO_DOM     71    100       Periplasmic. {ECO:0000305}.
+FT   HELIX         9     23
+FT   HELIX        53     57
+FT   HELIX        61     70
+SQ   SEQUENCE   100 AA;  10464 MW;  C7183A51B27FA21A CRC64;
+     MYYALLTLFV IIAVVLIIST LLQKGRGDVG AAFGGGMGQS IFGVGGVETI LTKATYWLGA
+     LFLVLALLLS VIPKEKGSVV EKSVQTEQSE GKGTTQESGK
+//

@@ -1,0 +1,96 @@
+ID   TDCF_SHIFL              Reviewed;         129 AA.
+AC   P0AGL4; P42631;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   07-JAN-2015, entry version 58.
+DE   RecName: Full=Putative reactive intermediate deaminase TdcF;
+DE            EC=3.5.4.-;
+GN   Name=tdcF; OrderedLocusNames=SF3153, S3365;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H.,
+RA   Yang J., Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J.,
+RA   Sun L., Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S.,
+RA   Cheng H., Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y.,
+RA   Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/IAI.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W.,
+RA   Fournier G., Mayhew G.F., Plunkett G. III, Rose D.J., Darling A.,
+RA   Mau B., Perna N.T., Payne S.M., Runyen-Janecky L.J., Zhou S.,
+RA   Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella
+RT   flexneri serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: May be a post-translational regulator that controls the
+CC       metabolic fate of L-threonine or the potentially toxic
+CC       intermediate 2-ketobutyrate. {ECO:0000250}.
+CC   -!- PATHWAY: Amino-acid degradation; L-threonine degradation via
+CC       propanoate pathway.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the RutC family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005674; AAN44624.2; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP18438.1; -; Genomic_DNA.
+DR   RefSeq; NP_708917.2; NC_004337.2.
+DR   RefSeq; NP_838627.1; NC_004741.1.
+DR   ProteinModelPortal; P0AGL4; -.
+DR   SMR; P0AGL4; 2-128.
+DR   STRING; 198214.SF3153; -.
+DR   EnsemblBacteria; AAN44624; AAN44624; SF3153.
+DR   EnsemblBacteria; AAP18438; AAP18438; S3365.
+DR   GeneID; 1027187; -.
+DR   GeneID; 1079601; -.
+DR   KEGG; sfl:SF3153; -.
+DR   KEGG; sfx:S3365; -.
+DR   PATRIC; 18708466; VBIShiFle31049_3680.
+DR   eggNOG; COG0251; -.
+DR   HOGENOM; HOG000267215; -.
+DR   KO; K09022; -.
+DR   OMA; EIMVEIE; -.
+DR   OrthoDB; EOG6QVRPF; -.
+DR   UniPathway; UPA00052; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0019239; F:deaminase activity; IEA:InterPro.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0070689; P:L-threonine catabolic process to propionate; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006566; P:threonine metabolic process; ISS:UniProtKB.
+DR   Gene3D; 3.30.1330.40; -; 1.
+DR   InterPro; IPR013813; Endoribo_LPSP/chorism_mut-like.
+DR   InterPro; IPR006056; YjgF-like.
+DR   InterPro; IPR019897; YjgF-like_CS.
+DR   InterPro; IPR006175; YjgF/Yer057p/UK114.
+DR   PANTHER; PTHR11803; PTHR11803; 1.
+DR   Pfam; PF01042; Ribonuc_L-PSP; 1.
+DR   SUPFAM; SSF55298; SSF55298; 1.
+DR   TIGRFAMs; TIGR00004; TIGR00004; 1.
+DR   PROSITE; PS01094; UPF0076; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Pyridoxal phosphate.
+FT   CHAIN         1    129       Putative reactive intermediate deaminase
+FT                                TdcF.
+FT                                /FTId=PRO_0000170318.
+FT   REGION      105    107       Substrate binding. {ECO:0000250}.
+FT   BINDING     120    120       Substrate. {ECO:0000250}.
+FT   MOD_RES      58     58       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   129 AA;  14007 MW;  D5159CB729CDDB7B CRC64;
+     MKKIIETQRA PGAIGPYVQG VDLGSMVFTS GQIPVCPQTG EIPADVQDQA RLSLENVKAI
+     VVAAGLSVGD IIKMTVFITD LNDFATINEV YKQFFDEHQA TYPTRSCVQV ARLPKDVKLE
+     IEAIAVRSA
+//

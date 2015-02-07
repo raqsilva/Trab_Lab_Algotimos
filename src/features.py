@@ -587,24 +587,21 @@ def getfunction():
                blast.append(file)
     
     lista=[]
-    match=[]
     for j in range(len(blast)):
+        lista.append([])
         nome=blast[j]
         gi = nome.replace(".txt","")
-        func='CC   -!- FUNCTION:'
-        file = open("../res/blast_without_note/match/function/"+nome,'r') 
-        data = file.readlines()
-        for i in data:
-            if func in i:
-                function=i.replace('CC   -!- FUNCTION:', '')
-                lista.append('Gi: '+gi+'  '+'Possivel função:  '+function)
-    #function to se the proteins that have possible note:   
-    for n in range(len(blast)):
-        name=blast[n]
-        gis = name.replace(".txt","")
-        for k in lista:
-            if gis in k:
-                match.append(gis)
+        first = '-!- FUNCTION:'
+        last = 'CC'
+        file = open("../res/blast_without_note/match/function/"+nome).read()
+        data = file.replace("\n", " ") 
+        try:
+            start = data.rindex( first ) + len( first )
+            end = data.rindex(last, start)
+            novo= data[start:end] 
+            lista[j].append('Gi: '+gi+'  '+'Possivel função:  '+novo)
+        except:
+            pass   
     return lista
     
 #return all hits from blast
@@ -642,6 +639,34 @@ def allhits():
         lista[p].append(gi[p])
     return lista
 
+def uniprotallhits():
+    handle = open("../res/blast_without_note/match/allhits/allhits.txt").readlines()
+    
+    
+    
+    for n in range(len (handle)):       
+            x=handle[n].split()
+            for k in range(len(x)-1,len(x)):
+                e=x[k]
+                limpo=e.replace("']","")
+                gi=(limpo[1:])
+                if not os.path.exists("../res/blast_without_note/match/function/teste/"+gi):
+                    os.makedirs("../res/blast_without_note/match/function/teste/"+gi)
+            for j in range(len(x)-1):
+                m=x[j]
+                q=m.replace("[" ,"")
+                protein=q[1:7]
+                site = urllib.request.urlopen("http://www.uniprot.org/uniprot/"+protein+".txt")
+                data = site.readlines()
+                file = open("../res/blast_without_note/match/function/teste/"+protein+'.txt',"wb") #open file in binary mode
+                file.writelines(data)
+                file.close()
+                try:
+                    src = "../res/blast_without_note/match/function/teste/"+protein+'.txt' #source folder
+                    dst = "../res/blast_without_note/match/function/teste/"+gi #destination folder
+                    shutil.move(src, dst)
+                except:
+                        pass
     
 def menu(record):
     ans=True
@@ -666,6 +691,7 @@ def menu(record):
     17.GO numbers
     18.function to see possible function of proteins that didnt have note:
     19.return all hits from blast
+    20.Go to uniprot and download information for all hits
     60.Exit
     """)
         ans=input("Choose an option? ")
@@ -732,13 +758,19 @@ def menu(record):
             print(GO())
             
         elif ans=="18":
-            print(getfunction())
+           file = open("../res/blast_without_note/match/allhits/funcao.txt",'w')
+           lista=getfunction()        
+           for i in range(len(lista)):
+               file.write("%s\n" % lista[i])
+#           print(getfunction())
         elif ans=="19":
            file = open("../res/blast_without_note/match/allhits/allhits.txt",'w')
            lista=allhits()         
            for i in range(len(lista)):
                file.write("%s\n" % lista[i])
            file.close()
+        elif ans=="20":
+            uniprotallhits()
         elif ans=="60":
             ans = False
         else:

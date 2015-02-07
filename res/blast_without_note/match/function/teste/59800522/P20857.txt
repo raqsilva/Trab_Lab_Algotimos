@@ -1,0 +1,112 @@
+ID   THIO2_NOSS1             Reviewed;         111 AA.
+AC   P20857;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 109.
+DE   RecName: Full=Thioredoxin-2;
+DE            Short=Trx-2;
+GN   Name=trxB; OrderedLocusNames=all2341;
+OS   Nostoc sp. (strain PCC 7120 / UTEX 2576).
+OC   Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.
+OX   NCBI_TaxID=103690;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2492494;
+RA   Alam J., Curtis S.E., Gleason F.K., Gerami-Nejad M., Fuchs J.A.;
+RT   "Isolation, sequence, and expression in Escherichia coli of an unusual
+RT   thioredoxin gene from the cyanobacterium Anabaena sp. strain PCC
+RT   7120.";
+RL   J. Bacteriol. 171:162-171(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7120 / UTEX 2576;
+RX   PubMed=11759840; DOI=10.1093/dnares/8.5.205;
+RA   Kaneko T., Nakamura Y., Wolk C.P., Kuritz T., Sasamoto S.,
+RA   Watanabe A., Iriguchi M., Ishikawa A., Kawashima K., Kimura T.,
+RA   Kishida Y., Kohara M., Matsumoto M., Matsuno A., Muraki A.,
+RA   Nakazaki N., Shimpo S., Sugimoto M., Takazawa M., Yamada M.,
+RA   Yasuda M., Tabata S.;
+RT   "Complete genomic sequence of the filamentous nitrogen-fixing
+RT   cyanobacterium Anabaena sp. strain PCC 7120.";
+RL   DNA Res. 8:205-213(2001).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS), AND DISULFIDE BOND.
+RX   PubMed=8590004; DOI=10.1016/S0969-2126(01)00245-3;
+RA   Saarinen M., Gleason F.K., Eklund H.;
+RT   "Crystal structure of thioredoxin-2 from Anabaena.";
+RL   Structure 3:1097-1108(1995).
+CC   -!- FUNCTION: Participates in various redox reactions through the
+CC       reversible oxidation of its active center dithiol to a disulfide
+CC       and catalyzes dithiol-disulfide exchange reactions.
+CC   -!- SIMILARITY: Belongs to the thioredoxin family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 thioredoxin domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00691}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAB74040.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M22997; AAA22048.1; -; Genomic_DNA.
+DR   EMBL; BA000019; BAB74040.1; ALT_INIT; Genomic_DNA.
+DR   PIR; A32233; A32233.
+DR   PIR; AF2098; AF2098.
+DR   RefSeq; NP_486381.1; NC_003272.1.
+DR   RefSeq; WP_010996497.1; NC_003272.1.
+DR   PDB; 1THX; X-ray; 1.60 A; A=1-111.
+DR   PDBsum; 1THX; -.
+DR   ProteinModelPortal; P20857; -.
+DR   SMR; P20857; 2-109.
+DR   STRING; 103690.all2341; -.
+DR   EnsemblBacteria; BAB74040; BAB74040; BAB74040.
+DR   GeneID; 1105938; -.
+DR   KEGG; ana:all2341; -.
+DR   PATRIC; 22774854; VBINosSp37423_2894.
+DR   eggNOG; COG0526; -.
+DR   HOGENOM; HOG000292977; -.
+DR   KO; K03671; -.
+DR   OMA; KCKVEGV; -.
+DR   OrthoDB; EOG6QG8RK; -.
+DR   EvolutionaryTrace; P20857; -.
+DR   Proteomes; UP000002483; Chromosome.
+DR   GO; GO:0015035; F:protein disulfide oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   GO; GO:0006662; P:glycerol ether metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR005746; Thioredoxin.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   InterPro; IPR017937; Thioredoxin_CS.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR10438; PTHR10438; 1.
+DR   Pfam; PF00085; Thioredoxin; 1.
+DR   PIRSF; PIRSF000077; Thioredoxin; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   PROSITE; PS00194; THIOREDOXIN_1; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Disulfide bond; Electron transport;
+KW   Redox-active center; Reference proteome; Transport.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    111       Thioredoxin-2.
+FT                                /FTId=PRO_0000120075.
+FT   DOMAIN        2    109       Thioredoxin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+FT   DISULFID     33     36       Redox-active. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691,
+FT                                ECO:0000269|PubMed:8590004}.
+FT   STRAND        4      7       {ECO:0000244|PDB:1THX}.
+FT   HELIX        10     12       {ECO:0000244|PDB:1THX}.
+FT   HELIX        13     16       {ECO:0000244|PDB:1THX}.
+FT   TURN         17     19       {ECO:0000244|PDB:1THX}.
+FT   STRAND       24     29       {ECO:0000244|PDB:1THX}.
+FT   HELIX        36     49       {ECO:0000244|PDB:1THX}.
+FT   TURN         50     53       {ECO:0000244|PDB:1THX}.
+FT   STRAND       55     61       {ECO:0000244|PDB:1THX}.
+FT   HELIX        65     70       {ECO:0000244|PDB:1THX}.
+FT   STRAND       75     83       {ECO:0000244|PDB:1THX}.
+FT   STRAND       86     93       {ECO:0000244|PDB:1THX}.
+FT   HELIX        97    108       {ECO:0000244|PDB:1THX}.
+SQ   SEQUENCE   111 AA;  12366 MW;  9796605A3A14A21D CRC64;
+     MSKGVITITD AEFESEVLKA EQPVLVYFWA SWCGPCQLMS PLINLAANTY SDRLKVVKLE
+     IDPNPTTVKK YKVEGVPALR LVKGEQILDS TEGVISKDKL LSFLDTHLNN N
+//

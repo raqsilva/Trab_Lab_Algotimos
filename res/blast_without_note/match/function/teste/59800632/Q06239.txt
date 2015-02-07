@@ -1,0 +1,105 @@
+ID   VANR_ENTFC              Reviewed;         231 AA.
+AC   Q06239;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Regulatory protein VanR;
+GN   Name=vanR;
+OS   Enterococcus faecium (Streptococcus faecium).
+OG   Plasmid pIP816, and Plasmid pHKK100.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;
+OC   Enterococcus.
+OX   NCBI_TaxID=1352;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=BM4147; PLASMID=pIP816; TRANSPOSON=Tn1546;
+RX   PubMed=8380148;
+RA   Arthur M., Molinas C., Depardieu F., Courvalin P.;
+RT   "Characterization of Tn1546, a Tn3-related transposon conferring
+RT   glycopeptide resistance by synthesis of depsipeptide peptidoglycan
+RT   precursors in Enterococcus faecium BM4147.";
+RL   J. Bacteriol. 175:117-127(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=BM4147; PLASMID=pIP816;
+RX   PubMed=1556077;
+RA   Arthur M., Molinas C., Courvalin P.;
+RT   "The VanS-VanR two-component regulatory system controls synthesis of
+RT   depsipeptide peptidoglycan precursors in Enterococcus faecium
+RT   BM4147.";
+RL   J. Bacteriol. 174:2582-2591(1992).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=221; PLASMID=pHKK100;
+RX   PubMed=1320585; DOI=10.1016/0378-1097(92)90533-T;
+RA   Handwerger S., Discotto L., Thanassi J., Pucci M.J.;
+RT   "Insertional inactivation of a gene which controls expression of
+RT   vancomycin resistance on plasmid pHKK100.";
+RL   FEMS Microbiol. Lett. 71:11-14(1992).
+CC   -!- FUNCTION: Member of the two-component regulatory system VanS/VanR.
+CC       Activates the transcription of vanH, vanA and vanX in response to
+CC       vancomycin which results in vancomycin resistance.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- PTM: Phosphorylated by VanS. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 response regulatory domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00169}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M97297; AAA65953.1; -; Genomic_DNA.
+DR   EMBL; M68910; AAA24787.1; -; Genomic_DNA.
+DR   EMBL; M84146; AAA24790.1; -; Genomic_DNA.
+DR   PIR; A41838; A41838.
+DR   RefSeq; YP_001019038.1; NC_008821.1.
+DR   RefSeq; YP_001974799.1; NC_010980.1.
+DR   RefSeq; YP_002128396.1; NC_011140.1.
+DR   RefSeq; YP_004172619.1; NC_014959.1.
+DR   RefSeq; YP_006937552.1; NC_013317.1.
+DR   RefSeq; YP_009086370.1; NG_039568.1.
+DR   RefSeq; YP_009090099.1; NG_041525.1.
+DR   RefSeq; YP_976080.1; NC_008768.1.
+DR   ProteinModelPortal; Q06239; -.
+DR   GeneID; 10164673; -.
+DR   GeneID; 13874699; -.
+DR   GeneID; 4670248; -.
+DR   GeneID; 4783154; -.
+DR   GeneID; 6385885; -.
+DR   GeneID; 6779665; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001867; Sig_transdc_resp-reg_C.
+DR   InterPro; IPR016032; Sig_transdc_resp-reg_C-effctor.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   Pfam; PF00486; Trans_reg_C; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SMART; SM00862; Trans_reg_C; 1.
+DR   SUPFAM; SSF46894; SSF46894; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   3: Inferred from homology;
+KW   Activator; Antibiotic resistance; Cell wall biogenesis/degradation;
+KW   Cytoplasm; DNA-binding; Phosphoprotein; Plasmid; Repressor;
+KW   Transcription; Transcription regulation;
+KW   Two-component regulatory system.
+FT   CHAIN         1    231       Regulatory protein VanR.
+FT                                /FTId=PRO_0000081263.
+FT   DOMAIN        1    117       Response regulatory.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+FT   MOD_RES      53     53       4-aspartylphosphate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+SQ   SEQUENCE   231 AA;  26643 MW;  56A9925CC2254FFC CRC64;
+     MSDKILIVDD EHEIADLVEL YLKNENYTVF KYYTAKEALE CIDKSEIDLA ILDIMLPGTS
+     GLTICQKIRD KHTYPIIMLT GKDTEVDKIT GLTIGADDYI TKPFRPLELI ARVKAQLRRY
+     KKFSGVKEQN ENVIVHSGLV INVNTHECYL NEKQLSLTPT EFSILRILCE NKGNVVSSEL
+     LFHEIWGDEY FSKSNNTITV HIRHLREKMN DTIDNPKYIK TVWGVGYKIE K
+//

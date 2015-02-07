@@ -1,0 +1,91 @@
+ID   TRXM_PEA                Reviewed;         172 AA.
+AC   P48384; Q40992;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   07-JAN-2015, entry version 77.
+DE   RecName: Full=Thioredoxin M-type, chloroplastic;
+DE            Short=Trx-M;
+DE   Flags: Precursor;
+OS   Pisum sativum (Garden pea).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; fabids; Fabales; Fabaceae; Papilionoideae;
+OC   Fabeae; Pisum.
+OX   NCBI_TaxID=3888;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Green leaf;
+RX   PubMed=8058831; DOI=10.1104/pp.105.3.1021;
+RA   Lopez Jaramillo J., Chueca A., Sahrawy M., Hermoso R., Lazaro J.J.,
+RA   Prado F.E., Lopez Gorge J.;
+RT   "Cloning and sequencing of a pea cDNA fragment coding for thioredoxin
+RT   m.";
+RL   Plant Physiol. 105:1021-1022(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8642611; DOI=10.1007/BF02498636;
+RA   Sahrawy M., Hecht V., Lopez Jaramillo J., Chueca A., Chartier Y.,
+RA   Meyer Y.;
+RT   "Intron position as an evolutionary marker of thioredoxins and
+RT   thioredoxin domains.";
+RL   J. Mol. Evol. 42:422-431(1996).
+CC   -!- FUNCTION: Participates in various redox reactions through the
+CC       reversible oxidation of the active center dithiol to a disulfide.
+CC       The M form is known to activate NADP-malate dehydrogenase (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Forms a complex with heterodimeric ferredoxin-thioredoxin
+CC       reductase (FTR) and ferredoxin. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the thioredoxin family. Plant M-type
+CC       subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 thioredoxin domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00691}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X76269; CAA53900.1; -; mRNA.
+DR   EMBL; U35831; AAC49358.1; -; Genomic_DNA.
+DR   PIR; S38909; S38909.
+DR   ProteinModelPortal; P48384; -.
+DR   SMR; P48384; 68-172.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015035; F:protein disulfide oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   GO; GO:0006662; P:glycerol ether metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR005746; Thioredoxin.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   InterPro; IPR017937; Thioredoxin_CS.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR10438; PTHR10438; 1.
+DR   Pfam; PF00085; Thioredoxin; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   TIGRFAMs; TIGR01068; thioredoxin; 1.
+DR   PROSITE; PS00194; THIOREDOXIN_1; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Chloroplast; Disulfide bond; Electron transport; Plastid;
+KW   Redox-active center; Transit peptide; Transport.
+FT   TRANSIT       1     60       Chloroplast. {ECO:0000255}.
+FT   CHAIN        61    172       Thioredoxin M-type, chloroplastic.
+FT                                /FTId=PRO_0000034177.
+FT   DOMAIN       61    172       Thioredoxin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+FT   ACT_SITE     97     97       Nucleophile. {ECO:0000250}.
+FT   ACT_SITE    100    100       Nucleophile. {ECO:0000250}.
+FT   SITE         91     91       Deprotonates C-terminal active site Cys.
+FT                                {ECO:0000250}.
+FT   SITE         98     98       Contributes to redox potential value.
+FT                                {ECO:0000250}.
+FT   SITE         99     99       Contributes to redox potential value.
+FT                                {ECO:0000250}.
+FT   DISULFID     97    100       Redox-active. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+FT   CONFLICT     30     30       L -> F (in Ref. 2; AAC49358).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   172 AA;  19156 MW;  991F519C4B32B09A CRC64;
+     MALESLFKSI HTKTSLSSSI VFIFKGKACL LTSKSRIQES FAELNSFTSL VLLIENHVLL
+     HAREAVNEVQ VVNDSSWDEL VIGSETPVLV DFWAPWCGPC RMIAPIIDEL AKEYAGKIKC
+     YKLNTDESPN TATKYGIRSI PTVLFFKNGE RKDSVIGAVP KATLSEKVEK YI
+//

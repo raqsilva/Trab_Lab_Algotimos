@@ -1,0 +1,91 @@
+ID   MSMR_STRMU              Reviewed;         278 AA.
+AC   Q00753;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2002, sequence version 2.
+DT   07-JAN-2015, entry version 105.
+DE   RecName: Full=Msm operon regulatory protein;
+GN   Name=msmR; OrderedLocusNames=SMU_876;
+OS   Streptococcus mutans serotype c (strain ATCC 700610 / UA159).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=210007;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Ingbritt;
+RX   PubMed=1537846;
+RA   Russell R.R.B., Aduse-Opoku J., Sutcliffe I.C., Tao L., Ferretti J.J.;
+RT   "A binding protein-dependent transport system in Streptococcus mutans
+RT   responsible for multiple sugar metabolism.";
+RL   J. Biol. Chem. 267:4631-4637(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700610 / UA159;
+RX   PubMed=12397186; DOI=10.1073/pnas.172501299;
+RA   Ajdic D.J., McShan W.M., McLaughlin R.E., Savic G., Chang J.,
+RA   Carson M.B., Primeaux C., Tian R., Kenton S., Jia H.G., Lin S.P.,
+RA   Qian Y., Li S., Zhu H., Najar F.Z., Lai H., White J., Roe B.A.,
+RA   Ferretti J.J.;
+RT   "Genome sequence of Streptococcus mutans UA159, a cariogenic dental
+RT   pathogen.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14434-14439(2002).
+CC   -!- FUNCTION: Regulatory protein for the msm operon for multiple sugar
+CC       metabolism. Activates the transcription of the msmEFGK, aga, dexB
+CC       and gftA genes.
+CC   -!- SIMILARITY: Contains 1 HTH araC/xylS-type DNA-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00593}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M77351; AAA26932.1; -; Genomic_DNA.
+DR   EMBL; AE014133; AAN58591.1; -; Genomic_DNA.
+DR   RefSeq; NP_721285.1; NC_004350.2.
+DR   ProteinModelPortal; Q00753; -.
+DR   STRING; 210007.SMU.876; -.
+DR   DNASU; 1028226; -.
+DR   EnsemblBacteria; AAN58591; AAN58591; SMU_876.
+DR   GeneID; 1028226; -.
+DR   KEGG; smu:SMU_876; -.
+DR   PATRIC; 19663899; VBIStrMut61772_0782.
+DR   eggNOG; COG2207; -.
+DR   OMA; WICLMHA; -.
+DR   OrthoDB; EOG6WMJ4F; -.
+DR   PhylomeDB; Q00753; -.
+DR   BioCyc; SMUT210007:GC7Z-841-MONOMER; -.
+DR   Proteomes; UP000002512; Chromosome.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.60; -; 2.
+DR   Gene3D; 2.60.120.280; -; 1.
+DR   InterPro; IPR003313; AraC-bd.
+DR   InterPro; IPR009057; Homeodomain-like.
+DR   InterPro; IPR018060; HTH_AraC.
+DR   InterPro; IPR018062; HTH_AraC-typ_CS.
+DR   InterPro; IPR020449; Tscrpt_reg_HTH_AraC-type.
+DR   Pfam; PF02311; AraC_binding; 1.
+DR   Pfam; PF00165; HTH_AraC; 2.
+DR   PRINTS; PR00032; HTHARAC.
+DR   SMART; SM00342; HTH_ARAC; 1.
+DR   SUPFAM; SSF46689; SSF46689; 2.
+DR   SUPFAM; SSF51215; SSF51215; 1.
+DR   PROSITE; PS00041; HTH_ARAC_FAMILY_1; 1.
+DR   PROSITE; PS01124; HTH_ARAC_FAMILY_2; 1.
+PE   3: Inferred from homology;
+KW   Activator; Complete proteome; DNA-binding; Reference proteome;
+KW   Transcription; Transcription regulation.
+FT   CHAIN         1    278       Msm operon regulatory protein.
+FT                                /FTId=PRO_0000194540.
+FT   DNA_BIND    192    211       H-T-H motif. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00593}.
+FT   CONFLICT      4      4       L -> V (in Ref. 1; AAA26932).
+FT                                {ECO:0000305}.
+FT   CONFLICT     94    110       SGSKAENILKQSSLFKR -> RVQKPKIFLSSQAFLNL
+FT                                (in Ref. 1; AAA26932). {ECO:0000305}.
+SQ   SEQUENCE   278 AA;  31968 MW;  9A8E28ABEF6CCCEA CRC64;
+     MNILNIYNEF DINNFDLSVD HYGSEKCDRG YSFGPTIRDN YVIHFILEGK GKLTINQHTL
+     DLAAGDIFLL PKDISTFYQA DLQMPWSYIW IGFSGSKAEN ILKQSSLFKR FYCHSGRSSK
+     LFSQMMTIIQ FANTPLTSVN ELLMVGELYK LLAALIEEFP LSHLEESNSS TKAYVNQVKK
+     IIHSQYGSSL RVNDIAKKLN LSRSYLYKIF RKSTNLSIKE YILQVRMKRS QYLLENPKLS
+     IAEISNSVGF SDSLAFSKAF KNYFGKSPSK FRKEIQNN
+//

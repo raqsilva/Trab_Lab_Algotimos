@@ -1,0 +1,99 @@
+ID   XYLR_ECO57              Reviewed;         392 AA.
+AC   P0ACI5; P37390;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   07-JAN-2015, entry version 66.
+DE   RecName: Full=Xylose operon regulatory protein;
+GN   Name=xylR; OrderedLocusNames=Z4994, ECs4452;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D.,
+RA   Rose D.J., Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A.,
+RA   Posfai G., Hackett J., Klink S., Boutin A., Shao Y., Miller L.,
+RA   Grotbeck E.J., Davis N.W., Lim A., Dimalanta E.T., Potamousis K.,
+RA   Apodaca J., Anantharaman T.S., Lin J., Yen G., Schwartz D.C.,
+RA   Welch R.A., Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T.,
+RA   Iida T., Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T.,
+RA   Kuhara S., Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli
+RT   O157:H7 and genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- FUNCTION: Regulatory protein for the xylBAFGHR operon.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HTH araC/xylS-type DNA-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00593}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005174; AAG58718.1; -; Genomic_DNA.
+DR   EMBL; BA000007; BAB37875.1; -; Genomic_DNA.
+DR   PIR; B86032; B86032.
+DR   PIR; D91185; D91185.
+DR   RefSeq; NP_290154.1; NC_002655.2.
+DR   RefSeq; NP_312479.1; NC_002695.1.
+DR   ProteinModelPortal; P0ACI5; -.
+DR   SMR; P0ACI5; 1-389.
+DR   STRING; 155864.Z4994; -.
+DR   EnsemblBacteria; AAG58718; AAG58718; Z4994.
+DR   EnsemblBacteria; BAB37875; BAB37875; BAB37875.
+DR   GeneID; 915610; -.
+DR   GeneID; 961040; -.
+DR   KEGG; ece:Z4994; -.
+DR   KEGG; ecs:ECs4452; -.
+DR   PATRIC; 18358505; VBIEscCol44059_4418.
+DR   eggNOG; COG1609; -.
+DR   HOGENOM; HOG000269135; -.
+DR   KO; K02529; -.
+DR   OMA; DFRCRLA; -.
+DR   OrthoDB; EOG6JHRGK; -.
+DR   BioCyc; ECOL386585:GJFA-4419-MONOMER; -.
+DR   BioCyc; ECOO157:XYLR-MONOMER; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.60; -; 2.
+DR   InterPro; IPR009057; Homeodomain-like.
+DR   InterPro; IPR018060; HTH_AraC.
+DR   InterPro; IPR018062; HTH_AraC-typ_CS.
+DR   InterPro; IPR028082; Peripla_BP_I.
+DR   InterPro; IPR020449; Tscrpt_reg_HTH_AraC-type.
+DR   Pfam; PF00165; HTH_AraC; 2.
+DR   PRINTS; PR00032; HTHARAC.
+DR   SMART; SM00342; HTH_ARAC; 1.
+DR   SUPFAM; SSF46689; SSF46689; 2.
+DR   SUPFAM; SSF53822; SSF53822; 1.
+DR   PROSITE; PS00041; HTH_ARAC_FAMILY_1; 1.
+DR   PROSITE; PS01124; HTH_ARAC_FAMILY_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA-binding; Transcription;
+KW   Transcription regulation.
+FT   CHAIN         1    392       Xylose operon regulatory protein.
+FT                                /FTId=PRO_0000194598.
+FT   DNA_BIND    304    323       H-T-H motif. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00593}.
+SQ   SEQUENCE   392 AA;  44869 MW;  AAC15819B7FC831A CRC64;
+     MFTKRHRITL LFNANKAYDR QVVEGVGEYL QASQSEWDIF IEEDFRARID KIKDWLGDGV
+     IADFDDKQIE QALADVDVPI VGVGGSYHLA ESYPPVHYIA TDNYALVESA FLHLKEKGVN
+     RFAFYGLPES SGKRWATERE YAFRQLVAEE KYRGVVYQGL ETAPENWQHA QNRLADWLQT
+     LPPQTGIIAV TDARARHILQ VCEHLHIPVP EKLCVIGIDN EELTRYLSRV ALSSVAQGAR
+     QMGYQAAKLL HRLLDKEEMP LQRILVPPVR VIERRSTDYR SLTDPAVIQA MHYIRNHACK
+     GIKVDQVLDA VGISRSNLEK RFKEEVGETI HAMIHAEKLE KARSLLISTT LSINEISQMC
+     GYPSLQYFYS VFKKAYDTTP KEYRDVNSEV ML
+//

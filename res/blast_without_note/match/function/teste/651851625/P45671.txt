@@ -1,0 +1,96 @@
+ID   NTRC_AZOBR              Reviewed;         481 AA.
+AC   P45671;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   29-OCT-2014, entry version 94.
+DE   RecName: Full=Nitrogen assimilation regulatory protein;
+GN   Name=ntrC;
+OS   Azospirillum brasilense.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Rhodospirillaceae; Azospirillum.
+OX   NCBI_TaxID=192;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 29145 / Sp7 / DSM 1690 / IMET 11303;
+RX   PubMed=7553451; DOI=10.1139/m95-093;
+RA   Machado H.B., Yates M.G., Funayama S., Rigo L.U., Steffens M.B.R.,
+RA   Souza E.M., Pedrosa F.O.;
+RT   "The ntrBC genes of Azospirillum brasilense are part of a nifR3-like-
+RT   ntrB-ntrC operon and are negatively regulated.";
+RL   Can. J. Microbiol. 41:674-684(1995).
+CC   -!- FUNCTION: Member of the two-component regulatory system NtrB/NtrC
+CC       involved in the activation of nitrogen assimilatory genes such as
+CC       GlnA. NtrC is phosphorylated by NtrB and interacts with sigma-54.
+CC   -!- SIMILARITY: Contains 1 response regulatory domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00169}.
+CC   -!- SIMILARITY: Contains 1 sigma-54 factor interaction domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00193}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z37984; CAA86065.1; -; Genomic_DNA.
+DR   PIR; I39494; I39494.
+DR   ProteinModelPortal; P45671; -.
+DR   PRIDE; P45671; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000156; F:phosphorelay response regulator activity; IEA:InterPro.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0009399; P:nitrogen fixation; IEA:UniProtKB-KW.
+DR   GO; GO:0006808; P:regulation of nitrogen utilization; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.60; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR009057; Homeodomain-like.
+DR   InterPro; IPR002197; HTH_Fis.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR010114; Sig_transdc_resp-reg_NtrC.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   InterPro; IPR002078; Sigma_54_int.
+DR   InterPro; IPR025943; Sigma_54_int_dom_ATP-bd_2.
+DR   InterPro; IPR025944; Sigma_54_int_dom_CS.
+DR   Pfam; PF02954; HTH_8; 1.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   Pfam; PF00158; Sigma54_activat; 1.
+DR   PRINTS; PR01590; HTHFIS.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF46689; SSF46689; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01818; ntrC; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+DR   PROSITE; PS00676; SIGMA54_INTERACT_2; 1.
+DR   PROSITE; PS00688; SIGMA54_INTERACT_3; 1.
+DR   PROSITE; PS50045; SIGMA54_INTERACT_4; 1.
+PE   3: Inferred from homology;
+KW   Activator; ATP-binding; DNA-binding; Nitrogen fixation;
+KW   Nucleotide-binding; Phosphoprotein; Repressor; Transcription;
+KW   Transcription regulation; Two-component regulatory system.
+FT   CHAIN         1    481       Nitrogen assimilation regulatory protein.
+FT                                /FTId=PRO_0000081170.
+FT   DOMAIN        1    119       Response regulatory.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+FT   DOMAIN      141    369       Sigma-54 factor interaction.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00193}.
+FT   NP_BIND     169    176       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00193}.
+FT   NP_BIND     232    241       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00193}.
+FT   DNA_BIND    451    470       H-T-H motif. {ECO:0000250}.
+FT   MOD_RES      54     54       4-aspartylphosphate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+SQ   SEQUENCE   481 AA;  53309 MW;  9F117927E124146E CRC64;
+     MSAATILVAD DDRAIRTVLT QALARLGHEV RTTGNASTLW RWVADGQGDL IITDVVMPDE
+     NGLDLIPRIK KIRPDLRIIV MSAQNTLITA VKAAERGAFE YLPKPFDLKE LVSVVERALN
+     SNTPPAALPA DAGEADEQLP LIGRSPAMQE IYRVLARLMG TDLTVTITGE SGTGKELVAR
+     ALHDYGKRRN GPFVAINMAA IPRELIESEL FGHEKGAFTG ATNRSTGRFE QAQGGTLFLD
+     EIGDMPLEAQ TRLLRVLQEG EYTTVGGRTP IKTDVRIVAA THRDLRTLIR QGLFREDLFY
+     RLCVVPIRLP PLRERTEDVP LLVRHFLNQC SAQGLPVKSI DQPAMDRLKR YRWPGNVREL
+     ENLVRRLAAL YSQEVIGLDV VEAELADTTP AAQPVEEPQG EGLSAAVERH LKDYFAAHKD
+     GMPSNGLYDR VLREVERPLI SLSLSATRGN QIKAAQLLGL NRNTLRKKIR DLDIQVVRGL
+     K
+//

@@ -1,0 +1,131 @@
+ID   GSPD_PSEAE              Reviewed;         658 AA.
+AC   P35818; Q9HZB2;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   04-FEB-2015, entry version 106.
+DE   RecName: Full=Type II secretion system protein D;
+DE            Short=T2SS protein D;
+DE   AltName: Full=General secretion pathway protein D;
+DE   Flags: Precursor;
+GN   Name=xcpQ; OrderedLocusNames=PA3105;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG
+OS   12228).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=7934833;
+RA   Akrim M., Bally M., Ball G., Tommassen J., Teerink H., Filloux A.,
+RA   Lazdunski A.;
+RT   "Xcp-mediated protein secretion in Pseudomonas aeruginosa:
+RT   identification of two additional genes and evidence for regulation of
+RT   xcp gene expression.";
+RL   Mol. Microbiol. 10:431-443(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T.,
+RA   Reizer J., Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an
+RT   opportunistic pathogen.";
+RL   Nature 406:959-964(2000).
+CC   -!- FUNCTION: Involved in a type II secretion system (T2SS, formerly
+CC       general secretion pathway, GSP) for the export of proteins.
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305};
+CC       Peripheral membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X68594; CAA48582.1; -; Genomic_DNA.
+DR   EMBL; AE004091; AAG06493.1; -; Genomic_DNA.
+DR   PIR; S39653; S39653.
+DR   RefSeq; NP_251795.1; NC_002516.2.
+DR   PDB; 4E9J; X-ray; 2.03 A; A/B=35-277.
+DR   PDB; 4EC5; X-ray; 2.20 A; A/B=35-277.
+DR   PDBsum; 4E9J; -.
+DR   PDBsum; 4EC5; -.
+DR   ProteinModelPortal; P35818; -.
+DR   SMR; P35818; 41-273.
+DR   DIP; DIP-60809N; -.
+DR   STRING; 208964.PA3105; -.
+DR   TCDB; 1.B.22.1.2; the outer bacterial membrane secretin (secretin) family.
+DR   EnsemblBacteria; AAG06493; AAG06493; PA3105.
+DR   GeneID; 880114; -.
+DR   KEGG; pae:PA3105; -.
+DR   PATRIC; 19840783; VBIPseAer58763_3257.
+DR   PseudoCAP; PA3105; -.
+DR   eggNOG; COG1450; -.
+DR   HOGENOM; HOG000253751; -.
+DR   InParanoid; P35818; -.
+DR   KO; K02453; -.
+DR   OMA; WTINLKD; -.
+DR   OrthoDB; EOG6423BN; -.
+DR   PhylomeDB; P35818; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015627; C:type II protein secretion system complex; IEA:InterPro.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0015628; P:protein secretion by the type II secretion system; IDA:PseudoCAP.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR013356; T2SS_GspD.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 3.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   TIGRFAMs; TIGR02517; type_II_gspD; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell outer membrane; Complete proteome; Membrane;
+KW   Protein transport; Reference proteome; Signal; Transport.
+FT   SIGNAL        1     34       {ECO:0000255}.
+FT   CHAIN        35    658       Type II secretion system protein D.
+FT                                /FTId=PRO_0000013104.
+FT   STRAND       42     44       {ECO:0000244|PDB:4E9J}.
+FT   STRAND       52     61       {ECO:0000244|PDB:4E9J}.
+FT   HELIX        62     73       {ECO:0000244|PDB:4E9J}.
+FT   STRAND       77     79       {ECO:0000244|PDB:4E9J}.
+FT   STRAND       86     96       {ECO:0000244|PDB:4E9J}.
+FT   HELIX        97    110       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      113    117       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      119    126       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      145    150       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      152    154       {ECO:0000244|PDB:4E9J}.
+FT   HELIX       156    163       {ECO:0000244|PDB:4E9J}.
+FT   HELIX       164    166       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      171    176       {ECO:0000244|PDB:4E9J}.
+FT   HELIX       177    179       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      181    186       {ECO:0000244|PDB:4E9J}.
+FT   HELIX       188    202       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      209    213       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      215    217       {ECO:0000244|PDB:4E9J}.
+FT   HELIX       219    231       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      235    237       {ECO:0000244|PDB:4EC5}.
+FT   STRAND      242    246       {ECO:0000244|PDB:4E9J}.
+FT   HELIX       247    249       {ECO:0000244|PDB:4E9J}.
+FT   STRAND      251    257       {ECO:0000244|PDB:4E9J}.
+FT   HELIX       258    271       {ECO:0000244|PDB:4E9J}.
+SQ   SEQUENCE   658 AA;  69953 MW;  EC2F81FD1A185D50 CRC64;
+     MSQPLLRALF APSSRSYVPA VLLSLALGIQ AAHAENSGGN AFVPAGNQQE AHWTINLKDA
+     DIREFIDQIS EITGETFVVD PRVKGQVSVV SKAQLSLSEV YQLFLSVMST HGFTVVAQGD
+     QARIVPNAEA KTEAGGGQSA PDRLETRVIQ VQQSPVSELI PLIRPLVPQY GHLAAVPSAN
+     ALIISDRSAN IARIEDVIRQ LDQKGSHDYS VINLRYGWVM DAAEVLNNAM SRGQAKGAAG
+     AQVIADARTN RLIILGPPQA RAKLVQLAQS LDTPTARSAN TRVIRLRHND AKTLAETLGQ
+     ISEGMKNNGG QGGEQTGGGR PSNILIRADE STNALVLLAD PDTVNALEDI VRQLDVPRAQ
+     VLVEAAIVEI SGDIQDAVGV QWAINKGGMG GTKTNFANTG LSIGTLLQSL ESNKAPESIP
+     DGAIVGIGSS SFGALVTALS ANTKSNLLST PSLLTLDNQK AEILVGQNVP FQTGSYTTNS
+     EGSSNPFTTV ERKDIGVSLK VTPHINDGAA LRLEIEQEIS ALLPNAQQRN NTDLITSKRS
+     IKSTILAENG QVIVIGGLIQ DDVSQAESKV PLLGDIPLLG RLFRSTKDTH TKRNLMVFLR
+     PTVVRDSAGL AALSGKKYSD IRVIDGTRGP EGRPSILPTN ANQLFDGQAV DLRELMTE
+//

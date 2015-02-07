@@ -1,0 +1,135 @@
+ID   MSHA_STRCO              Reviewed;         457 AA.
+AC   Q9FCG5;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUL-2013, sequence version 2.
+DT   07-JAN-2015, entry version 70.
+DE   RecName: Full=D-inositol 3-phosphate glycosyltransferase;
+DE            EC=2.4.1.250 {ECO:0000255|HAMAP-Rule:MF_01695};
+DE   AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+DE            Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   Name=mshA {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   OrderedLocusNames=SCO4204; ORFNames=2SCD46.18;
+OS   Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Streptomycineae; Streptomycetaceae; Streptomyces;
+OC   Streptomyces albidoflavus group.
+OX   NCBI_TaxID=100226;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-471 / A3(2) / M145;
+RX   PubMed=12000953; DOI=10.1038/417141a;
+RA   Bentley S.D., Chater K.F., Cerdeno-Tarraga A.-M., Challis G.L.,
+RA   Thomson N.R., James K.D., Harris D.E., Quail M.A., Kieser H.,
+RA   Harper D., Bateman A., Brown S., Chandra G., Chen C.W., Collins M.,
+RA   Cronin A., Fraser A., Goble A., Hidalgo J., Hornsby T., Howarth S.,
+RA   Huang C.-H., Kieser T., Larke L., Murphy L.D., Oliver K., O'Neil S.,
+RA   Rabbinowitsch E., Rajandream M.A., Rutherford K.M., Rutter S.,
+RA   Seeger K., Saunders D., Sharp S., Squares R., Squares S., Taylor K.,
+RA   Warren T., Wietzorrek A., Woodward J.R., Barrell B.G., Parkhill J.,
+RA   Hopwood D.A.;
+RT   "Complete genome sequence of the model actinomycete Streptomyces
+RT   coelicolor A3(2).";
+RL   Nature 417:141-147(2002).
+RN   [2]
+RP   INDUCTION, AND PROBABLE START SITE.
+RC   STRAIN=ATCC BAA-471 / A3(2) / M145;
+RX   PubMed=18430082; DOI=10.1111/j.1365-2958.2008.06191.x;
+RA   Park J.H., Roe J.H.;
+RT   "Mycothiol regulates and is regulated by a thiol-specific antisigma
+RT   factor RsrA and sigma(R) in Streptomyces coelicolor.";
+RL   Mol. Microbiol. 68:861-870(2008).
+CC   -!- FUNCTION: Catalyzes the transfer of a N-acetyl-glucosamine moiety
+CC       to 1D-myo-inositol 3-phosphate to produce 1D-myo-inositol 2-
+CC       acetamido-2-deoxy-glucopyranoside 3-phosphate in the mycothiol
+CC       biosynthesis pathway. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- CATALYTIC ACTIVITY: UDP-N-acetyl-D-glucosamine + 1D-myo-inositol
+CC       3-phosphate = UDP + 1-O-(2-acetamido-2-deoxy-alpha-D-
+CC       glucopyranosyl)-1D-myo-inositol 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01695}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- INDUCTION: Transiently induced by thiol-oxidant diamide, under
+CC       control of SigR. Also induced when mycothiol is oxidized or
+CC       conjugated. {ECO:0000269|PubMed:18430082}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase group 1 family.
+CC       MshA subfamily. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAC04040.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL939119; CAC04040.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_628379.1; NC_003888.3.
+DR   STRING; 100226.SCO4204; -.
+DR   CAZy; GT4; Glycosyltransferase Family 4.
+DR   EnsemblBacteria; CAC04040; CAC04040; CAC04040.
+DR   GeneID; 1099644; -.
+DR   KEGG; sco:SCO4204; -.
+DR   PATRIC; 23738206; VBIStrCoe124346_4268.
+DR   eggNOG; COG0438; -.
+DR   HOGENOM; HOG000077288; -.
+DR   InParanoid; Q9FCG5; -.
+DR   KO; K15521; -.
+DR   OrthoDB; EOG647TVR; -.
+DR   Proteomes; UP000001973; Chromosome.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01695; MshA; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR028098; Glyco_trans_4_N.
+DR   InterPro; IPR017814; Mycothiol_biosynthesis_MshA.
+DR   Pfam; PF13579; Glyco_trans_4_4; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   TIGRFAMs; TIGR03449; mycothiol_MshA; 1.
+PE   2: Evidence at transcript level;
+KW   Complete proteome; Glycosyltransferase; Magnesium; Metal-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    457       D-inositol 3-phosphate
+FT                                glycosyltransferase.
+FT                                /FTId=PRO_0000400162.
+FT   REGION       40     41       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   REGION       45     50       1D-inositol 3-phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       342    342       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       343    343       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       345    345       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       369    369       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING      34     34       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      48     48       UDP-GlcNAc; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     103    103       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     136    136       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     160    160       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     180    180       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     267    267       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     272    272       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     333    333       UDP-GlcNAc; via amide nitrogen and
+FT                                carbonyl oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     355    355       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     363    363       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+SQ   SEQUENCE   457 AA;  48864 MW;  8763E5E709B4F7B1 CRC64;
+     MSQYVSRLGR RSPAASPRLR LNRKPRRVAM LSVHTSPLHQ PGTGDAGGMN VYIVELAQRL
+     AAINIEVEIF TRATTAALPP AVELAPGVLV RHVDAGPYEG LAKEELPAQL CAFTHGVMQA
+     WAGHRPGHYD LVHSHYWLSG HVGWLAAQRW GAPLVHAMHT MAKVKNANLA DGDTPEPAAR
+     VIGETQIVAA SDRLIANTAE EADELVRHYA ADPDKVAVVH PGVNLERFRP FPKGRVPGPG
+     QHGNARAAAR ARLGLPQDAL IPLFAGRIQP LKAPDILLRA VAVLLDERPE LRSRIVVPVV
+     GGPSGSGLAK PEGLQKLAAR LGIADVVRFR PPVGQEQLAD WFRAASVLVM PSYSESFGLV
+     AIEAQAAGTP VLAAAVGGLP VAVRDGHTGR LVHGHDPAAY ARVLRDFADN PDLTPRMGDA
+     AARHAQSFGW DSAAATTADV YTAAIQSYRR RVRSHHG
+//

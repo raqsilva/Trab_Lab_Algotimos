@@ -1,0 +1,98 @@
+ID   PPCE_ELIME              Reviewed;         705 AA.
+AC   P27028;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   07-JAN-2015, entry version 87.
+DE   RecName: Full=Prolyl endopeptidase;
+DE            EC=3.4.21.26;
+DE   AltName: Full=Post-proline cleaving enzyme;
+DE   AltName: Full=Proline-specific endopeptidase;
+DE            Short=PE;
+DE            Short=PSE;
+DE   Flags: Precursor;
+GN   Name=f1pep1;
+OS   Elizabethkingia meningoseptica (Chryseobacterium meningosepticum).
+OC   Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;
+OC   Flavobacteriaceae; Elizabethkingia.
+OX   NCBI_TaxID=238;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=1840588;
+RA   Yoshimoto T., Kanatani A., Shimoda T., Inaoka T., Kokubo T., Tsuru D.;
+RT   "Prolyl endopeptidase from Flavobacterium meningosepticum: cloning and
+RT   sequencing of the enzyme gene.";
+RL   J. Biochem. 110:873-878(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=7764331; DOI=10.1007/BF00170434;
+RA   Diefenthal T., Dargatz H., Witte V., Reipen G., Svendsen I.;
+RT   "Cloning of proline-specific endopeptidase gene from Flavobacterium
+RT   meningosepticum: expression in Escherichia coli and purification of
+RT   the heterologous protein.";
+RL   Appl. Microbiol. Biotechnol. 40:90-97(1993).
+CC   -!- FUNCTION: Cleaves peptide bonds on the C-terminal side of prolyl
+CC       residues within peptides that are up to approximately 30 amino
+CC       acids long. Has an absolute requirement for an X-Pro bond in the
+CC       trans configuration immediately preceding the Pro-Y scissible
+CC       bond.
+CC   -!- CATALYTIC ACTIVITY: Hydrolysis of Pro-|-Xaa >> Ala-|-Xaa in
+CC       oligopeptides.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Periplasm.
+CC   -!- SIMILARITY: Belongs to the peptidase S9A family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D10980; BAA01755.1; -; Genomic_DNA.
+DR   EMBL; X63674; CAA45213.1; -; Genomic_DNA.
+DR   PIR; JX0194; JX0194.
+DR   ProteinModelPortal; P27028; -.
+DR   BindingDB; P27028; -.
+DR   ChEMBL; CHEMBL6043; -.
+DR   PRIDE; P27028; -.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0070008; F:serine-type exopeptidase activity; IEA:InterPro.
+DR   Gene3D; 2.130.10.120; -; 1.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR002471; Pept_S9_AS.
+DR   InterPro; IPR023302; Pept_S9A_N.
+DR   InterPro; IPR001375; Peptidase_S9.
+DR   InterPro; IPR002470; Peptidase_S9A.
+DR   PANTHER; PTHR11757; PTHR11757; 1.
+DR   Pfam; PF00326; Peptidase_S9; 1.
+DR   Pfam; PF02897; Peptidase_S9_N; 1.
+DR   PRINTS; PR00862; PROLIGOPTASE.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   PROSITE; PS00708; PRO_ENDOPEP_SER; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Hydrolase; Periplasm; Protease;
+KW   Serine protease; Signal.
+FT   SIGNAL        1     20
+FT   CHAIN        21    705       Prolyl endopeptidase.
+FT                                /FTId=PRO_0000027207.
+FT   ACT_SITE    556    556       Charge relay system.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU10084,
+FT                                ECO:0000269|PubMed:1840588}.
+FT   ACT_SITE    675    675       Charge relay system.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU10084}.
+FT   CONFLICT    110    110       S -> C (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT    587    587       R -> A (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   705 AA;  78707 MW;  BC0EDCBABB328256 CRC64;
+     MKYNKLSVAV AAFAFAAVSA QNSNVLKYPE TKKVSHTDTY FGTQVSDPYR WLEDDRAEDT
+     KAWVQQEVKF TQDYLAQIPF RDQLKKQLMD IWNYEKISAP FKKGKYTYFS KNDGLQAQSV
+     LYRKDAAGKT EVFLDPNKFS EKGTTSLASV SFNKKGTLVA YSISEGGSDW NKIIILDAET
+     KKQLDETLLD VKFSGISWLG DEGFFYSSYD KPKEGSVLSG MTDKHKVYFH KLGTKQSQDE
+     LIIGGDKFPR RYIGAYVTDD QRYLVVSAAN ATNGNELYIK DLKNKTDFIP IITGFDSNVN
+     VADTDGDTLY LFTDKDAPNK RLVKTTIQNP KAETWKDVIA ETSEPLEINT GGGYFFATYM
+     KDAIDQVKQY DKNGKLVRAI KLPGSGNASG FGGEKTEKDL YYSFTNYITP PTIFKYNVTT
+     GNSEVYQKPK VKFNPENYVS EQVFYTSSDG TKIPMMISYK KGLKKDGKNP TILYSYGGFN
+     ISLQPAFSVV NAIWMENGGI YAVPNIRGGG EYGKKWHDAG TKMQKKNVFN DFIAAGEYLQ
+     KNGYTSKEYM ALSGRSNGGL LVGATMTMRP DLAKVAFPGV GVLDMLRYNK FTAGAGWAYD
+     YGTAEDSKEM FEYLKSYSPV HNVKAGTCYP STMVITSDHD DRVVPAHSFK FGSELQAKQS
+     CKNPILIRIE TNAGHGAGRS TEQVVAENAD LLSFALYEMG IKSLK
+//

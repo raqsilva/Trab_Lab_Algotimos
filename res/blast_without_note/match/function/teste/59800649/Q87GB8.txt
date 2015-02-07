@@ -1,0 +1,96 @@
+ID   MALG_VIBPA              Reviewed;         296 AA.
+AC   Q87GB8;
+DT   25-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 62.
+DE   RecName: Full=Maltose transport system permease protein MalG;
+GN   Name=malG; OrderedLocusNames=VPA1399;
+OS   Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=223926;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RIMD 2210633;
+RX   PubMed=12620739; DOI=10.1016/S0140-6736(03)12659-1;
+RA   Makino K., Oshima K., Kurokawa K., Yokoyama K., Uda T., Tagomori K.,
+RA   Iijima Y., Najima M., Nakano M., Yamashita A., Kubota Y., Kimura S.,
+RA   Yasunaga T., Honda T., Shinagawa H., Hattori M., Iida T.;
+RT   "Genome sequence of Vibrio parahaemolyticus: a pathogenic mechanism
+RT   distinct from that of V. cholerae.";
+RL   Lancet 361:743-749(2003).
+CC   -!- FUNCTION: Part of a binding-protein-dependent transport system.
+CC       Probably responsible for the translocation of the substrate across
+CC       the membrane (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (MalK), two transmembrane proteins (MalG and MalF) and a solute-
+CC       binding protein (MalE). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-
+CC       pass membrane protein {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport
+CC       system permease family. MalFG subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 ABC transmembrane type-1 domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000032; BAC62742.1; -; Genomic_DNA.
+DR   RefSeq; NP_800909.1; NC_004605.1.
+DR   ProteinModelPortal; Q87GB8; -.
+DR   SMR; Q87GB8; 7-296.
+DR   STRING; 223926.VPA1399; -.
+DR   EnsemblBacteria; BAC62742; BAC62742; BAC62742.
+DR   GeneID; 1192095; -.
+DR   KEGG; vpa:VPA1399; -.
+DR   PATRIC; 20147193; VBIVibPar50997_4324.
+DR   eggNOG; COG3833; -.
+DR   HOGENOM; HOG000220526; -.
+DR   KO; K10110; -.
+DR   OMA; ARMKFRG; -.
+DR   OrthoDB; EOG60PHFH; -.
+DR   BioCyc; VPAR223926:GHK4-4639-MONOMER; -.
+DR   Proteomes; UP000002493; Chromosome 2.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008643; P:carbohydrate transport; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.3720.10; -; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; SSF161098; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Membrane;
+KW   Reference proteome; Sugar transport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    296       Maltose transport system permease protein
+FT                                MalG.
+FT                                /FTId=PRO_0000060090.
+FT   TOPO_DOM      1     12       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     13     35       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM     36     88       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM     89    111       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    112    123       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    124    143       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    144    152       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    153    175       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    176    204       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    205    227       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    228    257       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    258    280       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    281    296       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN       85    281       ABC transmembrane type-1.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00441}.
+SQ   SEQUENCE   296 AA;  32098 MW;  D8E2BA794E4BB6AD CRC64;
+     MAMVQGKSLK YRVWATHIAM WAFLALIIFP LLMIIAISFR EGNFATGSLI PDNPTLDHWK
+     LALGFSITNA DGTVTPPPFP VMTWLWNSVK VGGISAILIV ALSTTSAYAF ARMKFKGKNT
+     ILKAMMIFQM FPAVLALVAL YALFDKLGQY IPFLGLNTHG GLIFAYLGGI ALHVWTIKGY
+     FESIDSSLEE AAALDGATPW QAFRLVLLPL SVPILAVVFI LSFIMVIGEV PVASLLLSDV
+     DSYTLAVGMQ QYLYPQNYLW GDFAAAAVLS AVPITAVFLL AQRWLVGGLT AGGVKG
+//

@@ -1,0 +1,102 @@
+ID   AMPN_LACLC              Reviewed;         846 AA.
+AC   P0C2T8; P37897;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 1.
+DT   07-JAN-2015, entry version 36.
+DE   RecName: Full=Aminopeptidase N;
+DE            EC=3.4.11.2;
+DE   AltName: Full=Alanine aminopeptidase;
+DE   AltName: Full=Lysyl aminopeptidase;
+DE            Short=Lys-AP;
+GN   Name=pepN; Synonyms=lap;
+OS   Lactococcus lactis subsp. cremoris (Streptococcus cremoris).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Lactococcus.
+OX   NCBI_TaxID=1359;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Wg2;
+RX   PubMed=1563625; DOI=10.1016/0378-1119(92)90676-G;
+RA   Stroman P.;
+RT   "Sequence of a gene (lap) encoding a 95.3-kDa aminopeptidase from
+RT   Lactococcus lactis ssp. cremoris Wg2.";
+RL   Gene 113:107-112(1992).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-34.
+RC   STRAIN=Wg2;
+RX   PubMed=16348128;
+RA   Tan P.S.T., Konings W.N.;
+RT   "Purification and characterization of an aminopeptidase from
+RT   Lactococcus lactis subsp. cremoris Wg2.";
+RL   Appl. Environ. Microbiol. 56:526-532(1990).
+CC   -!- FUNCTION: Aminopeptidase with broad substrate specificity to
+CC       several peptides. It has more affinity for oligopeptides than for
+CC       dipeptides. It plays an essential role in the metabolism, it may
+CC       be involved in nitrogen supply or protein turnover (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Release of an N-terminal amino acid, Xaa-|-
+CC       Yaa- from a peptide, amide or arylamide. Xaa is preferably Ala,
+CC       but may be most amino acids including Pro (slow action). When a
+CC       terminal hydrophobic residue is followed by a prolyl residue, the
+CC       two may be released as an intact Xaa-Pro dipeptide.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Note=It may be
+CC       secreted through an unknown mechanism. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase M1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X61230; CAA43547.1; -; Genomic_DNA.
+DR   PIR; JN0324; JN0324.
+DR   SABIO-RK; P0C2T8; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004177; F:aminopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   InterPro; IPR024571; ERAP1-like_C_dom.
+DR   InterPro; IPR001930; Peptidase_M1.
+DR   InterPro; IPR014782; Peptidase_M1_N.
+DR   PANTHER; PTHR11533; PTHR11533; 1.
+DR   Pfam; PF11838; ERAP1_C; 1.
+DR   Pfam; PF01433; Peptidase_M1; 1.
+DR   PRINTS; PR00756; ALADIPTASE.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   Aminopeptidase; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Metal-binding; Metalloprotease; Protease; Zinc.
+FT   INIT_MET      1      1       Removed. {ECO:0000269|PubMed:16348128}.
+FT   CHAIN         2    846       Aminopeptidase N.
+FT                                /FTId=PRO_0000095075.
+FT   REGION      252    256       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    289    289       Proton acceptor. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       288    288       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       292    292       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       311    311       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   BINDING     120    120       Substrate. {ECO:0000250}.
+FT   SITE        375    375       Transition state stabilizer.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   846 AA;  95309 MW;  8606417173834D40 CRC64;
+     MAVKRLIETF VPENYKIFLD IDRKTKKIKG QVAITGEAKD TVVAFHAKGL HFNKVRAFSV
+     DTNFIENEED EEIVVKIGET GRVTVSFEYE AELTDNMMGI YPSYYEVNGE KKMLIGTQFE
+     SHFARQAFPS IDEPEAKATF DLSVKFDEEE GDIIVSNMPE LLNINGIHVF ERTVKMSSYL
+     LAFVFGELQY KKGKTKSGVE VGAFATKAHS QAALDFPLDI AIRSIEFYED YYQTPYPLPH
+     SWHIALPDFS SGAMENWGCI TYREVCMLVD PENATIQSKQ YVATVIAHEL AHQWFGDLVT
+     MQWWDDLWLN ESFANNMEYV CMDALEPSWN VWESFSISEA NMALNRDATD GVQSVHVEVT
+     HPDEIGTLFD PAIVYAKGSR LMVMLRKWLG DEDFAAGLAL YFKRHQYGNT VGDNLWDALA
+     EVSGKDVAAF MHSWVNQPGY PVVTAEVVDD TLILSQKQFF VGEGVDKGRL WNVPLNTNWT
+     GLPDLLSSEK VEIPGFAALK TKNNGKALFL NDANMAHYII DYKGALLTDL LSEVESLENV
+     TKFQILQDRK LLAKAGVISY ADVVNILPSF TNEESYLVNT GLSQLISELE LFVDEDSETE
+     KAFQSLVGKL FAKNYARLGW DKVAGESAGD ESLRGIVLSK TLYSENADAK TKASQIFATH
+     KENLASIPAD IRPIVLNNEI KTTNSAELVK TYRETYIKTS LQEFKRELEG AVALIKDEKV
+     IAELLESFKN ADIVKPQDIA FSWFYLLRND FSQDAAWAWE KANWASLEEK LGGDMSYDKF
+     VIYPGNTFKT ADKLAEYKAF FEPKLENQGL KRSIEMAIKQ ITARVALIDS QKAAVDKAIT
+     DIAEKL
+//

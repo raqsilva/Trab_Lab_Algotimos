@@ -1,0 +1,119 @@
+ID   MSHA_MYCBP              Reviewed;         480 AA.
+AC   A1KFW0;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-JAN-2015, entry version 54.
+DE   RecName: Full=D-inositol 3-phosphate glycosyltransferase;
+DE            EC=2.4.1.250 {ECO:0000255|HAMAP-Rule:MF_01695};
+DE   AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+DE            Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   Name=mshA {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   OrderedLocusNames=BCG_0527;
+OS   Mycobacterium bovis (strain BCG / Pasteur 1173P2).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+OC   Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=410289;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BCG / Pasteur 1173P2;
+RX   PubMed=17372194; DOI=10.1073/pnas.0700869104;
+RA   Brosch R., Gordon S.V., Garnier T., Eiglmeier K., Frigui W.,
+RA   Valenti P., Dos Santos S., Duthoy S., Lacroix C., Garcia-Pelayo C.,
+RA   Inwald J.K., Golby P., Garcia J.N., Hewinson R.G., Behr M.A.,
+RA   Quail M.A., Churcher C., Barrell B.G., Parkhill J., Cole S.T.;
+RT   "Genome plasticity of BCG and impact on vaccine efficacy.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5596-5601(2007).
+CC   -!- FUNCTION: Catalyzes the transfer of a N-acetyl-glucosamine moiety
+CC       to 1D-myo-inositol 3-phosphate to produce 1D-myo-inositol 2-
+CC       acetamido-2-deoxy-glucopyranoside 3-phosphate in the mycothiol
+CC       biosynthesis pathway. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- CATALYTIC ACTIVITY: UDP-N-acetyl-D-glucosamine + 1D-myo-inositol
+CC       3-phosphate = UDP + 1-O-(2-acetamido-2-deoxy-alpha-D-
+CC       glucopyranosyl)-1D-myo-inositol 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01695}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase group 1 family.
+CC       MshA subfamily. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM408590; CAL70512.1; -; Genomic_DNA.
+DR   RefSeq; YP_976625.1; NC_008769.1.
+DR   ProteinModelPortal; A1KFW0; -.
+DR   SMR; A1KFW0; 46-446.
+DR   STRING; 410289.BCG_0527; -.
+DR   CAZy; GT4; Glycosyltransferase Family 4.
+DR   EnsemblBacteria; CAL70512; CAL70512; BCG_0527.
+DR   GeneID; 4696986; -.
+DR   KEGG; mbb:BCG_0527; -.
+DR   PATRIC; 18011577; VBIMycBov80988_0568.
+DR   eggNOG; COG0438; -.
+DR   HOGENOM; HOG000077288; -.
+DR   KO; K15521; -.
+DR   OMA; LVHSHYW; -.
+DR   OrthoDB; EOG647TVR; -.
+DR   BioCyc; MBOV410289:GJW7-533-MONOMER; -.
+DR   Proteomes; UP000001472; Chromosome.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01695; MshA; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR028098; Glyco_trans_4_N.
+DR   InterPro; IPR017814; Mycothiol_biosynthesis_MshA.
+DR   Pfam; PF13579; Glyco_trans_4_4; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   TIGRFAMs; TIGR03449; mycothiol_MshA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycosyltransferase; Magnesium; Metal-binding;
+KW   Transferase.
+FT   CHAIN         1    480       D-inositol 3-phosphate
+FT                                glycosyltransferase.
+FT                                /FTId=PRO_0000400132.
+FT   REGION       59     60       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   REGION       64     69       1D-inositol 3-phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       340    340       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       341    341       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       343    343       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       367    367       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING      53     53       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      67     67       UDP-GlcNAc; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     122    122       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     155    155       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     179    179       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     199    199       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     273    273       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     278    278       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     331    331       UDP-GlcNAc; via amide nitrogen and
+FT                                carbonyl oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     353    353       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     361    361       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+SQ   SEQUENCE   480 AA;  50541 MW;  2134755E894A9CCF CRC64;
+     MAGVRHDDGS GLIAQRRPVR GEGATRSRGP SGPSNRNVSA ADDPRRVALL AVHTSPLAQP
+     GTGDAGGMNV YMLQSALHLA RRGIEVEIFT RATASADPPV VRVAPGVLVR NVVAGPFEGL
+     DKYDLPTQLC AFAAGVLRAE AVHEPGYYDI VHSHYWLSGQ VGWLARDRWA VPLVHTAHTL
+     AAVKNAALAD GDGPEPPLRT VGEQQVVDEA DRLIVNTDDE ARQVISLHGA DPARIDVVHP
+     GVDLDVFRPG DRRAARAALG LPVDERVVAF VGRIQPLKAP DIVLRAAAKL PGVRIIVAGG
+     PSGSGLASPD GLVRLADELG ISARVTFLPP QSHTDLATLF RAADLVAVPS YSESFGLVAV
+     EAQACGTPVV AAAVGGLPVA VRDGITGTLV SGHEVGQWAD AIDHLLRLCA GPRGRVMSRA
+     AARHAATFSW ENTTDALLAS YRRAIGEYNA ERQRRGGEVI SDLVAVGKPR HWTPRRGVGA
+//

@@ -1,0 +1,102 @@
+ID   TDH_THEON               Reviewed;         350 AA.
+AC   B6YTJ5;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 1.
+DT   04-FEB-2015, entry version 47.
+DE   RecName: Full=Probable L-threonine 3-dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00627};
+DE            EC=1.1.1.103 {ECO:0000255|HAMAP-Rule:MF_00627};
+GN   Name=tdh {ECO:0000255|HAMAP-Rule:MF_00627};
+GN   OrderedLocusNames=TON_0397;
+OS   Thermococcus onnurineus (strain NA1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Thermococcus.
+OX   NCBI_TaxID=523850;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NA1;
+RX   PubMed=18790866; DOI=10.1128/JB.00746-08;
+RA   Lee H.S., Kang S.G., Bae S.S., Lim J.K., Cho Y., Kim Y.J., Jeon J.H.,
+RA   Cha S.-S., Kwon K.K., Kim H.-T., Park C.-J., Lee H.-W., Kim S.I.,
+RA   Chun J., Colwell R.R., Kim S.-J., Lee J.-H.;
+RT   "The complete genome sequence of Thermococcus onnurineus NA1 reveals a
+RT   mixed heterotrophic and carboxydotrophic metabolism.";
+RL   J. Bacteriol. 190:7491-7499(2008).
+CC   -!- CATALYTIC ACTIVITY: L-threonine + NAD(+) = L-2-amino-3-
+CC       oxobutanoate + NADH. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00627};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00627};
+CC   -!- PATHWAY: Amino-acid degradation; L-threonine degradation via
+CC       oxydo-reductase pathway; glycine from L-threonine: step 1/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000855; ACJ15882.1; -; Genomic_DNA.
+DR   RefSeq; WP_012571354.1; NC_011529.1.
+DR   RefSeq; YP_002306779.1; NC_011529.1.
+DR   ProteinModelPortal; B6YTJ5; -.
+DR   STRING; 523850.TON_0397; -.
+DR   EnsemblBacteria; ACJ15882; ACJ15882; TON_0397.
+DR   GeneID; 7016692; -.
+DR   KEGG; ton:TON_0397; -.
+DR   eggNOG; COG1063; -.
+DR   HOGENOM; HOG000294686; -.
+DR   KO; K00060; -.
+DR   OMA; FELMRAG; -.
+DR   BioCyc; TONN523850:GC7X-417-MONOMER; -.
+DR   UniPathway; UPA00046; UER00505.
+DR   Proteomes; UP000002727; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008743; F:L-threonine 3-dehydrogenase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019518; P:L-threonine catabolic process to glycine; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   HAMAP; MF_00627; Thr_dehydrog; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR004627; L-Threonine_3-DHase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   TIGRFAMs; TIGR00692; tdh; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Metal-binding; NAD; Oxidoreductase;
+KW   Zinc.
+FT   CHAIN         1    350       Probable L-threonine 3-dehydrogenase.
+FT                                /FTId=PRO_1000130570.
+FT   METAL        42     42       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL        67     67       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL        97     97       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       100    100       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       103    103       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       111    111       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       152    152       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+SQ   SEQUENCE   350 AA;  38110 MW;  C4BCB61D48317C7E CRC64;
+     MAEKMPAIVK TKPAYGAELV EVDIPKPGPG EVLIKVLATS ICGTDLHIYE WNEWAQSRIK
+     PPQIMGHEVA GEVIEVGPGV DTINVGDYIS AETHIVCGKC YACKHNRYHV CQNTKIFGVD
+     MDGVFAEYAI VPAQNAWKNP KDMPPEYATL QEPLGNAVDT VLAGPIAGRS TLITGAGPLG
+     LLGIAVAKAS GAYPVIVSEP SEFRRELAKK VGADYVVNPF EEDPVKFVMD ITDGAGVEVF
+     LEFSGAPKAF EQGLQAVTPG GRVSLLGLFP REVTFDINNL VIFKALEVHG ITGRHLWETW
+     YTVSSLIQSG KLNLDPIITH KYKGFDKFEE AFELMRAGKT GKVVFFPHKK
+//

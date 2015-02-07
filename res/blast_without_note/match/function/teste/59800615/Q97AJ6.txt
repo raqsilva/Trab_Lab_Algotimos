@@ -1,0 +1,95 @@
+ID   TRF3_THEVO              Reviewed;         779 AA.
+AC   Q97AJ6;
+DT   31-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2001, sequence version 1.
+DT   04-FEB-2015, entry version 83.
+DE   RecName: Full=Tricorn protease-interacting factor F3;
+DE            EC=3.4.11.-;
+GN   Name=trf3; OrderedLocusNames=TV0814; ORFNames=TVG0817891;
+OS   Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC
+OS   15438 / GSS1).
+OC   Archaea; Euryarchaeota; Thermoplasmata; Thermoplasmatales;
+OC   Thermoplasmataceae; Thermoplasma.
+OX   NCBI_TaxID=273116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1;
+RX   PubMed=11121031; DOI=10.1073/pnas.97.26.14257;
+RA   Kawashima T., Amano N., Koike H., Makino S., Higuchi S.,
+RA   Kawashima-Ohya Y., Watanabe K., Yamazaki M., Kanehori K., Kawamoto T.,
+RA   Nunoshiba T., Yamamoto Y., Aramaki H., Makino K., Suzuki M.;
+RT   "Archaeal adaptation to higher temperatures revealed by genomic
+RT   sequence of Thermoplasma volcanium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:14257-14262(2000).
+CC   -!- FUNCTION: Proteases F1, F2 and F3 degrade oligopeptides produced
+CC       by Tricorn (themselves probably produced by the proteasome),
+CC       yielding free amino acids. {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Part of the tricorn proteolytic complex. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase M1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000011; BAB59956.1; -; Genomic_DNA.
+DR   RefSeq; NP_111319.1; NC_002689.2.
+DR   RefSeq; WP_010917058.1; NC_002689.2.
+DR   ProteinModelPortal; Q97AJ6; -.
+DR   SMR; Q97AJ6; 1-777.
+DR   STRING; 273116.TVN0800; -.
+DR   MEROPS; M01.021; -.
+DR   EnsemblBacteria; BAB59956; BAB59956; BAB59956.
+DR   GeneID; 1441906; -.
+DR   KEGG; tvo:TVN0800; -.
+DR   eggNOG; COG0308; -.
+DR   KO; K13722; -.
+DR   OMA; YLRIITH; -.
+DR   BioCyc; TVOL273116:GC31-825-MONOMER; -.
+DR   Proteomes; UP000001017; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004177; F:aminopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   InterPro; IPR024571; ERAP1-like_C_dom.
+DR   InterPro; IPR001930; Peptidase_M1.
+DR   InterPro; IPR014782; Peptidase_M1_N.
+DR   PANTHER; PTHR11533; PTHR11533; 1.
+DR   Pfam; PF11838; ERAP1_C; 1.
+DR   Pfam; PF01433; Peptidase_M1; 1.
+DR   PRINTS; PR00756; ALADIPTASE.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Complete proteome; Cytoplasm; Hydrolase;
+KW   Metal-binding; Metalloprotease; Protease; Zinc.
+FT   CHAIN         1    779       Tricorn protease-interacting factor F3.
+FT                                /FTId=PRO_0000095113.
+FT   REGION      231    235       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    267    267       Proton acceptor. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       266    266       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       270    270       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       289    289       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   BINDING     102    102       Substrate. {ECO:0000250}.
+FT   SITE        352    352       Transition state stabilizer.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   779 AA;  88069 MW;  6BC227F2ECECB201 CRC64;
+     MDISEYDLTL DLDLQSKTFH GTETISASSG DFVLDAVGFN IEWIKVNGSD AKFEYDGNLL
+     KINGLETAQK VEISYSGKIS DSLSGIYFAG RESNGMVTTH FEATDARRMF PCIDHPAYKA
+     VFSITLVIDK DYDAISNMPI KKVETSDRKI VEFEKTPRMS TYLLYIGVGK FKYASERYKD
+     REIILASLKD IKSKYPIDIA KRSIEFYEGY FGIPYALPKM HLISVPEFGA GAMENWGAIT
+     FREIYLDIAD NSAASTLRLS ANVIAHEIAH QWFGDLVTMK WWNDLWLNES FATFMSYKTM
+     DTIHPEWQFW GDFFVSRTSG ALRSDSLKNT HPIEVDVKDP DEISQIFDEI SYGKGASILR
+     MIEDYVGAED FRKGISKYLK EHAYGNAEGS DLWNAIETES GKPVNRIMEA WITKAGYPIL
+     KVSQDKTGIK VMQSRFFLGG GESTDRWPVP VKMRLNNGIS QMLLEEESTV ITDKDVIKLN
+     ADNLGFYRVN YDDETFSKII ENMDKLTPLD RVGLVDDLFA FLMAGVITPD TYKNRIKSFF
+     NDKDANVISN IVNQFEYLRI ITHYFDADAR EFLGTAIRYL ESADDENLKI AYGKASRLLA
+     LLDEAYCETL APRFSNFEQQ TPELKSAIAT AYALSTGDVK GMVEKYRSLD RDEDKVKIIS
+     GFGKLKSSTD LSVVSGMIEK GEIKKQDMLS FYLSALETMA GREYIYSNLE NIVKNVIRYF
+     TGNRTASRTV EQILPVIGLT HPDAASIIER IGSKNTTMGL AKGKELLEVN RSLLERIGH
+//

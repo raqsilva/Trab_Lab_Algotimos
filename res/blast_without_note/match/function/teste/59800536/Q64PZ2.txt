@@ -1,0 +1,86 @@
+ID   PHNX_BACFR              Reviewed;         263 AA.
+AC   Q64PZ2;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   07-JAN-2015, entry version 70.
+DE   RecName: Full=Phosphonoacetaldehyde hydrolase {ECO:0000255|HAMAP-Rule:MF_01375};
+DE            Short=Phosphonatase {ECO:0000255|HAMAP-Rule:MF_01375};
+DE            EC=3.11.1.1 {ECO:0000255|HAMAP-Rule:MF_01375};
+DE   AltName: Full=Phosphonoacetaldehyde phosphonohydrolase {ECO:0000255|HAMAP-Rule:MF_01375};
+GN   Name=phnX {ECO:0000255|HAMAP-Rule:MF_01375}; OrderedLocusNames=BF3696;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA
+RT   inversions regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Involved in phosphonate degradation. {ECO:0000255|HAMAP-
+CC       Rule:MF_01375}.
+CC   -!- CATALYTIC ACTIVITY: Phosphonoacetaldehyde + H(2)O = acetaldehyde +
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_01375}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01375};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01375};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01375}.
+CC   -!- SIMILARITY: Belongs to the HAD-like hydrolase superfamily. PhnX
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01375}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50439.1; -; Genomic_DNA.
+DR   RefSeq; YP_100973.1; NC_006347.1.
+DR   ProteinModelPortal; Q64PZ2; -.
+DR   STRING; 295405.BF3696; -.
+DR   EnsemblBacteria; BAD50439; BAD50439; BF3696.
+DR   GeneID; 3084778; -.
+DR   KEGG; bfr:BF3696; -.
+DR   PATRIC; 21052936; VBIBacFra17906_3547.
+DR   eggNOG; NOG84703; -.
+DR   HOGENOM; HOG000217971; -.
+DR   KO; K05306; -.
+DR   OMA; FDWAGTM; -.
+DR   OrthoDB; EOG6ZH2FH; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0050194; F:phosphonoacetaldehyde hydrolase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019700; P:organic phosphonate catabolic process; IEA:InterPro.
+DR   Gene3D; 1.10.150.240; -; 1.
+DR   Gene3D; 3.40.50.1000; -; 2.
+DR   HAMAP; MF_01375; PhnX; 1.
+DR   InterPro; IPR023214; HAD-like_dom.
+DR   InterPro; IPR023198; PGP_dom2.
+DR   InterPro; IPR006323; Phosphonoacetald_hydro.
+DR   Pfam; PF13419; HAD_2; 1.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR01422; phosphonatase; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Magnesium; Metal-binding; Schiff base.
+FT   CHAIN         1    263       Phosphonoacetaldehyde hydrolase.
+FT                                /FTId=PRO_0000284581.
+FT   ACT_SITE     10     10       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01375}.
+FT   ACT_SITE     51     51       Schiff-base intermediate with substrate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01375}.
+FT   METAL        10     10       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01375}.
+FT   METAL        12     12       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01375}.
+FT   METAL       184    184       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01375}.
+SQ   SEQUENCE   263 AA;  29268 MW;  B5D427316C5BD09A CRC64;
+     MKKIECIIMD WAGTAVDYGC FAPVAAFIKA FAGKGLTIDV EQTRKPMGLP KIQHIRELLT
+     MPEVNEQFIN RYRRAWTEED VVELNHLFEK YLFASLKEYT DPIPGVIPTL EKLRAEGLKI
+     GSTTGYTREM MDVVLPEAQA KGYRVDYCAT PNLLPAGRPA PYMIFENLTK LAVPDPDTVV
+     KVGDTIADIQ EGVHAKVWSV GVVLGSNEMA LTEEETHALP AAELENRIAE VKQRMLAAGA
+     SYVIRSIEEL PALIQLINSK LNH
+//

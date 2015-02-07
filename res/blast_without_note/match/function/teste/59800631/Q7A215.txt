@@ -1,0 +1,123 @@
+ID   WALK_STAAW              Reviewed;         608 AA.
+AC   Q7A215;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-JAN-2015, entry version 90.
+DE   RecName: Full=Sensor protein kinase WalK;
+DE            EC=2.7.13.3;
+GN   Name=walK; Synonyms=vicK; OrderedLocusNames=MW0019;
+OS   Staphylococcus aureus (strain MW2).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=196620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MW2;
+RX   PubMed=12044378; DOI=10.1016/S0140-6736(02)08713-5;
+RA   Baba T., Takeuchi F., Kuroda M., Yuzawa H., Aoki K., Oguchi A.,
+RA   Nagai Y., Iwama N., Asano K., Naimi T., Kuroda H., Cui L.,
+RA   Yamamoto K., Hiramatsu K.;
+RT   "Genome and virulence determinants of high virulence community-
+RT   acquired MRSA.";
+RL   Lancet 359:1819-1827(2002).
+CC   -!- FUNCTION: Member of the two-component regulatory system WalK/WalR
+CC       that regulates genes involved in autolysis, biofilm formation and
+CC       cell wall metabolism. WalK functions as a sensor protein kinase
+CC       which is autophosphorylated at a histidine residue and transfers
+CC       its phosphate group to WalR (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- PTM: Autophosphorylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -!- SIMILARITY: Contains 1 PAC (PAS-associated C-terminal) domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00141}.
+CC   -!- SIMILARITY: Contains 1 PAS (PER-ARNT-SIM) domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00140}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000033; BAB93884.1; -; Genomic_DNA.
+DR   RefSeq; NP_644834.1; NC_003923.1.
+DR   ProteinModelPortal; Q7A215; -.
+DR   SMR; Q7A215; 223-599.
+DR   STRING; 196620.MW0019; -.
+DR   EnsemblBacteria; BAB93884; BAB93884; BAB93884.
+DR   GeneID; 1004770; -.
+DR   KEGG; sam:MW0019; -.
+DR   PATRIC; 19566474; VBIStaAur44266_0019.
+DR   eggNOG; COG5002; -.
+DR   HOGENOM; HOG000223176; -.
+DR   KO; K07652; -.
+DR   OMA; SDGAIND; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; SAUR196620:GJ9Z-21-MONOMER; -.
+DR   Proteomes; UP000000418; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR000700; PAS-assoc_C.
+DR   InterPro; IPR029151; Sensor-like.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   Pfam; PF13426; PAS_9; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SUPFAM; SSF103190; SSF103190; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55785; SSF55785; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   TIGRFAMs; TIGR00229; sensory_box; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+DR   PROSITE; PS50113; PAC; 1.
+DR   PROSITE; PS50112; PAS; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Complete proteome; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Transferase; Transmembrane;
+KW   Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    608       Sensor protein kinase WalK.
+FT                                /FTId=PRO_0000353059.
+FT   TRANSMEM     14     34       Helical. {ECO:0000255}.
+FT   TRANSMEM    183    203       Helical. {ECO:0000255}.
+FT   DOMAIN      204    256       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      261    331       PAS. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00140}.
+FT   DOMAIN      314    378       PAC. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00141}.
+FT   DOMAIN      382    600       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     385    385       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   608 AA;  69924 MW;  FBE26E64D2A37A8D CRC64;
+     MKWLKQLQSL HTKLVIVYVL LIIIGMQIIG LYFTNNLEKE LLDNFKKNIT QYAKQLEISI
+     EKVYDEKGSV NAQKDIQNLL SEYANRQEIG EIRFIDKDQI IIATTKQSNR SLINQKANDS
+     SVQKALSLGQ SNDHLILKDY GGGKDRVWVY NIPVKVDKKV IGNIYIESKI NDVYNQLNNI
+     NQIFIVGTAI SLLITVILGF FIARTITKPI TDMRNQTVEM SRGNYTQRVK IYGNDEIGEL
+     ALAFNNLSKR VQEAQANTES EKRRLDSVIT HMSDGIIATD RRGRIRIVND MALKMLGMAK
+     EDIIGYYMLS VLSLEDEFKL EEIQENNDSF LLDLNEEEGL IARVNFSTIV QETGFVTGYI
+     AVLHDVTEQQ QVERERREFV ANVSHELRTP LTSMNSYIEA LEEGAWKDEE LAPQFLSVTR
+     EETERMIRLV NDLLQLSKMD NESDQINKEI IDFNMFINKI INRHEMSAKD TTFIRDIPKK
+     TIFTEFDPDK MTQVFDNVIT NAMKYSRGDK RVEFHVKQNP LYNRMTIRIK DNGIGIPINK
+     VDKIFDRFYR VDKARTRKMG GTGLGLAISK EIVEAHNGRI WANSVEGQGT SIFITLPCEV
+     IEDGDWDE
+//

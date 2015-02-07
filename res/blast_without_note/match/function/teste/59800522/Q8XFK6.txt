@@ -1,0 +1,103 @@
+ID   DSBE_SALTY              Reviewed;         185 AA.
+AC   Q8XFK6;
+DT   27-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   27-MAR-2002, sequence version 1.
+DT   07-JAN-2015, entry version 89.
+DE   RecName: Full=Thiol:disulfide interchange protein DsbE;
+DE   AltName: Full=Cytochrome c biogenesis protein CcmG;
+GN   Name=dsbE1; Synonyms=ccmG1; OrderedLocusNames=STM2248;
+GN   and
+GN   Name=dsbE2; Synonyms=ccmG2; OrderedLocusNames=STM3813;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Involved in disulfide bond formation. Catalyzes a late,
+CC       reductive step in the assembly of periplasmic c-type cytochromes,
+CC       probably the reduction of disulfide bonds of the apocytochrome c
+CC       to allow covalent linkage with the heme. Possible subunit of a
+CC       heme lyase (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Single-
+CC       pass membrane protein {ECO:0000250}; Periplasmic side
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the thioredoxin family. DsbE subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 thioredoxin domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00691}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE006468; AAL22672.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL21150.1; -; Genomic_DNA.
+DR   RefSeq; NP_461191.1; NC_003197.1.
+DR   RefSeq; NP_462713.1; NC_003197.1.
+DR   ProteinModelPortal; Q8XFK6; -.
+DR   SMR; Q8XFK6; 36-184.
+DR   STRING; 99287.STM3813; -.
+DR   PaxDb; Q8XFK6; -.
+DR   PRIDE; Q8XFK6; -.
+DR   EnsemblBacteria; AAL21150; AAL21150; STM2248.
+DR   EnsemblBacteria; AAL22672; AAL22672; STM3813.
+DR   GeneID; 1253770; -.
+DR   GeneID; 1255340; -.
+DR   KEGG; stm:STM2248; -.
+DR   KEGG; stm:STM3813; -.
+DR   PATRIC; 32383105; VBISalEnt20916_2382.
+DR   eggNOG; COG0526; -.
+DR   HOGENOM; HOG000097218; -.
+DR   KO; K02199; -.
+DR   OMA; KIIGMNY; -.
+DR   OrthoDB; EOG6WX4Q5; -.
+DR   PhylomeDB; Q8XFK6; -.
+DR   BioCyc; SENT99287:GCTI-2262-MONOMER; -.
+DR   BioCyc; SENT99287:GCTI-3842-MONOMER; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015036; F:disulfide oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   GO; GO:0017004; P:cytochrome complex assembly; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR004799; Periplasmic_diS_OxRdtase_DsbE.
+DR   InterPro; IPR013740; Redoxin.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   InterPro; IPR017937; Thioredoxin_CS.
+DR   Pfam; PF08534; Redoxin; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   TIGRFAMs; TIGR00385; dsbE; 1.
+DR   PROSITE; PS00194; THIOREDOXIN_1; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome;
+KW   Cytochrome c-type biogenesis; Disulfide bond; Membrane;
+KW   Redox-active center; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    185       Thiol:disulfide interchange protein DsbE.
+FT                                /FTId=PRO_0000201301.
+FT   TOPO_DOM      1      4       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM      5     25       Helical. {ECO:0000255}.
+FT   TOPO_DOM     26    185       Periplasmic. {ECO:0000255}.
+FT   DOMAIN       39    177       Thioredoxin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+FT   DISULFID     80     83       Redox-active. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+SQ   SEQUENCE   185 AA;  20679 MW;  9B731AA457929C68 CRC64;
+     MKRNVLLLPL LIFLLIAAAL LWQLARNAQG DDPTNLESAL TGKPVPAFRL ESLETPGQYY
+     QAEVLTQGKP VLLNVWATWC PTCRAEHQYL NQLSAQGIRV VGLNYKDDRA KAVAWLKELG
+     NPYALSLSDS DGMLGLDLGV YGAPETFLID GRGIIRYRHA GDLNARVWES ELKPLWDRYS
+     REAAQ
+//

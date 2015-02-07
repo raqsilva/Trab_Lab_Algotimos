@@ -1,0 +1,96 @@
+ID   PHOR_KLEPN              Reviewed;         431 AA.
+AC   P45608;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-JAN-2015, entry version 102.
+DE   RecName: Full=Phosphate regulon sensor protein PhoR;
+DE            EC=2.7.13.3;
+GN   Name=phoR;
+OS   Klebsiella pneumoniae.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Klebsiella.
+OX   NCBI_TaxID=573;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2556368;
+RA   Lee T.Y., Makino K., Shinagawa H., Amemura M., Nakata A.;
+RT   "Phosphate regulon in members of the family Enterobacteriaceae:
+RT   comparison of the phoB-phoR operons of Escherichia coli, Shigella
+RT   dysenteriae, and Klebsiella pneumoniae.";
+RL   J. Bacteriol. 171:6593-6599(1989).
+CC   -!- FUNCTION: Member of the two-component regulatory system PhoR/PhoB
+CC       involved in the phosphate regulon genes expression. PhoR may
+CC       function as a membrane-associated protein kinase that
+CC       phosphorylates PhoB in response to environmental signals.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane; Multi-pass membrane
+CC       protein.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -!- SIMILARITY: Contains 1 PAS (PER-ARNT-SIM) domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M31794; AAA25123.1; -; Genomic_DNA.
+DR   PIR; D44753; D44753.
+DR   ProteinModelPortal; P45608; -.
+DR   BRENDA; 2.7.13.3; 2814.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0006817; P:phosphate ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR021766; DUF3329.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR013767; PAS_fold.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   InterPro; IPR014310; Sig_transdc_His_kinase_PhoR.
+DR   Pfam; PF11808; DUF3329; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   Pfam; PF00989; PAS; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55785; SSF55785; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   TIGRFAMs; TIGR02966; phoR_proteo; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphate transport; Phosphoprotein; Transferase;
+KW   Transmembrane; Transmembrane helix; Transport;
+KW   Two-component regulatory system.
+FT   CHAIN         1    431       Phosphate regulon sensor protein PhoR.
+FT                                /FTId=PRO_0000074848.
+FT   TOPO_DOM      1     13       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     14     34       Helical. {ECO:0000255}.
+FT   TOPO_DOM     35     38       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM     39     59       Helical. {ECO:0000255}.
+FT   TOPO_DOM     60    431       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN       98    166       PAS.
+FT   DOMAIN      210    425       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     213    213       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   431 AA;  49461 MW;  EA7166DD2C2D25CE CRC64;
+     MLERLSWKRL ALELFLACIP ALILGAFVGH LPWFLLAAVT GLLIWHFWNL MRLSWWLWVD
+     RSMTPPPGRG SWEPLLYGLH QMQMRNKKRR RELGSLIKRF RSGAESLPDA VVLTTEEGAI
+     FWCNGLAQQI LNLRWPDDSG QNILNLLRYP EFANYLKQRD FSKPLNLVLN NARHLEIRVM
+     PYTDKQWLMV ARDVTQMHQL EGARRNFFAN VSHELRTPLT VLQGYLEMMQ EQVLEGATRE
+     KALHTMREQT QRMEGLVKQL LTLSRIEAAP ALAMNDRIDV PMMLRVVERE AQTLSQEKQT
+     LIFTVDEQLK VLGNEEQLRS AISNLVYNAV NHTPPGTEIR VSWQRTPQGA LFSVEDNGPG
+     IAPEHIPLLT ERFYRGDKAR SRQTGGSGLG LAIVKHAVNH HDSRLEIDST VGKGTRFSFL
+     LPERLIARND A
+//

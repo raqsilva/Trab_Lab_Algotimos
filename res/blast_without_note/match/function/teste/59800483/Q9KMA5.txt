@@ -1,0 +1,83 @@
+ID   HIGA2_VIBCH             Reviewed;         104 AA.
+AC   Q9KMA5;
+DT   20-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=Antitoxin igA-2;
+GN   Name=higA-2; OrderedLocusNames=VC_A0469;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A.,
+RA   Gill S.R., Nelson K.E., Read T.D., Tettelin H., Richardson D.L.,
+RA   Ermolaeva M.D., Vamathevan J.J., Bass S., Qin H., Dragoi I.,
+RA   Sellers P., McDonald L.A., Utterback T.R., Fleischmann R.D.,
+RA   Nierman W.C., White O., Salzberg S.L., Smith H.O., Colwell R.R.,
+RA   Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+RN   [2]
+RP   FUNCTION, AND INDUCTION.
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=17020579; DOI=10.1111/j.1365-2958.2006.05385.x;
+RA   Christensen-Dalsgaard M., Gerdes K.;
+RT   "Two higBA loci in the Vibrio cholerae superintegron encode mRNA
+RT   cleaving enzymes and can stabilize plasmids.";
+RL   Mol. Microbiol. 62:397-411(2006).
+CC   -!- FUNCTION: Antitoxin component of a toxin-antitoxin (TA) module
+CC       that counteracts the effect of the HigB-2 toxin. Binds to its own
+CC       promoter and regulates transcription of the higB-2/higA-2 operon.
+CC       {ECO:0000269|PubMed:17020579}.
+CC   -!- INDUCTION: Induced by amino acid starvation and the protein
+CC       synthesis inhibitor chloramphenicol.
+CC       {ECO:0000269|PubMed:17020579}.
+CC   -!- MISCELLANEOUS: HigB-2/HigA-2 has been shown to stabilize plasmids
+CC       very efficiently in E.coli.
+CC   -!- SIMILARITY: Contains 1 HTH cro/C1-type DNA-binding domain.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE003853; AAF96373.1; -; Genomic_DNA.
+DR   PIR; E82455; E82455.
+DR   RefSeq; NP_232861.1; NC_002506.1.
+DR   ProteinModelPortal; Q9KMA5; -.
+DR   STRING; 243277.VCA0469; -.
+DR   DNASU; 2611844; -.
+DR   EnsemblBacteria; AAF96373; AAF96373; VC_A0469.
+DR   GeneID; 2611844; -.
+DR   KEGG; vch:VCA0469; -.
+DR   PATRIC; 20085488; VBIVibCho83274_3095.
+DR   eggNOG; COG2944; -.
+DR   KO; K07726; -.
+DR   OMA; NWEQGRA; -.
+DR   OrthoDB; EOG6VMTSG; -.
+DR   BioCyc; VCHO:VCA0469-MONOMER; -.
+DR   Proteomes; UP000000584; Chromosome 2.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.260.40; -; 1.
+DR   InterPro; IPR001387; Cro/C1-type_HTH.
+DR   InterPro; IPR010982; Lambda_DNA-bd_dom.
+DR   SMART; SM00530; HTH_XRE; 1.
+DR   SUPFAM; SSF47413; SSF47413; 1.
+PE   2: Evidence at transcript level;
+KW   Complete proteome; DNA-binding; Reference proteome; Transcription;
+KW   Transcription regulation.
+FT   CHAIN         1    104       Antitoxin igA-2.
+FT                                /FTId=PRO_0000278767.
+FT   DOMAIN       45     98       HTH cro/C1-type.
+FT   DNA_BIND     56     75       H-T-H motif. {ECO:0000250}.
+SQ   SEQUENCE   104 AA;  11696 MW;  9E6CC9D8FBEDDFAA CRC64;
+     MSNRDLFAEL SSALVEAKQH SEGKLTLKTH HVNDVGELNI SPDEIVSIRE QFNMSRGVFA
+     RLLHTSSRTL ENWEQGRSVP NGQAVTLLKL VQRHPETLSH IAEL
+//

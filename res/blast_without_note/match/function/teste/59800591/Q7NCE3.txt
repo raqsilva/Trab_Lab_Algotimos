@@ -1,0 +1,93 @@
+ID   QUEE_GLOVI              Reviewed;         214 AA.
+AC   Q7NCE3;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-JAN-2015, entry version 63.
+DE   RecName: Full=7-carboxy-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            Short=CDG synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            EC=4.3.99.3 {ECO:0000255|HAMAP-Rule:MF_00917};
+DE   AltName: Full=Queuosine biosynthesis protein QueE {ECO:0000255|HAMAP-Rule:MF_00917};
+GN   Name=queE {ECO:0000255|HAMAP-Rule:MF_00917};
+GN   OrderedLocusNames=gll3036;
+OS   Gloeobacter violaceus (strain PCC 7421).
+OC   Bacteria; Cyanobacteria; Gloeobacteria; Gloeobacterales; Gloeobacter.
+OX   NCBI_TaxID=251221;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7421;
+RX   PubMed=14621292; DOI=10.1093/dnares/10.4.137;
+RA   Nakamura Y., Kaneko T., Sato S., Mimuro M., Miyashita H., Tsuchiya T.,
+RA   Sasamoto S., Watanabe A., Kawashima K., Kishida Y., Kiyokawa C.,
+RA   Kohara M., Matsumoto M., Matsuno A., Nakazaki N., Shimpo S.,
+RA   Takeuchi C., Yamada M., Tabata S.;
+RT   "Complete genome structure of Gloeobacter violaceus PCC 7421, a
+RT   cyanobacterium that lacks thylakoids.";
+RL   DNA Res. 10:137-145(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of 6-carboxy-5,6,7,8-
+CC       tetrahydropterin (CPH4) to 7-carboxy-7-deazaguanine (CDG).
+CC       {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- CATALYTIC ACTIVITY: 6-carboxy-5,6,7,8-tetrahydropterin = 7-
+CC       carboxy-7-carbaguanine + NH(3). {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- COFACTOR:
+CC       Name=S-adenosyl-L-methionine; Xref=ChEBI:CHEBI:59789;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 S-adenosyl-L-methionine per subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. 7-carboxy-7-
+CC       deazaguanine synthase family. {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000045; BAC90977.1; -; Genomic_DNA.
+DR   RefSeq; NP_925982.1; NC_005125.1.
+DR   ProteinModelPortal; Q7NCE3; -.
+DR   STRING; 251221.gll3036; -.
+DR   EnsemblBacteria; BAC90977; BAC90977; BAC90977.
+DR   GeneID; 2601437; -.
+DR   KEGG; gvi:gll3036; -.
+DR   PATRIC; 22045545; VBIGloVio86258_3066.
+DR   HOGENOM; HOG000266143; -.
+DR   InParanoid; Q7NCE3; -.
+DR   OMA; TEDSPTW; -.
+DR   OrthoDB; EOG6RJV40; -.
+DR   PhylomeDB; Q7NCE3; -.
+DR   BioCyc; GVIO251221:GH9A-3074-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000557; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016840; F:carbon-nitrogen lyase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00917; QueE; 1.
+DR   InterPro; IPR024924; 7-CO-7-deazaguanine_synth-like.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR007197; rSAM.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000370; QueE; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; Iron; Iron-sulfur; Lyase; Metal-binding;
+KW   Queuosine biosynthesis; Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN         1    214       7-carboxy-7-deazaguanine synthase.
+FT                                /FTId=PRO_0000416206.
+FT   METAL        45     45       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+FT   METAL        49     49       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+FT   METAL        52     52       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+SQ   SEQUENCE   214 AA;  23573 MW;  209AD8BFB8F06E27 CRC64;
+     MNAASTVVKP VSAQSIPVQE TFGPTIQGEG YWAGAVVDFI RLYGCPVGCP WCDTGYADGG
+     PQLPRAVRTF SDLILELKSP RVVISGGEPF IHAALPALVE AIGRTGRAVA IETSGAFWQP
+     VPDWAWVTLS PKEHVSPRHP VNPQMWRRAN EVKIVIAGGA ELDVYRRFLP PGVPVSLQPE
+     WEARERTLPL TLELLKAHPR YRLSVQLHKY LQVP
+//

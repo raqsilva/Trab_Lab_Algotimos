@@ -1,0 +1,111 @@
+ID   TSAD_DESVH              Reviewed;         361 AA.
+AC   Q72B00;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            EC=2.6.99.4 {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=N6-L-threonylcarbamoyladenine synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            Short=t(6)A synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+GN   Name=tsaD {ECO:0000255|HAMAP-Rule:MF_01445}; Synonyms=gcp;
+GN   OrderedLocusNames=DVU_1840;
+OS   Desulfovibrio vulgaris (strain Hildenborough / ATCC 29579 / NCIMB
+OS   8303).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;
+OC   Desulfovibrionaceae; Desulfovibrio.
+OX   NCBI_TaxID=882;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hildenborough / ATCC 29579 / NCIMB 8303;
+RX   PubMed=15077118; DOI=10.1038/nbt959;
+RA   Heidelberg J.F., Seshadri R., Haveman S.A., Hemme C.L., Paulsen I.T.,
+RA   Kolonay J.F., Eisen J.A., Ward N.L., Methe B.A., Brinkac L.M.,
+RA   Daugherty S.C., DeBoy R.T., Dodson R.J., Durkin A.S., Madupu R.,
+RA   Nelson W.C., Sullivan S.A., Fouts D.E., Haft D.H., Selengut J.,
+RA   Peterson J.D., Davidsen T.M., Zafar N., Zhou L., Radune D.,
+RA   Dimitrov G., Hance M., Tran K., Khouri H.M., Gill J., Utterback T.R.,
+RA   Feldblyum T.V., Wall J.D., Voordouw G., Fraser C.M.;
+RT   "The genome sequence of the anaerobic, sulfate-reducing bacterium
+RT   Desulfovibrio vulgaris Hildenborough.";
+RL   Nat. Biotechnol. 22:554-559(2004).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group
+CC       on adenosine at position 37 (t(6)A37) in tRNAs that read codons
+CC       beginning with adenine. Is involved in the transfer of the
+CC       threonylcarbamoyl moiety of threonylcarbamoyl-AMP (TC-AMP) to the
+CC       N6 group of A37, together with TsaE and TsaB. TsaD likely plays a
+CC       direct catalytic role in this reaction. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445}.
+CC   -!- CATALYTIC ACTIVITY: L-threonylcarbamoyladenylate + adenine(37) in
+CC       tRNA = AMP + N(6)-L-threonylcarbamoyladenine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01445};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017285; AAS96316.1; -; Genomic_DNA.
+DR   RefSeq; YP_011057.1; NC_002937.3.
+DR   ProteinModelPortal; Q72B00; -.
+DR   STRING; 882.DVU1840; -.
+DR   EnsemblBacteria; AAS96316; AAS96316; DVU_1840.
+DR   GeneID; 2796474; -.
+DR   KEGG; dvu:DVU1840; -.
+DR   eggNOG; COG0533; -.
+DR   KO; K01409; -.
+DR   OMA; FAFPRPM; -.
+DR   OrthoDB; EOG6K402S; -.
+DR   PhylomeDB; Q72B00; -.
+DR   BioCyc; DVUL882:GJIL-1881-MONOMER; -.
+DR   Proteomes; UP000002194; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0016747; F:transferase activity, transferring acyl groups other than amino-acyl groups; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070526; P:threonylcarbamoyladenosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01445; TsaD; 1.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/YgjD.
+DR   InterPro; IPR017860; Peptidase_M22_CS.
+DR   InterPro; IPR022450; TsaD.
+DR   Pfam; PF00814; Peptidase_M22; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   TIGRFAMs; TIGR00329; gcp_kae1; 1.
+DR   TIGRFAMs; TIGR03723; T6A_YgjD; 1.
+DR   PROSITE; PS01016; GLYCOPROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Cytoplasm; Iron; Metal-binding;
+KW   Reference proteome; Transferase; tRNA processing.
+FT   CHAIN         1    361       tRNA N6-adenosine
+FT                                threonylcarbamoyltransferase.
+FT                                /FTId=PRO_0000303349.
+FT   REGION      132    136       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01445}.
+FT   METAL       110    110       Iron. {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   METAL       114    114       Iron. {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   METAL       317    317       Iron. {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   BINDING     165    165       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01445}.
+FT   BINDING     178    178       Substrate; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01445}.
+FT   BINDING     182    182       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01445}.
+FT   BINDING     289    289       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01445}.
+SQ   SEQUENCE   361 AA;  38156 MW;  E30A5E87BDFBC227 CRC64;
+     MLCIGIETSC DETGLALVRD GRLVHAVMSS QADIHALFGG VVPEIASREH YRLIGPLYDL
+     LLREAGVGPT ELDAVAVARG PGLLGSLLVG MAFAKGLALG FDIPLVGVNH LHAHLLAAGL
+     ERELVFPALG LLVSGGHTHI YRIESPVSFR LLGRTLDDAA GEAYDKVAKM LRLPYPGGRI
+     LDQQGRRGIA DPRLFPRPYT DNDNLDFSFS GLKTAVQTHL SRHPELVPSP DAAQAVAGGH
+     DAPEGLRNMC ASFNEAVAET LCIKLGRALD GDDGVGVRAL IVAGGVAANS YVREHTARLA
+     VSRGLELIVP SPPLCTDNGS MIAYAGWLLR QGGLSHSLDL EAVPRGRAIP DDYRQGPAGC
+     S
+//

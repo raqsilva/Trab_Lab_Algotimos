@@ -1,0 +1,123 @@
+ID   DCTD_BPT4               Reviewed;         193 AA.
+AC   P16006;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 1.
+DT   07-JAN-2015, entry version 99.
+DE   RecName: Full=Deoxycytidylate deaminase;
+DE            EC=3.5.4.12;
+DE   AltName: Full=dCMP deaminase;
+DE            Short=dCD;
+GN   Name=CD;
+OS   Enterobacteria phage T4 (Bacteriophage T4).
+OC   Viruses; dsDNA viruses, no RNA stage; Caudovirales; Myoviridae;
+OC   Tevenvirinae; T4likevirus.
+OX   NCBI_TaxID=10665;
+OH   NCBI_TaxID=562; Escherichia coli.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2136740;
+RA   Maley G.F., Duceman B.W., Wang A.-M., Martinez J., Maley F.;
+RT   "Cloning, sequence analysis, and expression of the bacteriophage T4 cd
+RT   gene.";
+RL   J. Biol. Chem. 265:47-51(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=12626685; DOI=10.1128/MMBR.67.1.86-156.2003;
+RA   Miller E.S., Kutter E., Mosig G., Arisaka F., Kunisawa T., Ruger W.;
+RT   "Bacteriophage T4 genome.";
+RL   Microbiol. Mol. Biol. Rev. 67:86-156(2003).
+RN   [3]
+RP   ZINC-BINDING.
+RX   PubMed=8428902;
+RA   Moore J.T., Silversmith R.E., Maley G.F., Maley F.;
+RT   "T4-phage deoxycytidylate deaminase is a metalloprotein containing two
+RT   zinc atoms per subunit.";
+RL   J. Biol. Chem. 268:2288-2291(1993).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF MUTANT GLU-115 IN COMPLEX
+RP   WITH SUBSTRATE ANALOG AND ZINC IONS.
+RX   PubMed=15504034; DOI=10.1021/bi048928h;
+RA   Almog R., Maley F., Maley G.F., Maccoll R., Van Roey P.;
+RT   "Three-dimensional structure of the R115E mutant of T4-bacteriophage
+RT   2'-deoxycytidylate deaminase.";
+RL   Biochemistry 43:13715-13723(2004).
+CC   -!- FUNCTION: Supplies the nucleotide substrate for thymidylate
+CC       synthetase.
+CC   -!- CATALYTIC ACTIVITY: dCMP + H(2)O = dUMP + NH(3).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC       Note=Binds 2 Zn(2+) ions per subunit.;
+CC   -!- ENZYME REGULATION: Allosteric enzyme whose activity is greatly
+CC       influenced by the end products of its metabolic pathway, dCTP and
+CC       dTTP.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000269|PubMed:15504034}.
+CC   -!- SIMILARITY: Belongs to the cytidine and deoxycytidylate deaminase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J05172; AAA32489.1; -; Genomic_DNA.
+DR   EMBL; AF158101; AAD42546.1; -; Genomic_DNA.
+DR   PIR; JN0081; DUBPT4.
+DR   RefSeq; NP_049828.1; NC_000866.4.
+DR   PDB; 1VQ2; X-ray; 2.20 A; A=1-193.
+DR   PDBsum; 1VQ2; -.
+DR   DisProt; DP00583; -.
+DR   ProteinModelPortal; P16006; -.
+DR   SMR; P16006; 1-193.
+DR   GeneID; 1258669; -.
+DR   EvolutionaryTrace; P16006; -.
+DR   Proteomes; UP000009087; Genome.
+DR   GO; GO:0004132; F:dCMP deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009165; P:nucleotide biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006220; P:pyrimidine nucleotide metabolic process; IEA:InterPro.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR016473; dCMP_deaminase.
+DR   InterPro; IPR015517; dCMP_deaminase-rel.
+DR   PANTHER; PTHR11086; PTHR11086; 1.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   PIRSF; PIRSF006019; dCMP_deaminase; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Allosteric enzyme; Complete proteome; Hydrolase;
+KW   Metal-binding; Nucleotide biosynthesis; Reference proteome; Zinc.
+FT   CHAIN         1    193       Deoxycytidylate deaminase.
+FT                                /FTId=PRO_0000171699.
+FT   ACT_SITE    106    106       Proton donor. {ECO:0000250}.
+FT   METAL        19     19       Zinc 1; structural.
+FT   METAL        49     49       Zinc 1; structural.
+FT   METAL        94     94       Zinc 1; structural.
+FT   METAL       102    102       Zinc 2; structural.
+FT   METAL       104    104       Zinc 2; catalytic.
+FT   METAL       132    132       Zinc 2; catalytic.
+FT   METAL       135    135       Zinc 2; catalytic.
+FT   BINDING     153    153       Substrate.
+FT   HELIX         3     14       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND       20     22       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND       25     30       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND       33     39       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX        49     56       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND       59     61       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND       84     86       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX        88     90       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX        91    101       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX       105    116       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND      124    129       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX       133    141       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND      146    151       {ECO:0000244|PDB:1VQ2}.
+FT   TURN        158    161       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX       162    166       {ECO:0000244|PDB:1VQ2}.
+FT   STRAND      170    173       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX       176    178       {ECO:0000244|PDB:1VQ2}.
+FT   HELIX       184    186       {ECO:0000244|PDB:1VQ2}.
+SQ   SEQUENCE   193 AA;  21198 MW;  F720EF1B4A2E8CE6 CRC64;
+     MKASTVLQIA YLVSQESKCC SWKVGAVIEK NGRIISTGYN GSPAGGVNCC DYAAEQGWLL
+     NKPKHAIIQG HKPECVSFGS TDRFVLAKEH RSAHSEWSSK NEIHAELNAI LFAARNGSSI
+     EGATMYVTLS PCPDCAKAIA QSGIKKLVYC ETYDKNKPGW DDILRNAGIE VFNVPKKNLN
+     KLNWENINEF CGE
+//

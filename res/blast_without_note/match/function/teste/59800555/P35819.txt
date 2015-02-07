@@ -1,0 +1,90 @@
+ID   PILQ_NEIGO              Reviewed;         720 AA.
+AC   P35819; Q50972;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 2.
+DT   07-JAN-2015, entry version 76.
+DE   RecName: Full=Type IV pilus biogenesis and competence protein PilQ;
+DE   AltName: Full=Outer membrane protein Omc;
+DE   Flags: Precursor;
+GN   Name=pilQ; Synonyms=omc;
+OS   Neisseria gonorrhoeae.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=2686;
+RX   PubMed=2503445;
+RA   Tsai W.M., Larsen S.H., Wilde C.E.;
+RT   "Cloning and DNA sequence of the omc gene encoding the outer membrane
+RT   protein-macromolecular complex from Neisseria gonorrhoeae.";
+RL   Infect. Immun. 57:2653-2659(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=MS11;
+RX   PubMed=8825101; DOI=10.1111/j.1365-2958.1995.18050975.x;
+RA   Drake S.L., Koomey M.;
+RT   "The product of the pilQ gene is essential for the biogenesis of type
+RT   IV pili in Neisseria gonorrhoeae.";
+RL   Mol. Microbiol. 18:975-986(1995).
+CC   -!- FUNCTION: Required for type IV pilus biogenesis and competence.
+CC       Could function as a pore for exit of the pilus but also as a
+CC       channel for entry of heme and antimicrobial agents and uptake of
+CC       transforming DNA. {ECO:0000269|PubMed:8825101}.
+CC   -!- SUBUNIT: Homododecamer. Tetramer of trimer (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane. Note=Associated with
+CC       the membrane through its C-terminus.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA25456.1; Type=Frameshift; Positions=143, 210; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L19944; AAA25456.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; U40596; AAC43603.1; -; Genomic_DNA.
+DR   PIR; A37051; A37051.
+DR   PIR; S70838; S70838.
+DR   PRIDE; P35819; -.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0030420; P:establishment of competence for transformation; IEA:UniProtKB-KW.
+DR   GO; GO:0009297; P:pilus assembly; IEA:InterPro.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   InterPro; IPR021731; AMIN_dom.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR013355; Pilus_4_PilQ.
+DR   InterPro; IPR011662; Secretin/TonB_short_N.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF11741; AMIN; 1.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 1.
+DR   Pfam; PF07660; STN; 1.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   SMART; SM00965; STN; 1.
+DR   TIGRFAMs; TIGR02515; IV_pilus_PilQ; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Competence; Membrane; Protein transport; Signal;
+KW   Transport.
+FT   SIGNAL        1     24       {ECO:0000255}.
+FT   CHAIN        25    720       Type IV pilus biogenesis and competence
+FT                                protein PilQ.
+FT                                /FTId=PRO_0000013115.
+SQ   SEQUENCE   720 AA;  77597 MW;  A45BE2AD06DEE92B CRC64;
+     MNTKLTKIIS GLFVATAAFQ TASAGNITDI KVSSLPNKQK IVKVSFDKEI VNPTGFVTSS
+     PARIALDFEQ TGISMDQQVL EYADPLLSKI SAAQNSSRAR LVLNLNKPGQ YNTEVRGNKV
+     WIFINESDDT VSAPARPAVK AAPAAPAKQQ AAAPFTESVV SVSAPFSPAK QQAAASAKQQ
+     AATPAKQTNI DFRKDGKNAG IIELAALGFA GQPDISQQHD HIIVTLKNHT LPTALQRSLD
+     VADFKTPVQK VTLKRLNNDT QLIITTTGNW ELVNKSAAPG YFTFQVLPKK QNLESGGVNN
+     APKTFTGRKI SLDFQDVEIR TILQILAKES GMNIVASDSV SGKMTLSLKD VPWDQALDLV
+     MQARNLDMRQ QGNIVNMAPR RAACQRQSLL TSGKRHCRSG RAVFPKLPIE IQKCGRIPQH
+     PALDNADTTG NRNTLVSGRG SVLIDPATNT LIVTDTRSVI EKFRKLIDEL DVPAQQVMIE
+     ARIVEAADGF SRDLGVKFGA TGRKKLKNET SAFGWGVNSG FGGGDKWEAK PKSTCRLPCR
+     KQHFAGARDF SGALNLELSA SESLSKTKTL ANPRVLTQNR KEAKIESGYE IPFTVTTRSG
+     GGNSTNTELK KAVLGLTVTA NITPDGQIIM TVKINKDSPR QCASGNNTIL CISTKSLNTQ
+     AMVENGGTLI VGGIYEENNG NTLTKVPLLA TSPLSATSLK HSGKNRPPRT ADFQLPPREL
+//

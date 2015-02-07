@@ -1,0 +1,120 @@
+ID   DEGS_SALT1              Reviewed;         356 AA.
+AC   D0ZY51;
+DT   22-JAN-2014, integrated into UniProtKB/Swiss-Prot.
+DT   19-JAN-2010, sequence version 1.
+DT   07-JAN-2015, entry version 33.
+DE   RecName: Full=Serine endoprotease DegS;
+DE            EC=3.4.21.107;
+DE   AltName: Full=Site-1 protease DegS;
+DE            Short=S1P protease DegS;
+DE   AltName: Full=Site-1-type intramembrane protease;
+GN   Name=degS; OrderedLocusNames=STM14_4041;
+OS   Salmonella typhimurium (strain 14028s / SGSC 2262).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=588858;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=14028s / SGSC 2262;
+RX   PubMed=19897643; DOI=10.1128/JB.01233-09;
+RA   Jarvik T., Smillie C., Groisman E.A., Ochman H.;
+RT   "Short-term signatures of evolutionary change in the Salmonella
+RT   enterica serovar typhimurium 14028 genome.";
+RL   J. Bacteriol. 192:560-567(2010).
+RN   [2]
+RP   FUNCTION, DOMAIN, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=14028s / SGSC 2262;
+RX   PubMed=19170886; DOI=10.1111/j.1365-2958.2009.06597.x;
+RA   Muller C., Bang I.S., Velayudhan J., Karlinsey J., Papenfort K.,
+RA   Vogel J., Fang F.C.;
+RT   "Acid stress activation of the sigma(E) stress response in Salmonella
+RT   enterica serovar Typhimurium.";
+RL   Mol. Microbiol. 71:1228-1238(2009).
+CC   -!- FUNCTION: A site-1 protease (S1P) that cleaves the peptide bond
+CC       between 'Val-148' and 'Ser-149' in RseA.. When heat shock or other
+CC       environmental stresses disrupt protein folding in the periplasm,
+CC       DegS senses the accumulation of unassembled outer membrane porins
+CC       (OMP) and then initiates RseA (anti sigma-E factor) degradation by
+CC       cleaving its periplasmic domain, making it a substrate for
+CC       subsequent cleavage by RseP. This cascade ultimately leads to the
+CC       sigma-E-driven expression of a variety of factors dealing with
+CC       folding stress in the periplasm and OMP assembly. Required for
+CC       basal and heat shock-induced degradation of RseA but not for acid
+CC       stress response in this strain. {ECO:0000269|PubMed:19170886}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Single-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- DOMAIN: Deletion of the PDZ domain eliminates the heat shock
+CC       response of the sigma-E regulon, but not the acid stress response.
+CC       {ECO:0000269|PubMed:19170886}.
+CC   -!- DISRUPTION PHENOTYPE: Loss of heat shock but not acid stress
+CC       response of sigma-E regulon. 10-fold decreased survival in
+CC       acidified murine macrophages. {ECO:0000269|PubMed:19170886}.
+CC   -!- MISCELLANEOUS: Regulated intramembrane proteolysis (RIP) occurs
+CC       when an extracytoplasmic signal triggers a concerted proteolytic
+CC       cascade to transmit information and elicit cellular responses. A
+CC       membrane-spanning regulatory substrate protein is first cut
+CC       extracytoplasmically (site-1 protease, S1P, this enzyme), then
+CC       within the membrane itself (site-2 protease, S2P), while
+CC       cytoplasmic proteases finish degrading the regulatory protein,
+CC       liberating the effector protein (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 PDZ (DHR) domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001363; ACY90437.1; -; Genomic_DNA.
+DR   RefSeq; YP_005239533.1; NC_016856.1.
+DR   ProteinModelPortal; D0ZY51; -.
+DR   SMR; D0ZY51; 37-355.
+DR   PRIDE; D0ZY51; -.
+DR   EnsemblBacteria; ACY90437; ACY90437; STM14_4041.
+DR   PATRIC; 36738547; VBISalEnt101322_3706.
+DR   OMA; IPINPNR; -.
+DR   BioCyc; SENT588858:GJDZ-4045-MONOMER; -.
+DR   Proteomes; UP000002695; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IMP:UniProtKB.
+DR   GO; GO:0006508; P:proteolysis; IMP:UniProtKB.
+DR   GO; GO:0009266; P:response to temperature stimulus; IMP:UniProtKB.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011783; Pept_S1C_DegS.
+DR   InterPro; IPR001254; Peptidase_S1.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF13180; PDZ_2; 1.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 1.
+DR   SUPFAM; SSF50156; SSF50156; 1.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   TIGRFAMs; TIGR02038; protease_degS; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Hydrolase;
+KW   Membrane; Protease; Serine protease; Transmembrane;
+KW   Transmembrane helix; Virulence.
+FT   CHAIN         1    356       Serine endoprotease DegS.
+FT                                /FTId=PRO_0000424886.
+FT   TRANSMEM      5     27       Helical. {ECO:0000255}.
+FT   DOMAIN      256    341       PDZ. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   ACT_SITE     96     96       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    126    126       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    201    201       Charge relay system. {ECO:0000255}.
+SQ   SEQUENCE   356 AA;  37795 MW;  E2F7577BBE5CFEBA CRC64;
+     MFVKLLRSVA IGLIVGAILL AVMPSLRKIN PIAVPQFDST DETPASYNFA VRRAAPAVVN
+     VYNRSMNSTA HNQLEIRTLG SGVIMDQRGY IITNKHVIND ADQIIVALQD GRVFEALLVG
+     SDSLTDLAVL KINATGGLPT IPINTKRTPH IGDVVLAIGN PYNLGQTITQ GIISATGRIG
+     LNPTGRQNFL QTDASINHGN SGGALVNSLG ELMGINTLSF DKSNDGETPE GLGFAIPFQL
+     ATKIMDKLIR DGRVIRGYIG IGGREIAPLH AQQGSGMDPI QGIVVNEVTP NGPAALAGIQ
+     VNDLIISVNN KPAVSALETM DQVAEIRPGS VIPVVVMRDD KQLTFQVTVQ EYPASN
+//

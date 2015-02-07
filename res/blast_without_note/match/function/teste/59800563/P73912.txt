@@ -1,0 +1,114 @@
+ID   CCS1_SYNY3              Reviewed;         458 AA.
+AC   P73912;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   07-JAN-2015, entry version 85.
+DE   RecName: Full=Cytochrome c biogenesis protein CcsB;
+GN   Name=ccsB; Synonyms=ccs1; OrderedLocusNames=slr2087;
+OS   Synechocystis sp. (strain PCC 6803 / Kazusa).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Synechocystis.
+OX   NCBI_TaxID=1111708;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=8905231; DOI=10.1093/dnares/3.3.109;
+RA   Kaneko T., Sato S., Kotani H., Tanaka A., Asamizu E., Nakamura Y.,
+RA   Miyajima N., Hirosawa M., Sugiura M., Sasamoto S., Kimura T.,
+RA   Hosouchi T., Matsuno A., Muraki A., Nakazaki N., Naruo K., Okumura S.,
+RA   Shimpo S., Takeuchi C., Wada T., Watanabe A., Yamada M., Yasuda M.,
+RA   Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. II. Sequence determination of the
+RT   entire genome and assignment of potential protein-coding regions.";
+RL   DNA Res. 3:109-136(1996).
+RN   [2]
+RP   FUNCTION, AND MUTAGENESIS OF 1-24.
+RX   PubMed=10542282; DOI=10.1074/jbc.274.45.32396;
+RA   Tichy M., Vermaas W.;
+RT   "Accumulation of pre-apocytochrome f in a Synechocystis sp. PCC 6803
+RT   mutant impaired in cytochrome c maturation.";
+RL   J. Biol. Chem. 274:32396-32401(1999).
+RN   [3]
+RP   TOPOLOGY.
+RX   PubMed=12427747; DOI=10.1074/jbc.M208652200;
+RA   Dreyfuss B.W., Hamel P.P., Nakamoto S.S., Merchant S.;
+RT   "Functional analysis of a divergent system II protein, Ccs1, involved
+RT   in c-type cytochrome biogenesis.";
+RL   J. Biol. Chem. 278:2604-2613(2003).
+CC   -!- FUNCTION: Required during biogenesis of c-type cytochromes
+CC       (cytochrome c6 and cytochrome f) at the step of heme attachment.
+CC       {ECO:0000250}.
+CC   -!- FUNCTION: Probably not involved in heme transport or reduction as
+CC       mutants deleted for the first 24 residues cannot be rescued by
+CC       growth in the presence of heme or reductant.
+CC       {ECO:0000269|PubMed:10542282}.
+CC   -!- SUBUNIT: May interact with CcsA. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cellular thylakoid membrane {ECO:0000250};
+CC       Multi-pass membrane protein {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Bacteria lacking the N-terminus of CcsB are able to
+CC       grow anaerobically but not aerobically, suggesting its function is
+CC       essential for aerobic growth. In these bacteria reduced amounts of
+CC       some holo-c-type cytochromes are observed (cytochrome f and
+CC       cytochrome c550); unprocessed precursor apocytochrome f
+CC       accumulates but is not thought to be integrated into the
+CC       cytochrome b6-f complex. Holo-cytochrome c553 (also known as
+CC       cytochrome c6) does not accumulate however.
+CC   -!- SIMILARITY: Belongs to the Ccs1/CcsB family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000022; BAA17976.1; -; Genomic_DNA.
+DR   PIR; S75114; S75114.
+DR   RefSeq; NP_441296.1; NC_000911.1.
+DR   RefSeq; YP_005651353.1; NC_017277.1.
+DR   RefSeq; YP_007451178.1; NC_020286.1.
+DR   IntAct; P73912; 10.
+DR   STRING; 1148.slr2087; -.
+DR   EnsemblBacteria; BAA17976; BAA17976; BAA17976.
+DR   GeneID; 954641; -.
+DR   KEGG; syn:slr2087; -.
+DR   PATRIC; 23839950; VBISynSp132158_1536.
+DR   eggNOG; COG1333; -.
+DR   HOGENOM; HOG000265630; -.
+DR   InParanoid; P73912; -.
+DR   KO; K07399; -.
+DR   OMA; TIYQADW; -.
+DR   OrthoDB; EOG67T5FM; -.
+DR   PhylomeDB; P73912; -.
+DR   Proteomes; UP000001425; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0042651; C:thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0017004; P:cytochrome complex assembly; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01392; CytC_Ccs1; 1.
+DR   InterPro; IPR023494; Cyt_c_bgen_Ccs1/CcsB.
+DR   InterPro; IPR007816; ResB-like_domain.
+DR   Pfam; PF05140; ResB; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Cytochrome c-type biogenesis; Membrane;
+KW   Reference proteome; Thylakoid; Transmembrane; Transmembrane helix.
+FT   CHAIN         1    458       Cytochrome c biogenesis protein CcsB.
+FT                                /FTId=PRO_0000363635.
+FT   TOPO_DOM      1     25       Stromal. {ECO:0000305|PubMed:12427747}.
+FT   TRANSMEM     26     46       Helical. {ECO:0000255}.
+FT   TOPO_DOM     47     84       Lumenal. {ECO:0000305|PubMed:12427747}.
+FT   TRANSMEM     85    105       Helical. {ECO:0000255}.
+FT   TOPO_DOM    106    170       Stromal. {ECO:0000305|PubMed:12427747}.
+FT   TRANSMEM    171    191       Helical. {ECO:0000255}.
+FT   TOPO_DOM    192    458       Lumenal. {ECO:0000305|PubMed:12427747}.
+FT   MUTAGEN       1     24       Missing: Unable to grow under aerobic
+FT                                conditions; under anaerobic conditions
+FT                                significantly reduced amounts of holo-c-
+FT                                type cytochromes accumulate.
+FT                                {ECO:0000269|PubMed:10542282}.
+SQ   SEQUENCE   458 AA;  50621 MW;  FA0FB46D6535A7EF CRC64;
+     MTIANPSPSN FFQQLGRQCL KTLADLRLAI ALLLLIAVFS ISGTVIEQGE SLSFYQQNYP
+     EDPALFGFLS WQVILQLGLN QVYRTWWFLG LLILFGSSLT ACTFNRQFPA LKAARSWQFY
+     HQPRQFKKLA LSFSLPDGDI NKIESLLRDR GYKIFQEGDS VYARKGLMGK VGPIIVHGAM
+     LIILGGAIWG ALTGFFAQHM IPSGETFQVS NIIEKGPLAD SQIPKDWGIK VNRFWINYTE
+     NGAIDQFYSD LSVVNNQGEE LDRQTISVNH PLRHRGVTFY QTNWGIAGVK VQLNNSPVLQ
+     LPMAPLQTAN GGQLWGAYIP TKTDFSEGAA LLVKDLQGTM IIYDQEGNLT DAVRAGSTVE
+     INGVNITIKE LVGSTGLQIK ADPGIPFVYL GFGLLMVGVM MSYVSHSQVW LLSVDGDGQR
+     EIYLGGRTNR AQVAFEREIL AIAEEAEVSS KTEAKVNA
+//

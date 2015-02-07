@@ -1,0 +1,115 @@
+ID   UK114_CAPHI             Reviewed;         137 AA.
+AC   P80601; O97509;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 86.
+DE   RecName: Full=Ribonuclease UK114;
+DE            EC=3.1.-.-;
+DE   AltName: Full=14.3 kDa perchloric acid soluble protein;
+DE   AltName: Full=14.5 kDa translational inhibitor protein;
+DE   AltName: Full=UK114 antigen;
+GN   Name=HRSP12;
+OS   Capra hircus (Goat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+OC   Pecora; Bovidae; Caprinae; Capra.
+OX   NCBI_TaxID=9925;
+RN   [1]
+RP   PRELIMINARY PROTEIN SEQUENCE OF 2-137, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Liver;
+RX   PubMed=8814279; DOI=10.1016/0014-5793(96)00850-2;
+RA   Ceciliani F., Faotto L., Negri A., Colombo I., Berra B.,
+RA   Bartorelli A., Ronchi S.;
+RT   "The primary structure of UK114 tumor antigen.";
+RL   FEBS Lett. 393:147-150(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], ACETYLATION AT SER-2, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Liver;
+RX   PubMed=9767104; DOI=10.1016/S0167-4781(98)00120-1;
+RA   Colombo I., Ceciliani F., Ronchi S., Bartorelli A., Berra B.;
+RT   "cDNA cloning and Escherichia coli expression of UK114 tumor
+RT   antigen.";
+RL   Biochim. Biophys. Acta 1442:49-59(1998).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 12-135, AND SUBUNIT.
+RX   PubMed=12925811; DOI=10.1107/S0907444903014306;
+RA   Deriu D., Briand C., Mistiniene E., Naktinis V., Grutter M.G.;
+RT   "Structure and oligomeric state of the mammalian tumour-associated
+RT   antigen UK114.";
+RL   Acta Crystallogr. D 59:1676-1678(2003).
+CC   -!- FUNCTION: Endoribonuclease responsible for the inhibition of the
+CC       translation by cleaving mRNA. Inhibits cell-free protein
+CC       synthesis. Cleaves phosphodiester bonds only in single-stranded
+CC       RNA (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000269|PubMed:12925811}.
+CC   -!- SUBCELLULAR LOCATION: Cell surface.
+CC   -!- TISSUE SPECIFICITY: Expressed by various malignant neoplasms.
+CC   -!- MASS SPECTROMETRY: Mass=14206; Method=Electrospray; Range=2-137;
+CC       Evidence={ECO:0000269|PubMed:9767104};
+CC   -!- SIMILARITY: Belongs to the RutC family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF000167; AAC72281.1; -; mRNA.
+DR   PIR; S74181; S74181.
+DR   RefSeq; NP_001272642.1; NM_001285713.1.
+DR   UniGene; Chi.23702; -.
+DR   PDB; 1NQ3; X-ray; 2.20 A; A/B/C/D/E/F=2-137.
+DR   PDBsum; 1NQ3; -.
+DR   ProteinModelPortal; P80601; -.
+DR   SMR; P80601; 2-134.
+DR   GeneID; 100861379; -.
+DR   KEGG; chx:100861379; -.
+DR   CTD; 10247; -.
+DR   HOVERGEN; HBG003597; -.
+DR   EvolutionaryTrace; P80601; -.
+DR   GO; GO:0009986; C:cell surface; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019239; F:deaminase activity; IEA:InterPro.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1330.40; -; 1.
+DR   InterPro; IPR013813; Endoribo_LPSP/chorism_mut-like.
+DR   InterPro; IPR006056; YjgF-like.
+DR   InterPro; IPR019897; YjgF-like_CS.
+DR   InterPro; IPR006175; YjgF/Yer057p/UK114.
+DR   PANTHER; PTHR11803; PTHR11803; 1.
+DR   Pfam; PF01042; Ribonuc_L-PSP; 1.
+DR   SUPFAM; SSF55298; SSF55298; 1.
+DR   TIGRFAMs; TIGR00004; TIGR00004; 1.
+DR   PROSITE; PS01094; UPF0076; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; Endonuclease;
+KW   Hydrolase; Nuclease.
+FT   INIT_MET      1      1       Removed. {ECO:0000269|PubMed:9767104}.
+FT   CHAIN         2    137       Ribonuclease UK114.
+FT                                /FTId=PRO_0000170307.
+FT   MOD_RES       2      2       N-acetylserine.
+FT                                {ECO:0000269|PubMed:9767104}.
+FT   MOD_RES      13     13       N6-succinyllysine. {ECO:0000250}.
+FT   MOD_RES      67     67       N6-succinyllysine. {ECO:0000250}.
+FT   CONFLICT      3     11       SLVRRIIST -> ENSEEPVGE (in Ref. 1; AA
+FT                                sequence). {ECO:0000305}.
+FT   CONFLICT    137    137       L -> V (in Ref. 1; AA sequence).
+FT                                {ECO:0000305}.
+FT   STRAND        4      9       {ECO:0000244|PDB:1NQ3}.
+FT   STRAND       23     27       {ECO:0000244|PDB:1NQ3}.
+FT   STRAND       30     36       {ECO:0000244|PDB:1NQ3}.
+FT   TURN         41     43       {ECO:0000244|PDB:1NQ3}.
+FT   HELIX        51     67       {ECO:0000244|PDB:1NQ3}.
+FT   TURN         68     70       {ECO:0000244|PDB:1NQ3}.
+FT   HELIX        73     75       {ECO:0000244|PDB:1NQ3}.
+FT   STRAND       76     84       {ECO:0000244|PDB:1NQ3}.
+FT   HELIX        86     88       {ECO:0000244|PDB:1NQ3}.
+FT   HELIX        89     96       {ECO:0000244|PDB:1NQ3}.
+FT   HELIX        97     99       {ECO:0000244|PDB:1NQ3}.
+FT   STRAND      106    111       {ECO:0000244|PDB:1NQ3}.
+FT   HELIX       116    118       {ECO:0000244|PDB:1NQ3}.
+FT   STRAND      120    128       {ECO:0000244|PDB:1NQ3}.
+FT   STRAND      132    134       {ECO:0000244|PDB:1NQ3}.
+SQ   SEQUENCE   137 AA;  14298 MW;  DB59199B51EDABA0 CRC64;
+     MSSLVRRIIS TAKAPAAIGP YSQAVLVDRT IYISGQLGMD PASGQLVPGG VVEEAKQALT
+     NIGEILKAAG CDFTNVVKAT VLLADINDFS AVNDVYKQYF QSSFPARAAY QVAALPKGGR
+     VEIEAIAVQG PLTTASL
+//

@@ -1,0 +1,149 @@
+ID   WALK_STAAU              Reviewed;         415 AA.
+AC   Q9RDT3;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   07-JAN-2015, entry version 92.
+DE   RecName: Full=Sensor protein kinase WalK;
+DE            EC=2.7.13.3;
+DE   Flags: Fragment;
+GN   Name=walK; Synonyms=vicK, yycG;
+OS   Staphylococcus aureus.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=1280;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=12379689; DOI=10.1128/IAI.70.11.6121-6128.2002;
+RA   Wagner C., de Saizieu A., Schoenfeld H.-J., Kamber M., Lange R.,
+RA   Thompson C.J., Page M.G.;
+RT   "Genetic analysis and functional characterization of the Streptococcus
+RT   pneumoniae vic operon.";
+RL   Infect. Immun. 70:6121-6128(2002).
+RN   [2]
+RP   BIOPHYSICOCHEMICAL PROPERTIES, COFACTOR, AND AUTOPHOSPHORYLATION.
+RC   STRAIN=WCUH29 / NCIMB 40771;
+RX   PubMed=12867749; DOI=10.1159/000071077;
+RA   Clausen V.A., Bae W., Throup J., Burnham M.K.R., Rosenberg M.,
+RA   Wallis N.G.;
+RT   "Biochemical characterization of the first essential two-component
+RT   signal transduction system from Staphylococcus aureus and
+RT   Streptococcus pneumoniae.";
+RL   J. Mol. Microbiol. Biotechnol. 5:252-260(2003).
+RN   [3]
+RP   OVEREXPRESSION.
+RC   STRAIN=SA137/93A;
+RX   PubMed=17418637; DOI=10.1016/j.ijmm.2007.02.002;
+RA   Jansen A., Tuerck M., Szekat C., Nagel M., Clever I., Bierbaum G.;
+RT   "Role of insertion elements and yycFG in the development of decreased
+RT   susceptibility to vancomycin in Staphylococcus aureus.";
+RL   Int. J. Med. Microbiol. 297:205-215(2007).
+CC   -!- FUNCTION: Member of the two-component regulatory system WalK/WalR
+CC       that regulates genes involved in autolysis, biofilm formation and
+CC       cell wall metabolism. WalK functions as a sensor protein kinase
+CC       which is autophosphorylated at a histidine residue and transfers
+CC       its phosphate group to WalR (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938;
+CC         Evidence={ECO:0000269|PubMed:12867749};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=130 uM for ATP {ECO:0000269|PubMed:12867749};
+CC         Note=Kinetic parameters were determined with a truncated form of
+CC         WalK, which includes only the cytoplasmic domain and not the
+CC         sensor domain and the transmembrane region.;
+CC       pH dependence:
+CC         Optimum pH is 8.5. {ECO:0000269|PubMed:12867749};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- PTM: Autophosphorylated.
+CC   -!- MISCELLANEOUS: Overexpression of walK/walR reduces susceptibility
+CC       against vancomycin.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -!- SIMILARITY: Contains 1 PAC (PAS-associated C-terminal) domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00141}.
+CC   -!- SIMILARITY: Contains 1 PAS (PER-ARNT-SIM) domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00140}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ012052; CAB65401.1; -; Genomic_DNA.
+DR   PDB; 4MN5; X-ray; 2.00 A; A/B=58-183.
+DR   PDB; 4MN6; X-ray; 2.10 A; A/B=73-177.
+DR   PDBsum; 4MN5; -.
+DR   PDBsum; 4MN6; -.
+DR   ProteinModelPortal; Q9RDT3; -.
+DR   eggNOG; COG5002; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR000700; PAS-assoc_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   Pfam; PF13426; PAS_9; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55785; SSF55785; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   TIGRFAMs; TIGR00229; sensory_box; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+DR   PROSITE; PS50113; PAC; 1.
+DR   PROSITE; PS50112; PAS; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cell membrane; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Transferase; Transmembrane;
+KW   Two-component regulatory system.
+FT   CHAIN        <1    415       Sensor protein kinase WalK.
+FT                                /FTId=PRO_0000353050.
+FT   DOMAIN       11     63       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN       68    138       PAS. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00140}.
+FT   DOMAIN      121    185       PAC. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00141}.
+FT   DOMAIN      189    407       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     192    192       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+FT   NON_TER       1      1
+FT   STRAND       82     86       {ECO:0000244|PDB:4MN5}.
+FT   STRAND       91     95       {ECO:0000244|PDB:4MN5}.
+FT   HELIX        97    103       {ECO:0000244|PDB:4MN5}.
+FT   HELIX       107    109       {ECO:0000244|PDB:4MN5}.
+FT   TURN        110    112       {ECO:0000244|PDB:4MN5}.
+FT   HELIX       115    118       {ECO:0000244|PDB:4MN5}.
+FT   TURN        122    124       {ECO:0000244|PDB:4MN5}.
+FT   HELIX       127    129       {ECO:0000244|PDB:4MN5}.
+FT   TURN        130    132       {ECO:0000244|PDB:4MN5}.
+FT   STRAND      137    140       {ECO:0000244|PDB:4MN5}.
+FT   STRAND      148    157       {ECO:0000244|PDB:4MN5}.
+FT   STRAND      163    172       {ECO:0000244|PDB:4MN5}.
+SQ   SEQUENCE   415 AA;  47818 MW;  8900B32BD63BFC4B CRC64;
+     CTVILGFFIA RTITKPITDM RNQTVEMSRG NYTQRVKIYG NDEIGELALA FNNLSKRVQE
+     AQANTESEKR RLDSVITHMS DGIIATDRRG RIRIVNDMAL KMLGMAKEDI IGYYMLSVLS
+     LEDEFKLEEI QENNDSFLLD LNEEEGLIAR VNFSTIVQET GFVTGYIAVL HDVTEQQQVE
+     RERREFVANV SHELRTPLTS MNSYIEALEE GAWKDEELAP QFLSVTREET ERMIRLVNDL
+     LQLSKMDNES DQINKEIIDF NMFINKIINR HEMSAKDTTF IRDIPKKTIF TEFDPDKMTQ
+     VFDNVITNAM KYSRGDKRVE FHVKQNPLYN RMTIRIKDNG IGIPINKVDK IFDRFYRVDK
+     ARTRKMGGTG LGLAISKEIV EAHNGRIWAN SVEGQGTSIF ITLPCEVIED GDWDE
+//

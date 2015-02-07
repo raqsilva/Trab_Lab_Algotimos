@@ -1,0 +1,92 @@
+ID   PECS_DICD3              Reviewed;         166 AA.
+AC   P42195; E0SMI1;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   30-NOV-2010, sequence version 2.
+DT   07-JAN-2015, entry version 78.
+DE   RecName: Full=HTH-type transcriptional regulator PecS;
+GN   Name=pecS; OrderedLocusNames=Dda3937_00976;
+OS   Dickeya dadantii (strain 3937) (Erwinia chrysanthemi (strain 3937)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Dickeya.
+OX   NCBI_TaxID=198628;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=3937;
+RX   PubMed=8022282; DOI=10.1111/j.1365-2958.1994.tb00389.x;
+RA   Reverchon S., Nasser W., Robert-Baudouy J.;
+RT   "pecS: a locus controlling pectinase, cellulase and blue pigment
+RT   production in Erwinia chrysanthemi.";
+RL   Mol. Microbiol. 11:1127-1139(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=3937;
+RX   PubMed=21217001; DOI=10.1128/JB.01513-10;
+RA   Glasner J.D., Yang C.H., Reverchon S., Hugouvieux-Cotte-Pattat N.,
+RA   Condemine G., Bohin J.P., Van Gijsegem F., Yang S., Franza T.,
+RA   Expert D., Plunkett G. III, San Francisco M.J., Charkowski A.O.,
+RA   Py B., Bell K., Rauscher L., Rodriguez-Palenzuela P., Toussaint A.,
+RA   Holeva M.C., He S.Y., Douet V., Boccara M., Blanco C., Toth I.,
+RA   Anderson B.D., Biehl B.S., Mau B., Flynn S.M., Barras F.,
+RA   Lindeberg M., Birch P.R., Tsuyumu S., Shi X., Hibbing M., Yap M.N.,
+RA   Carpentier M., Dassa E., Umehara M., Kim J.F., Rusch M., Soni P.,
+RA   Mayhew G.F., Fouts D.E., Gill S.R., Blattner F.R., Keen N.T.,
+RA   Perna N.T.;
+RT   "Genome sequence of the plant-pathogenic bacterium Dickeya dadantii
+RT   3937.";
+RL   J. Bacteriol. 193:2076-2077(2011).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=9194707; DOI=10.1046/j.1365-2958.1997.3901755.x;
+RA   Praillet T., Reverchon S., Nasser W.;
+RT   "Mutual control of the PecS/PecM couple, two proteins regulating
+RT   virulence-factor synthesis in Erwinia chrysanthemi.";
+RL   Mol. Microbiol. 24:803-814(1997).
+CC   -!- FUNCTION: Negative regulator of pectinase, cellulase, blue pigment
+CC       production and virulence genes. Also binds to promoter sites in
+CC       the pecS-pecM intergenic region and negatively autoregulate its
+CC       expression as well as that of pecM. {ECO:0000269|PubMed:9194707}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Contains 1 HTH marR-type DNA-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00345}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X74409; CAA52427.1; -; Genomic_DNA.
+DR   EMBL; CP002038; ADN00620.1; -; Genomic_DNA.
+DR   PIR; S35973; S35973.
+DR   ProteinModelPortal; P42195; -.
+DR   EnsemblBacteria; ADN00620; ADN00620; Dda3937_00976.
+DR   KEGG; ddd:Dda3937_00976; -.
+DR   PATRIC; 42321196; VBIDicDad25310_4371.
+DR   HOGENOM; HOG000221447; -.
+DR   OMA; HTMVTTG; -.
+DR   BioCyc; DDAD198628:GHFQ-4535-MONOMER; -.
+DR   Proteomes; UP000006859; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR000835; HTH_MarR-typ.
+DR   InterPro; IPR023187; Tscrpt_reg_MarR-type_CS.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF01047; MarR; 1.
+DR   PRINTS; PR00598; HTHMARR.
+DR   SMART; SM00347; HTH_MARR; 1.
+DR   PROSITE; PS01117; HTH_MARR_1; 1.
+DR   PROSITE; PS50995; HTH_MARR_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; DNA-binding; Reference proteome;
+KW   Repressor; Transcription; Transcription regulation.
+FT   CHAIN         1    166       HTH-type transcriptional regulator PecS.
+FT                                /FTId=PRO_0000054377.
+FT   DOMAIN       25    160       HTH marR-type. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00345}.
+FT   CONFLICT     72     72       I -> Y (in Ref. 1; CAA52427).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   166 AA;  19235 MW;  F743E5460D614008 CRC64;
+     MARYLEVSDI VQQWRNERPD LDVEPMLVIG TLSRVSLLID RALDKVFSKY KLSAREFDIL
+     ATLRRRGAPY AISPSQIVNA LMINNSTLTS RLDRLEQAGW LRRMPIEGDR RSVNIQLTDE
+     GFALINRVVE EHVENERDIL SPFSEEEKTH LRALLGRVEK HLVNNR
+//

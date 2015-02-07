@@ -1,0 +1,91 @@
+ID   QUED_HAEIN              Reviewed;         141 AA.
+AC   P44123;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-JAN-2015, entry version 93.
+DE   RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase;
+DE            Short=CPH4 synthase;
+DE            EC=4.1.2.50;
+DE   AltName: Full=Queuosine biosynthesis protein QueD;
+GN   Name=queD; OrderedLocusNames=HI_1190;
+OS   Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=71421;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=7542800; DOI=10.1126/science.7542800;
+RA   Fleischmann R.D., Adams M.D., White O., Clayton R.A., Kirkness E.F.,
+RA   Kerlavage A.R., Bult C.J., Tomb J.-F., Dougherty B.A., Merrick J.M.,
+RA   McKenney K., Sutton G.G., FitzHugh W., Fields C.A., Gocayne J.D.,
+RA   Scott J.D., Shirley R., Liu L.-I., Glodek A., Kelley J.M.,
+RA   Weidman J.F., Phillips C.A., Spriggs T., Hedblom E., Cotton M.D.,
+RA   Utterback T.R., Hanna M.C., Nguyen D.T., Saudek D.M., Brandon R.C.,
+RA   Fine L.D., Fritchman J.L., Fuhrmann J.L., Geoghagen N.S.M.,
+RA   Gnehm C.L., McDonald L.A., Small K.V., Fraser C.M., Smith H.O.,
+RA   Venter J.C.;
+RT   "Whole-genome random sequencing and assembly of Haemophilus influenzae
+RT   Rd.";
+RL   Science 269:496-512(1995).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin
+CC       triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4)
+CC       and acetaldehyde. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate + H(2)O =
+CC       6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PTPS family. QueD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L42023; AAC22843.1; -; Genomic_DNA.
+DR   PIR; F64021; F64021.
+DR   RefSeq; NP_439346.1; NC_000907.1.
+DR   ProteinModelPortal; P44123; -.
+DR   STRING; 71421.HI1190; -.
+DR   EnsemblBacteria; AAC22843; AAC22843; HI_1190.
+DR   GeneID; 950142; -.
+DR   KEGG; hin:HI1190; -.
+DR   PATRIC; 20191059; VBIHaeInf48452_1242.
+DR   eggNOG; COG0720; -.
+DR   KO; K01737; -.
+DR   OMA; ENMVYWI; -.
+DR   OrthoDB; EOG6FFSCJ; -.
+DR   PhylomeDB; P44123; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000579; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+DR   PIRSF; PIRSF006113; PTP_synth; 1.
+DR   TIGRFAMs; TIGR00039; 6PTHBS; 1.
+DR   TIGRFAMs; TIGR03367; queuosine_QueD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Queuosine biosynthesis;
+KW   Reference proteome; Zinc.
+FT   CHAIN         1    141       6-carboxy-5,6,7,8-tetrahydropterin
+FT                                synthase.
+FT                                /FTId=PRO_0000057925.
+FT   ACT_SITE     23     23       Proton acceptor. {ECO:0000250}.
+FT   ACT_SITE     71     71       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    131    131       Charge relay system. {ECO:0000250}.
+FT   METAL        14     14       Zinc. {ECO:0000250}.
+FT   METAL        27     27       Zinc. {ECO:0000250}.
+FT   METAL        29     29       Zinc. {ECO:0000250}.
+SQ   SEQUENCE   141 AA;  16322 MW;  6843517DEA5A7C3E CRC64;
+     MFKISKEFSF DMAHLLDGHD GKCQNLHGHT YKLQVEISGD LYKSGAKKAM VIDFSDLKSI
+     VKKVILDPMD HAFIYDQTNE RESQIATLLQ KLNSKTFGVP FRTTAEEIAR FIFNRLKHDE
+     QLSISSIRLW ETPTSFCEYQ E
+//

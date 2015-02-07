@@ -1,0 +1,106 @@
+ID   PILQ_NEIMA              Reviewed;         761 AA.
+AC   Q9JVW4; A1IQ85;
+DT   29-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   07-JAN-2015, entry version 80.
+DE   RecName: Full=Type IV pilus biogenesis and competence protein PilQ;
+DE   Flags: Precursor;
+GN   Name=pilQ; OrderedLocusNames=NMA0650;
+OS   Neisseria meningitidis serogroup A / serotype 4A (strain Z2491).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=122587;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Z2491;
+RX   PubMed=10761919; DOI=10.1038/35006655;
+RA   Parkhill J., Achtman M., James K.D., Bentley S.D., Churcher C.M.,
+RA   Klee S.R., Morelli G., Basham D., Brown D., Chillingworth T.,
+RA   Davies R.M., Davis P., Devlin K., Feltwell T., Hamlin N., Holroyd S.,
+RA   Jagels K., Leather S., Moule S., Mungall K.L., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., Simmonds M., Skelton J.,
+RA   Whitehead S., Spratt B.G., Barrell B.G.;
+RT   "Complete DNA sequence of a serogroup A strain of Neisseria
+RT   meningitidis Z2491.";
+RL   Nature 404:502-506(2000).
+CC   -!- FUNCTION: Required for type IV pilus biogenesis and competence.
+CC       Could function as a pore for exit of the pilus but also as a
+CC       channel for entry of heme and antimicrobial agents and uptake of
+CC       transforming DNA (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homododecamer. Tetramer of trimer (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL157959; CAM07913.1; -; Genomic_DNA.
+DR   PIR; A81985; A81985.
+DR   RefSeq; YP_002342117.1; NC_003116.1.
+DR   PDB; 4AR0; NMR; -; A=335-434.
+DR   PDBsum; 4AR0; -.
+DR   STRING; 122587.NMA0650; -.
+DR   EnsemblBacteria; CAM07913; CAM07913; NMA0650.
+DR   GeneID; 906644; -.
+DR   KEGG; nma:NMA0650; -.
+DR   PATRIC; 20362126; VBINeiMen132687_0779.
+DR   eggNOG; COG4796; -.
+DR   HOGENOM; HOG000255072; -.
+DR   KO; K02666; -.
+DR   OMA; DIQEQGG; -.
+DR   OrthoDB; EOG6423BN; -.
+DR   BioCyc; NMEN122587:GI3Q-610-MONOMER; -.
+DR   Proteomes; UP000000626; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0030420; P:establishment of competence for transformation; IEA:UniProtKB-KW.
+DR   GO; GO:0009297; P:pilus assembly; IEA:InterPro.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   InterPro; IPR021731; AMIN_dom.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR013355; Pilus_4_PilQ.
+DR   InterPro; IPR011662; Secretin/TonB_short_N.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF11741; AMIN; 1.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 1.
+DR   Pfam; PF07660; STN; 1.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   SMART; SM00965; STN; 1.
+DR   TIGRFAMs; TIGR02515; IV_pilus_PilQ; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell outer membrane; Competence; Complete proteome;
+KW   Membrane; Protein transport; Signal; Transport.
+FT   SIGNAL        1     24       {ECO:0000255}.
+FT   CHAIN        25    761       Type IV pilus biogenesis and competence
+FT                                protein PilQ.
+FT                                /FTId=PRO_0000013116.
+FT   STRAND      339    348       {ECO:0000244|PDB:4AR0}.
+FT   HELIX       349    358       {ECO:0000244|PDB:4AR0}.
+FT   STRAND      363    366       {ECO:0000244|PDB:4AR0}.
+FT   STRAND      373    382       {ECO:0000244|PDB:4AR0}.
+FT   HELIX       383    393       {ECO:0000244|PDB:4AR0}.
+FT   STRAND      396    401       {ECO:0000244|PDB:4AR0}.
+FT   STRAND      404    409       {ECO:0000244|PDB:4AR0}.
+FT   HELIX       410    418       {ECO:0000244|PDB:4AR0}.
+FT   STRAND      425    427       {ECO:0000244|PDB:4AR0}.
+SQ   SEQUENCE   761 AA;  81786 MW;  F551769291E07BD5 CRC64;
+     MNTKLTKIIS GLFVATAAFQ TASAGNITDI KVSSLPNKQK IVKVSFDKEI VNPTGFVTSS
+     PARIALDFEQ TGISMDQQVL EYADPLLSKI SAAQNSSRAR LVLNLNKPGQ YNTEVRGNKV
+     WIFINESDDT VSAPARPAVK AAPAAPAKQQ AAAPSTKSAV SVSKPFTPAK QQAAAPFTES
+     VVSVSAPFSP AKQQAAASAK QQTAAPAKQQ AATPAKQTNI DFRKDGKNAG IIELAALGFA
+     GQPDISQQHD HIIVTLKNHT LPTTLQRSLD VADFKTPVQK VTLKRLNNDT QLIITTAGNW
+     ELVNKSAAPG YFTFQVLPKK QNLESGGVNN APKTFTGRKI SLDFQDVEIR TILQILAKES
+     GMNIVASDSV NGKMTLSLKD VPWDQALDLV MQARNLDMRQ QGNIVNIAPR DELLAKDKAF
+     LQAEKDIADL GALYSQNFQL KYKNVEEFRS ILRLDNADTT GNRNTLVSGR GSVLIDPATN
+     TLIVTDTRSV IEKFRKLIDE LDVPAQQVMI EARIVEAADG FSRDLGVKFG ATGKKKLKND
+     TSAFGWGVNS GFGGDDKWGA ETKINLPITA AANSISLVRA ISSGALNLEL SASESLSKTK
+     TLANPRVLTQ NRKEAKIESG YEIPFTVTSI ANGGSSTNTE LKKAVLGLTV TPNITPDGQI
+     IMTVKINKDS PAQCASGNQT ILCISTKNLN TQAMVENGGT LIVGGIYEED NGNTLTKVPL
+     LGDIPVIGNL FKTRGKKTDR RELLIFITPR IMGTAGNSLR Y
+//

@@ -1,0 +1,76 @@
+ID   CYSA_BURCE              Reviewed;         264 AA.
+AC   Q93DX8;
+DT   22-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA {ECO:0000255|HAMAP-Rule:MF_01701};
+DE            EC=3.6.3.25 {ECO:0000255|HAMAP-Rule:MF_01701};
+DE   AltName: Full=Sulfate-transporting ATPase {ECO:0000255|HAMAP-Rule:MF_01701};
+DE   Flags: Fragment;
+GN   Name=cysA {ECO:0000255|HAMAP-Rule:MF_01701};
+OS   Burkholderia cepacia (Pseudomonas cepacia).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; Burkholderia cepacia complex.
+OX   NCBI_TaxID=292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=14702294; DOI=10.1128/JB.186.2.270-277.2004;
+RA   Farmer K.L., Thomas M.S.;
+RT   "Isolation and characterization of Burkholderia cenocepacia mutants
+RT   deficient in pyochelin production: pyochelin biosynthesis is sensitive
+RT   to sulfur availability.";
+RL   J. Bacteriol. 186:270-277(2004).
+CC   -!- FUNCTION: Part of the ABC transporter complex CysAWTP involved in
+CC       sulfate/thiosulfate import. Responsible for energy coupling to the
+CC       transport system. {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O + sulfate(Out) = ADP + phosphate +
+CC       sulfate(In). {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (CysA), two transmembrane proteins (CysT and CysW) and a solute-
+CC       binding protein (CysP). {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01701}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01701}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       Sulfate/tungstate importer (TC 3.A.1.6) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01701}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF374458; AAL13241.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q93DX8; -.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015419; F:sulfate transmembrane-transporting ATPase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005666; Sulph_transpt1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00968; 3a0106s01; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Hydrolase; Membrane;
+KW   Nucleotide-binding; Sulfate transport; Transport.
+FT   CHAIN         1   >264       Sulfate/thiosulfate import ATP-binding
+FT                                protein CysA.
+FT                                /FTId=PRO_0000092259.
+FT   DOMAIN        3    237       ABC transporter. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01701}.
+FT   NP_BIND      35     42       ATP. {ECO:0000255|HAMAP-Rule:MF_01701}.
+FT   NON_TER     264    264
+SQ   SEQUENCE   264 AA;  29138 MW;  95FCB1084BF637FE CRC64;
+     MGITVRNLQK RFGDFTALDN VSLDFPPGEL VALLGPSGCG KTTLLRVIAG LEHADAGQVV
+     LQGLDVASVG ARDRQVGFVF QHYALFRHMT VFENVAFGLR VKPRRERPSE AAIREKVHEL
+     LKLVQLDWLA QRYPSELSGG QRQRIALARA LAVEPKVLLL DEPFGALDAK VRKELRGWLR
+     RLHDDLHIST IFVTHDQEEA LEVADRIVVL NRGHVEQVGS PQDVYDHPQS AFVYEFLGAA
+     NRLPGTVAGR GFVAEGAAAP TEVD
+//

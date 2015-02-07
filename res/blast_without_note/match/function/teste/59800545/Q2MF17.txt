@@ -1,0 +1,95 @@
+ID   GLDSA_STRSD             Reviewed;         424 AA.
+AC   Q2MF17; Q70IY2;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   21-FEB-2006, sequence version 1.
+DT   26-NOV-2014, entry version 29.
+DE   RecName: Full=L-glutamine:2-deoxy-scyllo-inosose aminotransferase;
+DE            Short=L-glutamine:DOI aminotransferase;
+DE            EC=2.6.1.100;
+GN   Name=tbmB; Synonyms=tobS1;
+OS   Streptoalloteichus tenebrarius (strain ATCC 17920 / DSM 40477 / NCIB
+OS   11028) (Streptomyces tenebrarius).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Pseudonocardineae; Pseudonocardiaceae; Streptoalloteichus.
+OX   NCBI_TaxID=1933;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=14757238; DOI=10.1016/S0378-1097(03)00881-4;
+RA   Kharel M.K., Basnet D.B., Lee H.C., Liou K., Woo J.S., Kim B.-G.,
+RA   Sohng J.K.;
+RT   "Isolation and characterization of the tobramycin biosynthetic gene
+RT   cluster from Streptomyces tenebrarius.";
+RL   FEMS Microbiol. Lett. 230:185-190(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Aboshanab K.M.A., Schmidt-Beissner H., Wehmeier U.F., Welzel K.,
+RA   Vente A., Piepersberg W.;
+RT   "Comparison of the gene clusters for the biosynthesis of the
+RT   aminoglycoside antibiotics tobramycin-apramycin (Streptomyces
+RT   tenebrarius DSM 40477), and hygromycin B (Streptomyces hygroscopicus
+RT   subsp. hygroscopicus DSM 40578).";
+RL   Submitted (AUG-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=15582417; DOI=10.1016/j.bmcl.2004.10.028;
+RA   Kharel M.K., Subba B., Lee H.C., Liou K., Sohng J.K.;
+RT   "Characterization of L-glutamine:2-deoxy-scyllo-inosose
+RT   aminotransferase (tbmB) from Streptomyces tenebrarius.";
+RL   Bioorg. Med. Chem. Lett. 15:89-92(2005).
+CC   -!- FUNCTION: Catalyzes the PLP-dependent transamination of 2-deoxy-
+CC       scyllo-inosose (DOI) to form 2-deoxy-scyllo-inosamine (DOIA) using
+CC       L-glutamine as the amino donor. Is also able to catalyze the
+CC       transamination of scyllo-inosose to form scyllo-inosamine,
+CC       although this reaction may be not physiological.
+CC       {ECO:0000269|PubMed:15582417}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamine + 2-deoxy-scyllo-inosose = 2-
+CC       oxoglutaramate + 2-deoxy-scyllo-inosamine.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 2-deoxystreptamine
+CC       biosynthesis; 2-deoxystreptamine from D-glucose 6-phosphate: step
+CC       2/4.
+CC   -!- PATHWAY: Antibiotic biosynthesis; tobramycin biosynthesis.
+CC   -!- SIMILARITY: Belongs to the DegT/DnrJ/EryC1 family. L-glutamine:2-
+CC       deoxy-scyllo-inosose/scyllo-inosose aminotransferase subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ579650; CAE22472.1; -; Genomic_RNA.
+DR   EMBL; AJ810851; CAH18555.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q2MF17; -.
+DR   UniPathway; UPA00907; UER00922.
+DR   UniPathway; UPA00971; -.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Antibiotic biosynthesis; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN         1    424       L-glutamine:2-deoxy-scyllo-inosose
+FT                                aminotransferase.
+FT                                /FTId=PRO_0000233023.
+FT   MOD_RES     202    202       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   424 AA;  45593 MW;  62FE7F245C2AE508 CRC64;
+     MPVHLAINNG TPVRTRPWPV WPQPARGALD ALERVLRSGR WAISGPYRGI ESAERRFARD
+     FAAYNGVAHC VPAASGTASL MLALESCGVG VGDEVIAPGL SWVASASTIV GVNAVPVLVD
+     IDPRTLCLDP AAVEAAITPA TKAVVVVHLY SAVADLDALR AVADRHGLPL IEDCAQAHGA
+     EHRGRKVGSV GDVGTFSMQH SKVLTSGEGG AAITNSAELA RRMEHLRADG RCYPDTAPAP
+     GRMELVETGE LMGSNRCLSE FQAAVLVEQL RELDEQNALR RRNAELLNTL LAEQGLRPQA
+     TSPGTTSRTY YVYAAELPDD AFVGLPITTV TEALTAELGF PISPAYAPLH TNRLYAPASR
+     RRFALGEEHE KRIDPARFHL PVCERLTRRL ITFHHAALLG DESDMHDIAA AVAKVLRHHG
+     ELRA
+//

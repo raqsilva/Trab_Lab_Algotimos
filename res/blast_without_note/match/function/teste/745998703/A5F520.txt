@@ -1,0 +1,104 @@
+ID   DMA_VIBC3               Reviewed;         277 AA.
+AC   A5F520; C3LXM4; Q08318; Q9KNV4;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   07-JAN-2015, entry version 56.
+DE   RecName: Full=DNA adenine methylase;
+DE            EC=2.1.1.72;
+DE   AltName: Full=DNA adenine methyltransferase;
+DE   AltName: Full=Deoxyadenosyl-methyltransferase;
+DE   AltName: Full=M.VchADam;
+GN   Name=dam; OrderedLocusNames=VC0395_A2203, VC395_2739;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 /
+OS   O395).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=345073;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=11705940; DOI=10.1128/IAI.69.12.7610-7615.2001;
+RA   Julio S.M., Heithoff D.M., Provenzano D., Klose K.E., Sinsheimer R.L.,
+RA   Low D.A., Mahan M.J.;
+RT   "DNA adenine methylase is essential for viability and plays a role in
+RT   the pathogenesis of Yersinia pseudotuberculosis and Vibrio cholerae.";
+RL   Infect. Immun. 69:7610-7615(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39541 / Classical Ogawa 395 / O395;
+RA   Heidelberg J.;
+RL   Submitted (MAR-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39541 / Classical Ogawa 395 / O395;
+RX   PubMed=19115014; DOI=10.1371/journal.pone.0004053;
+RA   Feng L., Reeves P.R., Lan R., Ren Y., Gao C., Zhou Z., Ren Y.,
+RA   Cheng J., Wang W., Wang J., Qian W., Li D., Wang L.;
+RT   "A recalibrated molecular clock and independent origins for the
+RT   cholera pandemic clones.";
+RL   PLoS ONE 3:E4053-E4053(2008).
+CC   -!- FUNCTION: Methylates DNA within the sequence GATC. Directly
+CC       involved in methyl-directed DNA mismatch repair (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + DNA adenine = S-
+CC       adenosyl-L-homocysteine + DNA 6-methylaminopurine.
+CC   -!- SIMILARITY: Belongs to the N(4)/N(6)-methyltransferase family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF274317; AAG23174.1; -; Genomic_DNA.
+DR   EMBL; CP000627; ABQ21457.1; -; Genomic_DNA.
+DR   EMBL; CP001235; ACP10724.1; -; Genomic_DNA.
+DR   RefSeq; WP_000744680.1; NC_012582.1.
+DR   RefSeq; YP_001218119.1; NC_009457.1.
+DR   RefSeq; YP_002820960.1; NC_012582.1.
+DR   ProteinModelPortal; A5F520; -.
+DR   SMR; A5F520; 3-271.
+DR   STRING; 345073.VC0395_A2203; -.
+DR   REBASE; 15105; M.VchO395ADamP.
+DR   EnsemblBacteria; ABQ21457; ABQ21457; VC0395_A2203.
+DR   EnsemblBacteria; ACP10724; ACP10724; VC395_2739.
+DR   GeneID; 5136322; -.
+DR   GeneID; 7776466; -.
+DR   KEGG; vco:VC0395_A2203; -.
+DR   KEGG; vcr:VC395_2739; -.
+DR   eggNOG; COG0338; -.
+DR   HOGENOM; HOG000281348; -.
+DR   KO; K06223; -.
+DR   OMA; MNRHGFN; -.
+DR   Proteomes; UP000000249; Chromosome 2.
+DR   Proteomes; UP000001630; Chromosome I.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0009007; F:site-specific DNA-methyltransferase (adenine-specific) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.1020.10; -; 1.
+DR   Gene3D; 3.40.50.150; -; 2.
+DR   InterPro; IPR023095; Ade_MeTrfase_dom_2.
+DR   InterPro; IPR002052; DNA_methylase_N6_adenine_CS.
+DR   InterPro; IPR012263; M_m6A_EcoRV.
+DR   InterPro; IPR012327; MeTrfase_D12.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF02086; MethyltransfD12; 1.
+DR   PIRSF; PIRSF000398; M_m6A_EcoRV; 1.
+DR   PRINTS; PR00505; D12N6MTFRASE.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00571; dam; 1.
+DR   PROSITE; PS00092; N6_MTASE; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA replication; Methyltransferase;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN         1    277       DNA adenine methylase.
+FT                                /FTId=PRO_0000324810.
+FT   BINDING      10     10       S-adenosyl-L-methionine. {ECO:0000250}.
+FT   BINDING      14     14       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000250}.
+FT   BINDING      54     54       S-adenosyl-L-methionine. {ECO:0000250}.
+FT   BINDING     181    181       S-adenosyl-L-methionine. {ECO:0000250}.
+SQ   SEQUENCE   277 AA;  31624 MW;  48D831240F9E7C60 CRC64;
+     MKKQRAFLKW AGGKYSLVED IQRHLPEARE LVEPFVGAGS VFLNTDFERY LLADINPDLI
+     NFYNLLKTEP QAYIHEAKRW FVPENNRKEV YLDIRKQFNQ SDDAMFRSLA FLYMNRFGFN
+     GLCRYNKKGG FNVPFGSYKK PYFPEQELEF FAEKAQRATF ICASYGETFA RAQSDSVIYC
+     DPPYAPLSTT ANFTSYAGNG FTLDDQAALA DIAEKTAKER GISVLISNHD TTHTRRLYRG
+     AQLNVVKANR TISRNGAGRN KVDELLALFT PHLSSQA
+//

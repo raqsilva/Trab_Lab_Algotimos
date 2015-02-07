@@ -1,0 +1,103 @@
+ID   FBPB_SERMA              Reviewed;         527 AA.
+AC   P21409;
+DT   01-MAY-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 2.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=Fe(3+)-transport system permease protein SfuB;
+DE   AltName: Full=Iron(III)-transport system permease protein SfuB;
+GN   Name=fbpB; Synonyms=sfuB;
+OS   Serratia marcescens.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Serratia.
+OX   NCBI_TaxID=615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2404942;
+RA   Angerer A., Gaisser S., Braun V.;
+RT   "Nucleotide sequences of the sfuA, sfuB, and sfuC genes of Serratia
+RT   marcescens suggest a periplasmic-binding-protein-dependent iron
+RT   transport mechanism.";
+RL   J. Bacteriol. 172:572-578(1990).
+CC   -!- FUNCTION: Part of the ABC transporter complex FbpABC
+CC       (TC 3.A.1.10.1) involved in Fe(3+) ions import. Probably
+CC       responsible for the translocation of the substrate across the
+CC       membrane (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (FbpC), two transmembrane proteins (FbpB) and a solute-binding
+CC       protein (FbpA). {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Multi-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport
+CC       system permease family. FbpB subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 ABC transmembrane type-1 domains.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M33815; AAA26574.1; -; Genomic_DNA.
+DR   PIR; B35108; QRSEUB.
+DR   ProteinModelPortal; P21409; -.
+DR   TCDB; 3.A.1.10.1; the atp-binding cassette (abc) superfamily.
+DR   BioCyc; RETL1328306-WGS:GSTH-4150-MONOMER; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.3720.10; -; 2.
+DR   InterPro; IPR000515; MetI-like.
+DR   Pfam; PF00528; BPD_transp_1; 2.
+DR   SUPFAM; SSF161098; SSF161098; 2.
+DR   PROSITE; PS50928; ABC_TM1; 2.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Ion transport; Iron;
+KW   Iron transport; Membrane; Repeat; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN         1    527       Fe(3+)-transport system permease protein
+FT                                SfuB.
+FT                                /FTId=PRO_0000060019.
+FT   TRANSMEM     27     47       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM     75     95       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    107    127       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    139    159       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    191    211       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    236    256       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    284    304       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    333    353       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    368    388       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    396    416       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    449    469       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    497    517       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   REPEAT       10     15       Type-1; approximate.
+FT   REPEAT       66     70       Type-2; approximate.
+FT   DOMAIN       71    254       ABC transmembrane type-1 1.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00441}.
+FT   REPEAT      167    177       Type-3; approximate.
+FT   REPEAT      274    280       Type-1; approximate.
+FT   REPEAT      319    323       Type-2; approximate.
+FT   DOMAIN      327    517       ABC transmembrane type-1 2.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00441}.
+FT   REPEAT      428    438       Type-3; approximate.
+SQ   SEQUENCE   527 AA;  56528 MW;  6B8154D100DB0504 CRC64;
+     MSNLSTHAAQ TARRYSVVPR HPRPGAIVVV SAVLLSLLAL LPLGFVIGVA FETGWQTVKA
+     LVFRPRVAEL LLNTLLLVVL TLPICAVLGV ALAWLTERTT LPGRRLWAVL ATAPLAVPAF
+     VQSYAWISLV PSMHGLGAGV FISVLAYFPF IYLPAAAVLR RLDPGIEDVA TSLGSRPPAV
+     FFRVVLPQLK LAVCGGSLLI ALHLLAEYGL YAMIRFDTFT TAIFDQFQST FNGPAANMLA
+     GVLVLCCLGL LLLEAISRGR ARYARVGSGS ARSQTPRRLS PPLAALALLL PIALTALALG
+     VPFITLARWL WLGGFEVWRN AELWPALWQT LSLSAAGALL ITLCAIPMAW LSVRYPARLY
+     RVLEGCNYVT SSLPGIVVAL ALVTITIHSF RPIYQTEITL LLAYLLMFMP RALINLRAGI
+     AQAPVELENV ARSLGKSPAQ ALWSTTLRLA APGVAAGAAL VFLAIANELT ATLLLAPNGT
+     RTLATGFWAL TSEIDYVAAA PYALIMVALS LPLTWLLYSQ SKRTAGL
+//

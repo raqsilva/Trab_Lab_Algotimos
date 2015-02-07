@@ -1,0 +1,93 @@
+ID   LPXD_GEOSL              Reviewed;         347 AA.
+AC   Q74AT5;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   04-FEB-2015, entry version 69.
+DE   RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase {ECO:0000255|HAMAP-Rule:MF_00523};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   Name=lpxD {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   OrderedLocusNames=GSU2266;
+OS   Geobacter sulfurreducens (strain ATCC 51573 / DSM 12127 / PCA).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales;
+OC   Geobacteraceae; Geobacter.
+OX   NCBI_TaxID=243231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51573 / DSM 12127 / PCA;
+RX   PubMed=14671304; DOI=10.1126/science.1088727;
+RA   Methe B.A., Nelson K.E., Eisen J.A., Paulsen I.T., Nelson W.C.,
+RA   Heidelberg J.F., Wu D., Wu M., Ward N.L., Beanan M.J., Dodson R.J.,
+RA   Madupu R., Brinkac L.M., Daugherty S.C., DeBoy R.T., Durkin A.S.,
+RA   Gwinn M.L., Kolonay J.F., Sullivan S.A., Haft D.H., Selengut J.,
+RA   Davidsen T.M., Zafar N., White O., Tran B., Romero C., Forberger H.A.,
+RA   Weidman J.F., Khouri H.M., Feldblyum T.V., Utterback T.R.,
+RA   Van Aken S.E., Lovley D.R., Fraser C.M.;
+RT   "Genome of Geobacter sulfurreducens: metal reduction in subsurface
+RT   environments.";
+RL   Science 302:1967-1969(2003).
+CC   -!- FUNCTION: Catalyzes the N-acylation of UDP-3-O-acylglucosamine
+CC       using 3-hydroxyacyl-ACP as the acyl donor. Is involved in the
+CC       biosynthesis of lipid A, a phosphorylated glycolipid that anchors
+CC       the lipopolysaccharide to the outer membrane of the cell.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- CATALYTIC ACTIVITY: (3R)-3-hydroxyacyl-[acyl-carrier-protein] +
+CC       UDP-3-O-acyl-alpha-D-glucosamine = UDP-2,3-diacyl-alpha-D-
+CC       glucosamine + [acyl-carrier-protein]. {ECO:0000255|HAMAP-
+CC       Rule:MF_00523}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SIMILARITY: Belongs to the transferase hexapeptide repeat family.
+CC       LpxD subfamily. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017180; AAR35642.1; -; Genomic_DNA.
+DR   RefSeq; NP_953315.1; NC_002939.5.
+DR   RefSeq; WP_010942906.1; NC_002939.5.
+DR   ProteinModelPortal; Q74AT5; -.
+DR   STRING; 243231.GSU2266; -.
+DR   EnsemblBacteria; AAR35642; AAR35642; GSU2266.
+DR   GeneID; 2687471; -.
+DR   KEGG; gsu:GSU2266; -.
+DR   PATRIC; 22027387; VBIGeoSul17553_2297.
+DR   eggNOG; COG1044; -.
+DR   HOGENOM; HOG000294340; -.
+DR   InParanoid; Q74AT5; -.
+DR   KO; K02536; -.
+DR   OMA; CNTAIDR; -.
+DR   OrthoDB; EOG6JB11D; -.
+DR   BioCyc; GSUL243231:GH27-2298-MONOMER; -.
+DR   UniPathway; UPA00973; -.
+DR   Proteomes; UP000000577; Chromosome.
+DR   GO; GO:0016747; F:transferase activity, transferring acyl groups other than amino-acyl groups; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00523; LpxD; 1.
+DR   InterPro; IPR001451; Hexapep_transf.
+DR   InterPro; IPR018357; Hexapep_transf_CS.
+DR   InterPro; IPR011004; Trimer_LpxA-like.
+DR   InterPro; IPR007691; UDP-3-O_GlcNAc_AcTrfase.
+DR   InterPro; IPR020573; UDP_GlcNAc_AcTrfase_non-rep.
+DR   Pfam; PF00132; Hexapep; 4.
+DR   Pfam; PF04613; LpxD; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   TIGRFAMs; TIGR01853; lipid_A_lpxD; 1.
+DR   PROSITE; PS00101; HEXAPEP_TRANSFERASES; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Lipid A biosynthesis;
+KW   Lipid biosynthesis; Lipid metabolism; Reference proteome; Repeat;
+KW   Transferase.
+FT   CHAIN         1    347       UDP-3-O-acylglucosamine N-
+FT                                acyltransferase.
+FT                                /FTId=PRO_0000059673.
+FT   ACT_SITE    239    239       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00523}.
+SQ   SEQUENCE   347 AA;  36274 MW;  5D6702296A45E8E2 CRC64;
+     MAVSKTLQEL ADYLGGTLVG DGSRQIVGVA SLDDATDSQI TFLANPRYAP KVASTRAGAV
+     ILPPGAERHN HNAIMVPNPY LAFARLLTLF YVAPRAARGV MDGAHVGRNV KLGSEITIHP
+     GAVVGDNVTI GDRVTLHPGV VLYEGVTVGD DVTLHANVTV YQGCRIGNRV TIHGGTIIGS
+     DGFGYAPDGD GWYKIPQLGN VVIEDDVEIG ANAAIDRAAL ASTVIGKGTK VDNLVMIAHN
+     CVIGENCMIV SQVGISGSTK LGRRVTLGGQ VGVAGHLEIG DNAMIGAKSG VPGNVPSGTI
+     MSGIPAFDHR EWLRASAVVP KLPEMKRTVA ALEKRLRELE EKLESAV
+//

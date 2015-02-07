@@ -1,0 +1,101 @@
+ID   RIB7_AQUAE              Reviewed;         224 AA.
+AC   O66747;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   04-FEB-2015, entry version 71.
+DE   RecName: Full=2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase;
+DE            Short=DAROPP reductase;
+DE            Short=DARP reductase;
+DE            EC=1.1.1.302;
+DE   AltName: Full=2,5-diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one reductase;
+DE   AltName: Full=2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate synthase;
+DE            Short=DARIPP synthase;
+DE   AltName: Full=AaeRED;
+GN   Name=ribD2; OrderedLocusNames=aq_436;
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND SUBUNIT.
+RC   STRAIN=VF5;
+RX   PubMed=18671734; DOI=10.1111/j.1742-4658.2008.06586.x;
+RA   Romisch-Margl W., Eisenreich W., Haase I., Bacher A., Fischer M.;
+RT   "2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate synthases
+RT   of fungi and archaea.";
+RL   FEBS J. 275:4403-4414(2008).
+CC   -!- FUNCTION: Catalyzes an early step in riboflavin biosynthesis, the
+CC       NADPH-dependent reduction of the ribose side chain of 2,5-diamino-
+CC       6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate, yielding 2,5-
+CC       diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate.
+CC       {ECO:0000269|PubMed:18671734}.
+CC   -!- CATALYTIC ACTIVITY: 2,5-diamino-6-(5-phospho-D-
+CC       ribitylamino)pyrimidin-4(3H)-one + NAD(P)(+) = 2,5-diamino-6-(5-
+CC       phospho-D-ribosylamino)pyrimidin-4(3H)-one + NAD(P)H.
+CC       {ECO:0000269|PubMed:18671734}.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:18671734}.
+CC   -!- SIMILARITY: Belongs to the HTP reductase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000657; AAC06708.1; -; Genomic_DNA.
+DR   PIR; G70339; G70339.
+DR   RefSeq; NP_213307.1; NC_000918.1.
+DR   RefSeq; WP_010880245.1; NC_000918.1.
+DR   ProteinModelPortal; O66747; -.
+DR   STRING; 224324.aq_436; -.
+DR   EnsemblBacteria; AAC06708; AAC06708; aq_436.
+DR   GeneID; 1193073; -.
+DR   KEGG; aae:aq_436; -.
+DR   PATRIC; 20958448; VBIAquAeo85532_0360.
+DR   HOGENOM; HOG000225965; -.
+DR   InParanoid; O66747; -.
+DR   KO; K00082; -.
+DR   OMA; KPYVISN; -.
+DR   OrthoDB; EOG66F07R; -.
+DR   BioCyc; AAEO224324:GJBH-326-MONOMER; -.
+DR   UniPathway; UPA00275; -.
+DR   Proteomes; UP000000798; Chromosome.
+DR   GO; GO:0008703; F:5-amino-6-(5-phosphoribosylamino)uracil reductase activity; IEA:InterPro.
+DR   GO; GO:0050661; F:NADP binding; IDA:UniProtKB.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; IDA:UniProtKB.
+DR   GO; GO:0046983; F:protein dimerization activity; IDA:UniProtKB.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IDA:UniProtKB.
+DR   Gene3D; 3.40.430.10; -; 1.
+DR   InterPro; IPR024072; DHFR-like_dom.
+DR   InterPro; IPR006401; Rib_reduct_arc.
+DR   InterPro; IPR011549; RibD_C.
+DR   InterPro; IPR002734; RibDG_C.
+DR   Pfam; PF01872; RibD_C; 1.
+DR   SUPFAM; SSF53597; SSF53597; 1.
+DR   TIGRFAMs; TIGR01508; rib_reduct_arch; 1.
+DR   TIGRFAMs; TIGR00227; ribD_Cterm; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; NADP; Oxidoreductase; Reference proteome;
+KW   Riboflavin biosynthesis.
+FT   CHAIN         1    224       2,5-diamino-6-ribosylamino-4(3H)-
+FT                                pyrimidinone 5'-phosphate reductase.
+FT                                /FTId=PRO_0000418811.
+FT   NP_BIND      82     85       NADP. {ECO:0000250}.
+FT   NP_BIND     153    156       NADP. {ECO:0000250}.
+FT   BINDING      57     57       NADP. {ECO:0000250}.
+FT   BINDING      61     61       NADP. {ECO:0000250}.
+FT   BINDING     131    131       NADP; via amide nitrogen and carbonyl
+FT                                oxygen. {ECO:0000250}.
+SQ   SEQUENCE   224 AA;  25257 MW;  E4A21E2EA4540024 CRC64;
+     MERPYVIIVS EVSVDGKLTL YRGASSKELM SLMDEEAYKY LHEIRAKVDG IMVGCETVRT
+     DNPSLTVRYA KGKNPVRIIP CSTANVPLDA NVLNTKEAPT IIATTERAPK ERLEKIKELG
+     AEVIVVGDEL VDFDKLLPEL YRRGIKSLMV EGGASINWEF VRRRVVDEIR LIHLPVIVGG
+     ENVPTLVGGE GFKKLKNLLH LRLRSHFVRG KQLITEWEVV NKIR
+//

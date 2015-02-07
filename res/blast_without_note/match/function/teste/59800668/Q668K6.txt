@@ -1,0 +1,99 @@
+ID   CYSA_YERPS              Reviewed;         363 AA.
+AC   Q668K6;
+DT   21-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   07-JAN-2015, entry version 78.
+DE   RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA {ECO:0000255|HAMAP-Rule:MF_01701};
+DE            EC=3.6.3.25 {ECO:0000255|HAMAP-Rule:MF_01701};
+DE   AltName: Full=Sulfate-transporting ATPase {ECO:0000255|HAMAP-Rule:MF_01701};
+GN   Name=cysA {ECO:0000255|HAMAP-Rule:MF_01701};
+GN   OrderedLocusNames=YPTB2732;
+OS   Yersinia pseudotuberculosis serotype I (strain IP32953).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Yersinia.
+OX   NCBI_TaxID=273123;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IP32953;
+RX   PubMed=15358858; DOI=10.1073/pnas.0404012101;
+RA   Chain P.S.G., Carniel E., Larimer F.W., Lamerdin J., Stoutland P.O.,
+RA   Regala W.M., Georgescu A.M., Vergez L.M., Land M.L., Motin V.L.,
+RA   Brubaker R.R., Fowler J., Hinnebusch J., Marceau M., Medigue C.,
+RA   Simonet M., Chenal-Francisque V., Souza B., Dacheux D., Elliott J.M.,
+RA   Derbise A., Hauser L.J., Garcia E.;
+RT   "Insights into the evolution of Yersinia pestis through whole-genome
+RT   comparison with Yersinia pseudotuberculosis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:13826-13831(2004).
+CC   -!- FUNCTION: Part of the ABC transporter complex CysAWTP involved in
+CC       sulfate/thiosulfate import. Responsible for energy coupling to the
+CC       transport system. {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O + sulfate(Out) = ADP + phosphate +
+CC       sulfate(In). {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (CysA), two transmembrane proteins (CysT and CysW) and a solute-
+CC       binding protein (CysP). {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01701}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01701}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       Sulfate/tungstate importer (TC 3.A.1.6) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01701}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BX936398; CAH21970.1; -; Genomic_DNA.
+DR   RefSeq; YP_071241.1; NC_006155.1.
+DR   ProteinModelPortal; Q668K6; -.
+DR   STRING; 273123.YPTB2732; -.
+DR   EnsemblBacteria; CAH21970; CAH21970; YPTB2732.
+DR   GeneID; 2955398; -.
+DR   KEGG; yps:YPTB2732; -.
+DR   PATRIC; 18644557; VBIYerPse22266_3329.
+DR   eggNOG; COG1118; -.
+DR   KO; K02045; -.
+DR   OMA; IRNISKR; -.
+DR   OrthoDB; EOG6T7N3V; -.
+DR   BioCyc; YPSE273123:GI1M-2826-MONOMER; -.
+DR   Proteomes; UP000001011; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015419; F:sulfate transmembrane-transporting ATPase activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR014769; ABC_CysA_ATP-bd_C.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR008995; Mo/tungstate-bd_C_term_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005666; Sulph_transpt1.
+DR   InterPro; IPR024765; TOBE-like.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF12857; TOBE_3; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50331; SSF50331; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00968; 3a0106s01; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51237; CYSA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Hydrolase; Membrane; Nucleotide-binding; Sulfate transport; Transport.
+FT   CHAIN         1    363       Sulfate/thiosulfate import ATP-binding
+FT                                protein CysA.
+FT                                /FTId=PRO_0000092305.
+FT   DOMAIN        3    237       ABC transporter. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01701}.
+FT   NP_BIND      35     42       ATP. {ECO:0000255|HAMAP-Rule:MF_01701}.
+SQ   SEQUENCE   363 AA;  40705 MW;  A412EDA10B7AD288 CRC64;
+     MSIEINNISK YFGRTKVLND ITLDIPSGQM VALLGPSGSG KTTLLRIIAG LENQNAGRLS
+     FHGTDVSRLH ARDRRVGFVF QHYALFRHMT VFDNIAFGLT VLPRRERPNA AAIKQKVGQL
+     LEMVQLGHLA ERFPSQLSGG QKQRVALARA LAVEPQILLL DEPFGALDAQ VRKELRRWLR
+     QLHEELKFTS VFVTHDQEEA MEVADRVVVM SQGNIEQVGT PDEVWREPAT RFVLEFLGEV
+     NRLSGEIRGS QLFIGAHHWP LDLAPMHQGS VDLFLRPWEM EVSTQSSDRC PLPVQVLEVS
+     PRGHFWQLTV QPIGWHQDPI SVVLPEGNID APVRGNRYYV GGLNARLYSG NQLLQPIALA
+     QSA
+//

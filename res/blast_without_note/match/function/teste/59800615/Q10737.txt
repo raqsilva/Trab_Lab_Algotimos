@@ -1,0 +1,102 @@
+ID   AMPN_HAECO              Reviewed;         972 AA.
+AC   Q10737;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   26-NOV-2014, entry version 83.
+DE   RecName: Full=Aminopeptidase N;
+DE            Short=AP-N;
+DE            EC=3.4.11.2;
+DE   AltName: Full=Membrane glycoprotein H11;
+DE   AltName: Full=Microsomal aminopeptidase;
+OS   Haemonchus contortus (Barber pole worm).
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Strongylida; Trichostrongyloidea; Haemonchidae; Haemonchinae;
+OC   Haemonchus.
+OX   NCBI_TaxID=6289;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9128148; DOI=10.1016/S0167-4838(96)00204-X;
+RA   Smith T.S., Graham M., Munn E.A., Newton S.E., Knox D.P.,
+RA   Coadwell W.J., McMichael-Phillips D., Smith H., Smith W.D.,
+RA   Oliver J.J.;
+RT   "Cloning and characterization of a microsomal aminopeptidase from the
+RT   intestine of the nematode Haemonchus contortus.";
+RL   Biochim. Biophys. Acta 1338:295-306(1997).
+CC   -!- CATALYTIC ACTIVITY: Release of an N-terminal amino acid, Xaa-|-
+CC       Yaa- from a peptide, amide or arylamide. Xaa is preferably Ala,
+CC       but may be most amino acids including Pro (slow action). When a
+CC       terminal hydrophobic residue is followed by a prolyl residue, the
+CC       two may be released as an intact Xaa-Pro dipeptide.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Single-pass type II
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase M1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X94187; CAA63897.1; -; mRNA.
+DR   MEROPS; M01.015; -.
+DR   PRIDE; Q10737; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0004177; F:aminopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   InterPro; IPR024571; ERAP1-like_C_dom.
+DR   InterPro; IPR001930; Peptidase_M1.
+DR   InterPro; IPR014782; Peptidase_M1_N.
+DR   PANTHER; PTHR11533; PTHR11533; 1.
+DR   Pfam; PF11838; ERAP1_C; 1.
+DR   Pfam; PF01433; Peptidase_M1; 1.
+DR   PRINTS; PR00756; ALADIPTASE.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   2: Evidence at transcript level;
+KW   Aminopeptidase; Disulfide bond; Glycoprotein; Hydrolase; Membrane;
+KW   Metal-binding; Metalloprotease; Protease; Signal-anchor;
+KW   Transmembrane; Transmembrane helix; Zinc.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    972       Aminopeptidase N.
+FT                                /FTId=PRO_0000095087.
+FT   TOPO_DOM      2     17       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     18     39       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM     40    972       Extracellular. {ECO:0000255}.
+FT   REGION      343    347       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    380    380       Proton acceptor. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       379    379       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       383    383       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       402    402       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   BINDING     208    208       Substrate. {ECO:0000250}.
+FT   SITE        466    466       Transition state stabilizer.
+FT                                {ECO:0000250}.
+FT   CARBOHYD     99     99       N-linked (GlcNAc...). {ECO:0000255}.
+FT   CARBOHYD    227    227       N-linked (GlcNAc...). {ECO:0000255}.
+FT   CARBOHYD    549    549       N-linked (GlcNAc...). {ECO:0000255}.
+FT   CARBOHYD    858    858       N-linked (GlcNAc...). {ECO:0000255}.
+FT   DISULFID    759    766       {ECO:0000250}.
+FT   DISULFID    804    840       {ECO:0000250}.
+SQ   SEQUENCE   972 AA;  110674 MW;  5964328CC3C80E43 CRC64;
+     MTSQGRTRTL LNLTPIRLIV ALFLVAAAVG LSIGLTYYFT RKAFDTSEKP GKDDTGGKDK
+     DNSPSAAELL LPSNIKPLSY DLTIKTYLPG YVDFPPEKNL TFDGRVEISM VVIEPTKSIV
+     LNSKKISVIP QECELVSGDK KLEIESVKEH PRLEKVEFLI KSQLEKDQQI LLKVGYIGLI
+     SNSFGGIYQT TYTTPDGTPK IAAVSQNEPI DARRMVPCMD EPKYKANWTV TVIHPKGTKA
+     VSNGIEVNGD GEISGDWITS KFLTTPRMSS YLLAVMVSEF EYIEGETKTG VRFRIWSRPE
+     AKKMTQYALQ SGIKCIEFYE DFFDIRFPLK KQDMIALPDF SAGAMENWGL ITYRENSLLY
+     DDRFYAPMNK QRIARIVAHE LAHQWFGDLV TMKWWDNLWL NEGFARFTEF IGAGQITQDD
+     ARMRNYFLID VLERALKADS VASSHPLSFR IDKAAEVEEA FDDITYAKGA SVLTMLRALI
+     GEEKHKHAVS QYLKKFSYSN AEATDLWAVF DEVVTDVEGP DGKPMKTTEF ASQWTTQMGF
+     PVISVAEFNS TTLKLTQSRY EANKDAVEKE KYRHPKYGFK WDIPLWYQEG DKKEIKRTWL
+     RRDEPLYLHV SDAGAPFVVN ADRYGFYRQN HDANGWKKII KQLKDNHEVY SPRTRNAIIS
+     DAFAAAATDA IEYETVFELL NYAEKETEYL PLEIAMSGIS SILKYFGTEP EAKPAQTYMM
+     NILKPMYEKS SIDFIANNYR NDKLFFQINL QKDVIDMFCA LGSQDCRKKY KKLFDDEVMN
+     KCRDGQAATE CVRIAAPLRS SVYCYGVKEG GDYASDKVME LYTAETLALE KDFLRLALGC
+     HKDVTALKGL LLRALDRNSS FVRMQDIPSA FNDVAANPIG GEFIFNFLIE RWPDIIESIG
+     TKHTYVEKVI PACTSGIRSQ QQIDQLKNLQ KNGMNARQFG AFDKAIERAQ NRVDWIKKHF
+     QKLAAFFKKA TL
+//

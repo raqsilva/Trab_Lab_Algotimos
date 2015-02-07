@@ -1,0 +1,89 @@
+ID   BTUB_PHOPR              Reviewed;         606 AA.
+AC   Q6LLU3;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-JAN-2015, entry version 76.
+DE   RecName: Full=Vitamin B12 transporter BtuB {ECO:0000255|HAMAP-Rule:MF_01531};
+DE   AltName: Full=Cobalamin receptor {ECO:0000255|HAMAP-Rule:MF_01531};
+DE   AltName: Full=Outer membrane cobalamin translocator {ECO:0000255|HAMAP-Rule:MF_01531};
+DE   Flags: Precursor;
+GN   Name=btuB {ECO:0000255|HAMAP-Rule:MF_01531};
+GN   OrderedLocusNames=PBPRA3464;
+OS   Photobacterium profundum (Photobacterium sp. (strain SS9)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Photobacterium.
+OX   NCBI_TaxID=74109;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS9;
+RX   PubMed=15746425; DOI=10.1126/science.1103341;
+RA   Vezzi A., Campanaro S., D'Angelo M., Simonato F., Vitulo N.,
+RA   Lauro F.M., Cestaro A., Malacrida G., Simionati B., Cannata N.,
+RA   Romualdi C., Bartlett D.H., Valle G.;
+RT   "Life at depth: Photobacterium profundum genome sequence and
+RT   expression analysis.";
+RL   Science 307:1459-1461(2005).
+CC   -!- FUNCTION: Involved in the active translocation of vitamin B12
+CC       (cyanocobalamin) across the outer membrane to the periplasmic
+CC       space. It derives its energy for transport by interacting with the
+CC       trans-periplasmic membrane protein TonB. {ECO:0000255|HAMAP-
+CC       Rule:MF_01531}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01531}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01531}.
+CC   -!- SIMILARITY: Belongs to the TonB-dependent receptor family. BtuB
+CC       (TC 1.B.14.3.1) subfamily. {ECO:0000255|HAMAP-Rule:MF_01531}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CR378674; CAG21735.1; -; Genomic_DNA.
+DR   RefSeq; YP_131537.1; NC_006370.1.
+DR   ProteinModelPortal; Q6LLU3; -.
+DR   STRING; 298386.PBPRA3464; -.
+DR   EnsemblBacteria; CAG21735; CAG21735; PBPRA3464.
+DR   GeneID; 3122282; -.
+DR   KEGG; ppr:PBPRA3464; -.
+DR   PATRIC; 22938011; VBIPhoPro109272_3588.
+DR   eggNOG; COG4206; -.
+DR   HOGENOM; HOG000269547; -.
+DR   KO; K16092; -.
+DR   OMA; DSRWNRA; -.
+DR   OrthoDB; EOG68H83J; -.
+DR   Proteomes; UP000000593; Chromosome 1.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046930; C:pore complex; IEA:UniProtKB-KW.
+DR   GO; GO:0015235; F:cobalamin transporter activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015288; F:porin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004872; F:receptor activity; IEA:InterPro.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+DR   Gene3D; 2.170.130.10; -; 1.
+DR   Gene3D; 2.40.170.20; -; 1.
+DR   HAMAP; MF_01531; BtuB; 1.
+DR   InterPro; IPR010101; B12_transptr_BtuB.
+DR   InterPro; IPR012910; Plug.
+DR   InterPro; IPR000531; TonB-dep_rcpt_b-brl.
+DR   Pfam; PF07715; Plug; 1.
+DR   Pfam; PF00593; TonB_dep_Rec; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Complete proteome; Ion transport; Membrane;
+KW   Porin; Reference proteome; Signal; TonB box; Transmembrane;
+KW   Transmembrane beta strand; Transport.
+FT   SIGNAL        1     21       {ECO:0000255|HAMAP-Rule:MF_01531}.
+FT   CHAIN        22    606       Vitamin B12 transporter BtuB.
+FT                                /FTId=PRO_0000003485.
+FT   MOTIF        28     35       TonB box.
+FT   MOTIF       589    606       TonB C-terminal box.
+SQ   SEQUENCE   606 AA;  66298 MW;  226F389FB08B94C0 CRC64;
+     MKKTLLAVAL APLCLPSQVF AADESSNDVM VVTANRFEQP IKNVIAPISV VTKEEIDAIQ
+     AKSIAEVLRR LPGVQVVSGG YGQATEVYVR GTTSRHLLVM INGVRIGSAT LGSADFSQIP
+     LTGIERIELI RGSRAALYGS DAIGGVLNII TAYQPGESVA EVTAGGGSDG FYQLGGSVAG
+     GLGESGWGKI ALKTEGADGF SARKEPFEQD DDGFKNSNVV AEVGTHVGDH WKLSLQGYYH
+     DGESDYDDSY GAPHAQSESS LFNIAAKAGY SNDKLDSQFT VAQNQDENRN FNDVSSGSKI
+     KTERTVANWQ NHYQLTDGLE LGGGLEWYRD SVSNTGTQYA EDERDNTAVY LTSIYRISDW
+     QFEGSVRTDD NDSYGTNNTW QLATAYNITS ELKVSANAGT GFKAPTFNDL YWPDSGNPNL
+     KPEESKNYEI SLSGTHQLLD WSITGYQSEI DQLIAWAPKD ASNPSGDWIP MNVDEAEIQG
+     IELTAGFATG MLYHDVSYDY LDAKDKGLDK QLIRRSKDSA KWNVSYLAEQ WQLDVSAIYK
+     GTSYDDAANT KKLDAYTLVD IAASYFVTDN LSVRGRIANL FDKDYVAKET YNVQERSYYA
+     TATYKF
+//

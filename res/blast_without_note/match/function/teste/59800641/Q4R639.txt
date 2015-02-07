@@ -1,0 +1,105 @@
+ID   DHSO_MACFA              Reviewed;         357 AA.
+AC   Q4R639;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 60.
+DE   RecName: Full=Sorbitol dehydrogenase;
+DE            EC=1.1.1.14;
+DE   AltName: Full=L-iditol 2-dehydrogenase;
+GN   Name=SORD; ORFNames=QtsA-19202;
+OS   Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9541;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RG   International consortium for macaque cDNA sequencing and analysis;
+RT   "DNA sequences of macaque genes expressed in brain or testis and its
+RT   evolutionary implications.";
+RL   Submitted (JUN-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Converts sorbitol to fructose. Part of the polyol
+CC       pathway that plays an important role in sperm physiology. May play
+CC       a role in the sperm motility by providing an energetic source for
+CC       sperm. {ECO:0000250|UniProtKB:Q64442}.
+CC   -!- CATALYTIC ACTIVITY: L-iditol + NAD(+) = L-sorbose + NADH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P07846};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P07846};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P07846}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion membrane
+CC       {ECO:0000250|UniProtKB:Q64442}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q64442}. Cell projection, cilium, flagellum
+CC       {ECO:0000250|UniProtKB:Q64442}. Note=Associated with mitochondria
+CC       of the midpiece and near the plasma membrane in the principal
+CC       piece of the flagellum. Also found in the epididymosome, secreted
+CC       by the epididymal epithelium and that transfers proteins from the
+CC       epididymal fluid to the sperm surface.
+CC       {ECO:0000250|UniProtKB:Q64442}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB169351; BAE01436.1; -; mRNA.
+DR   RefSeq; NP_001270085.1; NM_001283156.1.
+DR   UniGene; Mfa.4861; -.
+DR   ProteinModelPortal; Q4R639; -.
+DR   SMR; Q4R639; 2-357.
+DR   PRIDE; Q4R639; -.
+DR   GeneID; 101865740; -.
+DR   KEGG; mcf:101865740; -.
+DR   CTD; 6652; -.
+DR   HOVERGEN; HBG005484; -.
+DR   KO; K00008; -.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031514; C:motile cilium; ISS:UniProtKB.
+DR   GO; GO:0003939; F:L-iditol 2-dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0030317; P:sperm motility; ISS:UniProtKB.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Cell projection; Cilium; Flagellum; Membrane;
+KW   Metal-binding; Mitochondrion; NAD; Oxidoreductase; Zinc.
+FT   INIT_MET      1      1       Removed. {ECO:0000250|UniProtKB:Q00796}.
+FT   CHAIN         2    357       Sorbitol dehydrogenase.
+FT                                /FTId=PRO_0000231004.
+FT   METAL        45     45       Zinc; catalytic.
+FT                                {ECO:0000250|UniProtKB:P07846}.
+FT   METAL        70     70       Zinc; catalytic.
+FT                                {ECO:0000250|UniProtKB:P07846}.
+FT   METAL        71     71       Zinc; catalytic.
+FT                                {ECO:0000250|UniProtKB:P07846}.
+FT   BINDING      51     51       Substrate.
+FT                                {ECO:0000250|UniProtKB:P07846}.
+FT   BINDING     156    156       Substrate.
+FT                                {ECO:0000250|UniProtKB:P07846}.
+FT   BINDING     299    299       Substrate.
+FT                                {ECO:0000250|UniProtKB:P07846}.
+FT   BINDING     300    300       Substrate.
+FT                                {ECO:0000250|UniProtKB:P07846}.
+FT   MOD_RES       2      2       N-acetylalanine.
+FT                                {ECO:0000250|UniProtKB:Q00796}.
+SQ   SEQUENCE   357 AA;  38206 MW;  4BB2278B107274CD CRC64;
+     MAAAAKPKNL SLVVHGPGDL RLENYPIPEP GPNEVLLRMH SVGICGSDVH YWEEGRIGNF
+     IVKKPMVLGH EASGTVEKVG SLVKHLKPGD RVAIEPGVPR ENDEFCKSGR YNLSPSIFFC
+     ATPPDDGNLC RFYKHNAAFC YKLPDNVTFE EGALIEPLSV GIHACRRGGV TLGHRVLVCG
+     AGPIGVVSLL VAKAMGAAQV VVTDLSAPRL SKAKEIGADL VLQISKESPQ EIAGKVEGLL
+     GCKPEVTIEC TGAEASIQAG IYATRSGGTL VLVGLGSEMT TIPLLHAAVR EVDIKGVFRY
+     CNTWPVAISM LASKSVNIKP LVTHRFPLEK ALEAFETFKK GLGLKIMLKC DPNDQNP
+//

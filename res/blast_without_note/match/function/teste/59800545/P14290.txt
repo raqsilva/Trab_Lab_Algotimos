@@ -1,0 +1,98 @@
+ID   ERBS_SACEN              Reviewed;         366 AA.
+AC   P14290; A4F7Q1;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   22-FEB-2012, sequence version 2.
+DT   04-FEB-2015, entry version 82.
+DE   RecName: Full=Erythromycin biosynthesis sensory transduction protein EryC1;
+GN   Name=eryC1; Synonyms=eryCI; OrderedLocusNames=SACE_0734;
+OS   Saccharopolyspora erythraea (strain NRRL 23338).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Pseudonocardineae; Pseudonocardiaceae; Saccharopolyspora.
+OX   NCBI_TaxID=405948;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=NRRL 23338;
+RX   PubMed=2575703; DOI=10.1111/j.1365-2958.1989.tb00123.x;
+RA   Dhillon N., Hale R.S., Cortes J., Leadlay P.F.;
+RT   "Molecular characterization of a gene from Saccharopolyspora erythraea
+RT   (Streptomyces erythraeus) which is involved in erythromycin
+RT   biosynthesis.";
+RL   Mol. Microbiol. 3:1405-1414(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NRRL 23338;
+RX   PubMed=17369815; DOI=10.1038/nbt1297;
+RA   Oliynyk M., Samborskyy M., Lester J.B., Mironenko T., Scott N.,
+RA   Dickens S., Haydock S.F., Leadlay P.F.;
+RT   "Complete genome sequence of the erythromycin-producing bacterium
+RT   Saccharopolyspora erythraea NRRL23338.";
+RL   Nat. Biotechnol. 25:447-453(2007).
+CC   -!- FUNCTION: Sensor protein that transfers the signal of
+CC       environmental stimuli to the regulatory region of target genes to
+CC       activate or repress transcription of erythromycin biosynthesis
+CC       genes. {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Peripheral
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the DegT/DnrJ/EryC1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X15541; CAA33548.1; -; Genomic_DNA.
+DR   EMBL; AM420293; CAM00075.1; -; Genomic_DNA.
+DR   PIR; S06725; S06725.
+DR   RefSeq; YP_001103001.1; NC_009142.1.
+DR   STRING; 405948.SACE_0734; -.
+DR   EnsemblBacteria; CAM00075; CAM00075; SACE_0734.
+DR   GeneID; 4940595; -.
+DR   KEGG; sen:SACE_0734; -.
+DR   PATRIC; 23408856; VBISacEry28377_0748.
+DR   eggNOG; COG0399; -.
+DR   HOGENOM; HOG000230164; -.
+DR   OMA; DINTYNI; -.
+DR   OrthoDB; EOG6TXQZ2; -.
+DR   BioCyc; MetaCyc:MONOMER-17089; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-1373-MONOMER; -.
+DR   Proteomes; UP000006728; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic biosynthesis; Cell membrane; Complete proteome;
+KW   DNA-binding; Membrane; Pyridoxal phosphate; Reference proteome;
+KW   Transcription; Transcription regulation;
+KW   Two-component regulatory system.
+FT   CHAIN         1    366       Erythromycin biosynthesis sensory
+FT                                transduction protein EryC1.
+FT                                /FTId=PRO_0000110012.
+FT   DNA_BIND    160    179       H-T-H motif. {ECO:0000255}.
+FT   REGION       53    158       Hydrophobic.
+FT   MOD_RES     186    186       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+FT   CONFLICT     69     69       L -> V (in Ref. 1; CAA33548).
+FT                                {ECO:0000305}.
+FT   CONFLICT     92     95       AVSR -> GVP (in Ref. 1; CAA33548).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   366 AA;  39410 MW;  DAC755AB6890F279 CRC64;
+     MDVPFLDLQA AYLELRSDID QACRRVLGSG WYLHGPENEA FEAEFAAYCE NAHCVTVGSG
+     CDALELSLLA LGVGQGDEVI VPSHTFIATW LAVSRVGAVP VPVEPEGVSH TLDPALVEQA
+     ITPRTAAILP VHLYGHPADL DALRAIADRH GLALVEDVAQ AVGARHRGHR VGAGSNAAAF
+     SFYPGKNLGA LGDGGAVVTT DPALAERIRL LRNYGSKQKY VHEVRGTNAR LDELQAAVLR
+     VKLRHLDDWN ARRTTLAQHY QTELKDVPGI TLPETHPWAD SAWHLFVLRC ENRDHLQRHL
+     TDAGVQTLIH YPTPVHLSPA YADLGLPPGS FPVAESLAGE VLSLPIGPHL SREAADHVIA
+     TLKAGA
+//

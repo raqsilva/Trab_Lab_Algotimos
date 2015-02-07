@@ -1,0 +1,90 @@
+ID   SYY_BACCA               Reviewed;         419 AA.
+AC   P04077;
+DT   01-NOV-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1986, sequence version 1.
+DT   07-JAN-2015, entry version 93.
+DE   RecName: Full=Tyrosine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02006};
+DE            EC=6.1.1.1 {ECO:0000255|HAMAP-Rule:MF_02006};
+DE   AltName: Full=Tyrosyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02006};
+DE            Short=TyrRS {ECO:0000255|HAMAP-Rule:MF_02006};
+GN   Name=tyrS {ECO:0000255|HAMAP-Rule:MF_02006};
+OS   Bacillus caldotenax.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus;
+OC   Geobacillus thermoleovorans group.
+OX   NCBI_TaxID=1395;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3011073; DOI=10.1021/bi00356a008;
+RA   Jones M.D., Lowe D.M., Borgford T., Fersht A.R.;
+RT   "Natural variation of tyrosyl-tRNA synthetase and comparison with
+RT   engineered mutants.";
+RL   Biochemistry 25:1887-1891(1986).
+CC   -!- FUNCTION: Catalyzes the attachment of tyrosine to tRNA(Tyr) in a
+CC       two-step reaction: tyrosine is first activated by ATP to form Tyr-
+CC       AMP and then transferred to the acceptor end of tRNA(Tyr).
+CC       {ECO:0000255|HAMAP-Rule:MF_02006}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-tyrosine + tRNA(Tyr) = AMP +
+CC       diphosphate + L-tyrosyl-tRNA(Tyr). {ECO:0000255|HAMAP-
+CC       Rule:MF_02006}.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. TyrS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_02006}.
+CC   -!- SIMILARITY: Contains 1 S4 RNA-binding domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_02006}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M13148; AAA22877.1; -; Genomic_DNA.
+DR   PIR; A01180; SYBSYX.
+DR   ProteinModelPortal; P04077; -.
+DR   SMR; P04077; 1-319, 321-419.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004831; F:tyrosine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006437; P:tyrosyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.10.290.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_02006; Tyr_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR002307; Tyr-tRNA-ligase.
+DR   InterPro; IPR024088; Tyr-tRNA-ligase_bac-type.
+DR   InterPro; IPR024107; Tyr-tRNA-ligase_bac_1.
+DR   PANTHER; PTHR11766; PTHR11766; 1.
+DR   Pfam; PF01479; S4; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01040; TRNASYNTHTYR.
+DR   SMART; SM00363; S4; 1.
+DR   TIGRFAMs; TIGR00234; tyrS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; RNA-binding.
+FT   CHAIN         1    419       Tyrosine--tRNA ligase.
+FT                                /FTId=PRO_0000055641.
+FT   DOMAIN      352    419       S4 RNA-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_02006}.
+FT   MOTIF        39     48       "HIGH" region.
+FT   MOTIF       230    234       "KMSKS" region.
+FT   BINDING      34     34       Tyrosine. {ECO:0000255|HAMAP-
+FT                                Rule:MF_02006}.
+FT   BINDING     169    169       Tyrosine. {ECO:0000255|HAMAP-
+FT                                Rule:MF_02006}.
+FT   BINDING     173    173       Tyrosine. {ECO:0000255|HAMAP-
+FT                                Rule:MF_02006}.
+FT   BINDING     233    233       ATP. {ECO:0000255|HAMAP-Rule:MF_02006}.
+SQ   SEQUENCE   419 AA;  47202 MW;  13785CC4FBFEB742 CRC64;
+     MDLLAELQWR GLVNQTTDED GLRKLLNEER VTLYCGFDPT ADSLHIGNLA AILTLRRFQQ
+     AGHRPIALVG GATGLIGDPS GKKSERTLNA KETVEAWSAR IKEQLGRFLD FEADGNPAKI
+     KNNYDWIGPL DVITFLRDVG KHFSVNYMMA KESVQSRIET GISFTEFSYM MLQAYDFLRL
+     YETEGCRLQI GGSDQWGNIT AGLELIRKTK GEARAFGLTI PLVTKADGTK FGKTESGTIW
+     LDKEKTSPYE FYQFWINTDD RDVIRYLKYF TFLSKEEIEA LEQELREAPE KRAAQKALAE
+     EVTKLVHGEE ALRQAIRISE ALFSGDIANL TAAEIEQGFK DVPSFVHEGG DVPLVELLVS
+     AGISPSKRQA REDIQNGAIY VNGERLQDVG AILTAEHRLE GRFTVIRRGK KKYYLIRYA
+//

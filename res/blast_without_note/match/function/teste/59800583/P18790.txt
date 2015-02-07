@@ -1,0 +1,111 @@
+ID   LTXD_AGGAC              Reviewed;         477 AA.
+AC   P18790;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1990, sequence version 1.
+DT   07-JAN-2015, entry version 80.
+DE   RecName: Full=Leukotoxin export protein LtxD;
+GN   Name=ltxD {ECO:0000303|PubMed:8300209};
+GN   Synonyms=AaLtd {ECO:0000303|PubMed:1961107},
+GN   lktD {ECO:0000303|PubMed:2402458};
+OS   Aggregatibacter actinomycetemcomitans (Actinobacillus
+OS   actinomycetemcomitans) (Haemophilus actinomycetemcomitans).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Aggregatibacter.
+OX   NCBI_TaxID=714;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=JP2;
+RX   PubMed=2402458; DOI=10.1093/nar/18.17.5292;
+RA   Guthmiller J.M., Kraig E., Cagle M.P., Kolodrubetz D.;
+RT   "Sequence of the lktD gene from Actinobacillus
+RT   actinomycetemcomitans.";
+RL   Nucleic Acids Res. 18:5292-5292(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1961107; DOI=10.1016/0882-4010(91)90004-T;
+RA   Lally E.T., Golub E.E., Kieba I.R., Taichman N.S., Decker S.,
+RA   Berthold P., Gibson C.W., Demuth D.R., Rosenbloom J.;
+RT   "Structure and function of the B and D genes of the Actinobacillus
+RT   actinomycetemcomitans leukotoxin complex.";
+RL   Microb. Pathog. 11:111-121(1991).
+RN   [3]
+RP   INDUCTION, AND GENE NAME.
+RC   STRAIN=652, and JP2;
+RX   PubMed=8300209;
+RA   Brogan J.M., Lally E.T., Poulsen K., Kilian M., Demuth D.R.;
+RT   "Regulation of Actinobacillus actinomycetemcomitans leukotoxin
+RT   expression: analysis of the promoter regions of leukotoxic and
+RT   minimally leukotoxic strains.";
+RL   Infect. Immun. 62:501-508(1994).
+RN   [4]
+RP   DISRUPTION PHENOTYPE, AND FUNCTION.
+RX   PubMed=7476096; DOI=10.1006/mpat.1995.0028;
+RA   Guthmiller J.M., Kolodrubetz D., Kraig E.;
+RT   "Mutational analysis of the putative leukotoxin transport genes in
+RT   Actinobacillus actinomycetemcomitans.";
+RL   Microb. Pathog. 18:307-321(1995).
+RN   [5]
+RP   SUBUNIT.
+RC   STRAIN=IDH781;
+RX   PubMed=17116373; DOI=10.1016/j.gene.2006.10.004;
+RA   Crosby J.A., Kachlany S.C.;
+RT   "TdeA, a TolC-like protein required for toxin and drug export in
+RT   Aggregatibacter (Actinobacillus) actinomycetemcomitans.";
+RL   Gene 388:83-92(2007).
+CC   -!- FUNCTION: Involved in the export of the LtxA leukotoxin.
+CC       {ECO:0000303|PubMed:7476096}.
+CC   -!- SUBUNIT: Probably part of a complex composed of LtxB, LtxD and
+CC       TdeA, which forms a single transport channel across the two
+CC       membranes. {ECO:0000303|PubMed:17116373}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Single-
+CC       pass membrane protein {ECO:0000255}.
+CC   -!- INDUCTION: Levels of toxin expression vary greatly among strains.
+CC       Highly leukotoxic strains (JP2-type strains) produce more LtxA
+CC       protein and ltx mRNA than minimally leukotoxic strains (652-type
+CC       strains). Variations are probably due to different types of
+CC       promoters. {ECO:0000269|PubMed:8300209}.
+CC   -!- DISRUPTION PHENOTYPE: Mutation has no effect on the levels of
+CC       leukotoxin mRNA, but mutants have significantly less total
+CC       leukotoxin than the parent strain. {ECO:0000269|PubMed:7476096}.
+CC   -!- SIMILARITY: Belongs to the membrane fusion protein (MFP)
+CC       (TC 8.A.1) family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X53956; CAA37907.1; -; Genomic_DNA.
+DR   PIR; B61378; B61378.
+DR   ProteinModelPortal; P18790; -.
+DR   GO; GO:0009276; C:Gram-negative-bacterium-type cell wall; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   InterPro; IPR006143; RND_pump_MFP.
+DR   InterPro; IPR003997; Rtx_secretion_protD_GmN_bac.
+DR   InterPro; IPR006144; Secretion_HlyD_CS.
+DR   InterPro; IPR010129; T1SS_HlyD.
+DR   PANTHER; PTHR30386:SF3; PTHR30386:SF3; 1.
+DR   Pfam; PF00529; HlyD; 1.
+DR   PRINTS; PR01490; RTXTOXIND.
+DR   TIGRFAMs; TIGR01843; type_I_hlyD; 1.
+DR   PROSITE; PS00543; HLYD_FAMILY; 1.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Coiled coil; Membrane;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    477       Leukotoxin export protein LtxD.
+FT                                /FTId=PRO_0000201875.
+FT   TRANSMEM     64     84       Helical. {ECO:0000255}.
+FT   COILED      206    287       {ECO:0000255}.
+SQ   SEQUENCE   477 AA;  54651 MW;  54F20128CADE6260 CRC64;
+     MKTWLLALYD VLSRYKNVWN ETWKIRKQLD SPVREKDENE FLPAHLELIE TPVSNAPRFV
+     SYSIMLFLTL AIIVSIFSNV EIIATASGKF ALSGRSKEIK PIENSLVKHI FVKEGEYVKK
+     GELLLKLTAL GAEADTLKTK TSLSQAKLEE FRYKSLLEAV EKDQLPILDF SKIDLPFMTE
+     NDQKRVTLLI EEQFSTWQKQ RHQKTLNLNK KEAEKLSYLA RIKKYEGLIN TEQVRLDDFR
+     ALYKEHAIAK HTVLDEENKY QDAINELEVY KASLMQVENE VLLAKEEQEL VTQLFKNDIL
+     DKLKQATDNV NLLTFELDKN NQRQQVSEIR APVSGTVQQL KVHTIDGVVT TAETLMVVVP
+     EEDSLEVTAL IQNKDIGFVK EGQEVVIKVE AFPYTRYGYL TGKVKNITLD AIEHPKLGLV
+     FNTIIELDKK TLSTEEKEIP LSAGMEITAE IKTGMRSVIS YLLSPLEESI DKSLRER
+//

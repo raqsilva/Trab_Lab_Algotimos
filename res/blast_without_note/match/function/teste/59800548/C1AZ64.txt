@@ -1,0 +1,115 @@
+ID   MSHA_RHOOB              Reviewed;         446 AA.
+AC   C1AZ64;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   04-FEB-2015, entry version 36.
+DE   RecName: Full=D-inositol 3-phosphate glycosyltransferase;
+DE            EC=2.4.1.250 {ECO:0000255|HAMAP-Rule:MF_01695};
+DE   AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+DE            Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   Name=mshA {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   OrderedLocusNames=ROP_17450;
+OS   Rhodococcus opacus (strain B4).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Nocardiaceae; Rhodococcus.
+OX   NCBI_TaxID=632772;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B4;
+RA   Takarada H., Sekine M., Hosoyama A., Yamada R., Fujisawa T., Omata S.,
+RA   Shimizu A., Tsukatani N., Tanikawa S., Fujita N., Harayama S.;
+RT   "Comparison of the complete genome sequences of Rhodococcus
+RT   erythropolis PR4 and Rhodococcus opacus B4.";
+RL   Submitted (MAR-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a N-acetyl-glucosamine moiety
+CC       to 1D-myo-inositol 3-phosphate to produce 1D-myo-inositol 2-
+CC       acetamido-2-deoxy-glucopyranoside 3-phosphate in the mycothiol
+CC       biosynthesis pathway. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- CATALYTIC ACTIVITY: UDP-N-acetyl-D-glucosamine + 1D-myo-inositol
+CC       3-phosphate = UDP + 1-O-(2-acetamido-2-deoxy-alpha-D-
+CC       glucopyranosyl)-1D-myo-inositol 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01695}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase group 1 family.
+CC       MshA subfamily. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP011115; BAH49992.1; -; Genomic_DNA.
+DR   RefSeq; WP_012688951.1; NC_012522.1.
+DR   RefSeq; YP_002778937.1; NC_012522.1.
+DR   ProteinModelPortal; C1AZ64; -.
+DR   STRING; 632772.ROP_17450; -.
+DR   EnsemblBacteria; BAH49992; BAH49992; ROP_17450.
+DR   GeneID; 7747414; -.
+DR   KEGG; rop:ROP_17450; -.
+DR   PATRIC; 23220719; VBIRhoOpa21106_1754.
+DR   eggNOG; COG0438; -.
+DR   HOGENOM; HOG000077288; -.
+DR   KO; K15521; -.
+DR   OMA; LVHSHYW; -.
+DR   OrthoDB; EOG647TVR; -.
+DR   BioCyc; ROPA632772:GH0Q-1769-MONOMER; -.
+DR   Proteomes; UP000002212; Chromosome.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01695; MshA; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR028098; Glyco_trans_4_N.
+DR   InterPro; IPR017814; Mycothiol_biosynthesis_MshA.
+DR   Pfam; PF13579; Glyco_trans_4_4; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   TIGRFAMs; TIGR03449; mycothiol_MshA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycosyltransferase; Magnesium; Metal-binding;
+KW   Transferase.
+FT   CHAIN         1    446       D-inositol 3-phosphate
+FT                                glycosyltransferase.
+FT                                /FTId=PRO_0000400151.
+FT   REGION       25     26       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   REGION       30     35       1D-inositol 3-phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       312    312       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       313    313       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       315    315       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       339    339       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING      19     19       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      33     33       UDP-GlcNAc; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      88     88       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     121    121       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     145    145       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     165    165       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     239    239       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     244    244       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     303    303       UDP-GlcNAc; via amide nitrogen and
+FT                                carbonyl oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     325    325       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     333    333       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+SQ   SEQUENCE   446 AA;  47503 MW;  38242ADB0D5DFA7A CRC64;
+     MVTPLHNSRP RRVAVLSVHT SPLAQPGTGD AGGMNVYVLQ SAIQMARRGV EVEIFTRATS
+     SADAPVQEAA PGVLVRNVVA GPFEGLDKQD LPTQLCAFVA GVLREEARHE PGYYNLVHSH
+     YWLSGQVGWL ARDRWGVPLV HTAHTLAAVK NLSLAEGDTP EPAARQIGEQ QVVAESDRLV
+     ANTTEESDQL VRHYGADPNR IDVVAPGADL TRYRPGDRDA ARATLGLDPR ETVVTFVGRI
+     QPLKAPDVLL RAAAELIARD PASSLRVLVV GGPSGSGLAR PDALIELASS LGIAARVTFL
+     PPQAPDRLAD VYRASDLVAV PSYSESFGLV AIEAQACGTP VIAANVGGLG VAVRSGETGL
+     LVDGHRTEDW ATALQSLVSE PARLAALAAE APRHAENFSW EHTADGLLES YRMATVNYNY
+     GHGPSEFSPR RGRGLWKLRR AGGVRA
+//

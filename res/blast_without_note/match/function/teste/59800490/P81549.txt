@@ -1,0 +1,104 @@
+ID   BFRD_BORPE              Reviewed;         743 AA.
+AC   P81549;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2003, sequence version 2.
+DT   07-JAN-2015, entry version 89.
+DE   RecName: Full=Probable TonB-dependent receptor BfrD;
+DE   AltName: Full=Virulence-associated outer membrane protein Vir-90;
+DE   Flags: Precursor;
+GN   Name=bfrD; Synonyms=vir90; OrderedLocusNames=BP0856;
+OS   Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Bordetella.
+OX   NCBI_TaxID=257313;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Tohama I / ATCC BAA-589 / NCTC 13251;
+RX   PubMed=12910271; DOI=10.1038/ng1227;
+RA   Parkhill J., Sebaihia M., Preston A., Murphy L.D., Thomson N.R.,
+RA   Harris D.E., Holden M.T.G., Churcher C.M., Bentley S.D., Mungall K.L.,
+RA   Cerdeno-Tarraga A.-M., Temple L., James K.D., Harris B., Quail M.A.,
+RA   Achtman M., Atkin R., Baker S., Basham D., Bason N., Cherevach I.,
+RA   Chillingworth T., Collins M., Cronin A., Davis P., Doggett J.,
+RA   Feltwell T., Goble A., Hamlin N., Hauser H., Holroyd S., Jagels K.,
+RA   Leather S., Moule S., Norberczak H., O'Neil S., Ormond D., Price C.,
+RA   Rabbinowitsch E., Rutter S., Sanders M., Saunders D., Seeger K.,
+RA   Sharp S., Simmonds M., Skelton J., Squares R., Squares S., Stevens K.,
+RA   Unwin L., Whitehead S., Barrell B.G., Maskell D.J.;
+RT   "Comparative analysis of the genome sequences of Bordetella pertussis,
+RT   Bordetella parapertussis and Bordetella bronchiseptica.";
+RL   Nat. Genet. 35:32-40(2003).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 31-50.
+RC   STRAIN=Tohama I / ATCC BAA-589 / NCTC 13251;
+RX   PubMed=10079522; DOI=10.1111/j.1574-6968.1999.tb13442.x;
+RA   Passerini de Rossi B.N., Friedman L.E., Gonzalez Flecha F.L.,
+RA   Castello P.R., Franco M.A., Rossi J.P.F.C.;
+RT   "Identification of Bordetella pertussis virulence-associated outer
+RT   membrane proteins.";
+RL   FEMS Microbiol. Lett. 172:9-13(1999).
+CC   -!- FUNCTION: Probably involved in iron transport.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane.
+CC   -!- SIMILARITY: Belongs to the TonB-dependent receptor family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BX640413; CAE41159.1; -; Genomic_DNA.
+DR   RefSeq; NP_879666.1; NC_002929.2.
+DR   ProteinModelPortal; P81549; -.
+DR   STRING; 257313.BP0856; -.
+DR   TCDB; 1.B.14.1.16; the outer membrane receptor (omr) family.
+DR   EnsemblBacteria; CAE41159; CAE41159; BP0856.
+DR   GeneID; 2664308; -.
+DR   KEGG; bpe:BP0856; -.
+DR   PATRIC; 21154816; VBIBorPer7866_0911.
+DR   eggNOG; COG4774; -.
+DR   HOGENOM; HOG000130432; -.
+DR   KO; K16090; -.
+DR   OMA; PADNISG; -.
+DR   OrthoDB; EOG6JQGXR; -.
+DR   BioCyc; BPER257313:BP0856-MONOMER; -.
+DR   Proteomes; UP000002676; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004872; F:receptor activity; IEA:InterPro.
+DR   GO; GO:0015343; F:siderophore transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 2.170.130.10; -; 1.
+DR   Gene3D; 2.40.170.20; -; 1.
+DR   InterPro; IPR030148; Fiu.
+DR   InterPro; IPR012910; Plug.
+DR   InterPro; IPR000531; TonB-dep_rcpt_b-brl.
+DR   InterPro; IPR010105; TonB_sidphr_rcpt.
+DR   PANTHER; PTHR32552:SF8; PTHR32552:SF8; 1.
+DR   Pfam; PF07715; Plug; 1.
+DR   Pfam; PF00593; TonB_dep_Rec; 1.
+DR   TIGRFAMs; TIGR01783; TonB-siderophor; 1.
+PE   1: Evidence at protein level;
+KW   Cell outer membrane; Complete proteome; Direct protein sequencing;
+KW   Ion transport; Iron; Iron transport; Membrane; Receptor;
+KW   Reference proteome; Signal; TonB box; Transmembrane;
+KW   Transmembrane beta strand; Transport; Virulence.
+FT   SIGNAL        1     30       {ECO:0000269|PubMed:10079522}.
+FT   CHAIN        31    743       Probable TonB-dependent receptor BfrD.
+FT                                /FTId=PRO_0000034743.
+FT   MOTIF       726    743       TonB C-terminal box.
+SQ   SEQUENCE   743 AA;  81581 MW;  CBB631C84AA68246 CRC64;
+     MKFYSSHPMP ESLAAAIAVP LLGLLPAAQA ASTAVQLPSV TVEGEYSSYQ PESAQSPKFT
+     APLADTPRTV QVIPERLIQD QGASDLEAVL RNAPGISMTA GEGGRPASDL PFIRGQNSAS
+     SLFVDGLRDP STQSRDTFNL EQVDVVKGPD SVFSGRGGAG GSINLVTKTP RNQDFTEVQA
+     GIGTAETYRG TIDGNWVLGE NTALRLNLLG TRDTVPGRDK AVEFSRVGIA PSLRLGLSGP
+     TRVTLGLYHY RHRRVPDYSI PYDPRTGTPI TETIGVSRRN FYGLVRRDSG DTEDYAATVK
+     WEHDLANGFK VENLARYSRA TVEQITTMPE LKTADLAKGL VYRNLRASYQ VNDSFANRTD
+     LRGTFDTGQW RHTFDLGGEF ATSRRSRDRY KQEIPDAASP CSPVTDGNNP ALCASLRDPD
+     PHVDFPGTVR RNHNPARYHT DILSLYGFDT IAFDEQWQLN LGLRWDHYKT SGRNLPVRGA
+     KPPVYERAAR TDNLFNYQLG LVYKPRPDGS VYASYGTAST PSAVSDYAPA DSISGTSQQL
+     KPERSEAIEI GTKWQVLDRR LLVTGAMFRE TRKNTSIEVA EGLRAPAGKS RVTGMELGVA
+     GSLTPRWDVY GGYALLDSKL VRASHKSGAQ GQPLPSAPRH AFSIWSTYKL LPELTVGAGA
+     FYRSKVYGNA DAGYNKDGTP KARWVPAYWR FDAMAAYQLN KHLTAQLNVY NLLDKTYYAK
+     TYRSHYAALG PGRSAMLTFK LSY
+//

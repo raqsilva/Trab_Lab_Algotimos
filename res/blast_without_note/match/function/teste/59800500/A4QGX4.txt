@@ -1,0 +1,99 @@
+ID   MSHD_CORGB              Reviewed;         292 AA.
+AC   A4QGX4;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 1.
+DT   07-JAN-2015, entry version 52.
+DE   RecName: Full=Mycothiol acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01698};
+DE            Short=MSH acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01698};
+DE            EC=2.3.1.189 {ECO:0000255|HAMAP-Rule:MF_01698};
+DE   AltName: Full=Mycothiol synthase {ECO:0000255|HAMAP-Rule:MF_01698};
+GN   Name=mshD {ECO:0000255|HAMAP-Rule:MF_01698};
+GN   OrderedLocusNames=cgR_2479;
+OS   Corynebacterium glutamicum (strain R).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Corynebacteriaceae; Corynebacterium.
+OX   NCBI_TaxID=340322;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=R;
+RX   PubMed=17379713; DOI=10.1099/mic.0.2006/003657-0;
+RA   Yukawa H., Omumasaba C.A., Nonaka H., Kos P., Okai N., Suzuki N.,
+RA   Suda M., Tsuge Y., Watanabe J., Ikeda Y., Vertes A.A., Inui M.;
+RT   "Comparative analysis of the Corynebacterium glutamicum group and
+RT   complete genome sequence of strain R.";
+RL   Microbiology 153:1042-1058(2007).
+CC   -!- FUNCTION: Catalyzes the transfer of acetyl from acetyl-CoA to
+CC       desacetylmycothiol (Cys-GlcN-Ins) to form mycothiol.
+CC       {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   -!- CATALYTIC ACTIVITY: Desacetylmycothiol + acetyl-CoA = CoA +
+CC       mycothiol. {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. MshD
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   -!- SIMILARITY: Contains 2 N-acetyltransferase domains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP009044; BAF55490.1; -; Genomic_DNA.
+DR   RefSeq; WP_011897834.1; NC_009342.1.
+DR   RefSeq; YP_001139392.1; NC_009342.1.
+DR   ProteinModelPortal; A4QGX4; -.
+DR   STRING; 340322.cgR_2479; -.
+DR   EnsemblBacteria; BAF55490; BAF55490; cgR_2479.
+DR   GeneID; 4993380; -.
+DR   KEGG; cgt:cgR_2479; -.
+DR   PATRIC; 21509638; VBICorGlu58097_2542.
+DR   eggNOG; COG0456; -.
+DR   HOGENOM; HOG000248937; -.
+DR   KO; K15520; -.
+DR   OMA; GEPWFDP; -.
+DR   OrthoDB; EOG69D3BP; -.
+DR   BioCyc; CGLU340322:GJBE-2600-MONOMER; -.
+DR   Proteomes; UP000006698; Chromosome.
+DR   GO; GO:0035447; F:mycothiol synthase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008080; F:N-acetyltransferase activity; IEA:InterPro.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.630.30; -; 2.
+DR   HAMAP; MF_01698; MshD; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   InterPro; IPR017813; Mycothiol_AcTrfase.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   Pfam; PF13673; Acetyltransf_10; 1.
+DR   PIRSF; PIRSF021524; MSH_acetyltransferase; 1.
+DR   SUPFAM; SSF55729; SSF55729; 2.
+DR   TIGRFAMs; TIGR03448; mycothiol_MshD; 1.
+DR   PROSITE; PS51186; GNAT; 2.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Repeat; Transferase.
+FT   CHAIN         1    292       Mycothiol acetyltransferase.
+FT                                /FTId=PRO_0000400251.
+FT   DOMAIN       13    168       N-acetyltransferase 1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01698}.
+FT   DOMAIN      159    292       N-acetyltransferase 2.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01698}.
+FT   REGION       77     79       Acetyl-CoA binding 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01698}.
+FT   REGION      230    232       Acetyl-CoA binding 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01698}.
+FT   REGION      237    243       Acetyl-CoA binding 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01698}.
+FT   BINDING      40     40       Desacetylmycothiol; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01698}.
+FT   BINDING     179    179       Desacetylmycothiol. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01698}.
+FT   BINDING     218    218       Desacetylmycothiol. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01698}.
+FT   BINDING     226    226       Desacetylmycothiol. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01698}.
+FT   BINDING     264    264       Desacetylmycothiol; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01698}.
+SQ   SEQUENCE   292 AA;  32138 MW;  8819573D25E88F8B CRC64;
+     MNTSDRIKST QIALDRDLRE QALLLLKEVR AVDGVDAFSE QFVRGLAEPG LGHSHLIVTL
+     NDKLVGLAAT DEETTELAVH PAHRRQGIGK ALIDAAPTSS IWAHGNTAGA QALASTLRMK
+     KTRELLVMEI SDRALDGSAA YKDPDGITHS SLANAPVEKS VAEAKWLQSN NEAFDWHPEQ
+     GGWTTHRLAQ AQKADWYKDS DVLFLWDGEE IVGFHWVKQH SPELQEIYVV GLSSAYRGRG
+     LGDPLVRLGL HHMRAHGARK VILYVEADNT PAVAAYEKLG FTVAESHVVY EK
+//

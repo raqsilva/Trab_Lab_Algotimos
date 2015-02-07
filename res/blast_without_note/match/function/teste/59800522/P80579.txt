@@ -1,0 +1,105 @@
+ID   THIO_ALIAC              Reviewed;         105 AA.
+AC   P80579;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   26-NOV-2014, entry version 83.
+DE   RecName: Full=Thioredoxin;
+DE            Short=Trx;
+GN   Name=trxA;
+OS   Alicyclobacillus acidocaldarius (Bacillus acidocaldarius).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae;
+OC   Alicyclobacillus.
+OX   NCBI_TaxID=1388;
+RN   [1]
+RP   PROTEIN SEQUENCE, CHARACTERIZATION, DISULFIDE BOND, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=9359865;
+RA   Bartolucci S., Guagliardi A., Pedone E., de Pascale D., Cannio R.,
+RA   Camardella L., Rossi M., Nicastro G., de Chiara C., Facci P.,
+RA   Mascetti G., Nicolini C.;
+RT   "Thioredoxin from Bacillus acidocaldarius: characterization, high-
+RT   level expression in Escherichia coli and molecular modelling.";
+RL   Biochem. J. 328:277-285(1997).
+RN   [2]
+RP   STRUCTURE BY NMR.
+RX   PubMed=10632710; DOI=10.1046/j.1432-1327.2000.01015.x;
+RA   Nicastro G., De Chiara C., Pedone E., Tato M., Rossi M.,
+RA   Bartolucci S.;
+RT   "NMR solution structure of a novel thioredoxin from bacillus
+RT   acidocaldarius possible determinants of protein stability.";
+RL   Eur. J. Biochem. 267:403-413(2000).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS).
+RX   PubMed=12837806; DOI=10.1128/JB.185.14.4285-4289.2003;
+RA   Bartolucci S., De Simone G., Galdiero S., Improta R., Menchise V.,
+RA   Pedone C., Pedone E., Saviano M.;
+RT   "An integrated structural and computational study of the
+RT   thermostability of two thioredoxin mutants from Alicyclobacillus
+RT   acidocaldarius.";
+RL   J. Bacteriol. 185:4285-4289(2003).
+CC   -!- FUNCTION: Participates in various redox reactions through the
+CC       reversible oxidation of its active center dithiol to a disulfide
+CC       and catalyzes dithiol-disulfide exchange reactions.
+CC   -!- MASS SPECTROMETRY: Mass=11577; Method=Electrospray; Range=1-105;
+CC       Evidence={ECO:0000269|PubMed:9359865};
+CC   -!- SIMILARITY: Belongs to the thioredoxin family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 thioredoxin domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00691}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   PDB; 1NSW; X-ray; 1.90 A; A/B/C/D=1-105.
+DR   PDB; 1NW2; X-ray; 1.90 A; A/B/C/D/E/F/G/H=1-105.
+DR   PDB; 1QUW; NMR; -; A=1-105.
+DR   PDB; 1RQM; NMR; -; A=1-105.
+DR   PDBsum; 1NSW; -.
+DR   PDBsum; 1NW2; -.
+DR   PDBsum; 1QUW; -.
+DR   PDBsum; 1RQM; -.
+DR   ProteinModelPortal; P80579; -.
+DR   SMR; P80579; 1-105.
+DR   EvolutionaryTrace; P80579; -.
+DR   GO; GO:0015035; F:protein disulfide oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   GO; GO:0006662; P:glycerol ether metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR005746; Thioredoxin.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   InterPro; IPR017937; Thioredoxin_CS.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR10438; PTHR10438; 1.
+DR   Pfam; PF00085; Thioredoxin; 1.
+DR   PIRSF; PIRSF000077; Thioredoxin; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   TIGRFAMs; TIGR01068; thioredoxin; 1.
+DR   PROSITE; PS00194; THIOREDOXIN_1; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond;
+KW   Electron transport; Redox-active center; Transport.
+FT   CHAIN         1    105       Thioredoxin.
+FT                                /FTId=PRO_0000120072.
+FT   DOMAIN        1    105       Thioredoxin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691}.
+FT   DISULFID     29     32       Redox-active. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00691,
+FT                                ECO:0000269|PubMed:9359865}.
+FT   STRAND        3      5       {ECO:0000244|PDB:1NW2}.
+FT   TURN          7      9       {ECO:0000244|PDB:1NSW}.
+FT   HELIX        10     14       {ECO:0000244|PDB:1NSW}.
+FT   STRAND       15     18       {ECO:0000244|PDB:1NSW}.
+FT   STRAND       20     25       {ECO:0000244|PDB:1NSW}.
+FT   HELIX        30     45       {ECO:0000244|PDB:1NSW}.
+FT   TURN         47     49       {ECO:0000244|PDB:1NSW}.
+FT   STRAND       51     56       {ECO:0000244|PDB:1NSW}.
+FT   TURN         57     59       {ECO:0000244|PDB:1NSW}.
+FT   HELIX        61     66       {ECO:0000244|PDB:1NSW}.
+FT   STRAND       71     79       {ECO:0000244|PDB:1NSW}.
+FT   STRAND       82     89       {ECO:0000244|PDB:1NSW}.
+FT   HELIX        93     99       {ECO:0000244|PDB:1NSW}.
+FT   TURN        100    104       {ECO:0000244|PDB:1NSW}.
+SQ   SEQUENCE   105 AA;  11576 MW;  E03F636DFB3C3745 CRC64;
+     ATMTLTDANF QQAIQGDKPV LVDFWAAWCG PCRMMAPVLE EFAEAHADKV TVAKLNVDEN
+     PETTSQFGIM SIPTLILFKG GRPVKQLIGY QPKEQLEAQL ADVLQ
+//

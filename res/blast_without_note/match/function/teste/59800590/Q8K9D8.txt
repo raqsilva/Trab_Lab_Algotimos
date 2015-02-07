@@ -1,0 +1,80 @@
+ID   QUED_BUCAP              Reviewed;         120 AA.
+AC   Q8K9D8;
+DT   15-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   07-JAN-2015, entry version 78.
+DE   RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase;
+DE            Short=CPH4 synthase;
+DE            EC=4.1.2.50;
+DE   AltName: Full=Queuosine biosynthesis protein QueD;
+GN   Name=queD; OrderedLocusNames=BUsg_402;
+OS   Buchnera aphidicola subsp. Schizaphis graminum (strain Sg).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=198804;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sg;
+RX   PubMed=12089438; DOI=10.1126/science.1071278;
+RA   Tamas I., Klasson L., Canbaeck B., Naeslund A.K., Eriksson A.-S.,
+RA   Wernegreen J.J., Sandstroem J.P., Moran N.A., Andersson S.G.E.;
+RT   "50 million years of genomic stasis in endosymbiotic bacteria.";
+RL   Science 296:2376-2379(2002).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin
+CC       triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4)
+CC       and acetaldehyde. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate + H(2)O =
+CC       6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PTPS family. QueD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE013218; AAM67953.1; -; Genomic_DNA.
+DR   RefSeq; NP_660742.1; NC_004061.1.
+DR   ProteinModelPortal; Q8K9D8; -.
+DR   SMR; Q8K9D8; 5-119.
+DR   STRING; 198804.BUsg402; -.
+DR   EnsemblBacteria; AAM67953; AAM67953; BUsg_402.
+DR   GeneID; 1005758; -.
+DR   KEGG; bas:BUsg402; -.
+DR   PATRIC; 21247630; VBIBucAph100086_0415.
+DR   eggNOG; COG0720; -.
+DR   KO; K01737; -.
+DR   OMA; WIRDFSE; -.
+DR   OrthoDB; EOG6FFSCJ; -.
+DR   BioCyc; BAPH198804:GHMG-425-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000416; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+DR   PIRSF; PIRSF006113; PTP_synth; 1.
+DR   TIGRFAMs; TIGR03367; queuosine_QueD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Queuosine biosynthesis; Zinc.
+FT   CHAIN         1    120       6-carboxy-5,6,7,8-tetrahydropterin
+FT                                synthase.
+FT                                /FTId=PRO_0000057921.
+FT   ACT_SITE     26     26       Proton acceptor. {ECO:0000250}.
+FT   ACT_SITE     70     70       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    109    109       Charge relay system. {ECO:0000250}.
+FT   METAL        15     15       Zinc. {ECO:0000250}.
+FT   METAL        30     30       Zinc. {ECO:0000250}.
+FT   METAL        32     32       Zinc. {ECO:0000250}.
+SQ   SEQUENCE   120 AA;  14273 MW;  38840ED621058DB3 CRC64;
+     MKTIIFKDFQ FEAAHYLPYV PKMHKCRRLH GHSFFVRLEL KDKINEKNGW IIDYAEIKLA
+     FQPIYDQLDH HFLNDIPGLE NPTSEILAKW IWHRLKPKLS ILNTIIIKET CTSGCIYQGF
+//

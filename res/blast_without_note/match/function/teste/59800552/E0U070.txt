@@ -1,0 +1,103 @@
+ID   GLMS_BACPZ              Reviewed;         600 AA.
+AC   E0U070; P39754;
+DT   11-JAN-2011, integrated into UniProtKB/Swiss-Prot.
+DT   02-NOV-2010, sequence version 1.
+DT   04-FEB-2015, entry version 33.
+DE   RecName: Full=Glutamine--fructose-6-phosphate aminotransferase [isomerizing];
+DE            EC=2.6.1.16;
+DE   AltName: Full=D-fructose-6-phosphate amidotransferase;
+DE   AltName: Full=GFAT;
+DE   AltName: Full=Glucosamine-6-phosphate synthase;
+DE   AltName: Full=Hexosephosphate aminotransferase;
+DE   AltName: Full=L-glutamine--D-fructose-6-phosphate amidotransferase;
+GN   Name=glmS; OrderedLocusNames=BSUW23_00920;
+OS   Bacillus subtilis subsp. spizizenii (strain ATCC 23059 / NRRL B-14472
+OS   / W23).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=655816;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23059 / NRRL B-14472 / W23;
+RA   Zeigler D.R.;
+RT   "Complete genome sequence of Bacillus subtilis subsp. spizizenii str.
+RT   W23.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 471-600.
+RC   STRAIN=ATCC 23059 / NRRL B-14472 / W23;
+RX   PubMed=8376346;
+RA   Morohoshi F., Hayashi K., Munakata N.;
+RT   "Bacillus subtilis alkA gene encoding inducible 3-methyladenine DNA
+RT   glycosylase is adjacent to the ada operon.";
+RL   J. Bacteriol. 175:6010-6017(1993).
+CC   -!- FUNCTION: Catalyzes the first step in hexosamine metabolism,
+CC       converting fructose-6P into glucosamine-6P using glutamine as a
+CC       nitrogen source. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamine + D-fructose 6-phosphate = L-
+CC       glutamate + D-glucosamine 6-phosphate.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 glutamine amidotransferase type-2 domain.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 SIS domains. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002183; ADM36241.1; -; Genomic_DNA.
+DR   EMBL; D21199; BAA04741.1; -; Genomic_DNA.
+DR   RefSeq; WP_003223659.1; NC_014479.1.
+DR   RefSeq; YP_003864551.1; NC_014479.1.
+DR   ProteinModelPortal; E0U070; -.
+DR   EnsemblBacteria; ADM36241; ADM36241; BSUW23_00920.
+DR   GeneID; 9721147; -.
+DR   KEGG; bss:BSUW23_00920; -.
+DR   PATRIC; 42186358; VBIBacSub57968_0187.
+DR   HOGENOM; HOG000258896; -.
+DR   KO; K00820; -.
+DR   OMA; SEFRYAP; -.
+DR   BioCyc; BSUB655816:GCOR-217-MONOMER; -.
+DR   Proteomes; UP000002233; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004360; F:glutamine-fructose-6-phosphate transaminase (isomerizing) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016051; P:carbohydrate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.60.20.10; -; 1.
+DR   HAMAP; MF_00164; GlmS; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR005855; GlmS_trans.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR001347; SIS.
+DR   PANTHER; PTHR10937:SF0; PTHR10937:SF0; 1.
+DR   Pfam; PF01380; SIS; 2.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   TIGRFAMs; TIGR01135; glmS; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+DR   PROSITE; PS51464; SIS; 2.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Complete proteome; Cytoplasm;
+KW   Glutamine amidotransferase; Repeat; Transferase.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    600       Glutamine--fructose-6-phosphate
+FT                                aminotransferase [isomerizing].
+FT                                /FTId=PRO_0000403658.
+FT   DOMAIN        2    217       Glutamine amidotransferase type-2.
+FT   DOMAIN      283    422       SIS 1.
+FT   DOMAIN      452    590       SIS 2.
+FT   ACT_SITE      2      2       Nucleophile; for GATase activity.
+FT                                {ECO:0000250}.
+FT   ACT_SITE    595    595       For Fru-6P isomerization activity.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   600 AA;  65339 MW;  77E64F17C7E68919 CRC64;
+     MCGIVGYIGQ LDAKEILLKG LEKLEYRGYD SAGIAVANEQ GIHVFKEKGR IADLREVVDA
+     NIEAKAGIGH TRWATHGEPS YLNAHPHQSA LGRFTLVHNG VIENYVQLKQ EYLQDVELKS
+     DTDTEVVVQV IEQFVNGGLD TEEAFRKTLT LLKGSYAIAL FDNENRETIF VAKNKSPLLV
+     GLGDTFNVVA SDAMAMLQVT NEYVELMDKE MVIVTDDQVV IKNLDGDVIS RASYIAELDA
+     SDIEKGTYPH YMLKETDEQP VVMRKIIQTY QDENGKLSVP GDIAAAVAEA DRIYIIGCGT
+     SYHAGLVGKQ YIEMWANVPV EVHVASEFSY NMPLLSKKPL FIFLSQSGET ADSRAVLVQV
+     KALGHKALTI TNVPGSTLSR EADYTLLLHA GPEIAVASTK AYTAQIAVLA VLASVAADKN
+     GIDIGFDLVK ELGIAANAME ALCDQKDEME MIAREYLTVS RNAFFIGRGL DYFVCVEGAL
+     KLKEISYIQA EGFAGGELKH GTIALIEQGT PVFALATQEH VNLSIRGNVK EVAARGANTC
+     IISLKGLDDA DDRFVLPEVN PALAPLVSVV PLQLIAYYAA LHRGCDVDKP RNLAKSVTVE
+//

@@ -1,0 +1,144 @@
+ID   TDH_THEKO               Reviewed;         350 AA.
+AC   Q5JI69;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=Probable L-threonine 3-dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00627};
+DE            EC=1.1.1.103 {ECO:0000255|HAMAP-Rule:MF_00627};
+GN   Name=tdh {ECO:0000255|HAMAP-Rule:MF_00627}; OrderedLocusNames=TK0916;
+OS   Thermococcus kodakaraensis (strain ATCC BAA-918 / JCM 12380 / KOD1)
+OS   (Pyrococcus kodakaraensis (strain KOD1)).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Thermococcus.
+OX   NCBI_TaxID=69014;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-918 / JCM 12380 / KOD1;
+RX   PubMed=15710748; DOI=10.1101/gr.3003105;
+RA   Fukui T., Atomi H., Kanai T., Matsumi R., Fujiwara S., Imanaka T.;
+RT   "Complete genome sequence of the hyperthermophilic archaeon
+RT   Thermococcus kodakaraensis KOD1 and comparison with Pyrococcus
+RT   genomes.";
+RL   Genome Res. 15:352-363(2005).
+CC   -!- CATALYTIC ACTIVITY: L-threonine + NAD(+) = L-2-amino-3-
+CC       oxobutanoate + NADH. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00627};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00627};
+CC   -!- PATHWAY: Amino-acid degradation; L-threonine degradation via
+CC       oxydo-reductase pathway; glycine from L-threonine: step 1/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP006878; BAD85105.1; -; Genomic_DNA.
+DR   RefSeq; YP_183329.1; NC_006624.1.
+DR   PDB; 3GFB; X-ray; 2.40 A; A/B/C/D=1-350.
+DR   PDBsum; 3GFB; -.
+DR   ProteinModelPortal; Q5JI69; -.
+DR   SMR; Q5JI69; 3-345.
+DR   STRING; 69014.TK0916; -.
+DR   EnsemblBacteria; BAD85105; BAD85105; TK0916.
+DR   GeneID; 3234058; -.
+DR   KEGG; tko:TK0916; -.
+DR   eggNOG; COG1063; -.
+DR   HOGENOM; HOG000294686; -.
+DR   InParanoid; Q5JI69; -.
+DR   KO; K00060; -.
+DR   OMA; FELMRAG; -.
+DR   BioCyc; TKOD69014:GH72-929-MONOMER; -.
+DR   UniPathway; UPA00046; UER00505.
+DR   EvolutionaryTrace; Q5JI69; -.
+DR   Proteomes; UP000000536; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008743; F:L-threonine 3-dehydrogenase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019518; P:L-threonine catabolic process to glycine; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   HAMAP; MF_00627; Thr_dehydrog; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR004627; L-Threonine_3-DHase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   TIGRFAMs; TIGR00692; tdh; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Cytoplasm; Metal-binding; NAD;
+KW   Oxidoreductase; Reference proteome; Zinc.
+FT   CHAIN         1    350       Probable L-threonine 3-dehydrogenase.
+FT                                /FTId=PRO_0000160878.
+FT   METAL        42     42       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL        67     67       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL        97     97       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       100    100       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       103    103       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       111    111       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       152    152       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   STRAND        4     10       {ECO:0000244|PDB:3GFB}.
+FT   STRAND       12     16       {ECO:0000244|PDB:3GFB}.
+FT   STRAND       18     23       {ECO:0000244|PDB:3GFB}.
+FT   STRAND       31     41       {ECO:0000244|PDB:3GFB}.
+FT   HELIX        43     50       {ECO:0000244|PDB:3GFB}.
+FT   HELIX        53     58       {ECO:0000244|PDB:3GFB}.
+FT   STRAND       61     64       {ECO:0000244|PDB:3GFB}.
+FT   STRAND       68     76       {ECO:0000244|PDB:3GFB}.
+FT   STRAND       88     91       {ECO:0000244|PDB:3GFB}.
+FT   STRAND       98    100       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       101    104       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      114    116       {ECO:0000244|PDB:3GFB}.
+FT   TURN        117    119       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      126    132       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       133    135       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      136    138       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       145    149       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       151    161       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      171    174       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       178    189       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      193    198       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       202    211       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      214    217       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       219    221       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       224    231       {ECO:0000244|PDB:3GFB}.
+FT   TURN        232    234       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      237    242       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       247    256       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      257    265       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      273    275       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       277    280       {ECO:0000244|PDB:3GFB}.
+FT   TURN        281    285       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      287    290       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       298    308       {ECO:0000244|PDB:3GFB}.
+FT   TURN        315    317       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      318    323       {ECO:0000244|PDB:3GFB}.
+FT   TURN        324    327       {ECO:0000244|PDB:3GFB}.
+FT   HELIX       328    336       {ECO:0000244|PDB:3GFB}.
+FT   STRAND      341    347       {ECO:0000244|PDB:3GFB}.
+SQ   SEQUENCE   350 AA;  38101 MW;  047A8ACF9FF479AA CRC64;
+     MAEKMQAIMK TKPAYGAELV EVDVPKPGPG EVLIKVLATS ICGTDLHIYE WNEWAQSRIK
+     PPQIMGHEVA GEVVEVGPGV EDLQVGDYIS VETHIVCGKC YACKHNRYHV CQNTKIFGVD
+     MDGVFAHYAI VPAKNAWKNP KDMPPEYAAL QEPLGNAVDT VLAGPIAGRS TLITGAGPLG
+     LLGIAVAKAS GAYPVIVSEP SEFRRKLAKK VGADYVVNPF EEDPVKFVMD ITDGAGVEVF
+     LEFSGAPKAL EQGLKAVTPG GRVSLLGLFP REVTIDFNNL IIFKALEVHG ITGRHLWETW
+     YTVSSLIQSG KLNLDPIITH KYKGFDKFEE AFELMRAGKT GKVVFFPHKG
+//

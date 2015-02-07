@@ -1,0 +1,181 @@
+ID   HFA1_YEAS1              Reviewed;        2273 AA.
+AC   B3LM95;
+DT   02-MAR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAR-2010, sequence version 2.
+DT   07-JAN-2015, entry version 28.
+DE   RecName: Full=Acetyl-CoA carboxylase, mitochondrial;
+DE            Short=ACC;
+DE            EC=6.4.1.2;
+DE   Includes:
+DE     RecName: Full=Biotin carboxylase;
+DE              EC=6.3.4.14;
+DE   Flags: Precursor;
+GN   Name=HFA1; ORFNames=SCRG_02101;
+OS   Saccharomyces cerevisiae (strain RM11-1a) (Baker's yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+OC   Saccharomycetes; Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=285006;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RM11-1a;
+RG   The Broad Institute Genome Sequencing Platform;
+RA   Birren B.W., Lander E.S., Galagan J.E., Nusbaum C., Devon K.,
+RA   Cuomo C., Jaffe D.B., Butler J., Alvarez P., Gnerre S., Grabherr M.,
+RA   Kleber M., Mauceli E.W., Brockman W., MacCallum I.A., Rounsley S.,
+RA   Young S.K., LaButti K., Pushparaj V., DeCaprio D., Crawford M.,
+RA   Koehrsen M., Engels R., Montgomery P., Pearson M., Howarth C.,
+RA   Larson L., Luoma S., White J., O'Leary S., Kodira C.D., Zeng Q.,
+RA   Yandava C., Alvarado L., Pratt S., Kruglyak L.;
+RT   "Annotation of the Saccharomyces cerevisiae RM11-1a genome.";
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the rate-limiting reaction in the
+CC       mitochondrial fatty acid synthesis (FAS) type II pathway.
+CC       Responsible for the production of the mitochondrial malonyl-CoA,
+CC       used for the biosynthesis of the cofactor lipoic acid. This
+CC       protein carries three functions: biotin carboxyl carrier protein,
+CC       biotin carboxylase, and carboxyltransferase (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + acetyl-CoA + HCO(3)(-) = ADP + phosphate
+CC       + malonyl-CoA.
+CC   -!- CATALYTIC ACTIVITY: ATP + biotin-[carboxyl-carrier-protein] +
+CC       CO(2) = ADP + phosphate + carboxy-biotin-[carboxyl-carrier-
+CC       protein].
+CC   -!- COFACTOR:
+CC       Name=biotin; Xref=ChEBI:CHEBI:57586; Evidence={ECO:0000250};
+CC       Note=Biotin. {ECO:0000250};
+CC   -!- PATHWAY: Lipid metabolism; malonyl-CoA biosynthesis; malonyl-CoA
+CC       from acetyl-CoA: step 1/1.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 ATP-grasp domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00409}.
+CC   -!- SIMILARITY: Contains 1 biotin carboxylation domain. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 biotinyl-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01066, ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 carboxyltransferase domain. {ECO:0000305}.
+CC   -!- CAUTION: The reading frame from which this protein is translated
+CC       has no Met initiation codon near to the 5'-end. However, it is not
+CC       a pseudogene. It has been shown that at least 72 residues upstream
+CC       of the first in-frame start codon (Met-151) are required for
+CC       function and proper subcellular location. May be translated by
+CC       means of alternative initiation codon usage, programmed
+CC       translational frame shifting, or mRNA editing. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=EDV11698.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CH408047; EDV11698.1; ALT_INIT; Genomic_DNA.
+DR   ProteinModelPortal; B3LM95; -.
+DR   OrthoDB; EOG74J9H5; -.
+DR   UniPathway; UPA00655; UER00711.
+DR   Proteomes; UP000008335; Unassembled WGS sequence.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003989; F:acetyl-CoA carboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004075; F:biotin carboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:InterPro.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:2001295; P:malonyl-CoA biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   Gene3D; 3.30.470.20; -; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.90.226.10; -; 3.
+DR   InterPro; IPR013537; AcCoA_COase_cen.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR001882; Biotin_BS.
+DR   InterPro; IPR011764; Biotin_carboxylation_dom.
+DR   InterPro; IPR005482; Biotin_COase_C.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR005481; CarbamoylP_synth_lsu_N.
+DR   InterPro; IPR000022; Carboxyl_trans.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom.
+DR   InterPro; IPR011763; COA_CT_C.
+DR   InterPro; IPR011762; COA_CT_N.
+DR   InterPro; IPR016185; PreATP-grasp_dom.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   Pfam; PF08326; ACC_central; 1.
+DR   Pfam; PF02785; Biotin_carb_C; 1.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   Pfam; PF01039; Carboxyl_trans; 1.
+DR   Pfam; PF00289; CPSase_L_chain; 1.
+DR   Pfam; PF02786; CPSase_L_D2; 1.
+DR   SMART; SM00878; Biotin_carb_C; 1.
+DR   SUPFAM; SSF51230; SSF51230; 1.
+DR   SUPFAM; SSF51246; SSF51246; 1.
+DR   SUPFAM; SSF52096; SSF52096; 2.
+DR   SUPFAM; SSF52440; SSF52440; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS50979; BC; 1.
+DR   PROSITE; PS00188; BIOTIN; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS50989; COA_CT_CTER; 1.
+DR   PROSITE; PS50980; COA_CT_NTER; 1.
+DR   PROSITE; PS00866; CPSASE_1; 1.
+DR   PROSITE; PS00867; CPSASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Biotin; Complete proteome; Fatty acid biosynthesis;
+KW   Fatty acid metabolism; Ligase; Lipid biosynthesis; Lipid metabolism;
+KW   Mitochondrion; Multifunctional enzyme; Nucleotide-binding;
+KW   Transit peptide.
+FT   TRANSIT       1    104       Mitochondrion. {ECO:0000255}.
+FT   CHAIN       105   2273       Acetyl-CoA carboxylase, mitochondrial.
+FT                                /FTId=PRO_0000392099.
+FT   DOMAIN      134    635       Biotin carboxylation.
+FT   DOMAIN      292    484       ATP-grasp. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00409}.
+FT   DOMAIN      763    837       Biotinyl-binding. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01066}.
+FT   DOMAIN     1648   2147       Carboxyltransferase.
+FT   NP_BIND     332    337       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00409}.
+FT   ACT_SITE    459    459       {ECO:0000250}.
+FT   BINDING    1776   1776       Coenzyme A. {ECO:0000250}.
+FT   BINDING    2080   2080       Coenzyme A. {ECO:0000250}.
+FT   BINDING    2082   2082       Coenzyme A. {ECO:0000250}.
+FT   MOD_RES     804    804       N6-biotinyllysine. {ECO:0000250,
+FT                                ECO:0000255|PROSITE-ProRule:PRU01066}.
+SQ   SEQUENCE   2273 AA;  259111 MW;  724744FD30ABA505 CRC64;
+     KGKTITHGQS WGARRIHSHF YITIFTITCI RIGQYKLALY LDPYRFYNIT GSQIVRLKGQ
+     RPEYRKRIFA HSYRHSSRIG LNFPSRRRYS NYVDRGNIHK HTRLPPQFIG LNTVESAQPS
+     ILRDFVDLRG GHTVISKILI ANNGIAAVKE MRSIRKWAYE TFNDEKIIQF VVMATPDDLH
+     ANSEYIRMAD QYVQVPGGTN NNNYANIDLI LDVAEQTDVD AVWAGWGHAS ENPCLPELLA
+     SSQRKILFIG PPGRAMRSLG DKISSTIVAQ SAKIPCIPWS GSHIDTIHID NKTNFVSVPD
+     DVYVRGCCSS PEDALEKAKL IGFPVMIKAS EGGGGKGIRR VDNQDDFIAL YRQAVNETPG
+     SPMFVMKVVT DARHLEVQLL ADQYGTNITL FGRDCSIQRR HQKIIEEAPV TITKPETFQR
+     MERAAIRLGE LVGYVSAGTV EYLYSPKDDK FYFLELNPRL QVEHPTTEMI SGVNLPATQL
+     QIAMGIPMHM ISDIRKLYGL DPTGTSYIDF KNLKRPSPKG HCISCRITSE DPNEGFKPST
+     GKIHELNFRS SSNVWGYFSV GNNGAIHSFS DSQFGHIFAV GNDRQDAKQN MVLALKDFSI
+     RGEFKTPIEY LTELLETRDF ESNNISTGWL DDLILKNLSS DSKLDPTLAI ICGAAMKAYV
+     FTEKVRNKYL ELLRRGQVPP KDFLKTKFPV DFIFDNNKYL FNVAQSSEEQ FILSINKSQC
+     EVNVQKLSSD CLLISVDGKC HTVYWKDDIR GTRLSIDSNT IFLEAELNPT QVISPTPGKL
+     VKYLVRSGDH VFAGQQYAEI EIMKMQMPLV AKSDGVIELL RQPGSIIEAG DVIAKLTLDS
+     PSKANESSLY RGELPVLGPP LIEGSRPNHK LRVLINRLEN ILNGYHENSG IETTLKELIK
+     ILRDGRLPYS EWDSQISTVR NRLPRQLNEG LGNLVKKSVS FPAKELHKLM KRYLEENTND
+     HVVYVALQPL LKISERYSEG LANHECEIFL KLIKKYYAVE KIFENHDIHE ERNLLNLRRK
+     DLTNLKEILC ISLSHANIVA KNKLVTAILH EYEPLCQDSS KMSLKFRAVI HDLASLESKW
+     AKEVAVKARS VLLRGIFPPI KKRKEHIKTL LQLHIKDTGA ENIHSRNIYS CMRDFGNLIH
+     SNLIQLQDLF FFFGHQDTAL SSIASEIYAR YAYGNYQLKS IKIHKGAPDL LMSWQFSSLR
+     NYLVNPDGES DGFTKLSKPP STSGKSSANS FGLLVNMRAL ESLEKTLDEV YEQIHIPEER
+     LSSGENSLIV NILSPIRYRS ENDLIKTLKI KLHENERGLS KLKVNRITFA FIAANAPAVK
+     FYSFDGTTYD EIPQIRNMDP SYEAPLELGK MSNYKIRSLP TYDSSIRIFE GISKFTPLDK
+     RFFVRKIINS FMYNDQKTTE ENLKAEINAQ VVYMLEHLGA VDISNSDLNH IFLSFNTVLN
+     IPVHRLEEIV STILKTHETR LFQERITDVE ICISVECLET KKPAPLRLLI SNKSGYVVKI
+     ETYYEKIGKN GNLILEPCSE QSHYSQKSLS LPYSVKDWLQ PKRYKAQFMG TTYVYDFPGL
+     FHQAAIQQWK RYFPKHKLND SFFSWVELIE QNGNLIKVNR EPGLNNIGMV AFEIMVQTPE
+     YPEGRNMIVI SNDITYNIGS FGPREDLFFD RVTNYARERG IPRIYLAANS GAKLGIAEEL
+     IPLFRVAWND PSDPTKGFQY LYLAPKDMQL LKDSGKGNSV VVEHKMVYGE ERYIIKAIVG
+     FEEGLGVECL QGSGLIAGAT SKAYREIFTI TAVTCRSVGI GSYLVRLGQR TIQVEDKPII
+     LTGASAINKV LGTDIYISNL QIGGTQIMYK NGIAHLTASN DMKAIEKIMT WLSYVPAKRD
+     MSPPLLETMD RWDRDVDFKP AKQVPYEARW LIEGKWDSNN NFQSGLFDKD SFFETLSGWA
+     KGVIVGRARL GGIPVGVIAV ETKTIEEIIP ADPANLDSSE FSVKEAGQVW YPNSAFKTAQ
+     TINDFNYGEQ LPLIILANWR GFSGGQRDMY NEVLKYGSFI VDALVDYKQP ILIYIPPFGE
+     LRGGSWVVID PTINPEQMEM YADVESRGGV LEPDGVVSIK YRKEKMIETM IRLDSTYGHL
+     RRTLTEKKLS LEKQNDLTKR LKIRERQLIP IYNQISIQFA DLHDRSTRML VKGVIRNELE
+     WKKSRRFLYW RLRRRLNEGQ VIKRLQKKTC DNKTKMKYDD LLKIVQSWYN DLDVNDDRAV
+     VEFIERNSKK IDKNIEEFEI SLLIDELKKK FEDRRGNIVL EELTRLVDSK RKR
+//

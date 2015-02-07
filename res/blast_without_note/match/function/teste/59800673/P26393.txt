@@ -1,0 +1,197 @@
+ID   RMLA_SALTY              Reviewed;         292 AA.
+AC   P26393;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   07-JAN-2015, entry version 112.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase;
+DE            EC=2.7.7.24;
+DE   AltName: Full=dTDP-glucose pyrophosphorylase;
+DE            Short=Ep;
+DE   AltName: Full=dTDP-glucose synthase;
+GN   Name=rmlA; Synonyms=rfbA; OrderedLocusNames=STM2095;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT2;
+RX   PubMed=1710759; DOI=10.1111/j.1365-2958.1991.tb00741.x;
+RA   Jiang X.-M., Neal B., Santiago F., Lee S.J., Romana L.K., Reeves P.R.;
+RT   "Structure and sequence of the rfb (O antigen) gene cluster of
+RT   Salmonella serovar typhimurium (strain LT2).";
+RL   Mol. Microbiol. 5:695-713(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-22, AND FUNCTION.
+RC   STRAIN=LT2;
+RX   PubMed=8382158; DOI=10.1111/j.1432-1033.1993.tb17607.x;
+RA   Lindquist L., Kaiser R., Reeves P.R., Lindberg A.A.;
+RT   "Purification, characterization and HPLC assay of Salmonella glucose-
+RT   1-phosphate thymidylyltransferase from the cloned rfbA gene.";
+RL   Eur. J. Biochem. 211:763-770(1993).
+RN   [4]
+RP   CHARACTERIZATION, MUTAGENESIS OF THR-201 AND TRP-224, AND X-RAY
+RP   CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF COMPLEXES WITH UDP-GLC AND DTTP.
+RC   STRAIN=LT2;
+RX   PubMed=11373625; DOI=10.1038/88618;
+RA   Barton W.A., Lesniak J., Biggins J.B., Jeffrey P.D., Jiang J.,
+RA   Rajashankar K.R., Thorson J.S., Nikolov D.B.;
+RT   "Structure, mechanism and engineering of a nucleotidylyltransferase as
+RT   a first step toward glycorandomization.";
+RL   Nat. Struct. Biol. 8:545-551(2001).
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis. Is also
+CC       able to convert non natural substrates such as a wide array of
+CC       alpha-D-hexopyranosyl, deoxy-alpha-D-glucopyranosyl, aminodeoxy-
+CC       alpha-D-hexopyranosyl and acetamidodeoxy-alpha-D-hexopyranosyl
+CC       phosphates to their corresponding dTDP- and UDP-nucleotide sugars.
+CC       {ECO:0000269|PubMed:8382158}.
+CC   -!- CATALYTIC ACTIVITY: dTTP + alpha-D-glucose 1-phosphate =
+CC       diphosphate + dTDP-alpha-D-glucose.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000305};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.7 mM for dTTP;
+CC         KM=0.3 mM for G1P;
+CC   -!- PATHWAY: Carbohydrate biosynthesis; dTDP-L-rhamnose biosynthesis.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS O-antigen
+CC       biosynthesis.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate
+CC       thymidylyltransferase family. {ECO:0000305}.
+CC   -!- CAUTION: The position of the magnesium ion observed in the
+CC       crystallographic structure is different from that observed in the
+CC       structure of E.coli RmlA2 (RffH) and does not seem to correspond
+CC       to the binding site for the catalytically essential magnesium ion.
+CC       Therefore, we choose to propagate in the feature lines the
+CC       positions found in the E.coli structure. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X56793; CAA40117.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL20999.1; -; Genomic_DNA.
+DR   PIR; S15301; S15301.
+DR   RefSeq; NP_461040.1; NC_003197.1.
+DR   RefSeq; WP_000857529.1; NC_003197.1.
+DR   PDB; 1IIM; X-ray; 2.10 A; A/B=1-292.
+DR   PDB; 1IIN; X-ray; 2.10 A; A/B/C/D=1-292.
+DR   PDB; 1MP3; X-ray; 2.20 A; A/B=1-292.
+DR   PDB; 1MP4; X-ray; 2.20 A; A/B=1-292.
+DR   PDB; 1MP5; X-ray; 2.75 A; A/B/C/D=1-292.
+DR   PDB; 3PKP; X-ray; 2.60 A; A/B/C/D/I/J/K/L=1-292.
+DR   PDB; 3PKQ; X-ray; 2.40 A; A/B/C/D=1-292.
+DR   PDBsum; 1IIM; -.
+DR   PDBsum; 1IIN; -.
+DR   PDBsum; 1MP3; -.
+DR   PDBsum; 1MP4; -.
+DR   PDBsum; 1MP5; -.
+DR   PDBsum; 3PKP; -.
+DR   PDBsum; 3PKQ; -.
+DR   ProteinModelPortal; P26393; -.
+DR   SMR; P26393; 1-289.
+DR   STRING; 99287.STM2095; -.
+DR   PaxDb; P26393; -.
+DR   PRIDE; P26393; -.
+DR   EnsemblBacteria; AAL20999; AAL20999; STM2095.
+DR   GeneID; 1253616; -.
+DR   KEGG; stm:STM2095; -.
+DR   PATRIC; 32382773; VBISalEnt20916_2217.
+DR   eggNOG; COG1209; -.
+DR   HOGENOM; HOG000283473; -.
+DR   KO; K00973; -.
+DR   OMA; PHDAEQF; -.
+DR   OrthoDB; EOG6RC3RN; -.
+DR   PhylomeDB; P26393; -.
+DR   BioCyc; SENT99287:GCTI-2107-MONOMER; -.
+DR   SABIO-RK; P26393; -.
+DR   UniPathway; UPA00124; -.
+DR   UniPathway; UPA00281; -.
+DR   EvolutionaryTrace; P26393; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0019305; P:dTDP-rhamnose biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0009243; P:O antigen biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   PANTHER; PTHR22572:SF13; PTHR22572:SF13; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR01207; rmlA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Direct protein sequencing;
+KW   Lipopolysaccharide biosynthesis; Magnesium; Metal-binding;
+KW   Nucleotidyltransferase; Reference proteome; Transferase.
+FT   CHAIN         1    292       Glucose-1-phosphate
+FT                                thymidylyltransferase.
+FT                                /FTId=PRO_0000207995.
+FT   METAL       111    111       Magnesium. {ECO:0000250}.
+FT   METAL       226    226       Magnesium. {ECO:0000250}.
+FT   MUTAGEN     201    201       T->A: Two-fold increase in the conversion
+FT                                of 2-acetamido-2-deoxy-alpha-D-
+FT                                glucopyranosyl phosphate.
+FT                                {ECO:0000269|PubMed:11373625}.
+FT   MUTAGEN     224    224       W->H: Is able to convert both 6-
+FT                                acetamido-6-deoxy-alpha-D-glucopyranosyl
+FT                                phosphate and alpha-D-glucopyranuronic
+FT                                acid 1-(dihydrogen phosphate), which are
+FT                                not accepted by the wild-type.
+FT                                {ECO:0000269|PubMed:11373625}.
+FT   STRAND        5      9       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        15     17       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        20     22       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        26     28       {ECO:0000244|PDB:1IIM}.
+FT   STRAND       29     31       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        38     46       {ECO:0000244|PDB:1IIM}.
+FT   STRAND       51     56       {ECO:0000244|PDB:1IIM}.
+FT   TURN         58     60       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        61     68       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        72     74       {ECO:0000244|PDB:1IIM}.
+FT   STRAND       77     82       {ECO:0000244|PDB:1IIM}.
+FT   STRAND       84     87       {ECO:0000244|PDB:3PKP}.
+FT   HELIX        89     91       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        92     95       {ECO:0000244|PDB:1IIM}.
+FT   HELIX        97    100       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      105    109       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      112    115       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       119    128       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      131    139       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       143    145       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      146    151       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      153    155       {ECO:0000244|PDB:1IIN}.
+FT   STRAND      157    163       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      168    179       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       183    189       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       200    209       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      213    217       {ECO:0000244|PDB:1IIM}.
+FT   STRAND      222    226       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       230    247       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       254    260       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       266    273       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       274    276       {ECO:0000244|PDB:1IIM}.
+FT   HELIX       280    288       {ECO:0000244|PDB:1IIM}.
+SQ   SEQUENCE   292 AA;  32453 MW;  11065BA9DF2B0268 CRC64;
+     MKTRKGIILA GGSGTRLYPV TMAVSKQLLP IYDKPMIYYP LSTLMLAGIR DILIISTPQD
+     TPRFQQLLGD GSQWGLNLQY KVQPSPDGLA QAFIIGEEFI GHDDCALVLG DNIFYGHDLP
+     KLMEAAVNKE SGATVFAYHV NDPERYGVVE FDQKGTAVSL EEKPLQPKSN YAVTGLYFYD
+     NSVVEMAKNL KPSARGELEI TDINRIYMEQ GRLSVAMMGR GYAWLDTGTH QSLIEASNFI
+     ATIEERQGLK VSCPEEIAFR KNFINAQQVI ELAGPLSKND YGKYLLKMVK GL
+//

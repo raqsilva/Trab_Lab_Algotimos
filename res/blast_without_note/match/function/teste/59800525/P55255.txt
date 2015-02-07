@@ -1,0 +1,113 @@
+ID   RMLA_NEIMB              Reviewed;         288 AA.
+AC   P55255;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 2.
+DT   07-JAN-2015, entry version 89.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase;
+DE            EC=2.7.7.24;
+DE   AltName: Full=dTDP-glucose pyrophosphorylase;
+DE   AltName: Full=dTDP-glucose synthase;
+GN   Name=rmlA1; Synonyms=rfbA1; OrderedLocusNames=NMB0062;
+GN   and
+GN   Name=rmlA2; Synonyms=rfbA2; OrderedLocusNames=NMB0080;
+OS   Neisseria meningitidis serogroup B (strain MC58).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=122586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=B1940 / Serogroup B;
+RX   PubMed=8022265; DOI=10.1111/j.1365-2958.1994.tb00367.x;
+RA   Hammerschmidt S., Birkholz C., Zaehringer U., Robertson B.D.,
+RA   van Putten J.P.M., Ebeling O., Frosch M.;
+RT   "Contribution of genes from the capsule gene complex (cps) to
+RT   lipooligosaccharide biosynthesis and serum resistance in Neisseria
+RT   meningitidis.";
+RL   Mol. Microbiol. 11:885-896(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MC58;
+RX   PubMed=10710307; DOI=10.1126/science.287.5459.1809;
+RA   Tettelin H., Saunders N.J., Heidelberg J.F., Jeffries A.C.,
+RA   Nelson K.E., Eisen J.A., Ketchum K.A., Hood D.W., Peden J.F.,
+RA   Dodson R.J., Nelson W.C., Gwinn M.L., DeBoy R.T., Peterson J.D.,
+RA   Hickey E.K., Haft D.H., Salzberg S.L., White O., Fleischmann R.D.,
+RA   Dougherty B.A., Mason T.M., Ciecko A., Parksey D.S., Blair E.,
+RA   Cittone H., Clark E.B., Cotton M.D., Utterback T.R., Khouri H.M.,
+RA   Qin H., Vamathevan J.J., Gill J., Scarlato V., Masignani V., Pizza M.,
+RA   Grandi G., Sun L., Smith H.O., Fraser C.M., Moxon E.R., Rappuoli R.,
+RA   Venter J.C.;
+RT   "Complete genome sequence of Neisseria meningitidis serogroup B strain
+RT   MC58.";
+RL   Science 287:1809-1815(2000).
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: dTTP + alpha-D-glucose 1-phosphate =
+CC       diphosphate + dTDP-alpha-D-glucose.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate
+CC       thymidylyltransferase family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAC37050.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L09189; AAC37050.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE002098; AAF40530.1; -; Genomic_DNA.
+DR   EMBL; AE002098; AAF40544.1; -; Genomic_DNA.
+DR   PIR; B81240; B81240.
+DR   RefSeq; NP_273126.1; NC_003112.2.
+DR   RefSeq; NP_273143.1; NC_003112.2.
+DR   ProteinModelPortal; P55255; -.
+DR   SMR; P55255; 1-287.
+DR   STRING; 122586.NMB0080; -.
+DR   EnsemblBacteria; AAF40530; AAF40530; NMB0062.
+DR   EnsemblBacteria; AAF40544; AAF40544; NMB0080.
+DR   GeneID; 902169; -.
+DR   GeneID; 902184; -.
+DR   KEGG; nme:NMB0062; -.
+DR   KEGG; nme:NMB0080; -.
+DR   PATRIC; 20355129; VBINeiMen85645_0098.
+DR   eggNOG; COG1209; -.
+DR   HOGENOM; HOG000283473; -.
+DR   KO; K00973; -.
+DR   OMA; WRMGYIS; -.
+DR   OrthoDB; EOG6RC3RN; -.
+DR   BioCyc; NMEN122586:GHGG-68-MONOMER; -.
+DR   BioCyc; NMEN122586:GHGG-86-MONOMER; -.
+DR   Proteomes; UP000000425; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   PANTHER; PTHR22572:SF13; PTHR22572:SF13; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR01207; rmlA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Magnesium; Metal-binding; Nucleotidyltransferase;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    288       Glucose-1-phosphate
+FT                                thymidylyltransferase.
+FT                                /FTId=PRO_0000207998.
+FT   METAL       108    108       Magnesium. {ECO:0000250}.
+FT   METAL       223    223       Magnesium. {ECO:0000250}.
+FT   CONFLICT    125    125       A -> R (in Ref. 1; AAC37050).
+FT                                {ECO:0000305}.
+FT   CONFLICT    198    198       T -> S (in Ref. 1; AAC37050).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   288 AA;  32162 MW;  8A65B50B531F2907 CRC64;
+     MKGIILAGGS GTRLYPITRG VSKQLLPVYD KPMIYYPLSV LMLAGIRDIL VITAPEDNAS
+     FKRLLGDGSD FGISISYAVQ PSPDGLAQAF IIGEEFIGND NVCLVLGDNI FYGQSFTQTL
+     KQAAAQTHGA TVFAYQVKNP ERFGVVEFNE NFRAVSIEEK PQRPKSDWAV TGLYFYDNRA
+     VEFAKQLKPS ARGELEITDL NRMYLEDGSL SVQILGRGFA WLDTGTHESL HEAASFVQTV
+     QNIQNLHIAC LEEIAWRNGW LSDEKLEELA RPMAKNQYGQ YLLRLLKK
+//

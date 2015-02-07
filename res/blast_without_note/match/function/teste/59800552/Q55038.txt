@@ -1,0 +1,138 @@
+ID   PUR1_SYNE7              Reviewed;         493 AA.
+AC   Q55038; Q31SD3;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   07-JAN-2015, entry version 99.
+DE   RecName: Full=Amidophosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01931};
+DE            Short=ATase {ECO:0000255|HAMAP-Rule:MF_01931};
+DE            EC=2.4.2.14 {ECO:0000255|HAMAP-Rule:MF_01931};
+DE   AltName: Full=Glutamine phosphoribosylpyrophosphate amidotransferase {ECO:0000255|HAMAP-Rule:MF_01931};
+DE            Short=GPATase {ECO:0000255|HAMAP-Rule:MF_01931};
+DE   Flags: Precursor;
+GN   Name=purF {ECO:0000255|HAMAP-Rule:MF_01931};
+GN   OrderedLocusNames=Synpcc7942_0004;
+OS   Synechococcus elongatus (strain PCC 7942) (Anacystis nidulans R2).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Synechococcus.
+OX   NCBI_TaxID=1140;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8809759; DOI=10.1111/j.1365-2958.1996.tb02547.x;
+RA   Liu Y., Tsinoremas N.F., Golden S.S., Kondo T., Johnson C.H.;
+RT   "Circadian expression of genes involved in the purine biosynthetic
+RT   pathway of the cyanobacterium Synechococcus sp. strain PCC 7942.";
+RL   Mol. Microbiol. 20:1071-1081(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7942;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Pitluck S., Schmutz J., Larimer F., Land M.,
+RA   Kyrpides N., Lykidis A., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Synechococcus elongatus PCC
+RT   7942.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of phosphoribosylamine from
+CC       phosphoribosylpyrophosphate (PRPP) and glutamine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01931}.
+CC   -!- CATALYTIC ACTIVITY: 5-phospho-beta-D-ribosylamine + diphosphate +
+CC       L-glutamate = L-glutamine + 5-phospho-alpha-D-ribose 1-diphosphate
+CC       + H(2)O. {ECO:0000255|HAMAP-Rule:MF_01931}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01931};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01931};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01931};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01931};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway;
+CC       N(1)-(5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-
+CC       ribose 1-diphosphate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_01931}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the
+CC       purine/pyrimidine phosphoribosyltransferase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01931}.
+CC   -!- SIMILARITY: Contains 1 glutamine amidotransferase type-2 domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01931}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U33211; AAA75107.1; -; Genomic_DNA.
+DR   EMBL; CP000100; ABB56036.1; -; Genomic_DNA.
+DR   PIR; S77612; S77612.
+DR   RefSeq; YP_399023.1; NC_007604.1.
+DR   ProteinModelPortal; Q55038; -.
+DR   STRING; 1140.Synpcc7942_0004; -.
+DR   MEROPS; C44.001; -.
+DR   EnsemblBacteria; ABB56036; ABB56036; Synpcc7942_0004.
+DR   GeneID; 3774224; -.
+DR   KEGG; syf:Synpcc7942_0004; -.
+DR   PATRIC; 23785029; VBISynElo51371_0065.
+DR   eggNOG; COG0034; -.
+DR   HOGENOM; HOG000033688; -.
+DR   KO; K00764; -.
+DR   OrthoDB; EOG6KT2Q1; -.
+DR   BioCyc; SYNEL:SYNPCC7942_0004-MONOMER; -.
+DR   UniPathway; UPA00074; UER00124.
+DR   Proteomes; UP000002717; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004044; F:amidophosphoribosyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009116; P:nucleoside metabolic process; IEA:InterPro.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   Gene3D; 3.60.20.10; -; 1.
+DR   HAMAP; MF_01931; PurF; 1.
+DR   InterPro; IPR005854; Amd_phspho_trans.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   PIRSF; PIRSF000485; Amd_phspho_trans; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   TIGRFAMs; TIGR01134; purF; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; Glutamine amidotransferase;
+KW   Glycosyltransferase; Iron; Iron-sulfur; Magnesium; Metal-binding;
+KW   Purine biosynthesis; Reference proteome; Transferase.
+FT   PROPEP        1     26       {ECO:0000250}.
+FT                                /FTId=PRO_0000029271.
+FT   CHAIN        27    493       Amidophosphoribosyltransferase.
+FT                                /FTId=PRO_0000029272.
+FT   DOMAIN       27    252       Glutamine amidotransferase type-2.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01931}.
+FT   ACT_SITE     27     27       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+FT   METAL       268    268       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+FT   METAL       315    315       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+FT   METAL       377    377       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+FT   METAL       378    378       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+FT   METAL       414    414       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+FT   METAL       465    465       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+FT   METAL       468    468       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_01931}.
+SQ   SEQUENCE   493 AA;  53809 MW;  E03508F8A922910C CRC64;
+     MIPTQPLTAD LDCDLGLERP DRPEEACGVF ALYAPGEEVA RMAYFGLYAL QHRGQESAGI
+     AVFEGDRVML HKDMGLVSQV FDPEILQQLQ GSLAVGHTRY STTGSSRIAN AQPALLETRL
+     GPVALAHNGN LVNTVELRQE LLAKNHELTT TTDSELIAFA IMEAVAEGQD WRGAIESACR
+     RSQGAFSLTI GTPEALYGTR DPNGIRPLVL GTLESNGQTR YVLSSETCGL DIIGADYVRD
+     IAPGEMVRIT DAGLESWTWA EAPQPKLCVF EMIYFARPDS LFHGESLYSY RRRIGQRLAK
+     EAPADVDLVL GVPDSGIPAA IGFSEALGIP YAEGLIKNRY VGRTFIQPTQ SMRETGIRMK
+     LNPLKDVLAG KRIAIIDDSI VRGTTSRKLV KALRDAGATE VHMRISSPPV THPCFYGIDT
+     DTQDQLIAAT RSVSEITEQI GVDSLAYLTE QGMLEATRES IGNFCTACFN GRYPIAIPEE
+     IKRSKLMLET VTA
+//

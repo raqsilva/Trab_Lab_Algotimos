@@ -1,0 +1,135 @@
+ID   PYCA_METJA              Reviewed;         501 AA.
+AC   Q58626;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   04-FEB-2015, entry version 104.
+DE   RecName: Full=Pyruvate carboxylase subunit A;
+DE            EC=6.4.1.1;
+DE   AltName: Full=Pyruvic carboxylase A;
+GN   Name=pycA; OrderedLocusNames=MJ1229;
+OS   Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 /
+OS   JCM 10045 / NBRC 100440) (Methanococcus jannaschii).
+OC   Archaea; Euryarchaeota; Methanococci; Methanococcales;
+OC   Methanocaldococcaceae; Methanocaldococcus.
+OX   NCBI_TaxID=243232;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440;
+RX   PubMed=8688087; DOI=10.1126/science.273.5278.1058;
+RA   Bult C.J., White O., Olsen G.J., Zhou L., Fleischmann R.D.,
+RA   Sutton G.G., Blake J.A., FitzGerald L.M., Clayton R.A., Gocayne J.D.,
+RA   Kerlavage A.R., Dougherty B.A., Tomb J.-F., Adams M.D., Reich C.I.,
+RA   Overbeek R., Kirkness E.F., Weinstock K.G., Merrick J.M., Glodek A.,
+RA   Scott J.L., Geoghagen N.S.M., Weidman J.F., Fuhrmann J.L., Nguyen D.,
+RA   Utterback T.R., Kelley J.M., Peterson J.D., Sadow P.W., Hanna M.C.,
+RA   Cotton M.D., Roberts K.M., Hurst M.A., Kaine B.P., Borodovsky M.,
+RA   Klenk H.-P., Fraser C.M., Smith H.O., Woese C.R., Venter J.C.;
+RT   "Complete genome sequence of the methanogenic archaeon, Methanococcus
+RT   jannaschii.";
+RL   Science 273:1058-1073(1996).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-12, FUNCTION, AND MASS SPECTROMETRY.
+RX   PubMed=11195096; DOI=10.1007/s002030000225;
+RA   Mukhopadhyay B., Patel V.J., Wolfe R.S.;
+RT   "A stable archaeal pyruvate carboxylase from the hyperthermophile
+RT   Methanococcus jannaschii.";
+RL   Arch. Microbiol. 174:406-414(2000).
+CC   -!- FUNCTION: Pyruvate carboxylase catalyzes a 2-step reaction,
+CC       involving the ATP-dependent carboxylation of the covalently
+CC       attached biotin in the first step and the transfer of the carboxyl
+CC       group to pyruvate in the second. {ECO:0000269|PubMed:11195096}.
+CC   -!- CATALYTIC ACTIVITY: ATP + pyruvate + HCO(3)(-) = ADP + phosphate +
+CC       oxaloacetate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC   -!- ENZYME REGULATION: Inhibited by magnesium, when its concentration
+CC       exceeded the ATP one, and by high concentration of ATP and alpha-
+CC       ketoglutarate.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 8.5.;
+CC       Temperature dependence:
+CC         Optimum temperature is 80-90 degrees Celsius.;
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC   -!- SUBUNIT: Heterooctamer of four A and four B subunits.
+CC   -!- MASS SPECTROMETRY: Mass=55500; Method=MALDI; Range=1-501;
+CC       Evidence={ECO:0000269|PubMed:11195096};
+CC   -!- SIMILARITY: Contains 1 ATP-grasp domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00409}.
+CC   -!- SIMILARITY: Contains 1 biotin carboxylation domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L77117; AAB99232.1; -; Genomic_DNA.
+DR   PIR; D64453; D64453.
+DR   RefSeq; NP_248224.1; NC_000909.1.
+DR   ProteinModelPortal; Q58626; -.
+DR   SMR; Q58626; 1-445.
+DR   STRING; 243232.MJ1229; -.
+DR   EnsemblBacteria; AAB99232; AAB99232; MJ_1229.
+DR   GeneID; 1452125; -.
+DR   KEGG; mja:MJ_1229; -.
+DR   eggNOG; COG0439; -.
+DR   InParanoid; Q58626; -.
+DR   KO; K01959; -.
+DR   OMA; ERCANAC; -.
+DR   PhylomeDB; Q58626; -.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000000805; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004075; F:biotin carboxylase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004736; F:pyruvate carboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   Gene3D; 3.30.470.20; -; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   InterPro; IPR004549; Acetyl_CoA_COase_biotin_COase.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR011764; Biotin_carboxylation_dom.
+DR   InterPro; IPR005482; Biotin_COase_C.
+DR   InterPro; IPR005481; CarbamoylP_synth_lsu_N.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR016185; PreATP-grasp_dom.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   Pfam; PF02785; Biotin_carb_C; 1.
+DR   Pfam; PF00289; CPSase_L_chain; 1.
+DR   Pfam; PF02786; CPSase_L_D2; 1.
+DR   SMART; SM00878; Biotin_carb_C; 1.
+DR   SUPFAM; SSF51246; SSF51246; 1.
+DR   SUPFAM; SSF52440; SSF52440; 1.
+DR   TIGRFAMs; TIGR00514; accC; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS50979; BC; 1.
+DR   PROSITE; PS00866; CPSASE_1; 1.
+DR   PROSITE; PS00867; CPSASE_2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Direct protein sequencing;
+KW   Gluconeogenesis; Ligase; Magnesium; Metal-binding;
+KW   Multifunctional enzyme; Nucleotide-binding; Pyruvate;
+KW   Reference proteome.
+FT   CHAIN         1    501       Pyruvate carboxylase subunit A.
+FT                                /FTId=PRO_0000146828.
+FT   DOMAIN        1    445       Biotin carboxylation.
+FT   DOMAIN      120    316       ATP-grasp. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00409}.
+FT   ACT_SITE    291    291       {ECO:0000255}.
+FT   BINDING     116    116       ATP. {ECO:0000250}.
+FT   BINDING     200    200       ATP. {ECO:0000250}.
+FT   BINDING     235    235       ATP. {ECO:0000250}.
+SQ   SEQUENCE   501 AA;  55403 MW;  04D2E401892F872F CRC64;
+     MFNKVLIANR GEIAIRIIRA CWELGIKTVA VYSEADKRSL HATLADEAYC IGPAPAAKSY
+     LNIDAILNVA EKAKVDAIHP GYGFLAENAE FARAVKKAGF EFIGPNPDAI EAMGSKINAK
+     KIMKKAGVPL IPGSEGAIED IDEAIEIAEA IGFPVVVKAS AGGGGMGMSV AYSKEELKEV
+     IESARNIAKS AFGDPTVFIE KYLENPRHIE IQLLGDKHGN IIHLGDRECS IQRRHQKLIE
+     EAPSPIMTEE LRERMGEAAI KAGKAINYDS AGTVEFLYEN GNFYFLEMNT RIQVEHTVTE
+     QVTGIDLVKA MIKIAAGEEL TLKQEDVKIR GHAIECRINA EDPLNDFVPC PGKIKLYRSP
+     GGPGVRIDSG VYGGAEIPPY YDSMIAKLIT YGNSREEAIA RMKRALREYV IIGVKTNIPF
+     HRAVLEEENF LKGNISTHYV EQNMHKLREK MVKYALESRD LYSVVSEKVF EKNKKIAAAV
+     GGLTMYISQI MKENEVNNKE W
+//

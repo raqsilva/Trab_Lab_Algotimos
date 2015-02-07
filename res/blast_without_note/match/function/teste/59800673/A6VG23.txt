@@ -1,0 +1,110 @@
+ID   GLMU_METM7              Reviewed;         411 AA.
+AC   A6VG23;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   07-JAN-2015, entry version 48.
+DE   RecName: Full=Bifunctional protein GlmU;
+DE   Includes:
+DE     RecName: Full=UDP-N-acetylglucosamine pyrophosphorylase;
+DE              EC=2.7.7.23;
+DE     AltName: Full=N-acetylglucosamine-1-phosphate uridyltransferase;
+DE   Includes:
+DE     RecName: Full=Glucosamine-1-phosphate N-acetyltransferase;
+DE              EC=2.3.1.157;
+GN   OrderedLocusNames=MmarC7_0329;
+OS   Methanococcus maripaludis (strain C7 / ATCC BAA-1331).
+OC   Archaea; Euryarchaeota; Methanococci; Methanococcales;
+OC   Methanococcaceae; Methanococcus.
+OX   NCBI_TaxID=426368;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C7 / ATCC BAA-1331;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T.,
+RA   Dalin E., Tice H., Pitluck S., Clum A., Schmutz J., Larimer F.,
+RA   Land M., Hauser L., Kyrpides N., Anderson I., Sieprawska-Lupa M.,
+RA   Whitman W.B., Richardson P.;
+RT   "Complete sequence of Methanococcus maripaludis C7.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the last two sequential reactions in the de
+CC       novo biosynthetic pathway for UDP-N-acetyl-glucosamine (UDP-
+CC       GlcNAc). Responsible for the acetylation of GlcN-1-P to GlcNAc-1-
+CC       P, and for the uridyl transfer from UTP to GlcNAc-1-P, to produce
+CC       UDP-GlcNAc and pyrophosphate (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: UTP + N-acetyl-alpha-D-glucosamine 1-phosphate
+CC       = diphosphate + UDP-N-acetyl-alpha-D-glucosamine.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + alpha-D-glucosamine 1-phosphate =
+CC       CoA + N-acetyl-alpha-D-glucosamine 1-phosphate.
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; N-acetyl-alpha-D-glucosamine 1-phosphate
+CC       from alpha-D-glucosamine 6-phosphate (route II): step 2/2.
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; UDP-N-acetyl-alpha-D-glucosamine from N-
+CC       acetyl-alpha-D-glucosamine 1-phosphate: step 1/1.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the N-
+CC       acetylglucosamine-1-phosphate uridyltransferase family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the transferase
+CC       hexapeptide repeat family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000745; ABR65399.1; -; Genomic_DNA.
+DR   RefSeq; YP_001329550.1; NC_009637.1.
+DR   ProteinModelPortal; A6VG23; -.
+DR   STRING; 426368.MmarC7_0329; -.
+DR   EnsemblBacteria; ABR65399; ABR65399; MmarC7_0329.
+DR   GeneID; 5328824; -.
+DR   KEGG; mmz:MmarC7_0329; -.
+DR   eggNOG; COG1208; -.
+DR   HOGENOM; HOG000283475; -.
+DR   KO; K04042; -.
+DR   OMA; DAIILCA; -.
+DR   BioCyc; MMAR426368:GHHL-331-MONOMER; -.
+DR   UniPathway; UPA00113; UER00532.
+DR   UniPathway; UPA00113; UER00533.
+DR   Proteomes; UP000002298; Chromosome.
+DR   GO; GO:0019134; F:glucosamine-1-phosphate N-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003977; F:UDP-N-acetylglucosamine diphosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006048; P:UDP-N-acetylglucosamine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR023915; Bifunctiontional_GlmU_arc-type.
+DR   InterPro; IPR001451; Hexapep_transf.
+DR   InterPro; IPR005835; NTP_transferase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR011004; Trimer_LpxA-like.
+DR   Pfam; PF00132; Hexapep; 3.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   SUPFAM; SSF53448; SSF53448; 2.
+DR   TIGRFAMs; TIGR03992; Arch_glmU; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Multifunctional enzyme;
+KW   Nucleotidyltransferase; Repeat; Transferase.
+FT   CHAIN         1    411       Bifunctional protein GlmU.
+FT                                /FTId=PRO_0000337830.
+FT   NP_BIND       6      9       UTP. {ECO:0000250}.
+FT   REGION        1    204       Pyrophosphorylase.
+FT   REGION      205    224       Linker.
+FT   REGION      225    411       N-acetyltransferase.
+FT   ACT_SITE    308    308       Proton acceptor. {ECO:0000250}.
+FT   BINDING      74     74       UTP. {ECO:0000250}.
+FT   BINDING      79     79       UTP; via amide nitrogen. {ECO:0000250}.
+FT   BINDING      80     80       GlcNAc-1-P. {ECO:0000250}.
+FT   BINDING     130    130       GlcNAc-1-P; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     142    142       GlcNAc-1-P. {ECO:0000250}.
+FT   BINDING     158    158       GlcNAc-1-P. {ECO:0000250}.
+FT   BINDING     384    384       Acetyl-CoA; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     401    401       Acetyl-CoA. {ECO:0000250}.
+SQ   SEQUENCE   411 AA;  45462 MW;  4233C9E0064CDC31 CRC64;
+     MDAIILCAGK GTRLYPITES RPKPMIPIAG KPILEHIIEK IENYVEKIYL VVGFEKEKII
+     EYFKENPKIE YILQEKQLGT GHAVLTAKNF IKDDFLVLNG DIIFEDSIDE ILVYENAVAL
+     SKVGHPENFG VVELGYDNKI INLLEKPKKE ELPSNLINAG IYKLQNNVFD ILENLVPSER
+     GEIELTDALK KLIENGKLHG IELNGYWNDI GHPWDVLSAN NRFLNKIISK VSGKIENNVS
+     ITGNVIIEEG AVIKPNSVIE GPVIIKSGSI VGPLAYIRPN TVLMENTFVG NSSEIKGSII
+     LENTKIPHLS YVGDSIIGAN CNFGCNTITA NLRFDDKPVM VNIKGKPVKS VRKLGAIIGD
+     NVKTGIQVSF MPGVKIGSNS LIGANCLIDN DIEQNSFVYK KDELVITKKR N
+//

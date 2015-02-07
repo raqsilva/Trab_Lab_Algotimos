@@ -1,0 +1,98 @@
+ID   DEGPL_PSEF5             Reviewed;         476 AA.
+AC   Q4KGQ4;
+DT   14-DEC-2011, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   07-JAN-2015, entry version 65.
+DE   RecName: Full=Probable periplasmic serine endoprotease DegP-like;
+DE            EC=3.4.21.107;
+DE   AltName: Full=Protease Do;
+DE   Flags: Precursor;
+GN   Name=mucD; OrderedLocusNames=PFL_1451;
+OS   Pseudomonas fluorescens (strain Pf-5 / ATCC BAA-477).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=220664;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pf-5 / ATCC BAA-477;
+RX   PubMed=15980861; DOI=10.1038/nbt1110;
+RA   Paulsen I.T., Press C.M., Ravel J., Kobayashi D.Y., Myers G.S.A.,
+RA   Mavrodi D.V., DeBoy R.T., Seshadri R., Ren Q., Madupu R., Dodson R.J.,
+RA   Durkin A.S., Brinkac L.M., Daugherty S.C., Sullivan S.A.,
+RA   Rosovitz M.J., Gwinn M.L., Zhou L., Schneider D.J., Cartinhour S.W.,
+RA   Nelson W.C., Weidman J., Watkins K., Tran K., Khouri H., Pierson E.A.,
+RA   Pierson L.S. III, Thomashow L.S., Loper J.E.;
+RT   "Complete genome sequence of the plant commensal Pseudomonas
+RT   fluorescens Pf-5.";
+RL   Nat. Biotechnol. 23:873-878(2005).
+CC   -!- FUNCTION: Might be efficient in the degradation of transiently
+CC       denatured and unfolded proteins which accumulate in the periplasm
+CC       following stress conditions. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 PDZ (DHR) domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000076; AAY90735.1; -; Genomic_DNA.
+DR   RefSeq; YP_258579.1; NC_004129.6.
+DR   ProteinModelPortal; Q4KGQ4; -.
+DR   STRING; 220664.PFL_1451; -.
+DR   MEROPS; S01.453; -.
+DR   World-2DPAGE; 0008:Q4KGQ4; -.
+DR   EnsemblBacteria; AAY90735; AAY90735; PFL_1451.
+DR   GeneID; 3475741; -.
+DR   KEGG; pfl:PFL_1451; -.
+DR   PATRIC; 19872117; VBIPseFlu72549_1484.
+DR   eggNOG; COG0265; -.
+DR   HOGENOM; HOG000223640; -.
+DR   KO; K01362; -.
+DR   OMA; KFTHVSF; -.
+DR   OrthoDB; EOG61ZTDN; -.
+DR   BioCyc; PFLU220664:GIX8-1458-MONOMER; -.
+DR   Proteomes; UP000008540; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF13180; PDZ_2; 2.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; SSF50156; 2.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   TIGRFAMs; TIGR02037; degP_htrA_DO; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Hydrolase; Periplasm; Protease; Reference proteome;
+KW   Repeat; Serine protease; Signal; Stress response.
+FT   SIGNAL        1     27       {ECO:0000255}.
+FT   CHAIN        28    476       Probable periplasmic serine endoprotease
+FT                                DegP-like.
+FT                                /FTId=PRO_0000414223.
+FT   DOMAIN      263    354       PDZ 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   DOMAIN      360    465       PDZ 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   REGION      217    219       Substrate binding. {ECO:0000250}.
+FT   REGION      274    278       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    116    116       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    146    146       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    219    219       Charge relay system. {ECO:0000250}.
+SQ   SEQUENCE   476 AA;  50724 MW;  CB8FD2155A16F54B CRC64;
+     MSIPRLKSYF TILATVLVLG QAVSAQAAEL PDFTQLVEQA SPAVVNISTT QKLPDRRVSN
+     SAQMPDLEGL PPMLREFFER GMPQPRSPRG DRQREAQSLG SGFIISADGY ILTNNHVIAD
+     ADEILVRLAD RSELKAKLIG TDPRSDVALL KIDGKDLPVL KLGKSQDLKA GQWVVAIGSP
+     FGFDHTVTQG IVSAIGRSLP NENYVPFIQT DVPINPGNSG GPLFNLAGEV VGINSQIYTR
+     SGGFMGVSFA IPIDVAMDVS NQLKTGGKVS RGWLGVVIQE VNKDLAESFG LEKPAGALVA
+     QIQDDGPAAK GGLQVGDVIL SLNGQPIVMS ADLPHLVGAL KAGAKANLEV IRDGKRKNVE
+     LTVGAIPEED KDLSMLPKSG VERSSNRLGV AVVELNDEQK KAFDLKGGVV IKEVQDGPAA
+     LIGLQPGDVI THLNNQAITS AKEFTEIAKA LPKNRSVSMR VLRQGRASFI TFKLAE
+//

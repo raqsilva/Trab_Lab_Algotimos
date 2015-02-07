@@ -1,0 +1,89 @@
+ID   RHAS_MANSM              Reviewed;         268 AA.
+AC   Q65Q31;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   04-FEB-2015, entry version 83.
+DE   RecName: Full=HTH-type transcriptional activator RhaS {ECO:0000255|HAMAP-Rule:MF_01534};
+DE   AltName: Full=L-rhamnose operon regulatory protein RhaS {ECO:0000255|HAMAP-Rule:MF_01534};
+GN   Name=rhaS {ECO:0000255|HAMAP-Rule:MF_01534}; OrderedLocusNames=MS2322;
+OS   Mannheimia succiniciproducens (strain MBEL55E).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Basfia.
+OX   NCBI_TaxID=221988;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MBEL55E;
+RX   PubMed=15378067; DOI=10.1038/nbt1010;
+RA   Hong S.H., Kim J.S., Lee S.Y., In Y.H., Choi S.S., Rih J.-K.,
+RA   Kim C.H., Jeong H., Hur C.G., Kim J.J.;
+RT   "The genome sequence of the capnophilic rumen bacterium Mannheimia
+RT   succiniciproducens.";
+RL   Nat. Biotechnol. 22:1275-1281(2004).
+CC   -!- FUNCTION: Activates expression of the rhaBAD and rhaT operons.
+CC       {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SUBUNIT: Binds DNA as a dimer. {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SIMILARITY: Contains 2 HTH araC/xylS-type DNA-binding domains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016827; AAU38929.1; -; Genomic_DNA.
+DR   RefSeq; WP_011201467.1; NC_006300.1.
+DR   RefSeq; YP_089514.1; NC_006300.1.
+DR   ProteinModelPortal; Q65Q31; -.
+DR   STRING; 221988.MS2322; -.
+DR   EnsemblBacteria; AAU38929; AAU38929; MS2322.
+DR   GeneID; 3075715; -.
+DR   KEGG; msu:MS2322; -.
+DR   PATRIC; 22447843; VBIManSuc86752_2119.
+DR   eggNOG; COG2207; -.
+DR   HOGENOM; HOG000290513; -.
+DR   KO; K02855; -.
+DR   OMA; YAIAIEP; -.
+DR   OrthoDB; EOG66XBBN; -.
+DR   BioCyc; BMAN221988:GHGM-2383-MONOMER; -.
+DR   Proteomes; UP000000607; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0045893; P:positive regulation of transcription, DNA-templated; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019299; P:rhamnose metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.60; -; 2.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   HAMAP; MF_01534; HTH_type_RhaS; 1.
+DR   InterPro; IPR003313; AraC-bd.
+DR   InterPro; IPR009057; Homeodomain-like.
+DR   InterPro; IPR018060; HTH_AraC.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin.
+DR   InterPro; IPR020449; Tscrpt_reg_HTH_AraC-type.
+DR   InterPro; IPR023609; Tscrpt_reg_HTH_RhaS.
+DR   Pfam; PF02311; AraC_binding; 1.
+DR   Pfam; PF12833; HTH_18; 1.
+DR   PRINTS; PR00032; HTHARAC.
+DR   SMART; SM00342; HTH_ARAC; 1.
+DR   SUPFAM; SSF46689; SSF46689; 2.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+DR   PROSITE; PS01124; HTH_ARAC_FAMILY_2; 1.
+PE   3: Inferred from homology;
+KW   Activator; Complete proteome; Cytoplasm; DNA-binding;
+KW   Reference proteome; Repeat; Rhamnose metabolism; Transcription;
+KW   Transcription regulation.
+FT   CHAIN         1    268       HTH-type transcriptional activator RhaS.
+FT                                /FTId=PRO_0000194567.
+FT   DNA_BIND    187    206       H-T-H motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01534}.
+FT   DNA_BIND    236    259       H-T-H motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01534}.
+FT   SITE        247    247       Interaction with sigma-70.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01534}.
+SQ   SEQUENCE   268 AA;  31522 MW;  5B02C2E924312049 CRC64;
+     MIQKLLARDF FNNKEQPIIL EPRAPQEIFP EHTHDFDELV IVKHGSGRHI LNGYPHDLYP
+     GVVLYIQAQD HHSYENLQDL CLTNILIQSN NNFKYLNNID ILLNGLKPEN SSYQLINKKT
+     AEYIDSLLEK INAIDESYNL QNECLFFQVL SSIQAHQFND SGYGNTEEKG RQMIRWLENN
+     FEKEIDWEEL AEKFALPIRT LHRYIKSQTG HTPQNYVTKL RLAQAYYQLK YTEKNIINIA
+     YDCGFNDSSY FSTCFKNEYS IAPRELRI
+//

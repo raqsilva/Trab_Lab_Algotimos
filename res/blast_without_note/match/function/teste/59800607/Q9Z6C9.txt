@@ -1,0 +1,96 @@
+ID   CSHA_LACRE              Reviewed;         497 AA.
+AC   Q9Z6C9;
+DT   03-SEP-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   07-JAN-2015, entry version 63.
+DE   RecName: Full=ATP-dependent RNA helicase CshA;
+DE            EC=3.6.4.13 {ECO:0000255|HAMAP-Rule:MF_01493};
+DE   AltName: Full=Autoaggregation-mediating protein;
+GN   Name=cshA {ECO:0000255|HAMAP-Rule:MF_01493}; Synonyms=aggH;
+OS   Lactobacillus reuteri.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lactobacillus.
+OX   NCBI_TaxID=1598;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, SUBCELLULAR LOCATION, AND
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 53608 / 1063;
+RX   PubMed=10231497; DOI=10.1046/j.1365-2958.1999.01363.x;
+RA   Roos S., Lindgren S., Jonsson H.;
+RT   "Autoaggregation of Lactobacillus reuteri is mediated by a putative
+RT   DEAD-box helicase.";
+RL   Mol. Microbiol. 32:427-436(1999).
+CC   -!- FUNCTION: DEAD-box RNA helicase possibly involved in RNA
+CC       degradation. Unwinds dsRNA in both 5'- and 3'-directions, has RNA-
+CC       dependent ATPase activity (By similarity). Over-expression leads
+CC       to cell aggregation. {ECO:0000255|HAMAP-Rule:MF_01493,
+CC       ECO:0000269|PubMed:10231497}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- SUBUNIT: Oligomerizes, may be a member of the RNA degradosome.
+CC       {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC       Cell membrane {ECO:0000305}; Peripheral membrane protein
+CC       {ECO:0000305}; Extracellular side {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Loss of cellular aggregation.
+CC       {ECO:0000269|PubMed:10231497}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. CshA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- CAUTION: Has been suggested to be found on the cell surface, but
+CC       its function as an RNA helicase makes this dubious.
+CC       {ECO:0000305|PubMed:10231497}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF091502; AAD20136.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q9Z6C9; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008026; F:ATP-dependent helicase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_01493; DEAD_helicase_CshA; 1.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Cytoplasm; Helicase; Hydrolase; Membrane;
+KW   Nucleotide-binding; RNA-binding; Stress response.
+FT   CHAIN         1    497       ATP-dependent RNA helicase CshA.
+FT                                /FTId=PRO_0000430101.
+FT   DOMAIN       32    202       Helicase ATP-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01493}.
+FT   DOMAIN      228    373       Helicase C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01493}.
+FT   NP_BIND      45     52       ATP. {ECO:0000255|HAMAP-Rule:MF_01493}.
+FT   MOTIF         1     29       Q motif.
+FT   MOTIF       150    153       DEAD box.
+SQ   SEQUENCE   497 AA;  56481 MW;  28196704FB77553C CRC64;
+     MKFSELGLSD SLLKAIKRSG YEEATPIQEQ TIPMVLEGKD VIGQAQTGTG KTAAFGLPII
+     ENVDTENPNI QAIIISPTRE LAIQTQEELY RLGKDKHVRV QVVYGGADIR RQIKSLKQHP
+     QILVGTPGRL RDHINRHTVK LDHIKTLVLD EADEMLNMGF LEDIESIIKE TPDDRQTLLF
+     SATMPPEIKR IGVQFMSDPE TVRIKAKELT TDLVDQYYVR ARDYEKFDIM TRLIDVQDPD
+     LTIVFGRTKR RVDELSKGLI ARGYNAAGIH GDLTQDKRSK IMWKFKNNEL DILVATDVAA
+     RGLDISGVTH VYNYDIPSDP DSYVHRIGRT GRAGHHGVSL TFVTPNEMDY LHEIEKLTRV
+     RMLPLKPPTA EEAFKGQVAS AFNDIDELIA QDSTDRYEEA AEKLLETHNA TDLVAALLNN
+     MTKEAASEVP VKITPERPLP RRNKRNNRNG NRNNSHGGNH YRRKNFRRHQ HGSHRNDNHG
+     KSHSSRHSFN IRHRKEN
+//

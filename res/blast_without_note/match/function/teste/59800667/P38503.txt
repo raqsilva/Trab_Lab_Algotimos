@@ -1,0 +1,120 @@
+ID   PTAS_METTE              Reviewed;         333 AA.
+AC   P38503;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Phosphate acetyltransferase;
+DE            EC=2.3.1.8;
+DE   AltName: Full=Phosphotransacetylase;
+GN   Name=pta;
+OS   Methanosarcina thermophila.
+OC   Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales;
+OC   Methanosarcinaceae; Methanosarcina.
+OX   NCBI_TaxID=2210;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 2-21.
+RC   STRAIN=DSM 1825 / TM-1;
+RX   PubMed=8226623;
+RA   Latimer M.T., Ferry J.G.;
+RT   "Cloning, sequence analysis, and hyperexpression of the genes encoding
+RT   phosphotransacetylase and acetate kinase from Methanosarcina
+RT   thermophila.";
+RL   J. Bacteriol. 175:6822-6829(1993).
+RN   [2]
+RP   MUTAGENESIS.
+RX   PubMed=9401029;
+RA   Rasche M.E., Smith K.S., Ferry J.G.;
+RT   "Identification of cysteine and arginine residues essential for the
+RT   phosphotransacetylase from Methanosarcina thermophila.";
+RL   J. Bacteriol. 179:7712-7717(1997).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.7 ANGSTROMS), AND SUBUNIT.
+RX   PubMed=15062079; DOI=10.1016/j.str.2004.03.007;
+RA   Iyer P.P., Lawrence S.H., Luther K.B., Rajashankar K.R.,
+RA   Yennawar H.P., Ferry J.G., Schindelin H.;
+RT   "Crystal structure of phosphotransacetylase from the methanogenic
+RT   archaeon Methanosarcina thermophila.";
+RL   Structure 12:559-567(2004).
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + phosphate = CoA + acetyl
+CC       phosphate.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; acetyl-CoA
+CC       biosynthesis; acetyl-CoA from acetate: step 2/2.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:15062079}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Peripheral membrane protein.
+CC   -!- SIMILARITY: Belongs to the phosphate acetyltransferase and
+CC       butyryltransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L23147; AAA72041.1; -; Unassigned_DNA.
+DR   PIR; A49338; A49338.
+DR   PDB; 1QZT; X-ray; 2.70 A; A/B/C/D=1-333.
+DR   PDB; 2AF3; X-ray; 2.60 A; C/D=1-333.
+DR   PDB; 2AF4; X-ray; 2.15 A; C/D=1-333.
+DR   PDBsum; 1QZT; -.
+DR   PDBsum; 2AF3; -.
+DR   PDBsum; 2AF4; -.
+DR   ProteinModelPortal; P38503; -.
+DR   SMR; P38503; 2-333.
+DR   SABIO-RK; P38503; -.
+DR   UniPathway; UPA00340; UER00459.
+DR   EvolutionaryTrace; P38503; -.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008959; F:phosphate acetyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006085; P:acetyl-CoA biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR012147; P_Ac_Bu_trans.
+DR   InterPro; IPR004614; P_AcTrfase.
+DR   InterPro; IPR002505; PTA_PTB.
+DR   Pfam; PF01515; PTA_PTB; 1.
+DR   PIRSF; PIRSF000428; P_Ac_trans; 1.
+DR   TIGRFAMs; TIGR00651; pta; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acyltransferase; Cell membrane;
+KW   Direct protein sequencing; Membrane; Transferase.
+FT   INIT_MET      1      1       Removed. {ECO:0000269|PubMed:8226623}.
+FT   CHAIN         2    333       Phosphate acetyltransferase.
+FT                                /FTId=PRO_0000179151.
+FT   MUTAGEN     159    159       C->A: Loss of activity.
+FT                                {ECO:0000269|PubMed:9401029}.
+FT   MUTAGEN     159    159       C->S: No loss of activity.
+FT                                {ECO:0000269|PubMed:9401029}.
+FT   HELIX         3     15       {ECO:0000244|PDB:2AF4}.
+FT   STRAND       18     21       {ECO:0000244|PDB:2AF4}.
+FT   HELIX        27     39       {ECO:0000244|PDB:2AF4}.
+FT   STRAND       43     48       {ECO:0000244|PDB:2AF4}.
+FT   HELIX        50     57       {ECO:0000244|PDB:2AF4}.
+FT   STRAND       65     68       {ECO:0000244|PDB:2AF4}.
+FT   TURN         70     72       {ECO:0000244|PDB:2AF3}.
+FT   HELIX        76     87       {ECO:0000244|PDB:2AF4}.
+FT   HELIX        88     90       {ECO:0000244|PDB:2AF4}.
+FT   HELIX        94    100       {ECO:0000244|PDB:2AF4}.
+FT   HELIX       104    113       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      118    122       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      124    126       {ECO:0000244|PDB:2AF3}.
+FT   HELIX       129    138       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      141    144       {ECO:0000244|PDB:2AF3}.
+FT   STRAND      149    155       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      166    170       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      172    174       {ECO:0000244|PDB:2AF4}.
+FT   HELIX       180    198       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      203    207       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      211    215       {ECO:0000244|PDB:2AF3}.
+FT   HELIX       218    233       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      237    243       {ECO:0000244|PDB:2AF4}.
+FT   HELIX       245    249       {ECO:0000244|PDB:2AF4}.
+FT   HELIX       251    257       {ECO:0000244|PDB:2AF4}.
+FT   TURN        264    266       {ECO:0000244|PDB:1QZT}.
+FT   STRAND      269    271       {ECO:0000244|PDB:2AF4}.
+FT   HELIX       275    287       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      292    303       {ECO:0000244|PDB:2AF4}.
+FT   STRAND      305    307       {ECO:0000244|PDB:2AF4}.
+FT   HELIX       314    332       {ECO:0000244|PDB:2AF4}.
+SQ   SEQUENCE   333 AA;  35220 MW;  EC87B47A387B8398 CRC64;
+     MVTFLEKISE RAKKLNKTIA LPETEDIRTL QAAAKILERG IADIVLVGNE ADIKALAGDL
+     DLSKAKIVDP KTYEKKDEYI NAFYELRKHK GITLENAAEI MSDYVYFAVM MAKLGEVDGV
+     VSGAAHSSSD TLRPAVQIVK TAKGAALASA FFIISVPDCE YGSDGTFLFA DSGMVEMPSV
+     EDVANIAVIS AKTFELLVQD VPKVAMLSYS TKGSAKSKLT EATIASTKLA QELAPDIAID
+     GELQVDAAIV PKVAASKAPG SPVAGKANVF IFPDLNCGNI AYKIAQRLAK AEAYGPITQG
+     LAKPINDLSR GCSDEDIVGA VAITCVQAAA QDK
+//

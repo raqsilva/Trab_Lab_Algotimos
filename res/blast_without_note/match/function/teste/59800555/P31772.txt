@@ -1,0 +1,101 @@
+ID   COME_HAEIN              Reviewed;         445 AA.
+AC   P31772;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 2.
+DT   04-FEB-2015, entry version 109.
+DE   RecName: Full=Competence protein E;
+DE   AltName: Full=DNA transformation protein ComE;
+DE   Flags: Precursor;
+GN   Name=comE; OrderedLocusNames=HI_0435;
+OS   Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=71421;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=1916268; DOI=10.1016/0378-1119(91)90457-M;
+RA   Tomb J.-F., El-Hajj H., Smith H.O.;
+RT   "Nucleotide sequence of a cluster of genes involved in the
+RT   transformation of Haemophilus influenzae Rd.";
+RL   Gene 104:1-10(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=7542800; DOI=10.1126/science.7542800;
+RA   Fleischmann R.D., Adams M.D., White O., Clayton R.A., Kirkness E.F.,
+RA   Kerlavage A.R., Bult C.J., Tomb J.-F., Dougherty B.A., Merrick J.M.,
+RA   McKenney K., Sutton G.G., FitzHugh W., Fields C.A., Gocayne J.D.,
+RA   Scott J.D., Shirley R., Liu L.-I., Glodek A., Kelley J.M.,
+RA   Weidman J.F., Phillips C.A., Spriggs T., Hedblom E., Cotton M.D.,
+RA   Utterback T.R., Hanna M.C., Nguyen D.T., Saudek D.M., Brandon R.C.,
+RA   Fine L.D., Fritchman J.L., Fuhrmann J.L., Geoghagen N.S.M.,
+RA   Gnehm C.L., McDonald L.A., Small K.V., Fraser C.M., Smith H.O.,
+RA   Venter J.C.;
+RT   "Whole-genome random sequencing and assembly of Haemophilus influenzae
+RT   Rd.";
+RL   Science 269:496-512(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 75-445.
+RX   PubMed=1856167;
+RA   Larson T.G., Goodgal S.H.;
+RT   "Sequence and transcriptional regulation of com101A, a locus required
+RT   for genetic transformation in Haemophilus influenzae.";
+RL   J. Bacteriol. 173:4683-4691(1991).
+CC   -!- FUNCTION: Involved in transformation (competence for DNA uptake).
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M62809; AAA25012.1; -; Genomic_DNA.
+DR   EMBL; L42023; AAC22094.1; -; Genomic_DNA.
+DR   EMBL; M59751; AAA24947.1; -; Genomic_DNA.
+DR   PIR; H64067; H64067.
+DR   RefSeq; NP_438596.1; NC_000907.1.
+DR   STRING; 71421.HI0435; -.
+DR   TCDB; 1.B.22.4.1; the outer bacterial membrane secretin (secretin) family.
+DR   EnsemblBacteria; AAC22094; AAC22094; HI_0435.
+DR   GeneID; 950687; -.
+DR   KEGG; hin:HI0435; -.
+DR   PATRIC; 20189423; VBIHaeInf48452_0455.
+DR   eggNOG; COG4796; -.
+DR   KO; K02507; -.
+DR   OMA; TDNERFF; -.
+DR   OrthoDB; EOG6423BN; -.
+DR   PhylomeDB; P31772; -.
+DR   Proteomes; UP000000579; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0030420; P:establishment of competence for transformation; IEA:UniProtKB-KW.
+DR   GO; GO:0009297; P:pilus assembly; IEA:InterPro.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR013355; Pilus_4_PilQ.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 1.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   TIGRFAMs; TIGR02515; IV_pilus_PilQ; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Competence; Complete proteome; Membrane;
+KW   Reference proteome; Signal; Transport.
+FT   SIGNAL        1     23       {ECO:0000255}.
+FT   CHAIN        24    445       Competence protein E.
+FT                                /FTId=PRO_0000013121.
+FT   CONFLICT    433    443       TLEALKQKSEG -> NVRGVET (in Ref. 1;
+FT                                AAA25012). {ECO:0000305}.
+SQ   SEQUENCE   445 AA;  49208 MW;  0901DA0D3D42D0E2 CRC64;
+     MKKYFLKCGY FLVCFCLPLI VFANPKTDNE RFFIRLSQAP LAQTLEQLAF QQDVNLVIGD
+     ILENKISLKL NNIDMPRLLQ IIAKSKHLTL NKDDGIYYLN GSQSGKGQVA GNLTTNEPHL
+     VSHTVKLHFA KASELMKSLT TGSGSLLSPA GSITFDDRSN LLVIQDEPRS VQNIKKLIAE
+     MDKPIEQIAI EARIVTITDE SLKELGVRWG IFNPTENARR VAGSLTGNSF ENIADNLNVN
+     FATTTTPAGS IALQVAKING RLLDLELSAL ERENNVEIIA SPRLLTTNKK SASIKQGTEI
+     PYIVSNTRND TQSVEFREAV LGLEVTPHIS KDNNILLDLL VSQNSPGSRV AYGQNEVVSI
+     DKQEINTQVF AKDGETIVLG GVFHDTITKS EDKVPLLGDI PVIKRLFSKE SERHQKRELV
+     IFVTPHILKA GETLEALKQK SEGKK
+//

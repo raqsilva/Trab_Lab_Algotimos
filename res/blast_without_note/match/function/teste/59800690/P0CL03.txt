@@ -1,0 +1,96 @@
+ID   AMPD_SALTY              Reviewed;         187 AA.
+AC   P0CL03; P30013; Q9L4I4;
+DT   08-MAR-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-MAR-2011, sequence version 1.
+DT   07-JAN-2015, entry version 28.
+DE   RecName: Full=1,6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD;
+DE            EC=3.5.1.28;
+DE   AltName: Full=N-acetylmuramoyl-L-alanine amidase;
+GN   Name=ampD; OrderedLocusNames=STM0146;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-95.
+RC   STRAIN=LT2;
+RX   PubMed=8419294;
+RA   Hughes K.T., Dessen A., Gray J.P., Grubmeyer C.;
+RT   "The Salmonella typhimurium nadC gene: sequence determination by use
+RT   of Mud-P22 and purification of quinolinate
+RT   phosphoribosyltransferase.";
+RL   J. Bacteriol. 175:479-486(1993).
+CC   -!- FUNCTION: Involved in both cell wall peptidoglycans recycling and
+CC       beta-lactamase induction. Specifically cleaves the amide bond
+CC       between the lactyl group of N-acetylmuramic acid and the alpha-
+CC       amino group of the L-alanine in degradation products containing an
+CC       anhydro N-acetylmuramyl moiety (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Hydrolyzes the link between N-acetylmuramoyl
+CC       residues and L-amino acid residues in certain cell-wall
+CC       glycopeptides.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Zn(2+) is required for amidase activity. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the N-acetylmuramoyl-L-alanine amidase 2
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE006468; AAL19110.1; -; Genomic_DNA.
+DR   EMBL; L07292; AAA03224.1; -; Genomic_DNA.
+DR   RefSeq; NP_459151.1; NC_003197.1.
+DR   ProteinModelPortal; P0CL03; -.
+DR   SMR; P0CL03; 1-187.
+DR   EnsemblBacteria; AAL19110; AAL19110; STM0146.
+DR   GeneID; 1251664; -.
+DR   KEGG; stm:STM0146; -.
+DR   PATRIC; 32378571; VBISalEnt20916_0155.
+DR   HOGENOM; HOG000255963; -.
+DR   KO; K03806; -.
+DR   OMA; CNDDSIG; -.
+DR   OrthoDB; EOG60GRR5; -.
+DR   PhylomeDB; P0CL03; -.
+DR   BioCyc; SENT99287:GCTI-145-MONOMER; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008745; F:N-acetylmuramoyl-L-alanine amidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009253; P:peptidoglycan catabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.80.10; -; 1.
+DR   InterPro; IPR002502; Amidase_domain.
+DR   Pfam; PF01510; Amidase_2; 1.
+DR   SMART; SM00644; Ami_2; 1.
+DR   SUPFAM; SSF55846; SSF55846; 1.
+PE   3: Inferred from homology;
+KW   Cell wall biogenesis/degradation; Complete proteome; Cytoplasm;
+KW   Hydrolase; Metal-binding; Reference proteome; Zinc.
+FT   CHAIN         1    187       1,6-anhydro-N-acetylmuramyl-L-alanine
+FT                                amidase AmpD.
+FT                                /FTId=PRO_0000164415.
+FT   ACT_SITE    116    116       Proton acceptor. {ECO:0000250}.
+FT   METAL        34     34       Zinc; catalytic. {ECO:0000250}.
+FT   METAL       154    154       Zinc; catalytic. {ECO:0000250}.
+FT   METAL       164    164       Zinc; catalytic. {ECO:0000250}.
+FT   SITE        162    162       Transition state stabilizer.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   187 AA;  20943 MW;  9E7EBAC553BA8EA4 CRC64;
+     MLPDKGWLVE ARRVPSPHYD CRPDDEKPSL LVVHNISLPP GEFGGPWIDA LFTGTIDPDA
+     HPFFAEIAHL RVSAHCLIRR DGEIVQYVPF DKRAWHAGVS NYQGRERCND FSIGIELEGT
+     DTLAYTDAQY QQLAAVTRTL IASYPAIADN MTGHCNITPD RKTDPGPAFD WPRFRALVAL
+     SSHKEMT
+//

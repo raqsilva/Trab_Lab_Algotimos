@@ -1,0 +1,121 @@
+ID   ACPH_RAT                Reviewed;         732 AA.
+AC   P13676; P14320; P70479;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 1.
+DT   07-JAN-2015, entry version 119.
+DE   RecName: Full=Acylamino-acid-releasing enzyme;
+DE            Short=AARE;
+DE            EC=3.4.19.1;
+DE   AltName: Full=Acyl-peptide hydrolase;
+DE            Short=APH;
+DE   AltName: Full=Acylaminoacyl-peptidase;
+GN   Name=Apeh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi;
+OC   Muroidea; Muridae; Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=2722805;
+RA   Kobayashi K., Lin L.-W., Yeadon J.E., Klickstein L.B., Smith J.A.;
+RT   "Cloning and sequence analysis of a rat liver cDNA encoding acyl-
+RT   peptide hydrolase.";
+RL   J. Biol. Chem. 264:8892-8899(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=2578023; DOI=10.1093/nar/17.11.4397;
+RA   Lin L.-W., Lee F.J.S., Smith J.A.;
+RT   "Structural organization of the rat acyl-peptide hydrolase gene.";
+RL   Nucleic Acids Res. 17:4397-4400(1989).
+RN   [3]
+RP   BLOCKAGE OF N-TERMINUS, AND FUNCTION.
+RX   PubMed=3305492;
+RA   Kobayashi K., Smith J.A.;
+RT   "Acyl-peptide hydrolase from rat liver. Characterization of enzyme
+RT   reaction.";
+RL   J. Biol. Chem. 262:11435-11445(1987).
+CC   -!- FUNCTION: This enzyme catalyzes the hydrolysis of the N-terminal
+CC       peptide bond of an N-acetylated peptide to generate an N-
+CC       acetylated amino acid and a peptide with a free N-terminus. It
+CC       preferentially cleaves off Ac-Ala, Ac-Met and Ac-Ser.
+CC       {ECO:0000269|PubMed:3305492}.
+CC   -!- CATALYTIC ACTIVITY: Cleavage of an N-acetyl or N-formyl amino acid
+CC       from the N-terminus of a polypeptide.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the peptidase S9C family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J04733; AAA88506.1; -; mRNA.
+DR   EMBL; X14915; CAA33040.1; ALT_SEQ; Genomic_DNA.
+DR   PIR; A33706; S07624.
+DR   RefSeq; NP_036632.1; NM_012500.1.
+DR   UniGene; Rn.11057; -.
+DR   ProteinModelPortal; P13676; -.
+DR   MEROPS; S09.004; -.
+DR   PhosphoSite; P13676; -.
+DR   PaxDb; P13676; -.
+DR   PRIDE; P13676; -.
+DR   GeneID; 24206; -.
+DR   KEGG; rno:24206; -.
+DR   UCSC; RGD:2125; rat.
+DR   CTD; 327; -.
+DR   RGD; 2125; Apeh.
+DR   eggNOG; COG1506; -.
+DR   HOGENOM; HOG000007443; -.
+DR   HOVERGEN; HBG000869; -.
+DR   InParanoid; P13676; -.
+DR   KO; K01303; -.
+DR   PhylomeDB; P13676; -.
+DR   NextBio; 602597; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   Genevestigator; P13676; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   Gene3D; 2.120.10.30; -; 2.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   InterPro; IPR011042; 6-blade_b-propeller_TolB-like.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR002471; Pept_S9_AS.
+DR   InterPro; IPR001375; Peptidase_S9.
+DR   Pfam; PF00326; Peptidase_S9; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   PROSITE; PS00708; PRO_ENDOPEP_SER; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Complete proteome; Cytoplasm; Hydrolase; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN         1    732       Acylamino-acid-releasing enzyme.
+FT                                /FTId=PRO_0000122434.
+FT   ACT_SITE    587    587       Charge relay system.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU10084}.
+FT   ACT_SITE    675    675       Charge relay system.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU10084}.
+FT   ACT_SITE    707    707       Charge relay system.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU10084}.
+FT   MOD_RES       1      1       Blocked amino end (Met).
+FT                                {ECO:0000269|PubMed:2722805}.
+FT   MOD_RES       1      1       N-acetylmethionine. {ECO:0000250}.
+FT   MOD_RES     185    185       Phosphoserine. {ECO:0000250}.
+FT   MOD_RES     187    187       Phosphoserine. {ECO:0000250}.
+FT   CONFLICT    625    628       IPDW -> M (in Ref. 2; CAA33040).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   732 AA;  81384 MW;  43F234879E10235B CRC64;
+     MERQVLLSEP QEAAALYRGL SRQPSLSAAC LGPEVTTQYG GLYRTVHTEW TQRDLERMEN
+     IRFCRQYLVF HDGDSVVFAG PAGNSVETRG ELLSRESPSG TMKAVLRKAG GTVSGEEKQF
+     LEVWEKNRKL KSFNLSALEK HGPVYEDDCF GCLSWSHSET HLLYVAEKKR PKAESFFQTK
+     ALDISASDDE MARPKKPDQA IKGDQFVFYE DWGETMVSKS IPVLCVLDID SGNISVLEGV
+     PENVSPGQAF WAPGDTGVVF VGWWHEPFRL GIRYCTNRRS ALYYVDLSGG KCELLSDGSL
+     AICSPRLSPD QCRIVYLQYP CLAPHHQCSQ LCLYDWYTKV TSVVVDIVPR QLGESFSGIY
+     CSLLPLGCWS ADSQRVVFDS AQRSRQDLFA VDTQTGSITS LTAAGSAGSW KLLTIDKDLM
+     VAQFSTPSLP PSLKVGFLPP PGKEQSVSWV SLEEAEPIPG IHWGVRVLHP PPDQENVQYA
+     DLDFEAILLQ PSNPPDKTQV PMVVMPHGGP HSSFVTAWML FPAMLCKMGF AVLLVNYRGS
+     TGFGQDSILS LPGNVGHQDV KDVQFAVEQV LQEEHFDARR VALMGGSHGG FLSCHLIGQY
+     PETYSACIAR NPVINIASMM GSTDIPDWCM VETGFPYSNS CLPDLNVWEE MLDKSPIKYI
+     PQVKTPVLLM LGQEDRRVPF KQGMEYYRAL KARNVPVRLL LYPKSNHALS EVEAESDSFM
+     NAVLWLHTHL GS
+//

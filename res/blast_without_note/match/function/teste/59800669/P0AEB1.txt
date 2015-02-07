@@ -1,0 +1,101 @@
+ID   CYSW_ECOL6              Reviewed;         291 AA.
+AC   P0AEB1; P16702; P76534;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   07-JAN-2015, entry version 64.
+DE   RecName: Full=Sulfate transport system permease protein CysW;
+GN   Name=cysW; OrderedLocusNames=c2957;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P.,
+RA   Rasko D., Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D.,
+RA   Mayhew G.F., Rose D.J., Zhou S., Schwartz D.C., Perna N.T.,
+RA   Mobley H.L.T., Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence
+RT   of uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: Part of the ABC transporter complex CysAWTP
+CC       (TC 3.A.1.6.1) involved in sulfate/thiosulfate import. Probably
+CC       responsible for the translocation of the substrate across the
+CC       membrane.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (CysA), two transmembrane proteins (CysT and CysW) and a solute-
+CC       binding protein (CysP). {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-
+CC       pass membrane protein {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport
+CC       system permease family. CysTW subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 ABC transmembrane type-1 domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014075; AAN81407.1; -; Genomic_DNA.
+DR   RefSeq; NP_754839.1; NC_004431.1.
+DR   ProteinModelPortal; P0AEB1; -.
+DR   SMR; P0AEB1; 32-268.
+DR   STRING; 199310.c2957; -.
+DR   EnsemblBacteria; AAN81407; AAN81407; c2957.
+DR   GeneID; 1038593; -.
+DR   KEGG; ecc:c2957; -.
+DR   PATRIC; 18283776; VBIEscCol75197_2788.
+DR   HOGENOM; HOG000263697; -.
+DR   KO; K02047; -.
+DR   OMA; GASGWKM; -.
+DR   OrthoDB; EOG654P2T; -.
+DR   BioCyc; ECOL199310:C2957-MONOMER; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015419; F:sulfate transmembrane-transporting ATPase activity; IEA:InterPro.
+DR   Gene3D; 1.10.3720.10; -; 1.
+DR   InterPro; IPR011866; CysW_permease.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR005667; Sulph_transpt2.
+DR   PANTHER; PTHR30406:SF4; PTHR30406:SF4; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; SSF161098; 1.
+DR   TIGRFAMs; TIGR00969; 3a0106s02; 1.
+DR   TIGRFAMs; TIGR02140; permease_CysW; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Membrane;
+KW   Sulfate transport; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    291       Sulfate transport system permease protein
+FT                                CysW.
+FT                                /FTId=PRO_0000059998.
+FT   TOPO_DOM      1     22       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     23     43       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM     44     69       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM     70     90       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM     91    104       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    105    125       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    126    141       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    142    162       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    163    200       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    201    221       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    222    247       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    248    268       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TOPO_DOM    269    291       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN       66    270       ABC transmembrane type-1.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00441}.
+SQ   SEQUENCE   291 AA;  32538 MW;  1878BEA4EB3F6E67 CRC64;
+     MAEVTQLKRY DARPINWGKW FLIGIGMLVS AFILLVPMIY IFVQAFSKGL MPVLQNLADP
+     DMLHAIWLTV MIALIAVPVN LVFGILLAWL VTRFNFPGRQ LLLTLLDIPF AVSPVVAGLV
+     YLLFYGSNGP LGGWLDEHNL QIMFSWPGMV LVTIFVTCPF VVRELVPVML SQGSQEDEAA
+     ILLGASGWQM FRRVTLPNIR WALLYGVVLT NARAIGEFGA VSVVSGSIRG ETLSLPLQIE
+     LLEQDYNTVG SFTAAALLTL MAIITLFLKS MLQWRLENQE KRAQQEEHHE H
+//

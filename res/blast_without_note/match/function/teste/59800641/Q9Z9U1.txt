@@ -1,0 +1,98 @@
+ID   DHSO_BACHD              Reviewed;         343 AA.
+AC   Q9Z9U1;
+DT   20-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   07-JAN-2015, entry version 97.
+DE   RecName: Full=Sorbitol dehydrogenase;
+DE            EC=1.1.1.14;
+DE   AltName: Full=Glucitol dehydrogenase;
+DE   AltName: Full=L-iditol 2-dehydrogenase;
+GN   Name=gutB; OrderedLocusNames=BH0189;
+OS   Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM
+OS   9153 / C-125).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=10086842; DOI=10.1007/s007920050096;
+RA   Takami H., Nakasone K., Ogasawara N., Hirama C., Nakamura Y.,
+RA   Masui N., Fuji F., Takaki Y., Inoue A., Horikoshi K.;
+RT   "Sequencing of three lambda clones from the genome of alkaliphilic
+RT   Bacillus sp. strain C-125.";
+RL   Extremophiles 3:29-34(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N.,
+RA   Fuji F., Hirama C., Nakamura Y., Ogasawara N., Kuhara S.,
+RA   Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus
+RT   halodurans and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+CC   -!- FUNCTION: Reduces glucitol to fructose. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: L-iditol + NAD(+) = L-sorbose + NADH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB011837; BAA75341.1; -; Genomic_DNA.
+DR   EMBL; BA000004; BAB03908.1; -; Genomic_DNA.
+DR   PIR; E83673; E83673.
+DR   RefSeq; NP_241055.1; NC_002570.2.
+DR   RefSeq; WP_010896371.1; NC_002570.2.
+DR   ProteinModelPortal; Q9Z9U1; -.
+DR   STRING; 272558.BH0189; -.
+DR   EnsemblBacteria; BAB03908; BAB03908; BAB03908.
+DR   GeneID; 891766; -.
+DR   KEGG; bha:BH0189; -.
+DR   PATRIC; 18937252; VBIBacHal18977_0198.
+DR   eggNOG; COG1063; -.
+DR   HOGENOM; HOG000294670; -.
+DR   KO; K00008; -.
+DR   OMA; DRYPLKD; -.
+DR   OrthoDB; EOG64FKGQ; -.
+DR   BioCyc; BHAL272558:GJC5-214-MONOMER; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0003939; F:L-iditol 2-dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Metal-binding; NAD; Oxidoreductase;
+KW   Reference proteome; Zinc.
+FT   CHAIN         1    343       Sorbitol dehydrogenase.
+FT                                /FTId=PRO_0000160824.
+FT   METAL        39     39       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL        60     60       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL        91     91       Zinc 2. {ECO:0000250}.
+FT   METAL        94     94       Zinc 2. {ECO:0000250}.
+FT   METAL        97     97       Zinc 2. {ECO:0000250}.
+FT   METAL       105    105       Zinc 2. {ECO:0000250}.
+FT   METAL       146    146       Zinc 1; catalytic. {ECO:0000250}.
+SQ   SEQUENCE   343 AA;  36889 MW;  20961F7C34676DFA CRC64;
+     MKALVKTQHG TGHFAVQEKP EPTPGKHQVK IKVKYTGVCG SDIHTYEGHY PVAAPVTLGH
+     EFSGEIVELG EGVTGFNVGD RVTSETTYSI CGKCSYCTSG DYNLCSHRKG LGNQQDGSFA
+     KYVIARQESL HHLPAGVDDR SAAMTEPLAC THHAIAKTSI NKGDLVVVTG PGPIGLLAAQ
+     VAKSHGGTVI ITGLSNDQVR LKKAKEVGID YAIDTQEVDI KELVSELTDG YGADVVLECS
+     GAVPAAKQGI DLLRKKGQYA QVGLFAQPEI QFNFEKIIQK EISVVGSRSQ KPADWEPALS
+     LLNEKKVNAK TLVTHEYTIS EWDKAYHAIK SGEAIKVLLT PID
+//

@@ -1,0 +1,101 @@
+ID   ARNB_SALPK              Reviewed;         379 AA.
+AC   B5BCP8;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 2.
+DT   07-JAN-2015, entry version 45.
+DE   RecName: Full=UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase {ECO:0000255|HAMAP-Rule:MF_01167};
+DE            EC=2.6.1.87 {ECO:0000255|HAMAP-Rule:MF_01167};
+DE   AltName: Full=UDP-(beta-L-threo-pentapyranosyl-4''-ulose diphosphate) aminotransferase {ECO:0000255|HAMAP-Rule:MF_01167};
+DE            Short=UDP-Ara4O aminotransferase {ECO:0000255|HAMAP-Rule:MF_01167};
+DE   AltName: Full=UDP-4-amino-4-deoxy-L-arabinose aminotransferase {ECO:0000255|HAMAP-Rule:MF_01167};
+GN   Name=arnB {ECO:0000255|HAMAP-Rule:MF_01167};
+GN   OrderedLocusNames=SSPA0530;
+OS   Salmonella paratyphi A (strain AKU_12601).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=554290;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AKU_12601;
+RX   PubMed=19159446; DOI=10.1186/1471-2164-10-36;
+RA   Holt K.E., Thomson N.R., Wain J., Langridge G.C., Hasan R.,
+RA   Bhutta Z.A., Quail M.A., Norbertczak H., Walker D., Simmonds M.,
+RA   White B., Bason N., Mungall K., Dougan G., Parkhill J.;
+RT   "Pseudogene accumulation in the evolutionary histories of Salmonella
+RT   enterica serovars Paratyphi A and Typhi.";
+RL   BMC Genomics 10:36-36(2009).
+CC   -!- FUNCTION: Catalyzes the conversion of UDP-4-keto-arabinose (UDP-
+CC       Ara4O) to UDP-4-amino-4-deoxy-L-arabinose (UDP-L-Ara4N). The
+CC       modified arabinose is attached to lipid A and is required for
+CC       resistance to polymyxin and cationic antimicrobial peptides.
+CC       {ECO:0000255|HAMAP-Rule:MF_01167}.
+CC   -!- CATALYTIC ACTIVITY: UDP-4-amino-4-deoxy-beta-L-arabinose + 2-
+CC       oxoglutarate = UDP-beta-L-threo-pentapyranos-4-ulose + L-
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_01167}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01167};
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-4-deoxy-4-formamido-
+CC       beta-L-arabinose biosynthesis; UDP-4-deoxy-4-formamido-beta-L-
+CC       arabinose from UDP-alpha-D-glucuronate: step 2/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_01167}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; lipopolysaccharide
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01167}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01167}.
+CC   -!- SIMILARITY: Belongs to the DegT/DnrJ/EryC1 family. ArnB subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01167}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAR58659.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; FM200053; CAR58659.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_011232981.1; NC_011147.1.
+DR   RefSeq; YP_002141375.1; NC_011147.1.
+DR   ProteinModelPortal; B5BCP8; -.
+DR   SMR; B5BCP8; 3-378.
+DR   STRING; 554290.SSPA0530; -.
+DR   EnsemblBacteria; CAR58659; CAR58659; SSPA0530.
+DR   PATRIC; 32340694; VBISalEnt134303_0602.
+DR   eggNOG; COG0399; -.
+DR   HOGENOM; HOG000230163; -.
+DR   OrthoDB; EOG6JQH30; -.
+DR   BioCyc; SENT554290:GJDA-562-MONOMER; -.
+DR   UniPathway; UPA00030; -.
+DR   UniPathway; UPA00032; UER00493.
+DR   Proteomes; UP000001869; Chromosome.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009103; P:lipopolysaccharide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01167; ArnB_transfer; 1.
+DR   InterPro; IPR022850; ArnB_NH2Trfase.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Antibiotic resistance; Complete proteome;
+KW   Lipid A biosynthesis; Lipid biosynthesis; Lipid metabolism;
+KW   Lipopolysaccharide biosynthesis; Pyridoxal phosphate; Transferase.
+FT   CHAIN         1    379       UDP-4-amino-4-deoxy-L-arabinose--
+FT                                oxoglutarate aminotransferase.
+FT                                /FTId=PRO_0000380542.
+FT   MOD_RES     182    182       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01167}.
+SQ   SEQUENCE   379 AA;  41191 MW;  C894D1D84A266ECA CRC64;
+     MLDFLPFSRP AMGAEELAAV KTVLDSGWIT TGPKNQELEA AFCRLTGNQY AVAVSSATAG
+     MHIALMALGI GEGDEVITPS MTWVSTLNMI VLLGANPVMV DVDRDTLMVT PEHIEAAITP
+     QTKAIIPVHY AGAPADLDAI YALGERYGIP VIEDAAHATG TSYKGRHIGA RGTAIFSFHA
+     IKNITCAEGG IVVTDNPQFA DKLRSLKFHG LGVDAWDRQS GGRAPQAEVL APGYKYNLPD
+     LNAAIALAQL QKLDALNARR AAIAAQYHQA MADLPFQPLS LPSWEHIHAW HLFIIRVDEA
+     RCGITRDALM ASLKTKGIGT GLHFRAAHTQ KYYRERFPTL TLPDTEWNSE RICSLPLFPD
+     MTESDFDRVI TALHQIAGQ
+//

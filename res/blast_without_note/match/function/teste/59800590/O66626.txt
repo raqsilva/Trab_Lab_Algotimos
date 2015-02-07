@@ -1,0 +1,84 @@
+ID   QUED_AQUAE              Reviewed;         162 AA.
+AC   O66626;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   04-FEB-2015, entry version 90.
+DE   RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase;
+DE            Short=CPH4 synthase;
+DE            EC=4.1.2.50;
+DE   AltName: Full=Queuosine biosynthesis protein QueD;
+GN   Name=queD; OrderedLocusNames=aq_269;
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin
+CC       triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4)
+CC       and acetaldehyde. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate + H(2)O =
+CC       6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PTPS family. QueD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000657; AAC06591.1; -; Genomic_DNA.
+DR   PIR; F70324; F70324.
+DR   RefSeq; NP_213186.1; NC_000918.1.
+DR   ProteinModelPortal; O66626; -.
+DR   STRING; 224324.aq_269; -.
+DR   EnsemblBacteria; AAC06591; AAC06591; aq_269.
+DR   GeneID; 1192860; -.
+DR   KEGG; aae:aq_269; -.
+DR   PATRIC; 20958168; VBIAquAeo85532_0223.
+DR   eggNOG; COG0720; -.
+DR   HOGENOM; HOG000225068; -.
+DR   InParanoid; O66626; -.
+DR   KO; K01737; -.
+DR   OMA; AGHRVWK; -.
+DR   OrthoDB; EOG6KMB7Z; -.
+DR   BioCyc; AAEO224324:GJBH-202-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000798; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+DR   PIRSF; PIRSF006113; PTP_synth; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Queuosine biosynthesis;
+KW   Reference proteome; Zinc.
+FT   CHAIN         1    162       6-carboxy-5,6,7,8-tetrahydropterin
+FT                                synthase.
+FT                                /FTId=PRO_0000057920.
+FT   ACT_SITE     39     39       Proton acceptor. {ECO:0000250}.
+FT   ACT_SITE     83     83       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    151    151       Charge relay system. {ECO:0000250}.
+FT   METAL        15     15       Zinc. {ECO:0000250}.
+FT   METAL        43     43       Zinc. {ECO:0000250}.
+FT   METAL        45     45       Zinc. {ECO:0000250}.
+SQ   SEQUENCE   162 AA;  18719 MW;  CEA62835FA26773B CRC64;
+     MKWEISKTFR FEAGHRVWKQ NLTYGRGAQF TKEKPVNKCV NLHGHSYVLE VTVGSDTLSE
+     QDMVMDFYHV KNALKGLIEE IDHSFIIDVN DPMYPELKDV AEKYGAMKIF PVEFCPTAEA
+     LAKFFYDFLK KRLEEAGLLG EVKVVKVVLW ETATSKAEYK EE
+//

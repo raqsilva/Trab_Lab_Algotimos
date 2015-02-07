@@ -1,0 +1,130 @@
+ID   KINB_PSEAI              Reviewed;         595 AA.
+AC   O34206;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   07-JAN-2015, entry version 101.
+DE   RecName: Full=Alginate biosynthesis sensor protein KinB;
+DE            EC=2.7.13.3;
+GN   Name=kinB;
+OS   Pseudomonas aeruginosa.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], CHARACTERIZATION, PHOSPHORYLATION
+RP   AT HIS-385, AND MUTAGENESIS OF HIS-385; ASN-504; ASP-532 AND GLY-560.
+RC   STRAIN=FRD444;
+RX   PubMed=9218420; DOI=10.1074/jbc.272.29.17952;
+RA   Ma S., Wozniak D.J., Ohman D.E.;
+RT   "Identification of the histidine protein kinase kinB in Pseudomonas
+RT   aeruginosa and its phosphorylation of the alginate regulator algB.";
+RL   J. Biol. Chem. 272:17952-17960(1997).
+CC   -!- FUNCTION: Member of the two-component regulatory system AlgB/KinB
+CC       involved in regulation of alginate biosynthesis genes. KinB
+CC       functions as a membrane-associated protein kinase that
+CC       phosphorylates AlgB, probably in response to environmental
+CC       signals.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- PTM: Autophosphorylated. {ECO:0000269|PubMed:9218420}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -!- SIMILARITY: Contains 1 PAC (PAS-associated C-terminal) domain.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 PAS (PER-ARNT-SIM) domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U97063; AAB68790.1; -; Genomic_DNA.
+DR   PDB; 3KKB; X-ray; 1.88 A; A/B=41-168.
+DR   PDBsum; 3KKB; -.
+DR   ProteinModelPortal; O34206; -.
+DR   eggNOG; COG5002; -.
+DR   BRENDA; 2.7.13.3; 5087.
+DR   EvolutionaryTrace; O34206; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0042121; P:alginic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR001610; PAC.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR013656; PAS_4.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   Pfam; PF08448; PAS_4; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SMART; SM00086; PAC; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55785; SSF55785; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   TIGRFAMs; TIGR00229; sensory_box; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alginate biosynthesis; ATP-binding; Cell membrane;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Sensory transduction; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN         1    595       Alginate biosynthesis sensor protein
+FT                                KinB.
+FT                                /FTId=PRO_0000074778.
+FT   TRANSMEM     13     33       Helical. {ECO:0000255}.
+FT   TOPO_DOM     34    167       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    168    188       Helical. {ECO:0000255}.
+FT   TOPO_DOM    189    595       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN      195    247       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      258    323       PAS.
+FT   DOMAIN      327    369       PAC.
+FT   DOMAIN      382    595       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     385    385       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107,
+FT                                ECO:0000269|PubMed:9218420}.
+FT   MUTAGEN     385    385       H->K,Q: Loss of autophosphorylation.
+FT                                {ECO:0000269|PubMed:9218420}.
+FT   MUTAGEN     504    504       N->Q: Loss of autophosphorylation.
+FT                                {ECO:0000269|PubMed:9218420}.
+FT   MUTAGEN     532    532       D->E: Loss of autophosphorylation.
+FT                                {ECO:0000269|PubMed:9218420}.
+FT   MUTAGEN     532    532       D->N: Residual autophosphorylation.
+FT                                {ECO:0000269|PubMed:9218420}.
+FT   MUTAGEN     560    560       G->A: Loss of autophosphorylation.
+FT                                {ECO:0000269|PubMed:9218420}.
+FT   HELIX        41     70       {ECO:0000244|PDB:3KKB}.
+FT   STRAND       72     74       {ECO:0000244|PDB:3KKB}.
+FT   HELIX        77     97       {ECO:0000244|PDB:3KKB}.
+FT   HELIX       101    118       {ECO:0000244|PDB:3KKB}.
+FT   HELIX       121    126       {ECO:0000244|PDB:3KKB}.
+FT   STRAND      131    133       {ECO:0000244|PDB:3KKB}.
+FT   HELIX       134    162       {ECO:0000244|PDB:3KKB}.
+SQ   SEQUENCE   595 AA;  66072 MW;  BA12FC7E3120F048 CRC64;
+     MSMPLPMKLR TRLFLSISAL ITVSLFGLLL GLFSVMQLGR AQEQRMSHHY ATIEVSQQLR
+     QLLGDQLVIL LRETPDGQAL ERSQNDFRRV LEQGRANTVD SAEQAALDGV RDAYLQLQAH
+     TPALLEAPMV DNDGFSEAFN GLRLRLQDLQ QLALAGISDA ETSARHRAYL VAGLLGLVGV
+     AILLIGFVTA HSIARRFGAP IETLARAADR IGEGDFDVTL PMTNVAEVGQ LTRRFGLMAE
+     ALRQYRKTSV EEVLSGERRL QAVLDSIDDG LVIFDNQGRI EHANPVAIRQ LFVSNDPHGK
+     RIDEILSDVD VQEAVEKALL GEVQDEAMPD LVVDVAGESR LLAWSLYPVT HPGGHSVGAV
+     LVVRDVTEQR AFERVRSEFV LRASHELRTP VTGMQMAFSL LRERLDFPAE SREADLIQTV
+     DEEMSRLVLL INDLLNFSRY QTGMQKLELA SCDLVDLLTQ AQQRFIPKGE ARRVSLQLEL
+     GDELPRLQLD RLQIERVIDN LLENALRHSS EGGQIHLQAR RQGDRVLIAV EDNGEGIPFS
+     QQGRIFEPFV QVGRKKGGAG LGLELCKEII QLHGGRIAVR SQPGQGARFY MLLPV
+//

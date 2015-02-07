@@ -1,0 +1,92 @@
+ID   CCSA_SOLTU              Reviewed;         313 AA.
+AC   Q2VED1;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   10-JAN-2006, sequence version 1.
+DT   07-JAN-2015, entry version 40.
+DE   RecName: Full=Cytochrome c biogenesis protein CcsA {ECO:0000255|HAMAP-Rule:MF_01391};
+GN   Name=ccsA {ECO:0000255|HAMAP-Rule:MF_01391};
+OS   Solanum tuberosum (Potato).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; asterids; lamiids; Solanales; Solanaceae; Solanoideae;
+OC   Solaneae; Solanum.
+OX   NCBI_TaxID=4113;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Desiree;
+RX   PubMed=16835751; DOI=10.1007/s00299-006-0196-4;
+RA   Chung H.-J., Jung J.D., Park H.-W., Kim J.-H., Cha H.W., Min S.R.,
+RA   Jeong W.-J., Liu J.R.;
+RT   "The complete chloroplast genome sequences of Solanum tuberosum and
+RT   comparative analysis with Solanaceae species identified the presence
+RT   of a 241-bp deletion in cultivated potato chloroplast DNA sequence.";
+RL   Plant Cell Rep. 25:1369-1379(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Desiree;
+RA   Gargano D., Scotti N., Vezzi A., Bilardi A., Valle G., Grillo S.,
+RA   Cardi T.;
+RT   "Complete chloroplast genome sequences of Solanum tuberosum cultivar
+RT   Desiree and comparative analyses with other Solanaceae genomes.";
+RL   Submitted (FEB-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required during biogenesis of c-type cytochromes
+CC       (cytochrome c6 and cytochrome f) at the step of heme attachment.
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}.
+CC   -!- SUBUNIT: May interact with Ccs1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01391}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}.
+CC   -!- SIMILARITY: Belongs to the CcmF/CycK/Ccl1/NrfE/CcsA family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; DQ231562; ABB90087.1; -; Genomic_DNA.
+DR   EMBL; DQ386163; ABD47106.1; -; Genomic_DNA.
+DR   RefSeq; YP_635688.1; NC_008096.2.
+DR   GeneID; 4099904; -.
+DR   KEGG; sot:4099904; -.
+DR   InParanoid; Q2VED1; -.
+DR   Proteomes; UP000011115; Unplaced.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0008535; P:respiratory chain complex IV assembly; IEA:EnsemblPlants/Gramene.
+DR   HAMAP; MF_01391; CytC_CcsA; 1.
+DR   InterPro; IPR002541; Cyt_c_assembly.
+DR   InterPro; IPR017562; Cyt_c_biogenesis_CcsA.
+DR   Pfam; PF01578; Cytochrom_C_asm; 1.
+DR   TIGRFAMs; TIGR03144; cytochr_II_ccsB; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; Complete proteome; Cytochrome c-type biogenesis;
+KW   Membrane; Plastid; Reference proteome; Thylakoid; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    313       Cytochrome c biogenesis protein CcsA.
+FT                                /FTId=PRO_0000277576.
+FT   TRANSMEM      9     29       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM     44     64       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM     71     91       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    111    131       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    143    163       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    217    237       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    244    264       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    278    298       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+SQ   SEQUENCE   313 AA;  35512 MW;  631BB86D5776CCE0 CRC64;
+     MIFSTLEHIL THISFSIVSI VITIHLITFL VDEIVKLYDS SEKGIIVTFF CITGLLVTRW
+     ISSGHFPLSD LYESLIFLSW SFSLIHIIPY FKKNVLILSK ITGPSAILTQ GFATSGILTE
+     IHQSGILVPA LQSEWLIMHV SMMILGYAAL LCGSLLSVAL LVITFRKNRK LFYKSNGFLN
+     ESFFLGENVV ENTSFFCAKN YYRSQLIQQL DYWSYRVISL GFTFLTIGIL SGAVWANEAW
+     GSYWNWDPKE TWAFITWIVF AIYLHTRTNR NLRGPNSAIV ASIGFLIIWI CYFGVNLLGI
+     GLHSYGSFPS TFN
+//

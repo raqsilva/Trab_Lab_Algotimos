@@ -1,0 +1,92 @@
+ID   DEGPL_HALED             Reviewed;         474 AA.
+AC   E1V4H2;
+DT   14-DEC-2011, integrated into UniProtKB/Swiss-Prot.
+DT   30-NOV-2010, sequence version 1.
+DT   04-FEB-2015, entry version 30.
+DE   RecName: Full=Probable periplasmic serine endoprotease DegP-like;
+DE            EC=3.4.21.107;
+DE   AltName: Full=Protease Do;
+DE   Flags: Precursor;
+GN   Name=mucD; OrderedLocusNames=HELO_3026;
+OS   Halomonas elongata (strain ATCC 33173 / DSM 2581 / NBRC 15536 / NCIMB
+OS   2198 / 1H9).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales;
+OC   Halomonadaceae; Halomonas.
+OX   NCBI_TaxID=768066;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33173 / DSM 2581 / NBRC 15536 / NCIMB 2198 / 1H9;
+RX   PubMed=20849449; DOI=10.1111/j.1462-2920.2010.02336.x;
+RA   Schwibbert K., Marin-Sanguino A., Bagyan I., Heidrich G., Lentzen G.,
+RA   Seitz H., Rampp M., Schuster S.C., Klenk H.P., Pfeiffer F.,
+RA   Oesterhelt D., Kunte H.J.;
+RT   "A blueprint of ectoine metabolism from the genome of the industrial
+RT   producer Halomonas elongata DSM 2581(T).";
+RL   Environ. Microbiol. 13:1973-1994(2011).
+CC   -!- FUNCTION: Might be efficient in the degradation of transiently
+CC       denatured and unfolded proteins which accumulate in the periplasm
+CC       following stress conditions. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 PDZ (DHR) domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; FN869568; CBV42910.1; -; Genomic_DNA.
+DR   RefSeq; YP_003898095.1; NC_014532.1.
+DR   ProteinModelPortal; E1V4H2; -.
+DR   MEROPS; S01.500; -.
+DR   EnsemblBacteria; CBV42910; CBV42910; HELO_3026.
+DR   GeneID; 9746391; -.
+DR   KEGG; hel:HELO_3026; -.
+DR   PATRIC; 42355514; VBIHalElo161731_2183.
+DR   HOGENOM; HOG000223640; -.
+DR   KO; K01362; -.
+DR   OMA; IGMHYLA; -.
+DR   BioCyc; HELO768066:GJEE-2083-MONOMER; -.
+DR   Proteomes; UP000008707; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; ISS:UniProtKB.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISS:UniProtKB.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF13180; PDZ_2; 2.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; SSF50156; 2.
+DR   SUPFAM; SSF50494; SSF50494; 2.
+DR   TIGRFAMs; TIGR02037; degP_htrA_DO; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Periplasm; Protease; Reference proteome;
+KW   Repeat; Serine protease; Signal; Stress response.
+FT   SIGNAL        1     26       {ECO:0000255}.
+FT   CHAIN        27    474       Probable periplasmic serine endoprotease
+FT                                DegP-like.
+FT                                /FTId=PRO_0000414222.
+FT   DOMAIN      263    354       PDZ 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   DOMAIN      360    462       PDZ 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   REGION      217    219       Substrate binding. {ECO:0000250}.
+FT   REGION      274    278       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    116    116       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    146    146       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    219    219       Charge relay system. {ECO:0000250}.
+SQ   SEQUENCE   474 AA;  50369 MW;  8741117CF4DC4DF4 CRC64;
+     MTRMTRHLAL WMLLSLAILA SQSAMAQKLP DFTSLVEEAA PAVVNISTSR TVETRNMPFG
+     QFGGQELPEI FKHFFGERFG DQMPMPPGAQ GHSEERRSLG SGFIISEDGY IMTNAHVVEG
+     ADEILVSLND GRELKAELVG ADTKTDVAVL KVDADNLPTL TLGDSEDLKV GQWVAAIGSP
+     FGLDHSVTSG IISAINRTLP RDVYVPFIQT DVAINPGNSG GPLFNLDGEV IGINSQIFTR
+     SGGYMGLSFA IPIDVAMDVA DQLRNDGSVS RGWLGVMIQP VSRELADSFG MDKPQGALIA
+     DLDPDGPAAR DGLKAGDVVL EVDGQTVDSS SALPRLIGRV SPGNDVELKV LRNGEHRNVT
+     VTVGDWPDSQ KGAGGSAGDT APARLGLAVR PLEEGQHDQA IDNGVRVVEV DPTGVAAKAG
+     IRAGDILVSI GEHAVESPEQ LSELIGELPE DRAVPVRLYR SGHSYYVALR LAQK
+//

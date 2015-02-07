@@ -1,0 +1,86 @@
+ID   QUED_PYRAB              Reviewed;         157 AA.
+AC   Q9UXZ4; G8ZK78;
+DT   14-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Putative 6-carboxy-5,6,7,8-tetrahydropterin synthase;
+DE            Short=CPH4 synthase;
+DE            EC=4.1.2.50;
+DE   AltName: Full=Archaeosine biosynthesis protein QueD;
+GN   Name=queD; OrderedLocusNames=PYRAB17130; ORFNames=PAB1123;
+OS   Pyrococcus abyssi (strain GE5 / Orsay).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=272844;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=12622808; DOI=10.1046/j.1365-2958.2003.03381.x;
+RA   Cohen G.N., Barbe V., Flament D., Galperin M., Heilig R., Lecompte O.,
+RA   Poch O., Prieur D., Querellou J., Ripp R., Thierry J.-C.,
+RA   Van der Oost J., Weissenbach J., Zivanovic Y., Forterre P.;
+RT   "An integrated analysis of the genome of the hyperthermophilic
+RT   archaeon Pyrococcus abyssi.";
+RL   Mol. Microbiol. 47:1495-1512(2003).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=22057919; DOI=10.1007/s00284-011-0035-x;
+RA   Gao J., Wang J.;
+RT   "Re-annotation of two hyperthermophilic archaea Pyrococcus abyssi GE5
+RT   and Pyrococcus furiosus DSM 3638.";
+RL   Curr. Microbiol. 64:118-129(2012).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin
+CC       triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4)
+CC       and acetaldehyde. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate + H(2)O =
+CC       6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PTPS family. QueD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ248288; CAB50618.1; -; Genomic_DNA.
+DR   EMBL; HE613800; CCE71185.1; -; Genomic_DNA.
+DR   PIR; D75022; D75022.
+DR   RefSeq; NP_127389.1; NC_000868.1.
+DR   ProteinModelPortal; Q9UXZ4; -.
+DR   STRING; 272844.PAB1123; -.
+DR   EnsemblBacteria; CAB50618; CAB50618; PAB1123.
+DR   GeneID; 1496014; -.
+DR   KEGG; pab:PAB1123; -.
+DR   eggNOG; COG0720; -.
+DR   HOGENOM; HOG000225068; -.
+DR   OMA; WEDPRSY; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000810; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Zinc.
+FT   CHAIN         1    157       Putative 6-carboxy-5,6,7,8-
+FT                                tetrahydropterin synthase.
+FT                                /FTId=PRO_0000057933.
+FT   ACT_SITE     31     31       Proton acceptor. {ECO:0000250}.
+FT   ACT_SITE     70     70       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    140    140       Charge relay system. {ECO:0000250}.
+FT   METAL        21     21       Zinc. {ECO:0000250}.
+FT   METAL        35     35       Zinc. {ECO:0000250}.
+FT   METAL        37     37       Zinc. {ECO:0000250}.
+SQ   SEQUENCE   157 AA;  18742 MW;  6EA2D11C6969531D CRC64;
+     MKRVVSIKRR IYWTKEFDSS HFLELEYESK CRRLHGHTYR VEVEIEGEPN EHGMIFDFNH
+     LSELIKTLDH KVIVSEKWVR YEEGYVLIEK NDKLLKLPRS EVVVIDKPNV TAEYIAEWIS
+     ERILENAGEN VREIRVRVWE DPRSYAEITL TLKPQGS
+//

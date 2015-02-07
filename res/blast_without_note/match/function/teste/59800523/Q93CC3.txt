@@ -1,0 +1,87 @@
+ID   HOSA_ECOLX              Reviewed;         135 AA.
+AC   Q93CC3; Q9EUB1; Q9F8R2;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 2.
+DT   29-OCT-2014, entry version 60.
+DE   RecName: Full=Transcriptional regulator HosA;
+GN   Name=hosA;
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=O26:NM / DEC 9f / EHEC, and O55:H6 / DEC 1a / EPEC;
+RX   PubMed=10986240; DOI=10.1128/JB.182.19.5381-5390.2000;
+RA   Herbelin C.J., Chirillo S.C., Melnick K.A., Whittam T.S.;
+RT   "Gene conservation and loss in the mutS-rpoS genomic region of
+RT   pathogenic Escherichia coli.";
+RL   J. Bacteriol. 182:5381-5390(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 36-135.
+RC   STRAIN=BJ4;
+RX   PubMed=11810263; DOI=10.1007/s00438-001-0610-0;
+RA   Atlung T., Nielsen H.V., Hansen F.G.;
+RT   "Characterisation of the allelic variation in the rpoS gene in
+RT   thirteen K12 and six other non-pathogenic Escherichia coli strains.";
+RL   Mol. Genet. Genomics 266:873-881(2002).
+RN   [3]
+RP   NOMENCLATURE.
+RX   PubMed=12088660; DOI=10.1016/S0966-842X(02)02374-0;
+RA   Heroven A.K., Dersch P.;
+RT   "Two different open reading frames named slyA in the E. coli sequence
+RT   databases.";
+RL   Trends Microbiol. 10:267-268(2002).
+CC   -!- FUNCTION: Involved in the temperature-dependent positive control
+CC       of flagellum-driven swimming motility and cellular aggregation.
+CC       Regulates fliC expression by directly interacting with fliC
+CC       promoter (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HTH marR-type DNA-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00345}.
+CC   -!- CAUTION: Originally described as slyA, but then it was found that
+CC       two distinct genes had been named slyA. This gene was renamed
+CC       hosA. It is not present in strain K12. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF242209; AAG14980.1; -; Genomic_DNA.
+DR   EMBL; AF242210; AAG14987.1; -; Genomic_DNA.
+DR   EMBL; AF410776; AAL01413.1; -; Genomic_DNA.
+DR   RefSeq; WP_001208066.1; NZ_JICH01000032.1.
+DR   ProteinModelPortal; Q93CC3; -.
+DR   SMR; Q93CC3; 3-133.
+DR   eggNOG; COG1846; -.
+DR   GO; GO:0005622; C:intracellular; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR000835; HTH_MarR-typ.
+DR   InterPro; IPR023187; Tscrpt_reg_MarR-type_CS.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF01047; MarR; 1.
+DR   PRINTS; PR00598; HTHMARR.
+DR   SMART; SM00347; HTH_MARR; 1.
+DR   PROSITE; PS01117; HTH_MARR_1; 1.
+DR   PROSITE; PS50995; HTH_MARR_2; 1.
+PE   3: Inferred from homology;
+KW   DNA-binding; Transcription; Transcription regulation; Virulence.
+FT   CHAIN         1    135       Transcriptional regulator HosA.
+FT                                /FTId=PRO_0000054355.
+FT   DOMAIN        4    134       HTH marR-type. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00345}.
+FT   DNA_BIND     48     71       H-T-H motif. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00345}.
+FT   VARIANT      81     81       A -> P (in strain: DEC 9f).
+FT   VARIANT      81     81       A -> S (in strain: BJ4).
+FT   VARIANT      98     98       V -> I (in strain: DEC 9f).
+FT   VARIANT     119    119       A -> G (in strain: DEC 9f and BJ4).
+FT   VARIANT     121    121       E -> K (in strain: DEC 9f).
+FT   VARIANT     135    135       T -> A (in strain: DEC 9f and BJ4).
+SQ   SEQUENCE   135 AA;  15497 MW;  141FF8C0F0049284 CRC64;
+     MALRNKAFHQ LRQLFQQHTA RWQHELPDLT KPQYAVMRAI ADKPGIEQVA LIEAAVSTKA
+     TLAEMLARME NRGLVRREHD AADKRRRFVW LTAEGEKVLA AAIPIGDSVD EEFLGRLSAE
+     EQELFMQLVR KMMNT
+//

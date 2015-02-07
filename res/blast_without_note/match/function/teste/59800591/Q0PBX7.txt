@@ -1,0 +1,94 @@
+ID   QUEE_CAMJE              Reviewed;         247 AA.
+AC   Q0PBX7;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 1.
+DT   07-JAN-2015, entry version 47.
+DE   RecName: Full=7-carboxy-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            Short=CDG synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            EC=4.3.99.3 {ECO:0000255|HAMAP-Rule:MF_00917};
+DE   AltName: Full=Queuosine biosynthesis protein QueE {ECO:0000255|HAMAP-Rule:MF_00917};
+GN   Name=queE {ECO:0000255|HAMAP-Rule:MF_00917};
+GN   OrderedLocusNames=Cj0160c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain NCTC 11168).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W.,
+RA   Quail M.A., Rajandream M.A., Rutherford K.M., van Vliet A.H.M.,
+RA   Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the conversion of 6-carboxy-5,6,7,8-
+CC       tetrahydropterin (CPH4) to 7-carboxy-7-deazaguanine (CDG).
+CC       {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- CATALYTIC ACTIVITY: 6-carboxy-5,6,7,8-tetrahydropterin = 7-
+CC       carboxy-7-carbaguanine + NH(3). {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- COFACTOR:
+CC       Name=S-adenosyl-L-methionine; Xref=ChEBI:CHEBI:59789;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 S-adenosyl-L-methionine per subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. 7-carboxy-7-
+CC       deazaguanine synthase family. {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34331.1; -; Genomic_DNA.
+DR   PIR; H81433; H81433.
+DR   RefSeq; YP_002343620.1; NC_002163.1.
+DR   IntAct; Q0PBX7; 57.
+DR   STRING; 192222.Cj0160c; -.
+DR   EnsemblBacteria; CAL34331; CAL34331; Cj0160c.
+DR   GeneID; 904496; -.
+DR   KEGG; cje:Cj0160c; -.
+DR   PATRIC; 20057247; VBICamJej33762_0158.
+DR   HOGENOM; HOG000266146; -.
+DR   KO; K04071; -.
+DR   OMA; CKGFNCK; -.
+DR   OrthoDB; EOG6RJV40; -.
+DR   BioCyc; CJEJ192222:GJTS-156-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016840; F:carbon-nitrogen lyase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00917; QueE; 1.
+DR   InterPro; IPR024924; 7-CO-7-deazaguanine_synth-like.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   PIRSF; PIRSF000370; QueE; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; Iron; Iron-sulfur; Lyase; Metal-binding;
+KW   Queuosine biosynthesis; Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN         1    247       7-carboxy-7-deazaguanine synthase.
+FT                                /FTId=PRO_0000416199.
+FT   METAL        29     29       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+FT   METAL        33     33       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+FT   METAL        50     50       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_00917}.
+SQ   SEQUENCE   247 AA;  28733 MW;  AB63E2F08D03900A CRC64;
+     MQLVESFLSI QGEGKYNGKL AIFMRFAGCN FNCLGFNVKI SKNDKTLIGC DTIRAVFTKD
+     FKESYETLNA NELLKRVIKL KKDFDPIVVI TGGEPLIHYE NPEFIEFIQM LLKNKFEIHF
+     ESNGSIEIDF DRYPFYKECI FALSVKLQNS GIKKDKRLNF KALKAFKNYA KDSFYKFVLD
+     ANTLDNSFLE INEILKEAPN QIFCMPMGEN EQNLKKNAQK IAEFCIKNGY NYSDRIHIRL
+     WNDKEGV
+//

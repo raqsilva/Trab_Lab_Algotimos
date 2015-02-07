@@ -1,0 +1,179 @@
+ID   GDPPS_CAUCR             Reviewed;         371 AA.
+AC   Q9A9H3; O85354;
+DT   29-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   04-FEB-2015, entry version 73.
+DE   RecName: Full=GDP-perosamine synthase {ECO:0000303|PubMed:18247575, ECO:0000303|PubMed:18795799};
+DE            EC=2.6.1.102 {ECO:0000269|PubMed:18247575, ECO:0000269|PubMed:18795799};
+GN   Name=per {ECO:0000303|PubMed:11390676};
+GN   OrderedLocusNames=CC_1012 {ECO:0000312|EMBL:AAK22996.1};
+OS   Caulobacter crescentus (strain ATCC 19089 / CB15).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales;
+OC   Caulobacteraceae; Caulobacter.
+OX   NCBI_TaxID=190650;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, PATHWAY, AND DISRUPTION
+RP   PHENOTYPE.
+RC   STRAIN=ATCC 19089 / CB15;
+RX   PubMed=11390676;
+RA   Awram P., Smit J.;
+RT   "Identification of lipopolysaccharide O antigen synthesis genes
+RT   required for attachment of the S-layer of Caulobacter crescentus.";
+RL   Microbiology 147:1451-1460(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19089 / CB15;
+RX   PubMed=11259647; DOI=10.1073/pnas.061029298;
+RA   Nierman W.C., Feldblyum T.V., Laub M.T., Paulsen I.T., Nelson K.E.,
+RA   Eisen J.A., Heidelberg J.F., Alley M.R.K., Ohta N., Maddock J.R.,
+RA   Potocka I., Nelson W.C., Newton A., Stephens C., Phadke N.D., Ely B.,
+RA   DeBoy R.T., Dodson R.J., Durkin A.S., Gwinn M.L., Haft D.H.,
+RA   Kolonay J.F., Smit J., Craven M.B., Khouri H.M., Shetty J.,
+RA   Berry K.J., Utterback T.R., Tran K., Wolf A.M., Vamathevan J.J.,
+RA   Ermolaeva M.D., White O., Salzberg S.L., Venter J.C., Shapiro L.,
+RA   Fraser C.M.;
+RT   "Complete genome sequence of Caulobacter crescentus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:4136-4141(2001).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) OF 2-371, FUNCTION, CATALYTIC
+RP   ACTIVITY, COFACTOR, AND SUBUNIT.
+RX   PubMed=18247575; DOI=10.1021/bi702430d;
+RA   Cook P.D., Holden H.M.;
+RT   "GDP-perosamine synthase: structural analysis and production of a
+RT   novel trideoxysugar.";
+RL   Biochemistry 47:2833-2840(2008).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF MUTANT ALA-186 IN COMPLEX
+RP   WITH GDP-PEROSAMINE AND WILD-TYPE IN COMPLEX WITH
+RP   GDP-3-DEOXYPEROSAMINE, FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND MUTAGENESIS OF LYS-186.
+RX   PubMed=18795799; DOI=10.1021/bi801309q;
+RA   Cook P.D., Carney A.E., Holden H.M.;
+RT   "Accommodation of GDP-linked sugars in the active site of GDP-
+RT   perosamine synthase.";
+RL   Biochemistry 47:10685-10693(2008).
+CC   -!- FUNCTION: Catalyzes the synthesis of GDP-perosamine from GDP-4-
+CC       keto-6-deoxy-D-mannose and L-glutamate. Can use only L-glutamate
+CC       as amino donor. In vitro, can also use GDP-4-keto-3,6-
+CC       dideoxymannose to produce GDP-3-deoxyperosamine. Involved in the
+CC       formation of S-LPS, which is required for attachment of the
+CC       protein S-layer to the outer membrane surface.
+CC       {ECO:0000269|PubMed:11390676, ECO:0000269|PubMed:18247575,
+CC       ECO:0000269|PubMed:18795799}.
+CC   -!- CATALYTIC ACTIVITY: GDP-4-amino-4,6-dideoxy-alpha-D-mannose + 2-
+CC       oxoglutarate = GDP-4-dehydro-6-deoxy-alpha-D-mannose + L-
+CC       glutamate. {ECO:0000269|PubMed:18247575,
+CC       ECO:0000269|PubMed:18795799}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000269|PubMed:18247575,
+CC         ECO:0000269|PubMed:18795799};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.013 mM for GDP-4-keto-6-deoxy-D-mannose
+CC         {ECO:0000269|PubMed:18795799};
+CC         KM=0.016 mM for GDP-4-keto-3,6-dideoxymannose
+CC         {ECO:0000269|PubMed:18795799};
+CC         KM=4.6 mM for L-glutamate (with GDP-4-keto-6-deoxy-D-mannose as
+CC         cosubstrate) {ECO:0000269|PubMed:18795799};
+CC         KM=0.13 mM for L-glutamate (with GDP-4-keto-3,6-dideoxymannose
+CC         as cosubstrate) {ECO:0000269|PubMed:18795799};
+CC         Note=kcat is 2.7 sec(-1) for GDP-4-keto-6-deoxy-D-mannose. kcat
+CC         is 0.015 sec(-1) for GDP-4-keto-3,6-dideoxymannose.
+CC         {ECO:0000269|PubMed:18795799};
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS O-antigen
+CC       biosynthesis. {ECO:0000269|PubMed:11390676}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:18247575}.
+CC   -!- DISRUPTION PHENOTYPE: Mutant produces altered S-LPS.
+CC       {ECO:0000269|PubMed:11390676}.
+CC   -!- SIMILARITY: Belongs to the DegT/DnrJ/EryC1 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAC38670.2; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF062345; AAC38670.2; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE005673; AAK22996.1; -; Genomic_DNA.
+DR   PIR; H87374; H87374.
+DR   RefSeq; NP_419828.1; NC_002696.2.
+DR   PDB; 3BN1; X-ray; 1.80 A; A/B/C/D=2-371.
+DR   PDB; 3DR4; X-ray; 1.60 A; A/B/C/D=1-371.
+DR   PDB; 3DR7; X-ray; 1.70 A; A/B/C/D=1-371.
+DR   PDBsum; 3BN1; -.
+DR   PDBsum; 3DR4; -.
+DR   PDBsum; 3DR7; -.
+DR   ProteinModelPortal; Q9A9H3; -.
+DR   SMR; Q9A9H3; 4-371.
+DR   EnsemblBacteria; AAK22996; AAK22996; CC_1012.
+DR   GeneID; 940730; -.
+DR   KEGG; ccr:CC_1012; -.
+DR   PATRIC; 21299000; VBICauCre124313_1030.
+DR   HOGENOM; HOG000230163; -.
+DR   KO; K13010; -.
+DR   OMA; ECIETGW; -.
+DR   OrthoDB; EOG69GZMP; -.
+DR   UniPathway; UPA00281; -.
+DR   EvolutionaryTrace; Q9A9H3; -.
+DR   Proteomes; UP000001816; Chromosome.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009243; P:O antigen biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Aminotransferase; Complete proteome;
+KW   Lipopolysaccharide biosynthesis; Pyridoxal phosphate;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    371       GDP-perosamine synthase.
+FT                                /FTId=PRO_0000430719.
+FT   MOD_RES     186    186       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250|UniProtKB:Q8ZNF3,
+FT                                ECO:0000303|PubMed:18795799}.
+FT   MUTAGEN     186    186       K->A: Loss of activity.
+FT                                {ECO:0000269|PubMed:18795799}.
+FT   HELIX        18     28       {ECO:0000244|PDB:3DR4}.
+FT   HELIX        36     49       {ECO:0000244|PDB:3DR4}.
+FT   STRAND       52     59       {ECO:0000244|PDB:3DR4}.
+FT   HELIX        60     71       {ECO:0000244|PDB:3DR4}.
+FT   STRAND       78     85       {ECO:0000244|PDB:3DR4}.
+FT   HELIX        88     95       {ECO:0000244|PDB:3DR4}.
+FT   STRAND       99    103       {ECO:0000244|PDB:3DR4}.
+FT   TURN        107    109       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       114    116       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       118    120       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      125    128       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       133    135       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       140    149       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      153    157       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      173    181       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      186    188       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      194    199       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       201    211       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       234    245       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       247    265       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       266    268       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      271    273       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      286    292       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       300    309       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       321    323       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       325    330       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       336    344       {ECO:0000244|PDB:3DR4}.
+FT   STRAND      345    348       {ECO:0000244|PDB:3DR4}.
+FT   HELIX       356    367       {ECO:0000244|PDB:3DR4}.
+SQ   SEQUENCE   371 AA;  40637 MW;  AA4205787508C427 CRC64;
+     MSDLPRISVA APRLDGNERD YVLECMDTTW ISSVGRFIVE FEKAFADYCG VKHAIACNNG
+     TTALHLALVA MGIGPGDEVI VPSLTYIASA NSVTYCGATP VLVDNDPRTF NLDAAKLEAL
+     ITPRTKAIMP VHLYGQICDM DPILEVARRH NLLVIEDAAE AVGATYRGKK SGSLGDCATF
+     SFFGNKIITT GEGGMITTND DDLAAKMRLL RGQGMDPNRR YWFPIVGFNY RMTNIQAAIG
+     LAQLERVDEH LAARERVVGW YEQKLARLGN RVTKPHVALT GRHVFWMYTV RLGEGLSTTR
+     DQVIKDLDAL GIESRPVFHP MHIMPPYAHL ATDDLKIAEA CGVDGLNLPT HAGLTEADID
+     RVIAALDQVL V
+//

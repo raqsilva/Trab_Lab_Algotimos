@@ -1,0 +1,99 @@
+ID   GSPD2_DICD3             Reviewed;         710 AA.
+AC   Q01565; E0SM41;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   07-JAN-2015, entry version 89.
+DE   RecName: Full=Type II secretion system protein D;
+DE            Short=T2SS protein D;
+DE   AltName: Full=General secretion pathway protein D;
+DE   AltName: Full=Pectic enzymes secretion protein OutD;
+DE   Flags: Precursor;
+GN   Name=outD; OrderedLocusNames=Dda3937_02415;
+OS   Dickeya dadantii (strain 3937) (Erwinia chrysanthemi (strain 3937)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Dickeya.
+OX   NCBI_TaxID=198628;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=3937;
+RX   PubMed=1453958; DOI=10.1111/j.1365-2958.1992.tb01775.x;
+RA   Condemine G., Dorel C., Hugouvieux-Cotte-Pattat N., Robert-Baudouy J.;
+RT   "Some of the out genes involved in the secretion of pectate lyases in
+RT   Erwinia chrysanthemi are regulated by kdgR.";
+RL   Mol. Microbiol. 6:3199-3211(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=3937;
+RX   PubMed=21217001; DOI=10.1128/JB.01513-10;
+RA   Glasner J.D., Yang C.H., Reverchon S., Hugouvieux-Cotte-Pattat N.,
+RA   Condemine G., Bohin J.P., Van Gijsegem F., Yang S., Franza T.,
+RA   Expert D., Plunkett G. III, San Francisco M.J., Charkowski A.O.,
+RA   Py B., Bell K., Rauscher L., Rodriguez-Palenzuela P., Toussaint A.,
+RA   Holeva M.C., He S.Y., Douet V., Boccara M., Blanco C., Toth I.,
+RA   Anderson B.D., Biehl B.S., Mau B., Flynn S.M., Barras F.,
+RA   Lindeberg M., Birch P.R., Tsuyumu S., Shi X., Hibbing M., Yap M.N.,
+RA   Carpentier M., Dassa E., Umehara M., Kim J.F., Rusch M., Soni P.,
+RA   Mayhew G.F., Fouts D.E., Gill S.R., Blattner F.R., Keen N.T.,
+RA   Perna N.T.;
+RT   "Genome sequence of the plant-pathogenic bacterium Dickeya dadantii
+RT   3937.";
+RL   J. Bacteriol. 193:2076-2077(2011).
+CC   -!- FUNCTION: Involved in a type II secretion system (T2SS, formerly
+CC       general secretion pathway, GSP) for the export of proteins (By
+CC       similarity). Required for the translocation of the multiple pectic
+CC       enzymes. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X65265; CAA46370.1; -; Genomic_DNA.
+DR   EMBL; CP002038; ADM99376.1; -; Genomic_DNA.
+DR   PIR; S28014; S28014.
+DR   PDB; 4K0U; X-ray; 2.15 A; B=693-705.
+DR   PDBsum; 4K0U; -.
+DR   EnsemblBacteria; ADM99376; ADM99376; Dda3937_02415.
+DR   KEGG; ddd:Dda3937_02415; -.
+DR   PATRIC; 42318645; VBIDicDad25310_3137.
+DR   HOGENOM; HOG000253751; -.
+DR   KO; K02453; -.
+DR   OMA; TSNQRVP; -.
+DR   BioCyc; DDAD198628:GHFQ-3239-MONOMER; -.
+DR   Proteomes; UP000006859; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015627; C:type II protein secretion system complex; IEA:InterPro.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0015628; P:protein secretion by the type II secretion system; IEA:InterPro.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR013356; T2SS_GspD.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 3.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   TIGRFAMs; TIGR02517; type_II_gspD; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell outer membrane; Complete proteome; Membrane;
+KW   Protein transport; Reference proteome; Signal; Transport.
+FT   SIGNAL        1     27       {ECO:0000255}.
+FT   CHAIN        28    710       Type II secretion system protein D.
+FT                                /FTId=PRO_0000013101.
+FT   COMPBIAS    288    353       Gly/Ser-rich.
+FT   HELIX       693    704       {ECO:0000244|PDB:4K0U}.
+SQ   SEQUENCE   710 AA;  76214 MW;  156E84CC50CD54FA CRC64;
+     MLGKGIKKSW GWLGLTVLLL GSPCGWAAEF SASFKGTDIQ EFINTVSKNL NKTVIIDPTV
+     RGTISVRSYD MMNEGQYYQF FLSVLDVYGF SVVPMDNGVL KVIRSKDAKS SSIPLANNEQ
+     PGIGDELVTR VVPLNNVAAR DLAPLLRQLN DNAGAGTVVH YEPSNVLLMT GRAAVIKRLV
+     DIVNTVDKTG DREMVTVPLT YASAEDVAKL VNDLNKSDEK NALPSTMLAN VVADGRTNSV
+     VVSGEENARQ RAVEMIRQLD RKQVVQGGTK VIYLKYAKAL DLIEVLAGNG TSGNRNSSSS
+     NASRPSSPRS GSSSNSNSSS GSSGSSSGSS SSSSSSSSMG FGSAFGSTSS SGGRTITIQG
+     KEVTVRAHDQ TNSLIITAPP DIMRDLEQVI NQLDIRRPQV LVEAIIAEIQ DADGLNLGIQ
+     WANKRAGMTQ FTNTGIPIST AVIGTDQFRS NGTLTTAYAS ALSSFNGVTA GFYRGNWSML
+     LTALSSDSKN DVLATPSIVT LDNMEATFNV GQEVPVLTGS QTTSADNIFN TVERKTVGIK
+     LRVKPQINEG DSVLLQIEQE VSSVADSNSS TNSSLGVTFN TRTVNNAVMV TNGETVVVGG
+     LLDKTSVESN DKVPLLGDIP WLGSLFRSKS QEVRKRNLML FLRPTIIRDP GQFQEASINK
+     YRSFNNEQQQ QRGEGNGVLD NNTLRLSGGN TYTFRQVQSS ISDFYKPEGR
+//

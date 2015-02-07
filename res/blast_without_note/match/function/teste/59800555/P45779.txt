@@ -1,0 +1,92 @@
+ID   GSPD_VIBCH              Reviewed;         674 AA.
+AC   P45779;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 2.
+DT   07-JAN-2015, entry version 89.
+DE   RecName: Full=Type II secretion system protein D;
+DE            Short=T2SS protein D;
+DE   AltName: Full=Cholera toxin secretion protein EpsD;
+DE   AltName: Full=General secretion pathway protein D;
+DE   Flags: Precursor;
+GN   Name=epsD; OrderedLocusNames=VC_2733;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=El Tor TRH7000;
+RA   Overbye L.J.;
+RT   "Organization of the general secretion pathway genes in Vibrio
+RT   cholerae.";
+RL   Thesis (1994), Michigan State University, United States.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A.,
+RA   Gill S.R., Nelson K.E., Read T.D., Tettelin H., Richardson D.L.,
+RA   Ermolaeva M.D., Vamathevan J.J., Bass S., Qin H., Dragoi I.,
+RA   Sellers P., McDonald L.A., Utterback T.R., Fleischmann R.D.,
+RA   Nierman W.C., White O., Salzberg S.L., Smith H.O., Colwell R.R.,
+RA   Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+CC   -!- FUNCTION: Involved in a type II secretion system (T2SS, formerly
+CC       general secretion pathway, GSP) for the export of proteins (By
+CC       similarity). Required for secretion of cholera toxin through the
+CC       outer membrane. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305};
+CC       Peripheral membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AE003852; Type=Frameshift; Positions=55; Note=This may be a natural frameshift.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L33796; AAA58785.1; -; Genomic_DNA.
+DR   EMBL; AE003852; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   DIP; DIP-59035N; -.
+DR   OMA; YAVVEMD; -.
+DR   Proteomes; UP000000584; Chromosome 1.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015627; C:type II protein secretion system complex; IEA:InterPro.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0015628; P:protein secretion by the type II secretion system; IEA:InterPro.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR013356; T2SS_GspD.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 3.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   TIGRFAMs; TIGR02517; type_II_gspD; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Complete proteome; Membrane; Protein transport;
+KW   Reference proteome; Signal; Transport.
+FT   SIGNAL        1     24       {ECO:0000255}.
+FT   CHAIN        25    674       Type II secretion system protein D.
+FT                                /FTId=PRO_0000013105.
+FT   CONFLICT     89     89       V -> A (in Ref. 1; AAA58785).
+FT                                {ECO:0000305}.
+FT   CONFLICT    144    144       R -> P (in Ref. 1; AAA58785).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   674 AA;  73470 MW;  3D77B891A59E6223 CRC64;
+     MKYWLKKSSW LLAGSLLSTP LAMANEFSAS FKGTDIQEFI NIVGRNLEKT IIVDPSVRGK
+     VDVRSFDTLN EEQYYSFFLS VLEVYGFAVV EMDNGVLKVI KSKDAKTSAI PVLSGEERAN
+     GDEVITQVVA VKNVSVRELS PLLRQLIDNA GAGNVVHYDP ANIILITGRA AVVNRLAEII
+     RRVDQAGDKE IEVVELNNAS AAEMVRIVEA LNKTTDAQNT PEFLKPKFVA DERTNSILIS
+     GDPKVRERLK RLIKQLDVEM AAKGNNRVVY LKYAKAEDLV EVLKGVSENL QAEKGTGQPT
+     TSKRNEVMIA AHADTNSLVL TAPQDIMNAM LEVIGQLDIR RAQVLIEALI VEMAEGDGIN
+     LGVQWGSLES GSVIQYGNTG ASIGNVMIGL EEAKDTTQTK AVYDTNNNFL RNETTTTKGD
+     YTKLASALSS IQGAAVSIAM GDWTALINAV SNDSSSNILS SPSITVMDNG EASFIVGEEV
+     PVITGSTAGS NNDNPFQTVD RKEVGIKLKV VPQINEGNSV QLNIEQEVSN VLGANGAVDV
+     RFAKRQLNTS VMVQDGQMLV LGGLIDERAL ESESKVPLLG DIPLLGQLFR STSSQVEKKN
+     LMVFIKPTII RDGVTADGIT QRKYNYIRAE QLFRAEKGLR LLDDASVPVL PKFGDDRRHS
+     PEIQAFIEQM EAKQ
+//

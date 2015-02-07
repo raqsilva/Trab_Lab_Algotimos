@@ -1,0 +1,99 @@
+ID   CIAH_STRPN              Reviewed;         444 AA.
+AC   P0A4I5; Q54955;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 76.
+DE   RecName: Full=Sensor protein CiaH;
+DE            EC=2.7.13.3;
+GN   Name=ciaH; OrderedLocusNames=SP_0799;
+OS   Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=170187;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-334 / TIGR4;
+RX   PubMed=11463916; DOI=10.1126/science.1061217;
+RA   Tettelin H., Nelson K.E., Paulsen I.T., Eisen J.A., Read T.D.,
+RA   Peterson S.N., Heidelberg J.F., DeBoy R.T., Haft D.H., Dodson R.J.,
+RA   Durkin A.S., Gwinn M.L., Kolonay J.F., Nelson W.C., Peterson J.D.,
+RA   Umayam L.A., White O., Salzberg S.L., Lewis M.R., Radune D.,
+RA   Holtzapple E.K., Khouri H.M., Wolf A.M., Utterback T.R., Hansen C.L.,
+RA   McDonald L.A., Feldblyum T.V., Angiuoli S.V., Dickinson T.,
+RA   Hickey E.K., Holt I.E., Loftus B.J., Yang F., Smith H.O., Venter J.C.,
+RA   Dougherty B.A., Morrison D.A., Hollingshead S.K., Fraser C.M.;
+RT   "Complete genome sequence of a virulent isolate of Streptococcus
+RT   pneumoniae.";
+RL   Science 293:498-506(2001).
+CC   -!- FUNCTION: Member of the two-component regulatory system CiaH/CiaR.
+CC       Involved in early steps of competence regulation and in penicillin
+CC       susceptibility. Probably phosphorylates CiaR (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005672; AAK74936.1; -; Genomic_DNA.
+DR   PIR; G95092; G95092.
+DR   RefSeq; NP_345296.1; NC_003028.3.
+DR   ProteinModelPortal; P0A4I5; -.
+DR   STRING; 170187.SP_0799; -.
+DR   EnsemblBacteria; AAK74936; AAK74936; SP_0799.
+DR   GeneID; 930749; -.
+DR   KEGG; spn:SP_0799; -.
+DR   PATRIC; 19705969; VBIStrPne105772_0831.
+DR   eggNOG; COG0642; -.
+DR   HOGENOM; HOG000223177; -.
+DR   KO; K14982; -.
+DR   OMA; MIVFWLI; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; SPNE170187:GHGN-801-MONOMER; -.
+DR   Proteomes; UP000000585; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0030420; P:establishment of competence for transformation; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Competence; Complete proteome; Kinase;
+KW   Membrane; Nucleotide-binding; Phosphoprotein; Transferase;
+KW   Transmembrane; Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    444       Sensor protein CiaH.
+FT                                /FTId=PRO_0000074722.
+FT   TRANSMEM     21     41       Helical. {ECO:0000255}.
+FT   TRANSMEM    183    203       Helical. {ECO:0000255}.
+FT   DOMAIN      223    438       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     226    226       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   444 AA;  50673 MW;  1D36CAE8D21D3337 CRC64;
+     MFSKLKKTWY ADDFSYFIRN FGVFTLIFST MTLIILQVMH SSLYTSVDDK LHGLSENPQA
+     VIQLAINRAT EEIKDLENAR ADASKVEIKP NVSSNTEVIL FDKDFTQLLS GNRFLGLDKI
+     KLEKKELGHI YQIQVFNSYG QEEIYRVILM ETNISSVSTN IKYAAVLINT SQLEQASQKH
+     EQLIVVVMAS FWILSLLASL YLARVSVRPL LESMQKQQSF VENASHELRT PLAVLQNRLE
+     TLFRKPEATI MDVSESIASS LEEVRNMRFL TTSLLNLARR DDGIKPELAE VPTSFFNTTF
+     TNYEMIASEN NRVFRFENRI HRTIVTDQLL LKQLMTILFD NAVKYTEEDG EIDFLISATD
+     RNLYLLVSDN GIGISTEDKK KIFDRFYRVD KARTRQKGGF GLGLSLAKQI VDALKGTVTV
+     KDNKPKGTIF EVKIAIQTPS KKKK
+//

@@ -1,0 +1,94 @@
+ID   DUSB_SHIFL              Reviewed;         321 AA.
+AC   Q83PZ5; Q7UBE2;
+DT   28-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=tRNA-dihydrouridine synthase B;
+DE            EC=1.-.-.-;
+GN   Name=dusB; OrderedLocusNames=SF3298, S3515;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H.,
+RA   Yang J., Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J.,
+RA   Sun L., Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S.,
+RA   Cheng H., Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y.,
+RA   Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/IAI.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W.,
+RA   Fournier G., Mayhew G.F., Plunkett G. III, Rose D.J., Darling A.,
+RA   Mau B., Perna N.T., Payne S.M., Runyen-Janecky L.J., Zhou S.,
+RA   Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella
+RT   flexneri serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: Catalyzes the synthesis of dihydrouridine, a modified
+CC       base found in the D-loop of most tRNAs.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the Dus family. DusB subfamily.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAN44762.2; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC       Sequence=AAP18573.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005674; AAN44762.2; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE014073; AAP18573.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_709055.2; NC_004337.2.
+DR   RefSeq; NP_838762.1; NC_004741.1.
+DR   RefSeq; WP_001219649.1; NZ_JMRK01000051.1.
+DR   ProteinModelPortal; Q83PZ5; -.
+DR   STRING; 198214.SF3298; -.
+DR   EnsemblBacteria; AAN44762; AAN44762; SF3298.
+DR   EnsemblBacteria; AAP18573; AAP18573; S3515.
+DR   GeneID; 1023434; -.
+DR   GeneID; 1079744; -.
+DR   KEGG; sfl:SF3298; -.
+DR   KEGG; sfx:S3515; -.
+DR   PATRIC; 18708799; VBIShiFle31049_3845.
+DR   eggNOG; COG0042; -.
+DR   HOGENOM; HOG000217855; -.
+DR   KO; K05540; -.
+DR   OrthoDB; EOG6VHZFQ; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0017150; F:tRNA dihydrouridine synthase activity; IEA:InterPro.
+DR   Gene3D; 1.10.1200.80; -; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR024036; tRNA-dHydroUridine_Synthase_C.
+DR   InterPro; IPR004652; tRNA_dU_NifR3.
+DR   InterPro; IPR001269; tRNA_hU_synthase.
+DR   InterPro; IPR018517; tRNA_hU_synthase_CS.
+DR   PANTHER; PTHR11082; PTHR11082; 1.
+DR   Pfam; PF01207; Dus; 1.
+DR   PIRSF; PIRSF006621; Dus; 1.
+DR   TIGRFAMs; TIGR00737; nifR3_yhdG; 1.
+DR   PROSITE; PS01136; UPF0034; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; FAD; Flavoprotein; Oxidoreductase; tRNA processing.
+FT   CHAIN         1    321       tRNA-dihydrouridine synthase B.
+FT                                /FTId=PRO_0000162100.
+SQ   SEQUENCE   321 AA;  35822 MW;  E9A318C459825C4E CRC64;
+     MRIGQYQLRN RLIAAPMAGI TDRPFRTLCY EMGAGLTVSE MMSSNPQVWE SDKSRLRMVH
+     IDEPGIRTVQ IAGSAPKEMA DAARINVESG AQIIDINMGC PAKKVNRKLA GSALLQYPDV
+     VKSILTEVVN AVDVPVTLKI RTGWAPEHRN CEEIAQLAED CGIQALTIHG RTRACLFNGE
+     AEYDSIRAVK QKVSIPVIAN GDITDPLKAR AVLDYTGADA LMIGRAAQGR PWIFREIQHY
+     LDTGELLPPL PLAEVKRLLC AHVRELHDFY GPAKGYRIAR KHVSWYLQEH APNDQFRRTF
+     NAIEDASEQL EALEAYFENF A
+//

@@ -1,0 +1,122 @@
+ID   MSHA_RHOJR              Reviewed;         452 AA.
+AC   Q0SF06;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   07-JAN-2015, entry version 57.
+DE   RecName: Full=D-inositol 3-phosphate glycosyltransferase;
+DE            EC=2.4.1.250 {ECO:0000255|HAMAP-Rule:MF_01695};
+DE   AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+DE            Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   Name=mshA {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   OrderedLocusNames=RHA1_ro02073;
+OS   Rhodococcus jostii (strain RHA1).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Nocardiaceae; Rhodococcus.
+OX   NCBI_TaxID=101510;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RHA1;
+RX   PubMed=17030794; DOI=10.1073/pnas.0607048103;
+RA   McLeod M.P., Warren R.L., Hsiao W.W.L., Araki N., Myhre M.,
+RA   Fernandes C., Miyazawa D., Wong W., Lillquist A.L., Wang D.,
+RA   Dosanjh M., Hara H., Petrescu A., Morin R.D., Yang G., Stott J.M.,
+RA   Schein J.E., Shin H., Smailus D., Siddiqui A.S., Marra M.A.,
+RA   Jones S.J.M., Holt R., Brinkman F.S.L., Miyauchi K., Fukuda M.,
+RA   Davies J.E., Mohn W.W., Eltis L.D.;
+RT   "The complete genome of Rhodococcus sp. RHA1 provides insights into a
+RT   catabolic powerhouse.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15582-15587(2006).
+CC   -!- FUNCTION: Catalyzes the transfer of a N-acetyl-glucosamine moiety
+CC       to 1D-myo-inositol 3-phosphate to produce 1D-myo-inositol 2-
+CC       acetamido-2-deoxy-glucopyranoside 3-phosphate in the mycothiol
+CC       biosynthesis pathway. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- CATALYTIC ACTIVITY: UDP-N-acetyl-D-glucosamine + 1D-myo-inositol
+CC       3-phosphate = UDP + 1-O-(2-acetamido-2-deoxy-alpha-D-
+CC       glucopyranosyl)-1D-myo-inositol 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01695}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase group 1 family.
+CC       MshA subfamily. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000431; ABG93880.1; -; Genomic_DNA.
+DR   RefSeq; YP_702038.1; NC_008268.1.
+DR   ProteinModelPortal; Q0SF06; -.
+DR   SMR; Q0SF06; 18-425.
+DR   STRING; 101510.RHA1_ro02073; -.
+DR   CAZy; GT4; Glycosyltransferase Family 4.
+DR   PRIDE; Q0SF06; -.
+DR   EnsemblBacteria; ABG93880; ABG93880; RHA1_ro02073.
+DR   GeneID; 4218119; -.
+DR   KEGG; rha:RHA1_ro02073; -.
+DR   PATRIC; 23202995; VBIRhoJos26306_2099.
+DR   eggNOG; COG0438; -.
+DR   HOGENOM; HOG000077288; -.
+DR   KO; K15521; -.
+DR   OMA; LVHSHYW; -.
+DR   OrthoDB; EOG647TVR; -.
+DR   BioCyc; RJOS101510:GJJ1-2071-MONOMER; -.
+DR   Proteomes; UP000008710; Chromosome.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01695; MshA; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR028098; Glyco_trans_4_N.
+DR   InterPro; IPR017814; Mycothiol_biosynthesis_MshA.
+DR   Pfam; PF13579; Glyco_trans_4_4; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   TIGRFAMs; TIGR03449; mycothiol_MshA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycosyltransferase; Magnesium; Metal-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    452       D-inositol 3-phosphate
+FT                                glycosyltransferase.
+FT                                /FTId=PRO_0000400152.
+FT   REGION       31     32       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   REGION       36     41       1D-inositol 3-phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       318    318       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       319    319       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       321    321       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       345    345       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING      25     25       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      39     39       UDP-GlcNAc; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      94     94       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     127    127       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     151    151       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     171    171       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     245    245       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     250    250       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     309    309       UDP-GlcNAc; via amide nitrogen and
+FT                                carbonyl oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     331    331       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     339    339       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+SQ   SEQUENCE   452 AA;  48243 MW;  5D1985CAE01F40E3 CRC64;
+     MREHYGVVTP MHNSRPRRVA VLSVHTSPLA QPGTGDAGGM NVYVLQSAIQ MARRGVEVEI
+     FTRATSSADA PVQEAAPGVL VRNVVAGPFE GLDKQDLPTQ LCAFVAGVLR EEARHEPGYY
+     NLVHSHYWLS GQVGWLARDR WGVPLVHTAH TLAAVKNLSL ADGDTPEPAA RQIGEQQVVA
+     ESDRLVANTT EESDQLVRHY GADPNRIDVV APGADLTRYR PGDRAAARAK LGLDPRETVV
+     TFVGRIQPLK APDVLLRAAA ELIARDPEST LRVLVVGGPS GSGLARPDAL IELASSLGIA
+     ARVTFLPPQA PDRLVDVYRA SDLVAVPSYS ESFGLVAIEA QACGTPVIAA NVGGLGVAVR
+     NGETGLLVDG HRTEDWATAL QSLVSEPGRL AALAAEAPRH AENFSWEHTA DGLLESYRMA
+     TVNYNYGHGP SEFAPRRAGG LWKLRRAGGV RA
+//

@@ -1,0 +1,102 @@
+ID   HOSA_ECO27              Reviewed;         135 AA.
+AC   P69782; B7UHG0; Q9EUB1;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   07-JAN-2015, entry version 57.
+DE   RecName: Full=Transcriptional regulator HosA;
+GN   Name=hosA; OrderedLocusNames=E2348C_3010;
+OS   Escherichia coli O127:H6 (strain E2348/69 / EPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=574521;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=10986240; DOI=10.1128/JB.182.19.5381-5390.2000;
+RA   Herbelin C.J., Chirillo S.C., Melnick K.A., Whittam T.S.;
+RT   "Gene conservation and loss in the mutS-rpoS genomic region of
+RT   pathogenic Escherichia coli.";
+RL   J. Bacteriol. 182:5381-5390(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=E2348/69 / EPEC;
+RX   PubMed=18952797; DOI=10.1128/JB.01238-08;
+RA   Iguchi A., Thomson N.R., Ogura Y., Saunders D., Ooka T.,
+RA   Henderson I.R., Harris D., Asadulghani M., Kurokawa K., Dean P.,
+RA   Kenny B., Quail M.A., Thurston S., Dougan G., Hayashi T., Parkhill J.,
+RA   Frankel G.;
+RT   "Complete genome sequence and comparative genome analysis of
+RT   enteropathogenic Escherichia coli O127:H6 strain E2348/69.";
+RL   J. Bacteriol. 191:347-354(2009).
+RN   [3]
+RP   NOMENCLATURE.
+RX   PubMed=12088660; DOI=10.1016/S0966-842X(02)02374-0;
+RA   Heroven A.K., Dersch P.;
+RT   "Two different open reading frames named slyA in the E. coli sequence
+RT   databases.";
+RL   Trends Microbiol. 10:267-268(2002).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=15731069; DOI=10.1128/IAI.73.3.1684-1694.2005;
+RA   Ferrandiz M.-J., Bishop K., Williams P., Withers H.;
+RT   "HosA, a member of the SlyA family, regulates motility in
+RT   enteropathogenic Escherichia coli.";
+RL   Infect. Immun. 73:1684-1694(2005).
+CC   -!- FUNCTION: Involved in the temperature-dependent positive control
+CC       of flagellum-driven swimming motility and cellular aggregation.
+CC       Regulates fliC expression by directly interacting with fliC
+CC       promoter. {ECO:0000269|PubMed:15731069}.
+CC   -!- INDUCTION: Expression is modulated by temperature, growth phase,
+CC       salt and pH.
+CC   -!- SIMILARITY: Contains 1 HTH marR-type DNA-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00345}.
+CC   -!- CAUTION: Originally described as slyA, but then it was found that
+CC       two distinct genes had been named slyA. This gene was renamed
+CC       hosA. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF242211; AAG14991.1; -; Genomic_DNA.
+DR   EMBL; FM180568; CAS10558.1; -; Genomic_DNA.
+DR   RefSeq; WP_001208066.1; NC_011601.1.
+DR   RefSeq; YP_002330492.1; NC_011601.1.
+DR   ProteinModelPortal; P69782; -.
+DR   SMR; P69782; 3-133.
+DR   STRING; 574521.E2348C_3010; -.
+DR   EnsemblBacteria; CAS10558; CAS10558; E2348C_3010.
+DR   GeneID; 7062577; -.
+DR   KEGG; ecg:E2348C_3010; -.
+DR   PATRIC; 18345114; VBIEscCol90278_3055.
+DR   eggNOG; COG1846; -.
+DR   OMA; SLPGVYM; -.
+DR   OrthoDB; EOG699762; -.
+DR   BioCyc; ECOL574521:GJAO-3116-MONOMER; -.
+DR   Proteomes; UP000008205; Chromosome.
+DR   GO; GO:0005622; C:intracellular; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR000835; HTH_MarR-typ.
+DR   InterPro; IPR023187; Tscrpt_reg_MarR-type_CS.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF01047; MarR; 1.
+DR   PRINTS; PR00598; HTHMARR.
+DR   SMART; SM00347; HTH_MARR; 1.
+DR   PROSITE; PS01117; HTH_MARR_1; 1.
+DR   PROSITE; PS50995; HTH_MARR_2; 1.
+PE   2: Evidence at transcript level;
+KW   Complete proteome; DNA-binding; Transcription;
+KW   Transcription regulation; Virulence.
+FT   CHAIN         1    135       Transcriptional regulator HosA.
+FT                                /FTId=PRO_0000054357.
+FT   DOMAIN        4    134       HTH marR-type. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00345}.
+FT   DNA_BIND     48     71       H-T-H motif. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00345}.
+SQ   SEQUENCE   135 AA;  15497 MW;  141FF8C0F0049284 CRC64;
+     MALRNKAFHQ LRQLFQQHTA RWQHELPDLT KPQYAVMRAI ADKPGIEQVA LIEAAVSTKA
+     TLAEMLARME NRGLVRREHD AADKRRRFVW LTAEGEKVLA AAIPIGDSVD EEFLGRLSAE
+     EQELFMQLVR KMMNT
+//

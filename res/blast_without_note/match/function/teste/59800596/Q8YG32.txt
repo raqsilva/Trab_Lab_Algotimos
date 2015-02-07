@@ -1,0 +1,96 @@
+ID   DEGPL_BRUME             Reviewed;         513 AA.
+AC   Q8YG32;
+DT   07-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Probable periplasmic serine endoprotease DegP-like;
+DE            EC=3.4.21.107;
+DE   AltName: Full=Protease Do;
+DE   Flags: Precursor;
+GN   Name=htrA; OrderedLocusNames=BMEI1330;
+OS   Brucella melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Brucellaceae; Brucella.
+OX   NCBI_TaxID=224914;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=16M / ATCC 23456 / NCTC 10094;
+RX   PubMed=11756688; DOI=10.1073/pnas.221575398;
+RA   DelVecchio V.G., Kapatral V., Redkar R.J., Patra G., Mujer C., Los T.,
+RA   Ivanova N., Anderson I., Bhattacharyya A., Lykidis A., Reznik G.,
+RA   Jablonski L., Larsen N., D'Souza M., Bernal A., Mazur M., Goltsman E.,
+RA   Selkov E., Elzer P.H., Hagius S., O'Callaghan D., Letesson J.-J.,
+RA   Haselkorn R., Kyrpides N.C., Overbeek R.;
+RT   "The genome sequence of the facultative intracellular pathogen
+RT   Brucella melitensis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:443-448(2002).
+CC   -!- FUNCTION: Might be efficient in the degradation of transiently
+CC       denatured and unfolded proteins which accumulate in the periplasm
+CC       following stress conditions. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 PDZ (DHR) domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE008917; AAL52511.1; -; Genomic_DNA.
+DR   PIR; AD3418; AD3418.
+DR   RefSeq; NP_540247.1; NC_003317.1.
+DR   ProteinModelPortal; Q8YG32; -.
+DR   STRING; 224914.BMEI1330; -.
+DR   EnsemblBacteria; AAL52511; AAL52511; BMEI1330.
+DR   GeneID; 1197041; -.
+DR   KEGG; bme:BMEI1330; -.
+DR   PATRIC; 17797299; VBIBruMel146950_0468.
+DR   HOGENOM; HOG000223640; -.
+DR   KO; K01362; -.
+DR   OMA; DDNSQPQ; -.
+DR   OrthoDB; EOG61ZTDN; -.
+DR   Proteomes; UP000000419; Chromosome I.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; ISS:UniProtKB.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISS:UniProtKB.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF13180; PDZ_2; 2.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; SSF50156; 2.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   TIGRFAMs; TIGR02037; degP_htrA_DO; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Periplasm; Protease; Repeat;
+KW   Serine protease; Signal; Stress response.
+FT   SIGNAL        1     25       {ECO:0000255}.
+FT   CHAIN        26    513       Probable periplasmic serine endoprotease
+FT                                DegP-like.
+FT                                /FTId=PRO_0000026924.
+FT   DOMAIN      300    391       PDZ 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   DOMAIN      414    500       PDZ 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   REGION      125    299       Serine protease.
+FT   REGION      255    257       Substrate binding. {ECO:0000250}.
+FT   REGION      312    316       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    152    152       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    182    182       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    257    257       Charge relay system. {ECO:0000255}.
+SQ   SEQUENCE   513 AA;  53514 MW;  C472FEF99DFC6268 CRC64;
+     MSRARISNYR KGVAAVALSA ALAGAFVVTG PLGALNEARA EAVHVTPPQQ AGFADLVEKV
+     RPAVVSVRVK KDVQETSNRG PQFFGPPGFD QLPDGHPLKR FFRDFGMEPR GDSRSDNRRG
+     KANKPRPGHE RPVAQGSGFV ISEDGYVVTN NHVVSDGDAY TVVLDDGTEL DAKLIGADPR
+     TDLAVLKINA PKRKFVYVAF GDDNKVRVGD WVVAVGNPFG LGGTVTSGIV SARGRDIGAG
+     PYDDFIQIDA AVNKGNSGGP AFDLSGEVIG INTAIFSPSG GSVGIAFAIP SSTAKQVVDQ
+     LIKKGSVERG WIGVQIQPVT KDIAASLGLA EEKGAIVASP QDDGPAAKAG IKAGDVITAV
+     NGETVQDPRD LARKVANIAP GEKAALTVWR KNKAEEINVT IAAMPNDKGK SGSQSNDNDG
+     GQGETLDSYG LTVVPSEDGK GVVVTDVDPD SDAADRGIRS GDVIVSVNNQ TVKTAGDINK
+     AITAAEKSGR KAVLLQLQSN DQSRFVALPI NQE
+//

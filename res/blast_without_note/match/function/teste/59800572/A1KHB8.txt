@@ -1,0 +1,119 @@
+ID   MPRB_MYCBP              Reviewed;         504 AA.
+AC   A1KHB8;
+DT   23-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-JAN-2015, entry version 65.
+DE   RecName: Full=Signal transduction histidine-protein kinase/phosphatase MprB;
+DE            EC=2.7.13.3;
+DE            EC=3.1.3.-;
+DE   AltName: Full=Mycobacterial persistence regulator B;
+GN   Name=mprB; OrderedLocusNames=BCG_1037;
+OS   Mycobacterium bovis (strain BCG / Pasteur 1173P2).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+OC   Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=410289;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BCG / Pasteur 1173P2;
+RX   PubMed=17372194; DOI=10.1073/pnas.0700869104;
+RA   Brosch R., Gordon S.V., Garnier T., Eiglmeier K., Frigui W.,
+RA   Valenti P., Dos Santos S., Duthoy S., Lacroix C., Garcia-Pelayo C.,
+RA   Inwald J.K., Golby P., Garcia J.N., Hewinson R.G., Behr M.A.,
+RA   Quail M.A., Churcher C., Barrell B.G., Parkhill J., Cole S.T.;
+RT   "Genome plasticity of BCG and impact on vaccine efficacy.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5596-5601(2007).
+CC   -!- FUNCTION: Member of the two-component regulatory system MprB/MprA
+CC       which contributes to maintaining a balance among several systems
+CC       involved in stress resistance and is required for establishment
+CC       and maintenance of persistent infection in the host. In response
+CC       to environmental signals MprB acts as both a membrane-associated
+CC       protein kinase that undergoes autophosphorylation and subsequently
+CC       transfers the phosphate to MprA, and a protein phosphatase that
+CC       dephosphorylates phospho-MprA (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- PTM: Autophosphorylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM408590; CAL71024.1; -; Genomic_DNA.
+DR   RefSeq; YP_977132.1; NC_008769.1.
+DR   ProteinModelPortal; A1KHB8; -.
+DR   STRING; 410289.BCG_1037; -.
+DR   EnsemblBacteria; CAL71024; CAL71024; BCG_1037.
+DR   GeneID; 4696126; -.
+DR   KEGG; mbb:BCG_1037; -.
+DR   PATRIC; 18012722; VBIMycBov80988_1130.
+DR   eggNOG; COG0642; -.
+DR   HOGENOM; HOG000223177; -.
+DR   KO; K07653; -.
+DR   OMA; STIAWLT; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; MBOV410289:GJW7-1054-MONOMER; -.
+DR   Proteomes; UP000001472; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004721; F:phosphoprotein phosphatase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Complete proteome; Hydrolase; Kinase;
+KW   Magnesium; Manganese; Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Protein phosphatase; Stress response; Transferase; Transmembrane;
+KW   Transmembrane helix; Two-component regulatory system; Virulence.
+FT   CHAIN         1    504       Signal transduction histidine-protein
+FT                                kinase/phosphatase MprB.
+FT                                /FTId=PRO_0000308433.
+FT   TOPO_DOM      1     26       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     27     47       Helical. {ECO:0000255}.
+FT   TOPO_DOM     48    163       Extracellular. {ECO:0000255}.
+FT   TRANSMEM    164    184       Helical. {ECO:0000255}.
+FT   TOPO_DOM    185    504       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN      186    238       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      246    466       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     249    249       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   504 AA;  54432 MW;  06AD7E74E9549F4A CRC64;
+     MWWFRRRDRA PLRATSSLSL RWRVMLLAMS MVAMVVVLMS FAVYAVISAA LYSDIDNQLQ
+     SRAQLLIASG SLAADPGKAI EGTAYSDVNA MLVNPGQSIY TAQQPGQTLP VGAAEKAVIR
+     GELFMSRRTT ADQRVLAIRL TNGSSLLISK SLKPTEAVMN KLRWVLLIVG GIGVAVAAVA
+     GGMVTRAGLR PVGRLTEAAE RVARTDDLRP IPVFGSDELA RLTEAFNLML RALAESRERQ
+     ARLVTDAGHE LRTPLTSLRT NVELLMASMA PGAPRLPKQE MVDLRADVLA QIEELSTLVG
+     DLVDLSRGDA GEVVHEPVDM ADVVDRSLER VRRRRNDIHF DVEVIGWQVY GDTAGLSRMA
+     LNLMDNAAKW SPPGGHVGVR LSQLDASHAE LVVSDRGPGI PVQERRLVFE RFYRSASARA
+     LPGSGLGLAI VKQVVLNHGG LLRIEDTDPG GQPPGTSIYV LLPGRRMPIP QLPGATAGAR
+     STDIENSRGS ANVISVESQS TRAT
+//

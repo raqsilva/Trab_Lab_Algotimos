@@ -1,0 +1,138 @@
+ID   TFTC_BURCE              Reviewed;         179 AA.
+AC   O87008;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   26-NOV-2014, entry version 59.
+DE   RecName: Full=NADH:FAD oxidoreductase;
+DE            EC=1.5.1.37;
+DE   AltName: Full=Chlorophenol-4-monooxygenase component 1;
+DE   AltName: Full=Two component enzyme C;
+GN   Name=tftC;
+OS   Burkholderia cepacia (Pseudomonas cepacia).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; Burkholderia cepacia complex.
+OX   NCBI_TaxID=292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=AC1100;
+RX   PubMed=9603818;
+RA   Hubner A., Danganan C.E., Xun L., Chakrabarty A.M., Hendrickson W.;
+RT   "Genes for 2,4,5-trichlorophenoxyacetic acid metabolism in
+RT   Burkholderia cepacia AC1100: characterization of the tftC and tftD
+RT   genes and locations of the tft operons on multiple replicons.";
+RL   Appl. Environ. Microbiol. 64:2086-2093(1998).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=AC1100;
+RX   PubMed=12700257; DOI=10.1128/JB.185.9.2786-2792.2003;
+RA   Gisi M.R., Xun L.;
+RT   "Characterization of chlorophenol 4-monooxygenase (TftD) and
+RT   NADH:flavin adenine dinucleotide oxidoreductase (TftC) of Burkholderia
+RT   cepacia AC1100.";
+RL   J. Bacteriol. 185:2786-2792(2003).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) IN COMPLEX WITH FAD AND NAD,
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBUNIT, AND BIOPHYSICOCHEMICAL
+RP   PROPERTIES.
+RX   PubMed=19915006; DOI=10.1074/jbc.M109.056135;
+RA   Webb B.N., Ballinger J.W., Kim E., Belchik S.M., Lam K.S., Youn B.,
+RA   Nissen M.S., Xun L., Kang C.;
+RT   "Characterization of chlorophenol 4-monooxygenase (TftD) and NADH:FAD
+RT   oxidoreductase (TftC) of Burkholderia cepacia AC1100.";
+RL   J. Biol. Chem. 285:2014-2027(2010).
+CC   -!- FUNCTION: Reductase component of a two-component system that
+CC       degrades 2,4,5-trichlorophenol. TftC provides the FADH(2) required
+CC       by TftD. TftD oxidizes 2,4,5-trichlorophenol (2,4,5-TCP) to 2,5-
+CC       dichloro-p-benzoquinone, which is chemically reduced to 2,5-
+CC       dichloro-p-hydroquinone (2,5-DiCHQ). Then, TftD oxidizes the
+CC       latter to 5-chloro-2-hydroxy-p-benzoquinone.
+CC       {ECO:0000269|PubMed:12700257, ECO:0000269|PubMed:19915006}.
+CC   -!- CATALYTIC ACTIVITY: FADH(2) + NAD(+) = FAD + NADH.
+CC       {ECO:0000269|PubMed:12700257, ECO:0000269|PubMed:19915006}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=10.3 uM for FMN (with fixed NADH concentration at 300 uM)
+CC         {ECO:0000269|PubMed:12700257, ECO:0000269|PubMed:19915006};
+CC         KM=2.0 uM for FAD {ECO:0000269|PubMed:12700257,
+CC         ECO:0000269|PubMed:19915006};
+CC         KM=4.8 uM for FAD (with fixed NADH concentration at 300 uM)
+CC         {ECO:0000269|PubMed:12700257, ECO:0000269|PubMed:19915006};
+CC         KM=45.3 uM for NADH {ECO:0000269|PubMed:12700257,
+CC         ECO:0000269|PubMed:19915006};
+CC         KM=40.1 uM for NADH (with fixed FAD concentration at 18 uM)
+CC         {ECO:0000269|PubMed:12700257, ECO:0000269|PubMed:19915006};
+CC         KM=164.0 uM for NADH (with fixed FMN concentration at 20 uM)
+CC         {ECO:0000269|PubMed:12700257, ECO:0000269|PubMed:19915006};
+CC         Vmax=120 umol/min/mg enzyme {ECO:0000269|PubMed:12700257,
+CC         ECO:0000269|PubMed:19915006};
+CC   -!- PATHWAY: Xenobiotic degradation.
+CC   -!- SUBUNIT: Homodimer. The chlorophenol-4-monooxygenase is composed
+CC       of an oxygenase component TftD and a reductase component TftC.
+CC       {ECO:0000269|PubMed:19915006}.
+CC   -!- SIMILARITY: Belongs to the non-flavoprotein flavin reductase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U83405; AAC23547.1; -; Genomic_DNA.
+DR   PDB; 3K86; X-ray; 2.00 A; A/B=1-179.
+DR   PDB; 3K87; X-ray; 2.00 A; A/B=1-179.
+DR   PDB; 3K88; X-ray; 2.00 A; A/B=1-179.
+DR   PDBsum; 3K86; -.
+DR   PDBsum; 3K87; -.
+DR   PDBsum; 3K88; -.
+DR   ProteinModelPortal; O87008; -.
+DR   BioCyc; MetaCyc:MONOMER-14673; -.
+DR   EvolutionaryTrace; O87008; -.
+DR   GO; GO:0010181; F:FMN binding; IEA:InterPro.
+DR   GO; GO:0004497; F:monooxygenase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016646; F:oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0042602; F:riboflavin reductase (NADPH) activity; IEA:InterPro.
+DR   GO; GO:0019439; P:aromatic compound catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0055114; P:oxidation-reduction process; IDA:UniProtKB.
+DR   Gene3D; 2.30.110.10; -; 1.
+DR   InterPro; IPR002563; Flavin_Rdtase_FMN-bd.
+DR   InterPro; IPR012349; Split_barrel_FMN-bd.
+DR   Pfam; PF01613; Flavin_Reduct; 1.
+DR   SMART; SM00903; Flavin_Reduct; 1.
+DR   SUPFAM; SSF50475; SSF50475; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Aromatic hydrocarbons catabolism; FAD; Flavoprotein;
+KW   Monooxygenase; NAD; Nucleotide-binding; Oxidoreductase.
+FT   CHAIN         1    179       NADH:FAD oxidoreductase.
+FT                                /FTId=PRO_0000418739.
+FT   NP_BIND      48     51       FAD. {ECO:0000269|PubMed:19915006}.
+FT   NP_BIND      54     57       NAD. {ECO:0000269|PubMed:19915006}.
+FT   NP_BIND      65     71       FAD. {ECO:0000269|PubMed:19915006}.
+FT   NP_BIND     104    109       FAD. {ECO:0000269|PubMed:19915006}.
+FT   NP_BIND     166    169       NAD. {ECO:0000269|PubMed:19915006}.
+FT   BINDING      99     99       FAD; via carbonyl oxygen.
+FT                                {ECO:0000269|PubMed:19915006}.
+FT   BINDING     144    144       FAD. {ECO:0000269|PubMed:19915006}.
+FT   BINDING     145    145       NAD. {ECO:0000269|PubMed:19915006}.
+FT   BINDING     166    166       FAD. {ECO:0000269|PubMed:19915006}.
+FT   HELIX        19     26       {ECO:0000244|PDB:3K86}.
+FT   STRAND       29     32       {ECO:0000244|PDB:3K86}.
+FT   STRAND       34     38       {ECO:0000244|PDB:3K86}.
+FT   STRAND       45     49       {ECO:0000244|PDB:3K86}.
+FT   STRAND       52     56       {ECO:0000244|PDB:3K86}.
+FT   TURN         57     60       {ECO:0000244|PDB:3K86}.
+FT   STRAND       61     67       {ECO:0000244|PDB:3K86}.
+FT   HELIX        71     79       {ECO:0000244|PDB:3K86}.
+FT   STRAND       81     86       {ECO:0000244|PDB:3K86}.
+FT   HELIX        89     91       {ECO:0000244|PDB:3K86}.
+FT   HELIX        92     98       {ECO:0000244|PDB:3K86}.
+FT   HELIX       101    103       {ECO:0000244|PDB:3K86}.
+FT   HELIX       106    108       {ECO:0000244|PDB:3K86}.
+FT   STRAND      119    122       {ECO:0000244|PDB:3K86}.
+FT   STRAND      128    142       {ECO:0000244|PDB:3K86}.
+FT   STRAND      145    156       {ECO:0000244|PDB:3K86}.
+FT   STRAND      165    167       {ECO:0000244|PDB:3K86}.
+FT   STRAND      170    175       {ECO:0000244|PDB:3K86}.
+SQ   SEQUENCE   179 AA;  19028 MW;  8944587144256B80 CRC64;
+     MHAGEAVQQL KKAFETVASF DFRDALSKAS TPVTVVATNG PFGLAGLTCS AVCSVCDRPP
+     TVLLCINRKS YAAGIIKSNG VLSVNWLAAG QAVISQTFAG VGSVPMEERF ADKGWQTIAT
+     GAPYRMDAAV SFDCTIANIV DVGSHSVIFA EVVARNHAEE CTPLIYHRRQ YATTRSLAE
+//

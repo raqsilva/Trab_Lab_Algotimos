@@ -1,0 +1,91 @@
+ID   CY552_MARHY             Reviewed;          88 AA.
+AC   P82903;
+DT   21-FEB-2001, integrated into UniProtKB/Swiss-Prot.
+DT   16-NOV-2001, sequence version 2.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=Cytochrome c-552;
+DE   AltName: Full=Cytochrome c552;
+OS   Marinobacter hydrocarbonoclasticus (Pseudomonas nautica).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Alteromonadaceae; Marinobacter.
+OX   NCBI_TaxID=2743;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   STRAIN=617;
+RX   PubMed=7925398; DOI=10.1111/j.1432-1033.1994.01011.x;
+RA   Saraiva L.M., Fauque G., Besson S., Moura I.;
+RT   "Physico-chemical and spectroscopic properties of the monohemic
+RT   cytochrome C552 from Pseudomonas nautica 617.";
+RL   Eur. J. Biochem. 224:1011-1017(1994).
+RN   [2]
+RP   PROTEIN SEQUENCE, AND MASS SPECTROMETRY.
+RC   STRAIN=617;
+RX   PubMed=15674861; DOI=10.1002/jms.788;
+RA   Di Tullio A., Caputi L., Malatesta F., Reale S., De Angelis F.;
+RT   "Characterization of a novel microperoxidase from Marinobacter
+RT   hydrocarbonoclasticus by electrospray ionization tandem mass
+RT   spectrometry.";
+RL   J. Mass Spectrom. 40:325-330(2005).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS), AND MASS SPECTROMETRY.
+RC   STRAIN=617;
+RX   PubMed=10369779; DOI=10.1006/jmbi.1999.2838;
+RA   Brown K., Nurizzo D., Besson S., Shepard W., Moura J., Moura I.,
+RA   Tegoni M., Cambillau C.;
+RT   "MAD structure of Pseudomonas nautica dimeric cytochrome c552 mimicks
+RT   the c4 dihemic cytochrome domain association.";
+RL   J. Mol. Biol. 289:1017-1028(1999).
+CC   -!- FUNCTION: Electron donor for periplasmic nitrate reductase.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SUBCELLULAR LOCATION: Periplasm.
+CC   -!- PTM: Binds 1 heme group per subunit.
+CC   -!- MASS SPECTROMETRY: Mass=9466; Method=MALDI; Range=1-88;
+CC       Evidence={ECO:0000269|PubMed:10369779};
+CC   -!- MASS SPECTROMETRY: Mass=9463.9; Method=MALDI; Range=1-88;
+CC       Evidence={ECO:0000269|PubMed:15674861};
+CC   -!- MASS SPECTROMETRY: Mass=9463.3; Mass_error=0.3;
+CC       Method=Electrospray; Range=1-88;
+CC       Evidence={ECO:0000269|PubMed:15674861};
+CC   -!- SIMILARITY: Belongs to the cytochrome c family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   PDB; 1CNO; X-ray; 2.20 A; A/B/C/D/E/F/G/H=1-84.
+DR   PDBsum; 1CNO; -.
+DR   ProteinModelPortal; P82903; -.
+DR   SMR; P82903; 1-84.
+DR   EvolutionaryTrace; P82903; -.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0055114; P:oxidation-reduction process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.760.10; -; 1.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   Pfam; PF00034; Cytochrom_C; 1.
+DR   SUPFAM; SSF46626; SSF46626; 1.
+DR   PROSITE; PS51007; CYTC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Electron transport; Heme;
+KW   Iron; Metal-binding; Periplasm; Transport.
+FT   CHAIN         1     88       Cytochrome c-552.
+FT                                /FTId=PRO_0000108400.
+FT   METAL        18     18       Iron (heme axial ligand).
+FT   METAL        60     60       Iron (heme axial ligand).
+FT   BINDING      14     14       Heme (covalent).
+FT   BINDING      17     17       Heme (covalent).
+FT   CONFLICT     36     36       K -> L (in Ref. 1; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT     79     88       YASLPADGQG -> GASXP (in Ref. 1; AA
+FT                                sequence). {ECO:0000305}.
+FT   HELIX         4     10       {ECO:0000244|PDB:1CNO}.
+FT   HELIX        11     13       {ECO:0000244|PDB:1CNO}.
+FT   HELIX        15     18       {ECO:0000244|PDB:1CNO}.
+FT   HELIX        37     48       {ECO:0000244|PDB:1CNO}.
+FT   HELIX        57     64       {ECO:0000244|PDB:1CNO}.
+FT   HELIX        69     81       {ECO:0000244|PDB:1CNO}.
+SQ   SEQUENCE   88 AA;  8847 MW;  CE8EFEEB691AB2E0 CRC64;
+     AGDIEAGKAK AAVCAACHGQ NGISQVPIYP NLAGQKEQYL VAALKAYKAG QRQGGQAPVM
+     QGQATALSDA DIANLAAYYA SLPADGQG
+//

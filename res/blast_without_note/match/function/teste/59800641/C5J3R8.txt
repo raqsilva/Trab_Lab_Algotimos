@@ -1,0 +1,100 @@
+ID   LAD_TALEM               Reviewed;         388 AA.
+AC   C5J3R8;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   26-NOV-2014, entry version 30.
+DE   RecName: Full=L-arabinitol 4-dehydrogenase;
+DE            Short=LAD;
+DE            EC=1.1.1.12;
+GN   Name=lad;
+OS   Talaromyces emersonii.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Trichocomaceae; Rasamsonia.
+OX   NCBI_TaxID=68825;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND INDUCTION.
+RX   PubMed=20111899; DOI=10.1007/s10528-010-9332-5;
+RA   Fernandes S., Tuohy M.G., Murray P.G.;
+RT   "Cloning, heterologous expression, and characterization of the xylitol
+RT   and L-arabitol dehydrogenase genes, Texdh and Telad, from the
+RT   thermophilic fungus Talaromyces emersonii.";
+RL   Biochem. Genet. 48:480-495(2010).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent oxidation of L-arabinitol to
+CC       L-xylulose in the fungal L-arabinose catabolic pathway. L-
+CC       arabinose catabolism is important for using plant material as a
+CC       carbon source. NAPD cannot act as a cosubstrate.
+CC       {ECO:0000269|PubMed:20111899}.
+CC   -!- CATALYTIC ACTIVITY: L-arabinitol + NAD(+) = L-xylulose + NADH.
+CC       {ECO:0000269|PubMed:20111899}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=13.4 mM for L-arabinitol {ECO:0000269|PubMed:20111899};
+CC         KM=23.3 mM for D-xylitol {ECO:0000269|PubMed:20111899};
+CC         KM=483.5 mM for D-sorbitol {ECO:0000269|PubMed:20111899};
+CC         KM=60 uM for NAD {ECO:0000269|PubMed:20111899};
+CC       pH dependence:
+CC         Optimum pH is 9. Active from pH 7 to pH 11.
+CC         {ECO:0000269|PubMed:20111899};
+CC   -!- PATHWAY: Carbohydrate degradation; L-arabinose degradation via L-
+CC       arabinitol; D-xylulose 5-phosphate from L-arabinose (fungal
+CC       route): step 2/5.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- INDUCTION: Induced by L-arabinose, D-xylose, xylitol, L-
+CC       arabinitol, and galactitol. {ECO:0000269|PubMed:20111899}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; FJ985742; ACR78270.1; -; Genomic_DNA.
+DR   ProteinModelPortal; C5J3R8; -.
+DR   UniPathway; UPA00146; UER00575.
+DR   GO; GO:0050019; F:L-arabinitol 4-dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0019569; P:L-arabinose catabolic process to xylulose 5-phosphate; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   1: Evidence at protein level;
+KW   Arabinose catabolism; Carbohydrate metabolism; Metal-binding; NAD;
+KW   Nucleotide-binding; Oxidoreductase; Zinc.
+FT   CHAIN         1    388       L-arabinitol 4-dehydrogenase.
+FT                                /FTId=PRO_0000418408.
+FT   NP_BIND     192    193       NAD. {ECO:0000250}.
+FT   NP_BIND     317    319       NAD. {ECO:0000250}.
+FT   METAL        55     55       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        80     80       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        81     81       Zinc; catalytic. {ECO:0000250}.
+FT   METAL       110    110       Zinc; structural. {ECO:0000250}.
+FT   METAL       113    113       Zinc; structural. {ECO:0000250}.
+FT   METAL       116    116       Zinc; structural. {ECO:0000250}.
+FT   METAL       124    124       Zinc; structural. {ECO:0000250}.
+FT   METAL       165    165       Zinc; catalytic. {ECO:0000250}.
+FT   BINDING     213    213       NAD. {ECO:0000250}.
+FT   BINDING     218    218       NAD. {ECO:0000250}.
+FT   BINDING     293    293       NAD; via carbonyl oxygen. {ECO:0000250}.
+SQ   SEQUENCE   388 AA;  41389 MW;  47FA6ACFAC615468 CRC64;
+     MAAGISLTKP NIGVYTNPNH DLWVADAKPT LEEVKSGSDL KPGQVTVEIR STGICGSDVH
+     FWHAGCIGPM IVTGDHILGH ESAGVVIAVA PDVKTLKPGD RVAIEPNIIC NKCEPCLTGR
+     YNGCEAVEFL STPPVDGLLR RYVNHPAIWC HKIGDMSFED GALLEPLSVA LAGMDRAGVR
+     LGDPVLVAGA GPIGLVTLLC VRAAGATPIV ITDIDEGRLR FAKELVPEVR TYRVQTGLSA
+     EENAAGILDA LNDGNGSAPD AIRPRVAMEC TGVESSVASA IWSVKFGGKV FVIGVGKNEM
+     KVPFMRLSTW EIDLQYQYRY CNTWPKAIRL VKNGVINLKK LVTHRFPLED AVKAFETAAN
+     PKTGAIKVQI MSSEEDIKAA SGVNGASN
+//

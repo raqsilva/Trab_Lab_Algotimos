@@ -1,0 +1,91 @@
+ID   XERC_XYLF2              Reviewed;         294 AA.
+AC   B2IA18;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   07-JAN-2015, entry version 47.
+DE   RecName: Full=Tyrosine recombinase XerC {ECO:0000255|HAMAP-Rule:MF_01808};
+GN   Name=xerC {ECO:0000255|HAMAP-Rule:MF_01808};
+GN   OrderedLocusNames=XfasM23_0736;
+OS   Xylella fastidiosa (strain M23).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xylella.
+OX   NCBI_TaxID=405441;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=M23;
+RX   PubMed=20601474; DOI=10.1128/JB.00651-10;
+RA   Chen J., Xie G., Han S., Chertkov O., Sims D., Civerolo E.L.;
+RT   "Whole genome sequences of two Xylella fastidiosa strains (M12 and
+RT   M23) causing almond leaf scorch disease in California.";
+RL   J. Bacteriol. 192:4534-4534(2010).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by
+CC       catalyzing the cutting and rejoining of the recombining DNA
+CC       molecules. The XerC-XerD complex is essential to convert dimers of
+CC       the bacterial chromosome into monomers to permit their segregation
+CC       at cell division. It also contributes to the segregational
+CC       stability of plasmids. {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -!- SUBUNIT: Forms a cyclic heterotetrameric complex composed of two
+CC       molecules of XerC and two molecules of XerD. {ECO:0000255|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerC
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001011; ACB92177.1; -; Genomic_DNA.
+DR   RefSeq; YP_001829451.1; NC_010577.1.
+DR   ProteinModelPortal; B2IA18; -.
+DR   STRING; 405441.XfasM23_0736; -.
+DR   EnsemblBacteria; ACB92177; ACB92177; XfasM23_0736.
+DR   GeneID; 6202966; -.
+DR   KEGG; xfn:XfasM23_0736; -.
+DR   PATRIC; 24143514; VBIXylFas85937_0935.
+DR   eggNOG; COG4973; -.
+DR   HOGENOM; HOG000045294; -.
+DR   KO; K03733; -.
+DR   OMA; QNYLKCC; -.
+DR   OrthoDB; EOG6PZXFP; -.
+DR   BioCyc; XFAS405441:GJJI-764-MONOMER; -.
+DR   Proteomes; UP000001698; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006313; P:transposition, DNA-mediated; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; -; 1.
+DR   HAMAP; MF_01808; Recomb_XerC; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat-core.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR023109; Integrase_recombinase_N.
+DR   InterPro; IPR004107; Integrase_SAM-like_N.
+DR   InterPro; IPR011931; Recomb_XerC.
+DR   InterPro; IPR023009; Tyrosine_recombinase_XerC/XerD.
+DR   Pfam; PF02899; Phage_int_SAM_1; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF56349; SSF56349; 1.
+DR   TIGRFAMs; TIGR02224; recomb_XerC; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Chromosome partition; Complete proteome;
+KW   Cytoplasm; DNA integration; DNA recombination; DNA-binding.
+FT   CHAIN         1    294       Tyrosine recombinase XerC.
+FT                                /FTId=PRO_1000187621.
+FT   ACT_SITE    145    145       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    169    169       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    235    235       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    238    238       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    261    261       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    270    270       O-(3'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01808}.
+SQ   SEQUENCE   294 AA;  32434 MW;  3D1E98864150C33C CRC64;
+     MSRLVEDFFA FLHVERGMSS HTLDAYRRDI GALIAWGGQQ AVGEVVALDR AQLQAFVSAE
+     HRRGLSAKSL QRRLSACRGF YTWLVKRGHI AVNPAAGLRA PKALRKLPRI LDADEAVSFV
+     QIPTDTPLGL RDRALLELFY SSGLRLSELC GLRWDGLDLD AGLVSVLGKG SRQRVVPVGS
+     YALSALREWC ASSGGGAQQP VFPGRYGGPI SARAVQVRIK QLAQRQGMAK HVHPHMLRHS
+     FASHLLESSG DLRGVQELLG HADITTTQIY THLDFQYLSK VYDAAHPRAR RKAR
+//

@@ -1,0 +1,130 @@
+ID   DESV_STRVZ              Reviewed;         379 AA.
+AC   Q9ZGH4;
+DT   29-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   04-FEB-2015, entry version 54.
+DE   RecName: Full=dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucose transaminase {ECO:0000303|PubMed:17456741};
+DE            EC=2.6.1.106 {ECO:0000303|PubMed:17456741};
+GN   Name=desV {ECO:0000303|PubMed:17456741};
+OS   Streptomyces venezuelae.
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Streptomycineae; Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=54571;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 15439 / DSM 41110 / IMRU3627 / M-2140;
+RX   PubMed=9770448; DOI=10.1073/pnas.95.21.12111;
+RA   Xue Y., Zhao L., Liu H.W., Sherman D.H.;
+RT   "A gene cluster for macrolide antibiotic biosynthesis in Streptomyces
+RT   venezuelae: architecture of metabolic diversity.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:12111-12116(1998).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.05 ANGSTROMS) IN COMPLEX WITH PYRIDOXAL
+RP   PHOSPHATE ANALOG, FUNCTION, COFACTOR, AND SUBUNIT.
+RC   STRAIN=ATCC 15439 / DSM 41110 / IMRU3627 / M-2140;
+RX   PubMed=17456741; DOI=10.1110/ps.062711007;
+RA   Burgie E.S., Thoden J.B., Holden H.M.;
+RT   "Molecular architecture of DesV from Streptomyces venezuelae: a PLP-
+RT   dependent transaminase involved in the biosynthesis of the unusual
+RT   sugar desosamine.";
+RL   Protein Sci. 16:887-896(2007).
+CC   -!- FUNCTION: Involved in the biosynthesis of dTDP-alpha-D-desosamine,
+CC       a sugar found in several bacterial macrolide antibiotics.
+CC       Catalyzes the reversible transfer of the amino group from L-
+CC       glutamate to the C-3 position of dTDP-3-keto-4,6-deoxyglucose to
+CC       yield dTDP-3-amino-3,4,6-trideoxyglucose.
+CC       {ECO:0000305|PubMed:17456741}.
+CC   -!- CATALYTIC ACTIVITY: dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucose +
+CC       2-oxoglutarate = dTDP-3-dehydro-4,6-deoxy-alpha-D-glucose + L-
+CC       glutamate. {ECO:0000305|PubMed:17456741}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000269|PubMed:17456741};
+CC   -!- PATHWAY: Antibiotic biosynthesis. {ECO:0000305}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:17456741}.
+CC   -!- SIMILARITY: Belongs to the degT/dnrJ/eryC1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF079762; AAC68680.1; -; Genomic_DNA.
+DR   PDB; 2OGA; X-ray; 2.05 A; A/B/C/D=1-379.
+DR   PDB; 2OGE; X-ray; 2.05 A; A/B/C/D=1-379.
+DR   PDBsum; 2OGA; -.
+DR   PDBsum; 2OGE; -.
+DR   ProteinModelPortal; Q9ZGH4; -.
+DR   SMR; Q9ZGH4; 7-377.
+DR   BioCyc; MetaCyc:MONOMER-16953; -.
+DR   EvolutionaryTrace; Q9ZGH4; -.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IDA:UniProtKB.
+DR   GO; GO:0008483; F:transaminase activity; IDA:UniProtKB.
+DR   GO; GO:0033068; P:macrolide biosynthetic process; IDA:UniProtKB.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antibiotic biosynthesis; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN         1    379       dTDP-3-amino-3,4,6-trideoxy-alpha-D-
+FT                                glucose transaminase.
+FT                                /FTId=PRO_0000430832.
+FT   REGION      188    193       Pyridoxal phosphate binding.
+FT                                {ECO:0000269|PubMed:17456741}.
+FT   REGION      235    237       Pyridoxal phosphate binding.
+FT                                {ECO:0000269|PubMed:17456741}.
+FT   BINDING      67     67       Pyridoxal phosphate; via amide nitrogen.
+FT                                {ECO:0000269|PubMed:17456741}.
+FT   BINDING     167    167       Pyridoxal phosphate.
+FT                                {ECO:0000269|PubMed:17456741}.
+FT   BINDING     221    221       Pyridoxal phosphate.
+FT                                {ECO:0000269|PubMed:17456741}.
+FT   BINDING     227    227       Pyridoxal phosphate.
+FT                                {ECO:0000269|PubMed:17456741}.
+FT   BINDING     318    318       Pyridoxal phosphate.
+FT                                {ECO:0000269|PubMed:17456741}.
+FT   MOD_RES     193    193       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000305|PubMed:17456741}.
+FT   HELIX        15     21       {ECO:0000244|PDB:2OGA}.
+FT   HELIX        23     36       {ECO:0000244|PDB:2OGA}.
+FT   STRAND       40     42       {ECO:0000244|PDB:2OGA}.
+FT   HELIX        43     55       {ECO:0000244|PDB:2OGA}.
+FT   STRAND       58     65       {ECO:0000244|PDB:2OGA}.
+FT   HELIX        67     77       {ECO:0000244|PDB:2OGA}.
+FT   STRAND       85     92       {ECO:0000244|PDB:2OGA}.
+FT   HELIX        95    102       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      106    110       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      114    119       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       121    127       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      132    135       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       140    142       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       147    157       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      160    164       {ECO:0000244|PDB:2OGE}.
+FT   STRAND      184    188       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      193    195       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      202    207       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       209    219       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       240    251       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       253    270       {ECO:0000244|PDB:2OGA}.
+FT   TURN        271    273       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      291    296       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       300    309       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       322    324       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       326    329       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       339    347       {ECO:0000244|PDB:2OGA}.
+FT   STRAND      348    351       {ECO:0000244|PDB:2OGA}.
+FT   HELIX       359    374       {ECO:0000244|PDB:2OGA}.
+SQ   SEQUENCE   379 AA;  41184 MW;  1A4FD0F4E76DCCDB CRC64;
+     MSSRAETPRV PFLDLKAAYE ELRAETDAAI ARVLDSGRYL LGPELEGFEA EFAAYCETDH
+     AVGVNSGMDA LQLALRGLGI GPGDEVIVPS HTYIASWLAV SATGATPVPV EPHEDHPTLD
+     PLLVEKAITP RTRALLPVHL YGHPADMDAL RELADRHGLH IVEDAAQAHG ARYRGRRIGA
+     GSSVAAFSFY PGKNLGCFGD GGAVVTGDPE LAERLRMLRN YGSRQKYSHE TKGTNSRLDE
+     MQAAVLRIRL AHLDSWNGRR SALAAEYLSG LAGLPGIGLP VTAPDTDPVW HLFTVRTERR
+     DELRSHLDAR GIDTLTHYPV PVHLSPAYAG EAPPEGSLPR AESFARQVLS LPIGPHLERP
+     QALRVIDAVR EWAERVDQA
+//

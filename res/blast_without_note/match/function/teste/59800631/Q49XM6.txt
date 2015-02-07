@@ -1,0 +1,101 @@
+ID   ARLS_STAS1              Reviewed;         451 AA.
+AC   Q49XM6;
+DT   10-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=Signal transduction histidine-protein kinase ArlS;
+DE            EC=2.7.13.3;
+GN   Name=arlS; OrderedLocusNames=SSP1324;
+OS   Staphylococcus saprophyticus subsp. saprophyticus (strain ATCC 15305 /
+OS   DSM 20229).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=342451;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15305 / DSM 20229;
+RX   PubMed=16135568; DOI=10.1073/pnas.0502950102;
+RA   Kuroda M., Yamashita A., Hirakawa H., Kumano M., Morikawa K.,
+RA   Higashide M., Maruyama A., Inose Y., Matoba K., Toh H., Kuhara S.,
+RA   Hattori M., Ohta T.;
+RT   "Whole genome sequence of Staphylococcus saprophyticus reveals the
+RT   pathogenesis of uncomplicated urinary tract infection.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:13272-13277(2005).
+CC   -!- FUNCTION: Member of the two-component regulatory system ArlS/ArlR.
+CC       ArlS probably functions as a sensor protein kinase which is
+CC       autophosphorylated at a histidine residue and transfers its
+CC       phosphate group to ArlR (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- PTM: Autophosphorylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP008934; BAE18469.1; -; Genomic_DNA.
+DR   RefSeq; YP_301414.1; NC_007350.1.
+DR   ProteinModelPortal; Q49XM6; -.
+DR   STRING; 342451.SSP1324; -.
+DR   EnsemblBacteria; BAE18469; BAE18469; SSP1324.
+DR   GeneID; 3616662; -.
+DR   KEGG; ssp:SSP1324; -.
+DR   PATRIC; 19624240; VBIStaSap90642_1327.
+DR   eggNOG; COG0642; -.
+DR   HOGENOM; HOG000223177; -.
+DR   OMA; NMANLIE; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; SSAP342451:GKFA-1383-MONOMER; -.
+DR   Proteomes; UP000006371; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Complete proteome; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase;
+KW   Transmembrane; Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    451       Signal transduction histidine-protein
+FT                                kinase ArlS.
+FT                                /FTId=PRO_0000293452.
+FT   TRANSMEM     12     32       Helical. {ECO:0000255}.
+FT   TRANSMEM    156    176       Helical. {ECO:0000255}.
+FT   DOMAIN      178    231       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      239    451       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     242    242       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   451 AA;  52423 MW;  0750F2CF493D1AC8 CRC64;
+     MKQRKLKTKW MLITTTITFL TIFLFSIIII FFLSNSLRHN EVDEAERSSE DIVKLFESKQ
+     IEHVTPLDLN ASLGNFQKVM LFNEDGHKLM ETSNDNSITF SPNIVPTNVN RIAVKSDHKK
+     DYLIITDHIE SPKFNGYSVI VHSLEDYKAL VNSLYFIALI FGVIATFITA IISYFFSSQI
+     TKPLILMSNK MQQIRRDGFQ EKVELSTNYE ETDNLIVTFN EMMLQLEESF NQQRQFVEDA
+     SHELRTPLQI IQGHLNLINR WGKKDAAILE ESLDISLEEM TRITKLVEEL LLLTKDNNNS
+     RDGEIENVEI NQEIASRIKS LSQLHSDYTF EFDAFPKPLN IKIDRYQFEQ MLIIFIDNAM
+     KYDQINKYIQ IQTKLRNKQI SIEITDHGVG IPKEDIEFIF DRFYRVDKSR SRKLGGNGLG
+     LSIAKKIIEL NNGTIHVDSE VDKYTTFKIT F
+//

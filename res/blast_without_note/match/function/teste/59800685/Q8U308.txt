@@ -1,0 +1,97 @@
+ID   RIDA_PYRFU              Reviewed;         126 AA.
+AC   Q8U308;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   04-FEB-2015, entry version 66.
+DE   RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase;
+DE            EC=3.5.99.10;
+DE   AltName: Full=Enamine/imine deaminase;
+GN   Name=yjgF; OrderedLocusNames=PF0668;
+OS   Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=186497;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=10430560;
+RA   Maeder D.L., Weiss R.B., Dunn D.M., Cherry J.L., Gonzalez J.M.,
+RA   DiRuggiero J., Robb F.T.;
+RT   "Divergence of the hyperthermophilic archaea Pyrococcus furiosus and
+RT   P. horikoshii inferred from complete genomic sequences.";
+RL   Genetics 152:1299-1305(1999).
+RN   [2]
+RP   FUNCTION AS A DEAMINASE.
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=22094463; DOI=10.1074/jbc.M111.304477;
+RA   Lambrecht J.A., Flynn J.M., Downs D.M.;
+RT   "The conserved YjgF protein family deaminates enamine/imine
+RT   intermediates of pyridoxal-5'-phosphate (PLP)-dependent enzyme
+RT   reactions.";
+RL   J. Biol. Chem. 287:3454-3461(2012).
+CC   -!- FUNCTION: Accelerates the release of ammonia from reactive
+CC       enamine/imine intermediates of the PLP-dependent threonine
+CC       dehydratase (IlvA) in the low water environment of the cell. It
+CC       catalyzes the deamination of enamine/imine intermediates to yield
+CC       2-ketobutyrate and ammonia. It is required for the detoxification
+CC       of reactive intermediates of IlvA due to their highly nucleophilic
+CC       abilities. Involved in the isoleucine biosynthesis.
+CC       {ECO:0000269|PubMed:22094463}.
+CC   -!- CATALYTIC ACTIVITY: 2-iminobutanoate + H(2)O = 2-oxobutanoate +
+CC       NH(3).
+CC   -!- CATALYTIC ACTIVITY: 2-iminopropanoate + H(2)O = pyruvate + NH(3).
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; 2-
+CC       oxobutanoate from L-threonine.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the RutC family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE009950; AAL80792.1; -; Genomic_DNA.
+DR   RefSeq; NP_578397.1; NC_003413.1.
+DR   RefSeq; WP_011011789.1; NC_003413.1.
+DR   ProteinModelPortal; Q8U308; -.
+DR   SMR; Q8U308; 1-126.
+DR   STRING; 186497.PF0668; -.
+DR   PRIDE; Q8U308; -.
+DR   EnsemblBacteria; AAL80792; AAL80792; PF0668.
+DR   GeneID; 1468513; -.
+DR   KEGG; pfu:PF0668; -.
+DR   eggNOG; COG0251; -.
+DR   HOGENOM; HOG000267215; -.
+DR   KO; K09022; -.
+DR   OMA; GSYFKEP; -.
+DR   Proteomes; UP000001013; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019239; F:deaminase activity; IDA:UniProtKB.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009636; P:response to toxic substance; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1330.40; -; 1.
+DR   InterPro; IPR013813; Endoribo_LPSP/chorism_mut-like.
+DR   InterPro; IPR006056; YjgF-like.
+DR   InterPro; IPR019897; YjgF-like_CS.
+DR   InterPro; IPR006175; YjgF/Yer057p/UK114.
+DR   PANTHER; PTHR11803; PTHR11803; 1.
+DR   Pfam; PF01042; Ribonuc_L-PSP; 1.
+DR   SUPFAM; SSF55298; SSF55298; 1.
+DR   TIGRFAMs; TIGR00004; TIGR00004; 1.
+DR   PROSITE; PS01094; UPF0076; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Complete proteome; Cytoplasm; Detoxification; Hydrolase;
+KW   Isoleucine biosynthesis; Reference proteome.
+FT   CHAIN         1    126       2-iminobutanoate/2-iminopropanoate
+FT                                deaminase.
+FT                                /FTId=PRO_0000416002.
+FT   BINDING     103    103       Substrate. {ECO:0000255}.
+FT   SITE         17     17       Stabilizes the substrate. {ECO:0000250}.
+FT   SITE        118    118       Important for catalytic activity at high
+FT                                pH. {ECO:0000250}.
+SQ   SEQUENCE   126 AA;  13907 MW;  9E2EF8B8D3094ACD CRC64;
+     MKEVIFAENA PKPIGPYSQA IKAGNFLFIA GQIPIDPKTG EIVKGDIKAQ TRQVLENIKA
+     ILEAAGYSLT DVVKVTVYLK DMNDFAKMNE VYAEYFGESK PARAAVEVSR LPKDVLIEIE
+     AIAYKE
+//

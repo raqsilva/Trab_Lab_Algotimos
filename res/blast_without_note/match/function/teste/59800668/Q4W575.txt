@@ -1,0 +1,98 @@
+ID   FBPC_NEIMB              Reviewed;         352 AA.
+AC   Q4W575;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=Fe(3+) ions import ATP-binding protein FbpC {ECO:0000255|HAMAP-Rule:MF_01706};
+DE            EC=3.6.3.30 {ECO:0000255|HAMAP-Rule:MF_01706};
+GN   Name=fbpC {ECO:0000255|HAMAP-Rule:MF_01706};
+GN   OrderedLocusNames=NMB0632;
+OS   Neisseria meningitidis serogroup B (strain MC58).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=122586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MC58;
+RX   PubMed=10710307; DOI=10.1126/science.287.5459.1809;
+RA   Tettelin H., Saunders N.J., Heidelberg J.F., Jeffries A.C.,
+RA   Nelson K.E., Eisen J.A., Ketchum K.A., Hood D.W., Peden J.F.,
+RA   Dodson R.J., Nelson W.C., Gwinn M.L., DeBoy R.T., Peterson J.D.,
+RA   Hickey E.K., Haft D.H., Salzberg S.L., White O., Fleischmann R.D.,
+RA   Dougherty B.A., Mason T.M., Ciecko A., Parksey D.S., Blair E.,
+RA   Cittone H., Clark E.B., Cotton M.D., Utterback T.R., Khouri H.M.,
+RA   Qin H., Vamathevan J.J., Gill J., Scarlato V., Masignani V., Pizza M.,
+RA   Grandi G., Sun L., Smith H.O., Fraser C.M., Moxon E.R., Rappuoli R.,
+RA   Venter J.C.;
+RT   "Complete genome sequence of Neisseria meningitidis serogroup B strain
+RT   MC58.";
+RL   Science 287:1809-1815(2000).
+CC   -!- FUNCTION: Part of the ABC transporter complex FbpABC involved in
+CC       Fe(3+) ions import. Responsible for energy coupling to the
+CC       transport system. {ECO:0000255|HAMAP-Rule:MF_01706}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O + Fe(3+)(Out) = ADP + phosphate +
+CC       Fe(3+)(In). {ECO:0000255|HAMAP-Rule:MF_01706}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (FbpC), two transmembrane proteins (FbpB) and a solute-binding
+CC       protein (FbpA). {ECO:0000255|HAMAP-Rule:MF_01706}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01706}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01706}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Fe(3+) ion
+CC       importer (TC 3.A.1.10) family. {ECO:0000255|HAMAP-Rule:MF_01706}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01706}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE002098; AAY52135.1; -; Genomic_DNA.
+DR   RefSeq; NP_273675.1; NC_003112.2.
+DR   ProteinModelPortal; Q4W575; -.
+DR   STRING; 122586.NMB0632; -.
+DR   EnsemblBacteria; AAY52135; AAY52135; NMB0632.
+DR   GeneID; 903196; -.
+DR   KEGG; nme:NMB0632; -.
+DR   PATRIC; 20356561; VBINeiMen85645_0800.
+DR   eggNOG; COG3842; -.
+DR   KO; K02010; -.
+DR   OMA; PEQITIQ; -.
+DR   OrthoDB; EOG6T7N3V; -.
+DR   BioCyc; NMEN122586:GHGG-658-MONOMER; -.
+DR   Proteomes; UP000000425; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015408; F:ferric-transporting ATPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR015853; ABC_transpr_FbpC.
+DR   InterPro; IPR008995; Mo/tungstate-bd_C_term_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50331; SSF50331; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51242; FBPC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Hydrolase; Ion transport; Iron; Iron transport; Membrane;
+KW   Nucleotide-binding; Reference proteome; Transport.
+FT   CHAIN         1    352       Fe(3+) ions import ATP-binding protein
+FT                                FbpC.
+FT                                /FTId=PRO_0000272041.
+FT   DOMAIN        5    239       ABC transporter. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01706}.
+FT   NP_BIND      37     44       ATP. {ECO:0000255|HAMAP-Rule:MF_01706}.
+SQ   SEQUENCE   352 AA;  37881 MW;  7648115E055FF3FA CRC64;
+     MTAALHIGHL SKSFQNTPVL NDISLSLDPG EILFIVGASG CGKTTLLRCL AGFEQPDFGE
+     ISLSGRTIFS KNTNLPVRER RLGYVVQEGV LFPHLTVYRN TAYGLGNGKG KTAQERQRIE
+     AMLELTGISE LAGRYPHELS GGQQQRVALA RALAPDPELI LLDEPFSALD EQLRRQIRED
+     MIAALRANGK SAVFVSHDRE EALQYADRIA VMKQGRILQT ASPHELYRQP ADLDAALFIG
+     EGIVFPAALN ADGTADCGLG RLPVQSGAPA GTRGTLLIRP EQFSLHPHSA PTASIHAVVL
+     KTTPKARHTE ISLRVGQTVL TLNLPSAPTL SDGISAVLHL DGPALFFPGN TL
+//

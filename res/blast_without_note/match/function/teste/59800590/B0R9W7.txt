@@ -1,0 +1,80 @@
+ID   QUED_HALS3              Reviewed;         150 AA.
+AC   B0R9W7;
+DT   31-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-JAN-2015, entry version 44.
+DE   RecName: Full=Probable 6-carboxy-5,6,7,8-tetrahydropterin synthase;
+DE            Short=CPH4 synthase;
+DE            EC=4.1.2.50;
+DE   AltName: Full=Archaeosine biosynthesis protein QueD;
+GN   Name=queD; OrderedLocusNames=OE_5198R;
+OS   Halobacterium salinarum (strain ATCC 29341 / DSM 671 / R1).
+OG   Plasmid PHS3.
+OC   Archaea; Euryarchaeota; Halobacteria; Halobacteriales;
+OC   Halobacteriaceae; Halobacterium.
+OX   NCBI_TaxID=478009;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29341 / DSM 671 / R1;
+RX   PubMed=18313895; DOI=10.1016/j.ygeno.2008.01.001;
+RA   Pfeiffer F., Schuster S.C., Broicher A., Falb M., Palm P.,
+RA   Rodewald K., Ruepp A., Soppa J., Tittor J., Oesterhelt D.;
+RT   "Evolution in the laboratory: the genome of Halobacterium salinarum
+RT   strain R1 compared to that of strain NRC-1.";
+RL   Genomics 91:335-346(2008).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin
+CC       triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4)
+CC       and acetaldehyde. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate + H(2)O =
+CC       6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PTPS family. QueD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM774418; CAP15548.1; -; Genomic_DNA.
+DR   RefSeq; WP_010904153.1; NC_010368.1.
+DR   RefSeq; YP_001690681.1; NC_010368.1.
+DR   ProteinModelPortal; B0R9W7; -.
+DR   STRING; 478009.OE5198R; -.
+DR   PRIDE; B0R9W7; -.
+DR   EnsemblBacteria; CAP15548; CAP15548; OE_5198R.
+DR   GeneID; 5954770; -.
+DR   KEGG; hsl:OE5198R; -.
+DR   eggNOG; COG0720; -.
+DR   HOGENOM; HOG000225069; -.
+DR   KO; K01737; -.
+DR   OMA; DEWDHRF; -.
+DR   BioCyc; HSAL478009:GJVF-2318-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000001321; Plasmid PHS3.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Plasmid; Zinc.
+FT   CHAIN         1    150       Probable 6-carboxy-5,6,7,8-
+FT                                tetrahydropterin synthase.
+FT                                /FTId=PRO_0000408953.
+FT   ACT_SITE     42     42       Proton acceptor. {ECO:0000250}.
+FT   ACT_SITE     81     81       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    141    141       Charge relay system. {ECO:0000250}.
+FT   METAL        33     33       Zinc. {ECO:0000250}.
+FT   METAL        46     46       Zinc. {ECO:0000250}.
+FT   METAL        48     48       Zinc. {ECO:0000250}.
+SQ   SEQUENCE   150 AA;  16234 MW;  8296E831E8081214 CRC64;
+     MRSAQSKRSQ STATGERTLH IGRDRPIRIS AGHRLQHHDG KCSRPHGHNY EISVEITGQL
+     TDEGWVVDKG TVTAVVSDWD HRFLLEDGDP LVDAFREAGD GDAVVVLEQP PTAEVMGVVL
+     ERKLHDALPE TVSAVSVTVA ETPALTAGPN
+//

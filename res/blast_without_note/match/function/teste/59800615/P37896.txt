@@ -1,0 +1,98 @@
+ID   AMPN_LACDL              Reviewed;         843 AA.
+AC   P37896;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Aminopeptidase N;
+DE            EC=3.4.11.2;
+DE   AltName: Full=Alanine aminopeptidase;
+DE   AltName: Full=Lysyl aminopeptidase;
+DE            Short=Lys-AP;
+GN   Name=pepN;
+OS   Lactobacillus delbrueckii subsp. lactis.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lactobacillus.
+OX   NCBI_TaxID=29397;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=DSM 7290;
+RX   PubMed=8223547; DOI=10.1111/j.1432-1033.1993.tb18224.x;
+RA   Klein J.R., Klein U., Schad M., Plapp R.;
+RT   "Cloning, DNA sequence analysis and partial characterization of pepN,
+RT   a lysyl aminopeptidase from Lactobacillus delbruckii ssp. lactis
+RT   DSM7290.";
+RL   Eur. J. Biochem. 217:105-114(1993).
+CC   -!- FUNCTION: Aminopeptidase with broad substrate specificity to
+CC       several peptides.
+CC   -!- CATALYTIC ACTIVITY: Release of an N-terminal amino acid, Xaa-|-
+CC       Yaa- from a peptide, amide or arylamide. Xaa is preferably Ala,
+CC       but may be most amino acids including Pro (slow action). When a
+CC       terminal hydrophobic residue is followed by a prolyl residue, the
+CC       two may be released as an intact Xaa-Pro dipeptide.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 6.5-7.0.;
+CC       Temperature dependence:
+CC         Optimum temperature is 54-55 degrees Celsius.;
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Note=It may be secreted through
+CC       an unknown mechanism.
+CC   -!- SIMILARITY: Belongs to the peptidase M1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z21701; CAA79805.1; -; Genomic_DNA.
+DR   PIR; S38364; S38364.
+DR   ProteinModelPortal; P37896; -.
+DR   MEROPS; M01.002; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004177; F:aminopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   InterPro; IPR024571; ERAP1-like_C_dom.
+DR   InterPro; IPR001930; Peptidase_M1.
+DR   InterPro; IPR014782; Peptidase_M1_N.
+DR   PANTHER; PTHR11533; PTHR11533; 1.
+DR   Pfam; PF11838; ERAP1_C; 1.
+DR   Pfam; PF01433; Peptidase_M1; 1.
+DR   PRINTS; PR00756; ALADIPTASE.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Metal-binding; Metalloprotease;
+KW   Protease; Zinc.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    843       Aminopeptidase N.
+FT                                /FTId=PRO_0000095071.
+FT   REGION      252    256       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    289    289       Proton acceptor. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       288    288       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       292    292       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   METAL       311    311       Zinc; catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10095}.
+FT   BINDING     120    120       Substrate. {ECO:0000250}.
+FT   SITE        375    375       Transition state stabilizer.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   843 AA;  95348 MW;  08EF9F8CBD7AB1B0 CRC64;
+     MAVKRFYETF HPDHYDLYID VDRAARSFSG TSTIHGEIQE ETVLVHQKYM TISKVTVDGK
+     EVPFTFGDDF EGIKIEAGKT GEAVIAIDYS APLTDTMMGI YPSYYQVDGV KKELIGTQFE
+     TTFAREAFPC VDEPEAKATF SLALKFDEHE GETVLANMPE DRVENGVHYF KETVRMSSYL
+     VAFAFGEMRS LTTHTKSGVL IGVYSTQAHT EKELTFSLDI AKRAIEFYED FYQTPYPLPQ
+     SLQLALPDFS AGAMENWGLV TYREAYLLLD PDNTTLEMKK LVATVVTHEL AHQWFGDLVT
+     MEWWDNLWLN ESFANMMEYL SVDHLEPNWH IWEMFQTSEA AAALTRDATD GVQSVHVEVN
+     DPAEIDALFD GAIVYAKGSR MLVMVRSLLG DEALRKGLKR YFDKHKFGNA AGDDLWDALS
+     TATDLNIGEI MHTWLDQPGY PVVNAFVEDG HLKLTQKQFF IGEGKEVGRK WEIPLNANFK
+     APKIMSDVEL DLGDYQALRA EAGHALRLNV GNNSHFIVKY DQTLMDDIMK EAKDLDPVSQ
+     LQLLQDLRLL AEGKQASYAD VVPVLELFKN SESHIVNDAL YTTADKLRQF APAGSEADKN
+     LRALYNDLSK DQVARLGWLP KAGESDEDIQ TRPYVLSASL YGRNADSEKQ AHEIYVEYAD
+     KLAELSADIR PYVLINEVEN YGSSELTDKL IGLYQATSDP SFKMDLEAAI VKSKDEGELK
+     KIVSWFKNAE IVKPQDLRGW FSGVLSNPAG EQLAWDWIRD EWAWLEKTVG GDMEFATFIT
+     VISRVFKTKE RYDEYNAFFT DKESNMLLNR EIKMDRKVIA NRVDLIASEQ ADVNAAVAAA
+     LQK
+//

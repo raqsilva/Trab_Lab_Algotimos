@@ -1,0 +1,137 @@
+ID   DBPA_BACCR              Reviewed;         481 AA.
+AC   Q814I2;
+DT   03-SEP-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 91.
+DE   RecName: Full=ATP-dependent RNA helicase DbpA {ECO:0000255|HAMAP-Rule:MF_00965};
+DE            EC=3.6.4.13 {ECO:0000255|HAMAP-Rule:MF_00965};
+GN   Name=dbpA {ECO:0000255|HAMAP-Rule:MF_00965}; Synonyms=cshD;
+GN   OrderedLocusNames=BC_5451;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B.,
+RA   Kapatral V., Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A.,
+RA   Chu L., Mazur M., Goltsman E., Larsen N., D'Souza M., Walunas T.,
+RA   Grechkin Y., Pusch G., Haselkorn R., Fonstein M., Ehrlich S.D.,
+RA   Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with
+RT   Bacillus anthracis.";
+RL   Nature 423:87-91(2003).
+RN   [2]
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 14579 / DSM 31;
+RX   PubMed=20709848; DOI=10.1128/AEM.00782-10;
+RA   Pandiani F., Brillard J., Bornard I., Michaud C., Chamot S.,
+RA   Nguyen-the C., Broussolle V.;
+RT   "Differential involvement of the five RNA helicases in adaptation of
+RT   Bacillus cereus ATCC 14579 to low growth temperatures.";
+RL   Appl. Environ. Microbiol. 76:6692-6697(2010).
+RN   [3]
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 14579 / DSM 31;
+RX   PubMed=21705526; DOI=10.1128/AEM.02974-10;
+RA   Pandiani F., Chamot S., Brillard J., Carlin F., Nguyen-the C.,
+RA   Broussolle V.;
+RT   "Role of the five RNA helicases in the adaptive response of Bacillus
+RT   cereus ATCC 14579 cells to temperature, pH, and oxidative stresses.";
+RL   Appl. Environ. Microbiol. 77:5604-5609(2011).
+CC   -!- FUNCTION: DEAD-box RNA helicase involved in the assembly of the
+CC       50S ribosomal subunit. Has an RNA-dependent ATPase activity, which
+CC       is specific for 23S rRNA, and a 3' to 5' RNA helicase activity
+CC       that uses the energy of ATP hydrolysis to destabilize and unwind
+CC       short rRNA duplexes. {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- INDUCTION: Induced at 10 degrees Celsius.
+CC       {ECO:0000269|PubMed:20709848, ECO:0000269|PubMed:21705526}.
+CC   -!- DOMAIN: Contains an N-terminal domain that binds non-specifically
+CC       to RNA and a C-terminal domain that binds specifically and tightly
+CC       to hairpin 92 of 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- DISRUPTION PHENOTYPE: Wild-type growth rate at 10 and 30 degrees
+CC       Celsius, no change upon exposure to H(2)O(2) or diamide.
+CC       {ECO:0000269|PubMed:20709848, ECO:0000269|PubMed:21705526}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DbpA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12312.1; -; Genomic_DNA.
+DR   RefSeq; NP_835111.1; NC_004722.1.
+DR   RefSeq; WP_000039351.1; NC_004722.1.
+DR   ProteinModelPortal; Q814I2; -.
+DR   SMR; Q814I2; 213-367, 406-479.
+DR   STRING; 226900.BC5451; -.
+DR   EnsemblBacteria; AAP12312; AAP12312; BC_5451.
+DR   GeneID; 1207791; -.
+DR   KEGG; bce:BC5451; -.
+DR   PATRIC; 32607122; VBIBacCer54481_5632.
+DR   eggNOG; COG0513; -.
+DR   OMA; NACNHLA; -.
+DR   OrthoDB; EOG6GBMBM; -.
+DR   BioCyc; BCER226900:GJEU-5443-MONOMER; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0034459; F:ATP-dependent 3'-5' RNA helicase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000027; P:ribosomal large subunit assembly; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00965; DEAD_helicase_DbpA; 1.
+DR   InterPro; IPR005580; DbpA_RNA-bd_dom.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR028619; DEAD_helicase_DbpA.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF03880; DbpA; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Helicase; Hydrolase;
+KW   Nucleotide-binding; Reference proteome; Ribosome biogenesis;
+KW   RNA-binding.
+FT   CHAIN         1    481       ATP-dependent RNA helicase DbpA.
+FT                                /FTId=PRO_0000430107.
+FT   DOMAIN       35    205       Helicase ATP-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00965}.
+FT   DOMAIN      231    377       Helicase C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00965}.
+FT   NP_BIND      48     55       ATP. {ECO:0000255|HAMAP-Rule:MF_00965}.
+FT   REGION      406    481       Involved in 23S rRNA binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00965}.
+FT   MOTIF         4     32       Q motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00965}.
+FT   MOTIF       153    156       DEAD box. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00965}.
+SQ   SEQUENCE   481 AA;  54174 MW;  BCAFAD3CE35CE7B9 CRC64;
+     MSKKSFSDYK LSKEIVRALT GLGYDHPTEV QGEVIPVALQ KKDLVVKSQT GSGKTASFGI
+     PLCEMVEWEE NKPQALVLTP TRELAVQVKE DITNIGRFKR IKAAAVYGKS PFARQKLELK
+     QKTHIVVGTP GRVLDHIEKG TLSLECLKYL VIDEADEMLN MGFIDQVEAI IDELPTKRMT
+     MLFSATLPED VEKLSRTYMN SPTHIEIKAA GITTDKIEHT LFEVIEDEKL SLLKDVTTIE
+     NPDSCIIFCR TQENVDHVYR QLKRANYPCD KIHGGMVQED RFEVMDDFRK GKFRYLVATD
+     VAARGIDIDN ITHVINYDIP LEKESYVHRT GRTGRAGNSG KAITFITPYE NRFLEEIEEY
+     IGFEIPKAIG PSKEEVMKEK AAFEEKLHAK PIIKKDKNAD INKGIMKLYF NGGKKKKIRA
+     VDFVGTIAKI KGVTAEDIGI ITIQDNVSYV EILNGKGPLV LKVMKTTTIK GKQLKVHEAI
+     K
+//

@@ -1,0 +1,105 @@
+ID   DEGPL_RICPR             Reviewed;         513 AA.
+AC   O05942;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1999, sequence version 2.
+DT   07-JAN-2015, entry version 103.
+DE   RecName: Full=Probable periplasmic serine endoprotease DegP-like;
+DE            EC=3.4.21.107;
+DE   AltName: Full=Protease Do;
+DE   Flags: Precursor;
+GN   Name=htrA; OrderedLocusNames=RP124;
+OS   Rickettsia prowazekii (strain Madrid E).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=272947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Madrid E;
+RX   PubMed=9823893; DOI=10.1038/24094;
+RA   Andersson S.G.E., Zomorodipour A., Andersson J.O.,
+RA   Sicheritz-Ponten T., Alsmark U.C.M., Podowski R.M., Naeslund A.K.,
+RA   Eriksson A.-S., Winkler H.H., Kurland C.G.;
+RT   "The genome sequence of Rickettsia prowazekii and the origin of
+RT   mitochondria.";
+RL   Nature 396:133-140(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 161-513.
+RC   STRAIN=Madrid E;
+RX   PubMed=9274032;
+RA   Andersson J.O., Andersson S.G.E.;
+RT   "Genomic rearrangements during evolution of the obligate intracellular
+RT   parasite Rickettsia prowazekii as inferred from an analysis of 52015
+RT   bp nucleotide sequence.";
+RL   Microbiology 143:2783-2795(1997).
+CC   -!- FUNCTION: Might be efficient in the degradation of transiently
+CC       denatured and unfolded proteins which accumulate in the periplasm
+CC       following stress conditions. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 PDZ (DHR) domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ235270; CAA14593.1; -; Genomic_DNA.
+DR   EMBL; Y11782; CAA72471.1; -; Genomic_DNA.
+DR   PIR; B71722; B71722.
+DR   RefSeq; NP_220516.1; NC_000963.1.
+DR   ProteinModelPortal; O05942; -.
+DR   STRING; 272947.RP124; -.
+DR   EnsemblBacteria; CAA14593; CAA14593; CAA14593.
+DR   GeneID; 883744; -.
+DR   KEGG; rpr:RP124; -.
+DR   PATRIC; 17900988; VBIRicPro72556_0126.
+DR   eggNOG; COG0265; -.
+DR   HOGENOM; HOG000223640; -.
+DR   KO; K01362; -.
+DR   OMA; IAPSEAM; -.
+DR   OrthoDB; EOG61ZTDN; -.
+DR   Proteomes; UP000002480; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; ISS:UniProtKB.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISS:UniProtKB.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF13180; PDZ_2; 1.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; SSF50156; 1.
+DR   SUPFAM; SSF50494; SSF50494; 2.
+DR   TIGRFAMs; TIGR02037; degP_htrA_DO; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Periplasm; Protease; Reference proteome;
+KW   Repeat; Serine protease; Signal; Stress response.
+FT   SIGNAL        1     23       {ECO:0000255}.
+FT   CHAIN        24    513       Probable periplasmic serine endoprotease
+FT                                DegP-like.
+FT                                /FTId=PRO_0000026935.
+FT   DOMAIN      290    381       PDZ 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   DOMAIN      418    502       PDZ 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   REGION      124    289       Serine protease.
+FT   REGION      245    247       Substrate binding. {ECO:0000250}.
+FT   REGION      302    306       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    139    139       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    169    169       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    247    247       Charge relay system. {ECO:0000255}.
+SQ   SEQUENCE   513 AA;  56310 MW;  4B7E9B7AB4079139 CRC64;
+     MVNLKIFLIV IVLMFNNIIL AKENSNALKV VDQEENEFTA INSAPLKISE AARYSFADIV
+     EPLIPAVVNI STIEYVNDKS ENSEKDLLQE NKHLGFMSDV LEKLNIPLNL EEIAKTPKSI
+     PLGSGFIIAP NGLIVTNYHV IANVEKINIK LADNTEFLAK LIGSDSKTDL ALLKIDSEEP
+     LPFVEFGDSN DARVGDWVIA IGNPFGNLGG TVTSGIISSK GRDIDVDTDN IVDNFIQTDA
+     AINNGNSGGP MFNLDQKVIG VNTAIFSPLG TNIGIGFAIP SNTAKPIIER LKKDGKVSRG
+     RLGVTIQDLT EEISEVLGFK GTNGVLVSKV QENGPGYKAG IKKGDIIIKF GDRLVKNTKK
+     LRVIIADTPI NQEVKLKILR DAQELELPIK VTADNEEVIN DSTEETNKAV IINKKENNLS
+     ITKNNITFSN LTEELRKKYD IPQDKTGIVI INIDEEESVF KLGDLITNIN HDSIDDIRKL
+     EVLYENAKKL EKQNILLLIE RGDTSVFIPL SVS
+//

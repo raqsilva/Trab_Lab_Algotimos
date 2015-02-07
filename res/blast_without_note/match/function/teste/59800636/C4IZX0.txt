@@ -1,0 +1,96 @@
+ID   TATC_MAIZE              Reviewed;         356 AA.
+AC   C4IZX0;
+DT   31-OCT-2012, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 1.
+DT   04-FEB-2015, entry version 27.
+DE   RecName: Full=Sec-independent protein translocase protein TATC, chloroplastic;
+DE   AltName: Full=Protein TWIN-ARGININE TRANSLOCATION C;
+DE   Flags: Precursor;
+GN   Name=TATC;
+OS   Zea mays (Maize).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae;
+OC   PACMAD clade; Panicoideae; Andropogoneae; Zea.
+OX   NCBI_TaxID=4577;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. B73;
+RX   PubMed=19936069; DOI=10.1371/journal.pgen.1000740;
+RA   Soderlund C., Descour A., Kudrna D., Bomhoff M., Boyd L., Currie J.,
+RA   Angelova A., Collura K., Wissotski M., Ashley E., Morrow D.,
+RA   Fernandes J., Walbot V., Yu Y.;
+RT   "Sequencing, mapping, and analysis of 27,455 maize full-length
+RT   cDNAs.";
+RL   PLoS Genet. 5:E1000740-E1000740(2009).
+CC   -!- FUNCTION: Part of the twin-arginine translocation (Tat) system
+CC       that transports large folded proteins containing a characteristic
+CC       twin-arginine motif in their signal peptide across the thylakoid
+CC       membrane. Involved in delta pH-dependent protein transport
+CC       required for chloroplast development, especially thylakoid
+CC       membrane formation. TATC and TATB mediate precursor recognition,
+CC       whereas TATA facilitates translocation (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: In thylakoid membranes, TATC and TATB form a large
+CC       receptor complex, containing about eight TATC-TATB pairs, which
+CC       binds the precursor protein. Twin arginine signal peptide promotes
+CC       pH-triggered docking of TATA oligomers to TATC-TATB receptor
+CC       complex, inducing a conformational switch of TATA that results in
+CC       activation of the translocase. TATA dissociates from TATC-TATB
+CC       upon completion of translocation (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000250}; Multi-pass membrane protein {ECO:0000250}. Note=The
+CC       N-terminus is located in the stroma. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the TatC family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BT084117; ACR34470.1; -; mRNA.
+DR   RefSeq; XP_008652912.1; XM_008654690.1.
+DR   UniGene; Zm.8565; -.
+DR   EnsemblPlants; GRMZM2G025123_T01; GRMZM2G025123_P01; GRMZM2G025123.
+DR   GeneID; 103632985; -.
+DR   Gramene; C4IZX0; -.
+DR   HOGENOM; HOG000245380; -.
+DR   OMA; PLGEHIE; -.
+DR   Proteomes; UP000007305; Unplaced.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   HAMAP; MF_00902; TatC; 1.
+DR   InterPro; IPR019820; Sec-indep_translocase_CS.
+DR   InterPro; IPR002033; TatC.
+DR   Pfam; PF00902; TatC; 1.
+DR   PRINTS; PR01840; TATCFAMILY.
+DR   TIGRFAMs; TIGR00945; tatC; 1.
+DR   PROSITE; PS01218; TATC; 1.
+PE   2: Evidence at transcript level;
+KW   Chloroplast; Complete proteome; Membrane; Plastid; Protein transport;
+KW   Reference proteome; Thylakoid; Transit peptide; Translocation;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   TRANSIT       1     55       Chloroplast. {ECO:0000255}.
+FT   TRANSIT      56      ?       Thylakoid. {ECO:0000255}.
+FT   CHAIN         ?    356       Sec-independent protein translocase
+FT                                protein TATC, chloroplastic.
+FT                                /FTId=PRO_0000419912.
+FT   TOPO_DOM     56    143       Stromal. {ECO:0000255}.
+FT   TRANSMEM    144    164       Helical. {ECO:0000255}.
+FT   TOPO_DOM    165    195       Lumenal. {ECO:0000255}.
+FT   TRANSMEM    196    216       Helical. {ECO:0000255}.
+FT   TOPO_DOM    217    222       Stromal. {ECO:0000255}.
+FT   TRANSMEM    223    243       Helical. {ECO:0000255}.
+FT   TOPO_DOM    244    273       Lumenal. {ECO:0000255}.
+FT   TRANSMEM    274    294       Helical. {ECO:0000255}.
+FT   TOPO_DOM    295    305       Stromal. {ECO:0000255}.
+FT   TRANSMEM    306    326       Helical. {ECO:0000255}.
+FT   TOPO_DOM    327    330       Lumenal. {ECO:0000255}.
+FT   TRANSMEM    331    351       Helical. {ECO:0000255}.
+FT   TOPO_DOM    352    356       Stromal. {ECO:0000255}.
+SQ   SEQUENCE   356 AA;  38684 MW;  E0D61F70E124903A CRC64;
+     MGSAGALLWH TPQQLHGRGI LFRQSRPLLR QRNLPLISLA APALEPERRR RQCLRCAAVD
+     GDGALRESGP LPQKESPSSG IGAALEDPPP GPPVENGSFG GPSQEEQSAL YTFLYPSKDL
+     LPDDKEMSIF DHLEELRDRI FISVLAVGAA ILGCFAFSKD LVIFLEAPVT AQGVRFLQLS
+     PGEFFFTTLK VSGYCGLLLG SPIILYEIIA FVIPGLTRDE RKFLGPIVLG SSVLFYLGIF
+     FSYTVLSPAA LNFFVNYADG AVESLWSIDQ YFEFILVLMF STGLSFQVPV IQLLLGQLGL
+     VSSDQMLSIW RYVVVGAVVA AAVLTPSTDP LTQMLLAGPL LGLYLGGAWM VKITGR
+//

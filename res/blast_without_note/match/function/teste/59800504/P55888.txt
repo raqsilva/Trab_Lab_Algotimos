@@ -1,0 +1,120 @@
+ID   XERC_SALTY              Reviewed;         300 AA.
+AC   P55888;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   07-JAN-2015, entry version 96.
+DE   RecName: Full=Tyrosine recombinase XerC {ECO:0000255|HAMAP-Rule:MF_01808};
+GN   Name=xerC {ECO:0000255|HAMAP-Rule:MF_01808};
+GN   OrderedLocusNames=STM3949; ORFNames=STMD1.41;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT2;
+RX   PubMed=9370270; DOI=10.1016/S0378-1119(97)00299-0;
+RA   Hayes F., Lubetzki S.A., Sherratt D.J.;
+RT   "Salmonella typhimurium specifies a circular chromosome dimer
+RT   resolution system which is homologous to the Xer site-specific
+RT   recombination system of Escherichia coli.";
+RL   Gene 198:105-110(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by
+CC       catalyzing the cutting and rejoining of the recombining DNA
+CC       molecules. Binds cooperatively to specific DNA consensus sequences
+CC       that are separated from XerD binding sites by a short central
+CC       region, forming the heterotetrameric XerC-XerD complex that
+CC       recombines DNA substrates. The complex is essential to convert
+CC       dimers of the bacterial chromosome into monomers to permit their
+CC       segregation at cell division. It also contributes to the
+CC       segregational stability of plasmids. In the complex XerC
+CC       specifically exchanges the top DNA strands. {ECO:0000255|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- ENZYME REGULATION: FtsK may regulate the catalytic switch between
+CC       XerC and XerD in the heterotetrameric complex during the two steps
+CC       of the recombination process. {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -!- SUBUNIT: Forms a cyclic heterotetrameric complex composed of two
+CC       molecules of XerC and two molecules of XerD, in which XerC
+CC       interacts with XerD via its C-terminal region, XerD interacts with
+CC       XerC via its C-terminal region and so on. {ECO:0000255|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerC
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U92525; AAC45778.1; -; Genomic_DNA.
+DR   EMBL; AF233324; AAF33443.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL22793.1; -; Genomic_DNA.
+DR   RefSeq; NP_462834.1; NC_003197.1.
+DR   ProteinModelPortal; P55888; -.
+DR   STRING; 99287.STM3949; -.
+DR   EnsemblBacteria; AAL22793; AAL22793; STM3949.
+DR   GeneID; 1255475; -.
+DR   KEGG; stm:STM3949; -.
+DR   PATRIC; 32386763; VBISalEnt20916_4167.
+DR   eggNOG; COG4973; -.
+DR   HOGENOM; HOG000045294; -.
+DR   KO; K03733; -.
+DR   OMA; GERRLPK; -.
+DR   OrthoDB; EOG6PZXFP; -.
+DR   PhylomeDB; P55888; -.
+DR   BioCyc; SENT99287:GCTI-3978-MONOMER; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006313; P:transposition, DNA-mediated; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; -; 1.
+DR   HAMAP; MF_01808; Recomb_XerC; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat-core.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR010998; Integrase_Lambda-type_N.
+DR   InterPro; IPR023109; Integrase_recombinase_N.
+DR   InterPro; IPR004107; Integrase_SAM-like_N.
+DR   InterPro; IPR011931; Recomb_XerC.
+DR   InterPro; IPR023009; Tyrosine_recombinase_XerC/XerD.
+DR   Pfam; PF02899; Phage_int_SAM_1; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF47823; SSF47823; 1.
+DR   SUPFAM; SSF56349; SSF56349; 1.
+DR   TIGRFAMs; TIGR02224; recomb_XerC; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Chromosome partition; Complete proteome;
+KW   Cytoplasm; DNA integration; DNA recombination; DNA-binding;
+KW   Reference proteome.
+FT   CHAIN         1    300       Tyrosine recombinase XerC.
+FT                                /FTId=PRO_0000095325.
+FT   ACT_SITE    150    150       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    174    174       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    242    242       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    245    245       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    268    268       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    277    277       O-(3'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01808}.
+SQ   SEQUENCE   300 AA;  33600 MW;  6BA0A0B39A2C9576 CRC64;
+     MTDVALSQDV SRFLRYLGVE RQLSPITLLN YQRQLDAIIA LAGETGLKSW QQCDAAIVRS
+     FAVRSRRKGL GPASLALRLS ALRSFFDWLV SQGELKANPA KGVSAPKAPR HLPKNIDVDD
+     VNRLLDIDLN DPLAVRDRAM LEVMYGAGLR LSELVGLDIK HLDLDTGEVW VMGKGSKERR
+     LPIGRNAVTW IEHWLDLRGL FASDEEALFL SKLGKRISAR NVQKRFAEWG IKQGLNSHVH
+     PHKLRHSFAT HMLESSGDLR GVQELLGHAN LSTTQIYTHL DFQHLASVYD AAHPRAKRGK
+//

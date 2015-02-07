@@ -1,0 +1,97 @@
+ID   HTRA4_BOVIN             Reviewed;         484 AA.
+AC   E1BJW1;
+DT   13-JUN-2012, integrated into UniProtKB/Swiss-Prot.
+DT   02-NOV-2010, sequence version 1.
+DT   07-JAN-2015, entry version 24.
+DE   RecName: Full=Serine protease HTR4;
+DE            EC=3.4.21.-;
+DE   AltName: Full=High-temperature requirement factor A4;
+DE   Flags: Precursor;
+GN   Name=HTRA4;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+OC   Pecora; Bovidae; Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hereford;
+RX   PubMed=19393038; DOI=10.1186/gb-2009-10-4-r42;
+RA   Zimin A.V., Delcher A.L., Florea L., Kelley D.R., Schatz M.C.,
+RA   Puiu D., Hanrahan F., Pertea G., Van Tassell C.P., Sonstegard T.S.,
+RA   Marcais G., Roberts M., Subramanian P., Yorke J.A., Salzberg S.L.;
+RT   "A whole-genome assembly of the domestic cow, Bos taurus.";
+RL   Genome Biol. 10:R42.01-R42.10(2009).
+CC   -!- FUNCTION: Serine protease. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 IGFBP N-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00653}.
+CC   -!- SIMILARITY: Contains 1 Kazal-like domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00798}.
+CC   -!- SIMILARITY: Contains 1 PDZ (DHR) domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; DAAA02060867; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   UniGene; Bt.17874; -.
+DR   ProteinModelPortal; E1BJW1; -.
+DR   Ensembl; ENSBTAT00000004564; ENSBTAP00000004564; ENSBTAG00000019532.
+DR   GeneTree; ENSGT00510000046315; -.
+DR   InParanoid; E1BJW1; -.
+DR   OMA; AEFHERQ; -.
+DR   OrthoDB; EOG7V1FR7; -.
+DR   TreeFam; TF323480; -.
+DR   Proteomes; UP000009136; Chromosome 27.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0001558; P:regulation of cell growth; IEA:InterPro.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR009030; Growth_fac_rcpt_N_dom.
+DR   InterPro; IPR000867; IGFBP-like.
+DR   InterPro; IPR002350; Kazal_dom.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF00219; IGFBP; 1.
+DR   Pfam; PF07648; Kazal_2; 1.
+DR   Pfam; PF13180; PDZ_2; 1.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00121; IB; 1.
+DR   SMART; SM00280; KAZAL; 1.
+DR   SMART; SM00228; PDZ; 1.
+DR   SUPFAM; SSF50156; SSF50156; 1.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   SUPFAM; SSF57184; SSF57184; 1.
+DR   PROSITE; PS51323; IGFBP_N_2; 1.
+DR   PROSITE; PS51465; KAZAL_2; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Protease; Reference proteome; Secreted;
+KW   Serine protease; Signal.
+FT   SIGNAL        1     28       {ECO:0000255}.
+FT   CHAIN        29    484       Serine protease HTR4.
+FT                                /FTId=PRO_0000417599.
+FT   DOMAIN       36    114       IGFBP N-terminal. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00653}.
+FT   DOMAIN      105    159       Kazal-like. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00798}.
+FT   DOMAIN      390    472       PDZ. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   REGION      209    369       Serine protease. {ECO:0000250}.
+FT   ACT_SITE    225    225       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    255    255       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    333    333       Charge relay system. {ECO:0000255}.
+SQ   SEQUENCE   484 AA;  51220 MW;  070870AB42A50BF4 CRC64;
+     MARPLQRPAG LGPFVLLWLL LPAPSGRGVQ AGRAWPVPRC PAACEPTRCP PLPRCSVGTA
+     PVLDRCGCCR VCAAAEGEAC GGPLGRPCAP GLQCLAPRAP RLLGGRPLGT CGCPAAGATV
+     CGSDGRTYRS LCALRAENRA ARLRGALPAV PVQKGDCGDP GTGSAGWLRN KFNFIASVVE
+     KVAPSVVHLQ LFRRDRSPLG SEDVPVSSAS GFIVSEDGLI VTNAHVLTNQ QRIQVELQSG
+     VQYEATVKDV DHKLDLALIK IEPNADLPVL LLGKSSDLRA GEFVVALGSP FSLQNTVTAG
+     IVSTTQRGGK ELGLKDSDMD YIQTDAIINH GNSGGPLVNL DGDVIGINTL KVTAGISFAI
+     PSDRIRQFLA EFHERQLKGK ALSQKKYLGL RMLPLTMNLL QEMKRQDPEF PDVASGVFVH
+     EVIQGTAAES SGLKDHDVIV SINGLPVTTT TDVIEAVKAN DSLSLLVRRK SQTLILTVTP
+     EIIN
+//

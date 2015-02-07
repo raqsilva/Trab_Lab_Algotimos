@@ -1,0 +1,106 @@
+ID   END3_BUCAP              Reviewed;         209 AA.
+AC   Q8KA16;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   07-JAN-2015, entry version 93.
+DE   RecName: Full=Endonuclease III {ECO:0000255|HAMAP-Rule:MF_00942};
+DE            EC=4.2.99.18 {ECO:0000255|HAMAP-Rule:MF_00942};
+DE   AltName: Full=DNA-(apurinic or apyrimidinic site) lyase {ECO:0000255|HAMAP-Rule:MF_00942};
+GN   Name=nth {ECO:0000255|HAMAP-Rule:MF_00942};
+GN   OrderedLocusNames=BUsg_111;
+OS   Buchnera aphidicola subsp. Schizaphis graminum (strain Sg).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=198804;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sg;
+RX   PubMed=12089438; DOI=10.1126/science.1071278;
+RA   Tamas I., Klasson L., Canbaeck B., Naeslund A.K., Eriksson A.-S.,
+RA   Wernegreen J.J., Sandstroem J.P., Moran N.A., Andersson S.G.E.;
+RT   "50 million years of genomic stasis in endosymbiotic bacteria.";
+RL   Science 296:2376-2379(2002).
+CC   -!- FUNCTION: DNA repair enzyme that has both DNA N-glycosylase
+CC       activity and AP-lyase activity. The DNA N-glycosylase activity
+CC       releases various damaged pyrimidines from DNA by cleaving the N-
+CC       glycosidic bond, leaving an AP (apurinic/apyrimidinic) site. The
+CC       AP-lyase activity cleaves the phosphodiester bond 3' to the AP
+CC       site by a beta-elimination, leaving a 3'-terminal unsaturated
+CC       sugar and a product with a terminal 5'-phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00942}.
+CC   -!- CATALYTIC ACTIVITY: The C-O-P bond 3' to the apurinic or
+CC       apyrimidinic site in DNA is broken by a beta-elimination reaction,
+CC       leaving a 3'-terminal unsaturated sugar and a product with a
+CC       terminal 5'-phosphate. {ECO:0000255|HAMAP-Rule:MF_00942}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00942};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_00942};
+CC   -!- SIMILARITY: Belongs to the Nth/MutY family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00942}.
+CC   -!- SIMILARITY: Contains 1 HhH domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00942}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE013218; AAM67680.1; -; Genomic_DNA.
+DR   RefSeq; NP_660469.1; NC_004061.1.
+DR   RefSeq; WP_011053646.1; NC_004061.1.
+DR   ProteinModelPortal; Q8KA16; -.
+DR   SMR; Q8KA16; 1-208.
+DR   STRING; 198804.BUsg111; -.
+DR   EnsemblBacteria; AAM67680; AAM67680; BUsg_111.
+DR   GeneID; 1005928; -.
+DR   KEGG; bas:BUsg111; -.
+DR   PATRIC; 21247003; VBIBucAph100086_0115.
+DR   eggNOG; COG0177; -.
+DR   KO; K10773; -.
+DR   OMA; NNKSKHL; -.
+DR   OrthoDB; EOG6H4KC5; -.
+DR   BioCyc; BAPH198804:GHMG-121-MONOMER; -.
+DR   Proteomes; UP000000416; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019104; F:DNA N-glycosylase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003906; F:DNA-(apurinic or apyrimidinic site) lyase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006284; P:base-excision repair; IEA:InterPro.
+DR   Gene3D; 1.10.1670.10; -; 1.
+DR   Gene3D; 1.10.340.30; -; 1.
+DR   HAMAP; MF_00942; Nth; 1.
+DR   InterPro; IPR011257; DNA_glycosylase.
+DR   InterPro; IPR004036; Endonuclease-III-like_CS2.
+DR   InterPro; IPR003265; HhH-GPD_domain.
+DR   InterPro; IPR000445; HhH_motif.
+DR   InterPro; IPR003583; Hlx-hairpin-Hlx_DNA-bd_motif.
+DR   InterPro; IPR023170; HTH_base_excis_C.
+DR   InterPro; IPR005759; Nth.
+DR   Pfam; PF00633; HHH; 1.
+DR   Pfam; PF00730; HhH-GPD; 1.
+DR   PIRSF; PIRSF001435; Nth; 1.
+DR   SMART; SM00478; ENDO3c; 1.
+DR   SMART; SM00278; HhH1; 1.
+DR   SUPFAM; SSF48150; SSF48150; 1.
+DR   TIGRFAMs; TIGR01083; nth; 1.
+DR   PROSITE; PS01155; ENDONUCLEASE_III_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; DNA damage; DNA repair; DNA-binding;
+KW   Glycosidase; Hydrolase; Iron; Iron-sulfur; Lyase; Metal-binding.
+FT   CHAIN         1    209       Endonuclease III.
+FT                                /FTId=PRO_0000102215.
+FT   DOMAIN      108    127       HhH. {ECO:0000255|HAMAP-Rule:MF_00942}.
+FT   METAL       187    187       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00942}.
+FT   METAL       194    194       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00942}.
+FT   METAL       197    197       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00942}.
+FT   METAL       203    203       Iron-sulfur (4Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00942}.
+SQ   SEQUENCE   209 AA;  24074 MW;  8C2E141DA3FD1FCB CRC64;
+     MNKKKRFEIL SLFYKKNSNP KIELVFSSDF ELLLSVILSA KSTDVMVNKI TGTLFQIANT
+     PQSILKLGFN KLRHYIKSIG LYNTKSLNII NSAYLIKTKY NNKVPSNRTE LESLPGVGRK
+     TANIILNVLF NKNTIAVDTH VFRVANRTGF AKGKNVIEVE KKMIKIVPSI FKKYVHFWFV
+     LHGRYVCTAR QLKCKTCFIE KLCEFDKKK
+//

@@ -1,0 +1,88 @@
+ID   RHAS_SALDC              Reviewed;         278 AA.
+AC   B5FPP5;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   14-OCT-2008, sequence version 1.
+DT   04-FEB-2015, entry version 59.
+DE   RecName: Full=HTH-type transcriptional activator RhaS {ECO:0000255|HAMAP-Rule:MF_01534};
+DE   AltName: Full=L-rhamnose operon regulatory protein RhaS {ECO:0000255|HAMAP-Rule:MF_01534};
+GN   Name=rhaS {ECO:0000255|HAMAP-Rule:MF_01534};
+GN   OrderedLocusNames=SeD_A4443;
+OS   Salmonella dublin (strain CT_02021853).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=439851;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT_02021853;
+RX   PubMed=21602358; DOI=10.1128/JB.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- FUNCTION: Activates expression of the rhaBAD and rhaT operons.
+CC       {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SUBUNIT: Binds DNA as a dimer. {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SIMILARITY: Contains 2 HTH araC/xylS-type DNA-binding domains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001144; ACH76441.1; -; Genomic_DNA.
+DR   RefSeq; WP_000217106.1; NC_011205.1.
+DR   RefSeq; YP_002217972.1; NC_011205.1.
+DR   STRING; 439851.SeD_A4443; -.
+DR   EnsemblBacteria; ACH76441; ACH76441; SeD_A4443.
+DR   PATRIC; 18496942; VBISalEnt111443_4358.
+DR   eggNOG; COG2207; -.
+DR   HOGENOM; HOG000290513; -.
+DR   OMA; NITENER; -.
+DR   OrthoDB; EOG66XBBN; -.
+DR   BioCyc; SENT439851:GH2Z-4390-MONOMER; -.
+DR   Proteomes; UP000008322; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0045893; P:positive regulation of transcription, DNA-templated; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019299; P:rhamnose metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.60; -; 2.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   HAMAP; MF_01534; HTH_type_RhaS; 1.
+DR   InterPro; IPR003313; AraC-bd.
+DR   InterPro; IPR009057; Homeodomain-like.
+DR   InterPro; IPR018060; HTH_AraC.
+DR   InterPro; IPR018062; HTH_AraC-typ_CS.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR020449; Tscrpt_reg_HTH_AraC-type.
+DR   InterPro; IPR023609; Tscrpt_reg_HTH_RhaS.
+DR   Pfam; PF02311; AraC_binding; 1.
+DR   Pfam; PF12833; HTH_18; 1.
+DR   PRINTS; PR00032; HTHARAC.
+DR   SMART; SM00342; HTH_ARAC; 1.
+DR   SUPFAM; SSF46689; SSF46689; 2.
+DR   SUPFAM; SSF51215; SSF51215; 1.
+DR   PROSITE; PS00041; HTH_ARAC_FAMILY_1; 1.
+DR   PROSITE; PS01124; HTH_ARAC_FAMILY_2; 1.
+PE   3: Inferred from homology;
+KW   Activator; Complete proteome; Cytoplasm; DNA-binding; Repeat;
+KW   Rhamnose metabolism; Transcription; Transcription regulation.
+FT   CHAIN         1    278       HTH-type transcriptional activator RhaS.
+FT                                /FTId=PRO_1000200959.
+FT   DNA_BIND    190    209       H-T-H motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01534}.
+FT   DNA_BIND    239    262       H-T-H motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01534}.
+FT   SITE        241    241       Interaction with sigma-70.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01534}.
+FT   SITE        250    250       Interaction with sigma-70.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01534}.
+SQ   SEQUENCE   278 AA;  32121 MW;  555598145B4CFB6F CRC64;
+     MTVLHSVDFF PSGKAPVAIE PRLPQAAFPE HHHDFHEIVI VEHCTGIHVF NGQPYTISGG
+     TVCFVRDHDR HLYEHTDNLC LTNVLWRSPD AFQFLAGLEQ LLPQEQDGYY PSHWRVNQSA
+     LQQVRQLVGL MERAGDGMDA PAVANREILF MQLLVLLRRS SLMEGATNND AKLNQLMAWL
+     EDHFAEEVCW EAVAEQFSLS LRTLHRQLKQ HTGLTPQRYL NRLRLIKARH LLRHSDHSVT
+     EIAYRCGFGD SNHFSTLFRR EFNWSPRDIR QGRDAIIQ
+//

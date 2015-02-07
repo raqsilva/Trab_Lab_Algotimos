@@ -1,0 +1,135 @@
+ID   RCSC_ECOLX              Reviewed;         949 AA.
+AC   P0DMC6; P14376; P76457; P97170; P97202; Q47586;
+DT   19-FEB-2014, integrated into UniProtKB/Swiss-Prot.
+DT   19-FEB-2014, sequence version 1.
+DT   07-JAN-2015, entry version 8.
+DE   RecName: Full=Sensor histidine kinase RcsC {ECO:0000255|HAMAP-Rule:MF_00979};
+DE            EC=2.7.13.3 {ECO:0000255|HAMAP-Rule:MF_00979};
+GN   Name=rcsC {ECO:0000255|HAMAP-Rule:MF_00979};
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION IN CAPSULAR
+RP   POLYSACCHARIDE SYNTHESIS.
+RC   STRAIN=O9:K30:H12;
+RX   PubMed=8366025;
+RA   Jayaratne P., Keenleyside W.J., Maclachlan P.R., Dodgson C.,
+RA   Whitfield C.;
+RT   "Characterization of rcsB and rcsC from Escherichia coli O9:K30:H12
+RT   and examination of the role of the rcs regulatory system in expression
+RT   of group I capsular polysaccharides.";
+RL   J. Bacteriol. 175:5384-5394(1993).
+CC   -!- FUNCTION: Component of the Rcs signaling system, which controls
+CC       transcription of numerous genes. RcsC functions as a membrane-
+CC       associated protein kinase that phosphorylates RcsD in response to
+CC       environmental signals. The phosphoryl group is then transferred to
+CC       the response regulator RcsB (By similarity). Involved in
+CC       regulation of K30 capsular polysaccharide synthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00979, ECO:0000269|PubMed:8366025}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine. {ECO:0000255|HAMAP-Rule:MF_00979}.
+CC   -!- SUBUNIT: Interacts with RcsD. {ECO:0000255|HAMAP-Rule:MF_00979}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00979}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00979}.
+CC   -!- PTM: Autophosphorylated. Activation probably requires a transfer
+CC       of a phosphate group from a His in the transmitter domain to an
+CC       Asp in the receiver domain. {ECO:0000255|HAMAP-Rule:MF_00979}.
+CC   -!- SIMILARITY: Belongs to the RcsC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00979}.
+CC   -!- SIMILARITY: Contains 1 ABL domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00979}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00979}.
+CC   -!- SIMILARITY: Contains 1 PAS (PER-ARNT-SIM) domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00979}.
+CC   -!- SIMILARITY: Contains 1 response regulatory domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00979}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA24505.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L11272; AAA24505.1; ALT_INIT; Genomic_DNA.
+DR   PIR; H64991; BVECCC.
+DR   MINT; MINT-1267658; -.
+DR   eggNOG; COG0642; -.
+DR   HOGENOM; HOG000122300; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BRENDA; 2.7.13.3; 2026.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   HAMAP; MF_00979; RcsC; 1.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR019017; Sig_transdc_His_kin_a/b-loop_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   Pfam; PF09456; RcsC; 1.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF52172; SSF52172; 2.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS51426; ABL; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Transferase; Transmembrane;
+KW   Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    949       Sensor histidine kinase RcsC.
+FT                                /FTId=PRO_0000425316.
+FT   TOPO_DOM      1     19       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     20     41       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00979}.
+FT   TOPO_DOM     42    313       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    314    335       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00979}.
+FT   TOPO_DOM    336    949       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN      357    425       PAS. {ECO:0000255|HAMAP-Rule:MF_00979}.
+FT   DOMAIN      476    692       Histidine kinase. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00979}.
+FT   DOMAIN      705    805       ABL. {ECO:0000255|HAMAP-Rule:MF_00979}.
+FT   DOMAIN      826    940       Response regulatory. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00979}.
+FT   MOD_RES     479    479       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00979}.
+FT   MOD_RES     875    875       4-aspartylphosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00979}.
+SQ   SEQUENCE   949 AA;  106364 MW;  556D7C967969CD69 CRC64;
+     MKYLASFRTT LKASRYMFRA LALVLWLLIA FSSVFYIVNA LHQRESEIRQ EFNLSSDQAQ
+     RFIQRTSDVM KELKYIAENR LSAENGVLSP RGRETQADVP AFEPLFADSD CSAMSNTWRG
+     SLESLAWFIG YWRDNFSAAY DLNRVFLIGS DNLCMANFGL RDMPVERDTA LKALHERINK
+     YRNAPQDDSG SNLYWISEGP RPGVGYFYAL TPVYLANRLQ ALLGVEQTIR MENFFLPGTL
+     PMGVTILDEN GHTLISLTGP ESKIKGDPRW MQERSWFGYT EGFRELVLKK NLPPSSLSIV
+     YSVPVDKVLE RIRMVILNAI LLNVLAGAAL FTLARMYERR IFIPAESDAL RLEEHEQFNR
+     KIVASAPVGI CILRTADGVN ILSNELAHTY LNMLTHEDRQ RLTQIICGQQ VNFVDVLTSN
+     NTNLQISFVH SRYRNENVAI CVLVDVSSRV KMEESLQEMA QAAEQASQSK SMFLATVSHE
+     LRTPLYGIIG NLDLLQTKEL PKGVDRLVTA MNNSSSLLLK IISDILDFSK IESEQLKIEP
+     REFSPREVMN HITANYLPLV VRKQLGLYCF IEPDVPVALN GDPMRLQQVI SNLLSNAIKF
+     TDTGCIVLHV RADGDYLSIR VRDTGVGIPA KEVVRLFDPF FQVGTGVQRN FQGTGLGLAI
+     CEKLISMMDG DISVDSEPGM GSQFTVRIPL YGAQYPQKKG VEGLSGKRCW LAVRNASLCQ
+     FLETSLQRSG IVVTTYEGQE PTPEDVLITD EVVSKKWQGR AVVTFCRRHI GIPLEEAPGE
+     WVHSVAAPHE LPALLARIYL IEMESDDPAN ALPSTDKAVS DNDDMMILVV DDHPINRRLL
+     ADQLGSLGYQ CKTANDGVDA LNVLSKNHID IVLSDVNMPN MDGYRLTQRT RQLGLTLPVI
+     GVTANALAEE KQRCLESGMD SCLSKPVTLD VIKQTLTVYA ERVRKSRES
+//

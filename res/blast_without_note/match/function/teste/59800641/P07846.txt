@@ -1,0 +1,157 @@
+ID   DHSO_SHEEP              Reviewed;         354 AA.
+AC   P07846;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1988, sequence version 1.
+DT   07-JAN-2015, entry version 108.
+DE   RecName: Full=Sorbitol dehydrogenase;
+DE            EC=1.1.1.14;
+DE   AltName: Full=L-iditol 2-dehydrogenase;
+GN   Name=SORD;
+OS   Ovis aries (Sheep).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+OC   Pecora; Bovidae; Caprinae; Ovis.
+OX   NCBI_TaxID=9940;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Liver;
+RX   PubMed=6705798; DOI=10.1111/j.1432-1033.1984.tb08059.x;
+RA   Jeffery J., Cederlund E., Joernvall H.;
+RT   "Sorbitol dehydrogenase. The primary structure of the sheep-liver
+RT   enzyme.";
+RL   Eur. J. Biochem. 140:7-16(1984).
+RN   [2]
+RP   SIMILARITY TO ZINC ALCOHOL DEHYDROGENASES.
+RX   PubMed=6368230; DOI=10.1111/j.1432-1033.1984.tb08061.x;
+RA   Joernvall H., von Bahr-Lindstroem H., Jeffery J.;
+RT   "Extensive variations and basic features in the alcohol dehydrogenase-
+RT   sorbitol dehydrogenase family.";
+RL   Eur. J. Biochem. 140:17-23(1984).
+RN   [3]
+RP   3D-STRUCTURE MODELING.
+RX   PubMed=2936393; DOI=10.1021/bi00348a025;
+RA   Eklund H., Horjales E., Joernvall H., Branden C.I., Jeffery J.;
+RT   "Molecular aspects of functional differences between alcohol and
+RT   sorbitol dehydrogenases.";
+RL   Biochemistry 24:8005-8012(1985).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) IN COMPLEX WITH SUBSTRATE
+RP   ANALOG, SUBUNIT, ZINC-BINDING SITES, SUBSTRATE-BINDING SITES, AND
+RP   ENZYME MECHANISM.
+RX   PubMed=21543846; DOI=10.1107/S0907444911007815;
+RA   Yennawar H., Moller M., Gillilan R., Yennawar N.;
+RT   "X-ray crystal structure and small-angle X-ray scattering of sheep
+RT   liver sorbitol dehydrogenase.";
+RL   Acta Crystallogr. D 67:440-446(2011).
+CC   -!- FUNCTION: Converts sorbitol to fructose. Part of the polyol
+CC       pathway that plays an important role in sperm physiology. May play
+CC       a role in the sperm motility by providing an energetic source for
+CC       sperm. {ECO:0000250|UniProtKB:Q64442}.
+CC   -!- CATALYTIC ACTIVITY: L-iditol + NAD(+) = L-sorbose + NADH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:21543846};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:21543846};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:21543846}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion membrane
+CC       {ECO:0000250|UniProtKB:Q64442}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q64442}. Cell projection, cilium, flagellum
+CC       {ECO:0000250|UniProtKB:Q64442}. Note=Associated with mitochondria
+CC       of the midpiece and near the plasma membrane in the principal
+CC       piece of the flagellum. Also found in the epididymosome, secreted
+CC       by the epididymal epithelium and that transfers proteins from the
+CC       epididymal fluid to the sperm surface.
+CC       {ECO:0000250|UniProtKB:Q64442}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   PIR; S10065; S10065.
+DR   PDB; 1SDG; Model; -; A=1-347.
+DR   PDB; 3QE3; X-ray; 1.90 A; A=1-354.
+DR   PDBsum; 1SDG; -.
+DR   PDBsum; 3QE3; -.
+DR   ProteinModelPortal; P07846; -.
+DR   SMR; P07846; 1-354.
+DR   ChEMBL; CHEMBL1075154; -.
+DR   HOVERGEN; HBG005484; -.
+DR   SABIO-RK; P07846; -.
+DR   EvolutionaryTrace; P07846; -.
+DR   Proteomes; UP000002356; Unplaced.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031514; C:motile cilium; ISS:UniProtKB.
+DR   GO; GO:0003939; F:L-iditol 2-dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0030317; P:sperm motility; ISS:UniProtKB.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Cell projection; Cilium; Complete proteome;
+KW   Direct protein sequencing; Flagellum; Membrane; Metal-binding;
+KW   Mitochondrion; NAD; Oxidoreductase; Reference proteome; Zinc.
+FT   CHAIN         1    354       Sorbitol dehydrogenase.
+FT                                /FTId=PRO_0000160819.
+FT   METAL        43     43       Zinc; catalytic.
+FT                                {ECO:0000269|PubMed:21543846}.
+FT   METAL        67     67       Zinc; catalytic.
+FT                                {ECO:0000269|PubMed:21543846}.
+FT   METAL        68     68       Zinc; catalytic.
+FT                                {ECO:0000269|PubMed:21543846}.
+FT   BINDING      49     49       Substrate. {ECO:0000269|PubMed:21543846}.
+FT   BINDING     153    153       Substrate. {ECO:0000269|PubMed:21543846}.
+FT   BINDING     296    296       Substrate. {ECO:0000269|PubMed:21543846}.
+FT   BINDING     297    297       Substrate. {ECO:0000269|PubMed:21543846}.
+FT   MOD_RES       1      1       N-acetylalanine.
+FT                                {ECO:0000250|UniProtKB:Q00796}.
+FT   STRAND        8     14       {ECO:0000244|PDB:3QE3}.
+FT   STRAND       17     22       {ECO:0000244|PDB:3QE3}.
+FT   STRAND       32     42       {ECO:0000244|PDB:3QE3}.
+FT   HELIX        44     51       {ECO:0000244|PDB:3QE3}.
+FT   STRAND       52     54       {ECO:0000244|PDB:3QE3}.
+FT   STRAND       68     76       {ECO:0000244|PDB:3QE3}.
+FT   STRAND       88     91       {ECO:0000244|PDB:3QE3}.
+FT   STRAND       93     95       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       101    104       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       108    110       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      127    133       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       134    136       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      137    139       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       146    165       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      172    176       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       180    191       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      195    202       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       204    213       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      216    220       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       226    237       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      242    246       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       251    260       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      266    269       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       281    286       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      290    293       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       301    309       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       316    318       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      319    324       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       325    327       {ECO:0000244|PDB:3QE3}.
+FT   HELIX       328    337       {ECO:0000244|PDB:3QE3}.
+FT   STRAND      339    346       {ECO:0000244|PDB:3QE3}.
+SQ   SEQUENCE   354 AA;  37831 MW;  D5FE56BC06F87389 CRC64;
+     AKPAAENLSL VVHGPGDLRL ENYPIPEPGP NEVLLKMHSV GICGSDVHYW QGRIGDFVVK
+     KPMVLGHEAS GTVVKVGSLV RHLQPGDRVA IQPGAPRQTD EFCKIGRYNL SPTIFFCATP
+     PDDGNLCRFY KHNANFCYKL PDNVTFEEGA LIEPLSVGIH ACRRAGVTLG NKVLVCGAGP
+     IGLVNLLAAK AMGAAQVVVT DLSASRLSKA KEVGADFILE ISNESPEEIA KKVEGLLGSK
+     PEVTIECTGV ETSIQAGIYA THSGGTLVLV GLGSEMTSVP LVHAATREVD IKGVFRYCNT
+     WPMAISMLAS KSVNVKPLVT HRFPLEKALE AFETSKKGLG LKVMIKCDPS DQNP
+//

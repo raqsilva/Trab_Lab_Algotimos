@@ -1,0 +1,87 @@
+ID   TADA_BUCBP              Reviewed;         162 AA.
+AC   Q89AM8;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=tRNA-specific adenosine deaminase {ECO:0000255|HAMAP-Rule:MF_00972};
+DE            EC=3.5.4.33 {ECO:0000255|HAMAP-Rule:MF_00972};
+GN   Name=tadA {ECO:0000255|HAMAP-Rule:MF_00972};
+GN   OrderedLocusNames=bbp_236;
+OS   Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=224915;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bp;
+RX   PubMed=12522265; DOI=10.1073/pnas.0235981100;
+RA   van Ham R.C.H.J., Kamerbeek J., Palacios C., Rausell C., Abascal F.,
+RA   Bastolla U., Fernandez J.M., Jimenez L., Postigo M., Silva F.J.,
+RA   Tamames J., Viguera E., Latorre A., Valencia A., Moran F., Moya A.;
+RT   "Reductive genome evolution in Buchnera aphidicola.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:581-586(2003).
+CC   -!- FUNCTION: Catalyzes the deamination of adenosine to inosine at the
+CC       wobble position 34 of tRNA(Arg2). {ECO:0000255|HAMAP-
+CC       Rule:MF_00972}.
+CC   -!- CATALYTIC ACTIVITY: Adenine(34) in tRNA + H(2)O = hypoxanthine(34)
+CC       in tRNA + NH(3). {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00972};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00972};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -!- SIMILARITY: Belongs to the cytidine and deoxycytidylate deaminase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -!- SIMILARITY: Contains 1 CMP/dCMP deaminase zinc-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00972}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016826; AAO26963.1; -; Genomic_DNA.
+DR   RefSeq; NP_777858.1; NC_004545.1.
+DR   RefSeq; WP_011091364.1; NC_004545.1.
+DR   ProteinModelPortal; Q89AM8; -.
+DR   STRING; 224915.bbp236; -.
+DR   EnsemblBacteria; AAO26963; AAO26963; bbp_236.
+DR   GeneID; 1058245; -.
+DR   KEGG; bab:bbp236; -.
+DR   PATRIC; 21245253; VBIBucAph80364_0229.
+DR   eggNOG; COG0590; -.
+DR   KO; K11991; -.
+DR   OMA; MLANIAD; -.
+DR   OrthoDB; EOG64FKGZ; -.
+DR   BioCyc; BAPH224915:GJ9D-236-MONOMER; -.
+DR   Proteomes; UP000000601; Chromosome.
+DR   GO; GO:0052717; F:tRNA-specific adenosine-34 deaminase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0002100; P:tRNA wobble adenosine to inosine editing; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00972; tRNA_aden_deaminase; 1.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR028883; tRNA_aden_deaminase.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Metal-binding; Reference proteome;
+KW   tRNA processing; Zinc.
+FT   CHAIN         1    162       tRNA-specific adenosine deaminase.
+FT                                /FTId=PRO_0000171731.
+FT   DOMAIN        4    102       CMP/dCMP deaminase zinc-binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00972}.
+FT   ACT_SITE     56     56       Proton donor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00972}.
+FT   METAL        54     54       Zinc; via pros nitrogen; catalytic.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00972}.
+FT   METAL        84     84       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00972}.
+FT   METAL        87     87       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00972}.
+SQ   SEQUENCE   162 AA;  18616 MW;  BF267A0F062B1BD1 CRC64;
+     MHDSDKYFMK CAIFLAKISE MIGEVPVGAV LVFNNTIIGK GLNSSILNHD PTAHAEIKAL
+     RNGAKFLKNY RLLHTTLYVT LEPCIMCYGA IIHSRISRLV FGAKYKNLQK YICCKNHFFI
+     NKNFRKISIT QEVLESECSN LLSSFFKRKR KIATKYFNNN II
+//

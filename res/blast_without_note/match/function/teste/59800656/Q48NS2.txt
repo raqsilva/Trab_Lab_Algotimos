@@ -1,0 +1,102 @@
+ID   GPH_PSE14               Reviewed;         272 AA.
+AC   Q48NS2;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2006, sequence version 2.
+DT   07-JAN-2015, entry version 64.
+DE   RecName: Full=Phosphoglycolate phosphatase {ECO:0000255|HAMAP-Rule:MF_00495};
+DE            Short=PGP {ECO:0000255|HAMAP-Rule:MF_00495};
+DE            Short=PGPase {ECO:0000255|HAMAP-Rule:MF_00495};
+DE            EC=3.1.3.18 {ECO:0000255|HAMAP-Rule:MF_00495};
+GN   OrderedLocusNames=PSPPH_0648;
+OS   Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=264730;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=1448A / Race 6;
+RX   PubMed=16159782; DOI=10.1128/JB.187.18.6488-6498.2005;
+RA   Joardar V., Lindeberg M., Jackson R.W., Selengut J., Dodson R.,
+RA   Brinkac L.M., Daugherty S.C., DeBoy R.T., Durkin A.S.,
+RA   Gwinn Giglio M., Madupu R., Nelson W.C., Rosovitz M.J., Sullivan S.A.,
+RA   Crabtree J., Creasy T., Davidsen T.M., Haft D.H., Zafar N., Zhou L.,
+RA   Halpin R., Holley T., Khouri H.M., Feldblyum T.V., White O.,
+RA   Fraser C.M., Chatterjee A.K., Cartinhour S., Schneider D.,
+RA   Mansfield J.W., Collmer A., Buell R.;
+RT   "Whole-genome sequence analysis of Pseudomonas syringae pv.
+RT   phaseolicola 1448A reveals divergence among pathovars in genes
+RT   involved in virulence and transposition.";
+RL   J. Bacteriol. 187:6488-6498(2005).
+CC   -!- FUNCTION: Specifically catalyzes the dephosphorylation of 2-
+CC       phosphoglycolate. Is involved in the dissimilation of the
+CC       intracellular 2-phosphoglycolate formed during the DNA repair of
+CC       3'-phosphoglycolate ends, a major class of DNA lesions induced by
+CC       oxidative stress. {ECO:0000255|HAMAP-Rule:MF_00495}.
+CC   -!- CATALYTIC ACTIVITY: 2-phosphoglycolate + H(2)O = glycolate +
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00495}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00495};
+CC   -!- PATHWAY: Organic acid metabolism; glycolate biosynthesis;
+CC       glycolate from 2-phosphoglycolate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00495}.
+CC   -!- SIMILARITY: Belongs to the HAD-like hydrolase superfamily.
+CC       CbbY/CbbZ/Gph/YieH family. {ECO:0000255|HAMAP-Rule:MF_00495}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAZ36472.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000058; AAZ36472.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_272947.1; NC_005773.3.
+DR   ProteinModelPortal; Q48NS2; -.
+DR   STRING; 264730.PSPPH_0648; -.
+DR   EnsemblBacteria; AAZ36472; AAZ36472; PSPPH_0648.
+DR   GeneID; 3559092; -.
+DR   KEGG; psp:PSPPH_0648; -.
+DR   PATRIC; 19970353; VBIPseSyr78478_0699.
+DR   eggNOG; COG0546; -.
+DR   HOGENOM; HOG000248344; -.
+DR   KO; K01091; -.
+DR   OrthoDB; EOG6HB9PJ; -.
+DR   BioCyc; PSAV264730:GKDE-649-MONOMER; -.
+DR   UniPathway; UPA00865; UER00834.
+DR   Proteomes; UP000000551; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008967; F:phosphoglycolate phosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046295; P:glycolate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.150.240; -; 1.
+DR   Gene3D; 3.40.50.1000; -; 2.
+DR   HAMAP; MF_00495; GPH_hydrolase_bact; 1.
+DR   InterPro; IPR023214; HAD-like_dom.
+DR   InterPro; IPR006439; HAD-SF_hydro_IA.
+DR   InterPro; IPR006346; PGP_bact.
+DR   InterPro; IPR023198; PGP_dom2.
+DR   Pfam; PF13419; HAD_2; 1.
+DR   PRINTS; PR00413; HADHALOGNASE.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR01549; HAD-SF-IA-v1; 1.
+DR   TIGRFAMs; TIGR01509; HAD-SF-IA-v3; 1.
+DR   TIGRFAMs; TIGR01449; PGP_bact; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Complete proteome; Hydrolase; Magnesium;
+KW   Metal-binding.
+FT   CHAIN         1    272       Phosphoglycolate phosphatase.
+FT                                /FTId=PRO_0000238169.
+FT   ACT_SITE     19     19       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+FT   METAL        19     19       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+FT   METAL        21     21       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+FT   METAL       182    182       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00495}.
+SQ   SEQUENCE   272 AA;  30016 MW;  FF9B6D48686571FF CRC64;
+     MSGFEQLFAG KLPKLVMFDL DGTLVDSVPD LAVAVDTMLA ELGRPIAGLE SVRAWVGNGA
+     PVLVRRALAN HLDHSGVDDE LAEQGLEIFM RAYAQKHEFT VVYPGVRETL KWLQKMGVEM
+     ALITNKPERF VAPLLDEMKL GRFFRWIIGG DTMPQKKPDP AALFFVMKMA GVPASQALFV
+     GDSRSDVQAA KAAGVACVAL SYGYNHGRPI AEENPAMVID DLRKLIPGCL DMDAEILLPD
+     INSPSSRESI VVVTRKLWMK VIKALARWRW RA
+//

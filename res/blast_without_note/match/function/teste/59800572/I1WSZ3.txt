@@ -1,0 +1,106 @@
+ID   IRLS_BURP2              Reviewed;         464 AA.
+AC   I1WSZ3; O31396; Q63LH6;
+DT   09-JUL-2014, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUL-2012, sequence version 1.
+DT   07-JAN-2015, entry version 20.
+DE   RecName: Full=Sensor protein IrlS;
+DE            EC=2.7.13.3;
+GN   Name=irlS; OrderedLocusNames=BP1026B_II1138;
+OS   Burkholderia pseudomallei (strain 1026b).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=884204;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=1026b;
+RX   PubMed=9393784;
+RA   Jones A.L., Deshazer D., Woods D.E.;
+RT   "Identification and characterization of a two-component regulatory
+RT   system involved in invasion of eukaryotic cells and heavy-metal
+RT   resistance in Burkholderia pseudomallei.";
+RL   Infect. Immun. 65:4972-4977(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=1026b;
+RX   PubMed=22615773; DOI=10.1371/journal.pone.0036507;
+RA   Hayden H.S., Lim R., Brittnacher M.J., Sims E.H., Ramage E.R.,
+RA   Fong C., Wu Z., Crist E., Chang J., Zhou Y., Radey M., Rohmer L.,
+RA   Haugen E., Gillett W., Wuthiekanun V., Peacock S.J., Kaul R.,
+RA   Miller S.I., Manoil C., Jacobs M.A.;
+RT   "Evolution of Burkholderia pseudomallei in recurrent melioidosis.";
+RL   PLoS ONE 7:E36507-E36507(2012).
+CC   -!- FUNCTION: Member of the two-component regulatory system IrlR/IrlS.
+CC       May be involved in invasion of eukaryotic cells and heavy-metal
+CC       resistance. Probably activates IrlR by phosphorylation.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Multi-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF005358; AAB92483.1; -; Genomic_DNA.
+DR   EMBL; CP002834; AFI69387.1; -; Genomic_DNA.
+DR   RefSeq; YP_006277785.1; NC_017832.1.
+DR   ProteinModelPortal; I1WSZ3; -.
+DR   EnsemblBacteria; AFI69387; AFI69387; BP1026B_II1138.
+DR   GeneID; 12832162; -.
+DR   KEGG; bpz:BP1026B_II1138; -.
+DR   KO; K07644; -.
+DR   BioCyc; BPSE884204:GLA4-4862-MONOMER; -.
+DR   Proteomes; UP000010087; Chromosome 2.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR006290; CztS_silS_copS.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   TIGRFAMs; TIGR01386; cztS_silS_copS; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cadmium; Cell inner membrane; Cell membrane;
+KW   Complete proteome; Kinase; Membrane; Nucleotide-binding;
+KW   Phosphoprotein; Transferase; Transmembrane; Transmembrane helix;
+KW   Two-component regulatory system; Zinc.
+FT   CHAIN         1    464       Sensor protein IrlS.
+FT                                /FTId=PRO_0000429789.
+FT   TRANSMEM     14     34       Helical. {ECO:0000255}.
+FT   TRANSMEM    168    188       Helical. {ECO:0000255}.
+FT   DOMAIN      188    241       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      249    463       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     252    252       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   464 AA;  50653 MW;  C4FE275489AEDCBD CRC64;
+     MIRRLLPRTL RARLTALIIL STAATLALSG VALYSALHNR LVGMSSYEMS ATLAAMRTHL
+     ANVANVDDIP RKSDLWIDQL HGHQNLDLAI YDTDGRLRFA TRGFVAPRPA LGAPQTRVPA
+     SAAPAGATFS YLADDAPLRG GNPRTARIVV QYDGKNDHAL LRAYAYTVVV IEVLAVVLTA
+     ALAYGIAMLG LSPLRRLVAR AEQMSSSRLA QPLPELDTSG ELKEMEHAFN AMLKRLDESF
+     VRLSQFSSNL AHDMRTPLTN LLAEAQVALS KPRTADEYRD VIESSIDEYQ RLSRMIEDML
+     FLARSDNAQS HLAIRTLDAA AQAERVAGYY EPMAEDAEVS IVVRGKAEVR ADALLYHRAL
+     SNLISNALNH APRGSTITIE CAQAADAATI SVSDTGRGIE APHRERIFER FYRVDPARHN
+     SASGTGLGLA IVRSIMENHG GTCGVDSEPH VRTTFWLKFP AHAA
+//

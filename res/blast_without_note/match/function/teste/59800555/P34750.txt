@@ -1,0 +1,112 @@
+ID   PILQ_PSEAE              Reviewed;         714 AA.
+AC   P34750;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   08-DEC-2000, sequence version 2.
+DT   07-JAN-2015, entry version 104.
+DE   RecName: Full=Fimbrial assembly protein PilQ;
+DE   Flags: Precursor;
+GN   Name=pilQ; OrderedLocusNames=PA5040;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG
+OS   12228).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 25102 / PAK;
+RX   PubMed=7901733; DOI=10.1111/j.1365-2958.1993.tb01744.x;
+RA   Martin P.R., Hobbs M., Free P.D., Jeske Y., Mattick J.S.;
+RT   "Characterization of pilQ, a new gene required for the biogenesis of
+RT   type 4 fimbriae in Pseudomonas aeruginosa.";
+RL   Mol. Microbiol. 9:857-868(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T.,
+RA   Reizer J., Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an
+RT   opportunistic pathogen.";
+RL   Nature 406:959-964(2000).
+CC   -!- FUNCTION: Essential for the formation of pili. Involved in the
+CC       biogenesis of type 4 fimbriae probably by serving as a "porthole"
+CC       allowing passage of the fimbrae through the outer membrane.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the GSP D family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA16704.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L13865; AAA16704.1; ALT_INIT; Unassigned_DNA.
+DR   EMBL; AE004091; AAG08425.1; -; Genomic_DNA.
+DR   PIR; A83016; A83016.
+DR   PIR; S37345; S37345.
+DR   RefSeq; NP_253727.1; NC_002516.2.
+DR   ProteinModelPortal; P34750; -.
+DR   SMR; P34750; 165-450.
+DR   STRING; 208964.PA5040; -.
+DR   TCDB; 1.B.22.2.1; the outer bacterial membrane secretin (secretin) family.
+DR   EnsemblBacteria; AAG08425; AAG08425; PA5040.
+DR   GeneID; 880962; -.
+DR   KEGG; pae:PA5040; -.
+DR   PATRIC; 19844911; VBIPseAer58763_5284.
+DR   PseudoCAP; PA5040; -.
+DR   eggNOG; COG4796; -.
+DR   HOGENOM; HOG000255072; -.
+DR   InParanoid; P34750; -.
+DR   KO; K02666; -.
+DR   OMA; DIQEQGG; -.
+DR   OrthoDB; EOG6423BN; -.
+DR   PhylomeDB; P34750; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   GO; GO:0043683; P:type IV pilus biogenesis; IMP:PseudoCAP.
+DR   InterPro; IPR021731; AMIN_dom.
+DR   InterPro; IPR001775; GspD/PilQ.
+DR   InterPro; IPR005644; NolW-like.
+DR   InterPro; IPR013355; Pilus_4_PilQ.
+DR   InterPro; IPR011662; Secretin/TonB_short_N.
+DR   InterPro; IPR004846; T2SS/T3SS.
+DR   InterPro; IPR004845; T2SS_GspD_CS.
+DR   Pfam; PF11741; AMIN; 1.
+DR   Pfam; PF00263; Secretin; 1.
+DR   Pfam; PF03958; Secretin_N; 1.
+DR   Pfam; PF07660; STN; 1.
+DR   PRINTS; PR00811; BCTERIALGSPD.
+DR   SMART; SM00965; STN; 1.
+DR   TIGRFAMs; TIGR02515; IV_pilus_PilQ; 1.
+DR   PROSITE; PS00875; T2SP_D; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Complete proteome; Fimbrium biogenesis; Membrane;
+KW   Protein transport; Reference proteome; Signal; Transport.
+FT   SIGNAL        1     24       {ECO:0000255}.
+FT   CHAIN        25    714       Fimbrial assembly protein PilQ.
+FT                                /FTId=PRO_0000013119.
+FT   CONFLICT    391    391       D -> E (in Ref. 1; AAA16704).
+FT                                {ECO:0000305}.
+FT   CONFLICT    411    411       G -> A (in Ref. 1; AAA16704).
+FT                                {ECO:0000305}.
+FT   CONFLICT    547    558       LSAMEKTGNGEI -> PVGDGKDRQRRV (in Ref. 1;
+FT                                AAA16704). {ECO:0000305}.
+SQ   SEQUENCE   714 AA;  77379 MW;  9A748EE8286FBAB5 CRC64;
+     MNSGLSRLGI ALLAAMFAPA LLAADLEKLD VAALPGDRVE LKLQFDEPVA APRGYTIEQP
+     ARIALDLPGV QNKLGTKNRE LSVGNTRSVT VVEAKDRTRL IINLTALSSY TTRVEGNNLF
+     VVVGNSPAGA SVASAAPVKA SPAPASYAQP IKPKPYVPAG RAIRNIDFQR GEKGEGNVVI
+     DLSDPTLSPD IQEQGGKIRL DFAKTQLPDA LRVRLDVKDF ATPVQFVNAS AQSDRTSITI
+     EPSGLYDYLV YQTDNRLTVS IKPMTTEDAE RRKKDNFAYT GEKLSLNFQD IDVRSVLQLI
+     ADFTDLNLVA SDTVQGNITL RLQNVPWDQA LDLVLKTKGL DKRKLGNVLL VAPADEIAAR
+     ERQELEAQKQ IAELAPLRRE LIQVNYAKAA DIAKLFQSVT SDGGQEGKEG GRGSITVDDR
+     TNSIIAYQPQ ERLDELRRIV SQLDIPVRQV MIEARIVEAN VGYDKSLGVR WGGAYHKGNW
+     SGYGKDGNIG IKDEDGMNCG PIAGSCTFPT TGTSKSPSPF VDLGAKDATS GIGIGFITDN
+     IILDLQLSAM EKTGNGEIVS QPKVVTSDKE TAKILKGSEV PYQEASSSGA TSTSFKEAAL
+     SLEVTPQITP DNRIIVEVKV TKDAPDYQNM LNGVPPINKN EVNAKILVND GETIVIGGVF
+     SNEQSKSVEK VPFLGELPYL GRLFRRDTVT DRKNELLVFL TPRIMNNQAI AIGR
+//

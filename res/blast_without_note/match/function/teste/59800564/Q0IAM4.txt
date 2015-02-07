@@ -1,0 +1,88 @@
+ID   CCSA_SYNS3              Reviewed;         305 AA.
+AC   Q0IAM4;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2006, sequence version 1.
+DT   07-JAN-2015, entry version 53.
+DE   RecName: Full=Cytochrome c biogenesis protein CcsA {ECO:0000255|HAMAP-Rule:MF_01391};
+GN   Name=ccsA {ECO:0000255|HAMAP-Rule:MF_01391};
+GN   OrderedLocusNames=sync_1290;
+OS   Synechococcus sp. (strain CC9311).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Synechococcus.
+OX   NCBI_TaxID=64471;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CC9311;
+RX   PubMed=16938853; DOI=10.1073/pnas.0602963103;
+RA   Palenik B., Ren Q., Dupont C.L., Myers G.S., Heidelberg J.F.,
+RA   Badger J.H., Madupu R., Nelson W.C., Brinkac L.M., Dodson R.J.,
+RA   Durkin A.S., Daugherty S.C., Sullivan S.A., Khouri H., Mohamoud Y.,
+RA   Halpin R., Paulsen I.T.;
+RT   "Genome sequence of Synechococcus CC9311: insights into adaptation to
+RT   a coastal environment.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:13555-13559(2006).
+CC   -!- FUNCTION: Required during biogenesis of c-type cytochromes
+CC       (cytochrome c6 and cytochrome f) at the step of heme attachment.
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}.
+CC   -!- SUBUNIT: May interact with ccs1. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cellular thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}.
+CC   -!- SIMILARITY: Belongs to the CcmF/CycK/Ccl1/NrfE/CcsA family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01391}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000435; ABI47316.1; -; Genomic_DNA.
+DR   RefSeq; WP_011619218.1; NC_008319.1.
+DR   RefSeq; YP_730498.1; NC_008319.1.
+DR   STRING; 64471.sync_1290; -.
+DR   EnsemblBacteria; ABI47316; ABI47316; sync_1290.
+DR   GeneID; 4260165; -.
+DR   KEGG; syg:sync_1290; -.
+DR   PATRIC; 23793588; VBISynSp88089_1353.
+DR   eggNOG; COG0755; -.
+DR   HOGENOM; HOG000099340; -.
+DR   OMA; WLVMHVS; -.
+DR   OrthoDB; EOG6Z9B0Z; -.
+DR   BioCyc; SSP64471:GIVP-1290-MONOMER; -.
+DR   Proteomes; UP000001961; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0042651; C:thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0017004; P:cytochrome complex assembly; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01391; CytC_CcsA; 1.
+DR   InterPro; IPR002541; Cyt_c_assembly.
+DR   InterPro; IPR017562; Cyt_c_biogenesis_CcsA.
+DR   Pfam; PF01578; Cytochrom_C_asm; 1.
+DR   TIGRFAMs; TIGR03144; cytochr_II_ccsB; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytochrome c-type biogenesis; Membrane; Thylakoid;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    305       Cytochrome c biogenesis protein CcsA.
+FT                                /FTId=PRO_0000353717.
+FT   TRANSMEM      4     24       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM     32     52       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM     58     78       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM     91    111       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    136    156       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    212    232       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    246    263       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+FT   TRANSMEM    275    295       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01391}.
+SQ   SEQUENCE   305 AA;  32928 MW;  CE5CA22445B89E5E CRC64;
+     MDPVLGLGLF AFALLLLALP LAFWKVSSEK TSGLVTLLIA TANLALTAQL VLRWWQSGHF
+     PISNLYESLC FLAWACTLTQ LLVERSWPTP IVAAAATPMG LGCIAFASFA LPDQLQEASP
+     LVPALRSSWL VMHVSVIMVS YAALLVGSLL SVAVLVTDRG HALELRSSSI GSGGYRRAAL
+     ATPLGNVGDS EVQLSSVKFT RNELLDSLSY RTITVGFLLL TVGIISGAVW ANEAWGSYWS
+     WDPKETWALI CWLVYAAYLH TRLSRGWQGR RPALVASAGL VVIGVCYIGV NLLGIGLHSY
+     GWFFG
+//

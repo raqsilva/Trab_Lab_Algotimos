@@ -1,0 +1,132 @@
+ID   DNLJ_PSEF5              Reviewed;         788 AA.
+AC   Q4KFH1;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=DNA ligase {ECO:0000255|HAMAP-Rule:MF_01588};
+DE            EC=6.5.1.2 {ECO:0000255|HAMAP-Rule:MF_01588};
+DE   AltName: Full=Polydeoxyribonucleotide synthase [NAD(+)] {ECO:0000255|HAMAP-Rule:MF_01588};
+GN   Name=ligA {ECO:0000255|HAMAP-Rule:MF_01588};
+GN   OrderedLocusNames=PFL_1893;
+OS   Pseudomonas fluorescens (strain Pf-5 / ATCC BAA-477).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=220664;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pf-5 / ATCC BAA-477;
+RX   PubMed=15980861; DOI=10.1038/nbt1110;
+RA   Paulsen I.T., Press C.M., Ravel J., Kobayashi D.Y., Myers G.S.A.,
+RA   Mavrodi D.V., DeBoy R.T., Seshadri R., Ren Q., Madupu R., Dodson R.J.,
+RA   Durkin A.S., Brinkac L.M., Daugherty S.C., Sullivan S.A.,
+RA   Rosovitz M.J., Gwinn M.L., Zhou L., Schneider D.J., Cartinhour S.W.,
+RA   Nelson W.C., Weidman J., Watkins K., Tran K., Khouri H., Pierson E.A.,
+RA   Pierson L.S. III, Thomashow L.S., Loper J.E.;
+RT   "Complete genome sequence of the plant commensal Pseudomonas
+RT   fluorescens Pf-5.";
+RL   Nat. Biotechnol. 23:873-878(2005).
+CC   -!- FUNCTION: DNA ligase that catalyzes the formation of
+CC       phosphodiester linkages between 5'-phosphoryl and 3'-hydroxyl
+CC       groups in double-stranded DNA using NAD as a coenzyme and as the
+CC       energy source for the reaction. It is essential for DNA
+CC       replication and repair of damaged DNA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01588}.
+CC   -!- CATALYTIC ACTIVITY: NAD(+) + (deoxyribonucleotide)(n) +
+CC       (deoxyribonucleotide)(m) = AMP + beta-nicotinamide D-
+CC       ribonucleotide + (deoxyribonucleotide)(n+m). {ECO:0000255|HAMAP-
+CC       Rule:MF_01588}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01588};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01588};
+CC   -!- SIMILARITY: Belongs to the NAD-dependent DNA ligase family. LigA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01588}.
+CC   -!- SIMILARITY: Contains 1 BRCT domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01588}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000076; AAY91180.1; -; Genomic_DNA.
+DR   RefSeq; YP_259012.1; NC_004129.6.
+DR   ProteinModelPortal; Q4KFH1; -.
+DR   SMR; Q4KFH1; 1-598.
+DR   STRING; 220664.PFL_1893; -.
+DR   EnsemblBacteria; AAY91180; AAY91180; PFL_1893.
+DR   GeneID; 3477642; -.
+DR   KEGG; pfl:PFL_1893; -.
+DR   PATRIC; 19873025; VBIPseFlu72549_1930.
+DR   eggNOG; COG0272; -.
+DR   HOGENOM; HOG000218459; -.
+DR   KO; K01972; -.
+DR   OMA; KFPRWAI; -.
+DR   OrthoDB; EOG6TTVM9; -.
+DR   BioCyc; PFLU220664:GIX8-1902-MONOMER; -.
+DR   Proteomes; UP000008540; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003911; F:DNA ligase (NAD+) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   Gene3D; 3.40.50.10190; -; 1.
+DR   HAMAP; MF_01588; DNA_ligase_A; 1.
+DR   InterPro; IPR001357; BRCT_dom.
+DR   InterPro; IPR018239; DNA_ligase_AS.
+DR   InterPro; IPR001679; DNAligase.
+DR   InterPro; IPR013839; DNAligase_adenylation.
+DR   InterPro; IPR013840; DNAligase_N.
+DR   InterPro; IPR003583; Hlx-hairpin-Hlx_DNA-bd_motif.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004150; NAD_DNA_ligase_OB.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   Pfam; PF00533; BRCT; 1.
+DR   Pfam; PF01653; DNA_ligase_aden; 1.
+DR   Pfam; PF03120; DNA_ligase_OB; 1.
+DR   PIRSF; PIRSF001604; LigA; 1.
+DR   SMART; SM00292; BRCT; 1.
+DR   SMART; SM00278; HhH1; 3.
+DR   SMART; SM00532; LIGANc; 1.
+DR   SUPFAM; SSF47781; SSF47781; 2.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF52113; SSF52113; 1.
+DR   TIGRFAMs; TIGR00575; dnlj; 1.
+DR   PROSITE; PS50172; BRCT; 1.
+DR   PROSITE; PS01055; DNA_LIGASE_N1; 1.
+DR   PROSITE; PS01056; DNA_LIGASE_N2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA damage; DNA repair; DNA replication; Ligase;
+KW   Magnesium; Manganese; Metal-binding; NAD; Reference proteome; Zinc.
+FT   CHAIN         1    788       DNA ligase.
+FT                                /FTId=PRO_0000313376.
+FT   DOMAIN      705    788       BRCT. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   NP_BIND      32     36       NAD. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   NP_BIND      81     82       NAD. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   ACT_SITE    123    123       N6-AMP-lysine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   METAL       415    415       Zinc. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   METAL       418    418       Zinc. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   METAL       445    445       Zinc. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   METAL       451    451       Zinc. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   BINDING     121    121       NAD. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   BINDING     144    144       NAD. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   BINDING     181    181       NAD. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   BINDING     297    297       NAD. {ECO:0000255|HAMAP-Rule:MF_01588}.
+FT   BINDING     321    321       NAD. {ECO:0000255|HAMAP-Rule:MF_01588}.
+SQ   SEQUENCE   788 AA;  85817 MW;  921EE991B6C3A146 CRC64;
+     MTAAETRILE LRAELDQHNY RYHVLDEPSI PDAEYDRLFR ELKALEAEHP ELVTSDSPTQ
+     RVGSAALSAF TQVRHEIPML SLGNAFEEVD MREFDRRVNE GLDLPAGDLF GGGAAVEYSC
+     EPKLDGLAVS LLYQDGVLVR GATRGDGTTG EDISVNVRTV RNIPLKLQGS GWPATLEVRG
+     EVFMSKAGFE RLNAAQLEAG GKTFANPRNA AAGSLRQLDS KITASRPLEF CCYGLGQVSA
+     DIADTHIGNL ERLKQWGMPI SRELRLAKGI DECLDYYREI GERRNALPYE IDGVVFKVNS
+     IASQRELGFR AREPRWAIAH KFPAMEELTE LLDVEFQVGR TGAVTPVARL QPVKVAGVTV
+     SNATLHNMDE VARLGLMIGD TVIIRRAGDV IPQVVQVVTE RRPENARPVQ IPESCPVCGS
+     HVERTQLVKR SKGRETVSEG AVYRCVGRLA CGAQLKQAII HFVSRRAMDI EGLGDKTIEQ
+     LVDENLIASP ADLYRLKYEQ IIDLEGFAEV SSNKLLKAIE DSKRPALARF IYALGIPDVG
+     EETAKVLARS LGSLERVQQA LPQVLTYLPD VGLEVAHEIH SFFEDSHNQE VIGSLLAADQ
+     CGLVLQDQGE LGAEFAASTT LGGMLDKLNI PSVGPGAAQK LADKFGSLQG VIEADWLDMR
+     QALPEKQAKA VREFFDNPAN AQLAQAIEQQ LQAFGMHWQS EKKVVAGLPL AGQTWVLTGS
+     LELMSRDVAK DKLESLGAKV AGSVSAKTHC VVAGPGAGSK LAKANELGLK VLDEEAFVAF
+     LTEHGVPT
+//

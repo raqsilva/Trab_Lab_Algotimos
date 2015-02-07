@@ -1,0 +1,98 @@
+ID   PTPS_POERE              Reviewed;         147 AA.
+AC   Q90W95; Q90W94;
+DT   01-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   07-JAN-2015, entry version 66.
+DE   RecName: Full=6-pyruvoyl tetrahydrobiopterin synthase;
+DE            Short=PTP synthase;
+DE            Short=PTPS;
+DE            EC=4.2.3.12;
+GN   Name=pts;
+OS   Poecilia reticulata (Guppy) (Acanthophacelus reticulatus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Neoteleostei; Acanthomorphata;
+OC   Ovalentaria; Atherinomorphae; Cyprinodontiformes; Poeciliidae;
+OC   Poeciliinae; Poecilia.
+OX   NCBI_TaxID=8081;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2).
+RC   TISSUE=Caudal fin;
+RA   Ben J., Lim T.-M., Chan W.-K., Phang V.P.E.;
+RT   "Molecular cloning of 6-pyruvoyl tetrahydropterin synthase genes from
+RT   guppies.";
+RL   Submitted (MAY-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the biosynthesis of tetrahydrobiopterin, an
+CC       essential cofactor of aromatic amino acid hydroxylases. Catalyzes
+CC       the transformation of 7,8-dihydroneopterin triphosphate into 6-
+CC       pyruvoyl tetrahydropterin.
+CC   -!- CATALYTIC ACTIVITY: 7,8-dihydroneopterin 3'-triphosphate = 6-
+CC       pyruvoyl-5,6,7,8-tetrahydropterin + triphosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrobiopterin biosynthesis;
+CC       tetrahydrobiopterin from 7,8-dihydroneopterin triphosphate: step
+CC       1/3.
+CC   -!- SUBUNIT: Homohexamer formed of two homotrimers in a head to head
+CC       fashion. {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q90W95-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q90W95-2; Sequence=VSP_005511;
+CC         Note=No experimental confirmation available.;
+CC   -!- MISCELLANEOUS: The active site is at the interface between 2
+CC       subunits. The proton acceptor Cys is on one subunit, and the
+CC       charge relay system is on the other subunit.
+CC   -!- SIMILARITY: Belongs to the PTPS family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY034101; AAK59697.1; -; mRNA.
+DR   EMBL; AY034102; AAK59698.1; -; mRNA.
+DR   RefSeq; NP_001284375.1; NM_001297446.1. [Q90W95-2]
+DR   ProteinModelPortal; Q90W95; -.
+DR   SMR; Q90W95; 12-147.
+DR   GeneID; 103481923; -.
+DR   CTD; 5805; -.
+DR   HOVERGEN; HBG004358; -.
+DR   UniPathway; UPA00849; UER00819.
+DR   GO; GO:0003874; F:6-pyruvoyltetrahydropterin synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006729; P:tetrahydrobiopterin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   InterPro; IPR022470; PTPS_Cys_AS.
+DR   InterPro; IPR022469; PTPS_His_AS.
+DR   PANTHER; PTHR12589; PTHR12589; 1.
+DR   Pfam; PF01242; PTPS; 1.
+DR   PIRSF; PIRSF006113; PTP_synth; 1.
+DR   TIGRFAMs; TIGR00039; 6PTHBS; 1.
+DR   PROSITE; PS00987; PTPS_1; 1.
+DR   PROSITE; PS00988; PTPS_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Lyase; Metal-binding;
+KW   Tetrahydrobiopterin biosynthesis; Zinc.
+FT   CHAIN         1    147       6-pyruvoyl tetrahydrobiopterin synthase.
+FT                                /FTId=PRO_0000057916.
+FT   ACT_SITE     45     45       Proton acceptor. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10123}.
+FT   ACT_SITE     92     92       Charge relay system.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU10124}.
+FT   ACT_SITE    136    136       Charge relay system.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU10124}.
+FT   METAL        26     26       Zinc. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10123}.
+FT   METAL        51     51       Zinc. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10123}.
+FT   METAL        53     53       Zinc. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU10123}.
+FT   VAR_SEQ      84    106       EVIMIPLDHKNLDKDVPYFADVV -> IRTFHQTFLLSLT
+FT                                (in isoform 2). {ECO:0000303|Ref.1}.
+FT                                /FTId=VSP_005511.
+SQ   SEQUENCE   147 AA;  16679 MW;  D26FA34DD907B2A2 CRC64;
+     MAESSGNPPA ERIGYITRVQ SFSACHRLHS LRLSDEENKE VYGKCNNPYG HGHNYKVEVT
+     VRGKIDPVTG MVMNLTDLKK CIEEVIMIPL DHKNLDKDVP YFADVVSTTE NLAVYIWDNM
+     AKALPASLPY EIRIHETDKN IVVYRGE
+//

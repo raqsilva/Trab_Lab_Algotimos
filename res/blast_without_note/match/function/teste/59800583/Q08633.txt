@@ -1,0 +1,84 @@
+ID   RTX3D_ACTPL             Reviewed;         477 AA.
+AC   Q08633;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=RTX-III toxin determinant D;
+DE   AltName: Full=APX-IIID;
+DE   AltName: Full=Cytolysin IIID;
+DE            Short=CLY-IIID;
+DE   AltName: Full=Toxin RTX-III secretion protein D;
+GN   Name=apxIIID; Synonyms=clyIIID, rtxD;
+OS   Actinobacillus pleuropneumoniae (Haemophilus pleuropneumoniae).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=715;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Serotype 2;
+RX   PubMed=8494611; DOI=10.1089/dna.1993.12.351;
+RA   Chang Y.-F., Shi J., Ma D.-P., Shin S.J., Lein D.H.;
+RT   "Molecular analysis of the Actinobacillus pleuropneumoniae RTX toxin-
+RT   III gene cluster.";
+RL   DNA Cell Biol. 12:351-362(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=405 / Serotype 8;
+RX   PubMed=7927703;
+RA   Jansen R., Briaire J., van Geel A.B.M., Kamp E.M., Gielkens A.L.J.,
+RA   Smits M.A.;
+RT   "Genetic map of the Actinobacillus pleuropneumoniae RTX-toxin (Apx)
+RT   operons: characterization of the ApxIII operons.";
+RL   Infect. Immun. 62:4411-4418(1994).
+CC   -!- FUNCTION: Involved in the transport of the toxin RTX-III.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Single-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- MISCELLANEOUS: The sequence shown is that of serotype 2.
+CC   -!- SIMILARITY: Belongs to the membrane fusion protein (MFP)
+CC       (TC 8.A.1) family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L12145; AAA21926.1; -; Genomic_DNA.
+DR   EMBL; X80055; CAA56360.1; -; Genomic_DNA.
+DR   PIR; S48045; S48045.
+DR   ProteinModelPortal; Q08633; -.
+DR   GO; GO:0009276; C:Gram-negative-bacterium-type cell wall; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0019835; P:cytolysis; IEA:UniProtKB-KW.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   InterPro; IPR006143; RND_pump_MFP.
+DR   InterPro; IPR003997; Rtx_secretion_protD_GmN_bac.
+DR   InterPro; IPR006144; Secretion_HlyD_CS.
+DR   InterPro; IPR010129; T1SS_HlyD.
+DR   PANTHER; PTHR30386:SF3; PTHR30386:SF3; 1.
+DR   Pfam; PF00529; HlyD; 1.
+DR   PRINTS; PR01490; RTXTOXIND.
+DR   TIGRFAMs; TIGR01843; type_I_hlyD; 1.
+DR   PROSITE; PS00543; HLYD_FAMILY; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Cytolysis; Membrane;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    477       RTX-III toxin determinant D.
+FT                                /FTId=PRO_0000201892.
+FT   TOPO_DOM      1     59       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     60     77       Helical. {ECO:0000255}.
+FT   TOPO_DOM     78    477       Periplasmic. {ECO:0000255}.
+FT   VARIANT      44     44       R -> A (in strain: 405 / Serotype 8).
+FT   VARIANT     132    132       C -> A (in strain: 405 / Serotype 8).
+FT   VARIANT     185    186       GA -> NT (in strain: 405 / Serotype 8).
+FT   VARIANT     376    376       V -> I (in strain: 405 / Serotype 8).
+SQ   SEQUENCE   477 AA;  54780 MW;  D229F1CAB7D7E90A CRC64;
+     MKLWILGLGE FFQRYRNIWR EIWKIRKQLD TPARQKDENE FLPRHLELIE TPISKKPRLI
+     AYLIMLFLFL AIVISIISKV EIVASATGKL VFSGHSKEIK PIENALVKDI FVKDGQFVEK
+     GQLLLNLTAL GCDADKQKTK VSLGLERLDG YRYKSLLYSI EHNRLPLLDF NQADFDSVQE
+     EDKTGARHLI TEQFETWQKQ KYQKELAYQR KQAEKQTVLA NIRKYESASR IEKEKLSDLK
+     KLYDVKSISK HELLAQENRY VEASNELSVY QSHLKEVESD LLKAQEDLKL VTQLFKSDIL
+     EKLQQNIQRE KQLTLELEKN EQRQLASIIR APVSGTVQQL KTHTKGGVVT TAETLMVIAP
+     EDDVLEVSAL IQNKDVGFVE IGQEAVIKVE TFPYTRYGYL YGKVKTITLD AIEHPQLGLV
+     FNSIIEINKK TLTDGDKEIQ LGSGMSVIAE IKTGERSVIS FLLSPLEESI TESLRER
+//

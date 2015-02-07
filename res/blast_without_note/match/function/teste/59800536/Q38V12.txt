@@ -1,0 +1,92 @@
+ID   PHNX_LACSS              Reviewed;         265 AA.
+AC   Q38V12;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   04-FEB-2015, entry version 69.
+DE   RecName: Full=Phosphonoacetaldehyde hydrolase {ECO:0000255|HAMAP-Rule:MF_01375};
+DE            Short=Phosphonatase {ECO:0000255|HAMAP-Rule:MF_01375};
+DE            EC=3.11.1.1 {ECO:0000255|HAMAP-Rule:MF_01375};
+DE   AltName: Full=Phosphonoacetaldehyde phosphonohydrolase {ECO:0000255|HAMAP-Rule:MF_01375};
+GN   Name=phnX {ECO:0000255|HAMAP-Rule:MF_01375};
+GN   OrderedLocusNames=LCA_1665;
+OS   Lactobacillus sakei subsp. sakei (strain 23K).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lactobacillus.
+OX   NCBI_TaxID=314315;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=23K;
+RX   PubMed=16273110; DOI=10.1038/nbt1160;
+RA   Chaillou S., Champomier-Verges M.-C., Cornet M., Crutz-Le Coq A.-M.,
+RA   Dudez A.-M., Martin V., Beaufils S., Darbon-Rongere E., Bossy R.,
+RA   Loux V., Zagorec M.;
+RT   "The complete genome sequence of the meat-borne lactic acid bacterium
+RT   Lactobacillus sakei 23K.";
+RL   Nat. Biotechnol. 23:1527-1533(2005).
+CC   -!- FUNCTION: Involved in phosphonate degradation. {ECO:0000255|HAMAP-
+CC       Rule:MF_01375}.
+CC   -!- CATALYTIC ACTIVITY: Phosphonoacetaldehyde + H(2)O = acetaldehyde +
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_01375}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01375};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01375};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01375}.
+CC   -!- SIMILARITY: Belongs to the HAD-like hydrolase superfamily. PhnX
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01375}.
+CC   -!- CAUTION: The first enzyme involved in phosphonate degradation
+CC       (PhnW, EC 2.6.1.37) is not found in this organism. The function of
+CC       this enzyme is therefore uncertain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CR936503; CAI55972.1; -; Genomic_DNA.
+DR   RefSeq; WP_011375357.1; NC_007576.1.
+DR   RefSeq; YP_396278.1; NC_007576.1.
+DR   ProteinModelPortal; Q38V12; -.
+DR   STRING; 314315.LSA1665; -.
+DR   EnsemblBacteria; CAI55972; CAI55972; LCA_1665.
+DR   GeneID; 3778138; -.
+DR   KEGG; lsa:LSA1665; -.
+DR   PATRIC; 22276160; VBILacSak116432_1631.
+DR   eggNOG; COG0637; -.
+DR   KO; K05306; -.
+DR   OMA; HHIHIAT; -.
+DR   OrthoDB; EOG6ZH2FH; -.
+DR   Proteomes; UP000002707; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0050194; F:phosphonoacetaldehyde hydrolase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019700; P:organic phosphonate catabolic process; IEA:InterPro.
+DR   Gene3D; 1.10.150.240; -; 1.
+DR   Gene3D; 3.40.50.1000; -; 2.
+DR   HAMAP; MF_01375; PhnX; 1.
+DR   InterPro; IPR023214; HAD-like_dom.
+DR   InterPro; IPR023198; PGP_dom2.
+DR   InterPro; IPR006323; Phosphonoacetald_hydro.
+DR   Pfam; PF13419; HAD_2; 1.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR01422; phosphonatase; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Magnesium; Metal-binding;
+KW   Reference proteome; Schiff base.
+FT   CHAIN         1    265       Phosphonoacetaldehyde hydrolase.
+FT                                /FTId=PRO_0000284590.
+FT   ACT_SITE     10     10       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01375}.
+FT   ACT_SITE     51     51       Schiff-base intermediate with substrate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01375}.
+FT   METAL        10     10       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01375}.
+FT   METAL        12     12       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01375}.
+FT   METAL       184    184       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01375}.
+SQ   SEQUENCE   265 AA;  29202 MW;  5666326D9790311D CRC64;
+     MTDIQCVIFD WAGTIIDFGS LDPVLAFQSA FNAAGIQIDT DRIRQDMGIE KHEHIAKLAK
+     MPEVQRAWFA KYKRGITDAD QLQLFNYFEQ FLLNRLSTET TLTPAVLQVQ TYLKAHHIHI
+     ATTTGYTKAM LAIAAKQAGL LGYHPELMVS KEDVAAGRPA PDMINHIMTA FNITDPQTVV
+     KVGDTVIDMQ EGKNAGVLTV GLIESSSLLG LSQAKLIDLP QKTRLAKFAE ITKTLKAAGA
+     DYVIHNLSEL PAILAKYQTP QKEHA
+//

@@ -1,0 +1,113 @@
+ID   DEGPL_BARHE             Reviewed;         503 AA.
+AC   P54925; Q6G491;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   31-AUG-2004, sequence version 2.
+DT   04-FEB-2015, entry version 104.
+DE   RecName: Full=Probable periplasmic serine endoprotease DegP-like;
+DE            EC=3.4.21.107;
+DE   AltName: Full=Antigen HtrA;
+DE   AltName: Full=Protease Do;
+DE   Flags: Precursor;
+GN   Name=htrA; OrderedLocusNames=BH04770;
+OS   Bartonella henselae (strain ATCC 49882 / Houston 1) (Rochalimaea
+OS   henselae).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bartonellaceae; Bartonella.
+OX   NCBI_TaxID=283166;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 49882 / Houston 1;
+RX   PubMed=8027347;
+RA   Anderson B., Sims K., Regnery R., Robinson L., Schmidt M.J., Goral S.,
+RA   Hager C., Edwards K.;
+RT   "Detection of Rochalimaea henselae DNA in specimens from cat scratch
+RT   disease patients by PCR.";
+RL   J. Clin. Microbiol. 32:942-948(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49882 / Houston 1;
+RX   PubMed=15210978; DOI=10.1073/pnas.0305659101;
+RA   Alsmark U.C.M., Frank A.C., Karlberg E.O., Legault B.-A., Ardell D.H.,
+RA   Canbaeck B., Eriksson A.-S., Naeslund A.K., Handley S.A., Huvet M.,
+RA   La Scola B., Holmberg M., Andersson S.G.E.;
+RT   "The louse-borne human pathogen Bartonella quintana is a genomic
+RT   derivative of the zoonotic agent Bartonella henselae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:9716-9721(2004).
+CC   -!- FUNCTION: Could be efficient in the degradation of transiently
+CC       denatured and unfolded proteins which accumulate in the periplasm
+CC       following stress conditions. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acts on substrates that are at least partially
+CC       unfolded. The cleavage site P1 residue is normally between a pair
+CC       of hydrophobic residues, such as Val-|-Val.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1C family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 PDZ (DHR) domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00143}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L20127; AAA97430.1; -; Genomic_DNA.
+DR   EMBL; BX897699; CAF27285.1; -; Genomic_DNA.
+DR   RefSeq; WP_011180408.1; NC_005956.1.
+DR   RefSeq; YP_033313.1; NC_005956.1.
+DR   ProteinModelPortal; P54925; -.
+DR   STRING; 283166.BH04770; -.
+DR   EnsemblBacteria; CAF27285; CAF27285; BH04770.
+DR   GeneID; 2865540; -.
+DR   KEGG; bhe:BH04770; -.
+DR   PATRIC; 20544729; VBIBarHen29080_0517.
+DR   eggNOG; COG0265; -.
+DR   HOGENOM; HOG000223640; -.
+DR   KO; K01362; -.
+DR   OMA; DDNSQPQ; -.
+DR   OrthoDB; EOG61ZTDN; -.
+DR   BioCyc; BHEN283166:GIVZ-476-MONOMER; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-2836-MONOMER; -.
+DR   Proteomes; UP000000421; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; ISS:UniProtKB.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISS:UniProtKB.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   InterPro; IPR009003; Trypsin-like_Pept_dom.
+DR   Pfam; PF00595; PDZ; 1.
+DR   Pfam; PF13180; PDZ_2; 1.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; SSF50156; 2.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   TIGRFAMs; TIGR02037; degP_htrA_DO; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Periplasm; Protease; Reference proteome;
+KW   Repeat; Serine protease; Signal; Stress response.
+FT   SIGNAL        1     18       {ECO:0000255}.
+FT   CHAIN        19    503       Probable periplasmic serine endoprotease
+FT                                DegP-like.
+FT                                /FTId=PRO_0000026923.
+FT   DOMAIN      286    357       PDZ 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   DOMAIN      419    466       PDZ 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00143}.
+FT   REGION      245    247       Substrate binding. {ECO:0000250}.
+FT   REGION      302    306       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    143    143       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    173    173       Charge relay system. {ECO:0000255}.
+FT   ACT_SITE    247    247       Charge relay system. {ECO:0000255}.
+FT   CONFLICT    285    286       KQ -> NE (in Ref. 1; AAA97430).
+FT                                {ECO:0000305}.
+FT   CONFLICT    430    430       V -> L (in Ref. 1; AAA97430).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   503 AA;  54113 MW;  B257E7B9FD9835D8 CRC64;
+     MVKKTFFTTL AAVSFSAALE TALFFSGCGS SLWTTKAHAN SVFSSLMQQQ GFADIVSQVK
+     PAVVSVQVKS NKKKKEWFFS DFFSTPGFDQ LPDQHPLKKF FQDFYNRDKP SNKSLQRSHR
+     LRPIAFGSGF FISSDGYIVT NNHVISDGTS YAVVLDDGTE LNAKLIGTDP RTDLAVLKVN
+     EKRKFSYVDF GDDSKLRVGD WVVAIGNPFG LGGTVTAGIV SARGRDIGTG VYDDFIQIDA
+     AVNRGNSGGP TFDLNGKVVG VNTAIFSPSG GNVGIAFAIP AATAKQVVQQ LIEKGLVQRG
+     WLGVQIQPVT KEISDSIGLK EAKGALITDP LKGPAAKAGI KAGDVIISVN GEKINDVRDL
+     AKRIANMSPG ETVTLGVWKS GKEENIKVKL DSMPEDENMK DGSKYSNEHG NSDETLEDYG
+     LIVAPSDDGV GLVVTDVDPD SDAADKGIRP GDVIVTVNNK SVKKVSDITD TIKNAQKLGR
+     KAILLQVRTN DQNRFVALPI FKK
+//

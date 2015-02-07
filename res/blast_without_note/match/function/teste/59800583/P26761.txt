@@ -1,0 +1,100 @@
+ID   RTX1D_ACTPL             Reviewed;         477 AA.
+AC   P26761;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=RTX-I toxin determinant D;
+DE   AltName: Full=APX-ID;
+DE   AltName: Full=Cytolysin ID;
+DE            Short=CLY-ID;
+DE   AltName: Full=HLY-ID;
+DE   AltName: Full=Toxin RTX-I secretion protein D;
+GN   Name=apxID; Synonyms=appD, clyID, hlyID;
+OS   Actinobacillus pleuropneumoniae (Haemophilus pleuropneumoniae).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=715;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Serotype 5;
+RX   PubMed=1860823;
+RA   Chang Y.-F., Young R., Struck D.K.;
+RT   "The Actinobacillus pleuropneumoniae hemolysin determinant: unlinked
+RT   appCA and appBD loci flanked by pseudogenes.";
+RL   J. Bacteriol. 173:5151-5158(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Isolate CVI 13261 / Serotype 9;
+RX   PubMed=1937809;
+RA   Smits M.A., Briaire J., Jansen R., Smith H.E., Kamp E.M.,
+RA   Gielkens A.L.J.;
+RT   "Cytolysins of Actinobacillus pleuropneumoniae serotype 9.";
+RL   Infect. Immun. 59:4497-4504(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=S 4074 / Serotype 1;
+RX   PubMed=8181764; DOI=10.1016/0378-1119(94)90361-1;
+RA   Frey J., Haldimann A., Nicolet J., Boffini A., Prentki P.;
+RT   "Sequence analysis and transcription of the apxI operon (hemolysin I)
+RT   from Actinobacillus pleuropneumoniae.";
+RL   Gene 142:97-102(1994).
+CC   -!- FUNCTION: Involved in the transport of the toxin RTX-I as well as
+CC       that of RTX-II.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Single-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- MISCELLANEOUS: The sequence shown is that of serotype 5.
+CC   -!- SIMILARITY: Belongs to the membrane fusion protein (MFP)
+CC       (TC 8.A.1) family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M65808; AAB00967.1; -; Genomic_DNA.
+DR   EMBL; X61112; CAA43426.1; -; Genomic_DNA.
+DR   EMBL; X68595; CAA48588.1; -; Genomic_DNA.
+DR   PIR; E43599; E43599.
+DR   ProteinModelPortal; P26761; -.
+DR   GO; GO:0009276; C:Gram-negative-bacterium-type cell wall; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008565; F:protein transporter activity; IEA:InterPro.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   GO; GO:0009306; P:protein secretion; IEA:InterPro.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   InterPro; IPR006143; RND_pump_MFP.
+DR   InterPro; IPR003997; Rtx_secretion_protD_GmN_bac.
+DR   InterPro; IPR006144; Secretion_HlyD_CS.
+DR   InterPro; IPR010129; T1SS_HlyD.
+DR   PANTHER; PTHR30386:SF3; PTHR30386:SF3; 1.
+DR   Pfam; PF00529; HlyD; 1.
+DR   PRINTS; PR01490; RTXTOXIND.
+DR   TIGRFAMs; TIGR01843; type_I_hlyD; 1.
+DR   PROSITE; PS00543; HLYD_FAMILY; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Cytolysis; Hemolysis; Membrane;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    477       RTX-I toxin determinant D.
+FT                                /FTId=PRO_0000201891.
+FT   TOPO_DOM      1     59       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     60     80       Helical. {ECO:0000255}.
+FT   TOPO_DOM     81    477       Periplasmic. {ECO:0000255}.
+FT   VARIANT      14     14       A -> R (in strain: S 4074 / Serotype 1
+FT                                and Isolate CVI 13261 / Serotype 9).
+FT   VARIANT      94     94       G -> D (in strain: S 4074 / Serotype 1
+FT                                and Isolate CVI 13261 / Serotype 9).
+FT   VARIANT     113    113       E -> Q (in strain: S 4074 / Serotype 1
+FT                                and Isolate CVI 13261 / Serotype 9).
+FT   VARIANT     228    228       S -> I (in strain: S 4074 / Serotype 1
+FT                                and Isolate CVI 13261 / Serotype 9).
+FT   VARIANT     335    335       Y -> GT (in strain: S 4074 / Serotype 1
+FT                                and Isolate CVI 13261 / Serotype 9).
+SQ   SEQUENCE   477 AA;  54728 MW;  B841D87AF7D4D4C2 CRC64;
+     MKTWLMGLYE FFQAYKTVWT EIWKIRHQLD TPDREKDENE FLPAHLELIE TPVSKKPRLI
+     AYLIMLFLFL ALVISIVSHV EIVATATGKL AFSGRSKEIK PIENALVKEI FVEDGQFVEK
+     DQLLLHLTAL GADADQQKTK SSLSLTKLER YRYEILLEAV AADRLPLIEL TKDEFKHATE
+     EDKTRIRYLI TEQFEAWQKQ KYQKELALQR REAEKQTVLA NIRKYEGSSR VENERLKDLK
+     KLFNSKSTSK HDVLTQENRH IEAVNELAVY KSRLNEVESD LRQAKEEIHL ITQLFRADIL
+     EKLKQNVEAE KQLSLELEKN EQRQIASVIR APVSYVQQLK THTVGGVVTT AETLMVIAPE
+     DDVLEVTALI QNKDIGFIEV GQDAVIKVET FPYTRYGYLM GKVKNITLEA IEHPQLGLVF
+     NSIISIDRKT LSGKDGKEIE LGSGMSVTAE IKTGERSVIS YLLSPLEESV SESLRER
+//

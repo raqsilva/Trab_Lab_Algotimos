@@ -1,0 +1,119 @@
+ID   MSHA_CORJK              Reviewed;         419 AA.
+AC   Q4JSW2;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   04-FEB-2015, entry version 61.
+DE   RecName: Full=D-inositol 3-phosphate glycosyltransferase;
+DE            EC=2.4.1.250 {ECO:0000255|HAMAP-Rule:MF_01695};
+DE   AltName: Full=N-acetylglucosamine-inositol-phosphate N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+DE            Short=GlcNAc-Ins-P N-acetylglucosaminyltransferase {ECO:0000255|HAMAP-Rule:MF_01695};
+GN   Name=mshA {ECO:0000255|HAMAP-Rule:MF_01695}; OrderedLocusNames=jk1914;
+OS   Corynebacterium jeikeium (strain K411).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Corynebacteriaceae; Corynebacterium.
+OX   NCBI_TaxID=306537;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K411;
+RX   PubMed=15968079; DOI=10.1128/JB.187.13.4671-4682.2005;
+RA   Tauch A., Kaiser O., Hain T., Goesmann A., Weisshaar B.,
+RA   Albersmeier A., Bekel T., Bischoff N., Brune I., Chakraborty T.,
+RA   Kalinowski J., Meyer F., Rupp O., Schneiker S., Viehoever P.,
+RA   Puehler A.;
+RT   "Complete genome sequence and analysis of the multiresistant
+RT   nosocomial pathogen Corynebacterium jeikeium K411, a lipid-requiring
+RT   bacterium of the human skin flora.";
+RL   J. Bacteriol. 187:4671-4682(2005).
+CC   -!- FUNCTION: Catalyzes the transfer of a N-acetyl-glucosamine moiety
+CC       to 1D-myo-inositol 3-phosphate to produce 1D-myo-inositol 2-
+CC       acetamido-2-deoxy-glucopyranoside 3-phosphate in the mycothiol
+CC       biosynthesis pathway. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- CATALYTIC ACTIVITY: UDP-N-acetyl-D-glucosamine + 1D-myo-inositol
+CC       3-phosphate = UDP + 1-O-(2-acetamido-2-deoxy-alpha-D-
+CC       glucopyranosyl)-1D-myo-inositol 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01695}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase group 1 family.
+CC       MshA subfamily. {ECO:0000255|HAMAP-Rule:MF_01695}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CR931997; CAI38095.1; -; Genomic_DNA.
+DR   RefSeq; WP_005292156.1; NC_007164.1.
+DR   RefSeq; YP_251713.1; NC_007164.1.
+DR   ProteinModelPortal; Q4JSW2; -.
+DR   SMR; Q4JSW2; 1-405.
+DR   STRING; 306537.jk1914; -.
+DR   CAZy; GT4; Glycosyltransferase Family 4.
+DR   EnsemblBacteria; CAI38095; CAI38095; jk1914.
+DR   GeneID; 3432108; -.
+DR   KEGG; cjk:jk1914; -.
+DR   PATRIC; 21514800; VBICorJei31838_1942.
+DR   eggNOG; COG0438; -.
+DR   HOGENOM; HOG000077288; -.
+DR   KO; K15521; -.
+DR   OMA; LVHSHYW; -.
+DR   OrthoDB; EOG647TVR; -.
+DR   BioCyc; CJEI306537:GJ8V-1967-MONOMER; -.
+DR   Proteomes; UP000000545; Chromosome.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01695; MshA; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR028098; Glyco_trans_4_N.
+DR   InterPro; IPR017814; Mycothiol_biosynthesis_MshA.
+DR   Pfam; PF13579; Glyco_trans_4_4; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   TIGRFAMs; TIGR03449; mycothiol_MshA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycosyltransferase; Magnesium; Metal-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    419       D-inositol 3-phosphate
+FT                                glycosyltransferase.
+FT                                /FTId=PRO_0000400119.
+FT   REGION       15     16       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   REGION       20     25       1D-inositol 3-phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       304    304       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       305    305       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       307    307       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   METAL       331    331       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING       9      9       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      23     23       UDP-GlcNAc; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING      78     78       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     110    110       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     134    134       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     154    154       1D-inositol 3-phosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01695}.
+FT   BINDING     231    231       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     236    236       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     295    295       UDP-GlcNAc; via amide nitrogen and
+FT                                carbonyl oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     317    317       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+FT   BINDING     325    325       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01695}.
+SQ   SEQUENCE   419 AA;  45423 MW;  679366D55A164510 CRC64;
+     MRVAMISMHT SPLEQPGTGD AGGMNVYVKN IAEQLERRGV IVDVFTRATR PLQGEVVNVR
+     PGLRVINCVA GPYEGLSKEE LPTQLAAFTG SILAFCREEG VSYDLIHSHY WLSGQVGWLL
+     RDLWQVPWVH TAHTLAAVKN NSLADGDSRE PESRRICEQQ IVDNADLLIV NTDQEVQDLI
+     EGYDATTCAI RVVPPGADVD RFTPGSDRAT ERSRRELGIP FRTKVIGFVG RLQRLKGPQV
+     LLRAVAELLD RHPQQQLAVV ICGGSSGAGG NELERLQLLA EELGISRCVR FLAPRPPEEL
+     VGVYRAADIV AVPSYNESFG LVALEAQACG TPVVATRTGG LPIAVDGGKS GLLVDGHDPS
+     DWADALGKLV LDDDLRIAMG EYAPSHAAKF SWQASAEALH KLYEELPPAG HRGERQPAG
+//

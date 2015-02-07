@@ -1,0 +1,92 @@
+ID   NAA10_BOVIN             Reviewed;         235 AA.
+AC   Q2KI14;
+DT   19-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   07-MAR-2006, sequence version 1.
+DT   07-JAN-2015, entry version 62.
+DE   RecName: Full=N-alpha-acetyltransferase 10;
+DE            EC=2.3.1.-;
+DE            EC=2.3.1.88;
+DE   AltName: Full=N-terminal acetyltransferase complex ARD1 subunit homolog A;
+DE   AltName: Full=NatA catalytic subunit Naa10;
+GN   Name=NAA10; Synonyms=ARD1A;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+OC   Pecora; Bovidae; Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Hypothalamus;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (JAN-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalytic subunit of the N-terminal acetyltransferase A
+CC       (NatC) complex which displays alpha (N-terminal) acetyltransferase
+CC       activity. Without NAA15, displays epsilon (internal)
+CC       acetyltransferase activity towards HIF1A, thereby promoting its
+CC       degradation. Represses MYLK kinase activity by acetylation, and
+CC       thus represses tumor cell migration. Acetylates, and stabilizes
+CC       TSC2, thereby repressing mTOR activity and suppressing cancer
+CC       development.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + peptide = N(alpha)-acetylpeptide
+CC       + CoA.
+CC   -!- SUBUNIT: Component of the N-terminal acetyltransferase A (NatA)
+CC       complex composed of NAA10 and NAA15 or NAA16. Interacts with the
+CC       ribosome. Interacts with HIF1A and NAA50. Binds to MYLK.
+CC       Associates with HYPK when in complex with NAA15. Interacts (via
+CC       its C-terminal domain) with TSC2, leading to its acetylation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus
+CC       {ECO:0000250}.
+CC   -!- PTM: Cleaved by caspases during apoptosis. {ECO:0000250}.
+CC   -!- PTM: Phosphorylation by IKBKB/IKKB at Ser-209 destabilises NAA10
+CC       and promotes its proteasome-mediated degradation. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. ARD1
+CC       subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 N-acetyltransferase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00532}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BC112807; AAI12808.1; -; mRNA.
+DR   RefSeq; NP_001039976.1; NM_001046511.1.
+DR   UniGene; Bt.96794; -.
+DR   ProteinModelPortal; Q2KI14; -.
+DR   PRIDE; Q2KI14; -.
+DR   GeneID; 613636; -.
+DR   KEGG; bta:613636; -.
+DR   CTD; 8260; -.
+DR   HOVERGEN; HBG050561; -.
+DR   InParanoid; Q2KI14; -.
+DR   KO; K00670; -.
+DR   NextBio; 20898682; -.
+DR   Proteomes; UP000009136; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004596; F:peptide alpha-N-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Acyltransferase; Complete proteome; Cytoplasm; Nucleus;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN         1    235       N-alpha-acetyltransferase 10.
+FT                                /FTId=PRO_0000249839.
+FT   DOMAIN        1    152       N-acetyltransferase.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00532}.
+FT   REGION        1     58       Interaction with NAA15. {ECO:0000250}.
+FT   MOD_RES       1      1       N-acetylmethionine. {ECO:0000250}.
+FT   MOD_RES     186    186       Phosphoserine. {ECO:0000250}.
+FT   MOD_RES     205    205       Phosphoserine. {ECO:0000250}.
+FT   MOD_RES     209    209       Phosphoserine; by IKKB. {ECO:0000250}.
+FT   MOD_RES     213    213       Phosphoserine. {ECO:0000250}.
+FT   MOD_RES     216    216       Phosphoserine. {ECO:0000250}.
+SQ   SEQUENCE   235 AA;  26521 MW;  31A7ACE949DBAB1D CRC64;
+     MNIRNARPED LMNMQHCNLL CLPENYQMKY YFYHGLSWPQ LSYIAEDENG KIVGYVLAKM
+     EEDPDDVPHG HITSLAVKRS HRRLGLAQKL MDQASRAMIE NFNAKYVSLH VRKSNRAALH
+     LYSNTLNFQI SEVEPKYYAD GEDAYAMKRD LTQMADELRR HLELKEKGRH VVLGSIENKM
+     EGKGNSLPSS GEACREEKGL VAEDSGGDSK DLSEVSETTE STDVKDSSEA SDSAS
+//

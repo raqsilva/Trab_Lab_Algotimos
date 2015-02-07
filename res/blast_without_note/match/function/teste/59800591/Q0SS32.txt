@@ -1,0 +1,133 @@
+ID   MOAA_CLOPS              Reviewed;         323 AA.
+AC   Q0SS32;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   07-JAN-2015, entry version 64.
+DE   RecName: Full=Cyclic pyranopterin monophosphate synthase {ECO:0000255|HAMAP-Rule:MF_01225};
+DE            EC=4.1.99.18 {ECO:0000255|HAMAP-Rule:MF_01225};
+DE   AltName: Full=Molybdenum cofactor biosynthesis protein A {ECO:0000255|HAMAP-Rule:MF_01225};
+GN   Name=moaA {ECO:0000255|HAMAP-Rule:MF_01225};
+GN   OrderedLocusNames=CPR_1760;
+OS   Clostridium perfringens (strain SM101 / Type A).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=289380;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SM101 / Type A;
+RX   PubMed=16825665; DOI=10.1101/gr.5238106;
+RA   Myers G.S.A., Rasko D.A., Cheung J.K., Ravel J., Seshadri R.,
+RA   DeBoy R.T., Ren Q., Varga J., Awad M.M., Brinkac L.M., Daugherty S.C.,
+RA   Haft D.H., Dodson R.J., Madupu R., Nelson W.C., Rosovitz M.J.,
+RA   Sullivan S.A., Khouri H., Dimitrov G.I., Watkins K.L., Mulligan S.,
+RA   Benton J., Radune D., Fisher D.J., Atkins H.S., Hiscox T., Jost B.H.,
+RA   Billington S.J., Songer J.G., McClane B.A., Titball R.W., Rood J.I.,
+RA   Melville S.B., Paulsen I.T.;
+RT   "Skewed genomic variability in strains of the toxigenic bacterial
+RT   pathogen, Clostridium perfringens.";
+RL   Genome Res. 16:1031-1040(2006).
+CC   -!- FUNCTION: Catalyzes, together with MoaC, the conversion of 5'-GTP
+CC       to cyclic pyranopterin monophosphate (cPMP or molybdopterin
+CC       precursor Z). {ECO:0000255|HAMAP-Rule:MF_01225}.
+CC   -!- CATALYTIC ACTIVITY: GTP = cyclic pyranopterin phosphate +
+CC       diphosphate. {ECO:0000255|HAMAP-Rule:MF_01225}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01225};
+CC       Note=Binds 2 [4Fe-4S] clusters. Binds 1 [4Fe-4S] cluster
+CC       coordinated with 3 cysteines and an exchangeable S-adenosyl-L-
+CC       methionine and 1 [4Fe-4S] cluster coordinated with 3 cysteines and
+CC       the GTP-derived substrate. {ECO:0000255|HAMAP-Rule:MF_01225};
+CC   -!- COFACTOR:
+CC       Name=S-adenosyl-L-methionine; Xref=ChEBI:CHEBI:59789;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01225};
+CC       Note=Binds 1 S-adenosyl-L-methionine per subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_01225};
+CC   -!- PATHWAY: Cofactor biosynthesis; molybdopterin biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01225}.
+CC   -!- SUBUNIT: Monomer and homodimer. {ECO:0000255|HAMAP-Rule:MF_01225}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. MoaA family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01225}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000312; ABG85391.1; -; Genomic_DNA.
+DR   RefSeq; WP_011592665.1; NC_008262.1.
+DR   RefSeq; YP_699075.1; NC_008262.1.
+DR   ProteinModelPortal; Q0SS32; -.
+DR   STRING; 289380.CPR_1760; -.
+DR   EnsemblBacteria; ABG85391; ABG85391; CPR_1760.
+DR   GeneID; 4204025; -.
+DR   KEGG; cpr:CPR_1760; -.
+DR   PATRIC; 19491823; VBICloPer122123_1740.
+DR   eggNOG; COG2896; -.
+DR   HOGENOM; HOG000228680; -.
+DR   KO; K03639; -.
+DR   OMA; TREMHDR; -.
+DR   OrthoDB; EOG64XXNN; -.
+DR   BioCyc; CPER289380:GI76-1771-MONOMER; -.
+DR   UniPathway; UPA00344; -.
+DR   Proteomes; UP000001824; Chromosome.
+DR   GO; GO:0019008; C:molybdopterin synthase complex; IEA:InterPro.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0061597; F:cyclic pyranopterin monophosphate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01225_B; MoaA_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR013483; MoaA.
+DR   InterPro; IPR000385; MoaA_NifB_PqqE_Fe-S-bd_CS.
+DR   InterPro; IPR010505; Mob_synth_C.
+DR   InterPro; IPR007197; rSAM.
+DR   Pfam; PF06463; Mob_synth_C; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR02666; moaA; 1.
+DR   PROSITE; PS01305; MOAA_NIFB_PQQE; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; GTP-binding; Iron; Iron-sulfur; Lyase;
+KW   Metal-binding; Molybdenum cofactor biosynthesis; Nucleotide-binding;
+KW   S-adenosyl-L-methionine.
+FT   CHAIN         1    323       Cyclic pyranopterin monophosphate
+FT                                synthase.
+FT                                /FTId=PRO_1000054189.
+FT   REGION      255    257       GTP binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01225}.
+FT   METAL        20     20       Iron-sulfur 1 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   METAL        24     24       Iron-sulfur 1 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   METAL        27     27       Iron-sulfur 1 (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   METAL       250    250       Iron-sulfur 2 (4Fe-4S-substrate).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   METAL       253    253       Iron-sulfur 2 (4Fe-4S-substrate).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   METAL       267    267       Iron-sulfur 2 (4Fe-4S-substrate).
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   BINDING      13     13       GTP. {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   BINDING      26     26       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   BINDING      63     63       GTP. {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   BINDING      67     67       S-adenosyl-L-methionine; via carbonyl
+FT                                oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01225}.
+FT   BINDING      94     94       GTP. {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   BINDING     118    118       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   BINDING     154    154       GTP. {ECO:0000255|HAMAP-Rule:MF_01225}.
+FT   BINDING     188    188       S-adenosyl-L-methionine; via amide
+FT                                nitrogen and carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01225}.
+SQ   SEQUENCE   323 AA;  37395 MW;  FBF44B84E910AAC6 CRC64;
+     MKDKYGREID YLRISLTDKC NLRCAYCMEK DHNDFIHNDK LMTLDEILRV VKECASIGIK
+     KVRLTGGEPL VREGIVDLIK NINKIPEIEE ICLTTNGILL GDKVKELSEN GLKRVNISLD
+     TLKEDRFKEI TRIGTLDKVL YSIEKCLENN VKVKINTVIL EDFNKDEILD LINLAYKNPI
+     DLRFIELMPI GEGKKFKGVT NSEILEIIKK EKKVLSDGKT LRLNGPAKYI SIEGFKGKIG
+     FISAMSDCFC EDCNRIRVTP EGFMKQCLHW KYGINLRDKM RNGISDEELR EIIKKSIYEK
+     PEKHNFKMKE KDEDKRFMYE IGG
+//

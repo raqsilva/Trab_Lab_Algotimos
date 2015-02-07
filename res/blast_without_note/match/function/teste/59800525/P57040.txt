@@ -1,0 +1,93 @@
+ID   RMLA_NEIMA              Reviewed;         288 AA.
+AC   P57040; A1IP45;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 1.
+DT   07-JAN-2015, entry version 80.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase;
+DE            EC=2.7.7.24;
+DE   AltName: Full=dTDP-glucose pyrophosphorylase;
+DE   AltName: Full=dTDP-glucose synthase;
+GN   Name=rmlA1; Synonyms=rfbA1; OrderedLocusNames=NMA0188;
+GN   and
+GN   Name=rmlA2; Synonyms=rfbA2; OrderedLocusNames=NMA0205;
+OS   Neisseria meningitidis serogroup A / serotype 4A (strain Z2491).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=122587;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Z2491;
+RX   PubMed=10761919; DOI=10.1038/35006655;
+RA   Parkhill J., Achtman M., James K.D., Bentley S.D., Churcher C.M.,
+RA   Klee S.R., Morelli G., Basham D., Brown D., Chillingworth T.,
+RA   Davies R.M., Davis P., Devlin K., Feltwell T., Hamlin N., Holroyd S.,
+RA   Jagels K., Leather S., Moule S., Mungall K.L., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., Simmonds M., Skelton J.,
+RA   Whitehead S., Spratt B.G., Barrell B.G.;
+RT   "Complete DNA sequence of a serogroup A strain of Neisseria
+RT   meningitidis Z2491.";
+RL   Nature 404:502-506(2000).
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: dTTP + alpha-D-glucose 1-phosphate =
+CC       diphosphate + dTDP-alpha-D-glucose.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate
+CC       thymidylyltransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL157959; CAM07503.1; -; Genomic_DNA.
+DR   EMBL; AL157959; CAM07519.1; -; Genomic_DNA.
+DR   PIR; H82014; H82014.
+DR   RefSeq; YP_002341734.1; NC_003116.1.
+DR   RefSeq; YP_002341748.1; NC_003116.1.
+DR   ProteinModelPortal; P57040; -.
+DR   SMR; P57040; 1-287.
+DR   STRING; 122587.NMA0205; -.
+DR   EnsemblBacteria; CAM07503; CAM07503; NMA0188.
+DR   EnsemblBacteria; CAM07519; CAM07519; NMA0205.
+DR   GeneID; 906203; -.
+DR   GeneID; 906219; -.
+DR   KEGG; nma:NMA0188; -.
+DR   KEGG; nma:NMA0205; -.
+DR   PATRIC; 20360958; VBINeiMen132687_0209.
+DR   eggNOG; COG1209; -.
+DR   HOGENOM; HOG000283473; -.
+DR   KO; K00973; -.
+DR   OMA; WRMGYIS; -.
+DR   OrthoDB; EOG6RC3RN; -.
+DR   BioCyc; NMEN122587:GI3Q-183-MONOMER; -.
+DR   BioCyc; NMEN122587:GI3Q-199-MONOMER; -.
+DR   Proteomes; UP000000626; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   PANTHER; PTHR22572:SF13; PTHR22572:SF13; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR01207; rmlA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Magnesium; Metal-binding; Nucleotidyltransferase;
+KW   Transferase.
+FT   CHAIN         1    288       Glucose-1-phosphate
+FT                                thymidylyltransferase.
+FT                                /FTId=PRO_0000207997.
+FT   METAL       108    108       Magnesium. {ECO:0000250}.
+FT   METAL       223    223       Magnesium. {ECO:0000250}.
+SQ   SEQUENCE   288 AA;  32152 MW;  C818727C546F5E00 CRC64;
+     MKGIILAGGS GTRLYPITRG VSKQLLPVYD KPMIYYPLSV LMLAGIRDIL VITAPEDNAS
+     FKRLLGDGSD FGISISYAVQ PSPDGLAQAF IIGEEFIGND NVCLVLGDNI FYGQSFTQTL
+     KQAAAQTHGA TVFAYQVKNP ERFGVVEFNE NFRAVSIEEK PQRPKSDWAV TGLYFYDNRA
+     VEFAKQLKPS ARGELEISDL NRMYLEDGSL SVQILGRGFA WLDTGTHESL HEAASFVQTV
+     QNIQNLHIAC LEEIAWRNGW LSDEKLEELA RTMAKNQYGQ YLLRLLKK
+//

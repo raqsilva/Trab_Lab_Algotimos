@@ -1,0 +1,111 @@
+ID   TDH_PYRAB               Reviewed;         348 AA.
+AC   Q9UYX0; G8ZHJ3;
+DT   28-MAR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   04-FEB-2015, entry version 98.
+DE   RecName: Full=Probable L-threonine 3-dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00627};
+DE            EC=1.1.1.103 {ECO:0000255|HAMAP-Rule:MF_00627};
+GN   Name=tdh {ECO:0000255|HAMAP-Rule:MF_00627};
+GN   OrderedLocusNames=PYRAB13870; ORFNames=PAB2382;
+OS   Pyrococcus abyssi (strain GE5 / Orsay).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=272844;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=12622808; DOI=10.1046/j.1365-2958.2003.03381.x;
+RA   Cohen G.N., Barbe V., Flament D., Galperin M., Heilig R., Lecompte O.,
+RA   Poch O., Prieur D., Querellou J., Ripp R., Thierry J.-C.,
+RA   Van der Oost J., Weissenbach J., Zivanovic Y., Forterre P.;
+RT   "An integrated analysis of the genome of the hyperthermophilic
+RT   archaeon Pyrococcus abyssi.";
+RL   Mol. Microbiol. 47:1495-1512(2003).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=22057919; DOI=10.1007/s00284-011-0035-x;
+RA   Gao J., Wang J.;
+RT   "Re-annotation of two hyperthermophilic archaea Pyrococcus abyssi GE5
+RT   and Pyrococcus furiosus DSM 3638.";
+RL   Curr. Microbiol. 64:118-129(2012).
+CC   -!- CATALYTIC ACTIVITY: L-threonine + NAD(+) = L-2-amino-3-
+CC       oxobutanoate + NADH. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00627};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00627};
+CC   -!- PATHWAY: Amino-acid degradation; L-threonine degradation via
+CC       oxydo-reductase pathway; glycine from L-threonine: step 1/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ248287; CAB50292.1; -; Genomic_DNA.
+DR   EMBL; HE613800; CCE70830.1; -; Genomic_DNA.
+DR   PIR; G75049; G75049.
+DR   RefSeq; NP_127062.1; NC_000868.1.
+DR   ProteinModelPortal; Q9UYX0; -.
+DR   SMR; Q9UYX0; 3-348.
+DR   STRING; 272844.PAB2382; -.
+DR   EnsemblBacteria; CAB50292; CAB50292; PAB2382.
+DR   GeneID; 1496776; -.
+DR   KEGG; pab:PAB2382; -.
+DR   eggNOG; COG1063; -.
+DR   HOGENOM; HOG000294686; -.
+DR   KO; K00060; -.
+DR   OMA; FELMRAG; -.
+DR   UniPathway; UPA00046; UER00505.
+DR   Proteomes; UP000000810; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008743; F:L-threonine 3-dehydrogenase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019518; P:L-threonine catabolic process to glycine; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   HAMAP; MF_00627; Thr_dehydrog; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR004627; L-Threonine_3-DHase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   TIGRFAMs; TIGR00692; tdh; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Metal-binding; NAD; Oxidoreductase;
+KW   Zinc.
+FT   CHAIN         1    348       Probable L-threonine 3-dehydrogenase.
+FT                                /FTId=PRO_0000160875.
+FT   METAL        42     42       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL        67     67       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL        97     97       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       100    100       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       103    103       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       111    111       Zinc 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+FT   METAL       152    152       Zinc 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00627}.
+SQ   SEQUENCE   348 AA;  37744 MW;  91A8ED13DC4B7AD8 CRC64;
+     MSEKMVAIMK TKPAYGAELV EVDVPKPGPG EVLIKVIATS ICGTDLHIYE WNEWAQSRIK
+     PPQIMGHEVA GEVVEVGPGV EGIEVGDYVS VETHIVCGKC YACRRGQYHV CQNTKIFGVD
+     TDGVFAEYAV VPAQNVWKNP KSIPPEYATL QEPLGNAVDT VLAGPISGKS VLITGAGPLG
+     LLGIAVAKAS GAYPVIVSEP SDFRRELAKK VGADYVINPF EEDVVKEVMD ITDGNGVDVF
+     LEFSGAPKAL EQGLQAVTPA GRVSLLGLYP GKVSIDFNNL IIFKALTVYG ITGRHLWETW
+     YTVSRLLQSG KLNLDPIITH KYKGFDKYEE AFELMRAGKT GKVVFMLK
+//

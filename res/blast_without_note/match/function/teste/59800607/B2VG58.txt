@@ -1,0 +1,101 @@
+ID   RHLB_ERWT9              Reviewed;         430 AA.
+AC   B2VG58;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   07-JAN-2015, entry version 46.
+DE   RecName: Full=ATP-dependent RNA helicase RhlB {ECO:0000255|HAMAP-Rule:MF_00661};
+DE            EC=3.6.4.13 {ECO:0000255|HAMAP-Rule:MF_00661};
+GN   Name=rhlB {ECO:0000255|HAMAP-Rule:MF_00661};
+GN   OrderedLocusNames=ETA_01940;
+OS   Erwinia tasmaniensis (strain DSM 17950 / Et1/99).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Erwinia.
+OX   NCBI_TaxID=338565;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17950 / Et1/99;
+RX   PubMed=18462403; DOI=10.1111/j.1462-2920.2008.01639.x;
+RA   Kube M., Migdoll A.M., Mueller I., Kuhl H., Beck A., Reinhardt R.,
+RA   Geider K.;
+RT   "The genome of Erwinia tasmaniensis strain Et1/99, a non-pathogenic
+RT   bacterium in the genus Erwinia.";
+RL   Environ. Microbiol. 10:2211-2222(2008).
+CC   -!- FUNCTION: DEAD-box RNA helicase involved in RNA degradation. Has
+CC       RNA-dependent ATPase activity and unwinds double-stranded RNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SUBUNIT: Component of the RNA degradosome, which is a multiprotein
+CC       complex involved in RNA processing and mRNA degradation.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. RhlB
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CU468135; CAO95240.1; -; Genomic_DNA.
+DR   RefSeq; YP_001906148.1; NC_010694.1.
+DR   STRING; 465817.ETA_01940; -.
+DR   PRIDE; B2VG58; -.
+DR   EnsemblBacteria; CAO95240; CAO95240; ETA_01940.
+DR   GeneID; 6299049; -.
+DR   KEGG; eta:ETA_01940; -.
+DR   PATRIC; 20426062; VBIErwTas9546_0241.
+DR   eggNOG; COG0513; -.
+DR   HOGENOM; HOG000268807; -.
+DR   KO; K03732; -.
+DR   OMA; RVQELAY; -.
+DR   OrthoDB; EOG6GBMBM; -.
+DR   BioCyc; ETAS465817:GI36-214-MONOMER; -.
+DR   Proteomes; UP000001726; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004004; F:ATP-dependent RNA helicase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006401; P:RNA catabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00661; DEAD_helicase_RhlB; 1.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR023554; RNA_helicase_ATP-dep_RhlB.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; Helicase; Hydrolase;
+KW   Nucleotide-binding; Reference proteome; RNA-binding.
+FT   CHAIN         1    430       ATP-dependent RNA helicase RhlB.
+FT                                /FTId=PRO_1000131294.
+FT   DOMAIN       40    219       Helicase ATP-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00661}.
+FT   DOMAIN      245    390       Helicase C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00661}.
+FT   NP_BIND      53     60       ATP. {ECO:0000255|HAMAP-Rule:MF_00661}.
+FT   MOTIF         9     37       Q motif.
+FT   MOTIF       165    168       DEAD box.
+SQ   SEQUENCE   430 AA;  48038 MW;  87D37CE23A6D3064 CRC64;
+     MSKTHLTEQK FSDFALHPQV IEALETKGFH NCTPIQALAL PFTLSGRDVA GQAQTGTGKT
+     MAFLTSTFHH LLSHPAPEGR QTNQPRALIL APTRELAVQI HADAEPLAQI TGLKLGLAYG
+     GDGYDKQLKV LENGVDVLIG TTGRLIDYAK QNHVNLGAIQ VVVLDEADRM FDLGFIKDIR
+     WLFRRMPAAN QRLNMLFSAT LSFRVRELAF ENMNNAEYVE VEPDQKTGHR IKEELFYPSN
+     EEKMRLLQTL IEEEWPDRTI IFANTKHRCE DVWGHLAADG HRVGLLTGDV AQKKRLRILD
+     DFTKGDVDIL VATDVAARGL HIPAVTHVFN YDLPDDREDY VHRIGRTGRA GANGHSISLA
+     CEEYALNLPA IEEYIGHSIT VSRYNSDALM TDLPPPKRLT RNRSGNGPRR GGNNNRRSSA
+     SRSPNRKRSG
+//

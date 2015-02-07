@@ -1,0 +1,86 @@
+ID   RHAR_SALCH              Reviewed;         282 AA.
+AC   Q57HG7;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   04-FEB-2015, entry version 80.
+DE   RecName: Full=HTH-type transcriptional activator RhaR {ECO:0000255|HAMAP-Rule:MF_01533};
+DE   AltName: Full=L-rhamnose operon transcriptional activator RhaR {ECO:0000255|HAMAP-Rule:MF_01533};
+GN   Name=rhaR {ECO:0000255|HAMAP-Rule:MF_01533};
+GN   OrderedLocusNames=SCH_3939;
+OS   Salmonella choleraesuis (strain SC-B67).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=321314;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SC-B67;
+RX   PubMed=15781495; DOI=10.1093/nar/gki297;
+RA   Chiu C.-H., Tang P., Chu C., Hu S., Bao Q., Yu J., Chou Y.-Y.,
+RA   Wang H.-S., Lee Y.-S.;
+RT   "The genome sequence of Salmonella enterica serovar Choleraesuis, a
+RT   highly invasive and resistant zoonotic pathogen.";
+RL   Nucleic Acids Res. 33:1690-1698(2005).
+CC   -!- FUNCTION: Activates expression of the rhaSR operon in response to
+CC       L-rhamnose. {ECO:0000255|HAMAP-Rule:MF_01533}.
+CC   -!- SUBUNIT: Binds DNA as a dimer. {ECO:0000255|HAMAP-Rule:MF_01533}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01533}.
+CC   -!- SIMILARITY: Contains 2 HTH araC/xylS-type DNA-binding domains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01533}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017220; AAX67845.1; -; Genomic_DNA.
+DR   RefSeq; YP_218926.1; NC_006905.1.
+DR   ProteinModelPortal; Q57HG7; -.
+DR   STRING; 321314.SC3939; -.
+DR   PaxDb; Q57HG7; -.
+DR   EnsemblBacteria; AAX67845; AAX67845; SCH_3939.
+DR   PATRIC; 32329235; VBISalEnt136302_4543.
+DR   eggNOG; COG2207; -.
+DR   OMA; LQTEDYF; -.
+DR   OrthoDB; EOG6Z3KH4; -.
+DR   BioCyc; SENT321314:GJCS-4121-MONOMER; -.
+DR   Proteomes; UP000000538; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0045893; P:positive regulation of transcription, DNA-templated; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019299; P:rhamnose metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.60; -; 2.
+DR   Gene3D; 2.60.120.280; -; 1.
+DR   HAMAP; MF_01533; HTH_type_RhaR; 1.
+DR   InterPro; IPR003313; AraC-bd.
+DR   InterPro; IPR009057; Homeodomain-like.
+DR   InterPro; IPR018060; HTH_AraC.
+DR   InterPro; IPR018062; HTH_AraC-typ_CS.
+DR   InterPro; IPR011051; RmlC_Cupin.
+DR   InterPro; IPR023699; Tscrpt_act_RhaR.
+DR   InterPro; IPR020449; Tscrpt_reg_HTH_AraC-type.
+DR   Pfam; PF02311; AraC_binding; 1.
+DR   Pfam; PF12833; HTH_18; 1.
+DR   PRINTS; PR00032; HTHARAC.
+DR   SMART; SM00342; HTH_ARAC; 1.
+DR   SUPFAM; SSF46689; SSF46689; 1.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+DR   PROSITE; PS00041; HTH_ARAC_FAMILY_1; 1.
+DR   PROSITE; PS01124; HTH_ARAC_FAMILY_2; 1.
+PE   3: Inferred from homology;
+KW   Activator; Complete proteome; Cytoplasm; DNA-binding; Repeat;
+KW   Rhamnose metabolism; Transcription; Transcription regulation.
+FT   CHAIN         1    282       HTH-type transcriptional activator RhaR.
+FT                                /FTId=PRO_0000194556.
+FT   DNA_BIND    195    214       H-T-H motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01533}.
+FT   DNA_BIND    244    267       H-T-H motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01533}.
+FT   SITE        246    246       Interaction with sigma-70.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01533}.
+SQ   SEQUENCE   282 AA;  32858 MW;  0C7129F57A320D98 CRC64;
+     MANQLILLKK DFFTDEQQAV TVADRYPQDI FAEHTHEFCE LVMVWRGNGL HVLNERPYRI
+     TRGDLFYIRA EDQHSYTSVN DLVLQNIIYC PERLKLNVNW QAMIPGFQGA QWHPHWRLGS
+     MGMNQARQVI NQLEHESNGR DPLANEMAEL LFGQLVMTLK RHRYATDDLP ATSRETLLDK
+     LITALANSLE CPFALDAFCQ QEQCSERVLR QQFRAQTGMT INQYLRQVRI CHAQYLLQHS
+     PLMVSEISMQ CGFEDSNYFS VVFTRETGMT PSQWRHLSNQ SD
+//

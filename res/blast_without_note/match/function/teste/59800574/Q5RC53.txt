@@ -1,0 +1,102 @@
+ID   GLRX2_PONAB             Reviewed;         161 AA.
+AC   Q5RC53;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   07-JAN-2015, entry version 61.
+DE   RecName: Full=Glutaredoxin-2, mitochondrial;
+DE   Flags: Precursor;
+GN   Name=GLRX2; Synonyms=GRX2;
+OS   Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Pongo.
+OX   NCBI_TaxID=9601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RG   The German cDNA consortium;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Glutathione-dependent oxidoreductase that facilitates
+CC       the maintenance of mitochondrial redox homeostasis upon induction
+CC       of apoptosis by oxidative stress. Involved in response to hydrogen
+CC       peroxide and regulation of apoptosis caused by oxidative stress.
+CC       Acts as a very efficient catalyst of monothiol reactions because
+CC       of its high affinity for protein glutathione-mixed disulfides. Can
+CC       receive electrons not only from glutathione (GSH), but also from
+CC       thioredoxin reductase supporting both monothiol and dithiol
+CC       reactions. Efficiently catalyzes both glutathionylation and
+CC       deglutathionylation of mitochondrial complex I, which in turn
+CC       regulates the superoxide production by the complex. Overexpression
+CC       decreases the susceptibility to apoptosis and prevents loss of
+CC       cardiolipin and cytochrome c release (By similarity).
+CC       {ECO:0000250}.
+CC   -!- ENZYME REGULATION: The 2Fe-2S present in the homodimer leads to
+CC       inactivation of the enzyme. The 2Fe-2S may serve as a redox
+CC       sensor: the presence of one-electron oxidants or reductants
+CC       leading to the loss of the 2Fe-2S cluster, subsequent
+CC       monomerization and activation of the enzyme (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer; active form. Homodimer; inactive form. The
+CC       homodimer is probably linked by 1 2Fe-2S cluster (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glutaredoxin family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 glutaredoxin domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00686}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CR858428; CAH90657.1; -; mRNA.
+DR   RefSeq; NP_001125356.1; NM_001131884.1.
+DR   UniGene; Pab.10987; -.
+DR   ProteinModelPortal; Q5RC53; -.
+DR   SMR; Q5RC53; 46-161.
+DR   GeneID; 100172258; -.
+DR   KEGG; pon:100172258; -.
+DR   CTD; 51022; -.
+DR   HOVERGEN; HBG096801; -.
+DR   InParanoid; Q5RC53; -.
+DR   KO; K03676; -.
+DR   Proteomes; UP000001595; Unplaced.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015035; F:protein disulfide oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR002109; Glutaredoxin.
+DR   InterPro; IPR011899; Glutaredoxin_euk/vir.
+DR   InterPro; IPR014025; Glutaredoxin_subgr.
+DR   InterPro; IPR012336; Thioredoxin-like_fold.
+DR   Pfam; PF00462; Glutaredoxin; 1.
+DR   PRINTS; PR00160; GLUTAREDOXIN.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   TIGRFAMs; TIGR02180; GRX_euk; 1.
+DR   PROSITE; PS51354; GLUTAREDOXIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   2Fe-2S; Complete proteome; Disulfide bond; Electron transport;
+KW   Glutathionylation; Iron; Iron-sulfur; Metal-binding; Mitochondrion;
+KW   Redox-active center; Reference proteome; Transit peptide; Transport.
+FT   TRANSIT       1     19       Mitochondrion. {ECO:0000255}.
+FT   CHAIN        20    161       Glutaredoxin-2, mitochondrial.
+FT                                /FTId=PRO_0000011630.
+FT   DOMAIN       54    154       Glutaredoxin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00686}.
+FT   METAL        65     65       Iron-sulfur (2Fe-2S); shared with dimeric
+FT                                partner; in inactive form. {ECO:0000250}.
+FT   METAL       150    150       Iron-sulfur (2Fe-2S); shared with dimeric
+FT                                partner; in inactive form. {ECO:0000250}.
+FT   BINDING      71     71       Glutathione. {ECO:0000250}.
+FT   BINDING     106    106       Glutathione. {ECO:0000250}.
+FT   BINDING     118    118       Glutathione; via amide nitrogen and
+FT                                carbonyl oxygen. {ECO:0000250}.
+FT   MOD_RES      74     74       S-glutathionyl cysteine; alternate.
+FT                                {ECO:0000250}.
+FT   DISULFID     74     77       Redox-active; alternate. {ECO:0000250}.
+SQ   SEQUENCE   161 AA;  17888 MW;  1FE3E25772979DFA CRC64;
+     MLWRRAALAG TRLVWSRSGS AGWLDRAAGA AATAASGMES NTSSSLENLE TAPVNQIQET
+     ISDNCVVIFS KTSCSYCTMA KKLFRDMNVN YKVVELDLLE YGNQFQDALY KMTGGRTVPR
+     IFVNGTFIGG ATDTHRLHKE GKLLPLVHQC YLKKSKRKEF Q
+//

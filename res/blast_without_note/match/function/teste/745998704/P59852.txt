@@ -1,0 +1,121 @@
+ID   LAGD_LACLL              Reviewed;         703 AA.
+AC   P59852;
+DT   19-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2003, sequence version 1.
+DT   07-JAN-2015, entry version 80.
+DE   RecName: Full=Lactococcin-G-processing and transport ATP-binding protein LagD;
+DE            EC=3.4.22.-;
+GN   Name=lagD;
+OS   Lactococcus lactis subsp. lactis (Streptococcus lactis).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Lactococcus.
+OX   NCBI_TaxID=1360;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], IDENTIFICATION OF PROTEOLYTIC
+RP   ACTIVITY, AND MUTAGENESIS.
+RC   STRAIN=LMG 2081;
+RX   PubMed=7565085; DOI=10.1111/j.1365-2958.1995.tb02295.x;
+RA   Havarstein L.S., Diep D.B., Nes I.F.;
+RT   "A family of bacteriocin ABC transporters carry out proteolytic
+RT   processing of their substrates concomitant with export.";
+RL   Mol. Microbiol. 16:229-240(1995).
+CC   -!- FUNCTION: LagD (TC 3.A.1) is involved in processing the signal
+CC       peptide and probably also in export of the bacteriocin lactococcin
+CC       G.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- DOMAIN: The first 150 amino acids are capable of cleaving the
+CC       signal sequence of LagA, the lactococcin G alpha precursor.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. LagD
+CC       family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 ABC transmembrane type-1 domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC   -!- SIMILARITY: Contains 1 ABC transporter domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00362, ECO:0000255|PROSITE-
+CC       ProRule:PRU00434}.
+CC   -!- SIMILARITY: Contains 1 peptidase C39 domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00362}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   ProteinModelPortal; P59852; -.
+DR   MEROPS; C39.001; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042626; F:ATPase activity, coupled to transmembrane movement of substances; IEA:InterPro.
+DR   GO; GO:0022885; F:bacteriocin transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0008234; F:cysteine-type peptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005897; Pept_C39_ABC_bacteriocin.
+DR   InterPro; IPR005074; Peptidase_C39.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF03412; Peptidase_C39; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF90123; SSF90123; 1.
+DR   TIGRFAMs; TIGR01193; bacteriocin_ABC; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS50990; PEPTIDASE_C39; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic biosynthesis; ATP-binding; Bacteriocin transport;
+KW   Cell membrane; Hydrolase; Membrane; Nucleotide-binding; Protease;
+KW   Protein transport; Thiol protease; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN         1    703       Lactococcin-G-processing and transport
+FT                                ATP-binding protein LagD.
+FT                                /FTId=PRO_0000092397.
+FT   TRANSMEM    162    182       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    189    209       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    224    244       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    267    287       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    291    311       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    381    401       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   TRANSMEM    409    429       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00441}.
+FT   DOMAIN        7    132       Peptidase C39. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362}.
+FT   DOMAIN      153    435       ABC transmembrane type-1.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00441}.
+FT   DOMAIN      469    703       ABC transporter. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362, ECO:0000255|PROSITE-
+FT                                ProRule:PRU00434}.
+FT   NP_BIND     502    509       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00362, ECO:0000255|PROSITE-
+FT                                ProRule:PRU00434}.
+FT   ACT_SITE     13     13
+FT   MUTAGEN      13     13       C->A: Complete loss of precursor
+FT                                processing. {ECO:0000269|PubMed:7565085}.
+FT   MUTAGEN      95     95       V->M: 5-fold reduction of precursor
+FT                                processing. {ECO:0000269|PubMed:7565085}.
+SQ   SEQUENCE   703 AA;  79350 MW;  138FFEE416E81873 CRC64;
+     MKKIIYQQDE KDCGVACIAM ILKHYGTEIT IQRLRELSGT DLDGTSAFGI KKTFEKLGFD
+     APAFKAGDET WQEKDIPLPL IAHIISEQKY QHYVVVYKVK GDEIWIADPA KGKIRKTISE
+     FSKEWTGVLL FPKPKAEYKP SIERVDSLST FFPILIKQKS LFITIFGIIS SYYFQGLLDN
+     IIPNQARSTL NILSIGLIFV YLFRVLFEYS RSYLLLLIGQ RMSMSIMLGY FKHVLSLPLS
+     FFATRKSGEI ISRFLDANKI IDALASATLS LILDIGMVIL VGTTLAIQST QLFLLTLAFL
+     PFYILVVYVF IRSYDKANTE EMSAGAEVNS SIIESLKGIE TIKSYNGENH VYDRVDSEFV
+     TLMKKSFKSV TLDNVQQSLK MVIELISSVL ILWLGSSYVI DGKISLGQLI TYNALLVFFT
+     EPLQNIINLQ VKMQKARVAN KRLNEIMSIS PEQRNTNINI SKNIFNKDIK LDKVSFSYNM
+     KLPVLRDVSL EIYSKSKVAL VGVSGSGKST LAKLLVKFYD PSEGNITYGD INCQDIENHK
+     LRNHVTYVPQ ESFFFNGTII DNLTFGLSHQ PEFEKIFRAC KAACLVDFIN QQPLRFDSVL
+     EEGGNNLSGG QKQRLAIARA ILNDSEIIIF DEATSGLDTL LEKEILEYLI KLQDKTIIFI
+     AHHLSIAKAC DEIIVLDQGI LVGRGTHEEL SEKEGVYRRL LNA
+//

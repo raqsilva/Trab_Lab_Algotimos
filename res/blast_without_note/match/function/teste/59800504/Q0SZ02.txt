@@ -1,0 +1,105 @@
+ID   XERC_SHIF8              Reviewed;         298 AA.
+AC   Q0SZ02;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   04-FEB-2015, entry version 57.
+DE   RecName: Full=Tyrosine recombinase XerC {ECO:0000255|HAMAP-Rule:MF_01808};
+GN   Name=xerC {ECO:0000255|HAMAP-Rule:MF_01808};
+GN   OrderedLocusNames=SFV_3688;
+OS   Shigella flexneri serotype 5b (strain 8401).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=373384;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=8401;
+RX   PubMed=16822325; DOI=10.1186/1471-2164-7-173;
+RA   Nie H., Yang F., Zhang X., Yang J., Chen L., Wang J., Xiong Z.,
+RA   Peng J., Sun L., Dong J., Xue Y., Xu X., Chen S., Yao Z., Shen Y.,
+RA   Jin Q.;
+RT   "Complete genome sequence of Shigella flexneri 5b and comparison with
+RT   Shigella flexneri 2a.";
+RL   BMC Genomics 7:173-173(2006).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by
+CC       catalyzing the cutting and rejoining of the recombining DNA
+CC       molecules. Binds cooperatively to specific DNA consensus sequences
+CC       that are separated from XerD binding sites by a short central
+CC       region, forming the heterotetrameric XerC-XerD complex that
+CC       recombines DNA substrates. The complex is essential to convert
+CC       dimers of the bacterial chromosome into monomers to permit their
+CC       segregation at cell division. It also contributes to the
+CC       segregational stability of plasmids. In the complex XerC
+CC       specifically exchanges the top DNA strands. {ECO:0000255|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- ENZYME REGULATION: FtsK may regulate the catalytic switch between
+CC       XerC and XerD in the heterotetrameric complex during the two steps
+CC       of the recombination process. {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -!- SUBUNIT: Forms a cyclic heterotetrameric complex composed of two
+CC       molecules of XerC and two molecules of XerD, in which XerC
+CC       interacts with XerD via its C-terminal region, XerD interacts with
+CC       XerC via its C-terminal region and so on. {ECO:0000255|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerC
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01808}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000266; ABF05713.1; -; Genomic_DNA.
+DR   RefSeq; YP_691018.1; NC_008258.1.
+DR   ProteinModelPortal; Q0SZ02; -.
+DR   STRING; 373384.SFV_3688; -.
+DR   EnsemblBacteria; ABF05713; ABF05713; SFV_3688.
+DR   GeneID; 4210230; -.
+DR   KEGG; sfv:SFV_3688; -.
+DR   PATRIC; 18731510; VBIShiFle33408_4206.
+DR   eggNOG; COG4973; -.
+DR   HOGENOM; HOG000045294; -.
+DR   KO; K03733; -.
+DR   OMA; GERRLPK; -.
+DR   OrthoDB; EOG6PZXFP; -.
+DR   BioCyc; SFLE373384:GHZM-3684-MONOMER; -.
+DR   Proteomes; UP000000659; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006313; P:transposition, DNA-mediated; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; -; 1.
+DR   HAMAP; MF_01808; Recomb_XerC; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat-core.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR010998; Integrase_Lambda-type_N.
+DR   InterPro; IPR023109; Integrase_recombinase_N.
+DR   InterPro; IPR004107; Integrase_SAM-like_N.
+DR   InterPro; IPR011931; Recomb_XerC.
+DR   InterPro; IPR023009; Tyrosine_recombinase_XerC/XerD.
+DR   Pfam; PF02899; Phage_int_SAM_1; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF47823; SSF47823; 1.
+DR   SUPFAM; SSF56349; SSF56349; 1.
+DR   TIGRFAMs; TIGR02224; recomb_XerC; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Chromosome partition; Complete proteome;
+KW   Cytoplasm; DNA integration; DNA recombination; DNA-binding.
+FT   CHAIN         1    298       Tyrosine recombinase XerC.
+FT                                /FTId=PRO_1000070041.
+FT   ACT_SITE    148    148       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    172    172       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    240    240       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    243    243       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    266    266       {ECO:0000255|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    275    275       O-(3'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01808}.
+SQ   SEQUENCE   298 AA;  33791 MW;  2ED4320D85E9338A CRC64;
+     MTDLHTDVER YLRYLSVERQ LSPITLLNYQ RQLEAIINFA SENGLQSWQQ CDAAMVRNFA
+     VRSRHKGLGA ASLALRLSAL RSFFDWLVSQ NELKANPAKG VSAPKAPRHL PKNIDVDDMN
+     RLLDIDINDP LAVRDRAMLE VMYGAGLRLS ELVGLDIKHL DLESGEVWVM GKGSKERRLP
+     IGRNAVAWIE HWLDLRDLFG SEDDALFLSK LGKRISARNV QKRFAEWGIK QGLNNHVHPH
+     KLRHSFATHM LESSGDLRGV QELLGHANLS TTQIYTHLDF QHLASVYDAA HPRAKRGK
+//

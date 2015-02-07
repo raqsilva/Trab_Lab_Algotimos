@@ -1,0 +1,103 @@
+ID   TATC_ECOL6              Reviewed;         258 AA.
+AC   Q8FBI6;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 66.
+DE   RecName: Full=Sec-independent protein translocase protein TatC {ECO:0000255|HAMAP-Rule:MF_00902};
+GN   Name=tatC {ECO:0000255|HAMAP-Rule:MF_00902}; Synonyms=mttB;
+GN   OrderedLocusNames=c4787;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P.,
+RA   Rasko D., Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D.,
+RA   Mayhew G.F., Rose D.J., Zhou S., Schwartz D.C., Perna N.T.,
+RA   Mobley H.L.T., Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence
+RT   of uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: Part of the twin-arginine translocation (Tat) system
+CC       that transports large folded proteins containing a characteristic
+CC       twin-arginine motif in their signal peptide across membranes.
+CC       Together with TatB, TatC is part of a receptor directly
+CC       interacting with Tat signal peptides. {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -!- SUBUNIT: The Tat system comprises two distinct complexes: a TatABC
+CC       complex, containing multiple copies of TatA, TatB and TatC
+CC       subunits, and a separate TatA complex, containing only TatA
+CC       subunits. Substrates initially bind to the TatABC complex, which
+CC       probably triggers association of the separate TatA complex to form
+CC       the active translocon. {ECO:0000255|HAMAP-Rule:MF_00902}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -!- SIMILARITY: Belongs to the TatC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00902}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014075; AAN83220.1; -; Genomic_DNA.
+DR   RefSeq; NP_756646.1; NC_004431.1.
+DR   STRING; 199310.c4787; -.
+DR   EnsemblBacteria; AAN83220; AAN83220; c4787.
+DR   GeneID; 1035673; -.
+DR   KEGG; ecc:c4787; -.
+DR   PATRIC; 18287257; VBIEscCol75197_4492.
+DR   HOGENOM; HOG000245379; -.
+DR   KO; K03118; -.
+DR   OMA; ATQIYKF; -.
+DR   OrthoDB; EOG60SCQS; -.
+DR   BioCyc; ECOL199310:C4787-MONOMER; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0033281; C:TAT protein transport complex; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008320; F:protein transmembrane transporter activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043953; P:protein transport by the Tat complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00902; TatC; 1.
+DR   InterPro; IPR019820; Sec-indep_translocase_CS.
+DR   InterPro; IPR002033; TatC.
+DR   PANTHER; PTHR30371:SF0; PTHR30371:SF0; 1.
+DR   Pfam; PF00902; TatC; 1.
+DR   PRINTS; PR01840; TATCFAMILY.
+DR   TIGRFAMs; TIGR00945; tatC; 1.
+DR   PROSITE; PS01218; TATC; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Membrane;
+KW   Protein transport; Translocation; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    258       Sec-independent protein translocase
+FT                                protein TatC.
+FT                                /FTId=PRO_0000098084.
+FT   TOPO_DOM      2     23       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     24     44       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TOPO_DOM     45     75       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM     76     96       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TOPO_DOM     97    115       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    116    136       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TOPO_DOM    137    156       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    157    177       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TOPO_DOM    178    192       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    193    210       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TOPO_DOM    211    211       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    212    232       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00902}.
+FT   TOPO_DOM    233    258       Cytoplasmic. {ECO:0000255}.
+SQ   SEQUENCE   258 AA;  28892 MW;  E799459206463A55 CRC64;
+     MSVEDTQPLI THLIELRKRL LNCIISVIVI FLCLVYFAND IYHLVSAPLI KQLPQGSTMI
+     ATDVASPFFT PIKLTFMVSL ILSAPVILYQ VWAFIAPALY KHERRLVVPL LVSSSLLFYI
+     GMAFAYFVVF PLAFGFLANT APEGVQVSTD IASYLSFVMA LFMAFGVSFE VPVAIVLLCW
+     MGITSPEDLR KKRPYVLVGA FVVGMLLTPP DVFSQTLLAI PMYCLFEIGV FFSRFYVGKG
+     RNREEENDAE AESEKTEE
+//

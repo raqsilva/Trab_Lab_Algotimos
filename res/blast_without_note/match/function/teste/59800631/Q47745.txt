@@ -1,0 +1,118 @@
+ID   VANS_ENTFA              Reviewed;         447 AA.
+AC   Q47745;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   07-JAN-2015, entry version 116.
+DE   RecName: Full=Sensor protein VanSB;
+DE            EC=2.7.13.3;
+DE   AltName: Full=Vancomycin B-type resistance protein VanSB;
+DE   AltName: Full=Vancomycin histidine protein kinase;
+GN   Name=vanSB; OrderedLocusNames=EF_2298;
+OS   Enterococcus faecalis (strain ATCC 700802 / V583).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;
+OC   Enterococcus.
+OX   NCBI_TaxID=226185;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 700802 / V583;
+RX   PubMed=8631706;
+RA   Evers S., Courvalin P.;
+RT   "Regulation of VanB-type vancomycin resistance gene expression by the
+RT   VanS(B)-VanR(B) two-component regulatory system in Enterococcus
+RT   faecalis V583.";
+RL   J. Bacteriol. 178:1302-1309(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700802 / V583;
+RX   PubMed=12663927; DOI=10.1126/science.1080613;
+RA   Paulsen I.T., Banerjei L., Myers G.S.A., Nelson K.E., Seshadri R.,
+RA   Read T.D., Fouts D.E., Eisen J.A., Gill S.R., Heidelberg J.F.,
+RA   Tettelin H., Dodson R.J., Umayam L.A., Brinkac L.M., Beanan M.J.,
+RA   Daugherty S.C., DeBoy R.T., Durkin S.A., Kolonay J.F., Madupu R.,
+RA   Nelson W.C., Vamathevan J.J., Tran B., Upton J., Hansen T., Shetty J.,
+RA   Khouri H.M., Utterback T.R., Radune D., Ketchum K.A., Dougherty B.A.,
+RA   Fraser C.M.;
+RT   "Role of mobile DNA in the evolution of vancomycin-resistant
+RT   Enterococcus faecalis.";
+RL   Science 299:2071-2074(2003).
+CC   -!- FUNCTION: Member of the two-component regulatory system VanS/VanR.
+CC       Activates the transcription of vanH, vanA and vanX in response to
+CC       vancomycin which results in vancomycin resistance. VanS activates
+CC       VanR by phosphorylation.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U35369; AAB05623.1; -; Genomic_DNA.
+DR   EMBL; AE016830; AAO82025.1; -; Genomic_DNA.
+DR   RefSeq; NP_815955.1; NC_004668.1.
+DR   RefSeq; WP_002368696.1; NZ_KE136528.1.
+DR   ProteinModelPortal; Q47745; -.
+DR   STRING; 226185.EF2298; -.
+DR   EnsemblBacteria; AAO82025; AAO82025; EF_2298.
+DR   GeneID; 1201170; -.
+DR   KEGG; efa:EF2298; -.
+DR   PATRIC; 21854865; VBIEntFae7065_2153.
+DR   eggNOG; COG0642; -.
+DR   KO; K18345; -.
+DR   OMA; SANKMAN; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; EFAE226185:GHI1-2254-MONOMER; -.
+DR   BRENDA; 2.7.13.3; 2095.
+DR   Proteomes; UP000001415; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; ATP-binding; Cell membrane;
+KW   Cell wall biogenesis/degradation; Complete proteome; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase;
+KW   Transmembrane; Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    447       Sensor protein VanSB.
+FT                                /FTId=PRO_0000074892.
+FT   TRANSMEM     10     30       Helical. {ECO:0000255}.
+FT   TRANSMEM    137    155       Helical. {ECO:0000255}.
+FT   DOMAIN      157    208       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      230    445       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     233    233       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   447 AA;  50112 MW;  6471F8A63C7498A2 CRC64;
+     MERKGIFIKV FSYTIIVLLL LVGVTATLFA QQFVSYFRAM EAQQTVKSYQ PLVELIQNSD
+     RLDMQEVAGL FHYNNQSFEF YIEDKEGSVL YATPNADTSN SVRPDFLYVV HRDDNISIVA
+     QSKAGVGLLY QGLTIRGIVM IAIMVVFSLL CAYIFARQMT TPIKALADSA NKMANLKEVP
+     PPLERKDELG ALAHDMHSMY IRLKETIARL EDEIAREHEL EETQRYFFAA ASHELKTPIA
+     AVSVLLEGML ENIGDYKDHS KYLRECIKMM DRQGKTISEI LELVSLNDGR IVPIAEPLDI
+     GRTVAELLPD FQTLAEANNQ RFVTDIPAGQ IVLSDPKLIQ KALSNVILNA VQNTPQGGEV
+     RIWSEPGAEK YRLSVLNMGV HIDDTALSKL FIPFYRIDQA RSRKSGRSGL GLAIVQKTLD
+     AMSLQYALEN TSDGVLFWLD LPPTSTL
+//

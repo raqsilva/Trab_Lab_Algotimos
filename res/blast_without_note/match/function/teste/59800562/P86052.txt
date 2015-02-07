@@ -1,0 +1,103 @@
+ID   CYC4_THIRO              Reviewed;         192 AA.
+AC   P86052;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 1.
+DT   07-JAN-2015, entry version 19.
+DE   RecName: Full=Cytochrome c4 {ECO:0000303|PubMed:17931594, ECO:0000303|PubMed:18085548};
+OS   Thiocapsa roseopersicina.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;
+OC   Chromatiaceae; Thiocapsa.
+OX   NCBI_TaxID=1058;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, AND HEME-BINDING.
+RX   PubMed=18085548; DOI=10.1002/jms.1337;
+RA   Branca R.M.M., Bodo G., Bagyinka C., Prokai L.;
+RT   "De novo sequencing of a 21-kDa cytochrome c4 from Thiocapsa
+RT   roseopersicina by nanoelectrospray ionization ion-trap and Fourier-
+RT   transform ion-cyclotron resonance mass spectrometry.";
+RL   J. Mass Spectrom. 42:1569-1582(2007).
+RN   [2] {ECO:0000305}
+RP   FUNCTION, SUBCELLULAR LOCATION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=17931594; DOI=10.1016/j.abb.2007.07.031;
+RA   Branca R.M.M., Bodo G., Varkonyi Z., Debreczeny M., Oesz J.,
+RA   Bagyinka C.;
+RT   "Oxygen and temperature-dependent structural and redox changes in a
+RT   novel cytochrome c(4) from the purple sulfur photosynthetic bacterium
+RT   Thiocapsa roseopersicina.";
+RL   Arch. Biochem. Biophys. 467:174-184(2007).
+RN   [3] {ECO:0000305}
+RP   CRYSTALLIZATION, AND X-RAY CRYSTALLOGRAPHY (1.72 ANGSTROMS).
+RX   PubMed=16880567; DOI=10.1107/S1744309106027710;
+RA   Tomcova I., Branca R.M.M., Bodo G., Bagyinka C., Smatanova I.K.;
+RT   "Cross-crystallization method used for the crystallization and
+RT   preliminary diffraction analysis of a novel di-haem cytochrome c4.";
+RL   Acta Crystallogr. F 62:820-824(2006).
+CC   -!- FUNCTION: Diheme, high potential cytochrome c believed to be an
+CC       intermediate electron donor in an anaerobic electron transport
+CC       chain. {ECO:0000269|PubMed:17931594}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Absorption:
+CC         Abs(max)=417 nm {ECO:0000269|PubMed:17931594};
+CC         Note=The absorbance maximum is for the reduced state. The
+CC         oxidized cytochrome exhibits a weak maximum at 695 nm.;
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000269|PubMed:17931594}.
+CC   -!- PTM: Binds 2 heme groups per subunit.
+CC       {ECO:0000269|PubMed:18085548}.
+CC   -!- MASS SPECTROMETRY: Mass=20749.0; Method=Electrospray; Range=1-192;
+CC       Note=The measured mass is that of the peptide with a mercury ion
+CC       coordinated to each heme binding motif.;
+CC       Evidence={ECO:0000269|PubMed:18085548};
+CC   -!- SIMILARITY: Contains 2 cytochrome c domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00433}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   GO; GO:0042597; C:periplasmic space; IDA:UniProtKB.
+DR   GO; GO:0009055; F:electron carrier activity; IDA:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; IDA:UniProtKB.
+DR   GO; GO:0005506; F:iron ion binding; IDA:UniProtKB.
+DR   GO; GO:0022900; P:electron transport chain; IDA:UniProtKB.
+DR   GO; GO:0015886; P:heme transport; IDA:UniProtKB.
+DR   Gene3D; 1.10.760.10; -; 2.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   InterPro; IPR008168; Cyt_C_IC.
+DR   InterPro; IPR024167; Cytochrome_c4.
+DR   Pfam; PF00034; Cytochrom_C; 2.
+DR   PIRSF; PIRSF000005; Cytochrome_c4; 1.
+DR   PRINTS; PR00605; CYTCHROMECIC.
+DR   SUPFAM; SSF46626; SSF46626; 2.
+DR   PROSITE; PS51007; CYTC; 2.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Electron transport; Heme; Iron;
+KW   Metal-binding; Periplasm; Repeat; Transport.
+FT   CHAIN         1    192       Cytochrome c4.
+FT                                /FTId=PRO_0000355076.
+FT   DOMAIN       12     90       Cytochrome c 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   DOMAIN       99    191       Cytochrome c 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00433}.
+FT   METAL        29     29       Iron (heme 1 axial ligand).
+FT                                {ECO:0000250|UniProtKB:Q52369,
+FT                                ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   METAL       124    124       Iron (heme 2 axial ligand).
+FT                                {ECO:0000250|UniProtKB:Q52369,
+FT                                ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   BINDING      25     25       Heme 1 (covalent).
+FT                                {ECO:0000250|UniProtKB:Q52369,
+FT                                ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   BINDING      28     28       Heme 1 (covalent).
+FT                                {ECO:0000250|UniProtKB:Q52369,
+FT                                ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   BINDING     120    120       Heme 2 (covalent).
+FT                                {ECO:0000250|UniProtKB:Q52369,
+FT                                ECO:0000255|PROSITE-ProRule:PRU00433}.
+FT   BINDING     123    123       Heme 2 (covalent).
+FT                                {ECO:0000250|UniProtKB:Q52369,
+FT                                ECO:0000255|PROSITE-ProRule:PRU00433}.
+SQ   SEQUENCE   192 AA;  20362 MW;  DBA2A84DE8852824 CRC64;
+     TDGHQAAAPQ VGDPQAGEAK ANGVCLACHG PQGNSLVPIW PKLAGQHPEY IVKQLMDFKQ
+     RRANEQMTPM AMPLTDQEVL DLAAYYATQP KTPGAADPEL ASKGESLYRW GNPETGVPAC
+     SGCHGPAGGA GQSLAKFPRL SAQHADYTKQ TLEHFRGALR ANDPNGMMRG AAARLSDQEI
+     AAVSQYLQGL SQ
+//

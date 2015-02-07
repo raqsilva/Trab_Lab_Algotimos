@@ -1,0 +1,87 @@
+ID   LPXD1_LEGPL             Reviewed;         351 AA.
+AC   Q5X0C0;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase 1 {ECO:0000255|HAMAP-Rule:MF_00523};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   Name=lpxD1 {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   OrderedLocusNames=lpl0100;
+OS   Legionella pneumophila (strain Lens).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=297245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Lens;
+RX   PubMed=15467720; DOI=10.1038/ng1447;
+RA   Cazalet C., Rusniok C., Brueggemann H., Zidane N., Magnier A., Ma L.,
+RA   Tichit M., Jarraud S., Bouchier C., Vandenesch F., Kunst F.,
+RA   Etienne J., Glaser P., Buchrieser C.;
+RT   "Evidence in the Legionella pneumophila genome for exploitation of
+RT   host cell functions and high genome plasticity.";
+RL   Nat. Genet. 36:1165-1173(2004).
+CC   -!- FUNCTION: Catalyzes the N-acylation of UDP-3-O-acylglucosamine
+CC       using 3-hydroxyacyl-ACP as the acyl donor. Is involved in the
+CC       biosynthesis of lipid A, a phosphorylated glycolipid that anchors
+CC       the lipopolysaccharide to the outer membrane of the cell.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- CATALYTIC ACTIVITY: (3R)-3-hydroxyacyl-[acyl-carrier-protein] +
+CC       UDP-3-O-acyl-alpha-D-glucosamine = UDP-2,3-diacyl-alpha-D-
+CC       glucosamine + [acyl-carrier-protein]. {ECO:0000255|HAMAP-
+CC       Rule:MF_00523}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SIMILARITY: Belongs to the transferase hexapeptide repeat family.
+CC       LpxD subfamily. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CR628337; CAH14330.1; -; Genomic_DNA.
+DR   RefSeq; YP_125478.1; NC_006369.1.
+DR   ProteinModelPortal; Q5X0C0; -.
+DR   STRING; 297245.lpl0100; -.
+DR   EnsemblBacteria; CAH14330; CAH14330; lpl0100.
+DR   GeneID; 3113558; -.
+DR   KEGG; lpf:lpl0100; -.
+DR   PATRIC; 22313635; VBILegPne33733_0168.
+DR   LegioList; lpl0100; -.
+DR   eggNOG; COG1044; -.
+DR   HOGENOM; HOG000294340; -.
+DR   KO; K02536; -.
+DR   OMA; TIDKGVT; -.
+DR   OrthoDB; EOG6JB11D; -.
+DR   BioCyc; LPNE297245:GJD4-104-MONOMER; -.
+DR   UniPathway; UPA00973; -.
+DR   Proteomes; UP000002517; Chromosome.
+DR   GO; GO:0016747; F:transferase activity, transferring acyl groups other than amino-acyl groups; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00523; LpxD; 1.
+DR   InterPro; IPR001451; Hexapep_transf.
+DR   InterPro; IPR018357; Hexapep_transf_CS.
+DR   InterPro; IPR011004; Trimer_LpxA-like.
+DR   InterPro; IPR007691; UDP-3-O_GlcNAc_AcTrfase.
+DR   InterPro; IPR020573; UDP_GlcNAc_AcTrfase_non-rep.
+DR   Pfam; PF00132; Hexapep; 4.
+DR   Pfam; PF04613; LpxD; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   TIGRFAMs; TIGR01853; lipid_A_lpxD; 1.
+DR   PROSITE; PS00101; HEXAPEP_TRANSFERASES; 2.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Lipid A biosynthesis;
+KW   Lipid biosynthesis; Lipid metabolism; Repeat; Transferase.
+FT   CHAIN         1    351       UDP-3-O-acylglucosamine N-acyltransferase
+FT                                1.
+FT                                /FTId=PRO_0000264387.
+FT   ACT_SITE    237    237       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00523}.
+SQ   SEQUENCE   351 AA;  37285 MW;  E7DC6675ED332489 CRC64;
+     MNSSLRDIAN LVQGMVIGND AITVSTLSPI DNILPGSLVF AEGEDNIKLA ENSEAAAILI
+     GQGTIDSPKP LIQVKNPFKA FIALLNHFYP PRRISPGVHP TAVIGAEVQL GDEVYVGPFV
+     VIESGSIIGN HSVLKSHIHI GHNVVIGDHT TIHPQVTIYD NCRIGSNVTI HASTVIGSDG
+     FGYTFVDGQH LKVPHSGYVV IENNVEIGAN TAIDKATLGA TVVGEGTKID NLVQIAHSVK
+     LGKHNIICAF TGIAGSTTTG NNVIFAANVG VSDHVHIEDE VILGARTGVP PHKHLKKGTV
+     YLGNPAKPKD VAIKHELSVN RIPLIRKNIK SLTEQVAVIN KKLDIKAKEV E
+//

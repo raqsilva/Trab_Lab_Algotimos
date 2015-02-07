@@ -1,0 +1,109 @@
+ID   QSEC_SALTY              Reviewed;         449 AA.
+AC   Q8ZLZ9;
+DT   11-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-JAN-2015, entry version 95.
+DE   RecName: Full=Sensor protein QseC;
+DE            EC=2.7.13.3;
+GN   Name=qseC; OrderedLocusNames=STM3178;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Member of a two-component regulatory system QseB/QseC.
+CC       Activates the flagella regulon by activating transcription of
+CC       FlhDC. May activate QseB by phosphorylation (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-
+CC       pass membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE006468; AAL22052.1; -; Genomic_DNA.
+DR   RefSeq; NP_462093.1; NC_003197.1.
+DR   ProteinModelPortal; Q8ZLZ9; -.
+DR   STRING; 99287.STM3178; -.
+DR   PaxDb; Q8ZLZ9; -.
+DR   PRIDE; Q8ZLZ9; -.
+DR   EnsemblBacteria; AAL22052; AAL22052; STM3178.
+DR   GeneID; 1254701; -.
+DR   KEGG; stm:STM3178; -.
+DR   PATRIC; 32385123; VBISalEnt20916_3369.
+DR   eggNOG; COG0642; -.
+DR   HOGENOM; HOG000223178; -.
+DR   KO; K07645; -.
+DR   OMA; FGQMWIW; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   PhylomeDB; Q8ZLZ9; -.
+DR   BioCyc; SENT99287:GCTI-3198-MONOMER; -.
+DR   BRENDA; 2.7.13.3; 5542.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Reference proteome; Transferase; Transmembrane; Transmembrane helix;
+KW   Two-component regulatory system.
+FT   CHAIN         1    449       Sensor protein QseC.
+FT                                /FTId=PRO_0000074707.
+FT   TOPO_DOM      1     12       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     13     33       Helical. {ECO:0000255}.
+FT   TOPO_DOM     34    161       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    162    182       Helical. {ECO:0000255}.
+FT   TOPO_DOM    183    449       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN      183    235       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      243    449       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     246    246       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   449 AA;  50538 MW;  97F93CDA054F9EAD CRC64;
+     MKLTQRLSLR VRLTLIFLIL VSITWAISSF VAWRKTTDNV DELFDTQLML FARRLSTLDL
+     NEINAPQRMA HTPKKLKHGH IDDDALAFAI FSADGKMLLH DGDNGQDIPY RYRREGFDNG
+     YLKDDNDLWR FLWLNSADGK YRIVVGQEWD YREDMALAIV AAQLTPWLIA LPFMLLILLL
+     LLHRELRPLK KLAQALRFRS PESETPLDAK GVPSEVRPLV EALNQLFSRI HSMMVRERRF
+     TSDAAHELRS PLAALKVQTE VAQLSGDDPL SRDKALTQLH AGIDRATRLV DQLLTLSRLD
+     SLNNLQDVAE ISLEELLQSA VMDIYHPAQQ ANIDVRLQLN AHDVIRTGQP LLLSLLVRNL
+     LDNAIRYSPQ GSVVDVTLHA RSFTVRDNGP GVAPEILTHI GERFYRPPGQ SVTGSGLGLS
+     IVRRIATLHG MTVSFGNAAE GGFEAVVSW
+//

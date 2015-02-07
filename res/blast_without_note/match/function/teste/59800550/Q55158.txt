@@ -1,0 +1,141 @@
+ID   RIBD_SYNY3              Reviewed;         368 AA.
+AC   Q55158;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   07-JAN-2015, entry version 107.
+DE   RecName: Full=Riboflavin biosynthesis protein RibD;
+DE   Includes:
+DE     RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase;
+DE              Short=DRAP deaminase;
+DE              EC=3.5.4.26;
+DE     AltName: Full=Riboflavin-specific deaminase;
+DE   Includes:
+DE     RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase;
+DE              EC=1.1.1.193;
+DE     AltName: Full=HTP reductase;
+GN   Name=ribD; OrderedLocusNames=slr0066;
+OS   Synechocystis sp. (strain PCC 6803 / Kazusa).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Synechocystis.
+OX   NCBI_TaxID=1111708;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27184 / PCC 6803 / N-1;
+RX   PubMed=8590279; DOI=10.1093/dnares/2.4.153;
+RA   Kaneko T., Tanaka A., Sato S., Kotani H., Sazuka T., Miyajima N.,
+RA   Sugiura M., Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. I. Sequence features in the 1 Mb
+RT   region from map positions 64% to 92% of the genome.";
+RL   DNA Res. 2:153-166(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=8905231; DOI=10.1093/dnares/3.3.109;
+RA   Kaneko T., Sato S., Kotani H., Tanaka A., Asamizu E., Nakamura Y.,
+RA   Miyajima N., Hirosawa M., Sugiura M., Sasamoto S., Kimura T.,
+RA   Hosouchi T., Matsuno A., Muraki A., Nakazaki N., Naruo K., Okumura S.,
+RA   Shimpo S., Takeuchi C., Wada T., Watanabe A., Yamada M., Yasuda M.,
+RA   Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. II. Sequence determination of the
+RT   entire genome and assignment of potential protein-coding regions.";
+RL   DNA Res. 3:109-136(1996).
+CC   -!- FUNCTION: Converts 2,5-diamino-6-(ribosylamino)-4(3h)-pyrimidinone
+CC       5'-phosphate into 5-amino-6-(ribosylamino)-2,4(1h,3h)-
+CC       pyrimidinedione 5'-phosphate.
+CC   -!- CATALYTIC ACTIVITY: 2,5-diamino-6-hydroxy-4-(5-
+CC       phosphoribosylamino)pyrimidine + H(2)O = 5-amino-6-(5-
+CC       phosphoribosylamino)uracil + NH(3).
+CC   -!- CATALYTIC ACTIVITY: 5-amino-6-(5-phospho-D-ribitylamino)uracil +
+CC       NADP(+) = 5-amino-6-(5-phospho-D-ribosylamino)uracil + NADPH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 2/4.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 3/4.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the cytidine and
+CC       deoxycytidylate deaminase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the HTP
+CC       reductase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000022; BAA10295.1; -; Genomic_DNA.
+DR   PIR; S74377; S74377.
+DR   RefSeq; NP_442225.1; NC_000911.1.
+DR   RefSeq; YP_005652285.1; NC_017277.1.
+DR   RefSeq; YP_007452101.1; NC_020286.1.
+DR   ProteinModelPortal; Q55158; -.
+DR   IntAct; Q55158; 7.
+DR   STRING; 1148.slr0066; -.
+DR   EnsemblBacteria; BAA10295; BAA10295; BAA10295.
+DR   GeneID; 952613; -.
+DR   KEGG; syn:slr0066; -.
+DR   PATRIC; 23842080; VBISynSp132158_2581.
+DR   eggNOG; COG0117; -.
+DR   HOGENOM; HOG000257443; -.
+DR   InParanoid; Q55158; -.
+DR   KO; K11752; -.
+DR   OMA; HQRPFGI; -.
+DR   OrthoDB; EOG66F07R; -.
+DR   PhylomeDB; Q55158; -.
+DR   UniPathway; UPA00275; UER00401.
+DR   UniPathway; UPA00275; UER00402.
+DR   Proteomes; UP000001425; Chromosome.
+DR   GO; GO:0008703; F:5-amino-6-(5-phosphoribosylamino)uracil reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008835; F:diaminohydroxyphosphoribosylaminopyrimidine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.430.10; -; 1.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR024072; DHFR-like_dom.
+DR   InterPro; IPR004794; Eubact_RibD.
+DR   InterPro; IPR011549; RibD_C.
+DR   InterPro; IPR002734; RibDG_C.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   Pfam; PF01872; RibD_C; 1.
+DR   PIRSF; PIRSF006769; RibD; 1.
+DR   SUPFAM; SSF53597; SSF53597; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR00326; eubact_ribD; 1.
+DR   TIGRFAMs; TIGR00227; ribD_Cterm; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Metal-binding; Multifunctional enzyme;
+KW   NADP; Oxidoreductase; Reference proteome; Riboflavin biosynthesis;
+KW   Zinc.
+FT   CHAIN         1    368       Riboflavin biosynthesis protein RibD.
+FT                                /FTId=PRO_0000171724.
+FT   NP_BIND     291    297       NADP. {ECO:0000250}.
+FT   REGION        1    146       Deaminase.
+FT   REGION      147    368       Reductase.
+FT   ACT_SITE     53     53       Proton donor. {ECO:0000250}.
+FT   METAL        51     51       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        76     76       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        85     85       Zinc; catalytic. {ECO:0000250}.
+FT   BINDING     155    155       NADP; via amide nitrogen and carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     169    169       Substrate. {ECO:0000250}.
+FT   BINDING     171    171       NADP. {ECO:0000250}.
+FT   BINDING     185    185       Substrate. {ECO:0000250}.
+FT   BINDING     197    197       NADP. {ECO:0000250}.
+FT   BINDING     201    201       NADP. {ECO:0000250}.
+FT   BINDING     205    205       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     289    289       Substrate. {ECO:0000250}.
+SQ   SEQUENCE   368 AA;  39995 MW;  BCDA8ED0916B50BC CRC64;
+     MISDQTHMRR CLTLAKTAIG KTAPNPLVGS VIVQGDEIVG QGFHPQAGQP HGEIFALWEA
+     GDRAKGATLY VNLEPCNHQG RTPPCTEAII QAGIAKVVVG MVDPNPLVAG KGISRLRQAG
+     IEVKVGVEEE ACQRLNEAFC FRIKHQRPFG IFKYAMTLDG KIATAQAHSS WVTSSSARHW
+     VHQLRSQCQA VIIGGNTVRR DNPLLTNHGV GEVNPLRVVL SRSLDLPIEA QLWDQDVAKT
+     LVITEKTCDR NTLSHLEKLE VETLVLEQLT PLAVMEELYQ RNCLQVLWEC GGILAAEAIA
+     MGTVQKVHAF LAPKIIGGVA APTPVGELGF QQMTQALNLT DLHCQAIGPD WLFTGYLCGN
+     DDNGQSNI
+//

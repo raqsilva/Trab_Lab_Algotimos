@@ -1,0 +1,132 @@
+ID   LAD_PENCW               Reviewed;         385 AA.
+AC   B6HI95;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 1.
+DT   07-JAN-2015, entry version 41.
+DE   RecName: Full=L-arabinitol 4-dehydrogenase;
+DE            Short=LAD;
+DE            EC=1.1.1.12;
+GN   Name=lad1; ORFNames=Pc21g23190;
+OS   Penicillium chrysogenum (strain ATCC 28089 / DSM 1075 / Wisconsin
+OS   54-1255) (Penicillium notatum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Penicillium;
+OC   Penicillium chrysogenum complex.
+OX   NCBI_TaxID=500485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 28089 / DSM 1075 / Wisconsin 54-1255;
+RX   PubMed=18820685; DOI=10.1038/nbt.1498;
+RA   van den Berg M.A., Albang R., Albermann K., Badger J.H., Daran J.-M.,
+RA   Driessen A.J.M., Garcia-Estrada C., Fedorova N.D., Harris D.M.,
+RA   Heijne W.H.M., Joardar V.S., Kiel J.A.K.W., Kovalchuk A., Martin J.F.,
+RA   Nierman W.C., Nijland J.G., Pronk J.T., Roubos J.A.,
+RA   van der Klei I.J., van Peij N.N.M.E., Veenhuis M., von Doehren H.,
+RA   Wagner C., Wortman J.R., Bovenberg R.A.L.;
+RT   "Genome sequencing and analysis of the filamentous fungus Penicillium
+RT   chrysogenum.";
+RL   Nat. Biotechnol. 26:1161-1168(2008).
+RN   [2]
+RP   FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, COFACTOR, SUBUNIT,
+RP   MUTAGENESIS OF 212-ASP-ILE-213 AND SER-358, AND ZINC-BINDING.
+RX   PubMed=20414651; DOI=10.1007/s00253-010-2593-4;
+RA   Kim B., Sullivan R.P., Zhao H.;
+RT   "Cloning, characterization, and engineering of fungal L-arabinitol
+RT   dehydrogenases.";
+RL   Appl. Microbiol. Biotechnol. 87:1407-1414(2010).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent oxidation of L-arabinitol to
+CC       L-xylulose in the fungal L-arabinose catabolic pathway. L-
+CC       arabinose catabolism is important for using plant material as a
+CC       carbon source. NAPD cannot act as a cosubstrate.
+CC       {ECO:0000269|PubMed:20414651}.
+CC   -!- CATALYTIC ACTIVITY: L-arabinitol + NAD(+) = L-xylulose + NADH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:20414651};
+CC       Note=Binds 2 Zn(2+) ions per subunit.
+CC       {ECO:0000269|PubMed:20414651};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=37 mM for L-arabinitol (at pH 7)
+CC         {ECO:0000269|PubMed:20414651};
+CC         KM=300 uM for NAD (at pH 7) {ECO:0000269|PubMed:20414651};
+CC       pH dependence:
+CC         Optimum pH is 9.4. Active from pH 7 to pH 11.
+CC         {ECO:0000269|PubMed:20414651};
+CC       Temperature dependence:
+CC         Optimum temperature is 40-50 degrees Celsius.
+CC         {ECO:0000269|PubMed:20414651};
+CC   -!- PATHWAY: Carbohydrate degradation; L-arabinose degradation via L-
+CC       arabinitol; D-xylulose 5-phosphate from L-arabinose (fungal
+CC       route): step 2/5.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:20414651}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM920436; CAP97216.1; -; Genomic_DNA.
+DR   RefSeq; XP_002569286.1; XM_002569240.1.
+DR   ProteinModelPortal; B6HI95; -.
+DR   STRING; 500485.B6HI95; -.
+DR   GeneID; 8310191; -.
+DR   KEGG; pcs:Pc21g23190; -.
+DR   eggNOG; COG1063; -.
+DR   KO; K00008; -.
+DR   OMA; GPMIVEG; -.
+DR   OrthoDB; EOG79CZ8G; -.
+DR   BioCyc; PCHR:PC21G23190-MONOMER; -.
+DR   UniPathway; UPA00146; UER00575.
+DR   Proteomes; UP000000724; Contig Pc00c21.
+DR   GO; GO:0050019; F:L-arabinitol 4-dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0019569; P:L-arabinose catabolic process to xylulose 5-phosphate; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   1: Evidence at protein level;
+KW   Arabinose catabolism; Carbohydrate metabolism; Complete proteome;
+KW   Metal-binding; NAD; Nucleotide-binding; Oxidoreductase;
+KW   Reference proteome; Zinc.
+FT   CHAIN         1    385       L-arabinitol 4-dehydrogenase.
+FT                                /FTId=PRO_0000418407.
+FT   NP_BIND     191    192       NAD. {ECO:0000250}.
+FT   NP_BIND     316    318       NAD. {ECO:0000250}.
+FT   METAL        54     54       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        79     79       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        80     80       Zinc; catalytic. {ECO:0000250}.
+FT   METAL       109    109       Zinc; structural. {ECO:0000250}.
+FT   METAL       112    112       Zinc; structural. {ECO:0000250}.
+FT   METAL       115    115       Zinc; structural. {ECO:0000250}.
+FT   METAL       123    123       Zinc; structural. {ECO:0000250}.
+FT   METAL       164    164       Zinc; catalytic. {ECO:0000250}.
+FT   BINDING     212    212       NAD. {ECO:0000250}.
+FT   BINDING     217    217       NAD. {ECO:0000250}.
+FT   BINDING     292    292       NAD; via carbonyl oxygen. {ECO:0000250}.
+FT   MUTAGEN     212    213       DI->SR: Alters cofactor specificity from
+FT                                NAD to NADP; when associated with T-358.
+FT                                {ECO:0000269|PubMed:20414651}.
+FT   MUTAGEN     358    358       S->T: Alters cofactor specificity from
+FT                                NAD to NADP; when associated with 212-SR-
+FT                                213. {ECO:0000269|PubMed:20414651}.
+SQ   SEQUENCE   385 AA;  41030 MW;  E1E063C41F883A00 CRC64;
+     MASATVTKTN IGVYTNPKHD LWIADSSPTA EDINAGKGLK AGEVTIEVRS TGICGSDVHF
+     WHAGCIGPMI VTGDHVLGHE SAGQVLAVAP DVTHLKVGDR VAVEPNVICN ACEPCLTGRY
+     NGCVNVAFLS TPPVDGLLRR YVNHPAVWCH KIGDMSYEDG AMLEPLSVTL AAIERSGLRL
+     GDPLLITGAG PIGLISLLSA RAAGACPIVI TDIDEGRLAF AKSLVPEVRT YKVEIGKSAE
+     ECADGIINAL NDGQGSGPDA LRPKLALECT GVESSVNSAI WSVKFGGKVF VIGVGKNEMT
+     IPFMRLSTQE IDLQYQYRYC NTWPRAIRLI QNGVIDLSKL VTHRYSLENA LQAFETASNP
+     KTGAIKVQIM SSEEDVKAAT AGQKY
+//

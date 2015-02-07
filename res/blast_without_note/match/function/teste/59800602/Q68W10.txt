@@ -1,0 +1,108 @@
+ID   HLYC_RICTY              Reviewed;         305 AA.
+AC   Q68W10; O87917;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   07-JAN-2015, entry version 58.
+DE   RecName: Full=Hemolysin C;
+GN   Name=tlyC; OrderedLocusNames=RT0725;
+OS   Rickettsia typhi (strain ATCC VR-144 / Wilmington).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=257363;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION IN HEMOLYSIS.
+RC   STRAIN=ATCC VR-144 / Wilmington;
+RX   PubMed=10531273;
+RA   Radulovic S., Troyer J.M., Beier M.S., Lau A.O.T., Azad A.F.;
+RT   "Identification and molecular analysis of the gene encoding Rickettsia
+RT   typhi hemolysin.";
+RL   Infect. Immun. 67:6104-6108(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-144 / Wilmington;
+RX   PubMed=15317790; DOI=10.1128/JB.186.17.5842-5855.2004;
+RA   McLeod M.P., Qin X., Karpathy S.E., Gioia J., Highlander S.K.,
+RA   Fox G.E., McNeill T.Z., Jiang H., Muzny D., Jacob L.S., Hawes A.C.,
+RA   Sodergren E., Gill R., Hume J., Morgan M., Fan G., Amin A.G.,
+RA   Gibbs R.A., Hong C., Yu X.-J., Walker D.H., Weinstock G.M.;
+RT   "Complete genome sequence of Rickettsia typhi and comparison with
+RT   sequences of other Rickettsiae.";
+RL   J. Bacteriol. 186:5842-5855(2004).
+CC   -!- MISCELLANEOUS: Confers a hemolytic phenotype when expressed in the
+CC       nonhemolytic mutant of Proteus mirabilis.
+CC   -!- SIMILARITY: Belongs to the UPF0053 family. Hemolysin C subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 CBS domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00703}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U97482; AAC62436.1; -; Genomic_DNA.
+DR   EMBL; AE017197; AAU04182.1; -; Genomic_DNA.
+DR   RefSeq; YP_067664.1; NC_006142.1.
+DR   ProteinModelPortal; Q68W10; -.
+DR   STRING; 257363.RT0725; -.
+DR   EnsemblBacteria; AAU04182; AAU04182; RT0725.
+DR   GeneID; 2959107; -.
+DR   KEGG; rty:RT0725; -.
+DR   PATRIC; 17910702; VBIRicTyp34752_0745.
+DR   eggNOG; COG1253; -.
+DR   HOGENOM; HOG000062294; -.
+DR   OMA; NRGETQD; -.
+DR   OrthoDB; EOG60W7V4; -.
+DR   BioCyc; RTYP257363:GJEQ-764-MONOMER; -.
+DR   Proteomes; UP000000604; Chromosome.
+DR   GO; GO:0030554; F:adenyl nucleotide binding; IEA:InterPro.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0016614; F:oxidoreductase activity, acting on CH-OH group of donors; IEA:InterPro.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   InterPro; IPR000644; CBS_dom.
+DR   InterPro; IPR016169; CO_DH_flavot_FAD-bd_sub2.
+DR   InterPro; IPR016166; FAD-bd_2.
+DR   InterPro; IPR005170; Transptr-assoc_dom.
+DR   Pfam; PF00571; CBS; 1.
+DR   Pfam; PF03471; CorC_HlyC; 1.
+DR   SMART; SM00116; CBS; 2.
+DR   SMART; SM01091; CorC_HlyC; 1.
+DR   SUPFAM; SSF56176; SSF56176; 1.
+DR   PROSITE; PS51371; CBS; 2.
+PE   1: Evidence at protein level;
+KW   CBS domain; Complete proteome; Cytolysis; Hemolysis; Repeat; Toxin;
+KW   Virulence.
+FT   CHAIN         1    305       Hemolysin C.
+FT                                /FTId=PRO_0000319034.
+FT   DOMAIN       81    142       CBS 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00703}.
+FT   DOMAIN      146    203       CBS 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00703}.
+FT   CONFLICT      7      7       K -> H (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT     17     17       D -> N (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT     27     27       L -> F (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT     56     56       K -> Q (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT     74     74       N -> D (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT     97     97       A -> E (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT    142    142       T -> P (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT    237    237       K -> G (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT    279    279       I -> T (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+FT   CONFLICT    299    302       RDSF -> SD (in Ref. 1; AAC62436).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   305 AA;  34629 MW;  D2760B09AEE6F1EA CRC64;
+     MLKSSKKEDS SSKKNQDNKL IFIVRQLFYL IKHLFSKTKT PDNFFGIIKR LKINSKKMSL
+     DECNILANLL QLENKTVEDI MVPRSDIVAI KLTTNLAELS ESIKIEVPHT RTLIYDGTLD
+     NVVGFIHIKD LFKALATKQN STLKRLIRKH IIAAPSMKLL DLLAKMRRER THIAIVVDEY
+     GGTDGLVTIE DLIEEIVGRI DDEHDQQLDS TNFKVINNST IIANARIEVE LLEEIIKEKI
+     KNDDDEFDTI GGLVLTRVSS VPAIGTRIDI SENIEIEVID ATPRSLKQVK IRLKNGLNRD
+     SFNLT
+//

@@ -1,0 +1,91 @@
+ID   XYL2_ASPTN              Reviewed;         353 AA.
+AC   Q0CWQ2;
+DT   20-APR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   07-JAN-2015, entry version 54.
+DE   RecName: Full=Probable D-xylulose reductase A;
+DE            EC=1.1.1.9;
+DE   AltName: Full=Xylitol dehydrogenase A;
+GN   Name=xdhA; ORFNames=ATEG_01882;
+OS   Aspergillus terreus (strain NIH 2624 / FGSC A1156).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus.
+OX   NCBI_TaxID=341663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NIH 2624 / FGSC A1156;
+RA   Birren B.W., Lander E.S., Galagan J.E., Nusbaum C., Devon K., Henn M.,
+RA   Ma L.-J., Jaffe D.B., Butler J., Alvarez P., Gnerre S., Grabherr M.,
+RA   Kleber M., Mauceli E.W., Brockman W., Rounsley S., Young S.K.,
+RA   LaButti K., Pushparaj V., DeCaprio D., Crawford M., Koehrsen M.,
+RA   Engels R., Montgomery P., Pearson M., Howarth C., Larson L., Luoma S.,
+RA   White J., Alvarado L., Kodira C.D., Zeng Q., Oleary S., Yandava C.,
+RA   Denning D.W., Nierman W.C., Milne T., Madden K.;
+RT   "Annotation of the Aspergillus terreus NIH2624 genome.";
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Xylitol dehydrogenase which catalyzes the conversion of
+CC       xylitol to D-xylulose. Xylose is a major component of
+CC       hemicelluloses such as xylan. Most fungi utilize D-xylose via
+CC       three enzymatic reactions, xylose reductase (XR), xylitol
+CC       dehydrogenase (XDH), and xylulokinase, to form xylulose 5-
+CC       phosphate, which enters pentose phosphate pathway (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Xylitol + NAD(+) = D-xylulose + NADH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate degradation; L-arabinose degradation via L-
+CC       arabinitol; D-xylulose 5-phosphate from L-arabinose (fungal
+CC       route): step 4/5.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CH476595; EAU38639.1; -; Genomic_DNA.
+DR   RefSeq; XP_001209247.1; XM_001209247.1.
+DR   ProteinModelPortal; Q0CWQ2; -.
+DR   STRING; 33178.CADATEAP00002034; -.
+DR   EnsemblFungi; CADATEAT00002034; CADATEAP00002034; CADATEAG00002034.
+DR   GeneID; 4315996; -.
+DR   eggNOG; COG1063; -.
+DR   HOGENOM; HOG000294670; -.
+DR   OMA; VNYTGIC; -.
+DR   OrthoDB; EOG79CZ8G; -.
+DR   UniPathway; UPA00146; UER00577.
+DR   Proteomes; UP000007963; Unassembled WGS sequence.
+DR   GO; GO:0046526; F:D-xylulose reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0042732; P:D-xylose metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0019569; P:L-arabinose catabolic process to xylulose 5-phosphate; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.180.10; -; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_GroES-like.
+DR   InterPro; IPR002085; ADH_SF_Zn-type.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR11695; PTHR11695; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Complete proteome; Metal-binding; NAD;
+KW   Oxidoreductase; Reference proteome; Xylose metabolism; Zinc.
+FT   CHAIN         1    353       Probable D-xylulose reductase A.
+FT                                /FTId=PRO_0000393512.
+FT   NP_BIND     177    182       NAD. {ECO:0000255}.
+FT   METAL        42     42       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        67     67       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        68     68       Zinc; catalytic. {ECO:0000250}.
+SQ   SEQUENCE   353 AA;  37571 MW;  5BE28868B27AB2ED CRC64;
+     MSAQNLSFVL QGIHQVKFED RPIPELKDPH GVIVNVRFTG ICGSDVHYWE HGSIGQFVVK
+     DPMVLGHESS GVITKVGSAV TTLKVGDRVA MEPGIPCRRC EPCKAGKYNL CYEMAFAATP
+     PYDGTLAKYY ALPEDFCYKL PEQITLQEGA LMEPLGVAVH IVRQAAVTPG QSVVVFGAGP
+     VGLLCCAVAR AFGASKIVAV DIQKPRLEFA KNYAATAIFE PAKVAAQENA ARLIAENDLG
+     PGADVAIDAS GAEPSVHTGI HVLRTGGTYV QGGMGRSEMN FPIMAACTKE LNVKGSFRYG
+     SGDYKLAVEL VASGRVNVKE LITGVVKFEE AEQAFKEVKA GKGIKTLISG IEA
+//

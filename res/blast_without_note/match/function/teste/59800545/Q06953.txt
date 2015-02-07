@@ -1,0 +1,94 @@
+ID   GDPPS_VIBCL             Reviewed;         367 AA.
+AC   Q06953;
+DT   29-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   04-FEB-2015, entry version 54.
+DE   RecName: Full=GDP-perosamine synthase {ECO:0000305};
+DE            EC=2.6.1.102 {ECO:0000269|PubMed:11479276};
+GN   Name=rfbE {ECO:0000303|PubMed:8529891};
+OS   Vibrio cholerae.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=666;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=El Tor O17 / Serotype O1;
+RX   PubMed=1372980; DOI=10.1073/pnas.89.7.2566;
+RA   Stroeher U.H., Karageorgos L.E., Morona R., Manning P.A.;
+RT   "Serotype conversion in Vibrio cholerae O1.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 89:2566-2570(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], GENE NAME, AND PATHWAY.
+RC   STRAIN=Serotype O1;
+RX   PubMed=8529891; DOI=10.1016/0378-1119(95)00589-0;
+RA   Stroeher U.H., Karageorgos L.E., Brown M.H., Morona R., Manning P.A.;
+RT   "A putative pathway for perosamine biosynthesis is the first function
+RT   encoded within the rfb region of Vibrio cholerae O1.";
+RL   Gene 166:33-42(1995).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   AND SUBUNIT.
+RC   STRAIN=Serotype O1;
+RX   PubMed=11479276; DOI=10.1093/glycob/11.8.655;
+RA   Albermann C., Piepersberg W.;
+RT   "Expression and identification of the RfbE protein from Vibrio
+RT   cholerae O1 and its use for the enzymatic synthesis of GDP-D-
+RT   perosamine.";
+RL   Glycobiology 11:655-661(2001).
+CC   -!- FUNCTION: Catalyzes the synthesis of GDP-perosamine from GDP-4-
+CC       keto-6-deoxy-D-mannose and L-glutamate. Shows also weak activity
+CC       with L-glutamine. {ECO:0000269|PubMed:11479276}.
+CC   -!- CATALYTIC ACTIVITY: GDP-4-amino-4,6-dideoxy-alpha-D-mannose + 2-
+CC       oxoglutarate = GDP-4-dehydro-6-deoxy-alpha-D-mannose + L-
+CC       glutamate. {ECO:0000269|PubMed:11479276}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000269|PubMed:11479276};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.06 mM for GDP-4-keto-6-deoxy-D-mannose
+CC         {ECO:0000269|PubMed:11479276};
+CC         KM=0.1 mM for L-glutamate {ECO:0000269|PubMed:11479276};
+CC       pH dependence:
+CC         Optimum pH is 8.0. {ECO:0000269|PubMed:11479276};
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS O-antigen
+CC       biosynthesis. {ECO:0000303|PubMed:8529891}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:11479276}.
+CC   -!- SIMILARITY: Belongs to the DegT/DnrJ/EryC1 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X59554; CAA42137.1; -; Genomic_DNA.
+DR   PIR; S28471; S28471.
+DR   ProteinModelPortal; Q06953; -.
+DR   BioCyc; MetaCyc:MONOMER-13575; -.
+DR   UniPathway; UPA00281; -.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009243; P:O antigen biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   1: Evidence at protein level;
+KW   Aminotransferase; Lipopolysaccharide biosynthesis;
+KW   Pyridoxal phosphate; Transferase.
+FT   CHAIN         1    367       GDP-perosamine synthase.
+FT                                /FTId=PRO_0000430721.
+FT   MOD_RES     181    181       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250|UniProtKB:Q8ZNF3}.
+SQ   SEQUENCE   367 AA;  41011 MW;  CA73ABB7CEC5E800 CRC64;
+     MIPVYEPSLD GNERKYLNDC IDSGWVSSRG KYIDRFETEF AEFLKVKHAT TVSNGTVALH
+     LAMSALGITQ GDEVIVPTFT YVASVNTIVQ CGALPVFAEI EGESLQVSVE DVKRKINKKT
+     KAVMAVHIYG QACDIQSLRD LCDEHGLYLI EDCAEAIGTA VNGKKVGTFG DVSTFSFFGN
+     KTITSGEGGM VVSNSDIIID KCLRLKNQGV VAGKRYWHDL VAYNYRMTNL CAAIGVAQLE
+     RVDKIIKAKR DIAEIYRSEL AGLPMQVHKE SNGTFHSYWL TSIILDQEFE VHRDGLMTFL
+     ENNDIESRPF FYPAHTLPMY EHLAEKTAFP LSNSYSHRGI NLPSWPGLCD DQVKEICNCI
+     KNYFNCI
+//

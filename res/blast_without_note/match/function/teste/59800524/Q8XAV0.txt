@@ -1,0 +1,99 @@
+ID   RUTF_ECO57              Reviewed;         164 AA.
+AC   Q8XAV0;
+DT   02-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAY-2002, sequence version 2.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=FMN reductase (NADH) RutF;
+DE            EC=1.5.1.42;
+DE   AltName: Full=FMN reductase;
+DE   AltName: Full=NADH-flavin reductase RutF;
+DE   AltName: Full=NADH:flavin oxidoreductase;
+GN   Name=rutF; OrderedLocusNames=Z1506, ECs1253;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D.,
+RA   Rose D.J., Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A.,
+RA   Posfai G., Hackett J., Klink S., Boutin A., Shao Y., Miller L.,
+RA   Grotbeck E.J., Davis N.W., Lim A., Dimalanta E.T., Potamousis K.,
+RA   Apodaca J., Anantharaman T.S., Lin J., Yen G., Schwartz D.C.,
+RA   Welch R.A., Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T.,
+RA   Iida T., Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T.,
+RA   Kuhara S., Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli
+RT   O157:H7 and genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- FUNCTION: Catalyzes the reduction of FMN to FMNH2 which is used to
+CC       reduce pyrimidine by RutA via the Rut pathway. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: FMNH(2) + NAD(+) = FMN + NADH.
+CC   -!- INDUCTION: Up-regulated by the nitrogen regulatory protein C (NtrC
+CC       also called GlnG) and repressed by RutR. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the non-flavoprotein flavin reductase
+CC       family. RutF subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAG55623.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC       Sequence=BAB34676.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005174; AAG55623.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; BA000007; BAB34676.1; ALT_INIT; Genomic_DNA.
+DR   PIR; C85645; C85645.
+DR   PIR; E90785; E90785.
+DR   RefSeq; NP_287012.1; NC_002655.2.
+DR   RefSeq; NP_309280.2; NC_002695.1.
+DR   ProteinModelPortal; Q8XAV0; -.
+DR   SMR; Q8XAV0; 4-159.
+DR   STRING; 155864.Z1506; -.
+DR   EnsemblBacteria; AAG55623; AAG55623; Z1506.
+DR   EnsemblBacteria; BAB34676; BAB34676; BAB34676.
+DR   GeneID; 912887; -.
+DR   GeneID; 959143; -.
+DR   KEGG; ece:Z1506; -.
+DR   KEGG; ecs:ECs1253; -.
+DR   PATRIC; 18351739; VBIEscCol44059_5445.
+DR   eggNOG; COG1853; -.
+DR   HOGENOM; HOG000115783; -.
+DR   KO; K09024; -.
+DR   OMA; THTIVIA; -.
+DR   OrthoDB; EOG6T1WSH; -.
+DR   BioCyc; ECOL386585:GJFA-1246-MONOMER; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0010181; F:FMN binding; IEA:InterPro.
+DR   GO; GO:0008752; F:FMN reductase activity; IEA:InterPro.
+DR   GO; GO:0042602; F:riboflavin reductase (NADPH) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019740; P:nitrogen utilization; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006212; P:uracil catabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.30.110.10; -; 1.
+DR   HAMAP; MF_00833; RutF; 1.
+DR   InterPro; IPR002563; Flavin_Rdtase_FMN-bd.
+DR   InterPro; IPR019917; RutF.
+DR   InterPro; IPR012349; Split_barrel_FMN-bd.
+DR   Pfam; PF01613; Flavin_Reduct; 1.
+DR   SMART; SM00903; Flavin_Reduct; 1.
+DR   SUPFAM; SSF50475; SSF50475; 1.
+DR   TIGRFAMs; TIGR03615; RutF; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Flavoprotein; FMN; NAD; Oxidoreductase.
+FT   CHAIN         1    164       FMN reductase (NADH) RutF.
+FT                                /FTId=PRO_0000085538.
+SQ   SEQUENCE   164 AA;  17760 MW;  78778237EF228380 CRC64;
+     MNIVDQQTFR DAMSCMGAAV NIITTDGPAG RAGFTASAVC SVTDTPPTLL VCLNRGASVW
+     PVFNENRTLC VNTLSAGQEP LSNLFGGKTP MEHRFAAARW QNGVTGCPQL EEALVSFDCR
+     ISQVVSVGTH DILFCAIEAI HRHATPYGLV WFDRSYHALM RPAC
+//

@@ -1,0 +1,150 @@
+ID   CSHA_STAA8              Reviewed;         506 AA.
+AC   Q2FWH5;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 1.
+DT   04-FEB-2015, entry version 67.
+DE   RecName: Full=DEAD-box ATP-dependent RNA helicase CshA {ECO:0000255|HAMAP-Rule:MF_01493};
+DE            EC=3.6.4.13 {ECO:0000255|HAMAP-Rule:MF_01493};
+GN   Name=cshA {ECO:0000255|HAMAP-Rule:MF_01493};
+GN   OrderedLocusNames=SAOUHSC_02316;
+OS   Staphylococcus aureus (strain NCTC 8325).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=93061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 8325;
+RA   Gillaspy A.F., Worrell V., Orvis J., Roe B.A., Dyer D.W.,
+RA   Iandolo J.J.;
+RT   "The Staphylococcus aureus NCTC 8325 genome.";
+RL   (In) Fischetti V., Novick R., Ferretti J., Portnoy D., Rood J. (eds.);
+RL   Gram positive pathogens, 2nd edition, pp.381-412, ASM Press,
+RL   Washington D.C. (2006).
+RN   [2]
+RP   INTERACTION WITH ENO; PFKA; RNPA AND RNY, AND SUBUNIT.
+RC   STRAIN=UAMS-1;
+RX   PubMed=21764917; DOI=10.1128/JB.05485-11;
+RA   Roux C.M., DeMuth J.P., Dunman P.M.;
+RT   "Characterization of components of the Staphylococcus aureus mRNA
+RT   degradosome holoenzyme-like complex.";
+RL   J. Bacteriol. 193:5520-5526(2011).
+RN   [3]
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=SA564;
+RX   PubMed=22447609; DOI=10.1128/AEM.00202-12;
+RA   Redder P., Linder P.;
+RT   "New range of vectors with a stringent 5-fluoroorotic acid-based
+RT   counterselection system for generating mutants by allelic replacement
+RT   in Staphylococcus aureus.";
+RL   Appl. Environ. Microbiol. 78:3846-3854(2012).
+RN   [4]
+RP   FUNCTION AS AN ATPASE, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, DISRUPTION PHENOTYPE, AND MUTAGENESIS OF LYS-52.
+RC   STRAIN=S30, and SA564;
+RX   PubMed=23229022; DOI=10.4161/rna.22899;
+RA   Oun S., Redder P., Didier J.P., Francois P., Corvaglia A.R.,
+RA   Buttazzoni E., Giraud C., Girard M., Schrenzel J., Linder P.;
+RT   "The CshA DEAD-box RNA helicase is important for quorum sensing
+RT   control in Staphylococcus aureus.";
+RL   RNA Biol. 10:157-165(2013).
+CC   -!- FUNCTION: A probable ATP-dependent RNA helicase with RNA-dependent
+CC       ATPase activity. Involved in regulation of biofilm formation and
+CC       hemolysis via its effects on stability of mRNA from the agrBDCA
+CC       operon. Also involved in response to cold stress.
+CC       {ECO:0000269|PubMed:23229022}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01493, ECO:0000269|PubMed:23229022}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.7 mM for ATP {ECO:0000269|PubMed:23229022};
+CC         Note=kcat 140 min(-1), in strain S30.;
+CC   -!- SUBUNIT: Homodimer (Probable). Component of a possible RNA
+CC       degradosome complex composed of cshA, eno, pfkA, pnp, rnjA, rnjB,
+CC       rnpA and rny. Interacts specifically with enolase,
+CC       phosphofructokinase and RNases RnpA and Y.
+CC       {ECO:0000269|PubMed:21764917, ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- DISRUPTION PHENOTYPE: In strain S30, cold-sensitive; decreased
+CC       growth at 30 degrees Celsius, no growth at 20 degrees Celsius.
+CC       Reduced biofilm formation, increased hemolytic activity, increased
+CC       stability of mRNAs of the agrBDCA operon. A double agrA-cshA
+CC       mutation has wild-type biofilm and hemolytic activity (all
+CC       phenotypes in strain S30). {ECO:0000269|PubMed:22447609,
+CC       ECO:0000269|PubMed:23229022}.
+CC   -!- MISCELLANEOUS: All disruption phenotypes were also seen for
+CC       deletion in strain SA564.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. CshA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01493}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000253; ABD31350.1; -; Genomic_DNA.
+DR   RefSeq; YP_500795.1; NC_007795.1.
+DR   ProteinModelPortal; Q2FWH5; -.
+DR   SMR; Q2FWH5; 3-409.
+DR   STRING; 93061.SAOUHSC_02316; -.
+DR   PRIDE; Q2FWH5; -.
+DR   EnsemblBacteria; ABD31350; ABD31350; SAOUHSC_02316.
+DR   GeneID; 3920941; -.
+DR   KEGG; sao:SAOUHSC_02316; -.
+DR   PATRIC; 19581965; VBIStaAur99865_2099.
+DR   eggNOG; COG0513; -.
+DR   HOGENOM; HOG000268810; -.
+DR   KO; K05592; -.
+DR   OMA; FKKGQHK; -.
+DR   OrthoDB; EOG6GBMBM; -.
+DR   BioCyc; SAUR93061:GIWJ-2253-MONOMER; -.
+DR   Proteomes; UP000008816; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008026; F:ATP-dependent helicase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_01493; DEAD_helicase_CshA; 1.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Helicase; Hydrolase;
+KW   Nucleotide-binding; Reference proteome; RNA-binding; Stress response.
+FT   CHAIN         1    506       DEAD-box ATP-dependent RNA helicase CshA.
+FT                                /FTId=PRO_0000284825.
+FT   DOMAIN       33    203       Helicase ATP-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01493}.
+FT   DOMAIN      214    375       Helicase C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01493}.
+FT   NP_BIND      46     53       ATP. {ECO:0000255|HAMAP-Rule:MF_01493}.
+FT   MOTIF         2     30       Q motif.
+FT   MOTIF       150    153       DEAD box.
+FT   MUTAGEN      52     52       K->A: Loss of RNA-dependent ATPase. Does
+FT                                not complement disruption mutant at 20 or
+FT                                30 degrees Celsius, does not resotre
+FT                                biofilm formation.
+FT                                {ECO:0000269|PubMed:23229022}.
+SQ   SEQUENCE   506 AA;  56942 MW;  715B524C11F4D2D4 CRC64;
+     MQNFKELGIS DNTVQSLESM GFKEPTPIQK DSIPYALQGI DILGQAQTGT GKTGAFGIPL
+     IEKVVGKQGV QSLILAPTRE LAMQVAEQLR EFSRGQGVQV VTVFGGMPIE RQIKALKKGP
+     QIVVGTPGRV IDHLNRRTLK TDGIHTLILD EADEMMNMGF IDDMRFIMDK IPAVQRQTML
+     FSATMPKAIQ ALVQQFMKSP KIIKTMNNEM SDPQIEEFYT IVKELEKFDT FTNFLDVHQP
+     ELAIVFGRTK RRVDELTSAL ISKGYKAEGL HGDITQAKRL EVLKKFKNDQ INILVATDVA
+     ARGLDISGVS HVYNFDIPQD TESYTHRIGR TGRAGKEGIA VTFVNPIEMD YIRQIEDANG
+     RKMSALRPPH RKEVLQARED DIKEKVENWM SKESESRLKR ISTELLNEYN DVDLVAALLQ
+     ELVEANDEVE VQLTFEKPLS RKGRNGKPSG SRNRNSKRGN PKFDSKSKRS KGYSSKKKST
+     KKFDRKEKSS GGSRPMKGRT FADHQK
+//

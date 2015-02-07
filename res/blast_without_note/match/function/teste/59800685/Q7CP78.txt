@@ -1,0 +1,178 @@
+ID   RIDA_SALTY              Reviewed;         128 AA.
+AC   Q7CP78; Q7BS56;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-JAN-2015, entry version 64.
+DE   RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase;
+DE            EC=3.5.99.10;
+DE   AltName: Full=Enamine/imine deaminase;
+GN   Name=ridA; Synonyms=yjgF; OrderedLocusNames=STM4458;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION IN THE BIOSYNTHESIS OF
+RP   ISOLEUCINE, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=LT2;
+RX   PubMed=9851994;
+RA   Enos-Berlage J.L., Langendorf M.J., Downs D.M.;
+RT   "Complex metabolic phenotypes caused by a mutation in yjgF, encoding a
+RT   member of the highly conserved YER057c/YjgF family of proteins.";
+RL   J. Bacteriol. 180:6519-6528(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+RN   [3]
+RP   FUNCTION IN THE BIOSYNTHESIS OF ISOLEUCINE, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=LT2;
+RX   PubMed=18296521; DOI=10.1128/JB.01700-07;
+RA   Christopherson M.R., Schmitz G.E., Downs D.M.;
+RT   "YjgF is required for isoleucine biosynthesis when Salmonella enterica
+RT   is grown on pyruvate medium.";
+RL   J. Bacteriol. 190:3057-3062(2008).
+RN   [4]
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=LT2;
+RX   PubMed=20817725; DOI=10.1074/jbc.M110.160515;
+RA   Lambrecht J.A., Browne B.A., Downs D.M.;
+RT   "Members of the YjgF/YER057c/UK114 family of proteins inhibit
+RT   phosphoribosylamine synthesis in vitro.";
+RL   J. Biol. Chem. 285:34401-34407(2010).
+RN   [5]
+RP   FUNCTION AS A DEAMINASE, BIOPHYSICOCHEMICAL PROPERTIES, MUTAGENESIS OF
+RP   TYR-17; ARG-105 AND GLU-120, SUBSTRATE SPECIFICITY, AND NOMENCLATURE.
+RC   STRAIN=LT2;
+RX   PubMed=22094463; DOI=10.1074/jbc.M111.304477;
+RA   Lambrecht J.A., Flynn J.M., Downs D.M.;
+RT   "The conserved YjgF protein family deaminates enamine/imine
+RT   intermediates of pyridoxal-5'-phosphate (PLP)-dependent enzyme
+RT   reactions.";
+RL   J. Biol. Chem. 287:3454-3461(2012).
+CC   -!- FUNCTION: Accelerates the release of ammonia from reactive
+CC       enamine/imine intermediates of the PLP-dependent threonine
+CC       dehydratase (IlvA) in the low water environment of the cell. It
+CC       catalyzes the deamination of enamine/imine intermediates to yield
+CC       2-ketobutyrate and ammonia. It is required for the detoxification
+CC       of reactive intermediates of IlvA due to their highly nucleophilic
+CC       abilities and to avoid they are captured by anthranilate
+CC       phosphoribosyltransferase (TrpD) to generate PRA, an intermediate
+CC       in the alternative pyrimidine biosynthetic (APB) pathway. Also
+CC       required for full activity of IlvE which is involved in the
+CC       isoleucine biosynthesis. RidA also accelerates the release of
+CC       pyruvate produced by IlvA from L-serine.
+CC       {ECO:0000269|PubMed:18296521, ECO:0000269|PubMed:22094463,
+CC       ECO:0000269|PubMed:9851994}.
+CC   -!- CATALYTIC ACTIVITY: 2-iminobutanoate + H(2)O = 2-oxobutanoate +
+CC       NH(3).
+CC   -!- CATALYTIC ACTIVITY: 2-iminopropanoate + H(2)O = pyruvate + NH(3).
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is around 9 due to the greater stability of the
+CC         enamine/imine intermediate at high pH.
+CC         {ECO:0000269|PubMed:22094463};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; 2-
+CC       oxobutanoate from L-threonine.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene appear to be
+CC       compromised in their ability to synthesize isoleucine. Mutation
+CC       results in the partial block of at least one step in isoleucine
+CC       biosynthesis subsequent to the reaction catalyzed by threonine
+CC       deaminase (IlvA). Mutation is required for the dependence of the
+CC       PurF-independent alternative pyrimidine biosynthesis (APB) pathway
+CC       of thiamine upon the oxidative pentose phosphate pathway.
+CC       {ECO:0000269|PubMed:18296521, ECO:0000269|PubMed:20817725,
+CC       ECO:0000269|PubMed:9851994}.
+CC   -!- SIMILARITY: Belongs to the RutC family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF095578; AAD22768.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL23277.1; -; Genomic_DNA.
+DR   RefSeq; NP_463318.1; NC_003197.1.
+DR   ProteinModelPortal; Q7CP78; -.
+DR   SMR; Q7CP78; 2-128.
+DR   STRING; 99287.STM4458; -.
+DR   PRIDE; Q7CP78; -.
+DR   EnsemblBacteria; AAL23277; AAL23277; STM4458.
+DR   GeneID; 1255984; -.
+DR   KEGG; stm:STM4458; -.
+DR   PATRIC; 32387855; VBISalEnt20916_4691.
+DR   KO; K09022; -.
+DR   OMA; FFDEHNV; -.
+DR   OrthoDB; EOG6QVRPF; -.
+DR   PhylomeDB; Q7CP78; -.
+DR   BioCyc; MetaCyc:MONOMER-18420; -.
+DR   BioCyc; SENT99287:GCTI-4488-MONOMER; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019239; F:deaminase activity; IDA:UniProtKB.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IMP:UniProtKB.
+DR   GO; GO:0009636; P:response to toxic substance; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1330.40; -; 1.
+DR   InterPro; IPR013813; Endoribo_LPSP/chorism_mut-like.
+DR   InterPro; IPR006056; YjgF-like.
+DR   InterPro; IPR019897; YjgF-like_CS.
+DR   InterPro; IPR006175; YjgF/Yer057p/UK114.
+DR   PANTHER; PTHR11803; PTHR11803; 1.
+DR   Pfam; PF01042; Ribonuc_L-PSP; 1.
+DR   SUPFAM; SSF55298; SSF55298; 1.
+DR   TIGRFAMs; TIGR00004; TIGR00004; 1.
+DR   PROSITE; PS01094; UPF0076; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Complete proteome; Cytoplasm; Detoxification; Hydrolase;
+KW   Isoleucine biosynthesis; Reference proteome.
+FT   CHAIN         1    128       2-iminobutanoate/2-iminopropanoate
+FT                                deaminase.
+FT                                /FTId=PRO_0000416001.
+FT   BINDING     105    105       Substrate. {ECO:0000303|PubMed:22094463}.
+FT   SITE         17     17       Stabilizes the substrate.
+FT   SITE        120    120       Important for catalytic activity at high
+FT                                pH.
+FT   MUTAGEN      17     17       Y->F: Deaminase activity is defective. At
+FT                                pH 8, strongly reduces the increase in
+FT                                rate of 2-ketobutyrate formation over the
+FT                                rate of IlvA alone. At pH 9.5, moderately
+FT                                reduces the increase in rate of 2-
+FT                                ketobutyrate formation over the rate of
+FT                                IlvA alone.
+FT                                {ECO:0000269|PubMed:22094463}.
+FT   MUTAGEN     105    105       R->A: Deaminase activity is defective. At
+FT                                pH 8 and 9.5, strongly reduces the
+FT                                increase in rate of 2-ketobutyrate
+FT                                formation over the rate of IlvA alone.
+FT                                {ECO:0000269|PubMed:22094463}.
+FT   MUTAGEN     120    120       E->A: Deaminase activity is defective. At
+FT                                pH 8, moderately reduces the increase in
+FT                                rate of 2-ketobutyrate formation over the
+FT                                rate of IlvA alone. At pH 9.5, strongly
+FT                                reduces the increase in rate of 2-
+FT                                ketobutyrate formation over the rate of
+FT                                IlvA alone.
+FT                                {ECO:0000269|PubMed:22094463}.
+FT   MUTAGEN     120    120       E->K: Deaminase activity is defective. At
+FT                                pH 8, moderately reduces the increase in
+FT                                rate of 2-ketobutyrate formation over the
+FT                                rate of IlvA alone. At pH 9.5, strongly
+FT                                reduces the increase in rate of 2-
+FT                                ketobutyrate formation over the rate of
+FT                                IlvA alone.
+FT                                {ECO:0000269|PubMed:22094463}.
+SQ   SEQUENCE   128 AA;  13576 MW;  9E66F1287DE67B1A CRC64;
+     MSKTIATENA PAAIGPYVQG VDLGSMVITS GQIPVDPKTG AVAEDVSAQA RQSLENVKAI
+     VEAAGLKVGD IVKTTVFVKD LNDFATVNAT YEAFFTEHNA TFPARSCVEV ARLPKDVKIE
+     IEAIAVRR
+//

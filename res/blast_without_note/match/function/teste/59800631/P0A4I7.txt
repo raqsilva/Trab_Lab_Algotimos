@@ -1,0 +1,106 @@
+ID   CUTS_STRCO              Reviewed;         414 AA.
+AC   P0A4I7; Q03757;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=Sensor protein CutS;
+DE            EC=2.7.13.3;
+GN   Name=cutS; OrderedLocusNames=SCO5863; ORFNames=SC2E9.04;
+OS   Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Streptomycineae; Streptomycetaceae; Streptomyces;
+OC   Streptomyces albidoflavus group.
+OX   NCBI_TaxID=100226;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-471 / A3(2) / M145;
+RX   PubMed=12000953; DOI=10.1038/417141a;
+RA   Bentley S.D., Chater K.F., Cerdeno-Tarraga A.-M., Challis G.L.,
+RA   Thomson N.R., James K.D., Harris D.E., Quail M.A., Kieser H.,
+RA   Harper D., Bateman A., Brown S., Chandra G., Chen C.W., Collins M.,
+RA   Cronin A., Fraser A., Goble A., Hidalgo J., Hornsby T., Howarth S.,
+RA   Huang C.-H., Kieser T., Larke L., Murphy L.D., Oliver K., O'Neil S.,
+RA   Rabbinowitsch E., Rajandream M.A., Rutherford K.M., Rutter S.,
+RA   Seeger K., Saunders D., Sharp S., Squares R., Squares S., Taylor K.,
+RA   Warren T., Wietzorrek A., Woodward J.R., Barrell B.G., Parkhill J.,
+RA   Hopwood D.A.;
+RT   "Complete genome sequence of the model actinomycete Streptomyces
+RT   coelicolor A3(2).";
+RL   Nature 417:141-147(2002).
+CC   -!- FUNCTION: Member of the two-component regulatory system CutS/CutR,
+CC       involved in the regulation of copper metabolism.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 HAMP domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00102}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL939125; CAA16472.1; -; Genomic_DNA.
+DR   PIR; T34815; T34815.
+DR   RefSeq; NP_629985.1; NC_003888.3.
+DR   ProteinModelPortal; P0A4I7; -.
+DR   STRING; 100226.SCO5863; -.
+DR   EnsemblBacteria; CAA16472; CAA16472; CAA16472.
+DR   GeneID; 1101305; -.
+DR   KEGG; sco:SCO5863; -.
+DR   PATRIC; 23741630; VBIStrCoe124346_5962.
+DR   eggNOG; COG0642; -.
+DR   HOGENOM; HOG000223177; -.
+DR   InParanoid; P0A4I7; -.
+DR   KO; K00936; -.
+DR   OMA; KPTWDPR; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   PhylomeDB; P0A4I7; -.
+DR   Proteomes; UP000001973; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003660; HAMP_linker_domain.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF00672; HAMP; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Complete proteome; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase;
+KW   Transmembrane; Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    414       Sensor protein CutS.
+FT                                /FTId=PRO_0000074744.
+FT   TRANSMEM     37     57       Helical. {ECO:0000255}.
+FT   TRANSMEM    121    141       Helical. {ECO:0000255}.
+FT   DOMAIN      142    194       HAMP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00102}.
+FT   DOMAIN      202    414       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     205    205       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107}.
+SQ   SEQUENCE   414 AA;  44496 MW;  B1CBC2DFBD0ABB4D CRC64;
+     MATTPAPPGA PPKPTWDPRS ATPLPWLRPT IRIRLTLLYG GMFLIAGILL LSIIYLLAAQ
+     AVRTGNEPLY KIVDFTDLKV SSSTCPVVDN GGLSLSDFNA AISDCMDHQR KVALDNLLSR
+     SLLALLGLAV IAFAFGYAMA GRVLSPLGRI TRTARAVAGS DLSRRIELDG PDDELKELAD
+     TFDDMLERLQ RAFTAQQRFV GNASHELRTP LAINRTLLEV HLSDPGAPVE LQQLGKTLLA
+     TNERSELLVE GLLLLARSDN QIVERKPVDL AEVAGQAIDQ VHAEAESKGV EVRGTREAAV
+     VQGNGVLLER IALNLVQNAV RYNVAGQGWV EVATAVENGQ AVLVVTNTGP VVPAYEVDNL
+     FEPFRRLRTE RTGSDKGVGL GLSIARSVAR AHGGHISAQP REGGGLVMRV TLPV
+//

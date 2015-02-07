@@ -1,0 +1,152 @@
+ID   GLDSA_BACCI             Reviewed;         418 AA.
+AC   Q8G8Y2;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   26-NOV-2014, entry version 50.
+DE   RecName: Full=L-glutamine:2-deoxy-scyllo-inosose aminotransferase;
+DE            Short=L-glutamine:DOI aminotransferase;
+DE            EC=2.6.1.100;
+DE   AltName: Full=L-glutamine:3-amino-2,3-dideoxy-scyllo-inosose aminotransferase;
+DE            Short=L-glutamine:amino-DOI aminotransferase;
+DE            EC=2.6.1.101;
+GN   Name=btrR; Synonyms=btrS;
+OS   Bacillus circulans.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=1397;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=12478783; DOI=10.1039/b209799k;
+RA   Huang F., Li Y., Yu J., Spencer J.B.;
+RT   "Biosynthesis of aminoglycoside antibiotics: cloning, expression and
+RT   characterisation of an aminotransferase involved in the pathway to 2-
+RT   deoxystreptamine.";
+RL   Chem. Commun. (Camb.) 23:2860-2861(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=SANK 72073;
+RX   PubMed=12374384;
+RA   Tamegai H., Nango E., Kuwahara M., Yamamoto H., Ota Y., Kuriki H.,
+RA   Eguchi T., Kakinuma K.;
+RT   "Identification of L-glutamine: 2-deoxy-scyllo-inosose
+RT   aminotransferase required for the biosynthesis of butirosin in
+RT   Bacillus circulans.";
+RL   J. Antibiot. 55:707-714(2002).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND REACTION STEREOCHEMISTRY.
+RC   STRAIN=SANK 72073;
+RX   PubMed=15839685; DOI=10.1021/ja0445948;
+RA   Yokoyama K., Kudo F., Kuwahara M., Inomata K., Tamegai H., Eguchi T.,
+RA   Kakinuma K.;
+RT   "Stereochemical recognition of doubly functional aminotransferase in
+RT   2-deoxystreptamine biosynthesis.";
+RL   J. Am. Chem. Soc. 127:5869-5874(2005).
+CC   -!- FUNCTION: Catalyzes the PLP-dependent transamination of 2-deoxy-
+CC       scyllo-inosose (DOI) to form 2-deoxy-scyllo-inosamine (DOIA) using
+CC       L-glutamine as the amino donor. Also catalyzes the transamination
+CC       of 3-amino-2,3-dideoxy-scyllo-inosose (amino-DOI) into 2-
+CC       deoxystreptamine (DOS). Is also able to catalyze the
+CC       transamination of scyllo-inosose to form scyllo-inosamine,
+CC       although this reaction may be not physiological.
+CC       {ECO:0000269|PubMed:12374384, ECO:0000269|PubMed:12478783,
+CC       ECO:0000269|PubMed:15839685}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamine + 2-deoxy-scyllo-inosose = 2-
+CC       oxoglutaramate + 2-deoxy-scyllo-inosamine.
+CC   -!- CATALYTIC ACTIVITY: L-glutamine + 3-amino-2,3-dideoxy-scyllo-
+CC       inosose = 2-oxoglutaramate + 2-deoxystreptamine.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 2-deoxystreptamine
+CC       biosynthesis; 2-deoxystreptamine from D-glucose 6-phosphate: step
+CC       2/4.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 2-deoxystreptamine
+CC       biosynthesis; 2-deoxystreptamine from D-glucose 6-phosphate: step
+CC       4/4.
+CC   -!- PATHWAY: Antibiotic biosynthesis; butirosin biosynthesis.
+CC   -!- SIMILARITY: Belongs to the DegT/DnrJ/EryC1 family. L-glutamine:2-
+CC       deoxy-scyllo-inosose/scyllo-inosose aminotransferase subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ494863; CAD41947.1; -; Genomic_DNA.
+DR   EMBL; AB097196; BAE07061.1; -; Genomic_DNA.
+DR   PDB; 2C7T; X-ray; 2.10 A; A=1-418.
+DR   PDB; 2C81; X-ray; 1.70 A; A=1-418.
+DR   PDBsum; 2C7T; -.
+DR   PDBsum; 2C81; -.
+DR   ProteinModelPortal; Q8G8Y2; -.
+DR   SMR; Q8G8Y2; 6-416.
+DR   BioCyc; MetaCyc:MONOMER-17229; -.
+DR   UniPathway; UPA00907; UER00922.
+DR   UniPathway; UPA00907; UER00924.
+DR   UniPathway; UPA00964; -.
+DR   EvolutionaryTrace; Q8G8Y2; -.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000653; DegT/StrS_aminotransferase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF01041; DegT_DnrJ_EryC1; 1.
+DR   PIRSF; PIRSF000390; PLP_StrS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Aminotransferase; Antibiotic biosynthesis;
+KW   Pyridoxal phosphate; Transferase.
+FT   CHAIN         1    418       L-glutamine:2-deoxy-scyllo-inosose
+FT                                aminotransferase.
+FT                                /FTId=PRO_0000233016.
+FT   MOD_RES     192    192       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+FT   HELIX        16     28       {ECO:0000244|PDB:2C81}.
+FT   HELIX        43     55       {ECO:0000244|PDB:2C81}.
+FT   STRAND       58     64       {ECO:0000244|PDB:2C81}.
+FT   HELIX        66     76       {ECO:0000244|PDB:2C81}.
+FT   STRAND       84     91       {ECO:0000244|PDB:2C81}.
+FT   HELIX        94    101       {ECO:0000244|PDB:2C81}.
+FT   STRAND      105    109       {ECO:0000244|PDB:2C81}.
+FT   TURN        113    115       {ECO:0000244|PDB:2C81}.
+FT   HELIX       120    123       {ECO:0000244|PDB:2C81}.
+FT   HELIX       124    126       {ECO:0000244|PDB:2C81}.
+FT   STRAND      131    134       {ECO:0000244|PDB:2C81}.
+FT   HELIX       146    155       {ECO:0000244|PDB:2C81}.
+FT   STRAND      159    163       {ECO:0000244|PDB:2C81}.
+FT   STRAND      179    187       {ECO:0000244|PDB:2C81}.
+FT   STRAND      192    194       {ECO:0000244|PDB:2C81}.
+FT   STRAND      196    198       {ECO:0000244|PDB:2C81}.
+FT   STRAND      200    205       {ECO:0000244|PDB:2C81}.
+FT   HELIX       207    217       {ECO:0000244|PDB:2C81}.
+FT   STRAND      221    223       {ECO:0000244|PDB:2C81}.
+FT   HELIX       227    229       {ECO:0000244|PDB:2C81}.
+FT   STRAND      235    239       {ECO:0000244|PDB:2C81}.
+FT   HELIX       252    262       {ECO:0000244|PDB:2C81}.
+FT   HELIX       265    283       {ECO:0000244|PDB:2C81}.
+FT   STRAND      289    291       {ECO:0000244|PDB:2C81}.
+FT   STRAND      298    300       {ECO:0000244|PDB:2C81}.
+FT   STRAND      304    310       {ECO:0000244|PDB:2C81}.
+FT   HELIX       312    314       {ECO:0000244|PDB:2C81}.
+FT   TURN        315    317       {ECO:0000244|PDB:2C81}.
+FT   HELIX       320    331       {ECO:0000244|PDB:2C81}.
+FT   TURN        335    337       {ECO:0000244|PDB:2C81}.
+FT   HELIX       345    347       {ECO:0000244|PDB:2C81}.
+FT   HELIX       353    355       {ECO:0000244|PDB:2C81}.
+FT   HELIX       361    364       {ECO:0000244|PDB:2C81}.
+FT   HELIX       367    371       {ECO:0000244|PDB:2C81}.
+FT   HELIX       376    384       {ECO:0000244|PDB:2C81}.
+FT   STRAND      385    389       {ECO:0000244|PDB:2C81}.
+FT   HELIX       390    394       {ECO:0000244|PDB:2C81}.
+FT   HELIX       397    412       {ECO:0000244|PDB:2C81}.
+SQ   SEQUENCE   418 AA;  47032 MW;  41E7C1102D36D289 CRC64;
+     MTIPFDHWPE WPQHSDRTRR KIEEVFQSNR WAISGYWTGE ESMERKFAKA FADFNGVPYC
+     VPTTSGSTAL MLALEALGIG EGDEVIVPSL TWIATATAVL NVNALPVFVD VEADTYCIDP
+     QLIKSAITDK TKAIIPVHLF GSMANMDEIN EIAQEHNLFV IEDCAQSHGS VWNNQRAGTI
+     GDIGAFSCQQ GKVLTAGEGG IIVTKNPRLF ELIQQLRADS RVYCDDSSEL MHGDMQLVKK
+     GDIQGSNYCL SEFQSAILLD QLQELDDKNA IREKNAMFLN DALSKIDGIK VMKRPPQVSR
+     QTYYGYVFRF DPVKFGGLNA DQFCEILREK LNMGTFYLHP PYLPVHKNPL FCPWTKNRYL
+     KSVRKTEAYW RGLHYPVSER ASGQSIVIHH AILLAEPSHL SLLVDAVAEL ARKFCVTH
+//

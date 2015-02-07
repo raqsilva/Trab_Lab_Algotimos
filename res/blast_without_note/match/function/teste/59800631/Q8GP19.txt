@@ -1,0 +1,103 @@
+ID   RSSA_SERMA              Reviewed;         469 AA.
+AC   Q8GP19;
+DT   21-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 2.
+DT   07-JAN-2015, entry version 69.
+DE   RecName: Full=Swarming motility regulation sensor protein RssA;
+DE            EC=2.7.13.3;
+GN   Name=rssA;
+OS   Serratia marcescens.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Serratia.
+OX   NCBI_TaxID=615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=CH10;
+RX   PubMed=15866926; DOI=10.1128/JB.187.10.3407-3414.2005;
+RA   Lai H.-C., Soo P.-C., Wei J.-R., Yi W.-C., Liaw S.-J., Horng Y.-T.,
+RA   Lin S.-M., Ho S.-W., Swift S., Williams P.;
+RT   "The RssAB two-component signal transduction system in Serratia
+RT   marcescens regulates swarming motility and cell envelope architecture
+RT   in response to exogenous saturated fatty acids.";
+RL   J. Bacteriol. 187:3407-3414(2005).
+RN   [2]
+RP   PROMOTER BINDING STUDIES, PHOSPHORYLATION AT HIS-248, MUTAGENESIS OF
+RP   HIS-248, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=CH1;
+RX   PubMed=16077114; DOI=10.1128/JB.187.16.5683-5690.2005;
+RA   Wei J.-R., Tsai Y.-H., Soo P.-C., Horng Y.-T., Hsieh S.-C., Ho S.-W.,
+RA   Lai H.-C.;
+RT   "Biochemical characterization of RssA-RssB, a two-component signal
+RT   transduction system regulating swarming behavior in Serratia
+RT   marcescens.";
+RL   J. Bacteriol. 187:5683-5690(2005).
+CC   -!- FUNCTION: Member of the two-component regulatory system RssA/RssB
+CC       involved in regulation of swarming motility which has been shown
+CC       to be inhibited by saturated fatty acids. RssA/RssB regulates
+CC       cellular fatty acid composition, hemolysin production and cell
+CC       surface topography. RssA/RssB negatively regulates the activity of
+CC       SlhBA. It can also act as a negative regulator for the control of
+CC       the swarming initiation. {ECO:0000269|PubMed:15866926}.
+CC   -!- CATALYTIC ACTIVITY: ATP + protein L-histidine = ADP + protein N-
+CC       phospho-L-histidine.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Multi-
+CC       pass membrane protein {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Mutation in either rssA or rssB confers a
+CC       precocious-swarming phenotype on LB agar: swarming occurs at 37
+CC       degrees Celsius and is initiated at a lower cell density and more
+CC       rapidly than the swarming of the parent strain at 30 degrees
+CC       Celsius. Both mutants also exhibit increased hemolysin activity
+CC       and altered cell surface topology. {ECO:0000269|PubMed:16077114}.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00107}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF465237; AAN28325.2; -; Genomic_DNA.
+DR   ProteinModelPortal; Q8GP19; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   Gene3D; 1.10.287.130; -; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003661; EnvZ-like_dim/P.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   InterPro; IPR009082; Sig_transdc_His_kinase_dimeric.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Transferase; Transmembrane;
+KW   Transmembrane helix; Two-component regulatory system.
+FT   CHAIN         1    469       Swarming motility regulation sensor
+FT                                protein RssA.
+FT                                /FTId=PRO_0000074865.
+FT   TRANSMEM     12     32       Helical. {ECO:0000255}.
+FT   TRANSMEM    167    187       Helical. {ECO:0000255}.
+FT   DOMAIN      245    459       Histidine kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00107}.
+FT   MOD_RES     248    248       Phosphohistidine; by autocatalysis.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00107,
+FT                                ECO:0000269|PubMed:16077114}.
+FT   MUTAGEN     248    248       H->A: No autophosphorylation.
+FT                                {ECO:0000269|PubMed:16077114}.
+SQ   SEQUENCE   469 AA;  52830 MW;  C1D7970BF008CF45 CRC64;
+     MIGFKSFFMR TIIFQVLAIL LLWGLLVAWV KYWYYPDMEK YFDNQQRIVA AGIANILDET
+     GTDNIDYRGI IKTIEGMYID SINNGMQDEI DYHPLFVVYD RDNRVLYSSQ TQGEPLRLPP
+     SVLSGSVNYA GANWHLAGSW KEKRQYRVIV GESFNDRTTL FGNPADVPLL GILAAIIVTL
+     LFTAYFSLRP LRQIARTISD RQPGNLSPIN VSEQYQEIRP VVMEVNKLMA RIDAANQREK
+     RFMADAAHEL RTPIAAVLAQ LHLLTQVTEQ QERREIIGDM QQGLDRAASL SRQLINLAKL
+     EAEDFPLKIE AVDIYAEIGK CIAQHVPYAL EKDVELSLDG SEDVVVSTDR RALIAIFTNL
+     LDNALKYAPP GSRIEANIRS LAPLGCYITL RDNGPGVSEE HRSRLFERFY RVPGTQQTGS
+     GLGLAIARNL ADKIGAQLRV TEGLDDRGIG FIIDLPESYR PQTESEPRP
+//

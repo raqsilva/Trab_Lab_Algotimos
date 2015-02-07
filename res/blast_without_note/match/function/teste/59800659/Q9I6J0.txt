@@ -1,0 +1,107 @@
+ID   SPUE_PSEAE              Reviewed;         365 AA.
+AC   Q9I6J0;
+DT   07-JAN-2015, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Spermidine-binding periplasmic protein SpuE;
+DE   Flags: Precursor;
+GN   Name=spuE; OrderedLocusNames=PA0301;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG
+OS   12228).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T.,
+RA   Reizer J., Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an
+RT   opportunistic pathogen.";
+RL   Nature 406:959-964(2000).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 28-362 OF APOPROTEIN AND IN
+RP   COMPLEX WITH SPERMIDINE, FUNCTION, DISRUPTION PHENOTYPE, AND
+RP   MUTAGENESIS OF TRP-271.
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=22300763; DOI=10.1016/j.jmb.2012.01.010;
+RA   Wu D., Lim S.C., Dong Y., Wu J., Tao F., Zhou L., Zhang L.H., Song H.;
+RT   "Structural basis of substrate binding specificity revealed by the
+RT   crystal structures of polyamine receptors SpuD and SpuE from
+RT   Pseudomonas aeruginosa.";
+RL   J. Mol. Biol. 416:697-712(2012).
+CC   -!- FUNCTION: Spermidine-binding protein probably required for its
+CC       uptake into cells. Binds spermidine with high affinity (KD=14.3
+CC       nM). Does not bind putrescine, cadaverine or spermine. Spermidine
+CC       binding induces large inter-domain conformational changes.
+CC       Implicated in induction of type 3 secretion systems (T3SS), which
+CC       play a role in virulence. {ECO:0000269|PubMed:22300763}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|PIRNR:PIRNR019574}.
+CC   -!- DISRUPTION PHENOTYPE: Significant decrease in T3SS induction.
+CC       {ECO:0000269|PubMed:22300763}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein
+CC       PotD/PotF family. {ECO:0000255|PIRNR:PIRNR019574}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004091; AAG03690.1; -; Genomic_DNA.
+DR   PIR; F83607; F83607.
+DR   RefSeq; NP_248992.1; NC_002516.2.
+DR   PDB; 3TTL; X-ray; 2.30 A; A/B=28-362.
+DR   PDB; 3TTN; X-ray; 2.00 A; A/B=28-362.
+DR   PDBsum; 3TTL; -.
+DR   PDBsum; 3TTN; -.
+DR   ProteinModelPortal; Q9I6J0; -.
+DR   SMR; Q9I6J0; 28-362.
+DR   STRING; 208964.PA0301; -.
+DR   EnsemblBacteria; AAG03690; AAG03690; PA0301.
+DR   GeneID; 877626; -.
+DR   KEGG; pae:PA0301; -.
+DR   PATRIC; 19834828; VBIPseAer58763_0315.
+DR   PseudoCAP; PA0301; -.
+DR   HOGENOM; HOG000263815; -.
+DR   KO; K11073; -.
+DR   OMA; INTRQVQ; -.
+DR   OrthoDB; EOG66XBH9; -.
+DR   PhylomeDB; Q9I6J0; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019809; F:spermidine binding; IDA:PseudoCAP.
+DR   GO; GO:0015846; P:polyamine transport; IMP:PseudoCAP.
+DR   InterPro; IPR001188; Sperm_putr-bd.
+DR   PANTHER; PTHR30222:SF5; PTHR30222:SF5; 1.
+DR   PIRSF; PIRSF019574; Periplasmic_polyamine_BP; 1.
+DR   PRINTS; PR00909; SPERMDNBNDNG.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Periplasm; Reference proteome;
+KW   Signal; Transport; Virulence.
+FT   SIGNAL        1     24       {ECO:0000255}.
+FT   CHAIN        25    365       Spermidine-binding periplasmic protein
+FT                                SpuE. {ECO:0000255}.
+FT                                /FTId=PRO_0000431397.
+FT   BINDING      35     35       Spermidine.
+FT                                {ECO:0000269|PubMed:22300763}.
+FT   BINDING     181    181       Spermidine.
+FT                                {ECO:0000269|PubMed:22300763}.
+FT   BINDING     242    242       Spermidine.
+FT                                {ECO:0000269|PubMed:22300763}.
+FT   BINDING     269    269       Spermidine.
+FT                                {ECO:0000269|PubMed:22300763}.
+FT   MUTAGEN     271    271       W->F: Increases affinity for putrescine
+FT                                (to KD=1.12 uM).
+FT                                {ECO:0000269|PubMed:22300763}.
+SQ   SEQUENCE   365 AA;  40070 MW;  3F14A63C3C1D417D CRC64;
+     MQHSIGKTLL VAALATAIAG PVQAEKKSLH IYNWTDYIAP TTLKDFTKES GIDVSYDVFD
+     SNETLEGKLV SGHSGYDIVV PSNNFLGKQI QAGAFQKLDK SKLPNWKNLD PALLKQLEVS
+     DPGNQYAVPY LWGTNGIGYN VAKVKEVLGD QPIDSWAILF EPENMKKLAK CGVAFMDSGD
+     EMLPAALNYL GLDPNTHDPK DYKKAEEVLT KVRPYVSYFH SSKYISDLAN GNICVAFGYS
+     GDVFQAAARA EEAGKGIDIQ YVIPKEGANL WFDLMAIPAD AKAADNAYAF IDYLLRPEVI
+     AKVSDYVGYA NAIPGARPLM DKSVSDSEEV YPPQAVLDKL YVSAVLPAKV LRLQTRTWTR
+     IKTGK
+//

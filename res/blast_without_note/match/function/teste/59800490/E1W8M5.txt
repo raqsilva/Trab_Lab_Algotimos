@@ -1,0 +1,95 @@
+ID   FOXA_SALTS              Reviewed;         702 AA.
+AC   E1W8M5; Q56145;
+DT   08-MAR-2011, integrated into UniProtKB/Swiss-Prot.
+DT   30-NOV-2010, sequence version 1.
+DT   07-JAN-2015, entry version 30.
+DE   RecName: Full=Ferrioxamine B receptor;
+DE   Flags: Precursor;
+GN   Name=foxA; OrderedLocusNames=SL1344_0359;
+OS   Salmonella typhimurium (strain SL1344).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=216597;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SL1344;
+RX   PubMed=22538806; DOI=10.1073/pnas.1201061109;
+RA   Kroger C., Dillon S.C., Cameron A.D., Papenfort K., Sivasankaran S.K.,
+RA   Hokamp K., Chao Y., Sittka A., Hebrard M., Handler K., Colgan A.,
+RA   Leekitcharoenphon P., Langridge G.C., Lohan A.J., Loftus B.,
+RA   Lucchini S., Ussery D.W., Dorman C.J., Thomson N.R., Vogel J.,
+RA   Hinton J.C.;
+RT   "The transcriptional landscape and small RNAs of Salmonella enterica
+RT   serovar Typhimurium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 109:E1277-E1286(2012).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-374, AND FUNCTION.
+RC   STRAIN=SL1344;
+RX   PubMed=10103258;
+RA   Kingsley R.A., Reissbrodt R., Rabsch W., Ketley J.M., Tsolis R.M.,
+RA   Everest P., Dougan G., Baeumler A.J., Roberts M., Williams P.H.;
+RT   "Ferrioxamine-mediated iron(III) utilization by Salmonella enterica.";
+RL   Appl. Environ. Microbiol. 65:1610-1618(1999).
+CC   -!- FUNCTION: Ferrioxamine binding and uptake, in association with the
+CC       TonB protein (By similarity). May play a role in intestinal
+CC       colonization. {ECO:0000250, ECO:0000269|PubMed:10103258}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane.
+CC   -!- SIMILARITY: Belongs to the TonB-dependent receptor family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; FQ312003; CBW16459.1; -; Genomic_DNA.
+DR   EMBL; AF060876; AAC15464.1; -; Genomic_DNA.
+DR   RefSeq; YP_005180285.1; NC_016810.1.
+DR   EnsemblBacteria; CBW16459; CBW16459; SL1344_0359.
+DR   PATRIC; 43186099; VBISalEnt88447_0400.
+DR   OMA; AGNHNQR; -.
+DR   BioCyc; SENT216597:GJB7-366-MONOMER; -.
+DR   Proteomes; UP000008962; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004872; F:receptor activity; IEA:InterPro.
+DR   GO; GO:0015343; F:siderophore transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   Gene3D; 2.170.130.10; -; 1.
+DR   Gene3D; 2.40.170.20; -; 1.
+DR   InterPro; IPR012910; Plug.
+DR   InterPro; IPR000531; TonB-dep_rcpt_b-brl.
+DR   InterPro; IPR010105; TonB_sidphr_rcpt.
+DR   Pfam; PF07715; Plug; 1.
+DR   Pfam; PF00593; TonB_dep_Rec; 1.
+DR   TIGRFAMs; TIGR01783; TonB-siderophor; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Complete proteome; Ion transport; Iron;
+KW   Iron transport; Membrane; Receptor; Signal; TonB box; Transmembrane;
+KW   Transmembrane beta strand; Transport.
+FT   SIGNAL        1     30       {ECO:0000255}.
+FT   CHAIN        31    702       Ferrioxamine B receptor.
+FT                                /FTId=PRO_0000406084.
+FT   CONFLICT    246    247       MA -> SP (in Ref. 2; AAC15464).
+FT                                {ECO:0000305}.
+FT   CONFLICT    255    255       G -> R (in Ref. 2; AAC15464).
+FT                                {ECO:0000305}.
+FT   CONFLICT    279    279       F -> S (in Ref. 2; AAC15464).
+FT                                {ECO:0000305}.
+FT   CONFLICT    352    352       A -> P (in Ref. 2; AAC15464).
+FT                                {ECO:0000305}.
+FT   CONFLICT    368    374       HRLLVGI -> SSSAGGD (in Ref. 2; AAC15464).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   702 AA;  77702 MW;  FB2571D7CE2B8C63 CRC64;
+     MPLEMFMFAT TRMALLIGGA IGGATFPLFA QETTKNDTVI VTSPVQSGAT KLATPDIETP
+     QSVSIITRQQ FEEQGATSVR QAVSYTPGVY SNQIGASNRF DYIVLRGFSD GSLDNVYLDG
+     LKMMGDTNSH SSLVVDPWFL EDIEVVRGPA SVLYGRSSPG GIVALTSRKP AFDAGGEVKL
+     FAGNNNQRGA AFDVTGPLDD NERVAARLSG MTRYADSQFT PLKEERYALM PSLTWRITDR
+     TRLDLMAYLH RDPEGGSHSG LPYQGTVVPY NGGKISNTFF EGEDDYDKYD RRENMVGYNI
+     EHLFDNGWSV RQKLRYLHTK VTLNQVYAAG WLNETALNRG YSGSGEKMSA IALDNQLDGS
+     VDTGAINHRL LVGIDYQDRS NHTTGYYGAF PPIDAFNPVY GAQPDYITLY SREKHKLRQT
+     GYYLQDQMSW DRWRFTLGGR YDRVSVSNID KLHDSRSDLD KNNVSTRAAL LYLFDNGVAP
+     YLSYSTAFTP TSFADENGNV LEPMKGKQWE AGVKYEPPGG NSQFSAAVYR INQTNIATKE
+     EPTDPYRSIG EIESKGVELE AISHLSDSVR LQAAYTYTDI RYKKSSPQEQ GKRAVYAPRN
+     QASAWLSYDV KSGLLEGLTL GSGIRYVNGV TSDRLNTHTL PSYTLVDMVV GYDLSSIGLN
+     GLSAQLNVNN LTDKRYVAAC NSLSYCYFGA ERSIVGSVSW AF
+//

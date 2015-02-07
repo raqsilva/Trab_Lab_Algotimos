@@ -1,0 +1,116 @@
+ID   3HAO_RUEPO              Reviewed;         180 AA.
+AC   Q5LSJ4;
+DT   11-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   07-JAN-2015, entry version 70.
+DE   RecName: Full=3-hydroxyanthranilate 3,4-dioxygenase {ECO:0000255|HAMAP-Rule:MF_00825};
+DE            EC=1.13.11.6 {ECO:0000255|HAMAP-Rule:MF_00825};
+DE   AltName: Full=3-hydroxyanthranilate oxygenase {ECO:0000255|HAMAP-Rule:MF_00825};
+DE            Short=3-HAO {ECO:0000255|HAMAP-Rule:MF_00825};
+DE   AltName: Full=3-hydroxyanthranilic acid dioxygenase {ECO:0000255|HAMAP-Rule:MF_00825};
+DE            Short=HAD {ECO:0000255|HAMAP-Rule:MF_00825};
+GN   Name=nbaC {ECO:0000255|HAMAP-Rule:MF_00825};
+GN   OrderedLocusNames=SPO1774;
+OS   Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+OS   (Silicibacter pomeroyi).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Ruegeria.
+OX   NCBI_TaxID=246200;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700808 / DSM 15171 / DSS-3;
+RX   PubMed=15602564; DOI=10.1038/nature03170;
+RA   Moran M.A., Buchan A., Gonzalez J.M., Heidelberg J.F., Whitman W.B.,
+RA   Kiene R.P., Henriksen J.R., King G.M., Belas R., Fuqua C.,
+RA   Brinkac L.M., Lewis M., Johri S., Weaver B., Pai G., Eisen J.A.,
+RA   Rahe E., Sheldon W.M., Ye W., Miller T.R., Carlton J., Rasko D.A.,
+RA   Paulsen I.T., Ren Q., Daugherty S.C., DeBoy R.T., Dodson R.J.,
+RA   Durkin A.S., Madupu R., Nelson W.C., Sullivan S.A., Rosovitz M.J.,
+RA   Haft D.H., Selengut J., Ward N.;
+RT   "Genome sequence of Silicibacter pomeroyi reveals adaptations to the
+RT   marine environment.";
+RL   Nature 432:910-913(2004).
+CC   -!- FUNCTION: Catalyzes the oxidative ring opening of 3-
+CC       hydroxyanthranilate to 2-amino-3-carboxymuconate semialdehyde,
+CC       which spontaneously cyclizes to quinolinate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00825}.
+CC   -!- CATALYTIC ACTIVITY: 3-hydroxyanthranilate + O(2) = 2-amino-3-
+CC       carboxymuconate semialdehyde. {ECO:0000255|HAMAP-Rule:MF_00825}.
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00825};
+CC       Note=Binds 2 Fe(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00825};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; quinolinate
+CC       from L-kynurenine: step 3/3. {ECO:0000255|HAMAP-Rule:MF_00825}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00825}.
+CC   -!- SIMILARITY: Belongs to the 3-HAO family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00825}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000031; AAV95053.1; -; Genomic_DNA.
+DR   RefSeq; YP_167011.1; NC_003911.12.
+DR   ProteinModelPortal; Q5LSJ4; -.
+DR   SMR; Q5LSJ4; 5-171.
+DR   STRING; 246200.SPO1774; -.
+DR   EnsemblBacteria; AAV95053; AAV95053; SPO1774.
+DR   GeneID; 3192877; -.
+DR   KEGG; sil:SPO1774; -.
+DR   PATRIC; 23376873; VBIRuePom114501_1798.
+DR   eggNOG; NOG77058; -.
+DR   HOGENOM; HOG000218448; -.
+DR   KO; K00452; -.
+DR   OMA; KPPVGNQ; -.
+DR   OrthoDB; EOG6PW234; -.
+DR   UniPathway; UPA00253; UER00330.
+DR   Proteomes; UP000001023; Chromosome.
+DR   GO; GO:0000334; F:3-hydroxyanthranilate 3,4-dioxygenase activity; ISS:TIGR.
+DR   GO; GO:0008198; F:ferrous iron binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0034354; P:'de novo' NAD biosynthetic process from tryptophan; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043420; P:anthranilate metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019439; P:aromatic compound catabolic process; ISS:TIGR.
+DR   GO; GO:0019805; P:quinolinate biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006569; P:tryptophan catabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   HAMAP; MF_00825; 3_HAO; 1.
+DR   InterPro; IPR010329; 3hydroanth_dOase.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin.
+DR   PANTHER; PTHR15497; PTHR15497; 1.
+DR   Pfam; PF06052; 3-HAO; 1.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+DR   TIGRFAMs; TIGR03037; anthran_nbaC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Dioxygenase; Iron; Metal-binding; Oxidoreductase;
+KW   Pyridine nucleotide biosynthesis; Reference proteome.
+FT   CHAIN         1    180       3-hydroxyanthranilate 3,4-dioxygenase.
+FT                                /FTId=PRO_0000245478.
+FT   METAL        50     50       Iron 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   METAL        56     56       Iron 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   METAL        94     94       Iron 1; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   METAL       124    124       Iron 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   METAL       127    127       Iron 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   METAL       161    161       Iron 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   METAL       164    164       Iron 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   BINDING      46     46       Dioxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   BINDING      56     56       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   BINDING      98     98       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+FT   BINDING     109    109       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00825}.
+SQ   SEQUENCE   180 AA;  20575 MW;  53B08A94EFFE38BA CRC64;
+     MARLSAFNFQ KWIDEHKHLL KPPVGNQQVW EDADLMVTVV GGPNKRTDYH DDPVEEFFYQ
+     LKGDMVLKLY EGGEFYDVPI REGDIFLLPP HVRHSPQRPQ EGSIGLVIEP KRPEGAHDAI
+     EWFCFGCGSL VHRAELLLES IVRDLPPVYQ AFYADEQART CPNCGEIHPG KEPPEGWVKL
+//

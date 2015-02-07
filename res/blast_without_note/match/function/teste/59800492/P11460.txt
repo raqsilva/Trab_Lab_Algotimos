@@ -1,0 +1,97 @@
+ID   FATB_VIBA7              Reviewed;         322 AA.
+AC   P11460;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1989, sequence version 1.
+DT   07-JAN-2015, entry version 84.
+DE   RecName: Full=Ferric anguibactin-binding protein;
+DE   Flags: Precursor;
+GN   Name=fatB;
+OS   Vibrio anguillarum (strain ATCC 68554 / 775) (Listonella anguillarum).
+OG   Plasmid pJM1.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=882102;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 68554 / 775;
+RX   PubMed=2830268;
+RA   Actis L.A., Tolmasky M.E., Farrell D.H., Crosa J.H.;
+RT   "Genetic and molecular characterization of essential components of the
+RT   Vibrio anguillarum plasmid-mediated iron-transport system.";
+RL   J. Biol. Chem. 263:2853-2860(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 68554 / 775;
+RX   PubMed=13129954; DOI=10.1128/JB.185.19.5822-5830.2003;
+RA   Di Lorenzo M., Stork M., Tolmasky M.E., Actis L.A., Farrell D.,
+RA   Welch T.J., Crosa L.M., Wertheimer A.M., Chen Q., Salinas P.,
+RA   Waldbeser L., Crosa J.H.;
+RT   "Complete sequence of virulence plasmid pJM1 from the marine fish
+RT   pathogen Vibrio anguillarum strain 775.";
+RL   J. Bacteriol. 185:5822-5830(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 68554 / 775;
+RX   PubMed=21576332; DOI=10.1128/IAI.05138-11;
+RA   Naka H., Dias G.M., Thompson C.C., Dubay C., Thompson F.L.,
+RA   Crosa J.H.;
+RT   "Complete genome sequence of the marine fish pathogen Vibrio
+RT   anguillarum harboring the pJM1 virulence plasmid and genomic
+RT   comparison with other virulent strains of V. anguillarum and V.
+RT   ordalii.";
+RL   Infect. Immun. 79:2889-2900(2011).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-154.
+RC   STRAIN=ATCC 68554 / 775;
+RX   PubMed=1748657;
+RA   Koester W.L., Actis L.A., Waldbeser L.S., Tolmasky M.E., Crosa J.H.;
+RT   "Molecular characterization of the iron transport system mediated by
+RT   the pJM1 plasmid in Vibrio anguillarum 775.";
+RL   J. Biol. Chem. 266:23829-23833(1991).
+CC   -!- FUNCTION: Binds ferric anguibactin; part of the binding-protein-
+CC       dependent transport system for uptake of ferric anguibactin.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Lipid-
+CC       anchor {ECO:0000255|PROSITE-ProRule:PRU00303}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 8
+CC       family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 Fe/B12 periplasmic-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00344}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY312585; AAR12526.1; -; Genomic_DNA.
+DR   PIR; A29928; A29928.
+DR   RefSeq; NP_943551.1; NC_005250.1.
+DR   ProteinModelPortal; P11460; -.
+DR   GeneID; 2657103; -.
+DR   OMA; AWYITSA; -.
+DR   Proteomes; UP000006800; Plasmid pJM1.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   InterPro; IPR002491; ABC_transptr_periplasmic_BD.
+DR   Pfam; PF01497; Peripla_BP_2; 1.
+DR   PROSITE; PS50983; FE_B12_PBP; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Ion transport;
+KW   Iron; Iron transport; Lipoprotein; Membrane; Palmitate; Plasmid;
+KW   Reference proteome; Signal; Transport.
+FT   SIGNAL        1     22       {ECO:0000255|PROSITE-ProRule:PRU00303}.
+FT   CHAIN        23    322       Ferric anguibactin-binding protein.
+FT                                /FTId=PRO_0000031819.
+FT   DOMAIN       57    322       Fe/B12 periplasmic-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00344}.
+FT   LIPID        23     23       N-palmitoyl cysteine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00303}.
+FT   LIPID        23     23       S-diacylglycerol cysteine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00303}.
+SQ   SEQUENCE   322 AA;  35635 MW;  FB8674EED5CF73F7 CRC64;
+     MFKSTLNIAV AIVCSSLVTL TGCEPKVAQS QVIQPLETPI VIEHNLGQTV ISNRPQRVAA
+     LDMNEVDFLD QLNVPIAGMV KDFVPHFLEK YKNTPDISDL GAIVQPNMEK IYALKPDLVL
+     MTPLHANQYE ELSKLAPTVH FDIDFRNSHG HHVDIIKQHV IDLGEIFNKQ TLAQKKVAEI
+     DAKVDEVQAL TAERSEKALV VMHNNGSFSS FGIESRYGFV FDVLGVKPAS TEIAASLHGQ
+     PISSEFINQA NPDILYIIDR TAVMEGKPVI DAEHLANPLL RQTKAWKNGK VIFVDADAWY
+     ITSASITSLK IVIDDIIKGY QS
+//

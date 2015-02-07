@@ -1,0 +1,91 @@
+ID   SRRA_STAAR              Reviewed;         241 AA.
+AC   Q6GGK6;
+DT   27-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   27-SEP-2005, sequence version 2.
+DT   07-JAN-2015, entry version 77.
+DE   RecName: Full=Transcriptional regulatory protein SrrA;
+DE   AltName: Full=Staphylococcal respiratory response protein A;
+GN   Name=srrA; OrderedLocusNames=SAR1568;
+OS   Staphylococcus aureus (strain MRSA252).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=282458;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MRSA252;
+RX   PubMed=15213324; DOI=10.1073/pnas.0402521101;
+RA   Holden M.T.G., Feil E.J., Lindsay J.A., Peacock S.J., Day N.P.J.,
+RA   Enright M.C., Foster T.J., Moore C.E., Hurst L., Atkin R., Barron A.,
+RA   Bason N., Bentley S.D., Chillingworth C., Chillingworth T.,
+RA   Churcher C., Clark L., Corton C., Cronin A., Doggett J., Dowd L.,
+RA   Feltwell T., Hance Z., Harris B., Hauser H., Holroyd S., Jagels K.,
+RA   James K.D., Lennard N., Line A., Mayes R., Moule S., Mungall K.,
+RA   Ormond D., Quail M.A., Rabbinowitsch E., Rutherford K.M., Sanders M.,
+RA   Sharp S., Simmonds M., Stevens K., Whitehead S., Barrell B.G.,
+RA   Spratt B.G., Parkhill J.;
+RT   "Complete genomes of two clinical Staphylococcus aureus strains:
+RT   evidence for the rapid evolution of virulence and drug resistance.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:9786-9791(2004).
+CC   -!- FUNCTION: Member of the two-component regulatory system SrrA/SrrB,
+CC       which is involved in the global regulation of staphylococcal
+CC       virulence factors in response to environmental oxygen levels. SrrA
+CC       binds to the agr, spa and tst promoters and represses their
+CC       transcription, particularly under low-oxygen conditions. Activates
+CC       its own expression (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- PTM: Phosphorylated by SrrB. {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 response regulatory domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00169}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAG40564.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BX571856; CAG40564.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_040966.1; NC_002952.2.
+DR   ProteinModelPortal; Q6GGK6; -.
+DR   SMR; Q6GGK6; 1-230.
+DR   STRING; 282458.SAR1568; -.
+DR   EnsemblBacteria; CAG40564; CAG40564; SAR1568.
+DR   GeneID; 2859161; -.
+DR   KEGG; sar:SAR1568; -.
+DR   PATRIC; 19546684; VBIStaAur71814_1571.
+DR   eggNOG; COG0745; -.
+DR   HOGENOM; HOG000034819; -.
+DR   KO; K07775; -.
+DR   OrthoDB; EOG6G4VQG; -.
+DR   BioCyc; SAUR282458:GJA5-1568-MONOMER; -.
+DR   Proteomes; UP000000596; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001867; Sig_transdc_resp-reg_C.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   Pfam; PF00486; Trans_reg_C; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SMART; SM00862; Trans_reg_C; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   3: Inferred from homology;
+KW   Activator; Complete proteome; Cytoplasm; DNA-binding; Phosphoprotein;
+KW   Repressor; Transcription; Transcription regulation;
+KW   Two-component regulatory system.
+FT   CHAIN         1    241       Transcriptional regulatory protein SrrA.
+FT                                /FTId=PRO_0000081251.
+FT   DOMAIN        4    117       Response regulatory.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+FT   MOD_RES      53     53       4-aspartylphosphate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+SQ   SEQUENCE   241 AA;  28161 MW;  491354FD9AED6F97 CRC64;
+     MSNEILIVDD EDRIRRLLKM YLERESFEIH EASNGQEAYE LAMENNYACI LLDLMLPEMD
+     GIQVATKLRE HKQTPIIMLT AKGEETNRVE GFESGADDYI VKPFSPREVV LRVKALLRRT
+     QSTTVEQSEP HARDVIEFKH LEIDNDAHRV LADNQEVNLT PKEYELLIYL AKTPNKVFDR
+     EQLLKEVWHY EFYGDLRTVD THVKRLREKL NRVSSEAAHM IQTVWGVGYK FEVKSNDEPA
+     K
+//
