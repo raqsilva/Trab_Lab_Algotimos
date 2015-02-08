@@ -699,7 +699,22 @@ def allfunctions():
                     for i in range(len(lista)):
                         file.write("%s\n" % lista[i])
                     file.close()
-                
+
+
+#GI numbers from genes with note
+def GInumbers(record,locus_tag):
+    GI=[]
+    for i in range(len(record.features)):
+        my_cds = record.features[i]
+        if my_cds.type == "CDS":
+            for j in range(len(locus_tag)):
+                if my_cds.qualifiers["locus_tag"][0]==str(locus_tag[j]):
+                    if "note" in my_cds.qualifiers:
+                        if "db_xref" in my_cds.qualifiers:
+                            x=my_cds.qualifiers["db_xref"]
+                            GI.append(x[0])
+    return GI
+                      
     
 def menu(record):
     ans=True
@@ -726,6 +741,7 @@ def menu(record):
     19.return all hits from blast
     20.Go to uniprot and download information for all hits
     21.Get all information for all hits
+    22.GI numbers from genes with note
     60.Exit
     """)
         ans=input("Choose an option? ")
@@ -808,12 +824,15 @@ def menu(record):
             
         elif ans=="21":    
             allfunctions()
+        elif ans=="22":    
+            locus=locus_tag(record)
+            print(GInumbers(record,locus))
         elif ans=="60":
             ans = False
         else:
             print("\nInvalid")
 
-#gimatch()
+
 
 def create_file():
     start=str(input(print("Insira o inicio da sua zona do genoma:")))
