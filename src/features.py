@@ -714,7 +714,24 @@ def GInumbers(record,locus_tag):
                             x=my_cds.qualifiers["db_xref"]
                             GI.append(x[0])
     return GI
-                      
+#blast gi with note    
+def blastwithnote():
+    locus=locus_tag(record)
+    gi=GInumbers(record,locus)
+    for i in range(len(gi)):
+        gis=str(gi[i])
+        GI_numb=gis[3:]
+        result_handle = NCBIWWW.qblast("blastp","swissprot", GI_numb)
+        save_file = open(GI_numb+'.xml', "w")
+        save_file.write(result_handle.read())
+        save_file.close()
+        result_handle.close()
+        #moving the file to another directory
+        path=os.getcwd()
+        src = path+"/"+GI_numb+'.xml' #source folder
+        dst = "../res/blast_with_note/"#destination folder
+        shutil.move(src, dst)
+                              
     
 def menu(record):
     ans=True
@@ -742,6 +759,7 @@ def menu(record):
     20.Go to uniprot and download information for all hits
     21.Get all information for all hits
     22.GI numbers from genes with note
+    23.Blast gi with note  
     60.Exit
     """)
         ans=input("Choose an option? ")
@@ -827,6 +845,8 @@ def menu(record):
         elif ans=="22":    
             locus=locus_tag(record)
             print(GInumbers(record,locus))
+        elif ans=="23":   
+            blastwithnote()
         elif ans=="60":
             ans = False
         else:

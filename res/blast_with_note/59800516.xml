@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800516|ref|YP_207228.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0049 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>177</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800516|ref|YP_207228.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0049 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>177</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|121957601|sp|Q0I348.1|XYLG_HISS1</Hit_id>
+  <Hit_def>RecName: Full=Xylose import ATP-binding protein XylG [Haemophilus somnus 129PT]</Hit_def>
+  <Hit_accession>Q0I348</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.49792</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>KAFWDNGGQCYLDLKVVDGKIIALCGQLINYTNTSIVNAAEEVYRSIIDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWY--LFFNNDITLDPYTGND--------LIWHVQ--IDPND-------GGAQFLETYQSWEK----LQQKYPNITFSYDKNDLIL</Hsp_qseq>
+      <Hsp_hseq>KKFGDVVALNNISISLETGEILSLCGEN-GSGKSTLMKVLCGIYPSG-DY--EGEIYFSGEKLTAKNIKDTEEKGISIIHQELT--LVKNMSVLENMFLGNEITQAGITNDNKMYLRCKTLLEQVQLDIDPNTKVSALGLGQQQLVEIAKALNKQVRLLILDEPTASLTEKETDILL</Hsp_hseq>
+      <Hsp_midline>K F D      + + +  G+I++LCG+      ++++     +Y S  DY    EI     K + KNI  T EK    I +E+   L KNM     +F  N+IT    T ++        L+  VQ  IDPN        G  Q +E  ++  K    L    P  + +  + D++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|259493856|sp|B4IMI7.1|INT3_DROSE</Hit_id>
+  <Hit_def>RecName: Full=Integrator complex subunit 3 homolog; AltName: Full=SOSS complex subunit A homolog [Drosophila sechellia]</Hit_def>
+  <Hit_accession>B4IMI7</Hit_accession>
+  <Hit_len>1068</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.52082</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>622</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPY</Hsp_qseq>
+      <Hsp_hseq>LNYVISNTVLILRETLPQQNIFSESKTEEKHLAKSISYPLY-GLFRFLYENDEKSKKPF</Hsp_hseq>
+      <Hsp_midline>++Y+ISN +LI+R     +NIFS ++ + K + K I+  LY  +  +L+ N++ +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|74877278|sp|Q7PLS8.1|INT3_DROME</Hit_id>
+  <Hit_def>RecName: Full=Integrator complex subunit 3 homolog; AltName: Full=SOSS complex subunit A homolog [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q7PLS8</Hit_accession>
+  <Hit_len>1068</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.550097</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>622</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPY</Hsp_qseq>
+      <Hsp_hseq>LNYVISNTVLILRETLPQQNIFSESKTEEKHLAKSISYPLY-GLFRFLYENDEKSKKPF</Hsp_hseq>
+      <Hsp_midline>++Y+ISN +LI+R     +NIFS ++ + K + K I+  LY  +  +L+ N++ +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|259493859|sp|B4ISV0.1|INT3_DROYA</Hit_id>
+  <Hit_def>RecName: Full=Integrator complex subunit 3 homolog; AltName: Full=SOSS complex subunit A homolog [Drosophila yakuba]</Hit_def>
+  <Hit_accession>B4ISV0</Hit_accession>
+  <Hit_len>1072</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.560391</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>626</Hsp_hit-from>
+      <Hsp_hit-to>683</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPY</Hsp_qseq>
+      <Hsp_hseq>LNYVISNTVLILRETLPQQNIFSESKTEEKHLAKSISYPLY-GLFRFLYENDEKSKKPF</Hsp_hseq>
+      <Hsp_midline>++Y+ISN +LI+R     +NIFS ++ + K + K I+  LY  +  +L+ N++ +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|259493855|sp|B4KJ11.1|INT3_DROMO</Hit_id>
+  <Hit_def>RecName: Full=Integrator complex subunit 3 homolog; AltName: Full=SOSS complex subunit A homolog [Drosophila mojavensis]</Hit_def>
+  <Hit_accession>B4KJ11</Hit_accession>
+  <Hit_len>1079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.710442</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>631</Hsp_hit-from>
+      <Hsp_hit-to>690</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>IDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPYTG</Hsp_qseq>
+      <Hsp_hseq>LNYVISNTVLILRETLPQQNVFSESKTEEKCLAKSISYPLY-GLFRFLYENEDKSKKPFQS</Hsp_hseq>
+      <Hsp_midline>++Y+ISN +LI+R     +N+FS ++ + K + K I+  LY  +  +L+ N D +  P+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|7404350|sp|P94498.2|CYSH1_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Phosphoadenosine phosphosulfate reductase; AltName: Full=3&apos;-phosphoadenylylsulfate reductase; AltName: Full=PAPS reductase, thioredoxin dependent; AltName: Full=PAPS sulfotransferase; AltName: Full=PAdoPS reductase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94498</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.714137</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>DLIWHVQIDPN----DGGAQFLETYQSWEKLQQKYPNITFSYDKNDLIL</Hsp_qseq>
+      <Hsp_hseq>DLIYKVKKDAEIVFLDTGLHFKETYETIERVKERYPGLNIILKKPDLTL</Hsp_hseq>
+      <Hsp_midline>DLI+ V+ D      D G  F ETY++ E+++++YP +     K DL L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|259493854|sp|B4JPR2.1|INT3_DROGR</Hit_id>
+  <Hit_def>RecName: Full=Integrator complex subunit 3 homolog; AltName: Full=SOSS complex subunit A homolog [Drosophila grimshawi]</Hit_def>
+  <Hit_accession>B4JPR2</Hit_accession>
+  <Hit_len>1083</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.821935</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>635</Hsp_hit-from>
+      <Hsp_hit-to>692</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPY</Hsp_qseq>
+      <Hsp_hseq>LNYVISNTVLILRETLPQQNVFSESKTEEKYLAKSISYPLY-GLFRFLYENEDKSKKPF</Hsp_hseq>
+      <Hsp_midline>++Y+ISN +LI+R     +N+FS ++ + K + K I+  LY  +  +L+ N D +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|259493857|sp|B4LQY8.1|INT3_DROVI</Hit_id>
+  <Hit_def>RecName: Full=Integrator complex subunit 3 homolog; AltName: Full=SOSS complex subunit A homolog [Drosophila virilis]</Hit_def>
+  <Hit_accession>B4LQY8</Hit_accession>
+  <Hit_len>1079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.852097</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>631</Hsp_hit-from>
+      <Hsp_hit-to>688</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPY</Hsp_qseq>
+      <Hsp_hseq>LNYVISNTVLILRETLPQQNVFSESKTEEKYLAKSISYPLY-GLFRFLYENEDKSKKPF</Hsp_hseq>
+      <Hsp_midline>++Y+ISN +LI+R     +N+FS ++ + K + K I+  LY  +  +L+ N D +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|259493853|sp|B3N449.1|INT3_DROER</Hit_id>
+  <Hit_def>RecName: Full=Integrator complex subunit 3 homolog; AltName: Full=SOSS complex subunit A homolog [Drosophila erecta]</Hit_def>
+  <Hit_accession>B3N449</Hit_accession>
+  <Hit_len>1072</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.924176</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>626</Hsp_hit-from>
+      <Hsp_hit-to>683</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPY</Hsp_qseq>
+      <Hsp_hseq>LNYVISNTVLILRETLPQQNIFSESKTDEKHLAKSISYPLY-GLFRFLYENDEKSKKPF</Hsp_hseq>
+      <Hsp_midline>++Y+ISN +LI+R     +NIFS ++   K + K I+  LY  +  +L+ N++ +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|259586100|sp|C5D5A7.1|CYSH_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Phosphoadenosine phosphosulfate reductase; AltName: Full=3&apos;-phosphoadenylylsulfate reductase; AltName: Full=PAPS reductase, thioredoxin dependent; AltName: Full=PAPS sulfotransferase; AltName: Full=PAdoPS reductase [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D5A7</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.37412</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>DLIWHVQIDPN----DGGAQFLETYQSWEKLQQKYPNITFSYDKNDLIL</Hsp_qseq>
+      <Hsp_hseq>DLISQVKPDAEIVFLDTGLHFRETYKTIEKVKEKYPSLRIVMKKPSLSL</Hsp_hseq>
+      <Hsp_midline>DLI  V+ D      D G  F ETY++ EK+++KYP++     K  L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1170139|sp|P46239.1|GUNF_FUSOX</Hit_id>
+  <Hit_def>RecName: Full=Putative endoglucanase type F; AltName: Full=Cellulase; AltName: Full=Endo-1,4-beta-glucanase; Flags: Precursor [Fusarium oxysporum]</Hit_def>
+  <Hit_accession>P46239</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.45608</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>IIDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYL-FFNNDITLDPYTGNDLIWHVQI</Hsp_qseq>
+      <Hsp_hseq>IDHYHLNNNPLINIVKAQFGQVTCENSMKWDAIEPSRNSFTFSNADKVVDFATQNGKL--IRGHTLLWHSQL</Hsp_hseq>
+      <Hsp_midline>I  Y ++N  LI   K  F  +   N  K+  IE   N F + N D  + F   +  L    G+ L+WH Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|71152051|sp|Q5E7T0.1|FETP_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Probable Fe(2+)-trafficking protein [Vibrio fischeri ES114] &gt;gi|226701847|sp|B5F9R3.1|FETP_VIBFM RecName: Full=Probable Fe(2+)-trafficking protein [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>Q5E7T0</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.74941</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>KFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPYT</Hsp_qseq>
+      <Hsp_hseq>QWQHKQTMLINEKKLNMMDPEHRKLLETEMEGFLFDGKDVVIDGYT</Hsp_hseq>
+      <Hsp_midline>++  K     NEKK   ++ E  K L   M+ +LF   D+ +D YT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|75273922|sp|Q9LS88.1|PP250_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Pentatricopeptide repeat-containing protein At3g23020 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LS88</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.80163</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>559</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GQCYLDLKVVDGKI---IALCGQLINYTNTSIVNAAEEVYRSIIDYLISNEILI</Hsp_qseq>
+      <Hsp_hseq>GRCYLEKMRETGYVSDCIPYCAVISSFVKLGQLNMAEEVYKEMVEYNIEPDVVV</Hsp_hseq>
+      <Hsp_midline>G+CYL+     G +   I  C  + ++     +N AEEVY+ +++Y I  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1175040|sp|P45046.1|XYLG_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Xylose import ATP-binding protein XylG [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45046</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.0665</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>KAFWDNGGQCYLDLKVVDGKIIALCGQLINYTNTSIVNAAEEVYRSIIDYLISNEILIVRTKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWY--LFFNNDITLDPYTGN--------DLIWHVQI--DPND-------GGAQFLETYQSWEK</Hsp_qseq>
+      <Hsp_hseq>KKFGDVTALHNISIELEAGEILSLCGE--NGSGKSTLMKILCGIYPCGDY--SGDIYFSESELKARNIRDTEEKGISIIHQELT--LVKNMSVLENIFLGNEITHKGLTADNEMYLRCKNLLQQVQLDADPNTRVGELGLGQQQLVEIAKALNK</Hsp_hseq>
+      <Hsp_midline>K F D      + +++  G+I++LCG+  N +  S +           DY  S +I    ++   +NI  T EK    I +E+   L KNM     +F  N+IT    T +        +L+  VQ+  DPN        G  Q +E  ++  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226701802|sp|B6EMT9.1|FETP_ALISL</Hit_id>
+  <Hit_def>RecName: Full=Probable Fe(2+)-trafficking protein [Aliivibrio salmonicida LFI1238]</Hit_def>
+  <Hit_accession>B6EMT9</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.09367</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>KFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPYT</Hsp_qseq>
+      <Hsp_hseq>QWQHKQTMLINEKKLNMMDPEHRKMLETEMEGFLFDGKDVVIDGYT</Hsp_hseq>
+      <Hsp_midline>++  K     NEKK   ++ E  K L   M+ +LF   D+ +D YT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81341903|sp|O31634.1|YJCL_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized membrane protein YjcL [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31634</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.39799</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VDGKIIALCGQLINYTNTSIVNAAEEVYRSIIDYLISNEILIVRTKFSFKNIFSTNEK</Hsp_qseq>
+      <Hsp_hseq>VSGAIIALAGAMV-FTNVGVLPVESPVYDTVWSYVVPLAIPLLLFQINVRQIFKESRR</Hsp_hseq>
+      <Hsp_midline>V G IIAL G ++ +TN  ++     VY ++  Y++   I ++  + + + IF  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166198645|sp|A4SIF7.1|FETP_AERS4</Hit_id>
+  <Hit_def>RecName: Full=Probable Fe(2+)-trafficking protein [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4SIF7</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.98513</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>TKFSFKNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPYT</Hsp_qseq>
+      <Hsp_hseq>TEWQKKQVMLINEKKLNMMNLEHRQLLEKEMVSYLFEAGEVAIDGYT</Hsp_hseq>
+      <Hsp_midline>T++  K +   NEKK   +  E  + L K M  YLF   ++ +D YT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|166221119|sp|A7Z4H7.1|CYSH_BACA2</Hit_id>
+  <Hit_def>RecName: Full=Phosphoadenosine phosphosulfate reductase; AltName: Full=3&apos;-phosphoadenylylsulfate reductase; AltName: Full=PAPS reductase, thioredoxin dependent; AltName: Full=PAPS sulfotransferase; AltName: Full=PAdoPS reductase [Bacillus amyloliquefaciens subsp. plantarum str. FZB42]</Hit_def>
+  <Hit_accession>A7Z4H7</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.41789</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>DLIWHVQIDPN----DGGAQFLETYQSWEKLQQKYPNITFSYDKNDLIL</Hsp_qseq>
+      <Hsp_hseq>DLISKVKKDAEIVFLDTGLHFKETYETIEKVKERYPGLNIILKKPSLTL</Hsp_hseq>
+      <Hsp_midline>DLI  V+ D      D G  F ETY++ EK++++YP +     K  L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|47117437|sp|Q7N7I1.1|FETP_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Probable Fe(2+)-trafficking protein [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N7I1</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.6606</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>KNIFSTNEKKYKEIEKEINKFLYKNMDWYLFFNNDITLDPYT</Hsp_qseq>
+      <Hsp_hseq>KQTMLINEKKLSTMNPEDRKLLEQEMTKFLFEGHDIQIDGYT</Hsp_hseq>
+      <Hsp_midline>K     NEKK   +  E  K L + M  +LF  +DI +D YT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|205830033|sp|A7GGF1.1|SYA_CLOBL</Hit_id>
+  <Hit_def>RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Clostridium botulinum F str. Langeland]</Hit_def>
+  <Hit_accession>A7GGF1</Hit_accession>
+  <Hit_len>879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.71738</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>537</Hsp_hit-from>
+      <Hsp_hit-to>624</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LKVVDGKIIALCGQLI-------------NYTNTSIVNAAEEVYRSIIDYLISNEILI--VRTKFSFKNIFSTNEKKYKEIEKEINKFLYK</Hsp_qseq>
+      <Hsp_hseq>VKILDGKV-ALEDQVILKVNEERRNNIRKNHTATHILHAA--LIKVVGDHVQQSGSYVDDERLRFDFSHFEAVSEDELKEVEKIVNKEIMK</Hsp_hseq>
+      <Hsp_midline>+K++DGK+ AL  Q+I             N+T T I++AA  + + + D++  +   +   R +F F +  + +E + KE+EK +NK + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|205830027|sp|A7FWJ5.1|SYA_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Clostridium botulinum A str. ATCC 19397] &gt;gi|205830031|sp|A5I4Z5.1|SYA_CLOBH RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Clostridium botulinum A str. Hall]</Hit_def>
+  <Hit_accession>A7FWJ5</Hit_accession>
+  <Hit_len>879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.78709</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>537</Hsp_hit-from>
+      <Hsp_hit-to>624</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LKVVDGKIIALCGQLI-------------NYTNTSIVNAAEEVYRSIIDYLISNEILI--VRTKFSFKNIFSTNEKKYKEIEKEINKFLYK</Hsp_qseq>
+      <Hsp_hseq>VKILDGKV-ALEDQVILKVNEERRNNIRKNHTATHILHAA--LIKVVGDHVQQSGSYVDDERLRFDFSHFEAVSEDELKEVEKIVNKEIMK</Hsp_hseq>
+      <Hsp_midline>+K++DGK+ AL  Q+I             N+T T I++AA  + + + D++  +   +   R +F F +  + +E + KE+EK +NK + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|205830032|sp|B1IJG7.1|SYA_CLOBK</Hit_id>
+  <Hit_def>RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Clostridium botulinum B1 str. Okra]</Hit_def>
+  <Hit_accession>B1IJG7</Hit_accession>
+  <Hit_len>879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>537</Hsp_hit-from>
+      <Hsp_hit-to>624</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LKVVDGKIIALCGQLI-------------NYTNTSIVNAAEEVYRSIIDYLISNEILI--VRTKFSFKNIFSTNEKKYKEIEKEINKFLYK</Hsp_qseq>
+      <Hsp_hseq>VKILDGKV-ALEDQVILKVNEERRNNIRKNHTATHILHAA--LIKVVGDHVQQSGSYVDDERLRFDFSHFEAVSEDELKEVEKIVNKEIMK</Hsp_hseq>
+      <Hsp_midline>+K++DGK+ AL  Q+I             N+T T I++AA  + + + D++  +   +   R +F F +  + +E + KE+EK +NK + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|205830034|sp|B1KXB7.1|SYA_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Clostridium botulinum A3 str. Loch Maree]</Hit_def>
+  <Hit_accession>B1KXB7</Hit_accession>
+  <Hit_len>879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.29293</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>537</Hsp_hit-from>
+      <Hsp_hit-to>624</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LKVVDGKIIALCGQLI-------------NYTNTSIVNAAEEVYRSIIDYLISNEILI--VRTKFSFKNIFSTNEKKYKEIEKEINKFLYK</Hsp_qseq>
+      <Hsp_hseq>VKILDGKV-ALEDQVILKVNEGRRNNIRKNHTATHILHAA--LIKVVGDHVQQSGSYVDDERLRFDFSHFEAVSEDELKEVEKIVNKEIMK</Hsp_hseq>
+      <Hsp_midline>+K++DGK+ AL  Q+I             N+T T I++AA  + + + D++  +   +   R +F F +  + +E + KE+EK +NK + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
