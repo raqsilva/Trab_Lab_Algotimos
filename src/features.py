@@ -1,13 +1,13 @@
-from Bio import SeqIO 
-from Bio import Entrez
-from Bio.Blast import NCBIWWW,NCBIXML
+from Bio import SeqIO #reading gb file 
+from Bio import Entrez #fetching genbank file
+from Bio.Blast import NCBIWWW,NCBIXML #fetching/parsing blast
 import shutil#moving files
 import os.path#cheking files in path
-import urllib
+import urllib #getting info from site
 from Uniprot_Parser import * #parsing uniprot text file
 from Bio.SeqIO import UniprotIO #parsing uniprot xml file
-import pandas
-import numpy as np
+import pandas #creating data frame
+import numpy as np #creating array for data frame
 
 
 #[0:246000] my zone
