@@ -11,6 +11,7 @@ for file in os.listdir("../res/blast_with_note/match/allhits/funcao_all_hits/"):
         limpo = file.replace(".txt", "")
         GI.append(limpo)
 
+
 lista=[]        
 for name in range(len(GI)):
     lista.append([])
@@ -39,13 +40,27 @@ for name in range(len(GI)):
         except:
             pass       
 
-lista=[]
-dado=[]
-for i in range(len(lista)):
-    dado.append(lista[i][0])       
-    lista.append(lista[i])
-data=np.array(lista)
-df=pandas.DataFrame(data)
-df.to_csv("../res/excel/funcao", sep='\t')
 
+
+def tabela(l):
+    nome=[]
+    #dado=[]
+    for i in range(len(lista)):
+        #dado.append(lista[i][0])       
+        nome.append(lista[i])
+    data=np.array(nome)
+    df=pandas.DataFrame(data)
+    df.to_csv("../res/excel/funcao2", sep=',')
+
+print(tabela(lista))
+
+
+
+def func(GI):
+    lista=[]        
+    for name in range(len(GI)):
+        lista.append([])
+        lista[name].append(GI[name])
+        fic=open("../res/blast_with_note/match/allhits/funcao_all_hits/"+GI[name]+".txt").read()
+        
 
