@@ -1,4 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import os.path
+import pandas #creating data frame
+import numpy as np #creating array for data frame
 
 
 GI=[]
@@ -25,8 +29,23 @@ for name in range(len(GI)):
         except:
             pass       
 
-    
+        first2 = 'função:   '
+        last2 = '{ECO:'
+        try:
+            start2 = data.rindex( first2 ) + len( first2 )
+            end2 = data.rindex(last2, start2)
+            novo2= data[start2:end2]
+            lista[name].append(novo2)
+        except:
+            pass       
 
-
+lista=[]
+dado=[]
+for i in range(len(lista)):
+    dado.append(lista[i][0])       
+    lista.append(lista[i])
+data=np.array(lista)
+df=pandas.DataFrame(data)
+df.to_csv("../res/excel/funcao", sep='\t')
 
 
