@@ -153,8 +153,9 @@ def gene_ID_GI(record,locus_tag):
                 if "db_xref" in my_gene.qualifiers:
                     x=my_gene.qualifiers["db_xref"]
                     return x[0],x[1]
-
-
+       
+       
+       
 def GI_number(record,locus_tag):
     GI=[]
     for i in range(len(record.features)):
@@ -198,8 +199,8 @@ def tabela_CDD(GI):
     data=np.array(lista)
     df=pandas.DataFrame(data, dado)
     df.to_csv("../res/excel/CDD", sep='\t')
-        
 
+    
 #Getting pseudogenes locus_tag
 def pseudogenes(record):
     locus=[]
@@ -540,7 +541,7 @@ def giwithout_note(record):
 #blast gi without note    
 def blastnote(filename):
     gi=giwithout_note(record)
-    for i in range(6,len(gi)):
+    for i in range(44,len(gi)):
         GI_numb=str(gi[i])
         result_handle = NCBIWWW.qblast("blastp","swissprot", GI_numb)
         save_file = open(GI_numb+'.xml', "w")
@@ -759,59 +760,6 @@ def GInumbers(record,locus_tag):
                             x=my_cds.qualifiers["db_xref"]
                             GI.append(x[0])
     return GI
-
-#blast gi with note    
-def blastwithnote():
-    locus=locus_tag(record)
-    gi=GInumbers(record,locus)
-    for i in range(37,len(gi)):
-        gis=str(gi[i])
-        GI_numb=gis[3:]
-        result_handle = NCBIWWW.qblast("blastp","swissprot", GI_numb)
-        save_file = open(GI_numb+'.xml', "w")
-        save_file.write(result_handle.read())
-        save_file.close()
-        result_handle.close()
-        #moving the file to another directory
-        path=os.getcwd()
-        src = path+"/"+GI_numb+'.xml' #source folder
-        dst = "../res/blast_with_note/"#destination folder
-        shutil.move(src, dst)
-                              
-#return all hits from blast
-def allhitswithnote():
-    lista=[]
-    handle = open("../res/blast_with_note/match/matches.txt").readlines()    
-    first = 'sp|'
-    last = '|'
-    gi=[]
-    xml='['
-    
-    
-        
-    for q in range(len(handle)):
-        lista.append([])
-        x=handle[q].split()
-        for i in range (len(x)):
-            m=x[i]
-            if 'sp|' in m:    
-                try:
-                    start = m.rindex( first ) + len( first )
-                    end = m.rindex( last, start )
-                    novo= m[start:end]
-                    lista[q].append(novo)
-                except:
-                    pass
-          
-    
-    for f in handle:
-        n = f[f.index(xml) + len(xml):] 
-        g = n.split('.xml', 1)[0]  
-        gi.append(g[1:])
-    
-    for p in range(len(lista)):
-        lista[p].append(gi[p])
-    return lista
  
 
 lista_GO=[['Q5FAJ2', 'GO:GO:0003688', 'GO:GO:0005524', 'GO:GO:0005737',  'GO:GO:0006270', 'GO:GO:0006275'] ,['Q5FAJ1', 'GO:GO:0003677', 'GO:GO:0003887',  'GO:GO:0005737',  'GO:GO:0006260', 'GO:GO:0008408',  'GO:GO:0009360'],[ 'Q5FAJ0', 'GO:GO:0005524', 'GO:GO:0006799',  'GO:GO:0008976',  'GO:GO:0009358'],['Q5FAJ3', 'GO:GO:0002161', 'GO:GO:0004823',  'GO:GO:0005524', 'GO:GO:0005737', 'GO:GO:0006429'], ['Q5FAK0', 'GO:GO:0043565'],['Q5FAJ8', 'GO:GO:0009306', 'GO:GO:0015450',  'GO:GO:0016021'],['Q5FAJ7', 'GO:GO:0004807', 'GO:GO:0005737',  'GO:GO:0006094', 'GO:GO:0006096',  'GO:GO:0006098'],['Q5FAJ5', 'GO:GO:0004719'],['Q5FAL3', 'GO:GO:0004872',  'GO:GO:0005506', 'GO:GO:0009279',  'GO:GO:0015343'],['Q5FAK9', 'GO:GO:0003700',  'GO:GO:0006351', 'GO:GO:0043565'],['Q5FAK8', 'GO:GO:0004252', 'GO:GO:0070008'],['Q5FAK7', 'GO:GO:0004042',  'GO:GO:0005737', 'GO:GO:0006526'] ,['Q5FAK5', 'GO:GO:0000287', 'GO:GO:0004588', 'GO:GO:0044205'], ['Q5FAI7', 'GO:GO:0006474', 'GO:GO:0008080'],['Q5FAI6', 'GO:GO:0070526'], ['Q5FAI5', 'GO:GO:0009279',  'GO:GO:0016021'], ['Q5FAI4', 'GO:GO:0004332',  'GO:GO:0006096',  'GO:GO:0008270'],['Q5FAI3', 'GO:GO:0003677', 'GO:GO:0005737',  'GO:GO:0006313', 'GO:GO:0007049', 'GO:GO:0007059',  'GO:GO:0009037', 'GO:GO:0051301'], ['Q5FAI2', 'GO:GO:0000287',  'GO:GO:0008661',  'GO:GO:0009228', 'GO:GO:0016114', 'GO:GO:0030976', 'GO:GO:0052865'],['Q5FAI1', 'GO:GO:0005506', 'GO:GO:0005737', 'GO:GO:0006400', 'GO:GO:0016740',  'GO:GO:0051539'], ['Q5FAH9', 'GO:GO:0005737', 'GO:GO:0006782', 'GO:GO:0008483', 'GO:GO:0030170', 'GO:GO:0042286'],['Q5FAH8', 'GO:GO:0003676', 'GO:GO:0005737', 'GO:GO:0016896'],['Q5FAH7', 'GO:GO:0005737', 'GO:GO:0008276'],['Q5FAH6', 'GO:GO:0004075', 'GO:GO:0005524',  'GO:GO:0046872'],['Q5FAH5', 'GO:GO:0003989', 'GO:GO:0006633', 'GO:GO:0009317'], ['Q5FAH3', 'GO:GO:0005737',  'GO:GO:0008616',  'GO:GO:0016740', 'GO:GO:0016853'],['Q5FAH2', 'GO:GO:0004088',  'GO:GO:0005524', 'GO:GO:0006526', 'GO:GO:0044205', 'GO:GO:0046872'],['Q5FAG9', 'GO:GO:0004088',  'GO:GO:0005524',  'GO:GO:0006526', 'GO:GO:0006543', 'GO:GO:0044205', 'GO:GO:0070409'],['Q5FAG5', 'GO:GO:0016491'],['Q5FAG4', 'GO:GO:0003677',  'GO:GO:0003700',  'GO:GO:0005622',  'GO:GO:0006351',  'GO:GO:0010124', 'GO:GO:0045892'],['Q5FAG3', 'GO:GO:0010181',  'GO:GO:0016651', 'GO:GO:0042537',  'GO:GO:0042602',  'GO:GO:0051287'], ['Q5FAG2', 'GO:GO:0009058', 'GO:GO:0016779'],['Q5FAG1', 'GO:GO:0004329', 'GO:GO:0005524', 'GO:GO:0009396', 'GO:GO:0035999'],['Q5FAG0', 'GO:GO:0005524', 'GO:GO:0005525', 'GO:GO:0016887', 'GO:GO:0043022', 'GO:GO:0043023'], ['Q5FAF8', 'GO:GO:0016020',  'GO:GO:0016747'],['Q5FAF7', 'GO:GO:0003723', 'GO:GO:0004831', 'GO:GO:0005524',  'GO:GO:0005737',  'GO:GO:0006437'],['Q5FAF6', 'GO:GO:0003919', 'GO:GO:0008531',  'GO:GO:0009231'], ['Q5FAF5', 'GO:GO:0002161',  'GO:GO:0004822',  'GO:GO:0005524', 'GO:GO:0005737', 'GO:GO:0006428', 'GO:GO:0008270'],['Q5FAF4', 'GO:GO:0009279', 'GO:GO:0015288', 'GO:GO:0016021'], ['Q5FAF3', 'GO:GO:0004190', 'GO:GO:0005886',  'GO:GO:0016021'], ['Q5FAF2', 'GO:GO:0016114', 'GO:GO:0019288', 'GO:GO:0046872',  'GO:GO:0050992', 'GO:GO:0051538', 'GO:GO:0051745'],['Q5FAF1', 'GO:GO:0008967'],[ 'Q5FAE8', 'GO:GO:0003677', 'GO:GO:0003887', 'GO:GO:0005737', 'GO:GO:0006260',  'GO:GO:0008408'],['Q5FAE7', 'GO:GO:0003723'], ['Q5FAE5', 'GO:GO:0003677',  'GO:GO:0003887', 'GO:GO:0006260'], ['Q5FAE4', 'GO:GO:0009042', 'GO:GO:0009058', 'GO:GO:0030170'],['Q5FAE3', 'GO:GO:0009058'],[ 'Q5FAE2', 'GO:GO:0003824', 'GO:GO:0030170'],['Q5FAD9', 'GO:GO:0009058'],['Q5FAD8', 'GO:GO:0000271', 'GO:GO:0016020'], ['Q5FAD7', 'GO:GO:0008270',  'GO:GO:0008703', 'GO:GO:0008835', 'GO:GO:0009231',  'GO:GO:0050661'], ['Q5FAD6', 'GO:GO:0003677', 'GO:GO:0005524', 'GO:GO:0006351',  'GO:GO:0008270', 'GO:GO:0045892'], ['Q5FAD4', 'GO:GO:0003856',  'GO:GO:0005737',  'GO:GO:0009073', 'GO:GO:0009423'],['Q5FAD3', 'GO:GO:0000287',  'GO:GO:0004765', 'GO:GO:0005524',  'GO:GO:0005737', 'GO:GO:0009073',  'GO:GO:0009423',  'GO:GO:0008565'],[ 'Q5FAD2', 'GO:GO:0009279', 'GO:GO:0009297',  'GO:GO:0009306', 'GO:GO:0030420'],['Q5FAC7', 'GO:GO:0005886',  'GO:GO:0008233', 'GO:GO:0008360', 'GO:GO:0008658', 'GO:GO:0009252',  'GO:GO:0016021',  'GO:GO:0016763', 'GO:GO:0046677', 'GO:GO:0071555'], ['Q5FAC6', 'GO:GO:0000287',  'GO:GO:0000917', 'GO:GO:0005525'], ['Q5FAC5', 'GO:GO:0005506', 'GO:GO:0009055',  'GO:GO:0020037', 'GO:GO:0042597', 'Q5FAC3', 'GO:GO:0017004', 'GO:GO:0020037'], ['Q5FAC2', 'GO:GO:0004222', 'GO:GO:0005506', 'GO:GO:0005737', 'GO:GO:0016747', 'GO:GO:0070526'],['Q5FAC1', 'GO:GO:0009244', 'GO:GO:0016021', 'GO:GO:0016746'], ['Q5FAC0', 'GO:GO:0000287', 'GO:GO:0004478' , 'GO:GO:0005524', 'GO:GO:0005737',  'GO:GO:0006556',  'GO:GO:0006730'],[ 'Q5FAB9', 'GO:GO:0009002'],['Q5FAB6', 'GO:GO:0015137', 'GO:GO:0016021'], ['Q5FAB5', 'GO:GO:0000155', 'GO:GO:0005524', 'GO:GO:0016020'],['Q5FAB4', 'GO:GO:0003723', 'GO:GO:0004540', 'GO:GO:0006396'],['Q5FAB3', 'GO:GO:0009055', 'GO:GO:0015035', 'GO:GO:0045454'], ['Q5FAB1', 'GO:GO:0005737', 'GO:GO:0006457', 'GO:GO:0015031', 'GO:GO:0051262'],['Q5FAB0', 'GO:GO:0003676', 'GO:GO:0004003', 'GO:GO:0005524', 'GO:GO:0006281', 'GO:GO:0006310'],['Q5FAA9', 'GO:GO:0003942',  'GO:GO:0005737', 'GO:GO:0006526', 'GO:GO:0051287'],['Q5FAA4', 'GO:GO:0009306', 'GO:GO:0016020', 'GO:GO:0055085'], ['Q5FAA1', 'GO:GO:0005887'],['Q5FA99', 'GO:GO:0005524',  'GO:GO:0008270', 'GO:GO:0008616', 'GO:GO:0016879'],['Q5FA97', 'GO:GO:0008616', 'GO:GO:0016829', 'GO:GO:0046872'], ['Q5FA96', 'GO:GO:0008616',  'GO:GO:0016840', 'GO:GO:0046872', 'GO:GO:0051539'],['Q5FA94', 'GO:GO:0004563', 'GO:GO:0005737', 'GO:GO:0005975', 'GO:GO:0007049', 'GO:GO:0008360', 'GO:GO:0009252',  'GO:GO:0009254', 'GO:GO:0051301', 'GO:GO:0071555'],[ 'Q5FA93', 'GO:GO:0016021'], ['Q5FA91', 'GO:GO:0004252'],['Q5FA90', 'GO:GO:0003677', 'GO:GO:0003906', 'GO:GO:0006284', 'GO:GO:0019104',  'GO:GO:0046872', 'GO:GO:0051539'],[ 'Q5FA87', 'GO:GO:0005354', 'GO:GO:0005355', 'GO:GO:0009276', 'GO:GO:0016021'],['Q5FA86', 'GO:GO:0015297', 'GO:GO:0016021'], ['Q5FA85', 'GO:GO:0016614', 'GO:GO:0030554', 'GO:GO:0050660'],['Q5FA84', 'GO:GO:0004222', 'GO:GO:0004521', 'GO:GO:0005737', 'GO:GO:0006364', 'GO:GO:0008270'],['Q5FA83', 'GO:GO:0004418', 'GO:GO:0006782',  'GO:GO:0018160'], ['Q5FA80', 'GO:GO:0003676', 'GO:GO:0005524', 'GO:GO:0008026'], ['Q5FA78', 'GO:GO:0017150', 'GO:GO:0050660'], ['Q5FA76', 'GO:GO:0000287', 'GO:GO:0003676', 'GO:GO:0006281', 'GO:GO:0006310', 'GO:GO:0008821'],['Q5FA75', 'GO:GO:0009244', 'GO:GO:0016021',  'GO:GO:0016746'], ['Q5FA73', 'GO:GO:0003676'], ['Q5FA72', 'GO:GO:0004177', 'GO:GO:0008237',  'GO:GO:0008270'], ['Q5FA65', 'GO:GO:0009279', 'GO:GO:0016021'],['Q5FA63', 'GO:GO:0007155', 'GO:GO:0030001', 'GO:GO:0046872'], ['Q5FA62', 'GO:GO:0005524', 'GO:GO:0016021', 'GO:GO:0042626'],['Q5FA61', 'GO:GO:0005524', 'GO:GO:0016887'], ['Q5FA60', 'GO:GO:0003735', 'GO:GO:0005840',  'GO:GO:0006412'],['Q5FA59', 'GO:GO:0005737', 'GO:GO:0052906'], ['Q5FA58', 'GO:GO:0005840', 'GO:GO:0006364', 'GO:GO:0042274', 'GO:GO:0043022'],['Q5FA57', 'GO:GO:0003735',  'GO:GO:0005840','GO:GO:0006412'],['Q5FA56', 'GO:GO:0000155',  'GO:GO:0005524', 'GO:GO:0016021'], ['Q5FA55', 'GO:GO:0000160',  'GO:GO:0003677', 'GO:GO:0006351', 'GO:GO:0006355'],['Q5FA52', 'GO:GO:0005737'], ['Q5FA51', 'GO:GO:0005887', 'GO:GO:0008320',  'GO:GO:0033281', 'GO:GO:0043953'],['Q5FA50', 'GO:GO:0005887', 'GO:GO:0008320',  'GO:GO:0009306', 'GO:GO:0033281',  'GO:GO:0043953'],['Q5FA49', 'GO:GO:0005887', 'GO:GO:0008320', 'GO:GO:0009306', 'GO:GO:0033281',  'GO:GO:0043953'],['Q5FA48', 'GO:GO:0003824'],[ 'Q5FA47', 'GO:GO:0000105', 'GO:GO:0004636', 'GO:GO:0005524', 'GO:GO:0005737'],['Q5FA46', 'GO:GO:0008270',  'GO:GO:0016491'], ['Q5FA43', 'GO:GO:0005622',  'GO:GO:0005886', 'GO:GO:0006605',  'GO:GO:0015450', 'GO:GO:0016021',  'GO:GO:0043952', 'GO:GO:0065002'],['Q5FA42', 'GO:GO:0005622',  'GO:GO:0005886', 'GO:GO:0006605', 'GO:GO:0015450', 'GO:GO:0016021', 'GO:GO:0043952',  'GO:GO:0065002'], ['Q5FA41', 'GO:GO:0003735', 'GO:GO:0005840', 'GO:GO:0006412',  'GO:GO:0019843'],['Q5FA40', 'GO:GO:0005524', 'GO:GO:0015417', 'GO:GO:0043190'],[ 'Q5FA39', 'GO:GO:0006810', 'GO:GO:0016021'],[ 'Q5FA38', 'GO:GO:0006810',  'GO:GO:0016021'] ,['Q5FA37', 'GO:GO:0016491'], ['Q5FA36', 'GO:GO:0008519', 'GO:GO:0016020'],['Q5FA35', 'GO:GO:0003723', 'GO:GO:0004386',  'GO:GO:0005524', 'GO:GO:0006353', 'GO:GO:0006355',  'GO:GO:0008186'],[ 'Q5FA34', 'GO:GO:0005524', 'GO:GO:0006090',  'GO:GO:0006094', 'GO:GO:0008986', 'GO:GO:0046872'],['Q5FA32', 'GO:GO:0004674',  'GO:GO:0005524'], ['Q5FA31', 'GO:GO:0016787'], ['Q5FA29', 'GO:GO:0042597', 'GO:GO:0042954'],['Q5FA28', 'GO:GO:0015846', 'GO:GO:0019808', 'GO:GO:0042597'], ['Q5FA27', 'GO:GO:0016740'],['Q5FA25', 'GO:GO:0003924', 'GO:GO:0005525', 'GO:GO:0005737', 'GO:GO:0006449',  'GO:GO:0016149'],['Q5FA24', 'GO:GO:0000105', 'GO:GO:0004635',  'GO:GO:0005737', 'GO:GO:0046872'],['Q5FA23', 'GO:GO:0000105', 'GO:GO:0000107', 'GO:GO:0005737', 'GO:GO:0016829'],['Q5FA22', 'GO:GO:0000105', 'GO:GO:0003949', 'GO:GO:0005737'],['Q5FA21', 'GO:GO:0000105',  'GO:GO:0000107', 'GO:GO:0005737', 'GO:GO:0006541'],['Q5FA20', 'GO:GO:0016407'],['Q5FA19', 'GO:GO:0005524', 'GO:GO:0015408', 'GO:GO:0043190', 'GO:GO:0055072'],['Q5FA18', 'GO:GO:0006810', 'GO:GO:0016021'], ['Q5FA17', 'GO:GO:0005215'], ['Q5FA15', 'GO:GO:0004056', 'GO:GO:0005737', 'GO:GO:0042450'],['Q5FA14', 'GO:GO:0003983', 'GO:GO:0006011',  'GO:GO:0009058'], ['Q5FA13', 'GO:GO:0000166',  'GO:GO:0006163', 'GO:GO:0009143', 'GO:GO:0017111', 'GO:GO:0046872', 'GO:GO:0047429'], ['Q5FA11', 'GO:GO:0000287', 'GO:GO:0004427', 'GO:GO:0005737',  'GO:GO:0006796'],['Q5FA10', 'GO:GO:0006281', 'GO:GO:0008828'], ['Q5FA07', 'GO:GO:0004519'], ['Q5FA04', 'GO:GO:0005886',  'GO:GO:0016021', 'GO:GO:0022820'], ['Q5FA03', 'GO:GO:0008803'],['Q5FA02', 'GO:GO:0019239'],['Q5FA01', 'GO:GO:0009279', 'GO:GO:0015288', 'GO:GO:0016021'], ['Q5FA00', 'GO:GO:0004109', 'GO:GO:0005737', 'GO:GO:0006779', 'GO:GO:0051536'],['Q5F9Z9', 'GO:GO:0003677', 'GO:GO:0003911',  'GO:GO:0006260', 'GO:GO:0006281', 'GO:GO:0046872'], ['Q5F9Z8', 'GO:GO:0000917', 'GO:GO:0005886',  'GO:GO:0016021'],[ 'Q5F9Z7', 'GO:GO:0008745', 'GO:GO:0009253'], ['Q5F9Z5', 'GO:GO:0004798', 'GO:GO:0005524', 'GO:GO:0006233',  'GO:GO:0006235'],['Q5F9Z4', 'GO:GO:0004471', 'GO:GO:0006108',  'GO:GO:0008948', 'GO:GO:0046872',  'GO:GO:0051287'], ['Q5F9Z2', 'GO:GO:0005524',  'GO:GO:0009029', 'GO:GO:0009245']]
@@ -839,106 +787,7 @@ G=[[b'<title>GO:0003688', b'DNA', b'replication', b'origin', b'binding</title>',
 def which_GO(lista,G,pos):
    return lista[pos][0],G[pos]
                   
-def blastanaliserwithnote():
-    blast=[]    
-    for file in os.listdir("../res/blast_with_note"):
-        if file.endswith(".xml"):
-            blast.append(file)
-    E_VALUE_THRESH = 0.05
-    lista=[]
-    for i in range(len(blast)):
-        lista.append([])
-        lista[i].append(blast[i])
-        result_handle = open("../res/blast_with_note/"+blast[i])
-        blast_record = NCBIXML.read(result_handle)
-        for alignment in blast_record.alignments:
-            for hsp in alignment.hsps:
-                 if hsp.expect < E_VALUE_THRESH:
-                     lista[i].append(alignment.title)
-                     lista[i].append(alignment.length)
-                     lista[i].append(hsp.expect)
-    save_file = open('nomatches.txt', "w")
-    for i in range(len(lista)):                
-        if len(lista[i])<2:
-            save_file.write(str(lista[i])+'\n')
-    save_file.close()
-    #        #moving the file to another directory
-    path=os.getcwd()
-    src = path+"/"+'nomatches.txt' #source folder
-    dst = "../res/blast_with_note/nomatch/"#destination folder
-    shutil.move(src, dst)
-                     
-    save_file = open('matches.txt', "w")
-    for i in range(len(lista)):              
-        if len(lista[i])>2:
-            save_file.write(str(lista[i])+'\n')
-    save_file.close()
-    #        #moving the file to another directory
-    path=os.getcwd()
-    src = path+"/"+'matches.txt' #source folder
-    dst = "../res/blast_with_note/match/"#destination folder
-    shutil.move(src, dst)
 
-def uniprotallhitswithnote():
-    handle = open("../res/blast_with_note/match/allhits/allhits.txt").readlines()
-    
-    
-    
-    for n in range(len (handle)):       
-            x=handle[n].split()
-            for k in range(len(x)-1,len(x)):
-                e=x[k]
-                limpo=e.replace("']","")
-                gi=(limpo[1:])
-                if not os.path.exists("../res/blast_with_note/match/function/teste/"+gi):
-                    os.makedirs("../res/blast_with_note/match/function/teste/"+gi)
-            for j in range(len(x)-1):
-                m=x[j]
-                q=m.replace("[" ,"")
-                protein=q[1:7]
-                site = urllib.request.urlopen("http://www.uniprot.org/uniprot/"+protein+".txt")
-                data = site.readlines()
-                file = open("../res/blast_with_note/match/function/teste/"+protein+'.txt',"wb") #open file in binary mode
-                file.writelines(data)
-                file.close()
-                try:
-                    src = "../res/blast_with_note/match/function/teste/"+protein+'.txt' #source folder
-                    dst = "../res/blast_with_note/match/function/teste/"+gi #destination folder
-                    shutil.move(src, dst)
-                except:
-                        pass
-def allfunctionswithnote():
-    handle = open("../res/blast_with_note/match/allhits/allhits.txt").readlines()
-    for n in range(len (handle)):       
-            x=handle[n].split()
-            for k in range(len(x)-1,len(x)):
-                e=x[k]
-                limpo=e.replace("']","")
-                ginote=(limpo[1:])
-                blast=[]    
-                for file in os.listdir("../res/blast_with_note/match/function/teste/"+ginote):
-                    if file.endswith(".txt"):
-                           blast.append(file)
-                    lista=[]
-                    for j in range(len(blast)):
-                        nome=blast[j]
-                        gi = nome.replace(".txt","")
-                        first = '-!- FUNCTION:'
-                        last = 'CC'
-                        file = open("../res/blast_with_note/match/function/teste/"+ginote+'/'+gi+'.txt').read()
-                        data = file.replace("\n", " ") 
-                        try:
-                            start = data.rindex( first ) + len( first )
-                            end = data.rindex(last, start)
-                            novo= data[start:end] 
-                            lista.append('Gi: '+gi+'  '+'Possivel função:  '+novo)
-                        except:
-                            pass   
-                        
-                    file = open("../res/blast_with_note/match/allhits/funcao_all_hits/"+ginote+".txt",'w')       
-                    for i in range(len(lista)):
-                        file.write("%s\n" % lista[i])
-                    file.close()
 
     
 def menu(record):
@@ -969,12 +818,6 @@ def menu(record):
     22.GI numbers from genes with note
     23.Get all GO terms
     24.Viewing each position/gene GO terms
-    25.Blast gi with note  
-    26.Blast analiser with note
-    28.return all hits from blast with notes
-    29.Go to uniprot and download information for all hits with notes
-    30.Get all information for all hits with notes
-    31.CDD
     60.Exit
     """)
         ans=input("Choose an option? ")
@@ -986,7 +829,7 @@ def menu(record):
 #            print(locus_tag(record))
 #            print(genes_names(record))
         elif ans=="2":
-            print(len(without_note(record)))
+            print(without_note(record))
         elif ans=="3":
             prot_ID=str(input("Protein ID: "))
             print(translation(record,prot_ID))
@@ -1046,7 +889,6 @@ def menu(record):
            for i in range(len(lista)):
                file.write("%s\n" % lista[i])
 #           print(getfunction())
-
         elif ans=="19":
            file = open("../res/blast_without_note/match/allhits/allhits.txt",'w')
            lista=allhits()         
@@ -1061,31 +903,12 @@ def menu(record):
         elif ans=="22":    
             locus=locus_tag(record)
             print(GInumbers(record,locus))
-
-        elif ans=="25":   
-            blastwithnote()
-
         elif ans=="23":    
             print(get_GO_terms(lista_GO))
         elif ans=="24":
             pos=int(input("position?from 0 to 146: "))
             print(which_GO(lista_GO,G,pos))
-        elif ans=="26":
-            blastanaliserwithnote()
-        
-        elif ans=="28":
-           file = open("../res/blast_with_note/match/allhits/allhits.txt",'w')
-           lista=allhitswithnote()         
-           for i in range(len(lista)):
-               file.write("%s\n" % lista[i])
-           file.close()
-        elif ans=="29":
-            uniprotallhitswithnote()
-            
-        elif ans=="30":    
-            allfunctionswithnote()
-        
-        elif ans=="31":
+        elif ans=="25":
             #locus=locus_tag(record)
             #GI=GI_number(record,locus)
             #print(CDD(GI))
