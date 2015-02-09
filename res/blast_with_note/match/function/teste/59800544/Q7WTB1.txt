@@ -1,0 +1,87 @@
+ID   GALE_LACHE              Reviewed;         330 AA.
+AC   Q7WTB1;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   26-NOV-2014, entry version 51.
+DE   RecName: Full=UDP-glucose 4-epimerase;
+DE            EC=5.1.3.2;
+DE   AltName: Full=Galactowaldenase;
+DE   AltName: Full=UDP-galactose 4-epimerase;
+GN   Name=galE;
+OS   Lactobacillus helveticus (Lactobacillus suntoryeus).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lactobacillus.
+OX   NCBI_TaxID=1587;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND TRANSCRIPTIONAL
+RP   EXPRESSION.
+RC   STRAIN=ATCC 15009 / DSM 20075 / JCM 1120 / NBRC 15019 / NCIMB 11971 /
+RC   Lh12;
+RX   PubMed=12788721; DOI=10.1128/AEM.69.6.3238-3243.2003;
+RA   Fortina M.G., Ricci G., Mora D., Guglielmetti S., Manachini P.L.;
+RT   "Unusual organization for lactose and galactose gene clusters in
+RT   Lactobacillus helveticus.";
+RL   Appl. Environ. Microbiol. 69:3238-3243(2003).
+CC   -!- FUNCTION: Involved in the metabolism of galactose. Catalyzes the
+CC       conversion of UDP-galactose (UDP-Gal) to UDP-glucose (UDP-Glc)
+CC       through a mechanism involving the transient reduction of NAD. It
+CC       also could be involved in preparation of carbohydrate residues for
+CC       incorporation into complex polymers, such as exopolysaccharides.
+CC       {ECO:0000269|PubMed:12788721}.
+CC   -!- CATALYTIC ACTIVITY: UDP-alpha-D-glucose = UDP-alpha-D-galactose.
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- INDUCTION: Seems to be constitutively expressed.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ512879; CAD55502.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q7WTB1; -.
+DR   SMR; Q7WTB1; 2-329.
+DR   UniPathway; UPA00214; -.
+DR   GO; GO:0050662; F:coenzyme binding; IEA:InterPro.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006012; P:galactose metabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR025308; Epimerase_C.
+DR   InterPro; IPR001509; Epimerase_deHydtase_N.
+DR   InterPro; IPR005886; GalE.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR10366:SF186; PTHR10366:SF186; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   Pfam; PF13950; Epimerase_Csub; 1.
+DR   TIGRFAMs; TIGR01179; galE; 1.
+PE   2: Evidence at transcript level;
+KW   Carbohydrate metabolism; Galactose metabolism; Isomerase; NAD.
+FT   CHAIN         1    330       UDP-glucose 4-epimerase.
+FT                                /FTId=PRO_0000183208.
+FT   NP_BIND      11     12       NAD. {ECO:0000250}.
+FT   NP_BIND      31     36       NAD. {ECO:0000250}.
+FT   NP_BIND      51     52       NAD. {ECO:0000250}.
+FT   NP_BIND      73     77       NAD. {ECO:0000250}.
+FT   REGION      189    190       Substrate binding. {ECO:0000250}.
+FT   REGION      206    208       Substrate binding. {ECO:0000250}.
+FT   REGION      282    285       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    141    141       Proton acceptor. {ECO:0000250}.
+FT   BINDING      92     92       NAD. {ECO:0000250}.
+FT   BINDING     117    117       NAD. {ECO:0000250}.
+FT   BINDING     117    117       Substrate. {ECO:0000250}.
+FT   BINDING     141    141       NAD. {ECO:0000250}.
+FT   BINDING     141    141       Substrate. {ECO:0000250}.
+FT   BINDING     145    145       NAD. {ECO:0000250}.
+FT   BINDING     169    169       NAD; via carbonyl oxygen. {ECO:0000250}.
+FT   BINDING     170    170       Substrate. {ECO:0000250}.
+FT   BINDING     221    221       Substrate. {ECO:0000250}.
+SQ   SEQUENCE   330 AA;  36429 MW;  6C9161AC65C15066 CRC64;
+     MKVLVIGGAG YIGSHAVREL VKEGNDVLVL DALYTGHRKA VDPKAKFYQG DIEDTFLVSK
+     ILRDEKIDAV MHFAAYSLVP ESVKKPLKYY DNNVTGMISL LQAMNDANVK YLVFSSSAAT
+     YGIPKKLPIT EDTPLNPINP YGETKMMMEK IMAWADKADG IKYTALRYFN VAGASSDGSI
+     GEDHAPETHL IPNILKSAIS GDGKFTIFGD DYDTKDGTNV RDYVQVEDLI DAHILALKHM
+     MKTNKSDVFN LGTAHGYSNL EILESAKKVT GIDIPYTMGP RRGGDPDSLV ADSTKARTVL
+     GWKPKHENVD DVIATAWKWH KSHPKGYEDK
+//

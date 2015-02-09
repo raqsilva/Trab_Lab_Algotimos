@@ -1,0 +1,103 @@
+ID   SECD_VIBAL              Reviewed;         618 AA.
+AC   E9RGS3;
+DT   21-SEP-2011, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAY-2011, sequence version 1.
+DT   07-JAN-2015, entry version 16.
+DE   RecName: Full=Protein translocase subunit SecD;
+GN   Name=secD;
+OS   Vibrio alginolyticus.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=138-2;
+RA   Tsukazaki T., Mori H., Echizen Y., Ishitani R., Fukai S., Tanaka T.,
+RA   Sasaki Y., Mio K., Kuwata M., Perederina A., Vassylyev D.G., Kohno T.,
+RA   Sato C., Maturana A., Ito K., Nureki O.;
+RT   "Structure and function of SecDF, a protein export-enhancing membrane
+RT   component.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION IN E.COLI, FUNCTION IN PROTEIN TRANSLOCATION, AND MUTAGENESIS
+RP   OF ASP-206 AND ARG-240.
+RC   STRAIN=138-2;
+RX   PubMed=21562494; DOI=10.1038/nature09980;
+RA   Tsukazaki T., Mori H., Echizen Y., Ishitani R., Fukai S., Tanaka T.,
+RA   Perederina A., Vassylyev D.G., Kohno T., Maturana A.D., Ito K.,
+RA   Nureki O.;
+RT   "Structure and function of a membrane component SecDF that enhances
+RT   protein export.";
+RL   Nature 474:235-238(2011).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA (By similarity). {ECO:0000250}.
+CC   -!- FUNCTION: Expression of V.alginolyticus SecDF in an E.coli secDF
+CC       mutant restores protein export in a Na(+)-dependent manner,
+CC       strongly suggesting SecDF functions via cation-coupled protein
+CC       translocation. {ECO:0000269|PubMed:21562494}.
+CC   -!- SUBUNIT: Forms a complex with SecF. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF-YajC and YidC (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecD subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB583186; BAJ78589.1; -; Genomic_DNA.
+DR   ProteinModelPortal; E9RGS3; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01463_B; SecD_B; 1.
+DR   InterPro; IPR001036; Acrflvin-R.
+DR   InterPro; IPR005791; SecD.
+DR   InterPro; IPR027398; SecD-TM.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   InterPro; IPR022646; SecD/SecF_CS.
+DR   Pfam; PF07549; Sec_GG; 1.
+DR   Pfam; PF13721; SecD-TM1; 1.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   PRINTS; PR00702; ACRIFLAVINRP.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR01129; secD; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Membrane; Protein transport; Translocation;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    618       Protein translocase subunit SecD.
+FT                                /FTId=PRO_0000412685.
+FT   TRANSMEM     10     30       Helical. {ECO:0000255}.
+FT   TRANSMEM    455    475       Helical. {ECO:0000255}.
+FT   TRANSMEM    477    497       Helical. {ECO:0000255}.
+FT   TRANSMEM    508    528       Helical. {ECO:0000255}.
+FT   TRANSMEM    563    583       Helical. {ECO:0000255}.
+FT   TRANSMEM    587    607       Helical. {ECO:0000255}.
+FT   MUTAGEN     206    206       D->N: Nearly abolishes protein
+FT                                translocation.
+FT                                {ECO:0000269|PubMed:21562494}.
+FT   MUTAGEN     240    240       R->M: Nearly abolishes protein
+FT                                translocation.
+FT                                {ECO:0000269|PubMed:21562494}.
+SQ   SEQUENCE   618 AA;  66919 MW;  A2441A9AB9C2B382 CRC64;
+     MLNRYPLWKY LMVFFAIITA ALYALPNIYG EDPAIQVTGA RGASVDMSTL DAVTTALDKE
+     QLSHKSIALE NGSILVRFND TDTQISARDV ISEALGKDTI VALNLAPSTP DWLEAIGASP
+     LKLGLDLRGG VHFLMEVDMD AAMEKLVGQQ EEAFRSELRE AKIRYRAIRP SGKEAVEVLL
+     RNEEQLAEAK AMLEKNHPDM LFVESDSNGR YALTATFTEQ RLQEIRNYAV EQNITILRNR
+     VNELGVAEPL VQRQGASRIV VELPGVQDTA RAKEILGATA TLEFREVDDK ADLSAAANGR
+     APAGSEIKMD RDGRPVVLKK RVILGGQSIT DASSSVDEYG RPQVNISLDS EGGNKMSAFS
+     KKNIGKLMAT VFAEYKDSGR RTPEGKVILD KHEEVINQAT IQSALGRNFR ITGIDSAAEA
+     HNLALLLRAG ALIAPISIVE ERTIGPSMGQ QNIDMGIQAC IWGMVAVMLF TLLYYRGFGL
+     IANIALMANL VLIIGVMSMI PGATMTLPGI AGIVLTVGMA VDANVLIFER IREELRDGRS
+     PQQAIHQGYA NAFSTIADAN ITTLITAIIL FAVGTGAVKG FAVTLSIGIL TSMFTAIIGT
+     RCIVNLIYGG KRVDKLSI
+//

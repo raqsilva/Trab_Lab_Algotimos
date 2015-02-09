@@ -1,0 +1,108 @@
+ID   NUD12_BOVIN             Reviewed;         444 AA.
+AC   Q29RH3;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   04-APR-2006, sequence version 1.
+DT   07-JAN-2015, entry version 55.
+DE   RecName: Full=Peroxisomal NADH pyrophosphatase NUDT12;
+DE            EC=3.6.1.22;
+DE   AltName: Full=Nucleoside diphosphate-linked moiety X motif 12;
+DE            Short=Nudix motif 12;
+GN   Name=NUDT12;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+OC   Pecora; Bovidae; Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Hereford; TISSUE=Heart ventricle;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (FEB-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Hydrolyzes NAD(P)H to NMNH and AMP (2',5'-ADP), and
+CC       diadenosine diphosphate to AMP. Has also activity towards
+CC       NAD(P)(+), ADP-ribose and diadenosine triphosphate. May act to
+CC       regulate the concentration of peroxisomal nicotinamide nucleotide
+CC       cofactors required for oxidative metabolism in this organelle (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: NAD(+) + H(2)O = AMP + NMN.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Peroxisome {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. NudC subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 ANK repeats. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00794}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BC114173; AAI14174.1; -; mRNA.
+DR   RefSeq; NP_001040073.1; NM_001046608.1.
+DR   UniGene; Bt.17805; -.
+DR   ProteinModelPortal; Q29RH3; -.
+DR   STRING; 9913.ENSBTAP00000039749; -.
+DR   PRIDE; Q29RH3; -.
+DR   Ensembl; ENSBTAT00000039965; ENSBTAP00000039749; ENSBTAG00000027728.
+DR   GeneID; 617720; -.
+DR   KEGG; bta:617720; -.
+DR   CTD; 83594; -.
+DR   eggNOG; COG2816; -.
+DR   GeneTree; ENSGT00530000063600; -.
+DR   HOVERGEN; HBG054394; -.
+DR   InParanoid; Q29RH3; -.
+DR   KO; K03426; -.
+DR   OMA; QPEVRLC; -.
+DR   OrthoDB; EOG7N0C55; -.
+DR   TreeFam; TF106352; -.
+DR   NextBio; 20900813; -.
+DR   Proteomes; UP000009136; Chromosome 7.
+DR   GO; GO:0005634; C:nucleus; IEA:Ensembl.
+DR   GO; GO:0005777; C:peroxisome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000210; F:NAD+ diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0035529; F:NADH pyrophosphatase activity; IEA:Ensembl.
+DR   GO; GO:0019677; P:NAD catabolic process; IEA:Ensembl.
+DR   GO; GO:0006742; P:NADP catabolic process; IEA:Ensembl.
+DR   Gene3D; 1.25.40.20; -; 1.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   InterPro; IPR020683; Ankyrin_rpt-contain_dom.
+DR   InterPro; IPR015375; NADH_PPase-like_N.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   InterPro; IPR015376; Znr_NADH_PPase.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   Pfam; PF09296; NUDIX-like; 1.
+DR   Pfam; PF09297; zf-NADH-PPase; 1.
+DR   SUPFAM; SSF48403; SSF48403; 1.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   2: Evidence at transcript level;
+KW   ANK repeat; Complete proteome; Hydrolase; Magnesium; Manganese;
+KW   Metal-binding; NAD; NADP; Peroxisome; Reference proteome; Repeat.
+FT   CHAIN         1    444       Peroxisomal NADH pyrophosphatase NUDT12.
+FT                                /FTId=PRO_0000260768.
+FT   REPEAT       11     40       ANK 1.
+FT   REPEAT       60     80       ANK 2.
+FT   DOMAIN      301    435       Nudix hydrolase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00794}.
+FT   MOTIF       337    358       Nudix box.
+FT   MOTIF       442    444       Microbody targeting signal.
+FT                                {ECO:0000250}.
+FT   METAL       352    352       Magnesium or manganese. {ECO:0000250}.
+FT   METAL       356    356       Magnesium or manganese. {ECO:0000250}.
+FT   MOD_RES     167    167       N6-succinyllysine. {ECO:0000250}.
+FT   MOD_RES     274    274       N6-succinyllysine. {ECO:0000250}.
+SQ   SEQUENCE   444 AA;  50119 MW;  D9352B6AFCD6F21B CRC64;
+     MSSVKRSLNQ EIISQFHYSA AEGDIAKLTA ILSHSPSLLN ETSENGWSAL ICDRSIVNKS
+     RQTALDIAKF WGYKHIANLL ANAKGGKKPW FLTNEVEECE NYFSKTLLDR KSEKRNNSDW
+     LLAKESHPAT VYILFSDLNP LVTLGGNKES FQQPEVRLCQ LNYTDIKDYL AQPEKITLIF
+     LGVELEMKKE FFNYAGEISK EEEDGLVAWF ALGIDTVAAE EFKQRHENCY FLHPPMPALL
+     QLKEKEAGVV AQARSVLAWH SRYKFCPTCG NATKIEEGGY KRVCLKEDCP SLHGVHNTSY
+     PRVDPVVIMQ VIHPDGTKCL LGRQKRFPPG MFTCLAGFIE PGETIEDAVR REVEEESGVK
+     VGHVQYVSCQ PWPMPSSLMI GCLAVAVSTE IKVDKNEIED ARWFTREQVV DVLTKGKQQA
+     FFVPPSRAIA HQLIKHWIGM NPNL
+//

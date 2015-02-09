@@ -1,0 +1,84 @@
+ID   QUEA_BURCJ              Reviewed;         355 AA.
+AC   B4EE24;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-JAN-2015, entry version 43.
+DE   RecName: Full=S-adenosylmethionine:tRNA ribosyltransferase-isomerase {ECO:0000255|HAMAP-Rule:MF_00113};
+DE            EC=2.4.99.17 {ECO:0000255|HAMAP-Rule:MF_00113};
+DE   AltName: Full=Queuosine biosynthesis protein QueA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   Name=queA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   OrderedLocusNames=BceJ2315_32420; ORFNames=BCAL3303;
+OS   Burkholderia cenocepacia (strain ATCC BAA-245 / DSM 16553 / LMG 16656
+OS   / NCTC 13227 / J2315 / CF5610) (Burkholderia cepacia (strain J2315)).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; Burkholderia cepacia complex.
+OX   NCBI_TaxID=216591;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-245 / DSM 16553 / LMG 16656 / NCTC 13227 / J2315 /
+RC   CF5610;
+RX   PubMed=18931103; DOI=10.1128/JB.01230-08;
+RA   Holden M.T., Seth-Smith H.M., Crossman L.C., Sebaihia M.,
+RA   Bentley S.D., Cerdeno-Tarraga A.M., Thomson N.R., Bason N.,
+RA   Quail M.A., Sharp S., Cherevach I., Churcher C., Goodhead I.,
+RA   Hauser H., Holroyd N., Mungall K., Scott P., Walker D., White B.,
+RA   Rose H., Iversen P., Mil-Homens D., Rocha E.P., Fialho A.M.,
+RA   Baldwin A., Dowson C., Barrell B.G., Govan J.R., Vandamme P.,
+RA   Hart C.A., Mahenthiralingam E., Parkhill J.;
+RT   "The genome of Burkholderia cenocepacia J2315, an epidemic pathogen of
+RT   cystic fibrosis patients.";
+RL   J. Bacteriol. 191:261-277(2009).
+CC   -!- FUNCTION: Transfers and isomerizes the ribose moiety from AdoMet
+CC       to the 7-aminomethyl group of 7-deazaguanine (preQ1-tRNA) to give
+CC       epoxyqueuosine (oQ-tRNA). {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + 7-aminomethyl-7-
+CC       carbaguanosine(34) in tRNA = L-methionine + adenine +
+CC       epoxyqueuosine(34) in tRNA. {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SIMILARITY: Belongs to the QueA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00113}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM747720; CAR53626.1; -; Genomic_DNA.
+DR   RefSeq; YP_002232406.1; NC_011000.1.
+DR   STRING; 216591.BCAL3303; -.
+DR   EnsemblBacteria; CAR53626; CAR53626; BCAL3303.
+DR   GeneID; 6934026; -.
+DR   KEGG; bcj:BCAL3303; -.
+DR   PATRIC; 19078606; VBIBurCen118154_3426.
+DR   eggNOG; COG0809; -.
+DR   HOGENOM; HOG000004401; -.
+DR   KO; K07568; -.
+DR   OMA; HAEYAEV; -.
+DR   OrthoDB; EOG6X6RBB; -.
+DR   BioCyc; BCEN216591:GJI4-3382-MONOMER; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000001035; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00113; QueA; 1.
+DR   InterPro; IPR003699; QueA.
+DR   Pfam; PF02547; Queuosine_synth; 1.
+DR   SUPFAM; SSF111337; SSF111337; 1.
+DR   TIGRFAMs; TIGR00113; queA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Queuosine biosynthesis;
+KW   Reference proteome; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN         1    355       S-adenosylmethionine:tRNA
+FT                                ribosyltransferase-isomerase.
+FT                                /FTId=PRO_1000094756.
+SQ   SEQUENCE   355 AA;  38912 MW;  BC8BC22AC9BDA208 CRC64;
+     MFTLSDFDFN LPPELIAQTA LPDRTASRLL EVDRSVEPAR LVDRHFAELP SCIAPGDLLV
+     FNDTKVLKAR FFGQKASGGK IEVLIERVTG THTALAQIRA SKSPGAGTTL RLADAFDVTV
+     GERVEPFFTL HFPAPCLDLI EQYGRLPLPP YIEHDPDATD ETRYQTVYAS NPGAVAAPTA
+     GLHFDQPLLE QLDALGVERA TLTLHVGAGT FQPVRVDNIA EHKMHSEWYD LPQSLVDKIA
+     ATRARGGNVI AVGTTSMRAL EAAARSADEA GRPLAATQAE TDIFITPGYR FRVVDRLVTN
+     FHLPKSTLLM LVSAFAGVET IRAAYRHAIE ERYRFFSYGD AMLLTRRDTP EAPGA
+//

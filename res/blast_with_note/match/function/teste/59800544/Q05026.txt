@@ -1,0 +1,88 @@
+ID   GALE_NEIGO              Reviewed;         338 AA.
+AC   Q05026;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   26-NOV-2014, entry version 75.
+DE   RecName: Full=UDP-glucose 4-epimerase;
+DE            EC=5.1.3.2;
+DE   AltName: Full=Galactowaldenase;
+DE   AltName: Full=UDP-galactose 4-epimerase;
+GN   Name=galE;
+OS   Neisseria gonorrhoeae.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=MS11;
+RX   PubMed=8355614; DOI=10.1111/j.1365-2958.1993.tb01635.x;
+RA   Robertson B.D., Frosch M., van Putten J.P.M.;
+RT   "The role of galE in the biosynthesis and function of gonococcal
+RT   lipopolysaccharide.";
+RL   Mol. Microbiol. 8:891-901(1993).
+CC   -!- FUNCTION: Involved in the metabolism of galactose. Plays an
+CC       essential role in the incorporation of galactose into
+CC       meningococcal lipopolysaccharide surface molecules, which are
+CC       important for pathogenesis. Catalyzes the conversion of UDP-
+CC       galactose (UDP-Gal) to UDP-glucose (UDP-Glc) through a mechanism
+CC       involving the transient reduction of NAD.
+CC       {ECO:0000269|PubMed:8355614}.
+CC   -!- CATALYTIC ACTIVITY: UDP-alpha-D-glucose = UDP-alpha-D-galactose.
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z21508; CAA79721.1; -; Genomic_DNA.
+DR   PIR; S34984; S34984.
+DR   ProteinModelPortal; Q05026; -.
+DR   SMR; Q05026; 1-338.
+DR   UniPathway; UPA00214; -.
+DR   GO; GO:0050662; F:coenzyme binding; IEA:InterPro.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006012; P:galactose metabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR025308; Epimerase_C.
+DR   InterPro; IPR001509; Epimerase_deHydtase_N.
+DR   InterPro; IPR005886; GalE.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR008089; Nuc_sugar_epim.
+DR   PANTHER; PTHR10366:SF39; PTHR10366:SF39; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   Pfam; PF13950; Epimerase_Csub; 1.
+DR   PRINTS; PR01713; NUCEPIMERASE.
+DR   TIGRFAMs; TIGR01179; galE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Galactose metabolism; Isomerase; NAD.
+FT   CHAIN         1    338       UDP-glucose 4-epimerase.
+FT                                /FTId=PRO_0000183211.
+FT   NP_BIND      11     12       NAD. {ECO:0000250}.
+FT   NP_BIND      31     36       NAD. {ECO:0000250}.
+FT   NP_BIND      58     59       NAD. {ECO:0000250}.
+FT   NP_BIND      80     84       NAD. {ECO:0000250}.
+FT   REGION      199    200       Substrate binding. {ECO:0000250}.
+FT   REGION      216    218       Substrate binding. {ECO:0000250}.
+FT   REGION      292    295       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    149    149       Proton acceptor. {ECO:0000250}.
+FT   BINDING      99     99       NAD. {ECO:0000250}.
+FT   BINDING     124    124       NAD. {ECO:0000250}.
+FT   BINDING     124    124       Substrate. {ECO:0000250}.
+FT   BINDING     149    149       NAD. {ECO:0000250}.
+FT   BINDING     149    149       Substrate. {ECO:0000250}.
+FT   BINDING     153    153       NAD. {ECO:0000250}.
+FT   BINDING     178    178       NAD; via carbonyl oxygen. {ECO:0000250}.
+FT   BINDING     179    179       Substrate. {ECO:0000250}.
+FT   BINDING     231    231       Substrate. {ECO:0000250}.
+SQ   SEQUENCE   338 AA;  36885 MW;  C6A905035A083984 CRC64;
+     MTVLITGGTG FIGSHTAVSL VQSGYDAVIL DNLCNSSAAV LPRLRQITGR NIPFYQGDIR
+     DCQILRQIFS EHEIESVIHF AGLKAVGESV AEPTKYYGNN VYGSLVLAEE MARAGVLKIV
+     FSSSATVYGD AEKVPYTEDM RPGDTANPYG ASKAMVERML TDIQKADPRW SVILLRYFNP
+     IGAHESGLIG EQPNGVPNNL LPYICQVASG RLPQLSVFGG DYPTPDGTGM RDYIHVMDLA
+     EGHIAAMKAK GGVAGVHLFN LGSGRAYSVL EIIRAFEAAS GLHIPYRIQP RRAGDLACSY
+     ADPSHTKQQT GWETKRGLQQ MMEDSWRWVS RNPGRYGD
+//

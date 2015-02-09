@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800546|ref|YP_207258.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>bifunctional acetyltransferase/phospho-glycosyltransferase PglB [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>413</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800546|ref|YP_207258.1|</Iteration_query-ID>
+  <Iteration_query-def>bifunctional acetyltransferase/phospho-glycosyltransferase PglB [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>413</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81345694|sp|P71062.1|EPSL_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized sugar transferase EpsL [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71062</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>1.24348e-74</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>VKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIPLPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEGISAQGEATMPPFAGN</Hsp_qseq>
+      <Hsp_hseq>LKRLFDLTAAIFLLCCTSVIILFTIAVVRLKIGSPVFFKQVRPGLHGKPFTLYKFRTMTDERDSKGNLLPDEVRLTKTGRLIRKLSIDELPQLLNVLKGDLSLVGPRPLLMDYLPLYTEKQARRHEVKPGITGWAQINGRNAISWEKKFELDVWYVDNWSFFLDLKILCLTVRKVLVSEGIQQTNHVTAERFTGS</Hsp_hseq>
+      <Hsp_midline>+KRLFD+ A+   L   S + L  I ++R  +GSPVFF + RPG  GKPF + KFR+M D  DS G  LPD  RLT  G+ +R  S+DELP+L NVLKG++SLVGPRPLLM YLPLY + Q RRHE+KPGITGWAQ+NGRNA+SW++KF  DVWY DN+SF+LD+KIL LTV+KVL+ EGI      T   F G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|123336754|sp|Q0P9D0.1|PGLC_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=Undecaprenyl phosphate N,N&apos;-diacetylbacillosamine 1-phosphate transferase; AltName: Full=Protein glycosylation C [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q0P9D0</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.6133e-66</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>SKAVKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIPLPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEGISAQGEATMPPFAGN</Hsp_qseq>
+      <Hsp_hseq>EKVFKRIFDFILALVLLVLFSPVILITALLLKITQGS-VIFTQNRPGLDEKIFKIYKFKTMSDERDEKGELLSDELRLKAFGKIVRSLSLDELLQLFNVLKGDMSFVGPRPLLVEYLPLYNKEQKLRHKVRPGITGWAQVNGRNAISWQKKFELDVYYVKNISFLLDLKIMFLTALKVLKRSGVSKEGHVTTEKFNGK</Hsp_hseq>
+      <Hsp_midline> K  KR+FD I +   L++ SPV L+   L++   GS V F + RPG D K FK+ KF++M D  D  G  L D  RL  FGK +R+ SLDEL +L+NVLKG+MS VGPRPLL++YLPLYNK Q  RH+++PGITGWAQVNGRNA+SW +KF  DV+Y  N SF LD+KI+FLT  KVL + G+S +G  T   F G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|384872314|sp|Q46628.2|AMSG_ERWAM</Hit_id>
+  <Hit_def>RecName: Full=UDP-galactose-lipid carrier transferase [Erwinia amylovora]</Hit_def>
+  <Hit_accession>Q46628</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>4.77217e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>SKAVKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSM------------------RDALDSDGIPLPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>SRFLKRTFDLVGALSIITLLLPALVILIFMVSRDGGAPIYG-HERVGRDGRKFKCLKFRSMVVNSKEVLEEVLRTDPVARAEWDED-FKLKNDPRITRIGHFIRKTSLDELPQLWNVVRGEMSLVGPRPVIEAELERYAGDVDYYFMAKPGMTGLWQVSGRNDVSYETRVYFDSWYVKNWSLWNDIAILFKTIGVVLKRDG</Hsp_hseq>
+      <Hsp_midline>S+ +KR FD++ + S + +L P  ++LI+++ ++ G+P++   ER G+DG+ FK +KFRSM                  R   D D   L +  R+T  G  +R TSLDELP+LWNV++GEMSLVGPRP++   L  Y    +     KPG+TG  QV+GRN +S++ +   D WY  N+S W D+ ILF T+  VL ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|27808649|sp|Q04664.3|CPSE_STRA3</Hit_id>
+  <Hit_def>RecName: Full=Galactosyl transferase CpsE [Streptococcus agalactiae NEM316]</Hit_def>
+  <Hit_accession>Q04664</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>1.1484e-34</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIP---------------LPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALS-WDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>KRFLDITGAIIGLLICGIVAIFLVPQIRKD-GGPAIFSQNRVGRNGRIFRFYKFRSMR--VDAEQIKKDLLVHNQMTGLMFKLEDDPRITKIGKFIRKTSIDELPQFYNVLKGDMSLVGTRPPTVDEYEKYNSTQKRRLSFKPGITGLWQISGRNNITDFDEIVKLDVQYINEWSIWSDIKIILLTLKVVLLGTG</Hsp_hseq>
+      <Hsp_midline>KR  DI  +  GL++   V + L+  IRK+ G P  F + R G++G+ F+  KFRSMR  +D++ I                L D  R+T  GK +R TS+DELP+ +NVLKG+MSLVG RP  +     YN  Q RR   KPGITG  Q++GRN ++ +DE    DV Y + +S W D+KI+ LT+K VL+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|27805435|sp|Q9AFI0.1|CPSE_STRA5</Hit_id>
+  <Hit_def>RecName: Full=Galactosyl transferase CpsE [Streptococcus agalactiae 2603V/R]</Hit_def>
+  <Hit_accession>Q9AFI0</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.41432e-34</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIP---------------LPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALS-WDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>KRFLDITGAIIGLLICGIVAIFLVPQIRKD-GGPAIFSQNRVGRNGRIFRFYKFRSMR--VDAEQIKKDLLVHNQMTGLMFKLDDDPRITKIGKFIRKTSIDELPQFYNVLKGDMSLVGTRPPTVDEYEKYNSTQKRRLSFKPGITGLWQISGRNNITDFDEIVKLDVQYINEWSIWSDIKIILLTLKVVLLGTG</Hsp_hseq>
+      <Hsp_midline>KR  DI  +  GL++   V + L+  IRK+ G P  F + R G++G+ F+  KFRSMR  +D++ I                L D  R+T  GK +R TS+DELP+ +NVLKG+MSLVG RP  +     YN  Q RR   KPGITG  Q++GRN ++ +DE    DV Y + +S W D+KI+ LT+K VL+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20141709|sp|P26406.2|RFBP_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Undecaprenyl-phosphate galactose phosphotransferase; AltName: Full=Galactosyl-P-P-undecaprenol synthase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P26406</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>1.39407e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SKAVKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSM--------RDALDSDGIPLPDSE---------RLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>SRFLKRTFDIVCSIMILIIASPLMIYLWYKVTRD-GGPAIYGHQRVGRHGKLFPCYKFRSMVMNSQEVLKELLANDPIARAEWEKDFKLKNDPRITAVGRFIRKTSLDELPQLFNVLKGDMSLVGPRPIVSDELERYCDDVDYYLMAKPGMTGLWQVSGRNDVDYDTRVYFDSWYVKNWTLWNDIAILFKTAKVVLRRDG</Hsp_hseq>
+      <Hsp_midline>S+ +KR FDI+ S   LI+ SP+ + L Y + ++ G P  +  +R G+ GK F   KFRSM        ++ L +D I   + E         R+T  G+ +R TSLDELP+L+NVLKG+MSLVGPRP++   L  Y    +     KPG+TG  QV+GRN + +D +   D WY  N++ W D+ ILF T K VL ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2495678|sp|Q57491.1|Y872_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized sugar transferase HI_0872 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57491</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>2.0792e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SKAVKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSM----RDALDS-------------DGIPLPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>SRILKRTMDIVVGSLAIIIFSPVLLYLYFAVKKDGGNAIY-GHPRIGRNGKTFNCLKFRTMAVNSKEVLDELLRTDPEARAEWEKDFKLKNDPRITKIGAFIRKTSLDELPQLFNVLKGEMSLVGPRPIVIDELERYEENVDYYLMARPGMTGLWQVSGRNNIDYNTRVYFDSWYVKNWSLWNDIAILFKTMNVVLNRDG</Hsp_hseq>
+      <Hsp_midline>S+ +KR  DI+  +  +I+ SPV L L + ++K+ G+ ++    R G++GK F  +KFR+M    ++ LD                  L +  R+T  G  +R TSLDELP+L+NVLKGEMSLVGPRP+++  L  Y +  +     +PG+TG  QV+GRN + ++ +   D WY  N+S W D+ ILF T+  VL ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|131440|sp|P10498.1|PSS_RHILP</Hit_id>
+  <Hit_def>RecName: Full=Exopolysaccharide production protein PSS [Rhizobium leguminosarum bv. phaseoli]</Hit_def>
+  <Hit_accession>P10498</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.07711e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSKAVKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMR-DALDSDGIP--LPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRP----------LLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNA-----LSWDEKFSCDVWYTDNFSFWLDMKILFLTV</Hsp_qseq>
+      <Hsp_hseq>MDLVLKRAFDIFSSLSALLVLAPFLLFVALLIKLDSPGPVLFKQTRWGKNCKAIKVYKFRSMRTDLCDVSGVAQTVKNDPRITRIGAILRRTNVDELPQLLNVLLGHMSVVGPRCHAIGMRAGGMLYEELVPEYHQ----RHAMRPGMTGLAQMRGLRGPTDRPAKARARIASDLYYVGNFSIVMDMRIIFGTV</Hsp_hseq>
+      <Hsp_midline>M   +KR FDI +S S L+VL+P  L +  LI+ +   PV F + R GK+ K  K+ KFRSMR D  D  G+   + +  R+T  G  LR T++DELP+L NVL G MS+VGPR           L  + +P Y++    RH M+PG+TG AQ+ G             + + D++Y  NFS  +DM+I+F TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81556693|sp|P71063.1|EPSM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative acetyltransferase EpsM [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71063</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>3.78434e-31</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>RKLAVIGAGGHGKVVAELAAALGTYGEIVFLDDRTQGSVNGF-----PVIGTTLLLENSLSPEQFDITVAVGNNRIRRQITENAAALGFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLT</Hsp_qseq>
+      <Hsp_hseq>KNVAIVGDGGHGKVIRELINARSDTRLAAVLDDKFKTFEGGKEWYTGPPKAVTEL--RRLIPDVL-FLIAVGNNSVRKQLAERLGLGKDDFITLIHPSAIVSKSAVIGEGTVIMAGAIIQADARIGAHCIINTGAVAEHDNQISDYVHLSPRATLSGAVSVQEGAHVGTGASVIPQIIIGAWSIVGAGSAVIRSIPDRVTAAGAPARIIS</Hsp_hseq>
+      <Hsp_midline>+ +A++G GGHGKV+ EL  A         LDD+ +    G      P    T L    L P+     +AVGNN +R+Q+ E           LIHP A VS SA+IG+G+V+MA A++QA + +    I+NT A  +HD  +  +VH+SP A LSG   + E + +GTGA    Q  +G+    GAG+ ++  IPD +T AG PA+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|75350129|sp|Q56770.1|GUMD_XANCE</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase; Short=UDP-Glc:Und-P Glc-1-P transferase; AltName: Full=Glucosyl-P-P-undecaprenol synthase [Xanthomonas campestris pv. campestris]</Hit_def>
+  <Hit_accession>Q56770</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>1.94662e-30</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>KRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIPL----PDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQN---RRHEMKPGITGWAQVNGRNA-----LSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVL</Hsp_qseq>
+      <Hsp_hseq>KALQDKILAVIALMGLWPLMLAIAVGVKMSSPGPVFFRQRRHGLGGREFYMFKFRSMR-VHDDHGTTIQQATKNDTRITRFGSFLRRSSLDELPQIFNVLGGSMSIVGPRPHAAQHNTHYEKLINHYMQRHYVKPGITGWAQVNGFRGETPELRTMKKRIQYDLDYIRRWSLWLDIRIIVLTAVRVL</Hsp_hseq>
+      <Hsp_midline>K L D I +   L+ L P+ L +   ++ +   PVFF + R G  G+ F M KFRSMR   D  G  +     +  R+T FG  LR +SLDELP+++NVL G MS+VGPRP   Q+   Y K  N   +RH +KPGITGWAQVNG         +  ++   D+ Y   +S WLD++I+ LT  +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123141428|sp|Q0P9D1.1|PGLD_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylbacillosamine N-acetyltransferase; AltName: Full=Protein glycosylation D; AltName: Full=UDP-4-amino-4,6-dideoxy-N-acetyl-alpha-D-glucosamine N-acetyltransferase [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q0P9D1</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>2.56682e-30</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>AGNRKLAVIGAGGHGKVVAELAAALGTYGEIVFLDDRTQGSVNGFPVIGTTLLLENSLSPEQFDITVAVGNNRIRRQITENAAALGFKLPVLIHPDATVSPSAIIGQ--GSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPL</Hsp_qseq>
+      <Hsp_hseq>ARTEKIYIYGASGHGLVCEDVAKNMG-YKECIFLDDFK------------GMKFESTLP--KYDFFIAIGNNEIRKKIYQKISENGFKIVNLIHKSALISPSAIVEENAGILIMPYVVINAKAKIEKGVILNTSSVIEHECVIGEFSHVSVGAKCAGNVKIGKNCFLGINSCVLPNLSLADDSILGGGATLVKNQDEKGVFVGVPAKRM</Hsp_hseq>
+      <Hsp_midline>A   K+ + GA GHG V  ++A  +G Y E +FLDD               +  E++L   ++D  +A+GNN IR++I +  +  GFK+  LIH  A +SPSAI+ +  G ++M   V+ A + ++ GVI+NT++ ++H+C++  F H+S GA  +GN +IG+   +G  +C     ++      G GA +V +  +     G PAK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2498087|sp|P71241.2|WCAJ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase; Short=UDP-Glc:Und-P Glc-1-P transferase; AltName: Full=Colanic acid biosynthesis UDP-glucose lipid carrier transferase; AltName: Full=Glucosyl-P-P-undecaprenol synthase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P71241</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.63747e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MSKAVKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIPLPDSE---RLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLM----QYLPLYNKFQNRRHEMKPGITGWAQVNGRNALS-----WDEKFSCDVWYTDNFSFWLDMKILFLTVKK</Hsp_qseq>
+      <Hsp_hseq>VNRLLKRAEDIVLATLILLLISPVLCCIALAVKLSSPGPVIFRQTRYGMDGKPIKVWKFRSMK-VMENDKVVTQATQNDPRVTKVGNFLRRTSLDELPQFINVLTGGMSIVGPRPHAVAHNEQYRQLIEGYM-LRHKVKPGITGWAQINGWRGETDTLEKMEKRVEFDLEYIREWSVWFDIKIVFLTVFK</Hsp_hseq>
+      <Hsp_midline>+++ +KR  DI+ +   L+++SPV   +   ++ +   PV F + R G DGKP K+ KFRSM+  +++D +    ++   R+T  G  LR TSLDELP+  NVL G MS+VGPRP  +    QY  L   +   RH++KPGITGWAQ+NG    +      +++   D+ Y   +S W D+KI+FLTV K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|550600199|sp|B3FN88.2|WECA_AERHY</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylgalactosamine-undecaprenyl-phosphate N-acetylgalactosaminephosphotransferase [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>B3FN88</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>6.57578e-30</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>VKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIPLPDS--ERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNK---FQNRRHEMKPGITGWAQVNGRNALSWDE---KFSCDVWYTDNFSFWLDMKILFLTVKKVL</Hsp_qseq>
+      <Hsp_hseq>IKRGMDILAAVIAIPLFSPLMLATAVLIKLESPGPVMFLQNRVGKGNRDFRIYKFRSMCQNSEQHGAQFAQDGDMRVTRVGKVIRKLRIDELPQFFNVLKGDMSLIGPRPEQRTFVDQFDREIPFYMYRHIVRPGISGWAQVVHGYAADADDTRIKIEHDFYYIKNFSLWLDVLIVFKTIRTIL</Hsp_hseq>
+      <Hsp_midline>+KR  DI+A+   + + SP+ L    LI+     PV F++ R GK  + F++ KFRSM    +  G         R+T  GK +R   +DELP+ +NVLKG+MSL+GPRP    ++  +++   F   RH ++PGI+GWAQV    A   D+   K   D +Y  NFS WLD+ I+F T++ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|119700|sp|P14186.1|EXOY_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Exopolysaccharide production protein ExoY [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P14186</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>3.38778e-29</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>KRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDS-----------------DGIPLPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>KRSFDVLIAILALIALSPLFLLVMGLVKFSDGGSIFYGHRRIGHNGQTFKCLKFRTMMENGDRVLQEFFKSNPAAYEEWRTTRKLQDDPRVTVVGSVLRKLSLDELPQLLNIIRGEMSIVGPRPVVEDELELYDSAAEFYLRSRPGLTGLWQISGRNDVSYATRVAFDTHYVQNWSLLADLVIVFKTIPAVCLSRG</Hsp_hseq>
+      <Hsp_midline>KR FD++ +   LI LSP+FL+++ L++ + G  +F+   R G +G+ FK +KFR+M +  D                      L D  R+T  G  LR  SLDELP+L N+++GEMS+VGPRP++   L LY+         +PG+TG  Q++GRN +S+  + + D  Y  N+S   D+ I+F T+  V +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|399467|sp|Q02731.1|EXOY_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Exopolysaccharide production protein ExoY [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q02731</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>9.64705e-27</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>KRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDS----------DGIP-------LPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKFQNRRHEMKPGITGWAQVNGRNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>KRSFDVLAASVALLLFSPLFLLIMALVKFSDGGSVFYGHRRIGHNGQSFKCLKFRTMMEKGDEVLEEFFRINPDAYEEWRATRKLQNDPRVTVVGAVLRKLSLDELPQLLNIIRGEMSVVGPRPVVEDELELYDSAAVFYLRSRPGLTGLWQISGRNDVSYATRVAFDTQYVQNWSLFADLVIVFKTIPAVCLSRG</Hsp_hseq>
+      <Hsp_midline>KR FD++A++  L++ SP+FL+++ L++ + G  VF+   R G +G+ FK +KFR+M +  D           D          L +  R+T  G  LR  SLDELP+L N+++GEMS+VGPRP++   L LY+         +PG+TG  Q++GRN +S+  + + D  Y  N+S + D+ I+F T+  V +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2499148|sp|Q48460.1|GPPUS_KLEPN</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase; Short=UDP-Glc:Und-P Glc-1-P transferase; AltName: Full=Capsular polysaccharide biosynthesis lipid carrier glucose-1-P transferase; AltName: Full=Glucosyl-P-P-undecaprenol synthase; AltName: Full=ORF14 [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>Q48460</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.09201e-26</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>PVFFIRERPGKDGKPFKMVKFRSMRDALDSDGI--PLPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLM----QYLPLYNKFQNRRHEMKPGITGWAQVNGRNALS-----WDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKEG</Hsp_qseq>
+      <Hsp_hseq>PVIFRQVRYGMDGKPIKVWKFRSMTVMENDDKVIQATKNDIRVTKVGKFLRSTSLDELPQFFNVLFGQMSVVGPRPHAVSHNEQYRSLIQGYM-LRHKVKPGITGLAQINGWRGETDTLEKMEKRIEYDLLYIRGWSIWLDLKIIFLTVFKGFINKS</Hsp_hseq>
+      <Hsp_midline>PV F + R G DGKP K+ KFRSM    + D +     +  R+T  GK LR+TSLDELP+ +NVL G+MS+VGPRP  +    QY  L   +   RH++KPGITG AQ+NG    +      +++   D+ Y   +S WLD+KI+FLTV K  I + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75346394|sp|Q44576.1|ACEA_KOMXY</Hit_id>
+  <Hit_def>RecName: Full=Undecaprenyl-phosphate glucose phosphotransferase [Komagataeibacter xylinus]</Hit_def>
+  <Hit_accession>Q44576</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>8.61891e-24</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>371</Hsp_hit-from>
+      <Hsp_hit-to>524</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>PVFFIRERPGKDGKPFKMVKFRSMR---DALDSDGIPLPDSERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRP----------LLMQYLPLYNKFQNRRHEMKPGITGWAQVNG-------RNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKK</Hsp_qseq>
+      <Hsp_hseq>PVLFCQPRQGFNNRYFNVFKFRSMYTDMSDLDAARQTSRTDPRVTRIGRWIRRLSIDELPQLFNVLRGEMSLVGPRPHAPQTRAGGQLLHEAMEEYVA----RHRVQPGITGWAQINGSRGELVTRDDLC--RRVVLDLEYIRAWSIWLDIKIIFLTIKR</Hsp_hseq>
+      <Hsp_midline>PV F + R G + + F + KFRSM      LD+         R+T  G+ +R  S+DELP+L+NVL+GEMSLVGPRP          LL + +  Y      RH ++PGITGWAQ+NG       R+ L    +   D+ Y   +S WLD+KI+FLT+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81707082|sp|Q7DBF7.1|PERB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=GDP-perosamine N-acetyltransferase [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q7DBF7</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.90053e-22</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>VIGAGGHGK-----VVAELAAALGTYGEIVFLDDRTQGS-VNGFPVIGTTLLLENSLSPEQFDITVAVGNNRIRRQITENAAALGFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTRIGEESRIGTGACSRQQT-----TVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPL</Hsp_qseq>
+      <Hsp_hseq>IFGAGSYGRETIPILNQQIKQECGSDYALVFVDDVLAGKKVNGFEVLSTNCFLKAPYLKKYFN--VAIANDKIRQRVSESILLHGVEPITIKHPNSVVYDHTMIGSGAIISPFVTISTNTHIGRFFHANIYSYVAHDCQIGDYVTFAPGAKCNGYVVIEDNAYIGSGAVIKQGVPNRPLIIGAGAIIGMGAVVTKSVPAGITVCGNPAREM</Hsp_hseq>
+      <Hsp_midline>+ GAG +G+     +  ++    G+   +VF+DD   G  VNGF V+ T   L+     + F+  VA+ N++IR++++E+    G +   + HP++ V    +IG G+++     +   + +      N  + V HDC +  +V  +PGA  +G   I + + IG+GA  +Q        +G+G   G GAV+   +P G+TV GNPA+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81536282|sp|Q9ABR0.1|PSSY_CAUCR</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase; Short=UDP-Glc:Und-P Glc-1-P transferase; AltName: Full=Glucosyl-P-P-undecaprenol synthase [Caulobacter crescentus CB15]</Hit_def>
+  <Hit_accession>Q9ABR0</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.49738e-21</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>KRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMRDALDSDGIPLPD--SERLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLYNKF---QNRRHEMKPGITGWAQVNG-----RNALSWDEKFSCDVWYTDNFSFWLDMKILFLTVKKVLIKE</Hsp_qseq>
+      <Hsp_hseq>KRVLDVVAAALLTALFAPLLLLAALAIKLESPGPALFRQTRGGLGGAPFQILKLRTMHCREDGPDVAQAQRGDDRVTRVGRILRAASIDELPQLLNVLRGDMSLVGPRPHATAHDDYYSARIPEYAARYQARPGLTGLAQVRGLRGGTETVELMRQRIAADIDYIQTWSLWRDLKIVLRTVPSLLTTD</Hsp_hseq>
+      <Hsp_midline>KR+ D++A+A    + +P+ L+    I+     P  F + R G  G PF+++K R+M    D   +       +R+T  G+ LRA S+DELP+L NVL+G+MSLVGPRP    +   Y+        R++ +PG+TG AQV G            ++ + D+ Y   +S W D+KI+  TV  +L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|46577303|sp|O32274.1|TUAA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative undecaprenyl-phosphate N-acetylgalactosaminyl 1-phosphate transferase; AltName: Full=Teichuronic acid biosynthesis protein TuaA; AltName: Full=UDP-GalNAc:undecaprenyl-P GalNAc 1-P transferase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32274</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>7.98064e-20</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>AVKRLFDIIASASGLIVLSPVFLVLIYLIRKNLGSPVFFIRERPGKDGKPFKMVKFRSMR-DALDSDGIPLPDSE-RLTDFGKKLRATSLDELPELWNVLKGEMSLVGPRPLLMQYLPLY-NKFQNRRHEMKPGITGWAQV--NGRNALSWDEKFSCDV</Hsp_qseq>
+      <Hsp_hseq>AIKRVMDIWFALIGLAIALPMIAVFSILICLETPGPAIYTQERVGKGGKPFKLYKLRSMKIDAEKSGAVWAQKQDPRVTRIGAFIRRTRIDELPQLFNVLKGDMSMIGPRP----ERPVFTEKFQNE-------IPGFTQRLGSGERRLRYDAEGKADI</Hsp_hseq>
+      <Hsp_midline>A+KR+ DI  +  GL +  P+  V   LI      P  + +ER GK GKPFK+ K RSM+ DA  S  +     + R+T  G  +R T +DELP+L+NVLKG+MS++GPRP      P++  KFQN        I G+ Q   +G   L +D +   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|82000343|sp|Q5UR11.1|YL142_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein L142; Flags: Precursor [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UR11</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.92368e-17</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LAVIGAGGHGKVVAELAAALGTYGEIVFLDDRTQGSVNGFPVIGTTLLLENSLSPEQFDITVAVGNNRIRRQITENAAALGFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPL</Hsp_qseq>
+      <Hsp_hseq>VYLICAGGHAKQVIDIFLDNGIEIKGIFDDNKTGQFYRGTQIIGVISDITKYQSEPFF---CTVGDNQIREKISQTVGNVEW--INCISKLAYISPSVVIGKGNYVGTHSKILADSQLGDFNIVNEGATLTHDNIIGDFNHIAPNVSVGGRVKIGNFNLIGTNSTVNPDILISNNIIIGSGATVVKSLVDPGIYIGTPCKKI</Hsp_hseq>
+      <Hsp_midline>+ +I AGGH K V ++    G   + +F D++T     G  +IG    +    S   F     VG+N+IR +I++    + +     I   A +SPS +IG+G+ V   + + A S L D  IVN  AT+ HD ++  F HI+P   + G  +IG  + IGT +       + + +  G+GA +V  + D     G P K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|238055266|sp|A6LUD2.1|DAPH_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium beijerinckii NCIMB 8052]</Hit_def>
+  <Hit_accession>A6LUD2</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.71184e-11</Hsp_evalue>
+      <Hsp_query-from>288</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>LIHPDATVSPSAII------GQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>LLEVDARIEPGAIIRDKVTIGKNAVIMMGAVINIGAEIGDGTMVDMNAVVGARGQLGKNVHLGAGAVVAGVLEPPSKEPCMIGDNALIGANSVILEGVKIGAGSVVAAGSVVTEDVPDNVVVAGSPAKIIKAVDDKT</Hsp_hseq>
+      <Hsp_midline>L+  DA + P AII      G+ +V+M  AV+  G+ + DG +V+  A V     L   VH+  GA ++G           IG+ + IG  +   +   +G+G    AG+V+  D+PD + VAG+PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|238055268|sp|B2TS78.1|DAPH_CLOBB</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum B str. Eklund 17B (NRP)]</Hit_def>
+  <Hit_accession>B2TS78</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.74234e-11</Hsp_evalue>
+      <Hsp_query-from>288</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>LIHPDATVSPSAII------GQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>LLEVDARIEPGAIIRDKVTIGKNAVVMMGAVINIGAEIGDGTMVDMNAVIGARGKLGKNVHLGAGAVVAGVLEPPSKEPCTIGDNVLIGANSVILEGVRIGSGSVVAAGSVVAEDVPEGVVVAGSPAKIIKLVDDKT</Hsp_hseq>
+      <Hsp_midline>L+  DA + P AII      G+ +VVM  AV+  G+ + DG +V+  A +     L   VH+  GA ++G           IG+   IG  +   +   +GSG    AG+V+  D+P+G+ VAG+PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|238055267|sp|B2V5B7.1|DAPH_CLOBA</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum E3 str. Alaska E43]</Hit_def>
+  <Hit_accession>B2V5B7</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.28894e-10</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDKVTIGKNAVVMMGAVINIGAEIGDGTMVDMNAVIGARGKLGKNVHLGAGAVVAGVLEPPSKEPCTVGDNVLIGANSVILEGVKIGAGSVVAAGSVVAEDVPEGVVVAGSPAKIIKSVDDKT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG+ +VVM  AV+  G+ + DG +V+  A +     L   VH+  GA ++G           +G+   IG  +   +   +G+G    AG+V+  D+P+G+ VAG+PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|238064903|sp|B9K867.1|DAPH_THENN</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Thermotoga neapolitana DSM 4359]</Hit_def>
+  <Hit_accession>B9K867</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.86268e-10</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDMVEIGEGAVIMMGAVINVGAVIGEGTMIDMNAVVGGRAIIGKKCHIGAGAVIAGVIEPPSAKPVVIEDEVVVGANAVILEGVTVGKGSVVAAGAVVTKDVPPYTVVAGVPARVIKQIDEKT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG+G+V+M  AV+  G+V+ +G +++  A V    ++    HI  GA ++G           I +E  +G  A   +  TVG G    AGAV+  D+P    VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|238055265|sp|A7FYA5.1|DAPH_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum A str. ATCC 19397] &gt;gi|238055269|sp|A5I6N5.1|DAPH_CLOBH RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum A str. Hall]</Hit_def>
+  <Hit_accession>A7FYA5</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.47269e-10</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VGNNRIRRQITENAAAL--GFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IKNCRIEQDRRKSAIPLLDMLKINARIEPGATIRDKVIIGENAVIMMGAVVNIGAEIGEGTMVDMNAVVGARGKLGKNVHLGAGAVVAGVLEPPSSDPCTIEDNVLIGANAVILEGVKIGKGSVVAAGSIVTTDVPENVVVAGAPAKIIKEVDVKT</Hsp_hseq>
+      <Hsp_midline>+ N RI +   ++A  L    K+   I P AT+    IIG+ +V+M  AVV  G+ + +G +V+  A V     L   VH+  GA ++G           I +   IG  A   +   +G G    AG+++  D+P+ + VAG PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|254767128|sp|C1FL32.1|DAPH_CLOBJ</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum A2 str. Kyoto]</Hit_def>
+  <Hit_accession>C1FL32</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.8701e-10</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VGNNRIRRQITENAAAL--GFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IKNCRIEQDRRKSAIPLLDMLKINARIEPGATIRDKVIIGENAVIMMGAVVNIGAEIGEGTMVDMNAVVGARGKLGKNVHLGAGAVVAGVLEPPSSDPCTIEDNVLIGANAVILEGIKIGKGSVVAAGSIVTTDVPENVVVAGAPAKIIKEVDVKT</Hsp_hseq>
+      <Hsp_midline>+ N RI +   ++A  L    K+   I P AT+    IIG+ +V+M  AVV  G+ + +G +V+  A V     L   VH+  GA ++G           I +   IG  A   +   +G G    AG+++  D+P+ + VAG PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|259595066|sp|C3KTL7.1|DAPH_CLOB6</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum Ba4 str. 657]</Hit_def>
+  <Hit_accession>C3KTL7</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>4.20589e-10</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VGNNRIRRQITENAAAL--GFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IKNCRIEQDRRKSAIPLLDMLKINARIEPGATIRDKVIIGENAVIMMGAVINIGAEIGEGTMVDMNAVVGARGKLGKNVHLGAGAVVAGVLEPPSSDPCTIEDNVLIGANAVILEGIKIGKGSVVAAGSIVTTDVPENVVVAGAPAKIIKEVDVKT</Hsp_hseq>
+      <Hsp_midline>+ N RI +   ++A  L    K+   I P AT+    IIG+ +V+M  AV+  G+ + +G +V+  A V     L   VH+  GA ++G           I +   IG  A   +   +G G    AG+++  D+P+ + VAG PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|238055281|sp|B1L0V4.1|DAPH_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum A3 str. Loch Maree]</Hit_def>
+  <Hit_accession>B1L0V4</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>6.5817e-10</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VGNNRIRRQITENAAAL--GFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IKNCRIEQDRRKSAIPLLDMLKINARIEPGAIIRDKVIIGENSVIMMGAVINIGAEIGEGTMVDMNAVVGARGKLGKNVHLGAGAVVAGVLEPPSSDPCTIEDNVLIGANAVILEGIKIGKGSVVAAGSIVTTDVPENVVVAGAPAKIIKEVDVKT</Hsp_hseq>
+      <Hsp_midline>+ N RI +   ++A  L    K+   I P A +    IIG+ SV+M  AV+  G+ + +G +V+  A V     L   VH+  GA ++G           I +   IG  A   +   +G G    AG+++  D+P+ + VAG PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|122264873|sp|Q03CW1.1|DAPH_LACC3</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Lactobacillus casei ATCC 334]</Hit_def>
+  <Hit_accession>Q03CW1</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>6.72818e-10</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVLIGDNAVIMMGAIINIGAEIGAGTMIDMGAVLGGRAIVGKHCHIGAGTVLAGVVEPRSAKPVTIGDHVMIGANAVVLEGTTVGEGAVIAAGAVVINDVPAHTVVAGVPAKVIKQVNDQT</Hsp_hseq>
+      <Hsp_midline>I P A +    +IG  +V+M  A++  G+ +  G +++  A +    ++    HI  G  L+G           IG+   IG  A   + TTVG G    AGAV++ D+P    VAG PAK +   N +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|238064880|sp|B3W7E7.1|DAPH_LACCB</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Lactobacillus casei BL23]</Hit_def>
+  <Hit_accession>B3W7E7</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>7.18224e-10</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVLIGDNAVIMMGAIINIGAEIGAGTMIDMGAVLGGRAIVGKHCHIGAGTVLAGVVEPPSAKPVTIGDHVMIGANAVVLEGTTVGEGAVIAAGAVVINDVPAHTVVAGVPAKVIKQVNDQT</Hsp_hseq>
+      <Hsp_midline>I P A +    +IG  +V+M  A++  G+ +  G +++  A +    ++    HI  G  L+G           IG+   IG  A   + TTVG G    AGAV++ D+P    VAG PAK +   N +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|123549157|sp|Q2YXZ7.1|DAPH_STAAB</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q2YXZ7</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>8.79249e-10</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAK</Hsp_qseq>
+      <Hsp_hseq>IEPGAFIREQAIIEDGAVVMMGATINIGAVVGEGTMIDMNATLGGRATTGKNVHVGAGAVLAGVIEPPSASPVIIEDDVLIGANAVILEGVRVGKGAIVAAGAIVTQDVPAGTVVAGTPAK</Hsp_hseq>
+      <Hsp_midline>I P A +   AII  G+VVM  A +  G+V+ +G +++  AT+         VH+  GA L+G           I ++  IG  A   +   VG G    AGA++  D+P G  VAG PAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|75464832|sp|Q9EZ10.1|DAPH_STAAU</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus] &gt;gi|81649336|sp|Q6G9G4.1|DAPH_STAAS RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81694526|sp|Q5HG23.1|DAPH_STAAC RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus COL] &gt;gi|81704435|sp|Q7A0X6.1|DAPH_STAAW RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81704843|sp|Q7A2S0.1|DAPH_STAAM RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|81705714|sp|Q7A5P7.1|DAPH_STAAN RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus N315] &gt;gi|122539592|sp|Q2FYN7.1|DAPH_STAA8 RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123485978|sp|Q2FH41.1|DAPH_STAA3 RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus USA300] &gt;gi|238064889|sp|A7X274.1|DAPH_STAA1 RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus Mu3] &gt;gi|238064890|sp|A6U1L8.1|DAPH_STAA2 RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus JH1] &gt;gi|238064891|sp|A5ISS9.1|DAPH_STAA9 RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus JH9] &gt;gi|238064893|sp|A8Z3X5.1|DAPH_STAAT RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus USA300_TCH1516]</Hit_def>
+  <Hit_accession>Q9EZ10</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>9.29974e-10</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAK</Hsp_qseq>
+      <Hsp_hseq>IEPGAFIREQAIIEDGAVVMMGATINIGAVVGEGTMIDMNATLGGRATTGKNVHVGAGAVLAGVIEPPSASPVIIEDDVLIGANAVILEGVRVGKGAIVAAGAIVTQDVPAGAVVAGTPAK</Hsp_hseq>
+      <Hsp_midline>I P A +   AII  G+VVM  A +  G+V+ +G +++  AT+         VH+  GA L+G           I ++  IG  A   +   VG G    AGA++  D+P G  VAG PAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81651162|sp|Q6GH11.1|DAPH_STAAR</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GH11</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.06999e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAK</Hsp_qseq>
+      <Hsp_hseq>IEPGAFIREQAIIEDGAVVMMGATINIGAVVGEGTMIDMNATLGGRATTGKNVHVGAGAVLAGVIEPPSASPVIIEDDVLIGANAVILEGVRVGKGAIVAAGAIVTQDVPAGAVVAGTPAK</Hsp_hseq>
+      <Hsp_midline>I P A +   AII  G+VVM  A +  G+V+ +G +++  AT+         VH+  GA L+G           I ++  IG  A   +   VG G    AGA++  D+P G  VAG PAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|123125852|sp|Q032G9.1|DAPH_LACLS</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Lactococcus lactis subsp. cremoris SK11]</Hit_def>
+  <Hit_accession>Q032G9</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.50241e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVMIGDNAVIMMGAIINIGAEIGEGTMIDMGAVLGGRATVGKNSHIGAGAVLAGVIEPASAEPVRVGDNVLVGANAVVIEGVQVGSGSVVAAGAIVTQDVPENVVVAGVPARTIKEIDEKT</Hsp_hseq>
+      <Hsp_midline>I P A +    +IG  +V+M  A++  G+ + +G +++  A +     +    HI  GA L+G          R+G+   +G  A   +   VGSG    AGA++  D+P+ + VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|123660174|sp|Q4L6A2.1|DAPH_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L6A2</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>2.37052e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAK</Hsp_qseq>
+      <Hsp_hseq>IEPGAFIREQAIIEDGAVVMMGATINIGAVVGEGTMIDMNATLGGRATTGKNVHVGAGAVLAGVIEPPSASPVVIDDNVLIGANAVILEGVHVGEGAIVAAGAIVTQDVPAGAVVAGTPAK</Hsp_hseq>
+      <Hsp_midline>I P A +   AII  G+VVM  A +  G+V+ +G +++  AT+         VH+  GA L+G           I +   IG  A   +   VG G    AGA++  D+P G  VAG PAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|238064894|sp|B9DP25.1|DAPH_STACT</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>B9DP25</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.57988e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAK</Hsp_qseq>
+      <Hsp_hseq>IEPGAFIREHAVIEDGAVVMMGATINIGAVVGEGTMIDMNATLGGRATTGKNVHVGAGAVLAGVIEPPSASPVVIEDNVLIGANAVILEGVRVGEGAIVAAGAIVTQDVPAGAVVAGTPAK</Hsp_hseq>
+      <Hsp_midline>I P A +   A+I  G+VVM  A +  G+V+ +G +++  AT+         VH+  GA L+G           I +   IG  A   +   VG G    AGA++  D+P G  VAG PAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|238064883|sp|A2RI05.1|DAPH_LACLM</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>A2RI05</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>4.31254e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVTIGDNAVIMMGAIINIGAEIGEGTMIDMGAVLGGRATVGKNSHIGAGAVLAGVIEPASAEPVRVGDNVLVGANAVVIEGVQVGSGSVVAAGAIVTQDVPENVVVAGVPARIIKEIDEKT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG  +V+M  A++  G+ + +G +++  A +     +    HI  GA L+G          R+G+   +G  A   +   VGSG    AGA++  D+P+ + VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|81621763|sp|Q9CIS5.1|DAPH_LACLA</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q9CIS5</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>4.35308e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVTIGDSAVIMMGAIINIGAEIGEGTMIDMGAILGGRATVGKNSHIGAGAVLAGVIEPASAEPVRVGDNVLVGANAVVIEGVQVGSGSVVAAGAIVTQDVPENVVVAGVPARIIKEIDEKT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG  +V+M  A++  G+ + +G +++  A +     +    HI  GA L+G          R+G+   +G  A   +   VGSG    AGA++  D+P+ + VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|238064892|sp|A6QGU8.1|DAPH_STAAE</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Staphylococcus aureus subsp. aureus str. Newman]</Hit_def>
+  <Hit_accession>A6QGU8</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>4.39972e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAK</Hsp_qseq>
+      <Hsp_hseq>IEPGAFIREQAIIEDGAVVMMGATINIGAVVGEGTMIDMNATLGGRATTGKNVHVGAGAVLAGVIEPPSASPVIIEDDVLIGANAVILEGVRVGKGAIVAAGAIVTQDVPAGAVVAGTPCK</Hsp_hseq>
+      <Hsp_midline>I P A +   AII  G+VVM  A +  G+V+ +G +++  AT+         VH+  GA L+G           I ++  IG  A   +   VG G    AGA++  D+P G  VAG P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|259595067|sp|C4L2D4.1|DAPH_EXISA</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Exiguobacterium sp. AT1b]</Hit_def>
+  <Hit_accession>C4L2D4</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>4.5473e-09</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>RLNARIEPGSFIRDHVQIGNNAVVMMGAVVNIGAVIGDGSMVDMNAVIGARGTLGKNVHLGAGAVVAGVLEPPSKDPVIIEDGVMIGANAVILEGVRVGENAVVAAGSVVTQDVPPGVVVAGTPARIIKQKDEKT</Hsp_hseq>
+      <Hsp_midline>+L   I P + +     IG  +VVM  AVV  G+V+ DG +V+  A +     L   VH+  GA ++G           I +   IG  A   +   VG      AG+V+  D+P G+ VAG PA+ +  K+ KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|238055273|sp|B1IMX1.1|DAPH_CLOBK</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum B1 str. Okra]</Hit_def>
+  <Hit_accession>B1IMX1</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>5.3514e-09</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VGNNRIRRQITENAAAL--GFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IKNCRIEQDRRKSAIPLLDMLKVNARIEPGAIIRDKVLIGENAVIMMGAVINIGAEIGEGTMVDMNAVVGARGKLGKNVHLGAGAVVAGVLEPPSSDPCTIEDNVLIGANAVILEGVKIGKGSVVAAGSIVTTDVPENVVVAGAPAKIIKEVDVKT</Hsp_hseq>
+      <Hsp_midline>+ N RI +   ++A  L    K+   I P A +    +IG+ +V+M  AV+  G+ + +G +V+  A V     L   VH+  GA ++G           I +   IG  A   +   +G G    AG+++  D+P+ + VAG PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|238055280|sp|A7GI22.1|DAPH_CLOBL</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium botulinum F str. Langeland]</Hit_def>
+  <Hit_accession>A7GI22</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>5.87742e-09</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VGNNRIRRQITENAAAL--GFKLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGNTR--------IGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IKNCRIEQDRRKSAIPLLDMLKVNARIEPGAIIRDKVLIGENAVIMMGAVINIGAEIGEGTMVDMNAVVGARGKLGKNVHLGAGAVVAGVLEPPSSDPCTIEDNVLIGANAVILEGIKIGKGSVVAAGSIVTTDVPENVVVAGAPAKIIKEVDVKT</Hsp_hseq>
+      <Hsp_midline>+ N RI +   ++A  L    K+   I P A +    +IG+ +V+M  AV+  G+ + +G +V+  A V     L   VH+  GA ++G           I +   IG  A   +   +G G    AG+++  D+P+ + VAG PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81452424|sp|Q8DVY7.1|DAPH_STRMU</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Streptococcus mutans UA159]</Hit_def>
+  <Hit_accession>Q8DVY7</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>6.60855e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVTIEDNAVVMMGAIINIGAEIGEGTMIDMGAILGGRATVGKNSHIGAGAVLAGVIEPASADPVRIGDNVLVGANAVIIEGVQVGSGSVVAAGAIVTQDVPDNVVVAGVPARVIKEIDEKT</Hsp_hseq>
+      <Hsp_midline>I P A +     I   +VVM  A++  G+ + +G +++  A +     +    HI  GA L+G          RIG+   +G  A   +   VGSG    AGA++  D+PD + VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|81620075|sp|Q97GI6.1|DAPH_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>Q97GI6</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.00948e-09</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KLPVLIHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>KIDARIEPGAIIRDKVSIGKNAVIMMGAVINIGSEIGEGAMIDMNAVVGARGKIGKRAHIGAGAVIAGVLEPPSKSPCEIGDDVLIGANSVILEGVKIGANSVIAAGSVVVEDVPSGVVVAGTPARIIKEVDDKT</Hsp_hseq>
+      <Hsp_midline>K+   I P A +     IG+ +V+M  AV+  GS + +G +++  A V     +    HI  GA ++G           IG++  IG  +   +   +G+     AG+V+V D+P G+ VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|238064901|sp|A3CQT5.1|DAPH_STRSV</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Streptococcus sanguinis SK36]</Hit_def>
+  <Hit_accession>A3CQT5</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.75528e-09</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVEIGDNAVIMMGAVINIGAEIGAGTMIDMGAILGGRAIVGKNSHVGAGAVLAGVIEPASAEPVRVGDNVLIGANAVVIEGVQIGSGSVVAAGAIVTQDVPENVVVAGVPARVIKTIDEKT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG  +V+M  AV+  G+ +  G +++  A +    ++    H+  GA L+G          R+G+   IG  A   +   +GSG    AGA++  D+P+ + VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|238064895|sp|A8AUL9.1|DAPH_STRGC</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Streptococcus gordonii str. Challis]</Hit_def>
+  <Hit_accession>A8AUL9</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.0173e-08</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVEIGDNAVIMMGAVINIGAEIGAGTMIDMGAILGGRAIVGKNSHVGAGAVLAGVIEPASAEPVRVGDNVLIGANAVVIEGVQIGSGSVVAAGAIVTQDVPENVVVAGVPARIIKTIDEKT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG  +V+M  AV+  G+ +  G +++  A +    ++    H+  GA L+G          R+G+   IG  A   +   +GSG    AGA++  D+P+ + VAG PA+ +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|238064938|sp|B9DVY7.1|DAPH_STRU0</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Streptococcus uberis 0140J]</Hit_def>
+  <Hit_accession>B9DVY7</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.21742e-08</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVVIGDNAVIMMGAIINIGAEIGPGTMIDMGAILGGRATVGKNSHIGAGAVLAGVIEPASAEPVRIGDNVLVGANAVVIEGVQVGNGSVVAAGAIVTEDVPENVVVAGVPARIIKEIDSQT</Hsp_hseq>
+      <Hsp_midline>I P A +    +IG  +V+M  A++  G+ +  G +++  A +     +    HI  GA L+G          RIG+   +G  A   +   VG+G    AGA++  D+P+ + VAG PA+ +   + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|238064886|sp|B1MZN0.1|DAPH_LEUCK</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Leuconostoc citreum KM20]</Hit_def>
+  <Hit_accession>B1MZN0</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.57142e-08</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSG--------NTRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVTIGDNAVIMLGAVINIGAEIGSGTMIDMGAVLGGRAIVGEQSHIGAGAVLAGVIEPASAQPVRIGDHVLVGANAVVIEGVQVGDGAVVAAGAIVTKDVPANTVVAGVPAKIIKQIDSKT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG  +V+M  AV+  G+ +  G +++  A +    ++    HI  GA L+G          RIG+   +G  A   +   VG G    AGA++  D+P    VAG PAK +   + KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|254767132|sp|C1CU00.1|DAPH_STRZT</Hit_id>
+  <Hit_def>RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Streptococcus pneumoniae Taiwan19F-14]</Hit_def>
+  <Hit_accession>C1CU00</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>4.44475e-08</Hsp_evalue>
+      <Hsp_query-from>289</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IHPDATVSPSAIIGQGSVVMAKAVVQAGSVLKDGVIVNTAATVDHDCLLDAFVHISPGAHLSGN--------TRIGEESRIGTGACSRQQTTVGSGVTAGAGAVIVCDIPDGMTVAGNPAKPLTGKNPKT</Hsp_qseq>
+      <Hsp_hseq>IEPGAIIRDQVKIGDNAVIMMGAVINIGAEIGAGTMIDMGAILGGRAIVGKNSHVGAGAVLAGVIEPVSAEPVRVGDNVLIGANAVVIEGVQIGSGSVVAAGAIVTQDVPENVVVAGVPARIIKEIDAQT</Hsp_hseq>
+      <Hsp_midline>I P A +     IG  +V+M  AV+  G+ +  G +++  A +    ++    H+  GA L+G          R+G+   IG  A   +   +GSG    AGA++  D+P+ + VAG PA+ +   + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

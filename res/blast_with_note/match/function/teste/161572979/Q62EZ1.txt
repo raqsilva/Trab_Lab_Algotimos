@@ -1,0 +1,122 @@
+ID   METK_BURMA              Reviewed;         395 AA.
+AC   Q62EZ1;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=S-adenosylmethionine synthase {ECO:0000255|HAMAP-Rule:MF_00086};
+DE            Short=AdoMet synthase {ECO:0000255|HAMAP-Rule:MF_00086};
+DE            EC=2.5.1.6 {ECO:0000255|HAMAP-Rule:MF_00086};
+DE   AltName: Full=MAT {ECO:0000255|HAMAP-Rule:MF_00086};
+DE   AltName: Full=Methionine adenosyltransferase {ECO:0000255|HAMAP-Rule:MF_00086};
+GN   Name=metK {ECO:0000255|HAMAP-Rule:MF_00086};
+GN   OrderedLocusNames=BMA3262;
+OS   Burkholderia mallei (strain ATCC 23344).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=243160;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23344;
+RX   PubMed=15377793; DOI=10.1073/pnas.0403306101;
+RA   Nierman W.C., DeShazer D., Kim H.S., Tettelin H., Nelson K.E.,
+RA   Feldblyum T.V., Ulrich R.L., Ronning C.M., Brinkac L.M.,
+RA   Daugherty S.C., Davidsen T.D., DeBoy R.T., Dimitrov G., Dodson R.J.,
+RA   Durkin A.S., Gwinn M.L., Haft D.H., Khouri H.M., Kolonay J.F.,
+RA   Madupu R., Mohammoud Y., Nelson W.C., Radune D., Romero C.M.,
+RA   Sarria S., Selengut J., Shamblin C., Sullivan S.A., White O., Yu Y.,
+RA   Zafar N., Zhou L., Fraser C.M.;
+RT   "Structural flexibility in the Burkholderia mallei genome.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14246-14251(2004).
+CC   -!- FUNCTION: Catalyzes the formation of S-adenosylmethionine from
+CC       methionine and ATP. The overall synthetic reaction is composed of
+CC       two sequential steps, AdoMet formation and the subsequent
+CC       tripolyphosphate hydrolysis which occurs prior to release of
+CC       AdoMet from the enzyme. {ECO:0000255|HAMAP-Rule:MF_00086}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-methionine + H(2)O = phosphate +
+CC       diphosphate + S-adenosyl-L-methionine. {ECO:0000255|HAMAP-
+CC       Rule:MF_00086}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00086};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00086};
+CC       Note=Binds 2 divalent ions per subunit. Magnesium or cobalt.
+CC       {ECO:0000255|HAMAP-Rule:MF_00086};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00086};
+CC       Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00086};
+CC   -!- PATHWAY: Amino-acid biosynthesis; S-adenosyl-L-methionine
+CC       biosynthesis; S-adenosyl-L-methionine from L-methionine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00086}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00086}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00086}.
+CC   -!- SIMILARITY: Belongs to the AdoMet synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00086}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000010; AAU48477.1; -; Genomic_DNA.
+DR   RefSeq; YP_104736.1; NC_006348.1.
+DR   ProteinModelPortal; Q62EZ1; -.
+DR   SMR; Q62EZ1; 5-389.
+DR   STRING; 243160.BMA3262; -.
+DR   EnsemblBacteria; AAU48477; AAU48477; BMA3262.
+DR   GeneID; 3089625; -.
+DR   KEGG; bma:BMA3262; -.
+DR   PATRIC; 19121708; VBIBurMal55007_3344.
+DR   eggNOG; COG0192; -.
+DR   HOGENOM; HOG000245710; -.
+DR   KO; K00789; -.
+DR   OMA; IGEQSPD; -.
+DR   OrthoDB; EOG68WR6M; -.
+DR   UniPathway; UPA00315; UER00080.
+DR   Proteomes; UP000006693; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004478; F:methionine adenosyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006556; P:S-adenosylmethionine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_00086; S_AdoMet_synth1; 1.
+DR   InterPro; IPR022631; ADOMET_SYNTHASE_CS.
+DR   InterPro; IPR022630; S-AdoMet_synt_C.
+DR   InterPro; IPR022629; S-AdoMet_synt_central.
+DR   InterPro; IPR022628; S-AdoMet_synt_N.
+DR   InterPro; IPR002133; S-AdoMet_synthetase.
+DR   InterPro; IPR022636; S-AdoMet_synthetase_sfam.
+DR   PANTHER; PTHR11964; PTHR11964; 1.
+DR   Pfam; PF02773; S-AdoMet_synt_C; 1.
+DR   Pfam; PF02772; S-AdoMet_synt_M; 1.
+DR   Pfam; PF00438; S-AdoMet_synt_N; 1.
+DR   PIRSF; PIRSF000497; MAT; 1.
+DR   SUPFAM; SSF55973; SSF55973; 3.
+DR   TIGRFAMs; TIGR01034; metK; 1.
+DR   PROSITE; PS00376; ADOMET_SYNTHASE_1; 1.
+DR   PROSITE; PS00377; ADOMET_SYNTHASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cobalt; Complete proteome; Cytoplasm; Magnesium;
+KW   Metal-binding; Nucleotide-binding; One-carbon metabolism; Potassium;
+KW   Transferase.
+FT   CHAIN         1    395       S-adenosylmethionine synthase.
+FT                                /FTId=PRO_0000174504.
+FT   NP_BIND     263    270       ATP. {ECO:0000255|HAMAP-Rule:MF_00086}.
+FT   METAL        18     18       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00086}.
+FT   METAL        44     44       Potassium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00086}.
+FT   METAL       267    267       Potassium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00086}.
+FT   METAL       275    275       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00086}.
+SQ   SEQUENCE   395 AA;  42641 MW;  5BE3808C1364B8C3 CRC64;
+     MANDYLFTSE SVSEGHPDKV ADQISDAILD AILAQDKYSR VAAETLCNTG LVVLAGEITT
+     TANIDYIQIA RDTIKRIGYD NTDYGIDYRG CAVLVAYDKQ SPDIAQGVDR AHDNNLDQGA
+     GDQGLMFGYA CDETPELMPL PIHLSHRLVE RQANLRRDGR LPWLRPDAKS QVTVRYVDGK
+     PHSIDTVVLS TQHAPEIDLP ALREAVIEEV IKPTLPADLI KGDIKFLVNP TGRFVIGGPQ
+     GDCGLTGRKI IVDTYGGAAP HGGGAFSGKD PSKVDRSAAY AGRYVAKNIV AAGLASRALI
+     QVSYAIGVAE PTSVMVNTFG TGRVSDETIT KLVREHFDLR PKGIIQMLDL LRPIYEKTAA
+     YGHFGREEPE FSWEAADKAL ALAEAAGVEP AVQVA
+//

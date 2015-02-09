@@ -1,0 +1,91 @@
+ID   TRMD_SHEON              Reviewed;         248 AA.
+AC   Q8CX44;
+DT   07-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   04-FEB-2015, entry version 83.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=SO_1359;
+OS   Shewanella oneidensis (strain MR-1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=211586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MR-1;
+RX   PubMed=12368813; DOI=10.1038/nbt749;
+RA   Heidelberg J.F., Paulsen I.T., Nelson K.E., Gaidos E.J., Nelson W.C.,
+RA   Read T.D., Eisen J.A., Seshadri R., Ward N.L., Methe B.A.,
+RA   Clayton R.A., Meyer T., Tsapin A., Scott J., Beanan M.J.,
+RA   Brinkac L.M., Daugherty S.C., DeBoy R.T., Dodson R.J., Durkin A.S.,
+RA   Haft D.H., Kolonay J.F., Madupu R., Peterson J.D., Umayam L.A.,
+RA   White O., Wolf A.M., Vamathevan J.J., Weidman J.F., Impraim M.,
+RA   Lee K., Berry K.J., Lee C., Mueller J., Khouri H.M., Gill J.,
+RA   Utterback T.R., McDonald L.A., Feldblyum T.V., Smith H.O.,
+RA   Venter J.C., Nealson K.H., Fraser C.M.;
+RT   "Genome sequence of the dissimilatory metal ion-reducing bacterium
+RT   Shewanella oneidensis.";
+RL   Nat. Biotechnol. 20:1118-1123(2002).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014299; AAN54424.1; -; Genomic_DNA.
+DR   RefSeq; NP_716979.1; NC_004347.2.
+DR   ProteinModelPortal; Q8CX44; -.
+DR   SMR; Q8CX44; 1-239.
+DR   STRING; 211586.SO_1359; -.
+DR   EnsemblBacteria; AAN54424; AAN54424; SO_1359.
+DR   GeneID; 1169180; -.
+DR   KEGG; son:SO_1359; -.
+DR   PATRIC; 23522372; VBISheOne101494_1308.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; NRYDLYL; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   PhylomeDB; Q8CX44; -.
+DR   Proteomes; UP000008186; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    248       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_0000060452.
+FT   REGION      133    138       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     113    113       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   248 AA;  27451 MW;  D8502BC4824BBE43 CRC64;
+     MWLGVITLFP EMFRAVTDFG VTGRAVKNGL LELHTWNPRD FTHDRHSTVD DRPYGGGPGM
+     LMMVQPLRDA IHAARAAAGE DAKVIYLSPQ GRKLDQQGVT ELAKSSRLIL VCGRYEGIDE
+     RIIQTEVDEE WSVGDYVLSG GELPAMTMID AVSRLVPGVL GKQASAEQDS FSDGLLDCPH
+     YTRPESLDGL DVPAVLLSGN HEQIRLWRLQ QSLGRTLLRR PELLQNLALT DEQSTLLAQF
+     VEAMDKNA
+//

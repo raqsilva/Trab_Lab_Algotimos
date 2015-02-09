@@ -1,0 +1,103 @@
+ID   CARA_BUCAP              Reviewed;         385 AA.
+AC   Q8K9Z6;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   07-JAN-2015, entry version 95.
+DE   RecName: Full=Carbamoyl-phosphate synthase small chain {ECO:0000255|HAMAP-Rule:MF_01209};
+DE            EC=6.3.5.5 {ECO:0000255|HAMAP-Rule:MF_01209};
+DE   AltName: Full=Carbamoyl-phosphate synthetase glutamine chain {ECO:0000255|HAMAP-Rule:MF_01209};
+GN   Name=carA {ECO:0000255|HAMAP-Rule:MF_01209};
+GN   OrderedLocusNames=BUsg_138;
+OS   Buchnera aphidicola subsp. Schizaphis graminum (strain Sg).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=198804;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sg;
+RX   PubMed=12089438; DOI=10.1126/science.1071278;
+RA   Tamas I., Klasson L., Canbaeck B., Naeslund A.K., Eriksson A.-S.,
+RA   Wernegreen J.J., Sandstroem J.P., Moran N.A., Andersson S.G.E.;
+RT   "50 million years of genomic stasis in endosymbiotic bacteria.";
+RL   Science 296:2376-2379(2002).
+CC   -!- CATALYTIC ACTIVITY: 2 ATP + L-glutamine + HCO(3)(-) + H(2)O = 2
+CC       ADP + phosphate + L-glutamate + carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis;
+CC       carbamoyl phosphate from bicarbonate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; (S)-dihydroorotate from bicarbonate: step 1/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by
+CC       the large (or ammonia) chain to synthesize carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- SIMILARITY: Belongs to the CarA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01209}.
+CC   -!- SIMILARITY: Contains 1 glutamine amidotransferase type-1 domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE013218; AAM67706.1; -; Genomic_DNA.
+DR   RefSeq; NP_660495.1; NC_004061.1.
+DR   RefSeq; WP_011053673.1; NC_004061.1.
+DR   ProteinModelPortal; Q8K9Z6; -.
+DR   SMR; Q8K9Z6; 9-382.
+DR   STRING; 198804.BUsg138; -.
+DR   EnsemblBacteria; AAM67706; AAM67706; BUsg_138.
+DR   GeneID; 1005955; -.
+DR   KEGG; bas:BUsg138; -.
+DR   PATRIC; 21247057; VBIBucAph100086_0142.
+DR   eggNOG; COG0505; -.
+DR   KO; K01956; -.
+DR   OMA; PHDSHYL; -.
+DR   OrthoDB; EOG61ZTH6; -.
+DR   BioCyc; BAPH198804:GHMG-148-MONOMER; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   Proteomes; UP000000416; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070409; P:carbamoyl phosphate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006543; P:glutamine catabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.50.30.20; -; 1.
+DR   HAMAP; MF_01209; CPSase_S_chain; 1.
+DR   InterPro; IPR006274; CarbamoylP_synth_ssu.
+DR   InterPro; IPR002474; CarbamoylP_synth_ssu_N.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   Pfam; PF00988; CPSase_sm_chain; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SMART; SM01097; CPSase_sm_chain; 1.
+DR   SUPFAM; SSF52021; SSF52021; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01368; CPSaseIIsmall; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding;
+KW   Complete proteome; Glutamine amidotransferase; Ligase;
+KW   Nucleotide-binding; Pyrimidine biosynthesis.
+FT   CHAIN         1    385       Carbamoyl-phosphate synthase small chain.
+FT                                /FTId=PRO_0000112262.
+FT   DOMAIN      197    384       Glutamine amidotransferase type-1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01209}.
+FT   REGION        1    193       CPSase.
+FT   ACT_SITE    273    273       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01209}.
+FT   ACT_SITE    357    357       {ECO:0000255|HAMAP-Rule:MF_01209}.
+FT   ACT_SITE    359    359       {ECO:0000255|HAMAP-Rule:MF_01209}.
+SQ   SEQUENCE   385 AA;  42790 MW;  496864F8283BDE54 CRC64;
+     MEDALGQLAV LVLEDGTRFH GRSIGAKGTT VGEVVFNTSI TGYQEIITDP SYSHQIVTLT
+     HPHIGNIGTN CNDEESSKIH IRGLIIRDMS PISSNYRSEK SFSSYLKENN IVAISDIDTR
+     KLTRILRTKG SQNGCIIEDK KENYSVAYQK AKKFLSLQGL DLAKKVSTKF IYNWDKGSFF
+     INKSKSKLEK KKKFLFHIVV YDFGVKRNIL RMLVDRGCYL TVVPAKTDPK IALNLNPDGI
+     FLSNGPGDPR PCDYAIHAIQ CFLKKNIPIF GICLGHQLLA LASGANIIKM KFGHHGGNHP
+     VKEIKTNRVI ITSQNHSFTV DAKNMPNNIA ITHSSLFDGT LQGLCLTDKL AFSFQGHPEA
+     SPGPHDASSL FDHFIKLLNQ VKFSN
+//

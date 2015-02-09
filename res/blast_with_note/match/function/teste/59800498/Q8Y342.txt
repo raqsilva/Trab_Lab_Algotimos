@@ -1,0 +1,113 @@
+ID   PYRE_RALSO              Reviewed;         226 AA.
+AC   Q8Y342;
+DT   06-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-APR-2003, sequence version 2.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=Orotate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRT {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRTase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            EC=2.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   Name=pyrE {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   OrderedLocusNames=RSc0139; ORFNames=RS01009;
+OS   Ralstonia solanacearum (strain GMI1000) (Pseudomonas solanacearum).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Ralstonia.
+OX   NCBI_TaxID=267608;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GMI1000;
+RX   PubMed=11823852; DOI=10.1038/415497a;
+RA   Salanoubat M., Genin S., Artiguenave F., Gouzy J., Mangenot S.,
+RA   Arlat M., Billault A., Brottier P., Camus J.-C., Cattolico L.,
+RA   Chandler M., Choisne N., Claudel-Renard C., Cunnac S., Demange N.,
+RA   Gaspin C., Lavie M., Moisan A., Robert C., Saurin W., Schiex T.,
+RA   Siguier P., Thebault P., Whalen M., Wincker P., Levy M.,
+RA   Weissenbach J., Boucher C.A.;
+RT   "Genome sequence of the plant pathogen Ralstonia solanacearum.";
+RL   Nature 415:497-502(2002).
+CC   -!- FUNCTION: Catalyzes the transfer of a ribosyl phosphate group from
+CC       5-phosphoribose 1-diphosphate to orotate, leading to the formation
+CC       of orotidine monophosphate (OMP). {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- CATALYTIC ACTIVITY: Orotidine 5'-phosphate + diphosphate = orotate
+CC       + 5-phospho-alpha-D-ribose 1-diphosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01208};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; UMP from orotate: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine
+CC       phosphoribosyltransferase family. PyrE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAD13667.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL646052; CAD13667.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_518260.1; NC_003295.1.
+DR   ProteinModelPortal; Q8Y342; -.
+DR   STRING; 267608.RSc0139; -.
+DR   EnsemblBacteria; CAD13667; CAD13667; RSc0139.
+DR   GeneID; 1218942; -.
+DR   KEGG; rso:RSc0139; -.
+DR   PATRIC; 20258815; VBIRalSol70888_0142.
+DR   eggNOG; COG0461; -.
+DR   HOGENOM; HOG000037974; -.
+DR   KO; K00762; -.
+DR   OMA; MKAYQRQ; -.
+DR   OrthoDB; EOG6091H8; -.
+DR   BioCyc; RSOL267608:GCVU-140-MONOMER; -.
+DR   UniPathway; UPA00070; UER00119.
+DR   Proteomes; UP000001436; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004588; F:orotate phosphoribosyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01208; PyrE; 1.
+DR   InterPro; IPR023031; OPRT.
+DR   InterPro; IPR004467; Or_phspho_trans_dom.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   TIGRFAMs; TIGR00336; pyrE; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycosyltransferase; Magnesium;
+KW   Pyrimidine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN         1    226       Orotate phosphoribosyltransferase.
+FT                                /FTId=PRO_0000110727.
+FT   REGION       37     38       Orotate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   REGION       75     76       5-phosphoribose 1-diphosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   REGION      126    134       5-phosphoribose 1-diphosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING      29     29       5-phosphoribose 1-diphosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING     101    101       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     102    102       5-phosphoribose 1-diphosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING     105    105       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     107    107       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     130    130       Orotate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     158    158       Orotate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+SQ   SEQUENCE   226 AA;  23827 MW;  32C35D2072269F89 CRC64;
+     MSQNSELRQS FIRFAVEAGV LSFGEFVTKA GRTSPYFFNA GKFSDGALLG QVAQFYAKTL
+     LDSGVQFDML FGPAYKGITL ASATAVALAG MGRNVGFAYN RKEAKDHGEG GSLVGAKLQG
+     RVVIVDDVIS AGTSVRESVE LIRNAGATPA AVLILMDRME RSGNAVDIGE RSAVQDVQAQ
+     YGMPVVSIAN LDDLLGYLDH AGDPALAGYR AKAAAYRDKY GVSAVV
+//

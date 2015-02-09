@@ -1,0 +1,134 @@
+ID   RNE_BUCAI               Reviewed;         902 AA.
+AC   P57429;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 1.
+DT   07-JAN-2015, entry version 86.
+DE   RecName: Full=Ribonuclease E {ECO:0000255|HAMAP-Rule:MF_00970};
+DE            Short=RNase E {ECO:0000255|HAMAP-Rule:MF_00970};
+DE            EC=3.1.26.12 {ECO:0000255|HAMAP-Rule:MF_00970};
+GN   Name=rne {ECO:0000255|HAMAP-Rule:MF_00970}; OrderedLocusNames=BU347;
+OS   Buchnera aphidicola subsp. Acyrthosiphon pisum (strain APS)
+OS   (Acyrthosiphon pisum symbiotic bacterium).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=107806;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=APS;
+RX   PubMed=10993077; DOI=10.1038/35024074;
+RA   Shigenobu S., Watanabe H., Hattori M., Sakaki Y., Ishikawa H.;
+RT   "Genome sequence of the endocellular bacterial symbiont of aphids
+RT   Buchnera sp. APS.";
+RL   Nature 407:81-86(2000).
+CC   -!- FUNCTION: Endoribonuclease that plays a central role in RNA
+CC       processing and decay. Required for the maturation of 5S and 16S
+CC       rRNAs and the majority of tRNAs. Also involved in the degradation
+CC       of most mRNAs. {ECO:0000255|HAMAP-Rule:MF_00970}.
+CC   -!- CATALYTIC ACTIVITY: Endonucleolytic cleavage of single-stranded
+CC       RNA in A- and U-rich regions. {ECO:0000255|HAMAP-Rule:MF_00970}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00970};
+CC       Note=Binds 2 Zn(2+) ions per homotetramer. {ECO:0000255|HAMAP-
+CC       Rule:MF_00970};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00970};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00970};
+CC   -!- SUBUNIT: Component of the RNA degradosome, which is a multiprotein
+CC       complex involved in RNA processing and mRNA degradation. Within
+CC       the RNA degradosome, Rnase E assembles into a homotetramer formed
+CC       by a dimer of dimers. {ECO:0000255|HAMAP-Rule:MF_00970}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00970}.
+CC       Cell inner membrane {ECO:0000255|HAMAP-Rule:MF_00970}; Peripheral
+CC       membrane protein {ECO:0000255|HAMAP-Rule:MF_00970}; Cytoplasmic
+CC       side {ECO:0000255|HAMAP-Rule:MF_00970}.
+CC   -!- SIMILARITY: Belongs to the RNase E/G family. RNase E subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00970}.
+CC   -!- SIMILARITY: Contains 1 S1 motif domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00970}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000003; BAB13052.1; -; Genomic_DNA.
+DR   RefSeq; NP_240166.1; NC_002528.1.
+DR   RefSeq; WP_010896079.1; NC_002528.1.
+DR   ProteinModelPortal; P57429; -.
+DR   SMR; P57429; 1-502.
+DR   PRIDE; P57429; -.
+DR   EnsemblBacteria; BAB13052; BAB13052; BAB13052.
+DR   GeneID; 1110043; -.
+DR   KEGG; buc:BU347; -.
+DR   PATRIC; 21244228; VBIBucAph127364_0359.
+DR   eggNOG; COG1530; -.
+DR   HOGENOM; HOG000258026; -.
+DR   KO; K08300; -.
+DR   OMA; EIACYLL; -.
+DR   OrthoDB; EOG6PCPTH; -.
+DR   BioCyc; BAPH107806:GBZJ-347-MONOMER; -.
+DR   Proteomes; UP000001806; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009898; C:cytoplasmic side of plasma membrane; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004521; F:endoribonuclease activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008995; F:ribonuclease E activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   HAMAP; MF_00970; RNase_E; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR003029; Rbsml_prot_S1_RNA-bd_dom.
+DR   InterPro; IPR019307; RNA-bd_AU-1/RNase_E/G.
+DR   InterPro; IPR028878; RNase_E.
+DR   InterPro; IPR004659; RNase_E/G.
+DR   InterPro; IPR022967; S1_dom.
+DR   Pfam; PF10150; RNase_E_G; 1.
+DR   Pfam; PF00575; S1; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00757; RNaseEG; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Cytoplasm;
+KW   Endonuclease; Hydrolase; Magnesium; Membrane; Metal-binding; Nuclease;
+KW   Reference proteome; RNA-binding; rRNA processing; tRNA processing;
+KW   Zinc.
+FT   CHAIN         1    902       Ribonuclease E.
+FT                                /FTId=PRO_0000097370.
+FT   DOMAIN       39    119       S1 motif. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00970}.
+FT   REGION      404    407       Required for zinc-mediated
+FT                                homotetramerization and catalytic
+FT                                activity. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00970}.
+FT   METAL       303    303       Magnesium; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00970}.
+FT   METAL       346    346       Magnesium; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00970}.
+FT   METAL       404    404       Zinc; shared with dimeric partner.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00970}.
+FT   METAL       407    407       Zinc; shared with dimeric partner.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00970}.
+SQ   SEQUENCE   902 AA;  104007 MW;  C3FA00476E3C2E37 CRC64;
+     MKRMLINATQ QEELRVALVD GQRLYDLDIE HSGSEQKKSN IYKGKITRIE PSLEAAFVDY
+     GEEKNGFLPL KEISKNYFPE NHIETLGFNI KNVLQEGQEV IVQISKEERG TKGAALTTFI
+     SLAGSYLVLM PNSPKSGGIS RRIEGNDRIA LKELLTLLEL PEEMSLIIRT AGAGKSIESL
+     RWDLSLRLQH WKTIQIIAKS RTAPFLIHQE SNIIVRAFRD YLRQDIGEIL IDNPKILDLA
+     RKHITFLGRP DFVNKIKLYS GEVPLFSYFQ IETQINSAFQ RKVRLPSGGS IMVDSTEALT
+     AIDINSSRST SGTDIASTAF NTNLEAVDEI SRQLRLRDLG GLIVIDFIDM SAISHQRAIE
+     NRLREIARDD RARIQIGQIS RFGLLEMSRQ RLSSSLGESS HHICPRCTGT GTIRDNESLS
+     LSILRLIEEE ALKENTYEVR AIVPVEIACY LLNEKRDAVH AIEKRQAGGK TIIVPSKKMK
+     TPHYSVSRIR KSESKNYTRY GLSNIRQSKI TSFLKKNLLK KKQKEILDVA NFNFYDNCYN
+     KIQEAQENIL KKNNYNNILL KVLSNNRNFI FKMITWFKNS FFIKNMLITS DIFKKNTLKN
+     TNNIFFKKKY SSLNKKNNNQ KKRVILSKLF EANIENIPLK NKKLDTSSAN YLYDNIERKK
+     NITKKNDLIQ KNIHENSYLK HVLMNRYNVI NIINNNYIFY KIFNRTKIFK NQNTNNSFLK
+     FSSVTSPIFI FSSVFSLELA LGKVWIKYPI AILDETKKQK KLNRKQILHI SSISETNTIV
+     NKNNYSGIKK IKHETYSFKK YVKNNIQNQE VTQSQLIKRT KKRNVFILDK KNFLYKRTCN
+     RKNKIHQSSA PITKISKQSD LNKKEKEFHY NLSMMKSSLR GKNSAGVHSA TNFSNSPVSK
+     LK
+//

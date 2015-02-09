@@ -1,0 +1,101 @@
+ID   PPK_PSESM               Reviewed;         736 AA.
+AC   Q87UP6;
+DT   31-OCT-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 69.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   OrderedLocusNames=PSPTO_5250;
+OS   Pseudomonas syringae pv. tomato (strain DC3000).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=223283;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DC3000;
+RX   PubMed=12928499; DOI=10.1073/pnas.1731982100;
+RA   Buell C.R., Joardar V., Lindeberg M., Selengut J., Paulsen I.T.,
+RA   Gwinn M.L., Dodson R.J., DeBoy R.T., Durkin A.S., Kolonay J.F.,
+RA   Madupu R., Daugherty S.C., Brinkac L.M., Beanan M.J., Haft D.H.,
+RA   Nelson W.C., Davidsen T.M., Zafar N., Zhou L., Liu J., Yuan Q.,
+RA   Khouri H.M., Fedorova N.B., Tran B., Russell D., Berry K.J.,
+RA   Utterback T.R., Van Aken S.E., Feldblyum T.V., D'Ascenzo M.,
+RA   Deng W.-L., Ramos A.R., Alfano J.R., Cartinhour S., Chatterjee A.K.,
+RA   Delaney T.P., Lazarowitz S.G., Martin G.B., Schneider D.J., Tang X.,
+RA   Bender C.L., White O., Fraser C.M., Collmer A.;
+RT   "The complete genome sequence of the Arabidopsis and tomato pathogen
+RT   Pseudomonas syringae pv. tomato DC3000.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:10181-10186(2003).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal
+CC       phosphate of ATP to form a long-chain polyphosphate (polyP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (phosphate)(n) = ADP + (phosphate)(n+1).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated
+CC       ppk in which a phosphate is covalently linked to histidine
+CC       residues through a N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016853; AAO58676.1; -; Genomic_DNA.
+DR   RefSeq; NP_794981.1; NC_004578.1.
+DR   ProteinModelPortal; Q87UP6; -.
+DR   STRING; 223283.PSPTO_5250; -.
+DR   EnsemblBacteria; AAO58676; AAO58676; PSPTO_5250.
+DR   GeneID; 1186935; -.
+DR   KEGG; pst:PSPTO_5250; -.
+DR   PATRIC; 20002034; VBIPseSyr93040_5373.
+DR   eggNOG; COG0855; -.
+DR   HOGENOM; HOG000248948; -.
+DR   KO; K00937; -.
+DR   OMA; NYHAGNA; -.
+DR   OrthoDB; EOG65TRRG; -.
+DR   PhylomeDB; Q87UP6; -.
+DR   BioCyc; PSYR223283:GJIX-5318-MONOMER; -.
+DR   Proteomes; UP000002515; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1840.10; -; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR025200; PPK_C_dom.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF140356; SSF140356; 1.
+DR   TIGRFAMs; TIGR03705; poly_P_kin; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN         1    736       Polyphosphate kinase.
+FT                                /FTId=PRO_0000128654.
+FT   ACT_SITE    481    481       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+FT   ACT_SITE    500    500       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+SQ   SEQUENCE   736 AA;  82692 MW;  EE471CE7FBB49E00 CRC64;
+     MNTEALIEAA VEVDVQEAAP VVEPDIEVIP AIEAPAASLP AIVAPNLDDS SLYIHRELSQ
+     LQFNIRVLEQ ALDESYPLLE RLKFLLIFSS NLDEFFEIRV AGLKKQITFA REQAGADGLQ
+     PHQALARISE LVHGHVDRQY AILNDILLPE LEKHQVRFIR RRHWTAKLKA WVRRYFRDEI
+     APIITPIGLD PTHPFPLLVN KSLNFIVELE GIDAFGRDSG LAIIPAPRLL PRVIKVPEEV
+     CGPGDNFVFL SSMIHAHADD LFQGMKVKGC YQFRLTRNAD LALDSEDVED LARALRGELF
+     SRRYGDAVRL EVADTCPKHL SDYLLKQFNL HESELYQVNG PVNLTRLFSI TGLDSHPELQ
+     YPPFTPAIPK LLQNSENVFS VVSKQDILLL HPFESFTPVV DLLRQAAKDP HVLAVRQTLY
+     RSGANSEIVD ALVDAARNGK EVTAVIELRA RFDEESNLQL ASRLQAAGAV VIYGVVGFKT
+     HAKMMLILRR EAGEIVRYAH LGTGNYHAGN ARLYTDYSLL TSDDALCEDV GKLFSQLIGM
+     GKTLRMKKLL HAPFTLKKGM LDMIARETQF ALDGKPAHII AKFNSLTDPK IIRALYKASQ
+     SGVRIDLVVR GMCCLRPGIA GVSHNIHVRS IIGRFLEHTR VFYFLNGGDE QMFLSSADWM
+     ERNLDKRVET CFPVEGKKLI LRVKKELESY LTDNTHSWLL QSDGRYVRSM PTGNQNARSA
+     QATLLERLSN PVLSVR
+//

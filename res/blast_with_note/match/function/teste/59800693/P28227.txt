@@ -1,0 +1,109 @@
+ID   MAOX_ANAPL              Reviewed;         557 AA.
+AC   P28227;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   04-FEB-2015, entry version 84.
+DE   RecName: Full=NADP-dependent malic enzyme;
+DE            Short=NADP-ME;
+DE            EC=1.1.1.40;
+GN   Name=ME1;
+OS   Anas platyrhynchos (Domestic duck) (Anas boschas).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Anseriformes; Anatidae;
+OC   Anas.
+OX   NCBI_TaxID=8839;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CHARACTERIZATION, AND COFACTOR.
+RC   TISSUE=Liver;
+RX   PubMed=1622402;
+RA   Hsu R.Y., Glynias M.J., Satterlee J.D., Feeney R., Clarke A.R.,
+RA   Emery D.S., Roe B.A., Wilson R.K., Goodridge A.G., Holbrook J.J.;
+RT   "Duck liver 'malic' enzyme. Expression in Escherichia coli and
+RT   characterization of the wild-type enzyme and site-directed mutants.";
+RL   Biochem. J. 284:869-876(1992).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 86-107.
+RC   TISSUE=Liver;
+RX   PubMed=1911848; DOI=10.1016/0167-4838(91)90065-8;
+RA   Satterlee J.D., Hsu R.Y.;
+RT   "Duck liver malic enzyme: sequence of a tryptic peptide containing the
+RT   cysteine residue labeled by the substrate analog bromopyruvate.";
+RL   Biochim. Biophys. Acta 1079:247-252(1991).
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NADP(+) = pyruvate + CO(2) +
+CC       NADPH.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:1622402};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:1622402};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000269|PubMed:1622402};
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the malic enzymes family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X66418; CAA47049.1; -; mRNA.
+DR   PIR; S23435; S23435.
+DR   RefSeq; XP_005024853.1; XM_005024796.1.
+DR   ProteinModelPortal; P28227; -.
+DR   SMR; P28227; 2-556.
+DR   GeneID; 101803853; -.
+DR   KEGG; apla:101803853; -.
+DR   CTD; 4199; -.
+DR   HOVERGEN; HBG000746; -.
+DR   KO; K00029; -.
+DR   SABIO-RK; P28227; -.
+DR   Proteomes; UP000016666; Unplaced.
+DR   GO; GO:0005739; C:mitochondrion; IEA:Ensembl.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:InterPro.
+DR   GO; GO:0004473; F:malate dehydrogenase (decarboxylating) (NADP+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:Ensembl.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   GO; GO:0051262; P:protein tetramerization; IEA:Ensembl.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR001891; Malic_OxRdtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   PIRSF; PIRSF000106; ME; 1.
+DR   PRINTS; PR00072; MALOXRDTASE.
+DR   SMART; SM00919; Malic_M; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Cytoplasm; Direct protein sequencing;
+KW   Metal-binding; NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN         1    557       NADP-dependent malic enzyme.
+FT                                /FTId=PRO_0000160196.
+FT   NP_BIND     290    307       NADP. {ECO:0000250}.
+FT   ACT_SITE     91     91       Proton donor. {ECO:0000250}.
+FT   ACT_SITE    162    162       Proton acceptor. {ECO:0000250}.
+FT   METAL       234    234       Divalent metal cation. {ECO:0000250}.
+FT   METAL       235    235       Divalent metal cation. {ECO:0000250}.
+FT   METAL       258    258       Divalent metal cation. {ECO:0000250}.
+FT   BINDING     144    144       NADP. {ECO:0000250}.
+FT   BINDING     258    258       NADP. {ECO:0000250}.
+FT   BINDING     397    397       NADP. {ECO:0000250}.
+FT   SITE        258    258       Important for activity. {ECO:0000250}.
+SQ   SEQUENCE   557 AA;  61898 MW;  BE6ED42C7017EF19 CRC64;
+     MKRGYEVLRD PHLNKGMAFT LEERQQLNIH GLLPPCFLGQ DVQVFSILKN FERLTSDLDR
+     YILLMSLQDR NEKLFYKVLT SDIERFMPIV YTPTVGLACQ QYGLAFRRPR GLFITIHDRG
+     HIATMLKSWP ESVIKAIVVT DGERILGLGD LGCYGMGIPV GKLALYTACG GVKPHECLPV
+     MLDVGTDNEA LLKDPLYIGL RHKRIRGQAY DDLLDEFMEA VTSRYGMNCL IQFEDFANAN
+     AFRLLHKYRN KYCTFNDDIQ GTASVAVAGL LAALRITKNR LSDHTVLFQG AGEAALGIAN
+     LIVMAMEKEG VSKEAAVKRI WMVDSKGLIV KGRASLTAEK TRFAHEHAEM KNLEDIVKDI
+     KPSVLIGVAA IGGAFTKEIL QDMAAFNKRP IIFALSNPTS KAECTAEQCY KYTEGRGIFA
+     SGSPFDPVTL PNGKTLYPGQ GNNSYVFPGV ALGVIACGLK HIGEDVFLTT AEVIAEQVSE
+     ENLQEGRLYP PLVTIQHVSL KIAVRIAEEA YRNNTASTYP QPKDLEAFIQ SQIYSTDYNS
+     FVADSYTWPE EAMKVKL
+//

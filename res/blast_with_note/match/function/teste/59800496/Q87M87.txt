@@ -1,0 +1,111 @@
+ID   ARGA_VIBPA              Reviewed;         445 AA.
+AC   Q87M87;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=Amino-acid acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            EC=2.3.1.1 {ECO:0000255|HAMAP-Rule:MF_01105};
+DE   AltName: Full=N-acetylglutamate synthase {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            Short=AGS {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            Short=NAGS {ECO:0000255|HAMAP-Rule:MF_01105};
+GN   Name=argA {ECO:0000255|HAMAP-Rule:MF_01105}; OrderedLocusNames=VP2371;
+OS   Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=223926;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RIMD 2210633;
+RX   PubMed=12620739; DOI=10.1016/S0140-6736(03)12659-1;
+RA   Makino K., Oshima K., Kurokawa K., Yokoyama K., Uda T., Tagomori K.,
+RA   Iijima Y., Najima M., Nakano M., Yamashita A., Kubota Y., Kimura S.,
+RA   Yasunaga T., Honda T., Shinagawa H., Hattori M., Iida T.;
+RT   "Genome sequence of Vibrio parahaemolyticus: a pathogenic mechanism
+RT   distinct from that of V. cholerae.";
+RL   Lancet 361:743-749(2003).
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + L-glutamate = CoA + N-acetyl-L-
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-
+CC       acetyl-L-ornithine from L-glutamate: step 1/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01105}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. ArgA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -!- SIMILARITY: Contains 1 N-acetyltransferase domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000031; BAC60634.1; -; Genomic_DNA.
+DR   RefSeq; NP_798750.1; NC_004603.1.
+DR   PDB; 3E0K; X-ray; 2.52 A; A=298-445.
+DR   PDBsum; 3E0K; -.
+DR   ProteinModelPortal; Q87M87; -.
+DR   STRING; 223926.VP2371; -.
+DR   EnsemblBacteria; BAC60634; BAC60634; BAC60634.
+DR   GeneID; 1189884; -.
+DR   KEGG; vpa:VP2371; -.
+DR   PATRIC; 20142892; VBIVibPar50997_2275.
+DR   eggNOG; COG0548; -.
+DR   HOGENOM; HOG000262225; -.
+DR   KO; K14682; -.
+DR   OMA; PYIHAFR; -.
+DR   OrthoDB; EOG6T1WVF; -.
+DR   BioCyc; VPAR223926:GHK4-2428-MONOMER; -.
+DR   UniPathway; UPA00068; UER00106.
+DR   EvolutionaryTrace; Q87M87; -.
+DR   Proteomes; UP000002493; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004042; F:acetyl-CoA:L-glutamate N-acetyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   HAMAP; MF_01105; N_acetyl_glu_synth; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   InterPro; IPR010167; NH2A_AcTrfase_ArgA.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   PIRSF; PIRSF000423; ArgA; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR01890; N-Ac-Glu-synth; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acyltransferase; Amino-acid biosynthesis;
+KW   Arginine biosynthesis; Complete proteome; Cytoplasm;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    445       Amino-acid acetyltransferase.
+FT                                /FTId=PRO_0000186809.
+FT   DOMAIN      299    438       N-acetyltransferase. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01105}.
+FT   STRAND      299    303       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       306    308       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       309    321       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       330    336       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       337    339       {ECO:0000244|PDB:3E0K}.
+FT   STRAND      340    345       {ECO:0000244|PDB:3E0K}.
+FT   STRAND      348    358       {ECO:0000244|PDB:3E0K}.
+FT   TURN        359    362       {ECO:0000244|PDB:3E0K}.
+FT   STRAND      363    371       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       373    375       {ECO:0000244|PDB:3E0K}.
+FT   STRAND      377    379       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       380    393       {ECO:0000244|PDB:3E0K}.
+FT   TURN        394    396       {ECO:0000244|PDB:3E0K}.
+FT   STRAND      399    401       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       408    413       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       421    423       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       426    428       {ECO:0000244|PDB:3E0K}.
+FT   HELIX       429    432       {ECO:0000244|PDB:3E0K}.
+SQ   SEQUENCE   445 AA;  48753 MW;  B924E581D8DFF19A CRC64;
+     MKIRSTALVK GFRQSTPYVN AHRGKTMVIM LGGEAVAHNN FGNIINDIAL MHSLGIKVVV
+     VYGARPQINQ LLEKQDLTTP YHKNIRITDE AALSVVMQAA GQLQLAITAR LSMSLNNTPM
+     AGTQLNVVSG NFVIAQPLGV DDGVDYCHSG RIRRIDTDAI NRTLDQGSIV LLGPIASSVT
+     GECFNLLSEE VATQLAIKLG ADKLIGFCSE QGVIDDNGNA VAELLPIEAE HVIKTLSENH
+     ASDSDYNTGT LRFLKGSIAA CRAGVPRSHL ISYKVDGALI QELFSFDGIG TQVVMASAEQ
+     VRQAGIDDIG GILELIHPLE EQGILVRRSR EQLEQEIGKF TIIEKDGLII GCAALYPYSE
+     ERKAEMACVA IHPDYRDGNR GLLLLNYMKH RSKSENINQI FVLTTHSLHW FREQGFYEVG
+     VDYLPGAKQG LYNFQRKSKI LALDL
+//

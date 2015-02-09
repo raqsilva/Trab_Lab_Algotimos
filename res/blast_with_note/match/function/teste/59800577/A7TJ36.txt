@@ -1,0 +1,99 @@
+ID   DBP3_VANPO              Reviewed;         530 AA.
+AC   A7TJ36;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   02-OCT-2007, sequence version 1.
+DT   07-JAN-2015, entry version 36.
+DE   RecName: Full=ATP-dependent RNA helicase DBP3;
+DE            EC=3.6.4.13;
+GN   Name=DBP3; ORFNames=Kpol_1033p40;
+OS   Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294)
+OS   (Kluyveromyces polysporus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+OC   Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+OC   Vanderwaltozyma.
+OX   NCBI_TaxID=436907;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 22028 / DSM 70294;
+RX   PubMed=17494770; DOI=10.1073/pnas.0608218104;
+RA   Scannell D.R., Frank A.C., Conant G.C., Byrne K.P., Woolfit M.,
+RA   Wolfe K.H.;
+RT   "Independent sorting-out of thousands of duplicated gene pairs in two
+RT   yeast species descended from a whole-genome duplication.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:8397-8402(2007).
+CC   -!- FUNCTION: ATP-dependent RNA helicase required for 60S ribosomal
+CC       subunit synthesis. Involved in efficient pre-rRNA processing,
+CC       predominantly at site A3, which is necessary for the normal
+CC       formation of 25S and 5.8S rRNAs (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- SUBCELLULAR LOCATION: Nucleus, nucleolus {ECO:0000250}.
+CC   -!- DOMAIN: The Q motif is unique to and characteristic of the DEAD
+CC       box family of RNA helicases and controls ATP binding and
+CC       hydrolysis.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DDX5/DBP2
+CC       subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; DS480399; EDO17735.1; -; Genomic_DNA.
+DR   RefSeq; XP_001645593.1; XM_001645543.1.
+DR   ProteinModelPortal; A7TJ36; -.
+DR   STRING; 436907.A7TJ36; -.
+DR   GeneID; 5545979; -.
+DR   KEGG; vpo:Kpol_1033p40; -.
+DR   eggNOG; COG0513; -.
+DR   InParanoid; A7TJ36; -.
+DR   KO; K14811; -.
+DR   OrthoDB; EOG7TJ3T2; -.
+DR   Proteomes; UP000000267; Unassembled WGS sequence.
+DR   GO; GO:0005730; C:nucleolus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008026; F:ATP-dependent helicase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coiled coil; Complete proteome; Helicase; Hydrolase;
+KW   Nucleotide-binding; Nucleus; Reference proteome; Ribosome biogenesis;
+KW   RNA-binding; rRNA processing.
+FT   CHAIN         1    530       ATP-dependent RNA helicase DBP3.
+FT                                /FTId=PRO_0000310194.
+FT   DOMAIN      146    322       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      351    500       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     159    166       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   COILED       19     58       {ECO:0000255}.
+FT   MOTIF       117    143       Q motif.
+FT   MOTIF       269    272       DEAD box.
+SQ   SEQUENCE   530 AA;  59290 MW;  A5F42F6F56C46BF3 CRC64;
+     MSKDEIKDKK RKSEEYEVVD KKKHKKDKKD KKEKKDKKEK KLKKDKKDKK DKKETKSESE
+     SNEDNESVAS VSTSSTVDGY TENADLLKVP QSEIDEFFTT NEVAVEDESK LNLRPLLSFS
+     HISLDSRIQA EISKFPKPTP IQAVSWPYLL AGKDVIGVAE TGSGKTFAFG VPAINNILTK
+     SGSKPGKNGI QVLIISPTRE LASQIYDNLV ILTDKVGLEC CCVYGGVPKD EQRTQLKRSQ
+     VVVATPGRLL DLIQEGAANL SNVNYLVLDE ADRMLEKGFE EDIKNIIRET KSTGRQTLMF
+     TATWPKEVRE LASTFMNSPI KVSIGNTDEL SANKRITQIV EVIDPFKKER KLLELLKKYQ
+     SGSKKDDKVL IFALYKKEAA RVERNLNYNG YKVSAIHGDL SQQQRTNALD EFKTGRSSIL
+     LATDVAARGL DIPNVKTVIN LTFPLTVEDY VHRIGRTGRA GKTGTAHTLF TEQEKHLAGS
+     LVNVLNGAGQ PVPEELKKFG THTKKKEHSA YGAFYKDVDM TKKAKKITFD
+//

@@ -1,0 +1,85 @@
+ID   IPYR_RICBR              Reviewed;         175 AA.
+AC   Q1RIN6;
+DT   20-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   07-JAN-2015, entry version 52.
+DE   RecName: Full=Inorganic pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00209};
+DE            EC=3.6.1.1 {ECO:0000255|HAMAP-Rule:MF_00209};
+DE   AltName: Full=Pyrophosphate phospho-hydrolase {ECO:0000255|HAMAP-Rule:MF_00209};
+DE            Short=PPase {ECO:0000255|HAMAP-Rule:MF_00209};
+GN   Name=ppa {ECO:0000255|HAMAP-Rule:MF_00209};
+GN   OrderedLocusNames=RBE_0697;
+OS   Rickettsia bellii (strain RML369-C).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; belli group.
+OX   NCBI_TaxID=336407;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RML369-C;
+RX   PubMed=16703114; DOI=10.1371/journal.pgen.0020076;
+RA   Ogata H., La Scola B., Audic S., Renesto P., Blanc G., Robert C.,
+RA   Fournier P.-E., Claverie J.-M., Raoult D.;
+RT   "Genome sequence of Rickettsia bellii illuminates the role of amoebae
+RT   in gene exchanges between intracellular pathogens.";
+RL   PLoS Genet. 2:733-744(2006).
+CC   -!- CATALYTIC ACTIVITY: Diphosphate + H(2)O = 2 phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00209}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00209};
+CC       Note=Binds 4 Mg(2+) ions per subunit. Other metal ions can support
+CC       activity, but at a lower rate. Two Mg(2+) ions are required for
+CC       the activation of the enzyme and are present before substrate
+CC       binds, two additional Mg(2+) ions form complexes with substrate
+CC       and product. {ECO:0000255|HAMAP-Rule:MF_00209};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00209}.
+CC   -!- SIMILARITY: Belongs to the PPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00209}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000087; ABE04778.1; -; Genomic_DNA.
+DR   RefSeq; YP_537867.1; NC_007940.1.
+DR   ProteinModelPortal; Q1RIN6; -.
+DR   SMR; Q1RIN6; 2-171.
+DR   STRING; 336407.RBE_0697; -.
+DR   EnsemblBacteria; ABE04778; ABE04778; RBE_0697.
+DR   GeneID; 3995408; -.
+DR   KEGG; rbe:RBE_0697; -.
+DR   PATRIC; 17882870; VBIRicBel102610_0800.
+DR   eggNOG; COG0221; -.
+DR   HOGENOM; HOG000236473; -.
+DR   KO; K01507; -.
+DR   OMA; MKEHPEK; -.
+DR   OrthoDB; EOG6NKR4X; -.
+DR   BioCyc; RBEL336407:GJCY-718-MONOMER; -.
+DR   Proteomes; UP000001951; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004427; F:inorganic diphosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006796; P:phosphate-containing compound metabolic process; IEA:InterPro.
+DR   Gene3D; 3.90.80.10; -; 1.
+DR   HAMAP; MF_00209; Inorganic_PPase; 1.
+DR   InterPro; IPR008162; Pyrophosphatase.
+DR   PANTHER; PTHR10286; PTHR10286; 1.
+DR   Pfam; PF00719; Pyrophosphatase; 1.
+DR   SUPFAM; SSF50324; SSF50324; 1.
+DR   PROSITE; PS00387; PPASE; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Hydrolase; Magnesium; Metal-binding.
+FT   CHAIN         1    175       Inorganic pyrophosphatase.
+FT                                /FTId=PRO_0000278035.
+FT   METAL        65     65       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+FT   METAL        70     70       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+FT   METAL        70     70       Magnesium 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+FT   METAL       102    102       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+SQ   SEQUENCE   175 AA;  19936 MW;  2E946C73E73E11FA CRC64;
+     MFIDKIKAKA NNDEINVIIE IPMNSGPIKY EFDKESGAVF VDRFMQTTMS YPCNYGFIPH
+     TLSNDGDPVD VLVVSHHPVV PGSVIKCRAV GVLMMEDESG FDEKIIAVPT SKLDITFDHI
+     KELDDVCEML KKRIVHFFEH YKDLEKGKWV KVTGWENKAK ADSLIEEGIE RVEKM
+//

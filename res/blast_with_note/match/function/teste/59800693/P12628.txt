@@ -1,0 +1,119 @@
+ID   MAOX_PHAVU              Reviewed;         589 AA.
+AC   P12628;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1989, sequence version 1.
+DT   07-JAN-2015, entry version 97.
+DE   RecName: Full=NADP-dependent malic enzyme;
+DE            Short=NADP-ME;
+DE            EC=1.1.1.40;
+GN   Name=ME1;
+OS   Phaseolus vulgaris (Kidney bean) (French bean).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; fabids; Fabales; Fabaceae; Papilionoideae;
+OC   Phaseoleae; Phaseolus.
+OX   NCBI_TaxID=3885;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3041415; DOI=10.1073/pnas.85.15.5546;
+RA   Walter M.H., Grima-Pettenati J., Grand C., Boudet A.M., Lamb C.J.;
+RT   "Cinnamyl-alcohol dehydrogenase, a molecular marker specific for
+RT   lignin synthesis: cDNA cloning and mRNA induction by fungal
+RT   elicitor.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 85:5546-5550(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Processor; TISSUE=Leaf;
+RX   PubMed=7925425; DOI=10.1111/j.1432-1033.1994.t01-1-00999.x;
+RA   Walter M.H., Grima-Pettenati J., Feuillet C.;
+RT   "Characterization of a bean (Phaseolus vulgaris L.) malic-enzyme
+RT   gene.";
+RL   Eur. J. Biochem. 224:999-1009(1994).
+RN   [3]
+RP   SIMILARITY TO MALIC ENZYMES.
+RX   PubMed=2103472; DOI=10.1007/BF00019173;
+RA   Walter M.H., Grima-Pettenati J., Grand C., Boudet A.M., Lamb C.J.;
+RT   "Extensive sequence similarity of the bean CAD4 (cinnamyl-alcohol
+RT   dehydrogenase) to a maize malic enzyme.";
+RL   Plant Mol. Biol. 15:525-526(1990).
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NADP(+) = pyruvate + CO(2) +
+CC       NADPH.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000250};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- INDUCTION: By fungal elicitor.
+CC   -!- SIMILARITY: Belongs to the malic enzymes family. {ECO:0000305}.
+CC   -!- CAUTION: Was originally thought to be a cinnamyl-alcohol
+CC       dehydrogenase. {ECO:0000305|PubMed:3041415}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J03825; AAA19575.1; -; mRNA.
+DR   EMBL; X80051; CAA56354.1; -; Genomic_DNA.
+DR   PIR; S48198; DEFBC.
+DR   ProteinModelPortal; P12628; -.
+DR   SMR; P12628; 49-589.
+DR   PRIDE; P12628; -.
+DR   ProMEX; P12628; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:InterPro.
+DR   GO; GO:0004473; F:malate dehydrogenase (decarboxylating) (NADP+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR001891; Malic_OxRdtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   PIRSF; PIRSF000106; ME; 1.
+DR   PRINTS; PR00072; MALOXRDTASE.
+DR   SMART; SM00919; Malic_M; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Metal-binding; NADP; Oxidoreductase.
+FT   CHAIN         1    589       NADP-dependent malic enzyme.
+FT                                /FTId=PRO_0000160201.
+FT   NP_BIND     333    349       NADP. {ECO:0000250}.
+FT   ACT_SITE    137    137       Proton donor. {ECO:0000250}.
+FT   ACT_SITE    208    208       Proton acceptor. {ECO:0000250}.
+FT   METAL       280    280       Divalent metal cation. {ECO:0000250}.
+FT   METAL       281    281       Divalent metal cation. {ECO:0000250}.
+FT   METAL       304    304       Divalent metal cation. {ECO:0000250}.
+FT   BINDING     190    190       NAD. {ECO:0000250}.
+FT   BINDING     304    304       NAD. {ECO:0000250}.
+FT   BINDING     445    445       NAD. {ECO:0000250}.
+FT   SITE        304    304       Important for activity. {ECO:0000250}.
+FT   CONFLICT     16     16       K -> N (in Ref. 2; CAA56354).
+FT                                {ECO:0000305}.
+FT   CONFLICT    130    130       A -> E (in Ref. 2; CAA56354).
+FT                                {ECO:0000305}.
+FT   CONFLICT    258    259       TF -> EL (in Ref. 2; CAA56354).
+FT                                {ECO:0000305}.
+FT   CONFLICT    350    350       V -> L (in Ref. 2; CAA56354).
+FT                                {ECO:0000305}.
+FT   CONFLICT    567    567       K -> P (in Ref. 2; CAA56354).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   589 AA;  64932 MW;  9BFADDB2699BAC1E CRC64;
+     MSSISLKENG GEVSVKKDYS NGGGVRDLYG EDSATEDHLI TPWTFSVASG CSLLRDPRYN
+     KGLAFTEGER DAHYLRGLLP PSVFNQELQE KRLMHNLRQY EVPLHRYMAL MDLQERNERL
+     FYKLLIDNVA ELLPVVYTPT VGEACQKYGS IFRRPQGLYI SLKEKGKILE VLKNWPEKSI
+     QVIVVTDGER ILGLGDLGCQ GMGIPVGKLS LYTALGGVRP SSCLPVTIDV GTNNEKLLND
+     EFYIGLRQRR ATGQEYATFL DEFMRAVKQN YGEKVLVQFE DFANHNAFDL LEKYSSSHLV
+     FNDDIQGTAS VVLAGLLASL KLVGGTLADH TFLFLGAGEA GTGIAELIAV EVSKQTKAPV
+     EETRKKIWLV DSKGLIVSSR LESLQQFKKP WAHEHEPVKG LLEAVKAIKP TVLIGSSGAG
+     KTFTKEVVET MASLNEKPLI LALSNPTSQS ECTAEEAYTW SKGRAIFASG SPFDPVEYEG
+     KLFVPGQANN AYIFPGFGLG LIMSGAIRVR DEMLLAASEA LAAQVSEENY DKGLIYPPFT
+     NIRKISANIA AKVAAKAYDL GLASHLKRPK DLVKYAESCM YSPGYRSYR
+//

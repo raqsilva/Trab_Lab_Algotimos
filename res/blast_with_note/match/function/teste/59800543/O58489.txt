@@ -1,0 +1,91 @@
+ID   AAT_PYRHO               Reviewed;         391 AA.
+AC   O58489;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   07-JAN-2015, entry version 92.
+DE   RecName: Full=Aspartate aminotransferase;
+DE            Short=AspAT;
+DE            EC=2.6.1.1;
+DE   AltName: Full=Transaminase A;
+GN   Name=aspC; OrderedLocusNames=PH0771;
+OS   Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 /
+OS   NBRC 100139 / OT-3).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=70601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3;
+RX   PubMed=9679194; DOI=10.1093/dnares/5.2.55;
+RA   Kawarabayasi Y., Sawada M., Horikawa H., Haikawa Y., Hino Y.,
+RA   Yamamoto S., Sekine M., Baba S., Kosugi H., Hosoyama A., Nagai Y.,
+RA   Sakai M., Ogura K., Otsuka R., Nakazawa H., Takamiya M., Ohfuku Y.,
+RA   Funahashi T., Tanaka T., Kudoh Y., Yamazaki J., Kushida N., Oguchi A.,
+RA   Aoki K., Yoshizawa T., Nakamura Y., Robb F.T., Horikoshi K.,
+RA   Masuchi Y., Shizuya H., Kikuchi H.;
+RT   "Complete sequence and gene organization of the genome of a hyper-
+RT   thermophilic archaebacterium, Pyrococcus horikoshii OT3.";
+RL   DNA Res. 5:55-76(1998).
+CC   -!- CATALYTIC ACTIVITY: L-aspartate + 2-oxoglutarate = oxaloacetate +
+CC       L-glutamate.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000001; BAA29863.1; -; Genomic_DNA.
+DR   PIR; E71125; E71125.
+DR   RefSeq; NP_142708.1; NC_000961.1.
+DR   ProteinModelPortal; O58489; -.
+DR   SMR; O58489; 21-391.
+DR   STRING; 70601.PH0771; -.
+DR   EnsemblBacteria; BAA29863; BAA29863; BAA29863.
+DR   GeneID; 1443098; -.
+DR   KEGG; pho:PH0771; -.
+DR   eggNOG; COG0436; -.
+DR   HOGENOM; HOG000223062; -.
+DR   KO; K00812; -.
+DR   OMA; EGWTHYT; -.
+DR   BioCyc; PHOR70601:GJWR-765-MONOMER; -.
+DR   Proteomes; UP000000752; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004069; F:L-aspartate:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0080130; F:L-phenylalanine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR004838; NHTrfase_class1_PyrdxlP-BS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00105; AA_TRANSFER_CLASS_1; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Complete proteome; Cytoplasm; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN         1    391       Aspartate aminotransferase.
+FT                                /FTId=PRO_0000123861.
+FT   BINDING      40     40       Aspartate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     176    176       Aspartate. {ECO:0000250}.
+FT   BINDING     366    366       Aspartate. {ECO:0000250}.
+FT   MOD_RES     236    236       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   391 AA;  44565 MW;  C35FD73BD08FE4C1 CRC64;
+     MREKRKYFIA ERVLLIKRSK IRELFERASK MEDVISLGIG EPDFDTPKNI KEAAKRALDE
+     GWTHYTPNAG IPELREAVVE YYKKFYGIDI EVENVIITAG AYEGTYLAFE SLLERGDEVI
+     IPDPAFVSYA EDAKVAEAKP VRIPLREENN FLPDPNELLE KISKNTRMIV INYPNNPTGA
+     TLDKELAKTI ADIAEDYNIY ILSDEPYEHF IYEDAKHYPM IKFAPENTIL ANSFSKTFAM
+     TGWRLGFVVA PSQVIKEMTK LHAYVIGNVA SFVQIAGIEA LRSEESWKAV EEMKKEYNER
+     RKIVVKRLKN MPGIKVKEPK GAFYVFPNIS GTGMSSEKFS EWLLEKARVV VIPGTAFGRM
+     GEGYVRISYA TSKEKLIEAM NRIEKALEGE K
+//

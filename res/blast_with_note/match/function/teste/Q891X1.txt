@@ -1,0 +1,115 @@
+ID   PBPA_CLOTE              Reviewed;         790 AA.
+AC   Q891X1;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   04-FEB-2015, entry version 76.
+DE   RecName: Full=Penicillin-binding protein 1A;
+DE            Short=PBP1a;
+DE   Includes:
+DE     RecName: Full=Penicillin-insensitive transglycosylase;
+DE              EC=2.4.2.-;
+DE     AltName: Full=Peptidoglycan TGase;
+DE   Includes:
+DE     RecName: Full=Penicillin-sensitive transpeptidase;
+DE              EC=3.4.-.-;
+DE     AltName: Full=DD-transpeptidase;
+GN   Name=pbpA; OrderedLocusNames=CTC_02242;
+OS   Clostridium tetani (strain Massachusetts / E88).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=212717;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Massachusetts / E88;
+RX   PubMed=12552129; DOI=10.1073/pnas.0335853100;
+RA   Brueggemann H., Baeumer S., Fricke W.F., Wiezer A., Liesegang H.,
+RA   Decker I., Herzberg C., Martinez-Arias R., Merkl R., Henne A.,
+RA   Gottschalk G.;
+RT   "The genome sequence of Clostridium tetani, the causative agent of
+RT   tetanus disease.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:1316-1321(2003).
+CC   -!- FUNCTION: Cell wall formation. Synthesis of cross-linked
+CC       peptidoglycan from the lipid intermediates. The enzyme has a
+CC       penicillin-insensitive transglycosylase N-terminal domain
+CC       (formation of linear glycan strands) and a penicillin-sensitive
+CC       transpeptidase C-terminal domain (cross-linking of the peptide
+CC       subunits) (By similarity). {ECO:0000250}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass
+CC       type II membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the
+CC       glycosyltransferase 51 family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the
+CC       transpeptidase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE015927; AAO36724.1; -; Genomic_DNA.
+DR   RefSeq; NP_782787.1; NC_004557.1.
+DR   RefSeq; WP_011100385.1; NC_004557.1.
+DR   ProteinModelPortal; Q891X1; -.
+DR   STRING; 212717.CTC02242; -.
+DR   EnsemblBacteria; AAO36724; AAO36724; CTC_02242.
+DR   GeneID; 1059275; -.
+DR   KEGG; ctc:CTC02242; -.
+DR   PATRIC; 19512583; VBICloTet101274_2337.
+DR   eggNOG; COG0744; -.
+DR   KO; K05366; -.
+DR   OMA; IAQVWVT; -.
+DR   OrthoDB; EOG6KDKQS; -.
+DR   BioCyc; CTET212717:GJAM-2056-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001412; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008658; F:penicillin binding; IEA:InterPro.
+DR   GO; GO:0008233; F:peptidase activity; IEA:InterPro.
+DR   GO; GO:0016763; F:transferase activity, transferring pentosyl groups; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.710.10; -; 1.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR001264; Glyco_trans_51.
+DR   InterPro; IPR023346; Lysozyme-like_dom.
+DR   InterPro; IPR011816; PBP_1a.
+DR   InterPro; IPR001460; PCN-bd_Tpept.
+DR   Pfam; PF00912; Transgly; 1.
+DR   Pfam; PF00905; Transpeptidase; 1.
+DR   SUPFAM; SSF53955; SSF53955; 1.
+DR   SUPFAM; SSF56601; SSF56601; 2.
+DR   TIGRFAMs; TIGR02074; PBP_1a_fam; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Complete proteome;
+KW   Glycosyltransferase; Hydrolase; Membrane; Multifunctional enzyme;
+KW   Peptidoglycan synthesis; Reference proteome; Signal-anchor;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN         1    790       Penicillin-binding protein 1A.
+FT                                /FTId=PRO_0000321879.
+FT   TOPO_DOM      1     20       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     21     41       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM     42    790       Extracellular. {ECO:0000255}.
+FT   REGION       61    230       Transglycosylase. {ECO:0000250}.
+FT   REGION      363    656       Transpeptidase. {ECO:0000250}.
+FT   COMPBIAS    722    777       Asp-rich.
+FT   ACT_SITE    402    402       Acyl-ester intermediate. {ECO:0000250}.
+SQ   SEQUENCE   790 AA;  88212 MW;  685396E0B8742B73 CRC64;
+     MANVRKRRKK KNEHKALRLT FITLLMVFLF SCVAAAGVGL AMIKAAPPLD VDKVLNPSEP
+     SVIYDDKNKL VDTVISDTYR TIVSYEDVPD NLKNAFISIE DERFFNHRGI DYKRVFGAFF
+     RNISNKLKGK SALQGASTIT QQLVRNTLLS QEVRIKRKVQ EMYLSIQLEK KVSKEQILEA
+     YMNTIPLGGS AYGIEAASKQ YFGKSVKDLN LIESAFIAGL PQSPSTFYNA AMSQKNTERY
+     INRTKLVLGK MREHNYISKE DFDKSMAYID KNKIPLKTSN INISRLNYEW FSREIIKQVK
+     KDLMNEYKIS PTEADKTIMY GGLKIYGTMD KSLQDFSQNT LDNLDGILGI NSKDYSGIIQ
+     PEASVSIVDY KTGNVKVLIG GRGKQPPLSF NRATEFYRAP GSTIKPLTVY GPAIDTKTST
+     AASSYNDAPV PEEIGKLYDK EPYNPKNSPN IYEGKMTLRE ALMKSKNVIS VRIEHELGLK
+     TGAEYGKKFG LTIDDSMDGT SMAALSLGQL SAKTGVSGTN TLGMAAAYGV FGNKGALSKP
+     VVYKKVVDRT GKVLLENKYA SSKVMSPEAA YILYDLLKGP VSYTPGATGM KANFGPMARG
+     KTGTSNQSSD LWFAGLSPYY SAAVWIGKDD YSPFTNEFGR YIGSSDAALI WKLIMGEAHK
+     NLEYKTIEKP AGVTEAYVCS KSGKIPSSSC PRDSIKLEYF IEGTIPGEIC DYHTGIFNNN
+     KDKDDDDDDK DKDKEDEEEN KDEKNEDKKE AKDNTKNKDK DKKKDNDRKI DMDKKPDSSK
+     RKRKMIKPQI
+//

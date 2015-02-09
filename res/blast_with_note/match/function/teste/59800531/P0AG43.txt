@@ -1,0 +1,114 @@
+ID   RIBF_SHIFL              Reviewed;         313 AA.
+AC   P0AG43; P08391; P75621;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   07-JAN-2015, entry version 69.
+DE   RecName: Full=Riboflavin biosynthesis protein RibF;
+DE   Includes:
+DE     RecName: Full=Riboflavin kinase;
+DE              EC=2.7.1.26;
+DE     AltName: Full=Flavokinase;
+DE   Includes:
+DE     RecName: Full=FMN adenylyltransferase;
+DE              EC=2.7.7.2;
+DE     AltName: Full=FAD pyrophosphorylase;
+DE     AltName: Full=FAD synthase;
+GN   Name=ribF; OrderedLocusNames=SF0021, S0024;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H.,
+RA   Yang J., Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J.,
+RA   Sun L., Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S.,
+RA   Cheng H., Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y.,
+RA   Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/IAI.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W.,
+RA   Fournier G., Mayhew G.F., Plunkett G. III, Rose D.J., Darling A.,
+RA   Mau B., Perna N.T., Payne S.M., Runyen-Janecky L.J., Zhou S.,
+RA   Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella
+RT   flexneri serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- CATALYTIC ACTIVITY: ATP + riboflavin = ADP + FMN.
+CC   -!- CATALYTIC ACTIVITY: ATP + FMN = diphosphate + FAD.
+CC   -!- PATHWAY: Cofactor biosynthesis; FAD biosynthesis; FAD from FMN:
+CC       step 1/1.
+CC   -!- PATHWAY: Cofactor biosynthesis; FMN biosynthesis; FMN from
+CC       riboflavin (ATP route): step 1/1.
+CC   -!- SIMILARITY: Belongs to the RibF family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005674; AAN41687.1; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP15569.1; -; Genomic_DNA.
+DR   RefSeq; NP_705980.1; NC_004337.2.
+DR   RefSeq; NP_835764.1; NC_004741.1.
+DR   ProteinModelPortal; P0AG43; -.
+DR   SMR; P0AG43; 19-306.
+DR   STRING; 198214.SF0021; -.
+DR   PaxDb; P0AG43; -.
+DR   EnsemblBacteria; AAN41687; AAN41687; SF0021.
+DR   EnsemblBacteria; AAP15569; AAP15569; S0024.
+DR   GeneID; 1024592; -.
+DR   GeneID; 1076481; -.
+DR   KEGG; sfl:SF0021; -.
+DR   KEGG; sfx:S0024; -.
+DR   PATRIC; 18700966; VBIShiFle31049_0025.
+DR   eggNOG; COG0196; -.
+DR   HOGENOM; HOG000006845; -.
+DR   KO; K11753; -.
+DR   OMA; FHFGRGR; -.
+DR   OrthoDB; EOG6QP0ZV; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-843-MONOMER; -.
+DR   UniPathway; UPA00276; UER00406.
+DR   UniPathway; UPA00277; UER00407.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003919; F:FMN adenylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008531; F:riboflavin kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006747; P:FAD biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009398; P:FMN biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:InterPro.
+DR   Gene3D; 2.40.30.30; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   InterPro; IPR015864; FAD_synthase.
+DR   InterPro; IPR023468; Riboflavin_kinase.
+DR   InterPro; IPR002606; Riboflavin_kinase_bac.
+DR   InterPro; IPR015865; Riboflavin_kinase_bac/euk.
+DR   InterPro; IPR023465; Riboflavin_kinase_domain.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR22749; PTHR22749; 1.
+DR   Pfam; PF06574; FAD_syn; 1.
+DR   Pfam; PF01687; Flavokinase; 1.
+DR   PIRSF; PIRSF004491; FAD_Synth; 1.
+DR   SMART; SM00904; Flavokinase; 1.
+DR   SUPFAM; SSF82114; SSF82114; 1.
+DR   TIGRFAMs; TIGR00083; ribF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; FAD; Flavoprotein; FMN; Kinase;
+KW   Multifunctional enzyme; Nucleotide-binding; Nucleotidyltransferase;
+KW   Transferase.
+FT   CHAIN         1    313       Riboflavin biosynthesis protein RibF.
+FT                                /FTId=PRO_0000194143.
+SQ   SEQUENCE   313 AA;  34734 MW;  C0B2EF5499CD30FE CRC64;
+     MKLIRGIHNL SQAPQEGCVL TIGNFDGVHR GHRALLQGLQ EEGRKRNLPV MVMLFEPQPL
+     ELFATDKAPA RLTRLREKLR YLAECGVDYV LCVRFDRRFA ALTAQNFISD LLVKHLRVKF
+     LAVGDDFRFG AGREGDFLLL QKAGMEYGFD ITSTQTFCEG GVRISSTAVR QALADDNLAL
+     AESLLGHPFA ISGRVVHGDE LGRTIGFPTA NVPLRRQVSP VKGVYAVEVL GLGEKPLPGV
+     ANIGTRPTVA GIRQQLEVHL LDVAMDLYGR HIQVVLRKKI RNEQRFASLD ELKAQIARDE
+     LTAREFFGLT KPA
+//

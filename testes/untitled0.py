@@ -18,38 +18,41 @@ import numpy as np
 import urllib.request
 import os
 
-handle = open("../res/blast_without_note/match/allhits/allhits.txt").readlines()
-
-
-
-for n in range(len (handle)):       
-        x=handle[n].split()
-        for k in range(len(x)-1,len(x)):
-            e=x[k]
-            limpo=e.replace("']","")
-            ginote=(limpo[1:])
-            blast=[]    
-            for file in os.listdir("../res/blast_without_note/match/function/teste/"+ginote):
-                if file.endswith(".txt"):
-                       blast.append(file)
-                lista=[]
-                for j in range(len(blast)):
-                    nome=blast[j]
-                    gi = nome.replace(".txt","")
-                    first = '-!- FUNCTION:'
-                    last = 'CC'
-                    file = open("../res/blast_without_note/match/function/teste/"+ginote+'/'+gi+'.txt').read()
-                    data = file.replace("\n", " ") 
-                    try:
-                        start = data.rindex( first ) + len( first )
-                        end = data.rindex(last, start)
-                        novo= data[start:end] 
-                        lista.append('Gi: '+gi+'  '+'Possivel função:  '+novo)
-                    except:
-                        pass   
-                    
-                file = open("../res/blast_without_note/match/allhits/funcao_all_hits/"+ginote+".txt",'w')       
-                for i in range(len(lista)):
-                    file.write("%s\n" % lista[i])
-                file.close()
-                
+blast=[]    
+for file in os.listdir("../res/blast_with_note"):
+    if file.endswith(".xml"):
+        blast.append(file)
+E_VALUE_THRESH = 0.05
+lista=[]
+for i in range(len(blast)):
+    lista.append([])
+    lista[i].append(blast[i])
+    result_handle = open("../res/blast_with_note/"+blast[i])
+    blast_record = NCBIXML.read(result_handle)
+    for alignment in blast_record.alignments:
+        for hsp in alignment.hsps:
+             if hsp.expect < E_VALUE_THRESH:
+                 lista[i].append(alignment.title)
+                 lista[i].append(alignment.length)
+                 lista[i].append(hsp.expect)
+save_file = open('nomatches.txt', "w")
+for i in range(len(lista)):                
+    if len(lista[i])<2:
+        save_file.write(str(lista[i])+'\n')
+save_file.close()
+#        #moving the file to another directory
+path=os.getcwd()
+src = path+"/"+'nomatches.txt' #source folder
+dst = "../res/blast_with_note/nomatch/"#destination folder
+shutil.move(src, dst)
+                 
+save_file = open('matches.txt', "w")
+for i in range(len(lista)):                
+    if len(lista[i])>2:
+        save_file.write(str(lista[i])+'\n')
+save_file.close()
+#        #moving the file to another directory
+path=os.getcwd()
+src = path+"/"+'matches.txt' #source folder
+dst = "../res/blast_with_note/match/"#destination folder
+shutil.move(src, dst)

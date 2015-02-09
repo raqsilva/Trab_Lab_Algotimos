@@ -1,0 +1,112 @@
+ID   DCOA_SALTY              Reviewed;         591 AA.
+AC   Q03030;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   07-JAN-2015, entry version 104.
+DE   RecName: Full=Oxaloacetate decarboxylase alpha chain;
+DE            EC=4.1.1.3;
+GN   Name=oadA1; Synonyms=oadA; OrderedLocusNames=STM0055;
+GN   and
+GN   Name=oadA2; OrderedLocusNames=STM3352;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT2;
+RX   PubMed=1331067;
+RA   Woehlke G., Wifling K., Dimroth P.;
+RT   "Sequence of the sodium ion pump oxaloacetate decarboxylase from
+RT   Salmonella typhimurium.";
+RL   J. Biol. Chem. 267:22798-22803(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Lyase and sodium transporter.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC   -!- COFACTOR:
+CC       Name=biotin; Xref=ChEBI:CHEBI:57586;
+CC       Note=Biotin.;
+CC   -!- SUBUNIT: Composed of three chains (alpha, beta, and gamma).
+CC   -!- SIMILARITY: Contains 1 biotinyl-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01066, ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M96434; AAA02973.1; -; Unassigned_DNA.
+DR   EMBL; AE006468; AAL19019.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL22221.1; -; Genomic_DNA.
+DR   PIR; B44465; B44465.
+DR   RefSeq; NP_459060.1; NC_003197.1.
+DR   RefSeq; NP_462262.1; NC_003197.1.
+DR   ProteinModelPortal; Q03030; -.
+DR   SMR; Q03030; 3-449.
+DR   STRING; 99287.STM3352; -.
+DR   TCDB; 3.B.1.1.1; the na(+)-transporting carboxylic acid decarboxylase (nat-dc) family.
+DR   EnsemblBacteria; AAL19019; AAL19019; STM0055.
+DR   EnsemblBacteria; AAL22221; AAL22221; STM3352.
+DR   GeneID; 1251573; -.
+DR   GeneID; 1254875; -.
+DR   KEGG; stm:STM0055; -.
+DR   KEGG; stm:STM3352; -.
+DR   PATRIC; 32378375; VBISalEnt20916_0057.
+DR   eggNOG; COG0511; -.
+DR   HOGENOM; HOG000231389; -.
+DR   KO; K01571; -.
+DR   OMA; ADHIAPE; -.
+DR   OrthoDB; EOG6CVV6Z; -.
+DR   PhylomeDB; Q03030; -.
+DR   BioCyc; SENT99287:GCTI-3373-MONOMER; -.
+DR   BioCyc; SENT99287:GCTI-56-MONOMER; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006814; P:sodium ion transport; IEA:UniProtKB-KW.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001882; Biotin_BS.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR003379; Carboxylase_cons_dom.
+DR   InterPro; IPR005776; OadA.
+DR   InterPro; IPR000891; PYR_CT.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   Pfam; PF00682; HMGL-like; 1.
+DR   Pfam; PF02436; PYC_OADA; 1.
+DR   SUPFAM; SSF51230; SSF51230; 1.
+DR   TIGRFAMs; TIGR01108; oadA; 1.
+DR   PROSITE; PS00188; BIOTIN; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS50991; PYR_CT; 1.
+PE   3: Inferred from homology;
+KW   Biotin; Complete proteome; Decarboxylase; Ion transport; Lyase;
+KW   Reference proteome; Sodium; Sodium transport; Transport.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    591       Oxaloacetate decarboxylase alpha chain.
+FT                                /FTId=PRO_0000146834.
+FT   DOMAIN      518    591       Biotinyl-binding. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01066}.
+FT   MOD_RES     557    557       N6-biotinyllysine. {ECO:0000250,
+FT                                ECO:0000255|PROSITE-ProRule:PRU01066}.
+SQ   SEQUENCE   591 AA;  63207 MW;  EE9CF9191E71D6BE CRC64;
+     MTIAITDVVL RDAHQSLFAT RLRLDDMLPI AAALDDVGYG SLECWGGATF DACIRFLGED
+     PWLRLRELKK AMPKTPLQML LRGQNLLGYR HYADDVVERF VERAVKNGMD VFRVFDAMND
+     PRNMKAALQA VRSHGAHAQG TLSYTTSPAH TLQTWLDLTE QLLETGVDSI AIKDMSGILT
+     PMAAYELVSE IKKRFEVRLH LHCHATTGMA EMALLKAIEA GVDGVDTAIS SMSATYGHPA
+     TEALVATLAG TEHDTGLDIL KLENIAAYFR EVRKKYHAFE GQLKGYDSRI LVAQVPGGML
+     TNLESQLKQQ NAADKLDQVL AEIPRVREDL GFIPLVTPTS QIVGTQAVLN VLTGERYKTI
+     AKETAGILKG EYGHTPVPVN AALQARVLEG GAPVTCRPAD LLKPELAELE ADVRRQAQEK
+     GITLAGNAID DVLTVALFPQ IGLKFLENRN NPAAFEPLPQ AEAAQPVAKA EKPAASGIYT
+     VEVEGKAFVV KVSDGGDISQ LTAAVPAASS APVQAAAPAG AGTPVTAPLA GNIWKVIATE
+     GQTVAEGDVL LILEAMKMET EIRAAQAGTV RGIAVKSGDA VSVGDTLMTL A
+//

@@ -1,0 +1,103 @@
+ID   RECG_MYCBO              Reviewed;         737 AA.
+AC   P64323; P95122; X2BMQ8;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   04-FEB-2015, entry version 68.
+DE   RecName: Full=ATP-dependent DNA helicase RecG;
+DE            EC=3.6.4.12;
+GN   Name=recG; OrderedLocusNames=Mb2998c;
+OS   Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+OC   Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=233413;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-935 / AF2122/97;
+RX   PubMed=12788972; DOI=10.1073/pnas.1130426100;
+RA   Garnier T., Eiglmeier K., Camus J.-C., Medina N., Mansoor H.,
+RA   Pryor M., Duthoy S., Grondin S., Lacroix C., Monsempe C., Simon S.,
+RA   Harris B., Atkin R., Doggett J., Mayes R., Keating L., Wheeler P.R.,
+RA   Parkhill J., Barrell B.G., Cole S.T., Gordon S.V., Hewinson R.G.;
+RT   "The complete genome sequence of Mycobacterium bovis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:7877-7882(2003).
+CC   -!- FUNCTION: Critical role in recombination and DNA repair. Helps
+CC       process Holliday junction intermediates to mature products by
+CC       catalyzing branch migration. Has a DNA unwinding activity
+CC       characteristic of a DNA helicase with a 3'- to 5'- polarity.
+CC       Unwinds branched duplex DNA (Y-DNA) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- SIMILARITY: Belongs to the helicase family. RecG subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BX248333; CDO44265.1; -; Genomic_DNA.
+DR   RefSeq; NP_856643.1; NC_002945.3.
+DR   ProteinModelPortal; P64323; -.
+DR   SMR; P64323; 284-687.
+DR   STRING; 233413.Mb2998c; -.
+DR   GeneID; 1093419; -.
+DR   KEGG; mbo:Mb2998c; -.
+DR   PATRIC; 18008326; VBIMycBov88188_3295.
+DR   eggNOG; COG1200; -.
+DR   HOGENOM; HOG000036618; -.
+DR   KO; K03655; -.
+DR   OMA; PHVLTMT; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   Proteomes; UP000001419; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004003; F:ATP-dependent DNA helicase activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR004609; ATP-dep_DNA_helicase_RecG.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF50249; SSF50249; 2.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00643; recG; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; DNA damage; DNA recombination;
+KW   DNA repair; DNA-binding; Helicase; Hydrolase; Nucleotide-binding.
+FT   CHAIN         1    737       ATP-dependent DNA helicase RecG.
+FT                                /FTId=PRO_0000102147.
+FT   DOMAIN      302    477       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      514    673       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     315    322       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF       427    430       DEQH box.
+SQ   SEQUENCE   737 AA;  80361 MW;  97BAC1C8C4A0732F CRC64;
+     MASLSDRLDR VLGATAADAL DEQFGMRTVD DLLRHYPRSY VEGAARVGIG DARPEAGEHI
+     TIVDVITDTY SFPMKKKPNR KCLRITVGGG RNKVTATFFN ADYIMRDLTK HTKVMLSGEV
+     GYYKGAMQLT HPAFLILDSP DGKNHGTRSL KSIADASKAI SGELVVEEFE RRFFPIYPAS
+     TKVQSWDIFK CVRQVLDVLD RVDDPLPAEL RAKHGLIPED EALRAIHLAE SQSLRERARE
+     RLTFDEAVGL QWALVARRHG ELSESGPSAA WKSNGLAAEL LRRLPFELTA GQREVLDVLS
+     DGLAANRPLN RLLQGEVGSG KTIVAVLAML QMVDAGYQCA LLAPTEVLAA QHLRSIRDVL
+     GPLAMGGQLG GAENATRVAL LTGSMTAGQK KQVRAEIASG QVGIVIGTHA LLQEAVDFHN
+     LGMVVVDEQH RFGVEQRDQL RAKAPAGITP HLLVMTATPI PRTVALTVYG DLETSTLREL
+     PLGRQPIATN VIFVKDKPAW LDRAWRRIIE EAAAGRQAYV VAPRIDESDD TDVQGGVRPS
+     ATAEGLFSRL RSAELAELRL ALMHGRLSAD DKDAAMAAFR AGEVDVLVCT TVIEVGVDVP
+     NATVMLVMDA DRFGISQLHQ LRGRIGRGEH PSVCLLASWV PPDTPAGQRL RAVAGTMDGF
+     ALADLDLKER KEGDVLGRNQ SGKAITLRLL SLAEHEEYIV AARDFCIEAY KNPTDPALAL
+     MAARFTSTDR IEYLDKS
+//

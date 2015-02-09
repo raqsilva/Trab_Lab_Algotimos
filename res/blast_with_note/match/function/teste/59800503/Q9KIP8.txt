@@ -1,0 +1,102 @@
+ID   KBAY_ECOLX              Reviewed;         286 AA.
+AC   Q9KIP8;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   26-NOV-2014, entry version 55.
+DE   RecName: Full=D-tagatose-1,6-bisphosphate aldolase subunit KbaY;
+DE            Short=TBPA;
+DE            Short=TagBP aldolase;
+DE            EC=4.1.2.40;
+DE   AltName: Full=D-tagatose-bisphosphate aldolase class II;
+DE   AltName: Full=Ketose 1,6-bisphosphate aldolase class II;
+DE   AltName: Full=Tagatose-bisphosphate aldolase;
+GN   Name=kbaY; Synonyms=agaY;
+OS   Escherichia coli.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION IN THE CATABOLISM OF
+RP   N-ACETYLGALACTOSAMINE AND D-GALACTOSAMINE.
+RC   STRAIN=C;
+RX   PubMed=10931310; DOI=10.1046/j.1365-2958.2000.01969.x;
+RA   Brinkkoetter A., Kloess H., Alpert C.-A., Lengeler J.W.;
+RT   "Pathways for the utilization of N-acetyl-galactosamine and
+RT   galactosamine in Escherichia coli.";
+RL   Mol. Microbiol. 37:125-135(2000).
+RN   [2]
+RP   FUNCTION, AND COMPLEX WITH KBAZ.
+RC   STRAIN=C;
+RX   PubMed=11976750; DOI=10.1007/s00203-002-0406-6;
+RA   Brinkkoetter A., Shakeri-Garakani A., Lengeler J.W.;
+RT   "Two class II D-tagatose-bisphosphate aldolases from enteric
+RT   bacteria.";
+RL   Arch. Microbiol. 177:410-419(2002).
+CC   -!- FUNCTION: Catalytic subunit of the tagatose-1,6-bisphosphate
+CC       aldolase KbaYZ, which catalyzes the reversible aldol condensation
+CC       of dihydroxyacetone phosphate (DHAP or glycerone-phosphate) with
+CC       glyceraldehyde 3-phosphate (G3P) to produce tagatose 1,6-
+CC       bisphosphate (TBP). Requires KbaZ subunit for full activity and
+CC       stability. Is involved in the catabolism of N-acetylgalactosamine
+CC       and D-galactosamine. {ECO:0000269|PubMed:10931310,
+CC       ECO:0000269|PubMed:11976750}.
+CC   -!- CATALYTIC ACTIVITY: D-tagatose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate metabolism; D-tagatose 6-phosphate
+CC       degradation; D-glyceraldehyde 3-phosphate and glycerone phosphate
+CC       from D-tagatose 6-phosphate: step 2/2.
+CC   -!- SUBUNIT: Homotetramer (By similarity). Forms a complex with KbaZ.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. TagBP aldolase KbaY subfamily. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF228498; AAF81089.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q9KIP8; -.
+DR   SMR; Q9KIP8; 2-284.
+DR   PaxDb; Q9KIP8; -.
+DR   eggNOG; COG0191; -.
+DR   UniPathway; UPA00704; UER00716.
+DR   GO; GO:0009025; F:tagatose-bisphosphate aldolase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:2001059; P:D-tagatose 6-phosphate catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01293; TagBP_aldolase_KbaY; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   InterPro; IPR023788; TagBP_ald_KbaY.
+DR   InterPro; IPR011288; TagBP_ald_KbaY/GatY.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01858; tag_bisphos_ald; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   1: Evidence at protein level;
+KW   Lyase; Metal-binding; Zinc.
+FT   CHAIN         1    286       D-tagatose-1,6-bisphosphate aldolase
+FT                                subunit KbaY.
+FT                                /FTId=PRO_0000355320.
+FT   REGION      209    211       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   REGION      230    233       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   ACT_SITE     82     82       Proton donor. {ECO:0000250}.
+FT   METAL        83     83       Zinc; catalytic. {ECO:0000250}.
+FT   METAL       180    180       Zinc; catalytic. {ECO:0000250}.
+FT   METAL       208    208       Zinc; catalytic. {ECO:0000250}.
+FT   BINDING     181    181       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000250}.
+SQ   SEQUENCE   286 AA;  31245 MW;  CAA42DF04A5AF68B CRC64;
+     MSIISTKYLL QDAQANGYAV PAFNIHNAET IQAILEVCSE MRSPVILAGT PGTFKHIALE
+     EIYALCSAYS TTYNMPLALH LDHHESLDDI RRKVHAGVRS AMIDGSHFPF AENVKLVKSV
+     VDFCHSQDCS VEAELGRLGG VEDDMSVDAE SAFLTDPQEA KRFVELTGVD SLAVAIGTAH
+     GLYSKTPKID FQRLAEIREV VDVPLVLHGA SDVPDEFVRR TIELGVTKVN VATELKIAFA
+     GAVKAWFAEN PQGNDPRNYM RVGMDAMKEV VRNKINVCGS ANRISA
+//

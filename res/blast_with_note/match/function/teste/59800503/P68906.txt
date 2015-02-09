@@ -1,0 +1,102 @@
+ID   ALF_STRP8               Reviewed;         293 AA.
+AC   P68906; P82486;
+DT   04-JAN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   07-JAN-2015, entry version 62.
+DE   RecName: Full=Fructose-bisphosphate aldolase;
+DE            Short=FBP aldolase;
+DE            Short=FBPA;
+DE            EC=4.1.2.13;
+DE   AltName: Full=Fructose-1,6-bisphosphate aldolase;
+GN   Name=fba; OrderedLocusNames=spyM18_1954;
+OS   Streptococcus pyogenes serotype M18 (strain MGAS8232).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=186103;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MGAS8232;
+RX   PubMed=11917108; DOI=10.1073/pnas.062526099;
+RA   Smoot J.C., Barbian K.D., Van Gompel J.J., Smoot L.M., Chaussee M.S.,
+RA   Sylva G.L., Sturdevant D.E., Ricklefs S.M., Porcella S.F.,
+RA   Parkins L.D., Beres S.B., Campbell D.S., Smith T.M., Zhang Q.,
+RA   Kapur V., Daly J.A., Veasy L.G., Musser J.M.;
+RT   "Genome sequence and comparative microarray analysis of serotype M18
+RT   group A Streptococcus strains associated with acute rheumatic fever
+RT   outbreaks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:4668-4673(2002).
+CC   -!- FUNCTION: Catalyzes the aldol condensation of dihydroxyacetone
+CC       phosphate (DHAP or glycerone-phosphate) with glyceraldehyde 3-
+CC       phosphate (G3P) to form fructose 1,6-bisphosphate (FBP) in
+CC       gluconeogenesis and the reverse reaction in glycolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: D-fructose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the
+CC       other provides a structural contribution. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 4/4.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE009949; AAL98448.1; -; Genomic_DNA.
+DR   RefSeq; NP_607949.1; NC_003485.1.
+DR   ProteinModelPortal; P68906; -.
+DR   STRING; 186103.spyM18_1954; -.
+DR   EnsemblBacteria; AAL98448; AAL98448; spyM18_1954.
+DR   GeneID; 994389; -.
+DR   KEGG; spm:spyM18_1954; -.
+DR   PATRIC; 19750356; VBIStrPyo4396_1751.
+DR   eggNOG; COG0191; -.
+DR   HOGENOM; HOG000227793; -.
+DR   KO; K01624; -.
+DR   OMA; GENFLRH; -.
+DR   OrthoDB; EOG6HXJ7B; -.
+DR   BioCyc; SPYO186103:GHJG-1679-MONOMER; -.
+DR   UniPathway; UPA00109; UER00183.
+DR   Proteomes; UP000000820; Chromosome.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0030388; P:fructose 1,6-bisphosphate metabolic process; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR011289; Fruc_bis_ald_class-2.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01859; fruc_bis_ald_; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycolysis; Lyase; Metal-binding; Zinc.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    293       Fructose-bisphosphate aldolase.
+FT                                /FTId=PRO_0000178750.
+FT   REGION      209    211       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   REGION      230    233       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   ACT_SITE     85     85       Proton donor. {ECO:0000250}.
+FT   METAL        86     86       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       106    106       Zinc 2. {ECO:0000250}.
+FT   METAL       136    136       Zinc 2. {ECO:0000250}.
+FT   METAL       178    178       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       208    208       Zinc 1; catalytic. {ECO:0000250}.
+FT   BINDING      50     50       Glyceraldehyde 3-phosphate.
+FT                                {ECO:0000250}.
+FT   BINDING     179    179       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000250}.
+SQ   SEQUENCE   293 AA;  31208 MW;  8ECD3C3E41A79FD2 CRC64;
+     MAIVSAEKFV QAARENGYAV GGFNTNNLEW TQAILRAAEA KQAPVLIQTS MGAAKYMGGY
+     KVCQSLITNL VESMGITVPV AIHLDHGHYE DALECIEVGY TSIMFDGSHL PVEENLAKTA
+     EVVKIAHAKG VSVEAEVGTI GGEEDGIIGK GELAPIEDAK AMVETGIDFL AAGIGNIHGP
+     YPENWEGLAL DHLEKLTAAV PGFPIVLHGG SGIPDDQIKE AIRLGVAKVN VNTESQIAFS
+     NATREFARNY EANEAEYDGK KLFDPRKFLA PGMKAVQGAV EERIDVFGSA NKA
+//

@@ -1,0 +1,98 @@
+ID   PPK_STAHJ               Reviewed;         721 AA.
+AC   Q4L8X9;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   07-JAN-2015, entry version 61.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347}; OrderedLocusNames=SH0587;
+OS   Staphylococcus haemolyticus (strain JCSC1435).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=279808;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JCSC1435;
+RX   PubMed=16237012; DOI=10.1128/JB.187.21.7292-7308.2005;
+RA   Takeuchi F., Watanabe S., Baba T., Yuzawa H., Ito T., Morimoto Y.,
+RA   Kuroda M., Cui L., Takahashi M., Ankai A., Baba S., Fukui S.,
+RA   Lee J.C., Hiramatsu K.;
+RT   "Whole-genome sequencing of Staphylococcus haemolyticus uncovers the
+RT   extreme plasticity of its genome and the evolution of human-colonizing
+RT   staphylococcal species.";
+RL   J. Bacteriol. 187:7292-7308(2005).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal
+CC       phosphate of ATP to form a long-chain polyphosphate (polyP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (phosphate)(n) = ADP + (phosphate)(n+1).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated
+CC       ppk in which a phosphate is covalently linked to histidine
+CC       residues through a N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Contains 1 PLD phosphodiesterase domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP006716; BAE03896.1; -; Genomic_DNA.
+DR   RefSeq; WP_011274912.1; NC_007168.1.
+DR   RefSeq; YP_252502.1; NC_007168.1.
+DR   ProteinModelPortal; Q4L8X9; -.
+DR   STRING; 279808.SH0587; -.
+DR   EnsemblBacteria; BAE03896; BAE03896; SH0587.
+DR   GeneID; 3481974; -.
+DR   KEGG; sha:SH0587; -.
+DR   PATRIC; 19617197; VBIStaHae67511_0575.
+DR   eggNOG; COG0855; -.
+DR   HOGENOM; HOG000248948; -.
+DR   KO; K00937; -.
+DR   OMA; VTVQIEL; -.
+DR   OrthoDB; EOG65TRRG; -.
+DR   BioCyc; SHAE279808:GJX7-589-MONOMER; -.
+DR   Proteomes; UP000000543; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1840.10; -; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR025200; PPK_C_dom.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF140356; SSF140356; 1.
+DR   TIGRFAMs; TIGR03705; poly_P_kin; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Transferase.
+FT   CHAIN         1    721       Polyphosphate kinase.
+FT                                /FTId=PRO_0000128659.
+FT   DOMAIN      434    468       PLD phosphodiesterase.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+FT   ACT_SITE    439    439       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+FT   ACT_SITE    458    458       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+SQ   SEQUENCE   721 AA;  83509 MW;  29790C9C1D4F92C4 CRC64;
+     MQTQLGENDI SLPQYYNNRE LSWLDFNYRV LQEAYDKNNP LLEKLNFISI FSSNLDEFFM
+     VRVAGLKDQV KMGYDKPENK AQMTPQEQVD AIQEKAKKYV DTQYERYNEL MIELKDYEIV
+     MCEPHELSEP LLSKLERDFK LTILPTLTPL GIDAYHPFPK LNNKSLNIFV DIDTEDAINS
+     AIVQIPSLIP RFLTYNEGAK QYVVMVEDVI TYFINYLFTG YEVLNTFTFR ITRNADLTIH
+     EDGAEDLLIE IERFLKERKS GSAVRLEVDG RTENPDDLDW LIETLEVDKQ DVYFLNGPLD
+     LTFIFGLVDH LSHKLNYLTY EKYSPQIPRS LGNNNLYELA LKRDIFFHHP YESFEPIVDF
+     IREAADDPNT IAIKQTLYRV SKDSPIIKSL KEAAEKGKQV TVLVELKARF DEENNVHWAR
+     MLEDAGCHVI YGMTHLKTHS KIALVVKRIG GELTSFVHLG TGNYNDKTAK LYTDMGIITT
+     NEQIAEDAIN FFNYLSGYSV KPEYNKLIVA PFDIRDVFID RIDKEISSHL QHGNGKIMMK
+     MNSLTDKAII EKLFEASQAG VKIQLIIRGI CCLKPGIPGI SENIEVVSIV GRLLEHSRIY
+     YFHNNGDERI YLSSADVMTR NMIKRVEILF PVEDKEIGKR LVDFMDLQLS DNQKGRYQDE
+     HGHYHYVENN LSPLNSQVYL MQEAIKYGQE LKKRSAQPSG MPVVSKRRAN WMNRIRRSLK
+     K
+//

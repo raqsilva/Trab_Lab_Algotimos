@@ -1,0 +1,87 @@
+ID   TRMD_PHOLL              Reviewed;         250 AA.
+AC   Q7MB64;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=plu1259;
+OS   Photorhabdus luminescens subsp. laumondii (strain TT01).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Photorhabdus.
+OX   NCBI_TaxID=243265;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TT01;
+RX   PubMed=14528314; DOI=10.1038/nbt886;
+RA   Duchaud E., Rusniok C., Frangeul L., Buchrieser C., Givaudan A.,
+RA   Taourit S., Bocs S., Boursaux-Eude C., Chandler M., Charles J.-F.,
+RA   Dassa E., Derose R., Derzelle S., Freyssinet G., Gaudriault S.,
+RA   Medigue C., Lanois A., Powell K., Siguier P., Vincent R., Wingate V.,
+RA   Zouine M., Glaser P., Boemare N., Danchin A., Kunst F.;
+RT   "The genome sequence of the entomopathogenic bacterium Photorhabdus
+RT   luminescens.";
+RL   Nat. Biotechnol. 21:1307-1313(2003).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BX571863; CAE13553.1; -; Genomic_DNA.
+DR   RefSeq; NP_928570.1; NC_005126.1.
+DR   ProteinModelPortal; Q7MB64; -.
+DR   SMR; Q7MB64; 1-244.
+DR   STRING; 243265.plu1259; -.
+DR   EnsemblBacteria; CAE13553; CAE13553; plu1259.
+DR   GeneID; 2801227; -.
+DR   KEGG; plu:plu1259; -.
+DR   PATRIC; 20506239; VBIPhoLum48522_1389.
+DR   GenoList; plu1259; -.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   Proteomes; UP000002514; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    250       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_0000060430.
+FT   REGION      133    138       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     113    113       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   250 AA;  28113 MW;  477809FD9BF09958 CRC64;
+     MWIGVISLFP EMFRAITDYG VTGRAVKNGL LSIECWNPRD FTYDRHRTVD DRPYGGGPGM
+     LMMVQPLREA IHAAKTAAGE GAKVIYLSPQ GRKLNQQGVC ELATNEKLIL ICGRYEGIDE
+     RVIQTEIDEE WSIGDYVLSG GEIPAMTMID SVSRFIPGVL GHQASAEEDS FADGLLDCPH
+     YTRPEVLDGM EVPPVLLSGN HAEINRWRMK QSLGRTWLRR PELLENLALT DEQRILLTEF
+     QREHLTEATN
+//

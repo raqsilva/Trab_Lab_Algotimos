@@ -1,0 +1,86 @@
+ID   TRMD_ACTSZ              Reviewed;         245 AA.
+AC   A6VLP6;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   04-FEB-2015, entry version 53.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=Asuc_0518;
+OS   Actinobacillus succinogenes (strain ATCC 55618 / 130Z).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=339671;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55618 / 130Z;
+RX   PubMed=21118570; DOI=10.1186/1471-2164-11-680;
+RA   McKinlay J.B., Laivenieks M., Schindler B.D., McKinlay A.A.,
+RA   Siddaramappa S., Challacombe J.F., Lowry S.R., Clum A., Lapidus A.L.,
+RA   Burkhart K.B., Harkins V., Vieille C.;
+RT   "A genomic perspective on the potential of Actinobacillus succinogenes
+RT   for industrial succinate production.";
+RL   BMC Genomics 11:680-680(2010).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000746; ABR73893.1; -; Genomic_DNA.
+DR   RefSeq; WP_012072273.1; NC_009655.1.
+DR   RefSeq; YP_001343828.1; NC_009655.1.
+DR   ProteinModelPortal; A6VLP6; -.
+DR   SMR; A6VLP6; 1-243.
+DR   STRING; 339671.Asuc_0518; -.
+DR   EnsemblBacteria; ABR73893; ABR73893; Asuc_0518.
+DR   GeneID; 5349056; -.
+DR   KEGG; asu:Asuc_0518; -.
+DR   PATRIC; 20759260; VBIActSuc117883_0550.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   BioCyc; ASUC339671:GHDX-540-MONOMER; -.
+DR   Proteomes; UP000001114; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    245       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_1000072635.
+FT   REGION      133    138       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     113    113       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   245 AA;  27461 MW;  3509DDFBE26C8F52 CRC64;
+     MFIGIVTLFP EMFKAITEFG VTGRAVKQNL LQVRCYNPRD FTHDKHKTVD DRPYGGGPGM
+     LMMVQPLRDA IHSAKAEAGE GVKVIYLSPQ GRKLEQSGVT ELAQNKKLIL VCGRYEGIDE
+     RLIQTEVDEE WSIGDYVLTG GELPAMTLID AVARFIPGVL GKQASADEDS FAAGLLDCPH
+     YTRPEELDGL TVPPVLMSGN HEQIRKWRLT QSLERTWLRR PELLEKLALT DEQKKILNQI
+     KSETV
+//

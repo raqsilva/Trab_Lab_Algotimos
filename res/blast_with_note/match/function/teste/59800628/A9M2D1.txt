@@ -1,0 +1,85 @@
+ID   TRMD_NEIM0              Reviewed;         249 AA.
+AC   A9M2D1;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   07-JAN-2015, entry version 50.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=NMCC_0536;
+OS   Neisseria meningitidis serogroup C (strain 053442).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=374833;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=053442;
+RX   PubMed=18031983; DOI=10.1016/j.ygeno.2007.10.004;
+RA   Peng J., Yang L., Yang F., Yang J., Yan Y., Nie H., Zhang X.,
+RA   Xiong Z., Jiang Y., Cheng F., Xu X., Chen S., Sun L., Li W., Shen Y.,
+RA   Shao Z., Liang X., Xu J., Jin Q.;
+RT   "Characterization of ST-4821 complex, a unique Neisseria meningitidis
+RT   clone.";
+RL   Genomics 91:78-87(2008).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000381; ABX72735.1; -; Genomic_DNA.
+DR   RefSeq; YP_001598689.1; NC_010120.1.
+DR   ProteinModelPortal; A9M2D1; -.
+DR   SMR; A9M2D1; 1-246.
+DR   STRING; 374833.NMCC_0536; -.
+DR   EnsemblBacteria; ABX72735; ABX72735; NMCC_0536.
+DR   GeneID; 5796166; -.
+DR   KEGG; nmn:NMCC_0536; -.
+DR   PATRIC; 20345461; VBINeiMen117761_0656.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   BioCyc; NMEN374833:GJ7Z-534-MONOMER; -.
+DR   Proteomes; UP000001177; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    249       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_1000082526.
+FT   REGION      133    138       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     113    113       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   249 AA;  27873 MW;  C4552F5568DBB924 CRC64;
+     MLIQAVTIFP EMFDSITRYG VTGRANRQGI WQFEAVNPRK FADNRLGYID DRPFGGGPGM
+     IMMAPPLHAA IEHAKAQSSQ TAKVIYLSPQ GKPLTHQKAA ELAELPHLIL LCGRYEGIDE
+     RLLQTSVDEE ISIGDFVVSG GELPAMMLMD AVLRLVPGVL GDMQSAEQDS FSSGILDCPH
+     YTKPLEFQGM AVPEVLRSGN HGLIAEWRLE QSLRRTLERR PDLLEKRVLI PKESRLLETI
+     RQEQREIQS
+//

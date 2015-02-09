@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800568|ref|YP_207280.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>D-alanyl-D-alanine carboxypeptidase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>469</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800568|ref|YP_207280.1|</Iteration_query-ID>
+  <Iteration_query-def>D-alanyl-D-alanine carboxypeptidase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>469</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|730277|sp|P39844.1|DACC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=D-alanyl-D-alanine carboxypeptidase DacC; Short=DD-carboxypeptidase; Short=DD-peptidase; AltName: Full=Penicillin-binding protein 4a; Short=PBP-4a; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39844</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.70185e-30</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>VYVQELDSGKVIIDHRAGIPVNPASTMKLVTAFAAFKTFGSNYRWATEFKSNGTVNDGTLDGNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVG-SPDHFEADSGSPFMTP-------PNPTMLSAGMVMVRAERNAAGSTD--ILTDPPLPHIFAQNNLKITASQAACPSVKKL-MRASFSGNTLKLRGNIPESC--------LGKPVGVRMFALDELIRQSFTNRWLLGGGRISDGIGIADTPEGAQTLAVAHSKPMKEILTDMNKRSDNLIARSVFLKLGGDGKLPAVSEQAASAVRRELAVSGIDVADLVLENGSGLSRKERVTARMMAQMLETAYFSPFAQDFIDTLPIAG-----TDGTLRNRFK--QSGGLLRLKTGTLNNVRALAGY</Hsp_qseq>
+      <Hsp_hseq>ITVRSAETGAVLYEHSGDTRMRPASSLKLLTAAAALSVLGENYSFTTEVRTDGTLKGKKLNGNLYLKGKGDPTLLPSDFDKMAEILKHSGVKVIKGNLIGDDTWHDDMRLSPDMPWSDEYTYYGAPISALTASPNED-YDAGTVIVEVTPNQKEGEEPAVSVSPKTDYITIKNDAKTT----AAGSEKDLTIEREHGTNTITIEGSVPVDANKTKEWISVWEPAG---YALD-LFKQSLKKQGITVKGDIKTG----EAPSSSDVLLSHRSMPLSKLFVPFMKLSNNGHAEVLVKEMGKVKKGEGSWEKGLEVLNSTLPEFGVDSKSLVLRDGSGISHIDAVSSDQLSQLLYDIQDQSWFSAYLNSLPVAGNPDRMVGGTLRNRMKGTPAQGKVRAKTGSLSTVSSLSGY</Hsp_hseq>
+      <Hsp_midline>+ V+  ++G V+ +H     + PAS++KL+TA AA    G NY + TE +++GT+    L+GNLY  G GDP     +   +   L+  G++ I G L+ D +   ++  SPD   +D  + +  P       PN     AG V+V    N     +  +   P   +I  +N+ K T    A  S K L +      NT+ + G++P           + +P G   +ALD L +QS   + +   G I  G    + P  +  L    S P+ ++     K S+N  A  +  ++G   K     E+    +   L   G+D   LVL +GSG+S  + V++  ++Q+L       +   ++++LP+AG       GTLRNR K   + G +R KTG+L+ V +L+GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1172031|sp|P45161.1|DACB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=D-alanyl-D-alanine carboxypeptidase DacB; Short=DD-carboxypeptidase; Short=DD-peptidase; AltName: Full=D-alanyl-D-alanine endopeptidase; Short=DD-endopeptidase; AltName: Full=Penicillin-binding protein 4; Short=PBP-4; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45161</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>2.13091e-29</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>TGRIPQ-NEIAVYVQELDSGKVIIDHRAGIPVNPASTMKLVTAFAAFKTFGSNYRWATEFKSNGTVNDGTLDGNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDH----FEADSGSPFMTPPNPTMLSAGMVMVR--AERNAAGSTDILTDPPLP-HIFAQNNLKITASQAACPSVKKLMRASFSGNTLKLRGNIPESCLG---KPVGVRMFALD-------ELIRQSFTNRWLLGGGRISDGIGIADTPEGAQTLAVAHSKPMKEILTDMNKRSDNLIARSVFLKLGGDG-KLPAVSEQAASAVRRELAVSGIDVADLVLENGSGLSRKERVTARMMAQMLETAYFSPFAQDFIDTLPIAGTDGTLRNRFKQSGGLLR--------LKTGTLNNVRALAGYWL---GDKPMAVVVIIN</Hsp_qseq>
+      <Hsp_hseq>TQKLPEGSNVGFIAKNINQNQIIADYNGSTFMLSASTQKVFTAVAAKLALDDQFQFETALLSNGKIQNGNLDGNLIVRFTGDPDLTRGQLYSLLAELKKQGIKKINGDLVLDTSVFS---SHDRGLGWIWNDLTMCFNSPPAAANIDNNCFYAELDANKNPGEIVKINVPAQFPIQVFGQVYVADSNEAPYC----QLDVVVHDNNRYQVKG-----CLARQYKPFGLS-FAVQNTDAYAAEIIQRQLRQLGIEFNGKVL----LPQKPQQGQLLAKHLSKPLPDLLKKMMKKSDNQIADSLFRAVAFNYYKRPASFQLGTLAVKSILQKQGIRFGNSILADGSGLSRHNLVAPKTMLSVLEYIAKNEDKLHLMETFPIAGVDGTISGR----GGLISPPLVKNVIAKTGSLKGVYNLAGFMTNARGEK-VAFVQFIN</Hsp_hseq>
+      <Hsp_midline>T ++P+ + +    + ++  ++I D+     +  AST K+ TA AA       +++ T   SNG + +G LDGNL    +GDP   +  L ++  +L+ +GI+ I G L+LD S++    S D        D    F +PP    +          A +N      I      P  +F Q  +  +     C    +L       N  +++G     CL    KP G+  FA+        E+I++      +   G++     +   P+  Q LA   SKP+ ++L  M K+SDN IA S+F  +  +  K PA  +    AV+  L   GI   + +L +GSGLSR   V  + M  +LE    +      ++T PIAG DGT+  R    GGL+          KTG+L  V  LAG+     G+K +A V  IN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1172030|sp|P24228.2|DACB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=D-alanyl-D-alanine carboxypeptidase DacB; Short=DD-carboxypeptidase; Short=DD-peptidase; AltName: Full=D-alanyl-D-alanine endopeptidase; Short=DD-endopeptidase; AltName: Full=Penicillin-binding protein 4; Short=PBP-4; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P24228</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.22684e-26</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>IAVYVQELDSGKVIIDHRAGIPVNPASTMKLVTAFAAFKTFGSNYRWATEFKSNGTVNDGTLDGNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVG-SPDHFEADSGSPFMTPPNPTMLSAGMVMVRAERNAAGSTDILTDPPLPHIFAQNNLKITASQAACPSVKKLMRASFSG------------NTLKLRGNIPESCLGKPVGVRMFALDE-------LIRQSFTNRWLLGGGRISDGIGIADTPEGAQTLAVAHSKPMKEILTDMNKRSDNLIARSVFLKLG-GDGKLPAVSEQAASAVRREL-AVSGIDVADLVLENGSGLSRKERVTARMMAQMLETAYFSPFAQDFIDTLPIAGTDGTLRNR--FKQSG--GLLRLKTGTLNNVRALAGY</Hsp_qseq>
+      <Hsp_hseq>LALMVQKVGASAPAIDYHSQQMALPASTQKVITALAALIQLGPDFRFTTTLETKGNVENGVLKGDLVARFGADPTLKRQDIRNMVATLKKSGVNQIDGNVLIDTSIFASHDKAPGWPWNDMTQCFSAPP-----AAAIV----DRNCFSVS--LYSAPKPGDMAFIRVASYYPVTMFSQVRTLPRGSAEAQYCELDVVPGDLNRFTLTGCLPQRSEPLPLA---FAVQDGASYAGAILKDELKQAGITWSGTL---LRQTQVNEPGTVVASKQSAPLHDLLKIMLKKSDNMIADTVFRMIGHARFNVPGTWRAGSDAVRQILRQQAGVDIGNTIIADGSGLSRHNLIAPATMMQVLQYIAQHDNELNFISMLPLAGYDGSLQYRAGLHQAGVDGKVSAKTGSLQGVYNLAGF</Hsp_hseq>
+      <Hsp_midline>+A+ VQ++ +    ID+ +     PAST K++TA AA    G ++R+ T  ++ G V +G L G+L      DP   ++++  +   L+  G+  I G +++D S++     +P     D    F  PP     +A +V    +RN    +  L   P P   A   +           V+ L R S               N   L G +P+     P+    FA+ +       +++       +   G +   +      E    +A   S P+ ++L  M K+SDN+IA +VF  +G     +P      + AVR+ L   +G+D+ + ++ +GSGLSR   +    M Q+L+         +FI  LP+AG DG+L+ R    Q+G  G +  KTG+L  V  LAG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|729292|sp|P39045.1|DAC_ACTSP</Hit_id>
+  <Hit_def>RecName: Full=D-alanyl-D-alanine carboxypeptidase; Short=DD-carboxypeptidase; Short=DD-peptidase; AltName: Full=Penicillin-binding protein; Short=PBP; Flags: Precursor [Actinomadura sp. R39]</Hit_def>
+  <Hit_accession>P39045</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>3.0457e-26</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>VYVQELDSGKVIIDHRAGIPVNPASTMKLVTAFAAFKTFGSNYRWATEFKSN------GTVNDGTLDGNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHFEA----DSGSPFMTPPNPTMLSAGMVMVRAERNAAGSTDILTDPPLPHIFAQNNLKITASQA---------ACPSVKKLMRASFSG-NTLKLRGNIPESCLGKPVGVRMFALDE---LIRQSFTNRWLLGGGRISDGIGIADTP---EGAQTLAVAHSKPMKEILTDMNKRSDNLIARSVFLKLGGDGKLPAVSEQAASAVRRELAVSGIDVADLVLENGSGLSRKERVTARMMAQMLETAYFSPFAQDFIDTLPIAGTD-----GTLRNRFKQSG--GLLRLKTGTLNNVRALAGYWLGDKPMAVVVIINSGRA</Hsp_qseq>
+      <Hsp_hseq>VVVVDTATGEELYSRDGGEQLLPASNMKLFTAAAALEVLGADHSFGTEVAAESAPGRRGEVQD------LYLVGRGDPTLSAEDLDAMAAEVAASGVRTVRGDLYADDT-W--------FDSERLVDDWWPEDEPYAYSAQISALTVAHGERFDTGVTEVSVTPAAEGEPADVDLGAAEGYAELDNRAVTGAAGSANTLVIDRPVGTNTIAVTGSLPADA--APV-TALRTVDEPAALAGHLFEEALESNGVTVKGDVGLGGVPADWQDAEVLADHTSAELSEILVPFMKFSNNGHAEMLVKSIGQETAGAGTWDAGLVGVEEALSGLGVDTAGLVLNDGSGLSRGNLVTADTVVDLLGQAGSAPWAQTWSASLPVAGESDPFVGGTLANRMRGTAAEGVVEAKTGTMSGVSALSGYVPGPEGELAFSIVNNGHS</Hsp_hseq>
+      <Hsp_midline>V V +  +G+ +     G  + PAS MKL TA AA +  G+++ + TE  +       G V D      LY  G GDP  + E+L A+  ++   G+R + G L  D + W        F++    D   P   P   +   + + +   ER   G T++   P      A  +L      A         A  S   L+     G NT+ + G++P      PV   +  +DE   L    F       G  +   +G+   P   + A+ LA   S  + EIL    K S+N  A  +   +G +       +     V   L+  G+D A LVL +GSGLSR   VTA  +  +L  A  +P+AQ +  +LP+AG       GTL NR + +   G++  KTGT++ V AL+GY  G +      I+N+G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|74861017|sp|Q86I79.1|PSCA_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Penicillin-sensitive carboxypeptidase A [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q86I79</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.78811e-07</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>PASTMKLVTAFAAFKTFGSNYRWATEFKSN-------GTVNDGTLDGNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLW-------GEVGSPDHFEADSGSPFMTPPNPTMLSAG-MVMVRAERNAAGSTDILT------DPPLPHIFAQNNLKITASQAACPSVKKLMRASF--SGNTLKLRGNIPESCLGKPVGVRMFALDELIRQSFTNRWLLGGGRISD-GIGIAD-TPEGAQTLAVAHSKPMKEILTDMNKRSDNLIARSVFLKLGGDGKLPAVSEQAASA----VRRELAVSGIDVADLVLENGSGLSRKERVTARMMAQMLETAYFS---PFAQDFIDTLPIAGTDGTLRNRFKQS--GGLLRLKTGTLNNVRALAGYWL</Hsp_qseq>
+      <Hsp_hseq>PASNTKLFTTISIFYTFGEDFKVFTPFFTDKPFNSVSGGSSNSELDF-ICVKGMGDPSMSIDNLIEAAKFFSSNPTMKKVNKLLLDTSFYNIGNGVDGNIPSAWEWE-DLTSTYGSIPTPLIINENTMDIYITPSNVIGGKPTASFKYSGEDKYLPVII------LATTTTTSNSSTSTLNYSFKMSSQSIYITGNCDINGGIQIITVPILDPEQYFLTVFSALLEDGGVEISQTAIGSCNYTGMDYKSFEVI-SPELSEMLNYTLLTSNNLYAETFLRQMGTFNSAASESTPTYQAGLEYIQQTLS---IPTSLYTQVDGSGLSRNNFITPKSLITVIENVYTNVGDP-QHDYISYLPVASLSGTLSKRFINTPASGIVHAKTGSMTGVNSLTGVIL</Hsp_hseq>
+      <Hsp_midline>PAS  KL T  + F TFG +++  T F ++       G  ++  LD  +   G GDP  + +NL+   +            +L+LD S +       G + S   +E D  S + + P P +++   M +     N  G     +      D  LP I       +  +     S    +  SF  S  ++ + GN   +   + + V +   ++     F+     GG  IS   IG  + T    ++  V  S  + E+L      S+NL A +   ++G      + S     A    +++ L+   I  +     +GSGLSR   +T + +  ++E  Y +   P   D+I  LP+A   GTL  RF  +   G++  KTG++  V +L G  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|238693239|sp|B4RSL8.1|SYT_ALTMD</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Alteromonas macleodii str. &apos;Deep ecotype&apos;]</Hit_def>
+  <Hit_accession>B4RSL8</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.60781</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GMVFWHNDGWSIYTELESF-VRKKLREYGYDEVKGPLMMDRSLWEKSGHWDKY</Hsp_hseq>
+      <Hsp_midline>G ++W   G  ++ +     V+++LR+ G   + G LM+D SLW + G  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|83288470|sp|P0AEB4.1|DACA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=D-alanyl-D-alanine carboxypeptidase DacA; Short=DD-carboxypeptidase; Short=DD-peptidase; AltName: Full=Penicillin-binding protein 5; Short=PBP-5; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|83288471|sp|P0AEB3.1|DACA_ECOL6 RecName: Full=D-alanyl-D-alanine carboxypeptidase DacA; Short=DD-carboxypeptidase; Short=DD-peptidase; AltName: Full=Penicillin-binding protein 5; Short=PBP-5; Flags: Precursor [Escherichia coli CFT073] &gt;gi|83288472|sp|P0AEB2.1|DACA_ECOLI RecName: Full=D-alanyl-D-alanine carboxypeptidase DacA; Short=DD-carboxypeptidase; Short=DD-peptidase; AltName: Full=Beta-lactamase; AltName: Full=Penicillin-binding protein 5; Short=PBP-5; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEB4</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.22528</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>AAHALDTG------RIPQNEIAVYVQ-ELDSGKVIIDHRAGIPVNPASTMKLVTAFAAFKTFGSNYRWATEFKSNGTVNDGTLDGNLYWAGSGDPVFNQENLLAVQ</Hsp_qseq>
+      <Hsp_hseq>AAHADDLNIKTMIPGVPQIDAESYILIDYNSGKVLAEQNADVRRDPASLTKMMTSYVIGQAMK-----AGKFKETDLVT----IGNDAWA-TGNPVFKGSSLMFLK</Hsp_hseq>
+      <Hsp_midline>AAHA D         +PQ +   Y+  + +SGKV+ +  A +  +PAS  K++T++   +        A +FK    V      GN  WA +G+PVF   +L+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|172047342|sp|A5EZ18.1|SYT_VIBC3</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Vibrio cholerae O395]</Hit_def>
+  <Hit_accession>A5EZ18</Hit_accession>
+  <Hit_len>642</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.77457</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GMVFWHHNGWSVFRELEIF-IRHKLNEYGYQEVKGPLMMDRVLWERSGHWDKY</Hsp_hseq>
+      <Hsp_midline>G ++W  +G  VF +  +  ++ +L + G + + G LM+D  LW   G  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|259516538|sp|C4K776.1|SYT_HAMD5</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Candidatus Hamiltonella defensa 5AT (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>C4K776</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.18048</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHFEADSGSPFMT</Hsp_qseq>
+      <Hsp_hseq>GMVFWHENGWIVFRELEIL-IREKLKEYEYQEVKGPFMMDRVLWEKTG---HWENYSENMFTT</Hsp_hseq>
+      <Hsp_midline>G ++W  +G  VF +  +L ++ +L++   + + G  M+D  LW + G   H+E  S + F T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|166223338|sp|A5EVK6.1|SYT_DICNV</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Dichelobacter nodosus VCS1703A]</Hit_def>
+  <Hit_accession>A5EVK6</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>4.81238</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQ-ENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GMVFWHAKGWTIYREIENYM--RTKLRKYGYQEVQGPQILDRSLWEKSGHWDKF</Hsp_hseq>
+      <Hsp_midline>G ++W   G  ++ + EN +  + +LR  G + + G  +LD SLW + G  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|238687213|sp|A9C3D4.1|SYT_DELAS</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Delftia acidovorans SPH-1]</Hit_def>
+  <Hit_accession>A9C3D4</Hit_accession>
+  <Hit_len>643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>6.07807</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GTVFWHPKGWSLW-QEVEQYMRRVYRDNGYQEVKGPQILDKTLWEKTGHWDKY</Hsp_hseq>
+      <Hsp_midline>G ++W   G  ++ QE    ++R  RD G + + G  +LD +LW + G  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|22654144|sp|Q9KMN7.1|SYT_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gi|254783545|sp|C3LUV8.1|SYT_VIBCM RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Vibrio cholerae M66-2]</Hit_def>
+  <Hit_accession>Q9KMN7</Hit_accession>
+  <Hit_len>642</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>6.79601</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GMVFWHHNGWSIFRDLEIF-IRQKLNEYGYQEVKGPLMMDRVLWERSGHWDKY</Hsp_hseq>
+      <Hsp_midline>G ++W  +G  +F    +  ++++L + G + + G LM+D  LW   G  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|254783520|sp|B9MHX8.1|SYT_ACIET</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Acidovorax ebreus TPSY]</Hit_def>
+  <Hit_accession>B9MHX8</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>6.84842</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GTVFWHPKGWTLW-QEVEQYMRRVYRDNGYQEVKGPQILDKTLWEKTGHWDKY</Hsp_hseq>
+      <Hsp_midline>G ++W   G  ++ QE    ++R  RD G + + G  +LD +LW + G  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|166223314|sp|A1W8I6.1|SYT_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Acidovorax sp. JS42]</Hit_def>
+  <Hit_accession>A1W8I6</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>6.9674</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GTVFWHPKGWTLW-QEVEQYMRRVYRDNGYQEVKGPQILDKTLWEKTGHWDKY</Hsp_hseq>
+      <Hsp_midline>G ++W   G  ++ QE    ++R  RD G + + G  +LD +LW + G  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|166225514|sp|A1WMG5.1|SYT_VEREI</Hit_id>
+  <Hit_def>RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA synthetase; Short=ThrRS [Verminephrobacter eiseniae EF01-2]</Hit_def>
+  <Hit_accession>A1WMG5</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>9.6648</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GNLYWAGSGDPVFNQENLLAVQRQLRDKGIRNITGRLMLDHSLWGEVGSPDHF</Hsp_qseq>
+      <Hsp_hseq>GTVFWHPKGWTLW-QEVEQYMRRVYRDNGYQEVKGPQILDQGLWEKTGHWDKY</Hsp_hseq>
+      <Hsp_midline>G ++W   G  ++ QE    ++R  RD G + + G  +LD  LW + G  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

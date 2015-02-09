@@ -1,0 +1,119 @@
+ID   HEMN_AQUAE              Reviewed;         456 AA.
+AC   O67886;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   04-FEB-2015, entry version 101.
+DE   RecName: Full=Oxygen-independent coproporphyrinogen-III oxidase;
+DE            Short=CPO;
+DE            EC=1.3.99.22;
+DE   AltName: Full=Coproporphyrinogen III dehydrogenase;
+DE            Short=CPDH;
+GN   Name=hemN; OrderedLocusNames=aq_2124;
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+CC   -!- FUNCTION: Involved in the heme biosynthesis. Catalyzes the
+CC       anaerobic oxidative decarboxylation of propionate groups of rings
+CC       A and B of coproporphyrinogen-III to yield the vinyl groups in
+CC       protoporphyrinogen-IX (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Coproporphyrinogen-III + 2 S-adenosyl-L-
+CC       methionine = protoporphyrinogen-IX + 2 CO(2) + 2 L-methionine + 2
+CC       5'-deoxyadenosine.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000250};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-
+CC       IX biosynthesis; protoporphyrinogen-IX from coproporphyrinogen-III
+CC       (AdoMet route): step 1/1.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the anaerobic coproporphyrinogen-III
+CC       oxidase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000657; AAC07846.1; -; Genomic_DNA.
+DR   PIR; B70482; B70482.
+DR   RefSeq; NP_214455.1; NC_000918.1.
+DR   ProteinModelPortal; O67886; -.
+DR   STRING; 224324.aq_2124; -.
+DR   EnsemblBacteria; AAC07846; AAC07846; aq_2124.
+DR   GeneID; 1193875; -.
+DR   KEGG; aae:aq_2124; -.
+DR   PATRIC; 20961092; VBIAquAeo85532_1639.
+DR   eggNOG; COG0635; -.
+DR   HOGENOM; HOG000257214; -.
+DR   InParanoid; O67886; -.
+DR   KO; K02495; -.
+DR   OMA; FEGHPNN; -.
+DR   OrthoDB; EOG683S9D; -.
+DR   BioCyc; AAEO224324:GJBH-1518-MONOMER; -.
+DR   UniPathway; UPA00251; UER00323.
+DR   Proteomes; UP000000798; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; ISS:UniProtKB.
+DR   GO; GO:0051989; F:coproporphyrinogen dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0004109; F:coproporphyrinogen oxidase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006779; P:porphyrin-containing compound biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; ISS:UniProtKB.
+DR   Gene3D; 3.80.30.20; -; 1.
+DR   InterPro; IPR004558; Coprogen_oxidase_HemN.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR010723; HemN_C_dom.
+DR   InterPro; IPR007197; rSAM.
+DR   InterPro; IPR023404; rSAM_horseshoe.
+DR   Pfam; PF06969; HemN_C; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000167; HemN; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR00538; hemN; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; Cytoplasm; Iron; Iron-sulfur;
+KW   Metal-binding; Oxidoreductase; Porphyrin biosynthesis;
+KW   Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN         1    456       Oxygen-independent coproporphyrinogen-III
+FT                                oxidase.
+FT                                /FTId=PRO_0000109938.
+FT   REGION      113    114       S-adenosyl-L-methionine 2 binding.
+FT                                {ECO:0000250}.
+FT   METAL        61     61       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        65     65       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        68     68       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   BINDING      55     55       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   BINDING      67     67       S-adenosyl-L-methionine 2; via carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     112    112       S-adenosyl-L-methionine 1; via amide
+FT                                nitrogen and carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   BINDING     145    145       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   BINDING     172    172       S-adenosyl-L-methionine 2. {ECO:0000250}.
+FT   BINDING     184    184       S-adenosyl-L-methionine 2. {ECO:0000250}.
+FT   BINDING     209    209       S-adenosyl-L-methionine 2. {ECO:0000250}.
+SQ   SEQUENCE   456 AA;  53785 MW;  4E494103B8EF6342 CRC64;
+     MKAEFDKELI KKYDRPGPRY TSYPPATEFT EEVKEDEYVK RLIKSNERKT PLSLYFHIPF
+     CEQRCLYCGC NVIISHRKGI EEPYLERVCR EMDLVSQYLD KDRKVIQLHW GGGTPNYLSP
+     EQIKWFMEEI RKRFEFGDNA EISIELDPRY LTDEQIKAIK DAGFNRISLG VQDLDPKVQQ
+     AVNRVQPYEL IKEKMEKLRE AGFESINLDL IYGLPYQTKE SFEKTVEKVI ELNPDRIATY
+     SFAYIPQVKP HQQLLPKEAL PSAEEKLRIF EMVINKFQEA GYVYIGMDHF AKPEDELAVA
+     QRKGELWRNF QGYTTKKGVE LLGFGATSIG MLYDSYFQNW KTLRDYNKTV DEGKIPVFRG
+     YVLNEDDFIR REVIMDIMCN LGVEFSKIEN MFGINFREYF AKELEELKEM EEDGLIKVEE
+     DRIKIMPVGR LLIRNVAMVF DAHLRRKKEL NFSRTI
+//

@@ -1,0 +1,112 @@
+ID   PSEB_CAMJE              Reviewed;         334 AA.
+AC   Q0P8W4;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 1.
+DT   07-JAN-2015, entry version 52.
+DE   RecName: Full=UDP-N-acetylglucosamine 4,6-dehydratase (inverting);
+DE            EC=4.2.1.115;
+DE   AltName: Full=Pseudaminic acid biosynthesis protein B;
+DE   AltName: Full=UDP-GlcNAc-inverting 4,6-dehydratase;
+GN   Name=pseB; OrderedLocusNames=Cj1293;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain NCTC 11168).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W.,
+RA   Quail M.A., Rajandream M.A., Rutherford K.M., van Vliet A.H.M.,
+RA   Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=NCTC 11168;
+RX   PubMed=16286454; DOI=10.1074/jbc.M511021200;
+RA   Schoenhofen I.C., McNally D.J., Vinogradov E., Whitfield D.,
+RA   Young N.M., Dick S., Wakarchuk W.W., Brisson J.R., Logan S.M.;
+RT   "Functional characterization of dehydratase/aminotransferase pairs
+RT   from Helicobacter and Campylobacter: enzymes distinguishing the
+RT   pseudaminic acid and bacillosamine biosynthetic pathways.";
+RL   J. Biol. Chem. 281:723-732(2006).
+CC   -!- FUNCTION: Catalyzes the first step in the biosynthesis of
+CC       pseudaminic acid, a sialic-acid-like sugar that is used to modify
+CC       flagellin. Has both C6 dehydratase and C5 epimerase activities
+CC       that result in the production of both UDP-2-acetamido-2,6-dideoxy-
+CC       beta-L-arabino-4-hexulose and UDP-2-acetamido-2,6-dideoxy-alpha-D-
+CC       xylo-4-hexulose. {ECO:0000269|PubMed:16286454}.
+CC   -!- CATALYTIC ACTIVITY: UDP-N-acetyl-alpha-D-glucosamine = UDP-2-
+CC       acetamido-2,6-dideoxy-beta-L-arabino-hex-4-ulose + H(2)O.
+CC       {ECO:0000269|PubMed:16286454}.
+CC   -!- COFACTOR:
+CC       Name=NADP(+); Xref=ChEBI:CHEBI:58349; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide synthase family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35407.1; -; Genomic_DNA.
+DR   PIR; B81272; B81272.
+DR   RefSeq; YP_002344683.1; NC_002163.1.
+DR   ProteinModelPortal; Q0P8W4; -.
+DR   SMR; Q0P8W4; 1-328.
+DR   IntAct; Q0P8W4; 7.
+DR   STRING; 192222.Cj1293; -.
+DR   PRIDE; Q0P8W4; -.
+DR   EnsemblBacteria; CAL35407; CAL35407; Cj1293.
+DR   GeneID; 905585; -.
+DR   KEGG; cje:Cj1293; -.
+DR   PATRIC; 20059550; VBICamJej33762_1275.
+DR   HOGENOM; HOG000257079; -.
+DR   KO; K15894; -.
+DR   OMA; ICIHAAA; -.
+DR   OrthoDB; EOG6WQD59; -.
+DR   BioCyc; CJEJ192222:GJTS-1266-MONOMER; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR003869; Polysac_CapD-like.
+DR   InterPro; IPR020025; Pseudaminic_synth_PseB.
+DR   Pfam; PF02719; Polysacc_synt_2; 1.
+DR   TIGRFAMs; TIGR03589; PseB; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Lyase; NADP; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN         1    334       UDP-N-acetylglucosamine 4,6-dehydratase
+FT                                (inverting).
+FT                                /FTId=PRO_0000418955.
+FT   NP_BIND      13     16       NADP. {ECO:0000250}.
+FT   NP_BIND      37     42       NADP. {ECO:0000250}.
+FT   NP_BIND      61     62       NADP. {ECO:0000250}.
+FT   NP_BIND     123    124       NADP. {ECO:0000250}.
+FT   NP_BIND     168    172       NADP. {ECO:0000250}.
+FT   ACT_SITE    127    127       {ECO:0000250}.
+FT   BINDING      81     81       NADP; via carbonyl oxygen. {ECO:0000250}.
+FT   BINDING      85     85       NADP. {ECO:0000250}.
+FT   BINDING      85     85       Substrate. {ECO:0000250}.
+FT   BINDING     135    135       NADP. {ECO:0000250}.
+FT   BINDING     139    139       NADP. {ECO:0000250}.
+FT   BINDING     167    167       Substrate. {ECO:0000250}.
+FT   BINDING     175    175       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     193    193       Substrate. {ECO:0000250}.
+FT   BINDING     252    252       Substrate. {ECO:0000250}.
+FT   BINDING     255    255       Substrate. {ECO:0000250}.
+SQ   SEQUENCE   334 AA;  37372 MW;  3496887F29A79235 CRC64;
+     MFNKKNILIT GGTGSFGKTY TKVLLENYKP NKIIIYSRDE LKQFEMASVF NAPCMRYFIG
+     DVRDKERLSA AMRDVDFVIH AAAMKHVPIA EYNPMECIKT NIHGAQNVID ACFENGVKKC
+     IALSTDKACN PVNLYGATKL ASDKLFVAAN NIAGNKQTRF GVTRYGNVVG SRGSVVPFFK
+     KLISEGAKEL PITDTRMTRF WISLEDGVKF VLSNFERMHG GEIFIPKIPS MKITDLAHAL
+     APNLSHKIIG IRAGEKLHEI MISSDDSHLT YEFENYYAIS PSIKFVDKDN DFSINALGEK
+     GQKVKDGFSY SSDNNPLWAS EKELLEIINH TEGF
+//

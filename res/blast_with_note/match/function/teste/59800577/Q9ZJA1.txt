@@ -1,0 +1,102 @@
+ID   RECG_HELPJ              Reviewed;         623 AA.
+AC   Q9ZJA1;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   04-FEB-2015, entry version 94.
+DE   RecName: Full=ATP-dependent DNA helicase RecG;
+DE            EC=3.6.4.12;
+GN   Name=recG; OrderedLocusNames=jhp_1412;
+OS   Helicobacter pylori (strain J99 / ATCC 700824) (Campylobacter pylori
+OS   J99).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=85963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=J99 / ATCC 700824;
+RX   PubMed=9923682; DOI=10.1038/16495;
+RA   Alm R.A., Ling L.-S.L., Moir D.T., King B.L., Brown E.D., Doig P.C.,
+RA   Smith D.R., Noonan B., Guild B.C., deJonge B.L., Carmel G.,
+RA   Tummino P.J., Caruso A., Uria-Nickelsen M., Mills D.M., Ives C.,
+RA   Gibson R., Merberg D., Mills S.D., Jiang Q., Taylor D.E., Vovis G.F.,
+RA   Trust T.J.;
+RT   "Genomic sequence comparison of two unrelated isolates of the human
+RT   gastric pathogen Helicobacter pylori.";
+RL   Nature 397:176-180(1999).
+CC   -!- FUNCTION: Critical role in recombination and DNA repair. Helps
+CC       process Holliday junction intermediates to mature products by
+CC       catalyzing branch migration. Has a DNA unwinding activity
+CC       characteristic of a DNA helicase with a 3'- to 5'- polarity.
+CC       Unwinds branched duplex DNA (Y-DNA) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- SIMILARITY: Belongs to the helicase family. RecG subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE001439; AAD06990.1; -; Genomic_DNA.
+DR   PIR; G71810; G71810.
+DR   RefSeq; NP_224130.1; NC_000921.1.
+DR   RefSeq; WP_010882646.1; NC_000921.1.
+DR   ProteinModelPortal; Q9ZJA1; -.
+DR   STRING; 85963.jhp1412; -.
+DR   EnsemblBacteria; AAD06990; AAD06990; jhp_1412.
+DR   GeneID; 889476; -.
+DR   KEGG; hpj:jhp1412; -.
+DR   PATRIC; 20607712; VBIHelPyl98156_1535.
+DR   eggNOG; COG1200; -.
+DR   KO; K03655; -.
+DR   OMA; CGKTMVI; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   BioCyc; HPYL85963:GJB9-1451-MONOMER; -.
+DR   Proteomes; UP000000804; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004386; F:helicase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; DNA damage; DNA recombination;
+KW   DNA repair; DNA-binding; Helicase; Hydrolase; Nucleotide-binding.
+FT   CHAIN         1    623       ATP-dependent DNA helicase RecG.
+FT                                /FTId=PRO_0000102144.
+FT   DOMAIN      246    404       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      422    578       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     259    266       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF       353    356       DEQH box.
+SQ   SEQUENCE   623 AA;  71439 MW;  7C2A45B2C6CA5B3B CRC64;
+     MQETDDLLKT LNVKSLLEAL LVYTPKGYKD LSLLERFETG LSGVLEVGIL EKKNYAKVLK
+     IFAYSKRFYK NLELVFFNHS AFYYNQFKTG ESLFIYGKLE QSSFNQAYII NTPKILTEFG
+     KISLIFKKVK NHKKIQENLQ KLLSLENLKK EGVKENVARL LLEIFFPTPH FVKDFETNKN
+     FPSQHLNALK YIEMLFYMKN LERKKLQFNA KIACPNNSER LKAFIASLPF KLTRDQQNAI
+     KEIQSDLTSP IACKRLIIGD VGCGKTMVIL ASMVLAYPNK TLLMAPTSIL AKQLYHEALK
+     FLPPYFEVEL LLGGSHKKRS NHLFEKITHV VIGTQALLFD KRDLNEFALV ITDEQHRFGT
+     KQRYQLEKMA SSKGNKPHSL QFSATPIPRT LALAKSAFVK TTMIREIPYP KEIETLVLHK
+     REFKIVMEKI SEEIAKNHQV IVVYPLVNKS EKIPYLSLSE GASFWQKRFK NIYTTSGQDK
+     NKEEVIEEFR ELGSILLATT LIEVGISLPR LSVIVILAPE RLGLATLHQL RGRVSRNGLK
+     GYCFLCTIQE ENERLEKFAD ELDGFKIAEL DLQYRKSGDL LQGGKQSGNS FEYIDLARDE
+     NIIAEVKQDF LKNASVSQGT FEN
+//

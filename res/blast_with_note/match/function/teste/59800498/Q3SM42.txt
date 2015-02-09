@@ -1,0 +1,109 @@
+ID   PYRE_THIDA              Reviewed;         212 AA.
+AC   Q3SM42;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2005, sequence version 1.
+DT   04-FEB-2015, entry version 79.
+DE   RecName: Full=Orotate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRT {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRTase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            EC=2.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   Name=pyrE {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   OrderedLocusNames=Tbd_0255;
+OS   Thiobacillus denitrificans (strain ATCC 25259).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Hydrogenophilales;
+OC   Hydrogenophilaceae; Thiobacillus.
+OX   NCBI_TaxID=292415;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25259;
+RX   PubMed=16452431; DOI=10.1128/JB.188.4.1473-1488.2006;
+RA   Beller H.R., Chain P.S., Letain T.E., Chakicherla A., Larimer F.W.,
+RA   Richardson P.M., Coleman M.A., Wood A.P., Kelly D.P.;
+RT   "The genome sequence of the obligately chemolithoautotrophic,
+RT   facultatively anaerobic bacterium Thiobacillus denitrificans.";
+RL   J. Bacteriol. 188:1473-1488(2006).
+CC   -!- FUNCTION: Catalyzes the transfer of a ribosyl phosphate group from
+CC       5-phosphoribose 1-diphosphate to orotate, leading to the formation
+CC       of orotidine monophosphate (OMP). {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- CATALYTIC ACTIVITY: Orotidine 5'-phosphate + diphosphate = orotate
+CC       + 5-phospho-alpha-D-ribose 1-diphosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01208};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; UMP from orotate: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine
+CC       phosphoribosyltransferase family. PyrE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000116; AAZ96208.1; -; Genomic_DNA.
+DR   RefSeq; YP_314013.1; NC_007404.1.
+DR   ProteinModelPortal; Q3SM42; -.
+DR   SMR; Q3SM42; 1-212.
+DR   STRING; 292415.Tbd_0255; -.
+DR   EnsemblBacteria; AAZ96208; AAZ96208; Tbd_0255.
+DR   GeneID; 3671397; -.
+DR   KEGG; tbd:Tbd_0255; -.
+DR   PATRIC; 23966651; VBIThiDen82923_0257.
+DR   eggNOG; COG0461; -.
+DR   HOGENOM; HOG000037974; -.
+DR   KO; K00762; -.
+DR   OMA; MKAYQRQ; -.
+DR   OrthoDB; EOG6091H8; -.
+DR   BioCyc; TDEN292415:GHWG-258-MONOMER; -.
+DR   UniPathway; UPA00070; UER00119.
+DR   Proteomes; UP000008291; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004588; F:orotate phosphoribosyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01208; PyrE; 1.
+DR   InterPro; IPR023031; OPRT.
+DR   InterPro; IPR004467; Or_phspho_trans_dom.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   TIGRFAMs; TIGR00336; pyrE; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycosyltransferase; Magnesium;
+KW   Pyrimidine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN         1    212       Orotate phosphoribosyltransferase.
+FT                                /FTId=PRO_1000066322.
+FT   REGION       34     35       Orotate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   REGION       72     73       5-phosphoribose 1-diphosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   REGION      123    131       5-phosphoribose 1-diphosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING      26     26       5-phosphoribose 1-diphosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING      98     98       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING      99     99       5-phosphoribose 1-diphosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING     102    102       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     104    104       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     127    127       Orotate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     155    155       Orotate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+SQ   SEQUENCE   212 AA;  23018 MW;  F463B0ACBFC1FFF4 CRC64;
+     MSDYRAEFVE FAVASQVLCF GEFKTKAGRL SPYFFNAGLF NDGEKLKRLG EFYAKAIVDS
+     GIAFDVMFGP AYKGIPLAAS IVIALAGMGR NVPFAFNRKE AKDHGEGGTV VGAPLQGRVL
+     IVDDVISAGT SVRESVDLIR ASDATPAGVV IALDRMERGQ GDKSAVQEVR EQYDIPVVAV
+     VTLDNLVEFL ERDANRRTEL QAVANYRENY GV
+//

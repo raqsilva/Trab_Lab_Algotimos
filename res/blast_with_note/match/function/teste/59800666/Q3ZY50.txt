@@ -1,0 +1,95 @@
+ID   HIS5_DEHMC              Reviewed;         205 AA.
+AC   Q3ZY50;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   27-SEP-2005, sequence version 1.
+DT   07-JAN-2015, entry version 72.
+DE   RecName: Full=Imidazole glycerol phosphate synthase subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            EC=2.4.2.- {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase glutamine amidotransferase subunit {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=ImGP synthase subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            Short=IGPS subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+GN   Name=hisH {ECO:0000255|HAMAP-Rule:MF_00278};
+GN   OrderedLocusNames=cbdbA1060;
+OS   Dehalococcoides mccartyi (strain CBDB1).
+OC   Bacteria; Chloroflexi; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalococcoides.
+OX   NCBI_TaxID=255470;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CBDB1;
+RX   PubMed=16116419; DOI=10.1038/nbt1131;
+RA   Kube M., Beck A., Zinder S.H., Kuhl H., Reinhardt R., Adrian L.;
+RT   "Genome sequence of the chlorinated compound-respiring bacterium
+RT   Dehalococcoides species strain CBDB1.";
+RL   Nat. Biotechnol. 23:1269-1273(2005).
+CC   -!- FUNCTION: IGPS catalyzes the conversion of PRFAR and glutamine to
+CC       IGP, AICAR and glutamate. The HisH subunit provides the glutamine
+CC       amidotransferase activity that produces the ammonia necessary to
+CC       HisF for the synthesis of IGP and AICAR. {ECO:0000255|HAMAP-
+CC       Rule:MF_00278}.
+CC   -!- CATALYTIC ACTIVITY: 5-[(5-phospho-1-deoxyribulos-1-
+CC       ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-
+CC       carboxamide + L-glutamine = imidazole-glycerol phosphate + 5-
+CC       aminoimidazol-4-carboxamide ribonucleotide + L-glutamate + H(2)O.
+CC       {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-
+CC       histidine from 5-phospho-alpha-D-ribose 1-diphosphate: step 5/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -!- SUBUNIT: Heterodimer of HisH and HisF. {ECO:0000255|HAMAP-
+CC       Rule:MF_00278}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -!- SIMILARITY: Contains 1 glutamine amidotransferase type-1 domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ965256; CAI83164.1; -; Genomic_DNA.
+DR   RefSeq; WP_011309515.1; NC_007356.1.
+DR   RefSeq; YP_308080.1; NC_007356.1.
+DR   ProteinModelPortal; Q3ZY50; -.
+DR   STRING; 255470.cbdb_A1060; -.
+DR   EnsemblBacteria; CAI83164; CAI83164; cbdbA1060.
+DR   GeneID; 3623898; -.
+DR   KEGG; deh:cbdb_A1060; -.
+DR   PATRIC; 21612151; VBIDehSp125902_0894.
+DR   eggNOG; COG0118; -.
+DR   KO; K02501; -.
+DR   OMA; GMQMLLT; -.
+DR   OrthoDB; EOG69KV05; -.
+DR   BioCyc; DSP255470:GJXW-920-MONOMER; -.
+DR   UniPathway; UPA00031; UER00010.
+DR   Proteomes; UP000000433; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000107; F:imidazoleglycerol-phosphate synthase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00278; HisH; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010139; Imidazole-glycPsynth_HisH.
+DR   Pfam; PF00117; GATase; 1.
+DR   PIRSF; PIRSF000495; Amidotransf_hisH; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01855; IMP_synth_hisH; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Complete proteome; Cytoplasm;
+KW   Glutamine amidotransferase; Histidine biosynthesis; Transferase.
+FT   CHAIN         1    205       Imidazole glycerol phosphate synthase
+FT                                subunit HisH.
+FT                                /FTId=PRO_0000231721.
+FT   DOMAIN        1    205       Glutamine amidotransferase type-1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00278}.
+FT   ACT_SITE     79     79       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00278}.
+FT   ACT_SITE    181    181       {ECO:0000255|HAMAP-Rule:MF_00278}.
+FT   ACT_SITE    183    183       {ECO:0000255|HAMAP-Rule:MF_00278}.
+SQ   SEQUENCE   205 AA;  22167 MW;  6199C935AAFE3A51 CRC64;
+     MIALVDYGGG NLKSVANAIH ALGYEFTLTS DPKEILSAQA VILPGVGAAA DTVAGLRAKG
+     LDEAIKELVK RDIPLLAICV GMQVLFDSTE EGGQTKCLGI LAGEVKRLPD GVKIPQMGWN
+     QLKQRVSHPL FEGIPDGTDF YFVHSYYASP ADRNIIGATT DYGVDFCSLV INKRLIATQF
+     HPEKSGSYGL KLYQNFFKMA LGDKK
+//

@@ -1,0 +1,97 @@
+ID   RUVC_BURMA              Reviewed;         180 AA.
+AC   Q62HA7;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   07-JAN-2015, entry version 67.
+DE   RecName: Full=Crossover junction endodeoxyribonuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE            EC=3.1.22.4 {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction nuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction resolvase RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   Name=ruvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   OrderedLocusNames=BMA2355;
+OS   Burkholderia mallei (strain ATCC 23344).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=243160;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23344;
+RX   PubMed=15377793; DOI=10.1073/pnas.0403306101;
+RA   Nierman W.C., DeShazer D., Kim H.S., Tettelin H., Nelson K.E.,
+RA   Feldblyum T.V., Ulrich R.L., Ronning C.M., Brinkac L.M.,
+RA   Daugherty S.C., Davidsen T.D., DeBoy R.T., Dimitrov G., Dodson R.J.,
+RA   Durkin A.S., Gwinn M.L., Haft D.H., Khouri H.M., Kolonay J.F.,
+RA   Madupu R., Mohammoud Y., Nelson W.C., Radune D., Romero C.M.,
+RA   Sarria S., Selengut J., Shamblin C., Sullivan S.A., White O., Yu Y.,
+RA   Zafar N., Zhou L., Fraser C.M.;
+RT   "Structural flexibility in the Burkholderia mallei genome.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14246-14251(2004).
+CC   -!- FUNCTION: Nuclease that resolves Holliday junction intermediates
+CC       in genetic recombination. Cleaves the cruciform structure in
+CC       supercoiled DNA by nicking to strands with the same polarity at
+CC       sites symmetrically opposed at the junction in the homologous arms
+CC       and leaves a 5'-terminal phosphate and a 3'-terminal hydroxyl
+CC       group. {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- CATALYTIC ACTIVITY: Endonucleolytic cleavage at a junction such as
+CC       a reciprocal single-stranded crossover between two homologous DNA
+CC       duplexes (Holliday junction). {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00034};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034};
+CC   -!- SIMILARITY: Belongs to the RuvC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000010; AAU50214.1; -; Genomic_DNA.
+DR   RefSeq; YP_103913.1; NC_006348.1.
+DR   ProteinModelPortal; Q62HA7; -.
+DR   SMR; Q62HA7; 2-154.
+DR   STRING; 243160.BMA2355; -.
+DR   EnsemblBacteria; AAU50214; AAU50214; BMA2355.
+DR   GeneID; 3090722; -.
+DR   KEGG; bma:BMA2355; -.
+DR   PATRIC; 19119843; VBIBurMal55007_2426.
+DR   eggNOG; COG0817; -.
+DR   HOGENOM; HOG000012181; -.
+DR   KO; K01159; -.
+DR   OMA; PDCAAIE; -.
+DR   OrthoDB; EOG6RG044; -.
+DR   Proteomes; UP000006693; Chromosome 1.
+DR   GO; GO:0008821; F:crossover junction endodeoxyribonuclease activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   HAMAP; MF_00034; RuvC; 1.
+DR   InterPro; IPR012337; RNaseH-like_dom.
+DR   InterPro; IPR020563; X-over_junc_endoDNase_Mg_BS.
+DR   InterPro; IPR002176; X-over_junc_endoDNase_RuvC.
+DR   Pfam; PF02075; RuvC; 1.
+DR   PRINTS; PR00696; RSOLVASERUVC.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+DR   TIGRFAMs; TIGR00228; ruvC; 1.
+DR   PROSITE; PS01321; RUVC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA damage; DNA recombination; DNA repair;
+KW   Hydrolase; Magnesium; Metal-binding; Nuclease.
+FT   CHAIN         1    180       Crossover junction endodeoxyribonuclease
+FT                                RuvC.
+FT                                /FTId=PRO_0000225125.
+FT   METAL         7      7       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL        66     66       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL       138    138       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL       141    141       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+SQ   SEQUENCE   180 AA;  18648 MW;  4F8BE45AC2D2C35A CRC64;
+     MRILGIDPGL RVTGFGVIDV SGHQLAYVAS GVIKTPTADL PTRLGTIYDG VSTLIREHTP
+     DQAAIEKVFV NVNPQSTLLL GQARGAAICG LVSGGLPVAE YTALQLKQAV VGYGRATKEQ
+     MQEMVARLLS LSGRPGTDAA DALGMAICHA HGGNTLNTLG GIAPALAKKG LRVRRGRLVG
+//

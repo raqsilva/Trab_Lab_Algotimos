@@ -1,0 +1,113 @@
+ID   ISPH_XANC5              Reviewed;         319 AA.
+AC   Q3BW40;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   07-JAN-2015, entry version 68.
+DE   RecName: Full=4-hydroxy-3-methylbut-2-enyl diphosphate reductase {ECO:0000255|HAMAP-Rule:MF_00191};
+DE            EC=1.17.1.2 {ECO:0000255|HAMAP-Rule:MF_00191};
+GN   Name=ispH {ECO:0000255|HAMAP-Rule:MF_00191};
+GN   OrderedLocusNames=XCV1292;
+OS   Xanthomonas campestris pv. vesicatoria (strain 85-10).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=316273;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=85-10;
+RX   PubMed=16237009; DOI=10.1128/JB.187.21.7254-7266.2005;
+RA   Thieme F., Koebnik R., Bekel T., Berger C., Boch J., Buettner D.,
+RA   Caldana C., Gaigalat L., Goesmann A., Kay S., Kirchner O., Lanz C.,
+RA   Linke B., McHardy A.C., Meyer F., Mittenhuber G., Nies D.H.,
+RA   Niesbach-Kloesgen U., Patschkowski T., Rueckert C., Rupp O.,
+RA   Schneiker S., Schuster S.C., Vorhoelter F.J., Weber E., Puehler A.,
+RA   Bonas U., Bartels D., Kaiser O.;
+RT   "Insights into genome plasticity and pathogenicity of the plant
+RT   pathogenic Bacterium Xanthomonas campestris pv. vesicatoria revealed
+RT   by the complete genome sequence.";
+RL   J. Bacteriol. 187:7254-7266(2005).
+CC   -!- FUNCTION: Converts 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+CC       into isopentenyl diphosphate (IPP) and dimethylallyl diphosphate
+CC       (DMAPP). {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- CATALYTIC ACTIVITY: Isopentenyl diphosphate + NAD(P)(+) + H(2)O =
+CC       (E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate + NAD(P)H.
+CC       {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- CATALYTIC ACTIVITY: Dimethylallyl diphosphate + NAD(P)(+) + H(2)O
+CC       = (E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate + NAD(P)H.
+CC       {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- COFACTOR:
+CC       Name=[3Fe-4S] cluster; Xref=ChEBI:CHEBI:21137;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00191};
+CC       Note=Binds 1 [3Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; dimethylallyl diphosphate
+CC       biosynthesis; dimethylallyl diphosphate from (2E)-4-hydroxy-3-
+CC       methylbutenyl diphosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate
+CC       biosynthesis via DXP pathway; isopentenyl diphosphate from 1-
+CC       deoxy-D-xylulose 5-phosphate: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -!- SIMILARITY: Belongs to the IspH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM039952; CAJ22923.1; -; Genomic_DNA.
+DR   RefSeq; YP_363023.2; NC_007508.1.
+DR   STRING; 316273.XCV1292; -.
+DR   EnsemblBacteria; CAJ22923; CAJ22923; XCV1292.
+DR   GeneID; 3733702; -.
+DR   KEGG; xcv:XCV1292; -.
+DR   PATRIC; 24092042; VBIXanCam71633_1517.
+DR   eggNOG; COG0761; -.
+DR   HOGENOM; HOG000220192; -.
+DR   KO; K03527; -.
+DR   OMA; IIGPRKD; -.
+DR   OrthoDB; EOG6HF624; -.
+DR   BioCyc; XCAM316273:GJF8-1327-MONOMER; -.
+DR   UniPathway; UPA00056; UER00097.
+DR   UniPathway; UPA00059; UER00105.
+DR   Proteomes; UP000007069; Chromosome.
+DR   GO; GO:0051538; F:3 iron, 4 sulfur cluster binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051745; F:4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050992; P:dimethylallyl diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00191; IspH; 1.
+DR   InterPro; IPR003451; LytB/IspH.
+DR   Pfam; PF02401; LYTB; 1.
+DR   TIGRFAMs; TIGR00216; ispH_lytB; 1.
+PE   3: Inferred from homology;
+KW   3Fe-4S; Complete proteome; Iron; Iron-sulfur; Isoprene biosynthesis;
+KW   Metal-binding; NADP; Oxidoreductase.
+FT   CHAIN         1    319       4-hydroxy-3-methylbut-2-enyl diphosphate
+FT                                reductase.
+FT                                /FTId=PRO_1000098988.
+FT   REGION      230    232       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL        15     15       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL        99     99       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL       202    202       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING      44     44       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING      77     77       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     127    127       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     172    172       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     274    274       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+SQ   SEQUENCE   319 AA;  34960 MW;  49E412CAAD168943 CRC64;
+     MPAMDVLLAN PRGFCAGVDR AIEIVKRAIE TLGAPIYVRH EVVHNRFVVD DLKQRGAIFV
+     EELDEVPDDA TVIFSAHGVS QAVRQEAERR GLRVFDATCP LVTKVHFEVA RHCRAGRDVV
+     LIGHAGHPEV EGTMGQWSRE RGAGTIYLVE DIEQVATLDV RQPDNLAYTT QTTLSVDDTM
+     GIIEALRARY PAMQGPRHDD ICYATQNRQD AVRDLARQCD LVLVVGSPNS SNSNRLSELA
+     RRDGVESYLI DNASEIDPAW IVGKQHIGLT AGASAPQVLV DGVLARLREL GAAGVSELEG
+     EPESMVFALP KELRLRLVS
+//

@@ -1,0 +1,93 @@
+ID   ALF2_RHOSH              Reviewed;         354 AA.
+AC   P29271;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   26-NOV-2014, entry version 72.
+DE   RecName: Full=Fructose-bisphosphate aldolase 2;
+DE            Short=FBP aldolase;
+DE            Short=FBPA;
+DE            EC=4.1.2.13;
+DE   AltName: Full=Fructose-1,6-bisphosphate aldolase;
+DE   AltName: Full=Fructose-bisphosphate aldolase II;
+GN   Name=cfxB;
+OS   Rhodobacter sphaeroides (Rhodopseudomonas sphaeroides).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Rhodobacter.
+OX   NCBI_TaxID=1063;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1939098;
+RA   Chen J.-H., Gibson J.L., McCue L.A., Tabita F.R.;
+RT   "Identification, expression, and deduced primary structure of
+RT   transketolase and other enzymes encoded within the form II CO2
+RT   fixation operon of Rhodobacter sphaeroides.";
+RL   J. Biol. Chem. 266:20447-20452(1991).
+CC   -!- FUNCTION: Catalyzes the aldol condensation of dihydroxyacetone
+CC       phosphate (DHAP or glycerone-phosphate) with glyceraldehyde 3-
+CC       phosphate (G3P) to form fructose 1,6-bisphosphate (FBP) in
+CC       gluconeogenesis and the reverse reaction in glycolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: D-fructose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the
+CC       other provides a structural contribution. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; Calvin cycle.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 4/4.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- MISCELLANEOUS: This protein is encoded within the form II
+CC       ribulose-bisphosphate carboxylase operon.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M68914; AAA26157.1; -; Genomic_DNA.
+DR   PIR; D41080; D41080.
+DR   ProteinModelPortal; P29271; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-5054-MONOMER; -.
+DR   UniPathway; UPA00109; UER00183.
+DR   UniPathway; UPA00116; -.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019253; P:reductive pentose-phosphate cycle; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006412; Fruct_bisP_Calv.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01521; FruBisAldo_II_B; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   3: Inferred from homology;
+KW   Calvin cycle; Glycolysis; Lyase; Metal-binding; Zinc.
+FT   CHAIN         1    354       Fructose-bisphosphate aldolase 2.
+FT                                /FTId=PRO_0000178733.
+FT   REGION      233    235       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   REGION      275    278       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   ACT_SITE     83     83       Proton donor. {ECO:0000250}.
+FT   METAL        84     84       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       105    105       Zinc 2. {ECO:0000250}.
+FT   METAL       142    142       Zinc 2. {ECO:0000250}.
+FT   METAL       198    198       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       232    232       Zinc 1; catalytic. {ECO:0000250}.
+FT   BINDING      50     50       Glyceraldehyde 3-phosphate.
+FT                                {ECO:0000250}.
+FT   BINDING     199    199       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000250}.
+SQ   SEQUENCE   354 AA;  38269 MW;  9F547E84FC72ACF5 CRC64;
+     MALITLRQLL DHAAEQGYGV PAFNINNMEQ GLAIMEAARA CDAPVIIQAS RGARSYANDI
+     MLAKMIEALA AIYPEIPLCM HQDHGNNEAT CMTAIRHGFT SVMMDGSLKA DAKTPADYDY
+     NVDITARVSH MAHWVGASVE GELGVLGSLE TGESEAEDGH GAEGKLDHSQ LLTDPDQAVD
+     FVKKTQVDAL AIACGTSHGA YKFSRKPDGE ILAMSVIEAI HKKLPDTHLV MHGSSSVPQE
+     LQDIINAFGG AMPQTFGVPV EEIVRGIKMG VRKVNIDTDC RMAMTGQFRR IAQQTPSEFD
+     PRKFLKPAMD AMRDLCKQRL EAFGTAGQAG KIRIIPMDDM AKRYASGALA PKTA
+//

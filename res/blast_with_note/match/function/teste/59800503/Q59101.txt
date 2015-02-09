@@ -1,0 +1,118 @@
+ID   ALF2_CUPNH              Reviewed;         345 AA.
+AC   Q59101; Q7WWS6;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   04-JAN-2005, sequence version 2.
+DT   04-FEB-2015, entry version 96.
+DE   RecName: Full=Fructose-bisphosphate aldolase, plasmid;
+DE            Short=FBP aldolase;
+DE            Short=FBPA;
+DE            EC=4.1.2.13;
+DE   AltName: Full=Fructose-1,6-bisphosphate aldolase;
+GN   Name=cbbAP; OrderedLocusNames=PHG416;
+OS   Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337)
+OS   (Ralstonia eutropha).
+OG   Plasmid megaplasmid pHG1.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Cupriavidus.
+OX   NCBI_TaxID=381666;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7763137; DOI=10.1007/BF00393383;
+RA   Schaeferfohann J., Yoo J.-G., Bowien B.;
+RT   "Analysis of the genes forming the distal parts of the two cbb CO2
+RT   fixation operons from Alcaligenes eutrophus.";
+RL   Arch. Microbiol. 163:291-299(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 17699 / H16 / DSM 428 / Stanier 337;
+RX   PubMed=12948488; DOI=10.1016/S0022-2836(03)00894-5;
+RA   Schwartz E., Henne A., Cramm R., Eitinger T., Friedrich B.,
+RA   Gottschalk G.;
+RT   "Complete nucleotide sequence of pHG1: a Ralstonia eutropha H16
+RT   megaplasmid encoding key enzymes of H(2)-based lithoautotrophy and
+RT   anaerobiosis.";
+RL   J. Mol. Biol. 332:369-383(2003).
+CC   -!- FUNCTION: Catalyzes the aldol condensation of dihydroxyacetone
+CC       phosphate (DHAP or glycerone-phosphate) with glyceraldehyde 3-
+CC       phosphate (G3P) to form fructose 1,6-bisphosphate (FBP) in
+CC       gluconeogenesis and the reverse reaction in glycolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: D-fructose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the
+CC       other provides a structural contribution. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; Calvin cycle.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 4/4.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U12423; AAC43448.1; -; Genomic_DNA.
+DR   EMBL; AY305378; AAP86165.1; -; Genomic_DNA.
+DR   PIR; I39555; I39555.
+DR   RefSeq; NP_943051.1; NC_005241.1.
+DR   RefSeq; YP_009074644.1; NG_034711.1.
+DR   ProteinModelPortal; Q59101; -.
+DR   STRING; 381666.PHG416; -.
+DR   EnsemblBacteria; AAP86165; AAP86165; PHG416.
+DR   GeneID; 2656760; -.
+DR   KEGG; reh:PHG416; -.
+DR   PATRIC; 35229344; VBIRalEut6770_0344.
+DR   eggNOG; COG0191; -.
+DR   HOGENOM; HOG000227792; -.
+DR   KO; K01624; -.
+DR   OMA; DLCRERF; -.
+DR   OrthoDB; EOG6HXJ7B; -.
+DR   BioCyc; CNEC381666:GJUJ-6690-MONOMER; -.
+DR   UniPathway; UPA00109; UER00183.
+DR   UniPathway; UPA00116; -.
+DR   Proteomes; UP000008210; Plasmid megaplasmid pHG1.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019253; P:reductive pentose-phosphate cycle; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006412; Fruct_bisP_Calv.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01521; FruBisAldo_II_B; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   3: Inferred from homology;
+KW   Calvin cycle; Complete proteome; Glycolysis; Lyase; Metal-binding;
+KW   Plasmid; Reference proteome; Zinc.
+FT   CHAIN         1    345       Fructose-bisphosphate aldolase, plasmid.
+FT                                /FTId=PRO_0000178728.
+FT   REGION      233    235       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   REGION      275    278       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   ACT_SITE     83     83       Proton donor. {ECO:0000250}.
+FT   METAL        84     84       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       105    105       Zinc 2. {ECO:0000250}.
+FT   METAL       142    142       Zinc 2. {ECO:0000250}.
+FT   METAL       198    198       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       232    232       Zinc 1; catalytic. {ECO:0000250}.
+FT   BINDING      50     50       Glyceraldehyde 3-phosphate.
+FT                                {ECO:0000250}.
+FT   BINDING     199    199       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000250}.
+FT   CONFLICT    285    285       T -> I (in Ref. 1; AAC43448).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   345 AA;  37412 MW;  B5E2CBB6200388B7 CRC64;
+     MALISLRQLL DHAGEFGYGV PAFNVNNLEQ IHAIMEAAEE TDSPVILQAS AGARKYAGEA
+     YLRHMVLAAA ETHPDIPIVL HQDHGSSPAV CQASIRSGFT SVMMDGSLRE DMKTPSDYDY
+     NVDVTRRVCE MAHAVGVSVE GELGCLGSLE TGQAGEEDGV GAAGTLSHDM MLTDPAQARD
+     FVARTGVDAL AIAIGTSHGA YKFSRKPTGD ILAIDRIREI HEQIPDTHLV MHGSSSVPQE
+     WLEIIRQYGG DIKETYGVPV EEILRGIKTG VRKVNIDTDI RLAMTGAIRK SLAEDRSEFD
+     PRKALLAAKK GARSVVKLRF EAFGCAGQAS KIKPIAMEQL AQWYR
+//

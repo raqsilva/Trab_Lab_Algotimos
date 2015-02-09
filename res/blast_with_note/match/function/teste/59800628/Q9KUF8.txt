@@ -1,0 +1,88 @@
+ID   TRMD_VIBCH              Reviewed;         247 AA.
+AC   Q9KUF8;
+DT   06-DEC-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   07-JAN-2015, entry version 80.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase;
+DE            EC=2.1.1.228;
+DE   AltName: Full=M1G-methyltransferase;
+DE   AltName: Full=tRNA [GM37] methyltransferase;
+GN   Name=trmD; OrderedLocusNames=VC_0563;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+OC   Vibrionaceae; Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A.,
+RA   Gill S.R., Nelson K.E., Read T.D., Tettelin H., Richardson D.L.,
+RA   Ermolaeva M.D., Vamathevan J.J., Bass S., Qin H., Dragoi I.,
+RA   Sellers P., McDonald L.A., Utterback T.R., Fleischmann R.D.,
+RA   Nierman W.C., White O., Salzberg S.L., Smith H.O., Colwell R.R.,
+RA   Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE003852; AAF93731.1; -; Genomic_DNA.
+DR   PIR; C82307; C82307.
+DR   RefSeq; NP_230214.1; NC_002505.1.
+DR   ProteinModelPortal; Q9KUF8; -.
+DR   SMR; Q9KUF8; 1-239.
+DR   STRING; 243277.VC0563; -.
+DR   DNASU; 2615240; -.
+DR   EnsemblBacteria; AAF93731; AAF93731; VC_0563.
+DR   GeneID; 2615240; -.
+DR   KEGG; vch:VC0563; -.
+DR   PATRIC; 20080244; VBIVibCho83274_0538.
+DR   eggNOG; COG0336; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   BioCyc; VCHO:VC0563-MONOMER; -.
+DR   Proteomes; UP000000584; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006400; P:tRNA modification; ISS:TIGR.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    247       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_0000060492.
+FT   REGION      133    138       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000250}.
+FT   BINDING     113    113       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000250}.
+SQ   SEQUENCE   247 AA;  27807 MW;  AB54DD1A2481FB9A CRC64;
+     MWVGIVSLFP EMFRSVTDFG VTGQAVKKGL LSVEAWNPRD FAHDKRRTVD DKPYGGGPGM
+     LMMVQPLRDA IHAAKQASPG KTKVIYLSPQ GRKLDQQGVE ELAQNQNLIL ICGRYEGVDE
+     RIIESEVDEE WSIGDFVMTG GELPAMTLID SVSRFIPGVL GDFASAEEDS FANGLLDCPH
+     YTRPEVLDGK EVPAVLKSGN HEDIRRWRLK QSLGRTWLRR PELLENLALT DEQEQLLTEY
+     IKETRHQ
+//

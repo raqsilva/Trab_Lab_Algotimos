@@ -1,0 +1,92 @@
+ID   IPYR_SALTY              Reviewed;         176 AA.
+AC   P65748; Q8XGI0;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   07-JAN-2015, entry version 62.
+DE   RecName: Full=Inorganic pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00209};
+DE            EC=3.6.1.1 {ECO:0000255|HAMAP-Rule:MF_00209};
+DE   AltName: Full=Pyrophosphate phospho-hydrolase {ECO:0000255|HAMAP-Rule:MF_00209};
+DE            Short=PPase {ECO:0000255|HAMAP-Rule:MF_00209};
+GN   Name=ppa {ECO:0000255|HAMAP-Rule:MF_00209}; OrderedLocusNames=STM4414;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- CATALYTIC ACTIVITY: Diphosphate + H(2)O = 2 phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00209}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00209};
+CC       Note=Binds 4 Mg(2+) ions per subunit. Other metal ions can support
+CC       activity, but at a lower rate. Two Mg(2+) ions are required for
+CC       the activation of the enzyme and are present before substrate
+CC       binds, two additional Mg(2+) ions form complexes with substrate
+CC       and product. {ECO:0000255|HAMAP-Rule:MF_00209};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00209}.
+CC   -!- SIMILARITY: Belongs to the PPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00209}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE006468; AAL23234.1; -; Genomic_DNA.
+DR   RefSeq; NP_463275.1; NC_003197.1.
+DR   ProteinModelPortal; P65748; -.
+DR   SMR; P65748; 2-176.
+DR   STRING; 99287.STM4414; -.
+DR   PaxDb; P65748; -.
+DR   PRIDE; P65748; -.
+DR   EnsemblBacteria; AAL23234; AAL23234; STM4414.
+DR   GeneID; 1255940; -.
+DR   KEGG; stm:STM4414; -.
+DR   PATRIC; 32387755; VBISalEnt20916_4641.
+DR   eggNOG; COG0221; -.
+DR   HOGENOM; HOG000236473; -.
+DR   KO; K01507; -.
+DR   OMA; KYEYDDE; -.
+DR   OrthoDB; EOG6NKR4X; -.
+DR   PhylomeDB; P65748; -.
+DR   BioCyc; SENT99287:GCTI-4446-MONOMER; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004427; F:inorganic diphosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006796; P:phosphate-containing compound metabolic process; IEA:InterPro.
+DR   Gene3D; 3.90.80.10; -; 1.
+DR   HAMAP; MF_00209; Inorganic_PPase; 1.
+DR   InterPro; IPR008162; Pyrophosphatase.
+DR   PANTHER; PTHR10286; PTHR10286; 1.
+DR   Pfam; PF00719; Pyrophosphatase; 1.
+DR   SUPFAM; SSF50324; SSF50324; 1.
+DR   PROSITE; PS00387; PPASE; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Hydrolase; Magnesium; Metal-binding;
+KW   Reference proteome.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    176       Inorganic pyrophosphatase.
+FT                                /FTId=PRO_0000137530.
+FT   METAL        66     66       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+FT   METAL        71     71       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+FT   METAL        71     71       Magnesium 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+FT   METAL       103    103       Magnesium 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00209}.
+SQ   SEQUENCE   176 AA;  19677 MW;  3C00EC5AA02B1BB2 CRC64;
+     MSLLNVPAGK ELPEDIYVVI EIPANADPIK YEVDKESGAL FVDRFMSTAM FYPCNYGYIN
+     HTLSLDGDPV DVLVPTPYPL QPGAVIRCRP VGVLKMTDES GEDAKLVAVP HTKLSKEYDH
+     IKDVNDLPEL LKAQITHFFE HYKDLEKGKW VKVDGWDNAE AAKAEIVASF ERAAKK
+//

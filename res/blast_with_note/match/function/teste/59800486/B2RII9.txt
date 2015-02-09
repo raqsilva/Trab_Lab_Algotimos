@@ -1,0 +1,96 @@
+ID   TPIS_PORG3              Reviewed;         251 AA.
+AC   B2RII9;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   04-FEB-2015, entry version 46.
+DE   RecName: Full=Triosephosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            Short=TIM {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            EC=5.3.1.1 {ECO:0000255|HAMAP-Rule:MF_00147};
+DE   AltName: Full=Triose-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   Name=tpiA {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   OrderedLocusNames=PGN_0665;
+OS   Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / JCM 12257).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;
+OC   Porphyromonadaceae; Porphyromonas.
+OX   NCBI_TaxID=431947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33277 / DSM 20709 / JCM 12257;
+RX   PubMed=18524787; DOI=10.1093/dnares/dsn013;
+RA   Naito M., Hirakawa H., Yamashita A., Ohara N., Shoji M., Yukitake H.,
+RA   Nakayama K., Toh H., Yoshimura F., Kuhara S., Hattori M., Hayashi T.,
+RA   Nakayama K.;
+RT   "Determination of the genome sequence of Porphyromonas gingivalis
+RT   strain ATCC 33277 and genomic comparison with strain W83 revealed
+RT   extensive genome rearrangements in P. gingivalis.";
+RL   DNA Res. 15:215-225(2008).
+CC   -!- CATALYTIC ACTIVITY: D-glyceraldehyde 3-phosphate = glycerone
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate from glycerone phosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00147}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SIMILARITY: Belongs to the triosephosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP009380; BAG33184.1; -; Genomic_DNA.
+DR   RefSeq; WP_012457684.1; NC_010729.1.
+DR   RefSeq; YP_001928781.1; NC_010729.1.
+DR   ProteinModelPortal; B2RII9; -.
+DR   STRING; 431947.PGN_0665; -.
+DR   EnsemblBacteria; BAG33184; BAG33184; PGN_0665.
+DR   GeneID; 6329622; -.
+DR   KEGG; pgn:PGN_0665; -.
+DR   PATRIC; 22974270; VBIPorGin26334_0656.
+DR   eggNOG; COG0149; -.
+DR   HOGENOM; HOG000226413; -.
+DR   KO; K01803; -.
+DR   OMA; EANRICG; -.
+DR   OrthoDB; EOG66QM23; -.
+DR   BioCyc; PGIN431947:GC9J-688-MONOMER; -.
+DR   UniPathway; UPA00109; UER00189.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000008842; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004807; F:triose-phosphate isomerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00147_B; TIM_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR022896; TrioseP_Isoase_bac/euk.
+DR   InterPro; IPR000652; Triosephosphate_isomerase.
+DR   InterPro; IPR020861; Triosephosphate_isomerase_AS.
+DR   PANTHER; PTHR21139; PTHR21139; 1.
+DR   Pfam; PF00121; TIM; 1.
+DR   SUPFAM; SSF51351; SSF51351; 1.
+DR   TIGRFAMs; TIGR00419; tim; 1.
+DR   PROSITE; PS00171; TIM_1; 1.
+DR   PROSITE; PS51440; TIM_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase;
+KW   Pentose shunt.
+FT   CHAIN         1    251       Triosephosphate isomerase.
+FT                                /FTId=PRO_1000096520.
+FT   ACT_SITE     96     96       Electrophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   ACT_SITE    168    168       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING       9      9       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING      11     11       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+SQ   SEQUENCE   251 AA;  26793 MW;  681B3953D37B4F17 CRC64;
+     MRKNIVAGNW KMNKTLQEGL ALAKELDAAL KGRTISCDVI IGTPFIHLAS IAAAIDTTRI
+     GVAAENCADK ESGAYTGEVS AAMVASTGAR YVIIGHSERR AYYHETSPIL MEKVKLALSN
+     GLTPIFCVGE VLEEREAGKH FEVVARQVEE ALFTLDQTDF AKLILAYEPV WAIGTGKTAT
+     ADQAQEMHAH IRKSIAAKYG KEVANGCSIL YGGSCNAANA KELFSRADVD GGLIGGASLS
+     VDKFLPIIEA F
+//

@@ -1,0 +1,95 @@
+ID   PPK_BACHD               Reviewed;         705 AA.
+AC   Q9KD27;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   07-JAN-2015, entry version 76.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347}; OrderedLocusNames=BH1392;
+OS   Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM
+OS   9153 / C-125).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N.,
+RA   Fuji F., Hirama C., Nakamura Y., Ogasawara N., Kuhara S.,
+RA   Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus
+RT   halodurans and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal
+CC       phosphate of ATP to form a long-chain polyphosphate (polyP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (phosphate)(n) = ADP + (phosphate)(n+1).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated
+CC       ppk in which a phosphate is covalently linked to histidine
+CC       residues through a N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000004; BAB05111.1; -; Genomic_DNA.
+DR   PIR; H83823; H83823.
+DR   RefSeq; NP_242258.1; NC_002570.2.
+DR   RefSeq; WP_010897557.1; NC_002570.2.
+DR   ProteinModelPortal; Q9KD27; -.
+DR   STRING; 272558.BH1392; -.
+DR   DNASU; 891215; -.
+DR   EnsemblBacteria; BAB05111; BAB05111; BAB05111.
+DR   GeneID; 891215; -.
+DR   KEGG; bha:BH1392; -.
+DR   PATRIC; 18939858; VBIBacHal18977_1447.
+DR   eggNOG; COG0855; -.
+DR   HOGENOM; HOG000248949; -.
+DR   KO; K00937; -.
+DR   OMA; NYHAGNA; -.
+DR   OrthoDB; EOG65TRRG; -.
+DR   BioCyc; BHAL272558:GJC5-1471-MONOMER; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1840.10; -; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR025200; PPK_C_dom.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF140356; SSF140356; 1.
+DR   TIGRFAMs; TIGR03705; poly_P_kin; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN         1    705       Polyphosphate kinase.
+FT                                /FTId=PRO_0000128635.
+FT   ACT_SITE    449    449       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+FT   ACT_SITE    468    468       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+SQ   SEQUENCE   705 AA;  81653 MW;  B15A010A9C29A3B6 CRC64;
+     MGTEEKMTRS DIDLNEPAFY NNRELSWLAF NERVLEEAID ERNPLLERLK FLAIFSSNLD
+     EFFMVRVAGL KDQVKAGFNK PENKAGLTPK QQLRQISERN HQLVQLQDRV YTETIIPMLS
+     QHGIQFLTFD ELSDKQRSFL EKRFDHYIFP VLTPMAVDAY RPFPMLLNKS LNLAVVIKNK
+     ESDSREQLAI VQVPSVLNRF ILLPCEDGKN QFILLENVIS YFIEKLFKGY TVKSVSPFRI
+     TRNADLPIHE EGARDLLREI EKELKKRKWG AAVRLEMQEG LMDPNVLKLL LDVLEIHKND
+     VYSLQGPLDL TFLFKLYNRL IVDYEHLTNE TLIPQPPEDL IGETNIFDAI LKRDIFLHHP
+     YESFQPVIDF IATAAEDPQV LAIKQTLYRV SGDSPIINAL ARAAENGKQV TVLVELKARF
+     DEENNIQWAK KLEKSGVHVI YGITGLKTHS KITLVVRHHN DEIQRFVHLG TGNYNDSTAK
+     LYTDMGLLTA DEEFGIDATN FFNHLSGYSE KPQWHHLSTA PFEIRDTFLD LIDQEIECHK
+     QNGNGHIIAK MNSLTDKPII LKLYEASRAG VRIELIVRGI CCLRPGIPNV SEHIRVFSIV
+     DRFLEHSRIF YFHHGGDDKV FLSSADWMTR NMEKRIEILF PIYQQSTKRR IIEILTITLL
+     DNMKAREQNQ FGQYRYVKRN PSEQPVQSQL TFFDMASRFS DSEAE
+//

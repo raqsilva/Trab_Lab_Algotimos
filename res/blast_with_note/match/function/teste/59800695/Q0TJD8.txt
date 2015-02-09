@@ -1,0 +1,84 @@
+ID   LPXK_ECOL5              Reviewed;         328 AA.
+AC   Q0TJD8;
+DT   12-JUN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   07-JAN-2015, entry version 54.
+DE   RecName: Full=Tetraacyldisaccharide 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+DE            EC=2.7.1.130 {ECO:0000255|HAMAP-Rule:MF_00409};
+DE   AltName: Full=Lipid A 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   Name=lpxK {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   OrderedLocusNames=ECP_0926;
+OS   Escherichia coli O6:K15:H31 (strain 536 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=362663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=536 / UPEC;
+RX   PubMed=16879640; DOI=10.1111/j.1365-2958.2006.05255.x;
+RA   Hochhut B., Wilde C., Balling G., Middendorf B., Dobrindt U.,
+RA   Brzuszkiewicz E., Gottschalk G., Carniel E., Hacker J.;
+RT   "Role of pathogenicity island-associated integrases in the genome
+RT   plasticity of uropathogenic Escherichia coli strain 536.";
+RL   Mol. Microbiol. 61:584-595(2006).
+CC   -!- FUNCTION: Transfers the gamma-phosphate of ATP to the 4'-position
+CC       of a tetraacyldisaccharide 1-phosphate intermediate (termed DS-1-
+CC       P) to form tetraacyldisaccharide 1,4'-bis-phosphate (lipid IVA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (2-N,3-O-bis(3-hydroxytetradecanoyl)-
+CC       beta-D-glucosaminyl)-(1->6)-(2-N,3-O-bis(3-hydroxytetradecanoyl)-
+CC       beta-D-glucosaminyl phosphate) = ADP + (2-N,3-O-bis(3-
+CC       hydroxytetradecanoyl)-4-O-phosphono-beta-D-glucosaminyl)-(1->6)-
+CC       (2-N,3-O-bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl
+CC       phosphate). {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid
+CC       IV(A) from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and
+CC       UDP-N-acetyl-alpha-D-glucosamine: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -!- SIMILARITY: Belongs to the LpxK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000247; ABG68941.1; -; Genomic_DNA.
+DR   RefSeq; YP_668842.1; NC_008253.1.
+DR   ProteinModelPortal; Q0TJD8; -.
+DR   SMR; Q0TJD8; 46-88.
+DR   STRING; 362663.ECP_0926; -.
+DR   EnsemblBacteria; ABG68941; ABG68941; ECP_0926.
+DR   GeneID; 4187508; -.
+DR   KEGG; ecp:ECP_0926; -.
+DR   PATRIC; 18192551; VBIEscCol77757_0937.
+DR   eggNOG; COG1663; -.
+DR   HOGENOM; HOG000004953; -.
+DR   KO; K00912; -.
+DR   OMA; PTVIYLI; -.
+DR   OrthoDB; EOG60GRWT; -.
+DR   BioCyc; ECOL362663:GIY5-931-MONOMER; -.
+DR   UniPathway; UPA00359; UER00482.
+DR   Proteomes; UP000009182; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009029; F:tetraacyldisaccharide 4'-kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00409; LpxK; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003758; Tetraacyldisaccharide_4-kinase.
+DR   Pfam; PF02606; LpxK; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00682; lpxK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Lipid A biosynthesis;
+KW   Lipid biosynthesis; Lipid metabolism; Nucleotide-binding; Transferase.
+FT   CHAIN         1    328       Tetraacyldisaccharide 4'-kinase.
+FT                                /FTId=PRO_0000291205.
+FT   NP_BIND      55     62       ATP. {ECO:0000255|HAMAP-Rule:MF_00409}.
+SQ   SEQUENCE   328 AA;  35466 MW;  7E8AE54B7FEE0206 CRC64;
+     MIEKIWSGES PLWRLLLPLS WLYGLVSGAI RLCYKLKLKR AWRAPIPVVV VGNLTAGGNG
+     KTPVVVWLVE QLQQRGIRVG VVSRGYGGKA ESYPLLLSAD TTTAQAGDEP VLIYQRTGAP
+     VAVSPVRSDA VKAILAQHPD VQIIVTDDGL QHYRLARDVE IVAIDGVRRF GNGWWLPAGP
+     MRERAGRLKS VDAVIVNGGV PRSGEIPMHL LPGQAVNLRT GTRCDVAQLE HVVAIAGIGH
+     PPRFFATLKM CGVQPEKCVP LADHQSLNHA DVSALVSAGQ TLVMTEKDAV KCRAFAEENW
+     WYLPVDAQLS GDEPAKLLAQ LTSLASGH
+//

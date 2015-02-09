@@ -1,0 +1,118 @@
+ID   MFD_MYCBO               Reviewed;        1234 AA.
+AC   P64327; P96380; X2BGR0;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   04-FEB-2015, entry version 73.
+DE   RecName: Full=Transcription-repair-coupling factor {ECO:0000255|HAMAP-Rule:MF_00969};
+DE            Short=TRCF {ECO:0000255|HAMAP-Rule:MF_00969};
+DE            EC=3.6.4.- {ECO:0000255|HAMAP-Rule:MF_00969};
+GN   Name=mfd {ECO:0000255|HAMAP-Rule:MF_00969}; OrderedLocusNames=Mb1048;
+OS   Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+OC   Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=233413;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-935 / AF2122/97;
+RX   PubMed=12788972; DOI=10.1073/pnas.1130426100;
+RA   Garnier T., Eiglmeier K., Camus J.-C., Medina N., Mansoor H.,
+RA   Pryor M., Duthoy S., Grondin S., Lacroix C., Monsempe C., Simon S.,
+RA   Harris B., Atkin R., Doggett J., Mayes R., Keating L., Wheeler P.R.,
+RA   Parkhill J., Barrell B.G., Cole S.T., Gordon S.V., Hewinson R.G.;
+RT   "The complete genome sequence of Mycobacterium bovis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:7877-7882(2003).
+CC   -!- FUNCTION: Couples transcription and DNA repair by recognizing RNA
+CC       polymerase (RNAP) stalled at DNA lesions. Mediates ATP-dependent
+CC       release of RNAP and its truncated transcript from the DNA, and
+CC       recruitment of nucleotide excision repair machinery to the damaged
+CC       site. {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the UvrB family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the helicase
+CC       family. RecG subfamily. {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BX248333; CDO42293.1; -; Genomic_DNA.
+DR   RefSeq; NP_854704.1; NC_002945.3.
+DR   ProteinModelPortal; P64327; -.
+DR   SMR; P64327; 42-238, 640-1004.
+DR   STRING; 233413.Mb1048; -.
+DR   GeneID; 1093442; -.
+DR   KEGG; mbo:Mb1048; -.
+DR   PATRIC; 18003971; VBIMycBov88188_1139.
+DR   eggNOG; COG1197; -.
+DR   HOGENOM; HOG000216591; -.
+DR   KO; K03723; -.
+DR   OMA; RDMSTIL; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   Proteomes; UP000001419; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0004386; F:helicase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000716; P:transcription-coupled nucleotide-excision repair, DNA damage recognition; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00969; TRCF; 1.
+DR   InterPro; IPR003711; CarD-like/TRCF_domain.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR004576; Mfd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005118; TRCF_C.
+DR   Pfam; PF02559; CarD_CdnL_TRCF; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF03461; TRCF; 1.
+DR   SMART; SM01058; CarD_TRCF; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SMART; SM00982; TRCF; 1.
+DR   SUPFAM; SSF141259; SSF141259; 1.
+DR   SUPFAM; SSF52540; SSF52540; 4.
+DR   TIGRFAMs; TIGR00580; mfd; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; DNA damage; DNA repair;
+KW   DNA-binding; Helicase; Hydrolase; Nucleotide-binding.
+FT   CHAIN         1   1234       Transcription-repair-coupling factor.
+FT                                /FTId=PRO_0000102171.
+FT   DOMAIN      663    824       Helicase ATP-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00969}.
+FT   DOMAIN      842    999       Helicase C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00969}.
+FT   NP_BIND     676    683       ATP. {ECO:0000255|HAMAP-Rule:MF_00969}.
+FT   MOTIF       777    780       DEEQ box.
+SQ   SEQUENCE   1234 AA;  132908 MW;  DBE48CE5ACF42B7D CRC64;
+     MTAPGPACSD TPIAGLVELA LSAPTFQQLM QRAGGRPDEL TLIAPASARL LVASALARQG
+     PLLVVTATGR EADDLAAELR GVFGDAVALL PSWETLPHER LSPGVDTVGT RLMALRRLAH
+     PDDAQLGPPL GVVVTSVRSL LQPMTPQLGM MEPLTLTVGD ESPFDGVVAR LVELAYTRVD
+     MVGRRGEFAV RGGILDIFAP TAEHPVRVEF WGDEITEMRM FSVADQRSIP EIDIHTLVAF
+     ACRELLLSED VRARAAQLAA RHPAAESTVT GSASDMLAKL AEGIAVDGME AVLPVLWSDG
+     HALLTDQLPD GTPVLVCDPE KVRTRAADLI RTGREFLEAS WSVAALGTAE NQAPVDVEQL
+     GGSGFVELDQ VRAAAARTGH PWWTLSQLSD ESAIELDVRA APSARGHQRD IDEIFAMLRA
+     HIATGGYAAL VAPGTGTAHR VVERLSESDT PAGMLDPGQA PKPGVVGVLQ GPLRDGVIIP
+     GANLVVITET DLTGSRVSAA EGKRLAAKRR NIVDPLALTA GDLVVHDQHG IGRFVEMVER
+     TVGGARREYL VLEYASAKRG GGAKNTDKLY VPMDSLDQLS RYVGGQAPAL SRLGGSDWAN
+     TKTKARRAVR EIAGELVSLY AKRQASPGHA FSPDTPWQAE LEDAFGFTET VDQLTAIEEV
+     KADMEKPIPM DRVICGDVGY GKTEIAVRAA FKAVQDGKQV AVLVPTTLLA DQHLQTFGER
+     MSGFPVTIKG LSRFTDAAES RAVIDGLADG SVDIVIGTHR LLQTGVRWKD LGLVVVDEEQ
+     RFGVEHKEHI KSLRTHVDVL TMSATPIPRT LEMSLAGIRE MSTILTPPEE RYPVLTYVGP
+     HDDKQIAAAL RRELLRDGQA FYVHNRVSSI DAAAARVREL VPEARVVVAH GQMPEDLLET
+     TVQRFWNREH DILVCTTIVE TGLDISNANT LIVERADTFG LSQLHQLRGR VGRSRERGYA
+     YFLYPPQVPL TETAYDRLAT IAQNNELGAG MAVALKDLEI RGAGNVLGIE QSGHVAGVGF
+     DLYVRLVGEA LETYRDAYRA AADGQTVRTA EEPKDVRIDL PVDAHLPPDY IASDRLRLEG
+     YRRLAAASSD REVAAVVDEL TDRYGALPEP ARRLAAVARL RLLCRGSGIT DVTAASAATV
+     RLSPLTLPDS AQVRLKRMYP GAHYRATTAT VQVPIPRAGG LGAPRIRDVE LVQMVADLIT
+     ALAGKPRQHI GITNPSPPGE DGRGRNTTIK ERQP
+//

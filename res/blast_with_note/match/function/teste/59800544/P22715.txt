@@ -1,0 +1,124 @@
+ID   GALE_SALTY              Reviewed;         338 AA.
+AC   P22715;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 2.
+DT   07-JAN-2015, entry version 101.
+DE   RecName: Full=UDP-glucose 4-epimerase;
+DE            EC=5.1.3.2;
+DE   AltName: Full=Galactowaldenase;
+DE   AltName: Full=UDP-galactose 4-epimerase;
+GN   Name=galE; OrderedLocusNames=STM0776;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2198256;
+RA   Houng H.S.H., Kopecko D.J., Baron L.S.;
+RT   "Molecular cloning and physical and functional characterization of the
+RT   Salmonella typhimurium and Salmonella typhi galactose utilization
+RT   operons.";
+RL   J. Bacteriol. 172:4392-4398(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Involved in the metabolism of galactose. Catalyzes the
+CC       conversion of UDP-galactose (UDP-Gal) to UDP-glucose (UDP-Glc)
+CC       through a mechanism involving the transient reduction of NAD (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: UDP-alpha-D-glucose = UDP-alpha-D-galactose.
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M33681; AAA27111.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL19714.1; -; Genomic_DNA.
+DR   PIR; A37760; A37760.
+DR   RefSeq; NP_459755.1; NC_003197.1.
+DR   ProteinModelPortal; P22715; -.
+DR   SMR; P22715; 1-338.
+DR   STRING; 99287.STM0776; -.
+DR   PaxDb; P22715; -.
+DR   PRIDE; P22715; -.
+DR   EnsemblBacteria; AAL19714; AAL19714; STM0776.
+DR   GeneID; 1252296; -.
+DR   KEGG; stm:STM0776; -.
+DR   PATRIC; 32379922; VBISalEnt20916_0809.
+DR   eggNOG; COG1087; -.
+DR   HOGENOM; HOG000168001; -.
+DR   KO; K01784; -.
+DR   OMA; PYQESFP; -.
+DR   OrthoDB; EOG6WHNS9; -.
+DR   PhylomeDB; P22715; -.
+DR   BioCyc; SENT99287:GCTI-781-MONOMER; -.
+DR   UniPathway; UPA00214; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0050662; F:coenzyme binding; IEA:InterPro.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006012; P:galactose metabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR025308; Epimerase_C.
+DR   InterPro; IPR001509; Epimerase_deHydtase_N.
+DR   InterPro; IPR005886; GalE.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   PANTHER; PTHR10366:SF39; PTHR10366:SF39; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   Pfam; PF13950; Epimerase_Csub; 1.
+DR   TIGRFAMs; TIGR01179; galE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Complete proteome; Galactose metabolism;
+KW   Isomerase; NAD; Reference proteome.
+FT   CHAIN         1    338       UDP-glucose 4-epimerase.
+FT                                /FTId=PRO_0000183218.
+FT   NP_BIND      11     12       NAD. {ECO:0000250}.
+FT   NP_BIND      31     36       NAD. {ECO:0000250}.
+FT   NP_BIND      58     59       NAD. {ECO:0000250}.
+FT   NP_BIND      80     84       NAD. {ECO:0000250}.
+FT   REGION      199    200       Substrate binding. {ECO:0000250}.
+FT   REGION      216    218       Substrate binding. {ECO:0000250}.
+FT   REGION      292    295       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    149    149       Proton acceptor. {ECO:0000250}.
+FT   BINDING      99     99       NAD. {ECO:0000250}.
+FT   BINDING     124    124       NAD. {ECO:0000250}.
+FT   BINDING     124    124       Substrate. {ECO:0000250}.
+FT   BINDING     149    149       NAD. {ECO:0000250}.
+FT   BINDING     149    149       Substrate. {ECO:0000250}.
+FT   BINDING     153    153       NAD. {ECO:0000250}.
+FT   BINDING     178    178       NAD; via carbonyl oxygen. {ECO:0000250}.
+FT   BINDING     179    179       Substrate. {ECO:0000250}.
+FT   BINDING     231    231       Substrate. {ECO:0000250}.
+FT   BINDING     299    299       Substrate. {ECO:0000250}.
+FT   CONFLICT     88     88       E -> N (in Ref. 1; AAA27111).
+FT                                {ECO:0000305}.
+FT   CONFLICT    144    144       T -> A (in Ref. 1; AAA27111).
+FT                                {ECO:0000305}.
+FT   CONFLICT    149    149       Y -> T (in Ref. 1; AAA27111).
+FT                                {ECO:0000305}.
+FT   CONFLICT    292    292       Missing (in Ref. 1; AAA27111).
+FT                                {ECO:0000305}.
+FT   CONFLICT    335    335       G -> A (in Ref. 1; AAA27111).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   338 AA;  37134 MW;  5F27201F0B3D5E65 CRC64;
+     MRVLVTGGSG YIGSHTCVQL LQNGHDVVIL DNLCNSKRSV LPVIERLGGK HPTFVEGDIR
+     NEALITEILH DHAIDTVIHF AGLKAVGESV ARPLEYYDNN VNGTLRLVSA MRAANVKNLI
+     FSSSATVYGD QPKIPYVESF PTGTPQSPYG KSKLMVEQIL TDLQKAQPEW SIALLRYFNP
+     VGAHPSGDMG EDPQGIPNNL MPYIAQVAVG RRESLAVFGN DYPTEDGTGV RDYIHVMDLA
+     DGHVVAMEKL ADKSGVHIYN LGAGVGSSVL DVVNAFSKAC GKPINYHFAP RRDGDLPAYW
+     ADASKADREL NWRVTRTLDE MAQDTWHWQS RHPQGYPD
+//

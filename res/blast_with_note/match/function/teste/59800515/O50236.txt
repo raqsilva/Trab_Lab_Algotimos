@@ -1,0 +1,166 @@
+ID   CARB_ZYMMO              Reviewed;        1112 AA.
+AC   O50236; Q5NM19;
+DT   02-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 2.
+DT   07-JAN-2015, entry version 104.
+DE   RecName: Full=Carbamoyl-phosphate synthase large chain {ECO:0000255|HAMAP-Rule:MF_01210};
+DE            EC=6.3.5.5 {ECO:0000255|HAMAP-Rule:MF_01210};
+DE   AltName: Full=Carbamoyl-phosphate synthetase ammonia chain {ECO:0000255|HAMAP-Rule:MF_01210};
+GN   Name=carB {ECO:0000255|HAMAP-Rule:MF_01210};
+GN   OrderedLocusNames=ZMO1617;
+OS   Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales;
+OC   Sphingomonadaceae; Zymomonas.
+OX   NCBI_TaxID=264203;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 31821 / ZM4 / CP4;
+RA   Lee J.S., Jin S.J., Kang H.L., Kang H.S.;
+RL   Submitted (AUG-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 31821 / ZM4 / CP4;
+RX   PubMed=15592456; DOI=10.1038/nbt1045;
+RA   Seo J.-S., Chong H., Park H.S., Yoon K.-O., Jung C., Kim J.J.,
+RA   Hong J.H., Kim H., Kim J.-H., Kil J.-I., Park C.J., Oh H.-M.,
+RA   Lee J.-S., Jin S.-J., Um H.-W., Lee H.-J., Oh S.-J., Kim J.Y.,
+RA   Kang H.L., Lee S.Y., Lee K.J., Kang H.S.;
+RT   "The genome sequence of the ethanologenic bacterium Zymomonas mobilis
+RT   ZM4.";
+RL   Nat. Biotechnol. 23:63-68(2005).
+CC   -!- CATALYTIC ACTIVITY: 2 ATP + L-glutamine + HCO(3)(-) + H(2)O = 2
+CC       ADP + phosphate + L-glutamate + carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01210}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 4 Mg(2+) or Mn(2+) ions per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis;
+CC       carbamoyl phosphate from bicarbonate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01210}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; (S)-dihydroorotate from bicarbonate: step 1/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_01210}.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by
+CC       the large (or ammonia) chain to synthesize carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01210}.
+CC   -!- SIMILARITY: Belongs to the CarB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01210}.
+CC   -!- SIMILARITY: Contains 2 ATP-grasp domains. {ECO:0000255|HAMAP-
+CC       Rule:MF_01210}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AE008692; Type=Frameshift; Positions=282; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF086791; AAC70356.1; -; Genomic_DNA.
+DR   EMBL; AE008692; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   PIR; T33717; T33717.
+DR   ProteinModelPortal; O50236; -.
+DR   STRING; 264203.ZMO1617; -.
+DR   PRIDE; O50236; -.
+DR   eggNOG; COG0458; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   Proteomes; UP000001173; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.1030.10; -; 1.
+DR   Gene3D; 3.30.1490.20; -; 2.
+DR   Gene3D; 3.30.470.20; -; 2.
+DR   Gene3D; 3.40.50.1380; -; 1.
+DR   Gene3D; 3.40.50.20; -; 2.
+DR   HAMAP; MF_01210_A; CPSase_L_chain_A; 1.
+DR   HAMAP; MF_01210_B; CPSase_L_chain_B; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR006275; CarbamoylP_synth_lsu.
+DR   InterPro; IPR005481; CarbamoylP_synth_lsu_N.
+DR   InterPro; IPR005480; CarbamoylP_synth_lsu_oligo.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR005483; CbamoylP_synth_lsu_CPSase_dom.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR016185; PreATP-grasp_dom.
+DR   Pfam; PF00289; CPSase_L_chain; 2.
+DR   Pfam; PF02786; CPSase_L_D2; 2.
+DR   Pfam; PF02787; CPSase_L_D3; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PRINTS; PR00098; CPSASE.
+DR   SMART; SM01096; CPSase_L_D3; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF48108; SSF48108; 2.
+DR   SUPFAM; SSF52335; SSF52335; 1.
+DR   SUPFAM; SSF52440; SSF52440; 2.
+DR   TIGRFAMs; TIGR01369; CPSaseII_lrg; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 2.
+DR   PROSITE; PS00866; CPSASE_1; 1.
+DR   PROSITE; PS00867; CPSASE_2; 2.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding;
+KW   Complete proteome; Ligase; Magnesium; Manganese; Metal-binding;
+KW   Nucleotide-binding; Pyrimidine biosynthesis; Reference proteome;
+KW   Repeat.
+FT   CHAIN         1   1112       Carbamoyl-phosphate synthase large chain.
+FT                                /FTId=PRO_0000145070.
+FT   DOMAIN      133    330       ATP-grasp 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01210}.
+FT   DOMAIN      716    907       ATP-grasp 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01210}.
+FT   NP_BIND     159    216       ATP. {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   NP_BIND     742    799       ATP. {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   REGION        1    404       Carboxyphosphate synthetic domain.
+FT   REGION      405    587       Oligomerization domain.
+FT   REGION      588    972       Carbamoyl phosphate synthetic domain.
+FT   REGION      973   1112       Allosteric domain.
+FT   METAL       287    287       Magnesium or manganese 1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   METAL       301    301       Magnesium or manganese 1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   METAL       301    301       Magnesium or manganese 2.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   METAL       303    303       Magnesium or manganese 2.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   METAL       866    866       Magnesium or manganese 3.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   METAL       878    878       Magnesium or manganese 3.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   METAL       878    878       Magnesium or manganese 4.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   METAL       880    880       Magnesium or manganese 4.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01210}.
+FT   CONFLICT    163    163       Missing (in Ref. 1; AAC70356).
+FT                                {ECO:0000305}.
+FT   CONFLICT    281    282       Missing (in Ref. 1; AAC70356).
+FT                                {ECO:0000305}.
+FT   CONFLICT    560    591       CAAEFEAKTPYMYSTYEAPFFGEPVCDSLPSN -> ARLNL
+FT                                KPKRLICIPLMKRLSLVNLFAILCQAI (in Ref. 1;
+FT                                AAC70356). {ECO:0000305}.
+FT   CONFLICT    940    956       Missing (in Ref. 1; AAC70356).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   1112 AA;  119529 MW;  B65A11546F8E085D CRC64;
+     MPKRTDLQSI MIIGAGPIVI GQACEFDYSG TQACKALREE GYRVILVNSN PATIMTDPDM
+     ADATYIEPIT PEVVARIIEK ERPDALLPTM GGQTALNTAL ALASDGTLEK FNCEMIGADA
+     TAIDKAEDRL KFRQAMDKIG LESPRSSVAH SLEEALDGLD YVGLPAIIRP SFTMGGTGGG
+     VAYNKEEFID IVSGGLSASP TQEVLIEESV IGWKEYEMEV VRDRHDNCII ICSIENIDPM
+     GVHTGDSITV APALTMTDKE YQIMRNASIA VLREIGVETG NGGSNVQFAL NPENGRLVVI
+     EMNPRVSRSS ALASKATGFP IAKVATKLAI GYTLDEITND ITGATPASFE PTIDYVVTKI
+     PRFAFEKFKN AKPLLTTAMK SVGEVMAIGR SFPESLQKAL RGLENGLSGL DPVEALVGAN
+     PSVIEAELAR PTPDRLLVAA QALREGLPAE KICEITHYDP WFIARLAEII AAENEVISNG
+     LPLEAAAFRR LKAMGFSDKR LADLALQSAH LRGLGKAQAK GSGIVHDALQ AMTGGVTEAE
+     VRTLRHSLNI RPVFKRIDSC AAEFEAKTPY MYSTYEAPFF GEPVCDSLPS NRKKVVILGG
+     GPNRIGQGLE FDYCCCHACF ALEAAGYETI MVNCNPETVS TDYDTSDRLY FEPLTGEDVL
+     EILHTEQKNG TLVGVIVQFG GQTPLKLAAE IEKAGIPILG TSPDAIDLAE DRERFSALVS
+     ELGLLQPANG IARSRDEAIS VADKIGYPIL IRPSYVLGGR AMEIIDGPSQ LDDYIHTAVK
+     VSGESPVLID QYLRDATEVD VDAVADGDDV VVAGILQHIE EAGIHSGDSA CSIPPYSLPA
+     SIIEEIKSQT DKLARALKVQ GLMNIQFAVK GDKVYLIEVN PRASRTVPFV AKADGRPVAQ
+     VAARVMAGEK LRNLPEISWP EGYTAVKEAV FPWARFPGVD PVLSPEMKST GEVMGIDIDF
+     PMAFAKAQLA AGNALPRAGT FFISVKDSDK AQIVEPIKAL TDLGIKLVAT DGTARYLQSK
+     GVPVERVNKV REGRPHIVDL IKDGAISLVV NTTEGWQSLQ DSASIRSSVV LAPVPYFTTA
+     AAAIVAAEAI VAIKARELEV RSLQSYHSMK HA
+//

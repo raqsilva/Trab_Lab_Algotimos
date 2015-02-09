@@ -1,0 +1,89 @@
+ID   AROB_PSEPF              Reviewed;         366 AA.
+AC   Q3KJA1;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   04-FEB-2015, entry version 76.
+DE   RecName: Full=3-dehydroquinate synthase {ECO:0000255|HAMAP-Rule:MF_00110};
+DE            EC=4.2.3.4 {ECO:0000255|HAMAP-Rule:MF_00110};
+GN   Name=aroB {ECO:0000255|HAMAP-Rule:MF_00110};
+GN   OrderedLocusNames=Pfl01_0411;
+OS   Pseudomonas fluorescens (strain Pf0-1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=205922;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pf0-1;
+RX   PubMed=19432983; DOI=10.1186/gb-2009-10-5-r51;
+RA   Silby M.W., Cerdeno-Tarraga A.M., Vernikos G.S., Giddens S.R.,
+RA   Jackson R.W., Preston G.M., Zhang X.-X., Moon C.D., Gehrig S.M.,
+RA   Godfrey S.A.C., Knight C.G., Malone J.G., Robinson Z., Spiers A.J.,
+RA   Harris S., Challis G.L., Yaxley A.M., Harris D., Seeger K., Murphy L.,
+RA   Rutter S., Squares R., Quail M.A., Saunders E., Mavromatis K.,
+RA   Brettin T.S., Bentley S.D., Hothersall J., Stephens E., Thomas C.M.,
+RA   Parkhill J., Levy S.B., Rainey P.B., Thomson N.R.;
+RT   "Genomic and genetic analyses of diversity and plant interactions of
+RT   Pseudomonas fluorescens.";
+RL   Genome Biol. 10:R51.1-R51.16(2009).
+CC   -!- CATALYTIC ACTIVITY: 3-deoxy-D-arabino-hept-2-ulosonate 7-phosphate
+CC       = 3-dehydroquinate + phosphate. {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00110};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00110};
+CC       Note=Binds 1 divalent metal cation per subunit. Can use either
+CC       Co(2+) or Zn(2+). {ECO:0000255|HAMAP-Rule:MF_00110};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00110};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate
+CC       biosynthesis; chorismate from D-erythrose 4-phosphate and
+CC       phosphoenolpyruvate: step 2/7. {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- SIMILARITY: Belongs to the dehydroquinate synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000094; ABA72155.1; -; Genomic_DNA.
+DR   RefSeq; WP_011332082.1; NC_007492.2.
+DR   RefSeq; YP_346144.1; NC_007492.2.
+DR   ProteinModelPortal; Q3KJA1; -.
+DR   STRING; 205922.Pfl01_0411; -.
+DR   EnsemblBacteria; ABA72155; ABA72155; Pfl01_0411.
+DR   GeneID; 3712458; -.
+DR   KEGG; pfo:Pfl01_0411; -.
+DR   PATRIC; 19882855; VBIPseFlu44242_0414.
+DR   eggNOG; COG0337; -.
+DR   HOGENOM; HOG000007970; -.
+DR   KO; K01735; -.
+DR   OMA; IERSCAA; -.
+DR   OrthoDB; EOG6SJJGD; -.
+DR   BioCyc; PFLU205922:GJBD-419-MONOMER; -.
+DR   UniPathway; UPA00053; UER00085.
+DR   Proteomes; UP000002704; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003856; F:3-dehydroquinate synthase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_00110; DHQ_synthase; 1.
+DR   InterPro; IPR016037; DHQ_synth_AroB.
+DR   PIRSF; PIRSF001455; DHQ_synth; 1.
+DR   TIGRFAMs; TIGR01357; aroB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Cobalt;
+KW   Complete proteome; Cytoplasm; Lyase; NAD; Zinc.
+FT   CHAIN         1    366       3-dehydroquinate synthase.
+FT                                /FTId=PRO_0000231115.
+SQ   SEQUENCE   366 AA;  39833 MW;  6849C2A1BEB3155B CRC64;
+     MQTLKVDLGE RSYPIHIGEG LLDQPELLAP HIHGRQVAII SNETVAPLYL ERLTRSLAQF
+     SVVSVVLPDG EAFKNWETLQ LIFDGLLTAR HDRRTTVIAL GGGVIGDMAG FAAACYQRGV
+     DFIQIPTTLL SQVDSSVGGK TGINHPLGKN MVGAFYQPNV VLIDTASLKT LPARELSAGL
+     AEVIKYGLIC DEPFLTWLED NVDALRALDQ TALTYAIERS CAAKAAVVGA DEKETGVRAT
+     LNLGHTFGHA IETHMGYGVW LHGEAVAAGT VMALEMSARL GWISEQERDR GIRLFQRAGL
+     PVIPPEEMTE ADFLEHMAID KKVIDGRLRL VLLRRMGEAV VTDDYPKEVL QATLGADYRA
+     LAQLKG
+//

@@ -1,0 +1,84 @@
+ID   HEMN_PASHA              Reviewed;         146 AA.
+AC   P95506;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   26-NOV-2014, entry version 69.
+DE   RecName: Full=Oxygen-independent coproporphyrinogen-III oxidase;
+DE            Short=CPO;
+DE            EC=1.3.99.22;
+DE   AltName: Full=Coproporphyrinogen III dehydrogenase;
+DE            Short=CPDH;
+DE   Flags: Fragment;
+GN   Name=hemN;
+OS   Pasteurella haemolytica (Mannheimia haemolytica).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Mannheimia.
+OX   NCBI_TaxID=75985;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Serotype A1 / PH101;
+RX   PubMed=8921897; DOI=10.1016/0378-1119(96)00340-X;
+RA   Highlander S.K., Garza O.;
+RT   "The restriction-modification system of Pasteurella haemolytica is a
+RT   member of a new family of type I enzymes.";
+RL   Gene 178:89-96(1996).
+CC   -!- FUNCTION: Involved in the heme biosynthesis. Catalyzes the
+CC       anaerobic oxidative decarboxylation of propionate groups of rings
+CC       A and B of coproporphyrinogen-III to yield the vinyl groups in
+CC       protoporphyrinogen-IX (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Coproporphyrinogen-III + 2 S-adenosyl-L-
+CC       methionine = protoporphyrinogen-IX + 2 CO(2) + 2 L-methionine + 2
+CC       5'-deoxyadenosine.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000250};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-
+CC       IX biosynthesis; protoporphyrinogen-IX from coproporphyrinogen-III
+CC       (AdoMet route): step 1/1.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the anaerobic coproporphyrinogen-III
+CC       oxidase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U46781; AAC44662.1; -; Genomic_DNA.
+DR   ProteinModelPortal; P95506; -.
+DR   SMR; P95506; 3-146.
+DR   UniPathway; UPA00251; UER00323.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; ISS:UniProtKB.
+DR   GO; GO:0051989; F:coproporphyrinogen dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006779; P:porphyrin-containing compound biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; ISS:UniProtKB.
+DR   Gene3D; 3.80.30.20; -; 1.
+DR   InterPro; IPR023404; rSAM_horseshoe.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cytoplasm; Iron; Iron-sulfur; Metal-binding; Oxidoreductase;
+KW   Porphyrin biosynthesis; S-adenosyl-L-methionine.
+FT   CHAIN         1   >146       Oxygen-independent coproporphyrinogen-III
+FT                                oxidase.
+FT                                /FTId=PRO_0000109946.
+FT   REGION      111    112       S-adenosyl-L-methionine 2 binding.
+FT                                {ECO:0000250}.
+FT   METAL        60     60       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        64     64       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        67     67       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   BINDING      54     54       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   BINDING      66     66       S-adenosyl-L-methionine 2; via carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     143    143       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   NON_TER     146    146
+SQ   SEQUENCE   146 AA;  17351 MW;  F7C6AEFC4F2301EF CRC64;
+     MSEIIWDLAL IQKYNHSGPR YTSYPTALEF NENYTNEDFI RAAARYPERP LSLYVHIPFC
+     HKLCYFCGCN KVITRHRHKV EIYLDYLERE IKTRAPLFQN RLVTQIHWGR GTPTYLDEDQ
+     SARLMQMLRA NFDVSDDAEI SIEMDP
+//

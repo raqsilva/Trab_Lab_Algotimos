@@ -1,0 +1,100 @@
+ID   HIS3_PSEAB              Reviewed;         134 AA.
+AC   Q02EV1;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   04-FEB-2015, entry version 54.
+DE   RecName: Full=Phosphoribosyl-AMP cyclohydrolase {ECO:0000255|HAMAP-Rule:MF_01021};
+DE            Short=PRA-CH {ECO:0000255|HAMAP-Rule:MF_01021};
+DE            EC=3.5.4.19 {ECO:0000255|HAMAP-Rule:MF_01021};
+GN   Name=hisI {ECO:0000255|HAMAP-Rule:MF_01021};
+GN   OrderedLocusNames=PA14_66940;
+OS   Pseudomonas aeruginosa (strain UCBPP-PA14).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UCBPP-PA14;
+RX   PubMed=17038190; DOI=10.1186/gb-2006-7-10-r90;
+RA   Lee D.G., Urbach J.M., Wu G., Liberati N.T., Feinbaum R.L., Miyata S.,
+RA   Diggins L.T., He J., Saucier M., Deziel E., Friedman L., Li L.,
+RA   Grills G., Montgomery K., Kucherlapati R., Rahme L.G., Ausubel F.M.;
+RT   "Genomic analysis reveals that Pseudomonas aeruginosa virulence is
+RT   combinatorial.";
+RL   Genome Biol. 7:R90.1-R90.14(2006).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of the adenine ring of
+CC       phosphoribosyl-AMP. {ECO:0000255|HAMAP-Rule:MF_01021}.
+CC   -!- CATALYTIC ACTIVITY: 1-(5-phospho-beta-D-ribosyl)-AMP + H(2)O = 1-
+CC       (5-phospho-beta-D-ribosyl)-5-((5-phospho-beta-D-
+CC       ribosylamino)methylideneamino)imidazole-4-carboxamide.
+CC       {ECO:0000255|HAMAP-Rule:MF_01021}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01021};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01021};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01021};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01021};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-
+CC       histidine from 5-phospho-alpha-D-ribose 1-diphosphate: step 3/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01021}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01021}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01021}.
+CC   -!- SIMILARITY: Belongs to the PRA-CH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01021}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000438; ABJ14449.1; -; Genomic_DNA.
+DR   RefSeq; YP_793535.1; NC_008463.1.
+DR   ProteinModelPortal; Q02EV1; -.
+DR   SMR; Q02EV1; 7-120.
+DR   STRING; 208963.PA14_66940; -.
+DR   EnsemblBacteria; ABJ14449; ABJ14449; PA14_66940.
+DR   GeneID; 4383378; -.
+DR   KEGG; pau:PA14_66940; -.
+DR   PATRIC; 19857165; VBIPseAer79785_5494.
+DR   eggNOG; COG0139; -.
+DR   HOGENOM; HOG000277504; -.
+DR   KO; K01496; -.
+DR   OMA; GACHVGY; -.
+DR   OrthoDB; EOG6PGKB6; -.
+DR   BioCyc; PAER208963:GI5K-5456-MONOMER; -.
+DR   UniPathway; UPA00031; UER00008.
+DR   Proteomes; UP000000653; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004635; F:phosphoribosyl-AMP cyclohydrolase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01021; HisI; 1.
+DR   InterPro; IPR026660; PRA-CH.
+DR   InterPro; IPR002496; PRib_AMP_CycHydrolase_dom.
+DR   Pfam; PF01502; PRA-CH; 1.
+DR   ProDom; PD002610; PRA_CycHdrlase; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Complete proteome; Cytoplasm;
+KW   Histidine biosynthesis; Hydrolase; Magnesium; Metal-binding; Zinc.
+FT   CHAIN         1    134       Phosphoribosyl-AMP cyclohydrolase.
+FT                                /FTId=PRO_1000063425.
+FT   METAL        77     77       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01021}.
+FT   METAL        78     78       Zinc; shared with dimeric partner.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01021}.
+FT   METAL        79     79       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01021}.
+FT   METAL        81     81       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01021}.
+FT   METAL        95     95       Zinc; shared with dimeric partner.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01021}.
+FT   METAL       102    102       Zinc; shared with dimeric partner.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01021}.
+SQ   SEQUENCE   134 AA;  15389 MW;  4B93F29266BA4FDE CRC64;
+     MKDWLDEIHW NADGLVPAIA QDHETGRVLM MAWMNREALA LTASENRAIY WSRSRGKLWR
+     KGEESGHVQK LHELRLDCDA DVVILMVEQV GGIACHTGRE SCFYRVFENG AWKTIDPVLK
+     DPDAIYEHAG HHHE
+//

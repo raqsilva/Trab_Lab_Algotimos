@@ -1,0 +1,89 @@
+ID   MTSA_STRSA              Reviewed;         309 AA.
+AC   P31304;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   07-JAN-2015, entry version 73.
+DE   RecName: Full=Manganese ABC transporter substrate-binding lipoprotein;
+DE   AltName: Full=Adhesin B;
+DE   AltName: Full=Saliva-binding protein;
+DE   Flags: Precursor;
+GN   Name=ssaB;
+OS   Streptococcus sanguinis.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=1305;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 25-53.
+RC   STRAIN=12;
+RX   PubMed=1671775;
+RA   Ganeshkumar N., Hannam P.M., Kolenbrander P.E., McBride B.C.;
+RT   "Nucleotide sequence of a gene coding for a saliva-binding protein
+RT   (SsaB) from Streptococcus sanguis 12 and possible role of the protein
+RT   in coaggregation with actinomyces.";
+RL   Infect. Immun. 59:1093-1099(1991).
+RN   [2]
+RP   DIACYLGLYCEROL AT CYS-20, PALMITOYLATION AT CYS-20, AND MUTAGENESIS OF
+RP   CYS-20.
+RX   PubMed=8419308;
+RA   Ganeshkumar N., Arora N., Kolenbrander P.E.;
+RT   "Saliva-binding protein (SsaB) from Streptococcus sanguis 12 is a
+RT   lipoprotein.";
+RL   J. Bacteriol. 175:572-574(1993).
+CC   -!- FUNCTION: Part of an ATP-driven transport system for manganese.
+CC       Also act as an adhesin which is involved on adherence to
+CC       extracellular matrix. It is an important factor in the
+CC       pathogenesis and infection. It may contribute to the formation and
+CC       accumulation of dental plaque.
+CC   -!- SUBUNIT: Homodimer and homotrimer.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Lipid-anchor.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 9
+CC       family. Lipoprotein receptor antigen (Lrai) subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M63481; AAC98426.1; -; Genomic_DNA.
+DR   PIR; A43583; A43583.
+DR   ProteinModelPortal; P31304; -.
+DR   SMR; P31304; 24-309.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0030001; P:metal ion transport; IEA:InterPro.
+DR   InterPro; IPR006129; AdhesinB.
+DR   InterPro; IPR006128; Lipoprotein_4.
+DR   InterPro; IPR006127; Perip_solute-bd_prot_fam.
+DR   PANTHER; PTHR30477:SF1; PTHR30477:SF1; 1.
+DR   Pfam; PF01297; TroA; 1.
+DR   PRINTS; PR00691; ADHESINB.
+DR   PRINTS; PR00690; ADHESNFAMILY.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Lipoprotein; Manganese;
+KW   Membrane; Metal-binding; Palmitate; Signal; Transport; Zinc.
+FT   SIGNAL        1     19       {ECO:0000255|PROSITE-ProRule:PRU00303}.
+FT   CHAIN        20    309       Manganese ABC transporter substrate-
+FT                                binding lipoprotein.
+FT                                /FTId=PRO_0000031898.
+FT   METAL        67     67       Zinc. {ECO:0000250}.
+FT   METAL       139    139       Zinc. {ECO:0000250}.
+FT   METAL       205    205       Zinc. {ECO:0000250}.
+FT   METAL       280    280       Zinc. {ECO:0000250}.
+FT   LIPID        20     20       N-palmitoyl cysteine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00303,
+FT                                ECO:0000269|PubMed:8419308}.
+FT   LIPID        20     20       S-diacylglycerol cysteine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00303,
+FT                                ECO:0000269|PubMed:8419308}.
+FT   MUTAGEN      15     15       C->G: No loss of acylation.
+FT   MUTAGEN      20     20       C->G: Loss of acylation.
+FT                                {ECO:0000269|PubMed:8419308}.
+SQ   SEQUENCE   309 AA;  34684 MW;  8FC8AF434AB18977 CRC64;
+     MKKLGFLSLL LLAVCTLFAC SNQKNASSDS SKLKVVATNS IIADITKNIA GDKIDLHSIV
+     PVGKDPHEYE PLPEDVKKTS QADLIFYNGI NLETGGNAWF TKLVKNANKE ENKDYYAVSD
+     GVDVIYLEGQ SEKGKEDPHA WLNLENGIIY AQNIAKRLIE KDPDNKATYE KNLKAYVEKL
+     TALDKEAKEK FNNIPEEKKM IVTSEGCFKY FSKAYNVPSA YIWEINTEEE GTPDQIKSLV
+     EKLRKTKVPS LFVESSVDDR PMKTVSKDTN IPIHAKIFTD SIADQGEEGD TYYSMMKYNL
+     DKISEGLAK
+//

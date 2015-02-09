@@ -1,0 +1,103 @@
+ID   PPK_STRCO               Reviewed;         746 AA.
+AC   Q9KZV6;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   27-APR-2001, sequence version 2.
+DT   07-JAN-2015, entry version 79.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347}; OrderedLocusNames=SCO4145;
+GN   ORFNames=SCD84.12c;
+OS   Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Streptomycineae; Streptomycetaceae; Streptomyces;
+OC   Streptomyces albidoflavus group.
+OX   NCBI_TaxID=100226;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-471 / A3(2) / M145;
+RX   PubMed=12000953; DOI=10.1038/417141a;
+RA   Bentley S.D., Chater K.F., Cerdeno-Tarraga A.-M., Challis G.L.,
+RA   Thomson N.R., James K.D., Harris D.E., Quail M.A., Kieser H.,
+RA   Harper D., Bateman A., Brown S., Chandra G., Chen C.W., Collins M.,
+RA   Cronin A., Fraser A., Goble A., Hidalgo J., Hornsby T., Howarth S.,
+RA   Huang C.-H., Kieser T., Larke L., Murphy L.D., Oliver K., O'Neil S.,
+RA   Rabbinowitsch E., Rajandream M.A., Rutherford K.M., Rutter S.,
+RA   Seeger K., Saunders D., Sharp S., Squares R., Squares S., Taylor K.,
+RA   Warren T., Wietzorrek A., Woodward J.R., Barrell B.G., Parkhill J.,
+RA   Hopwood D.A.;
+RT   "Complete genome sequence of the model actinomycete Streptomyces
+RT   coelicolor A3(2).";
+RL   Nature 417:141-147(2002).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal
+CC       phosphate of ATP to form a long-chain polyphosphate (polyP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (phosphate)(n) = ADP + (phosphate)(n+1).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated
+CC       ppk in which a phosphate is covalently linked to histidine
+CC       residues through a N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAB88478.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL939119; CAB88478.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_628322.1; NC_003888.3.
+DR   ProteinModelPortal; Q9KZV6; -.
+DR   STRING; 100226.SCO4145; -.
+DR   EnsemblBacteria; CAB88478; CAB88478; CAB88478.
+DR   GeneID; 1099585; -.
+DR   KEGG; sco:SCO4145; -.
+DR   PATRIC; 23738088; VBIStrCoe124346_4209.
+DR   eggNOG; COG0855; -.
+DR   HOGENOM; HOG000248948; -.
+DR   InParanoid; Q9KZV6; -.
+DR   KO; K00937; -.
+DR   OrthoDB; EOG65TRRG; -.
+DR   PhylomeDB; Q9KZV6; -.
+DR   Proteomes; UP000001973; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1840.10; -; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR025200; PPK_C_dom.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF140356; SSF140356; 1.
+DR   TIGRFAMs; TIGR03705; poly_P_kin; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN         1    746       Polyphosphate kinase.
+FT                                /FTId=PRO_0000128661.
+FT   ACT_SITE    489    489       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+FT   ACT_SITE    508    508       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+SQ   SEQUENCE   746 AA;  83486 MW;  F19AD2A34D1DDE08 CRC64;
+     MRQPNTQAEA QHTQPSVGSI AAHRPNTVAA TVSGLEPDID ADLDAYEESE ESQDGGARLP
+     QGRFLDRERS WLAFNERVLE LAEDPSTPLL ERANFLAIFA SNLDEFFMVR VAGLKRRIAT
+     GVATRSASGL QPREVLEMIW ARSRELMARH AACFHEDVAP ALAEEGIHLV RWSELAEKEQ
+     ARLFTLFRHR IFPVLTPLAV DPAHPFPYIS GLSLNLAVVV RNPVTGHRHF ARVKVPPLLS
+     RFLEASPGRY VPVEDVIAAH LEELFPGMEV LEHHTFRLTR NEDLEVEEDD AENLLQALEK
+     ELMRRRLGPP VRLEVEESVD REVLDLLVRE LKIGEAEVYP LPGPLDLTGL FRIHSIDRPE
+     LKYPKFVAGT HRDLAEVESA SAPDIFAALR TKDVLLHHPY DSFSTSVQAF LEQAAADPDV
+     LAIKQTLYRT SGDSPIVDAL IEAAESGKQV LVLVEIKARF DESANIKWAR KLEESGCHVV
+     YGLVGLKTHC KLSLVVRQEG ETLRRYSHVG TGNYHPKTAR LYEDLGLLTS DPQVGADLSD
+     LFNRLSGYSR RETYRRLLVA PKSLRDGLVS RIHKEIQHHR AGRPAHVRIK VNSMVDEAVV
+     DACYRASQAG VPVDVWVRGI CALRPGVPGL SENIRVRSVL GRFLEHSRVF AFGNGGEPEV
+     WLGSADMMHR NLDRRIEALV RVTDPAHRAA LNRLLENGMS DGTASWHLGP DGEWTRHATD
+     ADGQPLRNIQ EMLIDARRRR RGTATP
+//

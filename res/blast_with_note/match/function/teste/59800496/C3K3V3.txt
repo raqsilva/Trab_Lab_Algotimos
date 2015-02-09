@@ -1,0 +1,92 @@
+ID   ARGA_PSEFS              Reviewed;         433 AA.
+AC   C3K3V3;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   07-JAN-2015, entry version 42.
+DE   RecName: Full=Amino-acid acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            EC=2.3.1.1 {ECO:0000255|HAMAP-Rule:MF_01105};
+DE   AltName: Full=N-acetylglutamate synthase {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            Short=AGS {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            Short=NAGS {ECO:0000255|HAMAP-Rule:MF_01105};
+GN   Name=argA {ECO:0000255|HAMAP-Rule:MF_01105};
+GN   OrderedLocusNames=PFLU_5862;
+OS   Pseudomonas fluorescens (strain SBW25).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=216595;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SBW25;
+RX   PubMed=19432983; DOI=10.1186/gb-2009-10-5-r51;
+RA   Silby M.W., Cerdeno-Tarraga A.M., Vernikos G.S., Giddens S.R.,
+RA   Jackson R.W., Preston G.M., Zhang X.-X., Moon C.D., Gehrig S.M.,
+RA   Godfrey S.A.C., Knight C.G., Malone J.G., Robinson Z., Spiers A.J.,
+RA   Harris S., Challis G.L., Yaxley A.M., Harris D., Seeger K., Murphy L.,
+RA   Rutter S., Squares R., Quail M.A., Saunders E., Mavromatis K.,
+RA   Brettin T.S., Bentley S.D., Hothersall J., Stephens E., Thomas C.M.,
+RA   Parkhill J., Levy S.B., Rainey P.B., Thomson N.R.;
+RT   "Genomic and genetic analyses of diversity and plant interactions of
+RT   Pseudomonas fluorescens.";
+RL   Genome Biol. 10:R51.1-R51.16(2009).
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + L-glutamate = CoA + N-acetyl-L-
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-
+CC       acetyl-L-ornithine from L-glutamate: step 1/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01105}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. ArgA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -!- SIMILARITY: Contains 1 N-acetyltransferase domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM181176; CAY53306.1; -; Genomic_DNA.
+DR   RefSeq; YP_002875349.1; NC_012660.1.
+DR   ProteinModelPortal; C3K3V3; -.
+DR   STRING; 216595.PFLU5862; -.
+DR   EnsemblBacteria; CAY53306; CAY53306; PFLU_5862.
+DR   GeneID; 7817416; -.
+DR   KEGG; pfs:PFLU5862; -.
+DR   PATRIC; 19905842; VBIPseFlu98510_5983.
+DR   eggNOG; COG0548; -.
+DR   KO; K14682; -.
+DR   OMA; PYIHAFR; -.
+DR   OrthoDB; EOG6T1WVF; -.
+DR   UniPathway; UPA00068; UER00106.
+DR   Proteomes; UP000002332; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004042; F:acetyl-CoA:L-glutamate N-acetyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   HAMAP; MF_01105; N_acetyl_glu_synth; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   InterPro; IPR010167; NH2A_AcTrfase_ArgA.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   PIRSF; PIRSF000423; ArgA; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR01890; N-Ac-Glu-synth; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Amino-acid biosynthesis; Arginine biosynthesis;
+KW   Complete proteome; Cytoplasm; Reference proteome; Transferase.
+FT   CHAIN         1    433       Amino-acid acetyltransferase.
+FT                                /FTId=PRO_1000213560.
+FT   DOMAIN      287    426       N-acetyltransferase. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01105}.
+SQ   SEQUENCE   433 AA;  47823 MW;  32C6866554592391 CRC64;
+     MPEYVNWLRH ASPYINAHRD CTFVVMLPGD GVEHPNFGNI VHDLVLLHSL GVRLVLVHGS
+     RPQIEVRLEA RGLTPTYHEG MRITDAATLE CVIDAVGHLR IAIEARLSMD MASSPMQGSR
+     LRVTSGNFVT ARPIGVLEGV DYHHTGEVRR VDRKGINRLL DERSIVLLSP LGYSPTGEIF
+     NLACEDVATR AAIDLGADKL LLFGADLGLI DENGRLVREL RPQQVPAHLQ RLGSSNYQAE
+     LLDAAAEACR GGVGRSHIVS YAEDGALLTE LFTRDGGGTL VAQEQFELVR EAAIEDVGGL
+     LDLISPLEEQ GILVRRSREV LEREIEQFSV VEREGMIIAC AALYQIADSD AGELACLAVN
+     PEYRHGARGD VLLERIQTRA RAQGLKTLFV LTTRTAHWFR ERGFVPSSVD RLPSARASLY
+     NYQRNSKIFE KAL
+//

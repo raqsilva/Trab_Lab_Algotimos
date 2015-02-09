@@ -1,0 +1,95 @@
+ID   RF3_NEIG2               Reviewed;         531 AA.
+AC   B4RJN1;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   04-FEB-2015, entry version 44.
+DE   RecName: Full=Peptide chain release factor 3 {ECO:0000255|HAMAP-Rule:MF_00072};
+DE            Short=RF-3 {ECO:0000255|HAMAP-Rule:MF_00072};
+GN   Name=prfC {ECO:0000255|HAMAP-Rule:MF_00072};
+GN   OrderedLocusNames=NGK_0341;
+OS   Neisseria gonorrhoeae (strain NCCP11945).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=521006;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCCP11945;
+RX   PubMed=18586945; DOI=10.1128/JB.00566-08;
+RA   Chung G.T., Yoo J.S., Oh H.B., Lee Y.S., Cha S.H., Kim S.J., Yoo C.K.;
+RT   "Complete genome sequence of Neisseria gonorrhoeae NCCP11945.";
+RL   J. Bacteriol. 190:6035-6036(2008).
+CC   -!- FUNCTION: Increases the formation of ribosomal termination
+CC       complexes and stimulates activities of RF-1 and RF-2. It binds
+CC       guanine nucleotides and has strong preference for UGA stop codons.
+CC       It may interact directly with the ribosome. The stimulation of RF-
+CC       1 and RF-2 is significantly reduced by GTP and GDP, but not by
+CC       GMP. {ECO:0000255|HAMAP-Rule:MF_00072}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00072}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. PrfC
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00072}.
+CC   -!- SIMILARITY: Contains 1 tr-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001050; ACF29034.1; -; Genomic_DNA.
+DR   RefSeq; WP_012503412.1; NC_011035.1.
+DR   RefSeq; YP_002000966.1; NC_011035.1.
+DR   STRING; 521006.NGK_0341; -.
+DR   EnsemblBacteria; ACF29034; ACF29034; NGK_0341.
+DR   GeneID; 6447512; -.
+DR   KEGG; ngk:NGK_0341; -.
+DR   PATRIC; 20339002; VBINeiGon87511_0380.
+DR   eggNOG; COG4108; -.
+DR   HOGENOM; HOG000236725; -.
+DR   KO; K02837; -.
+DR   OMA; PMTWPVG; -.
+DR   OrthoDB; EOG6677Q1; -.
+DR   BioCyc; NGON521006:GJ73-350-MONOMER; -.
+DR   Proteomes; UP000002564; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0016149; F:translation release factor activity, codon specific; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006449; P:regulation of translational termination; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00072; Rel_fac_3; 1.
+DR   InterPro; IPR000795; EF_GTP-bd_dom.
+DR   InterPro; IPR009022; EFG_III-V.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004548; PrfC.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel.
+DR   InterPro; IPR004161; Transl_elong_EFTu/EF1A_2.
+DR   Pfam; PF00009; GTP_EFTU; 1.
+DR   Pfam; PF03144; GTP_EFTU_D2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54980; SSF54980; 1.
+DR   TIGRFAMs; TIGR00503; prfC; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; GTP-binding; Nucleotide-binding;
+KW   Protein biosynthesis.
+FT   CHAIN         1    531       Peptide chain release factor 3.
+FT                                /FTId=PRO_1000092489.
+FT   DOMAIN       10    278       tr-type G.
+FT   NP_BIND      19     26       GTP. {ECO:0000255|HAMAP-Rule:MF_00072}.
+FT   NP_BIND      87     91       GTP. {ECO:0000255|HAMAP-Rule:MF_00072}.
+FT   NP_BIND     141    144       GTP. {ECO:0000255|HAMAP-Rule:MF_00072}.
+SQ   SEQUENCE   531 AA;  59447 MW;  540532811A4963C5 CRC64;
+     MSQEILDQVR RRRTFAIISH PDAGKTTLTE KLLLFSGAIQ SAGTVKGKKT GKFATSDWMD
+     IEKQRGISVA SSVMQFDYKD HTVNLLDTPG HQDFSEDTYR VLTAVDSALM VIDAAKGVEA
+     QTIKLLNVCR LRDTPIVTFM NKYDREVRDS LELLDEVEDI LQIRCAPVTW PIGMGKNFKG
+     VYHILNDEIY LFEAGGERLP HEFGIIKGIN NPELEQRFPL EIQQLRDEIE LVQAASNEFN
+     LDEFLAGELT PVFFGSAINN FGIQEILNSL IDWAPAPKPR DATMRMVGPD EPKFSGFIFK
+     IQANMDPKHR DRIAFLRVCS GKFERGMKMK HLRINREIAA SSVVTFMSHN RELAEEAYAG
+     DIIGIPNHGN IQIGDSFSEG EQLAFTGIPF FAPELFRSVR IKNPLKIKQL QKGLQQLGEE
+     GAVQVFKPMS GADLILGAVG VLQFEVVTSR LANEYGVEAV FDSASIWSAR WVSCDDKKKL
+     AEFEKANAGN LAIDAGGNLA YLAPNRVNLG LTQERWPDIV FHETREHSVK L
+//

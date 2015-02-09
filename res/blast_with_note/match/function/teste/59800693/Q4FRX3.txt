@@ -1,0 +1,111 @@
+ID   MAO1_PSYA2              Reviewed;         560 AA.
+AC   Q4FRX3;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   07-JAN-2015, entry version 65.
+DE   RecName: Full=NAD-dependent malic enzyme {ECO:0000255|HAMAP-Rule:MF_01619};
+DE            Short=NAD-ME {ECO:0000255|HAMAP-Rule:MF_01619};
+DE            EC=1.1.1.38 {ECO:0000255|HAMAP-Rule:MF_01619};
+GN   Name=maeA {ECO:0000255|HAMAP-Rule:MF_01619};
+GN   OrderedLocusNames=Psyc_1387;
+OS   Psychrobacter arcticus (strain DSM 17307 / 273-4).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Psychrobacter.
+OX   NCBI_TaxID=259536;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17307 / 273-4;
+RX   PubMed=20154119; DOI=10.1128/AEM.02101-09;
+RA   Ayala-del-Rio H.L., Chain P.S., Grzymski J.J., Ponder M.A.,
+RA   Ivanova N., Bergholz P.W., Di Bartolo G., Hauser L., Land M.,
+RA   Bakermans C., Rodrigues D., Klappenbach J., Zarka D., Larimer F.,
+RA   Richardson P., Murray A., Thomashow M., Tiedje J.M.;
+RT   "The genome sequence of Psychrobacter arcticus 273-4, a psychroactive
+RT   Siberian permafrost bacterium, reveals mechanisms for adaptation to
+RT   low-temperature growth.";
+RL   Appl. Environ. Microbiol. 76:2304-2312(2010).
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NAD(+) = pyruvate + CO(2) + NADH.
+CC       {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC       {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01619};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01619};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000255|HAMAP-Rule:MF_01619};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -!- SIMILARITY: Belongs to the malic enzymes family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000082; AAZ19235.1; -; Genomic_DNA.
+DR   RefSeq; YP_264669.1; NC_007204.1.
+DR   ProteinModelPortal; Q4FRX3; -.
+DR   STRING; 259536.Psyc_1387; -.
+DR   EnsemblBacteria; AAZ19235; AAZ19235; Psyc_1387.
+DR   GeneID; 3515345; -.
+DR   KEGG; par:Psyc_1387; -.
+DR   PATRIC; 23057431; VBIPsyArc98534_1631.
+DR   eggNOG; COG0281; -.
+DR   HOGENOM; HOG000042487; -.
+DR   KO; K00027; -.
+DR   OMA; IQDNNET; -.
+DR   OrthoDB; EOG6QVRGM; -.
+DR   BioCyc; PARC259536:GI3A-1420-MONOMER; -.
+DR   Proteomes; UP000000546; Chromosome.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   HAMAP; MF_01619; NAD_malic_enz; 1.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR001891; Malic_OxRdtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR023667; NAD_malic_enz_proteobac.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   PIRSF; PIRSF000106; ME; 1.
+DR   PRINTS; PR00072; MALOXRDTASE.
+DR   SMART; SM00919; Malic_M; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Metal-binding; NAD; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN         1    560       NAD-dependent malic enzyme.
+FT                                /FTId=PRO_0000160227.
+FT   ACT_SITE    100    100       Proton donor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01619}.
+FT   ACT_SITE    171    171       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01619}.
+FT   METAL       242    242       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   METAL       243    243       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   METAL       266    266       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   BINDING     153    153       NAD. {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   BINDING     266    266       NAD. {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   BINDING     413    413       NAD. {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   SITE        266    266       Important for activity.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+SQ   SEQUENCE   560 AA;  62676 MW;  2AF5AE968858C1D2 CRC64;
+     MPNQRPLYIP FSGPALLETP LLNKGSAFSS EERDSFNLTG LLPHNIETIE EQSLRAYHQL
+     RSFTTDIDKH IYLRNIQDTN ETLFHHLIEQ HIEEVMPLIY TPTVGQACEK FSQIYRRKRG
+     LFISYPDRHK IDDMLQNATK QKVKVIVVTD GERILGLGDQ GIGGMGIPIG KLALYTACGG
+     ISPAYCLPIL LDVGTNNQQL LDDPMYMGWR NQRISGDEYN EFVDLFIQAV KRRWPEVLLQ
+     FEDFAQENAT PLLNRYRDQL CCFNDDIQGT AAVSVGTLIA ACLNKGQKLS QQKIAFLGAG
+     SAGCGIAEHI IRQMQREGLT EEQARKQVFM VDRYGLLTDS MTELQKFQAP LVQKESAIES
+     WDKSQKLGLA QVVKQAKITV LFGVSGQKGL FTREVIEALC VNTEHPIVLP LSNPTSRVEA
+     TPQEVTSWSR GKAIVATGSP FPNTTFEDQS FEISQCNNSY IFPGIGLGVL AAHATGISDN
+     MLMSASQALA DISMEYEKAP GAILPPIKFI REISEKIAYA VALQAIEDKL ALPVTAENLE
+     RRLKANFWLP RYHNYRRTSF
+//

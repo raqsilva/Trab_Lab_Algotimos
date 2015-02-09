@@ -1,0 +1,84 @@
+ID   TRMD_ACTP2              Reviewed;         251 AA.
+AC   A3N386;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2007, sequence version 1.
+DT   07-JAN-2015, entry version 57.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=APL_1788;
+OS   Actinobacillus pleuropneumoniae serotype 5b (strain L20).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=416269;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L20;
+RX   PubMed=18065534; DOI=10.1128/JB.01845-07;
+RA   Foote S.J., Bosse J.T., Bouevitch A.B., Langford P.R., Young N.M.,
+RA   Nash J.H.E.;
+RT   "The complete genome sequence of Actinobacillus pleuropneumoniae L20
+RT   (serotype 5b).";
+RL   J. Bacteriol. 190:1495-1496(2008).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000569; ABN74872.1; -; Genomic_DNA.
+DR   RefSeq; YP_001054477.1; NC_009053.1.
+DR   ProteinModelPortal; A3N386; -.
+DR   SMR; A3N386; 1-248.
+DR   STRING; 416269.APL_1788; -.
+DR   EnsemblBacteria; ABN74872; ABN74872; APL_1788.
+DR   GeneID; 4848951; -.
+DR   KEGG; apl:APL_1788; -.
+DR   PATRIC; 20748637; VBIActPle94089_1859.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   BioCyc; APLE416269:GHV7-1849-MONOMER; -.
+DR   Proteomes; UP000001432; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    251       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_1000006443.
+FT   REGION      137    142       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     117    117       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   251 AA;  28221 MW;  F8DF5AE74E598724 CRC64;
+     MWIGIISLFP EMFKAITDFG VTGRAVKQDL LQIQCWNPRD FTFDKHKTVD DRPYGGGPGM
+     LMMVQPLRDA IHAAKQAAKA EDGVEAKVIY LSPQGRKLDQ QGVKTLASNQ KLILICGRYE
+     GVDERLIQTE VDEEWSIGDY VLTGGELPAM TLIDAVARFV PGVLGKQASA DEDSFATGLL
+     DCPHYTRPEM LDGIPVPEVL MSGHHENIRK WRLEQSLERT WLRRPELLDS LALTDEQRVL
+     LAKIKKQHKI S
+//

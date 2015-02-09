@@ -1,0 +1,95 @@
+ID   RUVC_DECAR              Reviewed;         179 AA.
+AC   Q478E2;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   07-JAN-2015, entry version 64.
+DE   RecName: Full=Crossover junction endodeoxyribonuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE            EC=3.1.22.4 {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction nuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction resolvase RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   Name=ruvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   OrderedLocusNames=Daro_4063;
+OS   Dechloromonas aromatica (strain RCB).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales;
+OC   Rhodocyclaceae; Dechloromonas.
+OX   NCBI_TaxID=159087;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RCB;
+RX   PubMed=19650930; DOI=10.1186/1471-2164-10-351;
+RA   Salinero K.K., Keller K., Feil W.S., Feil H., Trong S., Di Bartolo G.,
+RA   Lapidus A.;
+RT   "Metabolic analysis of the soil microbe Dechloromonas aromatica str.
+RT   RCB: indications of a surprisingly complex life-style and cryptic
+RT   anaerobic pathways for aromatic degradation.";
+RL   BMC Genomics 10:351-351(2009).
+CC   -!- FUNCTION: Nuclease that resolves Holliday junction intermediates
+CC       in genetic recombination. Cleaves the cruciform structure in
+CC       supercoiled DNA by nicking to strands with the same polarity at
+CC       sites symmetrically opposed at the junction in the homologous arms
+CC       and leaves a 5'-terminal phosphate and a 3'-terminal hydroxyl
+CC       group. {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- CATALYTIC ACTIVITY: Endonucleolytic cleavage at a junction such as
+CC       a reciprocal single-stranded crossover between two homologous DNA
+CC       duplexes (Holliday junction). {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00034};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034};
+CC   -!- SIMILARITY: Belongs to the RuvC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000089; AAZ48789.1; -; Genomic_DNA.
+DR   RefSeq; YP_287259.1; NC_007298.1.
+DR   ProteinModelPortal; Q478E2; -.
+DR   SMR; Q478E2; 7-161.
+DR   STRING; 159087.Daro_4063; -.
+DR   EnsemblBacteria; AAZ48789; AAZ48789; Daro_4063.
+DR   GeneID; 3566904; -.
+DR   KEGG; dar:Daro_4063; -.
+DR   PATRIC; 21606824; VBIDecAro89105_4052.
+DR   eggNOG; COG0817; -.
+DR   HOGENOM; HOG000012181; -.
+DR   KO; K01159; -.
+DR   OMA; MQIKLAL; -.
+DR   OrthoDB; EOG6RG044; -.
+DR   BioCyc; DARO159087:GI5B-4141-MONOMER; -.
+DR   Proteomes; UP000000550; Chromosome.
+DR   GO; GO:0008821; F:crossover junction endodeoxyribonuclease activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   HAMAP; MF_00034; RuvC; 1.
+DR   InterPro; IPR012337; RNaseH-like_dom.
+DR   InterPro; IPR020563; X-over_junc_endoDNase_Mg_BS.
+DR   InterPro; IPR002176; X-over_junc_endoDNase_RuvC.
+DR   Pfam; PF02075; RuvC; 1.
+DR   PRINTS; PR00696; RSOLVASERUVC.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+DR   TIGRFAMs; TIGR00228; ruvC; 1.
+DR   PROSITE; PS01321; RUVC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA damage; DNA recombination; DNA repair;
+KW   Hydrolase; Magnesium; Metal-binding; Nuclease; Reference proteome.
+FT   CHAIN         1    179       Crossover junction endodeoxyribonuclease
+FT                                RuvC.
+FT                                /FTId=PRO_0000225136.
+FT   METAL        12     12       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL        72     72       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL       144    144       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL       147    147       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+SQ   SEQUENCE   179 AA;  18499 MW;  AF0AA7615B3716E9 CRC64;
+     MSITTPRILG IDPGLRVTGF GVIELHGKQL VYVASGCIKS NDKESLPERI KTLFAGISEV
+     IATYQPNQAA VEKVFVNVNP QSTLLLGQAR GAAISALVHA DLPVAEYTAL QTKQAVVGHG
+     KAAKDQVQAM VVRLLNLPGA PTADAADALA CAIAHAHGGQ GLGAMATAGY RIRGGRLIG
+//

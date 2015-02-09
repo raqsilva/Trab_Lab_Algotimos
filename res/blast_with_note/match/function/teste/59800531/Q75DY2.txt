@@ -1,0 +1,90 @@
+ID   RIFK_ASHGO              Reviewed;         186 AA.
+AC   Q75DY2;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 2.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Riboflavin kinase;
+DE            EC=2.7.1.26;
+DE   AltName: Full=Flavin mononucleotide kinase 1;
+GN   Name=FMN1; OrderedLocusNames=ABL109W;
+OS   Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL
+OS   Y-1056) (Yeast) (Eremothecium gossypii).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+OC   Saccharomycetes; Saccharomycetales; Saccharomycetaceae; Eremothecium.
+OX   NCBI_TaxID=284811;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=15001715; DOI=10.1126/science.1095781;
+RA   Dietrich F.S., Voegeli S., Brachat S., Lerch A., Gates K., Steiner S.,
+RA   Mohr C., Poehlmann R., Luedi P., Choi S., Wing R.A., Flavier A.,
+RA   Gaffney T.D., Philippsen P.;
+RT   "The Ashbya gossypii genome as a tool for mapping the ancient
+RT   Saccharomyces cerevisiae genome.";
+RL   Science 304:304-307(2004).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=23749448; DOI=10.1534/g3.112.002881;
+RA   Dietrich F.S., Voegeli S., Kuo S., Philippsen P.;
+RT   "Genomes of Ashbya fungi isolated from insects reveal four mating-type
+RT   loci, numerous translocations, lack of transposons, and distinct gene
+RT   duplications.";
+RL   G3 (Bethesda) 3:1225-1239(2013).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of riboflavin (vitamin B2)
+CC       to form flavin mononucleotide (FMN) coenzyme. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + riboflavin = ADP + FMN.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Zinc or magnesium. {ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; FMN biosynthesis; FMN from
+CC       riboflavin (ATP route): step 1/1.
+CC   -!- SIMILARITY: Belongs to the flavokinase family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAS50662.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016815; AAS50662.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_982838.1; NM_208191.1.
+DR   ProteinModelPortal; Q75DY2; -.
+DR   STRING; 33169.AGOS_ABL109W; -.
+DR   GeneID; 4618918; -.
+DR   KEGG; ago:AGOS_ABL109W; -.
+DR   eggNOG; COG0196; -.
+DR   HOGENOM; HOG000260803; -.
+DR   InParanoid; Q75DY2; -.
+DR   KO; K00861; -.
+DR   OrthoDB; EOG7K3V05; -.
+DR   UniPathway; UPA00276; UER00406.
+DR   Proteomes; UP000000591; Chromosome II.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:EnsemblFungi.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008531; F:riboflavin kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009398; P:FMN biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:InterPro.
+DR   Gene3D; 2.40.30.30; -; 1.
+DR   InterPro; IPR023468; Riboflavin_kinase.
+DR   InterPro; IPR015865; Riboflavin_kinase_bac/euk.
+DR   InterPro; IPR023465; Riboflavin_kinase_domain.
+DR   PANTHER; PTHR22749; PTHR22749; 1.
+DR   Pfam; PF01687; Flavokinase; 1.
+DR   SMART; SM00904; Flavokinase; 1.
+DR   SUPFAM; SSF82114; SSF82114; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Flavoprotein; FMN; Kinase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Reference proteome; Transferase;
+KW   Zinc.
+FT   CHAIN         1    186       Riboflavin kinase.
+FT                                /FTId=PRO_0000301832.
+FT   ACT_SITE    123    123       Nucleophile. {ECO:0000250}.
+FT   METAL        42     42       Magnesium or zinc. {ECO:0000250}.
+SQ   SEQUENCE   186 AA;  20984 MW;  DA16FB2E83EF3A9E CRC64;
+     MARRPVDIPI PASPVQPFPI LTEYVDIVAG FGRGSAELGI PTANVPIEQL PSEVNEMATG
+     VYFGWARLRP NMDQEAQVHH RNDGSEVIYN FGSKLSETER GVFPIVLSVG WNPFYNNSKK
+     TVELHILNDF EEDFYGAKIK FSFLGYIRPE LNYTTKEALI EDIHTDIKIA SEVLHTEPYS
+     SLKNQL
+//

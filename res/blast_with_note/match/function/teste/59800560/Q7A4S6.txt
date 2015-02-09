@@ -1,0 +1,104 @@
+ID   MGT_STAAN               Reviewed;         269 AA.
+AC   Q7A4S6;
+DT   10-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-JAN-2015, entry version 74.
+DE   RecName: Full=Monofunctional glycosyltransferase {ECO:0000255|HAMAP-Rule:MF_01434};
+DE            Short=MGT {ECO:0000255|HAMAP-Rule:MF_01434};
+DE            EC=2.4.-.- {ECO:0000255|HAMAP-Rule:MF_01434};
+DE   AltName: Full=Peptidoglycan TGase {ECO:0000255|HAMAP-Rule:MF_01434};
+GN   Name=mgt {ECO:0000255|HAMAP-Rule:MF_01434}; OrderedLocusNames=SA1691;
+OS   Staphylococcus aureus (strain N315).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=158879;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=N315;
+RX   PubMed=11418146; DOI=10.1016/S0140-6736(00)04403-2;
+RA   Kuroda M., Ohta T., Uchiyama I., Baba T., Yuzawa H., Kobayashi I.,
+RA   Cui L., Oguchi A., Aoki K., Nagai Y., Lian J.-Q., Ito T., Kanamori M.,
+RA   Matsumaru H., Maruyama A., Murakami H., Hosoyama A., Mizutani-Ui Y.,
+RA   Takahashi N.K., Sawano T., Inoue R., Kaito C., Sekimizu K.,
+RA   Hirakawa H., Kuhara S., Goto S., Yabuzaki J., Kanehisa M.,
+RA   Yamashita A., Oshima K., Furuya K., Yoshino C., Shiba T., Hattori M.,
+RA   Ogasawara N., Hayashi H., Hiramatsu K.;
+RT   "Whole genome sequencing of meticillin-resistant Staphylococcus
+RT   aureus.";
+RL   Lancet 357:1225-1240(2001).
+RN   [2]
+RP   REGULATION BY VARSR.
+RX   PubMed=12864861; DOI=10.1046/j.1365-2958.2003.03599.x;
+RA   Kuroda M., Kuroda H., Oshima T., Takeuchi F., Mori H., Hiramatsu K.;
+RT   "Two-component system VraSR positively modulates the regulation of
+RT   cell-wall biosynthesis pathway in Staphylococcus aureus.";
+RL   Mol. Microbiol. 49:807-821(2003).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=N315;
+RA   Vaezzadeh A.R., Deshusses J., Lescuyer P., Hochstrasser D.F.;
+RT   "Shotgun proteomic analysis of total and membrane protein extracts of
+RT   S. aureus strain N315.";
+RL   Submitted (OCT-2007) to UniProtKB.
+CC   -!- FUNCTION: Involved in the biosynthesis of cell wall peptidoglycan.
+CC       Responsible for the elongation of the glycan strands using lipid-
+CC       linked disaccharide-pentapeptide as the substrate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01434}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01434}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01434}; Single-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01434}.
+CC   -!- INDUCTION: Activated by the VraSR two-component system.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 51 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01434}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000018; BAB42960.1; -; Genomic_DNA.
+DR   PIR; A89975; A89975.
+DR   RefSeq; NP_374981.1; NC_002745.2.
+DR   ProteinModelPortal; Q7A4S6; -.
+DR   SMR; Q7A4S6; 61-269.
+DR   STRING; 158879.SA1691; -.
+DR   CAZy; GT51; Glycosyltransferase Family 51.
+DR   EnsemblBacteria; BAB42960; BAB42960; BAB42960.
+DR   GeneID; 1124574; -.
+DR   KEGG; sau:SA1691; -.
+DR   PATRIC; 19575780; VBIStaAur116463_1821.
+DR   eggNOG; COG0744; -.
+DR   HOGENOM; HOG000288116; -.
+DR   KO; K04478; -.
+DR   OMA; YISHDEY; -.
+DR   OrthoDB; EOG6HMXCD; -.
+DR   BioCyc; SAUR158879:GJCB-1802-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000751; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016757; F:transferase activity, transferring glycosyl groups; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01434; MGT; 1.
+DR   InterPro; IPR001264; Glyco_trans_51.
+DR   InterPro; IPR023346; Lysozyme-like_dom.
+DR   InterPro; IPR022978; Monofunct_glyco_trans.
+DR   Pfam; PF00912; Transgly; 1.
+DR   SUPFAM; SSF53955; SSF53955; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Cell shape; Cell wall biogenesis/degradation;
+KW   Complete proteome; Glycosyltransferase; Membrane;
+KW   Peptidoglycan synthesis; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    269       Monofunctional glycosyltransferase.
+FT                                /FTId=PRO_0000083155.
+FT   TRANSMEM     46     66       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01434}.
+SQ   SEQUENCE   269 AA;  31460 MW;  C0F65B9F5CAB8761 CRC64;
+     MKRSDRYSNS NEHFEHMKHE PHYNTYYQPV GKPPKKKKSK RILLKILLTI LIIIALFIGI
+     MYFLSTRDNV DELRKIENKS SFVSADNMPE YVKGAFISME DERFYNHHGF DLKGTTRALF
+     STISDRDVQG GSTITQQVVK NYFYDNDRSF TRKVKELFVA HRVEKQYNKN EILSFYLNNI
+     YFGDNQYTLE GAANHYFGTT VNKNSTTMSH ITVLQSAILA SKVNAPSVYN INNMSENFTQ
+     RVSTNLEKMK QQNYINETQY QQAMSQLNR
+//

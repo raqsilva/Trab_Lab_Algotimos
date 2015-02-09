@@ -1,0 +1,137 @@
+ID   HEMN_SALTY              Reviewed;         457 AA.
+AC   P0A1E1; P37129;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Oxygen-independent coproporphyrinogen-III oxidase;
+DE            Short=CPO;
+DE            EC=1.3.99.22;
+DE   AltName: Full=Coproporphyrinogen III dehydrogenase;
+DE            Short=CPDH;
+GN   Name=hemN; OrderedLocusNames=STM4004;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=8195073;
+RA   Xu K., Elliott T.;
+RT   "Cloning, DNA sequence, and complementation analysis of the Salmonella
+RT   typhimurium hemN gene encoding a putative oxygen-independent
+RT   coproporphyrinogen III oxidase.";
+RL   J. Bacteriol. 176:3196-3203(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M.,
+RA   Waterston R., Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium
+RT   LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Involved in the heme biosynthesis. Catalyzes the
+CC       anaerobic oxidative decarboxylation of propionate groups of rings
+CC       A and B of coproporphyrinogen-III to yield the vinyl groups in
+CC       protoporphyrinogen-IX. {ECO:0000269|PubMed:8195073}.
+CC   -!- CATALYTIC ACTIVITY: Coproporphyrinogen-III + 2 S-adenosyl-L-
+CC       methionine = protoporphyrinogen-IX + 2 CO(2) + 2 L-methionine + 2
+CC       5'-deoxyadenosine.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000250};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-
+CC       IX biosynthesis; protoporphyrinogen-IX from coproporphyrinogen-III
+CC       (AdoMet route): step 1/1.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene accumulate
+CC       coproporphyrinogen-III under anaerobic conditions.
+CC       {ECO:0000269|PubMed:8195073}.
+CC   -!- SIMILARITY: Belongs to the anaerobic coproporphyrinogen-III
+CC       oxidase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U06779; AAA19690.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL22843.1; -; Genomic_DNA.
+DR   RefSeq; NP_462884.1; NC_003197.1.
+DR   ProteinModelPortal; P0A1E1; -.
+DR   SMR; P0A1E1; 4-444.
+DR   STRING; 99287.STM4004; -.
+DR   PaxDb; P0A1E1; -.
+DR   PRIDE; P0A1E1; -.
+DR   EnsemblBacteria; AAL22843; AAL22843; STM4004.
+DR   GeneID; 1255530; -.
+DR   KEGG; stm:STM4004; -.
+DR   PATRIC; 32386878; VBISalEnt20916_4219.
+DR   eggNOG; COG0635; -.
+DR   HOGENOM; HOG000257214; -.
+DR   KO; K02495; -.
+DR   OMA; FEGHPNN; -.
+DR   OrthoDB; EOG683S9D; -.
+DR   PhylomeDB; P0A1E1; -.
+DR   BioCyc; SENT99287:GCTI-4033-MONOMER; -.
+DR   UniPathway; UPA00251; UER00323.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; ISS:UniProtKB.
+DR   GO; GO:0051989; F:coproporphyrinogen dehydrogenase activity; IMP:UniProtKB.
+DR   GO; GO:0004109; F:coproporphyrinogen oxidase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006779; P:porphyrin-containing compound biosynthetic process; IMP:UniProtKB.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IMP:UniProtKB.
+DR   Gene3D; 3.80.30.20; -; 1.
+DR   InterPro; IPR004558; Coprogen_oxidase_HemN.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR010723; HemN_C_dom.
+DR   InterPro; IPR007197; rSAM.
+DR   InterPro; IPR023404; rSAM_horseshoe.
+DR   Pfam; PF06969; HemN_C; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000167; HemN; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR00538; hemN; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Complete proteome; Cytoplasm; Iron; Iron-sulfur;
+KW   Metal-binding; Oxidoreductase; Porphyrin biosynthesis;
+KW   Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN         1    457       Oxygen-independent coproporphyrinogen-III
+FT                                oxidase.
+FT                                /FTId=PRO_0000109952.
+FT   REGION      113    114       S-adenosyl-L-methionine 2 binding.
+FT                                {ECO:0000250}.
+FT   METAL        62     62       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        66     66       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        69     69       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   BINDING      56     56       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   BINDING      68     68       S-adenosyl-L-methionine 2; via carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     112    112       S-adenosyl-L-methionine 1; via amide
+FT                                nitrogen and carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   BINDING     145    145       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   BINDING     172    172       S-adenosyl-L-methionine 2. {ECO:0000250}.
+FT   BINDING     184    184       S-adenosyl-L-methionine 2. {ECO:0000250}.
+FT   BINDING     209    209       S-adenosyl-L-methionine 2. {ECO:0000250}.
+SQ   SEQUENCE   457 AA;  52828 MW;  5667B4FE76204DAB CRC64;
+     MSEQQIDWDL ALIQKYNYSG PRYTSYPTAL EFSEDFEDAA FLQAVARYPE RPLSLYVHIP
+     FCHKLCYFCG CNKIVTRQQH KADQYLDALE QEIRHRAPLF ADRHVSQLHW GGGTPTYLNK
+     AQISRLMTLL RENFHFNTDA EISIEVDPRE IELDVLDHLR AEGFNRLSMG VQDFNKEVQR
+     LVNREQDEEF IFALLNHARD IGFTSTNIDL IYGLPKQTPE SFAFTLKRVT ELNPDRLSVF
+     NYAHLPTLFA AQRKIKDADL PSAQQKLDIL QETIVSLTQA GYQFIGMDHF ARPDDELAVA
+     QREGVLHRNF QGYTTQGDTD LLGMGVSAIS MIGDGYMQNQ KELKRYYQQV DERGNALWRG
+     ITLTRDDCIR RDVIKALICN FRLDFNAVEQ QWGLHFAEYF AEDLQLLSPL AKDGLVDISE
+     KGIQVTAKGR LLIRNICMCF DAYLRQKARM QQFSRVI
+//

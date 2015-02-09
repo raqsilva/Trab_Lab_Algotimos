@@ -1,0 +1,101 @@
+ID   MTSA_STRMU              Reviewed;         306 AA.
+AC   Q9KIJ3;
+DT   18-OCT-2001, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2002, sequence version 2.
+DT   07-JAN-2015, entry version 97.
+DE   RecName: Full=Metal ABC transporter substrate-binding lipoprotein;
+DE   Flags: Precursor;
+GN   Name=sloC; OrderedLocusNames=SMU_184;
+OS   Streptococcus mutans serotype c (strain ATCC 700610 / UA159).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=210007;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 25175 / DSM 20523 / JCM 5705 / NBRC 13955 / NCIMB 702062 /
+RC   NCTC 10449;
+RX   PubMed=10899841; DOI=10.1128/IAI.68.8.4441-4451.2000;
+RA   Kitten T., Munro C.L., Michalek S.M., Macrina F.L.;
+RT   "Genetic characterization of a Streptococcus mutans LraI family operon
+RT   and role in virulence.";
+RL   Infect. Immun. 68:4441-4451(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700610 / UA159;
+RX   PubMed=12397186; DOI=10.1073/pnas.172501299;
+RA   Ajdic D.J., McShan W.M., McLaughlin R.E., Savic G., Chang J.,
+RA   Carson M.B., Primeaux C., Tian R., Kenton S., Jia H.G., Lin S.P.,
+RA   Qian Y., Li S., Zhu H., Najar F.Z., Lai H., White J., Roe B.A.,
+RA   Ferretti J.J.;
+RT   "Genome sequence of Streptococcus mutans UA159, a cariogenic dental
+RT   pathogen.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14434-14439(2002).
+CC   -!- FUNCTION: Part of an ATP-driven transport system for a metal;
+CC       probably for manganese. Also act as an adhesin which is involved
+CC       on adherence to extracellular matrix. It is an important factor in
+CC       pathogenesis and infection. It may contribute to the formation and
+CC       accumulation of dental plaque.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|PROSITE-
+CC       ProRule:PRU00303}; Lipid-anchor {ECO:0000255|PROSITE-
+CC       ProRule:PRU00303}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 9
+CC       family. Lipoprotein receptor antigen (Lrai) subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF232688; AAF81674.1; -; Genomic_DNA.
+DR   EMBL; AE014133; AAN57959.1; -; Genomic_DNA.
+DR   RefSeq; NP_720653.1; NC_004350.2.
+DR   ProteinModelPortal; Q9KIJ3; -.
+DR   SMR; Q9KIJ3; 25-306.
+DR   STRING; 210007.SMU.184; -.
+DR   EnsemblBacteria; AAN57959; AAN57959; SMU_184.
+DR   GeneID; 1029755; -.
+DR   KEGG; smu:SMU_184; -.
+DR   PATRIC; 19662617; VBIStrMut61772_0160.
+DR   eggNOG; COG0803; -.
+DR   KO; K11704; -.
+DR   OMA; TEGKEDP; -.
+DR   OrthoDB; EOG6B3601; -.
+DR   PhylomeDB; Q9KIJ3; -.
+DR   BioCyc; SMUT210007:GC7Z-189-MONOMER; -.
+DR   Proteomes; UP000002512; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0030001; P:metal ion transport; IEA:InterPro.
+DR   InterPro; IPR006129; AdhesinB.
+DR   InterPro; IPR006128; Lipoprotein_4.
+DR   InterPro; IPR006127; Perip_solute-bd_prot_fam.
+DR   PANTHER; PTHR30477:SF1; PTHR30477:SF1; 1.
+DR   Pfam; PF01297; TroA; 1.
+DR   PRINTS; PR00691; ADHESINB.
+DR   PRINTS; PR00690; ADHESNFAMILY.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Complete proteome; Lipoprotein; Manganese; Membrane;
+KW   Metal-binding; Palmitate; Reference proteome; Signal; Transport; Zinc.
+FT   SIGNAL        1     19       {ECO:0000305}.
+FT   CHAIN        20    306       Metal ABC transporter substrate-binding
+FT                                lipoprotein.
+FT                                /FTId=PRO_0000031888.
+FT   METAL        64     64       Zinc. {ECO:0000250}.
+FT   METAL       136    136       Zinc. {ECO:0000250}.
+FT   METAL       202    202       Zinc. {ECO:0000250}.
+FT   METAL       277    277       Zinc. {ECO:0000250}.
+FT   LIPID        20     20       N-palmitoyl cysteine. {ECO:0000305}.
+FT   LIPID        20     20       S-diacylglycerol cysteine. {ECO:0000305}.
+FT   CONFLICT    108    108       T -> A (in Ref. 1; AAF81674).
+FT                                {ECO:0000305}.
+FT   CONFLICT    302    302       N -> D (in Ref. 1; AAF81674).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   306 AA;  34365 MW;  CDA294394F24AB29 CRC64;
+     MKKLSLLLLV CLSLLGLFAC TSKKTADKKL TVVATNSIIA DITKNIAGNK VVLHSIVPVG
+     RDPHEYEPLP EDVKKTSQAD VIFYNGINLE NGGNAWFTKL VKNAHKKTDK DYFAVSDSVK
+     TIYLENAKEK GKEDPHAWLD LKNGIIYAKN IMKRLSEKDP KNKSYYQKNF QAYSAKLEKL
+     HKVAKEKISR IPTEKKMIVT SEGCFKYFSK AYDIPSAYIW EINTEEEGTP NQIKALVKKL
+     RKSRVSALFV ESSVDDRPMK TVSKDTGIPI AAKIFTDSVA KKGQAGDSYY AMMKWNIDKI
+     ANGLSQ
+//

@@ -1,0 +1,158 @@
+ID   NDX1_THETH              Reviewed;         126 AA.
+AC   Q75UV1; F6DFL8;
+DT   26-JUN-2013, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   26-NOV-2014, entry version 69.
+DE   RecName: Full=Diadenosine hexaphosphate hydrolase;
+DE            Short=Ap6A hydrolase;
+DE            EC=3.6.1.61;
+DE   AltName: Full=ATP-generating (di)nucleotide polyphosphate hydrolase;
+DE   AltName: Full=ATP-generating Ap6A hydrolase;
+DE   AltName: Full=Nudix protein;
+GN   Name=ndx1;
+OS   Thermus thermophilus.
+OC   Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+OC   Thermus.
+OX   NCBI_TaxID=274;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-9, FUNCTION,
+RP   CATALYTIC ACTIVITY, MUTAGENESIS OF TRP-26; GLU-46; GLU-49 AND GLU-50,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE SPECIFICITY, ENZYME
+RP   REGULATION, COFACTOR, AND SUBUNIT.
+RC   STRAIN=HB8;
+RX   PubMed=15024014; DOI=10.1074/jbc.M312018200;
+RA   Iwai T., Kuramitsu S., Masui R.;
+RT   "The Nudix hydrolase Ndx1 from Thermus thermophilus HB8 is a
+RT   diadenosine hexaphosphate hydrolase with a novel activity.";
+RL   J. Biol. Chem. 279:21732-21739(2004).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) IN COMPLEX WITH SUBSTRATE, ATP
+RP   AND MAGNESIUM IONS, AND SUBUNIT.
+RA   Iwai T., Nakagawa N., Kuramitsu S., Masui R.;
+RT   "Crystal Structure of Nudix Protein Ndx1 from Thermus thermophilus HB8
+RT   in binary complex with diadenosine hexaphosphate.";
+RL   Submitted (MAR-2004) to the PDB data bank.
+CC   -!- FUNCTION: Specifically hydrolyzes (di)adenosine polyphosphates but
+CC       not ATP or diadenosine triphosphate, generating ATP as the
+CC       product. Diadenosine hexaphosphate (Ap6A) is the preferred
+CC       substrate and its hydrolyzation yields 2 ATP. It is the only
+CC       enzyme that symmetrically hydrolyzes Ap6A. It also hydrolyzes
+CC       diadenosine pentaphosphate (Ap5A), diadenosine tetraphosphate
+CC       (Ap4A), adenosine tetraphosphate (p4A) to produce ATP and ADP, ATP
+CC       and AMP, ATP and inorganic orthophosphate, respectively.
+CC       {ECO:0000269|PubMed:15024014}.
+CC   -!- CATALYTIC ACTIVITY: P(1),P(6)-bis(5'-adenosyl)hexaphosphate +
+CC       H(2)O = 2 ATP. {ECO:0000269|PubMed:15024014}.
+CC   -!- CATALYTIC ACTIVITY: P(1),P(5)-bis(5'-adenosyl)pentaphosphate +
+CC       H(2)O = ATP + ADP. {ECO:0000269|PubMed:15024014}.
+CC   -!- CATALYTIC ACTIVITY: P(1),P(4)-bis(5'-adenosyl)tetraphosphate +
+CC       H(2)O = ATP + AMP. {ECO:0000269|PubMed:15024014}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:15024014};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:15024014};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:15024014};
+CC   -!- ENZYME REGULATION: Strongly inhibited by fluoride ions.
+CC       {ECO:0000269|PubMed:15024014}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1 uM for p4A (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15024014};
+CC         KM=1.1 uM for Ap4A (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15024014};
+CC         KM=1.1 uM for Ap5A (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15024014};
+CC         KM=1.4 uM for Ap6A (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15024014};
+CC         KM=1.4 uM for diguanosine pentaphosphate (Gp5G) (at 25 degrees
+CC         Celsius) {ECO:0000269|PubMed:15024014};
+CC         KM=9.3 uM for diguanosine tetraphosphate (Gp4G) (at 25 degrees
+CC         Celsius) {ECO:0000269|PubMed:15024014};
+CC         Note=Kcat is 4.1 sec(1-) with Ap6A (at 25 degrees Celsius).;
+CC       pH dependence:
+CC         Optimum pH is 8. {ECO:0000269|PubMed:15024014};
+CC       Temperature dependence:
+CC         Optimum temperature is 70 degrees Celsius. Ndx1 is stable up to
+CC         95 degrees Celsius at pH 7.5. {ECO:0000269|PubMed:15024014};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:15024014,
+CC       ECO:0000269|Ref.2}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00794}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB125632; BAD18071.1; -; Genomic_DNA.
+DR   RefSeq; YP_145146.1; NC_006461.1.
+DR   PDB; 1VC8; X-ray; 2.00 A; A/B=1-126.
+DR   PDB; 1VC9; X-ray; 2.30 A; A/B=1-126.
+DR   PDB; 1VCD; X-ray; 1.70 A; A/B=1-126.
+DR   PDBsum; 1VC8; -.
+DR   PDBsum; 1VC9; -.
+DR   PDBsum; 1VCD; -.
+DR   ProteinModelPortal; Q75UV1; -.
+DR   SMR; Q75UV1; 1-126.
+DR   GeneID; 3169127; -.
+DR   KEGG; ttj:TTHA1880; -.
+DR   KO; K18445; -.
+DR   OrthoDB; EOG6G4VWF; -.
+DR   EvolutionaryTrace; Q75UV1; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016818; F:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008152; P:metabolic process; IDA:GOC.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Direct protein sequencing; Hydrolase;
+KW   Magnesium; Manganese; Metal-binding; Nucleotide-binding; Zinc.
+FT   CHAIN         1    126       Diadenosine hexaphosphate hydrolase.
+FT                                /FTId=PRO_0000422740.
+FT   DOMAIN        1    121       Nudix hydrolase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00794}.
+FT   NP_BIND      66     68       ATP.
+FT   NP_BIND     110    112       ATP.
+FT   REGION       21     23       Substrate binding.
+FT   REGION       30     32       Substrate binding.
+FT   REGION       66     68       Substrate binding.
+FT   MOTIF        31     52       Nudix box.
+FT   METAL        46     46       Magnesium, manganese or zinc.
+FT   METAL        50     50       Magnesium, manganese or zinc.
+FT                                {ECO:0000250}.
+FT   BINDING      74     74       Substrate. {ECO:0000269|Ref.2}.
+FT   BINDING     112    112       Substrate. {ECO:0000269|Ref.2}.
+FT   MUTAGEN      26     26       W->A: Absence of protein-substrate
+FT                                interaction.
+FT                                {ECO:0000269|PubMed:15024014}.
+FT   MUTAGEN      46     46       E->Q: Strong decrease in catalytic
+FT                                efficiency.
+FT                                {ECO:0000269|PubMed:15024014}.
+FT   MUTAGEN      49     49       E->Q: Very little effect on hydrolase
+FT                                activity. {ECO:0000269|PubMed:15024014}.
+FT   MUTAGEN      50     50       E->Q: Strong decrease in catalytic
+FT                                efficiency.
+FT                                {ECO:0000269|PubMed:15024014}.
+FT   STRAND        2     10       {ECO:0000244|PDB:1VCD}.
+FT   STRAND       16     20       {ECO:0000244|PDB:1VCD}.
+FT   HELIX        39     51       {ECO:0000244|PDB:1VCD}.
+FT   STRAND       54     67       {ECO:0000244|PDB:1VCD}.
+FT   STRAND       73     85       {ECO:0000244|PDB:1VCD}.
+FT   STRAND       95     99       {ECO:0000244|PDB:1VCD}.
+FT   HELIX       101    107       {ECO:0000244|PDB:1VCD}.
+FT   HELIX       111    123       {ECO:0000244|PDB:1VCD}.
+SQ   SEQUENCE   126 AA;  14170 MW;  DD5E2B3ECC839F4B CRC64;
+     MELGAGGVVF NAKREVLLLR DRMGFWVFPK GHPEPGESLE EAAVREVWEE TGVRAEVLLP
+     LYPTRYVNPK GVEREVHWFL MRGEGAPRLE EGMTGAGWFS PEEARALLAF PEDLGLLEVA
+     LERLPL
+//

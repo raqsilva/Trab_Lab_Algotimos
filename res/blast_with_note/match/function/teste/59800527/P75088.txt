@@ -1,0 +1,92 @@
+ID   YCHF_MYCPN              Reviewed;         362 AA.
+AC   P75088;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   04-FEB-2015, entry version 96.
+DE   RecName: Full=Ribosome-binding ATPase YchF {ECO:0000255|HAMAP-Rule:MF_00944};
+GN   Name=ychF {ECO:0000255|HAMAP-Rule:MF_00944};
+GN   OrderedLocusNames=MPN_026; ORFNames=B01_orf362, MP128;
+OS   Mycoplasma pneumoniae (strain ATCC 29342 / M129).
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=272634;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29342 / M129;
+RX   PubMed=8948633; DOI=10.1093/nar/24.22.4420;
+RA   Himmelreich R., Hilbert H., Plagens H., Pirkl E., Li B.-C.,
+RA   Herrmann R.;
+RT   "Complete sequence analysis of the genome of the bacterium Mycoplasma
+RT   pneumoniae.";
+RL   Nucleic Acids Res. 24:4420-4449(1996).
+CC   -!- FUNCTION: ATPase that binds to both the 70S ribosome and the 50S
+CC       ribosomal subunit in a nucleotide-independent manner.
+CC       {ECO:0000255|HAMAP-Rule:MF_00944}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. YchF/OLA1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00944}.
+CC   -!- SIMILARITY: Contains 1 OBG-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00089; AAB95776.1; -; Genomic_DNA.
+DR   PIR; S73454; S73454.
+DR   RefSeq; NP_109714.1; NC_000912.1.
+DR   ProteinModelPortal; P75088; -.
+DR   STRING; 272634.MPN026; -.
+DR   EnsemblBacteria; AAB95776; AAB95776; MPN_026.
+DR   GeneID; 876898; -.
+DR   KEGG; mpn:MPN026; -.
+DR   PATRIC; 20021327; VBIMycPne110_0025.
+DR   eggNOG; COG0012; -.
+DR   KO; K06942; -.
+DR   OMA; YEERQMF; -.
+DR   OrthoDB; EOG6NSGJC; -.
+DR   BioCyc; MPNE272634:GJ6Z-28-MONOMER; -.
+DR   Proteomes; UP000000808; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016887; F:ATPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005525; F:GTP binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043023; F:ribosomal large subunit binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043022; F:ribosome binding; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.300; -; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00944; YchF_OLA1_ATPase; 1.
+DR   InterPro; IPR004396; ATPase_YchF/OLA1.
+DR   InterPro; IPR012675; Beta-grasp_dom.
+DR   InterPro; IPR013029; DUF933.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR023192; TGS-like_dom.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF06071; YchF-GTPase_C; 1.
+DR   PIRSF; PIRSF006641; CHP00092; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF81271; SSF81271; 1.
+DR   TIGRFAMs; TIGR00092; TIGR00092; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome.
+FT   CHAIN         1    362       Ribosome-binding ATPase YchF.
+FT                                /FTId=PRO_0000122459.
+FT   DOMAIN        2    258       OBG-type G.
+FT   NP_BIND      11     16       ATP. {ECO:0000255|HAMAP-Rule:MF_00944}.
+FT   METAL        15     15       Magnesium. {ECO:0000250}.
+FT   METAL        35     35       Magnesium. {ECO:0000250}.
+SQ   SEQUENCE   362 AA;  40607 MW;  7C79B46C84D5FF83 CRC64;
+     MLSAGIVGLP NVGKSTLFSA ITNLQVEIAN YPFATIEPNA GIVNVIDERL DKLASLIKPD
+     KVTHTTFRFV DIAGLVKGAS KGEGLGNQFL ANIREVDLIC HVVRCYEDKK IVHVNNQVDP
+     VFDFEIIVNE LIQADIEVVN TRIGKIKRKA ESGDKQSKEE YQLLAPVLQG LQQNQMVLHL
+     VNEVDLKKLK SLNLLTAKPI LVVANVSEAD LSNLDHNPHL TQLNQFLKQH NLPHAIPVCA
+     LLENELSSLD ANGRQDWLKE LGLSDYQGLN QLIKTAYDAI GLWSFFTFGK QEVRAWAFKK
+     GWLAPQCAGE IHTDFERGFI KVEVISWNQL YELKSLQEAK KQGLVRLRGQ GLRDARWWCV
+     SL
+//

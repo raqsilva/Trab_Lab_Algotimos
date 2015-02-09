@@ -1,0 +1,98 @@
+ID   GCDC_ACIFV              Reviewed;         145 AA.
+AC   Q9ZAA7; D2RM87;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Glutaconyl-CoA decarboxylase subunit gamma;
+DE            EC=4.1.1.70;
+DE   AltName: Full=Biotin carrier;
+GN   Name=gcdC; OrderedLocusNames=Acfer_1835;
+OS   Acidaminococcus fermentans (strain ATCC 25085 / DSM 20731 / VR4).
+OC   Bacteria; Firmicutes; Negativicutes; Selenomonadales;
+OC   Acidaminococcaceae; Acidaminococcus.
+OX   NCBI_TaxID=591001;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 1-34.
+RX   PubMed=10027965; DOI=10.1046/j.1365-2958.1999.01189.x;
+RA   Braune A., Bendrat K., Rospert S., Buckel W.;
+RT   "The sodium ion translocating glutaconyl-CoA decarboxylase from
+RT   Acidaminococcus fermentans: cloning and function of the genes forming
+RT   a second operon.";
+RL   Mol. Microbiol. 31:473-487(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25085 / DSM 20731 / VR4;
+RX   PubMed=21304687; DOI=10.4056/sigs.1002553;
+RA   Chang Y.J., Pukall R., Saunders E., Lapidus A., Copeland A., Nolan M.,
+RA   Glavina Del Rio T., Lucas S., Chen F., Tice H., Cheng J.F., Han C.,
+RA   Detter J.C., Bruce D., Goodwin L., Pitluck S., Mikhailova N.,
+RA   Liolios K., Pati A., Ivanova N., Mavromatis K., Chen A.,
+RA   Palaniappan K., Land M., Hauser L., Jeffries C.D., Brettin T.,
+RA   Rohde M., Goker M., Bristow J., Eisen J.A., Markowitz V.,
+RA   Hugenholtz P., Kyrpides N.C., Klenk H.P.;
+RT   "Complete genome sequence of Acidaminococcus fermentans type strain
+RT   (VR4).";
+RL   Stand. Genomic Sci. 3:1-14(2010).
+CC   -!- FUNCTION: Biotin carrier subunit of the primary sodium pump
+CC       glutaconyl-CoA decarboxylase (GCD).
+CC   -!- CATALYTIC ACTIVITY: 4-carboxybut-2-enoyl-CoA = but-2-enoyl-CoA +
+CC       CO(2).
+CC   -!- COFACTOR:
+CC       Name=biotin; Xref=ChEBI:CHEBI:57586;
+CC       Note=Biotin.;
+CC   -!- PATHWAY: Amino-acid degradation; L-glutamate degradation via
+CC       hydroxyglutarate pathway; crotonoyl-CoA from L-glutamate: step
+CC       5/5.
+CC   -!- SUBUNIT: Heterooctamer consisting of two alpha, two beta, two
+CC       gamma and two delta subunits.
+CC   -!- SIMILARITY: Contains 1 biotinyl-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01066, ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF030576; AAC69172.1; -; Genomic_DNA.
+DR   EMBL; CP001859; ADB48189.1; -; Genomic_DNA.
+DR   RefSeq; WP_012939172.1; NC_013740.1.
+DR   RefSeq; YP_003399504.1; NC_013740.1.
+DR   ProteinModelPortal; Q9ZAA7; -.
+DR   TCDB; 3.B.1.1.3; the na(+)-transporting carboxylic acid decarboxylase (nat-dc) family.
+DR   EnsemblBacteria; ADB48189; ADB48189; Acfer_1835.
+DR   GeneID; 8738338; -.
+DR   KEGG; afn:Acfer_1835; -.
+DR   PATRIC; 31910261; VBIAciFer109666_1826.
+DR   HOGENOM; HOG000008877; -.
+DR   KO; K01615; -.
+DR   OMA; NEIMAPD; -.
+DR   BioCyc; AFER591001:GHUL-1908-MONOMER; -.
+DR   BioCyc; MetaCyc:MONOMER-1056; -.
+DR   SABIO-RK; Q9ZAA7; -.
+DR   UniPathway; UPA00533; UER00688.
+DR   Proteomes; UP000001902; Chromosome.
+DR   GO; GO:0018801; F:glutaconyl-CoA decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019552; P:glutamate catabolic process via 2-hydroxyglutarate; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006814; P:sodium ion transport; IEA:UniProtKB-KW.
+DR   InterPro; IPR001882; Biotin_BS.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   SUPFAM; SSF51230; SSF51230; 1.
+DR   PROSITE; PS00188; BIOTIN; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+PE   1: Evidence at protein level;
+KW   Biotin; Complete proteome; Decarboxylase; Direct protein sequencing;
+KW   Ion transport; Lyase; Reference proteome; Sodium; Sodium transport;
+KW   Transport.
+FT   CHAIN         1    145       Glutaconyl-CoA decarboxylase subunit
+FT                                gamma.
+FT                                /FTId=PRO_0000146839.
+FT   DOMAIN       77    145       Biotinyl-binding. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01066}.
+FT   COMPBIAS     23     75       Ala-rich.
+FT   MOD_RES     112    112       N6-biotinyllysine. {ECO:0000250,
+FT                                ECO:0000255|PROSITE-ProRule:PRU01066}.
+SQ   SEQUENCE   145 AA;  13908 MW;  4546006D4F2F4C6B CRC64;
+     MRKFNVNVNG TVYTVEVEEV GGAVTAAPAA PAAPAAAPAA APVAAAPAAA PAPAPAAAPA
+     AAPAPAAKPA AAAPAGSVTV SAPMPGKILS VNVKPGDKVE AGDVLLILEA MKMQNEIMAP
+     EDGTVSEVRV NAGDTVATGD VMVIL
+//

@@ -1,0 +1,94 @@
+ID   NUDB_HAEIN              Reviewed;         158 AA.
+AC   P44635;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-JAN-2015, entry version 86.
+DE   RecName: Full=Dihydroneopterin triphosphate pyrophosphatase;
+DE            EC=3.6.1.-;
+DE   AltName: Full=dATP pyrophosphohydrolase;
+GN   Name=nudB; Synonyms=ntpA; OrderedLocusNames=HI_0316;
+OS   Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=71421;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=7542800; DOI=10.1126/science.7542800;
+RA   Fleischmann R.D., Adams M.D., White O., Clayton R.A., Kirkness E.F.,
+RA   Kerlavage A.R., Bult C.J., Tomb J.-F., Dougherty B.A., Merrick J.M.,
+RA   McKenney K., Sutton G.G., FitzHugh W., Fields C.A., Gocayne J.D.,
+RA   Scott J.D., Shirley R., Liu L.-I., Glodek A., Kelley J.M.,
+RA   Weidman J.F., Phillips C.A., Spriggs T., Hedblom E., Cotton M.D.,
+RA   Utterback T.R., Hanna M.C., Nguyen D.T., Saudek D.M., Brandon R.C.,
+RA   Fine L.D., Fritchman J.L., Fuhrmann J.L., Geoghagen N.S.M.,
+RA   Gnehm C.L., McDonald L.A., Small K.V., Fraser C.M., Smith H.O.,
+RA   Venter J.C.;
+RT   "Whole-genome random sequencing and assembly of Haemophilus influenzae
+RT   Rd.";
+RL   Science 269:496-512(1995).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of dihydroneopterin
+CC       triphosphate to dihydroneopterin monophosphate and pyrophosphate.
+CC       Required for efficient folate biosynthesis. Can also hydrolyze
+CC       nucleoside triphosphates with a preference for dATP (By
+CC       similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00794}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L42023; AAC21980.1; -; Genomic_DNA.
+DR   PIR; H64147; H64147.
+DR   RefSeq; NP_438482.2; NC_000907.1.
+DR   ProteinModelPortal; P44635; -.
+DR   STRING; 71421.HI0316; -.
+DR   EnsemblBacteria; AAC21980; AAC21980; HI_0316.
+DR   GeneID; 949449; -.
+DR   KEGG; hin:HI0316; -.
+DR   PATRIC; 20189173; VBIHaeInf48452_0333.
+DR   eggNOG; COG0494; -.
+DR   KO; K08310; -.
+DR   OMA; VTRNTEH; -.
+DR   OrthoDB; EOG69WFKW; -.
+DR   Proteomes; UP000000579; Chromosome.
+DR   GO; GO:0008828; F:dATP pyrophosphohydrolase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:InterPro.
+DR   GO; GO:0046656; P:folic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   InterPro; IPR003564; dATP_pyrPHydro.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR01404; NPPPHYDRLASE.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Folate biosynthesis; Hydrolase; Magnesium;
+KW   Metal-binding; Reference proteome.
+FT   CHAIN         1    158       Dihydroneopterin triphosphate
+FT                                pyrophosphatase.
+FT                                /FTId=PRO_0000056955.
+FT   DOMAIN       14    153       Nudix hydrolase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00794}.
+FT   REGION       88     91       Substrate binding. {ECO:0000255}.
+FT   MOTIF        48     69       Nudix box.
+FT   METAL        63     63       Magnesium. {ECO:0000250}.
+FT   METAL        67     67       Magnesium. {ECO:0000250}.
+FT   METAL       124    124       Magnesium. {ECO:0000250}.
+FT   BINDING      14     14       Substrate. {ECO:0000250}.
+FT   BINDING      36     36       Substrate. {ECO:0000250}.
+FT   BINDING      47     47       Substrate. {ECO:0000250}.
+FT   BINDING     142    142       Substrate. {ECO:0000255}.
+SQ   SEQUENCE   158 AA;  18826 MW;  A82B3750A5631553 CRC64;
+     MRSDLTAFLM MQYKNNQSVL VVIYTKDTNR VLMLQRQDDP DFWQSVTGTI ESDETPKKTA
+     IRELWEEVRL DISENSTALF DCNESIEFEI FPHFRYKYAP NITHCKEHWF LCEVEKEFIP
+     VLSEHLDFCW VSAKKAVEMT KSQNNAEAIK KYLFNLRR
+//

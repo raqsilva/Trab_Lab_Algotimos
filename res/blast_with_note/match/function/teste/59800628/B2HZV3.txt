@@ -1,0 +1,84 @@
+ID   TRMD_ACIBC              Reviewed;         246 AA.
+AC   B2HZV3;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   07-JAN-2015, entry version 45.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=ACICU_03361;
+OS   Acinetobacter baumannii (strain ACICU).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Acinetobacter;
+OC   Acinetobacter calcoaceticus/baumannii complex.
+OX   NCBI_TaxID=405416;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ACICU;
+RX   PubMed=18411315; DOI=10.1128/AAC.01643-07;
+RA   Iacono M., Villa L., Fortini D., Bordoni R., Imperi F., Bonnal R.J.,
+RA   Sicheritz-Ponten T., De Bellis G., Visca P., Cassone A., Carattoli A.;
+RT   "Whole-genome pyrosequencing of an epidemic multidrug-resistant
+RT   Acinetobacter baumannii strain belonging to the European clone II
+RT   group.";
+RL   Antimicrob. Agents Chemother. 52:2616-2625(2008).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000863; ACC58671.1; -; Genomic_DNA.
+DR   RefSeq; YP_001848018.1; NC_010611.1.
+DR   STRING; 405416.ACICU_03361; -.
+DR   EnsemblBacteria; ACC58671; ACC58671; ACICU_03361.
+DR   GeneID; 6235741; -.
+DR   KEGG; abc:ACICU_03361; -.
+DR   PATRIC; 20715461; VBIAciBau103538_3387.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   BioCyc; ABAU405416:GI27-3428-MONOMER; -.
+DR   Proteomes; UP000008839; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    246       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_1000130120.
+FT   REGION      137    142       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     117    117       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   246 AA;  27881 MW;  567F84D5112A2330 CRC64;
+     MFFAVITLFP EMFEAITAYG ISGRAAKRDI VQVTCINPRD FAEGNYRRVD ERPFGGGPGM
+     VMMAEPLAKA INHAKQLASQ AGCVHVPVVY MSPQGKTLNE QAVQQFVDYD GLIVLCGRYE
+     GVDERLIQHY VDQEWSIGDY VLSGGELPAM VLLDSIIRRL PNVMSDEQSA IQDSFVDGLL
+     DCPQYTKPDQ FEGLDVPEIL KSGHHANIEK WRFLQRYQRT LERRPELIEQ VTLTKQQKKW
+     LSDEQG
+//

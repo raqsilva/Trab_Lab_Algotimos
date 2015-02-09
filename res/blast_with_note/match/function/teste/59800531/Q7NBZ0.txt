@@ -1,0 +1,132 @@
+ID   MNMA_MYCGA              Reviewed;         657 AA.
+AC   Q7NBZ0;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Trifunctional protein RibF/MnmA;
+DE   Includes:
+DE     RecName: Full=FMN adenylyltransferase;
+DE              EC=2.7.7.2;
+DE     AltName: Full=FAD pyrophosphorylase;
+DE     AltName: Full=FAD synthase;
+DE   Includes:
+DE     RecName: Full=Riboflavin kinase;
+DE              EC=2.7.1.26;
+DE     AltName: Full=Flavokinase;
+DE   Includes:
+DE     RecName: Full=tRNA-specific 2-thiouridylase MnmA;
+DE              EC=2.8.1.-;
+GN   Name=ribF/mnmA; OrderedLocusNames=MYCGA1200; ORFNames=MGA_0832;
+OS   Mycoplasma gallisepticum (strain R(low / passage 15 / clone 2)).
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=710127;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=R(low / passage 15 / clone 2);
+RX   PubMed=12949158; DOI=10.1099/mic.0.26427-0;
+RA   Papazisi L., Gorton T.S., Kutish G., Markham P.F., Browning G.F.,
+RA   Nguyen D.K., Swartzell S., Madan A., Mahairas G., Geary S.J.;
+RT   "The complete genome sequence of the avian pathogen Mycoplasma
+RT   gallisepticum strain R(low).";
+RL   Microbiology 149:2307-2316(2003).
+CC   -!- FUNCTION: Involved in FAD and FMN biosynthesis. {ECO:0000250}.
+CC   -!- FUNCTION: Catalyzes the 2-thiolation of uridine at the wobble
+CC       position (U34) of tRNA, leading to the formation of s(2)U34.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + riboflavin = ADP + FMN.
+CC   -!- CATALYTIC ACTIVITY: ATP + FMN = diphosphate + FAD.
+CC   -!- PATHWAY: Cofactor biosynthesis; FAD biosynthesis; FAD from FMN:
+CC       step 1/1.
+CC   -!- PATHWAY: Cofactor biosynthesis; FMN biosynthesis; FMN from
+CC       riboflavin (ATP route): step 1/1.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the RibF family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the MnmA/TRMU
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE015450; AAP56470.1; -; Genomic_DNA.
+DR   RefSeq; NP_852902.1; NC_004829.2.
+DR   RefSeq; WP_011113349.1; NC_004829.2.
+DR   ProteinModelPortal; Q7NBZ0; -.
+DR   STRING; 233150.MGA_0832; -.
+DR   EnsemblBacteria; AAP56470; AAP56470; MGA_0832.
+DR   GeneID; 1090170; -.
+DR   KEGG; mga:MGA_0832; -.
+DR   PATRIC; 20007937; VBIMycGal115357_0134.
+DR   eggNOG; COG0196; -.
+DR   HOGENOM; HOG000113614; -.
+DR   OMA; VSCELEN; -.
+DR   OrthoDB; EOG6RZB5H; -.
+DR   BioCyc; MGAL710127:GC09-126-MONOMER; -.
+DR   UniPathway; UPA00276; UER00406.
+DR   UniPathway; UPA00277; UER00407.
+DR   Proteomes; UP000001418; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003919; F:FMN adenylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008531; F:riboflavin kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016783; F:sulfurtransferase activity; IEA:InterPro.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006747; P:FAD biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009398; P:FMN biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:InterPro.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   Gene3D; 2.30.30.280; -; 1.
+DR   Gene3D; 2.40.30.30; -; 1.
+DR   Gene3D; 3.40.50.620; -; 2.
+DR   HAMAP; MF_00144; tRNA_thiouridyl_MnmA; 1.
+DR   InterPro; IPR023382; Adenine_a_hdrlase_dom.
+DR   InterPro; IPR015864; FAD_synthase.
+DR   InterPro; IPR002606; Riboflavin_kinase_bac.
+DR   InterPro; IPR015865; Riboflavin_kinase_bac/euk.
+DR   InterPro; IPR023465; Riboflavin_kinase_domain.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR004506; tRNA-specific_2-thiouridylase.
+DR   PANTHER; PTHR11933; PTHR11933; 1.
+DR   Pfam; PF06574; FAD_syn; 1.
+DR   Pfam; PF01687; Flavokinase; 1.
+DR   Pfam; PF03054; tRNA_Me_trans; 1.
+DR   SMART; SM00904; Flavokinase; 1.
+DR   SUPFAM; SSF82114; SSF82114; 1.
+DR   TIGRFAMs; TIGR00083; ribF; 1.
+DR   TIGRFAMs; TIGR00420; trmU; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; Disulfide bond; FAD;
+KW   Flavoprotein; FMN; Kinase; Multifunctional enzyme; Nucleotide-binding;
+KW   Nucleotidyltransferase; Reference proteome; RNA-binding; Transferase;
+KW   tRNA processing; tRNA-binding.
+FT   CHAIN         1    657       Trifunctional protein RibF/MnmA.
+FT                                /FTId=PRO_0000349871.
+FT   NP_BIND     292    299       ATP. {ECO:0000250}.
+FT   REGION        1    141       FMN adenylyltransferase.
+FT   REGION      158    282       Riboflavin kinase.
+FT   REGION      283    657       tRNA-specific 2-thiouridylase MnmA.
+FT   REGION      389    391       Interaction with target base in tRNA.
+FT                                {ECO:0000250}.
+FT   REGION      442    444       Interaction with tRNA. {ECO:0000250}.
+FT   ACT_SITE    394    394       Nucleophile. {ECO:0000250}.
+FT   ACT_SITE    492    492       Cysteine persulfide intermediate.
+FT                                {ECO:0000250}.
+FT   BINDING     318    318       ATP; via amide nitrogen and carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     420    420       ATP; via amide nitrogen. {ECO:0000250}.
+FT   SITE        421    421       Interaction with tRNA. {ECO:0000250}.
+FT   SITE        635    635       Interaction with tRNA. {ECO:0000250}.
+FT   DISULFID    394    492       Alternate. {ECO:0000250}.
+SQ   SEQUENCE   657 AA;  75974 MW;  C2F795910B8821EF CRC64;
+     MLSIINLTSK TIKEVNKGVD LVIGFFDGIH KGHAKLFKQS DRFNLLTFDH IPKKQRLLYP
+     KVDEIEQLSA LSGLEQLLVY DLLNNNLSAQ EFIDNYIKLI QPKRIIVGSD FKFGSDQVDY
+     SLFAKNGYEV VVVKKDHCST SEIKKLIINC DLDQANKLLL TPFYLKGTVI KNAQRGRTIG
+     FVTANIILDN QLIELTEGSY VCKVIVDNKT YQGICFIGKP KTFDEKQRQC EAHIFDFDQD
+     IYGKKIKVEL YQFIRPTVKF NSINELKEAI ENDKKAALSF FHKQEKPKVV VALSGGVDSA
+     VCAYLLQQQG YDVVAAFMQN WDKDLNFELL SDHADDQIQG CDAKQDYEDT QKLCEQLKIK
+     LYHFNFVEQY WNDVFLKVLE DYKKGLTPNP DVLCNQFGKF GWFINALRKQ FGDDIKIAFG
+     HYAKLITKDD EVFLVHTKDH NKDQTYFLTM LKKEQLKNII FPLSELDKPT VREIAKQANL
+     YVANKKDSTG ICFIGERNFK QFLSNYLAIK KGPIILIDEN KKIGEHDGLY FYTIGQSRRL
+     HVGGTKEKIF VCDKDYNNNT LYVCYESSKD QYLSSVSCEL EKFNWLIDTK DQLFNKKLWI
+     RFRHRQKLQE CEIVSYHDDK VIVKYTKQIG VTPGQYGVIY DQNLWVVGGG KITKIIK
+//

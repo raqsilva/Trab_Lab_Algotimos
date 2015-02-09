@@ -1,0 +1,108 @@
+ID   ALF_PSEAE               Reviewed;         354 AA.
+AC   Q9I5Y1;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=Fructose-bisphosphate aldolase;
+DE            Short=FBP aldolase;
+DE            Short=FBPA;
+DE            EC=4.1.2.13;
+DE   AltName: Full=Fructose-1,6-bisphosphate aldolase;
+GN   Name=fba; Synonyms=fda; OrderedLocusNames=PA0555;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG
+OS   12228).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T.,
+RA   Reizer J., Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an
+RT   opportunistic pathogen.";
+RL   Nature 406:959-964(2000).
+CC   -!- FUNCTION: Catalyzes the aldol condensation of dihydroxyacetone
+CC       phosphate (DHAP or glycerone-phosphate) with glyceraldehyde 3-
+CC       phosphate (G3P) to form fructose 1,6-bisphosphate (FBP) in
+CC       gluconeogenesis and the reverse reaction in glycolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: D-fructose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the
+CC       other provides a structural contribution. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 4/4.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004091; AAG03944.1; -; Genomic_DNA.
+DR   PIR; C83575; C83575.
+DR   RefSeq; NP_249246.1; NC_002516.2.
+DR   ProteinModelPortal; Q9I5Y1; -.
+DR   SMR; Q9I5Y1; 3-338.
+DR   STRING; 208964.PA0555; -.
+DR   EnsemblBacteria; AAG03944; AAG03944; PA0555.
+DR   GeneID; 880792; -.
+DR   KEGG; pae:PA0555; -.
+DR   PATRIC; 19835372; VBIPseAer58763_0587.
+DR   PseudoCAP; PA0555; -.
+DR   eggNOG; COG0191; -.
+DR   HOGENOM; HOG000227792; -.
+DR   InParanoid; Q9I5Y1; -.
+DR   KO; K01624; -.
+DR   OMA; GENFLRH; -.
+DR   OrthoDB; EOG6HXJ7B; -.
+DR   PhylomeDB; Q9I5Y1; -.
+DR   UniPathway; UPA00109; UER00183.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006412; Fruct_bisP_Calv.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01521; FruBisAldo_II_B; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Glycolysis; Lyase; Metal-binding;
+KW   Reference proteome; Zinc.
+FT   CHAIN         1    354       Fructose-bisphosphate aldolase.
+FT                                /FTId=PRO_0000178725.
+FT   REGION      233    235       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   REGION      275    278       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   ACT_SITE     83     83       Proton donor. {ECO:0000250}.
+FT   METAL        84     84       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       105    105       Zinc 2. {ECO:0000250}.
+FT   METAL       142    142       Zinc 2. {ECO:0000250}.
+FT   METAL       198    198       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       232    232       Zinc 1; catalytic. {ECO:0000250}.
+FT   BINDING      50     50       Glyceraldehyde 3-phosphate.
+FT                                {ECO:0000250}.
+FT   BINDING     199    199       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000250}.
+SQ   SEQUENCE   354 AA;  38574 MW;  08864F52A39FC9C7 CRC64;
+     MALISMRQML DHAAEFGYGV PAFNVNNLEQ MRAIMEAADK TDSPVIVQAS AGARKYAGAP
+     FLRHLILAAI EEFPHIPVVM HQDHGTSPDV CQRSIQLGFS SVMMDGSLRE DGKTPADYDY
+     NVRVTQQTVA FAHACGVSVE GELGCLGSLE TGMAGEEDGV GAEGVLDHSQ LLTDPEEAAD
+     FVKKTKVDAL AIAIGTSHGA YKFTKPPTGD TLSIQRIKEI HARIPDTHLV MHGSSSVPQD
+     WLAIINEYGG EIKETYGVPV EEIVEGIKYG VRKVNIDTDL RLASTGAIRR FLAQNPSEFD
+     PRKYFSKTVE AMRDICIARY EAFGTAGNAS KIKPISLEGM FQRYARGELD PKVN
+//

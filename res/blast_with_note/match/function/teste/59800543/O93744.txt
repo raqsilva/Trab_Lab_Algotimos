@@ -1,0 +1,95 @@
+ID   AAT_THEKO               Reviewed;         364 AA.
+AC   O93744;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   07-JAN-2015, entry version 88.
+DE   RecName: Full=Aspartate aminotransferase;
+DE            Short=AspAT;
+DE            EC=2.6.1.1;
+DE   AltName: Full=Transaminase A;
+GN   Name=aspC; OrderedLocusNames=TK0260;
+OS   Thermococcus kodakaraensis (strain ATCC BAA-918 / JCM 12380 / KOD1)
+OS   (Pyrococcus kodakaraensis (strain KOD1)).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Thermococcus.
+OX   NCBI_TaxID=69014;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC BAA-918 / JCM 12380 / KOD1;
+RA   Jongsareejit B., Fujiwara S., Takagi M., Imanaka T.;
+RT   "Enzymatic characteristics of recombinant aspartate aminotransferase
+RT   from Pyrococcus kodakaraensis KOD1.";
+RL   Submitted (MAR-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-918 / JCM 12380 / KOD1;
+RX   PubMed=15710748; DOI=10.1101/gr.3003105;
+RA   Fukui T., Atomi H., Kanai T., Matsumi R., Fujiwara S., Imanaka T.;
+RT   "Complete genome sequence of the hyperthermophilic archaeon
+RT   Thermococcus kodakaraensis KOD1 and comparison with Pyrococcus
+RT   genomes.";
+RL   Genome Res. 15:352-363(2005).
+CC   -!- CATALYTIC ACTIVITY: L-aspartate + 2-oxoglutarate = oxaloacetate +
+CC       L-glutamate.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB012002; BAA75925.1; -; Genomic_DNA.
+DR   EMBL; AP006878; BAD84449.1; -; Genomic_DNA.
+DR   RefSeq; YP_182673.1; NC_006624.1.
+DR   ProteinModelPortal; O93744; -.
+DR   STRING; 69014.TK0260; -.
+DR   EnsemblBacteria; BAD84449; BAD84449; TK0260.
+DR   GeneID; 3235126; -.
+DR   KEGG; tko:TK0260; -.
+DR   eggNOG; COG0436; -.
+DR   HOGENOM; HOG000223065; -.
+DR   InParanoid; O93744; -.
+DR   KO; K00812; -.
+DR   OMA; FRLGYAI; -.
+DR   BioCyc; TKOD69014:GH72-262-MONOMER; -.
+DR   Proteomes; UP000000536; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004069; F:L-aspartate:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0080130; F:L-phenylalanine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 2.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR004838; NHTrfase_class1_PyrdxlP-BS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00105; AA_TRANSFER_CLASS_1; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Complete proteome; Cytoplasm; Pyridoxal phosphate;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    364       Aspartate aminotransferase.
+FT                                /FTId=PRO_0000123862.
+FT   BINDING      23     23       Aspartate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING      99     99       Aspartate. {ECO:0000250}.
+FT   BINDING     143    143       Aspartate. {ECO:0000250}.
+FT   BINDING     320    320       Aspartate. {ECO:0000250}.
+FT   MOD_RES     200    200       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   364 AA;  41231 MW;  2F331E69242FF499 CRC64;
+     MFNVYEFFNR INEVRPESRL DAGQPDIPVR REIIEEAVES LRRGETGYTS TGGIRELRER
+     IAEFEGVSAD EVIVAPGAKI LIAAEIASAK KVAVVSPRWN AYSLIARQFW REVEVIKTTL
+     DERWIPRVEE IKADLIIINY PNNPTGRVLS GKEIRGLLDV AEENGVKVLS DEVYAELSFT
+     RFTPARELYE NVVTVKGFSK LYSMTGFRLG YAIGERNEIR RIQRFIESTV TCVPPFVQRA
+     GVKALELRDE LIKEVRRAYL ERVRMASKML RGFDFVEPEG AFYIFLRTPQ DGMAFAERLL
+     SRGVAVFPGM AFGDYPNFIR ISLSGKGLER GLRVIREELE CALESRATEG WEGSSRGVSA
+     EGSR
+//

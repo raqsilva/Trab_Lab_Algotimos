@@ -1,0 +1,95 @@
+ID   PPK_THEEB               Reviewed;         732 AA.
+AC   Q8DMA8;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2003, sequence version 2.
+DT   07-JAN-2015, entry version 65.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347}; OrderedLocusNames=tlr0213;
+OS   Thermosynechococcus elongatus (strain BP-1).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Thermosynechococcus.
+OX   NCBI_TaxID=197221;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BP-1;
+RX   PubMed=12240834; DOI=10.1093/dnares/9.4.123;
+RA   Nakamura Y., Kaneko T., Sato S., Ikeuchi M., Katoh H., Sasamoto S.,
+RA   Watanabe A., Iriguchi M., Kawashima K., Kimura T., Kishida Y.,
+RA   Kiyokawa C., Kohara M., Matsumoto M., Matsuno A., Nakazaki N.,
+RA   Shimpo S., Sugimoto M., Takeuchi C., Yamada M., Tabata S.;
+RT   "Complete genome structure of the thermophilic cyanobacterium
+RT   Thermosynechococcus elongatus BP-1.";
+RL   DNA Res. 9:123-130(2002).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal
+CC       phosphate of ATP to form a long-chain polyphosphate (polyP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (phosphate)(n) = ADP + (phosphate)(n+1).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated
+CC       ppk in which a phosphate is covalently linked to histidine
+CC       residues through a N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAC07766.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000039; BAC07766.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_681004.1; NC_004113.1.
+DR   ProteinModelPortal; Q8DMA8; -.
+DR   STRING; 197221.tlr0213; -.
+DR   EnsemblBacteria; BAC07766; BAC07766; BAC07766.
+DR   GeneID; 1010591; -.
+DR   KEGG; tel:tlr0213; -.
+DR   PATRIC; 23925618; VBITheElo119873_0219.
+DR   eggNOG; COG0855; -.
+DR   HOGENOM; HOG000248948; -.
+DR   KO; K00937; -.
+DR   OMA; HLLVAQF; -.
+DR   OrthoDB; EOG65TRRG; -.
+DR   Proteomes; UP000000440; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1840.10; -; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR025200; PPK_C_dom.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF140356; SSF140356; 1.
+DR   TIGRFAMs; TIGR03705; poly_P_kin; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN         1    732       Polyphosphate kinase.
+FT                                /FTId=PRO_0000128663.
+FT   ACT_SITE    477    477       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+FT   ACT_SITE    496    496       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+SQ   SEQUENCE   732 AA;  83568 MW;  BF7157127A7248BA CRC64;
+     MPSAKSPRRK APEPIDLDNP QYYFNRSLSW LEFNKRVLHE AYDPRTPLLE RLKFMAIFSS
+     NLDEFFMVRV AGLKQQVESG ILQVGADGMP PAEQLQAVRQ YLLPIVTEQH RYFDQELRAL
+     LAKESIFLTR FNELTPEQQA YLNDYFQAQV FPVLTPLAVD PAHPFPYISS LSLNLAVLIR
+     DPESGQERLA RVKVPNQFPR FVALPQHLHS PQGVHWLGVP LEEIIAHNLS ALFPGMEIEA
+     YFAFRITRSA DLELETDKAD DLLIAIEQEI RKRRFGSVVR LEVQRGIPPL LRQTLMEEMD
+     LEEIDVYELE GLLCLNDLFA FMGLPLPQFK DPEWQPQVPP SFQRVEERES MFDTSSEITT
+     LGTDYWEAVA NELFSLIREG DIIVHHPYHS FAATVQRFIT LAAHDPQVLA IKITLYRTSG
+     DSPIVSALIK AAENGKQVAV LVELKARFDE ENNILWARKL EKVGVHVVYG VPGLKTHTKT
+     VLVVRQEAGQ IRRYVHIGTG NYNPKTASLY EDLGLFSCRE ELGADLSELF NVLTGYARQR
+     DYRKLLVAPV TMRDRTLQLI YREIEHARNG QPARIIAKMN AITDTQVIRA LYEASQAGVD
+     IDLIIRGMCC LRPGVPGVSD RIRVISIIGR FLEHSRIFYF GNNGDPEYYI GSADWRSRNL
+     DRRVEAITPI EDPAIQLELK ERLEIMLADN RQAWELQPDG TYRQRQPAPG EAERGTHSVL
+     MARTLKDVQG SH
+//

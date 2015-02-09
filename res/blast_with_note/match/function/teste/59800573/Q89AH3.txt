@@ -1,0 +1,102 @@
+ID   RNE_BUCBP               Reviewed;         410 AA.
+AC   Q89AH3;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   04-FEB-2015, entry version 77.
+DE   RecName: Full=Putative ribonuclease E;
+DE            Short=RNase E;
+DE            EC=3.1.26.12;
+GN   Name=rne; OrderedLocusNames=bbp_317;
+OS   Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=224915;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bp;
+RX   PubMed=12522265; DOI=10.1073/pnas.0235981100;
+RA   van Ham R.C.H.J., Kamerbeek J., Palacios C., Rausell C., Abascal F.,
+RA   Bastolla U., Fernandez J.M., Jimenez L., Postigo M., Silva F.J.,
+RA   Tamames J., Viguera E., Latorre A., Valencia A., Moran F., Moya A.;
+RT   "Reductive genome evolution in Buchnera aphidicola.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:581-586(2003).
+CC   -!- FUNCTION: Endoribonuclease that plays a central role in RNA
+CC       processing and decay. Required for the maturation of 5S and 16S
+CC       rRNAs and the majority of tRNAs. Also involved in the degradation
+CC       of most mRNAs (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Endonucleolytic cleavage of single-stranded
+CC       RNA in A- and U-rich regions.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Component of the RNA degradosome, which is a multiprotein
+CC       complex involved in RNA processing and mRNA degradation. Within
+CC       the RNA degradosome, Rnase E assembles into a homotetramer formed
+CC       by a dimer of dimers (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Cell inner membrane
+CC       {ECO:0000250}; Peripheral membrane protein {ECO:0000250};
+CC       Cytoplasmic side {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the RNase E/G family. RNase E subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 S1 motif domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00180}.
+CC   -!- CAUTION: This sequence is much shorter than orthologs.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016826; AAO27039.1; -; Genomic_DNA.
+DR   RefSeq; NP_777934.1; NC_004545.1.
+DR   ProteinModelPortal; Q89AH3; -.
+DR   SMR; Q89AH3; 1-392.
+DR   STRING; 224915.bbp317; -.
+DR   EnsemblBacteria; AAO27039; AAO27039; bbp_317.
+DR   GeneID; 1058418; -.
+DR   KEGG; bab:bbp317; -.
+DR   PATRIC; 21245423; VBIBucAph80364_0311.
+DR   eggNOG; COG1530; -.
+DR   KO; K08300; -.
+DR   OMA; IYVERRE; -.
+DR   OrthoDB; EOG6PCPTH; -.
+DR   BioCyc; BAPH224915:GJ9D-317-MONOMER; -.
+DR   Proteomes; UP000000601; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004540; F:ribonuclease activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR003029; Rbsml_prot_S1_RNA-bd_dom.
+DR   InterPro; IPR019307; RNA-bd_AU-1/RNase_E/G.
+DR   InterPro; IPR004659; RNase_E/G.
+DR   InterPro; IPR022967; S1_dom.
+DR   Pfam; PF10150; RNase_E_G; 1.
+DR   Pfam; PF00575; S1; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00757; RNaseEG; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Cytoplasm;
+KW   Endonuclease; Hydrolase; Magnesium; Membrane; Metal-binding; Nuclease;
+KW   Reference proteome; RNA-binding; rRNA processing; tRNA processing.
+FT   CHAIN         1    410       Putative ribonuclease E.
+FT                                /FTId=PRO_0000097372.
+FT   DOMAIN       39    119       S1 motif. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00180}.
+FT   METAL       303    303       Magnesium; catalytic. {ECO:0000250}.
+FT   METAL       346    346       Magnesium; catalytic. {ECO:0000250}.
+SQ   SEQUENCE   410 AA;  47312 MW;  0BF3F415144E5FCE CRC64;
+     MRRMLINAIE IKKLRIALID GQQLYDLNVE NIDKKQRKSN IYKGKIVRIE PSLEAAFVDY
+     GEKKNGFLPL KEISRNYFPN NCSNYRHLHI KNILKEGQEC IVQIDKEERG TKGALLTTFI
+     SLAGNYLVLM PNCPHLEGIS RKIEGIDRFH LKKIISMLMV PENMGIIIRT SGVGRSIETL
+     QLDLNFRVKN WYTIKKSAEI NTAPCLIHKE SNIVIRTLRD YLKKDIQEII VDNPEILELA
+     RDYMFNMNCS YFEKKIKLYT GSDPLFSYYK IESQINALLR RIVKLPSGGS IIIDYTEALT
+     AIDINSSQST KGVNIEETAF NTNYEAVREI ARQLRLRDLG GLIVIDFIDM SVLKHQKMIE
+     LHLHQVLQKD RARVQVGSIS QFGLLEMSRQ CLGSPLKKIN HNYLFEMQKC
+//

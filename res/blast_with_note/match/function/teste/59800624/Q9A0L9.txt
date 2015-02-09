@@ -1,0 +1,97 @@
+ID   ADCA_STRP1              Reviewed;         515 AA.
+AC   Q9A0L9; Q48ZQ7;
+DT   18-OCT-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   07-JAN-2015, entry version 87.
+DE   RecName: Full=Zinc-binding protein AdcA;
+DE   Flags: Precursor;
+GN   Name=adcA; OrderedLocusNames=SPy_0714, M5005_Spy0543;
+OS   Streptococcus pyogenes serotype M1.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=301447;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700294 / SF370 / Serotype M1;
+RX   PubMed=11296296; DOI=10.1073/pnas.071559398;
+RA   Ferretti J.J., McShan W.M., Ajdic D.J., Savic D.J., Savic G., Lyon K.,
+RA   Primeaux C., Sezate S., Suvorov A.N., Kenton S., Lai H.S., Lin S.P.,
+RA   Qian Y., Jia H.G., Najar F.Z., Ren Q., Zhu H., Song L., White J.,
+RA   Yuan X., Clifton S.W., Roe B.A., McLaughlin R.E.;
+RT   "Complete genome sequence of an M1 strain of Streptococcus pyogenes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:4658-4663(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-947 / MGAS5005 / Serotype M1;
+RX   PubMed=16088826; DOI=10.1086/432514;
+RA   Sumby P., Porcella S.F., Madrigal A.G., Barbian K.D., Virtaneva K.,
+RA   Ricklefs S.M., Sturdevant D.E., Graham M.R., Vuopio-Varkila J.,
+RA   Hoe N.P., Musser J.M.;
+RT   "Evolutionary origin and emergence of a highly successful clone of
+RT   serotype M1 group A Streptococcus involved multiple horizontal gene
+RT   transfer events.";
+RL   J. Infect. Dis. 192:771-782(2005).
+CC   -!- FUNCTION: Part of the ATP-driven transport system AdcABC for zinc.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 9
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004092; AAK33667.1; -; Genomic_DNA.
+DR   EMBL; CP000017; AAZ51161.1; -; Genomic_DNA.
+DR   RefSeq; YP_281906.1; NC_007297.1.
+DR   ProteinModelPortal; Q9A0L9; -.
+DR   STRING; 160490.SPy_0714; -.
+DR   PaxDb; Q9A0L9; -.
+DR   EnsemblBacteria; AAK33667; AAK33667; SPy_0714.
+DR   EnsemblBacteria; AAZ51161; AAZ51161; M5005_Spy0543.
+DR   GeneID; 3572365; -.
+DR   KEGG; spz:M5005_Spy_0543; -.
+DR   PATRIC; 19715080; VBIStrPyo79812_0608.
+DR   eggNOG; COG3443; -.
+DR   HOGENOM; HOG000180308; -.
+DR   KO; K09815; -.
+DR   OMA; GAGHDHH; -.
+DR   OrthoDB; EOG6K9QKM; -.
+DR   BioCyc; SPYO160490:GJ81-584-MONOMER; -.
+DR   BioCyc; SPYO293653:GHFC-598-MONOMER; -.
+DR   Proteomes; UP000000750; Chromosome.
+DR   Proteomes; UP000002702; Chromosome.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0006829; P:zinc ion transport; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.128.20; -; 1.
+DR   InterPro; IPR006129; AdhesinB.
+DR   InterPro; IPR012674; Calycin.
+DR   InterPro; IPR011038; Calycin-like.
+DR   InterPro; IPR006128; Lipoprotein_4.
+DR   InterPro; IPR006127; Perip_solute-bd_prot_fam.
+DR   InterPro; IPR015304; ZinT_dom.
+DR   PANTHER; PTHR30477:SF1; PTHR30477:SF1; 1.
+DR   Pfam; PF01297; TroA; 1.
+DR   Pfam; PF09223; YodA; 1.
+DR   PRINTS; PR00691; ADHESINB.
+DR   PRINTS; PR00690; ADHESNFAMILY.
+DR   SUPFAM; SSF50814; SSF50814; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Ion transport; Reference proteome; Signal;
+KW   Transport; Zinc; Zinc transport.
+FT   SIGNAL        1     28       {ECO:0000255}.
+FT   CHAIN        29    515       Zinc-binding protein AdcA.
+FT                                /FTId=PRO_0000031868.
+FT   CONFLICT    127    127       P -> H (in Ref. 2; AAZ51161).
+FT                                {ECO:0000305}.
+FT   CONFLICT    367    367       D -> N (in Ref. 2; AAZ51161).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   515 AA;  58520 MW;  477B6A8A33BEE9F9 CRC64;
+     MKKKILLMMS LISVFFAWQL TQAKQVLAEG KVKVVTTFYP VYEFTKGVIG NDGDVFMLMK
+     AGTEPHDFEP STKDIKKIQD ADAFVYMDDN METWVSDVKK SLTSKKVTIV KGTGNMLLVA
+     GAGHDHPHED ADKKHEHNKH SEEGHNHAFD PHVWLSPYRS ITVVENIRDS LSKAYPEKAE
+     NFKANAATYI EKLKELDKDY TAALSDAKQK SFVTQHAAFG YMALDYGLNQ ISINGVTPDA
+     EPSAKRIATL SKYVKKYGIK YIYFEENASS KVAKTLAKEA GVKAAVLSPL EGLTEKEMKA
+     GQDYFTVMRK NLETLRLTTD VAGKEILPEK DTTKTVYNGY FKDKEVKDRQ LSDWSGSWQS
+     VYPYLQDGTL DQVWDYKAKK SKGKMTAAEY KDYYTTGYKT DVEQIKINGK KKTMTFVRNG
+     EKKTFTYTYA GKEILTYPKG NRGVRFMFEA KEADAGEFKY VQFSDHAIAP EKAKHFHLYW
+     GGDSQEKLHK ELEHWPTYYG SDLSGREIAQ EINAH
+//

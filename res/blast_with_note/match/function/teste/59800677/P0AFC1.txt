@@ -1,0 +1,112 @@
+ID   NUDB_ECO57              Reviewed;         150 AA.
+AC   P0AFC1; P24236;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   07-JAN-2015, entry version 58.
+DE   RecName: Full=Dihydroneopterin triphosphate pyrophosphatase;
+DE            EC=3.6.1.-;
+DE   AltName: Full=dATP pyrophosphohydrolase;
+GN   Name=nudB; OrderedLocusNames=Z2917, ECs2575;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D.,
+RA   Rose D.J., Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A.,
+RA   Posfai G., Hackett J., Klink S., Boutin A., Shao Y., Miller L.,
+RA   Grotbeck E.J., Davis N.W., Lim A., Dimalanta E.T., Potamousis K.,
+RA   Apodaca J., Anantharaman T.S., Lin J., Yen G., Schwartz D.C.,
+RA   Welch R.A., Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T.,
+RA   Iida T., Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T.,
+RA   Kuhara S., Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli
+RT   O157:H7 and genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of dihydroneopterin
+CC       triphosphate to dihydroneopterin monophosphate and pyrophosphate.
+CC       Required for efficient folate biosynthesis. Can also hydrolyze
+CC       nucleoside triphosphates with a preference for dATP (By
+CC       similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00794}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005174; AAG56855.1; -; Genomic_DNA.
+DR   EMBL; BA000007; BAB35998.1; -; Genomic_DNA.
+DR   PIR; C85799; C85799.
+DR   PIR; G90950; G90950.
+DR   RefSeq; NP_288302.1; NC_002655.2.
+DR   RefSeq; NP_310602.1; NC_002695.1.
+DR   ProteinModelPortal; P0AFC1; -.
+DR   SMR; P0AFC1; 2-148.
+DR   STRING; 155864.Z2917; -.
+DR   EnsemblBacteria; AAG56855; AAG56855; Z2917.
+DR   EnsemblBacteria; BAB35998; BAB35998; BAB35998.
+DR   GeneID; 914189; -.
+DR   GeneID; 961838; -.
+DR   KEGG; ece:Z2917; -.
+DR   KEGG; ecs:ECs2575; -.
+DR   PATRIC; 18354522; VBIEscCol44059_2472.
+DR   eggNOG; COG0494; -.
+DR   HOGENOM; HOG000264405; -.
+DR   KO; K08310; -.
+DR   OMA; VTRNTEH; -.
+DR   OrthoDB; EOG69WFKW; -.
+DR   BioCyc; ECOL386585:GJFA-2549-MONOMER; -.
+DR   BioCyc; ECOO157:Z2917-MONOMER; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0008828; F:dATP pyrophosphohydrolase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:InterPro.
+DR   GO; GO:0046656; P:folic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   InterPro; IPR003564; dATP_pyrPHydro.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR01404; NPPPHYDRLASE.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Folate biosynthesis; Hydrolase; Magnesium;
+KW   Metal-binding.
+FT   CHAIN         1    150       Dihydroneopterin triphosphate
+FT                                pyrophosphatase.
+FT                                /FTId=PRO_0000056953.
+FT   DOMAIN        5    146       Nudix hydrolase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00794}.
+FT   REGION       81     84       Substrate binding. {ECO:0000255}.
+FT   MOTIF        41     62       Nudix box.
+FT   METAL        56     56       Magnesium. {ECO:0000250}.
+FT   METAL        60     60       Magnesium. {ECO:0000250}.
+FT   METAL       117    117       Magnesium. {ECO:0000250}.
+FT   BINDING       7      7       Substrate. {ECO:0000250}.
+FT   BINDING      29     29       Substrate. {ECO:0000250}.
+FT   BINDING      40     40       Substrate. {ECO:0000250}.
+FT   BINDING     135    135       Substrate. {ECO:0000255}.
+SQ   SEQUENCE   150 AA;  17306 MW;  B4F05FA056F3BA07 CRC64;
+     MKDKVYKRPV SILVVIYAQD TKRVLMLQRR DDPDFWQSVT GSVEEGETAP QAAMREVKEE
+     VTIDVVAEQL TLIDCQRTVE FEIFSHLRHR YAPGVTRNTE SWFCLALPHE RQIVFTEHLA
+     YKWLDAPAAA ALTKSWSNRQ AIEQFVINAA
+//

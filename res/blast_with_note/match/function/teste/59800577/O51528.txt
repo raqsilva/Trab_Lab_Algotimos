@@ -1,0 +1,109 @@
+ID   RECG_BORBU              Reviewed;         686 AA.
+AC   O51528;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   07-JAN-2015, entry version 97.
+DE   RecName: Full=ATP-dependent DNA helicase RecG;
+DE            EC=3.6.4.12;
+GN   Name=recG; OrderedLocusNames=BB_0581;
+OS   Borrelia burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM
+OS   4680).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Borrelia;
+OC   Borrelia burgdorferi group.
+OX   NCBI_TaxID=224326;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35210 / B31 / CIP 102532 / DSM 4680;
+RX   PubMed=9403685; DOI=10.1038/37551;
+RA   Fraser C.M., Casjens S., Huang W.M., Sutton G.G., Clayton R.A.,
+RA   Lathigra R., White O., Ketchum K.A., Dodson R.J., Hickey E.K.,
+RA   Gwinn M.L., Dougherty B.A., Tomb J.-F., Fleischmann R.D.,
+RA   Richardson D.L., Peterson J.D., Kerlavage A.R., Quackenbush J.,
+RA   Salzberg S.L., Hanson M., van Vugt R., Palmer N., Adams M.D.,
+RA   Gocayne J.D., Weidman J.F., Utterback T.R., Watthey L., McDonald L.A.,
+RA   Artiach P., Bowman C., Garland S.A., Fujii C., Cotton M.D., Horst K.,
+RA   Roberts K.M., Hatch B., Smith H.O., Venter J.C.;
+RT   "Genomic sequence of a Lyme disease spirochaete, Borrelia
+RT   burgdorferi.";
+RL   Nature 390:580-586(1997).
+CC   -!- FUNCTION: Critical role in recombination and DNA repair. Helps
+CC       process Holliday junction intermediates to mature products by
+CC       catalyzing branch migration. Has a DNA unwinding activity
+CC       characteristic of a DNA helicase with a 3'- to 5'- polarity.
+CC       Unwinds branched duplex DNA (Y-DNA) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- SIMILARITY: Belongs to the helicase family. RecG subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000783; AAC66942.1; -; Genomic_DNA.
+DR   PIR; D70172; D70172.
+DR   RefSeq; NP_212715.1; NC_001318.1.
+DR   ProteinModelPortal; O51528; -.
+DR   STRING; 224326.BB0581; -.
+DR   PRIDE; O51528; -.
+DR   EnsemblBacteria; AAC66942; AAC66942; BB_0581.
+DR   GeneID; 1195428; -.
+DR   KEGG; bbu:BB_0581; -.
+DR   PATRIC; 20557795; VBIBorBur75917_0972.
+DR   eggNOG; COG1200; -.
+DR   KO; K03655; -.
+DR   OMA; YIVFGKP; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   BioCyc; BBUR224326:G9SO-583-MONOMER; -.
+DR   Proteomes; UP000001807; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004003; F:ATP-dependent DNA helicase activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR004609; ATP-dep_DNA_helicase_RecG.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00643; recG; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; DNA damage; DNA recombination;
+KW   DNA repair; DNA-binding; Helicase; Hydrolase; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN         1    686       ATP-dependent DNA helicase RecG.
+FT                                /FTId=PRO_0000102139.
+FT   DOMAIN      277    438       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      457    617       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     290    297       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF       391    394       DEQH box.
+SQ   SEQUENCE   686 AA;  79044 MW;  5D4B20F38E6BA50B CRC64;
+     MFLHEFEYEL KGIGGLGEKG VERLNNLQIF NVKDLIEFFP VKYEDRQNIQ TFPDFSKVKS
+     CDMMTVFTVL GHKKFGDSSK KNLKLTVKSI NEEPFEILLF NRAFLENVFK IDKKFYIYSK
+     FTYNDYSGLW SCSNFDSEVY SDKPERFKKI LPVYSLTEGL TSKKISLYVK EALEYFFKFG
+     QTDIPRFLIE KYSLLSLSDA LKEIHFPSSL EMLEKAKKTL IYREIFLLQF FSRYRSSKIL
+     FREKKDLSKD LLEKVVSSLP FELTEDQKIS IDEIFFDLNS SKPMNRLLQG DVGSGKTLVA
+     LLSGLPLIEA GYQVAFMAPT DLLARQHYDN LSNILAPFNI SMTLLTGSLR KKDKEQALES
+     IRNGTSGLIV GTHAIFYEST EFKRLAYVII DEQHKFGVVQ REELKNKGEG VDMLLMSATP
+     IPRSFALTLF GDLEVSFIKT LPKGRLPITT YLARHGNEDK VYEFLRKELL KGHQVYFVYP
+     LISSSEKFEL KDVNNMCLKL KEVFGEYVVD MLHSKLPSDL KEEIMKNFYS KKVDILVATS
+     VIEVGIDCPN ATCMVVEHAE RFGLSTLHQI RGRVGRSNLQ SFFFLLYKEP LTSAGKFRLK
+     TIKENLDGFK IAEEDLRLRG PGNLFGLEQA GYLKLKIANF VDDREIIVLV REELDLFFYD
+     NSAYDKLDID LLDNLFCSYL NAGRSI
+//

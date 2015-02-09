@@ -1,0 +1,88 @@
+ID   TRMD_NEIMF              Reviewed;         249 AA.
+AC   A1KSJ9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-JAN-2015, entry version 61.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=NMC0532;
+OS   Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 /
+OS   DSM 15464 / FAM18).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=272831;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700532 / DSM 15464 / FAM18;
+RX   PubMed=17305430; DOI=10.1371/journal.pgen.0030023;
+RA   Bentley S.D., Vernikos G.S., Snyder L.A.S., Churcher C.,
+RA   Arrowsmith C., Chillingworth T., Cronin A., Davis P.H., Holroyd N.E.,
+RA   Jagels K., Maddison M., Moule S., Rabbinowitsch E., Sharp S.,
+RA   Unwin L., Whitehead S., Quail M.A., Achtman M., Barrell B.G.,
+RA   Saunders N.J., Parkhill J.;
+RT   "Meningococcal genetic variation mechanisms viewed through comparative
+RT   analysis of serogroup C strain FAM18.";
+RL   PLoS Genet. 3:230-240(2007).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM421808; CAM09829.1; -; Genomic_DNA.
+DR   RefSeq; YP_974630.1; NC_008767.1.
+DR   ProteinModelPortal; A1KSJ9; -.
+DR   SMR; A1KSJ9; 1-246.
+DR   STRING; 272831.NMC0532; -.
+DR   EnsemblBacteria; CAM09829; CAM09829; NMC0532.
+DR   GeneID; 4675382; -.
+DR   KEGG; nmc:NMC0532; -.
+DR   PATRIC; 20350795; VBINeiMen17609_0655.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   BioCyc; NMEN272831:GJDX-520-MONOMER; -.
+DR   Proteomes; UP000002286; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    249       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_1000006499.
+FT   REGION      133    138       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     113    113       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   249 AA;  27814 MW;  277E92F24DB18EBB CRC64;
+     MLIQAVTIFP EMFDSITRYG VTGRANRQGI WQFEAVNPRK FADNRLGYID DRPFGGGPGM
+     IMMAPPLHAA IEHAKAQSSQ AAKVIYLSPQ GKPLTHQKAV ELAELPHLIL LCGRYEGIDE
+     RLLQSSVDEE ISIGDFVVSG GELPAMMLMD AVLRLVPGVL GDMQSAEQDS FSSGILDCPH
+     YTKPLEFQGM AVPEVLRSGN HGLIAEWRLE QSLRRTLERR PDLLEKRSLI PKESRILNKI
+     LQEQREIQS
+//

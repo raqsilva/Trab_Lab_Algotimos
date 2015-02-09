@@ -1,0 +1,102 @@
+ID   NUDC_PSEU5              Reviewed;         276 AA.
+AC   A4VLQ5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   04-FEB-2015, entry version 46.
+DE   RecName: Full=NADH pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00297};
+DE            EC=3.6.1.22 {ECO:0000255|HAMAP-Rule:MF_00297};
+GN   Name=nudC {ECO:0000255|HAMAP-Rule:MF_00297};
+GN   OrderedLocusNames=PST_2247;
+OS   Pseudomonas stutzeri (strain A1501).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=379731;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A1501;
+RA   Yan Y., Yang J., Dou Y., Ping S., Chen M., Yao Z., Li H., Lu W.,
+RA   Zhang W., Peng J., Liu W., He S., Geng L., Zhang X., Yang F., Li D.,
+RA   Lin Z., Wang Y., Elmerich C., Lin M., Jin Q.;
+RT   "Complete genome sequence of the metabolically versatile and root-
+RT   associated nitrogen-fixing bacterium Pseudomonas stutzeri A1501.";
+RL   Submitted (APR-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: NAD(+) + H(2)O = AMP + NMN.
+CC       {ECO:0000255|HAMAP-Rule:MF_00297}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC       Note=Divalent metal cations. Mg(2+) or Mn(2+). {ECO:0000255|HAMAP-
+CC       Rule:MF_00297};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00297};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00297}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. NudC subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00297}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00297}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000304; ABP79906.1; -; Genomic_DNA.
+DR   RefSeq; WP_011913373.1; NC_009434.1.
+DR   RefSeq; YP_001172748.1; NC_009434.1.
+DR   ProteinModelPortal; A4VLQ5; -.
+DR   STRING; 379731.PST_2247; -.
+DR   EnsemblBacteria; ABP79906; ABP79906; PST_2247.
+DR   GeneID; 5098327; -.
+DR   KEGG; psa:PST_2247; -.
+DR   PATRIC; 19964986; VBIPseStu31643_2256.
+DR   eggNOG; COG2816; -.
+DR   HOGENOM; HOG000247937; -.
+DR   KO; K03426; -.
+DR   OMA; TWAREHR; -.
+DR   OrthoDB; EOG6S26JD; -.
+DR   BioCyc; PSTU379731:GJER-2242-MONOMER; -.
+DR   Proteomes; UP000000233; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000210; F:NAD+ diphosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   HAMAP; MF_00297; Nudix_NudC; 1.
+DR   InterPro; IPR015375; NADH_PPase-like_N.
+DR   InterPro; IPR022925; NADH_pyroPase_NudC.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   InterPro; IPR015376; Znr_NADH_PPase.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   Pfam; PF09296; NUDIX-like; 1.
+DR   Pfam; PF09297; zf-NADH-PPase; 1.
+DR   SUPFAM; SSF55811; SSF55811; 2.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Magnesium; Manganese; Metal-binding;
+KW   NAD; Reference proteome; Zinc.
+FT   CHAIN         1    276       NADH pyrophosphatase.
+FT                                /FTId=PRO_1000021914.
+FT   DOMAIN      139    262       Nudix hydrolase. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00297}.
+FT   MOTIF       173    194       Nudix box.
+FT   METAL       112    112       Zinc. {ECO:0000255|HAMAP-Rule:MF_00297}.
+FT   METAL       115    115       Zinc. {ECO:0000255|HAMAP-Rule:MF_00297}.
+FT   METAL       130    130       Zinc. {ECO:0000255|HAMAP-Rule:MF_00297}.
+FT   METAL       133    133       Zinc. {ECO:0000255|HAMAP-Rule:MF_00297}.
+FT   METAL       188    188       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00297}.
+FT   METAL       192    192       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00297}.
+SQ   SEQUENCE   276 AA;  30908 MW;  7C432F54109F89D1 CRC64;
+     MSLRWQAALL DPSLAGGWAV VHCRQQFLVD DSGVLFPRDW LKRLELPLLS EQGLGHFDGE
+     PVFLFELDVP ADVPGARWQG LRQFMQQVDP DLFRLLGYAT QIGTWVSQHR FCGSCGSPMH
+     ARAGERAMYC PACGVQHYPR LSPSMIVLVT RGDELLLARS PRFAPGVYST LAGYVEPGES
+     VEQCVAREVR EEVGVDIHPP QYIASQGWPF PHSLMLGFHA EYAGGEIVPQ PEEIEDARWF
+     HIDNLPALPA RQSIARYLIE LYLARRLGRP EPVLPG
+//

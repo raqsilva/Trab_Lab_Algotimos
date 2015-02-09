@@ -1,0 +1,113 @@
+ID   MAOC_FLATR              Reviewed;         648 AA.
+AC   P22178; P93140;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   07-JAN-2015, entry version 98.
+DE   RecName: Full=NADP-dependent malic enzyme, chloroplastic;
+DE            Short=NADP-ME;
+DE            EC=1.1.1.40;
+DE   Flags: Precursor;
+GN   Name=MOD1; Synonyms=MAL;
+OS   Flaveria trinervia (Clustered yellowtops) (Oedera trinervia).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; asterids; campanulids; Asterales; Asteraceae;
+OC   Asteroideae; Heliantheae alliance; Tageteae; Flaveria.
+OX   NCBI_TaxID=4227;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Leaf;
+RX   PubMed=2226841; DOI=10.1016/0014-5793(90)81063-T;
+RA   Boersch D., Westhoff P.;
+RT   "Primary structure of NADP-dependent malic enzyme in the
+RT   dicotyledonous C4 plant Flaveria trinervia.";
+RL   FEBS Lett. 273:111-115(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 461-648.
+RC   TISSUE=Leaf;
+RX   PubMed=1883995; DOI=10.1007/BF00040632;
+RA   Rajeevan M.S., Bassett C.L., Hughes D.W.;
+RT   "Isolation and characterization of cDNA clones for NADP-malic enzyme
+RT   from leaves of Flaveria: transcript abundance distinguishes C3, C3-C4
+RT   and C4 photosynthetic types.";
+RL   Plant Mol. Biol. 17:371-383(1991).
+CC   -!- FUNCTION: The chloroplastic ME isoform decarboxylates malate
+CC       shuttled from neighboring mesophyll cells. The CO(2) released is
+CC       then refixed by ribulose-bisphosphate carboxylase. This pathway
+CC       eliminates the photorespiratory loss of CO(2) that occurs in most
+CC       plants.
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NADP(+) = pyruvate + CO(2) +
+CC       NADPH.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000250};
+CC   -!- PATHWAY: Photosynthesis; C4 acid pathway.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast.
+CC   -!- SIMILARITY: Belongs to the malic enzymes family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X57142; CAA40421.1; -; mRNA.
+DR   EMBL; M59416; AAB19243.1; -; mRNA.
+DR   PIR; S12893; S12893.
+DR   ProteinModelPortal; P22178; -.
+DR   SMR; P22178; 107-648.
+DR   BRENDA; 1.1.1.40; 2270.
+DR   UniPathway; UPA00322; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:InterPro.
+DR   GO; GO:0004473; F:malate dehydrogenase (decarboxylating) (NADP+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR001891; Malic_OxRdtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   PIRSF; PIRSF000106; ME; 1.
+DR   PRINTS; PR00072; MALOXRDTASE.
+DR   SMART; SM00919; Malic_M; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   2: Evidence at transcript level;
+KW   Chloroplast; Metal-binding; NAD; NADP; Oxidoreductase; Plastid;
+KW   Transit peptide.
+FT   TRANSIT       1    ?61       Chloroplast.
+FT   CHAIN       ?62    648       NADP-dependent malic enzyme,
+FT                                chloroplastic.
+FT                                /FTId=PRO_0000018546.
+FT   NP_BIND     392    408       NADP. {ECO:0000250}.
+FT   ACT_SITE    195    195       Proton donor. {ECO:0000250}.
+FT   ACT_SITE    266    266       Proton acceptor. {ECO:0000250}.
+FT   METAL       339    339       Divalent metal cation. {ECO:0000250}.
+FT   METAL       340    340       Divalent metal cation. {ECO:0000250}.
+FT   METAL       363    363       Divalent metal cation. {ECO:0000250}.
+FT   BINDING     248    248       NAD. {ECO:0000250}.
+FT   BINDING     363    363       NAD. {ECO:0000250}.
+FT   BINDING     504    504       NAD. {ECO:0000250}.
+FT   SITE        363    363       Important for activity. {ECO:0000250}.
+FT   CONFLICT    580    580       P -> L (in Ref. 2; AAB19243).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   648 AA;  71470 MW;  A03D8E8D704D8842 CRC64;
+     MISLNSSFLE RSSVTGGSRT QSQSLRLSAR RPVVTSMLNS NSLPERNVSV SVDSAVRDVN
+     APVAVEVDRS VGEKPFAAVG GGVEDMYGED TATEDHYITP WSVSVASGYS LLRDPHHNKG
+     LAFTEKERDA HFLRGLLPPV VVNHDLQVKK MMHNIRQYQV PLQRYQAMMD LQQRNERLFY
+     KLLIENVEEL LPIVYTPTVG EACQKYGSIF ENSQGLFISL KDKGRILEIL KNWPHKKIQV
+     IVVTDGERIL GLGDLGCQGM GIPVGKLALY TALGGVRPSA CLPITIDVGT NNEKLLNDDE
+     FYIGLKQKRA AGQEYAELMN EFMSAVKQNY GENLLIQFED FANHNAFDLL EKYRTTHLVF
+     NDDIQGTASV VLGGLISALK LVGGSLADQK FLFLGAGEAG TGIAELIALE ISKQTNIPLE
+     ESRKKVWLVD SKGLIVRSRL DSLQHFKKPW AHDHEPVNEF LDAIKTIRPT VLIGSSGTGQ
+     TFTKEVVETM SSLNEKPIIL ALSNPTSQSE CTAEQAYTWS EGRAIFASGS PFKPVEYNGK
+     LYVSGQANNA YIFPGFGLGL IISGAIRVHD DMLLAASEAP AEQVTQEHFD KGLIFPPFTS
+     IRKISAHIAA KVAAKAYELG LASRLPQPEN LVAYAESCMY SPKYRIYR
+//

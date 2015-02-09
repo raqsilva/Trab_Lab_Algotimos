@@ -1,0 +1,101 @@
+ID   MUTX_STRMU              Reviewed;         159 AA.
+AC   P95781;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2002, sequence version 2.
+DT   07-JAN-2015, entry version 98.
+DE   RecName: Full=8-oxo-dGTP diphosphatase;
+DE            Short=8-oxo-dGTPase;
+DE            EC=3.6.1.55;
+DE   AltName: Full=7,8-dihydro-8-oxoguanine-triphosphatase;
+DE   AltName: Full=Mutator protein MutT;
+DE   AltName: Full=dGTP pyrophosphohydrolase;
+GN   Name=mutX; OrderedLocusNames=SMU_1455;
+OS   Streptococcus mutans serotype c (strain ATCC 700610 / UA159).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=210007;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=XC;
+RA   Tsukioka Y., Yamashita Y., Nakano Y., Oho T., Koga T.;
+RL   Submitted (FEB-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700610 / UA159;
+RX   PubMed=12397186; DOI=10.1073/pnas.172501299;
+RA   Ajdic D.J., McShan W.M., McLaughlin R.E., Savic G., Chang J.,
+RA   Carson M.B., Primeaux C., Tian R., Kenton S., Jia H.G., Lin S.P.,
+RA   Qian Y., Li S., Zhu H., Najar F.Z., Lai H., White J., Roe B.A.,
+RA   Ferretti J.J.;
+RT   "Genome sequence of Streptococcus mutans UA159, a cariogenic dental
+RT   pathogen.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14434-14439(2002).
+CC   -!- FUNCTION: Involved in the DNA repair system to avoid A.T to G.C
+CC       transversions. Degrades 8-oxo-dGTP to the monophosphate, but is
+CC       also active on all of the nucleoside triphosphates (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: 8-oxo-dGTP + H(2)O = 8-oxo-dGMP + diphosphate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00794}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D78182; BAA11250.1; -; Genomic_DNA.
+DR   EMBL; AE014133; AAN59114.1; -; Genomic_DNA.
+DR   RefSeq; NP_721808.1; NC_004350.2.
+DR   ProteinModelPortal; P95781; -.
+DR   STRING; 210007.SMU.1455; -.
+DR   EnsemblBacteria; AAN59114; AAN59114; SMU_1455.
+DR   GeneID; 1028738; -.
+DR   KEGG; smu:SMU_1455; -.
+DR   PATRIC; 19664931; VBIStrMut61772_1294.
+DR   eggNOG; COG0494; -.
+DR   KO; K03574; -.
+DR   OMA; MPYTPIV; -.
+DR   OrthoDB; EOG64JFTK; -.
+DR   PhylomeDB; P95781; -.
+DR   BioCyc; SMUT210007:GC7Z-1369-MONOMER; -.
+DR   Proteomes; UP000002512; Chromosome.
+DR   GO; GO:0008413; F:8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   InterPro; IPR003562; Mutator_MutX_prot.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR01402; MUTATORMUTX.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA damage; DNA repair; DNA replication; Hydrolase;
+KW   Magnesium; Metal-binding; Mutator protein; Reference proteome.
+FT   CHAIN         1    159       8-oxo-dGTP diphosphatase.
+FT                                /FTId=PRO_0000056950.
+FT   DOMAIN        1    133       Nudix hydrolase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00794}.
+FT   MOTIF        38     59       Nudix box.
+FT   METAL        38     38       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   METAL        53     53       Magnesium. {ECO:0000250}.
+FT   METAL        56     56       Magnesium. {ECO:0000250}.
+FT   METAL        57     57       Magnesium. {ECO:0000250}.
+FT   CONFLICT      2      2       T -> I (in Ref. 1; BAA11250).
+FT                                {ECO:0000305}.
+FT   CONFLICT     14     14       C -> R (in Ref. 1; BAA11250).
+FT                                {ECO:0000305}.
+FT   CONFLICT    133    133       D -> E (in Ref. 1; BAA11250).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   159 AA;  18850 MW;  3A51D946F95262A0 CRC64;
+     MTKLATICYI DNGCELLLMH RNKKPNDVHE GKWISVGGKL EKGESPDECA RREIFEETHL
+     IVKQMDFKGI ITFPDFTPGH DWYTYVFKVR DFEGRLISDK DSREGTLEWV PYNQVLTKPT
+     WEGDYEIFKW ILDDAPFFSA KFVYQEQKLV DKHVIFYEK
+//

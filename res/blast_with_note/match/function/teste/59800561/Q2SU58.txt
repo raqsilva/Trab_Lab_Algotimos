@@ -1,0 +1,110 @@
+ID   ENGB_BURTA              Reviewed;         219 AA.
+AC   Q2SU58;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 2.
+DT   07-JAN-2015, entry version 57.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   OrderedLocusNames=BTH_I3037;
+OS   Burkholderia thailandensis (strain E264 / ATCC 700388 / DSM 13276 /
+OS   CIP 106301).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=271848;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=E264 / ATCC 700388 / DSM 13276 / CIP 106301;
+RX   PubMed=16336651; DOI=10.1186/1471-2164-6-174;
+RA   Kim H.S., Schell M.A., Yu Y., Ulrich R.L., Sarria S.H., Nierman W.C.,
+RA   DeShazer D.;
+RT   "Bacterial genome adaptation to niches: divergence of the potential
+RT   virulence genes in three Burkholderia species of different survival
+RT   strategies.";
+RL   BMC Genomics 6:174-174(2005).
+CC   -!- FUNCTION: Necessary for normal cell division and for the
+CC       maintenance of normal septation. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-
+CC       like GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- SIMILARITY: Contains 1 EngB-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABC39144.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000086; ABC39144.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_443541.1; NC_007651.1.
+DR   PDB; 4DHE; X-ray; 2.20 A; A/B=1-219.
+DR   PDBsum; 4DHE; -.
+DR   ProteinModelPortal; Q2SU58; -.
+DR   STRING; 271848.BTH_I3037; -.
+DR   EnsemblBacteria; ABC39144; ABC39144; BTH_I3037.
+DR   GeneID; 3849784; -.
+DR   KEGG; bte:BTH_I3037; -.
+DR   PATRIC; 19309312; VBIBurTha36512_5928.
+DR   eggNOG; COG0218; -.
+DR   HOGENOM; HOG000009832; -.
+DR   KO; K03978; -.
+DR   OrthoDB; EOG6ND0NG; -.
+DR   BioCyc; BTHA271848:GJMY-3037-MONOMER; -.
+DR   Proteomes; UP000001930; Chromosome I.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR03598; GTPase_YsxC; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell cycle; Cell division; Complete proteome;
+KW   GTP-binding; Magnesium; Metal-binding; Nucleotide-binding; Septation.
+FT   CHAIN         1    219       Probable GTP-binding protein EngB.
+FT                                /FTId=PRO_0000266837.
+FT   DOMAIN       24    207       EngB-type G. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   NP_BIND      32     39       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      59     63       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      81     84       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     148    151       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     185    188       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   METAL        39     39       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   METAL        61     61       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   HELIX         1      6       {ECO:0000244|PDB:4DHE}.
+FT   STRAND        9     14       {ECO:0000244|PDB:4DHE}.
+FT   HELIX        17     19       {ECO:0000244|PDB:4DHE}.
+FT   STRAND       27     33       {ECO:0000244|PDB:4DHE}.
+FT   HELIX        35     45       {ECO:0000244|PDB:4DHE}.
+FT   STRAND       49     52       {ECO:0000244|PDB:4DHE}.
+FT   STRAND       64     70       {ECO:0000244|PDB:4DHE}.
+FT   STRAND       76     81       {ECO:0000244|PDB:4DHE}.
+FT   HELIX        94    108       {ECO:0000244|PDB:4DHE}.
+FT   STRAND      112    120       {ECO:0000244|PDB:4DHE}.
+FT   HELIX       127    136       {ECO:0000244|PDB:4DHE}.
+FT   HELIX       137    139       {ECO:0000244|PDB:4DHE}.
+FT   STRAND      143    148       {ECO:0000244|PDB:4DHE}.
+FT   HELIX       150    152       {ECO:0000244|PDB:4DHE}.
+FT   HELIX       155    175       {ECO:0000244|PDB:4DHE}.
+FT   STRAND      181    187       {ECO:0000244|PDB:4DHE}.
+FT   TURN        188    191       {ECO:0000244|PDB:4DHE}.
+FT   HELIX       194    205       {ECO:0000244|PDB:4DHE}.
+SQ   SEQUENCE   219 AA;  24207 MW;  700149DD587B26AC CRC64;
+     MAFLLHQARF FTTVNHLRDL PPTVQPEIAF AGRSNAGKST AINVLCNQKR LAFASKTPGR
+     TQHINYFSVG PAAEPVAHLV DLPGYGYAEV PGAAKAHWEQ LLSSYLQTRP QLCGMILMMD
+     ARRPLTELDR RMIEWFAPTG KPIHSLLTKC DKLTRQESIN ALRATQKSLD AYRDAGYAGK
+     LTVQLFSALK RTGLDDAHAL IESWLRPAAA DEDHAAVAE
+//

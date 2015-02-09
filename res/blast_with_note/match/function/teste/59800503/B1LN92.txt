@@ -1,0 +1,115 @@
+ID   GATY_ECOSM              Reviewed;         284 AA.
+AC   B1LN92;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   04-FEB-2015, entry version 52.
+DE   RecName: Full=D-tagatose-1,6-bisphosphate aldolase subunit GatY {ECO:0000255|HAMAP-Rule:MF_01294};
+DE            Short=TBPA {ECO:0000255|HAMAP-Rule:MF_01294};
+DE            Short=TagBP aldolase {ECO:0000255|HAMAP-Rule:MF_01294};
+DE            EC=4.1.2.40 {ECO:0000255|HAMAP-Rule:MF_01294};
+DE   AltName: Full=D-tagatose-bisphosphate aldolase class II {ECO:0000255|HAMAP-Rule:MF_01294};
+DE   AltName: Full=Tagatose-bisphosphate aldolase {ECO:0000255|HAMAP-Rule:MF_01294};
+GN   Name=gatY {ECO:0000255|HAMAP-Rule:MF_01294};
+GN   OrderedLocusNames=EcSMS35_0968;
+OS   Escherichia coli (strain SMS-3-5 / SECEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=439855;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SMS-3-5 / SECEC;
+RX   PubMed=18708504; DOI=10.1128/JB.00661-08;
+RA   Fricke W.F., Wright M.S., Lindell A.H., Harkins D.M., Baker-Austin C.,
+RA   Ravel J., Stepanauskas R.;
+RT   "Insights into the environmental resistance gene pool from the genome
+RT   sequence of the multidrug-resistant environmental isolate Escherichia
+RT   coli SMS-3-5.";
+RL   J. Bacteriol. 190:6779-6794(2008).
+CC   -!- FUNCTION: Catalytic subunit of the tagatose-1,6-bisphosphate
+CC       aldolase GatYZ, which catalyzes the reversible aldol condensation
+CC       of dihydroxyacetone phosphate (DHAP or glycerone-phosphate) with
+CC       glyceraldehyde 3-phosphate (G3P) to produce tagatose 1,6-
+CC       bisphosphate (TBP). Requires GatZ subunit for full activity and
+CC       stability. Is involved in the catabolism of galactitol.
+CC       {ECO:0000255|HAMAP-Rule:MF_01294}.
+CC   -!- CATALYTIC ACTIVITY: D-tagatose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01294}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01294};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01294};
+CC   -!- PATHWAY: Carbohydrate metabolism; D-tagatose 6-phosphate
+CC       degradation; D-glyceraldehyde 3-phosphate and glycerone phosphate
+CC       from D-tagatose 6-phosphate: step 2/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01294}.
+CC   -!- SUBUNIT: Forms a complex with GatZ. {ECO:0000255|HAMAP-
+CC       Rule:MF_01294}.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. TagBP aldolase GatY subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01294}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000970; ACB17530.1; -; Genomic_DNA.
+DR   RefSeq; YP_001743047.1; NC_010498.1.
+DR   ProteinModelPortal; B1LN92; -.
+DR   SMR; B1LN92; 2-284.
+DR   STRING; 439855.EcSMS35_0968; -.
+DR   EnsemblBacteria; ACB17530; ACB17530; EcSMS35_0968.
+DR   GeneID; 6144270; -.
+DR   KEGG; ecm:EcSMS35_0968; -.
+DR   PATRIC; 18430779; VBIEscCol6161_1126.
+DR   eggNOG; COG0191; -.
+DR   HOGENOM; HOG000227793; -.
+DR   KO; K08302; -.
+DR   OMA; DLCRERF; -.
+DR   OrthoDB; EOG6HXJ7B; -.
+DR   BioCyc; ECOL439855:GHHB-966-MONOMER; -.
+DR   UniPathway; UPA00704; UER00716.
+DR   Proteomes; UP000007011; Chromosome.
+DR   GO; GO:0009025; F:tagatose-bisphosphate aldolase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:2001059; P:D-tagatose 6-phosphate catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019404; P:galactitol catabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01294; TagBP_aldolase_GatY; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   InterPro; IPR011288; TagBP_ald_KbaY/GatY.
+DR   InterPro; IPR023955; TagBP_aldolase_GatY.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01858; tag_bisphos_ald; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Galactitol metabolism; Lyase; Metal-binding; Zinc.
+FT   CHAIN         1    284       D-tagatose-1,6-bisphosphate aldolase
+FT                                subunit GatY.
+FT                                /FTId=PRO_0000355340.
+FT   REGION      209    211       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01294}.
+FT   REGION      230    233       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01294}.
+FT   ACT_SITE     82     82       Proton donor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01294}.
+FT   METAL        83     83       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01294}.
+FT   METAL       180    180       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01294}.
+FT   METAL       208    208       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01294}.
+FT   BINDING     181    181       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01294}.
+SQ   SEQUENCE   284 AA;  30909 MW;  B34AB1C3F37E6E73 CRC64;
+     MYVVSTKQML NNAQRGGYAV PAFNIHNLET MQVVVETAAS MHAPVIIAGT PGTFTHAGTE
+     NLMALVSAMA KQYHHPLAIH LDHHTKFDDI AQKVRSGVRS VMIDASHLPF AQNISRVKEV
+     VDFCHRFDVS VEAELGQLGG QEDDVQVNEA DALYTNPVQA REFAEATGID SLAVAIGTAH
+     GMYASAPALD FSRLENIRQW VNLPLVLHGA SGLSTKDIQQ TIKLGICKIN VATELKNAFS
+     QALKNYLTEH PEATDPRDYL QSAKFAMRDV VSKVIADCGC EGRA
+//

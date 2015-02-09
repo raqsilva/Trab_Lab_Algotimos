@@ -1,0 +1,94 @@
+ID   PPK_ACIB3               Reviewed;         692 AA.
+AC   B7GXW8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   07-JAN-2015, entry version 38.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   OrderedLocusNames=ABBFA_002620;
+OS   Acinetobacter baumannii (strain AB307-0294).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Acinetobacter;
+OC   Acinetobacter calcoaceticus/baumannii complex.
+OX   NCBI_TaxID=557600;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AB307-0294;
+RX   PubMed=18931120; DOI=10.1128/JB.00834-08;
+RA   Adams M.D., Goglin K., Molyneaux N., Hujer K.M., Lavender H.,
+RA   Jamison J.J., MacDonald I.J., Martin K.M., Russo T., Campagnari A.A.,
+RA   Hujer A.M., Bonomo R.A., Gill S.R.;
+RT   "Comparative genome sequence analysis of multidrug-resistant
+RT   Acinetobacter baumannii.";
+RL   J. Bacteriol. 190:8053-8064(2008).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal
+CC       phosphate of ATP to form a long-chain polyphosphate (polyP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (phosphate)(n) = ADP + (phosphate)(n+1).
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated
+CC       ppk in which a phosphate is covalently linked to histidine
+CC       residues through a N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001172; ACJ57355.1; -; Genomic_DNA.
+DR   RefSeq; YP_002326518.1; NC_011595.1.
+DR   ProteinModelPortal; B7GXW8; -.
+DR   STRING; 557600.ABBFA_002620; -.
+DR   EnsemblBacteria; ACJ57355; ACJ57355; ABBFA_002620.
+DR   GeneID; 7059440; -.
+DR   KEGG; abb:ABBFA_002620; -.
+DR   PATRIC; 20706698; VBIAciBau42682_2529.
+DR   eggNOG; COG0855; -.
+DR   HOGENOM; HOG000248948; -.
+DR   KO; K00937; -.
+DR   OMA; NYHAGNA; -.
+DR   OrthoDB; EOG65TRRG; -.
+DR   BioCyc; ABAU557600:GKC3-2625-MONOMER; -.
+DR   Proteomes; UP000006924; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1840.10; -; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR025200; PPK_C_dom.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF140356; SSF140356; 1.
+DR   TIGRFAMs; TIGR03705; poly_P_kin; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Transferase.
+FT   CHAIN         1    692       Polyphosphate kinase.
+FT                                /FTId=PRO_1000120492.
+FT   ACT_SITE    443    443       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+FT   ACT_SITE    462    462       Phosphohistidine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00347}.
+SQ   SEQUENCE   692 AA;  79034 MW;  E8BCE5EA40998C56 CRC64;
+     MNTAITATTP TEYSYNDRYI NRELSILDFH LRVLEQAVDP LHPLLERMNF LLIFSRNLDE
+     FFEIRVAGVM EQFALGNESR SPDGLTPRQV LQKISETAHT AIERQYRILN EEILPKLREE
+     DICFLRRGEL TPAQSAWVKK YFQEQVAPVL TPISLDPAHP FPRLVNKSLN FIVTLEGKDA
+     FGRQIDLAVV PAPRSLPRVV RLPDELTGGK EHHVMLSAII HEHVSDLFPG MTATGCYQFR
+     VTRNADLALN EDVEDLAKAL KGELSSRRFG RAVRLEVTQN CPQHIYEYLL EEFDLNEEQL
+     YKVDGPVNLA RLVSNFKRPH LRYDSHTPVV PKVFKKTESI FSAMQKQDIL LHHPFESFAP
+     VIQLLREAAR DPQVLAIKQT LYRSGADSEI VQVLAEAARN GKEVTAVIEL RARFDEESNI
+     EVANVLQEAG AVVVYGIVGY KTHAKMIMVV RRENNKLVRY VHLGTGNYHA MNARIYTDYG
+     LMTTDKDLCE DVHRIFQELT GMGKMAKLKK LLHAPFTLHA QLINFIDEEI ANAKAGRKAQ
+     IIVKVNALTE VQLINKLYEA SQAGVQVDLI IRSICCLRPG LPNLSENIRV RSIVGRFLEH
+     TRVYYFSNNG DARIYCSSAD WMDRNLFNRV EACFPIEDPA LKKRIYQQGL LNYLQDNQQA
+     WLLQGDGTWI RAKPAEGEKL HNAQRELLET FK
+//

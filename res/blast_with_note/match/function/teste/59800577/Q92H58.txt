@@ -1,0 +1,115 @@
+ID   MFD_RICCN               Reviewed;        1122 AA.
+AC   Q92H58;
+DT   20-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   04-FEB-2015, entry version 93.
+DE   RecName: Full=Transcription-repair-coupling factor {ECO:0000255|HAMAP-Rule:MF_00969};
+DE            Short=TRCF {ECO:0000255|HAMAP-Rule:MF_00969};
+DE            EC=3.6.4.- {ECO:0000255|HAMAP-Rule:MF_00969};
+GN   Name=mfd {ECO:0000255|HAMAP-Rule:MF_00969}; OrderedLocusNames=RC0913;
+OS   Rickettsia conorii (strain ATCC VR-613 / Malish 7).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=272944;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-613 / Malish 7;
+RX   PubMed=11557893; DOI=10.1126/science.1061471;
+RA   Ogata H., Audic S., Renesto-Audiffren P., Fournier P.-E., Barbe V.,
+RA   Samson D., Roux V., Cossart P., Weissenbach J., Claverie J.-M.,
+RA   Raoult D.;
+RT   "Mechanisms of evolution in Rickettsia conorii and R. prowazekii.";
+RL   Science 293:2093-2098(2001).
+CC   -!- FUNCTION: Couples transcription and DNA repair by recognizing RNA
+CC       polymerase (RNAP) stalled at DNA lesions. Mediates ATP-dependent
+CC       release of RNAP and its truncated transcript from the DNA, and
+CC       recruitment of nucleotide excision repair machinery to the damaged
+CC       site. {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the UvrB family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the helicase
+CC       family. RecG subfamily. {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_00969}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE006914; AAL03451.1; -; Genomic_DNA.
+DR   PIR; A97814; A97814.
+DR   RefSeq; NP_360550.1; NC_003103.1.
+DR   ProteinModelPortal; Q92H58; -.
+DR   STRING; 272944.RC0913; -.
+DR   EnsemblBacteria; AAL03451; AAL03451; RC0913.
+DR   GeneID; 928843; -.
+DR   KEGG; rco:RC0913; -.
+DR   PATRIC; 17889198; VBIRicCon45613_1038.
+DR   eggNOG; COG1197; -.
+DR   HOGENOM; HOG000216592; -.
+DR   KO; K03723; -.
+DR   OMA; NSCALGS; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   Proteomes; UP000000816; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0004386; F:helicase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000716; P:transcription-coupled nucleotide-excision repair, DNA damage recognition; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00969; TRCF; 1.
+DR   InterPro; IPR003711; CarD-like/TRCF_domain.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR004576; Mfd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005118; TRCF_C.
+DR   Pfam; PF02559; CarD_CdnL_TRCF; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF03461; TRCF; 1.
+DR   SMART; SM01058; CarD_TRCF; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SMART; SM00982; TRCF; 1.
+DR   SUPFAM; SSF141259; SSF141259; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00580; mfd; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; DNA damage; DNA repair;
+KW   DNA-binding; Helicase; Hydrolase; Nucleotide-binding.
+FT   CHAIN         1   1122       Transcription-repair-coupling factor.
+FT                                /FTId=PRO_0000281072.
+FT   DOMAIN      593    758       Helicase ATP-binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00969}.
+FT   DOMAIN      779    933       Helicase C-terminal. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00969}.
+FT   NP_BIND     606    613       ATP. {ECO:0000255|HAMAP-Rule:MF_00969}.
+FT   MOTIF       711    714       DEEQ box.
+SQ   SEQUENCE   1122 AA;  127560 MW;  AA303708D4815E79 CRC64;
+     MLQQKFPAAA KSFFAIDNFT KNLKQDFILS ASNEEEALQL YKQALFFSSN ENIYYFPSYN
+     TIPYDHTSPN ANILSRRAET LIKLTTNNSN SNKLLITHTA NLLNKLPPKD FFSKYFLKLS
+     PKMKFTTDEL AMFLVENSFT RNASSIDVGE FAVRGEIIDI ILSGPKAYRI HFSWGYIESI
+     KEFDIDTQIS TKSCRELIIS PANEIVLNSE TIGNFKNNYL RNFGVNHTDN ALYEAVISGR
+     KFTGYEQLLP LFYDSCSNLI DYLNDPIFIF DNLSKKAILE FEHSYNDFYS ARSEANKLKF
+     NSFYPTLSPT SLYFTASEIT ELLEQKNNIL LTFENSEQAS LIKNIAATSF IEKKTVFDKL
+     FEVIKANSHK KIIIGSSVLS SFERIKSIIQ NYEYKYNEIN KLDEAKASII NVAIIPLNQS
+     FYTKEYLFIT ASELLEEKPS STNTNKKLKN ILLELDNLAE GEFVVHKDHG IGQFLKLEAL
+     EIKGKPHDFL KILYAGNDKL YIPVESIEVI KKYGNDNAEL DKLGSVSWQR SKAKLKKRIK
+     EIALHLIQIA AKRKLNSSAS VEFDLEEYDK FCANFPFSET EDQLIAINDI KEDLRNGMLM
+     DRLICGDVGF GKTEVAMRAV FMVAKSLNEH LPQVAVVVPT TILCSQHFSR FIERFKGFGL
+     NIKQLSSVIS SKEAKIIRSE LESGKINIII GTHSLLHKNI KFFNLKLLII DEEQHFGVGQ
+     KEFLKSLKSS SHVLAMSATP IPRTLQMSMT GLKELSIIAT PPLNRLEVHT SVMPYDPVII
+     RDALLREHFR GGRSFYVVPR IKDIEDIAKQ LKQIVPELSY KIAYGKMTPS KIDEVMSEFY
+     AGKFDILVST TIIESGIDIA EANTMIIHNA DMLGLSQLYQ LRGRIGRGKM RGYAYLTVAS
+     HKKMTSHSLR RLEIIQNSCA LGSGFTIASR DMDLRGFGNL IGEEQSGQIK EVGTELYQEM
+     LEEQIAIFKD ESIVSEQPFI PTINLGLSVF IPDNYVADAA LKLGLYRRIG NLSNEIEVET
+     FKDEMIDRFG LLPIEFNNLL DIVKIKLLCF KLNIENLDSG DNGFVIKFYK NADMTDKILK
+     FVTTYSNQAK IKPDNKLVYI KKLVDKNIIV EANQLLWNLS EV
+//

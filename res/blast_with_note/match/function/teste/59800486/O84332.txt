@@ -1,0 +1,94 @@
+ID   TPIS_CHLTR              Reviewed;         274 AA.
+AC   O84332;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   07-JAN-2015, entry version 95.
+DE   RecName: Full=Triosephosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            Short=TIM {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            EC=5.3.1.1 {ECO:0000255|HAMAP-Rule:MF_00147};
+DE   AltName: Full=Triose-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   Name=tpiA {ECO:0000255|HAMAP-Rule:MF_00147}; Synonyms=tpi;
+GN   OrderedLocusNames=CT_328;
+OS   Chlamydia trachomatis (strain D/UW-3/Cx).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=272561;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=D/UW-3/Cx;
+RX   PubMed=9784136; DOI=10.1126/science.282.5389.754;
+RA   Stephens R.S., Kalman S., Lammel C.J., Fan J., Marathe R., Aravind L.,
+RA   Mitchell W.P., Olinger L., Tatusov R.L., Zhao Q., Koonin E.V.,
+RA   Davis R.W.;
+RT   "Genome sequence of an obligate intracellular pathogen of humans:
+RT   Chlamydia trachomatis.";
+RL   Science 282:754-759(1998).
+CC   -!- CATALYTIC ACTIVITY: D-glyceraldehyde 3-phosphate = glycerone
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate from glycerone phosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00147}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SIMILARITY: Belongs to the triosephosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE001273; AAC67921.1; -; Genomic_DNA.
+DR   PIR; E71529; E71529.
+DR   RefSeq; NP_219835.1; NC_000117.1.
+DR   ProteinModelPortal; O84332; -.
+DR   STRING; 272561.CT328; -.
+DR   EnsemblBacteria; AAC67921; AAC67921; CT_328.
+DR   GeneID; 884786; -.
+DR   KEGG; ctr:CT_328; -.
+DR   PATRIC; 20380195; VBIChlTra43535_0353.
+DR   eggNOG; COG0149; -.
+DR   InParanoid; O84332; -.
+DR   KO; K01803; -.
+DR   OMA; EANRICG; -.
+DR   OrthoDB; EOG66QM23; -.
+DR   UniPathway; UPA00109; UER00189.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000000431; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004807; F:triose-phosphate isomerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00147_B; TIM_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR022896; TrioseP_Isoase_bac/euk.
+DR   InterPro; IPR000652; Triosephosphate_isomerase.
+DR   InterPro; IPR020861; Triosephosphate_isomerase_AS.
+DR   PANTHER; PTHR21139; PTHR21139; 1.
+DR   Pfam; PF00121; TIM; 1.
+DR   SUPFAM; SSF51351; SSF51351; 1.
+DR   TIGRFAMs; TIGR00419; tim; 1.
+DR   PROSITE; PS00171; TIM_1; 1.
+DR   PROSITE; PS51440; TIM_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase;
+KW   Pentose shunt; Reference proteome.
+FT   CHAIN         1    274       Triosephosphate isomerase.
+FT                                /FTId=PRO_0000090207.
+FT   ACT_SITE    118    118       Electrophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   ACT_SITE    188    188       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING      31     31       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING      33     33       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+SQ   SEQUENCE   274 AA;  29764 MW;  F7919D48C5A89E4B CRC64;
+     MFTDKETHRK PFPTWAHLLH SEPSKQFVFG NWKMNKTLTE AQTFLKSFIS SDILSNPQII
+     TGIIPPFTLL SACQQAVSDS PIFLGAQTTH EADSGAFTGE ISAPMLKDIG VDFVLIGHSE
+     RRHIFHEQNP VLAEKAAAAI HSGMIPVLCI GETLEEQESG ATQDILLNQL TTGLSKLPEQ
+     ASFILAYEPV WAIGTGKVAH PDLVQETHAF CRKTIASLFS KDIAERTPIL YGGSVKADNA
+     RSLSLCPDVN GLLVGGASLS SENFLSIIQQ IDIP
+//

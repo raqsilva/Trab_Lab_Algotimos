@@ -1,0 +1,95 @@
+ID   GLPE_SHIFL              Reviewed;         108 AA.
+AC   P0A6V7; P09390; Q47235;
+DT   29-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 60.
+DE   RecName: Full=Thiosulfate sulfurtransferase GlpE {ECO:0000255|HAMAP-Rule:MF_01009};
+DE            EC=2.8.1.1 {ECO:0000255|HAMAP-Rule:MF_01009};
+GN   Name=glpE {ECO:0000255|HAMAP-Rule:MF_01009};
+GN   OrderedLocusNames=SF3447, S4317;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H.,
+RA   Yang J., Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J.,
+RA   Sun L., Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S.,
+RA   Cheng H., Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y.,
+RA   Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/IAI.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W.,
+RA   Fournier G., Mayhew G.F., Plunkett G. III, Rose D.J., Darling A.,
+RA   Mau B., Perna N.T., Payne S.M., Runyen-Janecky L.J., Zhou S.,
+RA   Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella
+RT   flexneri serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: Catalyzes, although with low efficiency, the sulfur
+CC       transfer reaction from thiosulfate to cyanide. {ECO:0000255|HAMAP-
+CC       Rule:MF_01009}.
+CC   -!- CATALYTIC ACTIVITY: Thiosulfate + cyanide = sulfite + thiocyanate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01009}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01009}.
+CC   -!- SIMILARITY: Belongs to the GlpE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01009}.
+CC   -!- SIMILARITY: Contains 1 rhodanese domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01009}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005674; AAN44907.2; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP19274.1; -; Genomic_DNA.
+DR   RefSeq; NP_709200.2; NC_004337.2.
+DR   RefSeq; NP_839463.1; NC_004741.1.
+DR   ProteinModelPortal; P0A6V7; -.
+DR   SMR; P0A6V7; 1-108.
+DR   STRING; 198214.SF3447; -.
+DR   PaxDb; P0A6V7; -.
+DR   EnsemblBacteria; AAN44907; AAN44907; SF3447.
+DR   EnsemblBacteria; AAP19274; AAP19274; S4317.
+DR   GeneID; 1026510; -.
+DR   GeneID; 1080921; -.
+DR   KEGG; sfl:SF3447; -.
+DR   KEGG; sfx:S4317; -.
+DR   PATRIC; 18710628; VBIShiFle31049_4718.
+DR   eggNOG; COG0607; -.
+DR   HOGENOM; HOG000247776; -.
+DR   KO; K02439; -.
+DR   OMA; ILVMCYH; -.
+DR   OrthoDB; EOG68DD6K; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004792; F:thiosulfate sulfurtransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006071; P:glycerol metabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.250.10; -; 1.
+DR   HAMAP; MF_01009; Thiosulf_sulfurtr; 1.
+DR   InterPro; IPR001763; Rhodanese-like_dom.
+DR   InterPro; IPR023695; Thiosulf_sulfurTrfase.
+DR   Pfam; PF00581; Rhodanese; 1.
+DR   SMART; SM00450; RHOD; 1.
+DR   SUPFAM; SSF52821; SSF52821; 1.
+DR   PROSITE; PS50206; RHODANESE_3; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Transferase.
+FT   CHAIN         1    108       Thiosulfate sulfurtransferase GlpE.
+FT                                /FTId=PRO_0000200566.
+FT   DOMAIN       17    105       Rhodanese. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01009}.
+FT   ACT_SITE     65     65       Cysteine persulfide intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01009}.
+SQ   SEQUENCE   108 AA;  12082 MW;  18D5B461C2A8EF19 CRC64;
+     MDQFECINVA DAHQKLQEKE AVLVDIRDPQ SFAMGHAVQA FHLTNDTLGA FMRDNDFDTP
+     VMVMCYHGNS SKGAAQYLLQ QGYDVVYSID GGFEAWQRQF PAEVAYGA
+//

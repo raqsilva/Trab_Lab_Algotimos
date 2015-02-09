@@ -1,0 +1,95 @@
+ID   IDIA_THEEB              Reviewed;         355 AA.
+AC   Q8DLH9;
+DT   22-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   04-FEB-2015, entry version 64.
+DE   RecName: Full=Iron deficiency-induced protein A;
+DE   Flags: Precursor;
+GN   Name=idiA; OrderedLocusNames=tll0513;
+OS   Thermosynechococcus elongatus (strain BP-1).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Thermosynechococcus.
+OX   NCBI_TaxID=197221;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BP-1;
+RX   PubMed=12240834; DOI=10.1093/dnares/9.4.123;
+RA   Nakamura Y., Kaneko T., Sato S., Ikeuchi M., Katoh H., Sasamoto S.,
+RA   Watanabe A., Iriguchi M., Kawashima K., Kimura T., Kishida Y.,
+RA   Kiyokawa C., Kohara M., Matsumoto M., Matsuno A., Nakazaki N.,
+RA   Shimpo S., Sugimoto M., Takeuchi C., Yamada M., Tabata S.;
+RT   "Complete genome structure of the thermophilic cyanobacterium
+RT   Thermosynechococcus elongatus BP-1.";
+RL   DNA Res. 9:123-130(2002).
+RN   [2]
+RP   SUBCELLULAR LOCATION, AND INDUCTION.
+RX   PubMed=9599805; DOI=10.1007/s004250050298;
+RA   Michel K.-P., Exss-Sonne P., Scholten-Beck G., Kahmann U.,
+RA   Ruppel H.G., Pistorius E.K.;
+RT   "Immunocytochemical localization of IdiA, a protein expressed under
+RT   iron or manganese limitation in the mesophilic cyanobacterium
+RT   Synechococcus PCC 6301 and the thermophilic cyanobacterium
+RT   Synechococcus elongatus.";
+RL   Planta 205:73-81(1998).
+CC   -!- FUNCTION: Plays an important role in protecting the acceptor side
+CC       of photosystem II (PSII) against oxidative damage, especially
+CC       under iron-limiting growth conditions. {ECO:0000250}.
+CC   -!- FUNCTION: May also be part of a periplasmic ABC transporter
+CC       complex involved in iron import. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cellular thylakoid membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}; Lumenal side
+CC       {ECO:0000250}.
+CC   -!- INDUCTION: By iron limitation and to a smaller extent by manganese
+CC       limitation. {ECO:0000269|PubMed:9599805}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of
+CC       the signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 1
+CC       family. {ECO:0000305}.
+CC   -!- CAUTION: Association with the cytoplasmic side of the thylakoid
+CC       membrane proposed in PubMed:9599805 is at odds with the
+CC       subcellular location of orthologs in Synechocystis PCC 6803 and
+CC       the presence of a signal peptide in this protein. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000039; BAC08065.1; -; Genomic_DNA.
+DR   RefSeq; NP_681303.1; NC_004113.1.
+DR   ProteinModelPortal; Q8DLH9; -.
+DR   SMR; Q8DLH9; 41-355.
+DR   STRING; 197221.tll0513; -.
+DR   EnsemblBacteria; BAC08065; BAC08065; BAC08065.
+DR   GeneID; 1012429; -.
+DR   KEGG; tel:tll0513; -.
+DR   PATRIC; 23926276; VBITheElo119873_0541.
+DR   eggNOG; COG1840; -.
+DR   HOGENOM; HOG000238624; -.
+DR   KO; K02012; -.
+DR   OMA; AQGNNEY; -.
+DR   OrthoDB; EOG625JVF; -.
+DR   Proteomes; UP000000440; Chromosome.
+DR   GO; GO:0042651; C:thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   InterPro; IPR026045; Ferric-bd.
+DR   PIRSF; PIRSF002825; CfbpA; 1.
+PE   2: Evidence at transcript level;
+KW   Complete proteome; Ion transport; Iron; Iron transport; Membrane;
+KW   Metal-binding; Reference proteome; Signal; Thylakoid; Transport.
+FT   SIGNAL        1     34       Tat-type signal. {ECO:0000255}.
+FT   CHAIN        35    355       Iron deficiency-induced protein A.
+FT                                /FTId=PRO_0000345608.
+FT   METAL        49     49       Iron. {ECO:0000250}.
+FT   METAL        50     50       Iron. {ECO:0000250}.
+FT   METAL       180    180       Iron. {ECO:0000250}.
+FT   METAL       236    236       Iron. {ECO:0000250}.
+FT   METAL       237    237       Iron. {ECO:0000250}.
+SQ   SEQUENCE   355 AA;  39281 MW;  7A0EF573977C4335 CRC64;
+     MEKVGRRVFL GMGAAATAYV THHLWNQNAE SSYAQQSSGG VINVYSARHY DTDKALYNTF
+     TQQTGIRVNI IEAEADALIE RIRSEGSRTP ADVLITVDAG RLWRAQEAGI LQPIQSRVLN
+     SVVPANLREP QGHWFGLSRR VRVLIYNKSR VNPSQLSTYE DLANPKWRRQ ILTRSSSNIY
+     NQSLTGSLLA IHGAQKTEQW ARGLVQNFAR PPEGNDTAQI RACAEGVGSV AIANHYYLAR
+     LIASDKEQDR AVAAKVGLFF PNQRDRGAHV NISGAGVVAG APNRQGAIRF LEYLVSPKAQ
+     EMFAMANFEY PVRAGVPVHP IVKQFGNFRG QNVNAAVFGR NNAEALRIMD RAGWR
+//

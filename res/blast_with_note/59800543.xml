@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800543|ref|YP_207255.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>valine--pyruvate transaminase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>430</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800543|ref|YP_207255.1|</Iteration_query-ID>
+  <Iteration_query-def>valine--pyruvate transaminase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>430</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|54040786|sp|P09053.3|AVTA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Valine--pyruvate aminotransferase; AltName: Full=Alanine--valine transaminase; AltName: Full=Transaminase C [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P09053</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>4.36463e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>MQFSAFGEKFTQHSGILQLMDDLGDALKSDKPVNMLGGGNPARIPEIDRAFADIFSK-LAAEHAVENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAIGKTVRKPY</Hsp_qseq>
+      <Hsp_hseq>MTFSLFGDKFTRHSGITLLMEDLNDGLRTPGAI-MLGGGNPAQIPEMQDYFQTLLTDMLESGKATDALCNYDGPQGKTELLTLLAGMLREKLGWDIEPQNIALTNGSQSAFFYLFNLFAGR--RADGRV--KKVLFPLAPEYIGYADAGLEEDLFVSARPNIELLPE----GQFKYHVDFEHLH-----IGEETGMICVSRPTNPTGNVITDEELLKLDALANQHGIPLVIDNAYGVPFPGIIFSEARPLWNPNIVLCMSLSKLGLPGSRCGIIIANEKIITAITNMNGIISLAPGGIGPAMMCEMIKRNDLLRLSETVIKPFYYQRVQETIAIIRRYLPENRCLIHKPEGAIFLWLWFKDLPITTKQLYQRLKARGVLMVPGHNFFPGLD-KPWPHTHQCMRMNYVPEPEKIEAGVKILAEEIERAW</Hsp_hseq>
+      <Hsp_midline>M FS FG+KFT+HSGI  LM+DL D L++   + MLGGGNPA+IPE+   F  + +  L +  A + + NY  PQG   L+  L      + GW++   NIALTNGSQ+AFFYLFNLF G+   +DG    K +L PLAPEYIGYAD  +E   FVS +P IE +      G FKY VDF+ L         + G IC SRPTNPTGNV+TD E+ +LDALA +HGIP +IDNAYG+PFP II S     W+ NI+LC SLSK+GLPG R GII+A  + + A++++N I++LAP   G A+   +++  ++ RL++ VI+PFY  + Q  +++++R L      IHKPEGAIFLWLWF++LP++++ LY+ LKA G L++PG +FF G+D + +PH  +C+RM+   + + +E G+  + + + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|657340743|sp|H3ZPL1.1|ARAT1_THELN</Hit_id>
+  <Hit_def>RecName: Full=Aromatic-amino-acid aminotransferase 1; Short=ARAT-I; Short=AROAT [Thermococcus litoralis DSM 5473]</Hit_def>
+  <Hit_accession>H3ZPL1</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>8.49014e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>SAFGEKFTQHSGILQLMDDLGDALKSDKPVNMLGGGNPARIPEI--DRAFADIFSKLAAEHAVENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPT--NPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLN----WHE--NIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLP--VSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAG------ECIRMSIAQDAQTLEK</Hsp_qseq>
+      <Hsp_hseq>KALGMKASEIRELLKLVET------SD--VISLAGGLPA--PETFPVEIIGEITKEVLEKHAAQAL-QYGTTKGFTPLRLALAEWMRERYDIPISKVDIMTTSGSQQAL----DLIGRVF-INPGD-----IIVVEAPTYLAAL------QAFKYYEPEFVQIPLDDEG----MNVDLLEEKLQELEKEGKKVKIVYTIPTFQNPAGVTMNEKRRKRLLELASQYDFIIVEDNPYG----ELRYSGEPVKPIKAWDEEGRVIYLGTFSKILAPGFRIGWIAAEPHFIRKLEIAKQSVDLCTNTFSQVIAWKYVEGGYLDKHIPKIIE-FYKPRRDAMLKALE-EFMPDGVKWTKPEGGMFVWA---TLPEGIDTKLMLEKAVAKGVAYVPGEAFFAHRDVKNTMRLNFTYVPEEKIREGIKRLAETIKE</Hsp_hseq>
+      <Hsp_midline> A G K ++   +L+L++       SD  V  L GG PA  PE        +I  ++  +HA + +  Y   +G   L  AL  +    Y   ++  +I  T+GSQ A     +L G  F ++ G      I++  AP Y+         + F   +P+   +  + E       VD    +     K GK   I  + PT  NP G  + +    RL  LA ++    + DN YG     +  SG  +     W E   +I   + SK+  PG R G I A P  ++ +      V+L    F   IA   +E G + +   ++I  FY+ +    +  L+ E     +K  KPEG +F+W     LP  + ++ + E   A+G   +PGE FF   D ++           E IR  I + A+T+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|112990|sp|P14909.2|AAT_SULSO</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Sulfolobus solfataricus P2]</Hit_def>
+  <Hit_accession>P14909</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.35742e-13</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>YSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAY------GMPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLW------LWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAI</Hsp_qseq>
+      <Hsp_hseq>YTSAFGIDELREKIAQYLNTRYGTDVKKEEVIVTPGAKPALFLVFILY---------INPSDEVILP-DPSFYSYAEVV----KLLGGKPIYANLKWSREEGF---SIDVDDLQSKI---SKRTKMIVFNNPHNPTGTLFSPNDVKKIVDISRDNKIILLSDEIYDNFVYEGKMRSTLEDS----DWRDFLIYVNGFSKTFSMTGWRLGYIVAKREIIQKMGILAANVYTAPTSFVQKAAVKAFDTFDE---VNQMVSLFKKRRDVMYDELTK----VKGVEVSKPNGAFYMFPNVSKILKTSGFDVKSLAI-KLIEEKGVVTIPGEVFPLNI-------GKEFLRLSFAVNEEVIKEGIQKI</Hsp_hseq>
+      <Hsp_midline>Y++  G   L + +  + N  YG ++    + +T G++ A F +F L+          +    ++LP  P +  YA+V       +  KP   N++   E GF    +D D L++     + +   I  + P NPTG + +  ++ ++  ++R++ I  + D  Y      G     + DS    +W + +I     SK   + G R G IVA  E ++ +  L A V  APT F    A    ++ +     +Q++  F + +      L K       +++ KP GA +++      L      V S  + ++++ +G + IPGE F + I         E +R+S A + + +++GI  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81406331|sp|Q72LL6.1|LYSN_THET2</Hit_id>
+  <Hit_def>RecName: Full=2-aminoadipate transaminase; AltName: Full=2-aminoadipate aminotransferase; AltName: Full=Alpha-aminoadipate aminotransferase; Short=AAA-AT; Short=AadAT [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>Q72LL6</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.01758e-12</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>NIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADV-HVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPF------PNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLP--VSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQ-DAQTLEKGIAAIGKTVR</Hsp_qseq>
+      <Hsp_hseq>EVLITTGSQQALDLV-----GKVFLDEGSP----VLLE-APSYMGAIQAFRLQGPRFLTVP--------AGEEG-----PDLDALEEVLKRERPRFLYLIPSF-QNPTGGLTPLPARKRLLQMVMERGLVVVEDDAYRELYFGEARLPSLFELAREAGYP-GVIYLGSFSKVLSPGLRVAFAVAHPEALQKLVQAKQGADLHTPMLNQMLVHELLKEGFSERL--ERVRRVYREKAQAMLHALDREV-PKEVRYTRPKGGMFVWM---ELPKGLSAEGLFRRALEENVAFVPGGPFFANGGGEN------TLRLSYATLDREGIAEGVRRLGRALK</Hsp_hseq>
+      <Hsp_midline> + +T GSQ A   +     GK  L +G+     +LL  AP Y+G      ++G  F++V          GE G      D DALE + + +  +   +  S   NPTG +       RL  +  E G+  + D+AY   +      P++ +      +   +I   S SKV  PG+R    VA PEA++ +       +L        +   LL+ G  +RL  + +R  YR +AQ  +  L RE+    ++  +P+G +F+W+    LP  +S++ L+     E    +PG  FF     ++       +R+S A  D + + +G+  +G+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|76364069|sp|Q4J8X2.1|AAT_SULAC</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Sulfolobus acidocaldarius DSM 639]</Hit_def>
+  <Hit_accession>Q4J8X2</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>6.79619e-10</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>YSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGM-----PFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLES-GEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWF-ENLPVSSQTLYE----MLKAEGTLIIPGEHFFVGIDTQDYPHAG-ECIRMSIAQDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>YTSAYGIDELRAKIASFLSSKYNTNISSKEVIITPGAKVSLYLAFLLY-----VNPGDE-----VIIFDPSYYSYPEVV----KMLGGKPVYVKMKWREDTGF---SLNLNDLENKI---TDKTKMVVLNNPHNPTGMVFDPKEIDQLIEIAKSKNLIVLSDEIYDYFVYEGKMRSVLEDP---DWKNFSIYVNGFSKTFSMTGWRLGYVVAKENVIKKMSEIAANVYTCPTSFAQKAAVSAFDTFDDVKKMIDT-----FKKRRDVMYSELKKIKG---IQVNKSQGAFYMFPYLGEILRKSGMSTKDFSVNLIKEKGVVTIPGEVFPL--------DAGKEFVRLSFAVDENVIKEGVQRMSEFINQ</Hsp_hseq>
+      <Hsp_midline>Y++  G   L   + +F + +Y  N++   + +T G++ + +  F L+     ++ G       ++   P Y  Y +V       +  KP    ++   + GF    ++ + LEN       K   +  + P NPTG V    E+ +L  +A+   +  + D  Y          ++++     +W    I     SK   + G R G +VA    +K +S + A V   PT F    A    ++  ++K++ D      ++ +     S LK+  G   ++++K +GA +++ +  E L  S  +  +    ++K +G + IPGE F +         AG E +R+S A D   +++G+  + + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81703995|sp|Q796Q6.1|YISV_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YisV [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q796Q6</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>5.84034e-09</Hsp_evalue>
+      <Hsp_query-from>194</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>GAICCSRPT--NPTGNVLTDGEMARLDALAREHGIPPIIDNAYG-MPFPNIIDSGVTLNWHE-NIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWF-ENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDA-QTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>GQLLYTIPSFHNPTGTVMSEQRRKEIISLSKKEQMPIIEDDAYGDLWFEEKPPQPLKAMDHEGNILYLGAFSKTVSPGLRIGWLAGPEPVIERLADIKMQTDYGSSGLSQWAAAEWLSQGYYEEHLTWVRRKL-KERRDAAVHFLERYAGDIAT-WRIPAGGFYIWVTFHKNLPV-SRFFYELLKRQ-VLVNPG-YIYDGEDRN-------SIRLSYSYASLGDLETGIKAAAETARR</Hsp_hseq>
+      <Hsp_midline>G +  + P+  NPTG V+++     + +L+++  +P I D+AYG + F       +    HE NI+   + SK   PG+R G +      ++ ++ +    +   +      AA  L  G  +     V R   + +   AV  L+R  G        P G  ++W+ F +NLPV S+  YE+LK +  L+ PG + + G D          IR+S +  +   LE GI A  +T R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|74574046|sp|Q972A2.1|AAT_SULTO</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Sulfolobus tokodaii str. 7]</Hit_def>
+  <Hit_accession>Q972A2</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.92207e-08</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>NLPELKAG---KIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGM-----PFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLES-GEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLW------LWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGI</Hsp_qseq>
+      <Hsp_hseq>NLSELESKINKKTKMIVLNNPHNPTGMVFDPIEIEKLMEITKEKKVLLLSDEIYDYFIYEGKMKSVLEDP---DWRDYVIYVNGFSKTFSMTGWRLGYVVAKEKVIKKMAEIAANIYTCPTSFAQKGALAAFESFDEVKEMIS-----LFKKRRDIMYEELKKIKG---IQVHKSQGAFYMFPFIGEILKKANLSVKDFSL-KLIEEKGVTTIPGEVFPLEV-------GKDFVRLSFAVKEDDIREGI</Hsp_hseq>
+      <Hsp_midline>NL EL++    K   I  + P NPTG V    E+ +L  + +E  +  + D  Y          ++++     +W + +I     SK   + G R G +VA  + +K ++ + A +   PT F    A    ES  E+K +        ++ +       LK+  G   +++HK +GA +++      L   NL V   +L ++++ +G   IPGE F + +         + +R+S A     + +GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75409023|sp|Q93QC6.1|CBL_CORGT</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>Q93QC6</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>9.69588e-08</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>386</Hsp_align-len>
+      <Hsp_qseq>PEIDRAFADIFSKLAAEHAVENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADV-HVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPF----PNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEA-VKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAIGKTV</Hsp_qseq>
+      <Hsp_hseq>PQLKEAMAD-----AVEREV-----FGYPPDATGLNDALTGFYERRYGFG---------PNPESVFAIPDVVRGLKLAIEHFTKPGSAIIVPL-PAYPPFIELPKVTGRQAIYIDA------HEYD------------LKEIEKAFADGAGSLLFCNPHNPLGTVFSEEYIRELTDIAAKYDARIIVDEIHA-PLVYEGTHVVAAGVSENAANTCITITATSKAWNTAGLKCAQIFFSNEADVKAWKNLSDITRDGVSILGLIAAETVYNEGE--EFLDESIQILKDNRDFAAAELEK--LG---VKVYAPDSTYLMWLDFAGTKI-EEAPSKILREEGKVMLNDGAAFGGFTT--------CARLNFACSRETLEEGLRRIASVL</Hsp_hseq>
+      <Hsp_midline>P++  A AD     A E  V     +  P     L DALT F  R YG+             ++ F     + G K  +   T    AI++PL P Y  + ++  V GR  + +        HE +            L+ + +  A   G++    P NP G V ++  +  L  +A ++    I+D  +  P      +++ +GV+ N     I   + SK     G++   I  + EA VKA  +L+ I     +  G   A  +   GE     D+ I+    N+   A  L K  LG   +K++ P+    +WL F    +  +   ++L+ EG +++     F G  T        C R++ A   +TLE+G+  I   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|46395566|sp|Q64602.1|AADAT_RAT</Hit_id>
+  <Hit_def>RecName: Full=Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial; Short=KAT/AadAT; AltName: Full=2-aminoadipate aminotransferase; AltName: Full=2-aminoadipate transaminase; AltName: Full=Alpha-aminoadipate aminotransferase; Short=AadAT; AltName: Full=Kynurenine aminotransferase II; AltName: Full=Kynurenine--oxoglutarate aminotransferase II; AltName: Full=Kynurenine--oxoglutarate transaminase 2; AltName: Full=Kynurenine--oxoglutarate transaminase II; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q64602</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>2.94197e-07</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>NPTGNVLTDGEMARLDALAREHGIPPIIDNAYG-MPFPNIID-SGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLL-ESGEMKRLA--DQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFV</Hsp_qseq>
+      <Hsp_hseq>NPTGNSLTGDRKKEIYELARKYDFLIIEDDPYYFLQFTKPWEPTFLSMDVDGRVIRADSLSKVISSGLRVGFITGPKSLIQRIVLHTQISSLHPCTLSQLMISELLYQWGEEGFLAHVDRAID-FYKNQRDFILAAADKWLRGL-AEWHVPKAGMFLWIKVNGISDAKKLIEEKAIEREILLVPGNSFFV</Hsp_hseq>
+      <Hsp_midline>NPTGN LT      +  LAR++    I D+ Y  + F    + + ++++    +I   SLSKV   G+R G I      ++ +     I +L P      + + LL + GE   LA  D+ I  FY+NQ    ++   + L     + H P+  +FLW+    +  + + + E       L++PG  FFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|549814|sp|Q01856.1|Y3073_RHOS4</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator RHOS4_30730 [Rhodobacter sphaeroides 2.4.1]</Hit_def>
+  <Hit_accession>Q01856</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>2.95816e-07</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>NPTGNVLTDGEMARLDALAREHGIPPIIDNAYG----MPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVA--APEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLK-RELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAE--GTLIIPGEHFFVGIDTQDYPHAGECIRMS--IAQDAQTLEKGIAAIGKTVRKP</Hsp_qseq>
+      <Hsp_hseq>NPTTATLPADRRREVAAVARRHGVLLIEDDPYAPLRSERLPALAELAPELTWH-----IATLSKCSTPALRIAYVLAPNAAAAVRLATVLRSSVLMAPPIF-AALATRWITDGTLTALAS-AIRAENRQRQSSAASIFSGLDFAADPDGHH-------LWL---HLPQRWRAAEFADHAERAGLAIVPASAFAVS------PHPAEAVRISLGIAPDRGMLEEGLTQLSGLLTQP</Hsp_hseq>
+      <Hsp_midline>NPT   L       + A+AR HG+  I D+ Y        P + +    L WH       +LSK   P +R   ++A  A  AV+  + L + V +AP  F AA+A   +  G +  LA   IR   R +  +A S+    +  A P   H       LWL   +LP   +       AE  G  I+P   F V       PH  E +R+S  IA D   LE+G+  +   + +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75342317|sp|O52815.1|HPGT_AMYOR</Hit_id>
+  <Hit_def>RecName: Full=(S)-3,5-dihydroxyphenylglycine transaminase; AltName: Full=p-hydroxyphenylglycine transaminase [Amycolatopsis orientalis]</Hit_def>
+  <Hit_accession>O52815</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>3.82987e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>390</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>NIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFV-SVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPT--NPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEA------VKAVSSLNAI--VNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYP-MKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGID</Hsp_qseq>
+      <Hsp_hseq>SVVVTVGAQEAMFLILRTL---------RADERDVLLAPAPTYVGLTGAALLTDTPVWPVQSTANGVDPEDLVLQLK-RAD----------EQGKRVRACYVTPNFANPTGTSMDLPARHRLLEVAEANGILLLEDNAYGLFGSERLPSLKSLDRSGNVVYIGSFAKTGMPGARVGYVVADQRVAGGGLLADQLSKLKGMLTVNTSPIAQAVIAGKLLLNDFSLTKANAREIAIYQRN-LQLTLSELERTLGGLPEVGWNTPTGGFFV-TVTVPFVVDDELLAHAARDHGVLFTPMHHFYGGKD</Hsp_hseq>
+      <Hsp_midline>++ +T G+Q A F +              + E+ +LL  AP Y+G     +     V  V+     V+ E      K R D          + GK    C   P   NPTG  +      RL  +A  +GI  + DNAYG+     + S  +L+   N++   S +K G+PG R G +VA             +S L  +  VN +P          LL    + +   + I  + RN  Q  +S L+R LG  P +  + P G  F+        V  + L    +  G L  P  HF+ G D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|46395904|sp|Q8N5Z0.2|AADAT_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial; Short=KAT/AadAT; AltName: Full=2-aminoadipate aminotransferase; AltName: Full=2-aminoadipate transaminase; AltName: Full=Alpha-aminoadipate aminotransferase; Short=AadAT; AltName: Full=Kynurenine aminotransferase II; AltName: Full=Kynurenine--oxoglutarate aminotransferase II; AltName: Full=Kynurenine--oxoglutarate transaminase 2; AltName: Full=Kynurenine--oxoglutarate transaminase II; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8N5Z0</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>8.78594e-07</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>NPTGNVLTDGEMARLDALAREHGIPPIIDNAYG-MPFPNI-IDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLL-ESGEMKRLA--DQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFV</Hsp_qseq>
+      <Hsp_hseq>NPTGNSLTSERKKEIYELARKYDFLIIEDDPYYFLQFNKFRVPTFLSMDVDGRVIRADSFSKIISSGLRIGFLTGPKPLIERVILHIQVSTLHPSTFNQLMISQLLHEWGEEGFMAHVDRVID-FYSNQKDAILAAADKWLTGL-AEWHVPAAGMFLWIKVKGINDVKELIEEKAVKMGVLMLPGNAFYV</Hsp_hseq>
+      <Hsp_midline>NPTGN LT      +  LAR++    I D+ Y  + F    + + ++++    +I   S SK+   G+R G +      ++ V     +  L P+ F   + + LL E GE   +A  D+VI  FY NQ    ++   + L     + H P   +FLW+  + +    + + E     G L++PG  F+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81671886|sp|P96681.1|YDFD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YdfD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96681</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>9.01156e-07</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>LPE---LKAGKIG-AICCSRPT--NPTGNVLTDGEMARLDALAREHGIPPIIDNAYGM-------PFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIF------LWLWFENLP-VSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDA-QTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>LPENVHLTRGERGRAILYTNPCFHNPTGILMSKKRREEILAVSENTQLPIIEDDIYRELWIDEIPPYPI-----KTIDKNGHVLYIGSLSKTLSPGLRIGWIVGPEPVIERLSDIKMQTDYGSSSLSQRVAAEWFTSGHYQQHVEKV-----RQQLK-----VRRELALSALETHLKEVATWNIPKGGFFVWIKILPSISMKLLYTKALSKGILINLG-----SIYAQE---KGNYIRLSYAYASLEDLQKGIYELGLMIKE</Hsp_hseq>
+      <Hsp_midline>LPE   L  G+ G AI  + P   NPTG +++      + A++    +P I D+ Y         P+P       T++ + +++   SLSK   PG+R G IV     ++ +S +    +   +     +AA    SG  ++  ++V     R Q +     ++REL    ++ H  E A +       ++W + LP +S + LY    ++G LI  G      I  Q+    G  IR+S A  + + L+KGI  +G  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|14285338|sp|Q9V0L2.1|AAT_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9V0L2</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.01354e-06</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>KPVNMLGGGNPA-RIPEIDRAFADIFSKLAAEHAVENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYA-DVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIID--SGVTLN-WHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTL-IIPGEHFFVGIDTQDYPHAGE-CIRMSIAQDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>KDVISLGIGEPDFDTPQHIKEYAKEALDMGLTHYGPNIGL---PELREAIAEKLKKQNNIEADPN---KEIMVLVGANQAFLMGLSAF-----LKDG----EEVLIP-TPAFVSYAPAVILAGGKPVEVPTYEEN----------EFRLNVDELKKYV---TEKTKALIINSPCNPTGSVLKKKDLEEIADFAVEHDLIVISDEVYEHFIYDDVKHYSIASLDGMFERTITVNGFSKTFAMTGWRLGFVAAPSWIIEKMVKFQMYNATCPVTFIQYAAAKALRDERSWKAVEEMRKEYDRRR-----KLVWKRLNEMGLPTVKPKGAFYIFPRIKDTGLTSKEFSELMLMEAKVAVVPGSAF---------GKAGEGYVRISYATAYEKLEEAMDRMEKVLRE</Hsp_hseq>
+      <Hsp_midline>K V  LG G P    P+  + +A     +   H   NIG    P+   A+ + L    N E   N     I +  G+  AF    + F     L DG    + +L+P  P ++ YA  V + G   V V    EN          ++R++ D L+        K  A+  + P NPTG+VL   ++  +   A EH +  I D  Y     + +   S  +L+   E  I     SK   + G R G + A    ++ +          P  F    AA  L      +  +++ + + R +      L+ + L    +   KP+GA +++   ++  ++S+   E++  E  + ++PG  F           AGE  +R+S A   + LE+ +  + K +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|14285337|sp|O93744.1|AAT_THEKO</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Thermococcus kodakarensis KOD1]</Hit_def>
+  <Hit_accession>O93744</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.48171e-06</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>LPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG-MPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSS-LNAIVNLAPTRFGAAIAAPLLESGEMK--RLADQVI---RPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAI</Hsp_qseq>
+      <Hsp_hseq>IPRVEEIKADLIIINYPNNPTGRVLSGKEIRGLLDVAEENGVKVLSDEVYAELSFTRFTPA---RELYENVVTVKGFSKLYSMTGFRLGYAIGERNEIRRIQRFIESTVTCVP---------PFVQRAGVKALELRDELIKEVRRAYLERVRMASKMLR------GFDFVEPEGAFYIFL---RTPQDGMAFAERLLSRGVAVFPGMAF------GDYPN---FIRISLS--GKGLERGLRVI</Hsp_hseq>
+      <Hsp_midline>+P ++  K   I  + P NPTG VL+  E+  L  +A E+G+  + D  Y  + F     +      +EN++     SK+  + G R G  +     ++ +   + + V   P         P ++   +K   L D++I   R  Y  + + A  +L+           +PEGA +++L     P       E L + G  + PG  F       DYP+    IR+S++   + LE+G+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|171769863|sp|A2SE05.1|HIS8_METPP</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Methylibium petroleiphilum PM1]</Hit_def>
+  <Hit_accession>A2SE05</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.49571e-06</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>DFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFP--NIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLI--IPGEHFFVGIDTQDYPHAGECIRMSI</Hsp_qseq>
+      <Hsp_hseq>ELDAAAMLAAVREHRPALTYLAYPNNPTANLWDDAVIERVVDAVREHGGLVVIDEAY-QPFASRSYIDR---LAHHDHVLLMRTLSKFGLAGVRLGYLMGPTALVAEIDKVRPPYNVSVLNCEAALFA-LEHEDEFARQA-----AVLRAERARLLDALRAMSGATPF----PSEANMVLVRVPD----AKAAFEGLKARGVLVKNVSGLH----------PLLANCLRLTV</Hsp_hseq>
+      <Hsp_midline>+ DA   L  ++  +      + P NPT N+  D  + R+    REHG   +ID AY  PF   + ID    L  H++++L  +LSK GL GVR G ++     V  +  +    N++     AA+ A L    E  R A        R +    +  L+   GA P     P  A  + +   +    ++  +E LKA G L+  + G H          P    C+R+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|6224986|sp|O67781.1|AAT_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67781</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.65269e-06</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>ALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPF---PNIIDSGVTLNWHENIIL---CFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWF----ENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>SLEDVKEKVTERTKAIVINSPNNPTGAVYEEEELKKIAEFCVERGIFIISDECYEYFVYGDAKFVSPASFSDEVKNITFTVNAFSKS-YSMTGWRIGYVACPEEYAKVIASLNSQSVSNVTTFAQYGALEALKNPKSKDFVNEMRNAFERRR-DTAVEELSKIPG---MDVVKPEGAFYIFPDFSAYAEKLGGDVKLSEFLLEKAKVAVVPGSAF----------GAPGFLRLSYALSEERLVEGIRRIKKALEE</Hsp_hseq>
+      <Hsp_midline>+LE++ E    +  AI  + P NPTG V  + E+ ++     E GI  I D  Y          +      +  +NI      FS S   + G R G +    E  K ++SLN+      T F    A   L++ + K   +++   F R +  TAV  L +  G   M + KPEGA +++  F    E L    +    +L+     ++PG  F           A   +R+S A   + L +GI  I K + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|14285336|sp|O58489.1|AAT_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O58489</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.70044e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>KLAAEHAV-ENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYA-DVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDA-LAREHGIPPIIDNAYG-MPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIV--NLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYE-MLKAEGTLIIPGEHF</Hsp_qseq>
+      <Hsp_hseq>KEAAKRALDEGWTHYTPNAGIPELREAVVEYYKKFYGIDIEVENVIITAGAYEGTYLAFESL-----LERGDE----VIIP-DPAFVSYAEDAKVAEAKPVRIPLREEN-------NFLP-----DPNELLEKI-SKNTRMIVINYPNNPTGATL-DKELAKTIADIAEDYNIYILSDEPYEHFIYEDAKHYPMIKFAPENTILANSFSKTFAMTGWRLGFVVAPSQVIKEMTKLHAYVIGNVASFVQIAGIEA--LRSEESWKAVEE-MKKEYNERRKIVVKRLKNMPG---IKVKEPKGAFYVFPNISGTGMSSEKFSEWLLEKARVVVIPGTAF</Hsp_hseq>
+      <Hsp_midline>K AA+ A+ E   +Y+   G   L +A+  +  + YG ++ V N+ +T G+    +  F        L  G      +++P  P ++ YA D  V     V +  + EN        F       D  E L ++ +     I  + P NPTG  L D E+A+  A +A ++ I  + D  Y    + +     +     EN IL  S SK   + G R G +VA  + +K ++ L+A V  N+A     A I A  L S E  +  ++ ++  Y  + +  V  LK   G   +K+ +P+GA +++       +SS+   E +L+    ++IPG  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|158706123|sp|Q2FKF1.2|NORG_STAA3</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator NorG [Staphylococcus aureus subsp. aureus USA300] &gt;gi|158706124|sp|Q2G1P1.2|NORG_STAA8 RecName: Full=HTH-type transcriptional regulator NorG [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|158706126|sp|Q5HJR1.2|NORG_STAAC RecName: Full=HTH-type transcriptional regulator NorG [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q2FKF1</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.43156e-06</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>YSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADV--HVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCS-RPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAY-GMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEM-KRLADQVIRPFYRNQAQTAVSLLK---RELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIA-QDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>YNNGYGYIKLRDIIVERMSKQ-GINVGRENVMITSGALHAIQLL----------SIGFLGQDAIIISNTPSYIHSTNVFEQLNFRHIDVPYNQINEID-----------TIIDRFINF------KNKAIYIEPRFNNPTGRSLTNEQKKNIITYSERHNIPIIEDDIFRDIFFSDPTPSIKTYDKLGKVIHISSFSKTIAPAIRIGWIVASEKIIEQLADVRMQIDYGSSILSQMVVYEMLKNKSYDKHLVK--LRYVLKDKRDFMLNILNNLFKDIAHWEV----PSGGYFVWLVFKIDIDIKYLFYELLSKEKILINPG---------YIYGSKEKSIRLSFAFESNENIKHALYKIYTYVKK</Hsp_hseq>
+      <Hsp_midline>Y+N  G   L D +    +++ G N+   N+ +T+G+ +A   L          S G   + AI++   P YI   +V   +  RH      +I  ++              D   N       K  AI    R  NPTG  LT+ +   +   +  H IP I D+ +  + F +   S  T +    +I   S SK   P +R G IVA+ + ++ ++ +   ++   +     +   +L++    K L    +R   +++    +++L    +++  + +    P G  F+WL F+         YE+L  E  LI PG           Y    + IR+S A +  + ++  +  I   V+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|3915603|sp|Q58097.2|AAT2_METJA</Hit_id>
+  <Hit_def>RecName: Full=Probable aspartate aminotransferase 2; Short=AspAT; AltName: Full=Transaminase A [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58097</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>6.4822e-06</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>NYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPII-DNAY-GMPFPNIIDSGVTLNWH-ENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTL-YEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>HYTDSRGILELREKISELYKDKYKADIIPDNIIITGGSSLGLFFALSSI-----IDDGD--EVLIQNPCYPCYKNFI-------RFLGAKPVF---------------CDF-TVESLEEALSDKTKAIIINSPSNPLGEVI-DREIYE---FAYEN-IPYIISDEIYNGLVYEGKCYSAIEFDENLEKTILINGFSKLYAMTGWRIGYVISNDEIIEAILKLQQNLFISAPTISQYAALKAFEK-ETEREINSMIKEFDRRR-----RLVLKYVKDFGWEVNNPIGAYYV---FPNIGEDGREFAYKLLKEKFVALTPGIGF--GSKGKNY------IRISYANSYENIKEGLERIKEFLNK</Hsp_hseq>
+      <Hsp_midline>+Y++ +G   L + ++     +Y  ++   NI +T GS    F+  +       + DG   E  I  P  P Y  +         F+  KP                  DF  +E+L E  + K  AI  + P+NP G V+ D E+      A E+ IP II D  Y G+ +     S +  + + E  IL    SK+  + G R G +++  E ++A+  L   + ++        A    E  E +R  + +I+ F R +      L+ + +  +  +++ P GA ++   F N+    +   Y++LK +   + PG  F  G   ++Y      IR+S A   + +++G+  I + + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|81706455|sp|Q7A875.1|NORG_STAAN</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator NorG [Staphylococcus aureus subsp. aureus N315] &gt;gi|81782375|sp|Q99XA5.1|NORG_STAAM RecName: Full=HTH-type transcriptional regulator NorG [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q7A875</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>7.83396e-06</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>RPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAY-GMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEM-KRLADQVIRPFYRNQAQTAVSLLK---RELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIA-QDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>RFNNPTGRSLTNEQKKNIITYSERHNIPIIEDDIFRDIFFSDPTPAIKTYDKLGKVIHISSFSKTIAPAIRIGWIVASEKIIEQLADVRMQIDYGSSILSQMVVYEMLKNKSYDKHLVK--LRYVLKDKRDFMLNILNNLFKDIAHWEV----PSGGYFVWLVFKIDIDIKYLFYELLSKEKILINPG---------YIYGSKEKSIRLSFAFESNENIKHALYKIYTYVKK</Hsp_hseq>
+      <Hsp_midline>R  NPTG  LT+ +   +   +  H IP I D+ +  + F +   +  T +    +I   S SK   P +R G IVA+ + ++ ++ +   ++   +     +   +L++    K L    +R   +++    +++L    +++  + +    P G  F+WL F+         YE+L  E  LI PG           Y    + IR+S A +  + ++  +  I   V+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|167017096|sp|A4QFG6.1|HIS8_CORGB</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Corynebacterium glutamicum R]</Hit_def>
+  <Hit_accession>A4QFG6</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.17133e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>PQGDAA-LIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRH--FVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPP---IIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAA</Hsp_qseq>
+      <Hsp_hseq>PERDAVELRDELAAYITKQTGVAVTRDNLWAANGSNEILQQLLQAFGGPGRTALG----------FQPSYSMHP-ILAKGTHTEFIAVSRGAD------------FRIDMDV--ALEEIRAKQPDIVFVTTPNNPTGDVTS------LDDIERIINVAPGIVIVDEAYAEFSPSPSATTLLEKYPTKLVVSRTMSKAFDFAGGRLGYFVANPAFIDAVMLVRLPYHLSALSQAAAIVA</Hsp_hseq>
+      <Hsp_midline>P+ DA  L D L A+  ++ G  +T  N+   NGS      L   FGG  + + G            P Y  +  +  +G H  F++V    +            +R+D D    L E++A +   +  + P NPTG+V +      LD + R   + P   I+D AY    P+   + +   +   +++  ++SK     G R G  VA P  + AV  +    +L+     AAI A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|22256807|sp|Q9KJU4.2|HIS8_CORGL</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Corynebacterium glutamicum ATCC 13032]</Hit_def>
+  <Hit_accession>Q9KJU4</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.3857e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>PQGDAA-LIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRH--FVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPP---IIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAA</Hsp_qseq>
+      <Hsp_hseq>PERDAVELRDELAAYITKQTGVAVTRDNLWAANGSNEILQQLLQAFGGPGRTALG----------FQPSYSMHP-ILAKGTHTEFIAVSRGAD------------FRIDMDV--ALEEIRAKQPDIVFVTTPNNPTGDVTS------LDDVERIINVAPGIVIVDEAYAEFSPSPSATTLLEKYPTKLVVSRTMSKAFDFAGGRLGYFVANPAFIDAVMLVRLPYHLSALSQAAAIVA</Hsp_hseq>
+      <Hsp_midline>P+ DA  L D L A+  ++ G  +T  N+   NGS      L   FGG  + + G            P Y  +  +  +G H  F++V    +            +R+D D    L E++A +   +  + P NPTG+V +      LD + R   + P   I+D AY    P+   + +   +   +++  ++SK     G R G  VA P  + AV  +    +L+     AAI A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|18202468|sp|P95957.1|Y104_SULSO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized aminotransferase SSO0104; AltName: Full=AspB-1 [Sulfolobus solfataricus P2]</Hit_def>
+  <Hit_accession>P95957</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.66499e-05</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>NIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYAD-VHVEGRHFVSVK-----PKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPT--NPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVT------LNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYP--MKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGEC-IRMSIAQDAQTLEKGIAAIGKTVR</Hsp_qseq>
+      <Hsp_hseq>NVFVTVGSQEALFMIFNIL---LDPGDNVVVE-------APTYLAALNAMRTRKPNFISITVTEMGPDLDELERKIK----------DAHSN------GKKVKLMYVIPTAQNPAGTTMNTEDRKRLLEIASKYDFLIFEDDAYGF----LVFEGESPPPIKAFDKEGRVIYTSTFSKILAPGLRLGWVIAHEDFIKEMELYKQNVDLHTPSLSQYIAMEAIRRGIIQNNLPK-IRRVYKEKRDVMLEAIE---TYFPNDARWTKPVGGMFVFAWLPQKIDTTKMLEKALQ-RGVAYVPGSSFYA-----DYSGKNTMRINFSFPKKEELIE-GIKRLGDTIK</Hsp_hseq>
+      <Hsp_midline>N+ +T GSQ A F +FN+        D    E       AP Y+   + +     +F+S+      P ++ +E + +          DA  N      GK   +    PT  NP G  +   +  RL  +A ++      D+AYG     ++  G +       +    +I   + SK+  PG+R G ++A  + +K +      V+L        IA   +  G ++    + IR  Y+ +    +  ++     +P   +  KP G +F++ W      +++ L + L+  G   +PG  F+      DY       I  S  +  + +E GI  +G T++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|6224991|sp|Q56232.1|AAT_THET8</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>Q56232</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>2.09851e-05</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>412</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>NYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAY-GMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFV-GIDTQDYPHAGECIRMSIAQDAQTL</Hsp_qseq>
+      <Hsp_hseq>KYAPPAGIPELREALAEKFRRENGLSVTPEETIVTVGGKQA---LFNLFQAILDPGDE-------VIVLSPYWVSYPEMV---RFAGGVVVEVETLPEEG------FVPD---PERVRRAITPRTKALVVNSPNNPTGAVYPKEVLEALARLAVEHDFYLVSDEIYEHLLYEGEHFSPGRVAPEHTLTVNGAAKAFAMTGWRIGYACGPKEVIKAMASVSSQSTTSPDTIAQWATLEALTNQEASRAFVEMAREAYRRRRD----LLLEGLTALGLKAVRPSGAFYVLMDTSPIAPDEVRAAERLLEAGVAVVPGTDFAAFGHVRLSYATSEENLRKALERFARVL</Hsp_hseq>
+      <Hsp_midline> Y+ P G   L +AL     RE G ++T     +T G + A   LFNLF       D        ++ L+P ++ Y ++    R    V  ++E +  EG      +  D    E +      +  A+  + P NPTG V     +  L  LA EH    + D  Y  + +     S   +     + +  +     + G R G      E +KA++S+++    +P           L + E  R   ++ R  YR +      LL   L A  +K  +P GA ++ +    +        E L   G  ++PG  F   G     Y  + E +R ++ + A+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|585644|sp|Q08432.1|CBL_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase PatB; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q08432</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.40588e-05</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>ALKSDKPVNMLGGGN--PARIPEIDRAFADIFSKLAAEHAVENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG---------MPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGA--AIAAPLLESGEMK--RLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLII-PGEHF</Hsp_qseq>
+      <Hsp_hseq>SVKWDKTGELFGVTDALPMWVADMDFRAPEAITEALKERLDHGIFGYTTP--DQKTKDAVCGWMQNRHGWKVNPESITFSPGVVTALSMAVQAFT---EPGDQVVVQPPVYTPF------YHMVEKNGRHILH-NPLLEK---DG-----AYAIDFEDLET--KLSDPSVTLFILCNPHNPSGRSWSREDLLKLGELCLEHGVTVVSDEIHSDLMLYGHKHTPFASLSDDFADIS-----VTCAAPSKTFNIAGLQASAIIIPDRLKRAKFS----ASLQRNGLGGLNAFAVTAIEAAYSKGGPWLDELITYIEKNMNE-AEAFLSTELPK--VKMMKPDASYLIWLDFSAYGLSDAELQQRMLKKGKVILEPGTKY</Hsp_hseq>
+      <Hsp_midline>++K DK   + G  +  P  + ++D    +  ++   E     I  Y+ P  D    DA+  +    +GW +   +I  + G   A       F    +  D    +  +  P       Y  V   GRH +   P +E    +G      Y +DF+ LE   +L    +       P NP+G   +  ++ +L  L  EHG+  + D  +           PF ++ D    ++     + C + SK   + G++   I+      +A  S     +L     G   A A   +E+   K     D++I    +N  + A + L  EL    +K+ KP+ +  +WL F    +S   L + +  +G +I+ PG  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123572909|sp|Q39Z65.1|DAPAT_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=LL-diaminopimelate aminotransferase; Short=DAP-AT; Short=DAP-aminotransferase; Short=LL-DAP-aminotransferase [Geobacter metallireducens GS-15]</Hit_def>
+  <Hit_accession>Q39Z65</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.6549e-05</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>LGGGNPAR--IPEIDRAFADIFSKLAAEHAVENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALEN---LPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG--MPFPNIIDSGVTLNWHENIILCF-SLSKV-GLPGVRTGIIVAAPEAVKAVS------SLNAI-VNLAPTRFGAAI-----AAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLP--VSSQTLYEMLKAEGTLI-IPGEHF</Hsp_qseq>
+      <Hsp_hseq>LGIGDVTRPLAPAIIKAFHDAVDDLAT---IDNFAGYGPEQGYDWLINAIIEKSYKPLGVSLKTEEMFISDGSKCDCANILDIFALDNVVAIGD-----------PVYPVYNDTNV----------MIGRTGDADEKGYYKGIVYMPCTEANGFIPSLPTEKVDIIYLCFPNNPTGTVATKAELKKWVDYANANDAVIFFDAAYEAFITDPAIPHSIYEIEGAKKCAIEFRSFSKTAGFTGVRCGLVV-VPEEVMGTTPTGEKYSFNKLWLRRTTTKFNGASYPVQKAAAAVYSDEGWKQNKEIIDYYMEN-----ARIIREGLAAAGLTVYGGVNAPYIWL---KTPGGMSSWDFFDKLLTECNVVGTPGSGF</Hsp_hseq>
+      <Hsp_midline>LG G+  R   P I +AF D    LA    ++N   Y   QG   LI+A+     +  G +L    + +++GS+     + ++F     ++ G            P Y  Y D +V           I       E G++K  V     E    +P L   K+  I    P NPTG V T  E+ +    A  +      D AY   +  P I  S   +   +   + F S SK  G  GVR G++V  PE V   +      S N + +    T+F  A      AA  + S E  +   ++I  +  N       +++  L A  + ++    A ++WL     P  +SS   ++ L  E  ++  PG  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1703039|sp|P53001.1|AAT1_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P53001</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>3.20219e-05</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>NYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYAD-VHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAY------GMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFG--AAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQT---------LYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>KYTPSGGLAELKNSIAEKFKRDQNIEYKPSQIIVCTGAKHALYTLFQVI---------LDEEDEVIIP-TPYWVSYPEQVKLAGGKPVYVEGLEEN----------HFKISPEQLKNAI---TEKTKAIVINSPSNPTGVMYTEEELSALGEVCLEHDILIVSDEIYEKLTYGGKKHVSIAQLSDRLKEQTVIINGVSKSH-SMTGWRIGYAAGSEDIIKAMTNLASHSTSNPTSIAQYGAIAA---YNGPSEPLEE--MREAFEHRLNTIYAKLIEIPG---FSCVKPEGAFYL---FPNAKEAAQSCGFKDVDEFVKALLEEEKVAIVPGSGF----------GSPENVRLSYATSLDLLEEAIERIKRFVEK</Hsp_hseq>
+      <Hsp_midline> Y+   G A L +++     R+         I +  G+++A + LF +             E  +++P  P ++ Y + V + G   V V+   EN           +++  + L+N       K  AI  + P+NPTG + T+ E++ L  +  EH I  + D  Y      G    +I      L     II   S S   + G R G    + + +KA+++L +     PT      AIAA    +G  + L +  +R  + ++  T  + L    G       KPEGA +L   F N   ++Q+         +  +L+ E   I+PG  F           + E +R+S A     LE+ I  I + V K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|75161515|sp|Q8VYP2.1|TAT4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable aminotransferase TAT4; AltName: Full=Tyrosine aminotransferase 4 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8VYP2</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>4.00682e-05</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>YRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSG--VTLNWHENIILCFSLSKVG----LPGVRTGI--------IVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKR--ELGAYPMKIHKPEGAIFLW-----LWFENLPVSSQTLYEMLKAEGTLIIPGEHF</Hsp_qseq>
+      <Hsp_hseq>FEIDFNSVR---EMVDENTFAIFIINPHNPNGNYYTEAHLKQLATLARELGIMVVSDEVYRW---SVFGSNPFVPMGKFSSIVPVITLGSISKGWIVPGWRTGWLALHDLNGVFRSTKVLKAAKEFLEITSKPPTVIQAAIPT-ILEKTPQDFFEKRGI--FLKDKVDFGYSKLKNIPTLTCY----MKPESCTFLWTKLDPLHFVDIEDDHDFCRKLAKEENLVVLPGIAF</Hsp_hseq>
+      <Hsp_midline>+ +DF+++    E+      AI    P NP GN  T+  + +L  LARE GI  + D  Y     ++  S   V +    +I+   +L  +     +PG RTG         +  + + +KA      I +  PT   AAI   +LE         + I  F +++     S LK    L  Y     KPE   FLW     L F ++        ++ K E  +++PG  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|122543646|sp|Q2N7G6.1|HIS8_ERYLH</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Erythrobacter litoralis HTCC2594]</Hit_def>
+  <Hit_accession>Q2N7G6</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>4.70514e-05</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>KIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPP----IIDNAYGMPF-PNIIDSGVTL-NWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYR-NQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLI--IPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIA</Hsp_qseq>
+      <Hsp_hseq>KTRVVFVANPNNPTGSFLPRDEIARLHA-----GLPQDVLFVLDQAYAEYLTPEEDDGGFALAAAHENVLVTRTFSKAYGLAGERIGWATGAPHFIDALNRVRGPFNVTNSGQAAALAG-VDDQNFIDRTRDHNTRELTRFTDAMAALG----NHGIRPL----PSKANFALVLFEGT-LAAETALSALADAGYAVRHLPG---------QGLPH-GLRITIGTAEDMDRIARTIA</Hsp_hseq>
+      <Hsp_midline>K   +  + P NPTG+ L   E+ARL A     G+P     ++D AY     P   D G  L   HEN+++  + SK  GL G R G    AP  + A++ +    N+  +   AA+A  + +   + R  D   R   R   A  A+       G  P+    P  A F  + FE   ++++T    L   G  +  +PG         Q  PH G  I +  A+D   + + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|21759205|sp|Q9CMI7.1|HIS82_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CMI7</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.53941e-05</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>AGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG-MPFP-NIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPE</Hsp_qseq>
+      <Hsp_hseq>SDKTKLIYLANPNNPTGTFLSAGEISQFLNQVPAHVI-VVLDEAYTEFTLPEERVDSFTLLKKHSNLVICRTLSKAYGLAGLRIGYAVSSAE</Hsp_hseq>
+      <Hsp_midline>+ K   I  + P NPTG  L+ GE+++       H I  ++D AY     P   +DS   L  H N+++C +LSK  GL G+R G  V++ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|85541745|sp|Q4JW58.1|HIS8_CORJK</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Corynebacterium jeikeium K411]</Hit_def>
+  <Hit_accession>Q4JW58</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>6.32776e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>PQGDAA-LIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEY----IGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAA------IAAPLLESGEMKRLADQVI</Hsp_qseq>
+      <Hsp_hseq>PDRDAVGLREALAAYVSQQTGVGVTKEQVWAANGSNEVLQQLLQAFGGP-----GRSA-----MGFVPSYSMHPILAAGTQTE---FVTVERRAEN------------RFDIDVDEALAAIDERQPNVIFITTPNNPTGNSTPLADIERI--LQAAPGI-VIVDEAYAEFSDEPSAVGLLEQYPTKLVVSRTMSKAFDFAGGRLGYFVAHPAFIEAVMLVRLPYHLATLSQAAAEVALEHSAATLQTVAKLRQERDRVV</Hsp_hseq>
+      <Hsp_midline>P  DA  L +AL A+ +++ G  +T   +   NGS      L   FGG      G SA     +   P Y    I  A    E   FV+V+ + EN            R D D  E L  +   +   I  + P NPTGN     ++ R+  L    GI  I+D AY          G+   +   +++  ++SK     G R G  VA P  ++AV  +    +LA     AA       AA L    ++++  D+V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81644812|sp|Q6D410.1|HIS8_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D410</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>7.40555e-05</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>VEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVK</Hsp_qseq>
+      <Hsp_hseq>VERRTAASKSDWQLDLDAIES--QLDGTKVVYVC--SPNNPTGNLIARDDLRQLLTLAQGKAL-VVIDEAY-IEFCPQASTASWLAEFPHLVILRTLSKAFSLAGLRCGFTLANPEVIQ</Hsp_hseq>
+      <Hsp_midline>VE    A    +++D DA+E+  +L   K+  +C   P NPTGN++   ++ +L  LA+   +  +ID AY + F     +   L    ++++  +LSK   L G+R G  +A PE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2492849|sp|Q57004.1|HIS82_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57004</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>8.56021e-05</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG--MPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIA</Hsp_qseq>
+      <Hsp_hseq>SDKTKLIYIANPNNPTGNFLTSQEIEDFLAEVPENVI-VVLDEAYTEFTRSEERVDSFSLLKKYSNLIISRSLSKAYGLAGLRIGYAVSNPEIADLLNRVRQPFNCNSLALTAAVA</Hsp_hseq>
+      <Hsp_midline>+ K   I  + P NPTGN LT  E+    A   E+ I  ++D AY         +DS   L  + N+I+  SLSK  GL G+R G  V+ PE    ++ +    N       AA+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|20140555|sp|P77730.1|YDCR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YdcR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77730</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000123273</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>VDFDALE-NLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG-------MPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQA---QTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIA-QDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>IDLQALELALQEYPVKACWLMTNSQ--NPLGFTLTPQKKAQLVALLNQYNVTLIEDDVYSELYFGREKPLP-----AKAWDRHDGVLHCSSFSKCLVPGFRIGWVAAGKHARK-IQRLQLMSTLSTS---SPMQLALVDYLSTRRY-DAHLRRLRRQLAERKQRAWQALLRYLPA-EVKIHHNDSGYFLWLELPE-PLDAGELSLAALTHHISIAPGKMFSTGENWSRF------FRFNTAWQWGEREEQAVKQLGKLIQE</Hsp_hseq>
+      <Hsp_midline>+D  ALE  L E        +  S+  NP G  LT  + A+L AL  ++ +  I D+ Y         P P         + H+ ++ C S SK  +PG R G + A   A K +  L  +  L+ +   + +   L++    +R  D  +R   R  A   Q A   L R L A  +KIH  +   FLWL     P+ +  L          I PG+ F  G +   +       R + A Q  +  E+ +  +GK +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|46396046|sp|Q9WVM8.1|AADAT_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial; Short=KAT/AadAT; AltName: Full=2-aminoadipate aminotransferase; AltName: Full=2-aminoadipate transaminase; AltName: Full=Alpha-aminoadipate aminotransferase; Short=AadAT; AltName: Full=Kynurenine aminotransferase II; AltName: Full=Kynurenine--oxoglutarate aminotransferase II; AltName: Full=Kynurenine--oxoglutarate transaminase 2; AltName: Full=Kynurenine--oxoglutarate transaminase II; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9WVM8</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.00014096</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>NPTGNVLTDGEMARLDALAREHGIPPIIDNAYG-MPFPNIID-SGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLL-ESGEMKRLA--DQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFV</Hsp_qseq>
+      <Hsp_hseq>NPTGNSLTGDRKKEIYELARKYDFLIIEDDPYYFLQFSKPWEPTFLSMDVDGRVIRADTFSKTVSSGLRVGFMTGPKTLIQNIVLHTQVSSVHACTLSQLMILQLLHQWGEEGFLAHIDRTID-FYKNQRDSILAAADKWLRGL-AEWHVPKAGMFLWIKVKGISDTKQLIEEKAIEREVLLVPGNGFFI</Hsp_hseq>
+      <Hsp_midline>NPTGN LT      +  LAR++    I D+ Y  + F    + + ++++    +I   + SK    G+R G +      ++ +     + ++        +   LL + GE   LA  D+ I  FY+NQ  + ++   + L     + H P+  +FLW+  + +  + Q + E       L++PG  FF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|81335857|sp|Q4QLD1.1|HIS82_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QLD1</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000163099</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG--MPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIA</Hsp_qseq>
+      <Hsp_hseq>SDKTKLIYIANPNNPTGNFLTSQEIEDFLAKVPENVI-VVLDEAYTEFTRSEERVDSFSLLKKYSNLIISRTLSKAYGLAGLRIGYAVSNPEIADLLNRVRQPFNCNSLALTAAVA</Hsp_hseq>
+      <Hsp_midline>+ K   I  + P NPTGN LT  E+    A   E+ I  ++D AY         +DS   L  + N+I+  +LSK  GL G+R G  V+ PE    ++ +    N       AA+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|259709909|sp|C6DF75.1|HIS8_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DF75</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000212001</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>VEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVK</Hsp_qseq>
+      <Hsp_hseq>VERRTAASKADWQLDLESIE--AQLDGTKVIYVC--SPNNPTGNLIAREDLRQLLTMAQGNAL-VVIDEAY-IEFCPQATTAVWLDEFPHLVILRTLSKAFSLAGLRCGFTLANPEVIQ</Hsp_hseq>
+      <Hsp_midline>VE    A    +++D +++E   +L   K+  +C   P NPTGN++   ++ +L  +A+ + +  +ID AY + F     + V L+   ++++  +LSK   L G+R G  +A PE ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|6224989|sp|Q60013.1|AAT_STRVG</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Streptomyces virginiae]</Hit_def>
+  <Hit_accession>Q60013</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.00022402</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>421</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>EHAVENIGN-----YSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYAD-VHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAY-----------GMP--FPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSL--NAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENL---------PVSSQTLYEMLKAEGTL-IIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAIGK</Hsp_qseq>
+      <Hsp_hseq>EAAVEACRNPKYHRYTPAGGLPELKAAIAAKTLRDSGYEVEASQVLVTNGGKQAIYEAFAAI-----LDPGDE----VIVP-APYWTTYPESIRLAGGVPVDVVAD----ETTG------YRV---SVEQLEAARTERTKVVLFVSPSNPTGSVYSEADAKAIGEWAAEHGLWVLTDEIYEHLVYGEAKFTSLPVLVPALRDKCIIVN---GVAKTYAMT-----GWRVGWVIAPQDVIKAATNLQSHATSNVSNVAQVAALAA---VSGNLDAVAE--MRKAFDRRRQTMVKMLNEIDGVF---CPTPEGAFYAYPSVKELLGKEIRGKRPQSSVELAALILDEVEVAVVPGEAF----GTPGY------LRLSYALGDEDLVEGVSRIQK</Hsp_hseq>
+      <Hsp_midline>E AVE   N     Y+   G   L  A+ A   R+ G+ +    + +TNG + A +  F        L  G      +++P AP +  Y + + + G   V V       E  G      YRV   ++E L   +  +   +    P+NPTG+V ++ +   +   A EHG+  + D  Y            +P   P + D  + +N    +   ++++     G R G ++A  + +KA ++L  +A  N++     AA+AA    SG +  +A+  +R  +  + QT V +L    G +      PEGA + +   + L         P SS  L  ++  E  + ++PGE F     T  Y      +R+S A   + L +G++ I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|3183329|sp|O14209.1|YDT4_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized aminotransferase C6B12.04c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O14209</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000322545</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>421</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>AAEHAVENIG--NYSNPQGDAALIDALTAFPNREYGWNLTVGN-IALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG----MPFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLES-----GEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENL---------------PVSSQTLYEMLKAEGTLIIPGEHFFVGIDTQDYPHAGECIRMSIAQDAQTLEKGIAAIGK</Hsp_qseq>
+      <Hsp_hseq>AAKKSIDEVACNQYSHTRGRPSLRKALSEAYSPYFKRTLNPDTEIVVTAGANEGFFSVFAAF-----LNPGD--EVIVMEPFFDQYISNITMNGGVPVYVPIIPPEEGSVKPVSAG--AWKLDMNKLRNA---ITEKTKMIVINTPHNPLGKIFSEEELNEIADLVLKHNLLVVSDEVYDRLSFVPFVRLATLRPELFKH--VVTVGSGGKTFGCTGWRVGWLIGDESLIKYSAA-------AHTRICFAVNSPCQEALAIAFGEAEK---HNYYEEYKSSYKKRFEILAKAFDQLEIPYTIPDGSYYTMANFSKLKLPKDYPFPEEIANRPRDFKLCYWILKEIGVATIPPTEFYTD---EDAPVAENYLRFAFCKTFETLEEAARRLQK</Hsp_hseq>
+      <Hsp_midline>AA+ +++ +    YS+ +G  +L  AL+   +  +   L     I +T G+   FF +F  F     L+ G   E  ++ P   +YI    ++     +V + P  E       AG   +++D + L N       K   I  + P NP G + ++ E+  +  L  +H +  + D  Y     +PF  +      L  H  ++   S  K  G  G R G ++     +K  ++       A TR   A+ +P  E+     GE ++         Y++  +    +L +      +    P+G+ +    F  L               P   +  Y +LK  G   IP   F+     +D P A   +R +  +  +TLE+    + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|123531296|sp|Q2SBJ7.1|HIS8_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SBJ7</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.00032255</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>GRHFVSVKPKIENVEHEGEAGFFKYRV-------DF--DALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNL</Hsp_qseq>
+      <Hsp_hseq>GRTILSVEPSF--VMYKMIATFIGAEYVGVPLNDDFQIDAQTTLDAIKRHQPALVFIAQPNNPTGNLFDDETLRQI--VAASPGLV-VIDEAY-TAFTNA-DYMSWVSEYDNVVVMRTFSKVGLAGLRFGMLFGAQEWIEQLNKVRLPYNI</Hsp_hseq>
+      <Hsp_midline>GR  +SV+P    V ++  A F            DF  DA   L  +K  +   +  ++P NPTGN+  D  + ++  +A   G+  +ID AY   F N  D    ++ ++N+++  + SKVGL G+R G++  A E ++ ++ +    N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|91207024|sp|Q39K90.1|HIS81_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 1; AltName: Full=Imidazole acetol-phosphate transaminase 1 [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39K90</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000323945</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>VEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNW------HENIILCFSLSKVGLPGVRTGIIVAAP</Hsp_qseq>
+      <Hsp_hseq>VPGFVMYELSAKLAQLEFVGVPLKADLTLDVDAM--LAAIAEHRPAIVYLAYPNNPTGTLYDDADIERIVAAARHSLI--VIDEAY-QPF-------AVRSWLPRAAEFDNVVVMRTVSKLGLAGIRLGYLVGSP</Hsp_hseq>
+      <Hsp_midline>V G     +  K+  +E  G        +D DA+  L  +   +   +  + P NPTG +  D ++ R+ A AR   I  +ID AY  PF          +W       +N+++  ++SK+GL G+R G +V +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|14285339|sp|Q9X0Y2.1|AAT_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Aspartate aminotransferase; Short=AspAT; AltName: Full=Transaminase A [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9X0Y2</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000335042</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>NYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYI---GYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGM-----PFPNIIDSGVTLNWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFF</Hsp_qseq>
+      <Hsp_hseq>KYTDPRGIYELREGIAKRIGERYKKDISPDQVVVTNGAKQA---LFNAFMALLDPGDEVIVFSPVWVSYIPQIILAGGTVNV-VETFMSKNFQPSLEEVEG---------------------LLVGKTKAVLINSPNNPTGVVYRREFLEGLVRLAKKRNFYIISDEVYDSLVYTDEFTSILDVS---EGFDRIVYINGFSKSHSMTGWRVGYLISSEKVATAVSKIQSHTTSCINTVAQYAALKALE------VDNSYMVQTFKERKNFVVERLKK-MG---VKFVEPEGA--FYLFFKVRGDDVKFCERLLEEKKVALVPGSAFL</Hsp_hseq>
+      <Hsp_midline> Y++P+G   L + +       Y  +++   + +TNG++ A   LFN F       D       + +   P+ I   G  +V VE     + +P +E VE                      L  GK  A+  + P NPTG V     +  L  LA++     I D  Y        F +I+D        + I+     SK   + G R G ++++ +   AVS + +             A   LE      + +  +   ++ +    V  LK+ +G   +K  +PEGA   +L+F+      +    +L+ +   ++PG  F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|226702155|sp|B4U9L1.1|HIS8_HYDS0</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Hydrogenobaculum sp. Y04AAS1]</Hit_def>
+  <Hit_accession>B4U9L1</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000410869</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>SRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAA</Hsp_qseq>
+      <Hsp_hseq>SNPNNPTGNLFRDEDIA----LIRKHTFTVVDEAYYDFCGKTYIKDAIK---DDNMAVMRTLSKIGLASLRVGALIGTKEFIREISKLKMPFNVSYTSQAMA</Hsp_hseq>
+      <Hsp_midline>S P NPTGN+  D ++A    L R+H    + +  Y       I   +     +N+ +  +LSK+GL  +R G ++   E ++ +S L    N++ T    A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|81703637|sp|Q74GT3.1|DAPAT_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=LL-diaminopimelate aminotransferase; Short=DAP-AT; Short=DAP-aminotransferase; Short=LL-DAP-aminotransferase [Geobacter sulfurreducens PCA]</Hit_def>
+  <Hit_accession>Q74GT3</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000513926</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>LGGGNPAR--IPEIDRAFADIFSKLAAEHAVENIGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALEN---LPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYG--MPFPNIIDSGVTLNWHENIILCF-SLSKV-GLPGVRTGIIVAAPEAVKAVS------SLNAI-VNLAPTRFGAAI-----AAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLP--VSSQTLYEMLKAEGTLI-IPGEHF</Hsp_qseq>
+      <Hsp_hseq>LGIGDVTRPLAPAVIKAFHEAVDDLAT---TENFAGYGPEQGYDWLINAIIEKSYKPLGVDLKTEEMFISDGSKCDCANILDIFALDNVVAIGD-----------PVYPVYNDTNV----------MIGRTGEADDKGYYKGIVYMPCTEENGFIPSLPTEKVDIIYLCFPNNPTGTVATKAELKKWVDYAIANDAVIFFDAAYEAFITDPAIPHSIYEIEGAKKCAIEFRSFSKTAGFTGVRCGLVV-VPEEVMGTTPTGEKYSFNKLWLRRTTTKFNGASYPVQKAAAAVYSDEGWQQNKEIIDYYMEN-----ARIIREGLAAAGLTVYGGVNAPYIWL---KTPGGMSSWDFFDKLLNECNVVGTPGSGF</Hsp_hseq>
+      <Hsp_midline>LG G+  R   P + +AF +    LA     EN   Y   QG   LI+A+     +  G +L    + +++GS+     + ++F     ++ G            P Y  Y D +V           I       + G++K  V     E    +P L   K+  I    P NPTG V T  E+ +    A  +      D AY   +  P I  S   +   +   + F S SK  G  GVR G++V  PE V   +      S N + +    T+F  A      AA  + S E  +   ++I  +  N       +++  L A  + ++    A ++WL     P  +SS   ++ L  E  ++  PG  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|75057813|sp|Q5E9N4.1|AADAT_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial; Short=KAT/AadAT; AltName: Full=2-aminoadipate aminotransferase; AltName: Full=2-aminoadipate transaminase; AltName: Full=Alpha-aminoadipate aminotransferase; Short=AadAT; AltName: Full=Kynurenine aminotransferase II; AltName: Full=Kynurenine--oxoglutarate aminotransferase II; AltName: Full=Kynurenine--oxoglutarate transaminase 2; AltName: Full=Kynurenine--oxoglutarate transaminase II; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E9N4</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000534914</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>NPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIIDSGVTLNWHEN--IILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLL-ESGEMKRL--ADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLIIPGEHFFV</Hsp_qseq>
+      <Hsp_hseq>NPSGNSLTAERKREIYELARKYDFLIIEDDPYYFMQFNKPWAPTFLSMDEDGRVIRADSFSKVLSSGLRIGFITGPKPLIERIVLHIQVSTMHPSTFAQLLVSQLLYQWGEEGFLGHVDRVID-FYRKQRDALMAAADKWLSGL-AEWHVPTAGMFLWVKIKGIHDVRKLIEEKAFKKEIFMLPGCGFYT</Hsp_hseq>
+      <Hsp_midline>NP+GN LT      +  LAR++    I D+ Y     N   +   L+  E+  +I   S SKV   G+R G I      ++ +     +  + P+ F   + + LL + GE   L   D+VI  FYR Q    ++   + L     + H P   +FLW+  + +    + + E    +   ++PG  F+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|657340748|sp|H3ZPU1.1|ARAT2_THELN</Hit_id>
+  <Hit_def>RecName: Full=Aromatic-amino-acid aminotransferase 2; Short=ARAT-II; Short=AROAT [Thermococcus litoralis DSM 5473]</Hit_def>
+  <Hit_accession>H3ZPU1</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000581206</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>ILLPLAPEYIGYA-DVHVEGRHFVSVKPKIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAYGMPFPNIID--SGVTLN-WHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYE-MLKAEGTLIIPGEHFFVGIDTQDYPHAGE-CIRMSIAQDAQTLEKGIAAIGKTVRK</Hsp_qseq>
+      <Hsp_hseq>VLIP-SPMFVSYAPAVILAGGKPVEVPTYEEN----------EFRLSVDELE---KYVTPKTRALIINTPNNPTGAVLTKKDLEEIADFAVEHDLMILSDEVYEYFVYDGVKNYSIASLDGMFERTITMNGFSKTFAMTGWRLGFLAAPEWVVEKMVRFQMYNATCPVTFIQYAAAKALRD---ERSWQAVEE--MRREYERRRNLVWKRLNEMGLPTVKPKGAFYIFPRIKDTGLSSKEFSELMIKEAKVVVVPGSAF---------GQAGEGYVRISYATAYEKLEEAMDRMEKVLKE</Hsp_hseq>
+      <Hsp_midline>+L+P +P ++ YA  V + G   V V    EN          ++R+  D LE   +    K  A+  + P NPTG VLT  ++  +   A EH +  + D  Y     + +   S  +L+   E  I     SK   + G R G + A    V+ +          P  F    AA  L     +R    V     R + +   +L+ + L    +   KP+GA +++   ++  +SS+   E M+K    +++PG  F           AGE  +R+S A   + LE+ +  + K +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|59803025|sp|P34037.3|HIS8_ZYMMO</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Zymomonas mobilis subsp. mobilis ZM4 = ATCC 31821]</Hit_def>
+  <Hit_accession>P34037</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000611004</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>YRVDFDALENLPELKA--GKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPP----IIDNAYGMPF-PNIIDSGVTLNWH-ENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLA---DQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEG--TLIIPGEHFFVGIDTQDYPHAGECIRMSIAQD</Hsp_qseq>
+      <Hsp_hseq>YRCSVDAL-----LKAVTPRTRVVFIANPNNPTGTWITRAEVEKL-----HNGLPRNCLLVIDQAYAEYLDPECDDGALALAKNTKNVLVTRTFSKIYGLAAERIGWAYACPEIIDALNRIRAPFNVTIAGQKAAVAA--LEDQAFIQNSFKHNKKWRGWFENQMALLSNAGIRVI---------PSSANFTLLLFEG-SLTAETAYKALMDHGYTTRWLPGQRL---------PHA---LRITIGSE</Hsp_hseq>
+      <Hsp_midline>YR   DAL     LKA   +   +  + P NPTG  +T  E+ +L      +G+P     +ID AY     P   D  + L  + +N+++  + SK+ GL   R G   A PE + A++ + A  N+      AA+AA  LE     + +   ++  R ++ NQ     +   R +         P  A F  L FE   ++++T Y+ L   G  T  +PG+           PHA   +R++I  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|226702137|sp|B2IDA4.1|HIS8_BEII9</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Beijerinckia indica subsp. indica ATCC 9039]</Hit_def>
+  <Hit_accession>B2IDA4</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000817089</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ICCSRPTNPTGNVLTDGEMARLDALAREHGIPP----IIDNAYGMPFP-NIIDSGVTL-NWHENIILCFSLSKV-GLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLESGEMKRLADQ--VIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWFENLPVSSQTLYEMLKAEGTLI</Hsp_qseq>
+      <Hsp_hseq>VYIANPNNPTGTYLPFAEVKRLAT-----SLPPNVLLVLDAAYGEYVTRNDYSAGLELVSTHENVVMTRTFSKIYGLAALRLGWCYAPLAVADALNRVRGPFNTSGPAIATGVAA----------LADQAHIDRAIAHN--ETWLSWLGEEIGKLGFKV-TPSVANFLLLHFED-QAEAQAVDAFLSSRGLIL</Hsp_hseq>
+      <Hsp_midline>+  + P NPTG  L   E+ RL        +PP    ++D AYG     N   +G+ L + HEN+++  + SK+ GL  +R G   A      A++ +    N +       +AA          LADQ  + R    N  +T +S L  E+G    K+  P  A FL L FE+    +Q +   L + G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1176356|sp|P47039.1|BNA3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Probable kynurenine--oxoglutarate transaminase BNA3; AltName: Full=Biosynthesis of nicotinic acid protein 3; AltName: Full=Kynurenine aminotransferase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P47039</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000850196</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>IGNYSNPQGDAALIDALTAFPNREYGWNLTVGNIALTNGSQNAFFYLFNLFGGKFKLSDGTSAEKAILLPLAPEYIGYADVHVEGRHFVSVKP--KIENVEHEGEAGFFKYRVDFDALENLPELKAGKIGAICCSRPTNPTGNVLTDGEMARLDALAREHGIPPIIDNAY-GMPFPNIIDSGVTLNWHENIILCFSLSKVGLPGVRTGIIVAAPEAVKAVSSLNAIVNLAPTRFGAAIAAPLLES------GEMKRLADQVIRPFYRNQAQTAVSLLKRELGAYPMKIHKPEGAIFLWLWF------ENLPVSSQTL---------YEMLKAEGTLIIPGEHFFVGIDTQDYPHAGE-CIRMSIAQDAQTLEKGI</Hsp_qseq>
+      <Hsp_hseq>VNQYSPTRGRPSLINSLIKLYSPIYNTELKAENVTVTTGANEG---ILSCLMGLLNAGD----EVIVFEPFFDQYIPNIELCGGKVVYVPINPPKELDQRNTRGE----EWTIDFEQFE---KAITSKTKAVIINTPHNPIGKVFTREELTTLGNICVKHNVVIISDEVYEHLYFTDSFTRIATLS-PEIGQLTLTVGSAGKSFAATGWRIGWVLSLNA--ELLSYAAKAHTRICFASPSPLQEACANSINDALKIGYFEKMRQEYINKFKIFTSIFD-ELG---LPYTAPEGTYFVLVDFSKVKIPEDYPYPEEILNKGKDFRISHWLINELGVVAIPPTEFYI----KEHEKAAENLLRFAVCKDDAYLENAV</Hsp_hseq>
+      <Hsp_midline>+  YS  +G  +LI++L    +  Y   L   N+ +T G+      + +   G     D    E  +  P   +YI   ++      +V + P  +++     GE    ++ +DF+  E   +    K  A+  + P NP G V T  E+  L  +  +H +  I D  Y  + F +      TL+  E   L  ++   G     TG  +    ++ A   L +    A TR   A  +PL E+        +K    + +R  Y N+ +   S+   ELG   +    PEG  F+ + F      E+ P   + L         + ++   G + IP   F++    +++  A E  +R ++ +D   LE  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

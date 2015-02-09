@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800544|ref|YP_207256.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>NADH-dependent dehydratase PglD [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>636</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800544|ref|YP_207256.1|</Iteration_query-ID>
+  <Iteration_query-def>NADH-dependent dehydratase PglD [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>636</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|729019|sp|P39853.1|CAPD_STAAU</Hit_id>
+  <Hit_def>RecName: Full=Capsular polysaccharide biosynthesis protein CapD [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>P39853</Hit_accession>
+  <Hit_len>599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.451</Hsp_bit-score>
+      <Hsp_score>916</Hsp_score>
+      <Hsp_evalue>9.12757e-113</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>571</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>474</Hsp_align-len>
+      <Hsp_qseq>LALPIVYFLLLFVSVTGSRM---VLRGLLSDH--QKKTHDPVIIYGAGRSG----RQLLEAVKQMREYSAAAFVDDNPKLWHTVIYDLAV--YQPDAIAFLIERYGVEKILLAIPSATQEQRRRIISKLKAYPCEVLTIPGMKDLMDGKISIGTLKKISVSDLLGRDSVAPDDRLMNADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKTGHPR</Hsp_qseq>
+      <Hsp_hseq>LRLYFITWMMHLLLIGGSRLFWRVYRRYFIDNAVEKKA---TLVVGAGQGGSVLIREMLRS-QDMRMQPVLAVDDDKNKQKMTITERVKVQGYVED-IPELVKKFRIKKIIIAIPTLSQKRLNEINKICNIEGVELFKMPNIEDVLSGELEVNNLKKVEVEDLLGRDPVELDMALISRELTNKTILVTGAGGSIGSEICRQVSKFDPQKIILLGHGENSIYSIHQELSKTY---GNRIEFVPVIADVQNKTRILEVMNEFKPYAVYHAAAHKHVPLMEYNPHEAIRNNILGTKNVAESAKEGEVSKFVMISTDKAVNPSNVMGATKRIAEMVIQSLN-EDNSKTSFVAVRFGNVLGSRGSVIPLFKNQIESGGPVTVTHPEMTRYFMTIPEASRLVLQAGALAQGGEVFVLDMGKPVKIVDLAKNLIRLSGKK-------EEDIGIEFSGIRPGEKLYEELLNKNEI----HPQ</Hsp_hseq>
+      <Hsp_midline>L L  + +++  + + GSR+   V R    D+  +KK     ++ GAG+ G    R++L + + MR     A  DD  K   T+   + V  Y  D I  L++++ ++KI++AIP+ +Q++   I         E+  +P ++D++ G++ +  LKK+ V DLLGRD V  D  L++ +   KT++VTGAGGSIGSE+CRQ+ +  P++++L    E ++Y++ +EL +     G   E +P +  VQN+T +  +M  F    VYHAAA+KHVP++E+N  E IRNNI GT   A +A    V  FV+ISTDKAV P+N MGA KR+AE+ +Q+L  E   KT F  VRFGNVLGS GSV+PLF+ QI  GGP+T+THP++TRYFMTIPEA++LV+QAGA+ +GG+VFVLDMG+ VKI DLA+ +I LSG K       + DI I  +G+RPGEKLYEELL  + +    HP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81345685|sp|P71052.1|EPSC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable polysaccharide biosynthesis protein EpsC [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71052</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>1.21211e-101</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>565</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>542</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>460</Hsp_align-len>
+      <Hsp_qseq>FLLLFVSVTGSRMVLRGLLSDHQKK--THDPVIIYGAGRSG----RQLLEAVKQMREYSAAAFVDDNPKLWHTVIYDLAVYQ-PDAIAFLIERYGVEKILLAIPSATQEQRRRIISKLKAYPCEVLTIPGMKDLMDGKISIGTLKKISVSDLLGRDSVAPDDRLMNADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPF---LGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVR</Hsp_qseq>
+      <Hsp_hseq>WVLQLLSIGGTRILSRVLNESIRKKRCASSRALIIGAGSGGTLMVRQLLS--KDEPDIIPVAFIDDDQTKHKLEIMGLPVIGGKESIMPAVQKLKINYIIIAIPSLRTHELQVLYKECVRTGVSIKIMPHFDEMLLGTRTAGQIRDVKAEDLLGRKPVTLDTSEISNRIKGKTVLVTGAGGSIGSEICRQISAFQPKEIILLGHGENSIHSIYTEL------NGRFGKHIVFHTEIADVQDRDKMFTLMKKYEPHVVYHAAAHKHVPLMEHNPEEAVKNNIIGTKNVAEAADMSGTETFVLISSDKAVNPANVMGATKRFAEMIIMNLGKV--SRTKFVAVRFGNVLGSRGSVIPIFKKQIEKGGPVTVTHPAMTRYFMTIPEASRLVIQAGALAKGRQIFVLDMGEPVKIVDLAKNLIHLSGY---TTEQ----VPIEFTGIRPGEKMYEELLNKNEVH</Hsp_hseq>
+      <Hsp_midline>++L  +S+ G+R++ R L    +KK       +I GAG  G    RQLL   K   +    AF+DD+       I  L V    ++I   +++  +  I++AIPS    + + +  +       +  +P   +++ G  + G ++ +   DLLGR  V  D   ++   +GKTV+VTGAGGSIGSE+CRQI   +P+ ++L    E +++++  EL      NG   + + F   +  VQ+R  +  +M  +    VYHAAA+KHVP++E N  E ++NNI GT   A AA  SG ETFVLIS+DKAV PAN MGA KR AE+ +  L      +T+F  VRFGNVLGS GSV+P+F+KQI +GGP+T+THP +TRYFMTIPEA++LVIQAGA+ +G  +FVLDMGE VKI DLA+ +I LSG    T EQ    + I  TG+RPGEK+YEELL  + V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123141431|sp|Q0P9D4.1|PGLF_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetyl-alpha-D-glucosamine C6 dehydratase; Short=UDP-GlcNAc C6 dehydratase; AltName: Full=Protein glycosylation pathway protein F; AltName: Full=UDP-N-acetylglucosamine 4,6-dehydratase (configuration-retaining) [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q0P9D4</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>1.11441e-89</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>FLIHDFLMIFTAFWFTQSLK--ADYSDEWFDFANWQSFLLTALLTITLFIRMGLYRAVTRFVSFHVLTTAFAGSLASAVLFFLNTL----IFEERLRLALPIVYFLLLFVSVTGSRMVLRGLLS---DHQKKTHDPVIIYGAGRSGRQLLEAVKQMREYSAAAF----VDDNPKLWHTVIYDLAVYQPDAIAFLIERYGVEKILLAIPSATQEQRRRIISKLKAYPCEVLTIPGMKDLMDGKISIGTLKKISVSDLLGRDSVAPDDRLMNADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKTGHPRIMTA--DETMLPW</Hsp_qseq>
+      <Hsp_hseq>FLTSDIVLILLSVYLAFSLRFSGDIPSIFYHGMMVSAIILLVLKLSFLFV-FRIYKVAWRFFSLNEARKIFIALLLAEFCFFLIFYFFSDFFNPFPRSAI-VIDFVLSYMFIGTLRISKRMLVDFKPSRMKEEETPCIVVGATSKALHLLKGAK---EGSLGLFPVGVVDARKELIGTYCDKFIVEEKEKIKSYVEQ-GVKTAIIAL-RLEQEELKKLFEELVAY--------GICDVKIFSFTRNEARDISIEDLLARKPKDLDDSAVAAFLKDKVVLVSGAGGTIGSELCKQCIKFGAKHLIMVDHSEYNLYKINDDL------NLYKEKITPILLSILDKQSLDEVLKTYKPELILHAAAYKHVPLCEQNPHSAVINNILGTKILCDSAKENKVAKFVMISTDKAVRPTNIMGCTKRVCELYTLSMSDENFE---VACVRFGNVLGSSGSVIPKFKAQIANNEPLTLTHPDIVRYFMLVAEAVQLVLQAGAIAKGGELFVLDMGKPVKIIDLAKKMLLLSN---------RNDLEIKITGLRKGEKLYEELLIDENDAKTQYESIFVAKNEKVDLDW</Hsp_hseq>
+      <Hsp_midline>FL  D ++I  + +   SL+   D    ++      + +L  L    LF+   +Y+   RF S +     F   L +   FFL        F    R A+ ++ F+L ++ +   R+  R L+       K+   P I+ GA      LL+  K   E S   F    VD   +L  T      V + + I   +E+ GV+  ++A+    QE+ +++  +L AY        G+ D+     +    + IS+ DLL R     DD  + A  + K V+V+GAGG+IGSELC+Q I+   + L++ + SE+ LY +  +L      N    +I P L S+ ++  L  ++  +    + HAAAYKHVP+ E N    + NNI GT     +A  + V  FV+ISTDKAVRP N MG  KR+ EL   +++ E  +    + VRFGNVLGSSGSV+P F+ QIA   P+TLTHPDI RYFM + EA QLV+QAGA+ +GG++FVLDMG+ VKI DLA++M+ LS            D+EI ITGLR GEKLYEELLI +N  KT +  I  A  ++  L W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|38372540|sp|Q58461.1|Y1061_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized membrane protein MJ1061 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58461</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>3.56616e-64</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>553</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE-LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEK</Hsp_qseq>
+      <Hsp_hseq>KTILVTGGTGSIGKEIVKTLLKFNPKTIRVLDINETALFELEHELN--------SEKIRCFIGDVRDKDRLKRAIEEVDV--VFHAAALKHVPLCEYNPFEAVKTNVIGTQNLIEVAMDEEVEKFITISTDKAVNPVNVMGATKLLAERLTISANLYKGKRKTAFSVVRFGNVLNSRGSILPLLKEQIKKGGPVTLTHPDMTRFIMSINEAVKLVLKACYLAKGGEIFILKM-PSVRIKDLIE--VVIEELAPKYGYKPE-DIEIKIIGKRPGEK</Hsp_hseq>
+      <Hsp_midline>KT++VTG  GSIG E+ + +++  P+ + + +++E AL+ +E EL         + +I  F+G V+++  L   +    V  V+HAAA KHVP+ E+N  E ++ N+ GT      A    VE F+ ISTDKAV P N MGA K +AE L + A   +  +KT FS+VRFGNVL S GS++PL ++QI +GGP+TLTHPD+TR+ M+I EA +LV++A  + +GG++F+L M  SV+I DL    + +  L PK   +P+ DIEI I G RPGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75361079|sp|Q5QKR8.1|PSEB_CAMJJ</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine 4,6-dehydratase (inverting); AltName: Full=Pseudaminic acid biosynthesis protein B; AltName: Full=UDP-GlcNAc-inverting 4,6-dehydratase [Campylobacter jejuni subsp. jejuni 81-176]</Hit_def>
+  <Hit_accession>Q5QKR8</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>5.64291e-37</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>EGKTVMVTGAGGSIGSELCRQIIRR-RPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELCLQALAAEPGQK-TRFSMVRFGNVLGSSGSVVPLFEKQIAEGG---PITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDN</Hsp_qseq>
+      <Hsp_hseq>NGKNILITGGTGSFGKTYTKVLLENYKPNKIIIYSRDELKQFEMSSIFNSNCMR--------YFIGDVRDKERLSVAMR--DVDFVIHAAAMKHVPVAEYNPMECIKTNIHGAQNVIDACFENGVKKCIALSTDKACNPVNLYGATKLASDKLFVAANNIAGNKQTRFSVTRYGNVVGSRGSVVPFFKKLIAQGSKELPITDTR--MTRFWISLEDGVKFVLSNFERMHGGEIFIPKI-PSMKITNLAH------ALAPNLSHK--------IIGIRAGEKLHEIMISSDD</Hsp_hseq>
+      <Hsp_midline> GK +++TG  GS G    + ++   +P +++++   E   + +       C R         F+G V+++  L+  M    V  V HAAA KHVP+ E+N +E I+ NI G      A   +GV+  + +STDKA  P N  GA K  ++    A     G K TRFS+ R+GNV+GS GSVVP F+K IA+G    PIT T   +TR+++++ +  + V+       GG++F+  +  S+KIT+LA        L P    +        I G+R GEKL+E ++  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123141387|sp|Q0P8W4.1|PSEB_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine 4,6-dehydratase (inverting); AltName: Full=Pseudaminic acid biosynthesis protein B; AltName: Full=UDP-GlcNAc-inverting 4,6-dehydratase [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q0P8W4</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>4.04638e-36</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>567</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRR-RPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELCLQALAAEPGQK-TRFSMVRFGNVLGSSGSVVPLFEKQIAEGG---PITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKT</Hsp_qseq>
+      <Hsp_hseq>KNILITGGTGSFGKTYTKVLLENYKPNKIIIYSRDELKQFEMASVFNAPCMRY--------FIGDVRDKERLSAAMR--DVDFVIHAAAMKHVPIAEYNPMECIKTNIHGAQNVIDACFENGVKKCIALSTDKACNPVNLYGATKLASDKLFVAANNIAGNKQTRFGVTRYGNVVGSRGSVVPFFKKLISEGAKELPITDTR--MTRFWISLEDGVKFVLSNFERMHGGEIFIPKI-PSMKITDLAH------ALAPNLSHK--------IIGIRAGEKLHEIMISSDDSHLT</Hsp_hseq>
+      <Hsp_midline>K +++TG  GS G    + ++   +P +++++   E   + +       C R         F+G V+++  L+  M    V  V HAAA KHVP+ E+N +E I+ NI G      A   +GV+  + +STDKA  P N  GA K  ++    A     G K TRF + R+GNV+GS GSVVP F+K I+EG    PIT T   +TR+++++ +  + V+       GG++F+  +  S+KITDLA        L P    +        I G+R GEKL+E ++  D+   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166225915|sp|A8EZA9.1|CAPD_RICCK</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia canadensis str. McKiel]</Hit_def>
+  <Hit_accession>A8EZA9</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>7.53728e-36</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPF-LGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE-LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRK</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFI----ESDIINDIKEIRIFSRDEKKQE-DMRIALSNPKLKFYIGDVRNYKSVDEAM--HGVDYVFHAAALKQVPTCEFYPMEAINTNVLGAENVLSAAIKNKVAKVVVLSTDKAVYPVNVMGLSKALMEKLAIAKARMRSMNETVLCVTRYGNVMASRGSVIPLFINQIKQGKELTITEPSMTRFLMSLVDSVNLVLYAFEHGRQGDIFVQKSPAST-IAVLAKALQDIFGSKNK----------IRFIGTRHGEKHYESLVSSEDMAK</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + I    E  ++ ++ E  +++ +++  E   R  ++   L F +G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ G      AA  + V   V++STDKAV P N MG  K + E L +         +T   + R+GNV+ S GSV+PLF  QI +G  +T+T P +TR+ M++ ++  LV+ A   GR GD+FV     S  I  LA+ +  + G K K          I   G R GEK YE L+  +++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81341467|sp|O25511.1|PSEB_HELPY</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine 4,6-dehydratase (inverting); AltName: Full=Pseudaminic acid biosynthesis protein B; AltName: Full=UDP-GlcNAc-inverting 4,6-dehydratase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25511</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>7.66025e-35</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>562</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EGKTVMVTGAGGSIGSELCRQIIRR-RPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE-LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIA-EGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGD</Hsp_qseq>
+      <Hsp_hseq>DNQTILITGGTGSFGKCFVRKVLDTTNAKKIIVYSRDELKQSEMAMEFNDPRMRF--------FIGDVRDLERLNYALEGVDICI--HAAALKHVPIAEYNPLECIKTNIMGASNVINACLKNAISQVIALSTDKAANPINLYGATKLCSDKLFVSANNFKGSSQTQFSVVRYGNVVGSRGSVVPFFKKLVQNKASEIPITDIRMTRFWITLDEGVSFVLKSLKRMHGGEIFVPKI-PSMKMTDLAK------ALAPNTPTK--------IIGIRPGEKLHEVMIPKD</Hsp_hseq>
+      <Hsp_midline>+ +T+++TG  GS G    R+++     ++++++   E     +  E  +   R         F+G V++   L + +    +    HAAA KHVP+ E+N +E I+ NI G      A   + +   + +STDKA  P N  GA K  ++ L + A   +   +T+FS+VR+GNV+GS GSVVP F+K +  +   I +T   +TR+++T+ E    V+++     GG++FV  +  S+K+TDLA+       L P TP +        I G+RPGEKL+E ++  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166225913|sp|A8GN21.1|CAPD_RICAH</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia akari str. Hartford]</Hit_def>
+  <Hit_accession>A8GN21</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.11054e-34</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPF-LGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELCLQALAAEPGQ-KTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKT----GHPRI</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFLKSD----IINDIKEIRIFSRDEKKQE-DMRIALSNPKLKFYIGDVRNYKSIDEAMRG--VDYVFHAAALKQVPTCEFYPMEAINTNVLGAENVLSAAINNKVAKVIVLSTDKAVYPINAMGLSKALMEKLSIAKARMCSQGETVLCVTRYGNVMASRGSVIPLFINQIKQGKELTITEPSMTRFLMSLVDSVDLVLYAFEHGRQGDIFVQKSPAST-IEILAKALQEIFGSKNK----------IRFIGTRHGEKHYESLVSSEDMAKADDLGGYYRI</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + ++      ++ ++ E  +++ +++  E   R  ++   L F +G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ G      AA  + V   +++STDKAV P N MG  K + E    A A    Q +T   + R+GNV+ S GSV+PLF  QI +G  +T+T P +TR+ M++ ++  LV+ A   GR GD+FV     S  I  LA+ +  + G K K          I   G R GEK YE L+  +++ K     G+ RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81554867|sp|Q9ZDJ5.1|CAPD_RICPR</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZDJ5</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>2.55993e-34</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE--LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKT----GHPRI</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFLKSN----IINDIKEIRIFSRDEKKQEDMRIALNNSKLKFYIGDVRNYQSIDDAM--HGVDYVFHAAALKQVPTCEFYPMEAINTNVLGAENVLSAAINNKVTKVIVLSTDKAVYPINAMGLSKALMEKLAIAKARMRSPGE-TILCVTRYGNVMASRGSVIPLFIHQIKQGKELTITEPSMTRFLMSLVDSVDLVLYAFEHGRQGDIFVQKSPAST-IEVLAKALQEIFGSKN----------AIRFIGTRHGEKHYESLVSSEDMAKADDLGGYYRI</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + ++      ++ ++ E  +++ +++  E        +++  ++G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ G      AA  + V   +++STDKAV P N MG  K + E     +A    PG+ T   + R+GNV+ S GSV+PLF  QI +G  +T+T P +TR+ M++ ++  LV+ A   GR GD+FV     S  I  LA+ +  + G K            I   G R GEK YE L+  +++ K     G+ RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166225914|sp|A8GWP0.1|CAPD_RICB8</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia bellii OSU 85-389]</Hit_def>
+  <Hit_accession>A8GWP0</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.0853e-34</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE-LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRK</Hsp_qseq>
+      <Hsp_hseq>KTLLITGGTGSFGNAVLSRFLKND----IIKDIKEIRIFSRDEKKQEDMRIALNNPKIKFYIGDVRNYNSIDDAMK--DVDYVFHAAALKQVPTCEFYPMEAINTNILGAENVLRAATINKVAKVIVLSTDKAVYPINAMGLSKALMEKLAIAKARMNVRDKTVFCVTRYGNVMASRGSVIPLFINQIKQNKDLTITEPSMTRFLMSLVDSVDLVLYAFEYGHQGDIFVQKSPAST-IEVLAKALQGIFNSKNK----------IRFIGTRHGEKHYESLVSSEEMAK</Hsp_hseq>
+      <Hsp_midline>KT+++TG  GS G+ +  + ++      ++ ++ E  +++ +++  E         +I  ++G V+N   +   M    V  V+HAAA K VP  EF  +E I  NI G      AAT + V   +++STDKAV P N MG  K + E L +         KT F + R+GNV+ S GSV+PLF  QI +   +T+T P +TR+ M++ ++  LV+ A   G  GD+FV     S  I  LA+ +  +   K K          I   G R GEK YE L+  + + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81479641|sp|Q8L2J6.1|CAPD_RICTY</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q8L2J6</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.40379e-34</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE--LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKT----GHPRI</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFLKSN----IINDIKEIRIFSRDEKKQEDMRIALNHSKLKFYIGDVRNYQSIDDAMHG--VDYVFHAAALKQVPTCEFYPMEAINTNVLGAENVLSAAINNKVTKVIVLSTDKAVYPINAMGLSKALMEKLAIAKARMRSPGE-TILCVTRYGNVMASRGSVIPLFIHQIKQGKELTITEPSMTRFLMSLVDSVDLVLYAFEHGRQGDIFVQKSPAST-IEVLAKALQEIFGSKN----------AIRFIGTRHGEKHYESLVSSEDMAKADDLGGYYRI</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + ++      ++ ++ E  +++ +++  E        +++  ++G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ G      AA  + V   +++STDKAV P N MG  K + E     +A    PG+ T   + R+GNV+ S GSV+PLF  QI +G  +T+T P +TR+ M++ ++  LV+ A   GR GD+FV     S  I  LA+ +  + G K            I   G R GEK YE L+  +++ K     G+ RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|122425633|sp|Q1RIM4.1|CAPD_RICBR</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RIM4</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.71845e-34</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE-LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRK</Hsp_qseq>
+      <Hsp_hseq>KTLLITGGTGSFGNAVLSRFLKND----IIKDIKEIRIFSRDEKKQEDMRIALNNPKIKFYIGDVRNYNSIDDAMKG--VDYVFHAAALKQVPTCEFYPMEAINTNILGAENVLRAATINKVAKVIVLSTDKAVYPINAMGLSKALMEKLAIAKARMNVRDKTVFCVTRYGNVMASRGSVIPLFINQIKQNKDLTITEPSMTRFLMSLVDSVDLVLYAFEYGHQGDIFVQKSPAST-IEVLAKALQGIFNSKNK----------IRFIGTRHGEKHYESLVSSEEMAK</Hsp_hseq>
+      <Hsp_midline>KT+++TG  GS G+ +  + ++      ++ ++ E  +++ +++  E         +I  ++G V+N   +   M    V  V+HAAA K VP  EF  +E I  NI G      AAT + V   +++STDKAV P N MG  K + E L +         KT F + R+GNV+ S GSV+PLF  QI +   +T+T P +TR+ M++ ++  LV+ A   G  GD+FV     S  I  LA+ +  +   K K          I   G R GEK YE L+  + + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|166225918|sp|A8F1A5.2|CAPD_RICM5</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia massiliae MTU5]</Hit_def>
+  <Hit_accession>A8F1A5</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>1.11706e-33</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>571</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE--LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKTGHPR</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFLKSD----IINDIKEIRIFSRDEKKQEDMRIAFNNPKLKCYIGDVRNYKSIDEAM--HGVDYVFHAAALKQVPTCEFYPMEAINTNVLGAENVLSAAINNKVTKVIVLSTDKAVYPINAMGLSKALMEKLAIAKARMRSPGE-TVLCVTRYGNVMASRGSVIPLFINQIKQGKELTITEPSMTRFLMSLVDSVDLVLYAFEHGHQGDIFVQKSPAS-----------TIEVLAKALQDIFDSKNEIRFIGTRHGEKHYESLVSSEEMAKADDLR</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + ++      ++ ++ E  +++ +++  E         ++  ++G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ G      AA  + V   +++STDKAV P N MG  K + E     +A    PG+ T   + R+GNV+ S GSV+PLF  QI +G  +T+T P +TR+ M++ ++  LV+ A   G  GD+FV     S           T+  L     +  D   EI   G R GEK YE L+  + + K    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|166225869|sp|A8GRN9.1|CAPD_RICRS</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia rickettsii str. &apos;Sheila Smith&apos;]</Hit_def>
+  <Hit_accession>A8GRN9</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.26454e-33</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>571</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPF-LGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE-LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKTGHPR</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFLKSG----IINDIKEIRIFSRDEKKQE-DMRIALNNPKLKFYIGDVRNYKSIDEAM--HGVNYVFHAAALKQVPTCEFYPMEAINTNVLGTENVLSAAINNKVTKVIVLSTDKAVYPINAMGLSKALMEKLAIAKARMRSSGETVLCVTRYGNVMASRGSVIPLFINQIKQGKELTITEPSMTRFLMSLVDSVDLVLYAFEHGNQGDIFVQKSPAST-IEVLAKALQDIFNSKN----------EIRFIGTRHGEKHYESLVSSEEMAKADDLR</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + ++      ++ ++ E  +++ +++  E   R  +    L F +G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ GT     AA  + V   +++STDKAV P N MG  K + E L +         +T   + R+GNV+ S GSV+PLF  QI +G  +T+T P +TR+ M++ ++  LV+ A   G  GD+FV     S  I  LA+ +  +   K           EI   G R GEK YE L+  + + K    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81528347|sp|Q92IG3.1|CAPD_RICCN</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92IG3</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>4.07906e-33</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>571</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPF-LGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAE--LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKTGHPR</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFLKSG----IINDIKEIRIFSRDEKKQE-DMRIALNNPKLKFYIGDVRNYKSIDEAM--HGVDYVFHAAALKQVPTCEFYPMEAINTNVLGAENVLSAAINNKVTKVIVLSTDKAVYPINAMGLSKALMEKLAIAKARMRSPGE-TVLCVTRYGNVMASRGSVIPLFINQIKQGKVLTITEPSMTRFLMSLVDSVDLVLYAFEHGHQGDIFVQKSPAS-----------TIEVLAKALQDIFDSKNEIRFIGTRHGEKHYESLVSSEEMAKADDLR</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + ++      ++ ++ E  +++ +++  E   R  +    L F +G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ G      AA  + V   +++STDKAV P N MG  K + E     +A    PG+ T   + R+GNV+ S GSV+PLF  QI +G  +T+T P +TR+ M++ ++  LV+ A   G  GD+FV     S           T+  L     +  D   EI   G R GEK YE L+  + + K    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75536631|sp|Q4UM33.1|CAPD_RICFE</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UM33</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.07605e-32</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPF-LGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELCLQALAAEPGQ-KTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKT----GHPRI</Hsp_qseq>
+      <Hsp_hseq>KTLMITGGTGSFGNAVLSRFLKSD----ITNDIKEIRIFSRDEKKQE-DMRIALNNPKLKFYIGDVRNYKSIDEAM--HGVDYVFHAAALKQVPTCEFYPMEAINTNVLGAENVLSAAINNKVAKVIVLSTDKAVYPINAMGLSKALMEKLAVAKARMRSQGETVLCVTRYGNVMASRGSVIPLFINQIKQDKDLTITEPSMTRFLMSLVDSVDLVLYAFEHGRQGDIFVQKSPAST-IEVLAKALQEIFGSKN----------ELRFIGTRHGEKHYESLVSSEEMAKADDLGGYYRI</Hsp_hseq>
+      <Hsp_midline>KT+M+TG  GS G+ +  + ++      +  ++ E  +++ +++  E   R  +    L F +G V+N   +   M    V  V+HAAA K VP  EF  +E I  N+ G      AA  + V   +++STDKAV P N MG  K + E    A A    Q +T   + R+GNV+ S GSV+PLF  QI +   +T+T P +TR+ M++ ++  LV+ A   GR GD+FV     S  I  LA+ +  + G K           E+   G R GEK YE L+  + + K     G+ RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1730952|sp|P54183.1|YPQP_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative uncharacterized protein ypqP</Hit_def>
+  <Hit_accession>P54183</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.2195e-26</Hsp_evalue>
+      <Hsp_query-from>409</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TDKAVRPANTMGAGKRMAE-LCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQIAEGGPITLTHPDITRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLAR---QMITLSGL-KPKTPEQPDGDIEILITGLRPGEKLYEELLIGDNVRKTGHPRIMTADETMLPWHELSALLDRIRTACD</Hsp_qseq>
+      <Hsp_hseq>TDKAVSPVNTMGATKLLSEKLFHQANRHVQNKGTLFCSVRFGNVLGSRGSVIPILFEQMMEGEPLTITDKNMTRFFMSIDDAATLTLQSAAITKGGETFIFKM-ESLKLEELIHGFEEYASQHGLPRPAAVE----------VGKRPGEKLHEELTSPHEI------------ESLYEWGNLYAILPEPEKHPD</Hsp_hseq>
+      <Hsp_midline>TDKAV P NTMGA K ++E L  QA      + T F  VRFGNVLGS GSV+P+  +Q+ EG P+T+T  ++TR+FM+I +AA L +Q+ A+ +GG+ F+  M ES+K+ +L     +  +  GL +P   E           G RPGEKL+EEL     +            E++  W  L A+L       D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81342331|sp|O34490.1|YODU_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative sugar epimerase yodU</Hit_def>
+  <Hit_accession>O34490</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.41775e-13</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>413</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV</Hsp_qseq>
+      <Hsp_hseq>KTVLVTGGTGSIGSQIVKRLLMLTPKQVIVFSKDDSKQYVMSQKYAE-------DKRLLFVLGDVRDHRRVNQVMKGVDI--VFHAAALKQVPTCEDHPFEAIQTNLIGGQNVVEAALSHRVQHVINISTDKAV</Hsp_hseq>
+      <Hsp_midline>KTV+VTG  GSIGS++ ++++   P+++++F   +   Y + ++  E          +L  LG V++   +  +M    +  V+HAAA K VP  E +  E I+ N+ G      AA +  V+  + ISTDKAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|62901054|sp|Q9LPG6.1|RHM2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional UDP-glucose 4,6-dehydratase/UDP-4-keto-6-deoxy-D-glucose 3,5-epimerase/UDP-4-keto-L-rhamnose-reductase RHM2; AltName: Full=NDP-rhamnose synthase; AltName: Full=Protein MUCILAGE-MODIFIED 4; AltName: Full=Protein RHAMNOSE BIOSYNTHESIS 2; AltName: Full=Rhamnose biosynthetic enzyme 2; Short=AtRHM2; AltName: Full=UDP-L-rhamnose synthase MUM4; Includes: RecName: Full=UDP-glucose 4,6-dehydratase; Includes: RecName: Full=UDP-4-keto-6-deoxy-D-glucose 3,5-epimerase/UDP-4-keto-L-rhamnose 4-keto-reductase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LPG6</Hit_accession>
+  <Hit_len>667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.56397e-09</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>536</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCA--RN---GIAAEILPFL-GSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASG-VETFVLISTDKA-----------------VRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSG---SVVPLFEKQIAEGGPITLTHPDITR-----YFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQ</Hsp_qseq>
+      <Hsp_hseq>KNILITGAAGFIASHVANRLIRNYPD---------YKIVVLDK--LDYCSDLKNLDPSFSSPNFKFVKGDIASDDLVNYLLITENIDTIMHFAAQTHVDNSFGNSFEFTKNNIYGTHVLLEACKVTGQIRRFIHVSTDEVYGETDEDAAVGNHEASQLLPTNPYSATKAGAEMLVMAYGRSYGLPV--ITTRGNNVYGPNQFPEKMIPKFILLAMSGKPLPI-HGDGSNVRSYLYCEDVAEAFEVVLHKGEIGH---VYNVGTKRERRVIDVARDICKLFGKDPESSIQ</Hsp_hseq>
+      <Hsp_midline>K +++TGA G I S +  ++IR  P+         + +  ++K   +YC+  +N     ++    F+ G + +  L+ +++   ++ T+ H AA  HV     N+ E  +NNI+GT     A   +G +  F+ +STD+                  + P N   A K  AE+ + A     G        R  NV G +     ++P F      G P+ + H D +      Y   + EA ++V+  G +G    V+ +      ++ D+AR +  L G  P++  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|62901057|sp|Q9SYM5.1|RHM1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional UDP-glucose 4,6-dehydratase/UDP-4-keto-6-deoxy-D-glucose 3,5-epimerase/UDP-4-keto-L-rhamnose-reductase RHM1; AltName: Full=Protein REPRESSOR OF LRX1 1; AltName: Full=Rhamnose biosynthetic enzyme 1; Short=AtRHM1; Includes: RecName: Full=UDP-glucose 4,6-dehydratase; Includes: RecName: Full=UDP-4-keto-6-deoxy-D-glucose 3,5-epimerase/UDP-4-keto-L-rhamnose 4-keto-reductase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SYM5</Hit_accession>
+  <Hit_len>669</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.11935e-09</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>532</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCA--RNGIAAEILPFL----GSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASG-VETFVLISTDKA-----------------VRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSGSVVPLFEKQI--AEGGPITLTHPDITR-----YFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPK</Hsp_qseq>
+      <Hsp_hseq>KNILITGAAGFIASHVANRLIRSYPD---------YKIVVLDK--LDYCSNLKNLNPSKHSPNFKFVKGDIASADLVNHLLITEGIDTIMHFAAQTHVDNSFGNSFEFTKNNIYGTHVLLEACKVTGQIRRFIHVSTDEVYGETDEDALVGNHEASQLLPTNPYSATKAGAEMLVMAYGRSYGLPV--ITTRGNNVYGPNQFPEKLIPKFILLAMRGQVLPIHGDGSNVRSYLYCEDVAEAFEVVLHKGEVGH---VYNIGTKKERRVNDVAKDICKLFNMDPE</Hsp_hseq>
+      <Hsp_midline>K +++TGA G I S +  ++IR  P+         + +  ++K   +YC+  +N   ++  P      G + +  L+ H++    + T+ H AA  HV     N+ E  +NNI+GT     A   +G +  F+ +STD+                  + P N   A K  AE+ + A     G        R  NV G +     L  K I  A  G +   H D +      Y   + EA ++V+  G +G    V+ +   +  ++ D+A+ +  L  + P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|82000344|sp|Q5UR12.1|TGDS_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Putative dTDP-D-glucose 4,6-dehydratase [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UR12</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>4.61754e-08</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>530</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPE-RLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGT---LECALAATASGVETFVLISTDKAVRPANTMGAGKRMAELC------LQALAAEPGQKTRF-------SMVRFGNVLGSSG---SVVPLFEKQIAEGGPITLTHPDITR----YFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLK</Hsp_qseq>
+      <Hsp_hseq>KNILVTGGLGFIGSNFVNHISSKYDNVNIYVYDIGD---YCASVENVEWNNRTKLIK------GDIRNFDLIMHTLTEHEIDTIVHFAAHSHVDNSFKNSLAFTETNVFGTHVLLEC--SRMYGKLKLFFHMSTDEVYGEIDTTDTSREVSLLCPTNPYAATKAGAEHIVKSYFLSYKLPIIIARCNNVYGRNQYPEKLIPKFICSLLDGKKLHIQGTGNSRRNFIHAIDVADAVDLVINNGVI---GETYNIGVTNEHSVLDVAQILCDIAGVN</Hsp_hseq>
+      <Hsp_midline>K ++VTG  G IGS     I  +     + ++++ +   Y    E  E+  R  +        G ++N  L+ H +T   + T+ H AA+ HV     N++     N+FGT   LEC  +     ++ F  +STD+     +T    + ++ LC           AE   K+ F        + R  NV G +     ++P F   + +G  + +     +R    + + + +A  LVI  G +   G+ + + +     + D+A+ +  ++G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|62901052|sp|Q9LH76.1|RHM3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional UDP-glucose 4,6-dehydratase/UDP-4-keto-6-deoxy-D-glucose 3,5-epimerase/UDP-4-keto-L-rhamnose-reductase RHM3; AltName: Full=Probable rhamnose biosynthetic enzyme 3; Short=AtRHM3; Includes: RecName: Full=UDP-glucose 4,6-dehydratase; Includes: RecName: Full=UDP-4-keto-6-deoxy-D-glucose 3,5-epimerase/UDP-4-keto-L-rhamnose 4-keto-reductase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LH76</Hit_accession>
+  <Hit_len>664</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>6.42313e-08</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>533</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCA--RNGIAAEILPFL----GSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASG-VETFVLISTDKA-----------------VRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSG---SVVPLFEKQIAEGGPITLTHPDITR-----YFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITLSGLKPKT</Hsp_qseq>
+      <Hsp_hseq>KNILITGAAGFIASHVANRLVRSYPD---------YKIVVLDK--LDYCSNLKNLNPSKSSPNFKFVKGDIASADLVNYLLITEEIDTIMHFAAQTHVDNSFGNSFEFTKNNIYGTHVLLEACKVTGQIRRFIHVSTDEVYGETDEDASVGNHEASQLLPTNPYSATKAGAEMLVMAYGRSYGLPV--ITTRGNNVYGPNQFPEKLIPKFILLAMNGKPLPI-HGDGSNVRSYLYCEDVAEAFEVVLHKGEVNH---VYNIGTTRERRVIDVANDISKLFGIDPDS</Hsp_hseq>
+      <Hsp_midline>K +++TGA G I S +  +++R  P+         + +  ++K   +YC+  +N   ++  P      G + +  L+ +++    + T+ H AA  HV     N+ E  +NNI+GT     A   +G +  F+ +STD+                  + P N   A K  AE+ + A     G        R  NV G +     ++P F      G P+ + H D +      Y   + EA ++V+  G +     V+ +      ++ D+A  +  L G+ P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|21759135|sp|Q9F7D4.1|GALE_YERPE</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q9F7D4</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>8.75358e-07</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV---------------RPANTMGAGKRMAELCLQALA-AEPGQKTRFSMVRFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>VLVTGGSGYIGSHTCVQLIEAGYKPVILDNLCN----SKSSVLARIHSLTGYTPEL--YAGDIRDRTLLDSIFAAHPIHAVIHFAGLKAVGESVNRPLEYYNNNVFGTLVLLEAMRAAQVKNLIFSSSATVYGDQPQIPYVESFPTGSPSSPYGRSKLMVEQILQDVQLADP--QWNMTILRYFNPVGAHPS</Hsp_hseq>
+      <Hsp_midline>V+VTG  G IGS  C Q+I    + ++L  L      +    L    +  G   E+  + G +++RTLL  I  A  +  V H A  K V       +E   NN+FGTL    A  A+ V+  +  S+                    P++  G  K M E  LQ +  A+P  +   +++R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1169829|sp|P45602.1|GALE_KLEPN</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase, partial [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P45602</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.21008e-06</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST</Hsp_qseq>
+      <Hsp_hseq>VLVTGGSGYIGSHTCVQLLQRGHEVVILDNLC-----NSKRRILPVIERLG-GKEATFIEGDIRNEARMTEILHDHAIEAVIHFAGLKAVGESVAKPLEYYDNNVTGTLKLVSAMRAAGVKNFIFSSS</Hsp_hseq>
+      <Hsp_midline>V+VTG  G IGS  C Q+++R  E ++L  L        ++ +     R G   E     G ++N   +T I+   ++  V H A  K V       +E   NN+ GTL+   A  A+GV+ F+  S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|51315934|sp|Q7WTB1.1|GALE_LACHE</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Lactobacillus helveticus]</Hit_def>
+  <Hit_accession>Q7WTB1</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>4.50677e-06</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVL--------------ISTDKAVRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSS</Hsp_qseq>
+      <Hsp_hseq>VLVIGGAGYIGSHAVRELVKEGNDVLVLD-----ALYTGHRKAVDPKAKF--------YQGDIEDTFLVSKILRDEKIDAVMHFAAYSLVPESVKKPLKYYDNNVTGMISLLQAMNDANVKYLVFSSSAATYGIPKKLPITEDTPLNPINPYGETKMMMEKIMA--WADKADGIKYTALRYFNVAGAS</Hsp_hseq>
+      <Hsp_midline>V+V G  G IGS   R++++   + L+L      ALYT  ++  +  A+         + G +++  L++ I+    +  V H AAY  VP      ++   NN+ G +    A   + V+  V               I+ D  + P N  G  K M E  +    A+     +++ +R+ NV G+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|182701397|sp|A6QLW2.1|TGDS_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=dTDP-D-glucose 4,6-dehydratase [Bos taurus]</Hit_def>
+  <Hit_accession>A6QLW2</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.011e-06</Hsp_evalue>
+      <Hsp_query-from>276</Hsp_query-from>
+      <Hsp_query-to>526</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>DTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLL------THIMTAF----SVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV--------------RPANTMGAGKRMAELCLQALAAEPGQKTRFSMV--RFGNVLGSSG---SVVPLFEKQIAEGGPITLTHPDI-TRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITL</Hsp_qseq>
+      <Hsp_hseq>DSFAKRVLVTGGAGFIASHMIVSLVEDYPNYMI-----------INLDKLDYCA----SLKNLETISNKQNYKFIQGDICDSHFVKLLFETEKIDIVLHFAAQTHVDLSFVRAFEFTYVNVYGTHVLVSAAHEARVEKFIYVSTDEVYGGSLDKEFDESSPKQPTNPYASSKAAAECFVQSY----WEQYKFPVVITRSSNVYGPHQYPEKVIPKFISLLQHNRKCCIHGTGLQTRNFLYATDVVEAFLTVLKKGKPGEIYNIGTNFEMSVLQLAKELIQL</Hsp_hseq>
+      <Hsp_midline>D+  K V+VTG  G I S +   ++   P  ++           +  +  +YCA    + + L  + + QN   +      +H +        +  V H AA  HV +      E    N++GT     AA  + VE F+ +STD+                +P N   + K  AE  +Q+      ++ +F +V  R  NV G       V+P F   +       +    + TR F+   +  +  +     G+ G+++ +     + +  LA+++I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|342187040|sp|Q8VDR7.2|TGDS_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=dTDP-D-glucose 4,6-dehydratase [Mus musculus]</Hit_def>
+  <Hit_accession>Q8VDR7</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.36926e-05</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>526</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>GKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLL------THIMTAF----SVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV--------------RPANTMGAGKRMAELCLQALAAEPGQKTRFSMV--RFGNVLGSSG---SVVPLFEKQIAEGGPITLTHPDIT-RYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITL</Hsp_qseq>
+      <Hsp_hseq>AKRVLVTGGAGFIASHVIVSLVEDYPDYMI-----------VNLDKLDYCA----SLKNLEPVSNKQNYKFIQGDICDSHFVKLLFEVEKIDIVLHFAAQTHVDLSFVRAFEFTYVNVYGTHVLVNAAYEAGVEKFIYVSTDEVYGGSLDQEFDESSPKQPTNPYASSKAAAECFVQSY----WERYKFPVVITRSSNVYGPHQYPEKVIPKFISLLQHNRKCCIHGSGLQRRNFLYAADVVEAFLTVLTKGEPGEIYNIGTNFEMSVVQLAKELIQL</Hsp_hseq>
+      <Hsp_midline> K V+VTG  G I S +   ++   P+ ++           V  +  +YCA    + + L  + + QN   +      +H +        +  V H AA  HV +      E    N++GT     AA  +GVE F+ +STD+                +P N   + K  AE  +Q+      ++ +F +V  R  NV G       V+P F   +       +    +  R F+   +  +  +     G  G+++ +     + +  LA+++I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|30173226|sp|O95455.1|TGDS_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=dTDP-D-glucose 4,6-dehydratase [Homo sapiens]</Hit_def>
+  <Hit_accession>O95455</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.74059e-05</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>526</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>GKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLL------THIMTAF----SVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV--------------RPANTMGAGKRMAELCLQALAAEPGQKTRFSMV--RFGNVLGSSG---SVVPLFEKQIAEGGPITLTHPDI-TRYFMTIPEAAQLVIQAGAMGRGGDVFVLDMGESVKITDLARQMITL</Hsp_qseq>
+      <Hsp_hseq>AKRVLVTGGAGFIASHMIVSLVEDYPNYMI-----------INLDKLDYCA----SLKNLETISNKQNYKFIQGDICDSHFVKLLFETEKIDIVLHFAAQTHVDLSFVRAFEFTYVNVYGTHVLVSAAHEARVEKFIYVSTDEVYGGSLDKEFDESSPKQPTNPYASSKAAAECFVQSY----WEQYKFPVVITRSSNVYGPHQYPEKVIPKFISLLQHNRKCCIHGSGLQTRNFLYATDVVEAFLTVLKKGKPGEIYNIGTNFEMSVVQLAKELIQL</Hsp_hseq>
+      <Hsp_midline> K V+VTG  G I S +   ++   P  ++           +  +  +YCA    + + L  + + QN   +      +H +        +  V H AA  HV +      E    N++GT     AA  + VE F+ +STD+                +P N   + K  AE  +Q+      ++ +F +V  R  NV G       V+P F   +       +    + TR F+   +  +  +     G+ G+++ +     + +  LA+++I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|120920|sp|P09147.1|GALE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P09147</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>6.9753e-05</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV---------------RPANTMGAGKRMAELCLQAL-AAEPGQKTRFSMVRFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>VLVTGGSGYIGSHTCVQLLQNGHDVIILDNLC-----NSKRSVLPVIERLGGKHPTF-VEGDIRNEALMTEILHDHAIDTVIHFAGLKAVGESVQKPLEYYDNNVNGTLRLISAMRAANVKNFIFSSSATVYGDQPKIPYVESFPTGTPQSPYGKSKLMVEQILTDLQKAQP--DWSIALLRYFNPVGAHPS</Hsp_hseq>
+      <Hsp_midline>V+VTG  G IGS  C Q+++   + ++L  L        ++ +     R G         G ++N  L+T I+   ++ TV H A  K V       +E   NN+ GTL    A  A+ V+ F+  S+                    P +  G  K M E  L  L  A+P      +++R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2494670|sp|Q59745.1|EXOB_RHILT</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Rhizobium leguminosarum bv. trifolii]</Hit_def>
+  <Hit_accession>Q59745</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000102838</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>GKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST------------DKAVR--PANTMGAGKRMAELCLQALAAEPGQKTRFSMV-RFGNVLGSSGSVVPLFEKQIAE</Hsp_qseq>
+      <Hsp_hseq>GETVLVVGGAGYIGSHTCLDLANKGYRPVVFDNFS-----NGHREFVRW----GPAEE-----GDIRDRARLDEVLAKHKPAAILHFAALIEVGESVKDPVSFYENNVIGTLTLLSAAQAAGINAFVFSSTCATYGLPQSVPLDETHRQVPINPYGRTKYIVE---QALADYDQYGSLRSVVLRYFNAAGAD------FEGRIGE</Hsp_hseq>
+      <Hsp_midline>G+TV+V G  G IGS  C  +  +    ++    S        +E   +    G A E     G +++R  L  ++     A + H AA   V     + V    NN+ GTL    AA A+G+  FV  ST            D+  R  P N  G  K + E   QALA      +  S+V R+ N  G+       FE +I E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|74856242|sp|Q54WS6.1|TGDS_DICDI</Hit_id>
+  <Hit_def>RecName: Full=dTDP-D-glucose 4,6-dehydratase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54WS6</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000182034</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRR-RPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFL---GSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKA-------------------------VRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSG---SVVPLFEKQIAEGGPITLTHP-DITRYFMTIPE---AAQLVIQAGAMGRGGDVFVLDMGESVKIT--DLARQMITLS</Hsp_qseq>
+      <Hsp_hseq>QKILITGGAGFIGSHLAIYLTKKFKNSKIIVLDKLDY---------CSNINNLGCVLKELNFKFYKGNILDSELLENIFEKEKIDIVIHLAAYTHVDNSFKQSIKFTENNILGTHYLLETCKNYKLKKFIYVSTDEVYGSGLIEDNDDNNNSINQSSNEKSILNPTNPYSASKAGAEHLVQSYYK--SFKLPVIITRANNIYGPKQYPEKIIPKFINLLLNNKKCTIHGTGKNTRNYLYIDDIVSAFDIILRKGEIGN-----VYNIGTDFEISNLDVAKKIINIS</Hsp_hseq>
+      <Hsp_midline>+ +++TG  G IGS L   + ++ +  ++++ +  ++         C      G   + L F    G++ +  LL +I     +  V H AAY HV      +++   NNI GT           ++ F+ +STD+                          + P N   A K  AE  +Q+       K    + R  N+ G       ++P F   +      T+      TR ++ I +   A  ++++ G +G      V ++G   +I+  D+A+++I +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|17433726|sp|Q56093.2|GALE_SALTI</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q56093</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000251791</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV---------------RPANTMGAGKRMAELCLQAL-AAEPGQKTRFSMVRFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>VLVTGGSGYIGSHTCVQLLQNGHDVVILDNLC-----NSKRSVLPVIERLGGKHPTF-VEGDIRNEALITEILHDHAIDTVIHFAGLKAVGESVAKPLEYYDNNVNGTLRLVSAMRAANVKNLIFSSSATVYGDQPKIPYVESFPTGTPQSPYGKSKLMVEQILTDLQKAQP--EWSIALLRYFNPVGAHPS</Hsp_hseq>
+      <Hsp_midline>V+VTG  G IGS  C Q+++   + ++L  L        ++ +     R G         G ++N  L+T I+   ++ TV H A  K V       +E   NN+ GTL    A  A+ V+  +  S+                    P +  G  K M E  L  L  A+P  +   +++R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|20141350|sp|P22715.2|GALE_SALTY</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P22715</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000292362</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLISTDKAV---------------RPANTMGAGKRMAELCLQAL-AAEPGQKTRFSMVRFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>VLVTGGSGYIGSHTCVQLLQNGHDVVILDNLC-----NSKRSVLPVIERLGGKHPTF-VEGDIRNEALITEILHDHAIDTVIHFAGLKAVGESVARPLEYYDNNVNGTLRLVSAMRAANVKNLIFSSSATVYGDQPKIPYVESFPTGTPQSPYGKSKLMVEQILTDLQKAQP--EWSIALLRYFNPVGAHPS</Hsp_hseq>
+      <Hsp_midline>V+VTG  G IGS  C Q+++   + ++L  L        ++ +     R G         G ++N  L+T I+   ++ TV H A  K V       +E   NN+ GTL    A  A+ V+  +  S+                    P +  G  K M E  L  L  A+P  +   +++R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1169828|sp|P24325.2|GALE_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P24325</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00108215</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP----------ANTMGAGKRMAELCLQALA-AEPGQKTRFSM--VRFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>ILVTGGAGYIGSHTVVELLNVGKEVVVLDNLCNSSPKSLER------VKQITGKEAKFYEGDILDRALLQKIFAENEINSVIHFAGLKAVGESVQKPTEYYMNNVAGTLVLIQEMKKAGVWNFVFSSSATVYGDPKIIPITEDCEVGGTTNPYGTSKYMVEQILRDTAKAEP----KFSMTILRYFNPVGAHES</Hsp_hseq>
+      <Hsp_midline>++VTG  G IGS    +++    E ++L  L   +  ++E+       +     E   + G + +R LL  I     + +V H A  K V        E   NN+ GTL        +GV  FV  S+     D  + P           N  G  K M E  L+  A AEP    +FSM  +R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|544367|sp|P35673.1|GALE_ERWAM</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Erwinia amylovora]</Hit_def>
+  <Hit_accession>P35673</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00326104</Hsp_evalue>
+      <Hsp_query-from>281</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>TVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST</Hsp_qseq>
+      <Hsp_hseq>SILVTGGAGYIGSHTVLSLLQRGDDVVILDNLSNASRESINR--VEKLT--GKTATF--FEGDLLDRSCLRSVFSAHRISAVIHFAGLKAVGASTRKPLEYYQNNVTGTLVLLEEMRSAGVNQFIFSSS</Hsp_hseq>
+      <Hsp_midline>+++VTG  G IGS     +++R  + ++L  LS  +  ++ +   E     G  A    F G + +R+ L  + +A  ++ V H A  K V       +E  +NN+ GTL       ++GV  F+  S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2494669|sp|Q59083.1|EXOB_AZOBR</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Azospirillum brasilense]</Hit_def>
+  <Hit_accession>Q59083</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00413296</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST--------------DKAVRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGS</Hsp_qseq>
+      <Hsp_hseq>VLVTGGAGYIGSHV-------------LHALTDAGIPAVTIDDLSAGRREAIPAAVPLVEGDIGSAELLDRVMRDHRVDAVMHFAGSIVVPESVVKPLDYYRNNTANSLTLLGACLRAGIDKVVFSSTAAVYGAPESVPIREDAPTVPINPYGASKLMTEQMLRDAGAAHG--LRSVILRYFNVAGA</Hsp_hseq>
+      <Hsp_midline>V+VTG  G IGS +             L  L++  +  V  +      R  I A +    G + +  LL  +M    V  V H A    VP      ++  RNN   +L    A   +G++  V  ST              D    P N  GA K M E  L+   A  G   R  ++R+ NV G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|75277237|sp|O22141.1|GAE4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucuronate 4-epimerase 4; AltName: Full=UDP-glucuronic acid epimerase 4; Short=AtUGlcAE1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O22141</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00539512</Hsp_evalue>
+      <Hsp_query-from>271</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>RLMNADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLE----C-----------ALAATASGVETFVLIS-TDKAVRPANTMGAGKRMAELCLQALAAEPGQKTRFSMVRFGNVLGSSGS---VVPLFEKQIAEGGPITL----THPDITRYFMTIPEAAQLVIQA-----GAMGRGGD--------VFVLDMGESVKITDLAR</Hsp_qseq>
+      <Hsp_hseq>RIRTSTNNGITVLVTGAAGFVGTHVSAALKRRGDGVIGLDNFNDYYDPSLKRARRALLERSG----IFIVEGDINDVELLRKLFKIVSFTHVMHLAAQAGVRYAMENPSSYVHSNIAGFVNLLEICKSVNPQPAIVWASSSSVYGLNTKVPFSEKDKTDQPASLYAATKKAGEEIAHTYNHIYG--LSLTGLRFFTVYGPWGRPDMAYFFFTKDILKGKSISIFESANHGTVARDFTYIDDIVKGCLAALDTAEKSTGSGGKKRGPAQLRVFNLGNTSPVPVSDLVR</Hsp_hseq>
+      <Hsp_midline>R+  +   G TV+VTGA G +G+ +   + RR    + L   +++   ++++       R+G    I    G + +  LL  +    S   V H AA   V     N    + +NI G +     C           A +++  G+ T V  S  DK  +PA+   A K+  E          G     + +RF  V G  G        F K I +G  I++     H  + R F  I +  +  + A      + G GG         VF L     V ++DL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|462155|sp|Q05026.1|GALE_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q05026</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.016397</Hsp_evalue>
+      <Hsp_query-from>281</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>TVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFL-GSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST------------DKAVRP---ANTMGAGKRMAELCLQAL-AAEPGQKTRFSMV--RFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>TVLITGGTGFIGSHTAVSLVQSGYDAVILDNLCNSSA-AVLPRLRQITGRN------IPFYQGDIRDCQILRQIFSEHEIESVIHFAGLKAVGESVAEPTKYYGNNVYGSLVLAEEMARAGVLKIVFSSSATVYGDAEKVPYTEDMRPGDTANPYGASKAMVERMLTDIQKADP----RWSVILLRYFNPIGAHES</Hsp_hseq>
+      <Hsp_midline>TV++TG  G IGS     +++   + ++L  L   +   V   L +   RN      +PF  G +++  +L  I +   + +V H A  K V        +   NN++G+L  A     +GV   V  S+             + +RP   AN  GA K M E  L  +  A+P    R+S++  R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2494663|sp|Q59678.1|GALE_PASHA</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Mannheimia haemolytica]</Hit_def>
+  <Hit_accession>Q59678</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0267719</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP----------ANTMGAGKRMAELCLQ</Hsp_qseq>
+      <Hsp_hseq>ILVTGGAGYIGSHTLVELLNENREIVVLDNLSNSSEVSLER------VKQITGKSVKFYQGDILDRDILRKIFAENQIESVIHFAGLKAVGETSENRYVTIKNNVTGSIVLVEEMLKANVNTIVFSSSATVYGDPQIIPIVESCPVGGTTNPYGTSKYMVERILE</Hsp_hseq>
+      <Hsp_midline>++VTG  G IGS    +++    E ++L  LS  +  ++E+       +      +  + G + +R +L  I     + +V H A  K V     N    I+NN+ G++        + V T V  S+     D  + P           N  G  K M E  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|12644333|sp|P56985.1|GALE_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P56985</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0490661</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFL-GSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST------------DKAVRPANT---MGAGKRMAELCLQAL-AAEPGQKTRFSMV--RFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>KKILVTGGTGFIGSHTVVSLLKSGHQVVILDNLCNSSINILPR-------LKTITGQEIPFYQGDIRDREILRRIFAENRIDSVIHFAGLKAVGESVAEPMKYYDNNVSGSLVLAEEMARAGVFSIVFSSSATVYGDPGKVPYTEDMPPGDTTSPYGASKSMVERILTDIQKADP----RWSMILLRYFNPIGAHES</Hsp_hseq>
+      <Hsp_midline>K ++VTG  G IGS     +++   + ++L  L   ++  + +          I  + +PF  G +++R +L  I     + +V H A  K V       ++   NN+ G+L  A     +GV + V  S+             + + P +T    GA K M E  L  +  A+P    R+SM+  R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|585828|sp|P37761.1|RMLB_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=dTDP-glucose 4,6-dehydratase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P37761</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0533715</Hsp_evalue>
+      <Hsp_query-from>277</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>TEGK-TVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATA</Hsp_qseq>
+      <Hsp_hseq>TEGKKNILVTGGAGFIGSAVVRHIIQN--TRDSVVNLDKLTYAGNLESLTDIADNPRYAFEQV----DICDRAELDRVFAQYRPDAVMHLAAESHVDRAIGSAGEFIRTNIVGTFDLLEAARA</Hsp_hseq>
+      <Hsp_midline>TEGK  ++VTG  G IGS + R II+    R  +  L +       + L +       A E +     + +R  L  +   +    V H AA  HV     +  E IR NI GT +   AA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|75216902|sp|Q9ZV36.1|UXS6_ARATH</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucuronic acid decarboxylase 6; AltName: Full=UDP-XYL synthase 6; AltName: Full=UDP-glucuronate decarboxylase 6; Short=UGD; Short=UXS-6 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9ZV36</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0850411</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>558</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTA---FSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP--------ANTMGA------GKRMAELCLQALAAEPGQKTRFSMVRFGNVLG-----SSGSVVPLFEKQIAEGGPITLTHPDI-TRYFMTIPEAAQLVI------QAGA--MGRGGDVFVLDMGESVKITDLARQMITLSGLKPKTPEQPDGDI----EILITGLRPGEKLYEEL</Hsp_qseq>
+      <Hsp_hseq>ILVTGGAGFIGSHLVDKLMQNEKNEVIVAD----NYFTGSKD------------NLKKWIGHPRFE-LIRHDVTEPLFVEVDQIYHLACPASPIFYKYNPVKTIKTNVIGTLNMLGLAKRVGAR-ILLTSTSEVYGDPLVHPQTESYWGNVNPIGVRSCYDEGKRVAETLMFDYHRQHGIEIRIA--RIFNTYGPRMNIDDGRVVSNFIAQALRGEALTVQKPGTQTRSFCYVSDMVEGLMRLMEGDQTGPINIGNPGEFTMVELAETVKELIKPDVEIKMVENTPDDPRQRKPDISKAKEVL--GWEPKVKLREGL</Hsp_hseq>
+      <Hsp_midline>++VTG  G IGS L  ++++     +++ +      +T  K+             +  ++G  +   L+ H +T      V  +YH A        ++N V+ I+ N+ GTL     A   G    +L ST     D  V P         N +G       GKR+AE  +     + G + R +  R  N  G       G VV  F  Q   G  +T+  P   TR F  + +  + ++      Q G   +G  G+  ++++ E+VK        I +    P  P Q   DI    E+L  G  P  KL E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|75350129|sp|Q56770.1|GUMD_XANCE</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase; Short=UDP-Glc:Und-P Glc-1-P transferase; AltName: Full=Glucosyl-P-P-undecaprenol synthase [Xanthomonas campestris pv. campestris]</Hit_def>
+  <Hit_accession>Q56770</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0948444</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LLTALLTITLFIRMGLYRAVTRFVSFHVLTTAFAGSLASAVLFFLNTLIFE--ERLRLALPIVYFLLLFVSVTGSRMVLRGLLSDHQKKTHDPVIIYGAGRSGRQLLEAVKQMREY-SAAAFVDDNPKLWHTVIYDLAVYQ----------PDAIAFLIERYGVEKILLAIPSATQEQRRRIISKLKAYPCEVLTIPGMKDL</Hsp_qseq>
+      <Hsp_hseq>LLYSVICFALFPLYRSWRGRGLLSELVVLGGAFGGVFA---LFAVHALIVQVGEQVSRGWVGLWFVGGLVSLVAARTLLRGFL-NHLRTQGVDVQR----VVVVGLRHPVMKISHYLSRNPWVGMNMVGYFRTPYDLAVAEQRQGLPCLGDPDELIEYLKNNQVEQVWISLPLGERDHIKQLLQRLDRYPINVKLVPDLFDF</Hsp_hseq>
+      <Hsp_midline>LL +++   LF     +R         VL  AF G  A   LF ++ LI +  E++      ++F+   VS+  +R +LRG L +H +     V           L   V ++  Y S   +V  N   +    YDLAV +          PD +   ++   VE++ +++P   ++  ++++ +L  YP  V  +P + D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|121021|sp|P27044.3|GNAI1_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Guanine nucleotide-binding protein G(i) subunit alpha-1; AltName: Full=Adenylate cyclase-inhibiting G alpha protein [Xenopus laevis]</Hit_def>
+  <Hit_accession>P27044</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.10245</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SVTGSRMVLRGLLSDHQKKTHD-PVIIYGAGRSGRQLLEAVKQMREYSAAAFVDDNPKLWHTVIYDLAVYQPDAIAFLIERYGVEKILLAIPSATQEQRR</Hsp_qseq>
+      <Hsp_hseq>AVERSKMIDRNLREDGEKAAREVKLLLLGAGESGKSTI--VKQMKIIHEAGYSEEECKQYKAVVYSNTI---QSIIAIIRAMGRLKIDFGDPSRADDARQ</Hsp_hseq>
+      <Hsp_midline>+V  S+M+ R L  D +K   +  +++ GAG SG+  +  VKQM+    A + ++  K +  V+Y   +    +I  +I   G  KI    PS   + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|21759134|sp|Q9CNY5.1|GALE_PASMU</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucose 4-epimerase; AltName: Full=Galactowaldenase; AltName: Full=UDP-galactose 4-epimerase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CNY5</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.124778</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTAFSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP----------ANTMGAGKRMAELCLQALA-AEPGQKTRFSMVRFGNVLGSSGS</Hsp_qseq>
+      <Hsp_hseq>ILVTGGAGYIGSHTVVELLNANKDVVVLDNLCNSSPKSLER-VAQITGK-----QVKFYQGDILDTALLQKIFAENQIQSVIHFAGLKAVGESVQKPAEYYMNNVTGSLVLIQEMKKAGVWNFVFSSSATVYGDPEIIPITESCKVGGTTNPYGTSKFMVEQILKDIAKATP--EFSITILRYFNPVGAHES</Hsp_hseq>
+      <Hsp_midline>++VTG  G IGS    +++    + ++L  L   +  ++E+ + +   +     ++  + G + +  LL  I     + +V H A  K V        E   NN+ G+L        +GV  FV  S+     D  + P           N  G  K M E  L+ +A A P  +   +++R+ N +G+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|81883281|sp|Q5PQX0.1|UXS1_RAT</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucuronic acid decarboxylase 1; AltName: Full=UDP-glucuronate decarboxylase 1; Short=UGD; Short=UXS-1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5PQX0</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.155062</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTA---FSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP--------ANTMGA------GKRMAELCLQALAAEPGQKTRFSMVRFGNVLG-----SSGSVVPLFEKQIAEGGPITL</Hsp_qseq>
+      <Hsp_hseq>SEKDRKRILITGGAGFVGSHLTDKLMMDGHEVTVVDNF-----FTGRKRNVEH------------WIGH-ENFELINHDVVEPLYIEVDQIYHLASPASPPNYMYNPIKTLKTNTIGTLNMLGLAKRVGAR-LLLASTSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETMCYAYMKQEGVEVR--VARIFNTFGPRMHMNDGRVVSNFILQALQGEPLTV</Hsp_hseq>
+      <Hsp_midline>++ + K +++TG  G +GS L  +++    E  ++        +T  K   E+            ++G  +N  L+ H +       V  +YH A+    P   +N ++ ++ N  GTL     A   G    +L ST     D  V P         N +G       GKR+AE    A   + G + R  + R  N  G     + G VV  F  Q  +G P+T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|75041529|sp|Q5R885.1|UXS1_PONAB</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucuronic acid decarboxylase 1; AltName: Full=UDP-glucuronate decarboxylase 1; Short=UGD; Short=UXS-1 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R885</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.159143</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTA---FSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP--------ANTMGA------GKRMAELCLQALAAEPGQKTRFSMVRFGNVLG-----SSGSVVPLFEKQIAEGGPITL</Hsp_qseq>
+      <Hsp_hseq>SEKDRKRILITGGAGFVGSHLTDKLMMDGHEVTVVDNF-----FTGRKRNVEH------------WIGH-ENFELINHDVVEPLYIEVDQIYHLASPASPPNYMYNPIKTLKTNTIGTLNMLGLAKRVGAR-LLLASTSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETMCYAYMKQEGVEVR--VARIFNTFGPRMHMNDGRVVSNFILQALQGEPLTV</Hsp_hseq>
+      <Hsp_midline>++ + K +++TG  G +GS L  +++    E  ++        +T  K   E+            ++G  +N  L+ H +       V  +YH A+    P   +N ++ ++ N  GTL     A   G    +L ST     D  V P         N +G       GKR+AE    A   + G + R  + R  N  G     + G VV  F  Q  +G P+T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|74730150|sp|Q8NBZ7.1|UXS1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucuronic acid decarboxylase 1; AltName: Full=UDP-glucuronate decarboxylase 1; Short=UGD; Short=UXS-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8NBZ7</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.161923</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTA---FSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP--------ANTMGA------GKRMAELCLQALAAEPGQKTRFSMVRFGNVLG-----SSGSVVPLFEKQIAEGGPITL</Hsp_qseq>
+      <Hsp_hseq>SEKDRKRILITGGAGFVGSHLTDKLMMDGHEVTVVDNF-----FTGRKRNVEH------------WIGH-ENFELINHDVVEPLYIEVDQIYHLASPASPPNYMYNPIKTLKTNTIGTLNMLGLAKRVGAR-LLLASTSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETMCYAYMKQEGVEVR--VARIFNTFGPRMHMNDGRVVSNFILQALQGEPLTV</Hsp_hseq>
+      <Hsp_midline>++ + K +++TG  G +GS L  +++    E  ++        +T  K   E+            ++G  +N  L+ H +       V  +YH A+    P   +N ++ ++ N  GTL     A   G    +L ST     D  V P         N +G       GKR+AE    A   + G + R  + R  N  G     + G VV  F  Q  +G P+T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|81879685|sp|Q91XL3.1|UXS1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=UDP-glucuronic acid decarboxylase 1; AltName: Full=UDP-glucuronate decarboxylase 1; Short=UGD; Short=UXS-1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q91XL3</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.16763</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ADTEGKTVMVTGAGGSIGSELCRQIIRRRPERLLLFELSEFALYTVEKELCEYCARNGIAAEILPFLGSVQNRTLLTHIMTA---FSVATVYHAAAYKHVPMVEFNTVEGIRNNIFGTLECALAATASGVETFVLIST-----DKAVRP--------ANTMGA------GKRMAELCLQALAAEPGQKTRFSMVRFGNVLG-----SSGSVVPLFEKQIAEGGPITL</Hsp_qseq>
+      <Hsp_hseq>SEKDRKRILITGGAGFVGSHLTDKLMMDGHEVTVVDNF-----FTGRKRNVEH------------WIGH-ENFELINHDVVEPLYIEVDQIYHLASPASPPNYMYNPIKTLKTNTIGTLNMLGLAKRVGAR-LLLASTSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETMCYAYMKQEGVEVR--VARIFNTFGPRMHMNDGRVVSNFILQALQGEPLTV</Hsp_hseq>
+      <Hsp_midline>++ + K +++TG  G +GS L  +++    E  ++        +T  K   E+            ++G  +N  L+ H +       V  +YH A+    P   +N ++ ++ N  GTL     A   G    +L ST     D  V P         N +G       GKR+AE    A   + G + R  + R  N  G     + G VV  F  Q  +G P+T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

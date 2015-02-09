@@ -1,0 +1,101 @@
+ID   AROK_PSEAB              Reviewed;         172 AA.
+AC   Q02EX8;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   07-JAN-2015, entry version 55.
+DE   RecName: Full=Shikimate kinase {ECO:0000255|HAMAP-Rule:MF_00109};
+DE            Short=SK {ECO:0000255|HAMAP-Rule:MF_00109};
+DE            EC=2.7.1.71 {ECO:0000255|HAMAP-Rule:MF_00109};
+GN   Name=aroK {ECO:0000255|HAMAP-Rule:MF_00109};
+GN   OrderedLocusNames=PA14_66610;
+OS   Pseudomonas aeruginosa (strain UCBPP-PA14).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UCBPP-PA14;
+RX   PubMed=17038190; DOI=10.1186/gb-2006-7-10-r90;
+RA   Lee D.G., Urbach J.M., Wu G., Liberati N.T., Feinbaum R.L., Miyata S.,
+RA   Diggins L.T., He J., Saucier M., Deziel E., Friedman L., Li L.,
+RA   Grills G., Montgomery K., Kucherlapati R., Rahme L.G., Ausubel F.M.;
+RT   "Genomic analysis reveals that Pseudomonas aeruginosa virulence is
+RT   combinatorial.";
+RL   Genome Biol. 7:R90.1-R90.14(2006).
+CC   -!- FUNCTION: Catalyzes the specific phosphorylation of the 3-hydroxyl
+CC       group of shikimic acid using ATP as a cosubstrate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- CATALYTIC ACTIVITY: ATP + shikimate = ADP + shikimate 3-phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00109};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00109};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate
+CC       biosynthesis; chorismate from D-erythrose 4-phosphate and
+CC       phosphoenolpyruvate: step 5/7. {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- SIMILARITY: Belongs to the shikimate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000438; ABJ14423.1; -; Genomic_DNA.
+DR   RefSeq; YP_793508.1; NC_008463.1.
+DR   ProteinModelPortal; Q02EX8; -.
+DR   SMR; Q02EX8; 3-148.
+DR   STRING; 208963.PA14_66610; -.
+DR   EnsemblBacteria; ABJ14423; ABJ14423; PA14_66610.
+DR   GeneID; 4385522; -.
+DR   KEGG; pau:PA14_66610; -.
+DR   PATRIC; 19857107; VBIPseAer79785_5465.
+DR   eggNOG; COG0703; -.
+DR   HOGENOM; HOG000032568; -.
+DR   KO; K00891; -.
+DR   OMA; ADIPWIF; -.
+DR   OrthoDB; EOG6SJJGD; -.
+DR   BioCyc; PAER208963:GI5K-5429-MONOMER; -.
+DR   UniPathway; UPA00053; UER00088.
+DR   Proteomes; UP000000653; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004765; F:shikimate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00109; Shikimate_kinase; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000623; Shikimate_kinase/TSH1.
+DR   InterPro; IPR023000; Shikimate_kinase_CS.
+DR   Pfam; PF01202; SKI; 1.
+DR   PRINTS; PR01100; SHIKIMTKNASE.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS01128; SHIKIMATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis;
+KW   ATP-binding; Complete proteome; Cytoplasm; Kinase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Transferase.
+FT   CHAIN         1    172       Shikimate kinase.
+FT                                /FTId=PRO_1000022986.
+FT   NP_BIND      11     16       ATP. {ECO:0000255|HAMAP-Rule:MF_00109}.
+FT   METAL        15     15       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00109}.
+FT   BINDING      33     33       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00109}.
+FT   BINDING      57     57       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00109}.
+FT   BINDING      79     79       Substrate; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00109}.
+FT   BINDING     117    117       ATP. {ECO:0000255|HAMAP-Rule:MF_00109}.
+FT   BINDING     136    136       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00109}.
+FT   BINDING     153    153       ATP. {ECO:0000255|HAMAP-Rule:MF_00109}.
+SQ   SEQUENCE   172 AA;  19237 MW;  1C4C188D8BA2B5DD CRC64;
+     MVNLILVGPM GAGKSTIGRL LAKELHLAFK DSDKEIEQRC GANIPWIFDV EGEVGFRERE
+     QAMLTELCAA DGMVIATGGG AVMRDGNRQV LRAGGRVVYL HASVEHQIAR TARDRNRPLL
+     QKPNPGQILR DLMALRDPLY REIADVVVET DERPPRLVVQ EILERLRKLP PR
+//

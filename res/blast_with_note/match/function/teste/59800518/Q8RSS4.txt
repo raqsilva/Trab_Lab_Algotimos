@@ -1,0 +1,92 @@
+ID   CARA_HALER              Reviewed;         381 AA.
+AC   Q8RSS4;
+DT   11-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   21-SEP-2011, sequence version 2.
+DT   01-OCT-2014, entry version 78.
+DE   RecName: Full=Carbamoyl-phosphate synthase small chain {ECO:0000255|HAMAP-Rule:MF_01209};
+DE            EC=6.3.5.5 {ECO:0000255|HAMAP-Rule:MF_01209};
+DE   AltName: Full=Carbamoyl-phosphate synthetase glutamine chain {ECO:0000255|HAMAP-Rule:MF_01209};
+GN   Name=carA {ECO:0000255|HAMAP-Rule:MF_01209};
+OS   Halomonas eurihalina.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales;
+OC   Halomonadaceae; Halomonas.
+OX   NCBI_TaxID=42566;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=F2-7;
+RX   PubMed=12768451; DOI=10.1007/s00792-002-0311-6;
+RA   Llamas I., Suarez A., Quesada E., Bejar V., del Moral A.;
+RT   "Identification and characterization of the carAB genes responsible
+RT   for encoding carbamoylphosphate synthetase in Halomonas eurihalina.";
+RL   Extremophiles 7:205-211(2003).
+RN   [2]
+RP   SEQUENCE REVISION TO 98; 277 AND 369.
+RA   Llamas I.;
+RL   Submitted (JUN-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: 2 ATP + L-glutamine + HCO(3)(-) + H(2)O = 2
+CC       ADP + phosphate + L-glutamate + carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis;
+CC       carbamoyl phosphate from bicarbonate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; (S)-dihydroorotate from bicarbonate: step 1/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by
+CC       the large (or ammonia) chain to synthesize carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- SIMILARITY: Belongs to the CarA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01209}.
+CC   -!- SIMILARITY: Contains 1 glutamine amidotransferase type-1 domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ431666; CAD24314.2; -; Genomic_DNA.
+DR   ProteinModelPortal; Q8RSS4; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070409; P:carbamoyl phosphate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006543; P:glutamine catabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.50.30.20; -; 1.
+DR   HAMAP; MF_01209; CPSase_S_chain; 1.
+DR   InterPro; IPR006274; CarbamoylP_synth_ssu.
+DR   InterPro; IPR002474; CarbamoylP_synth_ssu_N.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   Pfam; PF00988; CPSase_sm_chain; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SMART; SM01097; CPSase_sm_chain; 1.
+DR   SUPFAM; SSF52021; SSF52021; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01368; CPSaseIIsmall; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding;
+KW   Glutamine amidotransferase; Ligase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis.
+FT   CHAIN         1    381       Carbamoyl-phosphate synthase small chain.
+FT                                /FTId=PRO_0000112280.
+FT   DOMAIN      196    381       Glutamine amidotransferase type-1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01209}.
+FT   REGION        1    192       CPSase.
+FT   ACT_SITE    272    272       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01209}.
+FT   ACT_SITE    356    356       {ECO:0000255|HAMAP-Rule:MF_01209}.
+FT   ACT_SITE    358    358       {ECO:0000255|HAMAP-Rule:MF_01209}.
+SQ   SEQUENCE   381 AA;  41129 MW;  8CF90D79249439DE CRC64;
+     MSKPAILALE DGSVFHGTAI GADGQTSGEV VFNTAMTGYQ EILTDPSYSR QIVTLTYPHI
+     GNTGVNSEDV ESSSIAAAGL VIRDLPLLAS SFRCEQSLSD YLAQQNVLGI ADMHTRRLTR
+     LLRDKGSQNG AILAGPDAEG EDAEARALEA ARAFPGLKGM DLAKVVSCAE PYEWSEGEWT
+     LGSGYADVSQ GDRPYHVVAY DYGMKRNILR MLAARGCRLT VVPAQTPAEE VLAMNPDGIF
+     LSNGPGDPEP CDYAISAIQA FLETEIPVFG ICLGHQLLAL ASGAQTVKMN HGHHGANHPV
+     QDLDSGRVMI TSQNHGFAVE ESTLPDNLRA IHRSLFDGTL QGIERTDRPA FSFQGHPEAS
+     PGPRDVAPLF DRFVEMMRHR R
+//

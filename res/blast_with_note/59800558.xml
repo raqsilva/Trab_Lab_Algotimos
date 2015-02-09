@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800558|ref|YP_207270.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>pilus assembly protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>199</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800558|ref|YP_207270.1|</Iteration_query-ID>
+  <Iteration_query-def>pilus assembly protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>199</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|38258755|sp|Q88WV2.1|NRDR_LACPL</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional repressor NrdR [Lactobacillus plantarum WCFS1]</Hit_def>
+  <Hit_accession>Q88WV2</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0872744</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LSGRTSSDNRVAAMMRAMPNTGI----FKQPE---LLSIKKNNSHQEFTLQATLQPIVKAAESK</Hsp_qseq>
+      <Hsp_hseq>VDSRPTDDGRVIRRRRECENCGFRFTTFERVEATPLLVIKKNGAREEFNREKVLRGIIRSAEKR</Hsp_hseq>
+      <Hsp_midline>+  R + D RV    R   N G     F++ E   LL IKKN + +EF  +  L+ I+++AE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|122269637|sp|Q03RK0.1|NRDR_LACBA</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional repressor NrdR [Lactobacillus brevis ATCC 367]</Hit_def>
+  <Hit_accession>Q03RK0</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.24893</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LSGRTSSDNRVAAMMRAMPNTGI----FKQPE---LLSIKKNNSHQEFTLQATLQPIVKAAESK</Hsp_qseq>
+      <Hsp_hseq>VDSRPTDDGRVIRRRRECESCGFRFTTFERVEVTPLLVIKKNGTREEFNREKVLRGIIRSAEKR</Hsp_hseq>
+      <Hsp_midline>+  R + D RV    R   + G     F++ E   LL IKKN + +EF  +  L+ I+++AE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|122266077|sp|Q03GC0.1|NRDR_PEDPA</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional repressor NrdR [Pediococcus pentosaceus ATCC 25745]</Hit_def>
+  <Hit_accession>Q03GC0</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.367684</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LSGRTSSDNRVAAMMRAMPNTGI----FKQPE---LLSIKKNNSHQEFTLQATLQPIVKAAESK</Hsp_qseq>
+      <Hsp_hseq>VDSRPTDEGRVIRRRRECEKCGFRFTTFERVEATPLLVIKKNGSREEFDRDKILKGIVRAAEKR</Hsp_hseq>
+      <Hsp_midline>+  R + + RV    R     G     F++ E   LL IKKN S +EF     L+ IV+AAE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2492892|sp|Q29450.1|ADCY7_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Adenylate cyclase type 7; AltName: Full=ATP pyrophosphate-lyase 7; AltName: Full=Adenylate cyclase type VII; AltName: Full=Adenylyl cyclase 7 [Bos taurus]</Hit_def>
+  <Hit_accession>Q29450</Hit_accession>
+  <Hit_len>1078</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.07074</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>INKQSEKNTLLEISIAHLDT--ELSEIQKLKQEKDAFLIKKNKIEELQIKRLQAAKIL</Hsp_qseq>
+      <Hsp_hseq>IEKRQQENLLLSVLPAHISMGMKLAIIERLKERGDRRYLPDNNFHNLYVKRHQNVSIL</Hsp_hseq>
+      <Hsp_midline>I K+ ++N LL +  AH+    +L+ I++LK+  D   +  N    L +KR Q   IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1706218|sp|P51828.1|ADCY7_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Adenylate cyclase type 7; AltName: Full=ATP pyrophosphate-lyase 7; AltName: Full=Adenylate cyclase type VII; AltName: Full=Adenylyl cyclase 7 [Homo sapiens]</Hit_def>
+  <Hit_accession>P51828</Hit_accession>
+  <Hit_len>1080</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.25784</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>INKQSEKNTLLEISIAHLDT--ELSEIQKLKQEKDAFLIKKNKIEELQIKRLQAAKIL</Hsp_qseq>
+      <Hsp_hseq>IEKRQQENLLLSVLPAHISMGMKLAIIERLKEHGDRRCMPDNNFHSLYVKRHQNVSIL</Hsp_hseq>
+      <Hsp_midline>I K+ ++N LL +  AH+    +L+ I++LK+  D   +  N    L +KR Q   IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|189030559|sp|A5VKX7.1|NRDR_LACRD</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional repressor NrdR [Lactobacillus reuteri DSM 20016] &gt;gi|226733001|sp|B2G8B2.1|NRDR_LACRJ RecName: Full=Transcriptional repressor NrdR [Lactobacillus reuteri JCM 1112]</Hit_def>
+  <Hit_accession>A5VKX7</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.32002</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>LSGRTSSDNRVAAMMRAMPNTGI-------FKQPELLSIKKNNSHQEFTLQATLQPIVKAAESKENPAS</Hsp_qseq>
+      <Hsp_hseq>VDSRPSEDGSFIRRRRECIHCGFRFTTFERYEETPLLVIKKDGTRQEFSRQKILNGIVRSAEKR--PVS</Hsp_hseq>
+      <Hsp_midline>+  R S D       R   + G        +++  LL IKK+ + QEF+ Q  L  IV++AE +  P S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|341940190|sp|P51829.2|ADCY7_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Adenylate cyclase type 7; AltName: Full=ATP pyrophosphate-lyase 7; AltName: Full=Adenylate cyclase type VII; AltName: Full=Adenylyl cyclase 7 [Mus musculus]</Hit_def>
+  <Hit_accession>P51829</Hit_accession>
+  <Hit_len>1099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.13359</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>INKQSEKNTLLEISIAHLDT--ELSEIQKLKQEKDAFLIKKNKIEELQIKRLQAAKIL</Hsp_qseq>
+      <Hsp_hseq>VEKRQQENLLLSVLPAHISMGMKLAIIERLKEGGDRHYMPDNNFHSLYVKRHQNVSIL</Hsp_hseq>
+      <Hsp_midline>+ K+ ++N LL +  AH+    +L+ I++LK+  D   +  N    L +KR Q   IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75052798|sp|Q5GN48.1|DMD_PIG</Hit_id>
+  <Hit_def>RecName: Full=Dystrophin [Sus scrofa]</Hit_def>
+  <Hit_accession>Q5GN48</Hit_accession>
+  <Hit_len>3674</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.87645</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2355</Hsp_hit-from>
+      <Hsp_hit-to>2461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>KNTLLEISIAHLDTE--LSEIQKLKQEKDAFLIKKNKIEELQIKRLQAAKILDSLNEAVPGST-YLTSLDAVTADSYRLSGRTSSDNRVAAMMRAMPNTGIFKQPEL</Hsp_qseq>
+      <Hsp_hseq>KETEVAVQAKQLDVEGILSKGQHLYKEKPATQPVKRKLEDLSSEWKAVTHLLQELRAKWPGPTPGLTTIEAPTSQTVTLVTQPTVTKETAISKPEMPSSLLLEVPAL</Hsp_hseq>
+      <Hsp_midline>K T + +    LD E  LS+ Q L +EK A    K K+E+L  +      +L  L    PG T  LT+++A T+ +  L  + +     A     MP++ + + P L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|119372202|sp|Q1WUN5.1|NRDR_LACS1</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional repressor NrdR [Lactobacillus salivarius UCC118]</Hit_def>
+  <Hit_accession>Q1WUN5</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.22354</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>LLSIKKNNSHQEFTLQATLQPIVKAAESK</Hsp_qseq>
+      <Hsp_hseq>LLVIKKNGTREEFQREKLLRGIVRAAEKR</Hsp_hseq>
+      <Hsp_midline>LL IKKN + +EF  +  L+ IV+AAE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|122263396|sp|Q037Z3.1|NRDR_LACC3</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional repressor NrdR [Lactobacillus casei ATCC 334] &gt;gi|226732999|sp|B3WF53.1|NRDR_LACCB RecName: Full=Transcriptional repressor NrdR [Lactobacillus casei BL23]</Hit_def>
+  <Hit_accession>Q037Z3</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.2457</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LSGRTSSDNRVAAMMRAMPNTGI-------FKQPELLSIKKNNSHQEFTLQATLQPIVKAAESK</Hsp_qseq>
+      <Hsp_hseq>VDSRPTDGGRAIRRRRECENCGFRFTTFERVEQTPLLVIKKNGTREEFNREKILKGLIRAAEKR</Hsp_hseq>
+      <Hsp_midline>+  R +   R     R   N G         +Q  LL IKKN + +EF  +  L+ +++AAE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74856449|sp|Q54XH6.1|PHYD1_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Phytanoyl-CoA dioxygenase domain-containing protein 1 homolog [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54XH6</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.42414</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LSEIQKLKQEKDAFLIKKN--KIEELQIKRLQAAKILDSLNEAVPGSTYLTSLDAVTADSYRLS</Hsp_qseq>
+      <Hsp_hseq>LTEEQVAQYKKDGFLIIRNFNTTEEIDIVRGEMKKLIDELDTPSTISIFTTSEQERKVDDYFLG</Hsp_hseq>
+      <Hsp_midline>L+E Q  + +KD FLI +N    EE+ I R +  K++D L+     S + TS      D Y L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|238065361|sp|A6LSR6.1|RIMO_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein S12 methylthiotransferase RimO; Short=S12 MTTase; Short=S12 methylthiotransferase; AltName: Full=Ribosomal protein S12 (aspartate-C(3))-methylthiotransferase; AltName: Full=Ribosome maturation factor RimO [Clostridium beijerinckii NCIMB 8052]</Hit_def>
+  <Hit_accession>A6LSR6</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.437</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>AHLDTELSEIQKLKQEKDAFLIKKNKIEELQIKRLQAAKILDSLNEAVPGSTY</Hsp_qseq>
+      <Hsp_hseq>AKMDGQIDEEIKEKREEDLMLLQKNISEE--INKLKIGKLYDILVEGYNGKCY</Hsp_hseq>
+      <Hsp_midline>A +D ++ E  K K+E+D  L++KN  EE  I +L+  K+ D L E   G  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2497610|sp|Q21313.1|EPI1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Laminin-like protein epi-1; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q21313</Hit_accession>
+  <Hit_len>3672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.57724</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>2232</Hsp_hit-from>
+      <Hsp_hit-to>2435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>IKINLLPYREEMNKRKQ---QQFKTLMYGAVLTGVAAVAATYLFIDNMINKQSEKNTLLEISIAHLDT----------ELSEIQK--------LKQEKDAFLIKKNKIEELQIKRLQAAKILDSLNEAVPGSTYLTSLDAVTADSYRLSGRTSSDNRVAAMMRAMP--NTGIFKQPELLSIKKNN-SHQEFTLQATLQPIVKAAESKE</Hsp_qseq>
+      <Hsp_hseq>ITLNGTEFLQEVMKRAQRARQSVRSLAEIALAIGSSSKAVN---VDPRLLKEAEE-TLMTLEAASADQYPEKAQTVPGKLEEIQKKIQEETEKLDKQKETFEAQKKRAEELAAYLNSAQQLLKESKSKADKSNNIAKMLQLTKVENLVAAITDDLERVEAAKGEFQKLNVAIGNITENLKDKREEMTHAVTTLNETRNDVAEALEAAK</Hsp_hseq>
+      <Hsp_midline>I +N   + +E+ KR Q   Q  ++L   A+  G ++ A     +D  + K++E+ TL+ +  A  D           +L EIQK        L ++K+ F  +K + EEL      A ++L         S  +  +  +T     ++  T    RV A        N  I    E L  K+   +H   TL  T   + +A E+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|91208004|sp|Q38VS7.1|NRDR_LACSS</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional repressor NrdR [Lactobacillus sakei subsp. sakei 23K]</Hit_def>
+  <Hit_accession>Q38VS7</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.26696</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LSGRTSSDNRVAAMMRAMPNTGI-------FKQPELLSIKKNNSHQEFTLQATLQPIVKAAESK</Hsp_qseq>
+      <Hsp_hseq>IDSRPTDEGRVIRRRRECENCQFRFTTFERVEQTPLLVIKKNGTREEFNRDKLLRGLIRAAEKR</Hsp_hseq>
+      <Hsp_midline>+  R + + RV    R   N           +Q  LL IKKN + +EF     L+ +++AAE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|59798521|sp|Q6AFA1.1|SYA_LEIXX</Hit_id>
+  <Hit_def>RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Leifsonia xyli subsp. xyli str. CTCB07]</Hit_def>
+  <Hit_accession>Q6AFA1</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.02952</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>691</Hsp_hit-from>
+      <Hsp_hit-to>801</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LTGVAAVAATYLFIDNMINKQSEKNTLLEISI-AHLDTELSEIQKLKQEKDAFLIKKNKIEELQIKRLQAAKILDSLNEAVPGSTYLTSLDAVTADSYRLSGRTSSDNRVAAM</Hsp_qseq>
+      <Hsp_hseq>LVSESSVGSTNRRVESLVGLEAFKDLAVERTIVSQLSSSLKTPREQLPEKIADLMASLKAAEKRIQAFEARAVLDRVQGLLEAVSRRGAVQVVAADAGTLS--TADDLRLLAI</Hsp_hseq>
+      <Hsp_midline>L   ++V +T   +++++  ++ K+  +E +I + L + L   ++   EK A L+   K  E +I+  +A  +LD +   +   +   ++  V AD+  LS  T+ D R+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81449354|sp|Q8DMY2.1|MREC_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Cell shape-determining protein MreC; AltName: Full=Cell shape protein MreC; Flags: Precursor [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>Q8DMY2</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.56635</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MNKRKQQQFKTLMYGAVLTGVAAVAATYL------------FIDNMINKQSEKNTLLEISIAHLDTELSEIQKLKQEKDAFLIKKNKIEELQIKRLQAAKILD</Hsp_qseq>
+      <Hsp_hseq>MNRFKKSKYVIIVFVTVLLVSALLATTYSSTIVTKLGDGISLVDRVVQKPFQWFDSVKSDLAHLTRTYNENESLKKQLYQLEVKSNEVESLKTENEQLRQLLD</Hsp_hseq>
+      <Hsp_midline>MN+ K+ ++  +++  VL   A +A TY              +D ++ K  +    ++  +AHL    +E + LK++     +K N++E L+ +  Q  ++LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

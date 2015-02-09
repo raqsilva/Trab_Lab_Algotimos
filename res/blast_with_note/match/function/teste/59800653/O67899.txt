@@ -1,0 +1,132 @@
+ID   PPSA_AQUAE              Reviewed;         856 AA.
+AC   O67899;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   04-FEB-2015, entry version 97.
+DE   RecName: Full=Phosphoenolpyruvate synthase;
+DE            Short=PEP synthase;
+DE            EC=2.7.9.2;
+DE   AltName: Full=Pyruvate, water dikinase;
+GN   Name=ppsA; OrderedLocusNames=aq_2142;
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pyruvate to
+CC       phosphoenolpyruvate. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + pyruvate + H(2)O = AMP +
+CC       phosphoenolpyruvate + phosphate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC   -!- DOMAIN: The N-terminal domain contains the ATP/Pi binding site,
+CC       the central domain the pyrophosphate/phosphate carrier histidine,
+CC       and the C-terminal domain the pyruvate binding site.
+CC       {ECO:0000250}.
+CC   -!- MISCELLANEOUS: The reaction takes place in three steps, mediated
+CC       by a phosphocarrier histidine residue located on the surface of
+CC       the central domain. The two first partial reactions are catalyzed
+CC       at an active site located on the N-terminal domain, and the third
+CC       partial reaction is catalyzed at an active site located on the C-
+CC       terminal domain. For catalytic turnover, the central domain
+CC       swivels from the concave surface of the N-terminal domain to that
+CC       of the C-terminal domain (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PEP-utilizing enzyme family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000657; AAC07865.1; -; Genomic_DNA.
+DR   PIR; G70483; G70483.
+DR   RefSeq; NP_214468.1; NC_000918.1.
+DR   RefSeq; WP_010881404.1; NC_000918.1.
+DR   ProteinModelPortal; O67899; -.
+DR   STRING; 224324.aq_2142; -.
+DR   EnsemblBacteria; AAC07865; AAC07865; aq_2142.
+DR   GeneID; 1193888; -.
+DR   KEGG; aae:aq_2142; -.
+DR   PATRIC; 20961126; VBIAquAeo85532_1656.
+DR   eggNOG; COG0574; -.
+DR   HOGENOM; HOG000230913; -.
+DR   InParanoid; O67899; -.
+DR   KO; K01007; -.
+DR   OMA; FVLWFEE; -.
+DR   OrthoDB; EOG632CZ4; -.
+DR   BioCyc; AAEO224324:GJBH-1531-MONOMER; -.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000000798; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008986; F:pyruvate, water dikinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006090; P:pyruvate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.20.20.60; -; 2.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   Gene3D; 3.30.470.20; -; 1.
+DR   Gene3D; 3.50.30.10; -; 1.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR008279; PEP-util_enz_mobile_dom.
+DR   InterPro; IPR006319; PEP_synth.
+DR   InterPro; IPR018274; PEP_util_AS.
+DR   InterPro; IPR000121; PEP_util_C.
+DR   InterPro; IPR023151; PEP_util_CS.
+DR   InterPro; IPR006318; PEP_util_enz.
+DR   InterPro; IPR002192; PPDK_PEP-bd.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   Pfam; PF00391; PEP-utilizers; 1.
+DR   Pfam; PF02896; PEP-utilizers_C; 1.
+DR   Pfam; PF01326; PPDK_N; 1.
+DR   PRINTS; PR01736; PHPHTRNFRASE.
+DR   SUPFAM; SSF51621; SSF51621; 2.
+DR   SUPFAM; SSF52009; SSF52009; 1.
+DR   TIGRFAMs; TIGR01418; PEP_synth; 1.
+DR   PROSITE; PS00742; PEP_ENZYMES_2; 1.
+DR   PROSITE; PS00370; PEP_ENZYMES_PHOS_SITE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN         1    856       Phosphoenolpyruvate synthase.
+FT                                /FTId=PRO_0000147032.
+FT   ACT_SITE    433    433       Tele-phosphohistidine intermediate.
+FT                                {ECO:0000250}.
+FT   ACT_SITE    809    809       Proton donor. {ECO:0000250}.
+FT   METAL       738    738       Magnesium. {ECO:0000250}.
+FT   METAL       762    762       Magnesium. {ECO:0000250}.
+FT   BINDING     523    523       Substrate. {ECO:0000250}.
+FT   BINDING     636    636       Substrate. {ECO:0000250}.
+FT   BINDING     738    738       Substrate. {ECO:0000250}.
+FT   BINDING     759    759       Substrate; via carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   BINDING     760    760       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     761    761       Substrate. {ECO:0000250}.
+FT   BINDING     762    762       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   856 AA;  96407 MW;  0CB001DABE289912 CRC64;
+     MSVDKSKALV LWLDEVTIED IPIAGGKNAS LGEMIRNLSP LGVKIPYGYV VTANAYYYFL
+     DYNNLRDKIR KILEGLNTDD LKDLQRRGHE VRELIRGGTF PPDLEEAIKD YYNKLSEKYK
+     THAVDVAVRS SATAEDLPDA SFAGQQETYL NVVGAENVLV AIKNCFASLF TDRAIVYRER
+     FGFDHFKVGI AVGVQKMVRS DMGASGVMFT LDTETGFKDV VVINAAYGLG ELLVRGEVTP
+     DEYIVFKPTL MKGYSAIIEK KLGRKDRKMI YGTGDERVKI VNVPKEDQKK FALNDDEILQ
+     LAKWGVLIEE HYSKKNGRWT PMDIEWAKDG ILNELFVVQA RPETVHSRKK ENVVKIYKIK
+     TPEEERKNRV IVKGIAVGDK IATGKARVLF DLKEADQFQE GEILVTDITD PDWEPVMKKA
+     AAIVTNRGGR TSHAAIVARE LGIPAVVGTG NATEKIKTGE EITVSCAEGE TGYVYEGKID
+     YEVEEINLEN IPKPKTKIMM NIGNPESAFR YASLPNDGVG LAREEFIIAN YIKIHPLALL
+     HYEDLKELYE KLERENLIDE KGFVQFKLIY HYANGRLANK LAKGKDKLRV NLRKILQDIE
+     NLTFGYEDKA TYYIKKLSYG IAKIAAAFYP NPVIVRFSDF KSNEYANLIG GILFEPEEEN
+     PMLGWRGASR YYSDVFKEAF GMECKAIIRV RNKMGLTNTK VMIPFCRTPE EGEKVLQVME
+     EYGLRKGENG LEVYVMAELP SNIVLADRYA QIFDGFSIGS NDLTQLTLGL DRDSELVAHL
+     YDERNEAVKR LIAQLIKTAK EYGRKVGICG QAPSDFPEFA QFLVEQGIDS ISLNPDSVLK
+     TMLAVVEMEK KLGVLK
+//

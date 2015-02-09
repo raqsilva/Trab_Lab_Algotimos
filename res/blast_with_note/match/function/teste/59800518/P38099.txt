@@ -1,0 +1,110 @@
+ID   CARA_PSEST              Reviewed;         384 AA.
+AC   P38099; P20597;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   01-OCT-2014, entry version 93.
+DE   RecName: Full=Carbamoyl-phosphate synthase small chain;
+DE            EC=6.3.5.5;
+DE   AltName: Full=Carbamoyl-phosphate synthetase glutamine chain;
+GN   Name=carA;
+OS   Pseudomonas stutzeri (Pseudomonas perfectomarina).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=316;
+RN   [1]
+RP   PRELIMINARY NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2153657;
+RA   Wong S.C., Abdelal A.T.;
+RT   "Unorthodox expression of an enzyme: evidence for an untranslated
+RT   region within carA from Pseudomonas aeruginosa.";
+RL   J. Bacteriol. 172:630-642(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=JM300 / DSM 10701;
+RX   PubMed=8169201;
+RA   Kwon D.-H., Lu C.-D., Walthall D.A., Brown T.M., Houghton J.E.,
+RA   Abdelal A.T.;
+RT   "Structure and regulation of the carAB operon in Pseudomonas
+RT   aeruginosa and Pseudomonas stutzeri: no untranslated region exists.";
+RL   J. Bacteriol. 176:2532-2542(1994).
+CC   -!- CATALYTIC ACTIVITY: 2 ATP + L-glutamine + HCO(3)(-) + H(2)O = 2
+CC       ADP + phosphate + L-glutamate + carbamoyl phosphate.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis;
+CC       carbamoyl phosphate from bicarbonate: step 1/1.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; (S)-dihydroorotate from bicarbonate: step 1/3.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by
+CC       the large (or ammonia) chain to synthesize carbamoyl phosphate.
+CC   -!- SIMILARITY: Belongs to the CarA family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 glutamine amidotransferase type-1 domain.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: PubMed:2153657 sequence was originally thought to
+CC       originate from Pseudomonas aeruginosa. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M33818; AAA25763.1; -; Genomic_DNA.
+DR   EMBL; U04993; AAA19049.1; -; Unassigned_DNA.
+DR   PIR; A35111; A35111.
+DR   PIR; E55580; E55580.
+DR   ProteinModelPortal; P38099; -.
+DR   SMR; P38099; 9-375.
+DR   MEROPS; C26.954; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070409; P:carbamoyl phosphate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006543; P:glutamine catabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.50.30.20; -; 1.
+DR   HAMAP; MF_01209; CPSase_S_chain; 1.
+DR   InterPro; IPR006274; CarbamoylP_synth_ssu.
+DR   InterPro; IPR002474; CarbamoylP_synth_ssu_N.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   Pfam; PF00988; CPSase_sm_chain; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SMART; SM01097; CPSase_sm_chain; 1.
+DR   SUPFAM; SSF52021; SSF52021; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01368; CPSaseIIsmall; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding;
+KW   Glutamine amidotransferase; Ligase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis.
+FT   CHAIN         1    384       Carbamoyl-phosphate synthase small chain.
+FT                                /FTId=PRO_0000112307.
+FT   DOMAIN      197    384       Glutamine amidotransferase type-1.
+FT   REGION        1    193       CPSase.
+FT   ACT_SITE    273    273       Nucleophile. {ECO:0000250}.
+FT   ACT_SITE    357    357       {ECO:0000250}.
+FT   ACT_SITE    359    359       {ECO:0000250}.
+FT   CONFLICT     33     33       E -> Q (in Ref. 1; AAA25763).
+FT                                {ECO:0000305}.
+FT   CONFLICT     73     73       D -> S (in Ref. 1). {ECO:0000305}.
+FT   CONFLICT     75     75       E -> R (in Ref. 1). {ECO:0000305}.
+FT   CONFLICT    104    104       D -> S (in Ref. 1; AAA25763).
+FT                                {ECO:0000305}.
+FT   CONFLICT    234    234       A -> G (in Ref. 1; AAA25763).
+FT                                {ECO:0000305}.
+FT   CONFLICT    279    279       L -> V (in Ref. 1; AAA25763).
+FT                                {ECO:0000305}.
+FT   CONFLICT    324    325       SL -> AV (in Ref. 1; AAA25763).
+FT                                {ECO:0000305}.
+FT   CONFLICT    353    353       G -> S (in Ref. 1; AAA25763).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   384 AA;  41488 MW;  DEE8544C35B3D5C6 CRC64;
+     MTKPATTPAI LALADGSIFR GESIGADGQT IGEVVFNTAM TGYQEILTDP SYAKQIVTLT
+     YPHVGNTGTT PQDAESWKVW AAGLVIRDLP LLASNWRNKQ SLPDYLKEND TVAIAGIDTR
+     RLTRILREKG AQNGCILAGA DATEEKALEL ARSFPGLKGM DLAKEVSVKE RYEWRYSLWN
+     LETDSHPEIP ASELPYHVVA YDYGVKYNIL RMLVARGCRV TVLPAQTPAS EALALNPDGI
+     FLANGPGDPE PCDYAIRAIQ EVLETDIPVF GICLGHQLLA LASGAITVKM PSGHHGANHP
+     VQDLETGVVM ITSQNHGFCA DEASLPANLR ATHKSLFDGT LQGIERTDKV AFGFQGHPEA
+     SPGPCDVAPL FDRFISAMAP VVDR
+//

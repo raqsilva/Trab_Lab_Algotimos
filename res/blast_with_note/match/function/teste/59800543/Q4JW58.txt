@@ -1,0 +1,92 @@
+ID   HIS8_CORJK              Reviewed;         373 AA.
+AC   Q4JW58;
+DT   10-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   04-FEB-2015, entry version 64.
+DE   RecName: Full=Histidinol-phosphate aminotransferase {ECO:0000255|HAMAP-Rule:MF_01023};
+DE            EC=2.6.1.9 {ECO:0000255|HAMAP-Rule:MF_01023};
+DE   AltName: Full=Imidazole acetol-phosphate transaminase {ECO:0000255|HAMAP-Rule:MF_01023};
+GN   Name=hisC {ECO:0000255|HAMAP-Rule:MF_01023}; OrderedLocusNames=jk0787;
+OS   Corynebacterium jeikeium (strain K411).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Corynebacteriaceae; Corynebacterium.
+OX   NCBI_TaxID=306537;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K411;
+RX   PubMed=15968079; DOI=10.1128/JB.187.13.4671-4682.2005;
+RA   Tauch A., Kaiser O., Hain T., Goesmann A., Weisshaar B.,
+RA   Albersmeier A., Bekel T., Bischoff N., Brune I., Chakraborty T.,
+RA   Kalinowski J., Meyer F., Rupp O., Schneiker S., Viehoever P.,
+RA   Puehler A.;
+RT   "Complete genome sequence and analysis of the multiresistant
+RT   nosocomial pathogen Corynebacterium jeikeium K411, a lipid-requiring
+RT   bacterium of the human skin flora.";
+RL   J. Bacteriol. 187:4671-4682(2005).
+CC   -!- CATALYTIC ACTIVITY: L-histidinol phosphate + 2-oxoglutarate = 3-
+CC       (imidazol-4-yl)-2-oxopropyl phosphate + L-glutamate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01023};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-
+CC       histidine from 5-phospho-alpha-D-ribose 1-diphosphate: step 7/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridoxal-phosphate-dependent
+CC       aminotransferase family. Histidinol-phosphate aminotransferase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CR931997; CAI36949.1; -; Genomic_DNA.
+DR   RefSeq; WP_011273392.1; NC_007164.1.
+DR   RefSeq; YP_250567.1; NC_007164.1.
+DR   ProteinModelPortal; Q4JW58; -.
+DR   SMR; Q4JW58; 7-371.
+DR   STRING; 306537.jk0787; -.
+DR   EnsemblBacteria; CAI36949; CAI36949; jk0787.
+DR   GeneID; 3433178; -.
+DR   KEGG; cjk:jk0787; -.
+DR   PATRIC; 21512468; VBICorJei31838_0796.
+DR   eggNOG; COG0079; -.
+DR   HOGENOM; HOG000288510; -.
+DR   KO; K00817; -.
+DR   OMA; WEKGIIL; -.
+DR   OrthoDB; EOG651SWW; -.
+DR   BioCyc; CJEI306537:GJ8V-816-MONOMER; -.
+DR   UniPathway; UPA00031; UER00012.
+DR   Proteomes; UP000000545; Chromosome.
+DR   GO; GO:0004400; F:histidinol-phosphate transaminase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0080130; F:L-phenylalanine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01023; HisC_aminotrans_2; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR005861; HisP_aminotrans.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR01141; hisC; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aminotransferase; Complete proteome;
+KW   Histidine biosynthesis; Pyridoxal phosphate; Reference proteome;
+KW   Transferase.
+FT   CHAIN         1    373       Histidinol-phosphate aminotransferase.
+FT                                /FTId=PRO_0000153351.
+FT   MOD_RES     234    234       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01023}.
+SQ   SEQUENCE   373 AA;  40621 MW;  F2A7C3052AB2F737 CRC64;
+     MAEQNNQISL ADLPLREELR GKSAYGAPQL SVANQLNTNE NPYPPSPEIV EGIARRVAEL
+     GKQLNRYPDR DAVGLREALA AYVSQQTGVG VTKEQVWAAN GSNEVLQQLL QAFGGPGRSA
+     MGFVPSYSMH PILAAGTQTE FVTVERRAEN RFDIDVDEAL AAIDERQPNV IFITTPNNPT
+     GNSTPLADIE RILQAAPGIV IVDEAYAEFS DEPSAVGLLE QYPTKLVVSR TMSKAFDFAG
+     GRLGYFVAHP AFIEAVMLVR LPYHLATLSQ AAAEVALEHS AATLQTVAKL RQERDRVVAR
+     LRELGYDVID SHSNFVFFGG FAHVGDSAAV WQRFLDQEVL IRDVGVAGWL RATIGLPEEN
+     DAFLAAAAKM MDD
+//

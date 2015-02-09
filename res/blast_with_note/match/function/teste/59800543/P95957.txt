@@ -1,0 +1,94 @@
+ID   Y104_SULSO              Reviewed;         401 AA.
+AC   P95957;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   04-FEB-2015, entry version 85.
+DE   RecName: Full=Uncharacterized aminotransferase SSO0104;
+DE            EC=2.6.1.-;
+DE   AltName: Full=AspB-1;
+GN   OrderedLocusNames=SSO0104; ORFNames=C04018;
+OS   Sulfolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 /
+OS   P2).
+OC   Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+OC   Sulfolobus.
+OX   NCBI_TaxID=273057;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 35092 / DSM 1617 / JCM 11322 / P2;
+RX   PubMed=8899719; DOI=10.1111/j.1365-2958.1996.tb02666.x;
+RA   Sensen C.W., Klenk H.-P., Singh R.K., Allard G., Chan C.C.-Y.,
+RA   Liu Q.Y., Penny S.L., Young F., Schenk M.E., Gaasterland T.,
+RA   Doolittle W.F., Ragan M.A., Charlebois R.L.;
+RT   "Organizational characteristics and information content of an archaeal
+RT   genome: 156 kb of sequence from Sulfolobus solfataricus P2.";
+RL   Mol. Microbiol. 22:175-191(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35092 / DSM 1617 / JCM 11322 / P2;
+RX   PubMed=11427726; DOI=10.1073/pnas.141222098;
+RA   She Q., Singh R.K., Confalonieri F., Zivanovic Y., Allard G.,
+RA   Awayez M.J., Chan-Weiher C.C.-Y., Clausen I.G., Curtis B.A.,
+RA   De Moors A., Erauso G., Fletcher C., Gordon P.M.K.,
+RA   Heikamp-de Jong I., Jeffries A.C., Kozera C.J., Medina N., Peng X.,
+RA   Thi-Ngoc H.P., Redder P., Schenk M.E., Theriault C., Tolstrup N.,
+RA   Charlebois R.L., Doolittle W.F., Duguet M., Gaasterland T.,
+RA   Garrett R.A., Ragan M.A., Sensen C.W., Van der Oost J.;
+RT   "The complete genome of the crenarchaeon Sulfolobus solfataricus P2.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:7835-7840(2001).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Y08257; CAA69547.1; -; Genomic_DNA.
+DR   EMBL; AE006641; AAK40460.1; -; Genomic_DNA.
+DR   PIR; S75385; S75385.
+DR   RefSeq; NP_341670.1; NC_002754.1.
+DR   RefSeq; WP_009988922.1; NC_002754.1.
+DR   ProteinModelPortal; P95957; -.
+DR   STRING; 273057.SSO0104; -.
+DR   EnsemblBacteria; AAK40460; AAK40460; SSO0104.
+DR   GeneID; 1453288; -.
+DR   KEGG; sso:SSO0104; -.
+DR   eggNOG; COG1167; -.
+DR   HOGENOM; HOG000223047; -.
+DR   InParanoid; P95957; -.
+DR   KO; K05825; -.
+DR   OMA; RLNFTYV; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-2768-MONOMER; -.
+DR   BioCyc; SSOL273057:GCH2-99-MONOMER; -.
+DR   Proteomes; UP000001974; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Complete proteome; Cytoplasm; Pyridoxal phosphate;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    401       Uncharacterized aminotransferase SSO0104.
+FT                                /FTId=PRO_0000123932.
+FT   MOD_RES     242    242       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   401 AA;  45572 MW;  BA5F6D8232FF59B4 CRC64;
+     MFERFLSTET KYLRTSEIRD LLKLTEGKNV ISLAGGLPDP QTFPVEEIKK IADDILLNSA
+     DKALQYTATA GISEFRRELV NLSRLRGISG IDERNVFVTV GSQEALFMIF NILLDPGDNV
+     VVEAPTYLAA LNAMRTRKPN FISITVTEMG PDLDELERKI KDAHSNGKKV KLMYVIPTAQ
+     NPAGTTMNTE DRKRLLEIAS KYDFLIFEDD AYGFLVFEGE SPPPIKAFDK EGRVIYTSTF
+     SKILAPGLRL GWVIAHEDFI KEMELYKQNV DLHTPSLSQY IAMEAIRRGI IQNNLPKIRR
+     VYKEKRDVML EAIETYFPND ARWTKPVGGM FVFAWLPQKI DTTKMLEKAL QRGVAYVPGS
+     SFYADYSGKN TMRINFSFPK KEELIEGIKR LGDTIKHELS T
+//

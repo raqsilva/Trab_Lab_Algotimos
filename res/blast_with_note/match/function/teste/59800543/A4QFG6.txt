@@ -1,0 +1,88 @@
+ID   HIS8_CORGB              Reviewed;         366 AA.
+AC   A4QFG6;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 1.
+DT   07-JAN-2015, entry version 50.
+DE   RecName: Full=Histidinol-phosphate aminotransferase {ECO:0000255|HAMAP-Rule:MF_01023};
+DE            EC=2.6.1.9 {ECO:0000255|HAMAP-Rule:MF_01023};
+DE   AltName: Full=Imidazole acetol-phosphate transaminase {ECO:0000255|HAMAP-Rule:MF_01023};
+GN   Name=hisC {ECO:0000255|HAMAP-Rule:MF_01023};
+GN   OrderedLocusNames=cgR_1985;
+OS   Corynebacterium glutamicum (strain R).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Corynebacteriaceae; Corynebacterium.
+OX   NCBI_TaxID=340322;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=R;
+RX   PubMed=17379713; DOI=10.1099/mic.0.2006/003657-0;
+RA   Yukawa H., Omumasaba C.A., Nonaka H., Kos P., Okai N., Suzuki N.,
+RA   Suda M., Tsuge Y., Watanabe J., Ikeda Y., Vertes A.A., Inui M.;
+RT   "Comparative analysis of the Corynebacterium glutamicum group and
+RT   complete genome sequence of strain R.";
+RL   Microbiology 153:1042-1058(2007).
+CC   -!- CATALYTIC ACTIVITY: L-histidinol phosphate + 2-oxoglutarate = 3-
+CC       (imidazol-4-yl)-2-oxopropyl phosphate + L-glutamate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01023};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-
+CC       histidine from 5-phospho-alpha-D-ribose 1-diphosphate: step 7/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridoxal-phosphate-dependent
+CC       aminotransferase family. Histidinol-phosphate aminotransferase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP009044; BAF54982.1; -; Genomic_DNA.
+DR   RefSeq; YP_001138884.1; NC_009342.1.
+DR   ProteinModelPortal; A4QFG6; -.
+DR   SMR; A4QFG6; 1-366.
+DR   STRING; 340322.cgR_1985; -.
+DR   EnsemblBacteria; BAF54982; BAF54982; cgR_1985.
+DR   GeneID; 4993041; -.
+DR   KEGG; cgt:cgR_1985; -.
+DR   PATRIC; 21508600; VBICorGlu58097_2046.
+DR   eggNOG; COG0079; -.
+DR   HOGENOM; HOG000288510; -.
+DR   KO; K00817; -.
+DR   OMA; PNAGIIF; -.
+DR   OrthoDB; EOG651SWW; -.
+DR   BioCyc; CGLU340322:GJBE-2069-MONOMER; -.
+DR   UniPathway; UPA00031; UER00012.
+DR   Proteomes; UP000006698; Chromosome.
+DR   GO; GO:0004400; F:histidinol-phosphate transaminase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0080130; F:L-phenylalanine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01023; HisC_aminotrans_2; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR005861; HisP_aminotrans.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR01141; hisC; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aminotransferase; Complete proteome;
+KW   Histidine biosynthesis; Pyridoxal phosphate; Transferase.
+FT   CHAIN         1    366       Histidinol-phosphate aminotransferase.
+FT                                /FTId=PRO_1000063471.
+FT   MOD_RES     228    228       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01023}.
+SQ   SEQUENCE   366 AA;  39932 MW;  2B48D7421521A2F4 CRC64;
+     MTKITLSDLP LREELRGEHA YGAPQLNVDI RLNTNENPYP PSEALVADLV ATVDKIATEL
+     NRYPERDAVE LRDELAAYIT KQTGVAVTRD NLWAANGSNE ILQQLLQAFG GPGRTALGFQ
+     PSYSMHPILA KGTHTEFIAV SRGADFRIDM DVALEEIRAK QPDIVFVTTP NNPTGDVTSL
+     DDIERIINVA PGIVIVDEAY AEFSPSPSAT TLLEKYPTKL VVSRTMSKAF DFAGGRLGYF
+     VANPAFIDAV MLVRLPYHLS ALSQAAAIVA LRHSADTLGT VEKLSVERVR VAARLEELGY
+     AVVPSESNFV FFGDFSDQHA AWQAFLDRGV LIRDVGIAGH LRTTIGVPEE NDAFLDAAAE
+     IIKLNL
+//

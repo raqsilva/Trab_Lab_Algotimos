@@ -1,0 +1,92 @@
+ID   MAOX_GEOSE              Reviewed;         478 AA.
+AC   P16468;
+DT   01-AUG-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1990, sequence version 1.
+DT   26-NOV-2014, entry version 85.
+DE   RecName: Full=NAD-dependent malic enzyme;
+DE            Short=NAD-ME;
+DE            EC=1.1.1.38;
+OS   Geobacillus stearothermophilus (Bacillus stearothermophilus).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus.
+OX   NCBI_TaxID=1422;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   SUBSTRATE SPECIFICITY, COFACTOR, ENZYME REGULATION, AND SUBUNIT.
+RX   PubMed=2644282;
+RA   Kobayashi K., Doi S., Negoro S., Urabe I., Okada H.;
+RT   "Structure and properties of malic enzyme from Bacillus
+RT   stearothermophilus.";
+RL   J. Biol. Chem. 264:3200-3205(1989).
+CC   -!- FUNCTION: In addition to the NAD-dependent oxidative
+CC       decarboxylation of L-malate, the enzyme catalyzes the
+CC       decarboxylation of oxaloacetate. {ECO:0000269|PubMed:2644282}.
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NAD(+) = pyruvate + CO(2) + NADH.
+CC       {ECO:0000269|PubMed:2644282}.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC       {ECO:0000269|PubMed:2644282}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:2644282};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:2644282};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000269|PubMed:2644282};
+CC   -!- ENZYME REGULATION: The activity is enhanced 5-7 times by ammonium
+CC       and potassium. {ECO:0000269|PubMed:2644282}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:2644282}.
+CC   -!- MISCELLANEOUS: This enzyme has a higher affinity for NAD than for
+CC       NADP.
+CC   -!- SIMILARITY: Belongs to the malic enzymes family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 ACT domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01007}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M19485; AAA22585.1; -; Genomic_DNA.
+DR   PIR; A33307; DEBSXS.
+DR   ProteinModelPortal; P16468; -.
+DR   SMR; P16468; 93-455.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR001891; Malic_OxRdtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   PIRSF; PIRSF000106; ME; 1.
+DR   SMART; SM00919; Malic_M; 1.
+DR   PROSITE; PS51671; ACT; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   1: Evidence at protein level;
+KW   Metal-binding; NAD; Oxidoreductase.
+FT   CHAIN         1    478       NAD-dependent malic enzyme.
+FT                                /FTId=PRO_0000160207.
+FT   DOMAIN       12     86       ACT. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01007}.
+FT   NP_BIND     151    158       NAD. {ECO:0000250}.
+FT   ACT_SITE    114    114       Proton donor. {ECO:0000250}.
+FT   ACT_SITE    169    169       Proton acceptor. {ECO:0000250}.
+FT   METAL       211    211       Divalent metal cation. {ECO:0000250}.
+FT   METAL       212    212       Divalent metal cation. {ECO:0000250}.
+FT   BINDING     237    237       NAD. {ECO:0000250}.
+FT   BINDING     363    363       NAD. {ECO:0000250}.
+SQ   SEQUENCE   478 AA;  51537 MW;  8CE6629A2E6AFE74 CRC64;
+     MALPGGAAMN ITIRLQFEKD IVSFSDIAAA IGKAGGDIVG IDVISSSKVH TVRDITVSAL
+     DTKQCDLIIE ALKKIRGVKI VNVSDRTFLM HIGGKIETNS KIPVKTRDDL SRVYTPGVAR
+     VCTAIAEDPR KAYSLTIKRN TVAVVSDGTA VLGLGDIGPY AAMPVMEGKA MLFKEFAGVD
+     AFPICLDTKD TEEIIQIVKA IAPAFGGINL EDISAPRCFE IEKRLKEELD IPVFHDDQHG
+     TAVVLLAGLL NALKIVDKKL EDIKVVLTGI GAAGIACTKI LLAAGVRNII GVDRHGAIHR
+     DETYENPYWQ EYAQLTNPDN LKGSLSDVIA GADVFIGVSA PGILKVEDVK KMARDPIVFA
+     MANPIPEIDP ELAEPYVRVM ATGRSDYPNQ INNVLCFPGI FRGALDCRAR EINEEMKLAA
+     AKAIASVVTE DELNETYIIP SVFNSKVVER VRQAVVEAAY RTGVARKDNI PVGGYTGQ
+//

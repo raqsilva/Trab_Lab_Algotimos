@@ -1,0 +1,104 @@
+ID   SYL_NEIM0               Reviewed;         876 AA.
+AC   A9M162;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 2.
+DT   07-JAN-2015, entry version 50.
+DE   RecName: Full=Leucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00049};
+DE            EC=6.1.1.4 {ECO:0000255|HAMAP-Rule:MF_00049};
+DE   AltName: Full=Leucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00049};
+DE            Short=LeuRS {ECO:0000255|HAMAP-Rule:MF_00049};
+GN   Name=leuS {ECO:0000255|HAMAP-Rule:MF_00049};
+GN   OrderedLocusNames=NMCC_0323;
+OS   Neisseria meningitidis serogroup C (strain 053442).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=374833;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=053442;
+RX   PubMed=18031983; DOI=10.1016/j.ygeno.2007.10.004;
+RA   Peng J., Yang L., Yang F., Yang J., Yan Y., Nie H., Zhang X.,
+RA   Xiong Z., Jiang Y., Cheng F., Xu X., Chen S., Sun L., Li W., Shen Y.,
+RA   Shao Z., Liang X., Xu J., Jin Q.;
+RT   "Characterization of ST-4821 complex, a unique Neisseria meningitidis
+RT   clone.";
+RL   Genomics 91:78-87(2008).
+CC   -!- CATALYTIC ACTIVITY: ATP + L-leucine + tRNA(Leu) = AMP +
+CC       diphosphate + L-leucyl-tRNA(Leu). {ECO:0000255|HAMAP-
+CC       Rule:MF_00049}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00049}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00049}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABX72531.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000381; ABX72531.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_001598485.1; NC_010120.1.
+DR   ProteinModelPortal; A9M162; -.
+DR   STRING; 374833.NMCC_0323; -.
+DR   EnsemblBacteria; ABX72531; ABX72531; NMCC_0323.
+DR   GeneID; 5796953; -.
+DR   KEGG; nmn:NMCC_0323; -.
+DR   PATRIC; 20344913; VBINeiMen117761_0385.
+DR   eggNOG; COG0495; -.
+DR   HOGENOM; HOG000200747; -.
+DR   KO; K01869; -.
+DR   OrthoDB; EOG63Z74X; -.
+DR   BioCyc; NMEN374833:GJ7Z-321-MONOMER; -.
+DR   Proteomes; UP000001177; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004823; F:leucine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006429; P:leucyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.730.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 3.
+DR   Gene3D; 3.90.740.10; -; 1.
+DR   HAMAP; MF_00049_B; Leu_tRNA_synth_B; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002302; Leu-tRNA-ligase.
+DR   InterPro; IPR025709; Leu_tRNA-synth_edit.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_1a_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   PANTHER; PTHR11946:SF7; PTHR11946:SF7; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 2.
+DR   Pfam; PF13603; tRNA-synt_1_2; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   PRINTS; PR00985; TRNASYNTHLEU.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50677; SSF50677; 1.
+DR   TIGRFAMs; TIGR00396; leuS_bact; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN         1    876       Leucine--tRNA ligase.
+FT                                /FTId=PRO_0000334781.
+FT   MOTIF        42     52       "HIGH" region.
+FT   MOTIF       634    638       "KMSKS" region.
+FT   BINDING     637    637       ATP. {ECO:0000255|HAMAP-Rule:MF_00049}.
+SQ   SEQUENCE   876 AA;  98117 MW;  CC51F4EB59DEB198 CRC64;
+     MQEQYRPAAI EPAAQKKWDD ARIFNVSEDA SKPKYYCLSM FPYPSGKLHM GHVRNYTIGD
+     VLSRFKRLNG FNVMQPMGWD AFGMPAENAA MKNNVAPAAW TYDNIEYMKT QLKSLGFAID
+     WARETATCKP EYYRWEQWLF TKLFEKGIVY RKNGTVNWDP VDQTVLANEQ VIDGRGWRSG
+     ALIEKREIPM YYFKITDYAE ELLNDLDKLE HWPEQVKTMQ RNWIGKSRGM TVRFAVSDDS
+     KQGLEGDYAR FLQVYTTRPD TLMGATYVAV AAEHPLATAA AADKPELQAF IAECKAGSVA
+     EADMATMEKK GVPTGRYVVN PLNGDKLEVW IANYVLWGYG DGAVMAVPAH DERDFEFATK
+     YSLPKKQVIA VGDNAFDANQ WQEWYGDKEN GVLVNSGDLD GMNFQTAFDA IAAKLQSQGA
+     GEPKTQYRLR DWGISRQRYW GCPIPIVHCE QCGDVPVPAD QLPVVLPENV VPDGMGSPLA
+     KMPEFYETAC PCCGGAAKRE TDTMDTFMES SWYFFRYMSP KFSDGMVSAE AAKYWGAVDQ
+     YIGGIEHAIL HLLYARFFTK LMRDEGLVNV DEPFERLLTQ GMVVCETYYR ENDKGGKDWI
+     NPADVELTFD DKGRPVSAVL KADGLPVVIS GTEKMSKSKN NGVDPQELIN AYGADTARLF
+     MMFAAPPEQS LEWSDSGVEG AHRFLRRLWR TVYEYLKQGG AVKAFAGNQD GLSKELKDLR
+     HKLHSTIAKV SDDYGRRQQF NTAIAAVMEL LNQYDKTDTG SEQGRAVAQE VLETAVRLLW
+     PIVPHICETL WSELNGAKLW EAGWPAVDEA ALVKSEIEVM VQVNGKLRGK ITVAADASKA
+     DLEAAALATE GAVKFMEGKP AKKIIVVPGR LVNIVV
+//

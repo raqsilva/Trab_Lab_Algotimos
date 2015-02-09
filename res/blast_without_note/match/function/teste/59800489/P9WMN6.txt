@@ -1,0 +1,104 @@
+ID   MOEZ_MYCTO              Reviewed;         392 AA.
+AC   P9WMN6; L0TDG4; Q6MWZ9; Q7D5X9;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   04-FEB-2015, entry version 9.
+DE   RecName: Full=Probable adenylyltransferase/sulfurtransferase MoeZ;
+DE   Includes:
+DE     RecName: Full=Sulfur carrier protein CysO adenylyltransferase;
+DE              EC=2.7.7.-;
+DE   Includes:
+DE     RecName: Full=Sulfur carrier protein CysO sulfurtransferase;
+DE              EC=2.8.1.-;
+GN   Name=moeZ; Synonyms=moeB1; OrderedLocusNames=MT3301;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+OC   Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/JB.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H.,
+RA   Hickey E.K., Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D.,
+RA   Salzberg S.L., Delcher A., Utterback T.R., Weidman J.F., Khouri H.M.,
+RA   Gill J., Mikula A., Bishai W., Jacobs W.R. Jr., Venter J.C.,
+RA   Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Catalyzes the conversion of the sulfur carrier protein
+CC       CysO to CysO-thiocarboxylate. The reaction is thought to proceed
+CC       in two steps: first, ATP-dependent activation of CysO as acyl-
+CC       adenylate (CysO-COOAMP), followed by sulfur transfer to give CysO-
+CC       thiocarboxylate (CysO-COSH) (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the
+CC       HesA/MoeB/ThiF family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 rhodanese domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00173}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000516; AAK47644.1; -; Genomic_DNA.
+DR   PIR; G70594; G70594.
+DR   RefSeq; NP_337830.1; NC_002755.2.
+DR   ProteinModelPortal; P9WMN6; -.
+DR   SMR; P9WMN6; 13-258, 263-381.
+DR   EnsemblBacteria; AAK47644; AAK47644; MT3301.
+DR   GeneID; 923277; -.
+DR   KEGG; mtc:MT3301; -.
+DR   KO; K11996; -.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.250.10; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR007901; MoeZ_MoeB.
+DR   InterPro; IPR009036; Molybdenum_cofac_synth_MoeB.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR001763; Rhodanese-like_dom.
+DR   InterPro; IPR000594; ThiF_NAD_FAD-bd.
+DR   Pfam; PF05237; MoeZ_MoeB; 1.
+DR   Pfam; PF00581; Rhodanese; 1.
+DR   Pfam; PF00899; ThiF; 1.
+DR   SMART; SM00450; RHOD; 1.
+DR   SUPFAM; SSF69572; SSF69572; 1.
+DR   PROSITE; PS50206; RHODANESE_3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Membrane; Multifunctional enzyme;
+KW   Nucleotide-binding; Nucleotidyltransferase; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    392       Probable
+FT                                adenylyltransferase/sulfurtransferase
+FT                                MoeZ.
+FT                                /FTId=PRO_0000427272.
+FT   TRANSMEM     45     65       Helical. {ECO:0000255}.
+FT   DOMAIN      300    390       Rhodanese. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00173}.
+FT   NP_BIND      80     84       ATP. {ECO:0000250}.
+FT   NP_BIND     141    142       ATP. {ECO:0000250}.
+FT   COMPBIAS    192    197       Poly-Pro.
+FT   ACT_SITE    203    203       Glycyl thioester intermediate; for
+FT                                adenylyltransferase activity.
+FT                                {ECO:0000250}.
+FT   ACT_SITE    350    350       Cysteine persulfide intermediate; for
+FT                                sulfurtransferase activity.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00173}.
+FT   BINDING      52     52       ATP; via amide nitrogen. {ECO:0000250}.
+FT   BINDING      73     73       ATP. {ECO:0000250}.
+FT   BINDING      97     97       ATP. {ECO:0000250}.
+SQ   SEQUENCE   392 AA;  42173 MW;  06970A1BD2CC9645 CRC64;
+     MSTSLPPLVE PASALSREEV ARYSRHLIIP DLGVDGQKRL KNARVLVIGA GGLGAPTLLY
+     LAAAGVGTIG IVDFDVVDES NLQRQVIHGV ADVGRSKAQS ARDSIVAINP LIRVRLHELR
+     LAPSNAVDLF KQYDLILDGT DNFATRYLVN DAAVLAGKPY VWGSIYRFEG QASVFWEDAP
+     DGLGVNYRDL YPEPPPPGMV PSCAEGGVLG IICASVASVM GTEAIKLITG IGETLLGRLL
+     VYDALEMSYR TITIRKDPST PKITELVDYE QFCGVVADDA AQAAKGSTIT PRELRDWLDS
+     GRKLALIDVR DPVEWDIVHI DGAQLIPKSL INSGEGLAKL PQDRTAVLYC KTGVRSAEAL
+     AAVKKAGFSD AVHLQGGIVA WAKQMQPDMV MY
+//

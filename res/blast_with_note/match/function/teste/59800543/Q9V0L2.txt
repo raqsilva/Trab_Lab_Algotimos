@@ -1,0 +1,96 @@
+ID   AAT_PYRAB               Reviewed;         389 AA.
+AC   Q9V0L2; G8ZGX9;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   04-FEB-2015, entry version 92.
+DE   RecName: Full=Aspartate aminotransferase;
+DE            Short=AspAT;
+DE            EC=2.6.1.1;
+DE   AltName: Full=Transaminase A;
+GN   Name=aspC; OrderedLocusNames=PYRAB07770; ORFNames=PAB0525;
+OS   Pyrococcus abyssi (strain GE5 / Orsay).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=272844;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=12622808; DOI=10.1046/j.1365-2958.2003.03381.x;
+RA   Cohen G.N., Barbe V., Flament D., Galperin M., Heilig R., Lecompte O.,
+RA   Poch O., Prieur D., Querellou J., Ripp R., Thierry J.-C.,
+RA   Van der Oost J., Weissenbach J., Zivanovic Y., Forterre P.;
+RT   "An integrated analysis of the genome of the hyperthermophilic
+RT   archaeon Pyrococcus abyssi.";
+RL   Mol. Microbiol. 47:1495-1512(2003).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=22057919; DOI=10.1007/s00284-011-0035-x;
+RA   Gao J., Wang J.;
+RT   "Re-annotation of two hyperthermophilic archaea Pyrococcus abyssi GE5
+RT   and Pyrococcus furiosus DSM 3638.";
+RL   Curr. Microbiol. 64:118-129(2012).
+CC   -!- CATALYTIC ACTIVITY: L-aspartate + 2-oxoglutarate = oxaloacetate +
+CC       L-glutamate.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ248285; CAB49691.1; -; Genomic_DNA.
+DR   EMBL; HE613800; CCE70174.1; -; Genomic_DNA.
+DR   PIR; B75122; B75122.
+DR   RefSeq; NP_126460.1; NC_000868.1.
+DR   RefSeq; WP_010867899.1; NC_000868.1.
+DR   ProteinModelPortal; Q9V0L2; -.
+DR   SMR; Q9V0L2; 2-388.
+DR   STRING; 272844.PAB0525; -.
+DR   EnsemblBacteria; CAB49691; CAB49691; PAB0525.
+DR   GeneID; 1496118; -.
+DR   KEGG; pab:PAB0525; -.
+DR   eggNOG; COG0436; -.
+DR   HOGENOM; HOG000223062; -.
+DR   KO; K10907; -.
+DR   OMA; FQMYNAT; -.
+DR   Proteomes; UP000000810; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004069; F:L-aspartate:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0080130; F:L-phenylalanine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR004838; NHTrfase_class1_PyrdxlP-BS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00105; AA_TRANSFER_CLASS_1; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Complete proteome; Cytoplasm; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN         1    389       Aspartate aminotransferase.
+FT                                /FTId=PRO_0000123860.
+FT   BINDING      34     34       Aspartate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     171    171       Aspartate. {ECO:0000250}.
+FT   BINDING     362    362       Aspartate. {ECO:0000250}.
+FT   MOD_RES     233    233       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   389 AA;  43923 MW;  AC811F1A171A513C CRC64;
+     MAMSDRLDLV NPSEIRKLFD IAAGMKDVIS LGIGEPDFDT PQHIKEYAKE ALDMGLTHYG
+     PNIGLPELRE AIAEKLKKQN NIEADPNKEI MVLVGANQAF LMGLSAFLKD GEEVLIPTPA
+     FVSYAPAVIL AGGKPVEVPT YEENEFRLNV DELKKYVTEK TKALIINSPC NPTGSVLKKK
+     DLEEIADFAV EHDLIVISDE VYEHFIYDDV KHYSIASLDG MFERTITVNG FSKTFAMTGW
+     RLGFVAAPSW IIEKMVKFQM YNATCPVTFI QYAAAKALRD ERSWKAVEEM RKEYDRRRKL
+     VWKRLNEMGL PTVKPKGAFY IFPRIKDTGL TSKEFSELML MEAKVAVVPG SAFGKAGEGY
+     VRISYATAYE KLEEAMDRME KVLREKKLT
+//

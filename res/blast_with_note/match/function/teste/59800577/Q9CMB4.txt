@@ -1,0 +1,103 @@
+ID   RECG_PASMU              Reviewed;         693 AA.
+AC   Q9CMB4;
+DT   05-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   07-JAN-2015, entry version 83.
+DE   RecName: Full=ATP-dependent DNA helicase RecG;
+DE            EC=3.6.4.12;
+GN   Name=recG; OrderedLocusNames=PM0919;
+OS   Pasteurella multocida (strain Pm70).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Pasteurella.
+OX   NCBI_TaxID=272843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pm70;
+RX   PubMed=11248100; DOI=10.1073/pnas.051634598;
+RA   May B.J., Zhang Q., Li L.L., Paustian M.L., Whittam T.S., Kapur V.;
+RT   "Complete genomic sequence of Pasteurella multocida Pm70.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:3460-3465(2001).
+CC   -!- FUNCTION: Critical role in recombination and DNA repair. Helps
+CC       process Holliday junction intermediates to mature products by
+CC       catalyzing branch migration. Has a DNA unwinding activity
+CC       characteristic of a DNA helicase with a 3'- to 5'- polarity.
+CC       Unwinds branched duplex DNA (Y-DNA) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- SIMILARITY: Belongs to the helicase family. RecG subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004439; AAK03003.1; -; Genomic_DNA.
+DR   RefSeq; NP_245856.1; NC_002663.1.
+DR   ProteinModelPortal; Q9CMB4; -.
+DR   STRING; 272843.PM0919; -.
+DR   PRIDE; Q9CMB4; -.
+DR   EnsemblBacteria; AAK03003; AAK03003; PM0919.
+DR   GeneID; 1244266; -.
+DR   KEGG; pmu:PM0919; -.
+DR   PATRIC; 22871055; VBIPasMul88067_0929.
+DR   eggNOG; COG1200; -.
+DR   HOGENOM; HOG000036617; -.
+DR   KO; K03655; -.
+DR   OMA; YPMMRLV; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   BioCyc; PMUL272843:GC8W-952-MONOMER; -.
+DR   Proteomes; UP000000809; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004003; F:ATP-dependent DNA helicase activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR004609; ATP-dep_DNA_helicase_RecG.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF52540; SSF52540; 3.
+DR   TIGRFAMs; TIGR00643; recG; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; DNA damage; DNA recombination;
+KW   DNA repair; DNA-binding; Helicase; Hydrolase; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN         1    693       ATP-dependent DNA helicase RecG.
+FT                                /FTId=PRO_0000102148.
+FT   DOMAIN      283    448       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      482    628       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     296    303       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF       397    400       DEQH box.
+SQ   SEQUENCE   693 AA;  78025 MW;  5AB96E4B5BA54DB3 CRC64;
+     MTIQFLDAVP LTTLSGVGAA ISDKLGRIGI HNLQDLLFHL PIRYEDRTRI TPIHDLRPDA
+     YATIEGLVQT CEVQFGKRPI LNVSLSDGTS KIMLRFFNFN AGMKNSLQPG ARVKAFGEVK
+     RGRFMAEIHH PEYQIIRDNA PLILEETLTP IYSTTEGIKQ NSLRKLTDQA LAVLENIQIA
+     EILPNEFNPH PFSLKEAIRF LHRPPPDVSL EALEKGTHPA QQRLIFEELL AHNLAMQKVR
+     IGTQQFSAYP LSYQTDLKQR FLAQLPFTPT DAQVRVTQEI EQDLTHPFPM MRLVQGDVGS
+     GKTLVAALAA LLAIDNGKQV ALMAPTEILA EQHATNFRRW FESLGIEVGW LAGKVKGKAR
+     QTELEKIRTG QVQMVVGTHA LFQDEVEFSD LALVIVDEQH RFGVHQRLML REKGKQADHY
+     PHQLIMTATP IPRTLAMTVY ADLDTSIIDE LPPGRTPITT VAISEERRAE VIARVNHACV
+     NEKRQAYWVC TLIDESEVLE AQAAEAIAED LRKILPHLRI GLVHGRMKPA EKQDIMQAFK
+     QAEIDLLVAT TVIEVGVDVP NASLMIIENA ERLGLSQLHQ LRGRVGRGTT ASFCVLMYKP
+     PLGKISQKRL QVLRDTQDGF VISEKDLEIR GPGEVLGTKQ TGVAEFKVAN LMRDRKMIPT
+     VQYYARRLIV EQPEVATKLI QRWINQREIY THV
+//

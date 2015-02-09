@@ -1,0 +1,118 @@
+ID   PBPA_RICBR              Reviewed;         791 AA.
+AC   Q1RKC5;
+DT   15-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   04-FEB-2015, entry version 70.
+DE   RecName: Full=Penicillin-binding protein 1A;
+DE            Short=PBP-1a;
+DE            Short=PBP1a;
+DE   Includes:
+DE     RecName: Full=Penicillin-insensitive transglycosylase;
+DE              EC=2.4.2.-;
+DE     AltName: Full=Peptidoglycan TGase;
+DE   Includes:
+DE     RecName: Full=Penicillin-sensitive transpeptidase;
+DE              EC=3.4.-.-;
+DE     AltName: Full=DD-transpeptidase;
+GN   Name=mrcA; Synonyms=ponA; OrderedLocusNames=RBE_0108;
+OS   Rickettsia bellii (strain RML369-C).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; belli group.
+OX   NCBI_TaxID=336407;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RML369-C;
+RX   PubMed=16703114; DOI=10.1371/journal.pgen.0020076;
+RA   Ogata H., La Scola B., Audic S., Renesto P., Blanc G., Robert C.,
+RA   Fournier P.-E., Claverie J.-M., Raoult D.;
+RT   "Genome sequence of Rickettsia bellii illuminates the role of amoebae
+RT   in gene exchanges between intracellular pathogens.";
+RL   PLoS Genet. 2:733-744(2006).
+CC   -!- FUNCTION: Cell wall formation. Synthesis of cross-linked
+CC       peptidoglycan from the lipid intermediates. The enzyme has a
+CC       penicillin-insensitive transglycosylase N-terminal domain
+CC       (formation of linear glycan strands) and a penicillin-sensitive
+CC       transpeptidase C-terminal domain (cross-linking of the peptide
+CC       subunits) (By similarity). {ECO:0000250}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Single-
+CC       pass type II membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the
+CC       glycosyltransferase 51 family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the
+CC       transpeptidase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000087; ABE04189.1; -; Genomic_DNA.
+DR   RefSeq; YP_537278.1; NC_007940.1.
+DR   ProteinModelPortal; Q1RKC5; -.
+DR   STRING; 336407.RBE_0108; -.
+DR   CAZy; GT51; Glycosyltransferase Family 51.
+DR   EnsemblBacteria; ABE04189; ABE04189; RBE_0108.
+DR   GeneID; 3994983; -.
+DR   KEGG; rbe:RBE_0108; -.
+DR   PATRIC; 17881478; VBIRicBel102610_0123.
+DR   eggNOG; COG5009; -.
+DR   HOGENOM; HOG000041137; -.
+DR   KO; K05366; -.
+DR   OMA; IAQVWVT; -.
+DR   OrthoDB; EOG6HMXCD; -.
+DR   BioCyc; RBEL336407:GJCY-110-MONOMER; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-1671-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001951; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008658; F:penicillin binding; IEA:InterPro.
+DR   GO; GO:0008233; F:peptidase activity; IEA:InterPro.
+DR   GO; GO:0016763; F:transferase activity, transferring pentosyl groups; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   Gene3D; 3.40.710.10; -; 2.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR001264; Glyco_trans_51.
+DR   InterPro; IPR023346; Lysozyme-like_dom.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR011816; PBP_1a.
+DR   InterPro; IPR001460; PCN-bd_Tpept.
+DR   Pfam; PF00912; Transgly; 1.
+DR   Pfam; PF00905; Transpeptidase; 1.
+DR   SUPFAM; SSF53955; SSF53955; 1.
+DR   SUPFAM; SSF56601; SSF56601; 3.
+DR   TIGRFAMs; TIGR02074; PBP_1a_fam; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Cell inner membrane; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Complete proteome;
+KW   Glycosyltransferase; Hydrolase; Membrane; Multifunctional enzyme;
+KW   Peptidoglycan synthesis; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    791       Penicillin-binding protein 1A.
+FT                                /FTId=PRO_0000286450.
+FT   TOPO_DOM      1      6       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM      7     27       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM     28    791       Periplasmic. {ECO:0000255}.
+FT   REGION       49    220       Transglycosylase.
+FT   REGION      398    711       Transpeptidase.
+FT   ACT_SITE    457    457       Acyl-ester intermediate. {ECO:0000250}.
+SQ   SEQUENCE   791 AA;  88946 MW;  7D013204EC44294F CRC64;
+     MYKSLFFCLK ILALLFLIGC GIVAYIIYYY SRDLPDYRQL ARYYPPSVTR IYSRDGKLME
+     EYAFERRVFI PINSIPTSLK ESFIAAEDKN FYNHQGVDLF GIVRAAFLNI SNFLHHRRME
+     GASTITQQVV KNFLLTNEVS FQRKIKEAIL SYMISRVFTK DQILELYLNQ TFFGRGAYGV
+     ATAAQNYFNK SVEELTIAES AFIAALPKAP SELNPEKNYA RVKARRDYVI MRMLEDGYIT
+     SDAAKEAVDS PITLRKRDQD ETVTADYYAE QVRDEVIKML GSKDEFYTSG LTIITSLDAK
+     MQKFAEESLR KGLRDFDRKR GFRKAIATIS LDNWQEELKK LPTTPSLLEY KIAVVLEVTD
+     TQAEIGFASG AKSKIPISEM KWAKSELKSA KKLLTKGDVI VVEPVKDYYA LRQIPEVNGA
+     IMVMNPNTGQ VLTSVGGYDF FASKFDRVTQ ALRQPGSLSK TFVYLAALEN GVKPNQIFND
+     GPIEISQGPG MPSWRPKNYE GKFLGPITMR TGLEKSRNLV TVRVATAVGL TKIVDIIKRF
+     GINDNPQKVY SMVLGSIETT LERITNAYGI IANGGKRIKP HFVELIKDRN GKVIYRRDDR
+     ECTTCNVSDN DLDNAILEIP AENIYMVTDA ASDYQITSLL TGVVDRGTAY SAKKLGKVIG
+     GKTGTSNDSK DTWFIGFTPK IVVGSYVGYD TPRTLGRRAT GSSVVLPIFI DFMSNAYKDE
+     PPLPFKVPDS VKLQAVDRAT GQITPSGSVM EAFKINNILI IEDDSEIIDN NHNNDVFDYV
+     PTEKDQSQEI Y
+//

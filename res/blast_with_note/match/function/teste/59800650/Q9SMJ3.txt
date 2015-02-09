@@ -1,0 +1,116 @@
+ID   ZDS_CAPAN               Reviewed;         588 AA.
+AC   Q9SMJ3;
+DT   02-NOV-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Zeta-carotene desaturase, chloroplastic/chromoplastic;
+DE            EC=1.3.5.6;
+DE   AltName: Full=9,9'-di-cis-zeta-carotene desaturase;
+DE   AltName: Full=Carotene 7,8-desaturase;
+DE   Flags: Precursor;
+GN   Name=ZDS;
+OS   Capsicum annuum (Bell pepper).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; asterids; lamiids; Solanales; Solanaceae; Solanoideae;
+OC   Capsiceae; Capsicum.
+OX   NCBI_TaxID=4072;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Lamuyo; TISSUE=Fruit;
+RX   PubMed=7556669; DOI=10.1016/0014-5793(95)00978-I;
+RA   Albrecht M., Klein A., Hugueney P., Sandmann G., Kuntz M.;
+RT   "Molecular cloning and functional expression in E. coli of a novel
+RT   plant enzyme mediating zeta-carotene desaturation.";
+RL   FEBS Lett. 372:199-202(1995).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, SUBUNIT, AND
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=10491195; DOI=10.1046/j.1432-1327.1999.00746.x;
+RA   Breitenbach J., Kuntz M., Takaichi S., Sandmann G.;
+RT   "Catalytic properties of an expressed and purified higher plant type
+RT   zeta-carotene desaturase from Capsicum annuum.";
+RL   Eur. J. Biochem. 265:376-383(1999).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=15503129; DOI=10.1007/s00425-004-1395-2;
+RA   Breitenbach J., Sandmann G.;
+RT   "zeta-Carotene cis isomers as products and substrates in the plant
+RT   poly-cis carotenoid biosynthetic pathway to lycopene.";
+RL   Planta 220:785-793(2005).
+CC   -!- FUNCTION: Catalyzes the conversion of zeta-carotene to lycopene
+CC       via the intermediary of neurosporene. It carries out two
+CC       consecutive desaturations (introduction of double bonds) at
+CC       positions C-7 and C-7'. Shows stereoselectivity toward trans C15-
+CC       C15'zeta-carotene double bond. The zeta-carotene produced by the
+CC       phytoene desaturase PDS has a C15-C15' double bond in the cis
+CC       configuration and it requires isomerization before being
+CC       recognized as substrate by ZDS. No activity with all-trans-zeta-
+CC       carotene. The main product is 7,9,7',9'-tetra-cis-lycopene (pro-
+CC       lycopene). {ECO:0000269|PubMed:10491195,
+CC       ECO:0000269|PubMed:15503129}.
+CC   -!- CATALYTIC ACTIVITY: 9,9'-di-cis-zeta-carotene + 2 quinone =
+CC       7,9,7',9'-tetra-cis-lycopene + 2 quinol.
+CC       {ECO:0000269|PubMed:10491195, ECO:0000269|PubMed:15503129}.
+CC   -!- COFACTOR:
+CC       Name=decylplastoquinone; Xref=ChEBI:CHEBI:72953;
+CC         Evidence={ECO:0000269|PubMed:10491195};
+CC       Name=6-decylubiquinone; Xref=ChEBI:CHEBI:52020;
+CC         Evidence={ECO:0000269|PubMed:10491195};
+CC       Note=Lipophilic quinones such as decyl-plastoquinone or decyl-
+CC       ubiquinone. {ECO:0000269|PubMed:10491195};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=8.4 uM for zeta-carotene {ECO:0000269|PubMed:10491195};
+CC         KM=9.0 uM for neurosporene {ECO:0000269|PubMed:10491195};
+CC         Vmax=0.665 nmol/h/mg enzyme with zeta-carotene as substrate
+CC         {ECO:0000269|PubMed:10491195};
+CC         Vmax=0.0542 nmol/h/mg enzyme with neurosporene as substrate
+CC         {ECO:0000269|PubMed:10491195};
+CC   -!- PATHWAY: Carotenoid biosynthesis; lycopene biosynthesis.
+CC   -!- SUBUNIT: Monomer and dimer. {ECO:0000269|PubMed:10491195}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast. Plastid, chromoplast.
+CC   -!- SIMILARITY: Belongs to the zeta carotene desaturase family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X89897; CAA61985.1; -; mRNA.
+DR   PIR; S66625; S66625.
+DR   ProteinModelPortal; Q9SMJ3; -.
+DR   ChEMBL; CHEMBL2268004; -.
+DR   UniPathway; UPA00803; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009509; C:chromoplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052887; F:7,9,9'-tricis-neurosporene:quinone oxidoreductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052886; F:9,9'-dicis-carotene:quinone oxidoreductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016719; F:carotene 7,8-desaturase activity; IEA:InterPro.
+DR   GO; GO:0052889; P:9,9'-di-cis-zeta-carotene desaturation to 7,9,7',9'-tetra-cis-lycopene; IEA:UniProtKB-EC.
+DR   GO; GO:0016117; P:carotenoid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.720; -; 3.
+DR   InterPro; IPR002937; Amino_oxidase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR014103; Zeta_caro_desat.
+DR   Pfam; PF01593; Amino_oxidase; 1.
+DR   TIGRFAMs; TIGR02732; zeta_caro_desat; 1.
+PE   1: Evidence at protein level;
+KW   Carotenoid biosynthesis; Chloroplast; Chromoplast; Oxidoreductase;
+KW   Plastid; Transit peptide.
+FT   TRANSIT       1     49       Chloroplast and chromoplast.
+FT                                {ECO:0000255}.
+FT   CHAIN        50    588       Zeta-carotene desaturase,
+FT                                chloroplastic/chromoplastic.
+FT                                /FTId=PRO_0000041606.
+SQ   SEQUENCE   588 AA;  64684 MW;  55F5668FAEE7EA91 CRC64;
+     MATCSAYLCC PATSASLKKR VFPDGSAGFL FFGGRRLSNR LVTPKSVIRA DLNSMVSDMS
+     TNAPKGLFPP EPEHYRGPKL KVAIIGAGLA GMSTAVELLD QGHEVDIYES RTFIGGKVGS
+     FVDKRGNHIE MGLHVFFGCY NNLFRLMKKV GAEKNLLVKE HTHTFVNKGG EIGELDFRFP
+     VGAPLHGINA FLSTNQLKTY DKARNAVALA LSPVVRALVD PDGALQQIRD LDSVSFSDWF
+     MSKGGTRASI QRMWDPVAYA LGFIDCDNIS ARCMLTIFAL FATKTEASLL RMLKGSPDVY
+     LSGPIKKYII DKGGRFHLRW GCREVLYETS SDGSMYVSGL AMSKATQKKI VKADAYVAAC
+     VVPGIKRLVP QKWRELEFFG NIYKLIGVPV VTVQLRYNGW VTELQDLERS RQSKRATGLD
+     NLLYTPDADF SCFADLALAS PEDYYIEGQG SLLQCVLTPG DPYMPLPNEE IIRRVSKQVL
+     ALFPSSQGLE VTWSSVVKIG QSLYREGPGK DPFRPDQKTP VENFFLAGSY TKQDYIDSME
+     GATLSGRQAS AYICDAGEQL LALRKKIAAA ELNEISKGVS LSDELSLV
+//

@@ -1,0 +1,130 @@
+ID   PT1_BUCBP               Reviewed;         576 AA.
+AC   Q89B04;
+DT   07-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=Phosphoenolpyruvate-protein phosphotransferase;
+DE            EC=2.7.3.9;
+DE   AltName: Full=Phosphotransferase system, enzyme I;
+GN   Name=ptsI; OrderedLocusNames=bbp_060;
+OS   Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=224915;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bp;
+RX   PubMed=12522265; DOI=10.1073/pnas.0235981100;
+RA   van Ham R.C.H.J., Kamerbeek J., Palacios C., Rausell C., Abascal F.,
+RA   Bastolla U., Fernandez J.M., Jimenez L., Postigo M., Silva F.J.,
+RA   Tamames J., Viguera E., Latorre A., Valencia A., Moran F., Moya A.;
+RT   "Reductive genome evolution in Buchnera aphidicola.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:581-586(2003).
+CC   -!- FUNCTION: General (non sugar-specific) component of the
+CC       phosphoenolpyruvate-dependent sugar phosphotransferase system
+CC       (sugar PTS). This major carbohydrate active-transport system
+CC       catalyzes the phosphorylation of incoming sugar substrates
+CC       concomitantly with their translocation across the cell membrane.
+CC       Enzyme I transfers the phosphoryl group from phosphoenolpyruvate
+CC       (PEP) to the phosphoryl carrier protein (HPr) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Phosphoenolpyruvate + protein L-histidine =
+CC       pyruvate + protein N(pi)-phospho-L-histidine.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- DOMAIN: The N-terminal domain contains the HPr binding site, the
+CC       central domain the pyrophosphate/phosphate carrier histidine, and
+CC       the C-terminal domain the pyruvate binding site. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: The reaction takes place in three steps, mediated
+CC       by a phosphocarrier histidine residue located on the surface of
+CC       the central domain. The two first partial reactions are catalyzed
+CC       at an active site located on the N-terminal domain, and the third
+CC       partial reaction is catalyzed at an active site located on the C-
+CC       terminal domain. For catalytic turnover, the central domain
+CC       swivels from the concave surface of the N-terminal domain to that
+CC       of the C-terminal domain (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PEP-utilizing enzyme family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016826; AAO26799.1; -; Genomic_DNA.
+DR   RefSeq; NP_777694.1; NC_004545.1.
+DR   ProteinModelPortal; Q89B04; -.
+DR   SMR; Q89B04; 2-569.
+DR   STRING; 224915.bbp060; -.
+DR   PRIDE; Q89B04; -.
+DR   EnsemblBacteria; AAO26799; AAO26799; bbp_060.
+DR   GeneID; 1058192; -.
+DR   KEGG; bab:bbp060; -.
+DR   PATRIC; 21244893; VBIBucAph80364_0057.
+DR   eggNOG; COG1080; -.
+DR   KO; K08483; -.
+DR   OMA; DIRDIGN; -.
+DR   OrthoDB; EOG657JBQ; -.
+DR   BioCyc; BAPH224915:GJ9D-60-MONOMER; -.
+DR   Proteomes; UP000000601; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008965; F:phosphoenolpyruvate-protein phosphotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.274.10; -; 1.
+DR   Gene3D; 3.20.20.60; -; 1.
+DR   Gene3D; 3.50.30.10; -; 1.
+DR   InterPro; IPR008279; PEP-util_enz_mobile_dom.
+DR   InterPro; IPR018274; PEP_util_AS.
+DR   InterPro; IPR000121; PEP_util_C.
+DR   InterPro; IPR023151; PEP_util_CS.
+DR   InterPro; IPR006318; PEP_util_enz.
+DR   InterPro; IPR024692; PTS_EI.
+DR   InterPro; IPR008731; PTS_EIN.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   Pfam; PF05524; PEP-utilisers_N; 1.
+DR   Pfam; PF00391; PEP-utilizers; 1.
+DR   Pfam; PF02896; PEP-utilizers_C; 1.
+DR   PIRSF; PIRSF000732; PTS_enzyme_I; 1.
+DR   PRINTS; PR01736; PHPHTRNFRASE.
+DR   SUPFAM; SSF47831; SSF47831; 1.
+DR   SUPFAM; SSF51621; SSF51621; 1.
+DR   SUPFAM; SSF52009; SSF52009; 1.
+DR   TIGRFAMs; TIGR01417; PTS_I_fam; 1.
+DR   PROSITE; PS00742; PEP_ENZYMES_2; 1.
+DR   PROSITE; PS00370; PEP_ENZYMES_PHOS_SITE; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Phosphotransferase system; Reference proteome; Sugar transport;
+KW   Transferase; Transport.
+FT   CHAIN         1    576       Phosphoenolpyruvate-protein
+FT                                phosphotransferase.
+FT                                /FTId=PRO_0000147063.
+FT   ACT_SITE    189    189       Tele-phosphohistidine intermediate.
+FT                                {ECO:0000250}.
+FT   ACT_SITE    502    502       Proton donor. {ECO:0000250}.
+FT   METAL       431    431       Magnesium. {ECO:0000250}.
+FT   METAL       455    455       Magnesium. {ECO:0000250}.
+FT   BINDING     296    296       Substrate. {ECO:0000250}.
+FT   BINDING     332    332       Substrate. {ECO:0000250}.
+FT   BINDING     431    431       Substrate. {ECO:0000250}.
+FT   BINDING     452    452       Substrate; via carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   BINDING     453    453       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     454    454       Substrate. {ECO:0000250}.
+FT   BINDING     455    455       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   576 AA;  65449 MW;  546C4EF1BF9E99CA CRC64;
+     MISGILASPG ITFGKALLLK NEILSINYKK ISNQDIHQEV KKFINGKNKT ICQLQEIKNK
+     TQQKFENTQS NIFEGHIMLL EDDEFQQKII SLIQDRNISS EYATKIIIEE HAKTLEQLND
+     EYLKNRAIDI QDIGNRLLKN ILNIDIKDLN NIKNPVILIA RDLTPSETAQ INLKKVLGFI
+     TDLGGQTSHT SIIARSLELP AIVGTKNITE KAKNDDFIIL DSINNKISIN PSLEEIHRIK
+     QKKKKYESEK KLLIESKNLY AITKDKHKVE IGANISTIQD INNAKKYGAE CIGLYRTEFL
+     FMNRNYLPSE EEQFNTYKTI AEEMKNKSII IRTMDVGGDK NISYMNIPKE ENPFLGWRAI
+     RIAIDRKEIL HAQLKAILRA SAFGKLRIMF PMIISVEEVR TLQYELEKLK QLLHHQKIPF
+     NAKIEVGIMI ETPASAIIAH HLAQEVDFFS IGSNDLTQYT LAVDRGNDLI SHLYNPMSPS
+     VLSLIQQVIN ASHKVGKWTG MCGELAGDEK ATLLLLGMGL DEFSMSAATI PKIKKIIRES
+     TFLDVKKLAK KVLLQPTYNE VNNTINTFIN INNKNK
+//

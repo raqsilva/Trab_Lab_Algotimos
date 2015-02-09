@@ -1,0 +1,103 @@
+ID   MAO1_SALNS              Reviewed;         565 AA.
+AC   B4T5V6;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-JAN-2015, entry version 46.
+DE   RecName: Full=NAD-dependent malic enzyme {ECO:0000255|HAMAP-Rule:MF_01619};
+DE            Short=NAD-ME {ECO:0000255|HAMAP-Rule:MF_01619};
+DE            EC=1.1.1.38 {ECO:0000255|HAMAP-Rule:MF_01619};
+GN   Name=maeA {ECO:0000255|HAMAP-Rule:MF_01619};
+GN   OrderedLocusNames=SNSL254_A1680;
+OS   Salmonella newport (strain SL254).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=423368;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SL254;
+RX   PubMed=21602358; DOI=10.1128/JB.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NAD(+) = pyruvate + CO(2) + NADH.
+CC       {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC       {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01619};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01619};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000255|HAMAP-Rule:MF_01619};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -!- SIMILARITY: Belongs to the malic enzymes family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01619}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP001113; ACF61377.1; -; Genomic_DNA.
+DR   RefSeq; YP_002040814.1; NC_011080.1.
+DR   STRING; 423368.SNSL254_A1680; -.
+DR   EnsemblBacteria; ACF61377; ACF61377; SNSL254_A1680.
+DR   PATRIC; 18521782; VBISalEnt114557_1790.
+DR   eggNOG; COG0281; -.
+DR   HOGENOM; HOG000042487; -.
+DR   OMA; IQDNNET; -.
+DR   OrthoDB; EOG6QVRGM; -.
+DR   BioCyc; SENT423368:GHJB-1666-MONOMER; -.
+DR   Proteomes; UP000008824; Chromosome.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   HAMAP; MF_01619; NAD_malic_enz; 1.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR001891; Malic_OxRdtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR023667; NAD_malic_enz_proteobac.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   PIRSF; PIRSF000106; ME; 1.
+DR   PRINTS; PR00072; MALOXRDTASE.
+DR   SMART; SM00919; Malic_M; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Metal-binding; NAD; Oxidoreductase.
+FT   CHAIN         1    565       NAD-dependent malic enzyme.
+FT                                /FTId=PRO_1000186008.
+FT   ACT_SITE    104    104       Proton donor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01619}.
+FT   ACT_SITE    175    175       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01619}.
+FT   METAL       246    246       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   METAL       247    247       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   METAL       270    270       Divalent metal cation.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   BINDING     157    157       NAD. {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   BINDING     270    270       NAD. {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   BINDING     418    418       NAD. {ECO:0000255|HAMAP-Rule:MF_01619}.
+FT   SITE        270    270       Important for activity.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01619}.
+SQ   SEQUENCE   565 AA;  62910 MW;  DC4355DD02B632FF CRC64;
+     METTTKKARS LYIPYAGPVL LEFPLLNKGS AFSVEERRNF NLSGLLPEVV ESIEEQAERA
+     WLQYQGFKTE IDKHIYLRNI QDTNETLFYR LVQNHLEEMM PVIYTPTVGA ACERFSEIYR
+     RARGVFISYP NRHNMDDILQ NVPNHNIKVI VVTDGERILG LGDQGIGGMG IPIGKLSLYT
+     ACGGISPAYT LPVVLDVGTN NQQLLNDPLY MGWRHPRITD DEYYAFVDEF IQAVKQRWPD
+     ILLQFEDFAQ KNAMPLLTRY RDEICSFNDD IQGTAAVTVG TLIAASRAAG SQLSEQKIVF
+     LGAGSAGCGI AEQIIAQTQR EGLSEDAARQ NVFMVDRFGL LTDRMPNLLP FQAKLVQKCD
+     NLQHWDTEND VLSLLDVVRN VKPDILIGVS GQTGLFTEEI IREMHKHCPR PIVMPLSNPT
+     SRVEATPQDI IAWTEGNALV ATGSPFSPVI WKDKIYPIAQ CNNAYIFPGI GLGVIASGAS
+     RITDEMLMSA SETLAKHSPL VNNGEGLVLP ALKDIQVVSR AIAFAVGKMA QQQGVAVKTS
+     AEALQQAIDD NFWKPEYRDY RRTSI
+//

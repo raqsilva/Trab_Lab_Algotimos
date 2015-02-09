@@ -1,0 +1,98 @@
+ID   SECF_AQUAE              Reviewed;         288 AA.
+AC   O67536;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   07-JAN-2015, entry version 92.
+DE   RecName: Full=Protein translocase subunit SecF;
+GN   Name=secF {ECO:0000255|HAMAP-Rule:MF_01464};
+GN   OrderedLocusNames=aq_1602;
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01464}.
+CC   -!- SUBUNIT: Forms a complex with SecD. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000255|HAMAP-Rule:MF_01464}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01464}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01464}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecF subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01464}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000657; AAC07496.1; -; Genomic_DNA.
+DR   PIR; F70438; F70438.
+DR   RefSeq; NP_214101.1; NC_000918.1.
+DR   ProteinModelPortal; O67536; -.
+DR   STRING; 224324.aq_1602; -.
+DR   EnsemblBacteria; AAC07496; AAC07496; aq_1602.
+DR   GeneID; 1193159; -.
+DR   KEGG; aae:aq_1602; -.
+DR   PATRIC; 20960248; VBIAquAeo85532_1237.
+DR   eggNOG; COG0341; -.
+DR   HOGENOM; HOG000245916; -.
+DR   InParanoid; O67536; -.
+DR   KO; K03074; -.
+DR   OMA; MWLGVKR; -.
+DR   OrthoDB; EOG676Z5R; -.
+DR   BioCyc; AAEO224324:GJBH-1143-MONOMER; -.
+DR   Proteomes; UP000000798; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01464_B; SecF_B; 1.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   InterPro; IPR022646; SecD/SecF_CS.
+DR   InterPro; IPR005665; SecF_bac.
+DR   Pfam; PF07549; Sec_GG; 1.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   PRINTS; PR01755; SECFTRNLCASE.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR00966; 3a0501s07; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Membrane;
+KW   Protein transport; Reference proteome; Translocation; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    288       Protein translocase subunit SecF.
+FT                                /FTId=PRO_0000095974.
+FT   TRANSMEM     13     33       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    123    143       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    145    165       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    175    195       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    226    248       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    252    274       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+SQ   SEQUENCE   288 AA;  31633 MW;  E526B8D6BBD99770 CRC64;
+     MKQIKFLRLR KAAYGVSALL ILISLLSLLF RGLNLGLDFT GGTLYEVKFE KSVDIGKLRK
+     TISSAGIKGF LIQETKEGTF VIKVKTGEPV EKLEDVLKKF GKYELIRKET ISGVVSEELQ
+     KKAVFAILTA LGGILLYLGV RFQPVWGFGA ILALAHDVIT VLGAYSITQR EVNLEVVSAI
+     LVVAGYSVAD TVVIFDRIRE NLRKKKGFTL EEIMDLSINQ TLSRTIMTSL TTLVTALTLF
+     ILGGYALSNI MFAFVVGVVV GTYSSVFVAS AFVLDMQKLF KRGEVQTA
+//

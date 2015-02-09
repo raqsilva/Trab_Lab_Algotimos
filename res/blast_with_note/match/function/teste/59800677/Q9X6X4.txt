@@ -1,0 +1,97 @@
+ID   LIPB_MYXXA              Reviewed;         357 AA.
+AC   Q9X6X4;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   07-JAN-2015, entry version 77.
+DE   RecName: Full=Octanoyltransferase;
+DE            EC=2.3.1.181;
+DE   AltName: Full=Lipoate-protein ligase B;
+DE   AltName: Full=Lipoyl/octanoyl transferase;
+DE   AltName: Full=Octanoyl-[acyl-carrier-protein]-protein N-octanoyltransferase;
+GN   Name=lipB;
+OS   Myxococcus xanthus.
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;
+OC   Cystobacterineae; Myxococcaceae; Myxococcus.
+OX   NCBI_TaxID=34;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Downard J.S., Kupfer D.M., Davis A.J., Roe B.A.;
+RT   "Sequence analysis of SR171 mutant of the branched-chain keto acid
+RT   dehydrogenase complex in Myxococcus xanthus.";
+RL   Submitted (MAY-1999) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of endogenously produced octanoic
+CC       acid from octanoyl-acyl-carrier-protein onto the lipoyl domains of
+CC       lipoate-dependent enzymes. Lipoyl-ACP can also act as a substrate
+CC       although octanoyl-ACP is likely to be the physiological substrate
+CC       (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Octanoyl-[acyl-carrier-protein] + protein =
+CC       protein N(6)-(octanoyl)lysine + [acyl-carrier-protein].
+CC   -!- PATHWAY: Protein modification; protein lipoylation via endogenous
+CC       pathway; protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-
+CC       protein]: step 1/2.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- MISCELLANEOUS: In the reaction, the free carboxyl group of
+CC       octanoic acid is attached via an amide linkage to the epsilon-
+CC       amino group of a specific lysine residue of lipoyl domains of
+CC       lipoate-dependent enzymes. {ECO:0000250}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the LipB family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 BPL/LPL catalytic domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01067}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF153678; AAD34635.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q9X6X4; -.
+DR   UniPathway; UPA00538; UER00592.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0033819; F:lipoyl(octanoyl) transferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016415; F:octanoyltransferase activity; IEA:InterPro.
+DR   GO; GO:0006464; P:cellular protein modification process; IEA:InterPro.
+DR   GO; GO:0009107; P:lipoate biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   HAMAP; MF_00013; LipB; 1.
+DR   InterPro; IPR004143; BPL_LipA_LipB.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   InterPro; IPR000544; Octanoyltransferase.
+DR   InterPro; IPR020605; Octanoyltransferase_CS.
+DR   Pfam; PF03099; BPL_LplA_LipB; 1.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   TIGRFAMs; TIGR00214; lipB; 1.
+DR   PROSITE; PS51733; BPL_LPL_CATALYTIC; 1.
+DR   PROSITE; PS01313; LIPB; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Hydrolase; Multifunctional enzyme;
+KW   Transferase.
+FT   CHAIN         1    357       Octanoyltransferase.
+FT                                /FTId=PRO_0000062852.
+FT   DOMAIN       31    219       BPL/LPL catalytic. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01067}.
+FT   DOMAIN      224    356       Nudix hydrolase.
+FT   REGION        1    222       LipB domain.
+FT   REGION       76     83       Substrate binding. {ECO:0000250}.
+FT   REGION      149    151       Substrate binding. {ECO:0000250}.
+FT   REGION      162    164       Substrate binding. {ECO:0000250}.
+FT   MOTIF       261    282       Nudix box.
+FT   ACT_SITE    180    180       Acyl-thioester intermediate.
+FT                                {ECO:0000250}.
+FT   SITE        146    146       Lowers pKa of active site Cys.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   357 AA;  39373 MW;  7FA08E117B4A77D3 CRC64;
+     MNTITVYRLG RVEYEDGLAL MHLFSESRRQ GLSGDVLLLL EHPPILTLGR AAKRENIVAS
+     DAQLAKEGAE VFETNRGGDV TYHGPGQLVG YPIFLLPEDR RDVRRYVRDV ERSVMQVLAQ
+     WGITAGPIPK WPGVWIGAEG APDARKIAAI GVHLSRWLTT HGFALNVNTN LDHFQLIVPC
+     GIREAGVTSM QRELGRALPM AEVEEAIANS FCTVFDSERV DAPPPMRTVS IAVVKGRGPE
+     ARVLLVRRRP ERGGFWQVLT GRLEAGESPA QAAARELEEE TGLRVPLVDL DYRHAFALGE
+     ALPPQLVEEN GFAVHVPPDA DVRLGAEHDA FEWVDVPTAL ERLPFQGLRE TVKRATA
+//

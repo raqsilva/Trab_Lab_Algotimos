@@ -1,0 +1,97 @@
+ID   ODP2_BUCBP              Reviewed;         410 AA.
+AC   Q89AQ9;
+DT   16-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex;
+DE            EC=2.3.1.12;
+DE   AltName: Full=Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex;
+DE   AltName: Full=E2;
+GN   Name=aceF; OrderedLocusNames=bbp_190;
+OS   Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=224915;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bp;
+RX   PubMed=12522265; DOI=10.1073/pnas.0235981100;
+RA   van Ham R.C.H.J., Kamerbeek J., Palacios C., Rausell C., Abascal F.,
+RA   Bastolla U., Fernandez J.M., Jimenez L., Postigo M., Silva F.J.,
+RA   Tamames J., Viguera E., Latorre A., Valencia A., Moran F., Moya A.;
+RT   "Reductive genome evolution in Buchnera aphidicola.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:581-586(2003).
+CC   -!- FUNCTION: The pyruvate dehydrogenase complex catalyzes the overall
+CC       conversion of pyruvate to acetyl-CoA and CO(2). It contains
+CC       multiple copies of three enzymatic components: pyruvate
+CC       dehydrogenase (E1), dihydrolipoamide acetyltransferase (E2) and
+CC       lipoamide dehydrogenase (E3) (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + enzyme N(6)-(dihydrolipoyl)lysine
+CC       = CoA + enzyme N(6)-(S-acetyldihydrolipoyl)lysine.
+CC   -!- COFACTOR:
+CC       Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088; Evidence={ECO:0000250};
+CC       Note=Binds 1 lipoyl cofactor covalently. {ECO:0000250};
+CC   -!- SUBUNIT: Forms a 24-polypeptide structural core with octahedral
+CC       symmetry. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the 2-oxoacid dehydrogenase family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 lipoyl-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01066, ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO26922.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016826; AAO26922.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_777817.1; NC_004545.1.
+DR   ProteinModelPortal; Q89AQ9; -.
+DR   STRING; 224915.bbp190; -.
+DR   EnsemblBacteria; AAO26922; AAO26922; bbp_190.
+DR   GeneID; 1058122; -.
+DR   KEGG; bab:bbp190; -.
+DR   PATRIC; 21245155; VBIBucAph80364_0184.
+DR   eggNOG; COG0508; -.
+DR   KO; K00627; -.
+DR   OMA; EYNGNGA; -.
+DR   OrthoDB; EOG610413; -.
+DR   BioCyc; BAPH224915:GJ9D-190-MONOMER; -.
+DR   Proteomes; UP000000601; Chromosome.
+DR   GO; GO:0004742; F:dihydrolipoyllysine-residue acetyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.559.10; -; 1.
+DR   Gene3D; 4.10.320.10; -; 1.
+DR   InterPro; IPR003016; 2-oxoA_DH_lipoyl-BS.
+DR   InterPro; IPR001078; 2-oxoacid_DH_actylTfrase.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR023213; CAT-like_dom.
+DR   InterPro; IPR004167; E3-bd.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   Pfam; PF00198; 2-oxoacid_dh; 1.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   Pfam; PF02817; E3_binding; 1.
+DR   SUPFAM; SSF47005; SSF47005; 1.
+DR   SUPFAM; SSF51230; SSF51230; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS00189; LIPOYL; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Complete proteome; Glycolysis; Lipoyl;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    410       Dihydrolipoyllysine-residue
+FT                                acetyltransferase component of pyruvate
+FT                                dehydrogenase complex.
+FT                                /FTId=PRO_0000162277.
+FT   DOMAIN        1     69       Lipoyl-binding. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01066}.
+FT   ACT_SITE    383    383       {ECO:0000255}.
+FT   MOD_RES      35     35       N6-lipoyllysine. {ECO:0000250,
+FT                                ECO:0000255|PROSITE-ProRule:PRU01066}.
+SQ   SEQUENCE   410 AA;  46119 MW;  69EF982E6C212730 CRC64;
+     MPDIGTDLVE VIEILVKIGD QVKKDDSLIT VEGQKASIEI PASHTGTIKN IIVHIGEKIT
+     TGSLIAILNG IDDNVKSKND SSSYSFKNSK NTSTNSNLGN VNNNINNRTI LVHATPTVRR
+     LARKFDIKLE NITGTGRKGR ILKEDVISYK NISLFNDIKK SLKKTNVNYY KDNVTCDDFK
+     SIELTRTQIR SSKNLLKSWL TIPHVTQFDE SDITELENFR QKYNSDLKDK SKKLTILIFV
+     IKAVSKALEM FPKFNGRLIN KDNRIAIVLN EHINIGIVVD TDDGLLVPVI NRVNKKNISS
+     ISNDLRIISE RARSRKLNFS DIKEYGSFTI SNLGGIGGTN FTPIIKYPEL AILGISRALI
+     KPYWNSHAFI PKLMLPLSLS YDHRAIDGVA AVRFITFVKK MLTDIRFLMI
+//

@@ -1,0 +1,106 @@
+ID   NAGZ_NEIM0              Reviewed;         361 AA.
+AC   A9M1Z4;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   07-JAN-2015, entry version 53.
+DE   RecName: Full=Beta-hexosaminidase {ECO:0000255|HAMAP-Rule:MF_00364};
+DE            EC=3.2.1.52 {ECO:0000255|HAMAP-Rule:MF_00364};
+DE   AltName: Full=Beta-N-acetylhexosaminidase {ECO:0000255|HAMAP-Rule:MF_00364};
+DE   AltName: Full=N-acetyl-beta-glucosaminidase {ECO:0000255|HAMAP-Rule:MF_00364};
+GN   Name=nagZ {ECO:0000255|HAMAP-Rule:MF_00364};
+GN   OrderedLocusNames=NMCC_0468;
+OS   Neisseria meningitidis serogroup C (strain 053442).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=374833;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=053442;
+RX   PubMed=18031983; DOI=10.1016/j.ygeno.2007.10.004;
+RA   Peng J., Yang L., Yang F., Yang J., Yan Y., Nie H., Zhang X.,
+RA   Xiong Z., Jiang Y., Cheng F., Xu X., Chen S., Sun L., Li W., Shen Y.,
+RA   Shao Z., Liang X., Xu J., Jin Q.;
+RT   "Characterization of ST-4821 complex, a unique Neisseria meningitidis
+RT   clone.";
+RL   Genomics 91:78-87(2008).
+CC   -!- FUNCTION: Plays a role in peptidoglycan recycling by cleaving the
+CC       terminal beta-1,4-linked N-acetylglucosamine (GlcNAc) from
+CC       peptide-linked peptidoglycan fragments, giving rise to free
+CC       GlcNAc, anhydro-N-acetylmuramic acid and anhydro-N-acetylmuramic
+CC       acid-linked peptides. {ECO:0000255|HAMAP-Rule:MF_00364}.
+CC   -!- CATALYTIC ACTIVITY: Hydrolysis of terminal non-reducing N-acetyl-
+CC       D-hexosamine residues in N-acetyl-beta-D-hexosaminides.
+CC       {ECO:0000255|HAMAP-Rule:MF_00364}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan recycling.
+CC       {ECO:0000255|HAMAP-Rule:MF_00364}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00364}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 3 family. NagZ
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00364}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000381; ABX72669.1; -; Genomic_DNA.
+DR   RefSeq; YP_001598623.1; NC_010120.1.
+DR   ProteinModelPortal; A9M1Z4; -.
+DR   STRING; 374833.NMCC_0468; -.
+DR   CAZy; GH3; Glycoside Hydrolase Family 3.
+DR   EnsemblBacteria; ABX72669; ABX72669; NMCC_0468.
+DR   GeneID; 5795592; -.
+DR   KEGG; nmn:NMCC_0468; -.
+DR   PATRIC; 20345290; VBINeiMen117761_0571.
+DR   eggNOG; COG1472; -.
+DR   HOGENOM; HOG000248526; -.
+DR   KO; K01207; -.
+DR   OMA; AGFSSYW; -.
+DR   OrthoDB; EOG6BCT06; -.
+DR   BioCyc; NMEN374833:GJ7Z-466-MONOMER; -.
+DR   UniPathway; UPA00544; -.
+DR   Proteomes; UP000001177; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004563; F:beta-N-acetylhexosaminidase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009254; P:peptidoglycan turnover; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.20.20.300; -; 1.
+DR   HAMAP; MF_00364; NagZ; 1.
+DR   InterPro; IPR022956; Beta_hexosaminidase_bac.
+DR   InterPro; IPR019800; Glyco_hydro_3_AS.
+DR   InterPro; IPR001764; Glyco_hydro_3_N.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF00933; Glyco_hydro_3; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS00775; GLYCOSYL_HYDROL_F3; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Complete proteome; Cytoplasm;
+KW   Glycosidase; Hydrolase; Peptidoglycan synthesis.
+FT   CHAIN         1    361       Beta-hexosaminidase.
+FT                                /FTId=PRO_1000079576.
+FT   REGION      174    175       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00364}.
+FT   ACT_SITE    187    187       Proton donor/acceptor.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00364}.
+FT   ACT_SITE    258    258       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00364}.
+FT   BINDING      69     69       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00364}.
+FT   BINDING      77     77       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00364}.
+FT   BINDING     144    144       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00364}.
+FT   SITE        185    185       Important for catalytic activity.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00364}.
+SQ   SEQUENCE   361 AA;  38960 MW;  D1297D874BA81921 CRC64;
+     MTVPCIPRGL VMADIAAFRL TEEEKQRLLD PAVGGVILFR RNFQNIAQLK ELTAEIKALR
+     TPELIIAVDH EGGRVQRFIE GFTRLPAMST LGEIWDKDGA SAAETAAGQV GRVLATELSA
+     CGIDLSFTPV LDLDWGNCPV IGNRSFHRNP EAVARLALAL QKGLEKGGMK SCGKHFPGHG
+     FVEGDSHLVL PEDGRSLSEL EAADLAPFRI MSREGMAAVM PAHVVYPQVD TKPAGFSEIW
+     LKQILRRDIG FKGVIFSDDL TMEGACGAGG IKERARISFE AGCDIVLVCN RPDLVDELRE
+     DFRIPDNPAL AQRWQYMANT LGSAAAQAVM QTTDFQAAQA FVAGLASPQD TAGGVKVGEA
+     F
+//

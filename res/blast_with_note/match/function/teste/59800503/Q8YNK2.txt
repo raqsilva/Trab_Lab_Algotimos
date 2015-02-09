@@ -1,0 +1,118 @@
+ID   ALF_NOSS1               Reviewed;         359 AA.
+AC   Q8YNK2;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-JAN-2015, entry version 77.
+DE   RecName: Full=Fructose-bisphosphate aldolase {ECO:0000250|UniProtKB:Q55664};
+DE            Short=FBP aldolase {ECO:0000250|UniProtKB:Q55664};
+DE            Short=FBPA {ECO:0000250|UniProtKB:Q55664};
+DE            EC=4.1.2.13;
+DE   AltName: Full=Fructose-1,6-bisphosphate aldolase {ECO:0000250|UniProtKB:Q55664};
+GN   Name=fda {ECO:0000312|EMBL:BAB76262.1}; OrderedLocusNames=all4563;
+OS   Nostoc sp. (strain PCC 7120 / UTEX 2576).
+OC   Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.
+OX   NCBI_TaxID=103690;
+RN   [1] {ECO:0000312|EMBL:BAB76262.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7120 / UTEX 2576;
+RX   PubMed=11759840; DOI=10.1093/dnares/8.5.205;
+RA   Kaneko T., Nakamura Y., Wolk C.P., Kuritz T., Sasamoto S.,
+RA   Watanabe A., Iriguchi M., Ishikawa A., Kawashima K., Kimura T.,
+RA   Kishida Y., Kohara M., Matsumoto M., Matsuno A., Muraki A.,
+RA   Nakazaki N., Shimpo S., Sugimoto M., Takazawa M., Yamada M.,
+RA   Yasuda M., Tabata S.;
+RT   "Complete genomic sequence of the filamentous nitrogen-fixing
+RT   cyanobacterium Anabaena sp. strain PCC 7120.";
+RL   DNA Res. 8:205-213(2001).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 282-289, AND MASS SPECTROMETRY.
+RA   Singh H., Rajaram H., Apte S.K.;
+RL   Submitted (DEC-2008) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the aldol condensation of dihydroxyacetone
+CC       phosphate (DHAP or glycerone-phosphate) with glyceraldehyde 3-
+CC       phosphate (G3P) to form fructose 1,6-bisphosphate (FBP) in
+CC       gluconeogenesis and the reverse reaction in glycolysis.
+CC       {ECO:0000250|UniProtKB:Q55664}.
+CC   -!- CATALYTIC ACTIVITY: D-fructose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate.
+CC       {ECO:0000250|UniProtKB:Q55664}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q55664};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the
+CC       other provides a structural contribution.
+CC       {ECO:0000250|UniProtKB:Q55664};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 4/4.
+CC       {ECO:0000250|UniProtKB:Q55664}.
+CC   -!- MASS SPECTROMETRY: Mass=38764; Mass_error=1; Method=MALDI;
+CC       Range=1-359; Evidence={ECO:0000269|Ref.2};
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. {ECO:0000255}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000019; BAB76262.1; -; Genomic_DNA.
+DR   PIR; AC2376; AC2376.
+DR   RefSeq; NP_488603.1; NC_003272.1.
+DR   RefSeq; WP_010998695.1; NC_003272.1.
+DR   ProteinModelPortal; Q8YNK2; -.
+DR   STRING; 103690.all4563; -.
+DR   EnsemblBacteria; BAB76262; BAB76262; BAB76262.
+DR   GeneID; 1108164; -.
+DR   KEGG; ana:all4563; -.
+DR   PATRIC; 22779738; VBINosSp37423_5315.
+DR   eggNOG; COG0191; -.
+DR   HOGENOM; HOG000227792; -.
+DR   KO; K01624; -.
+DR   OMA; GENFLRH; -.
+DR   OrthoDB; EOG6HXJ7B; -.
+DR   UniPathway; UPA00109; UER00183.
+DR   Proteomes; UP000002483; Chromosome.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006412; Fruct_bisP_Calv.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01521; FruBisAldo_II_B; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Direct protein sequencing; Glycolysis; Lyase;
+KW   Metal-binding; Reference proteome; Zinc.
+FT   INIT_MET      1      1       Removed. {ECO:0000250|UniProtKB:Q55664}.
+FT   CHAIN         2    359       Fructose-bisphosphate aldolase.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT                                /FTId=PRO_0000366199.
+FT   REGION      233    235       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT   REGION      275    278       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT   ACT_SITE     83     83       Proton donor.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT   METAL        84     84       Zinc 1; catalytic.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT   METAL       105    105       Zinc 2. {ECO:0000250|UniProtKB:Q55664}.
+FT   METAL       142    142       Zinc 2. {ECO:0000250|UniProtKB:Q55664}.
+FT   METAL       198    198       Zinc 1; catalytic.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT   METAL       232    232       Zinc 1; catalytic.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT   BINDING      50     50       Glyceraldehyde 3-phosphate.
+FT                                {ECO:0000250|UniProtKB:Q55664}.
+FT   BINDING     199    199       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000250|UniProtKB:Q55664}.
+SQ   SEQUENCE   359 AA;  38617 MW;  E91D84D7591007B1 CRC64;
+     MALVPLRLLL DHAAENGYGI PAFNVNNLEQ IQAILKAAAE TDSPVILQAS RGARNYAGEN
+     FLRHLILAAV ETYPEIPIVM HQDHGNAPST CYSAIKNNFT SVMMDGSLEA DAKTPASFEY
+     NVNVTREVVN VAHALGVSVE GELGCLGSLE TGAGEAEDGH GFEGTLDHSQ LLTDPDEAVN
+     FVEATQVDAL AVAIGTSHGA YKFTRKPTGE ILAISRIEEI HRRLPNTHLV MHGSSSVPED
+     LIALINEYGG AIPETYGVPV EEIQKGIKSG VRKVNIDTDN RLAITAAVRE ALAKNPKEFD
+     PRHFLKPSIT YMQKVCAERY VQFGTAGNAS KIKQVSLETF AAKYAKGELN AISKAAAKV
+//

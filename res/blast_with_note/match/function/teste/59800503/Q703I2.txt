@@ -1,0 +1,112 @@
+ID   ALF_THECA               Reviewed;         305 AA.
+AC   Q703I2; P83739;
+DT   27-SEP-2004, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   26-NOV-2014, entry version 51.
+DE   RecName: Full=Fructose-bisphosphate aldolase;
+DE            Short=FBP aldolase;
+DE            Short=FBPA;
+DE            EC=4.1.2.13;
+DE   AltName: Full=Fructose-1,6-bisphosphate aldolase;
+GN   Name=fba {ECO:0000312|EMBL:CAF32659.1};
+OS   Thermus caldophilus.
+OC   Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+OC   Thermus.
+OX   NCBI_TaxID=272;
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], SUBUNIT, AND X-RAY CRYSTALLOGRAPHY
+RP   (2.2 ANGSTROMS).
+RX   PubMed=14561141; DOI=10.2174/0929866033478735;
+RA   Lee J.H., Im Y.J., Rho S.-H., Park S.H., Kim M.-K., Cho S.J.,
+RA   Kim T.-Y., Oh J.H., Shin H.-J., Lee D.-S., Eom S.H.;
+RT   "Crystallization and preliminary X-ray analysis of class II fructose-
+RT   1,6-bisphosphate aldolase from Thermus caldophilus.";
+RL   Protein Pept. Lett. 10:511-515(2003).
+CC   -!- FUNCTION: Catalyzes the aldol condensation of dihydroxyacetone
+CC       phosphate (DHAP or glycerone-phosphate) with glyceraldehyde 3-
+CC       phosphate (G3P) to form fructose 1,6-bisphosphate (FBP) in
+CC       gluconeogenesis and the reverse reaction in glycolysis.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: D-fructose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate. {ECO:0000305}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the
+CC       other provides a structural contribution. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 4/4.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:14561141}.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ621816; CAF32659.1; -; Genomic_DNA.
+DR   EMBL; AY526903; AAS19362.1; -; Genomic_DNA.
+DR   PDB; 2FJK; X-ray; 2.20 A; A/B/C/D=1-305.
+DR   PDBsum; 2FJK; -.
+DR   ProteinModelPortal; Q703I2; -.
+DR   SMR; Q703I2; 1-305.
+DR   UniPathway; UPA00109; UER00183.
+DR   EvolutionaryTrace; Q703I2; -.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0030388; P:fructose 1,6-bisphosphate metabolic process; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR011289; Fruc_bis_ald_class-2.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01859; fruc_bis_ald_; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycolysis; Lyase; Metal-binding; Zinc.
+FT   CHAIN         1    305       Fructose-bisphosphate aldolase.
+FT                                /FTId=PRO_0000178752.
+FT   REGION      209    211       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   REGION      251    254       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000250}.
+FT   ACT_SITE     80     80       Proton donor. {ECO:0000250}.
+FT   METAL        81     81       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       102    102       Zinc 2. {ECO:0000250}.
+FT   METAL       132    132       Zinc 2. {ECO:0000250}.
+FT   METAL       178    178       Zinc 1; catalytic. {ECO:0000250}.
+FT   METAL       208    208       Zinc 1; catalytic. {ECO:0000250}.
+FT   BINDING      49     49       Glyceraldehyde 3-phosphate.
+FT                                {ECO:0000250}.
+FT   BINDING     179    179       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000250}.
+FT   HELIX         6     14       {ECO:0000244|PDB:2FJK}.
+FT   STRAND       19     23       {ECO:0000244|PDB:2FJK}.
+FT   HELIX        27     38       {ECO:0000244|PDB:2FJK}.
+FT   HELIX        39     41       {ECO:0000244|PDB:2FJK}.
+FT   STRAND       44     47       {ECO:0000244|PDB:2FJK}.
+FT   HELIX        50     68       {ECO:0000244|PDB:2FJK}.
+FT   STRAND       75     78       {ECO:0000244|PDB:2FJK}.
+FT   HELIX        85     93       {ECO:0000244|PDB:2FJK}.
+FT   STRAND       97    101       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       108    124       {ECO:0000244|PDB:2FJK}.
+FT   STRAND      128    134       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       146    150       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       155    164       {ECO:0000244|PDB:2FJK}.
+FT   STRAND      178    181       {ECO:0000244|PDB:2FJK}.
+FT   STRAND      184    186       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       191    200       {ECO:0000244|PDB:2FJK}.
+FT   STRAND      205    207       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       215    223       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       236    244       {ECO:0000244|PDB:2FJK}.
+FT   STRAND      247    252       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       254    270       {ECO:0000244|PDB:2FJK}.
+FT   HELIX       277    299       {ECO:0000244|PDB:2FJK}.
+SQ   SEQUENCE   305 AA;  32987 MW;  9FE260186F29B98A CRC64;
+     MLVTGLEILR KARAEGYGVG AFNTNNMEFT QAILEAAEEM KSPVILALSE GAMKYGGRAL
+     TRMVVALAQE ARVPVAVHLD HGSSYESVLK ALREGFTSVM IDKSHEDFET NVRETKRVVE
+     AAHAVGVTVE AELGRLAGIE EHVAVDEKDA LLTNPEEARI FMERTGADYL AVAIGTSHGA
+     YKGKGRPFID HPRLARIAKL VPAPLVLHGA SAVPQELVER FRAAGGEIGE ASGIHPEDIK
+     KAISLGIAKI NTDTDLRLAF TALVRETLGK NPKEFDPRKY LGPAREAVKE VVKSRMELFG
+     SVGRA
+//

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800677|ref|YP_207389.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>phosphohydrolase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>152</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800677|ref|YP_207389.1|</Iteration_query-ID>
+  <Iteration_query-def>phosphohydrolase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>152</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|84028725|sp|P0AFC1.1|NUDB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin triphosphate pyrophosphatase; AltName: Full=dATP pyrophosphohydrolase [Escherichia coli O157:H7] &gt;gi|84028726|sp|P0AFC0.1|NUDB_ECOLI RecName: Full=Dihydroneopterin triphosphate pyrophosphatase; AltName: Full=dATP pyrophosphohydrolase [Escherichia coli K-12] &gt;gi|84028727|sp|P0AFC2.1|NUDB_SHIFL RecName: Full=Dihydroneopterin triphosphate pyrophosphatase; AltName: Full=dATP pyrophosphohydrolase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFC1</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>6.92136e-25</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>KPLKYPVSALVVLYSGDGG-ILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGI--LLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPSNRRAI</Hsp_qseq>
+      <Hsp_hseq>KVYKRPVSILVVIYAQDTKRVLMLQRRDDPDFWQSVTGSVEEGETAPQAAMREVKEEVTIDVVAEQLTLIDCQRTVEFEIFSHLRHRYAPGVTRNTESWFCLALPHERQIVFT--EHLAYKWLDAPAAAALTKSWSNRQAI</Hsp_hseq>
+      <Hsp_midline>K  K PVS LVV+Y+ D   +L+++R     FWQSVTGS+E GET  Q A REV EE  I  + E   L D   +  +EI+ H RHRY  GV  N E  F   +P +  +V    EH++Y W     AA    S SNR+AI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1171781|sp|P44635.1|NUDB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Dihydroneopterin triphosphate pyrophosphatase; AltName: Full=dATP pyrophosphohydrolase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44635</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>3.02845e-21</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>SALVVLYSGDGG-ILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQ--LQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPSNRRAI</Hsp_qseq>
+      <Hsp_hseq>SVLVVIYTKDTNRVLMLQRQDDPDFWQSVTGTIESDETPKKTAIRELWEEVRLDISENSTALFDCNESIEFEIFPHFRYKYAPNITHCKEHWFLCEVEKEFIPVLS--EHLDFCWVSAKKAVEMTKSQNNAEAI</Hsp_hseq>
+      <Hsp_midline>S LVV+Y+ D   +L+++R     FWQSVTG++E  ET  +TA RE+WEE  + + +    L D ++S  +EI+ H+R++Y   +   +EH F  E+ ++   VL   EH+ + W   ++A E   S +N  AI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|6685619|sp|Q9X6X4.1|LIPB_MYXXA</Hit_id>
+  <Hit_def>RecName: Full=Octanoyltransferase; AltName: Full=Lipoate-protein ligase B; AltName: Full=Lipoyl/octanoyl transferase; AltName: Full=Octanoyl-[acyl-carrier-protein]-protein N-octanoyltransferase [Myxococcus xanthus]</Hit_def>
+  <Hit_accession>Q9X6X4</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.28892e-07</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>AKPLKYPVSALVVLYSGDGGILLIERTHPK--GFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKV</Hsp_qseq>
+      <Hsp_hseq>APPPMRTVSIAVVKGRGPEARVLLVRRRPERGGFWQVLTGRLEAGESPAQAAARELEEETGLRVPLVDLDYRHAFALGEALP------PQLVEENG---FAVHVPPDADVRLG-AEHDAFEWVDVPTALERL</Hsp_hseq>
+      <Hsp_midline>A P    VS  VV   G    +L+ R  P+  GFWQ +TG LE GE+ AQ A RE+ EETG+ +    L  RH   + E         P+ V EN    F   +P D  V L   EH ++ W  +  A E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|51701681|sp|Q8JZU0.2|NUD13_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate-linked moiety X motif 13; Short=Nudix motif 13 [Mus musculus]</Hit_def>
+  <Hit_accession>Q8JZU0</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.1437e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MPMAKPLKYP-VSALVVLYSGDGGILLIER--THPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEE</Hsp_qseq>
+      <Hsp_hseq>CPSSKIIYYPQMAPVVITLVSDGARCLLARQSSFPKGLYSALAGFCDIGESVEETVHREVAEEVGLEVENIQ---------YSASQHW--PFPNSSLMIACHA--TVKPGHTEIQVNLKELEAAAWFSLDE</Hsp_hseq>
+      <Hsp_midline> P +K + YP ++ +V+    DG   L+ R  + PKG + ++ G  + GE+V +T  REV EE G+ +E+ Q         Y    HW   +P        H      P  T + +  +E  +  WF L+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|51701672|sp|Q86X67.3|NUD13_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate-linked moiety X motif 13; Short=Nudix motif 13; AltName: Full=Protein KiSS-16 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q86X67</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>3.27783e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>PLKYPVSALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAA</Hsp_qseq>
+      <Hsp_hseq>PQMAPV-AITLVSDGTRCLLARQSSFPKGMYSALAGFCDIGESVEETIRREVAEEVGLEVESLQ---------YYASQHW--PFPSGSLMIACHA--TVKPGQTEIQVNLRELETAAWFSHDEVA</Hsp_hseq>
+      <Hsp_midline>P   PV A+ ++  G   +L  + + PKG + ++ G  + GE+V +T RREV EE G+ +E  Q         Y    HW   +P G      H      P  T + +   E  +  WF  +E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|12230354|sp|Q9Y7J0.1|NPY1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Probable NADH pyrophosphatase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9Y7J0</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000148967</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>SALVVLYSGDGGILLIERT--HPKGFWQSVTGSLEPGETVAQTARREVWEETGILLE</Hsp_qseq>
+      <Hsp_hseq>CVIMVILSHDMQHILLGRALRHPKGLYACLAGFLEPGESLEEAVVRETYEESGVDVE</Hsp_hseq>
+      <Hsp_midline>  ++V+ S D   +L+ R   HPKG +  + G LEPGE++ +   RE +EE+G+ +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123759622|sp|Q3Z2Y5.1|NUDJ_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Phosphatase NudJ [Shigella sonnei Ss046] &gt;gi|123769433|sp|Q31ZL0.1|NUDJ_SHIBS RecName: Full=Phosphatase NudJ [Shigella boydii Sb227]</Hit_def>
+  <Hit_accession>Q3Z2Y5</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00023217</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLYSGDGGILLIERT-HPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>PHVTVACVVHAEGKFLVVEETINGKALWNQPAGHLEADETLVEAAARELWEETGI</Hsp_hseq>
+      <Hsp_midline>P   +  +   +G  L++E T + K  W    G LE  ET+ + A RE+WEETGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|83288288|sp|P0AEI8.1|NUDJ_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Phosphatase NudJ [Escherichia coli O157:H7] &gt;gi|83288289|sp|P0AEI7.1|NUDJ_ECOL6 RecName: Full=Phosphatase NudJ [Escherichia coli CFT073] &gt;gi|83288290|sp|P0AEI6.1|NUDJ_ECOLI RecName: Full=Phosphatase NudJ [Escherichia coli K-12] &gt;gi|83288291|sp|P0AEI9.1|NUDJ_SHIFL RecName: Full=Phosphatase NudJ [Shigella flexneri] &gt;gi|123048273|sp|Q0T5N8.1|NUDJ_SHIF8 RecName: Full=Phosphatase NudJ [Shigella flexneri 5 str. 8401] &gt;gi|123049283|sp|Q0TIT9.1|NUDJ_ECOL5 RecName: Full=Phosphatase NudJ [Escherichia coli 536] &gt;gi|123084481|sp|Q1RD19.1|NUDJ_ECOUT RecName: Full=Phosphatase NudJ [Escherichia coli UTI89] &gt;gi|123728549|sp|Q32EZ2.1|NUDJ_SHIDS RecName: Full=Phosphatase NudJ [Shigella dysenteriae Sd197] &gt;gi|193806252|sp|A7ZKS4.1|NUDJ_ECO24 RecName: Full=Phosphatase NudJ [Escherichia coli O139:H28 str. E24377A] &gt;gi|193806253|sp|B1XA44.1|NUDJ_ECODH RecName: Full=Phosphatase NudJ [Escherichia coli str. K-12 substr. DH10B] &gt;gi|193806254|sp|A7ZZ89.1|NUDJ_ECOHS RecName: Full=Phosphatase NudJ [Escherichia coli HS] &gt;gi|193806255|sp|A1AA28.1|NUDJ_ECOK1 RecName: Full=Phosphatase NudJ [Escherichia coli APEC O1] &gt;gi|193806256|sp|B1IUD3.1|NUDJ_ECOLC RecName: Full=Phosphatase NudJ [Escherichia coli ATCC 8739] &gt;gi|193806257|sp|B1LI09.1|NUDJ_ECOSM RecName: Full=Phosphatase NudJ [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>P0AEI8</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000234615</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLYSGDGGILLIERT-HPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>PHVTVACVVHAEGKFLVVEETINGKALWNQPAGHLEADETLVEAAARELWEETGI</Hsp_hseq>
+      <Hsp_midline>P   +  +   +G  L++E T + K  W    G LE  ET+ + A RE+WEETGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1703327|sp|P50584.3|AP4A_PIG</Hit_id>
+  <Hit_def>RecName: Full=Bis(5&apos;-nucleosyl)-tetraphosphatase [asymmetrical]; AltName: Full=Diadenosine 5&apos;,5&apos;&apos;&apos;-P1,P4-tetraphosphate asymmetrical hydrolase; Short=Ap4A hydrolase; Short=Ap4Aase; Short=Diadenosine tetraphosphatase; AltName: Full=Nucleoside diphosphate-linked moiety X motif 2; Short=Nudix motif 2 [Sus scrofa]</Hit_def>
+  <Hit_accession>P50584</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000405238</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPSNRRAILELG</Hsp_qseq>
+      <Hsp_hseq>LLLQASNGIHHWTPPKGHVEPGESDLQTALRETQEEAGI--DAGQLTIIEGFRKELNYVAWEK--PKTVI-----YWLAEVKDYDVEVRLSREHQAYRWLGLDEACQ-LAQFKDMKAVLQEG</Hsp_hseq>
+      <Hsp_midline>LL++ ++    W    G +EPGE+  QTA RE  EE GI  + GQL           Y  W    PK V       + AE+      V    EH +Y W GL+EA + +    + +A+L+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|68565923|sp|Q94A82.1|NUD19_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nudix hydrolase 19, chloroplastic; Short=AtNUDT19; AltName: Full=NADH pyrophosphatase NUDT19; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q94A82</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000489718</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VSALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLED</Hsp_qseq>
+      <Hsp_hseq>VIMLVIDRENDRALLSRQSRYVPRMWSCLAGFIEPGESLEEAVRRETWEETGIEVGD</Hsp_hseq>
+      <Hsp_midline>V  LV+    D  +L  +  +    W  + G +EPGE++ +  RRE WEETGI + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123099523|sp|Q2N9Y3.1|RPPH_ERYLH</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Erythrobacter litoralis HTCC2594]</Hit_def>
+  <Hit_accession>Q2N9Y3</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000642256</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>LKYPVSALVVLYSGDGGILLIERTHPK--GFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>LRYRQCAGVMLANREGLVFAAQRIDSKNLGAWQMPQGGIDPGETQQEAAMRELEEETGV</Hsp_hseq>
+      <Hsp_midline>L+Y   A V+L + +G +   +R   K  G WQ   G ++PGET  + A RE+ EETG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|254767763|sp|B7VM66.1|NUDC_VIBSL</Hit_id>
+  <Hit_def>RecName: Full=NADH pyrophosphatase [Vibrio tasmaniensis LGP32]</Hit_def>
+  <Hit_accession>B7VM66</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000642829</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AKPLKYP--VSALVVLYSGDGGILLIER-THPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>CRTLHYPRIFPCIIVAVRNDNKILLAQHPRHKTGMYTVIAGFLEVGETLEQCVAREVKEETGI</Hsp_hseq>
+      <Hsp_midline> + L YP     ++V    D  ILL +   H  G +  + G LE GET+ Q   REV EETGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1703326|sp|P50583.3|AP4A_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Bis(5&apos;-nucleosyl)-tetraphosphatase [asymmetrical]; AltName: Full=Diadenosine 5&apos;,5&apos;&apos;&apos;-P1,P4-tetraphosphate asymmetrical hydrolase; Short=Ap4A hydrolase; Short=Ap4Aase; Short=Diadenosine tetraphosphatase; AltName: Full=Nucleoside diphosphate-linked moiety X motif 2; Short=Nudix motif 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>P50583</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000720912</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>LLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIY----HHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPSNRRAILELGRFL</Hsp_qseq>
+      <Hsp_hseq>LLLQASDGIHHWTPPKGHVEPGEDDLETALRETQEEAGI--EAGQL------TIIEGFKRELNYVARNKPKTVI-----YWLAEVKDYDVEIRLSHEHQAYRWLGLEEACQLAQFKEMKAALQEGHQFL</Hsp_hseq>
+      <Hsp_midline>LL++ +     W    G +EPGE   +TA RE  EE GI  E GQL      T+ E +    ++     PK V       + AE+      +    EH +Y W GLEEA +       + A+ E  +FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75520868|sp|Q75UV1.1|NDX1_THETH</Hit_id>
+  <Hit_def>RecName: Full=Diadenosine hexaphosphate hydrolase; Short=Ap6A hydrolase; AltName: Full=ATP-generating (di)nucleotide polyphosphate hydrolase; AltName: Full=ATP-generating Ap6A hydrolase; AltName: Full=Nudix protein [Thermus thermophilus]</Hit_def>
+  <Hit_accession>Q75UV1</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00113336</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>GFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPSN</Hsp_qseq>
+      <Hsp_hseq>GFWVFPKGHPEPGESLEEAAVREVWEETGVRAE----------VLLPLYPT-RYVNPKGV-EREVHWF---LMRGEGAPRLEEGMTGAGWFSPEEARALLAFPED</Hsp_hseq>
+      <Hsp_midline>GFW    G  EPGE++ + A REVWEETG+  E           +  +Y   R+  PKGV E   H F   + R        E     GWF  EEA   +  P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|417332|sp|P32091.1|MUTT_STRAM</Hit_id>
+  <Hit_def>RecName: Full=MutT-like protein; AltName: Full=ORF154 [Streptomyces ambofaciens]</Hit_def>
+  <Hit_accession>P32091</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00144474</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>KPLKYPVSALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFE</Hsp_qseq>
+      <Hsp_hseq>SPPLHSVSVAGVVVREDGRLLAIRRAD-NGTWELPGGVLELDETPETGVAREVWEETGIRVEVDELTGVYKNTTRGIVALVFRCKPSGGVE</Hsp_hseq>
+      <Hsp_midline> P  + VS   V+   DG +L I R    G W+   G LE  ET      REVWEETGI +E  +L   + +T   I        P G  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|67461052|sp|Q8CH40.1|NUDT6_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate-linked moiety X motif 6; Short=Nudix motif 6; AltName: Full=Antisense basic fibroblast growth factor B [Mus musculus]</Hit_def>
+  <Hit_accession>Q8CH40</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00211669</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>ILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAA</Hsp_qseq>
+      <Hsp_hseq>LVVQDRNKLKNMWKFPGGLSEPGEDIADTAVREVFEETGVKSEFRSLLSIRQ----------QHRSPGAFGMSDMYLVCRLQPRSFTINFCQQECLKCEWIDLENLA</Hsp_hseq>
+      <Hsp_midline>+++ +R   K  W+   G  EPGE +A TA REV+EETG+  E   L               +HR P     +  ++     PR   +    +E +   W  LE  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|67476788|sp|P56380.3|AP4A_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Bis(5&apos;-nucleosyl)-tetraphosphatase [asymmetrical]; AltName: Full=Diadenosine 5&apos;,5&apos;&apos;&apos;-P1,P4-tetraphosphate asymmetrical hydrolase; Short=Ap4A hydrolase; Short=Ap4Aase; Short=Diadenosine tetraphosphatase; AltName: Full=Nucleoside diphosphate-linked moiety X motif 2; Short=Nudix motif 2 [Mus musculus]</Hit_def>
+  <Hit_accession>P56380</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00244007</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIY----HHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAE</Hsp_qseq>
+      <Hsp_hseq>LLLQASDGIHHWTPPKGHVDPGENDLETALRETREETGI--EASQL------TIIEGFRRELNYVARQKPKTVI-----YWLAEVKDYNVEIRLSQEHQAYRWLGLEEACQ</Hsp_hseq>
+      <Hsp_midline>LL++ +     W    G ++PGE   +TA RE  EETGI  E  QL      T+ E +    ++   + PK V       + AE+      +   +EH +Y W GLEEA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|27734641|sp|Q9ZG11.1|YO19_RHOER</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized Nudix hydrolase orf19 [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>Q9ZG11</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00260461</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>VSALVVLYSGDGG-ILLIERTHPK----GFWQSVTGSL-EPGETVAQTARREVWEETGIL-LEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPS-----NRRAIL</Hsp_qseq>
+      <Hsp_hseq>ASAGVLVRTGDGSRIYVHRRTDTKAVFGGYHDCLAGGVVDPGETPQETAIREVGEELGIFGTADQPLQLTEIARI-----SWDGEWNNSPL--RCHLFAFELRYDGPMAHQPSEIAEGWWWTPKELGAHLQDPSWPFVPDSRALL</Hsp_hseq>
+      <Hsp_midline> SA V++ +GDG  I +  RT  K    G+   + G + +PGET  +TA REV EE GI    D  LQ    + +      W   +       R H+F  E+  D P+  QP E     W+  +E    +  PS     + RA+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|68565934|sp|Q9CWD3.1|NUD17_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate-linked moiety X motif 17; Short=Nudix motif 17 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9CWD3</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00323645</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MPMAKPLKYPVSAL----------------------VVLYSGDGGILLIERTH----PKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGV---FENREH--VFRAEIPRDTPVVLQ------PEEHVSYGWFGLEEAAEKVFSPSNRRA</Hsp_qseq>
+      <Hsp_hseq>LPIQRPLFCPFAALDQQPEVSKTEPLTNRGVDLGVAVILQSSDQTVLLTRRTCTLRISPNLWVPPGGHMEPDEEILECGFRELWEECGLQLPKNQF-----SCV--LLGLWESAYPPRLSWGFPKYHHLILYVLVISQESQEQLQARIQVNPNEVNAFMWLGPDVAAAVVATEDGTRT</Hsp_hseq>
+      <Hsp_midline>+P+ +PL  P +AL                      V+L S D  +LL  RT         W    G +EP E + +   RE+WEE G+ L   Q      S V  +   W   YP  +   F    H  ++   I +++   LQ      P E  ++ W G + AA  V +    R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|68565870|sp|P93740.2|NUD23_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nudix hydrolase 23, chloroplastic; Short=AtNUDT23; AltName: Full=ADP-ribose pyrophosphatase; AltName: Full=FAD diphosphatase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P93740</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00416266</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLYSGDGGILLIERT-HPK-GFWQSVTGSLEPGETVAQTARREVWEETGILLE</Hsp_qseq>
+      <Hsp_hseq>PKMVVGCLIEHEGKVLLCKRNIQPSHGLWTLPAGYLEVGESAAQGAMRETWEEAGATVE</Hsp_hseq>
+      <Hsp_midline>P   +  L   +G +LL +R   P  G W    G LE GE+ AQ A RE WEE G  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|48428353|sp|Q7NZ10.1|RPPH_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NZ10</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00428549</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>WQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDR-HDSTVYEIYHHWRHRYPKGVFENREHVF--RAEIPRDTPVVLQPEEHVSY-GW-----FGLEEAAEKVFSPSNRRAILELGRFL</Hsp_qseq>
+      <Hsp_hseq>WQFPQGGIKPGESPEAAMYRELLEEVGLLPQHVKILGRTRDWLRYEVPTNWVRREWRGSYKGQKQIWFLLRLVGRDSDVCLRATNHPEFDGWRWNDYWAPVDAVIEFKRDVYERALSELARFM</Hsp_hseq>
+      <Hsp_midline>WQ   G ++PGE+      RE+ EE G+L +  ++  R  D   YE+  +W  R  +G ++ ++ ++     + RD+ V L+   H  + GW     +   +A  +       RA+ EL RF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|68565930|sp|Q9BQG2.1|NUD12_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peroxisomal NADH pyrophosphatase NUDT12; AltName: Full=Nucleoside diphosphate-linked moiety X motif 12; Short=Nudix motif 12 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BQG2</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00485926</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLY-SGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>PVVIMQVIHPDGTKCLLGRQKRFPPGMFTCLAGFIEPGETIEDAVRREVEEESGV</Hsp_hseq>
+      <Hsp_midline>PV  + V++  G   +L  ++  P G +  + G +EPGET+    RREV EE+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81676067|sp|Q5LMH8.1|RPPH_RUEPO</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Ruegeria pomeroyi DSS-3]</Hit_def>
+  <Hit_accession>Q5LMH8</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00487336</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>LKYPVSALVVLYSGDGGILLIERTHPK-GFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTV-YEIYHHWRHRYPKGVFENREH</Hsp_qseq>
+      <Hsp_hseq>LPYRPCVGVVLMNGDGFVFVGQRMDQNTDAWQMPQGGVDEDEDPFEAALRELWEETGVTADLVEMVAETDGWLPYDLPHDLVPRIWKGRYRGQEQ</Hsp_hseq>
+      <Hsp_midline>L Y     VVL +GDG + + +R       WQ   G ++  E   + A RE+WEETG+  +  ++    D  + Y++ H    R  KG +  +E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|68565878|sp|Q5RD76.1|NUD12_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Peroxisomal NADH pyrophosphatase NUDT12; AltName: Full=Nucleoside diphosphate-linked moiety X motif 12; Short=Nudix motif 12 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RD76</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0049061</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLY-SGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>PVVIMQVIHPDGTKCLLGRQKRFPPGMFTCLAGFIEPGETIEDAVRREVEEESGV</Hsp_hseq>
+      <Hsp_midline>PV  + V++  G   +L  ++  P G +  + G +EPGET+    RREV EE+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|118573087|sp|Q29RH3.1|NUD12_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Peroxisomal NADH pyrophosphatase NUDT12; AltName: Full=Nucleoside diphosphate-linked moiety X motif 12; Short=Nudix motif 12 [Bos taurus]</Hit_def>
+  <Hit_accession>Q29RH3</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00491301</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLY-SGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>PVVIMQVIHPDGTKCLLGRQKRFPPGMFTCLAGFIEPGETIEDAVRREVEEESGV</Hsp_hseq>
+      <Hsp_midline>PV  + V++  G   +L  ++  P G +  + G +EPGET+    RREV EE+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|68565936|sp|Q9DCN1.1|NUD12_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Peroxisomal NADH pyrophosphatase NUDT12; AltName: Full=Nucleoside diphosphate-linked moiety X motif 12; Short=Nudix motif 12 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9DCN1</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00583089</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLY-SGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>PVVIMQVIHPDGTKCLLGRQKRFPPGMFTCLAGFIEPGETIEDAVRREVEEESGV</Hsp_hseq>
+      <Hsp_midline>PV  + V++  G   +L  ++  P G +  + G +EPGET+    RREV EE+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2498001|sp|P70563.1|NUDT6_RAT</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate-linked moiety X motif 6; Short=Nudix motif 6; AltName: Full=Protein GFG [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P70563</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00609952</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>ILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAA</Hsp_qseq>
+      <Hsp_hseq>LVVQDRNKLKNMWKFPGGLSEPGEDIGDTAVREVFEETGVKSEFRSLLSIRQ----------QHRSPGAFGMSDMYLICRLQPRSFTINFCQQECLKCEWMDLESLA</Hsp_hseq>
+      <Hsp_midline>+++ +R   K  W+   G  EPGE +  TA REV+EETG+  E   L               +HR P     +  ++     PR   +    +E +   W  LE  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|123796947|sp|Q3U2V3.1|NUD18_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=8-oxo-dGDP phosphatase NUDT18; AltName: Full=2-hydroxy-dADP phosphatase; AltName: Full=7,8-dihydro-8-oxoguanine phosphatase; AltName: Full=MutT homolog 3; AltName: Full=Nucleoside diphosphate-linked moiety X motif 18; Short=Nudix motif 18 [Mus musculus]</Hit_def>
+  <Hit_accession>Q3U2V3</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00615897</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>PMAKPLKYPVS--------ALVVLYSGDGGILLIE--RTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLE</Hsp_qseq>
+      <Hsp_hseq>PAGKPL-FPVRLRKNVCYVVLAVFLNEQDEVLMIQEAKRECRGTWYLPAGRMEPGETIVEAMQREVKEEAGLLCE</Hsp_hseq>
+      <Hsp_midline>P  KPL +PV          L V  +    +L+I+  +   +G W    G +EPGET+ +  +REV EE G+L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|75076759|sp|Q4R7L8.1|NUD12_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Peroxisomal NADH pyrophosphatase NUDT12; AltName: Full=Nucleoside diphosphate-linked moiety X motif 12; Short=Nudix motif 12 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q4R7L8</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00693036</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PVSALVVLY-SGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>PVVIMQVIHPDGTRCLLGRQKRFPPGMFTCLAGFIEPGETIEDAVRREVEEESGV</Hsp_hseq>
+      <Hsp_midline>PV  + V++  G   +L  ++  P G +  + G +EPGET+    RREV EE+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|12230370|sp|P77788.1|NUDG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=CTP pyrophosphohydrolase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77788</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00723048</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VSALVVLYSGDGGILLIER---THPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYE-IYHHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPSN</Hsp_qseq>
+      <Hsp_hseq>IEVVAAIIERDGKILLAQRPAQSDQAGLWEFAGGKVEPDESQRQALVRELREELGI-----------EATVGEYVASHQREVSGRIIHLHAWHV------PDFHGTLQAHEHQALVWCSPEEALQYPLAPAD</Hsp_hseq>
+      <Hsp_midline>+  +  +   DG ILL +R   +   G W+   G +EP E+  Q   RE+ EE GI           ++TV E +  H R    + +  +  HV       D    LQ  EH +  W   EEA +   +P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|13431744|sp|P57965.1|NUDC_PASMU</Hit_id>
+  <Hit_def>RecName: Full=NADH pyrophosphatase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>P57965</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00961872</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>PMAKPLKYPV---SALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLED</Hsp_qseq>
+      <Hsp_hseq>PSCSHRTYPVICPCIIVAVRRGAQILLANHQRHKGGIYTTLAGFVEVGETFEQAVHREVLEETGIQIQN</Hsp_hseq>
+      <Hsp_midline>P      YPV     +V +  G   +L   + H  G + ++ G +E GET  Q   REV EETGI +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|172045975|sp|Q641Y7.2|NUD18_RAT</Hit_id>
+  <Hit_def>RecName: Full=8-oxo-dGDP phosphatase NUDT18; AltName: Full=2-hydroxy-dADP phosphatase; AltName: Full=7,8-dihydro-8-oxoguanine phosphatase; AltName: Full=MutT homolog 3; AltName: Full=Nucleoside diphosphate-linked moiety X motif 18; Short=Nudix motif 18 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q641Y7</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0143621</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>PMAKPLKYPVS--------ALVVLYSGDGGILLIE--RTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREH</Hsp_qseq>
+      <Hsp_hseq>PAGKPL-LPVRLRKNVCYVVLAVFLNEQDEVLMIQEAKRECRGTWYLPAGRMEPGETIVEAMQREVKEEAGLLCEPVTLLSVEERGASWIRFVFLARPTGGVLKTSKN</Hsp_hseq>
+      <Hsp_midline>P  KPL  PV          L V  +    +L+I+  +   +G W    G +EPGET+ +  +REV EE G+L E   L    +     I   +  R   GV +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|254768057|sp|A4FUG7.1|NUD17_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate-linked moiety X motif 17; Short=Nudix motif 17 [Bos taurus]</Hit_def>
+  <Hit_accession>A4FUG7</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0147595</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>VVLYSGDGGILLIERTH----PKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQL</Hsp_qseq>
+      <Hsp_hseq>VILQSSDQTVLLTRRTSTLNISPNLWVPPGGHVEPDEELLDGGLRELWEESGLQLPQGQF</Hsp_hseq>
+      <Hsp_midline>V+L S D  +LL  RT         W    G +EP E +     RE+WEE+G+ L  GQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|26006999|sp|P95781.2|MUTX_STRMU</Hit_id>
+  <Hit_def>RecName: Full=8-oxo-dGTP diphosphatase; Short=8-oxo-dGTPase; AltName: Full=7,8-dihydro-8-oxoguanine-triphosphatase; AltName: Full=Mutator protein MutT; AltName: Full=dGTP pyrophosphohydrolase [Streptococcus mutans UA159]</Hit_def>
+  <Hit_accession>P95781</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0152932</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VVLYSGDGGILLIERTHPK------GFWQSVTGSLEPGETVAQTARREVWEETGILLE</Hsp_qseq>
+      <Hsp_hseq>TICYIDNGCELLLMHRNKKPNDVHEGKWISVGGKLEKGESPDECARREIFEETHLIVK</Hsp_hseq>
+      <Hsp_midline> + Y  +G  LL+   + K      G W SV G LE GE+  + ARRE++EET ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81711753|sp|Q7NTZ8.1|NUDC_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=NADH pyrophosphatase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NTZ8</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0157233</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>ALVVLYSGDGGILLIERTH-PKGFWQSVTGSLEPGETVAQTARREVWEETGILLED</Hsp_qseq>
+      <Hsp_hseq>AMMVLVRRGRELLLARSPHFAPGMYSALAGFVEPGETLEECVHRETWEEVGVKVKN</Hsp_hseq>
+      <Hsp_midline>A++VL      +LL    H   G + ++ G +EPGET+ +   RE WEE G+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|67460101|sp|Q6PEC0.3|AP4A_RAT</Hit_id>
+  <Hit_def>RecName: Full=Bis(5&apos;-nucleosyl)-tetraphosphatase [asymmetrical]; AltName: Full=Diadenosine 5&apos;,5&apos;&apos;&apos;-P1,P4-tetraphosphate asymmetrical hydrolase; Short=Ap4A hydrolase; Short=Ap4Aase; Short=Diadenosine tetraphosphatase; AltName: Full=Nucleoside diphosphate-linked moiety X motif 2; Short=Nudix motif 2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q6PEC0</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0181313</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIY----HHWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAE</Hsp_qseq>
+      <Hsp_hseq>LLLQASDGIHHWTPPKGHVDPGENDLETALRETQEETGI--EASQL------IVLEGFRRELNYVARKKPKTVI-----YWLAEVKDYDVEIRLSQEHQAYRWLGLDEACQ</Hsp_hseq>
+      <Hsp_midline>LL++ +     W    G ++PGE   +TA RE  EETGI  E  QL       V E +    ++   + PK V       + AE+      +   +EH +Y W GL+EA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|59798190|sp|Q65W71.1|NUDC_MANSM</Hit_id>
+  <Hit_def>RecName: Full=NADH pyrophosphatase [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65W71</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0204292</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>YPV---SALVVLYSGDGGILLIERTH-PK----GFWQSVTGSLEPGETVAQTARREVWEETGILLED</Hsp_qseq>
+      <Hsp_hseq>YPVICPSIIVAIRRGKEILLANHRRHAPKYGKGGMYTTLAGFVEVGESFEQTIHREVFEETGIKVKN</Hsp_hseq>
+      <Hsp_midline>YPV   S +V +  G   +L   R H PK    G + ++ G +E GE+  QT  REV+EETGI +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|31563108|sp|Q89X78.1|RPPH_BRADU</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89X78</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0223713</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>VSALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRA--------EIPRDTPVVLQPEEHVSYGW</Hsp_qseq>
+      <Hsp_hseq>AKGLVFIGRRAGGIEHIDDTH---VWQMPQGGVDPGEDTWAAAKRELYEETSVRSVE-RLGEVPDWLIYDIPRTVAGRAWKGRYRGQRQKWFAVRFTGKDSEINVENPGGGHKAEFVSWRW</Hsp_hseq>
+      <Hsp_midline>   LV +    GGI  I+ TH    WQ   G ++PGE     A+RE++EET +   + +L +  D  +Y+I      R  KG +  +   + A        EI  + P      E VS+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|122298006|sp|Q07V02.1|RPPH_RHOP5</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Rhodopseudomonas palustris BisA53]</Hit_def>
+  <Hit_accession>Q07V02</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0228614</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYHHWRHRYPKGVFENREHVFRA--------EIPRDTPVVLQPEEHVSYGW</Hsp_qseq>
+      <Hsp_hseq>GLVFIGRRSGGIEHVDDSH---VWQMPQGGVDPGEDTWAAAKRELYEETSVQSVE-KLGEISDWLIYDIPRTVAGRAWKGRYRGQRQKWYAVRFTGLDSEIDVTTPGGGHKAEFISWRW</Hsp_hseq>
+      <Hsp_midline> LV +    GGI  ++ +H    WQ   G ++PGE     A+RE++EET +   + +L +  D  +Y+I      R  KG +  +   + A        EI   TP      E +S+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|238057836|sp|B3CM46.1|RPPH_WOLPP</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Wolbachia endosymbiont of Culex quinquefasciatus Pel]</Hit_def>
+  <Hit_accession>B3CM46</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0251851</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>VVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETG</Hsp_qseq>
+      <Hsp_hseq>IMLFNKQGNIFIGKRFDSDSYWQMPQGGVDEGEELEQAALRELLEEVG</Hsp_hseq>
+      <Hsp_midline>++L++  G I + +R     +WQ   G ++ GE + Q A RE+ EE G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|75507998|sp|Q5GT39.1|RPPH_WOLTR</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Wolbachia endosymbiont strain TRS of Brugia malayi]</Hit_def>
+  <Hit_accession>Q5GT39</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0254698</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KYPVSALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETG</Hsp_qseq>
+      <Hsp_hseq>KYRPCVGIMLFNKQGHVFIGKRFDSDSYWQMPQGGIDDGEKLEQAALRELLEEVG</Hsp_hseq>
+      <Hsp_midline>KY     ++L++  G + + +R     +WQ   G ++ GE + Q A RE+ EE G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|75308841|sp|Q9C6Z2.1|NUD25_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nudix hydrolase 25; Short=AtNUDT25; AltName: Full=Bis(5&apos;-nucleosyl)-tetraphosphatase (asymmetrical) [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9C6Z2</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0273922</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>PLKYPVSALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGIL</Hsp_qseq>
+      <Hsp_hseq>PPGYRPNVGVCLINSDNLVFVASRLNVPGAWQMPQGGIEDGEDPKSAAMRELQEETGVV</Hsp_hseq>
+      <Hsp_midline>P  Y  +  V L + D  + +  R +  G WQ   G +E GE     A RE+ EETG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|123293320|sp|Q2J3I9.1|RPPH_RHOP2</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Rhodopseudomonas palustris HaA2]</Hit_def>
+  <Hit_accession>Q2J3I9</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0322799</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>SALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEI-----YHHWRHRY</Hsp_qseq>
+      <Hsp_hseq>AGLVFIGRRAGGIEHVDDTH---VWQMPQGGVDPGEDTWEAAKRELYEETNVRSVE-KIAEVPDWLIYDIPRTVAGRAWKGRY</Hsp_hseq>
+      <Hsp_midline>+ LV +    GGI  ++ TH    WQ   G ++PGE   + A+RE++EET +   + ++ +  D  +Y+I        W+ RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|48428317|sp|P61786.1|RPPH_RHOPA</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Rhodopseudomonas palustris CGA009]</Hit_def>
+  <Hit_accession>P61786</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0358838</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>ALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEI-----YHHWRHRY</Hsp_qseq>
+      <Hsp_hseq>GLVFIGRRAGGIEHVDDTH---VWQMPQGGVDPGEDTWKAAKRELYEETSVNSVE-KLAEVPDWLIYDIPRTVAGRAWKGRY</Hsp_hseq>
+      <Hsp_midline> LV +    GGI  ++ TH    WQ   G ++PGE   + A+RE++EET +   + +L +  D  +Y+I        W+ RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|460018323|sp|Q6ZVK8.3|NUD18_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=8-oxo-dGDP phosphatase NUDT18; AltName: Full=2-hydroxy-dADP phosphatase; AltName: Full=7,8-dihydro-8-oxoguanine phosphatase; AltName: Full=MutT homolog 3; AltName: Full=Nucleoside diphosphate-linked moiety X motif 18; Short=Nudix motif 18 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6ZVK8</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0472432</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LVVLYSGDGGILLIE--RTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLE</Hsp_qseq>
+      <Hsp_hseq>LAVFLSEQDEVLLIQEAKRECRGSWYLPAGRMEPGETIVEALQREVKEEAGLHCE</Hsp_hseq>
+      <Hsp_midline>L V  S    +LLI+  +   +G W    G +EPGET+ +  +REV EE G+  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166233832|sp|A4VLQ5.1|NUDC_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=NADH pyrophosphatase [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VLQ5</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0475917</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>SALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>SMIVLVTRGDELLLARSPRFAPGVYSTLAGYVEPGESVEQCVAREVREEVGV</Hsp_hseq>
+      <Hsp_midline>S +V++  GD  +L        G + ++ G +EPGE+V Q   REV EE G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|123362213|sp|Q16BL5.1|RPPH_ROSDO</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Roseobacter denitrificans OCh 114]</Hit_def>
+  <Hit_accession>Q16BL5</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0521906</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LKYPVSALVVLYSGDGGILLIER-THPKGFWQSVTGSLEPGETVAQTARREVWEETGI</Hsp_qseq>
+      <Hsp_hseq>LPYRPCVGVMLMNGQGEVFVGQRRDNNVAAWQMPQGGVEKGEDPRAAALRELWEETGV</Hsp_hseq>
+      <Hsp_midline>L Y     V+L +G G + + +R  +    WQ   G +E GE     A RE+WEETG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|118572827|sp|Q29RJ1.3|AP4A_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Bis(5&apos;-nucleosyl)-tetraphosphatase [asymmetrical]; AltName: Full=Diadenosine 5&apos;,5&apos;&apos;&apos;-P1,P4-tetraphosphate asymmetrical hydrolase; Short=Ap4A hydrolase; Short=Ap4Aase; Short=Diadenosine tetraphosphatase; AltName: Full=Nucleoside diphosphate-linked moiety X motif 2; Short=Nudix motif 2 [Bos taurus]</Hit_def>
+  <Hit_accession>Q29RJ1</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0551559</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>LLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEIYH----HWRHRYPKGVFENREHVFRAEIPRDTPVVLQPEEHVSYGWFGLEEAAEKVFSPSNRRAILELGRFL</Hsp_qseq>
+      <Hsp_hseq>LLLQASDGIHHWTPPKGHVEPGESDLETALRETQEEAGI--EAGQL------TIIEGFRRELSYVARAKPKIVI-----YWLAEVKDCDVEVRLSREHQAYRWLELEDACQLAQFEEMKAALQEGHQFL</Hsp_hseq>
+      <Hsp_midline>LL++ +     W    G +EPGE+  +TA RE  EE GI  E GQL      T+ E +     +     PK V       + AE+      V    EH +Y W  LE+A +       + A+ E  +FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|123749421|sp|Q13DN7.1|RPPH_RHOPS</Hit_id>
+  <Hit_def>RecName: Full=RNA pyrophosphohydrolase; AltName: Full=(Di)nucleoside polyphosphate hydrolase [Rhodopseudomonas palustris BisB5]</Hit_def>
+  <Hit_accession>Q13DN7</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0571528</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>ALVVLYSGDGGILLIERTHPKGFWQSVTGSLEPGETVAQTARREVWEETGILLEDGQLQDRHDSTVYEI-----YHHWRHRY</Hsp_qseq>
+      <Hsp_hseq>GLVFIGRRAGGIEHVDDTH---VWQMPQGGVDPGEDTWEAAKRELYEETNVRSVE-KIGEVPDWLIYDIPRTVAGRAWKGRY</Hsp_hseq>
+      <Hsp_midline> LV +    GGI  ++ TH    WQ   G ++PGE   + A+RE++EET +   + ++ +  D  +Y+I        W+ RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166233828|sp|A6TGQ3.1|NUDC_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=NADH pyrophosphatase [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TGQ3</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0578916</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>ALVVLYSGDGGILLIERT-HPKGFWQSVTGSLEPGETVAQTARREVWEETGILLED</Hsp_qseq>
+      <Hsp_hseq>CIIVAIRRDDAILLAQHTRHRNGVHTVLAGFVEVGETLEQAVAREVMEESGIRVKN</Hsp_hseq>
+      <Hsp_midline> ++V    D  ILL + T H  G    + G +E GET+ Q   REV EE+GI +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,143 @@
+ID   PPSA_PSEAB              Reviewed;         791 AA.
+AC   Q02KR1;
+DT   07-JAN-2015, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   07-JAN-2015, entry version 59.
+DE   RecName: Full=Phosphoenolpyruvate synthase {ECO:0000255|PIRNR:PIRNR000854};
+DE            Short=PEP synthase {ECO:0000255|PIRNR:PIRNR000854};
+DE            EC=2.7.9.2 {ECO:0000255|PIRNR:PIRNR000854};
+DE   AltName: Full=Pyruvate, water dikinase {ECO:0000255|PIRNR:PIRNR000854};
+GN   Name=ppsA; OrderedLocusNames=PA14_41670;
+OS   Pseudomonas aeruginosa (strain UCBPP-PA14).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UCBPP-PA14;
+RX   PubMed=17038190; DOI=10.1186/gb-2006-7-10-r90;
+RA   Lee D.G., Urbach J.M., Wu G., Liberati N.T., Feinbaum R.L., Miyata S.,
+RA   Diggins L.T., He J., Saucier M., Deziel E., Friedman L., Li L.,
+RA   Grills G., Montgomery K., Kucherlapati R., Rahme L.G., Ausubel F.M.;
+RT   "Genomic analysis reveals that Pseudomonas aeruginosa virulence is
+RT   combinatorial.";
+RL   Genome Biol. 7:R90.1-R90.14(2006).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND PHOSPHORYLATION AT THR-416
+RP   AND TYR-744.
+RC   STRAIN=UCBPP-PA14;
+RX   PubMed=25096199; DOI=10.1007/s00216-014-8045-8;
+RA   Ouidir T., Jarnier F., Cosette P., Jouenne T., Hardouin J.;
+RT   "Potential of liquid-isoelectric-focusing protein fractionation to
+RT   improve phosphoprotein characterization of Pseudomonas aeruginosa
+RT   PA14.";
+RL   Anal. Bioanal. Chem. 406:6297-6309(2014).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pyruvate to
+CC       phosphoenolpyruvate. {ECO:0000255|PIRNR:PIRNR000854}.
+CC   -!- CATALYTIC ACTIVITY: ATP + pyruvate + H(2)O = AMP +
+CC       phosphoenolpyruvate + phosphate. {ECO:0000255|PIRNR:PIRNR000854}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|PIRNR:PIRNR000854}.
+CC   -!- MISCELLANEOUS: The reaction takes place in three steps, mediated
+CC       by a phosphocarrier histidine residue located on the surface of
+CC       the central domain. The two first partial reactions are catalyzed
+CC       at an active site located on the N-terminal domain, and the third
+CC       partial reaction is catalyzed at an active site located on the C-
+CC       terminal domain. For catalytic turnover, the central domain
+CC       swivels from the concave surface of the N-terminal domain to that
+CC       of the C-terminal domain. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PEP-utilizing enzyme family.
+CC       {ECO:0000255|PIRNR:PIRNR000854}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000438; ABJ10956.1; -; Genomic_DNA.
+DR   RefSeq; YP_791475.1; NC_008463.1.
+DR   ProteinModelPortal; Q02KR1; -.
+DR   SMR; Q02KR1; 4-785.
+DR   STRING; 208963.PA14_41670; -.
+DR   PRIDE; Q02KR1; -.
+DR   EnsemblBacteria; ABJ10956; ABJ10956; PA14_41670.
+DR   GeneID; 4382974; -.
+DR   KEGG; pau:PA14_41670; -.
+DR   PATRIC; 19852936; VBIPseAer79785_3411.
+DR   eggNOG; COG0574; -.
+DR   HOGENOM; HOG000230912; -.
+DR   KO; K01007; -.
+DR   OMA; RNVLWYN; -.
+DR   OrthoDB; EOG632CZ4; -.
+DR   BioCyc; PAER208963:GI5K-3365-MONOMER; -.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000000653; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008986; F:pyruvate, water dikinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006090; P:pyruvate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.20.20.60; -; 1.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   Gene3D; 3.30.470.20; -; 1.
+DR   Gene3D; 3.50.30.10; -; 1.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR008279; PEP-util_enz_mobile_dom.
+DR   InterPro; IPR006319; PEP_synth.
+DR   InterPro; IPR018274; PEP_util_AS.
+DR   InterPro; IPR000121; PEP_util_C.
+DR   InterPro; IPR023151; PEP_util_CS.
+DR   InterPro; IPR006318; PEP_util_enz.
+DR   InterPro; IPR002192; PPDK_PEP-bd.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   Pfam; PF00391; PEP-utilizers; 1.
+DR   Pfam; PF02896; PEP-utilizers_C; 1.
+DR   Pfam; PF01326; PPDK_N; 1.
+DR   PIRSF; PIRSF000854; PEP_synthase; 1.
+DR   PRINTS; PR01736; PHPHTRNFRASE.
+DR   SUPFAM; SSF51621; SSF51621; 1.
+DR   SUPFAM; SSF52009; SSF52009; 1.
+DR   TIGRFAMs; TIGR01418; PEP_synth; 1.
+DR   PROSITE; PS00742; PEP_ENZYMES_2; 1.
+DR   PROSITE; PS00370; PEP_ENZYMES_PHOS_SITE; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Pyruvate; Transferase.
+FT   CHAIN         1    791       Phosphoenolpyruvate synthase.
+FT                                /FTId=PRO_0000431474.
+FT   ACT_SITE    418    418       Tele-phosphohistidine intermediate.
+FT                                {ECO:0000250}.
+FT   ACT_SITE    748    748       Proton donor. {ECO:0000250}.
+FT   METAL       677    677       Magnesium. {ECO:0000250}.
+FT   METAL       701    701       Magnesium. {ECO:0000250}.
+FT   BINDING     508    508       Substrate. {ECO:0000250}.
+FT   BINDING     575    575       Substrate. {ECO:0000250}.
+FT   BINDING     677    677       Substrate. {ECO:0000250}.
+FT   BINDING     698    698       Substrate; via carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   BINDING     699    699       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     700    700       Substrate. {ECO:0000250}.
+FT   BINDING     701    701       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   MOD_RES     416    416       Phosphothreonine.
+FT                                {ECO:0000269|PubMed:25096199}.
+FT   MOD_RES     744    744       Phosphotyrosine.
+FT                                {ECO:0000269|PubMed:25096199}.
+SQ   SEQUENCE   791 AA;  85817 MW;  F606FB53A0FD5B51 CRC64;
+     MVEYVVSLDK LGVHDVEHVG GKNASLGEMI SNLAGAGVSV PGGFATTAQA YRDFLEQSGL
+     NDRIHAALDA LDVDDVNALA KTGAQIRQWV MEAEFPARLD SEIRQAFAAL ANGNDNLAVA
+     VRSSATAEDL PDASFAGQQE TFLNIRGVDN VIRAAKEVFA SLFNDRAIAY RVHQGFDHKL
+     VALSAGVQRM VRSETGTAGV MFTLDTESGF RDVVFITGAY GLGETVVQGA VNPDEFYVHK
+     PTLEAGRPAI LRRNLGSKAI KMIYGDEAKA GRSVKVVDVD RADRARFALS DAEVTELAKQ
+     AMIIEKHYGR PMDIEWAKDG DDGKLYIVQA RPETVKSRAS ATVMERYLLK EKGTVLVEGR
+     AIGQRIGAGP VKVINDVSEM DKVQPGDVLV SDMTDPDWEP VMKRASAIVT NRGGRTCHAA
+     IIARELGIPA VVGCGNATQI LQDGQGVTVS CAEGDTGFIF EGELGFDVRK NSVDAMPDLP
+     FKIMMNVGNP DRAFDFAQLP NEGVGLARLE FIINRMIGVH PKALLNFAGL PADIKESVEK
+     RIAGYPDPVG FYVEKLVEGI STLAAAFWPK KVIVRLSDFK SNEYANLIGG KLYEPEEENP
+     MLGFRGASRY ISESFRDCFE LECRALKKVR NEMGLTNVEI MVPFVRTLGE ASQVVELLAG
+     NGLKRGENGL KVIMMCELPS NALLADEFLE FFDGFSIGSN DLTQLTLGLD RDSGIVAHLF
+     DERNPAVKKL LANAIAACNK AGKYIGICGQ GPSDHPDLAR WLMEQGIESV SLNPDSVLDT
+     WFFLAEGQDQ A
+//

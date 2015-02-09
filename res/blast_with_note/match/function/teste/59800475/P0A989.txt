@@ -1,0 +1,100 @@
+ID   DPO3B_ECOL6             Reviewed;         366 AA.
+AC   P0A989; P00583;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1988, sequence version 1.
+DT   07-JAN-2015, entry version 65.
+DE   RecName: Full=DNA polymerase III subunit beta;
+DE            EC=2.7.7.7;
+GN   Name=dnaN; OrderedLocusNames=c4623;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P.,
+RA   Rasko D., Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D.,
+RA   Mayhew G.F., Rose D.J., Zhou S., Schwartz D.C., Perna N.T.,
+RA   Mobley H.L.T., Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence
+RT   of uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: DNA polymerase III is a complex, multichain enzyme
+CC       responsible for most of the replicative synthesis in bacteria.
+CC       This DNA polymerase also exhibits 3' to 5' exonuclease activity.
+CC       The beta chain is required for initiation of replication once it
+CC       is clamped onto DNA, it slides freely (bidirectional and ATP-
+CC       independent) along duplex DNA (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Deoxynucleoside triphosphate + DNA(n) =
+CC       diphosphate + DNA(n+1).
+CC   -!- SUBUNIT: The DNA polymerase holoenzyme is a complex that contains
+CC       10 different types of subunits. These subunits are organized into
+CC       3 functionally essential subassemblies: the pol III core, the beta
+CC       sliding clamp processivity factor and the clamp-loading complex.
+CC       The pol III core (subunits alpha,epsilon and theta) contains the
+CC       polymerase and the 3'-5' exonuclease proofreading activities. The
+CC       polymerase is tethered to the template via the sliding clamp
+CC       processivity factor. The clamp-loading complex assembles the beta
+CC       processivity factor onto the primer template and plays a central
+CC       role in the organization and communication at the replication
+CC       fork. This complex contains delta, delta', psi and chi, and copies
+CC       of either or both of two different DnaX proteins, gamma and tau.
+CC       The composition of the holoenzyme is, therefore:
+CC       (alpha,epsilon,theta)[2]-(gamma/tau)[3]-delta,delta', psi,chi-
+CC       beta[4]. The beta chain is a homodimer when not associated with
+CC       the other components (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014075; AAN83056.1; -; Genomic_DNA.
+DR   RefSeq; NP_756482.1; NC_004431.1.
+DR   ProteinModelPortal; P0A989; -.
+DR   SMR; P0A989; 1-366.
+DR   STRING; 199310.c4623; -.
+DR   EnsemblBacteria; AAN83056; AAN83056; c4623.
+DR   GeneID; 1040053; -.
+DR   KEGG; ecc:c4623; -.
+DR   PATRIC; 18286935; VBIEscCol75197_4341.
+DR   HOGENOM; HOG000071791; -.
+DR   KO; K02338; -.
+DR   OMA; IAFNVRY; -.
+DR   OrthoDB; EOG65J53F; -.
+DR   BioCyc; ECOL199310:C4623-MONOMER; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009360; C:DNA polymerase III complex; IEA:InterPro.
+DR   GO; GO:0008408; F:3'-5' exonuclease activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   InterPro; IPR001001; DNA_polIII_beta.
+DR   InterPro; IPR022635; DNA_polIII_beta_C.
+DR   InterPro; IPR022637; DNA_polIII_beta_cen.
+DR   InterPro; IPR022634; DNA_polIII_beta_N.
+DR   Pfam; PF00712; DNA_pol3_beta; 1.
+DR   Pfam; PF02767; DNA_pol3_beta_2; 1.
+DR   Pfam; PF02768; DNA_pol3_beta_3; 1.
+DR   PIRSF; PIRSF000804; DNA_pol_III_b; 1.
+DR   SMART; SM00480; POL3Bc; 1.
+DR   TIGRFAMs; TIGR00663; dnan; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; DNA replication;
+KW   DNA-directed DNA polymerase; Nucleotidyltransferase; Transferase.
+FT   CHAIN         1    366       DNA polymerase III subunit beta.
+FT                                /FTId=PRO_0000105436.
+FT   REGION        1    125       I. {ECO:0000250}.
+FT   REGION      126    253       II. {ECO:0000250}.
+FT   REGION      254    366       III. {ECO:0000250}.
+SQ   SEQUENCE   366 AA;  40587 MW;  7A45646F61255B5A CRC64;
+     MKFTVEREHL LKPLQQVSGP LGGRPTLPIL GNLLLQVADG TLSLTGTDLE MEMVARVALV
+     QPHEPGATTV PARKFFDICR GLPEGAEIAV QLEGERMLVR SGRSRFSLST LPAADFPNLD
+     DWQSEVEFTL PQATMKRLIE ATQFSMAHQD VRYYLNGMLF ETEGEELRTV ATDGHRLAVC
+     SMPIGQSLPS HSVIVPRKGV IELMRMLDGG DNPLRVQIGS NNIRAHVGDF IFTSKLVDGR
+     FPDYRRVLPK NPDKHLEAGC DLLKQAFARA AILSNEKFRG VRLYVSENQL KITANNPEQE
+     EAEEILDVTY SGAEMEIGFN VSYVLDVLNA LKCENVRMML TDSVSSVQIE DAASQSAAYV
+     VMPMRL
+//

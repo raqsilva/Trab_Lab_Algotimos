@@ -1,0 +1,92 @@
+ID   YSCN_YEREN              Reviewed;         439 AA.
+AC   P40290;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   07-JAN-2015, entry version 94.
+DE   RecName: Full=Probable ATP synthase YscN;
+DE            EC=3.6.3.14;
+DE   AltName: Full=Yop proteins secretion ATPase;
+GN   Name=yscN;
+OS   Yersinia enterocolitica.
+OG   Plasmid pYVe227.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Yersinia.
+OX   NCBI_TaxID=630;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=KNG22703 / Serotype O:9;
+RX   PubMed=8132449;
+RA   Woestyn S., Allaoui A., Wattiau P., Cornelis G.R.;
+RT   "YscN, the putative energizer of the Yersinia Yop secretion
+RT   machinery.";
+RL   J. Bacteriol. 176:1561-1569(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 94-150.
+RX   PubMed=2160939;
+RA   Viitanen A.-M., Toivanen P., Skurnik M.;
+RT   "The lcrE gene is part of an operon in the lcr region of Yersinia
+RT   enterocolitica O:3.";
+RL   J. Bacteriol. 172:3152-3162(1990).
+CC   -!- FUNCTION: Is a component of the Yop secretion machinery using ATP,
+CC       and it is either the energizer of this machinery, or part of it.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O + H(+)(In) = ADP + phosphate +
+CC       H(+)(Out). {ECO:0000255|PROSITE-ProRule:PRU10106}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Note=But connected to the inner
+CC       membrane possibly through LcrD. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the ATPase alpha/beta chains family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF102990; AAD16824.1; -; Genomic_DNA.
+DR   PIR; A55520; A55520.
+DR   RefSeq; NP_052401.1; NC_002120.1.
+DR   RefSeq; WP_010891217.1; NZ_KN150737.1.
+DR   ProteinModelPortal; P40290; -.
+DR   SMR; P40290; 95-437.
+DR   IntAct; P40290; 2.
+DR   TCDB; 3.A.6.1.1; the type iii (virulence-related) secretory pathway (iiisp) family.
+DR   GeneID; 1239132; -.
+DR   BioCyc; RETL1328306-WGS:GSTH-5527-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030257; C:type III protein secretion system complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046961; F:proton-transporting ATPase activity, rotational mechanism; IEA:InterPro.
+DR   GO; GO:0006754; P:ATP biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0030254; P:protein secretion by the type III secretion system; IEA:InterPro.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR020003; ATPase_a/bsu_AS.
+DR   InterPro; IPR000194; ATPase_F1/V1/A1_a/bsu_nucl-bd.
+DR   InterPro; IPR004100; ATPase_F1_a/bsu_N.
+DR   InterPro; IPR005714; ATPase_T3SS_FliI/YscN.
+DR   InterPro; IPR013380; ATPase_T3SS_H-transp.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR15184:SF9; PTHR15184:SF9; 1.
+DR   Pfam; PF00006; ATP-synt_ab; 1.
+DR   Pfam; PF02874; ATP-synt_ab_N; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01026; fliI_yscN; 1.
+DR   TIGRFAMs; TIGR02546; III_secr_ATP; 1.
+DR   PROSITE; PS00152; ATPASE_ALPHA_BETA; 1.
+PE   1: Evidence at protein level;
+KW   ATP synthesis; ATP-binding; Cytoplasm; Hydrogen ion transport;
+KW   Hydrolase; Ion transport; Nucleotide-binding; Plasmid;
+KW   Protein transport; Transport; Virulence.
+FT   CHAIN         1    439       Probable ATP synthase YscN.
+FT                                /FTId=PRO_0000144709.
+FT   NP_BIND     169    176       ATP. {ECO:0000255}.
+FT   MUTAGEN     169    177       Missing: Abolishes ATP-binding.
+SQ   SEQUENCE   439 AA;  47783 MW;  7CAE9B444127D07A CRC64;
+     MLSLDQIPHH IRHGIVGSRL IQIRGRVTQV TGTLLKAVVP GVRIGELCYL RNPDNSLSLQ
+     AEVIGFAQHQ ALLIPLGEMY GISSNTEVSP TGTMHQVGVG EHLLGQVLDG LGQPFDGGHL
+     PEPAAWYPVY QDAPAPMSRK LITTPLSLGI RVIDGLLTCG EGQRMGIFAA AGGGKSTLLA
+     SLIRSAEVDV TVLALIGERG REVREFIESD LGEEGLRKAV LVVATSDRPS MERAKAGFVA
+     TSIAEYFRDQ GKRVLLLMDS VTRFARAQRE IGLAAGEPPT RRGYPPSVFA ALPRLMERAG
+     QSSKGSITAL YTVLVEGDDM TEPVADETRS ILDGHIILSR KLAAANHYPA IDVLRSASRV
+     MNQIVSKEHK TWAGDLRRLL AKYEEVELLL QIGEYQKGQD KEADQAIERI GAIRGWLCQG
+     THELSHFNET LNLLETLTQ
+//

@@ -1,0 +1,91 @@
+ID   TPIS_PSEA7              Reviewed;         251 AA.
+AC   A6VCK5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   07-JAN-2015, entry version 46.
+DE   RecName: Full=Triosephosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            Short=TIM {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            EC=5.3.1.1 {ECO:0000255|HAMAP-Rule:MF_00147};
+DE   AltName: Full=Triose-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   Name=tpiA {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   OrderedLocusNames=PSPA7_5468;
+OS   Pseudomonas aeruginosa (strain PA7).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=381754;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PA7;
+RA   Dodson R.J., Harkins D., Paulsen I.T.;
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY: D-glyceraldehyde 3-phosphate = glycerone
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate from glycerone phosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00147}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SIMILARITY: Belongs to the triosephosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000744; ABR83452.1; -; Genomic_DNA.
+DR   RefSeq; WP_003148731.1; NC_009656.1.
+DR   RefSeq; YP_001350790.1; NC_009656.1.
+DR   ProteinModelPortal; A6VCK5; -.
+DR   SMR; A6VCK5; 1-250.
+DR   STRING; 381754.PSPA7_5468; -.
+DR   EnsemblBacteria; ABR83452; ABR83452; PSPA7_5468.
+DR   GeneID; 5354999; -.
+DR   KEGG; pap:PSPA7_5468; -.
+DR   PATRIC; 19832431; VBIPseAer80442_5194.
+DR   eggNOG; COG0149; -.
+DR   HOGENOM; HOG000226413; -.
+DR   KO; K01803; -.
+DR   OMA; EANRICG; -.
+DR   OrthoDB; EOG66QM23; -.
+DR   BioCyc; PAER381754:GHMY-5467-MONOMER; -.
+DR   UniPathway; UPA00109; UER00189.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000001582; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004807; F:triose-phosphate isomerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00147_B; TIM_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR022896; TrioseP_Isoase_bac/euk.
+DR   InterPro; IPR000652; Triosephosphate_isomerase.
+DR   InterPro; IPR020861; Triosephosphate_isomerase_AS.
+DR   PANTHER; PTHR21139; PTHR21139; 1.
+DR   Pfam; PF00121; TIM; 1.
+DR   SUPFAM; SSF51351; SSF51351; 1.
+DR   TIGRFAMs; TIGR00419; tim; 1.
+DR   PROSITE; PS00171; TIM_1; 1.
+DR   PROSITE; PS51440; TIM_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase;
+KW   Pentose shunt.
+FT   CHAIN         1    251       Triosephosphate isomerase.
+FT                                /FTId=PRO_1000009851.
+FT   ACT_SITE     95     95       Electrophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   ACT_SITE    167    167       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING       9      9       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING      11     11       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+SQ   SEQUENCE   251 AA;  25489 MW;  7F406E85635DD495 CRC64;
+     MRRPLVAGNW KMHGTHSSVA DLIKGLRQLA LPSGVDVAVM PPCLFISQVV QGLAGKAIGV
+     GAQNSAVEPM QGALTGEIAP SQLADAGCGM VLVGHSERRL ILGESDEVVS RKFAAAQSCG
+     LVPVLCVGET RAEREAGKTL EVVARQLGSV IDELGVGAFA RAVVAYEPVW AIGTGLTASP
+     AQAQEVHAAI RAQLAAENAE VAKGVRLLYG GSVKAASAAE LFGMPDIDGG LVGGASLNAD
+     EFGAICRAAG S
+//

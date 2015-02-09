@@ -1,0 +1,141 @@
+ID   CARB_ECOL6              Reviewed;        1073 AA.
+AC   Q8FLB0;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 97.
+DE   RecName: Full=Carbamoyl-phosphate synthase large chain;
+DE            EC=6.3.5.5;
+DE   AltName: Full=Carbamoyl-phosphate synthetase ammonia chain;
+GN   Name=carB; OrderedLocusNames=c0041;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P.,
+RA   Rasko D., Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D.,
+RA   Mayhew G.F., Rose D.J., Zhou S., Schwartz D.C., Perna N.T.,
+RA   Mobley H.L.T., Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence
+RT   of uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- CATALYTIC ACTIVITY: 2 ATP + L-glutamine + HCO(3)(-) + H(2)O = 2
+CC       ADP + phosphate + L-glutamate + carbamoyl phosphate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 4 Mg(2+) or Mn(2+) ions per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis;
+CC       carbamoyl phosphate from bicarbonate: step 1/1.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; (S)-dihydroorotate from bicarbonate: step 1/3.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by
+CC       the large (or ammonia) chain to synthesize carbamoyl phosphate.
+CC       Tetramer of heterodimers (alpha,beta)4 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CarB family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 2 ATP-grasp domains. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014075; AAN78539.1; -; Genomic_DNA.
+DR   RefSeq; NP_751995.1; NC_004431.1.
+DR   ProteinModelPortal; Q8FLB0; -.
+DR   STRING; 199310.c0041; -.
+DR   PRIDE; Q8FLB0; -.
+DR   EnsemblBacteria; AAN78539; AAN78539; c0041.
+DR   GeneID; 1038143; -.
+DR   KEGG; ecc:c0041; -.
+DR   PATRIC; 18278162; VBIEscCol75197_0037.
+DR   HOGENOM; HOG000234582; -.
+DR   KO; K01955; -.
+DR   OMA; AVFPFNK; -.
+DR   OrthoDB; EOG6J1DC6; -.
+DR   BioCyc; ECOL199310:C0041-MONOMER; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.1030.10; -; 1.
+DR   Gene3D; 3.30.1490.20; -; 2.
+DR   Gene3D; 3.30.470.20; -; 2.
+DR   Gene3D; 3.40.50.1380; -; 1.
+DR   Gene3D; 3.40.50.20; -; 2.
+DR   HAMAP; MF_01210_A; CPSase_L_chain_A; 1.
+DR   HAMAP; MF_01210_B; CPSase_L_chain_B; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR013816; ATP_grasp_subdomain_2.
+DR   InterPro; IPR006275; CarbamoylP_synth_lsu.
+DR   InterPro; IPR005481; CarbamoylP_synth_lsu_N.
+DR   InterPro; IPR005480; CarbamoylP_synth_lsu_oligo.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR005483; CbamoylP_synth_lsu_CPSase_dom.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR016185; PreATP-grasp_dom.
+DR   Pfam; PF00289; CPSase_L_chain; 2.
+DR   Pfam; PF02786; CPSase_L_D2; 2.
+DR   Pfam; PF02787; CPSase_L_D3; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PRINTS; PR00098; CPSASE.
+DR   SMART; SM01096; CPSase_L_D3; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF48108; SSF48108; 1.
+DR   SUPFAM; SSF52335; SSF52335; 1.
+DR   SUPFAM; SSF52440; SSF52440; 2.
+DR   TIGRFAMs; TIGR01369; CPSaseII_lrg; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 2.
+DR   PROSITE; PS00866; CPSASE_1; 2.
+DR   PROSITE; PS00867; CPSASE_2; 2.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding;
+KW   Complete proteome; Ligase; Magnesium; Manganese; Metal-binding;
+KW   Nucleotide-binding; Pyrimidine biosynthesis; Repeat.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2   1073       Carbamoyl-phosphate synthase large chain.
+FT                                /FTId=PRO_0000145005.
+FT   DOMAIN      133    328       ATP-grasp 1.
+FT   DOMAIN      679    870       ATP-grasp 2.
+FT   NP_BIND     159    216       ATP. {ECO:0000250}.
+FT   NP_BIND     705    762       ATP. {ECO:0000250}.
+FT   REGION        2    403       Carboxyphosphate synthetic domain.
+FT   REGION      404    553       Oligomerization domain.
+FT   REGION      554    936       Carbamoyl phosphate synthetic domain.
+FT   REGION      937   1073       Allosteric domain.
+FT   METAL       285    285       Magnesium or manganese 1. {ECO:0000250}.
+FT   METAL       299    299       Magnesium or manganese 1. {ECO:0000250}.
+FT   METAL       299    299       Magnesium or manganese 2. {ECO:0000250}.
+FT   METAL       301    301       Magnesium or manganese 2. {ECO:0000250}.
+FT   METAL       829    829       Magnesium or manganese 3. {ECO:0000250}.
+FT   METAL       841    841       Magnesium or manganese 3. {ECO:0000250}.
+FT   METAL       841    841       Magnesium or manganese 4. {ECO:0000250}.
+FT   METAL       843    843       Magnesium or manganese 4. {ECO:0000250}.
+SQ   SEQUENCE   1073 AA;  117891 MW;  6B05452D13436E1B CRC64;
+     MPKRTDIKSI LILGAGPIVI GQACEFDYSG AQACKALREE GYRVILVNSN PATIMTDPEM
+     ADATYIEPIH WEVVRKIIEK ERPDAVLPTM GGQTALNCAL ELERQGVLEE FGVTMIGATA
+     DAIDKAEDRR RFDVAMKKIG LETARSGIAH SMEEALAVAA EVGFPCIIRP SFTMGGSGGG
+     IAYNREEFEE ICARGLDLSP TKELLIDESL IGWKEYEMEV VRDKNDNCII VCSIENFDAM
+     GIHTGDSITV APAQTLTDKE YQIMRNASMA VLREIGVETG GSNVQFAVNP KNGRLIVIEM
+     NPRVSRSSAL ASKATGFPIA KVAAKLAVGY TLDELMNDIT GGRTPASFEP SIDYVVTKIP
+     RFNFEKFAGA NDRLTTQMKS VGEVMAIGRT QQESLQKALR GLEVGATGFD PKVSLDDPEA
+     LTKIRRELKD AGAERIWYIA DAFRAGLSVD GVFNLTNIDR WFLVQIEELV RLEEKVAEVG
+     ITGLHAEFLR QLKRKGFADA RLAKLAGVRE AEIRKLRDQY DLHPVYKRVD TCAAEFATDT
+     AYMYSTYEEE CEANPSTDRE KIMVLGGGPN RIGQGIEFDY CCVHASLALR EDGYETIMVN
+     CNPETVSTDY DTSDRLYFEP VTLEDVLEIV RIEKPKGVIV QYGGQTPLKL ARALEAAGVP
+     VIGTSPDAID RAEDRERFQH AVERLKLKQP ANATVTTIEM AVEKAKEIGY PLVVRPSYVL
+     GGRAMEIVYD EADLRRYFQT AVSVSNDAPV LLDHFLDDAV EVDVDAICDG EVVLIGGIME
+     HIEQAGVHSG DSACSLPAYT LSQEIQDVMR QQVQKLAFEL QVRGLMNVQF AVKNNEVYLI
+     EVNPRAARTV PFVSKATGVP LAKVAARVMA GKSLAEQGVT KEVIPPYYSV KEVVLPFNKF
+     PGVDPLLGPE MRSTGEVMGV GRTFAEAFAK AQLGSNSTMK KHGRALLSVR EGDKERVVDL
+     AAKLLKQGFE LDATHGTAIV LGEAGINPRL VNKVHEGRPH IQDRIKNGEY TYIINTTSGR
+     RAIEDSRVIR RSALQYKVHY DTTLNGGFAT AMALNADATE KVISVQEMHA QIK
+//

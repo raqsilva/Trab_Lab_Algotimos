@@ -1,0 +1,132 @@
+ID   SYI_HAEIG               Reviewed;         941 AA.
+AC   A5UIA3;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   07-JAN-2015, entry version 56.
+DE   RecName: Full=Isoleucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02002};
+DE            EC=6.1.1.5 {ECO:0000255|HAMAP-Rule:MF_02002};
+DE   AltName: Full=Isoleucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02002};
+DE            Short=IleRS {ECO:0000255|HAMAP-Rule:MF_02002};
+GN   Name=ileS {ECO:0000255|HAMAP-Rule:MF_02002};
+GN   OrderedLocusNames=CGSHiGG_08385;
+OS   Haemophilus influenzae (strain PittGG).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=374931;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PittGG;
+RX   PubMed=17550610; DOI=10.1186/gb-2007-8-6-r103;
+RA   Hogg J.S., Hu F.Z., Janto B., Boissy R., Hayes J., Keefe R.,
+RA   Post J.C., Ehrlich G.D.;
+RT   "Characterization and modeling of the Haemophilus influenzae core and
+RT   supragenomes based on the complete genomic sequences of Rd and 12
+RT   clinical nontypeable strains.";
+RL   Genome Biol. 8:R103.1-R103.18(2007).
+CC   -!- FUNCTION: Catalyzes the attachment of isoleucine to tRNA(Ile). As
+CC       IleRS can inadvertently accommodate and process structurally
+CC       similar amino acids such as valine, to avoid such errors it has
+CC       two additional distinct tRNA(Ile)-dependent editing activities.
+CC       One activity is designated as 'pretransfer' editing and involves
+CC       the hydrolysis of activated Val-AMP. The other activity is
+CC       designated 'posttransfer' editing and involves deacylation of
+CC       mischarged Val-tRNA(Ile). {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-isoleucine + tRNA(Ile) = AMP +
+CC       diphosphate + L-isoleucyl-tRNA(Ile). {ECO:0000255|HAMAP-
+CC       Rule:MF_02002}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02002};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_02002};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- DOMAIN: IleRS has two distinct active sites: one for
+CC       aminoacylation and one for editing. The misactivated valine is
+CC       translocated from the active site to the editing site, which
+CC       sterically excludes the correctly activated isoleucine. The single
+CC       editing site contains two valyl binding pockets, one specific for
+CC       each substrate (Val-AMP or Val-tRNA(Ile)). {ECO:0000255|HAMAP-
+CC       Rule:MF_02002}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. IleS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000672; ABR00509.1; -; Genomic_DNA.
+DR   RefSeq; WP_012055324.1; NC_009567.1.
+DR   RefSeq; YP_001292892.1; NC_009567.1.
+DR   ProteinModelPortal; A5UIA3; -.
+DR   STRING; 374931.CGSHiGG_08385; -.
+DR   EnsemblBacteria; ABR00509; ABR00509; CGSHiGG_08385.
+DR   GeneID; 5227556; -.
+DR   KEGG; hiq:CGSHiGG_08385; -.
+DR   PATRIC; 20187697; VBIHaeInf102487_1696.
+DR   eggNOG; COG0060; -.
+DR   HOGENOM; HOG000246402; -.
+DR   KO; K01870; -.
+DR   OMA; VLGDWDN; -.
+DR   OrthoDB; EOG644ZM1; -.
+DR   BioCyc; HINF374931:GJA4-1475-MONOMER; -.
+DR   Proteomes; UP000001990; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004822; F:isoleucine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006428; P:isoleucyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.730.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 2.
+DR   Gene3D; 3.90.740.10; -; 1.
+DR   HAMAP; MF_02002; Ile_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002301; Ile-tRNA-ligase.
+DR   InterPro; IPR023585; Ile-tRNA-ligase_type1.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_1a_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   InterPro; IPR010663; Znf_DNA_glyclase/IsotRNA_synth.
+DR   PANTHER; PTHR11946:SF9; PTHR11946:SF9; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   Pfam; PF06827; zf-FPG_IleRS; 1.
+DR   PRINTS; PR00984; TRNASYNTHILE.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50677; SSF50677; 1.
+DR   TIGRFAMs; TIGR00392; ileS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Metal-binding; Nucleotide-binding; Protein biosynthesis; Zinc.
+FT   CHAIN         1    941       Isoleucine--tRNA ligase.
+FT                                /FTId=PRO_1000022073.
+FT   MOTIF        59     69       "HIGH" region.
+FT   MOTIF       603    607       "KMSKS" region.
+FT   METAL       904    904       Zinc. {ECO:0000255|HAMAP-Rule:MF_02002}.
+FT   METAL       907    907       Zinc. {ECO:0000255|HAMAP-Rule:MF_02002}.
+FT   METAL       924    924       Zinc. {ECO:0000255|HAMAP-Rule:MF_02002}.
+FT   METAL       927    927       Zinc. {ECO:0000255|HAMAP-Rule:MF_02002}.
+FT   BINDING     562    562       Aminoacyl-adenylate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_02002}.
+FT   BINDING     606    606       ATP. {ECO:0000255|HAMAP-Rule:MF_02002}.
+SQ   SEQUENCE   941 AA;  106490 MW;  C5869EF1754F8C9B CRC64;
+     MTVDYKNTLN LPETSFPMRG DLAKREPDML KNWYEKNLYQ KIRKASKGKK SFILHDGPPY
+     ANGNIHIGHA VNKILKDIII KSKTALGFDS PYIPGWDCHG LPIELKVEGL VGKPNEKISA
+     AEFRQKCREY AAEQVEGQKK DFIRLGVLGD WDNPYLTMNF DTEANIIRTL GKVIENGHLY
+     KGSKPVHWCL DCGSSLAEAE VEYEDKVSPS IYVRFPAESA DEIEAKFSAQ GRGQGKLSAI
+     IWTTTPWTMP SNRAIAVNAD LEYNLVQLGD ERVILAAELV ESVAKAVGIE HIEILGSVKG
+     DDLELSRFHH PFYDFTVPVI LGDHVTTDGG TGLVHTAPDH GLDDFIVGKQ YDLPMAGLVS
+     NDGKFISTTE FFAGKGVFEA NPLVIEKLQE VGNLLKVEKI KHSYPHCWRH KTPIIFRATP
+     QWFIGMETQG LRQQALGEIK QVRWIPDWGQ ARIEKMVENR PDWCISRQRT WGVPMTLFVH
+     KETEELHPRT LDLLEEVAKR VERAGIQAWW DLDEKELLGA DAETYRKVPD TLDVWFDSGS
+     TYSSVVANRP EFNGQNIDMY LEGSDQHRGW FMSSLMLSTA TDSKAPYKQV LTHGFTVDGQ
+     GRKMSKSIGN IVTPQEVMDK FGGDILRLWV ASTDYTGEMT VSDEILKRAA DSYRRIRNTA
+     RFLLANLNGF DPKRDLVKPE EMVSLDRWAV ACALDAQNEI KDAYDNYQFH TVVQRLMRFC
+     SVEMGSFYLD IIKDRQYTTK ADSLARRSCQ TALWHIAEAL VRWMAPILSF TADEIWQHLP
+     QTESARAEFV FTEEFYQGLF GLGEDEKLDD AYWQQLIKVR SEVNRVLEIS RNNKEIGGGL
+     EAEVTVYAND EYRALLAQLG NELRFVLITS KVDIKSLSEK PADLADSELE GIAVSVTRSN
+     AEKCPRCWHY SDEIGVSPEH PTLCARCVEN VVGNGEVRHF A
+//

@@ -1,0 +1,110 @@
+ID   ISPH_XANCB              Reviewed;         316 AA.
+AC   B0RY26;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-JAN-2015, entry version 54.
+DE   RecName: Full=4-hydroxy-3-methylbut-2-enyl diphosphate reductase {ECO:0000255|HAMAP-Rule:MF_00191};
+DE            EC=1.17.1.2 {ECO:0000255|HAMAP-Rule:MF_00191};
+GN   Name=ispH {ECO:0000255|HAMAP-Rule:MF_00191};
+GN   OrderedLocusNames=xcc-b100_3181;
+OS   Xanthomonas campestris pv. campestris (strain B100).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=509169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B100;
+RX   PubMed=18304669; DOI=10.1016/j.jbiotec.2007.12.013;
+RA   Vorhoelter F.-J., Schneiker S., Goesmann A., Krause L., Bekel T.,
+RA   Kaiser O., Linke B., Patschkowski T., Rueckert C., Schmid J.,
+RA   Sidhu V.K., Sieber V., Tauch A., Watt S.A., Weisshaar B., Becker A.,
+RA   Niehaus K., Puehler A.;
+RT   "The genome of Xanthomonas campestris pv. campestris B100 and its use
+RT   for the reconstruction of metabolic pathways involved in xanthan
+RT   biosynthesis.";
+RL   J. Biotechnol. 134:33-45(2008).
+CC   -!- FUNCTION: Converts 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+CC       into isopentenyl diphosphate (IPP) and dimethylallyl diphosphate
+CC       (DMAPP). {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- CATALYTIC ACTIVITY: Isopentenyl diphosphate + NAD(P)(+) + H(2)O =
+CC       (E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate + NAD(P)H.
+CC       {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- CATALYTIC ACTIVITY: Dimethylallyl diphosphate + NAD(P)(+) + H(2)O
+CC       = (E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate + NAD(P)H.
+CC       {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- COFACTOR:
+CC       Name=[3Fe-4S] cluster; Xref=ChEBI:CHEBI:21137;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00191};
+CC       Note=Binds 1 [3Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; dimethylallyl diphosphate
+CC       biosynthesis; dimethylallyl diphosphate from (2E)-4-hydroxy-3-
+CC       methylbutenyl diphosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate
+CC       biosynthesis via DXP pathway; isopentenyl diphosphate from 1-
+CC       deoxy-D-xylulose 5-phosphate: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -!- SIMILARITY: Belongs to the IspH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM920689; CAP52546.1; -; Genomic_DNA.
+DR   RefSeq; YP_001904586.1; NC_010688.1.
+DR   STRING; 509169.xccb100_3181; -.
+DR   EnsemblBacteria; CAP52546; CAP52546; xcc-b100_3181.
+DR   GeneID; 6325135; -.
+DR   KEGG; xca:xccb100_3181; -.
+DR   PATRIC; 24086264; VBIXanCam108527_3209.
+DR   eggNOG; COG0761; -.
+DR   KO; K03527; -.
+DR   OMA; IIGPRKD; -.
+DR   OrthoDB; EOG6HF624; -.
+DR   BioCyc; XCAM509169:GHW4-3248-MONOMER; -.
+DR   UniPathway; UPA00056; UER00097.
+DR   UniPathway; UPA00059; UER00105.
+DR   Proteomes; UP000001188; Chromosome.
+DR   GO; GO:0051538; F:3 iron, 4 sulfur cluster binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051745; F:4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050992; P:dimethylallyl diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00191; IspH; 1.
+DR   InterPro; IPR003451; LytB/IspH.
+DR   Pfam; PF02401; LYTB; 1.
+DR   TIGRFAMs; TIGR00216; ispH_lytB; 1.
+PE   3: Inferred from homology;
+KW   3Fe-4S; Complete proteome; Iron; Iron-sulfur; Isoprene biosynthesis;
+KW   Metal-binding; NADP; Oxidoreductase.
+FT   CHAIN         1    316       4-hydroxy-3-methylbut-2-enyl diphosphate
+FT                                reductase.
+FT                                /FTId=PRO_1000098989.
+FT   REGION      227    229       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL        12     12       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL        96     96       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL       199    199       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING      41     41       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING      74     74       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     124    124       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     169    169       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     271    271       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+SQ   SEQUENCE   316 AA;  34668 MW;  7B1BA0BD7BEBD34C CRC64;
+     MDVLLANPRG FCAGVDRAIE IVKRAIETLG APIYVRHEVV HNRFVVDDLK QRGAIFVEEL
+     DEVPDDATVI FSAHGVSQAV RVEAERRGLK VFDATCPLVT KVHFEVARHC RAGRDVVLIG
+     HAGHPEVEGT MGQWSRERGP GQIYLVEDIE QVATLQVRQP ENLAYTTQTT LSVDDTMGII
+     EALRVRYPAM QGPKHDDICY ATQNRQDAVR DLARQCDLVL VVGSPNSSNS NRLSELARRD
+     GVESYLIDNA SEIDPAWIVG KQHIGLTAGA SAPQVLVDGV LARLRELGAN GVSELAGEPE
+     SMVFALPKEL RLRLVS
+//

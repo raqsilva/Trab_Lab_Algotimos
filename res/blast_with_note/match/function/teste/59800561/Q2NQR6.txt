@@ -1,0 +1,88 @@
+ID   ENGB_SODGM              Reviewed;         211 AA.
+AC   Q2NQR6;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   07-JAN-2015, entry version 60.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321}; OrderedLocusNames=SG2234;
+OS   Sodalis glossinidius (strain morsitans).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Sodalis.
+OX   NCBI_TaxID=343509;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=morsitans;
+RX   PubMed=16365377; DOI=10.1101/gr.4106106;
+RA   Toh H., Weiss B.L., Perkin S.A.H., Yamashita A., Oshima K.,
+RA   Hattori M., Aksoy S.;
+RT   "Massive genome erosion and functional adaptations provide insights
+RT   into the symbiotic lifestyle of Sodalis glossinidius in the tsetse
+RT   host.";
+RL   Genome Res. 16:149-156(2006).
+CC   -!- FUNCTION: Necessary for normal cell division and for the
+CC       maintenance of normal septation. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-
+CC       like GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- SIMILARITY: Contains 1 EngB-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AP008232; BAE75509.1; -; Genomic_DNA.
+DR   RefSeq; YP_455914.1; NC_007712.1.
+DR   ProteinModelPortal; Q2NQR6; -.
+DR   SMR; Q2NQR6; 12-199.
+DR   STRING; 343509.SG2234; -.
+DR   PRIDE; Q2NQR6; -.
+DR   EnsemblBacteria; BAE75509; BAE75509; SG2234.
+DR   GeneID; 3867362; -.
+DR   KEGG; sgl:SG2234; -.
+DR   PATRIC; 23656437; VBISodGlo61428_5493.
+DR   eggNOG; COG0218; -.
+DR   KO; K03978; -.
+DR   OMA; LAGWMEL; -.
+DR   OrthoDB; EOG6ND0NG; -.
+DR   BioCyc; SGLO343509:GJJC-2310-MONOMER; -.
+DR   Proteomes; UP000001932; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR03598; GTPase_YsxC; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Complete proteome; GTP-binding; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Reference proteome; Septation.
+FT   CHAIN         1    211       Probable GTP-binding protein EngB.
+FT                                /FTId=PRO_0000266953.
+FT   DOMAIN       26    200       EngB-type G. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   NP_BIND      34     41       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      61     65       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      79     82       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     146    149       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     179    181       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   METAL        41     41       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   METAL        63     63       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+SQ   SEQUENCE   211 AA;  23597 MW;  4E70E80668AEF53D CRC64;
+     MTKSYNYKLT HFVTSAPDIR HLPVDSGIEI AFAGRSNAGK SSALNTLTNQ KSLARTSKTP
+     GRTRLINLFE VESGIRLVDL PGYGYAEVPE ELKRKWQRAL GEYLQMRDSL KGLVVLMDIR
+     HPMKDLDQQM VQWAVDVNIP VLVLLTKADK LASGSRKEQL NQVREAALAF MGDVQVETFS
+     SLKKQGVDKL RQKLDDWFAA IPPAQGSPET E
+//

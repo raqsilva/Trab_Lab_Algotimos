@@ -1,0 +1,93 @@
+ID   MAOX_MESCR              Reviewed;         585 AA.
+AC   P37223;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   07-JAN-2015, entry version 85.
+DE   RecName: Full=NADP-dependent malic enzyme;
+DE            Short=NADP-ME;
+DE            EC=1.1.1.40;
+GN   Name=MOD1;
+OS   Mesembryanthemum crystallinum (Common ice plant) (Cryophytum
+OS   crystallinum).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; Caryophyllales; Aizoaceae; Mesembryanthemum.
+OX   NCBI_TaxID=3544;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Leaf;
+RX   PubMed=1521524; DOI=10.1111/j.1432-1033.1992.tb17181.x;
+RA   Cushman J.C.;
+RT   "Characterization and expression of a NADP-malic enzyme cDNA induced
+RT   by salt stress from the facultative crassulacean acid metabolism
+RT   plant, Mesembryanthemum crystallinum.";
+RL   Eur. J. Biochem. 208:259-266(1992).
+CC   -!- FUNCTION: Plays a role in CAM (crassulacean acid metabolism)
+CC       photosynthesis.
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NADP(+) = pyruvate + CO(2) +
+CC       NADPH.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000250};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Leaves.
+CC   -!- INDUCTION: By salt stress.
+CC   -!- SIMILARITY: Belongs to the malic enzymes family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X64434; CAA45772.1; -; mRNA.
+DR   PIR; S43718; S43718.
+DR   ProteinModelPortal; P37223; -.
+DR   SMR; P37223; 45-584.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:InterPro.
+DR   GO; GO:0004473; F:malate dehydrogenase (decarboxylating) (NADP+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR001891; Malic_OxRdtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   PIRSF; PIRSF000106; ME; 1.
+DR   PRINTS; PR00072; MALOXRDTASE.
+DR   SMART; SM00919; Malic_M; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Metal-binding; NADP; Oxidoreductase; Stress response.
+FT   CHAIN         1    585       NADP-dependent malic enzyme.
+FT                                /FTId=PRO_0000160200.
+FT   NP_BIND     329    345       NADP. {ECO:0000250}.
+FT   ACT_SITE    133    133       Proton donor. {ECO:0000250}.
+FT   ACT_SITE    204    204       Proton acceptor. {ECO:0000250}.
+FT   METAL       276    276       Divalent metal cation. {ECO:0000250}.
+FT   METAL       277    277       Divalent metal cation. {ECO:0000250}.
+FT   METAL       300    300       Divalent metal cation. {ECO:0000250}.
+FT   BINDING     186    186       NAD. {ECO:0000250}.
+FT   BINDING     300    300       NAD. {ECO:0000250}.
+FT   BINDING     441    441       NAD. {ECO:0000250}.
+FT   SITE        300    300       Important for activity. {ECO:0000250}.
+SQ   SEQUENCE   585 AA;  64358 MW;  C71675B67FB719D9 CRC64;
+     MGGSNALNEM TNGSDGITGG VADVYGEEFA TQDQLVTPWS FSVACGHSLL RDPQHNKGLA
+     FTEKERDAHF LRGLLPPVVL SQELQEKKFL TTLRQYQVPL QKYMAMMDLQ ERNEKLFYKL
+     LVDHVEELLP LVYTPTVGEG CQKYGSIFRR PQGLFISLKD KGRILELLRN WPEKKIQVIV
+     VTDGERILGL GDLGCQGMGI PVGKLSLYSA LGGVCPSACL PITLDVGTNN QKLLDDEFYI
+     GLKQKRATGE EYAEFVQEFM SAVKQNYGEK ILVQFEDFAN HNAFELLEKY RTTHLVFNDD
+     IQGTASVVLA GLIASLKLLG GTLADHKFLF LGAGEAGTGI AELIALEMSK KTKAPVEQMR
+     KKIWLVDSKG LVVSSRKETL QQFKLPWAHE HEPITTLIDA VQAIKPTVLI GTSGKGKQFT
+     KEVVEAMANI NAKPLILALS NPTSQSECTA EEAYTWSQGH AIFASGSPFD PVEYEGRTFV
+     PGQANNAYIF PGFGLGLIMC GAIRVHDDML LAASEALASQ VTGEHFIKGL IYPPFKDIRK
+     ISAHIAAGVA AKAYELGLAS RLPQPADLVK FAESCMYNPT YRSFR
+//

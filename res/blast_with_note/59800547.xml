@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800547|ref|YP_207259.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0086 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>388</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800547|ref|YP_207259.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0086 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>388</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|33301921|sp|Q8KIU8.2|WBJE_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Probable glycosyltransferase WbjE [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>Q8KIU8</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000173766</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LGYKLIVDVQDVWPESFSSVVPFLKKIPHNLLPFASRANR--------AYRYADALVAVSQTYLDRAKEANPNVPGEVVYIGADFAA---IAPPPR----------FRSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRLKQYA----CDGIKFYGYIPYAEMMSVAKGCDIAVNAIHSYAMQ-SITNKLSDYMALQKPILNSQVHDEVAEV</Hsp_qseq>
+      <Hsp_hseq>LGFKWVLLVHDVFPENL---------VPAGVLKKDSIAYRLLRRLFSFIYSSADRLVVIGRDMEALMKE-KVNDPRSLVFI-SNWACEKEVFPVPREDAPFINIPEWKGKRV-FQFFGNVGRLQGIENILSAIQ--LVKNEKAAFAFIGDGALVDSVKKHALEDQCARLRYFGRLPLAEKNFGLAACDVALVTLEEGMFGLGVPSKAYFSMAADKPIL--AVMEKGAEI</Hsp_hseq>
+      <Hsp_midline>LG+K ++ V DV+PE+          +P  +L   S A R         Y  AD LV + +      KE   N P  +V+I +++A    + P PR          ++ K V F + G +     +E +   ++  L   E      +G G  +D +K++A    C  ++++G +P AE       CD+A+  +        + +K    MA  KPIL   V ++ AE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|38372541|sp|Q58469.1|Y1069_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase MJ1069 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58469</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00800414</Hsp_evalue>
+      <Hsp_query-from>220</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>YLGTLSYNYDVETVCKGVRKLLDD-GENVELHIMGGGPDLDRLKQ----YACDGIKFYGYIPYAEMMSVAKGCDIAVNAIHSYAMQSITNKLSDYMALQKPILNSQVHDEVAEVLTLLPHENYRSGDVDGFVQAAKDILKRKNDPVQSDEIVRRFRHDISYRKI</Hsp_qseq>
+      <Hsp_hseq>FVGRLYKWKGVENIIKAYVDLPKDLKEKIILIVVGYGEDLERLKKLAGNYLNNGIYFTGKVDFEKAIAIVKASDIYIHS--SYKGGGLSSSLLQAMCCGKAIVAS-------------PYEGADEVVIDGY----NGILLKDNSPEEIKRGIIKLIENNNLRKI</Hsp_hseq>
+      <Hsp_midline>++G L     VE + K    L  D  E + L ++G G DL+RLK+    Y  +GI F G + + + +++ K  DI +++  SY    +++ L   M   K I+ S             P+E      +DG+      IL + N P +    + +   + + RKI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|269849636|sp|P27127.2|RFAB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Lipopolysaccharide 1,6-galactosyltransferase; AltName: Full=UDP-D-galactose--(Glucosyl)lipopolysaccharide-alpha-1,3-D-galactosyltransferase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P27127</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0442781</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>AIAPPPRFRSKTVRFFYLGTLSYNYDVETVCKGVRKLLDD----GENVELHIMGGGPDLDRLKQYA-----CDGIKFYGYIPYAEMMSVAKGCDIAVNAIHSYAMQSITNKLSDYMALQKPILNSQVHDEVAEVLTLLPHEN---YRSGDVDGFVQ------AAKDILKRKNDPVQSDEIVRRFRHDISYRKIVNLIER</Hsp_qseq>
+      <Hsp_hseq>SVIPAPE-EGETATFIYVGRMKFEGQ-----KRVKDLLDGLSQAKGNWKLHVLGDGSDFEKCQAYGRELNIDDRIVWYGWQQYPWEL-VQQDIEKVSALLLTSSFEGFPMTLLEALSWGIPCISADCVSGPADIIQ--PDVNGHLYQPGDIAGFVTLLNKYIAGEIHIEHEKIPASIDEFYQSKYYDRLHKVIISAISR</Hsp_hseq>
+      <Hsp_midline>++ P P    +T  F Y+G + +        K V+ LLD       N +LH++G G D ++ + Y       D I +YG+  Y   + V +  +     + + + +     L + ++   P +++      A+++   P  N   Y+ GD+ GFV       A +  ++ +  P   DE  +   +D  ++ I++ I R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|384872317|sp|Q46638.2|AMSK_ERWAM</Hit_id>
+  <Hit_def>RecName: Full=Amylovoran biosynthesis glycosyltransferase AmsK [Erwinia amylovora]</Hit_def>
+  <Hit_accession>Q46638</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0726812</Hsp_evalue>
+      <Hsp_query-from>216</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>VRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRLKQYACDG-----IKFYGYIPYAEMMSVAKGCDIAVNAIHSYA---MQSITNKLSDYMALQKPILNSQVHDEVAEVLTLLPHENYRSGDV--DGFVQAAKDILKRKND------PV---QSDEIVRRFRHDISYRKIVNLIERLA</Hsp_qseq>
+      <Hsp_hseq>LRILSVARLTEKKGLGVAIEACRILKQQGGCFEYTIIGYGDLEAQLKTAIADGDLEDCVKLVGFKPQEEIKRYLDEADIFLLPSLTAADGDMEGIPVALMEAMAVGLPVVSSE-HSGIPELI-----EHNVSGWLAPEGDAQALAAILLRLSQGEADVVPVVLAARAKVETEFNQHIAYRQLAEILERLA</Hsp_hseq>
+      <Hsp_midline>+R   +  L+    +    +  R L   G   E  I+G G    +LK    DG     +K  G+ P  E+       DI +    + A   M+ I   L + MA+  P+++S+ H  + E++     E+  SG +  +G  QA   IL R +       PV      ++   F   I+YR++  ++ERLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|172046919|sp|A4YHA6.1|PGK_METS5</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycerate kinase [Metallosphaera sedula DSM 5348]</Hit_def>
+  <Hit_accession>A4YHA6</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.124059</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>AIAPPPRFRSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRL-------KQYACDGIKFYGYIPYAEMMSVAKGCDIA---VNAIHSYAMQSITNKLSDYMALQKPI---------LNSQVHDEVAEVLTLLPHE--NYRSGDVDGFVQAAKDILKRKNDPVQSDEIVRRFRH</Hsp_qseq>
+      <Hsp_hseq>AFATAHRSQASLVGFPLVLRSSAGRVMEKEVSALAKVFNEGEEPKVFIMGGGKVLDSLRIIENLVKRRLADRILTGGLI--AELFAVAKGLDLGKDNLQVLEKAGVLSLVPRARKLLLSGAPVEIPVDFKVEKGGQVYEEPANKVTAVIKDVGSTTVGIYSSFIRDAKIIVMRGPMGVIEDE---RFRE</Hsp_hseq>
+      <Hsp_midline>A A   R ++  V F  +   S    +E     + K+ ++GE  ++ IMGGG  LD L       K+   D I   G I  AE+ +VAKG D+    +  +    + S+  +    +    P+            QV++E A  +T +  +  +   G    F++ AK I+ R    V  DE   RFR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|226703995|sp|B7HQN3.1|TIG_BACC7</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus AH187] &gt;gi|254788986|sp|B9IZ48.1|TIG_BACCQ RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus Q1]</Hit_def>
+  <Hit_accession>B7HQN3</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.17171</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>ESGYSKNVSLGRVTSHHRFVKHFEKWLENCRPGEQDVVYSAYPLIATNLLLGKHKARLGYKLIVDVQDVWPESFSSVVPFLK--KIPHNLLPFASRANRAYRYADALVAVSQTYLDRAK--EANPNVPGEVVYIGADFAAIAPPPRF----RSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRLKQ</Hsp_qseq>
+      <Hsp_hseq>EGGKGENYSLA--IGSGTFIPGFEEQLIGLKSGESKDVEVSFPE-------EYHAAELAGK---------PATFKVTVHEIKTKELPELNDEFAKEADEAVATLDELKAKLRTNLEEGKKHEAEHKVRDEVVELAAANAEIDIPEAMIDTELDRMVREFE-----------------QRLSQQGMNLELYYQFTGTDADKLKE</Hsp_hseq>
+      <Hsp_midline>E G  +N SL        F+  FE+ L   + GE   V  ++P          H A L  K         P +F   V  +K  ++P     FA  A+ A    D L A  +T L+  K  EA   V  EVV + A  A I  P         + VR F                  ++L   G N+EL+    G D D+LK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|162416226|sp|Q96MS3.2|GL1D1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Glycosyltransferase 1 domain-containing protein 1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96MS3</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.248085</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>RAYRYADALVAVSQTYLDRAKEANPNVPGEVVYIGADFAAIAPPPRFRSKT-VRFFYLGTLSYNYDVETVCKGVRKLLD-----------DGENVELHIMGGGPDLD-------RLKQYACDGIKFYGYIPYAEMMSVAKGCDIAVNAIHSYAMQSITNKLSDYMALQKPILNSQVHDEVA----EVLTLL---PHENYRSGDVDGFVQAAKDILKRKNDPVQSDEIV</Hsp_qseq>
+      <Hsp_hseq>RVLEEARFAVAFTESMKEMAQAQWPHAKGKV-YVQSQGIATTPNAAFNWNTFLQRSEINQSADNLHIFLLICGLRQVKDPLYLVDAFSAWHQEEPNVHLVIVGPEVDPVFTREVKAKVKRAAGVRLIGEMPQEDLHAVVKNCFAVVNSSVSEGMSA---AILEAMDLEVPVLARNIPGNAAVVKHEVTGLLFSNPQE---------FVHLAKRLV---SDPALEKEIV</Hsp_hseq>
+      <Hsp_midline>R    A   VA +++  + A+   P+  G+V Y+ +   A  P   F   T ++   +   + N  +  +  G+R++ D             E   +H++  GP++D       + K     G++  G +P  ++ +V K C   VN+  S  M +    + + M L+ P+L   +    A    EV  LL   P E         FV  AK ++   +DP    EIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|6174965|sp|Q06994.2|RFAB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Lipopolysaccharide 1,6-galactosyltransferase; AltName: Full=UDP-D-galactose--(Glucosyl)lipopolysaccharide-alpha-1,3-D-galactosyltransferase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q06994</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.332174</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AAIAPPPRFRSKTVRFFYLGTLSYNYDVETVCKGVRKLLD-----DGENVELHIMGGGPDLDRLKQYACD-GIK----FYGYIPYAEMMSVAKGCDIAVNAIHSYAMQSITNKLSDYMALQKPILNSQVHDEVAEVLT-LLPHENYRSGDVDGFVQAAKDILKRKNDPVQSDEIVRRFRHDISYRKIVNLIERL</Hsp_qseq>
+      <Hsp_hseq>TVIVPPPE-RDKPAVFLYVGRLKFEGQ-----KRVKDLFDGLARTTGE-WQLHIIGDGSDFEKCQAYSRELGIEQRVIWYGW-QSAPWQVVQQKIKNVTALLLTSAFEGFPMTLLEAMSYGIPCISSDCMSGPRDMIKPGLNGELYTPGAIDDFVGHLNRVI--------SGEV--KYQHDI----IPGTIERF</Hsp_hseq>
+      <Hsp_midline>  I PPP  R K   F Y+G L +        K V+ L D      GE  +LHI+G G D ++ + Y+ + GI+    +YG+   A    V +        + + A +     L + M+   P ++S       +++   L  E Y  G +D FV     ++        S E+  +++HDI    I   IER </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|67461811|sp|Q72ZV3.1|TIG_BACC1</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus ATCC 10987]</Hit_def>
+  <Hit_accession>Q72ZV3</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.422676</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>ESGYSKNVSLGRVTSHHRFVKHFEKWLENCRPGEQDVVYSAYPLIATNLLLGKHKARLGYKLIVDVQDVWPESFSSVVPFLK--KIPHNLLPFASRANRAYRYADALVAVSQTYLDRAK--EANPNVPGEVVYIGADFAAIAPPPRF----RSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRLKQ</Hsp_qseq>
+      <Hsp_hseq>EGGKGENYSLA--IGSGTFIPGFEEQVIGLKSGESKDVEVSFPE-------EYHAAELAGK---------PATFKVTVHEIKTKELPELNDEFAKEADEAVATLDELKAKLRTNLEEGKKHEAEHKVRDEVVELAAANAEIDIPEAMIDTELDRMVREFE-----------------QRLSQQGMNLELYYQFTGTDADKLKE</Hsp_hseq>
+      <Hsp_midline>E G  +N SL        F+  FE+ +   + GE   V  ++P          H A L  K         P +F   V  +K  ++P     FA  A+ A    D L A  +T L+  K  EA   V  EVV + A  A I  P         + VR F                  ++L   G N+EL+    G D D+LK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|41018192|sp|Q812Q9.1|TIG_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus ATCC 14579] &gt;gi|226703993|sp|B7IIY4.1|TIG_BACC2 RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus G9842] &gt;gi|226703994|sp|B7HEA5.1|TIG_BACC4 RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus B4264]</Hit_def>
+  <Hit_accession>Q812Q9</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.430131</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>ESGYSKNVSLGRVTSHHRFVKHFEKWLENCRPGEQDVVYSAYPLIATNLLLGKHKARLGYKLIVDVQDVWPESFSSVVPFLK--KIPHNLLPFASRANRAYRYADALVAVSQTYLDRAK--EANPNVPGEVVYIGADFAAIAPPPRFRSKTVRFFYLGTLSYNYDVETVCKGV-RKLLDDGENVELHIMGGGPDLDRLKQ</Hsp_qseq>
+      <Hsp_hseq>EGGKGENYSLA--IGSGTFIPGFEEQVIGLKSGESKDVEVSFPE-------EYHAAELAGK---------PATFKVTIHEIKTKELPELNDEFAKEADEAVATLDELKAKLRTNLEEGKKHEAEHKVRDEVVELAAANAEIEIPEAM--------------INTELDRMVREFEQRLSQQGMNLELYYQFTGTDADKLKE</Hsp_hseq>
+      <Hsp_midline>E G  +N SL        F+  FE+ +   + GE   V  ++P          H A L  K         P +F   +  +K  ++P     FA  A+ A    D L A  +T L+  K  EA   V  EVV + A  A I  P                  N +++ + +   ++L   G N+EL+    G D D+LK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|41018193|sp|Q81LB8.1|TIG_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus anthracis] &gt;gi|67461702|sp|Q633X1.1|TIG_BACCZ RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus E33L] &gt;gi|67461760|sp|Q6HD53.1|TIG_BACHK RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus thuringiensis serovar konkukian str. 97-27] &gt;gi|166229015|sp|A0RJ90.1|TIG_BACAH RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus thuringiensis str. Al Hakam] &gt;gi|226703992|sp|B7JQ66.1|TIG_BACC0 RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus AH820] &gt;gi|254788983|sp|C3P9F8.1|TIG_BACAA RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus anthracis str. A0248] &gt;gi|254788984|sp|C3L705.1|TIG_BACAC RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus anthracis str. CDC 684] &gt;gi|254788985|sp|C1ETR9.1|TIG_BACC3 RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Bacillus cereus 03BB102]</Hit_def>
+  <Hit_accession>Q81LB8</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.430131</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>ESGYSKNVSLGRVTSHHRFVKHFEKWLENCRPGEQDVVYSAYPLIATNLLLGKHKARLGYKLIVDVQDVWPESFSSVVPFLK--KIPHNLLPFASRANRAYRYADALVAVSQTYLDRAK--EANPNVPGEVVYIGADFAAIAPPPRF----RSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRLKQ</Hsp_qseq>
+      <Hsp_hseq>EGGKGENYSLA--IGSGTFIPGFEEQVIGLKSGESKDVEVSFPE-------EYHAAELAGK---------PATFKVTVHEIKTKELPELNDEFAKEADEAVATLDELKAKLRTNLEEGKKHEAEHKVRDEVVELAAANAEIDIPEAMIDTELDRMVREFE-----------------QRLSQQGMNLELYYQFTGTDADKLKE</Hsp_hseq>
+      <Hsp_midline>E G  +N SL        F+  FE+ +   + GE   V  ++P          H A L  K         P +F   V  +K  ++P     FA  A+ A    D L A  +T L+  K  EA   V  EVV + A  A I  P         + VR F                  ++L   G N+EL+    G D D+LK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|23396684|sp|Q9RTI0.1|LEUD2_DEIRA</Hit_id>
+  <Hit_def>RecName: Full=3-isopropylmalate dehydratase small subunit 2; AltName: Full=Alpha-IPM isomerase 2; Short=IPMI 2; AltName: Full=Isopropylmalate isomerase 2 [Deinococcus radiodurans R1]</Hit_def>
+  <Hit_accession>Q9RTI0</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.580778</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>PGEVVYIGADF-------------------AAIAPPPRFRSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGG-------GPDLD--RLKQYACDGIKFYGYIPYAEMMSVAKG---CDIAVNAIHSYA</Hsp_qseq>
+      <Hsp_hseq>PGDIIVAGADFGCGSSREHAVWALRGAGVSAVIAP------NFARIYYRNSINNGF-LALECEGITELFQDGEEAELDLKGGTIRNPRTGKELSFVPVPQFALDVQKAGGWLEYMKAGEDVEGERLDNASTSAGHGHA</Hsp_hseq>
+      <Hsp_midline>PG+++  GADF                   A IAP         R +Y  +++  + +   C+G+ +L  DGE  EL + GG       G +L    + Q+A D  K  G++ Y +     +G    + + +A H +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81446277|sp|Q8CWR6.1|AMGDS_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Alpha-monoglucosyldiacylglycerol synthase; Short=Alpha-MGS; Short=MGlcDAG synthase; AltName: Full=1,2-Diacylglycerol 3-glucosyltransferase; AltName: Full=UDP-glucose:1,2-diacylglycerol 3-alpha-D-glucosyltransferase [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>Q8CWR6</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.30983</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRLKQYA-----CDGIKFYGYIPYAEMMSVAKGCDIAVNA</Hsp_qseq>
+      <Hsp_hseq>LSRISYEKNIQAVLVAFADVLKEEDKVKLVVAGDGPYLNDLKEQAQNLEIQDSVIFTGMIAPSETALYYKAADFFISA</Hsp_hseq>
+      <Hsp_midline>L  +SY  +++ V      +L + + V+L + G GP L+ LK+ A      D + F G I  +E     K  D  ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|150438839|sp|Q2S006.2|ADEC_SALRD</Hit_id>
+  <Hit_def>RecName: Full=Adenine deaminase; Short=Adenase; Short=Adenine aminase [Salinibacter ruber DSM 13855]</Hit_def>
+  <Hit_accession>Q2S006</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.37024</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>AAIAPPPRFRSKTVRFFYLGTLSYNYDVETV--CKGVRKLLDDGENVELHIMGGGPDLDRLKQYACDGIKF----------YGYIPY-AEMMSVAKGCDIAVNAIHSYAMQSITNKLSD</Hsp_qseq>
+      <Hsp_hseq>SAMLPPSEFARAAVRHGTVGTVSDPHEIANVLGVEGVEYMIADGRPVPFHFAFGAPSCVPATPFETSGAELGPDAVSALLDRDDVPYLSEMMDYPGAIDGAPNVLAKIRAAQVRDKPVD</Hsp_hseq>
+      <Hsp_midline>+A+ PP  F    VR   +GT+S  +++  V   +GV  ++ DG  V  H   G P       +   G +              +PY +EMM      D A N +       + +K  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|614087003|sp|P9WMY8.1|GLGSY_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Glycogen synthase; AltName: Full=Alpha-1,4-glucosyltransferase MT3116; AltName: Full=UDP-glucose--glycogen glucosyltransferase [Mycobacterium tuberculosis CDC1551] &gt;gi|614087018|sp|P9WMY9.1|GLGSY_MYCTU RecName: Full=Glycogen synthase; AltName: Full=Alpha-1,4-glucosyltransferase Rv3032; AltName: Full=UDP-glucose--glycogen glucosyltransferase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WMY8</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>3.71876</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>RYADALVAVSQTYLDRAKEANPNVPGEVVYI--GAD-----FAAIAPPPRFRSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRL-----KQYACDGIKFYGYIPYAEMMSVAKGCDIAVNAIH--SYAMQSITNKLSDYMALQKPILNSQVHDEVAEVLTLLPHENYRSGDVDGFVQAAKDILKRKNDP</Hsp_qseq>
+      <Hsp_hseq>RESDSLITCSASMNDEITELFGPGLAEITVIRNGIDAARWPFAARRP----RTGPAELLYVGRLEYEKGVHDAIAALPRLRRTHPGTTLTIAGEGTQQDWLIDQARKHRVLRATRFVGHLDHTELLALLHRADAAVLPSHYEPFGLVAL-----EAAAAGTPLVTSNIGGLGEAVINGQTGVSCAPRDVAGLAAAVRSVL---DDP</Hsp_hseq>
+      <Hsp_midline>R +D+L+  S +  D   E       E+  I  G D     FAA  P    R+      Y+G L Y   V      + +L        L I G G   D L     K       +F G++ + E++++    D AV   H   + + ++     +  A   P++ S +      V+      +    DV G   A + +L   +DP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74822503|sp|Q966W3.1|NDST_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional heparan sulfate N-deacetylase/N-sulfotransferase 1; AltName: Full=Glucosaminyl N-deacetylase/N-sulfotransferase 1; Includes: RecName: Full=Heparan sulfate N-deacetylase 1; Includes: RecName: Full=Heparan sulfate N-sulfotransferase 1 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q966W3</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>4.1895</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>695</Hsp_hit-from>
+      <Hsp_hit-to>739</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>EDAKAASQGRLKVMLLEESGYSKNVSLGRVTSHHRFVKHFEKWLEN</Hsp_qseq>
+      <Hsp_hseq>EDPVAITAGSLEVILDSNSTSSKKVR-QRCISGGRYVHHLTKWLEH</Hsp_hseq>
+      <Hsp_midline>ED  A + G L+V+L   S  SK V   R  S  R+V H  KWLE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|267385|sp|Q01175.1|VP5_EHDV1</Hit_id>
+  <Hit_def>RecName: Full=Outer capsid protein VP5 [Epizootic hemorrhagic disease virus 1]</Hit_def>
+  <Hit_accession>Q01175</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.27075</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>527</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>AAIAPPPRFRSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGPDLDRLKQYAC--DGIKFYGYIPYAEMMSVA</Hsp_qseq>
+      <Hsp_hseq>GAIHQKRLIRSKSYHPIYLGAMHYDIAYRELKNNALKIVNDSE-VQKHLLRGPKHFQRRAILSALKDGVKLLGGVDLAEFMRYA</Hsp_hseq>
+      <Hsp_midline> AI      RSK+    YLG + Y+     +     K+++D E V+ H++ G     R    +   DG+K  G +  AE M  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|461470|sp|Q04945.1|ADHB_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=NADH-dependent butanol dehydrogenase B; AltName: Full=BDH II [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>Q04945</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.95206</Hsp_evalue>
+      <Hsp_query-from>211</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>FRSKTVRFFYLGTLSYNYDVETVCKGVRKLLDDGENVELHIMGGGP-DLDRLKQYAC-----------DGIKFYGYIPYAEMMSVA</Hsp_qseq>
+      <Hsp_hseq>LEKNSIKFYELAGVEPNPRVTTVEKGVKICRENGVEVVLAIGGGSAIDCAKVIAAACEYDGNPWDIVLDGSKIKRVLPIASILTIA</Hsp_hseq>
+      <Hsp_midline>    +++F+ L  +  N  V TV KGV+   ++G  V L I GG   D  ++   AC           DG K    +P A ++++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|75055014|sp|Q5RAF1.1|GL1D1_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Glycosyltransferase 1 domain-containing protein 1; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RAF1</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.44185</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>RAYRYADALVAVSQTYLDRAKEANPNVPGEVVYIGADFAAIAPPPRFRSKT-VRFFYLGTLSYNYDVETVCKGVRKLLD-------------DGENVELHIMGGGPDLD---------RLKQYACDGIKFYGYIPYAEMMSVAKGCDIAVNAIHSYAMQSITNKLSDYMALQKPIL-------NSQVHDEVAEVLTLLPHENYRSGDVDGFVQAAKDILKRKNDPVQSDEIV</Hsp_qseq>
+      <Hsp_hseq>RVLEEARFAVAFTESMKEMAQVQWPHAKGKI-YVQSQGIATTPNAAFNWNTFLQRSEINQSADNLHIFLLICGLRQVKDPLYLVDAFSEWHQEEPNVYLVILG--PEVDPVFTREVKANVKRAA--GVRLIGEMPQEDLHAVVKNCFAVVNSSVSEGMSA---AILEAMDLEVPVLARNIPGNAAMVKHEVTGLLFSNPQE---------FVHLAKRLV---SDPALEKEIV</Hsp_hseq>
+      <Hsp_midline>R    A   VA +++  + A+   P+  G++ Y+ +   A  P   F   T ++   +   + N  +  +  G+R++ D             +  NV L I+G  P++D          +K+ A  G++  G +P  ++ +V K C   VN+  S  M +    + + M L+ P+L        + V  EV  +L   P E         FV  AK ++   +DP    EIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123550219|sp|Q30RE2.1|SELU_SULDN</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-selenouridine synthase; AltName: Full=Selenophosphate-dependent tRNA 2-selenouridine synthase [Sulfurimonas denitrificans DSM 1251]</Hit_def>
+  <Hit_accession>Q30RE2</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.86453</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LNSQVHDEVAEVLTLLPHENYRSGDVDGFVQAAKDILKRKNDPVQSDEIVRRFRHDISYR----KIVNLIERLAN</Hsp_qseq>
+      <Hsp_hseq>LGNEKYTKVTAIFESALDEQKKSGSYDGYKEWAKFLLEEYYDPMYDYQIQKR-SHMVAFRGDAQEVQNYIERLSD</Hsp_hseq>
+      <Hsp_midline>L ++ + +V  +      E  +SG  DG+ + AK +L+   DP+   +I +R  H +++R    ++ N IERL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|730753|sp|P38989.1|SMC2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Structural maintenance of chromosomes protein 2; AltName: Full=DA-box protein SMC2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38989</Hit_accession>
+  <Hit_len>1170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>8.37039</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>866</Hsp_hit-from>
+      <Hsp_hit-to>932</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>VHDEVAEVLTLLPHENYRSGDVDGFVQAAKDILKRKNDPVQSDEI-VRRFRHDIS-YRKIVNLIERL</Hsp_qseq>
+      <Hsp_hseq>VEDDLVTVQTELNEEKKRLMDIDDELNELETLIKKKQDEKKSSELELQKLVHDLNKYKSNTNNMEKI</Hsp_hseq>
+      <Hsp_midline>V D++  V T L  E  R  D+D  +   + ++K+K D  +S E+ +++  HD++ Y+   N +E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

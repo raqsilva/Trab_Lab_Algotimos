@@ -1,0 +1,132 @@
+ID   DAPAT_GEOSL             Reviewed;         410 AA.
+AC   Q74GT3;
+DT   01-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   04-FEB-2015, entry version 79.
+DE   RecName: Full=LL-diaminopimelate aminotransferase {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            Short=DAP-AT {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            Short=DAP-aminotransferase {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            Short=LL-DAP-aminotransferase {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            EC=2.6.1.83 {ECO:0000255|HAMAP-Rule:MF_01642};
+GN   Name=dapL {ECO:0000255|HAMAP-Rule:MF_01642};
+GN   OrderedLocusNames=GSU0162;
+OS   Geobacter sulfurreducens (strain ATCC 51573 / DSM 12127 / PCA).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales;
+OC   Geobacteraceae; Geobacter.
+OX   NCBI_TaxID=243231;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51573 / DSM 12127 / PCA;
+RX   PubMed=14671304; DOI=10.1126/science.1088727;
+RA   Methe B.A., Nelson K.E., Eisen J.A., Paulsen I.T., Nelson W.C.,
+RA   Heidelberg J.F., Wu D., Wu M., Ward N.L., Beanan M.J., Dodson R.J.,
+RA   Madupu R., Brinkac L.M., Daugherty S.C., DeBoy R.T., Durkin A.S.,
+RA   Gwinn M.L., Kolonay J.F., Sullivan S.A., Haft D.H., Selengut J.,
+RA   Davidsen T.M., Zafar N., White O., Tran B., Romero C., Forberger H.A.,
+RA   Weidman J.F., Khouri H.M., Feldblyum T.V., Utterback T.R.,
+RA   Van Aken S.E., Lovley D.R., Fraser C.M.;
+RT   "Genome of Geobacter sulfurreducens: metal reduction in subsurface
+RT   environments.";
+RL   Science 302:1967-1969(2003).
+CC   -!- FUNCTION: Involved in the synthesis of meso-diaminopimelate (m-DAP
+CC       or DL-DAP), required for both lysine and peptidoglycan
+CC       biosynthesis. Catalyzes the direct conversion of
+CC       tetrahydrodipicolinate to LL-diaminopimelate, a reaction that
+CC       requires three enzymes in E.coli. {ECO:0000255|HAMAP-
+CC       Rule:MF_01642}.
+CC   -!- CATALYTIC ACTIVITY: LL-2,6-diaminoheptanedioate + 2-oxoglutarate =
+CC       (S)-2,3,4,5-tetrahydropyridine-2,6-dicarboxylate + L-glutamate +
+CC       H(2)O. {ECO:0000255|HAMAP-Rule:MF_01642}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01642};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; LL-2,6-diaminopimelate from (S)-tetrahydrodipicolinate
+CC       (aminotransferase route): step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01642}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01642}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. LL-diaminopimelate aminotransferase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01642}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017180; AAR33497.1; -; Genomic_DNA.
+DR   RefSeq; NP_951224.1; NC_002939.5.
+DR   ProteinModelPortal; Q74GT3; -.
+DR   STRING; 243231.GSU0162; -.
+DR   EnsemblBacteria; AAR33497; AAR33497; GSU0162.
+DR   GeneID; 2687776; -.
+DR   KEGG; gsu:GSU0162; -.
+DR   PATRIC; 22023070; VBIGeoSul17553_0162.
+DR   eggNOG; COG0436; -.
+DR   HOGENOM; HOG000223061; -.
+DR   InParanoid; Q74GT3; -.
+DR   KO; K10206; -.
+DR   OMA; TGTRCAF; -.
+DR   OrthoDB; EOG6XWV2X; -.
+DR   BioCyc; GSUL243231:GH27-168-MONOMER; -.
+DR   UniPathway; UPA00034; UER00466.
+DR   Proteomes; UP000000577; Chromosome.
+DR   GO; GO:0010285; F:L,L-diaminopimelate aminotransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; ISS:TIGR.
+DR   GO; GO:0033362; P:lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01642; DapL_aminotrans_1; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR019942; DapL_aminotrans.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   PANTHER; PTHR11751:SF22; PTHR11751:SF22; 1.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR03542; DAPAT_plant; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Complete proteome; Pyridoxal phosphate;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    410       LL-diaminopimelate aminotransferase.
+FT                                /FTId=PRO_0000342239.
+FT   BINDING      42     42       Substrate; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01642}.
+FT   BINDING      72     72       Pyridoxal phosphate; shared with dimeric
+FT                                partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING      75     75       Substrate; shared with dimeric partner.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01642}.
+FT   BINDING     109    109       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     132    132       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     187    187       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     187    187       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     215    215       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     218    218       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     246    246       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     248    248       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     257    257       Pyridoxal phosphate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   BINDING     292    292       Substrate; shared with dimeric partner.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01642}.
+FT   BINDING     388    388       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01642}.
+FT   MOD_RES     249    249       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01642}.
+SQ   SEQUENCE   410 AA;  45200 MW;  BA2D55A533D3CC78 CRC64;
+     MAKINDHYLK LKAGYLFPEI GRRVREFAAA NPSAKVIRLG IGDVTRPLAP AVIKAFHEAV
+     DDLATTENFA GYGPEQGYDW LINAIIEKSY KPLGVDLKTE EMFISDGSKC DCANILDIFA
+     LDNVVAIGDP VYPVYNDTNV MIGRTGEADD KGYYKGIVYM PCTEENGFIP SLPTEKVDII
+     YLCFPNNPTG TVATKAELKK WVDYAIANDA VIFFDAAYEA FITDPAIPHS IYEIEGAKKC
+     AIEFRSFSKT AGFTGVRCGL VVVPEEVMGT TPTGEKYSFN KLWLRRTTTK FNGASYPVQK
+     AAAAVYSDEG WQQNKEIIDY YMENARIIRE GLAAAGLTVY GGVNAPYIWL KTPGGMSSWD
+     FFDKLLNECN VVGTPGSGFG PSGEGFFRLS AFGHRENVIE AVERIKKNLK
+//

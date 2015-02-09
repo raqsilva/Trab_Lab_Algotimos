@@ -1,0 +1,1556 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800660|ref|YP_207372.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein NGO0207 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>327</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800660|ref|YP_207372.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein NGO0207 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>327</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81345692|sp|P71059.1|EPSJ_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase EpsJ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71059</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>5.91795e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSI-EPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKV-EVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFEKGI-YSEDIEWSMRLFNAATTFSYLDGCYYYYRQ</Hsp_qseq>
+      <Hsp_hseq>VSIIVPMYNVEPFIEECIDSLLRQTLSD--IEIILVNDGTPDRSGEIAEDYAKRDARIR-------VIHQANGGLSSARNTGIKAARGTYIGFVDGDDYVSSAMFQRLTEEAEQNQLDIVGCGFYKQSSDRRTYVPPQLEANRVLTKPEMTEQLKHAHETR-FIWYVWRYLYRRELFERANLLFDEDIRFAEDSPFNLSAFREAERVKMLDEGLYIYRE</Hsp_hseq>
+      <Hsp_midline>+SI+VP+YNVE ++E C++S+    LS+  +E+ILVNDG+ D S +I   Y  + +  +        I+Q N GLS ARNTGIK + G YI F+D DD+++  +      + + +  D+V     K    R +Y     +  ++L + ++ E LK     R F    W  + +REL  R  L F++ I ++ED  +++  F  A     LD   Y YR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81345690|sp|P71057.1|EPSH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative glycosyltransferase EpsH [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71057</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>4.15354e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN---CQVLLDFLGKDDSDMPDVVFLN-AVKY-DKGRV--SYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFE-KG--IYSEDIEWSMRLFNAATTFSYLDGCYYYYRQGRKDSITGTVSEKGIKSLLYILEKNA</Hsp_qseq>
+      <Hsp_hseq>VSLLVAVYNTETYIRTCLESLRN-QTMDNIEIIIVNDGSADASPDIAEEYA-KMDN------RFKVIHQENQGLGAVRNKGIEAARGEFIAFIDSDDWIEPDYCEQMLRTAG----DETDLVICNYAAEFEDTGKTMDSDIAQTYQ-----DQPKEHYIKALFE-GKVRGFSWNKLYRRSMIEAHRLSFPLRGELEHVEDQFFSFRAHFFARSVSYVKTPLYHYRI-HLSSIVQRYQKKLFESGLALYETNA</Hsp_hseq>
+      <Hsp_midline>+S++V +YN E+Y+  CL S+    + +N+E+I+VNDGS D S DI  +Y  K+ N        K I+Q+NQGL   RN GI+ + G++IAFIDSDD+I    C+ +L   G    D  D+V  N A ++ D G+   S   + YQ     +Q K   +K L    K  G +WNK+ +R +I   +L F  +G   + ED  +S R    A + SY+    Y+YR     SI     +K  +S L + E NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|586730|sp|P11290.2|YIBD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase YibD [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P11290</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>4.10002e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQ--PEKILNQSKVEVLKGLCRF----RKFPGSAWNKIIKRELIIREKLFFEKGIYSEDIEWSMR-LFNAATTFSYLDGCYYYY----------RQGRKD</Hsp_qseq>
+      <Hsp_hseq>LSVIIPLYNAGDDFRTCMESL-ITQTWTALEIIIINDGSTDNSVEIAKYYAENY-------PHVRLLHQANAGASVARNRGIEVATGKYVAFVDADDEVYPTMYETLMTMALEDDLDVAQCNA----DWCFRETGETWQSIPTDRLRSTGVLTGPDWLRMGLSSRRWTHVVWMGVYRRDVIVKNNIKFIAGLHHQDIVWTTEFMFNALRARYTEQSLYKYYLHNTSVSRLHRQGNKN</Hsp_hseq>
+      <Hsp_midline>LS+++P+YN       C+ S+    +   +E+I++NDGS D S +I   Y +         P+ + ++Q N G S ARN GI+ + GKY+AF+D+DD +   +    +     D  DV   NA           GE +Q  P   L  + V       R     R++    W  + +R++I++  + F  G++ +DI W+   +FNA          Y YY          RQG K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1169895|sp|P46918.1|GGAB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Minor teichoic acid biosynthesis protein GgaB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P46918</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.14879e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>NLSIVVPIYNVESYLEACLNSI-EPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFI</Hsp_qseq>
+      <Hsp_hseq>DFSVIMPIYNVELYLTEAIESIINQTIGFENIQLILVNDDSPDKSEIICKEYAQKYPN------NIVYAKKQNGGVSSARNYGLKYAEGRYIQFLDPDDLV</Hsp_hseq>
+      <Hsp_midline>+ S+++PIYNVE YL   + SI    +  EN++LILVND S D SE IC +Y  K  N      N  Y  + N G+S ARN G+K + G+YI F+D DD +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|3123077|sp|Q57022.1|Y868_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase HI_0868 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57022</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.05442e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLE----ACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTK-HQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFI</Hsp_qseq>
+      <Hsp_hseq>ISIIMPVYNAECYLNQGILSCLNQ-----SYQNIELILIDDGSTDKSIEIINNIIDKDKRVKLFFTPT-------NQGPAAARNIGLEKAQGDYITFLDSDDFI</Hsp_hseq>
+      <Hsp_midline>+SI++P+YN E YL     +CLN      S +N+ELIL++DGS D S +I    IDK    K   TP        NQG + ARN G++ + G YI F+DSDDFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1169894|sp|P46917.1|GGAA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Minor teichoic acid biosynthesis protein GgaA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P46917</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>6.27921e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSI--EPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKN--SNGKYIAFIDSDDFIN---CQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILN--QSKVEVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFEKGIYSED-IEWSMRLFNAATTFSYLDGCYYYYRQGRKDSIT</Hsp_qseq>
+      <Hsp_hseq>FSIIIPIYNSENYLRYSIESVLNQSIGFKENIELILIDDGSVDSSPQICESFKNLYPN------NIKIMKIENSGPSAARNCGLSNVSERSKFIGFLDSDDAFSQNALQSVYDFFC--DSEHVNIAVLP--------VYYTGEKEGGHKLNNRFEKGTRVINILNDYKAIHFYIGGTFYRRHTLTSTVLFDESIKFWEDAIFFNQLLLKEKRYGAVAEGKYFYRKRKEQDSLV</Hsp_hseq>
+      <Hsp_midline> SI++PIYN E+YL   + S+  + I   EN+ELIL++DGS D S  IC  + +   N      N K +  +N G S ARN G+ N     K+I F+DSDD  +    Q + DF    DS+  ++  L         V Y GE     K+ N  +    V+  L  ++           +R  +    LF E   + ED I ++  L       +  +G Y+Y ++  +DS+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81625808|sp|Q9ZDI9.1|Y339_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase RP339 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZDI9</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.66447e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDD</Hsp_qseq>
+      <Hsp_hseq>VSIIIPVYNGANYMREAIDSALA-QTYKNIEIIVVNDGSKDETETIALSYGDKIC----------YLYKENGGCGSALNCGIKNMKGKYFSWLSHDD</Hsp_hseq>
+      <Hsp_midline>+SI++P+YN  +Y+   ++S     + +N+E+I+VNDGSKD +E I   Y DKI           Y+Y++N G   A N GIKN  GKY +++  DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81610804|sp|Q68X33.1|Y329_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase RT0329 [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68X33</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>9.14396e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDF</Hsp_qseq>
+      <Hsp_hseq>VSIIIPVYNGANYMREAIDSALA-QTYKNIEIIVVNDGSKDKTETIALSYGDKIC----------YFYKENGGCGSALNYGIKNMKGEYFSWLSHDDL</Hsp_hseq>
+      <Hsp_midline>+SI++P+YN  +Y+   ++S     + +N+E+I+VNDGSKD +E I   Y DKI           Y Y++N G   A N GIKN  G+Y +++  DD </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|119368444|sp|Q1RIM7.1|Y706_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase RBE_0706 [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RIM7</Hit_accession>
+  <Hit_len>690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.52947e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPIL--SNENVELILVNDGS-KDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDF</Hsp_qseq>
+      <Hsp_hseq>VSVIIPVYN---RINWTIQSIESVLNQTHENFEVIVINDGSTEDISELIKFCKKDK---------RIQYFHKKNEGPASARNLGIKKSSGKYIAFLDSDDL</Hsp_hseq>
+      <Hsp_midline>+S+++P+YN    +   + SIE +L  ++EN E+I++NDGS +D SE I +   DK           +Y ++ N+G + ARN GIK S+GKYIAF+DSDD </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.99216e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDG--SEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDF</Hsp_qseq>
+      <Hsp_hseq>VSIIIPVYNGANYMREAIDSA-LAQTYKNIEVIVVNDGSKDSGETEAIALSYGDKI----------RYFHKENGGCGSALNYGIKNMKGKYFSWLSHDDL</Hsp_hseq>
+      <Hsp_midline>+SI++P+YN  +Y+   ++S     + +N+E+I+VNDGSKD   +E I   Y DKI          +Y +++N G   A N GIKN  GKY +++  DD </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81595583|sp|Q92IF9.1|Y461_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase RC0461 [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92IF9</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.27279e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDG--SEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDF-----INCQVLLDFLGKDDSDMPDVVFLNAVKY--DKGR-VSYFGED-YQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFEKGIYSE------DIEWSMRLFNAATTF---SYLDGCYYYYRQGRK</Hsp_qseq>
+      <Hsp_hseq>VSIIIPVYNGANYMKEAINSALA-QTYKNIEIIVVNDGSKDNGETERVALSYGDKI----------RYFYKENGGCGSALNYGIKNMQGEYFSWLSHDDIYYPNKIEHQV--DILNKLDNK--DTIIYGGYELIDEKGNSLRYIKPDSVLPINKLNISLLPLLRGL-------------IHGCSLLMPAKYFHEVGIFNEALPTTQDYDLWFKIFRVAPIHFDESILIKSRFHSEQGSK</Hsp_hseq>
+      <Hsp_midline>+SI++P+YN  +Y++  +NS     + +N+E+I+VNDGSKD   +E +   Y DKI          +Y Y++N G   A N GIKN  G+Y +++  DD      I  QV  D L K D+   D +     +   +KG  + Y   D   P   LN S + +L+GL             I    L++  K F E GI++E      D +   ++F  A      S L    ++  QG K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.97095e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDF</Hsp_qseq>
+      <Hsp_hseq>ISVIIPVYNRINWAIEAIKSV-LIQTHKNFEILIIDDGSTDD--------ISELTAICKKDKRIKYFHKKNEGPAAARNLGIKNAIGKYIAFLDSDDL</Hsp_hseq>
+      <Hsp_midline>+S+++P+YN  ++    + S+  I +++N E+++++DGS D         I +++    +    KY ++ N+G + ARN GIKN+ GKYIAF+DSDD </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75536627|sp|Q4UM29.1|Y543_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase RF_0543 [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UM29</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.55596e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPIL--SNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDF</Hsp_qseq>
+      <Hsp_hseq>VSVIIPVYN---RINWAIEAIESVLIQTHKNFEILIIDDGSTDD--------ISELTSICKKDKRIRYFHKKNEGPAAARNLGIKNAIGKYIAFLDSDDL</Hsp_hseq>
+      <Hsp_midline>+S+++P+YN    +   + +IE +L  +++N E+++++DGS D         I ++++   +    +Y ++ N+G + ARN GIKN+ GKYIAF+DSDD </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>4.07371e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDG--SEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDF-----INCQVLLDFLGKDDSDMPDVVFLNAVKY--DKG-RVSYFGED-YQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFEKGIYSE</Hsp_qseq>
+      <Hsp_hseq>VSIIIPVYNGANYMREAIDSALA-QTYENIEIVVVNDGSKDNGETENVALSYGDKI----------RYFHKENGGCGSALNYGIKNMKGEYFSWLSHDDIYYPNKIEHQV--NILNKLDNK--DTIIYGGYELIDEKGSSLRYIKPDSVLPINKLNISLLPLLRGL-------------IHGCSLLIPAKYFHEIGIFNE</Hsp_hseq>
+      <Hsp_midline>+SI++P+YN  +Y+   ++S     + EN+E+++VNDGSKD   +E++   Y DKI          +Y +++N G   A N GIKN  G+Y +++  DD      I  QV  + L K D+   D +     +   +KG  + Y   D   P   LN S + +L+GL             I    L+I  K F E GI++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|296434405|sp|Q67FW5.2|B3GNL_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase-like protein 1; Short=BGnT-like protein 1; Short=Beta1,3-N-acetylglucosaminyltransferase-like protein 1; Short=Beta3Gn-T-like protein 1; Short=Beta3GnTL1; AltName: Full=Beta-1,3-N-acetylglucosaminyltransferase 8; Short=BGnT-8; Short=Beta-1,3-Gn-T8; Short=Beta3Gn-T8 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q67FW5</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.92325e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>NLSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNT-------KHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQ</Hsp_qseq>
+      <Hsp_hseq>HVSIILPVHNAEPWLDECLRSVLQQDFEGTMELSVFNDASKDKSGAIIEKWRVKLEDSGVHVIIGGHDSPSPR-------GVGYAKNQAVAQSSGSYLCFLDSDDVMMPQ</Hsp_hseq>
+      <Hsp_midline>++SI++P++N E +L+ CL S+        +EL + ND SKD S  I  K+  K+ ++        H +P+ +       G+  A+N  +  S+G Y+ F+DSDD +  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81863728|sp|Q6GV29.1|B3GNL_RAT</Hit_id>
+  <Hit_def>RecName: Full=UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase-like protein 1; Short=BGnT-like protein 1; Short=Beta1,3-N-acetylglucosaminyltransferase-like protein 1; Short=Beta3Gn-T-like protein 1; Short=Beta3GnTL1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q6GV29</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>5.56687e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNT-------KHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQ</Hsp_qseq>
+      <Hsp_hseq>VSIILPVHNAEQWLDECLMSVLQQDFEGTMELSVFNDASKDKSRAIIEKWKVKLEDSGISVVIGGHDSPSPR-------GVGYSKNQAIAQSTGSYLCFLDSDDVMMPQ</Hsp_hseq>
+      <Hsp_midline>+SI++P++N E +L+ CL S+        +EL + ND SKD S  I  K+  K+ ++        H +P+ +       G+  ++N  I  S G Y+ F+DSDD +  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|374110453|sp|D4GYG7.1|AGLE_HALVD</Hit_id>
+  <Hit_def>RecName: Full=Glycosyltransferase AglE; AltName: Full=Archaeal glycosylation protein E [Haloferax volcanii DS2]</Hit_def>
+  <Hit_accession>D4GYG7</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>9.37708e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSI-EPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>VSVIIPVYNEAENIQKCLNAVTSQTYPKSKYEVLVVDNGSQDGTKEIARQFSTAYDNLE------ILIEDEQQGSYAARNTGIEQSSGAILAFLDGD</Hsp_hseq>
+      <Hsp_midline>+S+++P+YN    ++ CLN++          E+++V++GS+DG+++I  ++     N +        I  + QG   ARNTGI+ S+G  +AF+D D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123796900|sp|Q3U129.1|B3GNL_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase-like protein 1; Short=BGnT-like protein 1; Short=Beta1,3-N-acetylglucosaminyltransferase-like protein 1; Short=Beta3Gn-T-like protein 1; Short=Beta3GnTL1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q3U129</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.09262e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTK-------HQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQ</Hsp_qseq>
+      <Hsp_hseq>VSIILPVHNAEQWLDECLMSVLQQDFEGAMELSVFNDASKDKSRAIIEKWKVKLEDSGISVVIGGHDSPSPR-------GVGYSKNQAVAQSTGSYLCFLDSDDVMMPQ</Hsp_hseq>
+      <Hsp_midline>+SI++P++N E +L+ CL S+        +EL + ND SKD S  I  K+  K+ ++        H +P+ +       G+  ++N  +  S G Y+ F+DSDD +  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|20141878|sp|P22639.2|Y2836_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase alr2836 [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>P22639</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>8.75067e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MNLSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNT-KYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDD</Hsp_qseq>
+      <Hsp_hseq>MKISVIISNYNYARYLSRAINSVLA-QTHSDIEIVIVDDGSTDNSRDV-------ITQLQEQAPDKIKPIFQANQGQGGAFNAGFAAATGEVVAFLDADD</Hsp_hseq>
+      <Hsp_midline>M +S+++  YN   YL   +NS+    ++ ++E+++V+DGS D S D+       I+  + Q P+  K I+Q NQG   A N G   + G+ +AF+D+DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|46577297|sp|O32268.1|TUAG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative teichuronic acid biosynthesis glycosyltransferase TuaG [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32268</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>9.52633e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIY-QDNQGLSEARNTGIKNSNGKYIAFI</Hsp_qseq>
+      <Hsp_hseq>VSVITPSYNARDYIEDTVHSVLD-QSHPHWEMIIVDDCSTDGTRDILQQY-EKIDERIH------VVYLEENSGAAVARNKALERAQGRYVAFL</Hsp_hseq>
+      <Hsp_midline>+S++ P YN   Y+E  ++S+    S+ + E+I+V+D S DG+ DI  +Y +KI    H       +Y ++N G + ARN  ++ + G+Y+AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1723030|sp|P47306.1|Y060_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase MG060 [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>P47306</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.54301e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>MNLSIVVPIYNVESYLEACLNSIEPILSNE-NVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKN--SNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYDK---GRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFEKGIYSEDIEWSMRLFNAATTFSYLDGCYYYYRQGRKDSITGTVSEKGIKSLLY--ILEKNAK</Hsp_qseq>
+      <Hsp_hseq>MKLSVIIPTYNCASFIEKAINSIVKNRPNDLEIEVLIIDDGSIDNTNKVIKKIQDQINNLTLQ-----YFYKSNGNWGSVINYVRNNKLAKGEWVTVLDSDDIFSKKTISIFQKYAQKQRYDAIIFDYYKCWKKFLWKIPTYARFRKEIKGELKKQTPFCIPLAKFFK------NEVFYQLPKLRENVGFQDAIYTMH---ALQIANNVFHVSKAGGYYFFKRVGNSMSIPWHSSRFDIEVQICKDLIENNAQ</Hsp_hseq>
+      <Hsp_midline>M LS+++P YN  S++E  +NSI     N+  +E+++++DGS D +  +  K  D+I+N   Q     Y Y+ N       N    N  + G+++  +DSDD  + + +  F         D +  +  K  K    ++  +    +  K   + +      L +F K      N++  +   +RE + F+  IY+     ++++ N     S   G Y++ R G   SI    S   I+  +   ++E NA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|62899662|sp|Q8L0V4.1|CHS_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Chondroitin synthase; Short=CS; AltName: Full=Chondroitin polymerase; Includes: RecName: Full=Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase; AltName: Full=UDP-GalNAc transferase; Includes: RecName: Full=N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase; AltName: Full=UDP-GlcUA transferase [Escherichia coli]</Hit_def>
+  <Hit_accession>Q8L0V4</Hit_accession>
+  <Hit_len>686</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>6.31699e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNE--NVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN---CQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWN</Hsp_qseq>
+      <Hsp_hseq>VSIYIPAYNCSKYIVRC---VESALNQTITDLEVCICDDGSTDDTLRILQEHY-----ANH--PRVRFISQKNKGIGSASNTAVRLCRGFYIGQLDSDDFLEPDAVELCLDEFRKDLS-LACVYTTNRNIDREGNLISNGYNW---PIYSREKLTSAMICHHFRMFTARAWN</Hsp_hseq>
+      <Hsp_midline>+SI +P YN   Y+  C   +E  L+    ++E+ + +DGS D +  I  ++        H  P  ++I Q N+G+  A NT ++   G YI  +DSDDF+     ++ LD   KD S +  V   N     +G +   G ++    I ++ K+        FR F   AWN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>5.11554e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLE---ACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQG--LSEARNTGIKNSNGKYIAFIDSDDFIN---CQVLLDFLGKDDSDMPDVVFLNAVKY-DKGRVSYFGEDYQ-------PEKILNQS---KVEVLKG---------------LCR--FRKFPGSAWNKIIKRELIIREKLFFEKGIY--SEDIEWSMRLFNAATTFSYLDGCYYYYRQGR-KDSITGTVSEKGI------KSLLYILEKNAKME</Hsp_qseq>
+      <Hsp_hseq>LSIVIPTYNRAKILAITLACLCNQKTIY---DYEVIVADDGSKENIEEIVREF--------ESLLNIKYVRQKDYGYQLCAVRNLGLRAAKYNYVAILDCDMAPNPLWVQSYMELLAVDD----NVALIGPRKYIDTSKHTYLDFLSQKSLINEIPEIITNNQVAGKVEQNKSVDWRIEHFKNTDNLRLCNTPFRFFSGG--NVAFAKKWLFRAGWFDEEFTHWGGEDNEFGYRLYREGCYFRSVEGAMAYHQEPPGKENETDRAAGKNITVQLLQQKVPYFYRKKEKIE</Hsp_hseq>
+      <Hsp_midline>LSIV+P YN    L    ACL + + I    + E+I+ +DGSK+  E+I  ++            N KY+ Q + G  L   RN G++ +   Y+A +D D   N    Q  ++ L  DD    +V  +   KY D  + +Y     Q       PE I N     KVE  K                LC   FR F G   N    ++ + R   F E+  +   ED E+  RL+     F  ++G   Y+++   K++ T   + K I      + + Y   K  K+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|378548271|sp|D4GYH2.1|AGLI_HALVD</Hit_id>
+  <Hit_def>RecName: Full=Glycosyltransferase AglI; AltName: Full=Archaeal glycosylation protein I [Haloferax volcanii DS2]</Hit_def>
+  <Hit_accession>D4GYH2</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>6.59679e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSI-EPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDN-QGLSEARNTGIKNSNGKYIAFIDSDDFIN---CQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFEKGIYSEDIEWSMRLFNAATTFSYLDGCYYYY</Hsp_qseq>
+      <Hsp_hseq>VSVIVPVYNDPTGIRDTLTALTKQTYPTERVNILPIDNGSTDETRDVIRQF-----EREHE--NVTLVVEDEIQGSYAARNTGIEQATGEIFAFVDADMYMDESWLETAVDAMDEAAYVGCDIELVTN-----------GEDTLPARFDAQTAFPIAQYIRQQQYAPTCGL--LVSREVVDDVGPFDERLVSGGDSEFGSRVANAGYRQAFAPAATLYH</Hsp_hseq>
+      <Hsp_midline>+S++VP+YN  + +   L ++ +     E V ++ +++GS D + D+  ++       +H+  N   + +D  QG   ARNTGI+ + G+  AF+D+D +++    +  +D + +      D+  +             GED  P +   Q+   + + + + +  P      ++ RE++     F E+ +   D E+  R+ NA    ++      Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123042809|sp|Q0P9C6.1|PGLI_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=GalNAc(5)-diNAcBac-PP-undecaprenol beta-1,3-glucosyltransferase; AltName: Full=Protein glycosylation I [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q0P9C6</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>7.74147e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDN--QGLSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELIIREKLFFEKGIYSEDIEWSMRLFNAATTFSYLDGCYYYYRQGRKDSITGTVSEK------GIKSLLYILEKNAKMEFNRDISSYLYSFLSYEYLVLLFIMTSKNIACDSDIKRRAYHLRFMLLKSNKLIYKLIFPIITL</Hsp_qseq>
+      <Hsp_hseq>LSVIVPTFNRQVLLEKAIKSIQN-QDFKDLEIIVSDDNSSDDTKSV-------VQNLQKDDDRIKYFLNQNYKQGPNGNKNNGLDQASGEFVTFLDDDDELLSGALSTLMQKANEGYAH-VFGNCLIEKEGNLSKEFSGKGLEKDSEISKKDFL-----MAKFSGEFFS-VFKKSLLENKR--FNEEFYGNEATLWVNLYKEKSF--YIHKAFRIYRIFRQDSVTLGASKNAYRVYLGYLELAKILENELRMSKDKDYKK----------------------TCASYYKMAAYYAK--LAKNYKALYKCLFKSLSI</Hsp_hseq>
+      <Hsp_midline>LS++VP +N +  LE  + SI+     +++E+I+ +D S D ++ +       + N +      KY    N  QG +  +N G+  ++G+++ F+D DD +    L   + K +      VF N +   +G +S        EK    SK + L       KF G  ++ + K+ L+  ++  F +  Y  +    + L+   +   Y+   +  YR  R+DS+T   S+       G   L  ILE   +M  ++D                          C S  K  AY+ +  L K+ K +YK +F  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|60390582|sp|Q8XAR5.1|PGAC_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PGA synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm PGA synthesis protein PgaC; AltName: Full=N-acetylglucosaminyltransferase PgaC [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8XAR5</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>3.28816e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>NLSIVVPIYNVESYLEACLNSIEPILSN--ENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIY-QDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN</Hsp_qseq>
+      <Hsp_hseq>SISIIIPCFNEEKNVE---ETIHAALAQRYENIEVIAVNDGSTDKTRAI----LDRMAA---QIPHLRVIHLAQNQGKAIALKTGAAAAKSEYLVCIDGDALLD</Hsp_hseq>
+      <Hsp_midline>++SI++P +N E  +E    +I   L+   EN+E+I VNDGS D +  I    +D+++    Q P+ + I+   NQG + A  TG   +  +Y+  ID D  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2495587|sp|P75905.1|PGAC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PGA synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm PGA synthesis protein PgaC; AltName: Full=N-acetylglucosaminyltransferase PgaC [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P75905</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>3.31748e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>NLSIVVPIYNVESYLEACLNSIEPILSN--ENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIY-QDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN</Hsp_qseq>
+      <Hsp_hseq>SISIIIPCFNEEKNVE---ETIHAALAQRYENIEVIAVNDGSTDKTRAI----LDRMAA---QIPHLRVIHLAQNQGKAIALKTGAAAAKSEYLVCIDGDALLD</Hsp_hseq>
+      <Hsp_midline>++SI++P +N E  +E    +I   L+   EN+E+I VNDGS D +  I    +D+++    Q P+ + I+   NQG + A  TG   +  +Y+  ID D  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|61250839|sp|P0A5A0.1|GLTR1_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=PGL/p-HBAD biosynthesis glycosyltransferase Mb2981 [Mycobacterium bovis AF2122/97] &gt;gi|166233531|sp|A1KMV1.2|GLTR1_MYCBP RecName: Full=PGL/p-HBAD biosynthesis glycosyltransferase BCG_2978 [Mycobacterium bovis BCG str. Pasteur 1173P2] &gt;gi|166233532|sp|A5U6W5.2|GLTR1_MYCTA RecName: Full=PGL/p-HBAD biosynthesis glycosyltransferase MRA_2984 [Mycobacterium tuberculosis H37Ra] &gt;gi|614086779|sp|P9WMX6.1|GLTR1_MYCTO RecName: Full=PGL/p-HBAD biosynthesis glycosyltransferase MT3031 [Mycobacterium tuberculosis CDC1551] &gt;gi|614086785|sp|P9WMX7.1|GLTR1_MYCTU RecName: Full=PGL/p-HBAD biosynthesis glycosyltransferase Rv2957 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P0A5A0</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>3.58588e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQD-NQGLSEARNTGIKNSNGKYIAFIDSDD</Hsp_qseq>
+      <Hsp_hseq>SIIIPTLNVAAVLPACLDSIARQTCGD-FELVLVDGGSTDETLDIANIFAPNLG-------ERLIIHRDTDQGVYDAMNRGVDLATGTWLLFLGADD</Hsp_hseq>
+      <Hsp_midline>SI++P  NV + L ACL+SI      +  EL+LV+ GS D + DI   +   +            I++D +QG+ +A N G+  + G ++ F+ +DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|550600180|sp|B5L3F2.1|WFGD_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=UDP-Glc:alpha-D-GlcNAc-diphosphoundecaprenol beta-1,3-glucosyltransferase WfgD [Escherichia coli]</Hit_def>
+  <Hit_accession>B5L3F2</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.6453e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDD</Hsp_qseq>
+      <Hsp_hseq>VSIIMPSYNAEHTISASISSVLK-QTYANWELLVCDDDSSDNTR---FKVLE-FSDSRIKLLTNEYA----KGAAGARNTALKYASGRFIAFLDSDD</Hsp_hseq>
+      <Hsp_midline>+SI++P YN E  + A ++S+    +  N EL++ +D S D +    +K ++  S+++ +    +Y     +G + ARNT +K ++G++IAF+DSDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2496265|sp|P75086.1|Y028_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase MG025 homolog [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75086</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>3.0965e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNE---NVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKN--SNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYDKGRV--SYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELI-----IREKLFFE</Hsp_qseq>
+      <Hsp_hseq>FTVIIPTYNCGQYIPKALDSL--LLQGEYFTKTQVLIVNDGSTDNTKQIVEPYTQQYS-------NIEYLEKPNGNWGSVVNFVKQNQLAKGQYITVLDSDDYFLANAFQRVAAHFGHDMIVSAFYCYISPKRRRFLKPYFG------------KTGVIEQKTKLRTPHSQPLAKFYRHEIFHLLDPLKEKLFYQ</Hsp_hseq>
+      <Hsp_midline> ++++P YN   Y+   L+S+  +L  E     ++++VNDGS D ++ I   Y  + S       N +Y+ + N       N   +N  + G+YI  +DSDD+               DM    F   +   + R    YFG            K  V++   + R        K  + E+      ++EKLF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|239938772|sp|O34319.2|YKCC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase YkcC [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34319</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>4.59762e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>SIVVPIYNVESYLEACLNSIEPIL--SNENVELILVNDGSKDGSEDICYKY--IDKISNTKHQTPNTKYI-YQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGK</Hsp_qseq>
+      <Hsp_hseq>SIVVPVYNEELVIHETYQRLKEVMDQTKENYELLFVNDGSKDRSIEILREHSLID---------PRVKIIDFSRNFGHQIAITAGMDYAQGNAIVVIDADLQDPPELILEMIEK</Hsp_hseq>
+      <Hsp_midline>SIVVP+YN E  +      ++ ++  + EN EL+ VNDGSKD S +I  ++  ID         P  K I +  N G   A   G+  + G  I  ID+D     +++L+ + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|251757274|sp|P71054.2|EPSE_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative glycosyltransferase EpsE [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P71054</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>5.1767e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSN--ENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIY-QDNQGLSEARNTGIKNSNGKYIAFIDSDDF</Hsp_qseq>
+      <Hsp_hseq>VSVIMGIYNCERTLA---ESIESILSQSYKNWELILCDDASTDGTLRIAKQY------AAHYSDRIKLIQNKTNKRLAASLNHCLSHATGDYIARQDGDDL</Hsp_hseq>
+      <Hsp_midline>+S+++ IYN E  L     SIE ILS   +N ELIL +D S DG+  I  +Y        H +   K I  + N+ L+ + N  + ++ G YIA  D DD </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1722952|sp|P47271.1|Y025_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase MG025 [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>P47271</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>6.08967e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNE---NVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKN--SNGKYIAFIDSDDFI---NCQVLLDFLGKDDSDMPDVVFLNAVKYDKGRV--SYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELI-----IREKLFFEKGIYSED</Hsp_qseq>
+      <Hsp_hseq>FTVIIPTYNCCQYIKKALDSL--LLQNEYFLKTQVLIVNDGSLDNTKEVVSDYLIKYS-------NISYFEKTNGNWGSVINYVKKNKLALGQYITVLDSDDYFLKDSFKKVARFFG---HDMIIGAFYCYINENKTRFLKPYFG------------KTGVIKEHTKLRTPHSQPIAKFYSNKLFYELHDLKEKLFFQDCLMYHD</Hsp_hseq>
+      <Hsp_midline> ++++P YN   Y++  L+S+  +L NE     ++++VNDGS D ++++   Y+ K S       N  Y  + N       N   KN  + G+YI  +DSDD+    + + +  F G    DM    F   +  +K R    YFG            K  V+K   + R        K    +L      ++EKLFF+  +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|62900119|sp|Q7BLV3.2|HAS_PASMD</Hit_id>
+  <Hit_def>RecName: Full=Hyaluronan synthase; Includes: RecName: Full=Glucuronosyl-N-acetylglucosaminyl-proteoglycan 4-beta-N-acetylglucosaminyltransferase; AltName: Full=UDP-GlcNAc transferase; Includes: RecName: Full=N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase; AltName: Full=UDP-GlcUA transferase [Pasteurella multocida]</Hit_def>
+  <Hit_accession>Q7BLV3</Hit_accession>
+  <Hit_len>972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>7.54595e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>442</Hsp_hit-from>
+      <Hsp_hit-to>532</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSI--EPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFI</Hsp_qseq>
+      <Hsp_hseq>VSIYIPAYNCANYIQRCVDSALNQTVV---DLEVCICNDGSTDNTLEV-------INKLYGNNPRVRIMSKPNGGIASASNAAVSFAKGYYIGQLDSDDYL</Hsp_hseq>
+      <Hsp_midline>+SI +P YN  +Y++ C++S   + ++   ++E+ + NDGS D + ++       I+      P  + + + N G++ A N  +  + G YI  +DSDD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0480116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MNLSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGL--SEARNTGIKNSNGKYIAFIDSD---------------------------DFINCQVL--LDFLGKDD--SDMPDVVFLNAVKYD-KGRVSYFGEDYQPEKILNQSKVEVLK-GLCRFRKFPGSAWNKIIKRELIIREKLFFEKGIY--SEDIEWSMRLFNAATTFSYLDGCYYYYRQ</Hsp_qseq>
+      <Hsp_hseq>VGLSIIVTTFNRPAILSITLACLVNQKTHYPFEVIVTDDGSQEDLSPIIRQYENKL--------DIRYVRQKDNGFQASAARNMGLRLAKYDFIGLLDCDMAPNPLWVHSYVAELLEDDDLTIIGPRKYIDTQHIDPKDFLNNASLLESLPEVKTNNSVAAKGEGTVSL---DWRLEQF---EKTENLRLSDSPFRFF--AAGNVAFAKKWLNKSGFFDEEFNHWGGEDVEFGYRLFRYGSFFKTIDGIMAYHQE</Hsp_hseq>
+      <Hsp_midline>+ LSI+V  +N  + L   L  +    ++   E+I+ +DGS++    I  +Y +K+        + +Y+ Q + G   S ARN G++ +   +I  +D D                            +I+ Q +   DFL        +P+V   N+V    +G VS    D++ E+     K E L+     FR F  +A N    ++ + +   F E+  +   ED+E+  RLF   + F  +DG   Y+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|61213195|sp|Q5HCN1.1|ICAA_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PNAG synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm polysaccharide intercellular adhesin synthesis protein IcaA; Short=Biofilm PIA synthesis protein IcaA; AltName: Full=Intercellular adhesion protein A; AltName: Full=N-acetylglucosaminyltransferase IcaA [Staphylococcus aureus subsp. aureus COL] &gt;gi|61213438|sp|Q6GDD8.1|ICAA_STAAR RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PNAG synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm polysaccharide intercellular adhesin synthesis protein IcaA; Short=Biofilm PIA synthesis protein IcaA; AltName: Full=Intercellular adhesion protein A; AltName: Full=N-acetylglucosaminyltransferase IcaA [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|61213535|sp|Q7A351.1|ICAA_STAAN RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PNAG synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm polysaccharide intercellular adhesin synthesis protein IcaA; Short=Biofilm PIA synthesis protein IcaA; AltName: Full=Intercellular adhesion protein A; AltName: Full=N-acetylglucosaminyltransferase IcaA [Staphylococcus aureus subsp. aureus N315] &gt;gi|61213621|sp|Q99QX3.1|ICAA_STAAM RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PNAG synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm polysaccharide intercellular adhesin synthesis protein IcaA; Short=Biofilm PIA synthesis protein IcaA; AltName: Full=Intercellular adhesion protein A; AltName: Full=N-acetylglucosaminyltransferase IcaA [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|150387847|sp|Q9RQP9.2|ICAA_STAA8 RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PNAG synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm polysaccharide intercellular adhesin synthesis protein IcaA; Short=Biofilm PIA synthesis protein IcaA; AltName: Full=Intercellular adhesion protein A; AltName: Full=N-acetylglucosaminyltransferase IcaA [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>Q5HCN1</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>8.25914e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>SYLEACLN---SIEPILSN------ENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIY---QDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN</Hsp_qseq>
+      <Hsp_hseq>TFLLACYNESETIEDTLSNVLALKYEKKEIIIINDGSSDNTAELIYKIKE----------NNDFIFVDLQENRGKANALNQGIKQASYDYVMCLDADTIVD</Hsp_hseq>
+      <Hsp_midline>++L AC N   +IE  LSN      E  E+I++NDGS D + ++ YK  +          N  +I+   Q+N+G + A N GIK ++  Y+  +D+D  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|62899666|sp|Q9CMP0.1|CHS_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Chondroitin synthase; Short=CS; Includes: RecName: Full=Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase; AltName: Full=UDP-GalNAc transferase; Includes: RecName: Full=N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase; AltName: Full=UDP-GlcUA transferase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CMP0</Hit_accession>
+  <Hit_len>965</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>8.37154e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSI--EPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFI</Hsp_qseq>
+      <Hsp_hseq>VSIYIPAYNCANYIQRCVDSALNQTVV---DLEVCICNDGSTDNTLEV-------INKLYGNNPRVRIMSKPNGGIASASNAAVSFAKGYYIGQLDSDDYL</Hsp_hseq>
+      <Hsp_midline>+SI +P YN  +Y++ C++S   + ++   ++E+ + NDGS D + ++       I+      P  + + + N G++ A N  +  + G YI  +DSDD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00146895</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MNLSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQG--LSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKY-DKGRVS---YFGEDY----QPEKILNQSKVEVLKG------------------LC--RFRKFPGSAWNKIIKRELIIREKLFFEKGIY--SEDIEWSMRLFNAATTFSYLDGCYYYYRQ</Hsp_qseq>
+      <Hsp_hseq>IGLSIIIPTFNRSRILDITLACLVNQKTNYPFEVVVADDGSKENLLTIVQKYEQKL--------DIKYVRQKDYGYQLCAVRNLGLRTAKYDFVSILDCDMAPQQLWVHSYLTELLEDN-DIVLIGPRKYVDTHNITAEQFLNDPYLIESLPETATNNNPSITSKGNISLDWRLEHFKKTDNLRLCDSPFRYF--SCGNVAFSKEWLNKVGWFDEEFNHWGGEDVEFGYRLFAKGCFFRVIDGGMAYHQE</Hsp_hseq>
+      <Hsp_midline>+ LSI++P +N    L+  L  +    +N   E+++ +DGSK+    I  KY  K+        + KY+ Q + G  L   RN G++ +   +++ +D D       +  +L +   D  D+V +   KY D   ++   +  + Y     PE   N +     KG                  LC   FR F  S  N    +E + +   F E+  +   ED+E+  RLF     F  +DG   Y+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|61213432|sp|Q6G608.1|ICAA_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PNAG synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm polysaccharide intercellular adhesin synthesis protein IcaA; Short=Biofilm PIA synthesis protein IcaA; AltName: Full=Intercellular adhesion protein A; AltName: Full=N-acetylglucosaminyltransferase IcaA [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|61213604|sp|Q8NUI7.1|ICAA_STAAW RecName: Full=Poly-beta-1,6-N-acetyl-D-glucosamine synthase; Short=PNAG synthase; Short=Poly-beta-1,6-GlcNAc synthase; AltName: Full=Biofilm polysaccharide intercellular adhesin synthesis protein IcaA; Short=Biofilm PIA synthesis protein IcaA; AltName: Full=Intercellular adhesion protein A; AltName: Full=N-acetylglucosaminyltransferase IcaA [Staphylococcus aureus subsp. aureus MW2]</Hit_def>
+  <Hit_accession>Q6G608</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>8.40705e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>SYLEACLN---SIEPILSN------ENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIY---QDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN</Hsp_qseq>
+      <Hsp_hseq>TFLLACYNESDTIEDTLSNVLALKYEKKEIIIINDGSSDNTAELIYKIKE----------NNDFIFVDLQENRGKANALNQGIKQASYDYVMCLDADTIVD</Hsp_hseq>
+      <Hsp_midline>++L AC N   +IE  LSN      E  E+I++NDGS D + ++ YK  +          N  +I+   Q+N+G + A N GIK ++  Y+  +D+D  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|123636233|sp|Q48HZ2.1|ARNC_PSE14</Hit_id>
+  <Hit_def>RecName: Full=Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase; AltName: Full=Undecaprenyl-phosphate Ara4FN transferase; Short=Ara4FN transferase [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q48HZ2</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000132633</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILS--NENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYD-KGRVSYFGEDYQ----PEKILN</Hsp_qseq>
+      <Hsp_hseq>VSIVIPVYNERQSLPELLRRTEAACKHLNHRFEIVLVDDGSRDDSAEILQQ-----AAERSASPFVAVILNRNYGQHAAIMAGFEQCKGDVVITLDAD-----------LQNPPEEIPRLVALAEQGYDVVGTVRSNRQDSAWRRWPSKIIN</Hsp_hseq>
+      <Hsp_midline>+SIV+P+YN    L   L   E      N   E++LV+DGS+D S +I  +     +  +  +P    I   N G   A   G +   G  +  +D+D           L     ++P +V L    YD  G V    +D      P KI+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|2496281|sp|P75042.1|Y075_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase MG060 homolog [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75042</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000183334</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>MNLSIVVPIYNVESYLEACLNSIEPILSNEN----VELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKN--SNGKYIAFIDSDDFINCQV---LLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNKIIKRELI-----IREKLFFEKGIYSEDIEWSMRLFNAATTFSYLDGCYYYYRQGRKDSITGTV</Hsp_qseq>
+      <Hsp_hseq>MKISVIISTYNCGALIVKALCSL---VSNQTPACELEVLVIDDGSIDNTRQIIKKFQAKVSFT------LKYFYKKNGNWGSVINYVKENRLANGDWITVLDSDDTLKPNTLNKLANLVEKADYDLVVFDYTKCWKKIKLKIHTYPTWWKNMTRELQKQTPFCIPLGKF-----------LKRNLFYKLPKLKEKVSFQDALYTAS---SLKLAKKVRHVNQSGGNYHFKRAGNSMSIPWNI</Hsp_hseq>
+      <Hsp_midline>M +S+++  YN  + +   L S+   +SN+     +E+++++DGS D +  I  K+  K+S T       KY Y+ N       N   +N  +NG +I  +DSDD +       L + + K D D+    +    K  K ++  +   ++      Q +      L +F           +KR L      ++EK+ F+  +Y+     S++L       +   G Y++ R G   SI   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|81422403|sp|Q7U0E1.1|GPGS_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Glucosyl-3-phosphoglycerate synthase [Mycobacterium bovis AF2122/97] &gt;gi|614086933|sp|P9WMW8.1|GPGS_MYCTO RecName: Full=Glucosyl-3-phosphoglycerate synthase [Mycobacterium tuberculosis CDC1551] &gt;gi|614087117|sp|P9WMW9.1|GPGS_MYCTU RecName: Full=Glucosyl-3-phosphoglycerate synthase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>Q7U0E1</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000188772</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>NLSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQVL</Hsp_qseq>
+      <Hsp_hseq>TISVVLPALNEEATIESVIDSISPLVDGLVDELIVLDSGSTDDTEIRAIASGARVVSREQALPEVPV----RPGKGEALWRSLAATSGDIVVFIDS-DLINPHPL</Hsp_hseq>
+      <Hsp_midline> +S+V+P  N E+ +E+ ++SI P++     ELI+++ GS D +E        ++ + +   P          G  EA    +  ++G  + FIDS D IN   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|74852667|sp|Q54J42.1|ALG5_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Dolichyl-phosphate beta-glucosyltransferase; Short=DolP-glucosyltransferase; AltName: Full=Asparagine-linked glycosylation protein 5 homolog [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54J42</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000237665</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNEN-------VELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYI-YQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>LSVIVPAYNEQIRLPSMLDDAIKFLNEKSKKDLKFSYEIIIIDDGSKDSTAKLVTSYIE-----KQPSSNIRLLKLKQNRGKGGAVKRGILCSRGKYCLMVDAD</Hsp_hseq>
+      <Hsp_midline>LS++VP YN +  L + L+     L+ ++        E+I+++DGSKD +  +   YI+     K  + N + +  + N+G   A   GI  S GKY   +D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|75501935|sp|Q4ZSZ3.1|ARNC_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase; AltName: Full=Undecaprenyl-phosphate Ara4FN transferase; Short=Ara4FN transferase [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZSZ3</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000288145</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILS--NENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>VSIVIPVYNERQSLPELLRRTEAACEQLDHRFEIVLVDDGSRDDSTDILQR-----AAERADSPFVAVILNRNYGQHAAIMAGFEQCQGDVVITLDAD</Hsp_hseq>
+      <Hsp_midline>+SIV+P+YN    L   L   E      +   E++LV+DGS+D S DI  +     +  +  +P    I   N G   A   G +   G  +  +D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|118823|sp|P14020.3|DPM1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Dolichol-phosphate mannosyltransferase; AltName: Full=Dolichol-phosphate mannose synthase; Short=DPM synthase; AltName: Full=Dolichyl-phosphate beta-D-mannosyltransferase; AltName: Full=Mannose-P-dolichol synthase; Short=MPD synthase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P14020</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000358495</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SIVVPIY----NVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQ-GLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>SVIVPAYHEKLNIKPLTTRLFAGMSPEMAKKT-ELIFVDDNSQDGS-------VEEVDALAHQGYNVRIIVRTNERGLSSAVLKGFYEAKGQYLVCMDAD</Hsp_hseq>
+      <Hsp_midline>S++VP Y    N++         + P ++ +  ELI V+D S+DGS       ++++    HQ  N + I + N+ GLS A   G   + G+Y+  +D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|3123128|sp|Q57287.1|Y1578_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase HI_1578 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57287</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000371092</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKIS--NTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN---CQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSAWNK-IIKRELIIRE-KLFFEKGI-YSEDIEWSMRLFNAATTFSYLDGCYYYYRQGRKDS</Hsp_qseq>
+      <Hsp_hseq>VSVIVCAYNAEQYIDESISSIIN-QTYENLEIIVINDGST----DLTLSHLEEISKLDKRIKIISNKY----NLGFINSLNIGLGCFSGKYFARMDADDIAKPSWIEKIVTYLEKNDHITAMGSYLEIIV--EKECGIIGSQYKTGDIWKNPLLH--NDICEAMLFYNPIHNNTMIMRANVYREHKLIFNKDYPYAEDYKFWSEVSRLGCLANYPEALVKYRLHGNQTS</Hsp_hseq>
+      <Hsp_midline>+S++V  YN E Y++  ++SI    + EN+E+I++NDGS     D+   ++++IS  + + +  + KY    N G   + N G+   +GKY A +D+DD       + ++ +L K+D       +L  +   +      G  Y+   I     +     +C    F     N  +I R  + RE KL F K   Y+ED ++   +       +Y +    Y   G + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|74869777|sp|Q9VLQ1.1|ALG5_DROME</Hit_id>
+  <Hit_def>RecName: Full=Dolichyl-phosphate beta-glucosyltransferase; AltName: Full=Wollknaeuel [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VLQ1</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000373756</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>MNLSIVVPIYNVE----SYLEACLNSIE---PILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYI-YQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>LELSVIVPAYNEEQRLPSMLDECLAFLEQKSAGTPNFTYEVIVVSDGSQDATVSVALGY-----SKKHGAEKVRVLELIENRGKGGAVRMGMLSARGRNLLFADAD</Hsp_hseq>
+      <Hsp_midline>+ LS++VP YN E    S L+ CL  +E       N   E+I+V+DGS+D +  +   Y     + KH     + +   +N+G   A   G+ ++ G+ + F D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|27734217|sp|Q9Y673.1|ALG5_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Dolichyl-phosphate beta-glucosyltransferase; Short=DolP-glucosyltransferase; AltName: Full=Asparagine-linked glycosylation protein 5 homolog [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y673</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000395964</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>NLSIVVPIYNVESYLEACLNSIEPILSNEN-------VELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>QLSVVVPSYNEEKRLPVMMDEALSYLEKRQKRDPAFTYEVIVVDDGSKDQTSKVAFKYCQKYGSDKVRV----ITLVKNRGKGGAIRMGIFSSRGEKILMADAD</Hsp_hseq>
+      <Hsp_midline> LS+VVP YN E  L   ++     L            E+I+V+DGSKD +  + +KY  K  + K +          N+G   A   GI +S G+ I   D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81340888|sp|O06483.2|YFNE_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase YfnE [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O06483</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000432651</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MNLSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>MKASVIIPAYNSKERLYNSLLSLNQQECDEEFEVIVADNGSEDGT-------LSMLESFQADFPLIFTRIKENRGIAYGRNQALRNARGDILIFHDSD</Hsp_hseq>
+      <Hsp_midline>M  S+++P YN +  L   L S+     +E  E+I+ ++GS+DG+       +  + + +   P      ++N+G++  RN  ++N+ G  + F DSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123655505|sp|Q4KC83.1|ARNC_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase; AltName: Full=Undecaprenyl-phosphate Ara4FN transferase; Short=Ara4FN transferase [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4KC83</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000639969</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSN--ENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>VSIVIPVYNEEQSLPELLRRTEAACRQLKHEFEIVLVDDGSRDESANIL-----QAAAEREDSPVVAVILNRNYGQHAAIMAGFEQCRGDVVITLDAD</Hsp_hseq>
+      <Hsp_midline>+SIV+P+YN E  L   L   E          E++LV+DGS+D S +I      + +  +  +P    I   N G   A   G +   G  +  +D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|158513309|sp|A5GFZ5.1|DPM1_PIG</Hit_id>
+  <Hit_def>RecName: Full=Dolichol-phosphate mannosyltransferase subunit 1; AltName: Full=Dolichol-phosphate mannose synthase subunit 1; Short=DPM synthase subunit 1; AltName: Full=Dolichyl-phosphate beta-D-mannosyltransferase subunit 1; AltName: Full=Mannose-P-dolichol synthase subunit 1; Short=MPD synthase subunit 1 [Sus scrofa]</Hit_def>
+  <Hit_accession>A5GFZ5</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00065896</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>SIVVPIYNVESYLEACLNSIEPILSNE--NVELILVNDGSKDGSEDICYKYIDKISNTK-HQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSA</Hsp_qseq>
+      <Hsp_hseq>SVLLPTYNERENLPLIVWLLVKSFSESGINYEIIIIDDGSPDGTRDIAEQLVKIYGSDKILLRPREKKL-----GLGTAYIHGMKHATGNYIIIMDADLSHHPKFIPEFIRKQKEGNFDIV--SGTRY-KGNGGVYGWDLK-RKIISRGANFITQILLR----PGAS</Hsp_hseq>
+      <Hsp_midline>S+++P YN    L   +  +    S    N E+I+++DGS DG+ DI  + +    + K    P  K +     GL  A   G+K++ G YI  +D+D   + + + +F+ K      D+V  +  +Y KG    +G D +  KI+++    + + L R    PG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81345909|sp|P96587.1|YDAM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized glycosyltransferase YdaM [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96587</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00129236</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPIL-SNENVELILVNDGSKDGSEDICYKYIDK---ISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDD</Hsp_qseq>
+      <Hsp_hseq>VSVLIPAHNEEVVIRQTLKAMVNLYYPKDRLEIIVVNDNSSDRTGDIVNEFSEKYDFIKMVITKPPNA------GKGKSSALNSGFAESNGDVICVYDADN</Hsp_hseq>
+      <Hsp_midline>+S+++P +N E  +   L ++  +    + +E+I+VND S D + DI  ++ +K   I     + PN        +G S A N+G   SNG  I   D+D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|20137697|sp|O60762.1|DPM1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Dolichol-phosphate mannosyltransferase subunit 1; AltName: Full=Dolichol-phosphate mannose synthase subunit 1; Short=DPM synthase subunit 1; AltName: Full=Dolichyl-phosphate beta-D-mannosyltransferase subunit 1; AltName: Full=Mannose-P-dolichol synthase subunit 1; Short=MPD synthase subunit 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>O60762</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00143196</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>SIVVPIYNVESYLEACLNSIEPILSNE--NVELILVNDGSKDGSEDICYKYIDKI--SNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFINCQVLLDFLGKDDSDMPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCRFRKFPGSA</Hsp_qseq>
+      <Hsp_hseq>SVLLPTYNERENLPLIVWLLVKSFSESGINYEIIIIDDGSPDGTRDVA-EQLEKIYGSDRILLRPREKKL-----GLGTAYIHGMKHATGNYIIIMDADLSHHPKFIPEFIRKQKEGNFDIV--SGTRY-KGNGGVYGWDLK-RKIISRGANFLTQILLR----PGAS</Hsp_hseq>
+      <Hsp_midline>S+++P YN    L   +  +    S    N E+I+++DGS DG+ D+  + ++KI  S+     P  K +     GL  A   G+K++ G YI  +D+D   + + + +F+ K      D+V  +  +Y KG    +G D +  KI+++    + + L R    PG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|6226364|sp|Q9ZB73.1|PBDGT_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Processive diacylglycerol beta-glycosyltransferase; AltName: Full=Beta-diglycosyldiacylglycerol synthase; Short=Beta-DGS; Short=DGlyDAG synthase; AltName: Full=Beta-monoglycosyldiacylglycerol synthase; Short=Beta-MGS; Short=MGlyDAG synthase; AltName: Full=Glycosyl-beta-1,6-glycosyldiacylglycerol synthase; AltName: Full=UDP-galactose:1,2-dioleoylglycerol 3-beta-D-galactosyltransferase; AltName: Full=UDP-glucose:1,2-dioleoylglycerol 3-beta-D-glucosyltransferase [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>Q9ZB73</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00144613</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILSNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSDDFIN----CQVLLDFLGKDDSD---MPDVVFLNAVKYDKGRVSYFGEDYQPEKILNQSKVEVLKGLCR-----FRKFPGSAWNKIIKRELIIREKLFFEKGIYSEDIEWSMRLFNAATTFSYLD--GCYYYYRQGRKDSITGTVSEKGIKSLLYILEK</Hsp_qseq>
+      <Hsp_hseq>VSILVPCYKSKPFLKRFFNSLLKQDLNQ-AKIIFFNDNVADETYEVLQKFKKEHNNLAIEV----YCDKQNEGIGKVRDKLVNLVTTPYFYFIDPDDCFNNKNVIKEIVESIKKEDFDLGVLKSMVYLCFLKHD------FIIKFLPLKGIFQGRVKLINNNNVNKLNYIKNNDQYIWNIVINTDFFRKLNLTFESRLF-EDIPIWYPMFFSSQKIVFIDVIGTNYFIRN---DSLSTTISAPRYLNLIQCYEK</Hsp_hseq>
+      <Hsp_midline>+SI+VP Y  + +L+   NS+     N+  ++I  ND   D + ++  K+  + +N   +     Y  + N+G+ + R+  +      Y  FID DD  N     + +++ + K+D D   +  +V+L  +K+D      F   + P K + Q +V+++           +      WN +I  +   +  L FE  ++ EDI     +F ++    ++D  G  Y+ R    DS++ T+S     +L+   EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|745997992|sp|A2EK20.1|ALG5B_TRIVA</Hit_id>
+  <Hit_def>RecName: Full=Dolichyl-phosphate beta-glucosyltransferase ALG5B; Short=DolP-glucosyltransferase [Trichomonas vaginalis]</Hit_def>
+  <Hit_accession>A2EK20</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00151344</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>SIVVPIYNVESYLEACLNSIEPIL-------SNENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQD-NQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>TFVVPAYNEERRIPSMLNETLQFLDTRRDENPNFSYEIIVVDDGSKDKTAEVVLDF-------ANSHPEIRLLKQPVNMGKGAAVAAGCSHARGQYILMVDAD</Hsp_hseq>
+      <Hsp_midline>+ VVP YN E  + + LN     L        N + E+I+V+DGSKD + ++   +        +  P  + + Q  N G   A   G  ++ G+YI  +D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|254806293|sp|A0KGY7.1|ARNC_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase; AltName: Full=Undecaprenyl-phosphate Ara4FN transferase; Short=Ara4FN transferase [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KGY7</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00165856</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LSIVVPIYNVESYLEACLNSIEPILS--NENVELILVNDGSKDGSEDICYKYIDKISNTKHQTPNTKYIYQDNQGLSEARNTGIKNSNGKYIAFIDSD</Hsp_qseq>
+      <Hsp_hseq>VSVVIPVYNEEASLPALLSRVTAACDQLSQNYEVILIDDGSHDGSTELI-----RDAAAVEGSKLVGVLLNRNYGQHAAIMAGFETAKGDLVITLDAD</Hsp_hseq>
+      <Hsp_midline>+S+V+P+YN E+ L A L+ +       ++N E+IL++DGS DGS ++      + +     +     +   N G   A   G + + G  +  +D+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

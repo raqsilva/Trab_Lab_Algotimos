@@ -1,0 +1,88 @@
+ID   NUDC_PASMU              Reviewed;         264 AA.
+AC   P57965;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   27-APR-2001, sequence version 1.
+DT   07-JAN-2015, entry version 80.
+DE   RecName: Full=NADH pyrophosphatase;
+DE            EC=3.6.1.22;
+GN   Name=nudC; OrderedLocusNames=PM1735;
+OS   Pasteurella multocida (strain Pm70).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Pasteurella.
+OX   NCBI_TaxID=272843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pm70;
+RX   PubMed=11248100; DOI=10.1073/pnas.051634598;
+RA   May B.J., Zhang Q., Li L.L., Paustian M.L., Whittam T.S., Kapur V.;
+RT   "Complete genomic sequence of Pasteurella multocida Pm70.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:3460-3465(2001).
+CC   -!- CATALYTIC ACTIVITY: NAD(+) + H(2)O = AMP + NMN.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Divalent metal cations. Mg(2+) or Mn(2+). {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. NudC subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE004439; AAK03819.1; -; Genomic_DNA.
+DR   RefSeq; NP_246674.1; NC_002663.1.
+DR   ProteinModelPortal; P57965; -.
+DR   STRING; 272843.PM1735; -.
+DR   EnsemblBacteria; AAK03819; AAK03819; PM1735.
+DR   GeneID; 1245082; -.
+DR   KEGG; pmu:PM1735; -.
+DR   PATRIC; 22872783; VBIPasMul88067_1757.
+DR   eggNOG; COG2816; -.
+DR   HOGENOM; HOG000247937; -.
+DR   KO; K03426; -.
+DR   OMA; TWRRTHR; -.
+DR   OrthoDB; EOG6S26JD; -.
+DR   BioCyc; PMUL272843:GC8W-1805-MONOMER; -.
+DR   Proteomes; UP000000809; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000210; F:NAD+ diphosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   HAMAP; MF_00297; Nudix_NudC; 1.
+DR   InterPro; IPR015375; NADH_PPase-like_N.
+DR   InterPro; IPR022925; NADH_pyroPase_NudC.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   InterPro; IPR015376; Znr_NADH_PPase.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   Pfam; PF09296; NUDIX-like; 1.
+DR   Pfam; PF09297; zf-NADH-PPase; 1.
+DR   SUPFAM; SSF55811; SSF55811; 2.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Magnesium; Manganese; Metal-binding;
+KW   NAD; Reference proteome; Zinc.
+FT   CHAIN         1    264       NADH pyrophosphatase.
+FT                                /FTId=PRO_0000056971.
+FT   DOMAIN      128    252       Nudix hydrolase.
+FT   MOTIF       162    183       Nudix box.
+FT   METAL        99     99       Zinc. {ECO:0000250}.
+FT   METAL       102    102       Zinc. {ECO:0000250}.
+FT   METAL       117    117       Zinc. {ECO:0000250}.
+FT   METAL       122    122       Zinc. {ECO:0000250}.
+FT   METAL       177    177       Divalent metal cation. {ECO:0000250}.
+FT   METAL       181    181       Divalent metal cation. {ECO:0000250}.
+SQ   SEQUENCE   264 AA;  29767 MW;  52F8A97F348620B6 CRC64;
+     MNAIQPDDAG YWLLTQDSAL YLINGELPQG KAADFQLQGY NGMIIGELNG RPLWLVEEIA
+     DDQRTYFSLR SLLALPEAHF NLLNRGVELN HFFKTHRFCG KCGHPTDLVQ QEWAIQCQNP
+     SCSHRTYPVI CPCIIVAVRR GAQILLANHQ RHKGGIYTTL AGFVEVGETF EQAVHREVLE
+     ETGIQIQNLR YFGSQPWAFP NSAMIGFLAD YAGGEICVQE MEIHDAQWFD YNAPLPELPP
+     KGTIALKLIE HTLQLCAEEE RKAT
+//

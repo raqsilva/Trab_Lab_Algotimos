@@ -1,0 +1,93 @@
+ID   OBG_PROM1               Reviewed;         329 AA.
+AC   A2C050;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-FEB-2007, sequence version 1.
+DT   04-FEB-2015, entry version 56.
+DE   RecName: Full=GTPase Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+DE   AltName: Full=GTP-binding protein Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+GN   Name=obg {ECO:0000255|HAMAP-Rule:MF_01454};
+GN   OrderedLocusNames=NATL1_02961;
+OS   Prochlorococcus marinus (strain NATL1A).
+OC   Bacteria; Cyanobacteria; Prochlorales; Prochlorococcaceae;
+OC   Prochlorococcus.
+OX   NCBI_TaxID=167555;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NATL1A;
+RX   PubMed=18159947; DOI=10.1371/journal.pgen.0030231;
+RA   Kettler G.C., Martiny A.C., Huang K., Zucker J., Coleman M.L.,
+RA   Rodrigue S., Chen F., Lapidus A., Ferriera S., Johnson J.,
+RA   Steglich C., Church G.M., Richardson P., Chisholm S.W.;
+RT   "Patterns and implications of gene gain and loss in the evolution of
+RT   Prochlorococcus.";
+RL   PLoS Genet. 3:2515-2528(2007).
+CC   -!- FUNCTION: An essential GTPase which binds GTP, GDP and possibly
+CC       (p)ppGpp with moderate affinity, with high nucleotide exchange
+CC       rates and a fairly low GTP hydrolysis rate. It may play a role in
+CC       control of the cell cycle, stress response, ribosome biogenesis
+CC       and in those bacteria that undergo differentiation, in
+CC       morphogenesis control. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01454};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SIMILARITY: Contains 1 OBG-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000553; ABM74860.1; -; Genomic_DNA.
+DR   RefSeq; YP_001014125.1; NC_008819.1.
+DR   ProteinModelPortal; A2C050; -.
+DR   STRING; 167555.NATL1_02961; -.
+DR   EnsemblBacteria; ABM74860; ABM74860; NATL1_02961.
+DR   GeneID; 4780115; -.
+DR   KEGG; pme:NATL1_02961; -.
+DR   PATRIC; 23018113; VBIProMar31285_0302.
+DR   eggNOG; COG0536; -.
+DR   HOGENOM; HOG000019084; -.
+DR   KO; K03979; -.
+DR   OMA; TLLHLKF; -.
+DR   OrthoDB; EOG6H1Q1M; -.
+DR   BioCyc; PMAR167555:GI3K-300-MONOMER; -.
+DR   Proteomes; UP000002592; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   Gene3D; 2.70.210.12; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_01454; GTPase_Obg; 1.
+DR   InterPro; IPR014100; GTP-bd_Obg/CgtA.
+DR   InterPro; IPR006169; GTP1_OBG_dom.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR11702:SF3; PTHR11702:SF3; 1.
+DR   Pfam; PF01018; GTP1_OBG; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PIRSF; PIRSF002401; GTP_bd_Obg/CgtA; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF82051; SSF82051; 1.
+DR   TIGRFAMs; TIGR02729; Obg_CgtA; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; GTP-binding; Nucleotide-binding.
+FT   CHAIN         1    329       GTPase Obg.
+FT                                /FTId=PRO_0000386140.
+FT   DOMAIN      160    328       OBG-type G.
+FT   NP_BIND     166    173       GTP. {ECO:0000255|HAMAP-Rule:MF_01454}.
+FT   NP_BIND     213    217       GTP. {ECO:0000255|HAMAP-Rule:MF_01454}.
+FT   NP_BIND     280    283       GTP. {ECO:0000255|HAMAP-Rule:MF_01454}.
+SQ   SEQUENCE   329 AA;  35346 MW;  2565A12C6FBA26A7 CRC64;
+     MQFIDQAIID VKAGSGGDGI SAFRREKYVP AGGPAGGDGG QGGNVVLEAD DNLQTLLDFK
+     FQKLISAENG QRGGPNKCTG ASGKDTVLKV PCGTEVRHLS TNIILGDLTN KGQQLIVAFG
+     GKGGFGNARY LSNSNRAPEK FTEGKVGEEW SLQLELKLLA EVGIIGLPNA GKSTLISVLS
+     SARPKIADYP FTTLIPNLGV VRRPSGDGTV FADIPGLISG ASKGIGLGHD FLRHIERTKV
+     LLHLIDSAST DPINDFKTIN EELTSYGHGL ISRPRIFVLN KKELLNEHEI KKLLNKIEKL
+     TMKKVHIISA VTKFGLDDLL SSIWYELGY
+//

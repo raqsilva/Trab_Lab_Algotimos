@@ -1,0 +1,94 @@
+ID   NUDJ_ECO57              Reviewed;         153 AA.
+AC   P0AEI8; P75965;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   07-JAN-2015, entry version 62.
+DE   RecName: Full=Phosphatase NudJ;
+DE            EC=3.6.1.-;
+GN   Name=nudJ; OrderedLocusNames=Z1863, ECs1606;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D.,
+RA   Rose D.J., Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A.,
+RA   Posfai G., Hackett J., Klink S., Boutin A., Shao Y., Miller L.,
+RA   Grotbeck E.J., Davis N.W., Lim A., Dimalanta E.T., Potamousis K.,
+RA   Apodaca J., Anantharaman T.S., Lin J., Yen G., Schwartz D.C.,
+RA   Welch R.A., Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T.,
+RA   Iida T., Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T.,
+RA   Kuhara S., Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli
+RT   O157:H7 and genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. NudJ subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00794}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE005174; AAG55960.1; -; Genomic_DNA.
+DR   EMBL; BA000007; BAB35029.1; -; Genomic_DNA.
+DR   PIR; D85687; D85687.
+DR   PIR; F90829; F90829.
+DR   RefSeq; NP_287348.1; NC_002655.2.
+DR   RefSeq; NP_309633.1; NC_002695.1.
+DR   ProteinModelPortal; P0AEI8; -.
+DR   SMR; P0AEI8; 1-153.
+DR   STRING; 155864.Z1863; -.
+DR   EnsemblBacteria; AAG55960; AAG55960; Z1863.
+DR   EnsemblBacteria; BAB35029; BAB35029; BAB35029.
+DR   GeneID; 913284; -.
+DR   GeneID; 959806; -.
+DR   KEGG; ece:Z1863; -.
+DR   KEGG; ecs:ECs1606; -.
+DR   PATRIC; 18352449; VBIEscCol44059_1449.
+DR   eggNOG; COG0494; -.
+DR   HOGENOM; HOG000256353; -.
+DR   KO; K12152; -.
+DR   OMA; ITYLRFA; -.
+DR   OrthoDB; EOG66F083; -.
+DR   BioCyc; ECOL386585:GJFA-1588-MONOMER; -.
+DR   BioCyc; ECOO157:Z1863-MONOMER; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Magnesium.
+FT   CHAIN         1    153       Phosphatase NudJ.
+FT                                /FTId=PRO_0000057070.
+FT   DOMAIN        3    131       Nudix hydrolase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00794}.
+FT   MOTIF        36     57       Nudix box.
+SQ   SEQUENCE   153 AA;  17433 MW;  BDB7423E97D6735A CRC64;
+     MFKPHVTVAC VVHAEGKFLV VEETINGKAL WNQPAGHLEA DETLVEAAAR ELWEETGISA
+     QPQHFIRMHQ WIAPDKTPFL RFLFAIELEQ ICPTQPHDSD IDCCRWVSAE EILQASNLRS
+     PLVAESIRCY QSGQRYPLEM IGDFNWPFTK GVI
+//

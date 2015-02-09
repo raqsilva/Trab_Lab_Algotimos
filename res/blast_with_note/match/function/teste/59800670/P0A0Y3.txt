@@ -1,0 +1,112 @@
+ID   FBPA_NEIMA              Reviewed;         331 AA.
+AC   P0A0Y3; A1IQP8; P17940;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   07-JAN-2015, entry version 67.
+DE   RecName: Full=Major ferric iron-binding protein;
+DE            Short=FBP;
+DE   AltName: Full=Iron(III) periplasmic-binding protein;
+DE   AltName: Full=Major iron-regulated protein;
+DE            Short=MIRP;
+DE   Flags: Precursor;
+GN   Name=fbpA; Synonyms=fbp; OrderedLocusNames=NMA0844;
+OS   Neisseria meningitidis serogroup A / serotype 4A (strain Z2491).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=122587;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=80084313 / Serogroup A;
+RX   PubMed=2117747; DOI=10.1093/nar/18.15.4596;
+RA   Berish S.A., Kapczynski D.R., Morse S.A.;
+RT   "Nucleotide sequence of the Fbp gene from Neisseria meningitidis.";
+RL   Nucleic Acids Res. 18:4596-4596(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Z2491;
+RX   PubMed=10761919; DOI=10.1038/35006655;
+RA   Parkhill J., Achtman M., James K.D., Bentley S.D., Churcher C.M.,
+RA   Klee S.R., Morelli G., Basham D., Brown D., Chillingworth T.,
+RA   Davies R.M., Davis P., Devlin K., Feltwell T., Hamlin N., Holroyd S.,
+RA   Jagels K., Leather S., Moule S., Mungall K.L., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., Simmonds M., Skelton J.,
+RA   Whitehead S., Spratt B.G., Barrell B.G.;
+RT   "Complete DNA sequence of a serogroup A strain of Neisseria
+RT   meningitidis Z2491.";
+RL   Nature 404:502-506(2000).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 23-69.
+RC   STRAIN=80084313 / Serogroup A;
+RX   PubMed=3130784; DOI=10.1007/BF00415504;
+RA   Morse S.A., Mietzner T.A., Bolen G., Le Faou A., Schoolnik G.;
+RT   "Characterization of the major iron-regulated protein of Neisseria
+RT   gonorrhoeae and Neisseria meningitidis.";
+RL   Antonie Van Leeuwenhoek 53:465-469(1987).
+CC   -!- FUNCTION: This protein may be a central component in the iron-
+CC       acquisition system.
+CC   -!- SUBCELLULAR LOCATION: Periplasm.
+CC   -!- INDUCTION: By iron deprivation.
+CC   -!- MISCELLANEOUS: Iron co-purifies with FBP and is bound by the
+CC       protein as a Fe(3+) ion at an approximate molar ratio of 1:1.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 1
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X53467; CAA37561.1; -; Genomic_DNA.
+DR   EMBL; AL157959; CAM08082.1; -; Genomic_DNA.
+DR   PIR; H81929; H81929.
+DR   PIR; S10978; B60816.
+DR   RefSeq; YP_002342280.1; NC_003116.1.
+DR   ProteinModelPortal; P0A0Y3; -.
+DR   SMR; P0A0Y3; 23-331.
+DR   STRING; 122587.NMA0844; -.
+DR   EnsemblBacteria; CAM08082; CAM08082; NMA0844.
+DR   GeneID; 906832; -.
+DR   KEGG; nma:NMA0844; -.
+DR   PATRIC; 20362556; VBINeiMen132687_0992.
+DR   eggNOG; COG1840; -.
+DR   HOGENOM; HOG000238625; -.
+DR   KO; K02012; -.
+DR   OMA; VIYNAQH; -.
+DR   OrthoDB; EOG625JVF; -.
+DR   BioCyc; NMEN122587:GI3Q-780-MONOMER; -.
+DR   Proteomes; UP000000626; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005215; F:transporter activity; IEA:InterPro.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   InterPro; IPR026045; Ferric-bd.
+DR   InterPro; IPR006061; SBP_1_CS.
+DR   InterPro; IPR006059; SBP_1_dom.
+DR   Pfam; PF01547; SBP_bac_1; 1.
+DR   PIRSF; PIRSF002825; CfbpA; 1.
+DR   PROSITE; PS01037; SBP_BACTERIAL_1; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Direct protein sequencing; Ion transport; Iron;
+KW   Iron transport; Metal-binding; Periplasm; Signal; Transport.
+FT   SIGNAL        1     22       {ECO:0000269|PubMed:3130784}.
+FT   CHAIN        23    331       Major ferric iron-binding protein.
+FT                                /FTId=PRO_0000031691.
+FT   METAL        31     31       Iron. {ECO:0000250}.
+FT   METAL        79     79       Iron. {ECO:0000250}.
+FT   METAL       217    217       Iron. {ECO:0000250}.
+FT   METAL       218    218       Iron. {ECO:0000250}.
+FT   CONFLICT    186    186       G -> A (in Ref. 1; CAA37561).
+FT                                {ECO:0000305}.
+FT   CONFLICT    247    247       I -> V (in Ref. 1; CAA37561).
+FT                                {ECO:0000305}.
+FT   CONFLICT    253    253       Missing (in Ref. 1; CAA37561).
+FT                                {ECO:0000305}.
+FT   CONFLICT    273    273       S -> G (in Ref. 1; CAA37561).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   331 AA;  35842 MW;  70CBD2FA3366C026 CRC64;
+     MKTSIRYALL AAALTAATPA LADITVYNGQ HKEAAQAVAD AFTRATGIKV KLNSAKGDQL
+     AGQIKEEGSR SPADVFYSEQ IPALATLSAA NLLEPLPAST INETRGKGVP VAAKKDWVAL
+     SGRSRVVVYD TRKLSEKDLE KSVLNYATPK WKNRIGYAPT SGAFLEQVVA IVKLKGEAAA
+     LKWLKGLKEY GKPYAKNSVA LQAVENGEID AALINNYYWH AFAREKGVQN VHTRLNFVRH
+     RDPGALITYS GAAVLKSSQN KDEAKKFVAF LASKEGQRAL TAVRAEYPLN PHVVSTFNLE
+     PIAKLEAPQV SATTVSEKEH ATRLLEQAGM K
+//

@@ -1,0 +1,114 @@
+ID   CARA_NEIGO              Reviewed;         377 AA.
+AC   Q50983; Q59598;
+DT   11-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   01-OCT-2014, entry version 86.
+DE   RecName: Full=Carbamoyl-phosphate synthase small chain {ECO:0000255|HAMAP-Rule:MF_01209};
+DE            EC=6.3.5.5 {ECO:0000255|HAMAP-Rule:MF_01209};
+DE   AltName: Full=Carbamoyl-phosphate synthetase glutamine chain {ECO:0000255|HAMAP-Rule:MF_01209};
+GN   Name=carA {ECO:0000255|HAMAP-Rule:MF_01209};
+OS   Neisseria gonorrhoeae.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=MS11;
+RA   Rudel T., Boxberger H.J., Pandit J., Meyer T.F.;
+RT   "The Neisseria gonorrhoae carA gene: generation of mutants and
+RT   implication of pyrimidine biosynthesis for the infection of epithelial
+RT   cells.";
+RL   Submitted (SEP-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=CH811;
+RX   PubMed=7773412;
+RA   Lawson F.S., Billowes F.M., Dillon J.A.;
+RT   "Organization of carbamoyl-phosphate synthase genes in Neisseria
+RT   gonorrhoeae includes a large, variable intergenic sequence which is
+RT   also present in other Neisseria species.";
+RL   Microbiology 141:1183-1191(1995).
+CC   -!- CATALYTIC ACTIVITY: 2 ATP + L-glutamine + HCO(3)(-) + H(2)O = 2
+CC       ADP + phosphate + L-glutamate + carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis;
+CC       carbamoyl phosphate from bicarbonate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; (S)-dihydroorotate from bicarbonate: step 1/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by
+CC       the large (or ammonia) chain to synthesize carbamoyl phosphate.
+CC   -!- SIMILARITY: Belongs to the CarA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01209}.
+CC   -!- SIMILARITY: Contains 1 glutamine amidotransferase type-1 domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z54242; CAA91011.1; -; Genomic_DNA.
+DR   EMBL; U11295; AAA74995.1; -; Genomic_DNA.
+DR   ProteinModelPortal; Q50983; -.
+DR   SMR; Q50983; 5-368.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070409; P:carbamoyl phosphate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006543; P:glutamine catabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.50.30.20; -; 1.
+DR   HAMAP; MF_01209; CPSase_S_chain; 1.
+DR   InterPro; IPR006274; CarbamoylP_synth_ssu.
+DR   InterPro; IPR002474; CarbamoylP_synth_ssu_N.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   Pfam; PF00988; CPSase_sm_chain; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SMART; SM01097; CPSase_sm_chain; 1.
+DR   SUPFAM; SSF52021; SSF52021; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01368; CPSaseIIsmall; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding;
+KW   Glutamine amidotransferase; Ligase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis.
+FT   CHAIN         1    377       Carbamoyl-phosphate synthase small chain.
+FT                                /FTId=PRO_0000112297.
+FT   DOMAIN      190    377       Glutamine amidotransferase type-1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01209}.
+FT   REGION        1    186       CPSase.
+FT   ACT_SITE    266    266       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01209}.
+FT   ACT_SITE    350    350       {ECO:0000255|HAMAP-Rule:MF_01209}.
+FT   ACT_SITE    352    352       {ECO:0000255|HAMAP-Rule:MF_01209}.
+FT   CONFLICT     63     63       T -> A (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+FT   CONFLICT     74     77       SVYA -> TVLP (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+FT   CONFLICT    127    127       Missing (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+FT   CONFLICT    205    208       MLAS -> ISP (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+FT   CONFLICT    237    238       NG -> QR (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+FT   CONFLICT    248    248       G -> A (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+FT   CONFLICT    345    345       S -> F (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+FT   CONFLICT    364    364       S -> F (in Ref. 2; AAA74995).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   377 AA;  40515 MW;  BD54FAF60506BCA2 CRC64;
+     MNTPALLVLA DGSVFHGTSI GYEGSASGEV VFNTSMTGYQ EILTDPSYCK QIVTLTYPHI
+     GNTGTNAEDE ESRSVYAAGL IIRDLPLLHS NFRASESLHD YLVRNETVAI ADIDTRRLTM
+     LLREKGAQGG AILTGADATV EKAQELIAAF GSMVGKDLAK EVSCTETYEW TEGEWELGKG
+     FVTPDKQPYH VVAYDFGVKT NILRMLASRG CRLTVVPAQT SAEDVLALNP DGVFLSNGPG
+     DPEPCTYGIE AVQKLMESGK PIFGICLGHQ LISLAIGAKT LKMRFSHHGA NHPVQDLDSG
+     KVVITSQNHG FAVDADTLPA NARITHKSLF DNTLQGIELT DKPVSCFQGH PEASPGPQDV
+     GYLSDKFIGN MKAAKQA
+//

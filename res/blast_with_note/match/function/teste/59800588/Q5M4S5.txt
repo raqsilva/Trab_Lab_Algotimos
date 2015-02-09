@@ -1,0 +1,92 @@
+ID   QUEC_STRT2              Reviewed;         217 AA.
+AC   Q5M4S5;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   07-JAN-2015, entry version 65.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   OrderedLocusNames=stu0825;
+OS   Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=264199;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-250 / LMG 18311;
+RX   PubMed=15543133; DOI=10.1038/nbt1034;
+RA   Bolotin A., Quinquis B., Renault P., Sorokin A., Ehrlich S.D.,
+RA   Kulakauskas S., Lapidus A., Goltsman E., Mazur M., Pusch G.D.,
+RA   Fonstein M., Overbeek R., Kyprides N., Purnelle B., Prozzi D.,
+RA   Ngui K., Masuy D., Hancy F., Burteau S., Boutry M., Delcour J.,
+RA   Goffeau A., Hols P.;
+RT   "Complete sequence and comparative genome analysis of the dairy
+RT   bacterium Streptococcus thermophilus.";
+RL   Nat. Biotechnol. 22:1554-1558(2004).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY: 7-carboxy-7-carbaguanine + NH(3) + ATP = 7-
+CC       cyano-7-carbaguanine + ADP + phosphate + H(2)O.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000023; AAV60501.1; -; Genomic_DNA.
+DR   RefSeq; YP_139316.1; NC_006448.1.
+DR   ProteinModelPortal; Q5M4S5; -.
+DR   SMR; Q5M4S5; 3-214.
+DR   STRING; 264199.stu0825; -.
+DR   EnsemblBacteria; AAV60501; AAV60501; stu0825.
+DR   GeneID; 3164923; -.
+DR   KEGG; stl:stu0825; -.
+DR   PATRIC; 19803235; VBIStrThe97850_0821.
+DR   eggNOG; COG0603; -.
+DR   HOGENOM; HOG000110563; -.
+DR   KO; K06920; -.
+DR   OMA; TWKLADE; -.
+DR   OrthoDB; EOG6091HB; -.
+DR   BioCyc; STHE264199:GI6K-840-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000001170; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   TIGRFAMs; TIGR00364; TIGR00364; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Ligase; Metal-binding;
+KW   Nucleotide-binding; Queuosine biosynthesis; Reference proteome; Zinc.
+FT   CHAIN         1    217       7-cyano-7-deazaguanine synthase.
+FT                                /FTId=PRO_0000246942.
+FT   NP_BIND      10     20       ATP. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       185    185       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       194    194       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       197    197       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       200    200       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+SQ   SEQUENCE   217 AA;  24090 MW;  0D174B454C39E805 CRC64;
+     MKRQSALVVF SGGQDSTTCL FWALKHYETV ELVTFAYGQR HSLEIEVAKE IAQEQGLKHH
+     VLDMSLLGQI TENALTSDIE IEAEKGEVPN TFVDGRNHLF LSFAAVLAKQ RGIIDIVTGV
+     CETDFSGYPD CRDVFVKSLN VTLNLAMAYD FVIQTPLMWL DKAETWALAD QLGAFDYVRE
+     KTLTCYNGII GTGCGDCPAC HLRQKGLEKY LAEKGDA
+//

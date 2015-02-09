@@ -1,0 +1,93 @@
+ID   LSPA_JANMA              Reviewed;         165 AA.
+AC   A6SW70;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   07-JAN-2015, entry version 52.
+DE   RecName: Full=Lipoprotein signal peptidase {ECO:0000255|HAMAP-Rule:MF_00161};
+DE            EC=3.4.23.36 {ECO:0000255|HAMAP-Rule:MF_00161};
+DE   AltName: Full=Prolipoprotein signal peptidase {ECO:0000255|HAMAP-Rule:MF_00161};
+DE   AltName: Full=Signal peptidase II {ECO:0000255|HAMAP-Rule:MF_00161};
+DE            Short=SPase II {ECO:0000255|HAMAP-Rule:MF_00161};
+GN   Name=lspA {ECO:0000255|HAMAP-Rule:MF_00161};
+GN   OrderedLocusNames=mma_0827;
+OS   Janthinobacterium sp. (strain Marseille) (Minibacterium massiliensis).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Oxalobacteraceae; Janthinobacterium.
+OX   NCBI_TaxID=375286;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Marseille;
+RX   PubMed=17722982; DOI=10.1371/journal.pgen.0030138;
+RA   Audic S., Robert C., Campagna B., Parinello H., Claverie J.-M.,
+RA   Raoult D., Drancourt M.;
+RT   "Genome analysis of Minibacterium massiliensis highlights the
+RT   convergent evolution of water-living bacteria.";
+RL   PLoS Genet. 3:1454-1463(2007).
+CC   -!- FUNCTION: This protein specifically catalyzes the removal of
+CC       signal peptides from prolipoproteins. {ECO:0000255|HAMAP-
+CC       Rule:MF_00161}.
+CC   -!- CATALYTIC ACTIVITY: Release of signal peptides from bacterial
+CC       membrane prolipoproteins. Hydrolyzes -Xaa-Yaa-Zaa-|-
+CC       (S,diacylglyceryl)Cys-, in which Xaa is hydrophobic (preferably
+CC       Leu), and Yaa (Ala or Ser) and Zaa (Gly or Ala) have small,
+CC       neutral side chains. {ECO:0000255|HAMAP-Rule:MF_00161}.
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (signal
+CC       peptide cleavage). {ECO:0000255|HAMAP-Rule:MF_00161}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00161}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00161}.
+CC   -!- SIMILARITY: Belongs to the peptidase A8 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000269; ABR88314.1; -; Genomic_DNA.
+DR   RefSeq; WP_012078691.1; NC_009659.1.
+DR   RefSeq; YP_001352517.1; NC_009659.1.
+DR   STRING; 375286.mma_0827; -.
+DR   MEROPS; A08.001; -.
+DR   EnsemblBacteria; ABR88314; ABR88314; mma_0827.
+DR   GeneID; 5350914; -.
+DR   KEGG; mms:mma_0827; -.
+DR   PATRIC; 22154129; VBIJanSp106498_0853.
+DR   eggNOG; COG0597; -.
+DR   HOGENOM; HOG000096993; -.
+DR   KO; K03101; -.
+DR   OMA; DFASKQW; -.
+DR   OrthoDB; EOG6PGKBM; -.
+DR   BioCyc; JSP375286:GJ8U-844-MONOMER; -.
+DR   UniPathway; UPA00665; -.
+DR   Proteomes; UP000006388; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004190; F:aspartic-type endopeptidase activity; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00161; LspA; 1.
+DR   InterPro; IPR001872; Peptidase_A8.
+DR   Pfam; PF01252; Peptidase_A8; 1.
+DR   PRINTS; PR00781; LIPOSIGPTASE.
+DR   TIGRFAMs; TIGR00077; lspA; 1.
+DR   PROSITE; PS00855; SPASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aspartyl protease; Cell inner membrane; Cell membrane;
+KW   Complete proteome; Hydrolase; Membrane; Protease; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    165       Lipoprotein signal peptidase.
+FT                                /FTId=PRO_1000038806.
+FT   TRANSMEM      7     27       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00161}.
+FT   TRANSMEM     34     56       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00161}.
+FT   TRANSMEM     72     92       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00161}.
+FT   TRANSMEM    100    120       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00161}.
+FT   TRANSMEM    136    156       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00161}.
+FT   ACT_SITE    118    118       {ECO:0000255|HAMAP-Rule:MF_00161}.
+FT   ACT_SITE    145    145       {ECO:0000255|HAMAP-Rule:MF_00161}.
+SQ   SEQUENCE   165 AA;  18385 MW;  D28874C15782C95F CRC64;
+     MASNKRYFSS SSSMLPWLGI AAVLVLLDQI TKITITRLFV YGESHAVTSF FNLVLVYNKG
+     AAFSFLASET GWQRYFFTIM GIGAAIFIIY LLKKHAGQRL FCWALALILG GAIGNVIDRV
+     LYGHVIDFLD VHIGGWHWPA FNIADSAICI GAVLFIYDEL RRVGK
+//

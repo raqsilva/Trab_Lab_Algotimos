@@ -1,0 +1,97 @@
+ID   TPIS_FRATT              Reviewed;         253 AA.
+AC   Q5NII7;
+DT   23-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   07-JAN-2015, entry version 72.
+DE   RecName: Full=Triosephosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            Short=TIM {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            EC=5.3.1.1 {ECO:0000255|HAMAP-Rule:MF_00147};
+DE   AltName: Full=Triose-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   Name=tpiA {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   OrderedLocusNames=FTT_0080;
+OS   Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+OC   Francisellaceae; Francisella.
+OX   NCBI_TaxID=177416;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SCHU S4 / Schu 4;
+RX   PubMed=15640799; DOI=10.1038/ng1499;
+RA   Larsson P., Oyston P.C.F., Chain P., Chu M.C., Duffield M.,
+RA   Fuxelius H.-H., Garcia E., Haelltorp G., Johansson D., Isherwood K.E.,
+RA   Karp P.D., Larsson E., Liu Y., Michell S., Prior J., Prior R.,
+RA   Malfatti S., Sjoestedt A., Svensson K., Thompson N., Vergez L.,
+RA   Wagg J.K., Wren B.W., Lindler L.E., Andersson S.G.E., Forsman M.,
+RA   Titball R.W.;
+RT   "The complete genome sequence of Francisella tularensis, the causative
+RT   agent of tularemia.";
+RL   Nat. Genet. 37:153-159(2005).
+CC   -!- CATALYTIC ACTIVITY: D-glyceraldehyde 3-phosphate = glycerone
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate from glycerone phosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00147}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SIMILARITY: Belongs to the triosephosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ749949; CAG44713.1; -; Genomic_DNA.
+DR   RefSeq; YP_169155.1; NC_006570.2.
+DR   ProteinModelPortal; Q5NII7; -.
+DR   DNASU; 3191461; -.
+DR   EnsemblBacteria; CAG44713; CAG44713; FTT_0080.
+DR   GeneID; 3191461; -.
+DR   KEGG; ftu:FTT_0080; -.
+DR   PATRIC; 17963119; VBIFraTul2086_0086.
+DR   eggNOG; COG0149; -.
+DR   HOGENOM; HOG000226413; -.
+DR   KO; K01803; -.
+DR   OMA; EANRICG; -.
+DR   OrthoDB; EOG66QM23; -.
+DR   BioCyc; FTUL177416:GNBP-81-MONOMER; -.
+DR   UniPathway; UPA00109; UER00189.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000001174; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004807; F:triose-phosphate isomerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00147_B; TIM_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR022896; TrioseP_Isoase_bac/euk.
+DR   InterPro; IPR000652; Triosephosphate_isomerase.
+DR   InterPro; IPR020861; Triosephosphate_isomerase_AS.
+DR   PANTHER; PTHR21139; PTHR21139; 1.
+DR   Pfam; PF00121; TIM; 1.
+DR   SUPFAM; SSF51351; SSF51351; 1.
+DR   TIGRFAMs; TIGR00419; tim; 1.
+DR   PROSITE; PS00171; TIM_1; 1.
+DR   PROSITE; PS51440; TIM_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase;
+KW   Pentose shunt; Reference proteome.
+FT   CHAIN         1    253       Triosephosphate isomerase.
+FT                                /FTId=PRO_0000307468.
+FT   ACT_SITE     93     93       Electrophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   ACT_SITE    165    165       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING       8      8       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+FT   BINDING      10     10       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00147}.
+SQ   SEQUENCE   253 AA;  27656 MW;  77B677D0CE375737 CRC64;
+     MQKLIMGNWK MNGNSTSIKE LCSGISQVQY DTSRVAIAVF PSSVYVKEVI SQLPEKVGVG
+     LQNITFYDDG AYTGEISARM LEDIGCDYLL IGHSERRSLF AESDEDVFKK LNKIIDTTIT
+     PVVCIGESLD DRQSGKLKQV LATQLSLILE NLSVEQLAKV VIAYEPVWAI GTGVVASLEQ
+     IQETHQFIRS LLAKVDERLA KNIKIVYGGS LKAENAKDIL SLPDVDGGLI GGASLKAAEF
+     NEIINQANKI CTE
+//

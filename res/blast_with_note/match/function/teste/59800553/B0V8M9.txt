@@ -1,0 +1,85 @@
+ID   AROB_ACIBY              Reviewed;         360 AA.
+AC   B0V8M9;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-JAN-2015, entry version 47.
+DE   RecName: Full=3-dehydroquinate synthase {ECO:0000255|HAMAP-Rule:MF_00110};
+DE            EC=4.2.3.4 {ECO:0000255|HAMAP-Rule:MF_00110};
+GN   Name=aroB {ECO:0000255|HAMAP-Rule:MF_00110};
+GN   OrderedLocusNames=ABAYE0296;
+OS   Acinetobacter baumannii (strain AYE).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Acinetobacter;
+OC   Acinetobacter calcoaceticus/baumannii complex.
+OX   NCBI_TaxID=509173;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AYE;
+RX   PubMed=18350144; DOI=10.1371/journal.pone.0001805;
+RA   Vallenet D., Nordmann P., Barbe V., Poirel L., Mangenot S.,
+RA   Bataille E., Dossat C., Gas S., Kreimeyer A., Lenoble P., Oztas S.,
+RA   Poulain J., Segurens B., Robert C., Abergel C., Claverie J.-M.,
+RA   Raoult D., Medigue C., Weissenbach J., Cruveiller S.;
+RT   "Comparative analysis of Acinetobacters: three genomes for three
+RT   lifestyles.";
+RL   PLoS ONE 3:E1805-E1805(2008).
+CC   -!- CATALYTIC ACTIVITY: 3-deoxy-D-arabino-hept-2-ulosonate 7-phosphate
+CC       = 3-dehydroquinate + phosphate. {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00110};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00110};
+CC       Note=Binds 1 divalent metal cation per subunit. Can use either
+CC       Co(2+) or Zn(2+). {ECO:0000255|HAMAP-Rule:MF_00110};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00110};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate
+CC       biosynthesis; chorismate from D-erythrose 4-phosphate and
+CC       phosphoenolpyruvate: step 2/7. {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -!- SIMILARITY: Belongs to the dehydroquinate synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00110}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CU459141; CAM85275.1; -; Genomic_DNA.
+DR   RefSeq; YP_001712280.1; NC_010410.1.
+DR   ProteinModelPortal; B0V8M9; -.
+DR   STRING; 509173.ABAYE0296; -.
+DR   EnsemblBacteria; CAM85275; CAM85275; ABAYE0296.
+DR   GeneID; 6002952; -.
+DR   KEGG; aby:ABAYE0296; -.
+DR   PATRIC; 20724057; VBIAciBau69881_0382.
+DR   eggNOG; COG0337; -.
+DR   HOGENOM; HOG000007970; -.
+DR   KO; K01735; -.
+DR   OMA; IERSCAA; -.
+DR   OrthoDB; EOG6SJJGD; -.
+DR   BioCyc; ABAU509173:GJXF-297-MONOMER; -.
+DR   UniPathway; UPA00053; UER00085.
+DR   Proteomes; UP000002446; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003856; F:3-dehydroquinate synthase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_00110; DHQ_synthase; 1.
+DR   InterPro; IPR016037; DHQ_synth_AroB.
+DR   PIRSF; PIRSF001455; DHQ_synth; 1.
+DR   TIGRFAMs; TIGR01357; aroB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Cobalt;
+KW   Complete proteome; Cytoplasm; Lyase; NAD; Zinc.
+FT   CHAIN         1    360       3-dehydroquinate synthase.
+FT                                /FTId=PRO_1000094442.
+SQ   SEQUENCE   360 AA;  39493 MW;  F0DF2C4C7DA11EAD CRC64;
+     MQTLHVELGE RRYPIFIGSQ LDPKQLLEPY IHGQQVMIVS NVTVAPLYLS HYQEALESLG
+     KTVATCILPD GEKYKDIQHL NLIFDALLEA GFNRDCTVLA LGGGVIGDMA GFASACFQRG
+     VYFVQVPTTL LSQVDSSVGG KTGINHPLGK NMLGAFQQPQ VVLADMAQLN TLPERELSAG
+     LAEVIKYALL GDEDFLVWLE ENMDGLVARD ADLLAEAVYR SCAHKARIVA NDEKEQGERA
+     LLNLGHTFGH AIESYLGYGT WLHGEAVATG MVMAADLSQR LGWISNEDVA RTKKIIQRAN
+     LPISCPQIPL DDFLGYMAHD KKVLNGQLRL VLLKQLGQAV ITKDFDVELM KQAILANQHG
+//

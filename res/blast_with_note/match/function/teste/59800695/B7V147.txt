@@ -1,0 +1,88 @@
+ID   LPXK_PSEA8              Reviewed;         332 AA.
+AC   B7V147;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   07-JAN-2015, entry version 43.
+DE   RecName: Full=Tetraacyldisaccharide 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+DE            EC=2.7.1.130 {ECO:0000255|HAMAP-Rule:MF_00409};
+DE   AltName: Full=Lipid A 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   Name=lpxK {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   OrderedLocusNames=PLES_20811;
+OS   Pseudomonas aeruginosa (strain LESB58).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=557722;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LESB58;
+RX   PubMed=19047519; DOI=10.1101/gr.086082.108;
+RA   Winstanley C., Langille M.G.I., Fothergill J.L., Kukavica-Ibrulj I.,
+RA   Paradis-Bleau C., Sanschagrin F., Thomson N.R., Winsor G.L.,
+RA   Quail M.A., Lennard N., Bignell A., Clarke L., Seeger K., Saunders D.,
+RA   Harris D., Parkhill J., Hancock R.E.W., Brinkman F.S.L.,
+RA   Levesque R.C.;
+RT   "Newly introduced genomic prophage islands are critical determinants
+RT   of in vivo competitiveness in the Liverpool epidemic strain of
+RT   Pseudomonas aeruginosa.";
+RL   Genome Res. 19:12-23(2009).
+CC   -!- FUNCTION: Transfers the gamma-phosphate of ATP to the 4'-position
+CC       of a tetraacyldisaccharide 1-phosphate intermediate (termed DS-1-
+CC       P) to form tetraacyldisaccharide 1,4'-bis-phosphate (lipid IVA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (2-N,3-O-bis(3-hydroxytetradecanoyl)-
+CC       beta-D-glucosaminyl)-(1->6)-(2-N,3-O-bis(3-hydroxytetradecanoyl)-
+CC       beta-D-glucosaminyl phosphate) = ADP + (2-N,3-O-bis(3-
+CC       hydroxytetradecanoyl)-4-O-phosphono-beta-D-glucosaminyl)-(1->6)-
+CC       (2-N,3-O-bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl
+CC       phosphate). {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid
+CC       IV(A) from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and
+CC       UDP-N-acetyl-alpha-D-glucosamine: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -!- SIMILARITY: Belongs to the LpxK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; FM209186; CAW26808.1; -; Genomic_DNA.
+DR   RefSeq; YP_002439684.1; NC_011770.1.
+DR   ProteinModelPortal; B7V147; -.
+DR   SMR; B7V147; 21-300.
+DR   STRING; 557722.PLES_20811; -.
+DR   EnsemblBacteria; CAW26808; CAW26808; PLES_20811.
+DR   GeneID; 7176659; -.
+DR   KEGG; pag:PLES_20811; -.
+DR   PATRIC; 19813815; VBIPseAer113719_2154.
+DR   eggNOG; COG1663; -.
+DR   HOGENOM; HOG000004953; -.
+DR   KO; K00912; -.
+DR   OMA; PTVIYLI; -.
+DR   OrthoDB; EOG60GRWT; -.
+DR   BioCyc; PAER557722:GHJW-2112-MONOMER; -.
+DR   UniPathway; UPA00359; UER00482.
+DR   Proteomes; UP000001527; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009029; F:tetraacyldisaccharide 4'-kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00409; LpxK; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003758; Tetraacyldisaccharide_4-kinase.
+DR   Pfam; PF02606; LpxK; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00682; lpxK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Lipid A biosynthesis;
+KW   Lipid biosynthesis; Lipid metabolism; Nucleotide-binding; Transferase.
+FT   CHAIN         1    332       Tetraacyldisaccharide 4'-kinase.
+FT                                /FTId=PRO_1000123730.
+FT   NP_BIND      60     67       ATP. {ECO:0000255|HAMAP-Rule:MF_00409}.
+SQ   SEQUENCE   332 AA;  36746 MW;  CA1D830F1CFDDB6E CRC64;
+     MSFSERLLAA WYQGHPALAL LRPLEALYRR VANGRRADFL SGRKPAYRAP LPVLVVGNIT
+     VGGTGKTPMI LWMIEHCRAR GLRVGVISRG YGARPPTTPW RVRAEQDAAE AGDEPLMIVR
+     RSGVPLMIDP DRPRALQALL AEEQLDLVLC DDGLQHYRLA RDLELVLIDA ARGLGNGRCL
+     PAGPLREPAE RLESVDALLY NGADEDPDGG YAFRLQPTAL INLQSGERRP LEHFPAGQEV
+     HALAGIGNPQ RFFRTLEALH WRAIPHAFPD HATYTAAELA FSPPLPLLMT EKDAVKCRAF
+     AAADWWYLAV DAVPSPAFVA WFDARLEHLL AR
+//

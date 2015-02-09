@@ -1,0 +1,109 @@
+ID   MFD_BUCAI               Reviewed;         812 AA.
+AC   P57381; Q9F456;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   04-FEB-2015, entry version 90.
+DE   RecName: Full=Transcription-repair-coupling factor;
+DE            Short=TRCF;
+DE            EC=3.6.4.-;
+GN   Name=mfd; OrderedLocusNames=BU294;
+OS   Buchnera aphidicola subsp. Acyrthosiphon pisum (strain APS)
+OS   (Acyrthosiphon pisum symbiotic bacterium).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=107806;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=APS;
+RX   PubMed=10993077; DOI=10.1038/35024074;
+RA   Shigenobu S., Watanabe H., Hattori M., Sakaki Y., Ishikawa H.;
+RT   "Genome sequence of the endocellular bacterial symbiont of aphids
+RT   Buchnera sp. APS.";
+RL   Nature 407:81-86(2000).
+CC   -!- FUNCTION: Couples transcription and DNA repair by recognizing RNA
+CC       polymerase (RNAP) stalled at DNA lesions. Mediates ATP-dependent
+CC       release of RNAP and its truncated transcript from the DNA, and
+CC       recruitment of nucleotide excision repair machinery to the damaged
+CC       site (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the UvrB family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the helicase
+CC       family. RecG subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000003; BAB13004.1; -; Genomic_DNA.
+DR   RefSeq; NP_240118.1; NC_002528.1.
+DR   ProteinModelPortal; P57381; -.
+DR   EnsemblBacteria; BAB13004; BAB13004; BAB13004.
+DR   GeneID; 1109993; -.
+DR   KEGG; buc:BU294; -.
+DR   PATRIC; 21244112; VBIBucAph127364_0304.
+DR   eggNOG; COG1197; -.
+DR   HOGENOM; HOG000216592; -.
+DR   KO; K03723; -.
+DR   OMA; QVIYVHN; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   BioCyc; BAPH107806:GBZJ-294-MONOMER; -.
+DR   Proteomes; UP000001806; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0004386; F:helicase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR003711; CarD-like/TRCF_domain.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR004576; Mfd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005118; TRCF_C.
+DR   Pfam; PF02559; CarD_CdnL_TRCF; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF03461; TRCF; 1.
+DR   SMART; SM01058; CarD_TRCF; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SMART; SM00982; TRCF; 1.
+DR   SUPFAM; SSF141259; SSF141259; 1.
+DR   SUPFAM; SSF52540; SSF52540; 3.
+DR   TIGRFAMs; TIGR00580; mfd; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; DNA damage; DNA repair;
+KW   DNA-binding; Helicase; Hydrolase; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN         1    812       Transcription-repair-coupling factor.
+FT                                /FTId=PRO_0000102164.
+FT   DOMAIN      280    441       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      462    621       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     293    300       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF       394    397       DEEH box.
+SQ   SEQUENCE   812 AA;  93881 MW;  BB5C9F54D9EF2C35 CRC64;
+     MKITKNKILK NKKIINFKYQ KLLDLFYNVN NQKKNNQLLS YLYSFSGKII FSLTEEKSLK
+     KILRFLMRHK IHPQYIKRII DIKKEIDYFY MIEEIKNGFI DKKNNILFLC TKDLLPILID
+     DKYIGNIKKN TNNINKFNLS QLILNHPVMH IEHGIGRYKG LTTIETASIQ SEYLVISYAE
+     GDKLYVPVSN LHLVSPYTGT SIENAPLHKL GGDDWNKEKH KISKTVYDHA AQLLHIYAKR
+     ESKTGFAFKK NIEKYDLFCN DCSFKTTSDQ NEVMKFVLKD MSKPIPMDRL ICGDVGFGKT
+     EIAMRASFLA VSNKKQVAIL VPTTLLAQQH YKNFKIRFSN WPVNINILSR FQTQKEQDLI
+     FKHTKNGRIN IIIGTHKLLF KNIEWCSLGL LIIDEEHRFG VSHKEIIKKI YSNIDILTLT
+     ATPIPRTLNM AMTGIKDLSI IAKPPAQRLA IKTFIQEYSP ILIRKTILRE ISRGGQVYYI
+     YNKVQNIMNI AERLSILIPE ASIKIGHGQM KNIDLKKVMN EFYNNKFNVL ICTTIIESGV
+     DIARANTIII ENSDHFGLSQ LHQLRGRIGR SNNQAYALLL VNNFNKITSD AKKRLEAISS
+     VDNFGGGFSL SNQDLEIRGV GEILGKEQSG HIKNIGFSLY MDLLKNAIDL LKNGKIFSVE
+     KSLKKPLEID LHVSSLLPSS YILDINTRLF FYKKLANAIH EKQIEEIKYE LIDQFGKLPD
+     FSKNLILIAK IRLIADKIGI KYIKSNNNIG IIEFNDYGSI NTEYLLKMFQ KEPKIWKMET
+     STRIKFILHL KNDYLRLKWI INLLRNLFKK NI
+//

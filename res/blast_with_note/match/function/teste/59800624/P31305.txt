@@ -1,0 +1,100 @@
+ID   MTSA_STRPA              Reviewed;         309 AA.
+AC   P31305;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   07-JAN-2015, entry version 75.
+DE   RecName: Full=Manganese ABC transporter substrate-binding lipoprotein;
+DE   AltName: Full=Adhesin B;
+DE   AltName: Full=FimA;
+DE   AltName: Full=Saliva-binding protein;
+DE   Flags: Precursor;
+GN   Name=fimA;
+OS   Streptococcus parasanguinis.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=1318;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=FW213;
+RX   PubMed=2572555;
+RA   Fenno J.C., Leblanc D.J., Fives-Taylor P.M.;
+RT   "Nucleotide sequence analysis of a type 1 fimbrial gene of
+RT   Streptococcus sanguis FW213.";
+RL   Infect. Immun. 57:3527-3533(1989).
+RN   [2]
+RP   POSSIBLE FUNCTION.
+RX   PubMed=1671775;
+RA   Ganeshkumar N., Hannam P.M., Kolenbrander P.E., McBride B.C.;
+RT   "Nucleotide sequence of a gene coding for a saliva-binding protein
+RT   (SsaB) from Streptococcus sanguis 12 and possible role of the protein
+RT   in coaggregation with actinomyces.";
+RL   Infect. Immun. 59:1093-1099(1991).
+RN   [3]
+RP   CHARACTERIZATION.
+RC   STRAIN=FW213;
+RX   PubMed=7596287; DOI=10.1111/j.1365-2958.1995.tb02355.x;
+RA   Fenno J.C., Shaikh A., Spatafora G., Fives-Taylor P.;
+RT   "The fimA locus of Streptococcus parasanguis encodes an ATP-binding
+RT   membrane transport system.";
+RL   Mol. Microbiol. 15:849-863(1995).
+RN   [4]
+RP   SUBCELLULAR LOCATION.
+RC   STRAIN=FW213;
+RX   PubMed=21862581; DOI=10.1074/jbc.M111.239350;
+RA   Wu R., Wu H.;
+RT   "A molecular chaperone mediates a two-protein enzyme complex and
+RT   glycosylation of serine-rich streptococcal adhesins.";
+RL   J. Biol. Chem. 286:34923-34931(2011).
+CC   -!- FUNCTION: Part of an ATP-driven transport system for manganese.
+CC       Also act as an adhesin which is involved on adherence to
+CC       extracellular matrix. It is an important factor in pathogenesis
+CC       and infection. It may contribute to the formation and accumulation
+CC       of dental plaque.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305|PubMed:21862581};
+CC       Lipid-anchor {ECO:0000305|PubMed:21862581}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 9
+CC       family. Lipoprotein receptor antigen (Lrai) subfamily.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: Was originally thought to be a fimbrial subunit.
+CC       {ECO:0000305|PubMed:2572555}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M26130; AAA53077.1; -; Genomic_DNA.
+DR   PIR; A37186; A37186.
+DR   ProteinModelPortal; P31305; -.
+DR   SMR; P31305; 23-309.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0030001; P:metal ion transport; IEA:InterPro.
+DR   InterPro; IPR006129; AdhesinB.
+DR   InterPro; IPR006128; Lipoprotein_4.
+DR   InterPro; IPR006127; Perip_solute-bd_prot_fam.
+DR   PANTHER; PTHR30477:SF1; PTHR30477:SF1; 1.
+DR   Pfam; PF01297; TroA; 1.
+DR   PRINTS; PR00691; ADHESINB.
+DR   PRINTS; PR00690; ADHESNFAMILY.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Lipoprotein; Manganese; Membrane; Metal-binding;
+KW   Palmitate; Signal; Transport; Zinc.
+FT   SIGNAL        1     20       {ECO:0000305}.
+FT   CHAIN        21    309       Manganese ABC transporter substrate-
+FT                                binding lipoprotein.
+FT                                /FTId=PRO_0000031890.
+FT   METAL        67     67       Zinc. {ECO:0000250}.
+FT   METAL       139    139       Zinc. {ECO:0000250}.
+FT   METAL       205    205       Zinc. {ECO:0000250}.
+FT   METAL       280    280       Zinc. {ECO:0000250}.
+FT   LIPID        21     21       N-palmitoyl cysteine. {ECO:0000305}.
+FT   LIPID        21     21       S-diacylglycerol cysteine. {ECO:0000305}.
+SQ   SEQUENCE   309 AA;  34349 MW;  332F10BC858E8396 CRC64;
+     MKKIASVLAL FVALLFGLLA CSKGSSSGAS GKLKVVTTNS ILADITKNIA GDKIELHSIV
+     PVGKDPHEYE PLPEDVKKTS QADLIFYNGI NLETGGNAWF TKLVKNANKV ENKDYFAVSE
+     GVDVIYLEGQ NQAGKEDPHA WLNLENGILY AKNIAKQLIA KDPKNKDFYE KNLAAYTEKL
+     SKLDQKAKQA FKNIPEDKKM IVTSEGCFKY FSKAYGVPSA YIWEINTEEE GTPEQIKTLV
+     EKLRQTKVPA LFVESSVDER PMKTVAKDTN IPIYAKIFTD SIAKEGEKGD SYYSMMKWNL
+     DKIAEGLSQ
+//

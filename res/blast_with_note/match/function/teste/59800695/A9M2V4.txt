@@ -1,0 +1,84 @@
+ID   LPXK_NEIM0              Reviewed;         344 AA.
+AC   A9M2V4;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 2.
+DT   07-JAN-2015, entry version 40.
+DE   RecName: Full=Tetraacyldisaccharide 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+DE            EC=2.7.1.130 {ECO:0000255|HAMAP-Rule:MF_00409};
+DE   AltName: Full=Lipid A 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   Name=lpxK {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   OrderedLocusNames=NMCC_0626;
+OS   Neisseria meningitidis serogroup C (strain 053442).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=374833;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=053442;
+RX   PubMed=18031983; DOI=10.1016/j.ygeno.2007.10.004;
+RA   Peng J., Yang L., Yang F., Yang J., Yan Y., Nie H., Zhang X.,
+RA   Xiong Z., Jiang Y., Cheng F., Xu X., Chen S., Sun L., Li W., Shen Y.,
+RA   Shao Z., Liang X., Xu J., Jin Q.;
+RT   "Characterization of ST-4821 complex, a unique Neisseria meningitidis
+RT   clone.";
+RL   Genomics 91:78-87(2008).
+CC   -!- FUNCTION: Transfers the gamma-phosphate of ATP to the 4'-position
+CC       of a tetraacyldisaccharide 1-phosphate intermediate (termed DS-1-
+CC       P) to form tetraacyldisaccharide 1,4'-bis-phosphate (lipid IVA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (2-N,3-O-bis(3-hydroxytetradecanoyl)-
+CC       beta-D-glucosaminyl)-(1->6)-(2-N,3-O-bis(3-hydroxytetradecanoyl)-
+CC       beta-D-glucosaminyl phosphate) = ADP + (2-N,3-O-bis(3-
+CC       hydroxytetradecanoyl)-4-O-phosphono-beta-D-glucosaminyl)-(1->6)-
+CC       (2-N,3-O-bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl
+CC       phosphate). {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid
+CC       IV(A) from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and
+CC       UDP-N-acetyl-alpha-D-glucosamine: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -!- SIMILARITY: Belongs to the LpxK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABX72823.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000381; ABX72823.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_001598777.1; NC_010120.1.
+DR   STRING; 374833.NMCC_0626; -.
+DR   EnsemblBacteria; ABX72823; ABX72823; NMCC_0626.
+DR   GeneID; 5795575; -.
+DR   KEGG; nmn:NMCC_0626; -.
+DR   PATRIC; 20345659; VBINeiMen117761_0755.
+DR   eggNOG; COG1663; -.
+DR   HOGENOM; HOG000004953; -.
+DR   KO; K00912; -.
+DR   OrthoDB; EOG60GRWT; -.
+DR   BioCyc; NMEN374833:GJ7Z-624-MONOMER; -.
+DR   UniPathway; UPA00359; UER00482.
+DR   Proteomes; UP000001177; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009029; F:tetraacyldisaccharide 4'-kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00409; LpxK; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003758; Tetraacyldisaccharide_4-kinase.
+DR   Pfam; PF02606; LpxK; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00682; lpxK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Lipid A biosynthesis;
+KW   Lipid biosynthesis; Lipid metabolism; Nucleotide-binding; Transferase.
+FT   CHAIN         1    344       Tetraacyldisaccharide 4'-kinase.
+FT                                /FTId=PRO_0000340842.
+FT   NP_BIND      65     72       ATP. {ECO:0000255|HAMAP-Rule:MF_00409}.
+SQ   SEQUENCE   344 AA;  37040 MW;  DC1464563648417C CRC64;
+     MPNCFKFHTV IERHWQKPYP VLSFLLKPLS GLFAKIAAKR RTDFLSGKRQ SEKLPVPVVV
+     VGNIHAGGTG KTPIVAALVS GLQEKGVKVG IISRGYGRKS KAVHVLNAES RAEDAGDEPL
+     LLFRKTGAPT AVGSSRAEAG RALLAAHPDI GLIVADDGLQ HYALRRDVEI AVFPAADTGR
+     TDLDLLPNGS LREPLSRLDS VDTVVVSGGK ADALFRPSEN MFHSRIEVGR IYRLNNPSEI
+     LDTGRLKNQT VVAVAGIAKP ARFFDSLRNM GITVKRTVAL PDHADISAAD LPDADAVIIT
+     EKDAVKFSDG ICTDNVWVLP VCAIIEPDLA AFVLERLEDV PKAV
+//

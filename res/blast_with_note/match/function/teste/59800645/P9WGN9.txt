@@ -1,0 +1,120 @@
+ID   SECF_MYCTU              Reviewed;         442 AA.
+AC   P9WGN9; L0TD04; Q50635;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   04-FEB-2015, entry version 10.
+DE   RecName: Full=Protein translocase subunit SecF;
+GN   Name=secF {ECO:0000255|HAMAP-Rule:MF_01464};
+GN   OrderedLocusNames=Rv2586c; ORFNames=MTCY227.15;
+OS   Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv).
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+OC   Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83332;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=9634230; DOI=10.1038/31159;
+RA   Cole S.T., Brosch R., Parkhill J., Garnier T., Churcher C.M.,
+RA   Harris D.E., Gordon S.V., Eiglmeier K., Gas S., Barry C.E. III,
+RA   Tekaia F., Badcock K., Basham D., Brown D., Chillingworth T.,
+RA   Connor R., Davies R.M., Devlin K., Feltwell T., Gentles S., Hamlin N.,
+RA   Holroyd S., Hornsby T., Jagels K., Krogh A., McLean J., Moule S.,
+RA   Murphy L.D., Oliver S., Osborne J., Quail M.A., Rajandream M.A.,
+RA   Rogers J., Rutter S., Seeger K., Skelton S., Squares S., Squares R.,
+RA   Sulston J.E., Taylor K., Whitehead S., Barrell B.G.;
+RT   "Deciphering the biology of Mycobacterium tuberculosis from the
+RT   complete genome sequence.";
+RL   Nature 393:537-544(1998).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=21969609; DOI=10.1074/mcp.M111.011627;
+RA   Kelkar D.S., Kumar D., Kumar P., Balakrishnan L., Muthusamy B.,
+RA   Yadav A.K., Shrivastava P., Marimuthu A., Anand S., Sundaram H.,
+RA   Kingsbury R., Harsha H.C., Nair B., Prasad T.S., Chauhan D.S.,
+RA   Katoch K., Katoch V.M., Kumar P., Chaerkady R., Ramachandran S.,
+RA   Dash D., Pandey A.;
+RT   "Proteogenomic analysis of Mycobacterium tuberculosis by high
+RT   resolution mass spectrometry.";
+RL   Mol. Cell. Proteomics 10:M111.011627-M111.011627(2011).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01464}.
+CC   -!- SUBUNIT: Forms a complex with SecD. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000255|HAMAP-Rule:MF_01464}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01464}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01464}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecF subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01464}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL123456; CCP45382.1; -; Genomic_DNA.
+DR   PIR; A70726; A70726.
+DR   RefSeq; NP_217102.1; NC_000962.3.
+DR   RefSeq; YP_006516027.1; NC_018143.2.
+DR   ProteinModelPortal; P9WGN9; -.
+DR   EnsemblBacteria; CCP45382; CCP45382; Rv2586c.
+DR   GeneID; 13319306; -.
+DR   GeneID; 887229; -.
+DR   KEGG; mtu:Rv2586c; -.
+DR   KEGG; mtv:RVBD_2586c; -.
+DR   TubercuList; Rv2586c; -.
+DR   KO; K03074; -.
+DR   OMA; QEYNIEQ; -.
+DR   PhylomeDB; P9WGN9; -.
+DR   Reactome; REACT_121009; Tolerance of reactive oxygen produced by macrophages.
+DR   Proteomes; UP000001584; Chromosome.
+DR   GO; GO:0005618; C:cell wall; IDA:MTBBASE.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:MTBBASE.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IDA:MTBBASE.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01464_B; SecF_B; 1.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   InterPro; IPR022646; SecD/SecF_CS.
+DR   InterPro; IPR005665; SecF_bac.
+DR   Pfam; PF07549; Sec_GG; 1.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   PRINTS; PR01755; SECFTRNLCASE.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR00966; 3a0501s07; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Complete proteome; Membrane; Protein transport;
+KW   Reference proteome; Translocation; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN         1    442       Protein translocase subunit SecF.
+FT                                /FTId=PRO_0000095983.
+FT   TRANSMEM     67     87       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    187    207       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    218    238       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    243    263       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    301    321       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+FT   TRANSMEM    331    351       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01464}.
+SQ   SEQUENCE   442 AA;  47014 MW;  09427E2AD59CD6FA CRC64;
+     MASKAKTGRD DEATSAVELT EATESAVART DGDSTTDTAS KLGHHSFLSR LYTGTGAFEV
+     VGRRRLWFGV SGAIVAVAIA SIVFRGFTFG IDFKGGTTVS FPRGSTQVAQ VEDVYYRALG
+     SEPQSVVIVG AGASATVQIR SETLTSDQTA KLRDALFEAF GPKGTDGQPS KQAISDSAVS
+     ETWGGQITKK AVIALVVFLV LVALYITVRY ERYMTISAIT AMLFDLTVTA GVYSLVGFEV
+     TPATVIGLLT ILGFSLYDTV IVFDKVEENT HGFQHTTRRT FAEQANLAIN QTFMRSINTS
+     LIGVLPVLAL MVVAVWLLGV GTLKDLALVQ LIGIIIGTYS SIFFATPLLV TLRERTELVR
+     NHTRRVLKRR NSGSPAGSED ASTDGGEQPA AADEQSLVGI TQASSQSAPR AAQGSSKPAP
+     GARPVRPVGT RRPTGKRNAG RR
+//

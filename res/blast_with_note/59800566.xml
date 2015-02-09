@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59800566|ref|YP_207278.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>lipid A biosynthesis lauroyl acyltransferase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>297</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59800566|ref|YP_207278.1|</Iteration_query-ID>
+  <Iteration_query-def>lipid A biosynthesis lauroyl acyltransferase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>297</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|82592876|sp|P0ACV1.1|HTRB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Lipid A biosynthesis lauroyl acyltransferase; AltName: Full=Heat shock protein B [Escherichia coli O157:H7] &gt;gi|82592877|sp|P0ACV0.1|HTRB_ECOLI RecName: Full=Lipid A biosynthesis lauroyl acyltransferase; AltName: Full=Heat shock protein B [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0ACV1</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.22231e-15</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>RTAMHILLTALLKCLSLLSLSCLHTLGNRLGHLAFYLLKEDRARIV-ANMRQAGLNPDTQTVKAVFA---ETAKCGL-ELAPAFFKKPEDIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYISQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFG-KPAYTMTLAAKLAHVKGVKTLFFCCERLPDGQGFVLHIRPVQGELNGNKAH-DAAVFNRNTEYWIRRFPTQYLFMYNRYKT</Hsp_qseq>
+      <Hsp_hseq>RYWLTWLGIGVLWLVVQLPYPVIYRLGCGLGKLALRFMKR-RAKIVHRNLELCFPEMSEQERRKMVVKNFESVGMGLMETGMAWFW-PDRRIARWTEVIGMEHIRDVQAQKRGILLVGIHFLTLELGARQFGMQEPG--IGVYRPNDNPLIDWLQTWGRLRSNKSMLDR--KDLKGMIKALKKGEVVWYAPDHDYGPR--SSVFVPLFAVEQAATTTGTWMLARMSGACLVPFVPRRKPDGKGYQLIMLPPECSPPLDDAETTAAWMNKVVEKCIMMAPEQYMWLHRRFKT</Hsp_hseq>
+      <Hsp_midline>R  +  L   +L  +  L    ++ LG  LG LA   +K  RA+IV  N+         Q  + +     E+   GL E   A+F  P+     +  V G EH++    +  G+L +  H  + +LG R    Q P     +Y+P     ID +   GR+R          + +K +IKAL+ GE     PDH   P+    V+   F  + A T T    LA + G   + F   R PDG+G+ L + P +     + A   AA  N+  E  I   P QY++++ R+KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|82592578|sp|P0ACV2.1|DDG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Protein Ddg [Escherichia coli K-12] &gt;gi|82592579|sp|P0ACV3.1|DDG_SHIFL RecName: Full=Protein Ddg [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ACV2</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>3.588e-14</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>LGNRLGHLAFYLLKEDRARIVANMR----QAGLNPDTQTVKAVFAETAKCGLELAPAFFKKPEDIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYISQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFG-KPAYTMTLAAKLAHVKGVKTLFFCCERLPDGQGFVLHIRPVQGELNGNKAHDAAVFNRNTEYWIRRFPTQYLFMYNRYKT</Hsp_qseq>
+      <Hsp_hseq>LGTRIGAMARPFLKRRESIARKNLELCFPQHSAEEREKMIAENFRSLGMALVETGMAWFWPDSRVRKWFD-VEGLDNLKRAQMQNRGVMVVGVHFMSLELGGRVMGLCQP--MMATYRPHNNQLMEWVQTRGRMRSN--KAMIGRNNLRGIVGALKKGEAVWFAPDQ--DYGRKGSSFAPFFAVENVATTNGTYVLSRLSGAAMLTVTMVRKADYSGYRLFITPEMEGYPTDENQAAAYMNKIIEKEIMRAPEQYLWIHRRFKT</Hsp_hseq>
+      <Hsp_midline>LG R+G +A   LK   +    N+     Q       + +   F       +E   A+F     +   F  V G +++++A  +  G++ +  H  S +LGGR +    P  + A Y+P   + ++ +   GR+R     A  G   ++ I+ AL+ GEA    PD        G  +A FF  +   T      L+ + G   L     R  D  G+ L I P       ++   AA  N+  E  I R P QYL+++ R+KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1171030|sp|P44567.1|MSBB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Lipid A biosynthesis (KDO)2-(lauroyl)-lipid IVA acyltransferase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44567</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>2.45977e-09</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>LGNRLGHLAFYLLKEDRARIVANMR----QAGLNPDTQTVKAVFAETAKCGLELAPAFFKKPEDIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYI-SQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTMTLAAKLAHV-KGVKTLFFCCERLPDGQGFVLHIRPVQGELNGNKAHDAAVFNRNTEYWIRRFPTQYLFMYNRYKT</Hsp_qseq>
+      <Hsp_hseq>LGIWIGHKA----KKQRTRAQTNLQYCFPHWTEQQREQVIDKMFAVVAQVMFGIGEIAIRSKKHLQKRSEFI-GLEHIEQAKAEGKNIILMVPHGWAIDASGIILHTQGMP--MTSMYNPHRNPLVDWLWTITRQRFGGKMHARQ-NGIKPFLSHVRKGEMGYYLPDEDFGAEQ--SVFVDFFGTYKATLPGLNKMAKLSKAVVIPMFPRYNAETGK-YEMEIHPAMN-LSDDPEQSARAMNEEIESFVTPAPEQYVWILQLLRT</Hsp_hseq>
+      <Hsp_midline>LG  +GH A    K+ R R   N++            Q +  +FA  A+    +     +  + ++   + + G EH++QA  +G+ ++ + PH  + D  G  + +Q +P  +T+MY P +   +D +    R R  GK       G+K  +  +R GE    LPD     ++   V+ DFFG    T+    K+A + K V    F       G+ + + I P    L+ +    A   N   E ++   P QY+++    +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3915727|sp|P45239.2|HTRB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Lipid A biosynthesis lauroyl acyltransferase; AltName: Full=Heat shock protein B [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45239</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.78802e-07</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>TALLKCLSLLSLSCLHTLGNRLGHLAFYL-LKEDRARIV------------ANMRQAGLNPDTQTVKAVFAETAKCGLELAPAFFKKPEDIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYISQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTMTLAAK--LAHVKGVKTLFFCCERLPDGQGFVLHIR-PVQGELNGNKAHDAAVFNRNTEYWIRRFPTQYLFMYNRYKT</Hsp_qseq>
+      <Hsp_hseq>VAIWRSILCLPYPILRHIGHGFGWLFSHLKVGERRAAIARRNLELCFPDMPENEREVILQENLRSVGMAIIETGM-------AWFWSDSRIKKWSK-VEGLHYLKE--NQKDGIVLVGVHFLTLELGARIIGLHHPG--IGVYRPNDNPLLDWLQTQGRLRSNKDMLDR--KDLRGMIKALRHEETIWYAPDH--DYGRKNAVFVPFFAVPDTCTTTGSYYLLKSSQNSKVIPFAPLRNKDGSGYTVSISAPVDFTDLQDETAIAARMNQIVEKEIMKDITIYMWLHRRFKT</Hsp_hseq>
+      <Hsp_midline> A+ + +  L    L  +G+  G L  +L + E RA I              N R+  L  + ++V     ET         A+F     I+   K V G  ++++  ++ +G++ +  H  + +LG R I    P     +Y+P     +D +   GR+R          + ++ +IKALR  E     PDH         V+  FF  P    T  +   L   +  K + F   R  DG G+ + I  PV      ++   AA  N+  E  I +  T Y++++ R+KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|127340|sp|P24205.1|MSBB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Lipid A biosynthesis (KDO)2-(lauroyl)-lipid IVA acyltransferase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P24205</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>6.08384e-05</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>RLGHLAFYLLKEDRARIVANMR----QAGLNPDTQTVKAVFAETAKCGLELAPAFFKKPEDIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYISQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTMTLAAKLAHVKGVKTLFFCCERLPDGQG--FVLHIRPVQGELNGNKAHDAA-VFNRNTEYWIRRFPTQYLFMYNRYKT</Hsp_qseq>
+      <Hsp_hseq>RLGRFAGRLGKSSRRRALINLSLCFPERSEAEREAIVDEMFATAPQAMAMMAELAIRGPEKIQPRVDW-QGLEIIEEMRRNNEKVIFLVPHGWAVDIPAMLMASQGQ-KMAAMFHNQGNPVFDYVWNTVRRRFGGRLHARN-DGIKPFIQSVRQGYWGYYLPDQDHGPEHSEFV--DFFA--TYKATLPAIGRLMKVCRARVVPLFPIYDGKTHRLTIQVRPPMDDLLEADDHTIARRMNEEVEIFVGPRPEQYTWILKLLKT</Hsp_hseq>
+      <Hsp_midline>RLG  A  L K  R R + N+     +         V  +FA   +    +A    + PE I+       G E +++     E ++F+ PH  + D+    ++ Q    + AM+        D +    R R  G+       G+K  I+++R G     LPD    P+    V  DFF    Y  TL A    +K  +        + DG+     + +RP   +L     H  A   N   E ++   P QY ++    KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|27734422|sp|P59198.1|MSBB1_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Lipid A biosynthesis (KDO)2-(lauroyl)-lipid IVA acyltransferase 1 [Shigella flexneri]</Hit_def>
+  <Hit_accession>P59198</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000214586</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>RLGHLAFYLLKEDRARIVANMR----QAGLNPDTQTVKAVFAETAKCGLELAPAFFKKPEDIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYISQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTMTLAAKLAHVKGVKTLFFCCERLPDGQG--FVLHIRPVQGELNGNKAHDAA-VFNRNTEYWIRRFPTQYLFMYNRYKT</Hsp_qseq>
+      <Hsp_hseq>RLGRFAGRLGKSSRRRALINLSLCFPERSEAEREAIVDEMFATAPQAMAMMAELAIRGPEKIQPRV-GWQGLEIIEEMRRNNEKVIFLVPHGWAVDIPAMLMASQGQ-KMAAMFHNQGNPVFDYVWNTVRRRFGGRLHARN-DGIKPFIQSVRQGYWGYYLPDQDHGPEHSEFV--DFFA--TYKATLPAIGRLMKVCRARVVPLFPIYDGKTHRLTIQVRPPMDDLLEADDHTIERRMNEEVEIFVGPRPEQYTWILKLLKT</Hsp_hseq>
+      <Hsp_midline>RLG  A  L K  R R + N+     +         V  +FA   +    +A    + PE I+       G E +++     E ++F+ PH  + D+    ++ Q    + AM+        D +    R R  G+       G+K  I+++R G     LPD    P+    V  DFF    Y  TL A    +K  +        + DG+     + +RP   +L     H      N   E ++   P QY ++    KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|27735214|sp|O06659.2|MSBB2_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Lipid A biosynthesis (KDO)2-(lauroyl)-lipid IVA acyltransferase 2 [Shigella flexneri]</Hit_def>
+  <Hit_accession>O06659</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00395359</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>LLTALLKCLSLLSLSCLHTLGNRLGHLAFYLLKEDRARIVANMRQA-GLNPDTQ---TVKAVFAETAKCGLELAPAFFKKPEDIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYISQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTMTLAAKLAHVKGVKTLFFCCERLPDGQGFVLHIRPVQGEL--NGNKAHDAAVFNRNTEYWIRRFPTQYLFMYNRYKT</Hsp_qseq>
+      <Hsp_hseq>FVLGMIAGISMFPPSFRDPVLAKIGRWVGRLSRKARRRATINLSLCFPEKSDTEREIIVDNMFATALQSIVMMAELAIRGPEKFQKRV-FWKGLEILEEIRHNNRNVIFLVPHGWSVDIPAMLLAAQGE-KMAAMFHQQRNPVIDYVWNSVRRKFGGRLH-SREDGIKPFIQSVRQGYWGYYLPDQDHGPEYSE--FADFFATYKATLPIIGRLMNISQAMIIPLFPVYDEKKHFLTIEVRPPMDACIASADNKMIARQMNKTVEILVGSHPEQYIWVLKLLKT</Hsp_hseq>
+      <Hsp_midline> +  ++  +S+   S    +  ++G     L ++ R R   N+        DT+    V  +FA   +  + +A    + PE  +       G E +++       ++F+ PH  S D+    ++ Q    + AM+   +   ID +  + R +  G+   +   G+K  I+++R G     LPD    P+     +ADFF     T+ +  +L ++     +              + +RP       + +    A   N+  E  +   P QY+++    KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|257096398|sp|A9KP86.1|GSA1_CLOPH</Hit_id>
+  <Hit_def>RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase 1; Short=GSA 1; AltName: Full=Glutamate-1-semialdehyde aminotransferase 1; Short=GSA-AT 1 [Lachnoclostridium phytofermentans ISDg]</Hit_def>
+  <Hit_accession>A9KP86</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.327993</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>QAGLNPDTQTVKAVFAETAKCGLELAPAFFKKPEDIETMFKAV-HGWEHVQQALDKGEGLL</Hsp_qseq>
+      <Hsp_hseq>QSAKASDTEQYKAYFKYMLNKGIYLAPAQF------EAMFLSVAHGEEEIKQTLDTMDGFL</Hsp_hseq>
+      <Hsp_midline>Q+    DT+  KA F      G+ LAPA F      E MF +V HG E ++Q LD  +G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|109893026|sp|Q3J8X9.1|RIMM_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Ribosome maturation factor RimM [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3J8X9</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.397645</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MQAGRVRGKGKTAPTGIQGVKQ-IIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTM</Hsp_qseq>
+      <Hsp_hseq>LRKGRVQGKGIV--VALEGIDERDVAALWVGCEIAVHRDQLPPPQEGEYYWSDLIGLQVITL</Hsp_hseq>
+      <Hsp_midline>++ GRV+GKG      ++G+ +  + AL  G    +  D +P PQEG   W+D  G    T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|122449393|sp|Q1WVB1.1|PYRC_LACS1</Hit_id>
+  <Hit_def>RecName: Full=Dihydroorotase; Short=DHOase [Lactobacillus salivarius UCC118]</Hit_def>
+  <Hit_accession>Q1WVB1</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.428252</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>GIQGVKQIIKALRAGEATIILPDHVPSP--QEGGGVWADFFGKPAYTMTLAAKLAHVKGVKTLFFCCERLPDGQGFVLHIRPVQ-------GELNGNKAHDAAVFNRNTEYWIRR</Hsp_qseq>
+      <Hsp_hseq>GVEDRQALIDSLLDGTIDMIATDHAPHSIDEKTGDMREASFGITGSETAFA--MLYTKFVKTGIFTLEQLLQW----MSINPAEKFGMEDAGELLPGKSADLAIFDLNKEYVIKE</Hsp_hseq>
+      <Hsp_midline>G++  + +I +L  G   +I  DH P    ++ G +    FG        A  + + K VKT  F  E+L       + I P +       GEL   K+ D A+F+ N EY I+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|294956466|sp|A0QWG5.1|ACYLT_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylinositol mannoside acyltransferase; Short=PIM acyltransferase [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QWG5</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.615524</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>EHVQQALDKGEGLLFITPHIGSYDLGGRYISQQL-PFHLTAMYKPPK</Hsp_qseq>
+      <Hsp_hseq>DHLWSALDAGRGAVLALPHSGNWDMAGVWLVQNYGPFTTVAERLKPE</Hsp_hseq>
+      <Hsp_midline>+H+  ALD G G +   PH G++D+ G ++ Q   PF   A    P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|60390261|sp|Q76C99.1|RF1_ORYSI</Hit_id>
+  <Hit_def>RecName: Full=Protein Rf1, mitochondrial; AltName: Full=Fertility restorer; AltName: Full=Protein PPR; AltName: Full=Restorer for CMS; Flags: Precursor [Oryza sativa Indica Group]</Hit_def>
+  <Hit_accession>Q76C99</Hit_accession>
+  <Hit_len>791</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.692721</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>386</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KEDRARIV-ANMRQAGLNPDTQTVKAVFAETAKCG-LELAPAFFKK-------PEDIETMFKAVHG------WEHVQ----QALDKGEGL--LFITPHIGSYDLGGRYISQQLPFHL</Hsp_qseq>
+      <Hsp_hseq>KVDQAMLVFSKMRQQGLNPNAVTYGAVIGILCKSGRVEDAMLYFEQMIDEGLSPGNI-VYNSLIHGLCTCNKWERAEELILEMLDRGICLNTIFFNSIIDSHCKEGRVIESEKLFEL</Hsp_hseq>
+      <Hsp_midline>K D+A +V + MRQ GLNP+  T  AV     K G +E A  +F++       P +I      +HG      WE  +    + LD+G  L  +F    I S+   GR I  +  F L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|75538756|sp|O52792.1|HMO_AMYOR</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxymandelate oxidase [Amycolatopsis orientalis]</Hit_def>
+  <Hit_accession>O52792</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.949627</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TQTVKAVFAETAKCGLELAPAFFKKPE------DIETMFKAVHGWEHVQQALDKGEGLLFITPHIGSYDLGGRYISQQLP</Hsp_qseq>
+      <Hsp_hseq>TQGVSAVADHTAR---EFAPATWESVEAVRAHTDLPVVLKGILAVEDARRAVDAGAGGIVVSNH------GGRQLDGAVP</Hsp_hseq>
+      <Hsp_midline>TQ V AV   TA+   E APA ++  E      D+  + K +   E  ++A+D G G + ++ H      GGR +   +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|300681036|sp|A2RAF6.1|LONP2_ASPNC</Hit_id>
+  <Hit_def>RecName: Full=Lon protease homolog 2, peroxisomal [Aspergillus niger CBS 513.88]</Hit_def>
+  <Hit_accession>A2RAF6</Hit_accession>
+  <Hit_len>929</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.25155</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>842</Hsp_hit-from>
+      <Hsp_hit-to>880</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>IMQAGRVRGKGKTAPTGIQGVKQ-IIKALRAGEATIILPDH</Hsp_qseq>
+      <Hsp_hseq>VAMTGEVSLRGKVMPVG--GIKEKLIGALRAGVKTVLLPHH</Hsp_hseq>
+      <Hsp_midline>+   G V  +GK  P G  G+K+ +I ALRAG  T++LP H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75253249|sp|Q652P4.1|CPSF2_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Cleavage and polyadenylation specificity factor subunit 2; AltName: Full=Cleavage and polyadenylation specificity factor 100 kDa subunit; Short=CPSF 100 kDa subunit [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q652P4</Hit_accession>
+  <Hit_len>738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.39156</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>EDIETMFKAVHGWEHVQQAL--DKGEGLLFITPHIGSYDLGG</Hsp_qseq>
+      <Hsp_hseq>DDIDAAFQNVVRLKYSQNHLLNDKGEGIV-IAPHVAGHDLGG</Hsp_hseq>
+      <Hsp_midline>+DI+  F+ V   ++ Q  L  DKGEG++ I PH+  +DLGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|257051047|sp|Q6ZQ12.3|NINL_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Ninein-like protein [Mus musculus]</Hit_def>
+  <Hit_accession>Q6ZQ12</Hit_accession>
+  <Hit_len>1394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.05353</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>951</Hsp_hit-from>
+      <Hsp_hit-to>1050</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>QQALDKGEGLLFITPHIGSYDLGGRYISQQLPFHLTAMYKPPKIKAIDKIMQAGRVRGKGKTAPTGI-QGVKQIIKALRAGEATIILP----DHVPSPQEG</Hsp_qseq>
+      <Hsp_hseq>QRPLNAEEGAIPKEPEPSARTLTGQGQKLPLPVHPQMLEPSLGTTALDRKAASVGVQGQASEGPVGDGEGVQEAWLQFR-GEATRMRPSLPCSELPNPQEA</Hsp_hseq>
+      <Hsp_midline>Q+ L+  EG +   P   +  L G+     LP H   +       A+D+   +  V+G+    P G  +GV++     R GEAT + P      +P+PQE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|22001490|sp|Q8XQG9.1|AZOR_RALSO</Hit_id>
+  <Hit_def>RecName: Full=FMN-dependent NADH-azoreductase; AltName: Full=Azo-dye reductase; AltName: Full=FMN-dependent NADH-azo compound oxidoreductase [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8XQG9</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.62696</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>ITPHIGSYDLGGRYISQQLPFHLTAMYK---PPKIKA-IDKIMQAGRVRGKGKTAPTGIQGVKQIIKA</Hsp_qseq>
+      <Hsp_hseq>LAEHARSEALVGELLASDVIVVGAPMYNFSVPSQLKAWIDRVAQAGRTFKYTETGPVGLTGGKKVIVA</Hsp_hseq>
+      <Hsp_midline>+  H  S  L G  ++  +      MY    P ++KA ID++ QAGR     +T P G+ G K++I A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|172044196|sp|A4G861.2|AROA_HERAR</Hit_id>
+  <Hit_def>RecName: Full=3-phosphoshikimate 1-carboxyvinyltransferase; AltName: Full=5-enolpyruvylshikimate-3-phosphate synthase; Short=EPSP synthase; Short=EPSPS [Herminiimonas arsenicoxydans]</Hit_def>
+  <Hit_accession>A4G861</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.818</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>RVRGKGKTAPTGIQGVKQIIKALRAGEATIILPDHVPSPQEGGG---VWADFFGKPAYTMTLAAKLAHVKGVKTL</Hsp_qseq>
+      <Hsp_hseq>RVEGVGKNS---IQGDVRFVESLQQMGATITMGDNWIEAKSNGALRAIDADFNHIPDAAMTIAVAALYADGTSTL</Hsp_hseq>
+      <Hsp_midline>RV G GK +   IQG  + +++L+   ATI + D+    +  G    + ADF   P   MT+A    +  G  TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|60389405|sp|Q89K13.1|AZOR2_BRADU</Hit_id>
+  <Hit_def>RecName: Full=FMN-dependent NADH-azoreductase 2; AltName: Full=Azo-dye reductase 2; AltName: Full=FMN-dependent NADH-azo compound oxidoreductase 2 [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89K13</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.57323</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>PPKIKA-IDKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAG</Hsp_qseq>
+      <Hsp_hseq>PSQLKAWIDRILVAGKTFQYGANGPQGLAGAKRVIVAISRG</Hsp_hseq>
+      <Hsp_midline>P ++KA ID+I+ AG+    G   P G+ G K++I A+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|121662|sp|P19468.2|GSH1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Glutamate--cysteine ligase catalytic subunit; AltName: Full=GCS heavy chain; AltName: Full=Gamma-ECS; AltName: Full=Gamma-glutamylcysteine synthetase [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P19468</Hit_accession>
+  <Hit_len>637</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.78178</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>RVRGKGKTAPTGI-QGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTM-----TLAAKLAHVKGVKTLF</Hsp_qseq>
+      <Hsp_hseq>RKRRKEATSVLGEHQALCTITSFPRLGCPGFTLPEHRPNPEEGGASKSLFFPDEAINKHPRFGTLTRNIRHRRGEKVVI</Hsp_hseq>
+      <Hsp_midline>R R K  T+  G  Q +  I    R G     LP+H P+P+EGG   + FF   A        TL   + H +G K + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|60389836|sp|Q92UV5.1|FBPC2_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Fe(3+) ions import ATP-binding protein FbpC 2 [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q92UV5</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.93239</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>ADFFGKPAYTMTLAAKLAHVKGVKTLFFCCE-RLPDGQGFVLHIRPVQGELNGNKAHDA</Hsp_qseq>
+      <Hsp_hseq>ADFIGETNQFPATVGKGAQVEIGHTRFACAEHRLPSGASVVAAVRPADIIPHGAAAHRA</Hsp_hseq>
+      <Hsp_midline>ADF G+         K A V+   T F C E RLP G   V  +RP     +G  AH A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|22654254|sp|P97494.4|GSH1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Glutamate--cysteine ligase catalytic subunit; AltName: Full=GCS heavy chain; AltName: Full=Gamma-ECS; AltName: Full=Gamma-glutamylcysteine synthetase [Mus musculus]</Hit_def>
+  <Hit_accession>P97494</Hit_accession>
+  <Hit_len>637</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.08386</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>RVRGKGKTAPTGI-QGVKQIIKALRAGEATIILPDHVPSPQEGGGVWADFFGKPAYTM-----TLAAKLAHVKGVKTLF</Hsp_qseq>
+      <Hsp_hseq>RKRRKEATSVLGEHQALCTITSFPRLGCPGFTLPEHRPNPEEGGASKSLFFPDEAINKHPRFGTLTRNIRHRRGEKVVI</Hsp_hseq>
+      <Hsp_midline>R R K  T+  G  Q +  I    R G     LP+H P+P+EGG   + FF   A        TL   + H +G K + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|322510063|sp|Q5G1S8.2|PP241_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Pentatricopeptide repeat-containing protein At3g18110, chloroplastic; AltName: Full=Protein EMBRYO DEFECTIVE 1270; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q5G1S8</Hit_accession>
+  <Hit_len>1440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.17916</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>774</Hsp_hit-from>
+      <Hsp_hit-to>811</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>IVANMRQAGLNPDTQTVKAVFAETAKCGL-ELAPAFFK</Hsp_qseq>
+      <Hsp_hseq>VVGNLRQSGRTPDLKTWNSLMSAYAQCGCYERARAIFN</Hsp_hseq>
+      <Hsp_midline>+V N+RQ+G  PD +T  ++ +  A+CG  E A A F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|167016356|sp|A8ESC9.1|NTPA_ARCB4</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase [Arcobacter butzleri RM4018]</Hit_def>
+  <Hit_accession>A8ESC9</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.56931</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>VANMRQAGLN-PDTQTVKAVFAETAKCGLELAPAFFKKPEDIETMFK----AVHGW</Hsp_qseq>
+      <Hsp_hseq>VYSARYAGLNASDKENNEKLKAELNKLGLEKTPAFYTAC--IAIVYKNEVYTVHGW</Hsp_hseq>
+      <Hsp_midline>V + R AGLN  D +  + + AE  K GLE  PAF+     I  ++K     VHGW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|22001981|sp|Q9EV99.1|RXL7_GEOSE</Hit_id>
+  <Hit_def>RecName: Full=Putative ribosomal protein L7Ae-like [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>Q9EV99</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.19179</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>DKIMQAGRVRGKGKTAPTGIQGVKQIIKALRAGEATIIL</Hsp_qseq>
+      <Hsp_hseq>EKVLQAGKI----------VIGTKQTIRALKEGEATEVI</Hsp_hseq>
+      <Hsp_midline>+K++QAG++          + G KQ I+AL+ GEAT ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

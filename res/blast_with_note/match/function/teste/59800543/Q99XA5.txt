@@ -1,0 +1,99 @@
+ID   NORG_STAAM              Reviewed;         442 AA.
+AC   Q99XA5;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   07-JAN-2015, entry version 94.
+DE   RecName: Full=HTH-type transcriptional regulator NorG;
+GN   Name=norG; OrderedLocusNames=SAV0108;
+OS   Staphylococcus aureus (strain Mu50 / ATCC 700699).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=158878;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Mu50 / ATCC 700699;
+RX   PubMed=11418146; DOI=10.1016/S0140-6736(00)04403-2;
+RA   Kuroda M., Ohta T., Uchiyama I., Baba T., Yuzawa H., Kobayashi I.,
+RA   Cui L., Oguchi A., Aoki K., Nagai Y., Lian J.-Q., Ito T., Kanamori M.,
+RA   Matsumaru H., Maruyama A., Murakami H., Hosoyama A., Mizutani-Ui Y.,
+RA   Takahashi N.K., Sawano T., Inoue R., Kaito C., Sekimizu K.,
+RA   Hirakawa H., Kuhara S., Goto S., Yabuzaki J., Kanehisa M.,
+RA   Yamashita A., Oshima K., Furuya K., Yoshino C., Shiba T., Hattori M.,
+RA   Ogasawara N., Hayashi H., Hiramatsu K.;
+RT   "Whole genome sequencing of meticillin-resistant Staphylococcus
+RT   aureus.";
+RL   Lancet 357:1225-1240(2001).
+CC   -!- FUNCTION: Positively regulates the expression of the NorB efflux
+CC       pump and negatively regulates the expression of the AbcA efflux
+CC       pump. Binds specifically to the promoters of norA, norB and norC
+CC       and abcA genes. Could also have an aminotransferase activity (By
+CC       similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000305};
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the class-I
+CC       pyridoxal-phosphate-dependent aminotransferase family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 HTH gntR-type DNA-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00307}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000017; BAB56270.1; -; Genomic_DNA.
+DR   RefSeq; NP_370632.1; NC_002758.2.
+DR   ProteinModelPortal; Q99XA5; -.
+DR   SMR; Q99XA5; 85-441.
+DR   STRING; 158878.SAV0108; -.
+DR   EnsemblBacteria; BAB56270; BAB56270; SAV0108.
+DR   GeneID; 1120067; -.
+DR   KEGG; sav:SAV0108; -.
+DR   PATRIC; 19560817; VBIStaAur52173_0106.
+DR   eggNOG; COG1167; -.
+DR   HOGENOM; HOG000223054; -.
+DR   OMA; SFFRFNT; -.
+DR   OrthoDB; EOG6H1Q05; -.
+DR   PhylomeDB; Q99XA5; -.
+DR   BioCyc; SAUR158878:GJJ5-108-MONOMER; -.
+DR   Proteomes; UP000002481; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   InterPro; IPR000524; Tscrpt_reg_HTH_GntR.
+DR   InterPro; IPR011991; WHTH_DNA-bd_dom.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   Pfam; PF00392; GntR; 1.
+DR   PRINTS; PR00035; HTHGNTR.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS50949; HTH_GNTR; 1.
+PE   3: Inferred from homology;
+KW   Activator; Aminotransferase; Complete proteome; DNA-binding;
+KW   Pyridoxal phosphate; Repressor; Transcription;
+KW   Transcription regulation; Transferase.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    442       HTH-type transcriptional regulator NorG.
+FT                                /FTId=PRO_0000305321.
+FT   DOMAIN        2     46       HTH gntR-type. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00307}.
+FT   DNA_BIND      6     25       H-T-H motif. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00307}.
+FT   MOD_RES     288    288       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   442 AA;  51287 MW;  2B315715D82C7A92 CRC64;
+     MKIPPQRQLA IQYNVNRVTI IKSIELLEAE GFIYTKVGSG TYVNDYLNEA HITNKWSEMM
+     LWSSQQRSQY TVQLINKIET DDSYIHISKG ELGISLMPHI QLKKAMSNTA SHIEDLSFGY
+     NNGYGYIKLR DIIVERMSKQ GINVGRENVM ITSGALHAIQ LLSIGFLGQD AIIISNTPSY
+     IHSTNVFEQL NFRHIDVPYN QINEINTIID RFINFKNKAI YIEPRFNNPT GRSLTNEQKK
+     NIITYSERHN IPIIEDDIFR DIFFSDPTPA IKTYDKLGKV IHISSFSKTI APAIRIGWIV
+     ASEKIIEQLA DVRMQIDYGS SILSQMVVYE MLKNKSYDKH LVKLRYVLKD KRDFMLNILN
+     NLFKDIAHWE VPSGGYFVWL VFKIDIDIKY LFYELLSKEK ILINPGYIYG SKEKSIRLSF
+     AFESNENIKH ALYKIYTYVK KV
+//

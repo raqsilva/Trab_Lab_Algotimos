@@ -1,0 +1,99 @@
+ID   NTPA_HAEDU              Reviewed;         196 AA.
+AC   Q7VLS3;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   04-FEB-2015, entry version 65.
+DE   RecName: Full=Non-canonical purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE            EC=3.6.1.19 {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-standard purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate diphosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE            Short=NTPase {ECO:0000255|HAMAP-Rule:MF_01405};
+GN   OrderedLocusNames=HD_1348;
+OS   Haemophilus ducreyi (strain 35000HP / ATCC 700724).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=233412;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=35000HP / ATCC 700724;
+RA   Munson R.S. Jr., Ray W.C., Mahairas G., Sabo P., Mungur R.,
+RA   Johnson L., Nguyen D., Wang J., Forst C., Hood L.;
+RT   "The complete genome sequence of Haemophilus ducreyi.";
+RL   Submitted (JUN-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Pyrophosphatase that hydrolyzes non-canonical purine
+CC       nucleotides such as XTP and ITP/dITP to their respective
+CC       monophosphate derivatives. Might exclude non-canonical purines
+CC       from DNA precursor pool, thus preventing their incorporation into
+CC       DNA and avoiding chromosomal lesions. {ECO:0000255|HAMAP-
+CC       Rule:MF_01405}.
+CC   -!- CATALYTIC ACTIVITY: A nucleoside triphosphate + H(2)O = a
+CC       nucleotide + diphosphate. {ECO:0000255|HAMAP-Rule:MF_01405}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC       Note=Binds 1 divalent metal cation per subunit; can use either
+CC       Mg(2+) or Mn(2+). {ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01405}.
+CC   -!- SIMILARITY: Belongs to the HAM1 NTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01405}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017143; AAP96162.1; -; Genomic_DNA.
+DR   RefSeq; NP_873773.1; NC_002940.2.
+DR   RefSeq; WP_010945211.1; NC_002940.2.
+DR   ProteinModelPortal; Q7VLS3; -.
+DR   SMR; Q7VLS3; 4-196.
+DR   STRING; 233412.HD1348; -.
+DR   EnsemblBacteria; AAP96162; AAP96162; HD_1348.
+DR   GeneID; 1491241; -.
+DR   KEGG; hdu:HD1348; -.
+DR   PATRIC; 20178978; VBIHaeDuc133973_1123.
+DR   eggNOG; COG0127; -.
+DR   KO; K02428; -.
+DR   OMA; THNPGKV; -.
+DR   OrthoDB; EOG6CZQQP; -.
+DR   BioCyc; HDUC233412:GH5F-1219-MONOMER; -.
+DR   Proteomes; UP000001022; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017111; F:nucleoside-triphosphatase activity; IEA:InterPro.
+DR   GO; GO:0047429; F:nucleoside-triphosphate diphosphatase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009143; P:nucleoside triphosphate catabolic process; IEA:InterPro.
+DR   GO; GO:0006163; P:purine nucleotide metabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_01405; Non_canon_purine_NTPase; 1.
+DR   InterPro; IPR002637; Ham1p-like.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR020922; NTPase.
+DR   PANTHER; PTHR11067; PTHR11067; 1.
+DR   Pfam; PF01725; Ham1p_like; 1.
+DR   SUPFAM; SSF52972; SSF52972; 1.
+DR   TIGRFAMs; TIGR00042; TIGR00042; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Hydrolase; Magnesium; Manganese; Metal-binding;
+KW   Nucleotide metabolism; Nucleotide-binding; Reference proteome.
+FT   CHAIN         1    196       Non-canonical purine NTP pyrophosphatase.
+FT                                /FTId=PRO_0000178173.
+FT   REGION       10     15       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01405}.
+FT   REGION       71     72       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01405}.
+FT   METAL        71     71       Magnesium or manganese.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01405}.
+FT   BINDING     159    159       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01405}.
+FT   BINDING     179    179       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01405}.
+FT   BINDING     185    185       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01405}.
+SQ   SEQUENCE   196 AA;  21297 MW;  EC07E824DAB322E2 CRC64;
+     MNRTKIVLAT SNKGKVKEMA DVLSAFGFEV IAQSEFGLVS PPETGLTFVE NALLKARYAS
+     KMTGLPAIAD DSGLAVDALA GAPGLYSARY AGIEDDDTAN RRKLLAEMQN VPDGQRAAKF
+     VSCIVMLKHE TDPTPKIAFG ECFGEILREE RGQNGFGYDA LFFYPAKQCT FAELDSTEKK
+     QISHRALALV ALQKQL
+//

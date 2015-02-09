@@ -1,0 +1,88 @@
+ID   ENGB_NITMU              Reviewed;         235 AA.
+AC   Q2Y797;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   04-FEB-2015, entry version 59.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   OrderedLocusNames=Nmul_A2080;
+OS   Nitrosospira multiformis (strain ATCC 25196 / NCIMB 11849).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosospira.
+OX   NCBI_TaxID=323848;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25196 / NCIMB 11849;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Pitluck S., Chain P., Malfatti S., Shin M.,
+RA   Vergez L., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Lykidis A., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Nitrosospira multiformis ATCC
+RT   25196.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Necessary for normal cell division and for the
+CC       maintenance of normal septation. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-
+CC       like GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- SIMILARITY: Contains 1 EngB-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000103; ABB75374.1; -; Genomic_DNA.
+DR   RefSeq; YP_412766.1; NC_007614.1.
+DR   ProteinModelPortal; Q2Y797; -.
+DR   STRING; 323848.Nmul_A2080; -.
+DR   EnsemblBacteria; ABB75374; ABB75374; Nmul_A2080.
+DR   GeneID; 3786084; -.
+DR   KEGG; nmu:Nmul_A2080; -.
+DR   PATRIC; 22727742; VBINitMul110821_2426.
+DR   eggNOG; COG0218; -.
+DR   HOGENOM; HOG000009832; -.
+DR   KO; K03978; -.
+DR   OMA; DEQMLRW; -.
+DR   OrthoDB; EOG6ND0NG; -.
+DR   BioCyc; NMUL323848:GKEC-2118-MONOMER; -.
+DR   Proteomes; UP000002718; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR03598; GTPase_YsxC; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Complete proteome; GTP-binding; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Reference proteome; Septation.
+FT   CHAIN         1    235       Probable GTP-binding protein EngB.
+FT                                /FTId=PRO_0000266908.
+FT   DOMAIN       23    197       EngB-type G. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   NP_BIND      31     38       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      58     62       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      76     79       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     143    146       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     176    178       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   METAL        38     38       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   METAL        60     60       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+SQ   SEQUENCE   235 AA;  25971 MW;  FB39DE50F0B1A830 CRC64;
+     MSVFQNATFY TTVNELRDLP PPVGVEIAFA GRSNAGKSSA INTLANRNRL AFVSKTPGRT
+     QHLNFFRLGN DRFLVDLPGY GYAKVPAEVR QHWERLLGTY LQTRQSLHGM VLIMDARHPL
+     TPLDRQMLAW FAPTKKAVHV LLTKSDKLTR QQGQKVLKTV LGFLRESYPQ CSVQLFSSTS
+     REGVKEAAAL LDAWFGSGIE PDSGMIREAG APESGKGNAP EPPNARNKKP PVKGE
+//

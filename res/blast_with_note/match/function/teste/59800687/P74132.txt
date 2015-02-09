@@ -1,0 +1,144 @@
+ID   HEMN_SYNY3              Reviewed;         466 AA.
+AC   P74132;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   07-JAN-2015, entry version 101.
+DE   RecName: Full=Oxygen-independent coproporphyrinogen-III oxidase;
+DE            Short=CPO;
+DE            EC=1.3.99.22;
+DE   AltName: Full=Coproporphyrinogen III dehydrogenase;
+DE            Short=CPDH;
+GN   Name=hemN; OrderedLocusNames=sll1876;
+OS   Synechocystis sp. (strain PCC 6803 / Kazusa).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+OC   Synechocystis.
+OX   NCBI_TaxID=1111708;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=8905231; DOI=10.1093/dnares/3.3.109;
+RA   Kaneko T., Sato S., Kotani H., Tanaka A., Asamizu E., Nakamura Y.,
+RA   Miyajima N., Hirosawa M., Sugiura M., Sasamoto S., Kimura T.,
+RA   Hosouchi T., Matsuno A., Muraki A., Nakazaki N., Naruo K., Okumura S.,
+RA   Shimpo S., Takeuchi C., Wada T., Watanabe A., Yamada M., Yasuda M.,
+RA   Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. II. Sequence determination of the
+RT   entire genome and assignment of potential protein-coding regions.";
+RL   DNA Res. 3:109-136(1996).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, DISRUPTION PHENOTYPE, INDUCTION, AND
+RP   COFACTOR.
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=20194361; DOI=10.1093/pcp/pcq023;
+RA   Goto T., Aoki R., Minamizaki K., Fujita Y.;
+RT   "Functional differentiation of two analogous coproporphyrinogen III
+RT   oxidases for heme and chlorophyll biosynthesis pathways in the
+RT   cyanobacterium Synechocystis sp. PCC 6803.";
+RL   Plant Cell Physiol. 51:650-663(2010).
+CC   -!- FUNCTION: Involved in the heme and chlorophyll biosynthesis.
+CC       Catalyzes the anaerobic oxidative decarboxylation of propionate
+CC       groups of rings A and B of coproporphyrinogen-III to yield the
+CC       vinyl groups in protoporphyrinogen-IX.
+CC       {ECO:0000269|PubMed:20194361}.
+CC   -!- CATALYTIC ACTIVITY: Coproporphyrinogen-III + 2 S-adenosyl-L-
+CC       methionine = protoporphyrinogen-IX + 2 CO(2) + 2 L-methionine + 2
+CC       5'-deoxyadenosine. {ECO:0000269|PubMed:20194361}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250, ECO:0000305};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000250, ECO:0000305};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-
+CC       IX biosynthesis; protoporphyrinogen-IX from coproporphyrinogen-III
+CC       (AdoMet route): step 1/1.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- INDUCTION: Induced under microoxic conditions.
+CC       {ECO:0000269|PubMed:20194361}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene grow significantly
+CC       slower than that of the wild-type under microoxic conditions,
+CC       while they grow normally under aerobic conditions. Coproporphyrin-
+CC       III is accumulated at a low but significant level in the mutant
+CC       growing under microoxic conditions. {ECO:0000269|PubMed:20194361}.
+CC   -!- SIMILARITY: Belongs to the anaerobic coproporphyrinogen-III
+CC       oxidase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000022; BAA18218.1; -; Genomic_DNA.
+DR   PIR; S75657; S75657.
+DR   RefSeq; NP_441538.1; NC_000911.1.
+DR   RefSeq; YP_005651596.1; NC_017277.1.
+DR   RefSeq; YP_007451420.1; NC_020286.1.
+DR   ProteinModelPortal; P74132; -.
+DR   STRING; 1148.sll1876; -.
+DR   EnsemblBacteria; BAA18218; BAA18218; BAA18218.
+DR   GeneID; 955014; -.
+DR   KEGG; syn:sll1876; -.
+DR   PATRIC; 23840499; VBISynSp132158_1807.
+DR   eggNOG; COG0635; -.
+DR   HOGENOM; HOG000257214; -.
+DR   InParanoid; P74132; -.
+DR   KO; K02495; -.
+DR   OMA; FEGHPNN; -.
+DR   OrthoDB; EOG683S9D; -.
+DR   PhylomeDB; P74132; -.
+DR   UniPathway; UPA00251; UER00323.
+DR   Proteomes; UP000001425; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IDA:UniProtKB.
+DR   GO; GO:0051989; F:coproporphyrinogen dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0004109; F:coproporphyrinogen oxidase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015995; P:chlorophyll biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006779; P:porphyrin-containing compound biosynthetic process; IMP:UniProtKB.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IDA:UniProtKB.
+DR   Gene3D; 3.80.30.20; -; 1.
+DR   InterPro; IPR004558; Coprogen_oxidase_HemN.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR010723; HemN_C_dom.
+DR   InterPro; IPR007197; rSAM.
+DR   InterPro; IPR023404; rSAM_horseshoe.
+DR   Pfam; PF06969; HemN_C; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000167; HemN; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR00538; hemN; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Chlorophyll biosynthesis; Complete proteome; Cytoplasm; Iron;
+KW   Iron-sulfur; Metal-binding; Oxidoreductase; Porphyrin biosynthesis;
+KW   Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN         1    466       Oxygen-independent coproporphyrinogen-III
+FT                                oxidase.
+FT                                /FTId=PRO_0000109954.
+FT   REGION      118    119       S-adenosyl-L-methionine 2 binding.
+FT                                {ECO:0000250}.
+FT   METAL        66     66       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        70     70       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   METAL        73     73       Iron-sulfur (4Fe-4S-S-AdoMet).
+FT                                {ECO:0000250}.
+FT   BINDING      60     60       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   BINDING      72     72       S-adenosyl-L-methionine 2; via carbonyl
+FT                                oxygen. {ECO:0000250}.
+FT   BINDING     117    117       S-adenosyl-L-methionine 1; via amide
+FT                                nitrogen and carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   BINDING     150    150       S-adenosyl-L-methionine 1. {ECO:0000250}.
+FT   BINDING     177    177       S-adenosyl-L-methionine 2. {ECO:0000250}.
+FT   BINDING     189    189       S-adenosyl-L-methionine 2. {ECO:0000250}.
+FT   BINDING     214    214       S-adenosyl-L-methionine 2. {ECO:0000250}.
+SQ   SEQUENCE   466 AA;  53161 MW;  D49735A905A5C572 CRC64;
+     MTTTFPTVEF SAELLNKYNQ GIPRYTSYPP ATELNKEFDP SDFQTAINLG NYKKTPLSLY
+     CHIPFCAKAC YFCGCNTIIT QHKPAVDPYL KAVAKQIALV APLVDQQRPV QQLHWGGGTP
+     NYLTLEQAEF LFNTITDAFP LAENAEISIE INPCYVDKDY IFALRQLGFN RISFGIQDFN
+     SQVQQAVNRI QPEAMLFQVM DWIRQANFDS VNVDLIYGLP HQNLATFRET LRKTAQLNPD
+     RIAVFNFAYV PWLKPVQKKM PESALPPAEE KLKIMQATIA DLTEQGYVFI GMDHFAKPDD
+     ELAIAQRRGE LHRNFQGYTT QPESDLLGFG ITSISMLQDV YAQNHKTLKA FYNALDREVM
+     PIEKGFKLSQ DDLIRRTVIK ELMCQFKLSA QELESKYNLG FDCDFNDYFA KELSALDVLE
+     ADGLLRRLGD GLEVTPRGRI LIRNIAAVFD TYLQNKSKQQ MFSRAI
+//

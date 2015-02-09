@@ -1,0 +1,111 @@
+ID   ISPH_NITEU              Reviewed;         323 AA.
+AC   Q82WM1;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-JAN-2015, entry version 69.
+DE   RecName: Full=4-hydroxy-3-methylbut-2-enyl diphosphate reductase {ECO:0000255|HAMAP-Rule:MF_00191};
+DE            EC=1.17.1.2 {ECO:0000255|HAMAP-Rule:MF_00191};
+GN   Name=ispH {ECO:0000255|HAMAP-Rule:MF_00191}; Synonyms=lytB;
+GN   OrderedLocusNames=NE0649;
+OS   Nitrosomonas europaea (strain ATCC 19718 / NBRC 14298).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosomonas.
+OX   NCBI_TaxID=228410;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19718 / NBRC 14298;
+RX   PubMed=12700255; DOI=10.1128/JB.185.9.2759-2773.2003;
+RA   Chain P., Lamerdin J.E., Larimer F.W., Regala W., Lao V., Land M.L.,
+RA   Hauser L., Hooper A.B., Klotz M.G., Norton J., Sayavedra-Soto L.A.,
+RA   Arciero D.M., Hommes N.G., Whittaker M.M., Arp D.J.;
+RT   "Complete genome sequence of the ammonia-oxidizing bacterium and
+RT   obligate chemolithoautotroph Nitrosomonas europaea.";
+RL   J. Bacteriol. 185:2759-2773(2003).
+CC   -!- FUNCTION: Converts 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+CC       into isopentenyl diphosphate (IPP) and dimethylallyl diphosphate
+CC       (DMAPP). {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- CATALYTIC ACTIVITY: Isopentenyl diphosphate + NAD(P)(+) + H(2)O =
+CC       (E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate + NAD(P)H.
+CC       {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- CATALYTIC ACTIVITY: Dimethylallyl diphosphate + NAD(P)(+) + H(2)O
+CC       = (E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate + NAD(P)H.
+CC       {ECO:0000255|HAMAP-Rule:MF_00191}.
+CC   -!- COFACTOR:
+CC       Name=[3Fe-4S] cluster; Xref=ChEBI:CHEBI:21137;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00191};
+CC       Note=Binds 1 [3Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; dimethylallyl diphosphate
+CC       biosynthesis; dimethylallyl diphosphate from (2E)-4-hydroxy-3-
+CC       methylbutenyl diphosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate
+CC       biosynthesis via DXP pathway; isopentenyl diphosphate from 1-
+CC       deoxy-D-xylulose 5-phosphate: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -!- SIMILARITY: Belongs to the IspH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00191}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL954747; CAD84560.1; -; Genomic_DNA.
+DR   RefSeq; NP_840730.1; NC_004757.1.
+DR   ProteinModelPortal; Q82WM1; -.
+DR   STRING; 228410.NE0649; -.
+DR   EnsemblBacteria; CAD84560; CAD84560; NE0649.
+DR   GeneID; 1081588; -.
+DR   KEGG; neu:NE0649; -.
+DR   PATRIC; 22712245; VBINitEur56163_0727.
+DR   eggNOG; COG0761; -.
+DR   HOGENOM; HOG000220192; -.
+DR   KO; K03527; -.
+DR   OMA; IIGPRKD; -.
+DR   OrthoDB; EOG6HF624; -.
+DR   PhylomeDB; Q82WM1; -.
+DR   BioCyc; NEUR228410:GJNO-669-MONOMER; -.
+DR   UniPathway; UPA00056; UER00097.
+DR   UniPathway; UPA00059; UER00105.
+DR   Proteomes; UP000001416; Chromosome.
+DR   GO; GO:0051538; F:3 iron, 4 sulfur cluster binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051745; F:4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050992; P:dimethylallyl diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00191; IspH; 1.
+DR   InterPro; IPR003451; LytB/IspH.
+DR   Pfam; PF02401; LYTB; 1.
+DR   TIGRFAMs; TIGR00216; ispH_lytB; 1.
+PE   3: Inferred from homology;
+KW   3Fe-4S; Complete proteome; Iron; Iron-sulfur; Isoprene biosynthesis;
+KW   Metal-binding; NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN         1    323       4-hydroxy-3-methylbut-2-enyl diphosphate
+FT                                reductase.
+FT                                /FTId=PRO_0000128846.
+FT   REGION      226    228       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL        13     13       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL        97     97       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   METAL       198    198       Iron-sulfur (3Fe-4S). {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING      42     42       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING      75     75       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     125    125       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     168    168       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+FT   BINDING     270    270       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00191}.
+SQ   SEQUENCE   323 AA;  35719 MW;  A0ECED8E3E7A2492 CRC64;
+     MIRVLLANPR GFCAGVDRAI EIVERALAMY GAPIYVRHEV VHNRFVVEDL EKKGAVFVEN
+     LEEVPEGSML IFSAHGVSHE VRREAAARKL QIFDATCPLV TKVHVEVAKM DKEGKEIVMI
+     GHQGHPEVEG TMGQIAKSKG TMYLVETAED VARLQVKNES NLAYVTQTTL SVDDAARVIE
+     ALKQRFPKII GPKKDDICYA TQNRQDAVKK LVKLCDLVVV VGSPNSSNSN RLCEVARNEN
+     VEAYMVDQAE QLQESWLTNK RCIGITAGAS APEILVQQVL ERLEQIAAKQ SNQGVIIEEL
+     SGVLESVTFP LPKAEPVSFN KYI
+//

@@ -1,0 +1,91 @@
+ID   QUEC_NEIMF              Reviewed;         219 AA.
+AC   A1KSD4;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-JAN-2015, entry version 59.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   OrderedLocusNames=NMC0464;
+OS   Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 /
+OS   DSM 15464 / FAM18).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=272831;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700532 / DSM 15464 / FAM18;
+RX   PubMed=17305430; DOI=10.1371/journal.pgen.0030023;
+RA   Bentley S.D., Vernikos G.S., Snyder L.A.S., Churcher C.,
+RA   Arrowsmith C., Chillingworth T., Cronin A., Davis P.H., Holroyd N.E.,
+RA   Jagels K., Maddison M., Moule S., Rabbinowitsch E., Sharp S.,
+RA   Unwin L., Whitehead S., Quail M.A., Achtman M., Barrell B.G.,
+RA   Saunders N.J., Parkhill J.;
+RT   "Meningococcal genetic variation mechanisms viewed through comparative
+RT   analysis of serogroup C strain FAM18.";
+RL   PLoS Genet. 3:230-240(2007).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY: 7-carboxy-7-carbaguanine + NH(3) + ATP = 7-
+CC       cyano-7-carbaguanine + ADP + phosphate + H(2)O.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM421808; CAM09764.1; -; Genomic_DNA.
+DR   RefSeq; YP_974565.1; NC_008767.1.
+DR   ProteinModelPortal; A1KSD4; -.
+DR   STRING; 272831.NMC0464; -.
+DR   EnsemblBacteria; CAM09764; CAM09764; NMC0464.
+DR   GeneID; 4674789; -.
+DR   KEGG; nmc:NMC0464; -.
+DR   PATRIC; 20350615; VBINeiMen17609_0566.
+DR   eggNOG; COG0603; -.
+DR   HOGENOM; HOG000110563; -.
+DR   KO; K06920; -.
+DR   OMA; TWKLADE; -.
+DR   OrthoDB; EOG6091HB; -.
+DR   BioCyc; NMEN272831:GJDX-454-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000002286; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   TIGRFAMs; TIGR00364; TIGR00364; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Ligase; Metal-binding;
+KW   Nucleotide-binding; Queuosine biosynthesis; Zinc.
+FT   CHAIN         1    219       7-cyano-7-deazaguanine synthase.
+FT                                /FTId=PRO_1000069783.
+FT   NP_BIND      10     20       ATP. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       188    188       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       196    196       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       199    199       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+FT   METAL       202    202       Zinc. {ECO:0000255|HAMAP-Rule:MF_01633}.
+SQ   SEQUENCE   219 AA;  24485 MW;  7B5153E17D36A5E1 CRC64;
+     MSNQKALVIF SGGQDSTTCL IQAIQIYGRE NVQAITFQYG QRHAVELERA RWIAQDLGVK
+     QTVLDLSLMR QITHNALMDD TAAIETAENG VPNTFVDGRN ALFLLYAAIY AKGQGIRHII
+     AGVCETDFSG YPDCRDVFVK SMNVTLNLAM DYDFQIHTPL MYLTKAQTWA LADEMGVLDY
+     IREQTHTCYN GIVGGCRECP SCILRERGLA EYLESKKAV
+//

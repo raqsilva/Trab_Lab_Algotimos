@@ -1,0 +1,92 @@
+ID   RHO_STRLI               Reviewed;         707 AA.
+AC   P52157;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   01-OCT-2014, entry version 79.
+DE   RecName: Full=Transcription termination factor Rho {ECO:0000255|HAMAP-Rule:MF_01884};
+DE            EC=3.6.4.- {ECO:0000255|HAMAP-Rule:MF_01884};
+DE   AltName: Full=ATP-dependent helicase Rho {ECO:0000255|HAMAP-Rule:MF_01884};
+GN   Name=rho {ECO:0000255|HAMAP-Rule:MF_01884};
+OS   Streptomyces lividans.
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Streptomycineae; Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=1916;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND CHARACTERIZATION.
+RC   STRAIN=ZX7;
+RX   PubMed=8702978; DOI=10.1074/jbc.271.36.21803;
+RA   Ingham C.J., Hunter I.S., Smith M.C.M.;
+RT   "Isolation and sequencing of the rho gene from Streptomyces lividans
+RT   ZX7 and characterization of the RNA-dependent NTPase activity of the
+RT   overexpressed protein.";
+RL   J. Biol. Chem. 271:21803-21807(1996).
+CC   -!- FUNCTION: Facilitates transcription termination by a mechanism
+CC       that involves Rho binding to the nascent RNA, activation of Rho's
+CC       RNA-dependent ATPase activity, and release of the mRNA from the
+CC       DNA template.
+CC   -!- SUBUNIT: Homohexamer. The homohexamer assembles into an open ring
+CC       structure. {ECO:0000255|HAMAP-Rule:MF_01884}.
+CC   -!- SIMILARITY: Belongs to the Rho family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01884}.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-43 is the initiator.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA64720.1; Type=Erroneous initiation; Note=Translation N-terminally extended.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X95444; CAA64719.1; -; Genomic_DNA.
+DR   EMBL; X95444; CAA64720.1; ALT_INIT; Genomic_DNA.
+DR   ProteinModelPortal; P52157; -.
+DR   SMR; P52157; 336-634.
+DR   PRIDE; P52157; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004386; F:helicase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008186; F:RNA-dependent ATPase activity; IEA:InterPro.
+DR   GO; GO:0006353; P:DNA-templated transcription, termination; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 2.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_01884; Rho; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR000194; ATPase_F1/V1/A1_a/bsu_nucl-bd.
+DR   InterPro; IPR011129; Cold_shock_prot.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR011112; Rho_N.
+DR   InterPro; IPR011113; Rho_RNA-bd.
+DR   InterPro; IPR004665; Term_rho.
+DR   Pfam; PF00006; ATP-synt_ab; 1.
+DR   Pfam; PF07498; Rho_N; 1.
+DR   Pfam; PF07497; Rho_RNA_bind; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00357; CSP; 1.
+DR   SMART; SM00959; Rho_N; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF68912; SSF68912; 1.
+DR   TIGRFAMs; TIGR00767; rho; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Helicase; Hydrolase; Nucleotide-binding; RNA-binding;
+KW   Transcription; Transcription regulation; Transcription termination.
+FT   CHAIN         1    707       Transcription termination factor Rho.
+FT                                /FTId=PRO_0000188979.
+FT   NP_BIND     449    454       ATP. {ECO:0000255|HAMAP-Rule:MF_01884}.
+FT   NP_BIND     461    466       ATP. {ECO:0000255|HAMAP-Rule:MF_01884}.
+FT   BINDING     492    492       ATP. {ECO:0000255|HAMAP-Rule:MF_01884}.
+SQ   SEQUENCE   707 AA;  76544 MW;  012B5F85C623E616 CRC64;
+     MSDTTDLMGA RVEETAAAPA TDASAPATGA GSRRRRGTGL EGMVLAELQQ VASGLGIRGT
+     ARMRKSQLIE VIKEAQAAGG APAKAAPAAA DTAGETKPKR RSTSRTRTGD EAPAEKAEKA
+     GKADKKADKA AADKAAAQQQ IEIPGQPTPK VNASAEQAAP ADDAPSERRR RRATSDAGSP
+     SATDTTVAVE TRAEPKADTS APQQSQGHQQ GQGDARSDAE GGDGRRRDRR DRGDRDRGDR
+     GDRGDRGDRG DRGERGRDRR NKGDDQQNQG GGRQDRQQQG GGGRQDRQQH DDGYDDDGSG
+     RRGRRGRYRD RRGRRGRDEI QEPQINEDDV LIPVAGILDI LDNYAFIRTS GYLPGPNDVY
+     VSLAQVRKNG LRKGDHLTGA VRQPKEGERR EKFNALVRLD SVNGMAPEHG RGRPEFNKLT
+     PLYPQDRLRL ETDPGVLTTR IIDLVAPIGK GQRGLIVAPP KTGKTMIMQA IANAITHNNP
+     ECHLMVVLVD ERPEEVTDMQ RSVKGEVISS TFDRPAEDHT TVAELAIERA KRLVELGHDV
+     VVLLDSITRL GRAYNLAAPA SGRILSGGVD STALYPPKRF FGAARNIEDG GSLTILATAL
+     VDTGSRMDEV IFEEFKGTGN AELKLDRKLA DKRIFPAVDV DASGTRKEEI LLGSDELAIT
+     WKLRRVLHAL DQQQAIELLL DKMKQTKSNA EFLIQIQKTT PTPGNGD
+//

@@ -1,0 +1,99 @@
+ID   RUVC_NEIMF              Reviewed;         178 AA.
+AC   A1KUM5;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 2.
+DT   07-JAN-2015, entry version 53.
+DE   RecName: Full=Crossover junction endodeoxyribonuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE            EC=3.1.22.4 {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction nuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction resolvase RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   Name=ruvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   OrderedLocusNames=NMC1352;
+OS   Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 /
+OS   DSM 15464 / FAM18).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=272831;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700532 / DSM 15464 / FAM18;
+RX   PubMed=17305430; DOI=10.1371/journal.pgen.0030023;
+RA   Bentley S.D., Vernikos G.S., Snyder L.A.S., Churcher C.,
+RA   Arrowsmith C., Chillingworth T., Cronin A., Davis P.H., Holroyd N.E.,
+RA   Jagels K., Maddison M., Moule S., Rabbinowitsch E., Sharp S.,
+RA   Unwin L., Whitehead S., Quail M.A., Achtman M., Barrell B.G.,
+RA   Saunders N.J., Parkhill J.;
+RT   "Meningococcal genetic variation mechanisms viewed through comparative
+RT   analysis of serogroup C strain FAM18.";
+RL   PLoS Genet. 3:230-240(2007).
+CC   -!- FUNCTION: Nuclease that resolves Holliday junction intermediates
+CC       in genetic recombination. Cleaves the cruciform structure in
+CC       supercoiled DNA by nicking to strands with the same polarity at
+CC       sites symmetrically opposed at the junction in the homologous arms
+CC       and leaves a 5'-terminal phosphate and a 3'-terminal hydroxyl
+CC       group. {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- CATALYTIC ACTIVITY: Endonucleolytic cleavage at a junction such as
+CC       a reciprocal single-stranded crossover between two homologous DNA
+CC       duplexes (Holliday junction). {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00034};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034};
+CC   -!- SIMILARITY: Belongs to the RuvC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAM10573.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AM421808; CAM10573.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_975354.1; NC_008767.1.
+DR   ProteinModelPortal; A1KUM5; -.
+DR   SMR; A1KUM5; 6-158.
+DR   STRING; 272831.NMC1352; -.
+DR   EnsemblBacteria; CAM10573; CAM10573; NMC1352.
+DR   GeneID; 4675298; -.
+DR   KEGG; nmc:NMC1352; -.
+DR   PATRIC; 20352745; VBINeiMen17609_1620.
+DR   eggNOG; COG0817; -.
+DR   HOGENOM; HOG000012181; -.
+DR   KO; K01159; -.
+DR   OrthoDB; EOG6RG044; -.
+DR   BioCyc; NMEN272831:GJDX-1280-MONOMER; -.
+DR   Proteomes; UP000002286; Chromosome.
+DR   GO; GO:0008821; F:crossover junction endodeoxyribonuclease activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   HAMAP; MF_00034; RuvC; 1.
+DR   InterPro; IPR012337; RNaseH-like_dom.
+DR   InterPro; IPR020563; X-over_junc_endoDNase_Mg_BS.
+DR   InterPro; IPR002176; X-over_junc_endoDNase_RuvC.
+DR   Pfam; PF02075; RuvC; 1.
+DR   PRINTS; PR00696; RSOLVASERUVC.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+DR   TIGRFAMs; TIGR00228; ruvC; 1.
+DR   PROSITE; PS01321; RUVC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA damage; DNA recombination; DNA repair;
+KW   Hydrolase; Magnesium; Metal-binding; Nuclease.
+FT   CHAIN         1    178       Crossover junction endodeoxyribonuclease
+FT                                RuvC.
+FT                                /FTId=PRO_0000332432.
+FT   METAL        11     11       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL        71     71       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL       143    143       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+FT   METAL       146    146       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00034}.
+SQ   SEQUENCE   178 AA;  18689 MW;  82D16BE0BDE10194 CRC64;
+     MSATVRILGI DPGSRVTGFG IIDVRGRDHF YVASGCIKTP PDAPLADRIA VIVRHIGEVV
+     AVYKPQQAAV EQVFVNVNPA STLMLGQARG AALAALVSHK LPVSEYTALQ VKQAVVGKGK
+     AAKEQVQHMV VQMLGLSGTP QADAADGLAV ALTHALRNHG LAAKLNPSGM QVKRGRFQ
+//

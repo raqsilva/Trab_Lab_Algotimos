@@ -1,0 +1,88 @@
+ID   ENGB_JANMA              Reviewed;         235 AA.
+AC   A6T3H0;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   07-JAN-2015, entry version 49.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   OrderedLocusNames=mma_3377;
+OS   Janthinobacterium sp. (strain Marseille) (Minibacterium massiliensis).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Oxalobacteraceae; Janthinobacterium.
+OX   NCBI_TaxID=375286;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Marseille;
+RX   PubMed=17722982; DOI=10.1371/journal.pgen.0030138;
+RA   Audic S., Robert C., Campagna B., Parinello H., Claverie J.-M.,
+RA   Raoult D., Drancourt M.;
+RT   "Genome analysis of Minibacterium massiliensis highlights the
+RT   convergent evolution of water-living bacteria.";
+RL   PLoS Genet. 3:1454-1463(2007).
+CC   -!- FUNCTION: Necessary for normal cell division and for the
+CC       maintenance of normal septation. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-
+CC       like GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   -!- SIMILARITY: Contains 1 EngB-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000269; ABR89835.1; -; Genomic_DNA.
+DR   RefSeq; WP_012081220.1; NC_009659.1.
+DR   RefSeq; YP_001355067.1; NC_009659.1.
+DR   ProteinModelPortal; A6T3H0; -.
+DR   STRING; 375286.mma_3377; -.
+DR   EnsemblBacteria; ABR89835; ABR89835; mma_3377.
+DR   GeneID; 5350597; -.
+DR   KEGG; mms:mma_3377; -.
+DR   PATRIC; 22159271; VBIJanSp106498_3396.
+DR   eggNOG; COG0218; -.
+DR   HOGENOM; HOG000009832; -.
+DR   KO; K03978; -.
+DR   OMA; GSAKLHW; -.
+DR   OrthoDB; EOG6ND0NG; -.
+DR   BioCyc; JSP375286:GJ8U-3424-MONOMER; -.
+DR   Proteomes; UP000006388; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR03598; GTPase_YsxC; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Complete proteome; GTP-binding; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Septation.
+FT   CHAIN         1    235       Probable GTP-binding protein EngB.
+FT                                /FTId=PRO_1000005820.
+FT   DOMAIN       23    219       EngB-type G. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   NP_BIND      31     38       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      58     62       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND      92     95       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     159    162       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   NP_BIND     193    200       GTP. {ECO:0000255|HAMAP-Rule:MF_00321}.
+FT   METAL        38     38       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+FT   METAL        60     60       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00321}.
+SQ   SEQUENCE   235 AA;  26102 MW;  CC4641AFADBEC119 CRC64;
+     MSLLWQARFF TTVNHLRDLP KTQVPEIAFA GRSNAGKSTA INILCNQKKL AFASKTPGRT
+     QHINYFSIGG AHVGQHRKDE TKVDEIRALL VDLPGYGYAE VSGSAKLHWQ ELLGDYVQRR
+     EQLAALVLIV DSRRPFTELD IQMLEWFAPT GKPIHCLLTK SDKLNRNDAA NALRTARTIL
+     GSYVDENGQP FPFTAQMFSA LKRSGLDEAN DKIIELLGLN EAPQEESNGP AANDV
+//

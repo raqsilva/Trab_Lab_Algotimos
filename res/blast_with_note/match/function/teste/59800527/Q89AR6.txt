@@ -1,0 +1,94 @@
+ID   YCHF_BUCBP              Reviewed;         363 AA.
+AC   Q89AR6;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 86.
+DE   RecName: Full=Ribosome-binding ATPase YchF {ECO:0000255|HAMAP-Rule:MF_00944};
+GN   Name=ychF {ECO:0000255|HAMAP-Rule:MF_00944}; Synonyms=engD;
+GN   OrderedLocusNames=bbp_180;
+OS   Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=224915;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bp;
+RX   PubMed=12522265; DOI=10.1073/pnas.0235981100;
+RA   van Ham R.C.H.J., Kamerbeek J., Palacios C., Rausell C., Abascal F.,
+RA   Bastolla U., Fernandez J.M., Jimenez L., Postigo M., Silva F.J.,
+RA   Tamames J., Viguera E., Latorre A., Valencia A., Moran F., Moya A.;
+RT   "Reductive genome evolution in Buchnera aphidicola.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:581-586(2003).
+CC   -!- FUNCTION: ATPase that binds to both the 70S ribosome and the 50S
+CC       ribosomal subunit in a nucleotide-independent manner.
+CC       {ECO:0000255|HAMAP-Rule:MF_00944}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. YchF/OLA1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00944}.
+CC   -!- SIMILARITY: Contains 1 OBG-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE016826; AAO26912.1; -; Genomic_DNA.
+DR   RefSeq; NP_777807.1; NC_004545.1.
+DR   RefSeq; WP_011091313.1; NC_004545.1.
+DR   ProteinModelPortal; Q89AR6; -.
+DR   STRING; 224915.bbp180; -.
+DR   EnsemblBacteria; AAO26912; AAO26912; bbp_180.
+DR   GeneID; 1058574; -.
+DR   KEGG; bab:bbp180; -.
+DR   PATRIC; 21245135; VBIBucAph80364_0174.
+DR   eggNOG; COG0012; -.
+DR   KO; K06942; -.
+DR   OMA; EQGRESD; -.
+DR   OrthoDB; EOG6NSGJC; -.
+DR   BioCyc; BAPH224915:GJ9D-180-MONOMER; -.
+DR   Proteomes; UP000000601; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016887; F:ATPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005525; F:GTP binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043023; F:ribosomal large subunit binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043022; F:ribosome binding; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.300; -; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00944; YchF_OLA1_ATPase; 1.
+DR   InterPro; IPR004396; ATPase_YchF/OLA1.
+DR   InterPro; IPR012675; Beta-grasp_dom.
+DR   InterPro; IPR013029; DUF933.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR023192; TGS-like_dom.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF06071; YchF-GTPase_C; 1.
+DR   PIRSF; PIRSF006641; CHP00092; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF81271; SSF81271; 1.
+DR   TIGRFAMs; TIGR00092; TIGR00092; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    363       Ribosome-binding ATPase YchF.
+FT                                /FTId=PRO_0000201674.
+FT   DOMAIN        3    257       OBG-type G.
+FT   NP_BIND      12     17       ATP. {ECO:0000255|HAMAP-Rule:MF_00944}.
+FT   METAL        16     16       Magnesium. {ECO:0000250}.
+FT   METAL        36     36       Magnesium. {ECO:0000250}.
+SQ   SEQUENCE   363 AA;  41674 MW;  ABD3986316D7A26C CRC64;
+     MGFKCGFVGL PNVGKSTLFN YLTKLNIPAD NYPFCTIKSN VGIVPVLDNR LNKIAQVVCS
+     NKIIPATIEL VDIAGLVKGA YKGEGLGNQF LDHIRDTNVI MHIVRCFENR YVTHIYGSVD
+     PVRDVQIINL ELILSDIEVC KNRMCKLEIN KLSHNKQVNK ELLILKKCVY HLEKSKSLRS
+     LNLTEEEIFV INYLRLITLK PVVYIFNISI DQSRNLYKRE IFDIIKNEHN AKTVNVCLDL
+     MQSSKNDVSA YDHLSLKYKQ LFNKMLKNVI WAGFNALNLI TFFTAGKKEV HAWTTTNNLF
+     IFQSVKCIHT DLSKGFIRAQ VISYDDFIKY KGEKRSKELG KIRIEGKRYV ICDGDIIHVL
+     YNV
+//

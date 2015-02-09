@@ -1,0 +1,115 @@
+ID   KBAY_ECOL6              Reviewed;         286 AA.
+AC   P0AB75; P42908;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   07-JAN-2015, entry version 61.
+DE   RecName: Full=D-tagatose-1,6-bisphosphate aldolase subunit KbaY {ECO:0000255|HAMAP-Rule:MF_01293};
+DE            Short=TBPA {ECO:0000255|HAMAP-Rule:MF_01293};
+DE            Short=TagBP aldolase {ECO:0000255|HAMAP-Rule:MF_01293};
+DE            EC=4.1.2.40 {ECO:0000255|HAMAP-Rule:MF_01293};
+DE   AltName: Full=D-tagatose-bisphosphate aldolase class II {ECO:0000255|HAMAP-Rule:MF_01293};
+DE   AltName: Full=Ketose 1,6-bisphosphate aldolase class II {ECO:0000255|HAMAP-Rule:MF_01293};
+DE   AltName: Full=Tagatose-bisphosphate aldolase {ECO:0000255|HAMAP-Rule:MF_01293};
+GN   Name=kbaY {ECO:0000255|HAMAP-Rule:MF_01293}; Synonyms=agaY;
+GN   OrderedLocusNames=c3894;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P.,
+RA   Rasko D., Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D.,
+RA   Mayhew G.F., Rose D.J., Zhou S., Schwartz D.C., Perna N.T.,
+RA   Mobley H.L.T., Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence
+RT   of uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: Catalytic subunit of the tagatose-1,6-bisphosphate
+CC       aldolase KbaYZ, which catalyzes the reversible aldol condensation
+CC       of dihydroxyacetone phosphate (DHAP or glycerone-phosphate) with
+CC       glyceraldehyde 3-phosphate (G3P) to produce tagatose 1,6-
+CC       bisphosphate (TBP). Requires KbaZ subunit for full activity and
+CC       stability. {ECO:0000255|HAMAP-Rule:MF_01293}.
+CC   -!- CATALYTIC ACTIVITY: D-tagatose 1,6-bisphosphate = glycerone
+CC       phosphate + D-glyceraldehyde 3-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01293}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01293};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01293};
+CC   -!- PATHWAY: Carbohydrate metabolism; D-tagatose 6-phosphate
+CC       degradation; D-glyceraldehyde 3-phosphate and glycerone phosphate
+CC       from D-tagatose 6-phosphate: step 2/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01293}.
+CC   -!- SUBUNIT: Homotetramer. Forms a complex with KbaZ.
+CC       {ECO:0000255|HAMAP-Rule:MF_01293}.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. TagBP aldolase KbaY subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01293}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE014075; AAN82335.1; -; Genomic_DNA.
+DR   RefSeq; NP_755761.1; NC_004431.1.
+DR   ProteinModelPortal; P0AB75; -.
+DR   SMR; P0AB75; 2-284.
+DR   STRING; 199310.c3894; -.
+DR   EnsemblBacteria; AAN82335; AAN82335; c3894.
+DR   GeneID; 1040161; -.
+DR   KEGG; ecc:c3894; -.
+DR   PATRIC; 18285574; VBIEscCol75197_3669.
+DR   HOGENOM; HOG000227793; -.
+DR   KO; K08302; -.
+DR   OMA; GENFLRH; -.
+DR   OrthoDB; EOG6HXJ7B; -.
+DR   BioCyc; ECOL199310:C3894-MONOMER; -.
+DR   UniPathway; UPA00704; UER00716.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0009025; F:tagatose-bisphosphate aldolase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:2001059; P:D-tagatose 6-phosphate catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01293; TagBP_aldolase_KbaY; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000771; Ketose_bisP_aldolase_II.
+DR   InterPro; IPR023788; TagBP_ald_KbaY.
+DR   InterPro; IPR011288; TagBP_ald_KbaY/GatY.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   TIGRFAMs; TIGR00167; cbbA; 1.
+DR   TIGRFAMs; TIGR01858; tag_bisphos_ald; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Lyase; Metal-binding; Zinc.
+FT   CHAIN         1    286       D-tagatose-1,6-bisphosphate aldolase
+FT                                subunit KbaY.
+FT                                /FTId=PRO_0000178765.
+FT   REGION      209    211       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01293}.
+FT   REGION      230    233       Dihydroxyacetone phosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01293}.
+FT   ACT_SITE     82     82       Proton donor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01293}.
+FT   METAL        83     83       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01293}.
+FT   METAL       180    180       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01293}.
+FT   METAL       208    208       Zinc; catalytic. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01293}.
+FT   BINDING     181    181       Dihydroxyacetone phosphate; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01293}.
+SQ   SEQUENCE   286 AA;  31294 MW;  CAA42DF05C2B918B CRC64;
+     MSIISTKYLL QDAQANGYAV PAFNIHNAET IQAILEVCSE MRSPVILAGT PGTFKHIALE
+     EIYALCSAYS TTYNMPLALH LDHHESLDDI RRKVHAGVRS AMIDGSHFPF AENVKLVKSV
+     VDFCHSQDCS VEAELGRLGG VEDDMSVDAE SAFLTDPQEA KRFVELTGVD SLAVAIGTAH
+     GLYSKTPKID FQRLAEIREV VDVPLVLHGA SDVPDEFVRR TIELGVTKVN VATELKIAFA
+     GAVKAWFAEN PQGNDPRYYM RVGMDAMKEV VRNKINVCGS ANRISA
+//

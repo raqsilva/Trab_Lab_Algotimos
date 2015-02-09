@@ -1,0 +1,104 @@
+ID   RNG_HAEIN               Reviewed;         491 AA.
+AC   P45175;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-JAN-2015, entry version 101.
+DE   RecName: Full=Ribonuclease G;
+DE            Short=RNase G;
+DE            EC=3.1.26.-;
+DE   AltName: Full=Cytoplasmic axial filament protein;
+GN   Name=rng; OrderedLocusNames=HI_1353;
+OS   Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=71421;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=7542800; DOI=10.1126/science.7542800;
+RA   Fleischmann R.D., Adams M.D., White O., Clayton R.A., Kirkness E.F.,
+RA   Kerlavage A.R., Bult C.J., Tomb J.-F., Dougherty B.A., Merrick J.M.,
+RA   McKenney K., Sutton G.G., FitzHugh W., Fields C.A., Gocayne J.D.,
+RA   Scott J.D., Shirley R., Liu L.-I., Glodek A., Kelley J.M.,
+RA   Weidman J.F., Phillips C.A., Spriggs T., Hedblom E., Cotton M.D.,
+RA   Utterback T.R., Hanna M.C., Nguyen D.T., Saudek D.M., Brandon R.C.,
+RA   Fine L.D., Fritchman J.L., Fuhrmann J.L., Geoghagen N.S.M.,
+RA   Gnehm C.L., McDonald L.A., Small K.V., Fraser C.M., Smith H.O.,
+RA   Venter J.C.;
+RT   "Whole-genome random sequencing and assembly of Haemophilus influenzae
+RT   Rd.";
+RL   Science 269:496-512(1995).
+CC   -!- FUNCTION: Involved in the processing of the 5'-end of 16S rRNA.
+CC       Could be involved in chromosome segregation and cell division. It
+CC       may be one of the components of the cytoplasmic axial filaments
+CC       bundles or merely regulate the formation of this structure (By
+CC       similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton.
+CC   -!- SIMILARITY: Belongs to the RNase E/G family. RNase G subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 S1 motif domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00180}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L42023; AAC23000.1; -; Genomic_DNA.
+DR   PIR; F64118; F64118.
+DR   RefSeq; NP_439504.1; NC_000907.1.
+DR   ProteinModelPortal; P45175; -.
+DR   STRING; 71421.HI1353; -.
+DR   EnsemblBacteria; AAC23000; AAC23000; HI_1353.
+DR   GeneID; 950270; -.
+DR   KEGG; hin:HI1353; -.
+DR   PATRIC; 20191391; VBIHaeInf48452_1406.
+DR   eggNOG; COG1530; -.
+DR   KO; K08301; -.
+DR   OMA; HQRQVLR; -.
+DR   OrthoDB; EOG6PCPTH; -.
+DR   PhylomeDB; P45175; -.
+DR   Proteomes; UP000000579; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-KW.
+DR   GO; GO:0005856; C:cytoskeleton; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004540; F:ribonuclease activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR003029; Rbsml_prot_S1_RNA-bd_dom.
+DR   InterPro; IPR019307; RNA-bd_AU-1/RNase_E/G.
+DR   InterPro; IPR004659; RNase_E/G.
+DR   InterPro; IPR022967; S1_dom.
+DR   Pfam; PF10150; RNase_E_G; 1.
+DR   Pfam; PF00575; S1; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00757; RNaseEG; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Complete proteome; Cytoplasm; Cytoskeleton;
+KW   Endonuclease; Hydrolase; Magnesium; Metal-binding; Nuclease;
+KW   Reference proteome.
+FT   CHAIN         1    491       Ribonuclease G.
+FT                                /FTId=PRO_0000097384.
+FT   DOMAIN       40    129       S1 motif. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00180}.
+FT   METAL       305    305       Magnesium; catalytic. {ECO:0000250}.
+FT   METAL       348    348       Magnesium; catalytic. {ECO:0000250}.
+SQ   SEQUENCE   491 AA;  55928 MW;  3CFD0E9ACB39FA37 CRC64;
+     MDAVELLMNV TPNETRIALV ETGMLREVHI ERQAKRGIVG NIYKGRVTRV LPGMQSAFVD
+     IGLEKAAFLH AADIVSHTEC VDENEQKQFK VKSISELVRE GQDIVVQVVK EPLGTKGARL
+     TTDITLPSRH LVFMPENSHV GVSQRIESEE ERARLKALVE PFCDELGGFI IRTATEGASE
+     EELRQDAEFL KRLWRKVLER KSKYPTKSKI YGEPALPQRI LRDFIGTNLE KIRIDSKLCF
+     GEVKEFTDEF MPELSDKLVL YSGNQPIFDV YGVENAIQTA LDKRVNLKSG GYLIIEQTEA
+     MTTIDINTGA FVGHRNLEET IFNTNIEATK AIAHELQLRN LGGIIIIDFI DMQTDEHRNR
+     VLQSLCDALS KDRMKTNVNG FTQLGLVEMT RKRTRESLEH VLCDECPTCH GRGRVKTVET
+     VCYEIMREII RVYHLFSSEQ FVVYASPAVS EYLINEESHG LLPEVEMFIG KRVKVKTEQF
+     YNQEQFDVVV M
+//

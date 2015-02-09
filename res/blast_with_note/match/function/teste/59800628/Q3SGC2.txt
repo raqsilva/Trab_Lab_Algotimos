@@ -1,0 +1,83 @@
+ID   TRMD_THIDA              Reviewed;         236 AA.
+AC   Q3SGC2;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2005, sequence version 1.
+DT   04-FEB-2015, entry version 68.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   OrderedLocusNames=Tbd_2375;
+OS   Thiobacillus denitrificans (strain ATCC 25259).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Hydrogenophilales;
+OC   Hydrogenophilaceae; Thiobacillus.
+OX   NCBI_TaxID=292415;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25259;
+RX   PubMed=16452431; DOI=10.1128/JB.188.4.1473-1488.2006;
+RA   Beller H.R., Chain P.S., Letain T.E., Chakicherla A., Larimer F.W.,
+RA   Richardson P.M., Coleman M.A., Wood A.P., Kelly D.P.;
+RT   "The genome sequence of the obligately chemolithoautotrophic,
+RT   facultatively anaerobic bacterium Thiobacillus denitrificans.";
+RL   J. Bacteriol. 188:1473-1488(2006).
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(37) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(1)-methylguanine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000116; AAZ98328.1; -; Genomic_DNA.
+DR   RefSeq; YP_316133.1; NC_007404.1.
+DR   ProteinModelPortal; Q3SGC2; -.
+DR   SMR; Q3SGC2; 1-232.
+DR   STRING; 292415.Tbd_2375; -.
+DR   EnsemblBacteria; AAZ98328; AAZ98328; Tbd_2375.
+DR   GeneID; 3671868; -.
+DR   KEGG; tbd:Tbd_2375; -.
+DR   PATRIC; 23970941; VBIThiDen82923_2358.
+DR   eggNOG; COG0336; -.
+DR   HOGENOM; HOG000016242; -.
+DR   KO; K00554; -.
+DR   OMA; ALCLIDS; -.
+DR   OrthoDB; EOG6J48RZ; -.
+DR   BioCyc; TDEN292415:GHWG-2424-MONOMER; -.
+DR   Proteomes; UP000008291; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    236       tRNA (guanine-N(1)-)-methyltransferase.
+FT                                /FTId=PRO_0000257487.
+FT   REGION      136    141       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00605}.
+FT   BINDING     116    116       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00605}.
+SQ   SEQUENCE   236 AA;  26500 MW;  769374162FFE3AA4 CRC64;
+     MRFDAVTLFA EMFDAVLDYG ITRRALDRGL YRFKSWNPRA FTDDPHRTVD DRPYGGGPGM
+     LMLAEPLDRA LNAVQQELAS ENLAPWVVHF SPRGRPLTQQ RVMELKDMPA LVLLCGRYEG
+     IDERLLQRRV DEEVSLGDFV LSGGELPALA LMDAIVRQLP GALNDAESAA QDSFSAGLLD
+     CPHYTRPEVW QGMAVPQVLK SGNHAAIAKW RHEQSLRLTG ALRPDLLERA QHDERN
+//

@@ -1,0 +1,91 @@
+ID   BCCP_STRP6              Reviewed;         166 AA.
+AC   Q5XAE6; P82580;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   07-JAN-2015, entry version 59.
+DE   RecName: Full=Biotin carboxyl carrier protein of acetyl-CoA carboxylase;
+DE            Short=BCCP;
+GN   Name=accB {ECO:0000250|UniProtKB:P0ABD8};
+GN   OrderedLocusNames=M6_Spy1482;
+OS   Streptococcus pyogenes serotype M6 (strain ATCC BAA-946 / MGAS10394).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=286636;
+RN   [1] {ECO:0000312|EMBL:AAT87617.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-946 / MGAS10394;
+RX   PubMed=15272401; DOI=10.1086/422697;
+RA   Banks D.J., Porcella S.F., Barbian K.D., Beres S.B., Philips L.E.,
+RA   Voyich J.M., DeLeo F.R., Martin J.M., Somerville G.A., Musser J.M.;
+RT   "Progress toward characterization of the group A Streptococcus
+RT   metagenome: complete genome sequence of a macrolide-resistant serotype
+RT   M6 strain.";
+RL   J. Infect. Dis. 190:727-738(2004).
+RN   [2] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 8-19 AND 25-34, AND MASS SPECTROMETRY.
+RC   STRAIN=JRS4 / Serotype M6 {ECO:0000269|Ref.2};
+RA   Hogan D.A., Du P., Stevenson T.I., Whitton M., Kilby G.W., Rogers J.,
+RA   VanBogelen R.A.;
+RT   "Two-dimensional gel electrophoresis map of Streptococcus pyogenes
+RT   proteins.";
+RL   Submitted (MAY-2000) to UniProtKB.
+CC   -!- FUNCTION: This protein is a component of the acetyl coenzyme A
+CC       carboxylase complex; first, biotin carboxylase catalyzes the
+CC       carboxylation of the carrier protein and then the transcarboxylase
+CC       transfers the carboxyl group to form malonyl-CoA.
+CC       {ECO:0000250|UniProtKB:P0ABD8}.
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P0ABD8}.
+CC   -!- MASS SPECTROMETRY: Mass=17883.26; Method=Electrospray; Range=1-
+CC       166; Evidence={ECO:0000269|Ref.2};
+CC   -!- SIMILARITY: Contains 1 biotinyl-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01066}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000003; AAT87617.1; -; Genomic_DNA.
+DR   RefSeq; YP_060800.1; NC_006086.1.
+DR   ProteinModelPortal; Q5XAE6; -.
+DR   STRING; 286636.M6_Spy1482; -.
+DR   EnsemblBacteria; AAT87617; AAT87617; M6_Spy1482.
+DR   GeneID; 2942001; -.
+DR   KEGG; spa:M6_Spy1482; -.
+DR   PATRIC; 19725213; VBIStrPyo30273_1538.
+DR   eggNOG; COG0511; -.
+DR   HOGENOM; HOG000008876; -.
+DR   KO; K02160; -.
+DR   OMA; HSPAPIM; -.
+DR   OrthoDB; EOG6CVV6Z; -.
+DR   BioCyc; SPYO286636:GHNO-1555-MONOMER; -.
+DR   UniPathway; UPA00094; -.
+DR   Proteomes; UP000001167; Chromosome.
+DR   GO; GO:0009317; C:acetyl-CoA carboxylase complex; IEA:InterPro.
+DR   GO; GO:0003989; F:acetyl-CoA carboxylase activity; IEA:InterPro.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR001249; AcCoA_biotinCC.
+DR   InterPro; IPR001882; Biotin_BS.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   PRINTS; PR01071; ACOABIOTINCC.
+DR   SUPFAM; SSF51230; SSF51230; 1.
+DR   TIGRFAMs; TIGR00531; BCCP; 1.
+DR   PROSITE; PS00188; BIOTIN; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+PE   1: Evidence at protein level;
+KW   Biotin; Complete proteome; Direct protein sequencing;
+KW   Fatty acid biosynthesis; Fatty acid metabolism; Lipid biosynthesis;
+KW   Lipid metabolism.
+FT   CHAIN         1    166       Biotin carboxyl carrier protein of
+FT                                acetyl-CoA carboxylase.
+FT                                /FTId=PRO_0000273576.
+FT   DOMAIN       90    166       Biotinyl-binding. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01066}.
+FT   MOD_RES     132    132       N6-biotinyllysine. {ECO:0000250,
+FT                                ECO:0000255|PROSITE-ProRule:PRU01066}.
+SQ   SEQUENCE   166 AA;  17903 MW;  626CCB1299FE29BD CRC64;
+     MNIQEIKDLM AQFDTSSLRE FLFKTNEGEL IFSKNEQHLN ASISNQEHAV PVPQVQLVPN
+     STASEASSPA SVKDVPVEEQ PQAESFVAEG DIVESPLVGV AYLAASPDKP PFVAVGDTVK
+     KGQTLVIIEA MKVMNEVPAP CDGVITEILV SNEDVIEFGQ GLVRIK
+//

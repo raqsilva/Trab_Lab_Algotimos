@@ -1,0 +1,94 @@
+ID   YCHF_BUCAP              Reviewed;         362 AA.
+AC   Q8K9V2;
+DT   15-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   04-FEB-2015, entry version 88.
+DE   RecName: Full=Ribosome-binding ATPase YchF {ECO:0000255|HAMAP-Rule:MF_00944};
+GN   Name=ychF {ECO:0000255|HAMAP-Rule:MF_00944}; Synonyms=engD;
+GN   OrderedLocusNames=BUsg_185;
+OS   Buchnera aphidicola subsp. Schizaphis graminum (strain Sg).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+OC   Enterobacteriaceae; Buchnera.
+OX   NCBI_TaxID=198804;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sg;
+RX   PubMed=12089438; DOI=10.1126/science.1071278;
+RA   Tamas I., Klasson L., Canbaeck B., Naeslund A.K., Eriksson A.-S.,
+RA   Wernegreen J.J., Sandstroem J.P., Moran N.A., Andersson S.G.E.;
+RT   "50 million years of genomic stasis in endosymbiotic bacteria.";
+RL   Science 296:2376-2379(2002).
+CC   -!- FUNCTION: ATPase that binds to both the 70S ribosome and the 50S
+CC       ribosomal subunit in a nucleotide-independent manner.
+CC       {ECO:0000255|HAMAP-Rule:MF_00944}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. YchF/OLA1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00944}.
+CC   -!- SIMILARITY: Contains 1 OBG-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE013218; AAM67750.1; -; Genomic_DNA.
+DR   RefSeq; NP_660539.1; NC_004061.1.
+DR   RefSeq; WP_011053717.1; NC_004061.1.
+DR   ProteinModelPortal; Q8K9V2; -.
+DR   SMR; Q8K9V2; 1-362.
+DR   STRING; 198804.BUsg185; -.
+DR   EnsemblBacteria; AAM67750; AAM67750; BUsg_185.
+DR   GeneID; 1005382; -.
+DR   KEGG; bas:BUsg185; -.
+DR   PATRIC; 21247153; VBIBucAph100086_0190.
+DR   eggNOG; COG0012; -.
+DR   KO; K06942; -.
+DR   OMA; EQGRESD; -.
+DR   OrthoDB; EOG6NSGJC; -.
+DR   BioCyc; BAPH198804:GHMG-195-MONOMER; -.
+DR   Proteomes; UP000000416; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016887; F:ATPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005525; F:GTP binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043023; F:ribosomal large subunit binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043022; F:ribosome binding; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.300; -; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00944; YchF_OLA1_ATPase; 1.
+DR   InterPro; IPR004396; ATPase_YchF/OLA1.
+DR   InterPro; IPR012675; Beta-grasp_dom.
+DR   InterPro; IPR013029; DUF933.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR023192; TGS-like_dom.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF06071; YchF-GTPase_C; 1.
+DR   PIRSF; PIRSF006641; CHP00092; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF81271; SSF81271; 1.
+DR   TIGRFAMs; TIGR00092; TIGR00092; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Magnesium; Metal-binding;
+KW   Nucleotide-binding.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    362       Ribosome-binding ATPase YchF.
+FT                                /FTId=PRO_0000201673.
+FT   DOMAIN        3    255       OBG-type G.
+FT   NP_BIND      12     17       ATP. {ECO:0000255|HAMAP-Rule:MF_00944}.
+FT   METAL        16     16       Magnesium. {ECO:0000250}.
+FT   METAL        36     36       Magnesium. {ECO:0000250}.
+SQ   SEQUENCE   362 AA;  41124 MW;  8D5C9E45B109F726 CRC64;
+     MGFKCGIIGL PNVGKSTLFN VLTKGNSAVA NFPFCTIKPN IGIVSVPDNR INNLSKIILP
+     KKITNAFIEF VDIAGLVKGA SKGEGLGNQF LSNIRDTHAI AHVVRCFKDD NVSHIYNQLQ
+     PKIDVDIINS ELILADFETC EKSILKLQKK LNFNKKEIEE KLVVLSKCLD HLKKFLMLKT
+     LELDENEKKI ISYLRFLTLK PTMYIANINE QKESCFFLNE LEKMAKKEGS SVIPINSNLE
+     LDLIKMNEDE QKYFMKSFNI TNLGLNNIIK SGYKILNLIT FFTAGIKEVR AWAIPNGSTS
+     LQAADKIHSD FRRGFIRAQI INYLDFIKYK SETKVKEAGK YRSEGKFYQI QDGDIINFLF
+     NV
+//

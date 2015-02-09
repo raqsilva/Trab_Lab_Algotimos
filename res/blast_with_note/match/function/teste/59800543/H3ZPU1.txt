@@ -1,0 +1,102 @@
+ID   ARAT2_THELN             Reviewed;         389 AA.
+AC   H3ZPU1; Q9UWK8;
+DT   11-JUN-2014, integrated into UniProtKB/Swiss-Prot.
+DT   18-APR-2012, sequence version 1.
+DT   04-FEB-2015, entry version 20.
+DE   RecName: Full=Aromatic-amino-acid aminotransferase 2;
+DE            Short=ARAT-II;
+DE            Short=AROAT;
+DE            EC=2.6.1.57;
+GN   ORFNames=OCC_04737;
+OS   Thermococcus litoralis (strain ATCC 51850 / DSM 5473 / JCM 8560 /
+OS   NS-C).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Thermococcus.
+OX   NCBI_TaxID=523849;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51850 / DSM 5473 / JCM 8560 / NS-C;
+RX   PubMed=22493191; DOI=10.1128/JB.00123-12;
+RA   Gardner A.F., Kumar S., Perler F.B.;
+RT   "Genome sequence of the model hyperthermophilic archaeon Thermococcus
+RT   litoralis NS-C.";
+RL   J. Bacteriol. 194:2375-2376(2012).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-31, FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND SUBUNIT.
+RC   STRAIN=ATCC 51850 / DSM 5473 / JCM 8560 / NS-C;
+RX   PubMed=8125113; DOI=10.1111/j.1432-1033.1994.tb18654.x;
+RA   Andreotti G., Cubellis M.V., Nitti G., Sannia G., Mai X., Marino G.,
+RA   Adams M.W.;
+RT   "Characterization of aromatic aminotransferases from the
+RT   hyperthermophilic archaeon Thermococcus litoralis.";
+RL   Eur. J. Biochem. 220:543-549(1994).
+CC   -!- FUNCTION: Catalyzes the transamination of phenylalanine, tyrosine
+CC       and tryptophan. Shows virtually no activity towards aspartic acid,
+CC       alanine, valine or isoleucine. {ECO:0000269|PubMed:8125113}.
+CC   -!- CATALYTIC ACTIVITY: An aromatic amino acid + 2-oxoglutarate = an
+CC       aromatic oxo acid + L-glutamate. {ECO:0000269|PubMed:8125113}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000305|PubMed:8125113};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.55 mM for phenylalanine {ECO:0000269|PubMed:8125113};
+CC         KM=2.37 mM for tyrosine {ECO:0000269|PubMed:8125113};
+CC         KM=4.62 mM for tryptophan {ECO:0000269|PubMed:8125113};
+CC         KM=0.49 mM for 2-oxoglutarate {ECO:0000269|PubMed:8125113};
+CC       Temperature dependence:
+CC         Optimum temperature is 95-100 degrees Celsius.
+CC         {ECO:0000269|PubMed:8125113};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:8125113}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP006670; EHR77995.1; -; Genomic_DNA.
+DR   PIR; S42364; S42364.
+DR   RefSeq; WP_004069212.1; NC_022084.1.
+DR   RefSeq; YP_008430141.1; NC_022084.1.
+DR   EnsemblBacteria; EHR77995; EHR77995; OCC_04737.
+DR   GeneID; 16550508; -.
+DR   KEGG; tlt:OCC_04737; -.
+DR   KO; K10907; -.
+DR   Proteomes; UP000015502; Chromosome.
+DR   GO; GO:0008793; F:aromatic-amino-acid:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0080130; F:L-phenylalanine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR004838; NHTrfase_class1_PyrdxlP-BS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00105; AA_TRANSFER_CLASS_1; 1.
+PE   1: Evidence at protein level;
+KW   Aminotransferase; Complete proteome; Direct protein sequencing;
+KW   Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN         1    389       Aromatic-amino-acid aminotransferase 2.
+FT                                /FTId=PRO_0000429270.
+FT   MOD_RES     233    233       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+FT   CONFLICT      2      2       A -> N (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT      6      6       R -> A (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+FT   CONFLICT     14     16       EIR -> WIA (in Ref. 2; AA sequence).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   389 AA;  44105 MW;  B99F0D922CB62699 CRC64;
+     MALSDRLEMV NPSEIRKLFD LAQGIEGIIS LGIGEPDFDT PEHIKEYAKE ALDKGLTHYS
+     PNIGILELRE AVAEKFKKHN GIDADPKTQI MITVGTNQQI LMGLATFLKD NEEVLIPSPM
+     FVSYAPAVIL AGGKPVEVPT YEENEFRLSV DELEKYVTPK TRALIINTPN NPTGAVLTKK
+     DLEEIADFAV EHDLMILSDE VYEYFVYDGV KNYSIASLDG MFERTITMNG FSKTFAMTGW
+     RLGFLAAPEW VVEKMVRFQM YNATCPVTFI QYAAAKALRD ERSWQAVEEM RREYERRRNL
+     VWKRLNEMGL PTVKPKGAFY IFPRIKDTGL SSKEFSELMI KEAKVVVVPG SAFGQAGEGY
+     VRISYATAYE KLEEAMDRME KVLKEKKLV
+//

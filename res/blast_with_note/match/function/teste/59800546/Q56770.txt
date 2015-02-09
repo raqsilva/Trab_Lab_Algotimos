@@ -1,0 +1,93 @@
+ID   GUMD_XANCE              Reviewed;         484 AA.
+AC   Q56770;
+DT   29-MAY-2013, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   07-JAN-2015, entry version 39.
+DE   RecName: Full=UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase;
+DE            Short=UDP-Glc:Und-P Glc-1-P transferase;
+DE            EC=2.7.8.31;
+DE   AltName: Full=Glucosyl-P-P-undecaprenol synthase;
+GN   Name=gumD;
+OS   Xanthomonas campestris pv. campestris.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=340;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 13951 / NCIB 11803 / NRRL B-1459;
+RA   Capage M.A., Doherty D.H., Betlach M.R., Vanderslice R.W.;
+RT   "Recombinant-DNA mediated production of xanthan gum.";
+RL   Submitted (APR-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION IN XANTHAN BIOSYNTHESIS, DISRUPTION PHENOTYPE, PATHWAY, AND
+RP   DOMAIN.
+RC   STRAIN=ATCC 13951 / NCIB 11803 / NRRL B-1459;
+RX   PubMed=9537354;
+RA   Katzen F., Ferreiro D.U., Oddo C.G., Ielmini M.V., Becker A.,
+RA   Puhler A., Ielpi L.;
+RT   "Xanthomonas campestris pv. campestris gum mutants: effects on xanthan
+RT   biosynthesis and plant virulence.";
+RL   J. Bacteriol. 180:1607-1617(1998).
+CC   -!- FUNCTION: Is the initiating enzyme for the synthesis of the
+CC       exopolysaccharide xanthan. Catalyzes the transfer of the glucose-
+CC       1-phosphate moiety from UDP-Glc onto the carrier lipid
+CC       undecaprenyl phosphate (C55-P), forming a phosphoanhydride bond
+CC       yielding to glucosyl-pyrophosphoryl-undecaprenol (Glc-PP-C55).
+CC       {ECO:0000269|PubMed:9537354}.
+CC   -!- CATALYTIC ACTIVITY: UDP-glucose + ditrans,octacis-undecaprenyl
+CC       phosphate = UMP + alpha-D-glucopyranosyl-diphospho-
+CC       ditrans,octacis-undecaprenol.
+CC   -!- PATHWAY: Glycan biosynthesis; xanthan biosynthesis.
+CC       {ECO:0000269|PubMed:9537354}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-
+CC       pass membrane protein {ECO:0000250}.
+CC   -!- DOMAIN: The C-terminal domain is sufficient for glucosyl-1-
+CC       phosphate transferase activity. {ECO:0000269|PubMed:9537354}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene fail to synthesize
+CC       any xanthan biosynthetic lipid sugar intermediates. They do not
+CC       produce xanthan and exhibit a 50% virulence index reduction.
+CC       {ECO:0000269|PubMed:9537354}.
+CC   -!- SIMILARITY: Belongs to the bacterial sugar transferase family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U22511; AAA86372.1; -; Genomic_DNA.
+DR   PIR; S67820; S67820.
+DR   ProteinModelPortal; Q56770; -.
+DR   STRING; 190485.XCC2452; -.
+DR   BioCyc; MetaCyc:MONOMER-15979; -.
+DR   UniPathway; UPA01017; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000271; P:polysaccharide biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR003362; Bact_transf.
+DR   InterPro; IPR017475; EPS_sugar_tfrase.
+DR   InterPro; IPR017473; Undecaprenyl-P_gluc_Ptfrase.
+DR   Pfam; PF02397; Bac_transf; 1.
+DR   TIGRFAMs; TIGR03025; EPS_sugtrans; 1.
+DR   TIGRFAMs; TIGR03023; WcaJ_sugtrans; 1.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Exopolysaccharide synthesis;
+KW   Membrane; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN         1    484       UDP-glucose:undecaprenyl-phosphate
+FT                                glucose-1-phosphate transferase.
+FT                                /FTId=PRO_0000422392.
+FT   TRANSMEM     37     57       Helical. {ECO:0000255}.
+FT   TRANSMEM     59     79       Helical. {ECO:0000255}.
+FT   TRANSMEM     93    113       Helical. {ECO:0000255}.
+FT   TRANSMEM    122    142       Helical. {ECO:0000255}.
+FT   TRANSMEM    299    319       Helical. {ECO:0000255}.
+SQ   SEQUENCE   484 AA;  54636 MW;  88E41F3BCD681290 CRC64;
+     MLLADLSSAT YTTSSPRLLS KYSAAADLVL RVFDLTMVVA SGLIAYRIVF GTWVPAAPYR
+     VAIATTLLYS VICFALFPLY RSWRGRGLLS ELVVLGGAFG GVFALFAVHA LIVQVGEQVS
+     RGWVGLWFVG GLVSLVAART LLRGFLNHLR TQGVDVQRVV VVGLRHPVMK ISHYLSRNPW
+     VGMNMVGYFR TPYDLAVAEQ RQGLPCLGDP DELIEYLKNN QVEQVWISLP LGERDHIKQL
+     LQRLDRYPIN VKLVPDLFDF GLLNQSAEQI GSVPVINLRQ GGVDRDNYFV VAKALQDKIL
+     AVIALMGLWP LMLAIAVGVK MSSPGPVFFR QRRHGLGGRE FYMFKFRSMR VHDDHGTTIQ
+     QATKNDTRIT RFGSFLRRSS LDELPQIFNV LGGSMSIVGP RPHAAQHNTH YEKLINHYMQ
+     RHYVKPGITG WAQVNGFRGE TPELRTMKKR IQYDLDYIRR WSLWLDIRII VLTAVRVLGQ
+     KTAY
+//

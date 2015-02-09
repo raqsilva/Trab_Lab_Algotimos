@@ -1,0 +1,91 @@
+ID   RUVC_NEIMA              Reviewed;         178 AA.
+AC   Q9JTU3; A1ISK8;
+DT   15-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2002, sequence version 2.
+DT   07-JAN-2015, entry version 79.
+DE   RecName: Full=Crossover junction endodeoxyribonuclease RuvC;
+DE            EC=3.1.22.4;
+DE   AltName: Full=Holliday junction nuclease RuvC;
+DE   AltName: Full=Holliday junction resolvase RuvC;
+GN   Name=ruvC; OrderedLocusNames=NMA1631;
+OS   Neisseria meningitidis serogroup A / serotype 4A (strain Z2491).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+OC   Neisseriaceae; Neisseria.
+OX   NCBI_TaxID=122587;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Z2491;
+RX   PubMed=10761919; DOI=10.1038/35006655;
+RA   Parkhill J., Achtman M., James K.D., Bentley S.D., Churcher C.M.,
+RA   Klee S.R., Morelli G., Basham D., Brown D., Chillingworth T.,
+RA   Davies R.M., Davis P., Devlin K., Feltwell T., Hamlin N., Holroyd S.,
+RA   Jagels K., Leather S., Moule S., Mungall K.L., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., Simmonds M., Skelton J.,
+RA   Whitehead S., Spratt B.G., Barrell B.G.;
+RT   "Complete DNA sequence of a serogroup A strain of Neisseria
+RT   meningitidis Z2491.";
+RL   Nature 404:502-506(2000).
+CC   -!- FUNCTION: Nuclease that resolves Holliday junction intermediates
+CC       in genetic recombination. Cleaves the cruciform structure in
+CC       supercoiled DNA by nicking to strands with the same polarity at
+CC       sites symmetrically opposed at the junction in the homologous arms
+CC       and leaves a 5'-terminal phosphate and a 3'-terminal hydroxyl
+CC       group (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Endonucleolytic cleavage at a junction such as
+CC       a reciprocal single-stranded crossover between two homologous DNA
+CC       duplexes (Holliday junction).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the RuvC family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAM08767.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL157959; CAM08767.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_002342935.1; NC_003116.1.
+DR   ProteinModelPortal; Q9JTU3; -.
+DR   SMR; Q9JTU3; 6-158.
+DR   STRING; 122587.NMA1631; -.
+DR   EnsemblBacteria; CAM08767; CAM08767; NMA1631.
+DR   GeneID; 908020; -.
+DR   KEGG; nma:NMA1631; -.
+DR   PATRIC; 20364371; VBINeiMen132687_1889.
+DR   eggNOG; COG0817; -.
+DR   HOGENOM; HOG000012181; -.
+DR   KO; K01159; -.
+DR   OrthoDB; EOG6RG044; -.
+DR   BioCyc; NMEN122587:GI3Q-1481-MONOMER; -.
+DR   Proteomes; UP000000626; Chromosome.
+DR   GO; GO:0008821; F:crossover junction endodeoxyribonuclease activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   HAMAP; MF_00034; RuvC; 1.
+DR   InterPro; IPR012337; RNaseH-like_dom.
+DR   InterPro; IPR020563; X-over_junc_endoDNase_Mg_BS.
+DR   InterPro; IPR002176; X-over_junc_endoDNase_RuvC.
+DR   Pfam; PF02075; RuvC; 1.
+DR   PRINTS; PR00696; RSOLVASERUVC.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+DR   TIGRFAMs; TIGR00228; ruvC; 1.
+DR   PROSITE; PS01321; RUVC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA damage; DNA recombination; DNA repair;
+KW   Hydrolase; Magnesium; Metal-binding; Nuclease.
+FT   CHAIN         1    178       Crossover junction endodeoxyribonuclease
+FT                                RuvC.
+FT                                /FTId=PRO_0000183112.
+FT   METAL        11     11       Magnesium. {ECO:0000250}.
+FT   METAL        71     71       Magnesium. {ECO:0000250}.
+FT   METAL       143    143       Magnesium. {ECO:0000250}.
+FT   METAL       146    146       Magnesium. {ECO:0000250}.
+SQ   SEQUENCE   178 AA;  18705 MW;  C59382830BC2C34B CRC64;
+     MSATVRILGI DPGSRVTGFG VIDVRGRDHF YVASGCIKTP ADAPLADRIA VIVRHIGEVV
+     TVYKPQQAAV EQVFVNVNPA STLMLGQARG AALAALVSHK LPVSEYTALQ VKQAVVGKGK
+     AAKEQVQHMV VQMLGLSGTP QPDAADGLAV ALTHALRNHG LAAKLNPSGM QVKRGRFQ
+//

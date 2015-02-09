@@ -1,0 +1,102 @@
+ID   AP4A_RAT                Reviewed;         147 AA.
+AC   Q6PEC0;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-JAN-2015, entry version 79.
+DE   RecName: Full=Bis(5'-nucleosyl)-tetraphosphatase [asymmetrical];
+DE            EC=3.6.1.17;
+DE   AltName: Full=Diadenosine 5',5'''-P1,P4-tetraphosphate asymmetrical hydrolase;
+DE            Short=Ap4A hydrolase;
+DE            Short=Ap4Aase;
+DE            Short=Diadenosine tetraphosphatase;
+DE   AltName: Full=Nucleoside diphosphate-linked moiety X motif 2;
+DE            Short=Nudix motif 2;
+GN   Name=Nudt2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi;
+OC   Muroidea; Muridae; Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Asymmetrically hydrolyzes Ap4A to yield AMP and ATP.
+CC       Plays a major role in maintaining homeostasis (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: P(1),P(4)-bis(5'-guanosyl) tetraphosphate +
+CC       H(2)O = GTP + GMP.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250};
+CC       Note=Divalent metal ions. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 nudix hydrolase domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00794}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BC058156; AAH58156.1; -; mRNA.
+DR   RefSeq; NP_997479.1; NM_207596.1.
+DR   UniGene; Rn.40265; -.
+DR   ProteinModelPortal; Q6PEC0; -.
+DR   SMR; Q6PEC0; 1-147.
+DR   STRING; 10116.ENSRNOP00000017712; -.
+DR   PRIDE; Q6PEC0; -.
+DR   Ensembl; ENSRNOT00000017712; ENSRNOP00000017712; ENSRNOG00000013110.
+DR   GeneID; 297998; -.
+DR   KEGG; rno:297998; -.
+DR   UCSC; RGD:1303023; rat.
+DR   CTD; 318; -.
+DR   RGD; 1303023; Nudt2.
+DR   eggNOG; COG0494; -.
+DR   GeneTree; ENSGT00390000002416; -.
+DR   HOGENOM; HOG000261976; -.
+DR   HOVERGEN; HBG002853; -.
+DR   InParanoid; Q6PEC0; -.
+DR   KO; K01518; -.
+DR   OMA; YRWAPLE; -.
+DR   OrthoDB; EOG7GBFZN; -.
+DR   PhylomeDB; Q6PEC0; -.
+DR   TreeFam; TF105958; -.
+DR   NextBio; 642939; -.
+DR   PRO; PR:Q6PEC0; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Genevestigator; Q6PEC0; -.
+DR   GO; GO:0004081; F:bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016787; F:hydrolase activity; TAS:RGD.
+DR   GO; GO:0008152; P:metabolic process; TAS:GOC.
+DR   Gene3D; 3.90.79.10; -; 1.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015797; NUDIX_hydrolase_dom-like.
+DR   InterPro; IPR003565; Tetra_PHTase.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   PRINTS; PR01405; TETRPHPHTASE.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Complete proteome; GTP-binding; Hydrolase;
+KW   Nucleotide-binding; Reference proteome.
+FT   INIT_MET      1      1       Removed. {ECO:0000250}.
+FT   CHAIN         2    147       Bis(5'-nucleosyl)-tetraphosphatase
+FT                                [asymmetrical].
+FT                                /FTId=PRO_0000057105.
+FT   DOMAIN        2    139       Nudix hydrolase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00794}.
+FT   MOTIF        43     64       Nudix box.
+FT   MOD_RES       2      2       N-acetylalanine. {ECO:0000250}.
+SQ   SEQUENCE   147 AA;  16929 MW;  F17F2BB44D2B9C33 CRC64;
+     MALRACGLII FRRHLIPKVD NTTIEFLLLQ ASDGIHHWTP PKGHVDPGEN DLETALRETQ
+     EETGIEASQL IVLEGFRREL NYVARKKPKT VIYWLAEVKD YDVEIRLSQE HQAYRWLGLD
+     EACQLAQFEE MKATLQEGHQ FLCSTPA
+//

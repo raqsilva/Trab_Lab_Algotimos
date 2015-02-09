@@ -1,0 +1,114 @@
+ID   PT1_LACSK               Reviewed;         574 AA.
+AC   O07126;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   07-JAN-2015, entry version 81.
+DE   RecName: Full=Phosphoenolpyruvate-protein phosphotransferase;
+DE            EC=2.7.3.9;
+DE   AltName: Full=Phosphotransferase system, enzyme I;
+GN   Name=ptsI;
+OS   Lactobacillus sakei.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lactobacillus.
+OX   NCBI_TaxID=1599;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=160*1;
+RX   PubMed=9172326;
+RA   Stentz R., Lauret R., Ehrlich S.D., Morel-Deville F., Zagorec M.;
+RT   "Molecular cloning and analysis of the ptsHI operon in Lactobacillus
+RT   sake.";
+RL   Appl. Environ. Microbiol. 63:2111-2116(1997).
+CC   -!- FUNCTION: General (non sugar-specific) component of the
+CC       phosphoenolpyruvate-dependent sugar phosphotransferase system
+CC       (sugar PTS). This major carbohydrate active-transport system
+CC       catalyzes the phosphorylation of incoming sugar substrates
+CC       concomitantly with their translocation across the cell membrane.
+CC       Enzyme I transfers the phosphoryl group from phosphoenolpyruvate
+CC       (PEP) to the phosphoryl carrier protein (HPr) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Phosphoenolpyruvate + protein L-histidine =
+CC       pyruvate + protein N(pi)-phospho-L-histidine.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- DOMAIN: The N-terminal domain contains the HPr binding site, the
+CC       central domain the pyrophosphate/phosphate carrier histidine, and
+CC       the C-terminal domain the pyruvate binding site. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: The reaction takes place in three steps, mediated
+CC       by a phosphocarrier histidine residue located on the surface of
+CC       the central domain. The two first partial reactions are catalyzed
+CC       at an active site located on the N-terminal domain, and the third
+CC       partial reaction is catalyzed at an active site located on the C-
+CC       terminal domain. For catalytic turnover, the central domain
+CC       swivels from the concave surface of the N-terminal domain to that
+CC       of the C-terminal domain (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PEP-utilizing enzyme family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U82366; AAC45391.1; -; Genomic_DNA.
+DR   ProteinModelPortal; O07126; -.
+DR   SMR; O07126; 3-572.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008965; F:phosphoenolpyruvate-protein phosphotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.274.10; -; 1.
+DR   Gene3D; 3.20.20.60; -; 1.
+DR   Gene3D; 3.50.30.10; -; 1.
+DR   InterPro; IPR008279; PEP-util_enz_mobile_dom.
+DR   InterPro; IPR018274; PEP_util_AS.
+DR   InterPro; IPR000121; PEP_util_C.
+DR   InterPro; IPR023151; PEP_util_CS.
+DR   InterPro; IPR006318; PEP_util_enz.
+DR   InterPro; IPR024692; PTS_EI.
+DR   InterPro; IPR008731; PTS_EIN.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   Pfam; PF05524; PEP-utilisers_N; 1.
+DR   Pfam; PF00391; PEP-utilizers; 1.
+DR   Pfam; PF02896; PEP-utilizers_C; 1.
+DR   PIRSF; PIRSF000732; PTS_enzyme_I; 1.
+DR   PRINTS; PR01736; PHPHTRNFRASE.
+DR   SUPFAM; SSF47831; SSF47831; 1.
+DR   SUPFAM; SSF51621; SSF51621; 1.
+DR   SUPFAM; SSF52009; SSF52009; 1.
+DR   TIGRFAMs; TIGR01417; PTS_I_fam; 1.
+DR   PROSITE; PS00742; PEP_ENZYMES_2; 1.
+DR   PROSITE; PS00370; PEP_ENZYMES_PHOS_SITE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Phosphotransferase system; Sugar transport; Transferase; Transport.
+FT   CHAIN         1    574       Phosphoenolpyruvate-protein
+FT                                phosphotransferase.
+FT                                /FTId=PRO_0000147072.
+FT   ACT_SITE    190    190       Tele-phosphohistidine intermediate.
+FT                                {ECO:0000250}.
+FT   ACT_SITE    503    503       Proton donor. {ECO:0000250}.
+FT   METAL       432    432       Magnesium. {ECO:0000250}.
+FT   METAL       456    456       Magnesium. {ECO:0000250}.
+FT   BINDING     297    297       Substrate. {ECO:0000250}.
+FT   BINDING     333    333       Substrate. {ECO:0000250}.
+FT   BINDING     432    432       Substrate. {ECO:0000250}.
+FT   BINDING     453    453       Substrate; via carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   BINDING     454    454       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     455    455       Substrate. {ECO:0000250}.
+FT   BINDING     456    456       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   574 AA;  63009 MW;  5544473E7292DBF1 CRC64;
+     MTKLRGIAAS DGIATAKAYM LVQPDLSFSK STISDSEKEI NRLHKALQDS TSDLETIRKI
+     AAESLGEEEA QVFDAHMMIL ADPEFTGAIE GKINDDKVNA EQALKEVADL FVATFESMTN
+     NAYMQERAAD IKDVTKRVLS HLLGVTLPNP ALIDEEVIVI AHDLTPSDTA QLNGKFVKAF
+     VTDVGGRTSH SAIMARSLEI PAIVGTETVT QDVKAGDLLI VDGINGDVVL DPTDADIAEY
+     DVKAQAFADQ KAEWEKLKNE KSVTKDGKTF TVAANIGTPK DLAGVLENGS EAIGLYRTEF
+     LYMDSAELPS EDDQFEAYKS VLEGMDGKPV VVRTMDIGGD KKLPYLPLPE EMNPFLGYRA
+     IRISLDRDDI FRTQLRALLR ASNYGKLRIM FPMIATVAEF RQAKGILEDE KAKLIAAGQT
+     VSDDLQVGMM VEIPASAVLA NQFAKEVDFF SIGTNDLIQY TMAADRMNER VSYLYQPYNP
+     AILRLIKNVI DASHKEGKWT GMCGEAAGDS IMAPLLVGMG LDEFSMSATS VLRVRSLMKR
+     LDTTELTDLV ETAVNVNTSN EENQKLVEDF MKDR
+//

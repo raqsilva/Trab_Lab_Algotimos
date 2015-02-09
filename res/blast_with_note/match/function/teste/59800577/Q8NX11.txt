@@ -1,0 +1,101 @@
+ID   RECG_STAAW              Reviewed;         686 AA.
+AC   Q8NX11;
+DT   28-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   07-JAN-2015, entry version 85.
+DE   RecName: Full=ATP-dependent DNA helicase RecG;
+DE            EC=3.6.4.12;
+GN   Name=recG; OrderedLocusNames=MW1110;
+OS   Staphylococcus aureus (strain MW2).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+OX   NCBI_TaxID=196620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MW2;
+RX   PubMed=12044378; DOI=10.1016/S0140-6736(02)08713-5;
+RA   Baba T., Takeuchi F., Kuroda M., Yuzawa H., Aoki K., Oguchi A.,
+RA   Nagai Y., Iwama N., Asano K., Naimi T., Kuroda H., Cui L.,
+RA   Yamamoto K., Hiramatsu K.;
+RT   "Genome and virulence determinants of high virulence community-
+RT   acquired MRSA.";
+RL   Lancet 359:1819-1827(2002).
+CC   -!- FUNCTION: Critical role in recombination and DNA repair. Helps
+CC       process Holliday junction intermediates to mature products by
+CC       catalyzing branch migration. Has a DNA unwinding activity
+CC       characteristic of a DNA helicase with a 3'- to 5'- polarity.
+CC       Unwinds branched duplex DNA (Y-DNA) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = ADP + phosphate.
+CC   -!- SIMILARITY: Belongs to the helicase family. RecG subfamily.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 helicase ATP-binding domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00541}.
+CC   -!- SIMILARITY: Contains 1 helicase C-terminal domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00542}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; BA000033; BAB94975.1; -; Genomic_DNA.
+DR   RefSeq; NP_645927.1; NC_003923.1.
+DR   ProteinModelPortal; Q8NX11; -.
+DR   STRING; 196620.MW1110; -.
+DR   EnsemblBacteria; BAB94975; BAB94975; BAB94975.
+DR   GeneID; 1003222; -.
+DR   KEGG; sam:MW1110; -.
+DR   PATRIC; 19568810; VBIStaAur44266_1165.
+DR   eggNOG; COG1200; -.
+DR   HOGENOM; HOG000036619; -.
+DR   KO; K03655; -.
+DR   OMA; FQLKMQA; -.
+DR   OrthoDB; EOG6FNHKW; -.
+DR   BioCyc; SAUR196620:GJ9Z-1135-MONOMER; -.
+DR   Proteomes; UP000000418; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004003; F:ATP-dependent DNA helicase activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.50.140; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR004609; ATP-dep_DNA_helicase_RecG.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00643; recG; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; DNA damage; DNA recombination;
+KW   DNA repair; DNA-binding; Helicase; Hydrolase; Nucleotide-binding.
+FT   CHAIN         1    686       ATP-dependent DNA helicase RecG.
+FT                                /FTId=PRO_0000102155.
+FT   DOMAIN      279    439       Helicase ATP-binding.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00541}.
+FT   DOMAIN      462    618       Helicase C-terminal.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00542}.
+FT   NP_BIND     292    299       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00541}.
+FT   MOTIF       392    395       DEQH box.
+SQ   SEQUENCE   686 AA;  78272 MW;  558E3BDFFC35BD1D CRC64;
+     MAKVNLIESP YSLLQLKGIG PKKIEVLQQL NIHTVEDLVL YLPTRYEDNT VIDLNQAEDQ
+     SNVTIEGQVY TAPVVAFFGR NNSKLTVHLM VNNIAVKCIF FNQPYLKKKI ELNQTITVKG
+     KWNRVKQEIT GNRVFFNSQG TQTQENADVQ LEPVYRIKEG IKQKQIRDQI RQALNDVTIH
+     EWLTDELREK YKLETLDFTL NTLHHPKSKE DLLRARRTYA FTELFLFELR MQWLNRLEKS
+     SDEAIEIDYG LDQVKSFIDR LPFELTEAQK SSVNEIFRDL KAPIRMHRLL QGDVGSGKTV
+     VAAICMYALK TAGYQSALMV PTEILAEQHA ESLMALFGDS MNVALLTGSV KGKKRKILLE
+     QLENGTIDCL IGTHALIQDD VIFHNVGLVI TDEQHRFGVN QRQLLREKGA MTNVLFMTAT
+     PIPRTLAISV FGEMDVSSIK QLPKGRKPII TTWAKHEQYD KVLMQMTSEL KKGRQAYVIC
+     PLIESSEHLE DVQNVVALYE SLQQYYGVSR VGLLHGKLSA DEKDEVMQKF SNHEIDVLVS
+     TTVVEVGVNV PNATFMMIYD ADRFGLSTLH QLRGRVGRSD QQSYCVLIAS PKTETGIERM
+     TIMTQTTDGF ELSERDLEMR GPGDFFGVKQ SGLPDFLVAN LVEDYRMLEV ARDEAAELIQ
+     SGVFFENTYQ HLRHFVEENL LHRSFD
+//
