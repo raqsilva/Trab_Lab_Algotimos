@@ -170,13 +170,13 @@ def GI_number(record,locus_tag):
     return GI
  
 
-#fetching CDD for each gene from ncbi gb file
+#fetching CDD for each gene from ncbi site info
 def CDD(GI):
     CDD=[]
     for i in range(len(GI)):
         CDD.append([])
         CDD[i].append(GI[i])
-        handle = Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", id=GI[i])
+        handle = Entrez.efetch(db="protein", rettype="gb", retmode="text", id=GI[i])
         record=SeqIO.read(handle, "gb")
         handle.close()
         for j in range(len(record.features)):
