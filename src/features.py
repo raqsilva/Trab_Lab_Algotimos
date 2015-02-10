@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from Bio import SeqIO #reading gb file 
 from Bio import Entrez #fetching genbank file
 from Bio.Blast import NCBIWWW,NCBIXML #fetching/parsing blast
@@ -260,6 +261,7 @@ def genes_names(record,locus_tag):
                     return my_gene.qualifiers["gene"][0]
                 else:
                     return "Nao tem nome!"
+
 
 #list of genes names
 def list_genes_names(record,locus):
