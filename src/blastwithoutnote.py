@@ -29,7 +29,7 @@ def giwithout_note(record):
 
 
 #blast gi without note    
-def blastnote(filename):
+def blastnote():
     gi=giwithout_note(record)
     for i in range(len(gi)):
         GI_numb=str(gi[i])
@@ -219,5 +219,6 @@ def menu(record):
 
 #main
 if __name__ == "__main__":
-    record = SeqIO.read("../res/"+'sequencia.gb', "genbank") 
-    menu(record)
+    record = SeqIO.read("../res/"+'sequencia.gb', "genbank")
+    print(giwithout_note(record))
+#    menu(record)
