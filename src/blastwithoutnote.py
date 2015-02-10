@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Feb  9 15:49:20 2015
+Created on Tue Feb 10 14:18:05 2015
 
 @author: Danielbraga
 """
+
 
 from Bio import SeqIO #reading gb file 
 from Bio.Blast import NCBIWWW,NCBIXML #fetching/parsing blast
@@ -12,28 +13,26 @@ import os.path#cheking files in path
 import urllib #getting info from site
 from Uniprot_Parser import * #parsing uniprot text file
 
-#GI numbers from genes with note
-def GInumbers(record,locus_tag):
-    GI=[]
+
+
+#Get gi from protein without note    
+def giwithout_note(record):
+    ID=[]
     for i in range(len(record.features)):
         my_cds = record.features[i]
         if my_cds.type == "CDS":
-            for j in range(len(locus_tag)):
-                if my_cds.qualifiers["locus_tag"][0]==str(locus_tag[j]):
-                    if "note" in my_cds.qualifiers:
-                        if "db_xref" in my_cds.qualifiers:
-                            x=my_cds.qualifiers["db_xref"]
-                            GI.append(x[0])
-    return GI
+            if "note" not in my_cds.qualifiers:
+                x=my_cds.qualifiers["db_xref"]
+                gi=x[0]
+                ID.append(gi[3:])
+    return ID
 
 
-#blast gi with note    
-def blastwithnote():
-    locus=locus_tag(record)
-    gi=GInumbers(record,locus)
+#blast gi without note    
+def blastnote(filename):
+    gi=giwithout_note(record)
     for i in range(len(gi)):
-        gis=str(gi[i])
-        GI_numb=gis[3:]
+        GI_numb=str(gi[i])
         result_handle = NCBIWWW.qblast("blastp","swissprot", GI_numb)
         save_file = open(GI_numb+'.xml', "w")
         save_file.write(result_handle.read())
@@ -42,14 +41,13 @@ def blastwithnote():
         #moving the file to another directory
         path=os.getcwd()
         src = path+"/"+GI_numb+'.xml' #source folder
-        dst = "../res/blast_with_note/"#destination folder
+        dst = "../res/blast_without_note"#destination folder
         shutil.move(src, dst)
-
-
-#go to blast results and analise the hits, if e-value > 0.05 we don't consider this result      
-def blastanaliserwithnote():
+        
+#go to blast results and analise the hits, if e-value > 0.05 we don't consider this result        
+def blastanaliser():
     blast=[]    
-    for file in os.listdir("../res/blast_with_note"):
+    for file in os.listdir("../res/blast_without_note"):
         if file.endswith(".xml"):
             blast.append(file)
     E_VALUE_THRESH = 0.05
@@ -57,7 +55,7 @@ def blastanaliserwithnote():
     for i in range(len(blast)):
         lista.append([])
         lista[i].append(blast[i])
-        result_handle = open("../res/blast_with_note/"+blast[i])
+        result_handle = open("../res/blast_without_note/"+blast[i])
         blast_record = NCBIXML.read(result_handle)
         for alignment in blast_record.alignments:
             for hsp in alignment.hsps:
@@ -73,24 +71,25 @@ def blastanaliserwithnote():
     #        #moving the file to another directory
     path=os.getcwd()
     src = path+"/"+'nomatches.txt' #source folder
-    dst = "../res/blast_with_note/nomatch/"#destination folder
+    dst = "../res/blast_without_note/nomatch/"#destination folder
     shutil.move(src, dst)
                      
     save_file = open('matches.txt', "w")
-    for i in range(len(lista)):              
+    for i in range(len(lista)):                
         if len(lista[i])>2:
             save_file.write(str(lista[i])+'\n')
     save_file.close()
     #        #moving the file to another directory
     path=os.getcwd()
     src = path+"/"+'matches.txt' #source folder
-    dst = "../res/blast_with_note/match/"#destination folder
+    dst = "../res/blast_without_note/match/"#destination folder
     shutil.move(src, dst)
-    
+
+
 #return all hits from blast and return one list with our protein and all aceptable hits from blast
-def allhitswithnote():
+def allhits():
     lista=[]
-    handle = open("../res/blast_with_note/match/matches.txt").readlines()    
+    handle = open("../res/blast_without_note/match/matches.txt").readlines()    
     first = 'sp|'
     last = '|'
     gi=[]
@@ -121,13 +120,10 @@ def allhitswithnote():
     for p in range(len(lista)):
         lista[p].append(gi[p])
     return lista
- 
+
 #read allhits.txt, go to uniprot by hits and save txt by protein hit
-def uniprotallhitswithnote():
-    handle = open("../res/blast_with_note/match/allhits/allhits.txt").readlines()
-    
-    
-    
+def uniprotallhits():
+    handle = open("../res/blast_without_note/match/allhits/allhits.txt").readlines()
     for n in range(len (handle)):       
             x=handle[n].split()
             for k in range(len(x)-1,len(x)):
@@ -135,27 +131,28 @@ def uniprotallhitswithnote():
                 limpo=e.replace("']","")
                 gi=(limpo[1:])
                 #to organize results we create directory with gi of our proteins and save all txt from protein in the respectible gi
-                if not os.path.exists("../res/blast_with_note/match/function/teste/"+gi):
-                    os.makedirs("../res/blast_with_note/match/function/teste/"+gi)
+                if not os.path.exists("../res/blast_without_note/match/function/teste/"+gi):
+                    os.makedirs("../res/blast_without_note/match/function/teste/"+gi)
             for j in range(len(x)-1):
                 m=x[j]
                 q=m.replace("[" ,"")
                 protein=q[1:7]
                 site = urllib.request.urlopen("http://www.uniprot.org/uniprot/"+protein+".txt")
                 data = site.readlines()
-                file = open("../res/blast_with_note/match/function/teste/"+protein+'.txt',"wb") #open file in binary mode
+                file = open("../res/blast_without_note/match/function/teste/"+protein+'.txt',"wb") #open file in binary mode
                 file.writelines(data)
                 file.close()
                 try:
-                    src = "../res/blast_with_note/match/function/teste/"+protein+'.txt' #source folder
-                    dst = "../res/blast_with_note/match/function/teste/"+gi #destination folder
+                    src = "../res/blast_without_note/match/function/teste/"+protein+'.txt' #source folder
+                    dst = "../res/blast_without_note/match/function/teste/"+gi #destination folder
                     shutil.move(src, dst)
                 except:
                         pass
-                    
+
+
 # go to foulder with all uniprot information from hits and and create a txt file with gi of our protein and all functions of hits
-def allfunctionswithnote():
-    handle = open("../res/blast_with_note/match/allhits/allhits.txt").readlines()
+def allfunctions():
+    handle = open("../res/blast_without_note/match/allhits/allhits.txt").readlines()
     for n in range(len (handle)):       
             x=handle[n].split()
             for k in range(len(x)-1,len(x)):
@@ -163,7 +160,7 @@ def allfunctionswithnote():
                 limpo=e.replace("']","")
                 ginote=(limpo[1:])
                 blast=[]    
-                for file in os.listdir("../res/blast_with_note/match/function/teste/"+ginote):
+                for file in os.listdir("../res/blast_without_note/match/function/teste/"+ginote):
                     if file.endswith(".txt"):
                            blast.append(file)
                     lista=[]
@@ -172,7 +169,7 @@ def allfunctionswithnote():
                         gi = nome.replace(".txt","")
                         first = '-!- FUNCTION:'
                         last = 'CC'
-                        file = open("../res/blast_with_note/match/function/teste/"+ginote+'/'+gi+'.txt').read()
+                        file = open("../res/blast_without_note/match/function/teste/"+ginote+'/'+gi+'.txt').read()
                         data = file.replace("\n", " ") 
                         try:
                             start = data.rindex( first ) + len( first )
@@ -182,7 +179,7 @@ def allfunctionswithnote():
                         except:
                             pass   
                         
-                    file = open("../res/blast_with_note/match/allhits/funcao_all_hits/"+ginote+".txt",'w')       
+                    file = open("../res/blast_without_note/match/allhits/funcao_all_hits/"+ginote+".txt",'w')       
                     for i in range(len(lista)):
                         file.write("%s\n" % lista[i])
                     file.close()
@@ -192,29 +189,29 @@ def menu(record):
     ans=True
     while ans:
         print("""
-    1.Blast gi with note  
-    2.Blast analiser with note
-    3.Return all hits from blast with notes
-    4.Go to uniprot and download information for all hits with notes
-    5.Get all information for all hits with notes
+    1.Blast gi without note  
+    2.Blast analiser without note
+    3.Return all hits from blast without notes
+    4.Go to uniprot and download information for all hits without notes
+    5.Get all information for all hits without notes
     6.Exit
     """)
         ans=input("Choose an option? ")
         if ans=="1":   
-            blastwithnote()
+            blastnote()
         elif ans=="2":
-            blastanaliserwithnote()      
+            blastanaliser()      
         elif ans=="3":
-           file = open("../res/blast_with_note/match/allhits/allhits.txt",'w')
-           lista=allhitswithnote()         
+           file = open("../res/blast_without_note/match/allhits/allhits.txt",'w')
+           lista=allhits()         
            for i in range(len(lista)):
                file.write("%s\n" % lista[i])
            file.close()
         elif ans=="4":
-            uniprotallhitswithnote()
+            uniprotallhits()
             
         elif ans=="5":    
-            allfunctionswithnote()
+            allfunctions()
         elif ans=="6":
             ans = False
         else:
